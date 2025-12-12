@@ -1,0 +1,1281 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+        "title": "Tư Duy Toán Học 02",
+        "description": "lab_02",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": false,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "created_at": "2025-10-16T14:16:38.785335+07:00",
+        "updated_at": "2025-10-18T11:59:33.393731+07:00",
+        "questions": [
+            {
+                "id": "f314700d-deb4-4195-a4f3-ddece7b6d275",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền một số nguyên thích hợp vào chỗ trống.\nCho cấp số cộng $\\displaystyle \\left( {{u_n}} \\right)$ có $\\displaystyle {u_1} =  - 5$ và $\\displaystyle {u_6} = 25$. Công sai của cấp số cộng bằng ____ .\n\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "6"
+                    ]
+                },
+                "answer_detail": "$u₆ = u₁ + (6−1)d ⇒ 25 = −5 + 5d$\n$⇒ 5d = 30 ⇒ d = 6$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:33:38.319876+07:00"
+            },
+            {
+                "id": "8a1120d9-15a2-4fd7-8ae5-b4efe9b4e715",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Kéo thả các ô vuông vào vị trí thích hợp:\nTrong không gian $\\displaystyle Oxyz$, cho ba điểm $\\displaystyle A\\left( {1;0;1} \\right),B\\left( {3; - 4;2} \\right),C\\left( {8;1;3} \\right)$. Gọi $M,N,P$ lần lượt là hình chiếu vuông góc của các điểm $\\displaystyle A,B,C$ lên mặt phẳng $\\displaystyle \\left( {Oxy} \\right)$.\n\nTrọng tâm của tam giác $\\displaystyle ABC$ có hoành độ bằng ____ . \n\nTrọng tâm của tam gaics $\\displaystyle MNP$ có tung độ bằng ____ .\n\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        "$-1$",
+                        "$\\displaystyle 4$",
+                        "$\\displaystyle 2$",
+                        "$\\displaystyle 11$",
+                        "$\\displaystyle 0$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        0
+                    ]
+                },
+                "answer_detail": "$G(ABC) = ((1+3+8)/3 , (0−4+1)/3 , (1+2+3)/3) = (4, −1, 2).$\n\n$⇒$ Hoành độ $G₍ABC₎ = 4.$\n\n$M(1,0,0), N(3,−4,0), P(8,1,0) ⇒ G₍MNP₎ = ((1+3+8)/3 , (0−4+1)/3 , 0) ⇒$ Tung độ $= −1.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:43:16.468118+07:00"
+            },
+            {
+                "id": "1f0aab01-683a-4250-bc21-f7bc15268298",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Kéo và thả các số thích hợp vào các ô trống.\n Cho phương trình $\\displaystyle {\\rm{lo}}{{\\rm{g}}_5}\\left( {8x - {x^2}} \\right) = {\\rm{lo}}{{\\rm{g}}_5}\\left( {2x - m - 3} \\right)$, trong đó $\\displaystyle m$ là tham số. Khi $\\displaystyle m = 4$ phương trình đã cho có đúng____ nghiệm.\n Có tất cả____ giá trị nguyên của tham số $\\displaystyle m$ để phương trình đã cho có đúng một nghiệm.\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 6,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 16$",
+                        "$\\displaystyle 2$",
+                        "$\\displaystyle 17$",
+                        "$\\displaystyle 15$",
+                        "$\\displaystyle 1$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        4,
+                        2
+                    ]
+                },
+                "answer_detail": "1. Phương trình\n\n$\\log_5 (8x - x^2) = \\log_5 (2x - m - 3) \\implies 8x - x^2 = 2x - m - 3$\n$\\implies x^2 - 6x - (m + 3) = 0$\n\nĐiều kiện: $0 < x < 8$ và $2x - m - 3 > 0$.\n\n Với $m = 4$: $x^2 - 6x - 7 = 0 \\implies x = -1, 7$.\nChỉ $x = 7$ thoả điều kiện $\\implies \\mathbf{1}$ nghiệm.\n\n2. Với $f(x) = x^2 - 6x - 3$, $f'(x) = 2x - 6 = 0 \\implies x = 3$.\n$f(3) = -12$, $f(0) = -3$, $f(8) = 13$.\n\nPhương trình có đúng $\\mathbf{1}$ nghiệm khi:\n$/image_{https://api-course.hethonglab.com/static/ac94ed86-c32b-492f-ba00-10d9313ab882.png}_{left}_{25}_{block}$\n$m = -12$ (nghiệm kép) hoặc $-3 \\le m < 13$ (cắt đồ thị một lần trong khoảng $0 < x < 8$).\nSuy ra các giá trị nguyên: $m = -12, -3, -2, \\dots, 12$.\n\n$\\implies$ Có $17$ giá trị nguyên.\n\n\n\nĐáp án: (1) 1 (2) 17",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T00:48:21.891591+07:00"
+            },
+            {
+                "id": "b6c743ca-b2c6-496c-aa36-ef57d40729b9",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền số tự nhiên thích hợp vào chỗ trống.\nCho hình hộp chữ nhật $\\displaystyle ABCD.A'B'C'D'$ có dáy $\\displaystyle ABCD$ là hình vuông cạnh $\\displaystyle a$, chiều cao bằng $\\displaystyle a\\sqrt 2 $. Góc giữa đường thẳng $\\displaystyle AC'$ và mặt phẳng $\\displaystyle \\left( {A'B'C'D'} \\right)$ có số đo bằng ____ $^o$.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "45"
+                    ]
+                },
+                "answer_detail": "\nGóc giữa $AC'$ và mặt phẳng $(A'B'C'D')$ bằng góc giữa $AC'$ và hình chiếu $A'C'$:\n$|A'C'| = a√2, |AC'| = √(a²+a²+(a√2)²) = 2a $\n\n$⇒ cosθ = (a√2)/(2a) = √2/2 ⇒ θ = 45°.$\n\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:57:01.375582+07:00"
+            },
+            {
+                "id": "f31b912b-2247-4b0b-a9e3-920d99666bdf",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho dãy số $\\displaystyle {u_n} = \\frac{3}{{{{( - 2)}^n}}};n > 0;n \\in Z$\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$\\displaystyle {u_{n + 1}} = \\frac{3}{{{2^{n + 1}}}}$"
+                        },
+                        {
+                            "content": "Dãy số trên có công sai $\\displaystyle d = \\frac{1}{2}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "(1) $(n=4): (u_5=\\dfrac{3}{(-2)^5}=-\\dfrac{3}{32}\\neq \\dfrac{3}{2^5}) ⇒ $  mệnh đề Sai.\n\n(2) $(u_{n+1}=u_n\\cdot(-\\dfrac12)) ⇒ $ dãy là cấp số nhân $(q=-\\dfrac12)$, không phải CSC $(d=\\dfrac12)$ \n⇒ mệnh đề Sai.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:12:15.608941+07:00"
+            },
+            {
+                "id": "4c89fac8-51b1-4783-b4df-cd0f97f69ba3",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho hàm số $\\displaystyle f\\left( x \\right) > 0$ liên tục trên $[0; + \\infty ) $. Biết $\\displaystyle f(x) = 1 + 2\\int\\limits_0^x {f(x)dx} $. Hỏi giá trị $\\displaystyle f\\left( 4 \\right)$ bằng\n",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 13,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle 4{e^2}$"
+                        },
+                        {
+                            "content": "1"
+                        },
+                        {
+                            "content": "$\\displaystyle 2{e^4}$"
+                        },
+                        {
+                            "content": "$\\displaystyle {e^8}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "\n\nĐặt $\\displaystyle F(x)=\\int_{0}^{x} f(t)dt \\Rightarrow f(x)=1+2F(x)$.\n\nLấy đạo hàm hai vế: $f'(x)=2F'(x)=2f(x) \\Rightarrow f'=2f$.\n\nGiải phương trình vi phân:\n$\\displaystyle f' = 2f \\Rightarrow \\frac{f'}{f} = 2$\n\nLấy nguyên hàm hai vế:\n\n$\\displaystyle \\int \\frac{f'}{f} dx = \\int 2 dx \\Rightarrow \\ln|f(x)| = 2x + C_1 \\Rightarrow f(x) = C \\cdot e^{2x}$\n\nTừ $f(x)=1+2F(x)$, ta có $\\displaystyle f(0)=1+2\\int_0^0 f(t)dt = 1$.\n\nDùng $\\displaystyle f(0)=1 \\Rightarrow C \\cdot e^{2 \\cdot 0} = 1 \\Rightarrow C = 1$.\n\nSuy ra $\\displaystyle f(x)=e^{2x} \\Rightarrow f(4)=e^{8}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:24:20.608742+07:00"
+            },
+            {
+                "id": "0f12984b-2f44-489e-bda3-a3565db78592",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền số tự nhiên thích hợp vào chỗ trống để được khẳng định đúng.\nMột hộp đựng bỏng ngô có dạng hình chóp cụt là một phần của hình chóp tứ giác đều. Các thông số của hộp được cho như hình vẽ. \n$/image_{https://api-course.hethonglab.com/static/44de7a45-1e5e-4605-b75d-8fb0235d8220.png}_{left}_{15}_{block}$\nThể tích của hộp đựng bỏng ngô là $\\displaystyle V$ (dm3).\nKhi đó, $3V$ bằng ____ .\n\n\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "9.5"
+                    ]
+                },
+                "answer_detail": "$ V = \\dfrac{1}{3}h(S_1 + S_2 + \\sqrt{S_1S_2}) = \\dfrac{1}{3} \\times 20(225 + 100 + 150) = \\dfrac{9500}{3}\\text{ cm}^3 = \\dfrac{9.5}{3}\\text{ dm}^3. $\n\n$⇒  3V = 9.5\\text{ dm}^3. $",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T16:38:47.41369+07:00"
+            },
+            {
+                "id": "88e7ec6d-0e8d-464f-8b1b-13c4622e819b",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Trong không gian $\\displaystyle Oxyz$ cho $\\displaystyle A\\left( {3;0;0} \\right),B\\left( {0;3;0} \\right),C\\left( {0;0;3} \\right).$ Điểm $\\displaystyle M\\left( {a;b;c} \\right)$ trong khong gian thỏa mãn M không trùng với $\\displaystyle O,A,B,C$ và  $\\displaystyle \\widehat {AMB} = \\widehat {BMC} = \\widehat {CMA} = {90^o}$. Tổng $\\displaystyle a + b + c$ bằng____.\n\n\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "6"
+                    ]
+                },
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T11:41:28.756731+07:00"
+            },
+            {
+                "id": "570cc655-08e4-42ee-8e72-8472b8b5c4c0",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền số nguyên dương thích hợp vào chỗ trống.\nCho tập hợp $X$ có $13$ phần tử. Một tập con của $X$ khác rỗng và khác $X$ được gọi là một tập con “không tầm thường” của $X$\n\n Số tập con có $2$ phần tử của tập $X$ bằng____.\n Số tập con không tầm thường của tập $X$ bằng____.\n\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 1,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "78",
+                        "8190"
+                    ]
+                },
+                "answer_detail": "Số tập con 2 phần tử: $C(13,2)=78$ (chọn 2 từ 13 phần tử).\nSố tập con không tầm thường: $2^{13}−2=8190$ (tổng $2^{13}$ trừ $∅$ và $X$).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:45:10.330532+07:00"
+            },
+            {
+                "id": "5834dc98-e1e0-4a4a-b686-841af37f405f",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Xét các số thực dương $\\displaystyle a,b,c$ thỏa mãn $\\displaystyle {\\log _2}c = 3{\\log _2}a + 10{\\log _4}b$. Khẳng định nào dưới đây là đúng?\n\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 6,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle c = 3a + 10b$"
+                        },
+                        {
+                            "content": "$\\displaystyle c = {a^3}.{b^{10}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle c = {a^3} + {b^{10}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle c = {a^3}.{b^5}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "$\\displaystyle \\log_2 c=3\\log_2 a+10\\log_4 b=3\\log_2 a+10\\cdot\\frac{\\log_2 b}{2}$\n$=3\\log_2 a+5\\log_2 b. \\Rightarrow \\log_2 c=\\log_2(a^3 b^5).$\nSuy ra $c=a^3 b^5.$\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:47:55.615564+07:00"
+            },
+            {
+                "id": "c3fc1ba8-713c-447a-a6a5-8b2601a63bd3",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Tập nghiệm của bất phương trình \\[{\\left( {\\dfrac{3}{4}} \\right)^{2x - 18}} \\ge {\\left( {\\dfrac{4}{3}} \\right)^x}\\]\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 6,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle[ 18; + \\infty )$"
+                        },
+                        {
+                            "content": "$\\displaystyle[ 6; + \\infty )$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\left( { - \\infty ;6} \\right]$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\left( { - \\infty ;18} \\right]$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "\n\nBiến đổi bất phương trình về cùng cơ số $3/4$:\n\n$\\left(\\dfrac{3}{4}\\right)^{2x-18} \\ge \\left(\\dfrac{3}{4}\\right)^{-x} \\quad \\text{ (Vì } \\dfrac{4}{3} = \\left(\\dfrac{3}{4}\\right)^{-1} \\text{)}$\n\nDo cơ số $0 < \\dfrac{3}{4} < 1$, đảo chiều bất phương trình :\n\n$2x - 18 \\le -x \\Leftrightarrow 3x \\le 18 \\Leftrightarrow x \\le 6$\n\nTập nghiệm: $(-\\infty; 6]$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T16:02:15.192836+07:00"
+            },
+            {
+                "id": "c8451f9c-1c9c-42af-b30c-47f5d09438e8",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền số nguyên thích hợp vào chỗ trống.\nGiá trị của $\\displaystyle \\mathop {\\lim }\\limits_{h \\to 0} \\frac{{\\int\\limits_1^{1 + h} {\\sqrt {{x^5} + 8} dx} }}{h}$ bằng____.\n\n\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 8,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3"
+                    ]
+                },
+                "answer_detail": "Gọi $\\displaystyle F(x)=\\int_{1}^{x} \\sqrt{t^5+8} dt \\Rightarrow F'(x)=\\sqrt{x^5+8}$.\n\n$\\displaystyle F(1+h)= \\frac{{\\int\\limits_1^{1 + h} {\\sqrt {{t^5} + 8} dt} }}{h} $ và $ F(1)=0$\n\nBiểu thức cần tính $\\displaystyle = \\lim_{h\\to 0} \\frac{F(1+h)−F(1)}{h} = F'(1)  $.\n\n$\\displaystyle F'(1)=\\sqrt{1^5+8}=\\sqrt{9}=3$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T20:12:36.075506+07:00"
+            },
+            {
+                "id": "27ae22ea-8b85-4047-84d5-223b3e45b539",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho khối hộp $\\displaystyle ABCD.A'B'C'D'$ có thể tích là $\\displaystyle V$.\n$/image_{https://api-course.hethonglab.com/static/f626836e-8f43-4739-a553-423e91062652.png}_{left}_{25}_{block}$",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Thể tích khối chóp $\\displaystyle A'.ABD$ bằng $\\displaystyle \\frac{V}{6}$"
+                        },
+                        {
+                            "content": "Thể tích khối tứ diện $\\displaystyle A'BC'D$ bằng $\\displaystyle \\frac{V}{2}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": " $(V = S_{ABCD} \\cdot h)$. Chóp $(A'.ABD)$: đáy $(S_{ABD} = \\dfrac{1}{2}S_{ABCD})$, cao $(h) \\Rightarrow V_{A'.ABD} = \\dfrac{1}{3}h \\cdot \\dfrac{1}{2}S_{ABCD} = \\dfrac{V}{6} \\Rightarrow$ Đúng.\n\n Trong hình hộp có 4 chóp “góc” mỗi cái $\\dfrac{V}{6}$. Phần còn lại là tứ diện $(A'BC'D): V_{A'BC'D} = V - 4 \\cdot \\dfrac{V}{6} = \\dfrac{V}{3} \\Rightarrow$ mệnh đề $\\dfrac{V}{2}$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T23:29:55.539529+07:00"
+            },
+            {
+                "id": "d6ed6326-ec9d-4e1b-a4be-fafa3b4eca01",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Hệ tọa độ trụ là một hệ tọa độ ba chiều mở rộng từ hệ tọa độ cực. Nó được sử dụng để xác định vị trí của một điểm trong không gian bằng cách sử dụng ba tọa độ:\n$/image_{https://api-course.hethonglab.com/static/e63d1099-0920-4f5a-8c71-84a71c5ca23f.png}_{left}_{25}_{block}$\n$r $ (bán kính trụ): Khoảng cách từ hình chiếu của điểm đó trên mặt phẳng $xy$ đến gốc tọa độ. $r ≥ 0$\n$θ $ (góc phương vị): Góc giữa tia Ox và tia nối gốc tọa độ với hình chiếu của điểm đó trên mặt phẳng $Oxy. $ $0 ≤ θ < 2π$  (hoặc một khoảng tương đương)\n$z$ (cao độ): Khoảng cách từ điểm đó đến mặt phẳng $Oxy$\n\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Cho điểm $\\displaystyle A\\left( {3;\\frac{\\pi }{2};4} \\right)$ chuyển sang hệ trục tọa độ $\\displaystyle Oxyz$ có tọa độ là $\\displaystyle A'\\left( {3;3;4} \\right)$"
+                        },
+                        {
+                            "content": "Cho điểm $\\displaystyle B\\left( {3;\\frac{\\pi }{3};4} \\right);C\\left( {2;\\frac{\\pi }{6};5} \\right)$. Giá trị của $\\displaystyle B{C^2}$ bằng \\[\\dfrac{{31 - 12\\sqrt 3 }}{4}\\]"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "Công thức chuyển hệ tọa độ trụ → Descartes:\n$x = r \\cos\\theta, \\quad y = r \\sin\\theta, \\quad z = z$\n\n$A(3;\\dfrac{\\pi}{2};4)\\Rightarrow$ $\\begin{cases} x = 3\\cos\\frac{\\pi}{2}=0 \\\\ y = 3\\sin\\frac{\\pi}{2}=3 \\\\ z = 4 \\end{cases} \\Rightarrow A(0;3;4)$\n\n$ \\Rightarrow$ Sai.\n\n$B(3;\\dfrac{\\pi}{3};4)\\Rightarrow B(\\dfrac{3}{2};\\dfrac{3\\sqrt3}{2};4)$\n\n$C(2;\\dfrac{\\pi}{6};5)\\Rightarrow C(\\sqrt3;1;5)$\n\n$BC^2 = \\left(\\sqrt3-\\dfrac{3}{2}\\right)^2 + \\left(1-\\dfrac{3\\sqrt3}{2}\\right)^2 + (5-4)^2 = 14-6\\sqrt3$\n\n$\\Rightarrow$ Sai .\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T11:37:30.361244+07:00"
+            },
+            {
+                "id": "2ca439d8-56e4-479b-95b5-197312cf1218",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Một nhóm bạn có 3 người, mỗi người muốn chọn đồ uống (có thể chọn nhiều hơn một loại) biết cửa hàng có 4 loại đồ uống khác nhau và không ai chọn 1 loại nhiều hơn 1 cốc. Hỏi có bao nhiêu cách để nhóm bạn đó chọn đồ uống.\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2896"
+                        },
+                        {
+                            "content": "64"
+                        },
+                        {
+                            "content": "345"
+                        },
+                        {
+                            "content": "3375"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Mỗi người có thể chọn một hoặc nhiều loại đồ uống từ 4 loại có sẵn, nên số cách chọn của một người là số tập con khác rỗng của tập hợp 4 loại đồ uống.\nSố cách chọn của một người là: $2^4 - 1 = 15$ cách.\nVì có 3 người chọn độc lập nên tổng số cách chọn của cả nhóm là: $15 \\times 15 \\times 15 = 15^3 = 3375$ cách.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T20:26:55.910008+07:00"
+            },
+            {
+                "id": "80741792-970d-42fe-88aa-45ba7781c441",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền một số nguyên dương thích hợp vào chỗ trống.\nChọn ngẫu nhiên hai số nguyên dương phân biệt không vượt quá $40$. Xác suất để tích hai số đó chia hết cho $4$ là $\\displaystyle \\frac{a}{b}$, trong $\\displaystyle \\frac{a}{b}$ đó là phân số tối giản với $\\displaystyle a$, $\\displaystyle b$ là các số nguyên dương. Khi đó $\\displaystyle a + b = $____\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3"
+                    ]
+                },
+                "answer_detail": "Có $20$ số lẻ, 10 số dạng $4k+2$ ⇒ số cách tích không chia hết cho 4: $C_{20}^2 + 20 \\cdot 10 = 390$ (2 số lẻ và 1 lẻ và 1 chẵn không chia hết cho 4); tổng $C_{40}^2 = 780$.\n\nP(tích chia hết cho 4) = $1 - \\dfrac{390}{780} = \\dfrac{1}{2}$ ⇒ $a = 1, b = 2$.\n\nSuy ra $a + b = 3$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T17:56:48.222945+07:00"
+            },
+            {
+                "id": "79e067b1-ed0e-4896-83ea-e395b00fa59b",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Biểu đồ tần số hình cột sau đây cho biết điểm IQ của một mẫu ngẫu nhiên các học sinh lớp 7. IQ được đo đến số nguyên gần nhất. Tần số của mỗi lớp được ghi nhận phía trên mỗi hình chữ nhật.\n$/image_{https://api-course.hethonglab.com/static/89c12f4c-0e62-4e28-bd5f-b5d6544cf50a.png}_{center}_{25}_{block}$\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 25,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Số học sinh lớp 7 tham gia khảo sát là 150 học sinh."
+                        },
+                        {
+                            "content": "Điểm trung bình của mẫu số liệu này là 107,7."
+                        },
+                        {
+                            "content": "Mức điểm IQ phổ biến nhất của mẫu số liệu này là từ 100 đến 110."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "$/image_{https://api-course.hethonglab.com/static/19b7ee98-242a-4a93-a490-7dc62391bdbe.png}_{left}_{100}_{block}$\n$/image_{https://api-course.hethonglab.com/static/32da61f6-d569-49fa-aa10-dee44baaa9a3.png}_{left}_{100}_{block}$\nDùng casio -> A sai B đúng\nDùng mắt nhận thấy cột 100-110 cao nhất -> C đúng",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T18:17:34.96105+07:00"
+            },
+            {
+                "id": "2a685699-4d0b-4c4c-a994-8a5b920ca969",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Sắp xếp 4 nam sinh và 4 nữ sinh vào một dãy ghế hàng ngang có 8 chỗ ngồi, mỗi người ngồi một ghế. Các khẳng định sau đây là đúng hay sai?\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Có 40320 cách xếp."
+                        },
+                        {
+                            "content": "Có 2880 cách xếp mà không có 2 bạn nữ nào ngồi cạnh nhau."
+                        },
+                        {
+                            "content": "Có 576 cách xếp mà các bạn nam ngồi cạnh nhau và các bạn nữ ngồi cạnh nhau."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "$8$ người $⇒ 8! = 40320 ⇒$Khẳng định 1 đúng.\n Không có 2 nữ kề: xếp 4 nam ($4!$) tạo 5 khoảng trống, chọn 4 khoảng trống và sắp 4 nữ: $C₅⁴·4! = 5·24 = 120 ⇒ 24·120 = 2880 ⇒$ Khẳng định 2 đúng.\nNam liền khối, nữ liền khối: xem 2 nhóm là 2 khối.\nHoán vị 2 khối nam nữ: $2!$, trong khối nam và nữ là $4!$ và $4!$\nTổng: $2!·4!·4! = 2·24·24 = 1152 ≠ 576.$\n⇒ Khẳng định 3 sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T18:26:35.283901+07:00"
+            },
+            {
+                "id": "0c0ba494-c7fc-4068-bf3b-dce592c88a1b",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho tứ diện đều $\\displaystyle ABCD$ có tất cả các cạnh cùng bằng $6$. Các khẳng định sau đây đúng hay sai?\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Góc giữa cạnh $\\displaystyle AB$ và cạnh $\\displaystyle CD$ bằng 90°."
+                        },
+                        {
+                            "content": "Khoảng cách giữa hai cạnh đối diện của tứ diện $\\displaystyle ABCD$ bằng 3."
+                        },
+                        {
+                            "content": "Gọi ($\\displaystyle S$) là mặt cầu tiếp xúc với tất cả các cạnh của tứ diện $\\displaystyle ABCD$. Khi đó ($\\displaystyle S$) có diện tích bằng $\\displaystyle 18\\pi $."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "$/image_{https://api-course.hethonglab.com/static/092cc77e-7f19-4064-9518-def5302fe681.png}_{left}_{30}_{block}$\na) ABCD tứ diện đều \n$\\left. \\begin{array}{l} AM \\perp DC \\\\ MB \\perp DC \\end{array} \\right\\} \\Rightarrow DC \\perp (AMB)$ $\\Rightarrow AB \\perp DC$\n\nb)\n$\\triangle AMB, MN \\perp AB (\\triangle AMB \\text{ cân})$\n$\\Rightarrow MN \\perp DC$ và $MN \\perp AB$\n$\\Rightarrow MN = d(AB, DC)$\n$= \\sqrt{AM^2 - AN^2} = \\sqrt{(AD^2 - DM^2) - AN^2}$\n$= \\sqrt{6^2 - 3^2 - 3^2} = 3\\sqrt{2}$\n$\\Rightarrow b) $ Sai\nc) Do S tiếp xúc với các cạnh $ \\Rightarrow MN $ là đường kính\n$\\Rightarrow S = d^2\\pi = 18\\pi$\n$\\Rightarrow$ c)  đúng",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T11:13:12.194286+07:00"
+            },
+            {
+                "id": "10dcf8b5-4473-4383-89ed-7af9b4dbfcb8",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Xét hàm số $\\displaystyle y = f\\left( x \\right)$ có đạo hàm với mọi $\\displaystyle x \\in R,f\\left( 0 \\right) = 3,f'\\left( 0 \\right) = 2$. \n\nGiới hạn $\\displaystyle \\mathop {\\lim }\\limits_{x \\to 0} \\frac{{{e^{f(x)}} - {e^3}}}{x}$ bằng.\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 8,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle 2{e^3}$."
+                        },
+                        {
+                            "content": "$\\displaystyle {e^2}$."
+                        },
+                        {
+                            "content": "$\\displaystyle 2$."
+                        },
+                        {
+                            "content": "$\\displaystyle {e^3}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Vì dạng $0/0$, L’Hôpital: \n\n$(\\displaystyle \\lim_{x\\to 0}\\frac{e^{f(x)}-e^{3}}{x}=\\lim_{x\\to 0} \\frac{e^{f(x)}f'(x)}{1}).$ \n\nThế $(x=0): (e^{f(0)}f'(0)=e^{3}\\cdot 2=2e^{3}).$ ",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:36:34.901553+07:00"
+            },
+            {
+                "id": "16e43e38-6885-4641-84a3-233c1f2ff5f8",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Nếu $\\displaystyle F\\left( x \\right) = {x^3} - 7x + {e^{2x}} + C$ với C là hằng số, thì $\\displaystyle F\\left( x \\right)$ là họ nguyên hàm của hàm số nào sau đây?\n\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 13,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle f(x) = \\frac{{{x^4}}}{4} - \\frac{{7{x^2}}}{2} + 2{e^{2x}}$."
+                        },
+                        {
+                            "content": "$\\displaystyle f(x) = \\frac{{{x^4}}}{4} - \\frac{{7{x^2}}}{2} + \\frac{1}{2}{e^{2x}}$."
+                        },
+                        {
+                            "content": "$\\displaystyle f(x) = 3{x^2} - 7 + 2{e^{2x}}$."
+                        },
+                        {
+                            "content": "$\\displaystyle f(x) = 3{x^2} - 7 + 2x{e^{2x}}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$f(x)=F'(x)=3x^2−7+2e^{2x}.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:38:21.122589+07:00"
+            },
+            {
+                "id": "d32b4b23-7be0-4896-9d4f-e8346a5caf94",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền một số nguyên dương thích hợp vào chỗ trống.\nĐể kiểm soát việc máy bay đỗ, người ta dùng hệ trục tọa độ $\\displaystyle Oxyz$ với vị trí máy bay là một điểm trên hệ trục tọa độ. Biết rằng máy bay BK2026 đang ở tọa độ $\\displaystyle \\left( {3;4;5} \\right)$ và cần đáp xuống một vị trí nằm trong hình chữ nhật $\\displaystyle ABCD$ với các điểm $\\displaystyle A\\left( {1;1;0} \\right),B\\left( {4;1;0} \\right),C\\left( {4;3;0} \\right),D\\left( {1;3;0} \\right)$ (tính cả các cạnh của hình chữ nhật). Gọi khoảng cách ngắn nhất và xa nhất từ máy bay đến vị trí đáp lần lượt là $\\displaystyle h\\;$ và $\\displaystyle k$. Khi đó $\\displaystyle {h^2} + {k^2} = $ ____ .\n\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 23,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "64"
+                    ]
+                },
+                "answer_detail": "\n\nGọi $S'$ là hình chiếu vuông góc của $S$ lên mặt phẳng $Oxy \\Rightarrow S'(3,4,0)$, $SS' = 5$.\nVới mọi $H$ thuộc đoạn/đường $CD$ (nằm trên $Oxy$):\n\n$SH^2 = SS'^2 + S'H^2 = 5^2 + S'H^2$\n\nTừ hình:\n\n$/image_{https://api-course.hethonglab.com/static/13d927fb-b82d-4f7e-8145-b0babe71905a.png}_{left}_{40}_{block}$\n\nKhoảng cách nhỏ nhất từ $S'$ đến $CD$ là $S'H_{\\min}=1 \\Rightarrow SH_{\\min}^2=25+1=26$.\nKhoảng cách lớn nhất đạt tại đầu mút $A$ của $CD$: $S'H_{\\max}=|S'A|=\\sqrt{13} \\Rightarrow SH_{\\max}^2=25+13=38$.\nDo đó\n\n$SH_{\\min}^2+SH_{\\max}^2=26+38=64$\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:50:56.306078+07:00"
+            },
+            {
+                "id": "4d4e3313-b73a-4f74-9a78-c91b36414823",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền một số thích hợp vào chỗ trống,\nCho $\\displaystyle a,b$ là các số thực dương thỏa mãn $\\displaystyle {\\log _4}a + {\\log _2}b = \\frac{{11}}{4}$ và $\\displaystyle {\\log _2}a + {\\log _8}(2b) = \\frac{5}{2}$. Giá trị của $\\displaystyle {\\log _2}ab = $ ____ .\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 6,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3.5"
+                    ]
+                },
+                "answer_detail": "Gọi $x = \\log_2 a, y = \\log_2 b$.\n$\n\\begin{cases}\n\\log_4 a + \\log_2 b = \\dfrac{11}{4} \\Rightarrow \\dfrac{x}{2} + y = \\dfrac{11}{4}, \\\\\n\\log_2 a + \\log_8(2b) = \\dfrac{5}{2} \\Rightarrow x + \\dfrac{1}{3} (\\log_2(2b)) = \\dfrac{5}{2} \\Rightarrow x + \\dfrac{y}{3} = \\dfrac{13}{6}.\n\\end{cases}\n$\nGiải hệ: $y = 2, x = \\dfrac{3}{2}$. \nDo đó\n$\\log_2(ab) = x + y = \\dfrac{7}{2}.$\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T14:59:48.019364+07:00"
+            },
+            {
+                "id": "e8ab0c81-a859-4613-a57e-8df590c3aa67",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Kéo thả các số thích hợp vào các chỗ trống.\nTrong không gian $\\displaystyle Oxyz,$ cho mặt phẳng $\\displaystyle \\left( P \\right):x + 2y - 2z = 0$ và mặt cầu $\\displaystyle \\left( S \\right):{x^2} + {y^2} + {z^2} - 2x - 4z - 4 = 0$ Biết rằng mặt phẳng $\\displaystyle \\left( P \\right)$ cắt mặt cầu $\\displaystyle \\left( S \\right)$ theo giao tuyến là một đường tròn $\\displaystyle \\left( C \\right)$.\nKhoảng cách từ tâm mặt cầu đến mặt phẳng $\\displaystyle \\left( P \\right)$ là ____ .\nBán kính đường tròn $\\displaystyle \\left( C \\right)$ là ____ .\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 3$",
+                        "$\\displaystyle 1$",
+                        "$\\displaystyle \\sqrt{10}$",
+                        "$\\displaystyle 4$",
+                        "$\\displaystyle 2\\sqrt{2}$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        4
+                    ]
+                },
+                "answer_detail": "Tâm cầu $I(1,0,2)$, bán kính $R=3$.\n\nKhoảng cách $(d)$ từ $(I)$ đến $(P): d=\\dfrac{|1+2\\cdot0-2\\cdot2|}{\\sqrt{1+4+4}}=\\dfrac{3}{3}=1.$\n\nBán kính giao tuyến: $r=\\sqrt{R^{2}-d^{2}}=\\sqrt{9-1}=2\\sqrt2.$\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:16:47.474814+07:00"
+            },
+            {
+                "id": "4ae5cd16-0fe5-433e-9574-31d2d0b428ed",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho biểu thức P như sau:\n$\\displaystyle P = 5 + \\frac{{15}}{{5 + \\frac{{15}}{{5 + \\frac{{15}}{{...}}}}}}$.\nBiết rằng P tiến tới $\\displaystyle \\frac{{a + \\sqrt c }}{b}$. Khi đó tổng $\\displaystyle a + b + c$ bằng____.\n\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "92"
+                    ]
+                },
+                "answer_detail": "Gọi $P=5+\\dfrac{15}{5+\\dfrac{15}{\\ddots}}\\Rightarrow P=5+\\dfrac{15}{P}$.\n\n$\\Rightarrow P^2-5P-15=0\\Rightarrow P=\\dfrac{5+\\sqrt{85}}{2},(>0)$.\n\n $a=5,;b=2,;c=85\\Rightarrow a+b+c=92.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T23:01:08.358493+07:00"
+            },
+            {
+                "id": "fd9438ef-c606-4564-ab40-4ceb7b6ccb96",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Sắp đến ngày Quốc tế Phụ nữ, bạn Minh được lớp giao cho nhiệm vụ chuẩn bị các dãy nơ trang trí cho các hộp quà để tặng cô giáo chủ nhiệm và 14 bạn nữ của lớp. Bạn Minh cần cắt từ một sợi dãy dài $36 dm$ thành $1$ đoạn dãy có độ dài $4dm, 4$ đoạn dãy có độ dài $3dm$ và $10$ đoạn dãy có độ dài $2dm$. Bạn Minh có bao nhiêu cách để cắt đoạn dãy đó theo đúng mục tiêu đề ra?\n",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$1017$"
+                        },
+                        {
+                            "content": "$1001$"
+                        },
+                        {
+                            "content": "$360360$"
+                        },
+                        {
+                            "content": "$15015$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Tổng số đoạn cần cắt: $1+4+10=15$.\nMỗi độ dài là một loại giống nhau ⇒ số cách sắp xếp 15 đoạn theo thứ tự dọc sợi dây là hoán vị lặp:\n\nsố cách $=\\dfrac{15!}{1!.4!.10!}=15015.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T23:02:11.314388+07:00"
+            },
+            {
+                "id": "746a0a0c-bf2f-49f6-8891-c41dab06f7f0",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Những hàm số nào sau đây là hàm lẻ?",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle g\\left( x \\right) = {x^4}\\sin \\left( {2x} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle q\\left( x \\right) = \\sqrt {1 + \\sin \\left( x \\right)}  - \\sqrt {1 - \\sin \\left( x \\right)} $"
+                        },
+                        {
+                            "content": "$\\displaystyle p\\left( x \\right) = \\left| x \\right|{\\cos ^3}x$"
+                        },
+                        {
+                            "content": "$\\displaystyle f\\left( x \\right) = 2\\tan \\left( x \\right) - 3$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1
+                    ]
+                },
+                "answer_detail": "$g(x): x⁴$ chẵn,$ sin(2x)$ lẻ $ ⇒ g $lẻ.\n$q(x): q(−x)=√(1−sin x)−√(1+sin x)=−q(x) ⇒ q$ lẻ.\n$p(x): |x|$ chẵn, $cos³x$ chẵn $⇒ p$ chẵn (không lẻ).\n$f(x): f(−x)=−2tan x−3 ≠ −f(x) ⇒ f$ không lẻ.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:41:08.233433+07:00"
+            },
+            {
+                "id": "6cdae0ad-2162-460e-acfc-49c6ee828d4e",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Một người di chuyển từ $A$ đến $B$ trên một đoạn đường thẳng $AB$ cách nhau $40n$ (cm) (trong đó $n$ là số nguyên dương). Biết rằng mỗi lần bước người đó bước được $40$ cm hoặc $80$ cm. Với mỗi số nguyên dương $n$, gọi $\\displaystyle {a_n}$ là tổng số cách người đó di chuyển được từ $A$ đến $B$.\n",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 24,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$\\displaystyle {a_9} > {a_6} + {a_4}$"
+                        },
+                        {
+                            "content": "$\\displaystyle {a_1} = 1,\\;{a_2} = 2$"
+                        },
+                        {
+                            "content": "$\\displaystyle {a_{10}} = 89$"
+                        },
+                        {
+                            "content": "Nếu $\\displaystyle {a_n} = 233$ thì $\\displaystyle n = 13$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Mỗi bước đi được $40\\text{ cm}$ hoặc $80\\text{ cm} \\Rightarrow$ trên đoạn $40n\\text{ cm}$ ta ghép các \"bước $1$\" ($40\\text{ cm}$) và \"bước $2$\" ($80\\text{ cm}$).\n Xét bước cuối: nếu là $40\\text{ cm}$ có $a_{n-1}$ cách, nếu là $80\\text{ cm}$ có $a_{n-2}$ cách $\\Rightarrow a_n = a_{n-1} + a_{n-2}$ (dạng Fibonacci).\n Gốc: $a_1 = 1$ (chỉ $40$), $a_2 = 2$ ($40+40$; $80$).\n Suy ra $a_n = F_{n+1}$ với $F_1 = 1, F_2 = 1$.\n $a_9 = F_{10} = 55$; $a_6 + a_4 = F_7 + F_5 = 13 + 5 = 18 \\Rightarrow a_9 > a_6 + a_4 \\rightarrow$ Đúng.\n $a_1 = 1, a_2 = 2 \\rightarrow$ Đúng.\n $a_{10} = F_{11} = 89 \\rightarrow$ Đúng.\n Nếu $a_n = 233 \\Rightarrow F_{n+1} = 233 = F_{13} \\Rightarrow n = 12 \\ne 13 \\rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T15:57:41.346658+07:00"
+            },
+            {
+                "id": "047603d4-490a-4c19-bdf4-ffd6796cfe8c",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Một chú ếch nhảy ngược dòng nước trên các chiếc lá trôi trên mặt nước. Mỗi lần nhảy, sức bật của chú ếch bị giảm chỉ nhảy được độ xa bằng $\\displaystyle \\frac{3}{4}$ độ xa lần bật nhảy trước đó ( sức bật của con ếch)  , đồng thời chú bị dòng nước đẩy trôi ngược lại $5$gecm trước khi chú nhảy bước tiếp theo. Lần nhảy thứ $10$ thì chú ếch đáp xuống một tảng đá đứng yên giữa dòng nước. Giả sử bước nhảy đầu tiên của chú ếch dài 1m và các bước nhảy của chú ếch cùng dòng chảy của nước theo một đường thẳng. Quãng đường chú ếch di chuyển được (làm tròn đến đơn vị cm) từ vị trí nhảy đầu tiên đến vị trí đáp xuống tảng đá bằng\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "327"
+                        },
+                        {
+                            "content": "368"
+                        },
+                        {
+                            "content": "252"
+                        },
+                        {
+                            "content": "332"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Mỗi cú nhảy là cấp số nhân: $u_1=100 ; q=\\dfrac34 ; n=10.$\n\nTổng quãng nhảy: $S_{10}=100\\dfrac{1-q^{10}}{1-q}=400(1-(\\dfrac34)^{10})\\approx377{,}5\\text{ cm}.$\n\nBị trôi 9 lần: $9\\times5=45\\text{ cm}.$\n\nĐộ dời: $377{,}5-45\\approx332\\text{ cm}.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T20:22:38.931591+07:00"
+            },
+            {
+                "id": "ece8188c-a715-420a-843b-6b22c4485e2a",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho $\\displaystyle F\\left( x \\right)$ là một nguyên hàm của hàm số $\\displaystyle f\\left( x \\right) = 5{x^4} - 4{x^3}$. Khẳng định nào dưới đây là đúng?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hàm $\\displaystyle F\\left( x \\right)$ đạt cực tiểu tại $\\displaystyle x = \\frac{4}{5}$"
+                        },
+                        {
+                            "content": "Hàm $\\displaystyle F\\left( x \\right)$ không có điểm cực tiểu"
+                        },
+                        {
+                            "content": "Hàm $\\displaystyle F\\left( x \\right)$ đạt cực tiểu tại $\\displaystyle x = \\frac{3}{5}$"
+                        },
+                        {
+                            "content": "Hàm $\\displaystyle F\\left( x \\right)$ đạt cực tiểu tại $\\displaystyle x = 0$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có $F'(x) = f(x) = 5x^4 - 4x^3 = x^3(5x - 4)$\n\nDo $F'(x)$ đổi dấu từ âm sang dương khi đi qua $x=\\dfrac{4}{5}$ nên hàm số $F(x)$ đạt cực tiểu tại $x=\\dfrac{4}{5}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-16T20:29:05.388902+07:00"
+            },
+            {
+                "id": "ac8d4e4b-9ee5-4a51-8f62-11b2f32b31e3",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho hình chóp $\\displaystyle S.ABCD$ có $\\displaystyle ABCD$ là hình thang vuông tại $\\displaystyle A$ và $\\displaystyle B$, $\\displaystyle AB = BC = a\\sqrt 3 $, $\\displaystyle AD = 2a\\sqrt 3 $. Cạnh bên $\\displaystyle {\\rm{SA}}$ vuông góc với mặt phẳng $\\displaystyle \\left( {ABCD} \\right)$ và $\\displaystyle SA = a\\sqrt 3 $. Khoảng cách giữa hai đường thẳng $\\displaystyle CD$ và $\\displaystyle SB$ bằng.\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle a\\sqrt {\\frac{3}{9}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle a\\sqrt 3 $."
+                        },
+                        {
+                            "content": "$\\displaystyle a$."
+                        },
+                        {
+                            "content": "$\\displaystyle a\\sqrt {\\frac{6}{4}} $."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$/image_{https://api-course.hethonglab.com/static/214296f6-c242-4d8e-9af9-4ce8a8c92bb0.png}_{left}_{20}_{block}$\nGọi $M$ là trung điểm $AD ⇒ BM // CD$. Vì $BM ∈ (SBM)$ nên $CD // (SBM).$\n\nDo đó $d(CD, SB) = d(CD, (SBM)) = d(D, (SBM)) = d(A, (SBM)).$\n\nTại $A$ có $SA ⟂ AB, SA ⟂ AD$ và $AB ⟂ AD ⇒ SA, AB, AM$ đôi một vuông góc.\n\nÁp dụng hệ thức lượng trong tứ diện vuông $S.ABM$:\n\n$\\dfrac{1}{d^2} = \\dfrac{1}{SA^2} + \\dfrac{1}{AB^2} + \\dfrac{1}{AM^2}$\n\nThay $SA = AB = AM = a√3 ⇒ $ $\\dfrac{1}{d^2} = \\dfrac{1}{a^2}$ $ ⇒ d = a.$\nkhoảng cách giữa $CD$ và$ SB$ bằng$ a.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T17:22:51.375365+07:00"
+            },
+            {
+                "id": "3dff62f8-73f4-43b5-b877-65df4dccd1d9",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền số nguyên thích hợp vào chỗ trống.\nCho đồ thị hai hàm số $\\displaystyle y = f\\left( x \\right)$ và $\\displaystyle y = x - 1$ như hình vẽ bên dưới\n$/image_{https://api-course.hethonglab.com/static/70a79ea5-5d4e-444e-b31a-83d7fef3c34a.png}_{left}_{20}_{block}$\nBiết rằng diện tích phần tô đậm ở hình bên lần lượt là $\\displaystyle {S_1} = \\frac{5}{6},{S_2} = \\frac{{16}}{3}$.\nTích phân $\\displaystyle \\int\\limits_0^3 {10f(x)dx = } $____.\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 19,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "-30"
+                    ]
+                },
+                "answer_detail": "\nCó $f(x) - (x-1)$ có 3 nghiệm $x=0, x=1, x=3$ (bội lẻ).\n\n$\\Rightarrow f(x) - (x-1) = Ax(x-1)(x-3)$\n\nNhập casio phương trình:\n$\\displaystyle \\int_{0}^{1} A \\cdot x(x-1)(x-3) \\,dx = \\frac{5}{6} \\quad \\left( S_1 \\text{ do } f(x) \\text{ ở trên } (x-1) \\text{ nên } S_1 = \\int_{0}^{1} [f(x) - (x-1)] \\,dx \\right)$\n\n$/image_{https://api-course.hethonglab.com/static/45b0d866-3635-4e8d-8715-85b934b044a7.png}_{left}_{20}_{block}$\n\n$\\displaystyle \\Rightarrow A = 2$\n\n$\\displaystyle \\Rightarrow f(x) = 2x(x-1)(x-3) + x-1$\n\n$\\displaystyle \\Rightarrow \\int_{0}^{3} 10f(x) \\,dx = \\int_{0}^{3} [10(A \\cdot x(x-1)(x-3) + x-1)] \\,dx = -30$ $(A=2)$\n\n$/image_{https://api-course.hethonglab.com/static/df50b117-4b67-4ad9-8a78-472b29d17649.png}_{left}_{20}_{block}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T17:44:48.76327+07:00"
+            },
+            {
+                "id": "dfa09312-8436-42de-b32d-7fe032521c56",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho số $\\displaystyle \\left( {A = {{15}^{10}}^{1006}} \\right)$. Viết số $\\displaystyle \\left( A \\right)$ thành một dãy các chữ số, sau đó cộng tổng các chữ số lại, ra được số mới. Lại thực hiện cộng tất cả các chữ số đó cho đến khi kết quả nhận được chỉ còn 1 chữ số. Hỏi chữ số cuối cùng nhận được là số nào?____\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "9"
+                    ]
+                },
+                "answer_detail": "Gọi $s(A)$ là chữ số lặp tổng ; $s(A) \\equiv A \\pmod{9}$, và $s(A)=9$ nếu $A \\equiv 0 \\pmod{9}$.\n\n$A = 15^{10^{1006}} \\equiv 6^{10^{1006}} \\pmod{9}$; vì $6^2 \\equiv 0 \\pmod{9}$ nên $6^{10^{1006}} \\equiv 0 \\pmod{9}$.\n\nVậy $s(A)=9.$\nCách 2\n\n\n$15^2 = 225 \\to 2+2+5 = 9$; $15^3 = 3375 \\to 3+3+7+5 = 18 \\to 9$; $15^4 = 50625 \\to 5+0+6+2+5 = 18 \\to 9$.\n\nThấy từ $n \\ge 2$ thì tổng lặp chữ số luôn $= 9 \\Rightarrow$ với $10^{1006} \\ge 2$, $15^{(10^{1006})}$ cho kết quả cuối cùng $= 9$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T18:03:43.085366+07:00"
+            },
+            {
+                "id": "7f4bac2a-c005-4da3-ab62-206b960cae8a",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Một công ty sản xuất trả lương cố định cho công nhân theo định mức. Nghĩa là, mỗi tháng một công nhân làm\nđủ 200 sản phẩm sẽ được trả lương 10 triệu đồng. Nếu không đủ định mức, lương tháng được tính theo sản phẩm với mỗi\nsản phẩm 40 nghìn đồng. Nếu làm vượt mức, mỗi sản phẩm vượt định mức sẽ được trả 80 nghìn đồng.\nCác khẳng định sau là đúng hay sai?\n\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 11,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Một công nhân lĩnh lương 12 triệu 800 nghìn đồng thì tháng đó công nhân đó đã làm được 235 sản phẩm."
+                        },
+                        {
+                            "content": "Một công nhân chỉ làm được 100 sản phẩm một tháng thì lương tháng đó của họ là 5 triệu đồng."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Quy ước: $n≥200 ⇒ $ lương $ S = 10.000.000 + 80.000·(n−200); n<200 ⇒ S = 40.000·n.$\n$S = 12.800.000 ⇒ 10.000.000 + 80.000·(n−200) = 12.800.000 ⇒ n = 235 ⇒$ đúng.\n$n = 100 ⇒ S = 40.000·100 = 4.000.000 ≠ 5.000.000 ⇒$ sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T18:30:19.255243+07:00"
+            },
+            {
+                "id": "16219e44-eef4-486b-8342-7f19ea591a46",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Anh Hiếu là một cựu sinh viên ĐH Bách Khoa vừa học giỏi vừa chịu khó. Thời gian sinh viên anh Hiếu vừa học vừa làm thêm tự trang trải cuộc sống. Ra trường, anh Hiếu không những xin được một việc ở một công ty lớn với mức lương cao mà còn tiết kiệm được một khoản tiền 200 triệu đồng. Vì vậy, ngay ngày đầu tiên đi làm (đầu tháng), anh Hiếu mang toàn bộ số tiền 200 triệu đồng lập cho mẹ một tài khoản tiết kiệm với lãi suất cố định 0,5%/tháng theo hình thức lãi gộp (tức là, số tiền lãi sinh ra sau mỗi tháng sẽ được cộng dồn vào tiền vốn ban đầu để tiếp tục một chu kỳ sinh lãi tiếp theo). Không những thế, vào đúng ngày đầu tháng trùng với ngày gửi đầu tiên, các tháng tiếp theo anh đều gửi thêm vào số 10 triệu đồng và dặn mẹ khi cần cứ rút tiền ra sử dụng. Thế nhưng, mẹ anh đã không dùng đến khoản tiền đó. Anh Hiếu sắp tới chuẩn bị lập gia đình. Vì vậy, tháng này là đúng 3 năm từ ngày anh Hiếu gửi tiền tiết kiệm cho mẹ, mẹ anh rút toàn bộ số tiền trong sổ tiết kiệm ra để làm của hồi môn cho con dâu (tháng cuối anh Hiếu chưa kịp gửi thêm tiền vào sổ cho mẹ).\nMỗi khẳng định sau là đúng hay sai?\n",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Số tiền hồi môn của mẹ anh Hiếu dành cho con dâu (làm tròn đến chục triệu đồng) là 630 triệu đồng."
+                        },
+                        {
+                            "content": "Số tiền trong sổ tiết kiệm của mẹ anh Hiếu cuối mỗi tháng là một cấp số nhân."
+                        },
+                        {
+                            "content": "Trong 4 năm học Đại học (48 tháng), mỗi tháng anh Hiếu tiết kiệm được trung bình hơn 4 triệu đồng."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "\n 1) Tổng tiền cuối tháng 36\n\nĐặt $r=0.005, M=10, P_0=200$.\n\nQuy hồi:\n$T_1=200(1+r), \\quad T_k=(T_{k-1}+10)(1+r) \\quad (k\\ge2).$\n\nKhai triển vài bước để thấy mẫu:\n$\\displaystyle \n\\begin{aligned}\nT_2 &= 200(1+r)^2+10(1+r), \\\\\n\nT_3 &= 200(1+r)^3+10(1+r)^2+10(1+r), \\\\\n&\\ \\vdots \\\\\n\nT_{36} &= 200(1+r)^{36}+10\\big[(1+r)^{35}+(1+r)^{34}+\\cdots+(1+r)\\big].\n\\end{aligned}\n$\n\nDùng công thức tổng cấp số nhân $\\displaystyle (1+q+\\cdots+q^{n-1}=u_1. \\frac{q^n-1}{q-1})$ với $q=1+r$, $n=35$ ; $u_1=1$:\n\n$\\displaystyle \n(1+r)^{35}+(1+r)^{34}+\\cdots+(1+r)=(1+r) \\cdot \\frac{(1+r)^{35}-1}{r}.\n$\n\nSuy ra\n$\n\\displaystyle  T_{36}=200(1+r)^{36}+10\\cdot\\frac{(1+r)\\big((1+r)^{35}-1\\big)}{r}.\n$\n\nThay số:\n$\n\\displaystyle  T_{36}=200(1.005)^{36}+10\\cdot\\frac{1.005\\big((1.005)^{35}-1\\big)}{0.005}\n\n\\approx 239.336+384.192= 623.528\\ \\text{triệu}.\n$\n\nLàm tròn đến chục triệu $\\to$ 620 triệu.\n\n\n\n 2) Không phải cấp số nhân\n$\n\\displaystyle T_k=(T_{k-1}+10) \\cdot 1.005 \\Rightarrow\n\n\\frac{T_k}{T_{k-1}}=1.005+\\frac{10.05}{T_{k-1}}\n$\nphụ thuộc $k \\Rightarrow$ không có công bội cố định $\\Rightarrow$ không là cấp số nhân.\n\n 3) Trung bình 4 năm\n$\n\\displaystyle \\overline{S}=\\frac{200}{48}\\approx 4.167>4\\ \\text{(triệu/tháng)}.\n$\n\n(1) Sai, (2) Sai, (3) Đúng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T00:11:01.949316+07:00"
+            },
+            {
+                "id": "f8b63464-352d-4d85-922f-7645289dd3ee",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho hình chóp $\\displaystyle S.ABCD$ có đáy là hình thang, $\\displaystyle AB\\;/\\;/\\;CD$ và $\\displaystyle AB = 2CD$. Gọi $\\displaystyle I\\;{\\rm{v\\`a \\;}}J$ lần lượt là trung điểm của $\\displaystyle SB$ và $\\displaystyle AB$ (tham khảo hình vẽ)\n$/image_{https://api-course.hethonglab.com/static/c724dc62-8ab8-45f8-8386-aa407837be58.png}_{left}_{25}_{block}$\n\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$\\displaystyle IJ//(SAD)$"
+                        },
+                        {
+                            "content": "$\\displaystyle CI//SD$"
+                        },
+                        {
+                            "content": "$\\displaystyle CI//(SAD)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "a $IJ \\parallel SA,\\ SA \\subset (SAD) \\Rightarrow IJ \\parallel (SAD)$ ⟹ Đúng\nb $S,I,D,C$ không đồng phẳng ⇒ $CI$ và $SD$ chéo nhau, không thể song song ⟹ Sai\nc Nối $J,C$: $JC \\parallel AD,\\ IJ \\parallel SA \\Rightarrow CI \\parallel (SAD)$ ⟹ Đúng",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T00:34:44.327644+07:00"
+            },
+            {
+                "id": "52b0cefe-f763-4306-ada0-5d0ce232621e",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho hệ 2 biến cố đầy đủ $\\displaystyle A;B$ biết $\\displaystyle P\\left( {AB{\\rm{|}}A \\cup B} \\right).P\\left( {AB} \\right) = \\frac{1}{{12}}$ ; $\\displaystyle P\\left( {A|\\overline {AB} } \\right) = \\frac{1}{3}$ ; $\\displaystyle P\\left( {B|\\overline {AB} } \\right) = \\frac{1}{3}$ ; $P(A) = $",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 17,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\frac{1}{2}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{1}{3}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{1}{4}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{1}{5}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$\\displaystyle P(A|\\overline{AB}) = P(B|\\overline{AB}) = \\frac{1}{3} \\Rightarrow P(A) = P(B) = x$\n$P(AB) = y$\n\n $\\displaystyle P(A|\\overline{AB}) = \\frac{1}{3} \\Rightarrow \\frac{P(A\\overline{B})}{P(\\overline{AB})} = \\frac{x-y}{1-y} = \\frac{1}{3}$\n\n    $\\displaystyle \\Rightarrow x = \\frac{1}{3}(1-y) + y = \\frac{2}{3}y + \\frac{1}{3}$\n\n $\\displaystyle P(AB|A \\cup B) \\cdot P(AB)$\n\n    $\\displaystyle = \\frac{P(AB \\cap (A \\cup B))}{P(A \\cup B)} \\cdot P(AB) = \\frac{P(AB)}{P(A \\cup B)} \\cdot P(AB)$\n\n    $\\displaystyle = \\frac{P(AB)^2}{P(A \\cup B)}$\n\n    $\\displaystyle = \\frac{y^2}{2x-y} = \\frac{1}{12}$\n\n$\\displaystyle \\Leftrightarrow \\frac{y^2}{2(\\dfrac{2}{3}y + \\dfrac{1}{3}) - y} = \\frac{1}{12}$\n\n$\\displaystyle \\Rightarrow y = 0,25$\n$\\displaystyle \\Rightarrow x = 0,5$\n$\\displaystyle \\Rightarrow P(A) = 0,5$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T20:28:05.977002+07:00"
+            },
+            {
+                "id": "fdac8436-faab-4b51-84e1-58130130c0df",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Điền số thích hợp vào chỗ trống để được khẳng định đúng.\nMột bể bơi có dạng lăng trụ tứ giác được đặt nằm ngang (xem hình vẽ).\n$/image_{https://api-course.hethonglab.com/static/b9f9e843-8561-4e2b-a98d-35a71c94f862.png}_{left}_{30}_{block}$\nBể bơi có chiều ngang $8m$, chiều dài $15m$, chỗ nông nhất là $1m$ ở đầu bể và chỗ sâu nhất là $2m$ ở cuối bể. Sau khi xả hết nước trong bể để vệ sinh, người quản lý tiến hành bơm nước vào bể. Biết rằng công suất máy bơm là $48m³/$giờ. Thời gian để bơm đầy bể là ____ giờ.\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3.75"
+                    ]
+                },
+                "answer_detail": "Thể tích bể $= V₁ + V₂$\n $V₁$ (khối hộp 1 m đều): $15.8.1 = 120 m³$\n $V₂$ (lăng trụ tam giác phần dốc): $15.1.8.1/2 = 60 m³$\n\n$⇒ V = 120 + 60 = 180 m³$\nThời gian bơm: $t = 180/48 = 3.75$ giờ.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-17T23:21:56.241613+07:00"
+            },
+            {
+                "id": "0892bd3d-3529-4fae-850c-775b7e803491",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Cho tam giác $\\displaystyle ABC$ cân tại đỉnh $\\displaystyle B$ có $\\displaystyle AB = 4,AC = 2$. Điểm $\\displaystyle S$ thay đổi trên đường thẳng $\\displaystyle d$ đi qua $\\displaystyle A$ và vuông góc với mặt phẳng $\\displaystyle \\left( {ABC} \\right),\\;S \\ne A$. Gọi $\\displaystyle H$ là trực tâm tam giác $\\displaystyle SBC$. Các khẳng định sau đúng hay sai?",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Khi $\\displaystyle S$ thay đổi thì $\\displaystyle H$ luôn thuộc một đường tròn cố định có bán kính bằng $\\displaystyle \\frac{{7\\sqrt {15} }}{{30}}$"
+                        },
+                        {
+                            "content": "Đường thẳng đi qua $\\displaystyle H$ và vuông góc với mặt phẳng $\\displaystyle \\left( {SBC} \\right)$ luôn đi qua trọng tâm tam giác $\\displaystyle {\\rm{ABC}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle H$ thuộc mặt phẳng qua $\\displaystyle A$ và vuông góc với $\\displaystyle BC$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "$/image_{https://api-course.hethonglab.com/static/08e36c88-b706-4566-9bb9-702193746d68.png}_{left}_{50}_{block}$\nc) kẻ $SK \\perp BC$\n$SA \\perp (ABC) \\Rightarrow SA \\perp BC \\Rightarrow BC \\perp (SAK)$\n$H \\in (SAK)$ và $(SAK) \\perp BC \\Rightarrow c)$ đúng.\n\nb) Theo ý (c), ta có $(SAK) \\perp BC \\Rightarrow (SAK) \\perp (SBC)$\n\n$BM \\perp AC$ tại $M$\nvà $SA \\perp BM (BM \\in (ABC)) \\Rightarrow BM \\perp (SAC)$ (1)\n\n$\\Rightarrow BM \\perp SC $ và có $ BQ \\perp SC \\equiv Q$ (kẻ đường cao)\n\n$\\Rightarrow SC \\perp (BQM) \\Rightarrow (SBC) \\perp (BQM) $ mà $ (SAK) \\perp (SBC)$\n\n$\\Rightarrow (SAK) \\cap (BQM) = d \\Rightarrow d \\perp SBC \\Rightarrow H \\in d, (H \\in (SAK), H \\in (BQM))$ (2)\n\n$H'$ là trực tâm $\\triangle ABC \\Rightarrow H' \\in BM, H' \\in AK \\Rightarrow \\left\\{ \\begin{array}{l} H' \\in (SAK) \\\\ H' \\in (BQM) \\end{array} \\right.$ (3)\n\n(2), (3) $\\Rightarrow HH' \\perp (SBC) \\equiv H, H'$ là trực tâm $\\triangle ABC \\Rightarrow b)$ sai.\n\n\n\n\n\na) Có $HH' \\perp (SBC) \\Rightarrow \\Delta HH'K$ vuông tại $H' \\Rightarrow H$ thuộc đường tròn đường kính $H'K$.\n\n$/image_{https://api-course.hethonglab.com/static/adec1ebe-92a1-4ffd-a777-e1a20289459a.png}_{left}_{30}_{block}$\n\n$\\displaystyle AK = \\dfrac{2S_{ABC}}{BC} = \\dfrac{2 \\cdot \\dfrac{BM \\cdot AC}{2}}{BC} = \\dfrac{  \\sqrt{4^2 - 1^2} \\cdot 2}{4} = \\dfrac{\\sqrt{15}}{2}$\n\n$\\displaystyle \\Rightarrow BK = \\sqrt{AB^2 - AK^2} = \\sqrt{16 - \\frac{15}{4}} = \\frac{7}{2}$\n\n$\\displaystyle \\Delta BKH' \\sim \\Delta BMC \\Rightarrow \\frac{H'K}{MC} = \\frac{BK}{BM} \\Rightarrow \\frac{x}{1} = \\dfrac{\\dfrac{7}{2}}{\\sqrt{4^2 - 1^2}} \\Rightarrow x = \\frac{7\\sqrt{15}}{30}$\n\n$\\displaystyle \\Rightarrow \\text{Bán kính là } \\frac{7\\sqrt{15}}{60} \\Rightarrow a) \\text{ sai.}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T10:52:11.882334+07:00"
+            },
+            {
+                "id": "fd33cd9b-4060-45eb-a69a-19ce66285f5c",
+                "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+                "position": 0,
+                "content": "Các chữ số $1, 2, 3, 4, 5, 6, 7, 8, 9,$ được viết lên $9$ mảnh bìa giống nhau. Chọn ngẫu nhiên lần lượt ba mảnh bìa\nrồi ghép lại theo thứ tự từ trái qua phải để được số có ba chữ số. Các khẳng định dưới đây là đúng hay sai?\n",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Xác suất để số ghép được là số chia hết cho 4 bằng $\\displaystyle \\frac{2}{9}$."
+                        },
+                        {
+                            "content": "Xác suất để số ghép được chia hết cho 4, đồng thời có chữ số hàng chục lớn hơn chữ số hàng trăm nhưng bé hơn chữ số hàng đơn vị bằng $\\displaystyle \\frac{2}{{63}}$."
+                        },
+                        {
+                            "content": "Xác suất để số ghép được là số chẵn bằng $\\displaystyle \\frac{4}{9}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Số phần tử của không gian mẫu:\n$n(\\Omega) = A_9^3 = 9 \\cdot 8 \\cdot 7 = 504$\n1. Chia hết cho 4\nĐể một số chia hết cho 4, hai chữ số cuối cùng của nó ($\\overline{bc}$) phải tạo thành một số chia hết cho 4.\n$\\overline{bc} \\in \\{12, 16, 24, 28, 32, 36, 48, 52, 56, 64, 68, 72, 76, 84, 92, 96\\} \\implies 16 \\text{ cặp}$\nSố cách chọn các số chia hết cho 4:\n$n_1 = 16 \\cdot 7 = 112 \\implies P_1 = \\dfrac{112}{504} = \\dfrac{2}{9}$\n\n2.Chia hết cho 4 và $a<b<c$\nXét các cặp $(b,c)$ thỏa mãn và tìm $a$ tương ứng sao cho $a<b$:\n$(b, c) \\in \\{(1, 2), (1, 6), (2, 4), (2, 8), (3, 6), (4, 8), (5, 6), (6, 8)\\}$ \nSố cách chọn các bộ số thỏa mãn:\n$n_2 = (0 + 0 + 1 + 1 + 2 + 3 + 4 + 5) = 16 \\implies P_2 = \\dfrac{16}{504} = \\dfrac{2}{63}$ ( chọn $a$ theo $(b,c)$ ví dụ $(b,c)=(1,2) -> a<b -> a$ có $0$ cách)\n\n3.Số chẵn\nĐể số là số chẵn, chữ số hàng đơn vị $c$ phải là số chẵn.\nChọn $c \\in \\{2, 4, 6, 8\\} \\implies 4$ cách.\nChọn 2 chữ số còn lại từ 8 chữ số khác $c$: $A_8^2 = 8 \\cdot 7 = 56$.\n\nSố cách chọn các số chẵn:\n$n_3 = 4 \\cdot 56 = 224 \\implies P_3 = \\dfrac{224}{504} = \\dfrac{4}{9}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-16T14:30:36.90828+07:00",
+                "updated_at": "2025-10-18T00:56:51.918698+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "9be61c4f-d655-451c-8ad5-6b3f8a3f87d4",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "59a3d400-7a24-4e47-83d0-25d787d42543",
+        "status": "in_progress",
+        "created_at": "2025-12-11T09:25:41.450964+07:00",
+        "updated_at": "2025-12-11T09:25:41.450964+07:00",
+        "submited_at": "2025-12-11T09:25:41.450964+07:00"
+    }
+}

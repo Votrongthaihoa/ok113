@@ -1,0 +1,733 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "0d944be7-caa6-4a9e-9c84-e644ed64c69c",
+        "title": "Tư Duy Đọc Hiểu 10",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_van",
+        "time_take": 30,
+        "max_point": 20,
+        "slug": "a",
+        "is_free": false,
+        "image_url": "â",
+        "question_quality": 20,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2025-12-05T23:45:04.342901+07:00",
+        "updated_at": "2025-12-06T11:14:10.512413+07:00",
+        "questions": [
+            {
+                "id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                "part_id": "0d944be7-caa6-4a9e-9c84-e644ed64c69c",
+                "position": 0,
+                "content": "$\\textbf{NGHIÊN CỨU THUẬT TOÁN PHÂN LOẠI }$\n$\\textbf{PHƯƠNG TIỆN GIAO THÔNG DỰA TRÊN THỊ GIÁC MÁY TÍNH }$\n[1] Có thể thấy, tắc nghẽn giao thông làm lãng phí thời gian, tiêu hao nhiên liệu và ô nhiễm môi trường; theo khảo sát năm 2020 thì chi phí do tắc nghẽn gây ra ở các thành phố lớn của Việt Nam là 1 - 2,3 tỉ USD mỗi năm. Trước những ảnh hưởng nghiêm trọng của tắc nghẽn giao thông, ngày càng nhiều các biện pháp được nghiên cứu và áp dụng, việc ứng dụng khoa học máy tính càng được chú ý nhiều hơn. Các nhà nghiên cứu tại Phòng thí nghiệm Oak Ridge đã sử dụng trí tuệ nhân tạo (AI) và máy học (Machine Learing) để thiết kế hệ thống thị giác máy tính thu thập và xử lý dữ liệu nhận được từ các camera giao thông giúp tránh xung đột tại các giao lộ, đồng thời giảm thiểu tổng lượng tiêu hao nhiên liệu. Thông qua việc nhận diện và phân loại phương tiện giao thông tại Việt Nam, hệ thống sẽ xác định số lượng phương tiện và tính toán mật độ lưu thông trên đường trong một khoảng thời gian xác định và từ đó đưa các dự báo cần thiết.\n[2] Yolo là một mô hình mạng neural tích chập (CNN) dùng cho việc phát hiện, nhận dạng, phân loại đối tượng. Yolo được tạo ra từ việc kết hợp giữa các lớp phức tạp (convolutional layers) cho phép trích xuất ra các đặc tính của ảnh và lớp kết nối (connected layers) dự đoán ra xác suất đó và tọa độ của đối tượng. Yolo phân chia hình ảnh thành một mạng lưới 7x7 ô (grid size=7x7). Từ đó sẽ dự đoán xem trong mỗi ô liệu có đối tượng (object) mà điểm trung tâm rơi vào ô đó không, dự đoán điểm trung tâm, kích thước của đối tượng và xác suất là đối tượng nào trong số các đối tượng cần xác định. Mỗi ô này có trách nhiệm dự đoán hai hộp (boxes number=2) bao quanh, mỗi một hộp mô tả hình chữ nhật bao quanh một đối tượng. Hiện nay phiên bản đang được sử dụng là thế hệ thứ 4, gọi là Yolov4.\n[3] Sort là sự phát triển của khung theo dõi nhiều đối tượng trực quan dựa trên các kỹ thuật ước lượng trạng thái và liên kết dữ liệu thô. Sort là một thuật toán thuộc dạng theo dõi và phát hiện (Tracking-by-detection), được thiết kế cho các ứng dụng theo dõi thời gian thực và phương pháp này tạo ra nhận dạng đối tượng một cách nhanh chóng. Một đặc điểm của lớp các thuật toán Tracking-by- detection là tách đối tượng cần xác định ra như một bài toán riêng biệt và cố gắng tối ưu kết quả trong bài toán này. Công việc sau đó là tìm cách liên kết các hộp giới hạn thu được ở mỗi khung và gán ID cho từng đối tượng.\n[4] Nghiên cứu sẽ dựa trên thuật toán xác định vật thể của Yolo, thuật toán theo dõi vật thể của SORT, từ đó gán địa chỉ nhận dạng ID cho từng phương tiện lưu thông và phân loại chúng, xác định số lượng xe theo từng khoảng thời gian cụ thể. Các phương tiện được gán địa chỉ ở đây là: xe ô tô, xe tải, xe buýt, xe máy và xe đạp. Mở luồng video trực tiếp từ camera và tiến hành xử lý từng khung hình. Sau quá trình khởi tạo thư viện, khởi tạo các biến và chạy mô hình thuật toán Yolov4, tiến hành phát luồng video trực tiếp từ camera hoặc lựa chọn các tệp video. Từng khung hình sẽ được chụp và kiểm tra theo vòng lặp while, nếu khung đọc được không chính xác, vòng lặp sẽ bị phá vỡ. Do góc nhìn camera ở mỗi đoạn đường được thiết lập là khác nhau nên nhóm nghiên cứu đã tạo ra các điểm chọn thủ công để thiết lập vùng nhận diện nhất định trên toàn bộ khung hình, giúp cho thuật toán tối ưu hơn, loại bỏ các vùng không chứa phương tiện lưu thông.\n[5] Sau quá trình thực nghiệm, nhóm nghiên cứu thấy rằng, với xe ô tô, xe tải và xe buýt thì tỉ lệ chính xác tương đối cao và ổn định do đặc điểm kích thước và nhận dạng của chúng; còn với xe máy và xe đạp có kích thước nhỏ, đặc điểm nhận dạng khó khăn hơn thì tỉ lệ chính xác chưa ổn định và giảm mạnh khi mật độ lưu thông tăng cao. Ngoài ra, độ chính xác còn phụ thuộc vào các yếu tố như góc quan sát của camera, điều kiện thời tiết, ánh sáng… Tại Việt Nam, giao thông với đặc thù lượng xe máy lớn và mật độ lưu thông cao, để có thuật toán phân loại chính xác và ổn định là rất phức tạp. Để khắc phục vấn đề, nhóm nghiên cứu sẽ cải thiện về lượng dữ liệu đầu vào cho quá trình tập huấn mô hình Yolov4 với xe máy và xe đạp.\n[6] Thông qua quá trình nghiên cứu và thực nghiệm với video thực tế trên các đoạn đường tại các thành phố lớn của Việt Nam như Hà Nội, Hải Phòng, nhóm nghiên cứu nhận thấy khi mật độ lưu thông thấp, thuật toán cho kết quả phân loại và kiểm đếm tương đối chính xác. Với mật độ lưu thông trung bình và cao, kết quả bắt đầu có độ chênh lệch và mất ổn định hơn ở loại phương tiện là xe đạp và xe máy. Các số liệu của từng loại xe lưu thông tại các thời điểm cụ thể có thể được áp dụng vào việc tính toán mật độ lưu thông trên từng khoảng thời gian, từ đó đưa ra các kết luận về mật độ lưu thông thấp, trung bình hay cao để phục vụ quá trình phân tích và điều tiết giao thông nhằm trực tiếp giảm thiểu tình trạng ùn tắc giao thông và các hậu quả của nó gây ra.\n(Theo Báo cáo “Nghiên cứu thuật toán phân loại phương tiện giao thông dựa trên thị giác máy tính” của nhóm tác giả của trường Đại học Hàng Hải Việt Nam)\n-----",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_van",
+                "chapter": 1,
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-05T23:55:52.820479+07:00",
+                "updated_at": "2025-12-05T23:55:52.820479+07:00",
+                "questions": [
+                    {
+                        "id": "6c79c0e8-9aea-4a6e-9eff-c049368a9353",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Đâu KHÔNG phải là hậu quả của việc tắc nghẽn giao thông?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Ảnh hưởng nghiêm trọng tới sức khỏe con người."
+                                },
+                                {
+                                    "content": "Mất đi cơ hội phát triển của cá nhân và đất nước."
+                                },
+                                {
+                                    "content": "Các dư chấn tâm lý do chịu căng thẳng kéo dài."
+                                },
+                                {
+                                    "content": "Tiêu tốn tài nguyên thiên nhiên, đặc biệt là chất đốt."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đọc lại nội dung của đoạn [1], xác định các thông tin quan trọng liên quan tới hậu quả của tình trạng tắc nghẽn giao thông: 'lãng phí thời gian, tiêu hao nhiên liệu và ô nhiễm môi trường'; từ các thông tin trong bài viết cần đưa ra suy luận để tiến hành loại trừ Từ khóa: việc lãng phí thời gian và tiền bạc sẽ làm mất đi cơ hội phát triển của con người, tiêu hao nhiên liệu và ô nhiễm môi trường sẽ gây ra hậu quả về sức khỏe và việc khai thác chất đốt trong tự nhiên; Từ khóa đúng là C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "43ba3206-2462-4728-a4bc-6e23943aedf2",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Từ thông tin của đoạn [1] hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí:\nTheo đánh giá từ Viện chiến lược và phát triển Giao thông vận tải, tình trạng tắc nghẽn giao thông đang gây ảnh hưởng nghiêm trọng tới đời sống, vậy nên, các cơ quan tổ chức đang ____ nhiều biện pháp và ____ khoa học máy tính vào việc ____ các hệ thống thu thập và xử lý dữ liệu.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "items": [
+                                "ứng dụng",
+                                "xây dựng",
+                                "thiết kế",
+                                "áp dụng"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đọc lại thông tin trong đoạn [1] để tìm ra được một số từ khóa quan trọng: 'nhiều các biện pháp được nghiên cứu và áp dụng', 'ứng dụng khoa học máy tính càng được chú ý', 'thiết kế hệ thống thị giác máy tính thu thập và xử lý dữ liệu'. Câu văn đầy đủ là: 'Theo đánh giá từ Viện chiến lược và phát triển Giao thông vận tải, tình trạng tắc nghẽn giao thông đang gây ảnh hưởng nghiêm trọng tới đời sống, vậy nên, các cơ quan tổ chức đang [áp dụng] nhiều biện pháp và [ứng dụng] khoa học máy tính vào việc [thiết kế] các hệ thống thu thập và xử lý dữ liệu.'\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "d90de80c-5c3b-4e36-99f0-41210838f71e",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Mục đích của nhóm nghiên cứu khi tìm kiếm giải pháp phân loại phương tiện giao thông là gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tổ chức phân luồng giao thông theo từng phương tiện riêng biệt."
+                                },
+                                {
+                                    "content": "Đưa ra các cảnh báo về lưu lượng để đảm bảo an toàn giao thông."
+                                },
+                                {
+                                    "content": "Nêu lên giải pháp trong quá trình quy hoạch giao thông tại đô thị."
+                                },
+                                {
+                                    "content": "Cung cấp dự báo về tình trạng giao thông theo từng thời điểm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đọc lại nội dung của đoạn [1]: Khi triển khai nghiên cứu giải pháp từ việc thu thập dữ liệu của camera giao thông để 'xác định số lượng phương tiện lưu thông trên đường và tính toán mật độ lưu lượng phương tiện tham gia giao thông trong một khoảng thời gian xác định'; vậy mục tiêu cốt lõi sẽ là dự báo về tình trạng giao thông để giảm thiểu tình trạng tắc nghẽn.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "640ab342-a538-4fb9-b944-636ca80d2c7f",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Yolov4 là phiên bản nâng cấp, có cơ chế hoạt động của mô hình mạng dùng cho việc phát hiện, nhận dạng, phân loại đối tượng; phân chia và xử lý hình ảnh sau đó đưa ra các dự đoán theo một yêu cầu xác định là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Đọc lại nội dung đoạn [2] để tìm hiểu định nghĩa về Yolo: 'mô hình mạng dùng cho việc phát hiện, nhận dạng, phân loại đối tượng', 'dự đoán xem trong mỗi ô liệu có đối tượng (object) mà điểm trung tâm rơi vào ô đó không, dự đoán điểm trung tâm, kích thước của đối tượng và xác suất là đối tượng nào trong số các đối tượng cần xác định'; chú ý câu 'phiên bản đang được sử dụng là thế hệ thứ 4, gọi là Yolov4'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "2c65973e-80e6-4903-a170-5f296adc88bf",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Theo đoạn [3], Tracking-by-dectection là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Quá trình tổng hợp thông tin từ các hình ảnh, video thật và chỉ ra các kết quả."
+                                },
+                                {
+                                    "content": "Thuật toán theo dõi để từ đó đưa ra các dự đoán về trạng thái của đối tượng."
+                                },
+                                {
+                                    "content": "Khung theo dõi nhiều đối tượng trực quan dựa trên sự liên kết dữ liệu thô."
+                                },
+                                {
+                                    "content": "Thuật toán nêu lên trạng thái của đối tượng và chỉ ra sự trùng lặp trong dữ liệu."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đọc kĩ nội dung của đoạn [3], cần phân biệt Sort và Tracking-by-detection; trong đó, Tracking-by-dectection là thuật toán để giải quyết từng đối tượng (xác định, dự đoán) còn Sort là 'sự phát triển của khung theo dõi nhiều đối tượng'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "a13fa109-3faa-4908-b64b-8edc1188bca7",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Đối tượng được nhận dạng ID khi tham gia lưu thông là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Người tham gia lưu thông."
+                                },
+                                {
+                                    "content": "Phương tiện giao thông."
+                                },
+                                {
+                                    "content": "Thời điểm xảy ra va chạm."
+                                },
+                                {
+                                    "content": "Tất cả các loại xe cơ giới."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đọc nội dung của đoạn [4] xác định thông tin: '… từ đó gán địa chỉ nhận dạng ID cho từng phương tiện lưu thông và phân loại chúng… xe ô tô, xe tải, xe buýt, xe máy và xe đạp'; cần lưu ý xe đạp không phải xe cơ giới nên chọn Từ khóa B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "6c8aac9d-422a-4138-987a-b6d77c8d5b1a",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Theo nội dung của bài viết, tỉ lệ chính xác của mô hình phụ thuộc nhiều nhất vào yếu tố nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Kích thước của phương tiện."
+                                },
+                                {
+                                    "content": "Góc quan sát của camera."
+                                },
+                                {
+                                    "content": "Điều kiện thời tiết."
+                                },
+                                {
+                                    "content": "Sự khúc xạ ánh sáng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào từ khóa 'tỷ lệ chính xác' để tìm thông tin trong đoạn [5]: 'với xe ô tô, xe tải và xe buýt thì tỉ lệ chính xác tương đối cao và ổn định do đặc điểm kích thước và nhận dạng của chúng'; trong đoạn có nhắc tới yếu tố góc quan sát của camera, thời tiết, ánh sáng… nhưng đó không phải yếu tố quan trọng nhất.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "0932f554-d21b-4954-ac4d-f504bfbb0961",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Đọc đoạn [5] và tìm từ không quá ba tiếng để hoàn thành câu văn sau:\nỞ Việt Nam, phương tiện di chuyển chủ yếu là (1) ____, mật độ lưu thông cao nên để xây dựng được thuật toán ổn định và chính xác là rất phức tạp, cần thời gian dài để có thể hoàn thiện mô hình.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "xe máy"
+                            ]
+                        },
+                        "answer_detail": "\"Đọc thông tin trong đoạn [5] xác định từ cần điền là: 'xe máy' vì có thông tin 'tại Việt Nam, giao thông với đặc thù lượng xe máy lớn và mật độ lưu thông cao...'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "d714b01c-5773-40a9-98f9-2336690a5532",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Sau quá trình thử nghiệm tại các thành phố lớn, nhóm nghiên cứu đã thấy kết quả phân loại và kiểm đếm:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Có sự khác biệt do đặc thù về dân cư."
+                                },
+                                {
+                                    "content": "Có sự chênh lệch do mật độ lưu thông."
+                                },
+                                {
+                                    "content": "Chỉ phù hợp với những thành phố lớn."
+                                },
+                                {
+                                    "content": "Chỉ áp dụng được khi nâng cấp camera."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào từ khóa 'kết quả phân loại và kiểm đếm' để đọc lại nội dung của đoạn [6] và xác định thông tin: 'nhóm nghiên cứu nhận thấy khi mật độ lưu thông thấp, thuật toán cho kết quả phân loại và kiểm đếm tương đối chính xác. Với mật độ lưu thông trung bình và cao, kết quả bắt đầu có độ chênh lệch và mất ổn định hơn ở loại phương tiện và xe đạp và xe máy'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "13df0bdd-dde6-4a8c-8dcb-a79147e090b1",
+                        "parent_id": "26a4b700-e6a6-4cee-bbcc-8ab8a954153b",
+                        "position": 0,
+                        "content": "Hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí:\nKết quả của quá trình thực nghiệm bằng video thực tế là cơ sở cho quá trình ____ để ____ mật độ lưu thông nhằm ____ tình trạng hệ thống giao thông bị quá tải, gây ùn tắc cho các phương tiện tham gia.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "items": [
+                                "giải quyết",
+                                "đánh giá",
+                                "khắc phục",
+                                "điều tiết",
+                                "xác định"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                4,
+                                1,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào từ khóa 'hệ thống giao thông bị quá tải', 'gây ùn tắc' tương đương với 'tình trạng ùn tắc giao thông' xác định nội dung cần tìm ở đoạn [6]: 'Các số liệu… được áp dụng vào việc tính toán mật độ lưu thông trên từng khoảng thời gian, từ đó đưa ra các kết luận', 'nhằm trực tiếp giảm thiểu tình trạng ùn tắc giao thông'. Chú ý 'tính toán' tương đương với 'xác định', 'kết luận' tương đương với 'đánh giá' và 'giảm thiểu' tương đương với 'khắc phục'.\"\n\r\n-----",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                "part_id": "0d944be7-caa6-4a9e-9c84-e644ed64c69c",
+                "position": 0,
+                "content": "$\\textbf{STARTUP VIỆT PHÁT TRIỂN VOICEGPT}$\n[1] Dựa trên dữ liệu của ChatGPT, nhóm khởi nghiệp tại TP HCM phát triển nền tảng VoiceGPT có thể giao tiếp với AI bằng giọng nói, sử dụng miễn phí.\n[2] VoiceGPT được startup Tesse (quận Phú Nhuận) cùng 3 kỹ sư lập trình phát triển từ đầu tháng 1 khi ChatGPT tạo ra cơn sốt trên thế giới, trong đó Việt Nam.\n[3] Nguyễn Phạm Tuấn Anh, sáng lập Tesse cho biết, thời điểm đó, ChatGPT chưa hỗ trợ người dùng đăng ký tại Việt Nam. Vì thế nhiều người đã bị lừa khi mua tài khoản trên mạng xã hội. Mong muốn có một sản phẩm ChatGPT cho người Việt, các thành viên nhóm liên hệ với OpenAI, đơn vị phát triển sản phẩm, đề xuất phát triển ứng dụng này tại Việt Nam. \"Chúng tôi được chấp thuận có thể phát triển ứng dụng nên bắt tay vào xây dựng VoiceGPT\", Tuấn Anh chia sẻ.\n[4] Nhóm lập trình, thiết kế trang web cho phép người dùng tạo tài khoản trên mạng bằng email, số điện thoại ở Việt Nam, sử dụng được trên máy tính và điện thoại thông minh. Khi người dùng viết câu hỏi, hệ thống máy chủ của VoiceGPT sẽ chuyển tiếp dữ liệu này qua máy chủ của ChatGPT. Khi máy chủ của ChatGPT phản hồi, dữ liệu được đưa về VoiceGPT cung cấp câu trả lời cho người dùng. Theo nhóm, do thông qua máy chủ trung gian, câu trả lời có độ trễ nhất định.\n[5] Giao diện VoiceGPT được thiết kế tương tự ChatGPT với các tính năng trực quan, thuận tiện thao tác. Người dùng có thể sử dụng tiếng Việt và tiếng Anh khi sử dụng VoiceGPT. Sản phẩm cũng được tích hợp thêm tính năng vẽ tranh thông qua các gợi ý từ văn bản.\n[6] Ngoài giao tiếp với AI bằng văn bản, nhóm phát triển thêm tính năng nói chuyện bằng giọng nói. Để làm được việc này nhóm mua công cụ AI của Google nhận diện giọng nói người dùng chuyển sang văn bản và ngược lại. Khả năng nhận diện giọng nói của VoiceGPT có độ chính xác trên 98% cả tiếng Việt và tiếng Anh.\n[7] Sở dĩ nhóm muốn phát triển tính năng giao tiếp bằng giọng nói là muốn giúp một số người không có điều kiện gõ văn bản như người khuyết tật, người không biết chữ, trẻ mẫu giáo hoặc không rảnh tay...\n[8] Theo Tuấn Anh, việc OpenAI cho phép các đơn vị khác phát triển ứng dụng dựa trên ChatGPT sẽ giúp các startup phát triển các sản phẩm phục vụ cho lĩnh vực mình. \"Nhóm sử dụng giọng nói để giao tiếp với ChatGPT là một tính năng mới có thể khai thác là một ví dụ cho việc phát triển ứng dụng dựa trên nên tảng này\", Tuấn Anh chia sẻ.\n[9] Hiện Voice GPT có khoảng 70.000 người dùng đăng ký sau hơn 1 tháng ra mắt. Khi sử dụng họ phải đăng ký tài khoản và được một người dùng trong cộng đồng VoiceGPT trên mạng xã hội giới thiệu. Hiện mỗi ngày một tài khoản có thể hỏi 40 câu, một giờ được hỏi tối đa 20 câu. Lý giải điều này, nhóm cho biết, hiện việc sử dụng VoiceGPT nhóm phải trả phí cho nhà cung cấp dựa trên số lượng từ ngữ, nên cần đưa ra giới hạn để người dùng hỏi những câu thật sự cần thiết.\n[10] Trải nghiệm VoiceGPT, anh Hoàng Minh (36 tuổi), ngụ TP Thủ Đức cho biết, sản phẩm dễ đăng ký, giao diện dễ sử dụng, tương tự như khi truy cập ChatGPT. Tuy nhiên, sản phẩm có độ trễ khi phản hồi câu hỏi, một số thao tác bị treo phải chạy lại trang web mới được sử dụng tiếp. \"Tôi có con trai 5 tuổi rất thích tính năng chat bằng giọng nói vì cháu chưa rành mặt chữ nhưng vẫn có thể sử dụng để khám phá những điều còn thắc mắc\", anh Minh nói.\n[11] Ông Lê Nhật Quang, Phó giám đốc Khu công nghệ phần mềm, Đại học Quốc gia TP HCM, đánh giá VoiceGPT là một sản phẩm được phát triển bởi người Việt trên cơ sở mã nguồn OpenAI sẽ thúc đẩy việc phát triển các ứng dụng cho các tác vụ thuần Việt tốt hơn sau này. Tuy nhiên, ông cho rằng VoiceGPT hiện có tốc độ phản hồi khá chậm, một số nội dung bị lặp lại, nên nhóm cần cải thiện những vấn đề này.\n(Theo Hà An, [liên kết đáng ngờ đã bị xóa], đăng ngày 15/02/2023)\n-----",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_van",
+                "chapter": 1,
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-05T23:55:52.820479+07:00",
+                "updated_at": "2025-12-06T11:21:55.577593+07:00",
+                "questions": [
+                    {
+                        "id": "444e370b-b0d8-454f-8b6e-596bee7f8f90",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Hãy điền một cụm từ không quá ba tiếng vào chỗ trống để hoàn thành nhận định sau:\nTừ nền tảng ChatGPT đã được phát triển trước đó, một nhóm khởi nghiệp đã nghiên cứu và tìm ra phương thức giao tới với AI miễn phí thông qua (1) ____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "giọng nói"
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào thông tin trong đoạn [1] 'Dựa trên dữ liệu của ChatGPT, nhóm khởi nghiệp tại TP HCM phát triển nền tảng VoiceGPT có thể giao tiếp với AI bằng giọng nói, sử dụng miễn phí.', xác định từ cần điền là 'giọng nói' hoặc 'ngôn ngữ nói'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "688b6406-4337-4646-a2a4-21ca8bf70a07",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Theo tác giả, mục đích ban đầu của nhóm khởi nghiệp khi phát triển VoiceGPT là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Cạnh tranh với các startup công nghệ trong khu vực Đông Nam Á."
+                                },
+                                {
+                                    "content": "Tạo ra sản phẩm ChatGPT phù hợp và dành riêng cho người Việt."
+                                },
+                                {
+                                    "content": "Tham gia vào dự án phát triển của OpenAI để hoàn thiện ChatGPT."
+                                },
+                                {
+                                    "content": "Xây dựng một ứng dụng miễn phí với chức năng tương đương ChatGPT."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đọc đoạn [3], căn cứ vào thông tin 'Mong muốn có một sản phẩm ChatGPT cho người Việt, các thành viên nhóm liên hệ với OpenAI, đơn vị phát triển sản phẩm, đề xuất phát triển ứng dụng này tại Việt Nam.' xác định mục đích của nhóm là tạo ra một sản phẩm phù hợp về ngôn ngữ và dành cho người Việt. Đáp án đúng là B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "b820a73d-9c0f-4635-b1c3-73eae2e087bd",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí\nTrong giai đoạn đầu tiên khi nghiên cứu, phát triển và đưa vào sử dụng, người dùng sẽ ____ bằng email hoặc số điện thoại Việt Nam; các câu hỏi sẽ được chuyển về máy chủ của hệ thống ____ để xử lý sau đó trả về ____ trước khi tới với người dùng.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "items": [
+                                "OpenAI",
+                                "ChatGPT",
+                                "tạo tài khoản",
+                                "Voice GPT"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào từ khóa 'email hoặc số điện thoại ở Việt Nam', xác định được thông tin cần tìm kiếm nằm trong đoạn [4]: người dùng tại Việt Nam đăng kí tài khoản để dùng và hệ thống VoiceGPT đảm nhiệm chức năng trung gian từ người dùng tới ChatGPT.\nCâu cần điền là: Trong giai đoạn đầu tiên khi nghiên cứu, phát triển và đưa vào sử dụng, người dùng sẽ [tạo tài khoản] bằng email hoặc số điện thoại Việt Nam; các câu hỏi sẽ được chuyển về máy chủ của hệ thống [ChatGPT] để xử lý, sau đó trả về [VoiceGPT] trước khi tới với người dùng.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "7d3ee5b1-d805-4355-861f-a12e18854c4f",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Theo đoạn [4], hạn chế của ứng dụng VoiceGPT là ở khả năng làm việc độc lập. Đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Từ thông tin tổng hợp được qua 04 đoạn đầu tiên của văn bản, xác định được VoiceGPT chỉ là hệ thống trung gian giữa người dùng và ChatGPT nên đây không phải ứng dụng hoạt động độc lập.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "929e30ac-00bf-4104-a82b-3356a766905b",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "So với ChatGPT, VoiceGPT có sự vượt trội về:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Giao diện đẹp mắt và dễ dùng."
+                                },
+                                {
+                                    "content": "Tính năng chuyển đổi hình ảnh."
+                                },
+                                {
+                                    "content": "Không giới hạn câu hỏi theo ngày."
+                                },
+                                {
+                                    "content": "Câu trả lời không có sự trùng lặp."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đọc đoạn [5], xác định được thông tin: VoiceGPT tích hợp thêm tính năng vẽ tranh thông qua gợi ý từ các văn bản.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "40bc4826-1d3e-4e88-8d22-41d65d1ded7b",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Hãy điền một cụm từ không quá ba tiếng vào chỗ trống để hoàn thành nhận định sau:\nĐể thuận tiện cho một nhóm người dùng bị hạn chế về điều kiện gõ văn bản, nhóm phát triển VoiceGPT đã phát triển thêm tính năng (1) ____ dựa trên nền tảng công cụ AI của Google.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "trò chuyện"
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào từ khóa 'AI của Google' xác định thông tin cần tìm nằm trong đoạn [6] và [7]: 'ngoài giao tiếp với AI bằng văn bản, nhóm phát triển thêm tính năng nói chuyện bằng giọng nói'. Vậy từ cần điền là 'trò chuyện' hoặc 'nói chuyện'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "b83c2d2e-b364-4886-833d-a5969ed6b91d",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Theo người sáng lập Tesse, điều gì sẽ tạo điều kiện cho các startup thuộc nhiều lĩnh vực phát triển ứng dụng riêng?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tài năng và sự nhạy bén của đội ngũ kỹ sư được đào tạo chuyên nghiệp trong những năm gần đây."
+                                },
+                                {
+                                    "content": "Ngành công nghệ số đang được đầu tư và phát triển trong tất cả mọi lĩnh vực của đời sống."
+                                },
+                                {
+                                    "content": "OpenAI luôn sẵn sàng chia sẻ tài nguyên và đón nhận các đơn vị hợp tác phát triển trên mọi lĩnh vực."
+                                },
+                                {
+                                    "content": "ChatGPT đảm bảo sự tối ưu hóa và đa dạng về tính năng, liên tục được phát triển về ngôn ngữ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Xác định 'người sáng lập Tesse' ở đây là Nguyễn Phạm Tuấn Anh, từ đó, đọc lướt để tìm kiếm những đoạn có đề cập đến nhân vật hoặc xuất hiện ý kiến, lời nói của nhân vật: đoạn [3], [8]. Nội dung liên quan đến câu hỏi nằm ở đoạn [8]: 'Theo Tuấn Anh, việc OpenAI cho phép các đơn vị khác phát triển ứng dụng dựa trên ChatGPT sẽ giúp các startup phát triển các sản phẩm phục vụ cho lĩnh vực mình' chọn C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "f23c1da8-7906-4a13-9c44-920b0a22865d",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Việc hạn chế số lượng câu hỏi trong một ngày đối trên ứng dụng VoiceGPT là do vấn đề bản quyền. Đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Việc hạn chế số lượng câu hỏi từ người dùng trong một ngày được đề cập ở đoạn [9]: 'Hiện mỗi ngày một tài khoản có thể hỏi 40 câu, một giờ được hỏi tối đa 20 câu. Lý giải điều này, nhóm cho biết, hiện việc sử dụng VoiceGPT nhóm phải trả phí cho nhà cung cấp dựa trên số lượng từ ngữ, nên cần đưa ra giới hạn để người dùng hỏi những câu thật sự cần thiết.' Như vậy, vấn đề trả phí cho nhà cung cấp dẫn đến sự giới hạn về số lượng câu hỏi, không phải vấn đề bản quyền.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "78b8a1f0-fb7a-491f-92b3-44d968f0eb19",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Từ thông tin trong đoạn [10], có thể suy ra:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Người dùng tại Việt Nam có nhiều kì vọng về sự hoàn thiện của ứng dụng."
+                                },
+                                {
+                                    "content": "Số lượng người sử dụng ứng dụng nhiều nhất ở Thành phố Hồ Chí Minh."
+                                },
+                                {
+                                    "content": "Phản hồi về trải nghiệm của khách hàng với ứng dụng không mấy khả quan."
+                                },
+                                {
+                                    "content": "Ứng dụng được thiết kế về giao diện, tính năng và nội dung phù hợp với trẻ em."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [10] cung cấp thông tin về trải nghiệm của người dùng thông qua đánh giá của anh Hoàng Minh, gồm cả điểm mạnh: dễ đăng ký, giao diện dễ sử dụng, thích hợp đối với những người không tiện gõ văn bản (con trai anh 5 tuổi, chưa biết mặt chữ nhưng vẫn có thể sử dụng) và điểm yếu: độ trễ khi phản hồi câu hỏi, thao tác bị treo, chọn A.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    },
+                    {
+                        "id": "935ef379-7832-47c7-a8f6-e0854662117d",
+                        "parent_id": "13f65767-92f8-4d3e-9a5f-ea216352a70a",
+                        "position": 0,
+                        "content": "Theo nhận xét của ông Lê Nhật Quang - Phó giám đốc khu công nghệ phần mềm, Đại học Quốc gia TP HCM, ứng dụng VoiceGPT là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "chapter": 1,
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Cơ hội để chứng minh tiềm năng phát triển của công nghệ Việt Nam so với các nước trong khu vực và trên thế giới."
+                                },
+                                {
+                                    "content": "Sự khởi đầu cho quá trình phát triển các ứng dụng với tác vụ thuần Việt, phù hợp với điều kiện của Quốc gia hiện nay."
+                                },
+                                {
+                                    "content": "Một sản phẩm công nghệ đã có nhiều hỗ trợ người dùng tại Việt Nam nhưng cần có sự đầu tư lớn về vốn để tiếp tục phát triển."
+                                },
+                                {
+                                    "content": "Ứng dụng công nghệ có nhiều tính năng mới mẻ, đáp ứng nhu cầu của nhiều người nhưng cần hoàn thiện về giao diện và tương tác người dùng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào từ khóa 'Lê Nhật Quang' để xác định thông tin cần tìm kiếm trong đoạn [11]. Ở đoạn văn này, tác giả đã trích lại lời nhận xét về ứng dụng VoiceGPT: thúc đẩy việc phát triển ứng dụng, tốc độ phản hồi chậm và nội dung bị trùng lặp.\nKết hợp với phương pháp loại trừ, tìm được đáp án đúng là B (sản phẩm này có ý nghĩa về sự khởi đầu, tạo động lực cho các doanh nghiệp tiếp tục phát triển).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-05T23:55:52.820479+07:00",
+                        "updated_at": "2025-12-05T23:55:52.820479+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "8bf34ff1-7f7b-4676-9347-22f8548f5e71",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "0d944be7-caa6-4a9e-9c84-e644ed64c69c",
+        "status": "in_progress",
+        "created_at": "2025-12-11T09:17:52.61062+07:00",
+        "updated_at": "2025-12-11T09:17:52.61062+07:00",
+        "submited_at": "2025-12-11T09:17:52.61062+07:00"
+    }
+}

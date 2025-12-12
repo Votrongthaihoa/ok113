@@ -1,0 +1,1588 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+        "title": "Tư Duy Khoa Học 3",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": false,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "created_at": "2025-12-06T09:34:03.66758+07:00",
+        "updated_at": "2025-12-06T17:21:26.569934+07:00",
+        "questions": [
+            {
+                "id": "8a9964f6-5630-4c75-94c6-112fc1ac14c9",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 1,
+                "content": "${\\textbf{Phương pháp trắc quang}}$\nPhương pháp trắc quang là phương pháp phân tích dựa vào hiệu ứng hấp thụ xảy ra khi phân tử vật chất tương tác với bức xạ điện từ. Vùng bức xạ được sử dụng trong phương pháp này là vùng tử ngoại hay khả kiến ứng với bước sóng khoảng từ 200-800nm.\nNguyên tắc của phương pháp là dựa vào lượng ánh sáng đã bị hấp thu bởi chất hấp thu để tính hàm lượng của chất hấp thu. Khi chiếu một chùm sáng có bước sóng phù hợp đi qua một dung dịch chất màu, các phân tử hấp thụ sẽ hấp thụ một phần năng lượng chùm sáng, một phần ánh sáng truyền qua dung dịch. Xác định cường độ chùm ánh sáng truyền qua đó ta có thể xác định được nồng độ của dung dịch.\nĐộ truyền quang (T) là tỉ lệ giữa lượng ánh sáng đi qua một mẫu (I) so với lượng ánh sáng ban đầu được chiếu vào mẫu (ánh sáng tới, $I_o$).\nĐộ hấp thụ (A) của một mẫu được định nghĩa là số đối của logarit của độ truyền qua: $A = - \\log T$\nSự hấp thụ ánh sáng của dung dịch tuân theo định luật Bouger-Lambert-Beer: Khi chiếu một chùm bức xạ đơn sắc (cường độ bức xạ ban đầu là $I_o$) đi qua một lớp dung dịch có bề dày $l$ và có nồng độ là $C$, thì cường độ bức xạ $I$ sau khi đi qua dung dịch bị giảm đi do quá trình hấp thụ, phản xạ, tán xạ… Độ hấp thụ quang của một dung dịch đối với một chùm sáng đơn sắc tỷ lệ thuận với độ dày truyền quang và nồng độ chất tan trong dung dịch.\nCông thức: $A = \\varepsilon \\times l \\times C$\nTrong đó:\n$A$ là độ hấp thụ quang của dung dịch tại bước sóng $\\lambda$ (không có thứ nguyên)\n$l$ là độ dày truyền quang (cm) (hay còn gọi là độ dày cuvet)\n$C$ là nồng độ mẫu (mol/L)\n$\\varepsilon$ là hệ số hấp thụ phân tử hay hệ số tắt phân tử (L/mol.cm)\nNgoài ra, ở một bước sóng đã cho, độ hấp thụ quang của một hỗn hợp các cấu tứ không tương tác hóa học với nhau bằng tổng độ hấp thụ quang của các cấu tứ riêng biệt ở bước sóng này (hay còn gọi là định luật cộng tính).",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T16:48:11.93265+07:00",
+                "questions": [
+                    {
+                        "id": "740e2c42-3f54-40cf-899f-38daf14190e2",
+                        "parent_id": "8a9964f6-5630-4c75-94c6-112fc1ac14c9",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M2] Cho biết các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Để cải thiện độ nhạy (khả năng phát hiện nồng độ nhỏ) của phương pháp trắc quang, người ta có thể giảm độ dày của cuvet."
+                                },
+                                {
+                                    "content": "Nếu kiểm tra nồng độ của một mẫu chất bị lẫn tạp chất cũng hấp thụ ánh sáng ở cùng bước sóng với chất cần phân tích, kết quả thu được có thể cao hơn giá trị thực."
+                                },
+                                {
+                                    "content": "Nếu một dung dịch có độ hấp thụ quang là A = 0.5 tại bước sóng $\\lambda$, thì điều này có nghĩa là 50% ánh sáng đã bị dung dịch đó hấp thụ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T09:36:00.530271+07:00"
+                    },
+                    {
+                        "id": "a9ca759d-0941-411c-b0d1-afe3ba389c58",
+                        "parent_id": "8a9964f6-5630-4c75-94c6-112fc1ac14c9",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M2] Đồ thị nào sau đây là đồ thị phù hợp mô tả mối quan hệ giữa độ truyền quang và nồng độ của mẫu dung dịch?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$/image_{https://api-course.hethonglab.com/static/6d6855eb-c063-4ee9-9bdc-b6a6ddc37f7f.png}_{left}_{15}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://api-course.hethonglab.com/static/b938643b-907a-4cd5-a3b9-dcf2d3f557d7.png}_{left}_{15}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://api-course.hethonglab.com/static/25a739b4-fa70-4467-b0ea-2637e0f23a2d.png}_{left}_{15}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://api-course.hethonglab.com/static/3ecd3caf-7ab4-4a72-8b06-df6ec1c8f0c2.png}_{left}_{15}_{block}$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:29:16.316635+07:00"
+                    },
+                    {
+                        "id": "6af1cc46-9153-423a-b8fd-9a7c9045a9fb",
+                        "parent_id": "8a9964f6-5630-4c75-94c6-112fc1ac14c9",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M2] Cấu tạo của một máy quang phổ gồm 10 bộ phận. Kéo thả cụm từ phù hợp vào chỗ trống (các số đứng trước các cụm từ ứng với bộ phận đó trên sơ đồ):\nBộ phận tiếp nhận dòng tia đơn sắc và chuyển thành tín hiệu quang điện: ____\nBộ phận chỉ cho một tia sáng đơn sắc đi qua: ____\nBộ phận giúp toàn bộ các tia sáng đi theo một phía: ____\nBộ phận lọc bỏ các tia tạp khỏi dòng đơn sắc: ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "(6): Kính lọc phụ",
+                                "(1): Nguồn sáng",
+                                "(5): Khe sáng",
+                                "(9): Bộ khuếch đại",
+                                "(2): Gương phản xạ",
+                                "(3): Hệ thống thấu kính hội tụ và phân kì",
+                                "(7): Cuvet đựng dung dịch chất hấp phụ",
+                                "(10): Bộ phận hiển thị kết quả",
+                                "(4): Bộ phận tạo ánh sáng đơn sắc",
+                                "(8): Bộ phận phát hiện."
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                7,
+                                5,
+                                2,
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:30:59.18282+07:00"
+                    },
+                    {
+                        "id": "91dc2e01-1b6f-41c6-a62f-3a250f93ff53",
+                        "parent_id": "8a9964f6-5630-4c75-94c6-112fc1ac14c9",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M3] HIn là chất chỉ thị có tính acid yếu:\n$HIn \\rightleftarrows In^- + H^+$\nKhảo sát với các bước sóng khác nhau, với độ dày cuvet là 1 cm cho các dung dịch $5.10^{-4}$ M của chất này, được pha chế trong dung dịch HCl 0,10 M và NaOH 0,10 M, được giá trị mật độ quang (A) cho như sau:\nNhận định sau là đúng hay sai?\n$/image_{https://api-course.hethonglab.com/static/ee9aeac1-26aa-440e-afc1-8cd0d68db566.png}_{center}_{50}_{block}$\nTừ dữ liệu trên, ta dự đoán được chất chỉ thị trên ở dạng acid (pH nhỏ) có màu lam – lục và ở dạng base (pH lớn) có màu vàng – cam.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng."
+                                },
+                                {
+                                    "content": "Sai."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:32:21.073766+07:00"
+                    },
+                    {
+                        "id": "b9df43e0-6826-4fe6-ad99-2fe8b06dad49",
+                        "parent_id": "8a9964f6-5630-4c75-94c6-112fc1ac14c9",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M3] Hằng số phân li acid (cũng là hằng số cân bằng của phản ứng phân li) đặc trưng cho độ mạnh yếu của acid đó, đối với acid HIn như trên được tính theo công thức: $K_a = \\dfrac{[In^-].[H^+]}{[HIn]}$. Để xác định hằng số này, người ta đo độ truyền qua của một tia sáng đơn sắc (bước sóng 625 nm) qua dung dịch chất chỉ thị này với nồng độ $1,8.10^{-3}$ M đựng trong thiết bị đo với chiều dài cuvet 1 cm. Kết quả cho thấy cường độ tia sáng truyền qua giảm đi 87,7%. Coi như chất chỉ thị hoàn toàn không phân li trong dung dịch HCl 0,10 M và phân li hoàn toàn trong dung dịch NaOH 0,10 M; giá trị của hằng số $K_a$ của acid HIn trong điều kiện thí nghiệm trên là ____.$10^{-5}$. (kết quả làm tròn đến ba chữ số có nghĩa).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "2,88"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-11T20:33:00.291801+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "db783876-e699-4a89-a416-ddd8d81ab391",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 2,
+                "content": "${\\textbf{Nhà máy thủy điện Hòa Bình}}$\nNhà máy Thủy điện Hoà Bình được xây dựng tại hồ Hòa Bình, tỉnh Hòa Bình, là nhà máy thủy điện lớn nhất Việt Nam và Đông Nam Á từ năm 1994 đến nay. Nhà máy thủy điện Hòa Bình do Liên Xô giúp đỡ xây dựng và hướng dẫn vận hành. Công trình khởi công xây dựng ngày 6 tháng 11 năm 1979, khánh thành ngày 20 tháng 12 năm 1994. Công suất sản sinh điện năng theo thiết kế là 1.920 MW, gồm 12 cửa xả và 8 tổ máy, mỗi tổ máy có công suất 240 MW. Sản lượng điện hàng năm là 8,16 tỷ kilowatt giờ (KWh).\nNhư các công trình khác, nhà máy thủy điện Hòa Bình cũng gồm các bộ phận sau:\n1. Đập - Nhà máy thủy điện Hòa Bình dựa vào một con đập chứa nước lại, tạo ra một hồ chứa có diện tích 208 km2, dung tích 9,45 tỉ mét khối.\n2. Ống dẫn nước - Cửa trên đập mở và lực hấp dẫn đẩy nuớc chảy qua các đường ống chịu áp. Đường ống dẫn nước đến tua bin. Nước làm tăng dần áp lực khi nó chảy qua đường ống này.\n3. Tua bin - Nước hướng về và làm quay các cánh lớn của tua bin, tua bin này gắn liền với máy phát điện ở phía trên nó nhờ một trục.\n4. Máy phát điện - Khi các cánh tua bin quay, một loạt các nam châm trong các máy phát điện cũng quay theo. Những nam châm khổng lồ này quay quanh cuộn dây đồng, sản sinh ra dòng điện xoay chiều (AC).\n5. Biến áp - Máy biến áp được đặt bên trong nhà máy điện chuyển đổi nó thành dòng điện có điện áp cao hơn nhưng vẫn giữ nguyên tần số.\n6. Đường dây điện - Trong mỗi nhà máy điện có đến bốn dây: ba dây pha của năng lượng điện được sản xuất cùng với một dây trung tính.\n7. Cống xả - Đưa nước chảy qua các đường ống và chảy vào hạ lưu sông.\nCon đập còn vô cùng ý nghĩa tới nền nông nghiệp nước ta, đặc biệt là khu vực đồng bằng sông Hồng. Nó chặn ngang dòng sông Đà, do vậy ngăn lũ lụt, thiên tai xảy ra với các tỉnh đồng bằng Bắc Bộ trong đó có thủ đô Hà Nội. Mặt khác, việc tích trữ nước và xả có kế hoạch vào thời điểm tưới tiêu, con đập này đã mang lại lợi ích to lớn trong nền nông nghiệp Việt Nam và các ngành kinh tế khác.\nNgày nay, nhà máy thủy điện Hòa Bình là nguồn cung cấp điện chủ lực của toàn bộ hệ thống điện Việt Nam, góp phần đắc lực trong việc cung cấp nguồn điện cho miền Nam và miền Trung Việt Nam.\n$/image_{https://api-course.hethonglab.com/static/6fb541bb-e05f-42e3-be6a-336fcac190af.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T16:48:35.182322+07:00",
+                "questions": [
+                    {
+                        "id": "656ca6ed-5c87-4ff7-8951-e578953f607c",
+                        "parent_id": "db783876-e699-4a89-a416-ddd8d81ab391",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M1] Ở nhà máy thủy điện Hòa Bình chủ yếu có sự chuyển hóa năng lượng từ dạng nào sang dạng nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Cơ năng thành điện năng."
+                                },
+                                {
+                                    "content": "Nhiệt năng thành điện năng."
+                                },
+                                {
+                                    "content": "Cơ năng thành thế năng."
+                                },
+                                {
+                                    "content": "Điện năng thành cơ năng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:33:48.787947+07:00"
+                    },
+                    {
+                        "id": "4e47eadc-22a2-4dde-b271-b8829631c407",
+                        "parent_id": "db783876-e699-4a89-a416-ddd8d81ab391",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M1] Ưu điểm của nhà máy thủy điện là: Chọn nhiều đáp án đúng",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "ngoài sản xuất điện còn có vai trò quan trọng trong quản lí nguồn nước, kiểm soát lũ lụt."
+                                },
+                                {
+                                    "content": "các trạm thủy điện nhỏ và cực nhỏ có thể đáp ứng được nhu cầu điện năng tại các vùng xa với mức tác động lên môi trường rất nhỏ."
+                                },
+                                {
+                                    "content": "có tầm hoạt động rộng, chỉ cần một lượng mưa nhất định và dòng chảy ổn định của sông ngòi."
+                                },
+                                {
+                                    "content": "khi xây dựng đập thủy điện ít gây tác động đến môi trường và hệ sinh thái."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:34:09.859315+07:00"
+                    },
+                    {
+                        "id": "fd2887a1-892f-4cea-b6ea-8b604324364a",
+                        "parent_id": "db783876-e699-4a89-a416-ddd8d81ab391",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M1] Kéo thả cụm từ phù hợp vào chỗ trống về nguyên lí của nhà máy thủy điện Hòa Bình:\nĐầu tiên, khi ____ mở, dòng nước với áp lực lớn chảy từ cao xuống thấp trong ____ tạo ra các cột nước khổng lồ với áp lực lớn, làm quay ____ được kết nối với ____ tạo ra điện năng. Điện năng tạo ra đi qua ____, rồi sẽ được kết nối vào mạng lưới phân phối điện và truyền đi.\n\n",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "đập",
+                                "cửa trên đập",
+                                "máy phát điện",
+                                "tua bin",
+                                "máy biến áp",
+                                "đường dây điện",
+                                "cổng xả",
+                                "ống dẫn nước"
+                            ],
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                6,
+                                3,
+                                2,
+                                4
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:37:44.557406+07:00"
+                    },
+                    {
+                        "id": "6937c059-64c4-4082-abba-649b82689ca1",
+                        "parent_id": "db783876-e699-4a89-a416-ddd8d81ab391",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M3] Thực tế điện năng được truyền tải từ các nhà máy thủy điện lớn phía bắc như Thủy điện Sơn La, Lai Châu, Hòa Bình,… được hòa vào lưới điện quốc gia để truyền tải vào phía Nam. Trong quá trình trên, một phần điện năng bị hao phí đáng kể do tỏa nhiệt trên dây dẫn.\nCho biết công thức tính công suất tỏa nhiệt trên dây dẫn: ($P_{hp}$, $P_{phát}$ tính theo đơn vị W, R là điện trở dây dẫn, theo đơn vị $\\Omega$, $U_{phát}$ theo đơn vị V).\n$P_{hp} = \\dfrac{P_{phát}^2 R}{U_{phát}^2}$\nĐiện trở của dây dẫn tính theo công thức $R = \\rho \\dfrac{l}{S}$, với $\\rho$ là điện trở suất ($\\Omega m$), $l$ là chiều dài dây dẫn (m), $S$ là tiết diện dây dẫn ($m^2$).\nCho biết các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Trên đường dây cao thế 500kV Bắc - Nam, người ta sử dụng dây điện lõi nhôm thay cho dây điện lõi đồng do nó có điện trở suất bé hơn, giảm hao phí."
+                                },
+                                {
+                                    "content": "Để giảm hao phí, cách hiệu quả nhất có thể sử dụng là tăng hiệu điện thế khi truyền tải."
+                                },
+                                {
+                                    "content": "Máy biến áp được sử dụng trong nhà máy thủy điện Hòa Bình là máy tăng áp."
+                                },
+                                {
+                                    "content": "Để truyền tải điện áp từ nhà máy thủy điện Hòa Bình đến quận Hà Đông (Hà Nội), người ta sử dụng hệ thống đường dây điện ba pha 220 kV dài 57 km. Dây dẫn có đường kính 27,5 mm; điện trở suất $4,35.10^{-8} \\Omega m$. Công suất hao phí khi truyền tải điện trên một máy phát từ nhà máy với công suất thiết kế qua hệ thống truyền tải điện trên gần bằng 5 MW."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:38:46.781495+07:00"
+                    },
+                    {
+                        "id": "56497422-e440-4ce4-9ba0-bf70d15926b7",
+                        "parent_id": "db783876-e699-4a89-a416-ddd8d81ab391",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M3] Khi một vật có khối lượng m đặt ở độ cao $h$ so với mặt đất (trong trọng trường của Trái Đất) thì thế năng trọng trường của vật được định nghĩa bằng công thức: $W_t = mgh$ Trong đó: $m$: khối lượng của vật (kg), $g$: gia tốc trọng trường, lấy $g = 9,8 m/s^2$, $h$: Độ cao của vật so với gốc thế năng (m). Khi toàn bộ các tổ máy đều hoạt động bình thường, với mực nước dâng được duy trì ở độ cao 117m so với các tổ máy, lưu lượng nước hàng năm là $57,4.10^9 m^3$. Với $D_{nước} = 1000 kg/m^3$, hiệu suất của nhà máy thủy điện Hòa Bình là ____%. (kết quả lấy đến hàng đơn vị).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "92"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:39:14.56172+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "37a1ddb7-5b39-47b5-80a8-61b6f6af89d0",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 3,
+                "content": "${\\textbf{Enzyme phosphofructokinase – 1 điều khiển quá trình đường phân }}$\nEnzyme là chất xúc tác sinh học có bản chất là protein, được tổng hợp trong các tế bào sống. Enzyme có tác dụng làm tăng tốc độ phản ứng trong điều kiện sinh lí bình thường của cơ thể mà không bị biến đổi sau phản ứng. Mỗi enzyme thường có một trung tâm hoạt động, đó là nơi enzyme liên kết đặc hiệu với cơ chất (chất chịu tác động của enzyme) để xúc tác cho phản ứng diễn ra. Với cơ chế hoạt động này, mỗi enzyme chỉ tác động lên một hay một số chất có cấu hình không gian phù hợp nên chỉ xúc tác cho một hoặc một số phản ứng hóa học cùng nhóm. Đây gọi là tính đặc hiệu của enzyme.\nMột số enzyme ngoài trung tâm hoạt động còn có các vùng cấu trúc khác gọi là vị trí dị lập thể. Tại vị trí này, các chất điều hòa không cạnh tranh có thể liên kết để ức chế hoặc tăng cường hoạt động của enzyme. Nhờ có cơ chế này mà người ta có thể ứng dụng trong điều trị bệnh ở người hoặc sản xuất các chế phẩm mong muốn.\nPhosphofructokinase – 1 (PFK-1) là enzyme quan trọng điều khiển quá trình đường phân, được hoạt hóa dị lập thể bởi AMP và fructose 2,6 – bisphosphate. Nồng độ của hai chất này tăng khi nguồn năng lượng dự trữ của tế bào giảm đi.\n$/image_{https://api-course.hethonglab.com/static/0ed81110-226b-43bb-b0c9-9ca0b3ff04bf.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T16:49:06.001219+07:00",
+                "questions": [
+                    {
+                        "id": "26fb15aa-2470-4d5a-9dc5-5b5958677df7",
+                        "parent_id": "37a1ddb7-5b39-47b5-80a8-61b6f6af89d0",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M1] Khi tế bào cần tăng hoạt động hô hấp tế bào (phân giải glucose) thì hàm lượng những chất nào sau đây có thể tăng? Chọn nhiều đáp án đúng.",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "AMP."
+                                },
+                                {
+                                    "content": "ATP."
+                                },
+                                {
+                                    "content": "Citrate."
+                                },
+                                {
+                                    "content": "Fructose 2,6 – bisphosphate."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                3
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:41:44.505414+07:00"
+                    },
+                    {
+                        "id": "1541cc3c-cb81-4fd9-bcc5-b3237e64bbd1",
+                        "parent_id": "37a1ddb7-5b39-47b5-80a8-61b6f6af89d0",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M1] Fructose 2,6-bisphosphate có vai trò quan trọng, là tác nhân chính trong việc điều hòa PFK-1 ở gan. Cho biết các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Fructose 2,6-bisphosphate hoạt hóa đường phân ở gan để glucose được giải phóng vào máu."
+                                },
+                                {
+                                    "content": "Fructose 2,6-bisphosphate hoạt hóa đường phân ở gan khi nồng độ glucose trong máu cao."
+                                },
+                                {
+                                    "content": "Giả sử một đột biến gen dẫn đến việc PFK-1 ở gan mất khả năng liên kết với fructose 2,6-bisphosphate nhưng vẫn có thể liên kết với AMP. Tế bào đột biến sẽ không bị ảnh hưởng đáng kể vì AMP vẫn có thể hoạt hóa enzyme."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:41:57.459793+07:00"
+                    },
+                    {
+                        "id": "684d60f6-ff6a-4b5c-afff-cd978208661f",
+                        "parent_id": "37a1ddb7-5b39-47b5-80a8-61b6f6af89d0",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M2] Nếu nồng độ AMP và fructose 2,6-bisphosphate trong tế bào đồng thời tăng cao sẽ ảnh hưởng như thế nào đến quá trình đường phân?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tốc độ đường phân không đổi so với khi chỉ nồng độ một chất tăng cao."
+                                },
+                                {
+                                    "content": "Tốc độ đường phân tăng đáng kể do tác dụng hoạt hóa phối hợp của AMP và fructose 2,6-bisphosphate."
+                                },
+                                {
+                                    "content": "Tốc độ đường phân không thay đổi vì hai chất này có tác động triệt tiêu lẫn nhau."
+                                },
+                                {
+                                    "content": "Tốc độ đường phân tăng nhẹ do hai chất này cạnh tranh lẫn nhau, tùy thuộc chất nào chiếm ưu thế."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:42:09.87459+07:00"
+                    },
+                    {
+                        "id": "069aa032-4a54-4a0c-85f5-f401d1c60eef",
+                        "parent_id": "37a1ddb7-5b39-47b5-80a8-61b6f6af89d0",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M1] Nhận định sau là đúng hay sai ?\nInsullin là hormone sinh ra bởi tuyển tụy khi nồng độ glucose cao. Insullin cũng tham gia điều hòa hoạt tính của enzyme phosphofructokinase – 1, kích thích quá trình đường phân.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng."
+                                },
+                                {
+                                    "content": "Sai."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:42:40.798074+07:00"
+                    },
+                    {
+                        "id": "94c7f94d-1b3c-40d4-8b58-d94ee7026e30",
+                        "parent_id": "37a1ddb7-5b39-47b5-80a8-61b6f6af89d0",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M3] Điền các từ thích hợp chỉ gồm một tiếng hoặc một cụm từ vào chỗ trống:\nGiả sử, các nhà khoa học đang nghiên cứu để tạo ra một loại thuốc giảm béo dựa trên hoạt động của fructose-2,6-bisphosphate. Các phân tử thuốc được sản xuất dựa trên cơ chế làm tăng ái lực với fructose-2,6- bisphosphate, dẫn đến làm ____ nồng độ fructose-2,6-biphosphate, từ đó ____ chuyển hóa fructose-6-phosphate để tạo ____. Quá trình này tiêu tốn ____, sẽ ____ sự ức chế hoạt động của enzyme phosphofructokinase-1, từ đó làm ____ chuyển hóa đường phân, hạn chế tích lũy năng lượng dư thừa dưới dạng lipid, giúp cơ thể giảm béo.(Lưu ý: đáp án khi điền không chứa dấu cách)",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "giảm",
+                                "tăng",
+                                "fructose–2,6–bisphosphate",
+                                "ATP",
+                                "tăng",
+                                "giảm"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:44:26.744753+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "b5f9476c-98a3-49d5-971f-7fe2ced5e3a5",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 4,
+                "content": "${\\textbf{Hiện tượng sương mù quang hóa}}$\nSương mù quang hóa là hiện tượng sương mù nhưng không phải do độ ẩm không khí gây ra, thường xảy ra ở các thành phố lớn. Sương mù quang hóa hình thành là do các chất khí NOx, VOCs (các hợp chất hữu cơ dễ bay hơi) thải ra từ động cơ phương tiện đi lại, chất thải công nghiệp. Nguồn năng lượng chính thúc đẩy quá trình hình thành sương khói là bức xạ điện từ từ ánh sáng mặt trời có cường độ mạnh, bước sóng khoảng 400 nm hoặc ngắn hơn, thuộc vùng tử ngoại. Năng lượng mà một phân tử hấp thụ từ bức xạ này có thể khởi phát các phản ứng quang hóa (photochemical reactions).\n$/image_{https://api-course.hethonglab.com/static/db7e93fc-a33a-49b7-a244-757b832a44db.png}_{center}_{50}_{block}$\nKhi lái xe, nitric oxide (NO) hình thành với lượng nhỏ trong xi-lanh động cơ đốt trong qua phản ứng:\n$N_2 (g) + O_2 (g) \\rightleftarrows 2NO (g)$ (1)\nHằng số cân bằng của phản ứng tăng từ ~ $10^{-15}$ ở 300K lên ~ 0,05 ở 2400K (nhiệt độ xi-lanh khi đốt).\nKhí NO có thể bị oxy hóa thành nitrogen dioxide ($NO_2$):\n$2NO (g) + O_2 (g) \\rightleftarrows 2NO_2 (g)$ (2)\nHằng số cân bằng giảm từ ~ $10^{12}$ ở 300K xuống ~ $10^{-5}$ ở 2400K.\nQuá trình quang phân ly $NO_2$ khởi đầu các phản ứng tạo sương mù quang hóa. Phân ly $NO_2$ cần 304 kJ/mol, tương ứng photon bước sóng 393 nm. Dưới ánh sáng mặt trời, $NO_2$ phân ly thành NO và O:\n$NO_2 (g) + hv \\rightarrow NO (g) + O (g)$ (3)\nNguyên tử O tạo ra tham gia nhiều phản ứng, một trong số đó tạo ozone ($O_3$):\n$O (g) + O_2 (g) + M (g) \\rightarrow O_3 (g) + M^ (g)$ (4)\nỞ tầng bình lưu, khí $O_3$ có tác dụng bảo vệ trái đất tránh khỏi tác động của tia cực tím. Tuy nhiên, khi ở gần mặt đất, nó phản ứng mạnh và độc hại, ở nồng độ cao sẽ giết chết mô thực vật, khiến cây cối bị ảnh hưởng, ảnh hưởng đến những quần xã sinh vật và có thể gây nguy hại cho sức khỏe con người.\nNgoài NOx và CO, động cơ xe còn thải các hydrocarbon chưa cháy hết (các hydrocarbon này là thành phần chính của xăng và nhiên liệu, như octane $C_8H_{18}$), là nguyên liệu chính tạo sương mù. Do không khí có nhiều loại VOCs, nên ngoài ozone, có nhiều sản phẩm độc hại khác cũng được tạo ra như formaldehyde (HCHO), peroxyacetyl nitrate (PAN),… gây kích ứng cho mắt và niêm mạc đường hô hấp.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T16:51:01.214393+07:00",
+                "questions": [
+                    {
+                        "id": "c3b8bbc1-7e6f-4699-ae75-18fb630a88a9",
+                        "parent_id": "b5f9476c-98a3-49d5-971f-7fe2ced5e3a5",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M1] Phản ứng quang hóa nào sau đây khởi đầu các phản ứng tạo sương mù quang hóa?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$N_2 (g) + O_2 (g) \\rightleftarrows 2NO (g)$."
+                                },
+                                {
+                                    "content": "$2NO (g) + O_2 (g) \\rightleftarrows 2NO_2 (g)$."
+                                },
+                                {
+                                    "content": "$NO_2 (g) + hv \\rightarrow NO (g) + O (g)$."
+                                },
+                                {
+                                    "content": "$O (g) + O_2 (g) + M (g) \\rightarrow O_3 (g) + M^ (g)$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:51:25.504603+07:00"
+                    },
+                    {
+                        "id": "0e1602b3-ad80-4e64-b059-f872b955da9e",
+                        "parent_id": "b5f9476c-98a3-49d5-971f-7fe2ced5e3a5",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M1] Kéo thả các tác nhân sau với vai trò của chúng trong sương mù quang hóa:\nNguồn năng lượng khởi phát phản ứng: ____\nLà tiền chất cho phản ứng: ____ ____\nTạo ra từ phản ứng quang hóa, gây hại cho sức khỏe con người: ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "Nox",
+                                "VOCs",
+                                "ánh sáng mặt trời",
+                                "ozone",
+                                "khí CO"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                0,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:52:11.777512+07:00"
+                    },
+                    {
+                        "id": "fc4f246f-e40a-4940-aa70-9b68937cd02f",
+                        "parent_id": "b5f9476c-98a3-49d5-971f-7fe2ced5e3a5",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M2] Với phản ứng thuận nghịch dạng sau: $aA + bB \\rightleftarrows cC + dD$; với A, B, C, D là những chất khí hoặc những chất tan trong dung dịch thì biểu thức tính hằng số cân bằng của phản ứng là:\n$K_C = \\dfrac{[C]^c.[D]^d}{[A]^a.[B]^b}$\nTheo nguyên lí chuyển dịch cân bằng Le Chatelier, một phản ứng thuận nghịch đang ở trạng thái cân bằng khi chịu tác động từ bên ngoài như biến đổi nhiệt độ, áp suất hay nồng độ thì cân bằng sẽ chuyển dịch theo chiều làm giảm tác động bên ngoài đó.\nCho biết các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Phản ứng (1) xảy ra thuận lợi hơn khi tăng nhiệt độ."
+                                },
+                                {
+                                    "content": "Phản ứng (2) xảy ra thuận lợi hơn khi tăng nhiệt độ."
+                                },
+                                {
+                                    "content": "Phản ứng (1) xảy ra chủ yếu trong xi-lanh động cơ đốt trong."
+                                },
+                                {
+                                    "content": "Phản ứng (2) xảy ra chủ yếu bên ngoài khí quyển, khi NO thoát ra từ ống xả phương tiện."
+                                },
+                                {
+                                    "content": "Phản ứng (1) là phản ứng tỏa nhiệt."
+                                },
+                                {
+                                    "content": "Phản ứng (2) là phản ứng tỏa nhiệt."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:52:47.962424+07:00"
+                    },
+                    {
+                        "id": "86513207-1a96-44cb-ab9e-f79ee65dbbea",
+                        "parent_id": "b5f9476c-98a3-49d5-971f-7fe2ced5e3a5",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M2] Hãy cho biết những giải pháp nào sau đây là giải pháp hữu hiệu để giải quyết hiện tượng sương mù quang hóa ở các đô thị lớn nước ta?\nChọn nhiều phương án đúng",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sử dụng “bộ chuyển đổi xúc tác” cho các phương tiện, chuyển đổi khí thải độc hại thành khí ít độc hại hoặc không độc hại cho môi trường, oxi hóa các khí NOx thành nitrogen."
+                                },
+                                {
+                                    "content": "Có các chính sách hiệu quả để quản lí khí thải công nghiệp, nhất là các khu vực lân cận."
+                                },
+                                {
+                                    "content": "Xây dựng hệ thống quan trắc và cảnh báo chất lượng không khí hiệu quả."
+                                },
+                                {
+                                    "content": "Tăng cường các không gian xanh trong đô thị, quy hoạch các khu công nghiệp xa khỏi đô thị."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:53:02.623341+07:00"
+                    },
+                    {
+                        "id": "9190f7b4-7304-4878-9947-e05b39126923",
+                        "parent_id": "b5f9476c-98a3-49d5-971f-7fe2ced5e3a5",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M3] Bước sóng cực đại của ánh sáng mặt trời có thể gây ra phản ứng (3) là 420 nm. Năng lượng liên kết của liên kết đã bị phá vỡ trong phản ứng (3) ứng với bước sóng 420 nm là ____ kJ/mol. (kết quả làm tròn tới hàng đơn vị) \nCho biết năng lượng khi một liên kết hấp thụ một photon ánh sáng có tần số f tính theo công thức $E = h.f$, với h là hằng số Planck, $h = 6,626.10^{-34} J/s$. Lấy $c = 3.10^8 m/s$, $1 eV = 1,6.10^{-19} J$, $N_A = 6,022.10^{23}$.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "285"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:53:37.319319+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "71514429-940f-464e-8da9-c0e03549689c",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 5,
+                "content": "${\\textbf{Chu trình carbon}}$\nCarbon là xương sống của sự sống trên Trái Đất. Chúng ta được tạo nên từ carbon, chúng ta ăn carbon, và các nền văn minh của chúng ta - nền kinh tế, nhà cửa, phương tiện đi lại - đều được xây dựng trên carbon. Chúng ta cần carbon, nhưng nhu cầu đó cũng gắn liền với một trong những vấn đề nghiêm trọng nhất mà chúng ta đang đối mặt ngày nay: biến đổi khí hậu toàn cầu.\nCarbon được luân chuyển giữa đại dương, khí quyển, đất và sinh vật sống trong khoảng thời gian từ vài giờ đến hàng thế kỷ. Ví dụ, thực vật quang hợp trên cạn trực tiếp loại bỏ carbon dioxide khỏi khí quyển, và các nguyên tử carbon đó trở thành một phần cấu trúc của cây. Khi thực vật bị động vật ăn cỏ ăn và động vật ăn cỏ bị động vật ăn thịt ăn, carbon di chuyển lên chuỗi thức ăn. Trong khi đó, hô hấp của thực vật, động vật và vi sinh vật trả carbon về khí quyển dưới dạng carbon dioxide ($CO_2$).\nKhi các sinh vật chết và phân hủy, carbon cũng trở lại khí quyển, hoặc được tích hợp vào đất cùng với một số chất thải của chúng. Sự đốt cháy sinh khối trong các vụ cháy rừng cũng giải phóng lượng lớn carbon được lưu trữ trong thực vật trở lại khí quyển.\nTrong khoảng thời gian dài hơn, một lượng đáng kể carbon được chuyển giao giữa đá và đại dương cũng như khí quyển, thường là hàng nghìn đến hàng triệu năm. Ví dụ, sự phong hóa của đá loại bỏ carbon dioxide khỏi khí quyển. Các trầm tích hình thành sau đó, cùng với vật liệu hữu cơ, có thể được vận chuyển (xói mòn) từ đất liền để đi vào đại dương, nơi chúng chìm xuống đáy. Carbon này từ đất liền, cũng như các nguyên tử carbon trong $CO_2$ được đại dương hấp thụ từ khí quyển, có thể được kết hợp vào vỏ canxi cacbonat ($CaCO_3$) do tảo, thực vật và động vật tạo ra. Những vỏ này bị chôn vùi. Khi các lớp trầm tích kế tiếp được nén và gắn kết, chúng biến thành đá vôi. Trong hàng triệu năm, những loại đá chứa carbon này có thể tiếp xúc với nhiệt và áp suất đủ để nóng chảy, khiến chúng giải phóng carbon trở lại khí quyển dưới dạng carbon dioxide thông qua hoạt động núi lửa.\nMột số loại đá này cũng sẽ lộ ra trên bề mặt Trái đất thông qua sự hình thành núi và phong hóa, và chu trình lại bắt đầu. Carbon từ lớp phủ (xem kiến tạo mảng) cũng được giải phóng vào khí quyển dưới dạng carbon dioxide thông qua hoạt động núi lửa.\nCarbon cũng được chuyển từ sinh quyển vào đá, thông qua sự hình thành nhiên liệu hóa thạch, diễn ra trong hàng triệu năm. Nhiên liệu hóa thạch được tạo ra từ sự chôn vùi của các sinh vật quang hợp, bao gồm thực vật trên cạn (chủ yếu tạo thành than đá) và sinh vật phù du trong đại dương (chủ yếu tạo thành dầu mỏ và khí đốt tự nhiên). Trong khi bị chôn vùi, carbon này bị loại bỏ khỏi chu trình carbon trong hàng triệu năm đến hàng trăm triệu năm.\n$/image_{https://api-course.hethonglab.com/static/fdfec42a-4a7b-4be7-a5c9-d03473959011.png}_{center}_{100}_{block}$\nHoạt động của con người, đặc biệt là đốt cháy nhiên liệu hóa thạch, đã làm tăng đáng kể sự trao đổi carbon từ lòng đất trở lại khí quyển và đại dương. Sự trở lại của carbon vào khí quyển dưới dạng carbon dioxide này đang xảy ra với tốc độ nhanh hơn hàng trăm đến hàng nghìn lần so với thời gian để chôn vùi nó, và nhanh hơn nhiều so với tốc độ mà nó có thể được loại bỏ bởi chu trình carbon (ví dụ, bằng phong hóa). Do đó, carbon dioxide được giải phóng từ việc đốt cháy nhiên liệu hóa thạch đang tích tụ trong khí quyển, làm tăng nhiệt độ trung bình thông qua hiệu ứng nhà kính, cũng như hòa tan vào đại dương, gây ra axit hóa đại dương.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T16:54:40.463235+07:00",
+                "questions": [
+                    {
+                        "id": "e9fdbf5d-0a58-4ddb-8c84-87b259ae833e",
+                        "parent_id": "71514429-940f-464e-8da9-c0e03549689c",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M1] Các hoạt động nào sau đây của con người có thể tác động tiêu cực đến chu trình carbon trong tự nhiên? Chọn nhiều phương án đúng.",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đốt cháy nhiên liệu hóa thạch."
+                                },
+                                {
+                                    "content": "Hoạt động nông nghiệp."
+                                },
+                                {
+                                    "content": "Hô hấp và quang hợp."
+                                },
+                                {
+                                    "content": "Chặt phá rừng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:55:40.870335+07:00"
+                    },
+                    {
+                        "id": "552c39dc-25d7-4b47-81bd-bc0ef6cd49cd",
+                        "parent_id": "71514429-940f-464e-8da9-c0e03549689c",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M1] Tại sao việc chôn vùi các sinh vật quang hợp (thực vật và sinh vật phù du) lại giúp \"loại bỏ\" carbon khỏi chu trình carbon trong hàng triệu năm?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Vì có chuyển hóa carbon hữu cơ thành các dạng bền vững (nhiên liệu hóa thạch) và chôn vùi sâu dưới lòng đất, nên đã ngăn cản sự trao đổi nhanh chóng với khí quyển và đại dương."
+                                },
+                                {
+                                    "content": "Vì quá trình chôn vùi làm tăng tốc độ quang hợp của thực vật, giúp hấp thụ nhiều $CO_2$ hơn."
+                                },
+                                {
+                                    "content": "Vì sinh vật quang hợp sau khi chết sẽ giải phóng carbon vào đất, làm giàu dinh dưỡng cho hệ sinh thái."
+                                },
+                                {
+                                    "content": "Vì vi khuẩn phân hủy sẽ chuyển hóa carbon thành khí methane ($CH_4$), không gây hiệu ứng nhà kính."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:56:02.964453+07:00"
+                    },
+                    {
+                        "id": "f0d534db-0899-4518-93c2-fdcdad2c67fd",
+                        "parent_id": "71514429-940f-464e-8da9-c0e03549689c",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M2] CCS là quá trình thu giữ $CO_2$ hình thành tại nguồn phát thải, như từ quá trình đốt khí đốt tự nhiên hoặc tại các nhà máy công nghiệp, sau đó vận chuyển $CO_2$ và lưu trữ sâu dưới lòng đất - hoặc thậm chí sử dụng nó. Nó có thể được tái sử dụng cho nhiều quy trình công nghiệp thay vì chỉ được lưu trữ. Điều này tương tự với quá trình tự nhiên nào dưới đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Quang hợp của tảo."
+                                },
+                                {
+                                    "content": "Hình thành nhiên liệu hóa thạch."
+                                },
+                                {
+                                    "content": "Phong hóa đá vôi."
+                                },
+                                {
+                                    "content": "Hô hấp của sinh vật."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T16:56:33.773716+07:00"
+                    },
+                    {
+                        "id": "1a6d6fd0-d7d6-4659-8282-277253d69407",
+                        "parent_id": "71514429-940f-464e-8da9-c0e03549689c",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M3] Từ các thông tin của đoạn trích, kéo thả các từ ngữ thích hợp để điền vào các vị trí nhằm hoàn thiện sơ đồ về chu trình carbon sau đây:\n$/image_{https://api-course.hethonglab.com/static/327d8329-d47a-49b0-a910-558f76acbd07.png}_{center}_{50}_{block}$\n(1): ____\n(2): ____\n(3): ____\n(4): ____\n(5): ____\n(6): ____\n(7): ____\n(8): ____\n(9): ____\n(10): ____\n(11): ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "Hô hấp động vật",
+                                "Quang hợp",
+                                "Phân giải, lắng đọng",
+                                "Khai thác",
+                                "Xác sinh vật và chất mùn",
+                                "Tiêu thụ",
+                                "Tạo hóa thạch",
+                                "Phong hóa",
+                                "Hô hấp thực vật",
+                                "Đốt cháy",
+                                "Hóa thạch, nhiên liệu hóa thạch",
+                                "$CO_2$"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                10,
+                                13,
+                                1,
+                                0,
+                                9,
+                                2,
+                                4,
+                                10,
+                                6,
+                                3,
+                                5
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:00:39.448165+07:00"
+                    },
+                    {
+                        "id": "c7528762-b47f-49d2-a1d7-05290ef5354e",
+                        "parent_id": "71514429-940f-464e-8da9-c0e03549689c",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M3] Về lâu dài, chu trình cacbon giúp cân bằng lượng carbon trong khí quyển, duy trì nhiệt độ của Trái Đất tương đối ổn định, giống như một bộ điều nhiệt. Trong tự nhiên, oxygen có ba đồng vị bền, là $^{16}O$, $^{17}O$ và $^{18}O$. Sự thay đổi trong tỉ lệ đồng vị $^{18}O$ có liên quan đến sự hình thành các tảng băng, vì thế có thể nói rằng lõi băng lưu giữ thông tin khí hậu trong hàng ngàn năm. Sự nâng lên (quá trình tạo thành và gia tăng chiều cao núi) của dãy Himalaya đã thiết lập lại bộ điều nhiệt của Trái đất. Tỉ lệ đồng vị $^{18}O$ và mối liên hệ với độ tuổi của dãy Himalaya được thể hiện sau đây.\n$/image_{https://api-course.hethonglab.com/static/0fd48693-37a4-4d55-bc42-73d163c6c3f4.png}_{center}_{100}_{block}$\nCho biết các nhận định sau đúng hay sai :",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Đồng vị $^{18}O$ nặng hơn nên khó bay hơi khỏi băng tuyết."
+                                },
+                                {
+                                    "content": "Lượng carbon trong khí quyển cân bằng duy trì nhiệt độ của Trái Đất tương đối ổn định chứng tỏ nhiệt độ của Trái Đất không ảnh hưởng bởi nồng độ $CO_2$ trong khí quyển."
+                                },
+                                {
+                                    "content": "Dãy núi Himalaya nâng lên sẽ kéo nhiều carbon hơn vào chu trình carbon chậm thông qua quá trình phong hóa hóa học."
+                                },
+                                {
+                                    "content": "Dãy Himalaya bắt đầu được tạo thành từ khoảng 50 triệu năm trước."
+                                },
+                                {
+                                    "content": "Sự hình thành các tảng băng cũng làm thay đổi tỷ lệ $^{18}O$. Theo biểu đồ, thời gian mà vùng Nam Cực bị đóng băng là 15 triệu năm trước."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:01:25.708999+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "fbbee753-de20-413b-ad01-75f52e604986",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 6,
+                "content": "${\\textbf{Ống đếm Geiger - Muller}}$\nNhư chúng ta đã biết, các bức xạ hạt nhân là những đại lượng không có đặc trưng vật chất cụ thể (không màu, không mùi, không vị). Để ghi đo nó phải dựa trên nguyên tắc cơ bản là tương tác của bức xạ hạt nhân với vật chất.\nỐng đếm Geiger – Muller là một tụ điện trụ đặt trong ống thủy tinh, một đầu phủ bằng một lớp vật liệu mỏng như mica cho bức xạ truyền qua, bên trong có chứa khí trơ ở áp suất khoảng 100mmHg: điện cực thứ nhất của tụ điện (anode) là một sợi dây kim loại, điện cực thứ hai là một lớp dẫn điện phủ lên mặt trong của thành ống thủy tinh (cathode).\nVì chất khí chứa trong ống là điện môi, nên nếu hiệu điện thế giữa hai cực của tụ điện chưa đạt tới hiệu điện thế đánh thủng và không có tia phóng xạ bay vào trong tụ điện, thì sẽ không có dòng điện chạy trong mạch tụ điện.\n$/image_{https://api-course.hethonglab.com/static/36770bfe-f8a9-4869-84ae-0373ea5713c5.png}_{center}_{50}_{block}$\nKhi các hạt phóng xạ bay vào không gian giữa hai điện cực của ống đếm, nó sẽ đánh bật một hạt electron khỏi một nguyên tử khí bên trong, do đó ion hóa chất khí. Dưới tác dụng của điện trường giữa hai cực, các electron và các ion dương chuyển động về các điện cực, tạo ra dòng xung điện ngắn và khi điện thế lên tới 1000-1500V, những điện tử phát sinh do ion hoá ban đầu sẽ đạt động năng cực mạnh và sẽ tạo thành một dòng thác các điện tử, điện thế đã đạt đến điểm bão hoà. Vùng hoạt động này gọi là vùng Geiger-Mueller. U không còn phụ thuộc vào năng lượng ban đầu của chùm tia bức xạ.\nNếu nguồn có cường độ phóng xạ càng mạnh, thì số hạt phóng xạ truyền tới đập vuông góc vào một đơn vị diện tích bao quanh điểm ta xét sẽ càng nhiều và do đó tốc độ đếm tại đó càng lớn. Tốc độ đếm n giảm tỷ lệ nghịch với bình phương của khoảng cách r tính từ nguồn phóng xạ tới ống đếm.\nKhi cho các tia phóng xạ truyền qua vật chất, chúng sẽ bị hấp thụ. Mức độ hấp thụ các tia phóng xạ này tùy thuộc bản chất và độ dày của vật chất đó. Trong trường hợp này, tốc độ đếm n giảm nhanh theo quy luật hàm mũ khi tăng độ dày x của tấm vật chất ấy $n = n_0 . e^{-\\mu x}$. Trong đó $n_0$ là tốc độ đếm khi không có tấm kim loại chắn giữa nguồn phóng xạ và ống đếm, $e$ là cơ số của loga tự nhiên và $\\mu$ là hệ số hấp thụ các tia phóng xạ của tấm kim loại.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T17:02:43.450728+07:00",
+                "questions": [
+                    {
+                        "id": "b4ea82cd-2b35-41e9-b0bc-674760f280ab",
+                        "parent_id": "fbbee753-de20-413b-ad01-75f52e604986",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M1] Nối các thành phần sau với vai trò tương ứng của chúng\n1. Lớp vật liệu mỏng (mica) ở một đầu - ____\n2. Khí trơ bên trong ống -  ____\n3. Điện trường giữa hai cực.  -    ____\n4. Máy đếm xung điện tử  -  ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "a. Đếm số xung và hiển thị kết quả",
+                                "b. Dẫn dắt sự chuyển động của electron và ion.",
+                                "c. Là lớp điện môi, tạo ra các ion và electron khi có bức xạ.",
+                                "d. Cho phép bức xạ truyền qua để đi vào ống."
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3,
+                                2,
+                                1,
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:04:38.41846+07:00"
+                    },
+                    {
+                        "id": "fc1b02b0-384c-4369-9828-d15e0045ff6e",
+                        "parent_id": "fbbee753-de20-413b-ad01-75f52e604986",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M1] Cho biết các nhận định sau đúng hay sai",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Hiệu điện thế cao (1000-1500V) trong ống đếm Geiger-Muller để các electron bị bật ra ban đầu có đủ động năng, va chạm và ion hóa thêm các nguyên tử khí khác, tạo ra dòng thác điện tử"
+                                },
+                                {
+                                    "content": "Nếu khoảng cách đến nguồn phóng xạ tăng 3 lần thì tốc độ đếm tại ống đếm Geiger-Muller sẽ giảm 9 lần."
+                                },
+                                {
+                                    "content": "Nếu hiệu điện thế giữa hai cực của tụ điện đạt tới hiệu điện thế đánh thủng thì kể cả có tia phóng xạ bay vào trong tụ điện, sẽ không có dòng điện chạy trong mạch tụ điện."
+                                },
+                                {
+                                    "content": "Ưu điểm chính của loại ống đếm này là tín hiệu đầu ra không ảnh hưởng năng lượng ban đầu của hạt phóng xạ, giúp dễ dàng đếm chính xác số lượng hạt."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:04:55.118158+07:00"
+                    },
+                    {
+                        "id": "c23ea26f-7861-4d54-985c-b2772ca2d177",
+                        "parent_id": "fbbee753-de20-413b-ad01-75f52e604986",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M2] Kéo thả các từ ngữ thích hợp vào chỗ trống :\nCho thông tin về các dạng phóng xạ như hình dưới.\n$/image_{https://api-course.hethonglab.com/static/93d05099-063b-4a5e-af22-107da0c368f3.png}_{center}_{80}_{block}$\nNếu sử dụng ống đếm Geiger-Muller thì hiệu suất đếm đối với loại phóng xạ ____ là thấp nhất, chỉ khoảng 1% do tia phóng xạ trên ____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "Alpha",
+                                "Beta",
+                                "Gamma",
+                                "ion hóa rất yếu",
+                                "đâm xuyên rất yếu",
+                                "không bị lệch trong điện trường"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                3
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:06:32.163456+07:00"
+                    },
+                    {
+                        "id": "b2ecaf34-e37d-4ae8-9bf3-160809aa91bb",
+                        "parent_id": "fbbee753-de20-413b-ad01-75f52e604986",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M2] Một nhóm học sinh thảo luận phương án thí nghiệm nghiên cứu công dụng che chắn phóng xạ của một số vật liệu. Bằng kiến thức về ống đếm Geiger-Muller, họ cho rằng cần xác định hệ số hấp thụ ($\\mu$) của các mẫu vật liệu. Nhóm sử dụng một ống đếm Geiger-Muller đặt tại ngăn đầu tiên trên giá đỡ (1), giá đỡ có ngăn đầu tiên cách ống đếm 2 cm và các ngăn sau cách ống đếm 1 cm (2), máy đếm xung điện tử (3), bộ nguồn phóng xạ $^{90}Sr$ đặt trong hộp bảo vệ (4), các tấm vật chất (5). Những thao tác nhóm học sinh cần thực hiện là: ",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Đo tốc độ đếm ($n_0$) khi không có vật liệu chắn."
+                                },
+                                {
+                                    "content": "Thay đổi khoảng cách từ máy đo đến tấm chắn."
+                                },
+                                {
+                                    "content": "Đo độ dày ($x$) của vật liệu chắn."
+                                },
+                                {
+                                    "content": "Đo tốc độ đếm ($n_0$) khi không có vật liệu chắn, không có nguồn phóng xạ."
+                                },
+                                {
+                                    "content": "Thay đổi khoảng cách từ tấm chắn đến nguồn phóng xạ."
+                                },
+                                {
+                                    "content": "Đo tốc độ đếm ($n$) khi có vật liệu chắn."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đo tốc độ đếm ($n_0$) khi không có vật liệu chắn."
+                                },
+                                {
+                                    "content": "Thay đổi khoảng cách từ máy đo đến tấm chắn."
+                                },
+                                {
+                                    "content": "Đo độ dày ($x$) của vật liệu chắn."
+                                },
+                                {
+                                    "content": "Đo tốc độ đếm ($n_0$) khi không có vật liệu chắn, không có nguồn phóng xạ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:09:08.477187+07:00"
+                    },
+                    {
+                        "id": "c94c3d3c-72c3-47b1-8ec2-a853c851c3d7",
+                        "parent_id": "fbbee753-de20-413b-ad01-75f52e604986",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M3] Ứng dụng của ống đếm Geiger-Muller được sử dụng để đo lường sự ô nhiễm hoặc rò rỉ bức xạ qua lớp che chắn. Dược chất phóng xạ $Cr^{32}PO_4$ dùng cho điều trị tràn dịch màng phổi, màng bụng do ung thư hoặc di căn từ các ung thư khác, điều trị ung thư tiền liệt tuyến, ung thư buồng trứng (Zook et al., 2011).\nMột mẫu chất phóng xạ trên nặng 1 g, có hoạt độ phóng xạ duy trì ở mức là 130 mCi. $^{32}P$ có thời gian bán rã 14,3 ngày phát tia - đẳng hướng có năng lượng trung bình 0,69 MeV. Để kiểm nghiệm sản phẩm này, trung bình các nhân viên làm việc tại Lò phản ứng hạt nhân Đà Lạt phải làm việc tối đa trong 0,5 giờ, và mỗi tháng sẽ làm việc 4 ca. Các nhân viên đứng ngoài cửa cách nguồn phóng xạ 2,5 m.\nCoi như phần diện tích cơ thể tiếp xúc với nguồn phóng xạ là $1,5 m^2$ và khối lượng của nhân viên là 60 kg. Khi sử dụng máy đo có diện tích bề mặt tiếp xúc là $20 cm^2$ tại vị trí các nhân viên làm việc, đo được số xung trung bình trong một phút là 2174 xung.\nBỏ qua các yếu tố gây sai lệch kết quả đo, tính toán được rằng: (kết quả không làm tròn ở các bước trung gian, làm tròn đến chữ số hàng đơn vị, lấy 1 Ci = $3,7.10^{10}$ phóng xạ/giây, $\\pi = 3,14$, $1 eV = 1,6.10^{-19}$, $N_A = 6,02.10^{23}$)\nCửa chắn trên đã chắn được ____ % lượng bức xạ truyền tới.\nLiều hấp thụ phóng xạ D (định nghĩa là năng lượng hấp thụ phóng xạ trên một đơn vị khối lượng của vật hấp thụ phóng xạ, có đơn vị là 1Gy = 1 J/kg = 1Sv) của nhân viên trên là ____ $\\mu Sv$, nhỏ hơn ____ lần so với giới hạn liều hiệu dụng tính theo tháng đối với nhân viên bức xạ theo Thông tư số 19/2012/TT-BKHCN là 1,67 mSv.\nHạt nhân tạo ra sau quá trình phóng xạ có số khối là ____, đơn vị điện tích hạt nhân là ____e.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "97",
+                                "36",
+                                "46",
+                                "32",
+                                "+16"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:10:28.36713+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "c6102959-ac08-4726-afe7-39d0a2514042",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 7,
+                "content": "${\\textbf{Tách tinh dầu từ các nguồn thảo mộc tự nhiên}}$\nHiện nay, người tiêu dùng có xu hướng sử dụng những hợp chất từ thiên nhiên, đặc biệt là các loại tinh dầu dùng trong hương trị liệu và trong công nghiệp mĩ phẩm. Cô Huyền giao cho một nhóm học sinh nhiệm vụ chiết xuất tinh dầu từ vỏ bưởi, hạn nộp trong một tuần để lấy điểm kiểm tra thường xuyên.\nCác bạn đã thảo luận và đưa ra một số phương pháp như sau:\nBạn Thịnh: Gọt lấy vỏ quả bưởi, sau đó rửa sạch, loại bỏ hết phần cùi trắng, thái thành miếng nhỏ. Bỏ vỏ bưởi vào nồi, đặt một chiếc tô vào giữa, thêm nước xâm xấp vỏ bưởi. Đun nhẹ bằng bếp từ, đậy ngược nắp nồi, đặt đá lạnh lên phía trên nắp nồi. Đun đến khi nồi cạn thì tắt bếp.\nBạn Đức: Gọt lấy vỏ quả bưởi, sau đó rửa sạch, loại bỏ hết phần cùi trắng, thái thành lát mỏng. Cho vỏ bưởi vào bình thủy tinh và đổ dầu dừa nguyên chất cho ngập vỏ bưởi. Đặt bình thủy tinh vào nồi nước, đun sôi với lửa to. Sau đó tiếp tục đun nhỏ lửa trong khoảng 3 tiếng sau đó tắt bếp và để nguội. Tinh dầu bưởi thu được sẽ nổi lên trên bề mặt dầu dừa, dùng miếng gạc sạch để lọc tinh dầu ra khỏi vỏ bưởi.\nBạn Hà: Gọt lấy vỏ quả bưởi, sau đó rửa sạch, loại bỏ hết phần cùi trắng, thái thành miếng vừa tay. Cho nước tinh khiết vào ca, dùng tay vắt lấy tinh dầu có trong vỏ bưởi vào ca nước. Sau khi vắt kỹ hết tinh dầu có trong vỏ bưởi, rót hỗn hợp vào chai đậy nắp kín. Dốc ngược chai nước cho đến khi tinh dầu bưởi nổi lên phía trên. Nhẹ nhàng mở nắp chai để nước chảy ra ngoài cho đến khi chỉ còn lại tinh dầu bưởi.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T17:11:25.411121+07:00",
+                "questions": [
+                    {
+                        "id": "22b30346-4287-4f8b-9b3c-2601096ab2d6",
+                        "parent_id": "c6102959-ac08-4726-afe7-39d0a2514042",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M1] Phương pháp chưng cất lôi cuốn hơi nước thường dùng để tách chất ra khỏi hỗn hợp bởi khả năng dễ bay hơi của nó cùng hơi nước và tính không tan của chất đó. Khi chưng cất lôi cuốn hơi nước các chất có trong tinh dầu sẽ được tách ra khỏi nguyên liệu thường ở nhiệt độ thấp hơn nhiệt độ sôi của nước và bị hơi nước cuốn theo. Trong phương pháp chiết lỏng-rắn, người ta ngâm hoặc đun chất gắn với dung môi thích hợp sau đó loại bỏ chất rắn, giữ lại dịch chiết có chứa chất cần tách. Khi ngâm chiết dung môi thấm qua màng tế bào, hòa tan các chất chính có trong tinh dầu. Hiện tượng thẩm thấu xảy ra đến khi đạt cân bằng. Như vậy hiện tượng trên là hiện tượng khuếch tán các chất của tinh dầu vào dung môi. Từ các thông tin trên, kéo thả các từ ngữ thích hợp vào chỗ trống :\n\n____ sử dụng phương pháp chưng cất lôi cuốn hơi nước, ____ sử dụng phương pháp chiết lỏng-rắn.\n",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "bạn Thịnh",
+                                "bạn Đức",
+                                "bạn Hà",
+                                "bạn Đức và bạn Hà"
+                            ],
+                            "answers": []
+                        },
+                        "data_answers": {},
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:13:06.583249+07:00"
+                    },
+                    {
+                        "id": "d6fa882c-b972-4af9-a945-c30cef690571",
+                        "parent_id": "c6102959-ac08-4726-afe7-39d0a2514042",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M2] Nhóm bạn học sinh thảo luận về ưu nhược điểm của ba cách làm trên. Cho biết các nhận định sau đúng hay sai",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Việc loại bỏ phần cùi trắng của vỏ bưởi là không cần thiết, có thể bỏ qua để tiết kiệm thời gian do các tạp chất cũng dễ dàng bị loại bỏ trong quá trình điều chế."
+                                },
+                                {
+                                    "content": "Để cải thiện phương pháp của bạn Hà và tách tinh dầu ra khỏi nước hiệu quả hơn, bạn có thể sử dụng pipette (ống hút nhỏ giọt)."
+                                },
+                                {
+                                    "content": "Thao tác đun nồi nước và nồi thủy tinh của Thịnh và Đức tiềm ẩn nguy cơ gây bỏng nếu không cẩn thận."
+                                },
+                                {
+                                    "content": "Tinh dầu làm theo cách của bạn Đức có thể bị biến đổi, tạo mùi khét do nhiệt độ cao."
+                                },
+                                {
+                                    "content": "Cách làm của bạn Thịnh giúp giữ tinh dầu không biến đổi nhiều do thực hiện ở nhiệt độ dưới nhiệt độ sôi của nước ít xảy ra sự tương tác hóa học giữa các chất trong tinh dầu."
+                                },
+                                {
+                                    "content": "Sản phẩm nên bảo quản trong bình thủy tinh tối màu do hạn chế phản ứng oxi hóa do ánh nắng gây ra."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true,
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:13:37.213734+07:00"
+                    },
+                    {
+                        "id": "066b7770-82f7-4ef1-8b63-dac8525f5ac9",
+                        "parent_id": "c6102959-ac08-4726-afe7-39d0a2514042",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M3] Từ các thí nghiệm trên, kéo thả kết luận phù hợp vào chỗ trống ứng với ba phương pháp của ba bạn.\nLưu ý, nhiều mô tả có thể ứng với một thí nghiệm, và có thể có thí nghiệm không có mô tả phù hợp.\nBạn Thịnh: ____\nBạn Đức: ____\nBạn Hà: ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "Hiệu suất thu hồi tinh dầu thấp nhất",
+                                "Sản phẩm thu được có độ tinh khiết cao nhất",
+                                "Sản phẩm thu được phù hợp để sử dụng trực tiếp nhất"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                2,
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:14:31.310297+07:00"
+                    },
+                    {
+                        "id": "b9d2ddb5-9b30-4d1c-bdb4-efb8686ad3e4",
+                        "parent_id": "c6102959-ac08-4726-afe7-39d0a2514042",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M2] Điền từ không quá hai tiếng thích hợp vào chỗ trống :\nNhóm bạn học sinh trên thực tế thực hiện theo cách làm của bạn Thịnh. Các bạn đặt ngược nắp nồi, đặt đá lạnh lên trên để hơi khi ____ thì chảy xuống chiếc tô. Tuy nhiên, nhóm bạn gặp vấn đề là tinh dầu lẫn nhiều nước, và bạn Nguyệt đưa ra giải pháp là hòa tan muối ăn vào rồi để lắng, vì muối ăn làm ____ trọng lượng của lớp ____, vì vậy có thể dùng bơm tiêm để thu lấy tinh dầu ở phía ____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "ngưng tụ",
+                                "tăng",
+                                "nước",
+                                "trên"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:15:22.235592+07:00"
+                    },
+                    {
+                        "id": "78561798-cfbf-4f6b-8513-a6cbbf3fd08f",
+                        "parent_id": "c6102959-ac08-4726-afe7-39d0a2514042",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M2] Trên thực tế, để chiết xuất tinh dầu người ta sử dụng hệ thống chưng cất lôi cuốn hơi nước như hình bên. Trong buồng ngưng tụ (ống sinh hàn), tại sao nước lạnh được cho chảy vào từ đầu dưới và chảy ra ở đầu trên, thay vì ngược lại?\n$/image_{https://api-course.hethonglab.com/static/8c003168-1f15-44fa-8bd3-a8cc69e03738.png}_{center}_{50}_{block}$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Để tiết kiệm lượng nước sử dụng trong quá trình làm lạnh."
+                                },
+                                {
+                                    "content": "Để tạo ra sự chênh lệch áp suất, giúp hơi ngưng tụ nhanh hơn."
+                                },
+                                {
+                                    "content": "Để đảm bảo buồng ngưng tụ luôn đầy nước, tối đa hóa hiệu quả trao đổi nhiệt trong buồng."
+                                },
+                                {
+                                    "content": "Vì nước sau khi trao đổi nhiệt sẽ nóng lên, nhẹ hơn và tự động nổi lên trên theo nguyên tắc đối lưu."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:16:35.66125+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "fd770b01-8d82-43b3-bb29-9e5748088313",
+                "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                "position": 8,
+                "content": "${\\textbf{Truyền ánh sáng trong sợi quang}}$\nChúng ta nghe về cáp quang mỗi khi nhắc đến hệ thống điện thoại, truyền hình cáp hay Internet. Nhờ có các sợi cáp quang này, Internet có thể truyền đi khắp thế giới. Sợi quang là những sợi thủy tinh rất tinh khiết dài và mỏng có đường kính khoảng bằng một sợi tóc người. Chúng được sắp xếp thành bó gọi là cáp quang và được sử dụng để truyền tín hiệu ánh sáng trên khoảng cách xa.\nGiả sử bạn muốn chiếu một chùm đèn pin xuống một hành lang dài, thẳng. Chỉ cần chiếu chùm đèn thẳng xuống hành lang - ánh sáng truyền theo đường thẳng, nên không có vấn đề gì. Nếu hành lang có một khúc cua thì sao? Bạn có thể đặt một tấm gương ở khúc cua để phản chiếu chùm sáng quanh góc. Nếu hành lang rất quanh co với nhiều khúc cua thì sao? Bạn có thể xếp gương trên tường và tạo góc cho chùm sáng sao cho nó phản xạ từ bên này sang bên kia dọc theo hành lang. Đây chính xác là những gì xảy ra trong sợi quang.\nMỗi sợi quang là một dây trong suốt có tính dẫn sáng nhờ phản xạ toàn phần. Hiện tượng phản xạ toàn phần là hiện tượng phản xạ lại toàn bộ tia sáng tới, xảy ra tại mặt phân cách giữa hai môi trường trong suốt. Chiết xuất của môi trường ứng với một bước sóng đơn sắc được định nghĩa là tỉ số giữa vận tốc ánh sáng truyền trong chân không (xấp xỉ $3.10^8 m/s$) và vận tốc ánh sáng truyền trong môi trường đó.\nTheo định luật phản xạ là $i_1 = i_2 = i$ và định luật khúc xạ cho biết $\\sin i / \\sin r = n_2 / n_1$.\n$/image_{https://api-course.hethonglab.com/static/5399570d-372d-4583-be7d-01cf61fae3a5.png}_{center}_{50}_{block}$\nĐể hiện tượng phản xạ toàn phần xảy ra, cần phải thỏa mãn đồng thời hai điều kiện sau:\n- Ánh sáng phải truyền từ một môi trường có chiết suất lớn hơn ($n_1$) sang một môi trường có chiết suất nhỏ hơn ($n_2$).\n- Góc tới ($i$) phải lớn hơn hoặc bằng một giá trị gọi là góc tới hạn ($i_{th}$).\nGóc tới hạn ($i_{th}$) được xác định là góc tới mà tại đó tia khúc xạ đi là là mặt phân cách, tương ứng với góc khúc xạ $r = 90^\\circ$. Khi góc tới $i \\ge i_{th}$, sẽ không còn tia khúc xạ mà toàn bộ tia sáng sẽ bị phản xạ ngược trở lại môi trường ban đầu.\nSợi quang có lõi làm bằng thuỷ tinh hoặc chất dẻo trong suốt có chiết suất $n_1$, được bao quanh bằng một lớp vỏ có chiết suất $n_2$. Xét tia tới SI đến điểm I trên tiết diện MN của sợi quang. Tia này bị khúc xạ khi đi vào sợi quang. Tia khúc xạ tới mặt tiếp xúc giữa lõi và lớp vỏ tại $I_1$ dưới góc tới i lớn hơn góc tới hạn $i_{th}$ và bị phản xạ toàn phần. Hiện tượng phản xạ như vậy được lặp lại nhiều lần liên tiếp tại các điểm $I_2$, ...\n$/image_{https://api-course.hethonglab.com/static/4b8bcacf-1fe8-4f6c-a3e9-30498f71f9b9.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-06T09:35:37.731156+07:00",
+                "updated_at": "2025-12-06T17:18:29.595086+07:00",
+                "questions": [
+                    {
+                        "id": "3b2d41b1-f7cb-470c-91ea-dd7f4127859d",
+                        "parent_id": "fd770b01-8d82-43b3-bb29-9e5748088313",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 1,
+                        "content": "[M2] Từ các thông tin về hiện tượng phản xạ và khúc xạ, kéo thả các từ ngữ thích hợp vào chỗ trống :\nÁnh sáng trong sợi quang được truyền từ lõi có chiết xuất $n_1$ đến vỏ có chiết xuất ____. Khi truyền ánh sáng như vậy, nếu ____ dần góc tới thì góc phản xạ tăng dần và khi góc phản xạ $r = 90^\\circ$ thì đạt giá trị $i_{th}$. Khi đó ta có ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "$\\sin(i_{th}) = n_2^2/n_1^2$",
+                                "$n_2 > n_1$",
+                                "Tăng",
+                                "$\\sin(i_{th}) = n_2/n_1$",
+                                "$n_2 < n_1$",
+                                "giảm"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                4,
+                                2,
+                                3
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:19:24.428462+07:00"
+                    },
+                    {
+                        "id": "c4d5f79c-f4f2-403d-91a5-bd4166c1685c",
+                        "parent_id": "fd770b01-8d82-43b3-bb29-9e5748088313",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 2,
+                        "content": "[M1] Một sợi quang silica có đường kính lõi đủ lớn để được xem xét bằng phân tích lý thuyết quang hình học, có chiết suất lõi là 1,50 và chiết suất lớp vỏ bọc là 1,47. Góc tới hạn (critical angle) tại mặt phân cách giữa lõi và lớp vỏ của sợi quang này là bao nhiêu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$78,5^\\circ$"
+                                },
+                                {
+                                    "content": "$73,8^\\circ$"
+                                },
+                                {
+                                    "content": "$88,3^\\circ$"
+                                },
+                                {
+                                    "content": "$90,0^\\circ$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:19:54.446242+07:00"
+                    },
+                    {
+                        "id": "6119a3e9-064c-4568-b92b-a7e605002a58",
+                        "parent_id": "fd770b01-8d82-43b3-bb29-9e5748088313",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 3,
+                        "content": "[M1] Vận tốc của ánh sáng sẽ thay đổi khi nó đi vào một môi trường có chiết suất khác, nhưng tần số của nó thì không đổi, kéo theo bước sóng cũng sẽ thay đổi theo. Người ta dùng ánh sáng có bước sóng 1550 nm trong không khí để truyền tin ở các khoảng cách xa, giữa các quốc gia với nhau. Khi đi vào lõi sợi quang trên, bước sóng của ánh sáng này là bao nhiêu, lấy chiết suất của không khí là $n = 1,00029$.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "2324,3 nm."
+                                },
+                                {
+                                    "content": "1033,6 nm."
+                                },
+                                {
+                                    "content": "1054,7 nm."
+                                },
+                                {
+                                    "content": "1550 nm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:20:14.555238+07:00"
+                    },
+                    {
+                        "id": "968acb10-072e-47a2-98a3-ed8ff8187d64",
+                        "parent_id": "fd770b01-8d82-43b3-bb29-9e5748088313",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 4,
+                        "content": "[M3] Điền kết quả là một số (làm tròn đến hàng phần mười của đơn vị độ) hoặc từ gồm một tiếng.\nSợi quang nêu trên được đặt trong không khí có $n = 1,00029$. Góc chấp nhận (acceptance angle) lớn nhất trong không khí để ánh sáng có thể được truyền đi bên trong sợi quang là ____ độ. Nếu giữ nguyên chiết xuất lõi nhưng thay lớp vỏ bằng một vật liệu có chiết suất $n_2'$ thấp hơn, góc chấp nhận trên sẽ ____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "17,4",
+                                "tăng"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:20:51.303815+07:00"
+                    },
+                    {
+                        "id": "ac61a3f1-d7d6-4f4a-a497-cc0fe8373d87",
+                        "parent_id": "fd770b01-8d82-43b3-bb29-9e5748088313",
+                        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+                        "position": 5,
+                        "content": "[M2] Trong truyền thông quang, sóng bị suy hao trong quá trình truyền đi. Độ suy hao của sóng, đặc biệt trong viễn thông, thường được tính bằng đơn vị decibel (dB). Công thức để tính độ suy hao khi so sánh công suất tín hiệu đầu ra ($P_{out}$) với công suất tín hiệu đầu vào ($P_{in}$) là: $10 \\log \\dfrac{P_{in}}{P_{out}}$.\nDo suy hao khi sóng truyền được trên mỗi đoạn có độ dài như nhau là như nhau, nên người ta sử dụng khái niệm hệ số suy hao $a$, định nghĩa là độ suy hao trên mỗi km cáp quang, tính bằng đơn vị (dB/km). Khi truyền thông tin bằng sợi quang với công suất đầu vào là $P_{in} = 120 \\mu W$, truyền đi 9 km, hệ số suy hao $a = 2$ dB/km. Các cáp quang có mối nối trên mỗi km và suy hao mỗi mỗi nối là 1 dB. Công suất đầu ra là ____ $\\mu W$, kết quả làm tròn đến hai chữ số có nghĩa.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "0,30"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-06T09:35:37.731156+07:00",
+                        "updated_at": "2025-12-06T17:21:12.09743+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "3e72cdfc-d168-4154-b984-c0ab90269aac",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "03b04e9b-065e-4a0e-a069-6593d152ac9a",
+        "status": "in_progress",
+        "created_at": "2025-12-11T22:16:05.070237+07:00",
+        "updated_at": "2025-12-11T22:16:05.070237+07:00",
+        "submited_at": "2025-12-11T22:16:05.070237+07:00"
+    }
+}

@@ -1,0 +1,1443 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+        "title": "Tư Duy Khoa Học 06",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "created_at": "2025-12-08T19:10:13.955644+07:00",
+        "updated_at": "2025-12-08T19:59:25.326174+07:00",
+        "questions": [
+            {
+                "id": "e6316ed4-1556-4fb0-a292-c82e14186833",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 1,
+                "content": "${\\textbf{Entropy và năng lượng tự do Gibbs}}$\n•\tEntropy (kí hiệu là S) là thước đo mức độ hỗn loạn (mất trật tự) của hệ chứa số lượng lớn các hạt như nguyên tử, phân tử hay ion ở một trạng thái và điều kiện xác định. Entropy gắn với độ tự do trong chuyển động của các phân tử, tăng khi hệ nhiệt động biến đổi giữa các trạng thái phân bố trật tự (độ tự do chuyển động càng cao thì entropy càng lớn). Ngoài ra, entropy cũng là một hàm logarit biểu thị trạng thái, vì thế entropy là đại lượng đại số (có thể cộng trừ được), và nó chỉ phụ thuộc vào trạng thái đầu và cuối của hệ nhiệt động mà không phụ thuộc vào quá trình thay đổi trạng thái.\n•\tTrong vật lí và hóa học, entropy của một chất ở 298 K (theo thang nhiệt độ Celcius là $25^oC$) và 1 bar, được gọi là entropy chuẩn của một chất, được kí hiệu là $S_{298}^o$ (đơn vị thường là $J.mol^{-1}.K^{-1}$). Biến thiên entropy được tính bằng cách lấy tổng entropy của trạng thái cuối trừ đi tổng entropy của trạng thái đầu, giống như cách tính biến thiên enthalpy. Ở lĩnh vực hóa học, các phản ứng mà làm tăng số mol khí thường có biến thiên entropy dương và ngược lại, các phản ứng không làm thay đổi số mol khí hoặc không tạo ra thêm các chất khí thường có biến thiên entropy nhỏ.\n•\tNăng lượng tự do Gibbs (G) là năng lượng của phản ứng hóa học và có thể thực hiện công có ích. Ở nhiệt độ và áp suất không đổi ($p = 1$ bar), biến thiên năng lượng tự do của phản ứng $\\Delta_rG^o$ (kJ) được tính theo công thức sau: $\\Delta_rG^o = \\Delta_rH^o – T\\Delta_rS^o$.\n•\tTrong đó: $\\Delta_rH^o$ (kJ) và $\\Delta_rS^o$ (J/K) lần lượt là biến thiên enthalpy và entropy của phản ứng, T là nhiệt độ (K). Dấu của $\\Delta_rG^o$ được dùng để dự đoán chiều hướng xảy ra của một phản ứng hóa học. Nếu $\\Delta_rG^o$ âm thì phản ứng tự xảy ra, còn nếu $\\Delta_rG^o$ dương thì phản ứng không tự xảy ra.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:29:11.927004+07:00",
+                "questions": [
+                    {
+                        "id": "7b5eb5cb-acfe-4690-9e52-0210869b53c6",
+                        "parent_id": "e6316ed4-1556-4fb0-a292-c82e14186833",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Để một phản ứng hóa học chắc chắn không thể tự xảy ra ở mọi nhiệt độ thì",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$\\Delta_rH^o > 0$ và $\\Delta_rS^o < 0$."
+                                },
+                                {
+                                    "content": "$\\Delta_rH^o < 0$ và $\\Delta_rS^o < 0$."
+                                },
+                                {
+                                    "content": "$\\Delta_rH^o > 0$ và $\\Delta_rS^o > 0$."
+                                },
+                                {
+                                    "content": "$\\Delta_rH^o < 0$ và $\\Delta_rS^o > 0$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": " Để một phản ứng hóa học chắc chắn không thể tự xảy ra ở mọi nhiệt độ thì $\\Delta_rG^\\circ$ dương.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:25:00.651444+07:00"
+                    },
+                    {
+                        "id": "b3349d24-a611-4699-a0de-b6b0c0b78724",
+                        "parent_id": "e6316ed4-1556-4fb0-a292-c82e14186833",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M2] Cho biết các phát biểu sau đúng hay sai.",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Entropy của một chất sẽ tăng dần khi tăng nhiệt độ."
+                                },
+                                {
+                                    "content": "Một chất lí tưởng ở điều kiện chuẩn sẽ có entropy bằng 0."
+                                },
+                                {
+                                    "content": "Entropy của một chất là đại lượng đại số, có thể âm, dương hoặc bằng 0."
+                                },
+                                {
+                                    "content": "Trong các quá trình chuyển thể, quá trình bay hơi làm tăng entropy nhiều nhất."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                false,
+                                false
+                            ]
+                        },
+                        "answer_detail": "- Ý thứ nhất, do khi tăng nhiệt độ thì các phân tử chuyển động hỗn loạn hơn, entropy của chất đó tăng lên.\n- Ý thứ hai, entropy bằng $0$ khi các phân tử cấu tạo nên vật không chuyển động, tức là vật phải ở $0$ $(K)$ (độ không tuyệt đối).\n- Ý thứ ba, entropy của một chất không thể âm, và trong thực tế cũng không thể bằng $0$.\n- Ý thứ tư, quá trình thăng hoa (từ thể rắn sang thể khí) làm độ hỗn loạn của các phân tử cấu tạo nên vật tăng lên nhiều nhất.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:29:08.354747+07:00"
+                    },
+                    {
+                        "id": "a0c5d1bc-bbba-41a7-9bb0-4236992032f7",
+                        "parent_id": "e6316ed4-1556-4fb0-a292-c82e14186833",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M1] Điền từ không quá hai tiếng trong bài đọc thích hợp vào chỗ trống\nTrong hóa học, các phản ứng mà làm giảm số mol khí thường có biến thiên entropy ____ và ngược lại là do các phân tử khí chuyển động ____ không ngừng, có độ ____ chuyển động lớn.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "âm",
+                                "hỗn loạn",
+                                "tự do"
+                            ]
+                        },
+                        "answer_detail": "Theo bài đọc: Ở lĩnh vực hóa học, các phản ứng mà làm tăng số mol khí thường có biến thiên entropy dương và ngược lại, Các từ còn lại có thể tìm thấy từ bài đọc sao cho phù hợp với quan điểm của thuyết động học phân tử.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:29:01.063121+07:00"
+                    },
+                    {
+                        "id": "58f990d7-7b57-4226-ae5f-f9fbd4ea726e",
+                        "parent_id": "e6316ed4-1556-4fb0-a292-c82e14186833",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M2] Quá trình nào sau đây có biến thiên entropy lớn nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Quá trình kết tinh của muối."
+                                },
+                                {
+                                    "content": "Quá trình ngưng tụ nước dưới dạng các giọt sương trên lá."
+                                },
+                                {
+                                    "content": "Hòa tan đường saccharose vào dung môi là nước."
+                                },
+                                {
+                                    "content": "Thực hiện phương pháp nhiệt luyện sản xuất kẽm từ ZnO."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Quá trình nào có biến thiên entropy lớn nhất là (iv), do kẽm từ thể rắn được tạo ra ở thể hơi, làm tăng độ hỗn loạn lên cao nhất.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:28:54.517498+07:00"
+                    },
+                    {
+                        "id": "7748b969-4e60-4dac-a709-fd4e05a56882",
+                        "parent_id": "e6316ed4-1556-4fb0-a292-c82e14186833",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Xét phản ứng $CaCO_3 (s) \\rightarrow CaO (s) + CO_2 (g)$ có entropy và enthalpy chuẩn của các chất tham gia và các chất sản phẩm như sau:\n$/image_{https://api-course.hethonglab.com/static/bbc60e6e-8210-4faa-8e70-da3e4e9d1928.png}_{center}_{100}_{block}$\nỞ nhiệt độ ____$ ^oC$ thì phản ứng có thể tự xảy ra, nếu giả sử biến thiên enthalpy và biến thiên entropy của phản ứng không phụ thuộc vào nhiệt độ, kết quả làm tròn đến chữ số thập phân thứ nhất.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "848,4"
+                            ]
+                        },
+                        "answer_detail": "Dễ dàng tính được biển thiên enthalpy của phản ứng là $178,3 \\text{ kJ}$, biến thiên entropy của phản ứng là $0,159 \\text{ kJ}$.\nĐể phản ứng có thể tự xảy ra, biến thiên năng lượng tự do Gibbs $\\Delta_rG^\\circ$ phải nhỏ hơn $0$. Thay số, ta tính được $T \\approx 1124,4 \\text{ (K)} = 848,4 ^\\circ C$.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:28:27.377625+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "3ae9dfb2-431b-4c5d-8c99-91ca1bc9ecd2",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 2,
+                "content": "${\\textbf{Thận nhân tạo – vị cứu tinh của những bệnh nhân mắc bệnh suy thận}}$\n•\tQuá trình lọc máu và tạo thành nước tiểu được mô tả như sau:\n$/image_{https://api-course.hethonglab.com/static/a71a975d-bdb7-4634-bdf1-7248fcdaa2d8.png}_{center}_{100}_{block}$\n•\tVới những bệnh nhân suy thận, chức năng lọc máu suy giảm, họ có thể chết vì nhiễm độc những chất thải của cơ thể mình. Rất may, họ có thể được cứu sống bằng việc lọc máu thường xuyên bằng thận nhân tạo. Có những bệnh nhân suy thận mãn tính đã sống đươc thêm hàng chục năm nhờ phương pháp này.\n$/image_{https://api-course.hethonglab.com/static/1d55012a-d6ee-465c-baf9-61caa0584b12.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:21:15.147708+07:00",
+                "questions": [
+                    {
+                        "id": "284332ef-aead-4b38-b932-dec0a715ac18",
+                        "parent_id": "3ae9dfb2-431b-4c5d-8c99-91ca1bc9ecd2",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Kéo thả các từ thích hợp vào chỗ trống :\nThận nhân tạo là một máy lọc máu mà phần cơ bản quan trọng của nó là lớp màng lọc được con người chế tạo mô phỏng cấu trúc vách mao mạch ____. Phía trong lớp màng này là máu ____ của cơ thể với áp lực cao nhờ sự hỗ trợ của máy bơm. Phía ngoài màng là dung dịch nhân tạo được pha chế giống hệt huyết tương, chỉ khác là không có chất thải. Chênh lệch nồng độ giữa chúng giúp các chất thải trong máu khuếch tán sang dung dịch và máu được lọc sạch lại qua ____ về cơ thể.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "tĩnh mạch",
+                                "cầu thận",
+                                "ống thận",
+                                "động mạch",
+                                "nang cầu thận"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3,
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:31:20.237047+07:00"
+                    },
+                    {
+                        "id": "9dd83b74-ab03-48e5-9c86-425c44643692",
+                        "parent_id": "3ae9dfb2-431b-4c5d-8c99-91ca1bc9ecd2",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M1] Những chất nào dưới đây có trong dịch nhân tạo được đưa vào trong hệ thống chạy thận nhân tạo?\nChọn nhiều phương án đúng .",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Protein."
+                                },
+                                {
+                                    "content": "Glucose."
+                                },
+                                {
+                                    "content": "Creatinine."
+                                },
+                                {
+                                    "content": "Urea."
+                                },
+                                {
+                                    "content": "Ion $Na^+$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                4
+                            ]
+                        },
+                        "answer_detail": "Các ion hoặc chất còn cần thiết cần có nồng độ bằng nồng độ trong máu thì mới không xảy ra việc mất mát các chất trên do khuếch tán sang dung dịch. Còn protein do kích thước lớn nên vẫn ở lại trong máu, vì thế không cần thiết bổ sung protein.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:31:50.958749+07:00"
+                    },
+                    {
+                        "id": "f8359ed4-50d6-42c8-a4b0-eba1b0304eaf",
+                        "parent_id": "3ae9dfb2-431b-4c5d-8c99-91ca1bc9ecd2",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M1] Tại sao quá trình hấp thụ lại và bài tiết tiếp của thận cần ATP trong khi quá trình lọc máu qua hệ thống thận nhân tạo lại không?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Vì chất dinh dưỡng cần thận giữ lại có kích thước lớn."
+                                },
+                                {
+                                    "content": "Vì hấp thụ lại là từ nơi có nồng độ thấp đến cao, còn quá trình trong hệ thống thận nhân tạo là vận chuyển từ nơi có nồng độ cao đến thấp."
+                                },
+                                {
+                                    "content": "Vì quá trình lọc máu qua hệ thống thận nhân tạo là quá trình khuếch tán, quá trình hấp thụ lại và bài tiết tiếp của thận là quá trình thẩm thấu."
+                                },
+                                {
+                                    "content": "Vì đã có áp lực của dòng máu do hệ thống bơm tạo ra."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Vì hấp thụ lại là từ nơi có nồng độ thấp đến cao ngược chiều gradient nồng độ để giữ các chất dinh dưỡng cần thiết, vì thế cần ATP. Còn quá trình trong hệ thống thận nhân tạo là vận chuyển từ nơi có nồng độ cao đến thấp xuôi chiều gradient nồng độ.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:32:10.457316+07:00"
+                    },
+                    {
+                        "id": "39470be3-b540-442f-b540-35887d9ae2fe",
+                        "parent_id": "3ae9dfb2-431b-4c5d-8c99-91ca1bc9ecd2",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M2] Trong hệ thống chạy thận nhân tạo, nên thiết kế dòng máu chảy và dòng dịch lọc như thế nào để tối ưu quá trình lọc máu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hai dòng chảy cùng chiều với vận tốc như nhau."
+                                },
+                                {
+                                    "content": "Hai dòng chảy ngược chiều nhau."
+                                },
+                                {
+                                    "content": "Dòng máu chảy liên tục, dòng dịch lọc đứng yên."
+                                },
+                                {
+                                    "content": "Dòng máu chảy chậm, dịch lọc chảy nhanh."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Cần thiết kế hai dòng chảy ngược chiều nhau đảm bảo sự tiếp xúc của máu và dung dịch lọc nhiều và nhanh nhất, giúp lọc bỏ chất thải cho cơ thể. Khi máu chảy ngược chiều với dung dịch lọc, nó sẽ liên tục gặp dung dịch lọc “sạch hơn” (có nồng độ chất thải thấp hơn). Điều này duy trì một gradient nồng độ (sự chênh lệch nồng độ) hiệu quả dọc theo toàn bộ chiều dài của màng lọc.\nNếu chúng chảy cùng chiều, nồng độ sẽ nhanh chóng cân bằng ở giữa đường, khiến quá trình khuếch tán ở nửa sau của màng lọc trở nên kém hiệu quả.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:32:34.65869+07:00"
+                    },
+                    {
+                        "id": "ced97af5-ef5e-434e-a1c5-75dfff64c593",
+                        "parent_id": "3ae9dfb2-431b-4c5d-8c99-91ca1bc9ecd2",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Bảng trên thể hiện các thành phần của mẫu được lấy từ một người khỏe mạnh:\nKéo thả thành phần thích hợp vào ô trống:\nX: ____\nY: ____\nZ: ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "urea",
+                                "protein",
+                                "glucose"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                2,
+                                0
+                            ]
+                        },
+                        "answer_detail": "Từ bảng các thành phần của huyết tương, nước tiểu đầu và nước tiểu chính thức, ta nhận thấy:\nX: Một phân tử lớn có trong huyết tương nhưng không được lọc. Đây là protein.\nY: Một phân tử nhỏ được lọc nhưng sau đó được tái hấp thu hoàn toàn. Đây là glucose.\nZ: Một sản phẩm thải nhỏ được lọc và trở nên cô đặc trong nước tiểu. Đây là urê.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:33:10.20942+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "6c7f4844-e58c-450a-bc1c-1dd13323d23c",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 3,
+                "content": "${\\textbf{Thí nghiệm giả lập điều tra thất lạc trẻ sơ sinh tại bệnh viện}}$\n- Sự hiện diện hay vắng mặt của kháng nguyên A và B trên Tế bào hồng cầu (RBCs) quyết định nhóm máu hệ ABO của một cá nhân. Một người chỉ có kháng nguyên A sẽ thuộc nhóm máu A. Một người chỉ có kháng nguyên B sẽ thuộc nhóm máu B. Một người có cả kháng nguyên A và B sẽ có nhóm máu AB, trong khi người không có kháng nguyên nào sẽ có nhóm máu O. Các kháng nguyên này ở một cá nhân được quy định bởi các alen của gen chịu trách nhiệm tổng hợp chúng. Kháng nguyên A được quyết định bởi alen $I^A$, trong khi kháng nguyên B được quyết định bởi alen $I^B$. Không có kháng nguyên nào được tạo ra khi một cá nhân mang alen $I^o$. Các alen $I^A$ và $I^B$ là đồng trội. Alen $I^o$ là lặn so với cả hai alen $I^A$ và $I^B$.\n- Sự hiện diện của một kháng nguyên nhất định có thể được xác định bằng cách sử dụng kháng thể. Ví dụ, nếu một kháng thể chống lại kháng nguyên A được thêm vào máu của người có nhóm máu A, các tế bào hồng cầu sẽ kết tụ lại hoặc ngưng kết.\n- Giáo viên đặt ra giả thiết, khi quy trình trao nhận con mới sinh chưa chặt chẽ như bây giờ (có vòng nhận diện, đánh dấu), việc trao nhầm con hoàn toàn có thể xảy ra. Nhóm học sinh được giao nhiệm vụ tìm cha mẹ của ba trẻ sơ sinh bị trao nhầm trong bệnh viện, bằng cách xác định nhóm máu. Trong thí nghiệm này, họ sẽ không sử dụng mẫu máu thật mà sử dụng các dung dịch mô phỏng quá trình ngưng kết (kết tụ) của máu khi có sự hiện diện của một kháng thể nhất định. Quá trình này đã được mô phỏng bằng hóa chất và hiện tượng kết tủa đại diện cho quá trình ngưng kết. Việc sử dụng hóa chất để minh họa khái niệm về nhóm máu được phát triển bởi Magdalena Wajrak thuộc Đại học Edith Cowan ở Perth, Úc.\n- Nhóm sử dụng mẫu máu mô phỏng (tổng cộng 9 mẫu) trong các ống nhựa 1.5 ml (đặt trên giá đỡ) được dán nhãn như sau:\n•\tC, D, E tương ứng với ba em bé thất lạc.\n•\tBa cặp bố mẹ lần lượt như sau:\n$/image_{https://api-course.hethonglab.com/static/e9efbc68-3c27-4dde-9e70-bbb49041abb1.png}_{center}_{100}_{block}$\n-\tCùng với đó, nhóm có các ống nhựa 15 ml được dán nhãn Anti-A, Anti-B và NA, chứa các kháng thể mô phỏng chống lại kháng nguyên A, kháng nguyên B và không có kháng thể.\n-\tNhóm học sinh nhỏ lần lượt các kháng thể vào các mẫu máu, ghi lại kết quả như bảng sau, với dấu X tức là xuất hiện kết tủa.\n$/image_{https://api-course.hethonglab.com/static/b7b348f8-2844-4765-9bd7-e4f1b11c9c0c.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:21:15.147708+07:00",
+                "questions": [
+                    {
+                        "id": "5c2b3729-03a2-4f17-8ec1-616eebb4dfe4",
+                        "parent_id": "6c7f4844-e58c-450a-bc1c-1dd13323d23c",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Để biểu hiện tính trạng nhóm máu, một gene cần có hai alen.\nCó bao nhiêu kiểu gene nhóm máu có thể xảy ra?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "3."
+                                },
+                                {
+                                    "content": "6."
+                                },
+                                {
+                                    "content": "9."
+                                },
+                                {
+                                    "content": "12."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Có ba loại alen, chọn hai alen (không sắp xếp) tạo 1 gene, từ đó tạo được 6 gene nhóm máu.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:33:41.876595+07:00"
+                    },
+                    {
+                        "id": "e825c250-36cf-41c6-8db4-99fc7fcf1d2f",
+                        "parent_id": "6c7f4844-e58c-450a-bc1c-1dd13323d23c",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M1] Cho biết các phát biểu sau là đúng hay sai :",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Bố và mẹ có nhóm máu O, tất cả các con sinh ra chỉ có 1 nhóm máu."
+                                },
+                                {
+                                    "content": "Người có nhóm máu A khi truyền nhóm máu B vào người, cơ thể sinh ra kháng thể chống lại kháng nguyên B, gây hiện tượng kết tụ hồng cầu trong máu."
+                                },
+                                {
+                                    "content": "Người có nhóm máu AB khi truyền nhóm máu A vào người, cơ thể sinh ra kháng thể chống lại kháng nguyên A, gây hiện tượng kết tụ hồng cầu trong máu."
+                                },
+                                {
+                                    "content": "Nhóm máu O có thể truyền cho tất cả những người có nhóm máu khác mà không gây hiện tượng kết tụ hồng cầu."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Ý thứ nhất, bố mẹ có nhóm máu O chứng tỏ đều có gene nhóm máu là $I^OI^O$, vì thế chỉ có các alen O, con sinh ra chỉ có thể có nhóm máu O.\n- Ý thứ hai, khi truyền máu có kháng nguyên khác kháng nguyên A, cơ thể sẽ sinh ra kháng thể chống lại, gây hiện tượng kết tụ hồng cầu dẫn đến tử vong.\n- Ý thứ ba, trong nhóm máu AB có cả kháng nguyên A và kháng nguyên B, vì thế cơ thể sẽ không sinh ra kháng thể chống lại kháng nguyên A.\n- Ý thứ tư, nhóm máu O không có kháng nguyên nên khi truyền cho các nhóm máu khác sẽ không sinh ra kháng thể chống lại.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:34:21.608077+07:00"
+                    },
+                    {
+                        "id": "9a6e30bb-f0c2-4348-8f39-1ca2ea701b89",
+                        "parent_id": "6c7f4844-e58c-450a-bc1c-1dd13323d23c",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M2] Kéo thả người được lấy mẫu tương ứng với nhóm máu của họ.\nNhóm máu A: ____, ____\nNhóm máu B: ____, ____\nNhóm máu O: ____, ____\nNhóm máu AB: ____, ____, ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "C",
+                                "D",
+                                "E",
+                                "Jack",
+                                "Thiên An",
+                                "Công Vinh",
+                                "Thủy Tiên",
+                                "Trấn Thành",
+                                "Hari Won"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                6,
+                                7,
+                                5,
+                                0,
+                                3,
+                                2,
+                                4,
+                                8,
+                                1
+                            ]
+                        },
+                        "answer_detail": "Phân loại các nhóm máu theo nguyên tắc: Nếu chỉ tạo kết tủa với mẫu Anti-A là nhóm máu A, chỉ tạo kết tủa với mẫu Anti-B là nhóm máu B, tạo kết tủa với cả hai mẫu Anti-A và Anti-B là nhóm máu AB, không có hiện tượng là nhóm máu O.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:35:47.312904+07:00"
+                    },
+                    {
+                        "id": "1f6ac06b-75e6-4d2c-9f8b-34560a236bcb",
+                        "parent_id": "6c7f4844-e58c-450a-bc1c-1dd13323d23c",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M2] Nối người con với cặp bố mẹ thích hợp :\nC - ____\nD - ____\nE - ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "Jack x Thiên An",
+                                "Công Vinh x Thủy Tiên",
+                                "Trấn Thành x Hari Won"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                2,
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhận thấy Jack nhóm máu O, Thiên An nhóm máu AB, vì thế con chỉ có thể có nhóm máu A hoặc B. Vì thế C là bé Sol. Trấn Thành nhóm máu A, Hari Won nhóm máu AB, con chỉ có thể có nhóm máu A, B hoặc AB. Con của cặp bố mẹ này là D. Vì thế, con của cặp còn lại là E.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:36:42.028785+07:00"
+                    },
+                    {
+                        "id": "b06b2fbc-0a39-4848-b0e2-0e435fa456f3",
+                        "parent_id": "6c7f4844-e58c-450a-bc1c-1dd13323d23c",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Các gene tuân thủ theo quy luật phân li độc lập, với xác xuất các alen tạo ra là như nhau khi giảm phân, sau đó kết hợp với nhau ngẫu nhiên, với một alen từ mẹ, một alen từ bố tạo thành hợp tử (Ví dụ, người bố có gene $I^BI^O$ có thể phân li tạo ra alen $I^B$ và $I^O$, người mẹ có gene $I^oI^o$ tạo hai alen $I^o$, con sẽ có gene là $I^BI^o$ hoặc $I^oI^o$ là 50%). Theo Viện Huyết học - Truyền máu Trung ương, ở nước ta nhóm máu có tỷ lệ như sau: nhóm máu O chiếm 42,1%, nhóm máu B chiếm khoảng 30,1%, nhóm máu A chiếm khoảng 21,2% và nhóm máu AB chiếm khoảng 6,6%. Giả sử quần thể nghiên cứu đạt trạng thái cân bằng di truyền, ta có thể tính được tần số kiểu gene $I^AI^o$ là ____%, tần số alen $I^B$ là ____%, kết quả làm tròn tới hàng đơn vị.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "19",
+                                "20"
+                            ]
+                        },
+                        "answer_detail": "Giải thích : Để có nhóm máu O, cần sự kết hợp của hai alen $I^O$ từ bố và mẹ, có tỉ lệ như nhau.\nTần số của alen $I^O$ là $0,421$.\nGọi tần số alen $I^A = p$, alen $I^B = q$.\nTừ đó ta có nhóm máu AB có tỉ lệ $2p.q = 0,066$ (nhân $2$ do có $2$ TH gene $I^A$ từ bố hoặc gene $I^A$ từ mẹ), kiểu gene $I^AI^A$ có tần số là $p^2$, kiểu gene $I^BI^B$ có tỉ lệ là $q^2$, kiểu gene $I^AI^O$ có tỉ lệ là $2p \\cdot 0,421$ và kiểu gene $I^BI^O$ có tỉ lệ là $2q \\cdot 0,421$.\nGiải các phương trình tỉ lệ nhóm máu A là $p^2 + 2p \\cdot 0,421 = 0,212$, $q^2 + 2q \\cdot 0,421 = 0,301$. Tìm được $p \\approx 0,1468$; $q \\approx 0,20086$.\nNếu tính được tần số $3$ alen gần bằng $1$, tổng tỉ lệ các kiểu gene gần bằng $1$ là đúng (có sai số do làm tròn).",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:37:35.159297+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "6acf50d4-216f-4ec1-ac35-7c3e2bee5fbc",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 4,
+                "content": "${\\textbf{Điều chế ethyl acetate trong phòng thí nghiệm}}$\nEthyl acetate (khối lượng riêng d = 0,902 g/ml) thường được sử dụng làm dung môi tách chiết các chất hữu cơ, được điều chế theo thí nghiệm sau:\n$CH_3COOH + C_2H_5OH \\overset{H_2SO_4 đặc, t^o}{\\rightleftharpoons} CH_3COOC_2H_5 + H_2O$\nMột nhóm học sinh thực hiện thí nghiệm điều chế ethyl acetate trong phòng thí nghiệm như sau:\n•\tCho vào bình cầu 25 mL acetic acid nguyên chất (d = 1,05 g/ml) và 25 mL cồn $96^o$ (d = 0,8 g/ml) vào bình cầu đáy tròn, sau đó cho vào 5mL $H_2SO_4$ đặc vào bình bằng cách cho chảy từ từ trên thành bình, lăn bình cầu trong thau nước.\n•\tLắp hệ thống ống sinh hàn hồi lưu, cho ba viên đá bọt và thực hiện đun trên ngọn lửa đèn cồn trong 30 phút.Hỗn hợp sau phản ứng đem đun cách thủy, lắp hệ thống ống sinh hàn thẳng.\n$/image_{https://api-course.hethonglab.com/static/6a6b5892-81fb-4b59-bd46-9000da31d44a.png}_{center}_{100}_{block}$\n•\tHỗn hợp sau khi chưng cất cho vào phễu chiết, thêm vào 15 mL $Na_2CO_3$ 10%, lắc kỹ, để yên trong 3 phút và loại bỏ phần phía dưới, sau đó thêm 15 mL $CaCl_2$ 30% và làm tương tự.\n•\tThêm vào phễu 10 mL $NaCl$ bão hòa, lắc kỹ, để yên trong 10 phút và loại bỏ phần phía dưới.\nCho thêm $Na_2SO_4$ khan rồi lọc bỏ tinh thể, thu được dung dịch đong được 21 mL.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:21:15.147708+07:00",
+                "questions": [
+                    {
+                        "id": "5b50fe11-baae-44a9-a101-ac50f555f848",
+                        "parent_id": "6acf50d4-216f-4ec1-ac35-7c3e2bee5fbc",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M2] Cho biết các phát biểu sau là đúng hay sai :",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Sử dụng $Na_2CO_3$, $CaCl_2$, $NaCl$, $Na_2SO_4$ khan đều nhằm loại bỏ các tạp chất lẫn vào, giúp thu được ethyl acetate tinh khiết."
+                                },
+                                {
+                                    "content": "Trong bình hứng, lớp ethyl acetate sẽ nằm ở dưới lớp nước."
+                                },
+                                {
+                                    "content": "Lí do thêm $H_2SO_4$ đặc vào bình bằng cách cho chảy từ từ trên thành bình, lăn bình cầu trong thau nước do $H_2SO_4$ đặc tỏa nhiệt mạnh."
+                                },
+                                {
+                                    "content": "$H_2SO_4$ đặc đóng vai trò là chất xúc tác trong phản ứng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Ý thứ nhất, sử dụng $NaCl$ để tăng tỉ trọng lớp nước phía dưới giúp dễ tách ester hơn, chứ không tham gia phản ứng hóa học.\n- Ý thứ hai, ethyl acetate có khối lượng riêng nhỏ hơn nước nên nổi lên trên .\n- Ý thứ ba, $H_2SO_4$ đặc tiếp xúc trực tiếp với nước tỏa nhiệt mạnh nên cần cho chảy như vậy tránh nứt vỡ bình.\n- Ý thứ tư, nhìn phản ứng đề cho ta thấy $H_2SO_4$ đặc không tham gia phản ứng, đóng vai trò là chất xúc tác.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:38:08.720138+07:00"
+                    },
+                    {
+                        "id": "2ba93100-1a24-450d-9079-26d15db0e0f4",
+                        "parent_id": "6acf50d4-216f-4ec1-ac35-7c3e2bee5fbc",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M1] Điền từ thích hợp không quá ba tiếng vào chỗ trống về quá trình thí nghiệm :\nKhi hỗn hợp acetic acid, ethanol và $H_2SO_4$ đặc được đun nóng, phản ứng ester hóa xảy ra, sau đó chất lỏng có ____ thấp hơn là ethyl acetate sẽ bay hơi trước, tạo thành hơi. Hơi này bốc lên trên và đi vào ____. Trong ống, nước làm lạnh liên tục chảy vào từ phía dưới và ra ở phía trên, làm hơi ____, chảy xuống bình hứng.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "nhiệt độ sôi",
+                                "ống sinh hàn",
+                                "ngưng tụ"
+                            ]
+                        },
+                        "answer_detail": "Khi chưng cất, chất có nhiệt độ sôi nhỏ hơn sẽ bay hơi trước, đi vào ống sinh hàn (quan sát sơ đồ). Hơi thoát ra để chảy thành giọt thì phải qua quá trình ngưng tụ trong ống sinh hàn.\nCác từ ngữ dễ dàng được tìm thấy trong cả ngữ liệu và câu hỏi.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:39:12.487898+07:00"
+                    },
+                    {
+                        "id": "6a02171c-f837-4800-a134-c09c201eab94",
+                        "parent_id": "6acf50d4-216f-4ec1-ac35-7c3e2bee5fbc",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M3] Vì ethyl acetate không phân cực, còn nước, acetic acid và ethanol đều phân cực nên nhóm học sinh đề xuất có thể dùng dung môi hữu cơ không phân cực diethyl ether ($C_2H_5OC_2H_5$) để chiết ethyl acetate ra khỏi hỗn hợp sau phản ứng như sau, sau đó dùng đèn cồn đun nhẹ cho dung môi diethyl ether bay hơi, do diethyl ether có nhiệt độ sôi $34,6^oC$, thấp hơn ethyl acetate là $77,1^oC$.\n$/image_{https://api-course.hethonglab.com/static/ce3215fc-1f4e-4d63-8242-76f4c139782e.png}_{center}_{100}_{block}$\nCác thao tác của nhóm học sinh như trên hoàn toàn có thể thực hiện thay cho việc sử dụng $NaCl$ bão hòa để chiết ethyl acetate.\nPhát biểu trên đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng."
+                                },
+                                {
+                                    "content": "Sai."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Diethyl ether dễ cháy, dùng đèn cồn đun khả năng gây cháy nổ cao. Ta có thể dùng nước nóng tưới lên thành bình để đuổi diethyl ether thay cho việc dùng đèn cồn.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:39:29.905694+07:00"
+                    },
+                    {
+                        "id": "6d31c703-815b-4daf-b88f-71245a58b8f4",
+                        "parent_id": "6acf50d4-216f-4ec1-ac35-7c3e2bee5fbc",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M1] Đối với phản ứng tổng quát $aA + bB \\rightleftharpoons dD + eE$, thương số phản ứng theo nồng độ mol là:\n$/image_{https://api-course.hethonglab.com/static/5c80ff5c-2684-498f-a9db-d09f1a2c1ef3.png}_{center}_{100}_{block}$\nỞ nhiệt độ $25^oC$, hằng số cân bằng $K_c$ của phản ứng là 2,2. Các mẫu khác nhau đã được phân tích tại cùng nhiệt độ $25^oC$ và kết quả thể hiện như bảng dưới. Số phản ứng diễn ra theo chiều nghịch là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "1."
+                                },
+                                {
+                                    "content": "2."
+                                },
+                                {
+                                    "content": "3."
+                                },
+                                {
+                                    "content": "4."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Thay số vào biểu thức $Q_C$, tính được giá trị này ở các biểu thức lần lượt là $1; 4,1; 2,244; 3,68$. Phản ứng diễn ra theo chiều nghịch tức là $Q_C > K_C$, vì thế kết luận được các phản ứng sẽ diễn ra theo chiều nghịch ở mẫu $(2), (3), (4)$.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:40:01.290868+07:00"
+                    },
+                    {
+                        "id": "1da93e18-0576-453c-a140-72ae25fbf1b3",
+                        "parent_id": "6acf50d4-216f-4ec1-ac35-7c3e2bee5fbc",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Coi lượng ester này không bị lẫn với các tạp chất khác, lấy khối lượng riêng của nước là 1 g/cm3, hiệu suất của phản ứng trên là ____%, kết quả làm tròn đến hàng phần mười, không làm tròn ở các bước trung gian .\nCho nguyên tử khối các nguyên tố: H = 1, C = 12, O = 16, Na = 23, S = 32, Cl = 35,5, Ca = 40.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "51,6"
+                            ]
+                        },
+                        "answer_detail": "$n_{CH_3COOH} = 25 \\times 1,05 : 60 = 0,4375 \\text{ (mol)}$\n$n_{C_2H_5OH} = 25 \\times 0,96 \\times 0,8 : 46 \\approx Ans$ (xấp xỉ $0,42$) (mol) $\\rightarrow$ Hiệu suất tính theo $C_2H_5OH$\n$n_{CH_3COOC_2H_5} = 21 \\times 0,902 : 88 = 0,21525 \\text{ (mol)}$\nHiệu suất: $H = 0,21525 : Ans \\cdot 100 \\approx 51,6\\%$.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:40:29.185793+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "f99d0154-8b9a-4c7b-b689-f7906c02bff8",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 5,
+                "content": "${\\textbf{Lò phản ứng trong nhà máy điện hạt nhân sử dụng}}$ $\\mathbf{^{235}U}$\n-\tCác nhà máy điện hạt nhân sử dụng phản ứng phân hạch hạt nhân để tạo ra năng lượng. Lõi của một lò phản ứng hạt nhân điển hình bao gồm bốn thành phần chính: các thanh nhiên liệu, các thanh điều khiển, chất làm chậm và chất tải nhiệt sơ cấp. Các thanh nhiên liệu chứa uranium−235 ($^{235}U$), được làm giàu lên 3–5% dưới dạng các viên $UO_2$ được đặt trong các ống bằng zirconium hoặc thép không gỉ.\n-\tCác thanh điều khiển được cấu tạo từ các vật liệu hấp thụ neutron, chẳng hạn như $^{10}B$ hoặc hợp kim của bạc, indium và cadmium. Phản ứng phân hạch thường tạo ra một số neutron nhiệt, nó có thể gây ra một chuỗi phản ứng dây chuyền mất kiểm soát nếu nó va chạm với các $^{235}U$ khác. Vì thế các thanh này điều chỉnh dòng neutron sao cho mỗi phản ứng chỉ tạo một neutron nhiệt để giữ cho phản ứng tự duy trì và cũng để ngăn lõi lò phản ứng bị quá nhiệt. Xác suất để một neutron gây ra phản ứng phân hạch của một hạt nhân $^{235}U$ phụ thuộc vào tốc độ của neutron đó. Các neutron sinh ra từ phản ứng phân hạch có tốc độ cao (thường vượt quá 10.000 km/s). Các chất làm chậm, thường là nước hoặc than chì làm giảm tốc độ của các neutron (xuống còn vài kilômét trên giây) để chúng có thể bị các hạt nhân phân hạch bắt giữ dễ dàng hơn.\n-\tChất tải nhiệt sơ cấp là một chất vận chuyển nhiệt lượng sinh ra bởi phản ứng chuỗi hạt nhân ra khỏi lõi lò phản ứng. Trong một lò phản ứng nước áp lực, loại thiết kế lò phản ứng thương mại phổ biến nhất, nước đóng vai trò vừa là chất làm chậm vừa là chất tải nhiệt sơ cấp.\n-\tThiết kế nhà máy điện hạt nhân được thể hiện trong hình dưới, một lò phản ứng nước áp lực, hiện là loại phổ biến nhất. Chất tải nhiệt sơ cấp đi qua lõi trong một hệ thống kín, giúp làm giảm khả năng các sản phẩm phóng xạ có thể thoát ra khỏi lõi. Lò phản ứng được bao bọc bởi một vỏ bọc bằng bê tông cốt thép để che chắn cho nhân viên khỏi bức xạ và bảo vệ lò khỏi tác động bên ngoài. Sau khi đi qua lõi lò phản ứng, chất tải nhiệt sơ cấp rất nóng sẽ đi qua một bộ trao đổi nhiệt, nơi phần lớn nhiệt lượng của nó được truyền cho một chất tải nhiệt thứ cấp, biến nó thành hơi nước áp suất cao để quay tuabin. Chất tải nhiệt thứ cấp sau đó được ngưng tụ bằng cách truyền nhiệt cho một nguồn nước bên ngoài, chẳng hạn như sông hoặc hồ.\n$/image_{https://api-course.hethonglab.com/static/e93f7821-810b-4bb6-97b4-c35628aeda26.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:21:15.147708+07:00",
+                "questions": [
+                    {
+                        "id": "ae0f7d70-7285-4a71-a383-cd8fbc6e1d8d",
+                        "parent_id": "f99d0154-8b9a-4c7b-b689-f7906c02bff8",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Hãy sắp xếp thứ tự đúng của các quy trình trong nhà máy điện hạt nhân .\nA - Nhiệt được truyền ra một nguồn nước bên ngoài, làm ngưng tụ chất tải nhiệt thứ cấp, sau đó chất này được bơm trở lại bộ trao đổi nhiệt.\nB - Nhiệt được truyền sang chất tải nhiệt thứ cấp trong bộ trao đổi nhiệt, tạo ra hơi nước.\nC - Nước áp lực (nước dưới áp suất cao) được đun nóng trong lõi lò phản ứng.\nD - Hơi nước làm quay tuabin và máy phát điện, tạo ra điện năng.\nThứ tự đúng là: ____ -____ -____ -____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "C",
+                                "B",
+                                "D",
+                                "A"
+                            ]
+                        },
+                        "answer_detail": "Từ ngữ liệu và sơ đồ, dễ dàng nhận thấy thứ tự như trên, là nước đun nóng trong lõi lò phản ứng (là chất tải nhiệt sơ cấp), truyền sang chất tải nhiệt thứ cấp, đun sôi tạo hơi nước quay tua-bin, sau đó hơi nước ngưng tu, trao đổi nhiệt với nguồn bên ngoài và quay về hệ thống.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:41:18.887916+07:00"
+                    },
+                    {
+                        "id": "946bcf45-31a0-4eac-a6ec-ba1c96c6e774",
+                        "parent_id": "f99d0154-8b9a-4c7b-b689-f7906c02bff8",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M1] Nối các thành phần của nhà máy điện hạt nhân (cột A) với công năng (cột B) thích hợp:\n1. Thanh nhiên liệu - ____\n2. Thanh điều khiển - ____\n3. Chất làm chậm - ____\n4. Chất tải nhiệt sơ cấp - ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "a. Giảm tốc neutron",
+                                "b. Sinh nhiệt từ phản ứng phân hạch",
+                                "c. Hấp thụ neutron để điều chỉnh phản ứng",
+                                "d. Truyền nhiệt ra ngoài lõi lò"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                2,
+                                0,
+                                3
+                            ]
+                        },
+                        "answer_detail": "Đọc ngữ liệu: Các thanh điều khiển được cấu tạo từ các vật liệu hấp thụ neutron … Vì thế các thanh này điều chỉnh dòng neutron sao cho mỗi phản ứng chỉ tạo một neutron nhiệt để giữ cho phản ứng tự duy trì và cũng để ngăn lõi lò phản ứng bị quá nhiệt. … Các chất làm chậm, thường là nước hoặc than chì làm giảm tốc độ của các neutron (xuống còn vài kilômét trên giây) để chúng có thể bị các hạt nhân phân hạch bắt giữ dễ dàng hơn. \nChất tải nhiệt sơ cấp là một chất vận chuyển nhiệt lượng sinh ra bởi phản ứng chuỗi hạt nhân ra khỏi lõi lò phản ứng. \n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:41:53.521945+07:00"
+                    },
+                    {
+                        "id": "806b1962-5e96-45f2-8c47-762aea7e1576",
+                        "parent_id": "f99d0154-8b9a-4c7b-b689-f7906c02bff8",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M2] Trong tự nhiên, uranium-235 chỉ chiếm khoảng 0,7% lượng uranium tự nhiên.\nVì sao uranium được sử dụng trong hệ thống trên cần làm giàu đến 3-5%?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Để tăng năng lượng tỏa ra từ các nguyên tử uranium, đủ để vận hành nhà máy."
+                                },
+                                {
+                                    "content": "Đủ để duy trì phản ứng dây chuyền ổn định, tránh các neutron tạo ra bị hấp thụ hết."
+                                },
+                                {
+                                    "content": "Giúp các nguyên tử uranium-235 dễ dàng bắt được các neutron nhiệt hơn."
+                                },
+                                {
+                                    "content": "Giúp tối ưu chi phí sản xuất điện năng và vận hành nhà máy."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Giải thích : Uranium được sử dụng trong hệ thống trên cần làm giàu đến $3-5\\%$ để đủ duy trì phản ứng dây chuyền ổn định.\nCác đáp án còn lại:\nĐáp án A. Các kĩ sư hoàn toàn điều chỉnh hệ thống để phù hợp với năng lượng phát ra.\nĐáp án C. Khả năng hấp thụ neutron nhiệt của $^{235}U$ không thay đổi.\nViệc làm giàu chỉ làm tăng mật độ $^{235}U$, tăng xác suất va chạm hiệu quả.\nĐáp án D. Đây là một hệ quả của việc làm giàu uranium, không phải là lý do chính.\nVả lại, việc làm giàu uranium cũng tốn kém.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:42:49.870932+07:00"
+                    },
+                    {
+                        "id": "707bd39e-80b0-48ee-ad5b-eb342553e339",
+                        "parent_id": "f99d0154-8b9a-4c7b-b689-f7906c02bff8",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M2] Thảm họa hạt nhân ở Fukushima, Nhật Bản, vào tháng 3 năm 2011 đã xảy ra khi một trận sóng thần làm hỏng các hệ thống làm mát của lò phản ứng. Các lò phản ứng tại đây là loại lò phản ứng nước sôi, tạo ra hơi nước bằng cách đun sôi chất tải nhiệt sơ cấp; do đó, không cần đến chất tải nhiệt thứ cấp. Khi sự cố xảy ra, nhiệt độ tăng nhanh bất thường, dẫn đến việc phát tán vật liệu phóng xạ trên quy mô lớn.\nGiả sử lò phản ứng hạt nhân xảy ra sự cố tăng nhiệt độ nhanh bất thường.\nHãy sắp xếp thứ tự đúng của các bước xử lí trong tình huống trên .\nA - Hạ các thanh điều khiển xuống\nB - Dừng tuabin phát điện\nC - Kích hoạt hệ thống làm mát khẩn cấp (trong vụ việc tại Fukushima, người ta phải bơm trực tiếp nước biển vào)\nThứ tự đúng là: ____ -____ -____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "A",
+                                "C",
+                                "B"
+                            ]
+                        },
+                        "answer_detail": "Đầu tiên cần hạ thanh điều khiển xuống để nó hấp thu hết các neutron, ngừng phát điện, ngừng gia tăng nhiệt độ. Sau đó ta làm mát hệ thống để tránh gây nổ hoặc tan chảy lõi bê tông, khống chế sự gia tăng nhiệt độ sau đó mới nên ngừng phát điện.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:43:37.090894+07:00"
+                    },
+                    {
+                        "id": "6930fb2c-24ff-4ff5-99b2-5161360257f0",
+                        "parent_id": "f99d0154-8b9a-4c7b-b689-f7906c02bff8",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Viết kết quả là một số nguyên vào chỗ trống :\nTrong các nhà máy hạt nhân, người ta điều chỉnh sao cho mỗi phản ứng chỉ tạo một neutron nhiệt để giữ cho phản ứng tự duy trì, và người ta gọi số neutron trung bình được tạo ra từ một phản ứng phân hạch trên là hệ số nhân neutron, kí hiệu là k. Trong một vụ thử hạt nhân với hệ số nhân neutron là 2,2, người ta ước tính năng lượng tỏa ra là 936 triệu kWh. Cho biết thời gian trung bình diễn ra một phản ứng phân hạch là 10 ns và năng lượng trung bình một phản ứng phân hạch tạo ra là 200 MeV, thì vụ nổ trên đã diễn ra trong ____ ns tính từ lúc nguyên tử $^{235}U$ đầu tiên bắt đầu phân hạch, coi như ban đầu quá trình phân hạch chỉ xảy ra với một nguyên tử đầu tiên, lấy 1 eV = $1,6.10^{-19}$ J, 1 kWh = $3,6.10^6$ J.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "710"
+                            ]
+                        },
+                        "answer_detail": "Từ năng lượng tỏa ra, ta tính được số phản ứng xảy ra.\nMỗi phản ứng tỏa $200 \\text{ MeV}$, ứng với $200 \\cdot 1,6 \\cdot 10^{-19} \\cdot 10^6 = 3,2 \\cdot 10^{-11} \\text{ (J)}$.\nSố phản ứng xảy ra là: $936 \\cdot 10^6 \\cdot 3,6 \\cdot 10^6 : (3,2 \\cdot 10^{-11}) = 1,023 \\cdot 10^{26}$ (phản ứng).\nSố phản ứng xảy ra tuân theo quy luật cấp số nhân với số hạng đầu là $1$, công bội $q = 2,2$.\nÁp dụng công thức tính tổng của cấp số nhân, tính được số số hạng xấp xỉ $70,3$, do số lần phân hạch nguyên tử là số nguyên nên là $71$ (làm tròn lên không làm tròn xuống), thời gian là $71 \\cdot 10 = 710 \\text{ ns}$.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:45:21.994417+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "0ac84add-3f37-4886-a4d2-60cb799deb59",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 6,
+                "content": "${\\textbf{Súng thần công}}$\n-\t“Súng thần công” là binh khí sử dụng trong quân đội ra đời khá sớm. Từ cuối thời Trần cho đến thời Nguyễn trải qua hơn 500 năm, súng thần công đã giữ vị trí quan trọng trong các cuộc chiến tranh chống xâm lược. Tài liệu lịch sử ghi chép sớm nhất cho thấy cuối triều Trần trong cuộc chống xâm lược của quân Chiêm Thành, tướng nhà Trần là Trần Khát Chân đã sử dụng khá thành thạo các loại súng: \" Khát Chân liền ra lệnh các cây Hỏa súng nhất tề nhả đạn, bắn trúng thuyền Bồng Nga, xuyên suốt ván thuyền, Bồng Nga chết... \" (Đại Việt Sử ký toàn thư).\n$/image_{https://api-course.hethonglab.com/static/1d92b3e4-8994-4cd4-a7e9-e41cf3e8adc7.png}_{center}_{50}_{block}$\n-\tNgười đúc súng thần công nổi tiếng nhất là Hồ Nguyên Trừng - Con cả của Hồ Quý Ly, Tả tướng quốc quân đội nhà Hồ. Cuộc kháng chiến thất bại, Hồ Nguyên Trừng bị bắt đưa về Trung Quốc, được nhà Minh sử dụng để chế tạo súng thần công cho quân đội và sau này được người Minh coi là ông tổ súng thần công.\n-\tNhững cuộc khai quật tại Thành nhà Hồ (Thanh Hóa) đã tìm được khá nhiều đạn đá hình khối cầu tròn đều, với nhiều kích cỡ khác nhau. Nghiên cứu đạn sử dụng cho thấy, súng thần công thời Hồ có thân hình ống tròn, dài đều, nòng trơn; phía sau thân hơi phình to để nạp thuốc súng. Trên thân có lỗ nối ngòi nổ với phần thuốc súng để khi sử dụng châm lửa kích thuốc nổ đẩy viên đạn khỏi nòng súng đi xa về phía trước. Đạn được chế tác từ chất liệu đá, đất nung có độ cứng cao, khi bắn viên đạn có sức mạnh công phá lớn.\n-\tThuốc nổ ta sử dụng xưa kia là loại thuốc nổ đen do người Trung Hoa phát minh, có phương trình xảy ra khi đốt như sau: $2KNO_3 + 3C + S \\rightarrow 3CO_2 + N_2 + K_2S$ (*), với 1 mol $KNO_3$ tạo ra lượng nhiệt là 389 kJ.\n-\tNòng pháo có đường kính trong 15,0 cm và dài 5,0 m được nạp thuốc súng đến 20% chiều dài nòng pháo và đặt một viên đạn pháo có cùng đường kính với nòng pháo. Khi bắn, toàn bộ thuốc nổ bốc cháy ngay lập tức và tạo ra khí với áp suất gấp 200 lần áp suất khí quyển tiêu chuẩn. Khi viên đạn ra khỏi nòng, nhiệt độ khí giảm xuống còn một phần ba nhiệt độ (theo Kelvin) tại thời điểm đánh lửa. Coi thành trong của nòng pháo không ma sát, giả sử khí tuân theo trạng thái khí lý tưởng, với phương trình trạng thái $pV = nRT$ với p là áp suất (theo Pa), V là thể tích ($m^3$), n là số mol khí (mol), T là nhiệt độ (theo Kelvin), R = 8,314 và bỏ qua áp suất khí quyển ngược chiều.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:45:35.84527+07:00",
+                "questions": [
+                    {
+                        "id": "45f6275c-579a-41be-bb87-44b421693502",
+                        "parent_id": "0ac84add-3f37-4886-a4d2-60cb799deb59",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Viết kết quả đã được làm tròn đến hàng đơn vị vào chỗ trống .\nNgười ta cần trộn diêm tiêu ($KNO_3$) tỉ lệ ____%, bột than củi giã mịn (C) tỉ lệ ____% và lưu huỳnh (S) với tỉ lệ ____% để tạo ra thuốc nổ đen có tỉ lệ số mol theo đúng phương trình (*).\nCho nguyên tử khối các nguyên tố hóa học: C = 12, N = 14, O = 16, S = 32, K = 39.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "75",
+                                "13",
+                                "12"
+                            ]
+                        },
+                        "answer_detail": "Giả sử hỗn hợp có $2 \\text{ mol } KNO_3$, $3 \\text{ mol } C$ và $1 \\text{ mol } S$. Khối lượng hỗn hợp là $2 \\cdot (39 + 14 + 16 \\cdot 3) + 3 \\cdot 12 + 32 = 270 \\text{ (g)}$, từ đó tính được tỉ lệ phần trăm của các chất trong hỗn hợp.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:46:20.792704+07:00"
+                    },
+                    {
+                        "id": "ac24e9f1-bee9-48fe-a860-25bdaa450880",
+                        "parent_id": "0ac84add-3f37-4886-a4d2-60cb799deb59",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M1] Kéo thả các từ thích hợp vào chỗ trống\nKhi ngòi nổ được châm lửa, xảy ra phản ứng nổ gần như tức thời của thuốc nổ đen, tạo ____ mạnh chuyển hóa thành ____ cho viên đạn. Ngoài ra, phản ứng giải phóng ____ trong một không gian hẹp tạo ra một áp suất khổng lồ, gấp hàng trăm lần áp suất khí quyển, tác động một lực đẩy cực mạnh lên viên đạn.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "$K_2S$",
+                                "nhiệt năng",
+                                "$CO_2$ và $N_2$",
+                                "$K_2S, CO_2$ và $N_2$",
+                                "hóa năng",
+                                "động năng"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                5,
+                                2
+                            ]
+                        },
+                        "answer_detail": "Khi xảy ra phản ứng nổ tỏa nhiệt, từ hóa năng tạo ra nhiệt năng cho viên đá, từ đây biến đổi thành động năng cho viên đá di chuyển bắn ra ngoài.\nSự tăng áp suất do các khí gây ra, cụ thể là các chất khí $CO_2$ và $N_2$.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:47:23.685663+07:00"
+                    },
+                    {
+                        "id": "98e65152-b702-4f9e-af44-77eed5f889b2",
+                        "parent_id": "0ac84add-3f37-4886-a4d2-60cb799deb59",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M1] Biến thiên enthalpy của phản ứng (nhiệt phản ứng), kí hiệu là $\\Delta_rH$ là nhiệt lượng tỏa ra hay thu vào của phản ứng ở một điều kiện xác định.\nNếu $\\Delta_rH > 0$ thì phản ứng thu nhiệt, còn $\\Delta_rH < 0$ thì phản ứng tỏa nhiệt.\nCho biết phản ứng (*) có biến thiên enthalpy là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "389 kJ."
+                                },
+                                {
+                                    "content": "-389 kJ."
+                                },
+                                {
+                                    "content": "778 kJ."
+                                },
+                                {
+                                    "content": "-778 kJ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Phản ứng tỏa nhiệt nên biến thiên enthalpy âm, phản ứng trên có $2 \\text{ mol } KNO_3$ nên cần nhân đôi.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:47:52.52655+07:00"
+                    },
+                    {
+                        "id": "7f1fca9a-4f11-449a-a1d6-abdfa9cdc250",
+                        "parent_id": "0ac84add-3f37-4886-a4d2-60cb799deb59",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M2] Lấy áp suất khí quyển là $10^5$ Pa, áp suất tác dụng lên viên đạn khi nó ra khỏi nòng pháo gấp ____ lần so với áp suất khí quyển, kết quả làm tròn đến hàng phần mười .",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "13,3"
+                            ]
+                        },
+                        "answer_detail": "Áp dụng phương trình $p_1V_1/T_1 = p_2V_2/T_2$, với $p_1 = 200 \\text{ atm}$, $V_1 = 0,2V$, $V_2 = V$, $T_2 = 1/3 T_1$.\nKhi số lượng thú ăn thịt tăng, hiển nhiên thỏ giảm xuống, nguồn sống của thú ăn thịt giảm thì lượng mèo rừng giảm, đây lại là điều kiện thuận lợi để số lượng thỏ tăng lên.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:48:20.795816+07:00"
+                    },
+                    {
+                        "id": "22b09d13-8030-4755-a361-24142f09eab4",
+                        "parent_id": "0ac84add-3f37-4886-a4d2-60cb799deb59",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M2] Áp suất (Pa) được định nghĩa là độ lớn của lực (N) trên một đơn vị diện tích tiếp xúc ($m^2$). Lấy giá trị $\\pi = 3,14$, độ lớn của lực đẩy tác dụng lên viên đạn là ____ N, kết quả làm tròn đến hàng đơn vị .",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "58875"
+                            ]
+                        },
+                        "answer_detail": "Áp dụng công thức $F = p \\cdot S = \\frac{\\pi D^2}{4} \\cdot p = 58875 \\text{ (N)}$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:48:46.782719+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "f75376f6-a28d-40b7-af4d-01edc6a9f111",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 7,
+                "content": "${\\textbf{Quả chà là}}$\n•\tChà là - một loại quả có nguồn gốc xuất xứ từ Trung Đông và có thể được trồng ở các vùng như Địa Trung Hải, khu vực châu Á, Mỹ và cả Mexico. Chà là mọc thành từng chùm lớn ở trên ngọn cây với vị thanh và ngọt. Khi chín, trái chà là với lớp da chuyển dần sang nâu và nhăn nheo hơn khi có nhiều độ ẩm. Đây cũng là lúc chúng được thu hoạch thủ công bằng tay.\n•\tĐường sucrose được tổng hợp trong lá và được vận chuyển đến quả. Trong quả, đường sucrose được phân giải thành glucose và fructose bởi enzyme invertase. Đường cũng được hình thành do sự phân giải tinh bột bởi enzyme amylase trong quả đang phát triển. Tổng lượng đường bao gồm cả monosaccharide và disaccharide.\n•\tTrong quá trình chín, hàm lượng tinh bột và đường trong quả chà là thay đổi như thể hiện trong biểu đồ dưới đây:\n$/image_{https://api-course.hethonglab.com/static/d8b36346-2d8e-49e6-8bf8-a5e2aa9098aa.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:21:15.147708+07:00",
+                "questions": [
+                    {
+                        "id": "ab8bbd72-9ba1-44a5-aa7a-427323083e52",
+                        "parent_id": "f75376f6-a28d-40b7-af4d-01edc6a9f111",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Dựa vào biểu đồ, để thu hoạch được quả chà là có vị ngọt nhất, ta nên chọn giai đoạn nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Giai đoạn 1."
+                                },
+                                {
+                                    "content": "Giai đoạn 2."
+                                },
+                                {
+                                    "content": "Giai đoạn 3."
+                                },
+                                {
+                                    "content": "Bất kỳ giai đoạn nào."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Giai đoạn 3 có lượng đường tăng cao và ổn định nên ngọt nhất.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:49:27.59083+07:00"
+                    },
+                    {
+                        "id": "7e62d864-4321-42d2-ab1d-bd00984c7724",
+                        "parent_id": "f75376f6-a28d-40b7-af4d-01edc6a9f111",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M2] Kéo thả các từ thích hợp vào chỗ trống:\nTrong giai đoạn đầu, quả chà là dự trữ năng lượng dưới dạng ____. Khi quá trình chín bắt đầu, các phân tử này bị phân giải. Cây quang hợp ở lá để tạo ra ____, sau đó được vận chuyển đến quả và bị enzyme phân giải. Bởi xảy ra cả hai quá trình trên nên hàm lượng ____ trong quả luôn tăng dần theo thời gian chín.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "glucose và fructose",
+                                "tinh bột",
+                                "sucrose"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                2,
+                                0
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:58:40.252811+07:00"
+                    },
+                    {
+                        "id": "5976e660-d8fc-4da1-bb7c-5e9fff51e331",
+                        "parent_id": "f75376f6-a28d-40b7-af4d-01edc6a9f111",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M2] Cho biết các phát biểu sau là đúng hay sai :",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Hoạt động của enzyme amylase góp phần làm tăng tổng lượng đường ở giai đoạn 2."
+                                },
+                                {
+                                    "content": "Hoạt động của enzyme invertase ở giai đoạn 1 cao hơn ở giai đoạn 2."
+                                },
+                                {
+                                    "content": "Hoạt động của cả enzyme invertase và amylase đều cao hơn trong khoảng thời gian giữa giai đoạn 2 và 3 so với giai đoạn 1."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Ý thứ nhất, ở giai đoạn 2, tinh bột bị phân hủy và do đó enzyme B hoạt động.\n- Ý thứ hai, chỉ có mức đường cơ bản ở giai đoạn 1, hoàn toàn do đường sucrose đóng góp, do đó enzyme A không hoạt động.\n- Ý thứ ba, vì có mức đường cơ bản ở giai đoạn 1, và mức đường cao hơn ở giai đoạn 2 và 3, khi mức sucrose và tinh bột giảm dần, do đó cả hai enzyme đều hoạt động.\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:51:08.093907+07:00"
+                    },
+                    {
+                        "id": "6202cc19-8529-4520-ae1d-fdbe7bd8bde1",
+                        "parent_id": "f75376f6-a28d-40b7-af4d-01edc6a9f111",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M3] Một trong những phương pháp ước tính hoạt tính của enzyme invertase là đo nồng độ glucose tạo thành. Trong phương pháp này, lượng glucose được ước tính bằng độ hấp thụ của sản phẩm cuối cùng được đo ở bước sóng 562 nm ($\\alpha_{562}$). Đồ thị chuẩn của $\\alpha_{562}$ với các nồng độ glucose ($C_6H_{12}O_6$) khác nhau như sau; với trục hoành chỉ nồng độ glucose (mg/ml), trục tung là độ hấp thụ của glucose ở 562 nm.\n$/image_{https://api-course.hethonglab.com/static/127b518e-7a12-42ec-9666-e88808c2823e.png}_{center}_{100}_{block}$\nHoạt tính của enzyme invertase được biểu thị bằng đơn vị hoạt lực enzyme (U). Một U được định nghĩa là lượng enzyme tạo ra 1 µmol glucose trong 1 phút ở $30^oC$. Thực hiện thí nghiệm với 0,6 ml dung dịch đệm, 0,2 ml sucrose 400 mM và 0,2 ml dung dịch enzyme invertase ủ ở $30^oC$ trong 30 phút, sau đó dừng phản ứng bằng cách tăng nhiệt độ, người ta ghi nhận $\\alpha_{562}$ được quan sát thấy là 0,1. Hoạt lực của enzyme invertase được xác định ở thí nghiệm trên là ____ U/ml, kết quả làm tròn đến chữ số thập phân thứ ba .\nCho nguyên tử khối các nguyên tố: H = 1, C = 12, O = 16.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "0,093"
+                            ]
+                        },
+                        "answer_detail": "$\\alpha_{562}$ được quan sát thấy là $0,1$, theo biểu đồ, nồng độ glucose là $0,1 \\text{ mg/ml}$.\nTổng hh là $1 \\text{ ml}$, khối lượng glucose trong đó là $0,1 \\text{ mg}$.\nKhối lượng mol của glucose là $180$. $0,1 \\text{ mg}$ ứng với $0,1/180 = 1/1800 \\text{ mmol} = 5/9µ \\text{mol}$\nBiết, $1µ \\text{mol}$ glucose được tạo thành trong $1$ phút tương ứng với $1 \\text{ U}$ invertase.\nPhản ứng này được thực hiện trong $30$ phút và $0,2 \\text{ ml}$ enzyme được lấy cho phản ứng.\nDo đó, trong $1$ phút, $5/9 : 30 = 1/54µ \\text{mol}$ glucose được tạo thành, tương đương với hoạt độ enzyme invertase $0,0185 \\text{ U}$\nHoạt lực của enzyme là $1/54 : 0,2 \\approx 0,093 \\text{ U/ml}$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:58:32.876477+07:00"
+                    },
+                    {
+                        "id": "561046f2-eb99-4b1b-a851-840a8d475ee3",
+                        "parent_id": "f75376f6-a28d-40b7-af4d-01edc6a9f111",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Một nhóm sinh viên nghiên cứu cách tinh chế invertase từ 1 kg quả chà là đã bỏ hạt. Những quả này được hòa tan trong một dung dịch đệm thích hợp và lọc bằng các lớp vải mỏng để thu được dịch chiết thô. Dịch chiết thô sau đó qua một loạt các bước tinh chế protein để làm giàu enzyme invertase, bao gồm (i) kết tủa protein bằng $(NH_4)_2SO_4$, (ii) sắc ký cột ái lực và (iii) sắc ký trao đổi anion tuần tự. Hoạt tính invertase (U) và hàm lượng protein (mg) được đo ở mỗi bước tinh chế như sau:\n$/image_{https://api-course.hethonglab.com/static/7cf2064c-1531-481b-bf1b-971f16c00978.png}_{center}_{100}_{block}$\nKéo thả các từ thích hợp vào chỗ trống:\nQuá trình tinh chế enzyme invertase hiệu quả nhất là ____, quá trình hoạt tính của enzyme bị mất đi nhiều nhất là ____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "(i) kết tủa protein bằng $(NH_4)_2SO_4$",
+                                "(ii) sắc ký cột ái lực",
+                                "(iii) sắc ký trao đổi anion"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                0
+                            ]
+                        },
+                        "answer_detail": "- Tính toán hiệu giữa các bước xem sau bước nào mất nhiều hoạt tính enzyme nhất. Sau bước (i), chênh lệch là (13773-12469 = 1304). Sau bước (ii), chênh lệch là (12469-11487 = 982). Sau bước (iii), chênh lệch là (11487 – 11156) = 331.\n- Nhận thấy sau khi sắc ký ái lực (bước 3), tổng lượng protein giảm 10 lần với mức mất hoạt tính enzyme không quá cao so với lượng protein mất, chứng tỏ đây là bước tinh chế hiệu quả nhất (có thể tính thương hàm lượng protein so với hoạt tính enzyme để thấy rõ).\n",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:54:05.884152+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "f1837c50-51a5-4f9b-b613-7add30439fee",
+                "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                "position": 8,
+                "content": "${\\textbf{Phát hiện tín hiệu từ hành tinh WASP-96}}$\n•\tKính viễn vọng Không gian James Webb (JWST) đã phát hiện một tín hiệu rõ ràng từ một hành tinh quay quanh một ngôi sao xa xôi, đánh dấu một bước tiến quan trọng trong việc tìm kiếm và đặc trưng hóa các ngoại hành tinh có tiềm năng sinh sống ngoài Trái Đất. WASP-96b là một trong hơn 5.000 ngoại hành tinh đã được xác nhận trong Dải Ngân Hà, nằm cách chúng ta khoảng 1.150 năm ánh sáng, trong chòm sao Phượng Hoàng. WASP-96b quay quanh ngôi sao giống Mặt Trời của nó cực kỳ gần, chỉ bằng một phần chín khoảng cách giữa Sao Thủy và Mặt Trời. Sự kết hợp giữa kích thước lớn, chu kỳ quỹ đạo ngắn, bầu khí quyển phồng và không có ánh sáng gây ô nhiễm từ các vật thể gần trên bầu trời khiến WASP-96b trở thành mục tiêu lý tưởng cho các quan sát khí quyển.\n•\tVào ngày 21 tháng 6 năm 2022, thiết bị NIRISS (Near-Infrared Imager and Slitless Spectrograph – Máy chụp ảnh hồng ngoại cận và quang phổ không khe) đã đo ánh sáng phát ra từ hệ sao này. Khi hành tinh này (các vị trí liên tiếp, được biểu diễn bằng vòng tròn xám nhỏ) đi ngang qua phía trước ngôi sao (vòng tròn trắng lớn), các nhà khoa học đã trích xuất đường cong ánh sáng cho thấy sự suy giảm tổng thể độ sáng của ngôi sao trong quá trình di chuyển. Lưu ý: hành tinh và ngôi sao không được vẽ theo đúng tỉ lệ; tại đồ thị, thời gian được ghi nhận là thời gian tại Baltimore, Maryland, từ 0 giờ đến 7 giờ sáng.\n$/image_{https://api-course.hethonglab.com/static/eae8b1ce-cd94-4a8d-aecf-8c3aa669f8e6.png}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-08T19:21:15.147708+07:00",
+                "updated_at": "2025-12-08T19:21:15.147708+07:00",
+                "questions": [
+                    {
+                        "id": "71527a39-6e3b-49dc-89ed-b8f3fce05edc",
+                        "parent_id": "f1837c50-51a5-4f9b-b613-7add30439fee",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 1,
+                        "content": "[LAB] [M1] Hành tinh này đi ngang qua phía trước ngôi sao trong khoảng thời gian bao lâu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "1 giờ."
+                                },
+                                {
+                                    "content": "1,5 giờ."
+                                },
+                                {
+                                    "content": "2 giờ."
+                                },
+                                {
+                                    "content": "2,5 giờ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Từ biểu đồ, ta thấy độ sáng có sự giảm trong 2,5 giờ.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:54:26.505768+07:00"
+                    },
+                    {
+                        "id": "2d7c5c60-e4a5-474f-b07e-77765cfbbe6e",
+                        "parent_id": "f1837c50-51a5-4f9b-b613-7add30439fee",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 2,
+                        "content": "[LAB] [M1] Cho biết các phát biểu sau là đúng hay sai :",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Những hình ảnh ta quan sát thấy trên Trái Đất thực ra đã xảy ra trên hành tinh đó cách đây 1150 năm trước."
+                                },
+                                {
+                                    "content": "Con người trên Trái Đất có thể sinh sống tại hành tinh WASP-96b."
+                                },
+                                {
+                                    "content": "WASP-96b có quỹ đạo gần hơn khoảng cách từ Sao Thủy đến Mặt Trời."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Ý thứ nhất, những hình ảnh trên mất 1150 năm để truyền tới Trái Đất, nên ta đang thấy hiện tại thì ở hành tinh trên xảy ra được 1150 năm.\n- Ý thứ hai, ngữ liệu chỉ nói đây là ngoại hành tinh có tiềm năng sinh sống ngoài Trái Đất (theo bài báo của NASA tìm thấy sự tồn tại của nước) nhưng không khẳng định con người có thể sống được trên đó luôn.\n- Ý thứ ba, theo ngữ liệu: WASP-96b quay quanh ngôi sao giống Mặt Trời của nó cực kỳ gần, chỉ bằng một phần chín khoảng cách giữa Sao Thủy và Mặt Trời.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:54:51.559614+07:00"
+                    },
+                    {
+                        "id": "1452c30f-29df-4018-ad40-1090f2539815",
+                        "parent_id": "f1837c50-51a5-4f9b-b613-7add30439fee",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 3,
+                        "content": "[LAB] [M2] Các nhà vật lý thiên văn biết rằng độ biến thiên của độ sáng trong suốt quá trình di chuyển như trên bằng tỷ số giữa diện tích mặt cắt ngang của hành tinh WASP-96b và diện tích mặt cắt ngang của ngôi sao WASP-96. Hãy ước tính bán kính của hành tinh WASP-96b theo bán kính Mặt Trời. Biết rằng bán kính sao WASP-96 bằng 1,05 lần bán kính Mặt Trời, bán kính của hành tinh WASP-96b bằng ____ bán kính Mặt Trời, kết quả làm tròn đến hàng phần trăm .\n",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "0,13"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:56:12.714647+07:00"
+                    },
+                    {
+                        "id": "b14e8286-807c-407c-a65c-cd598af7cd6a",
+                        "parent_id": "f1837c50-51a5-4f9b-b613-7add30439fee",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 4,
+                        "content": "[LAB] [M3] Coi chuyển động của hành tinh quanh ngôi sao là chuyển động tròn đều, và theo định luật III Kepler, bán kính quỹ đạo và chu kì quỹ đạo của hành tinh này có thể tính như sau: \n $\\dfrac{T^2.(m_1+m_2)}{R^3} = \\dfrac{4\\pi^2}{G}$\nVới T là chu kì quỹ đạo (tính bằng giây), $m_1$ và $m_2$ là khối lượng của hành tinh và ngôi sao (tính bằng kg), R là bán kính quỹ đạo (tính bằng m), $G = 6,674.10^{-11} N.m^2/kg^2$, $\\pi = 3,1416$.\nCho biết khối lượng sao WASP-96 bằng 1,06 lần khối lượng Mặt Trời, khối lượng của hành tinh WASP-96b: bằng 155.5 khối lượng Trái Đất, lấy khối lượng Trái Đất là $5.974.10^{24}$ kg, khối lượng Mặt Trời là $1.989.10^{30}$ kg, khoảng cách giữa tâm của sao WASP-96 và tâm hành tinh WASP-96b là 0,0453 AU (1 AU = $1.496.10^{11}$ m). Chu kì quỹ đạo của hành tinh này quay quanh ngôi sao là ____ ngày, kết quả làm tròn tới hàng phần mười .",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "3,5"
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-11T21:31:29.988624+07:00"
+                    },
+                    {
+                        "id": "999d4681-9d21-48ba-814b-c01d341013da",
+                        "parent_id": "f1837c50-51a5-4f9b-b613-7add30439fee",
+                        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+                        "position": 5,
+                        "content": "[LAB] [M3] Vận tốc của hành tinh trên khi quay quanh ngôi sao là bao nhiêu km/h?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "240 km/h."
+                                },
+                                {
+                                    "content": "140 km/h."
+                                },
+                                {
+                                    "content": "85 km/h."
+                                },
+                                {
+                                    "content": "170 km/h."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-08T19:21:15.147708+07:00",
+                        "updated_at": "2025-12-08T19:56:38.18955+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "35fb0f8c-67f1-4661-a91a-24ce906f0097",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "7387f01d-130c-4c39-8ae5-04c9e669d2da",
+        "status": "in_progress",
+        "created_at": "2025-12-10T15:09:38.743293+07:00",
+        "updated_at": "2025-12-10T15:09:38.743293+07:00",
+        "submited_at": "2025-12-10T15:09:38.743293+07:00"
+    }
+}

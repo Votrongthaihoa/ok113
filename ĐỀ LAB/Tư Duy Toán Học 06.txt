@@ -1,0 +1,1297 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "64aff59d-512a-4936-be30-08b359234534",
+        "title": "Tư Duy Toán Học 06",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": false,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2025-10-23T15:40:30.57936+07:00",
+        "updated_at": "2025-10-25T14:59:48.321958+07:00",
+        "questions": [
+            {
+                "id": "052b58df-8758-4a8a-904e-cad2ac938dd2",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Phương trình $\\displaystyle {\\rm{lo}}{{\\rm{g}}_2}\\left( {{x^2} - 1} \\right) = {\\rm{lo}}{{\\rm{g}}_8}\\left( {2x + 1} \\right)$ có bao nhiêu nghiệm?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "1"
+                        },
+                        {
+                            "content": "3"
+                        },
+                        {
+                            "content": "2"
+                        },
+                        {
+                            "content": "0"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$\\log_2(x^2 - 1) = \\log_8(2x + 1)$\n\nĐiều kiện: $x > 1$. Vì $\\log_8 t = (1/3)\\log_2 t$ nên\n\n$3 \\log_2(x^2 - 1) = \\log_2(2x + 1) \\Leftrightarrow (x^2 - 1)^3 = 2x + 1$.\n\nPhương trình này có đúng 1 nghiệm thực thỏa $x > 1$ ($x \\approx 1,618$).\n\nVậy có 1 nghiệm.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:42:58.334751+07:00"
+            },
+            {
+                "id": "312b6446-42ee-446e-adfc-d00be9da208c",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Trong không gian $\\displaystyle Oxyz$, cho mặt phẳng $\\displaystyle \\left( P \\right):2x - y + z - 3 = 0$. Biết vectơ $\\displaystyle \\vec n = \\left( { - a;b;3} \\right)$ là một vectơ pháp tuyến của mặt phẳng $\\displaystyle \\left( P \\right)$. Khi đó tổng $\\displaystyle a + b$ bằng ____.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "-9"
+                    ]
+                },
+                "answer_detail": "Mặt phẳng $P: 2x - y + z - 3 = 0$, vector pháp tuyến $n = (-a; b; 3)$\n\nVì $(2, -1, 1)$ là VTPT của P nên $(-a, b, 3)$ // $(2, -1, 1)$.\n\nĐặt $(-a, b, 3) = k(2, -1, 1) \\Rightarrow k = 3 \\Rightarrow a = -6, b = -3$.\n\n$a + b = -9$.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:43:38.96677+07:00"
+            },
+            {
+                "id": "dfe4d71b-e676-4244-9c26-dae8710946a4",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Điền số nguyên thích hợp vào chỗ trống.\nCho hai hàm số $\\displaystyle y = f\\left( x \\right)$ và $\\displaystyle y = g\\left( x \\right)$ xác định trên R nếu \\[\\mathop {\\lim }\\limits_{x \\to 5} f(x) = 10;\\mathop {\\lim }\\limits_{x \\to 5} g(x) = 2\\]thì \\[\\mathop {\\lim }\\limits_{x \\to 5} (f(x) + 2g(x)) = \\]____.\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "14"
+                    ]
+                },
+                "answer_detail": "($\\lim_{x\\to5}f(x)=10,\\quad \\lim_{x\\to5}g(x)=2$)\n\n($\\Rightarrow \\lim_{x\\to5}[f(x)+2g(x)]=10+2\\cdot2=14$).\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T10:45:17.742148+07:00"
+            },
+            {
+                "id": "91029af5-d02a-4e01-add1-b9ebbafa99f2",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Khai triển $\\displaystyle P\\left( x \\right) = {\\left( {{x^2} - x + 1} \\right)^{1013}}$ thành đa thức\n\n$\\displaystyle P\\left( x \\right) = {a_0} + {a_1}x + {a_2}{x^2} +  \\ldots  + {a_{2026}}{x^{2026}}$.\n\nGiá trị của biểu thức $\\displaystyle A = {a_0} - {a_1} + {a_2} - {a_3} +  \\ldots  - {a_{2025}} + {a_{2026}}$ bằng ____\n\nGiá trị của biểu thức $\\displaystyle C = 2\\left( {{a_0} + {a_2} + {a_4} +  \\ldots  + {a_{2026}}} \\right)$ bằng ____\n",
+                "difficulty": "M3",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 26,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 0$",
+                        "$\\displaystyle 1 - {3^{1013}}$",
+                        "$\\displaystyle 1$",
+                        "$\\displaystyle {3^{1013}}$",
+                        "$\\displaystyle {3^{1013}} + 1$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3,
+                        4
+                    ]
+                },
+                "answer_detail": "Biểu thức:\n$A = a_0 - a_1 + a_2 - a_3 + \\dots - a_{2025} + a_{2026}.$\nNhận thấy:\n$P(-1) = a_0 + a_1(-1) + a_2(-1)^2 + \\dots + a_{2026}(-1)^{2026} = A.$\n$\\rightarrow A = P(-1)$\nTính:\n$P(-1) = ((-1)^2 - (-1) + 1)^{1013} = (1 + 1 + 1)^{1013} = 3^{1013}.$\n$\\rightarrow$ $A = 3^{1013}.$\nBiểu thức:\n$C = 2(a_0 + a_2 + a_4 + \\dots + a_{2026}).$\nĐặt:\n$S_{\\text{chẵn}} = a_0 + a_2 + a_4 + \\dots, \\quad S_{\\text{lẻ}} = a_1 + a_3 + a_5 + \\dots$\n$\\rightarrow C = 2S_{\\text{chẵn}}.$\nTa có \n$P(-1) = S_{\\text{chẵn}} - S_{\\text{lẻ}} = 3^{1013}$\n$P(1) = S_{\\text{chẵn}} + S_{\\text{lẻ}} = (1^2 - 1 + 1)^{1013} = 1^{1013} = 1$\n\n$\\begin{cases} S_{\\text{chẵn}} - S_{\\text{lẻ}} = 3^{1013} \\\\ S_{\\text{chẵn}} + S_{\\text{lẻ}} = 1 \\end{cases}$\n\n$2S_{\\text{chẵn}} = 3^{1013} + 1.$\n$\\rightarrow$ $C = 2S_{\\text{chẵn}} = 3^{1013} + 1.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T10:57:00.919569+07:00"
+            },
+            {
+                "id": "e22d8e2e-5f59-4204-af43-7f84278cc90e",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Bây giờ là 2 giờ chiều, sau 2 giờ thì kim giờ và kim phút vuông góc với nhau số lần là ____.\n$/image_{https://api-course.hethonglab.com/static/4ff0768d-4ccb-444a-b100-ea82dd3dc3df.png}_{left}_{20}_{block}$\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 24,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "3"
+                    ]
+                },
+                "answer_detail": "Đồng hồ\n\nSau ($t$) phút kể từ 2h, góc kim giờ: ($60+0.5t$) (độ), kim phút: ($6t$).\n\nVuông góc: ($|6t-(60+0.5t)|=90+360k \\Rightarrow 5.5t-60=\\pm90+360k$).\n\nTrong ($0<t<120$) có 3 nghiệm $\\Rightarrow$ trong 2 giờ có 3 lần vuông góc.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:00:54.973193+07:00"
+            },
+            {
+                "id": "c53bae1c-a44c-46fc-90cd-03c49914f4da",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Kéo thả các phương án thích hợp vào các ô trống.\nBé Minh chơi xếp một chiếc kim tự tháp nhiều tầng từ những mảnh gỗ nhỏ hình hộp chữ nhật. Ở tầng dưới cùng bé Minh dùng hết 25 mảnh gỗ. Mỗi tầng tiếp theo bé dùng ít hơn tầng trước 3 mảnh gỗ. Đến tầng cuối cùng bé Minh chỉ dùng 1 mảnh gỗ.\nNhư vậy, chiếc kim tự tháp của bé Minh hoàn thành có ____ tầng\n\nMinh phải dùng tất cả ____ mảnh gỗ.\n ",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 18$",
+                        "$\\displaystyle 117$",
+                        "$\\displaystyle 107$",
+                        "$\\displaystyle 104$",
+                        "$\\displaystyle 8$",
+                        "$\\displaystyle 9$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        5,
+                        1
+                    ]
+                },
+                "answer_detail": "Dãy $25, 22, 19, \\dots, 1$ (công sai $-3$).\n $25 - 3(n-1) = 1 \\Rightarrow n = 9$ tầng.\n Tổng mảnh: $S = \\dfrac{9(25+1)}{2} = 117$.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:17:29.693498+07:00"
+            },
+            {
+                "id": "1074f6f5-2d63-49b5-8d5b-797927d95402",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Có bao nhiêu bộ số nguyên dương $\\displaystyle \\left( {m,n,p} \\right)$ để $\\displaystyle \\frac{1}{m} + \\frac{1}{n} + \\frac{1}{p}$ là một số nguyên\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$5$"
+                        },
+                        {
+                            "content": "$11$"
+                        },
+                        {
+                            "content": "$13$"
+                        },
+                        {
+                            "content": "$14$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": " $\\dfrac{1}{m}+\\dfrac{1}{n}+\\dfrac{1}{p} \\in \\mathbb{N^*}$.\n\n $ 0 < \\dfrac{1}{m}+\\dfrac{1}{n}+\\dfrac{1}{p} <= 3$.\n Các trường hợp:\n     $=3$: $(1,1,1)$ $\\rightarrow$ 1 bộ.\n     $=2$: chỉ $(1,2,2)$ và hoán vị $\\rightarrow$ 3 bộ.\n     $=1$: các bộ có thứ tự từ $(2,3,6), (2,4,4), (3,3,3)$ và hoán vị $\\rightarrow (6+3+1=10)$ bộ.\n Tổng $1+3+10=14$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:29:00.009659+07:00"
+            },
+            {
+                "id": "ee07613d-f4e6-4df8-af94-0f9de2bf6ec6",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Một viên bi bằng kim loại được nung nóng rồi thả vào một thùng chất lỏng. Nhiệt độ của nó (đơn vị °C) sau khi nó đi vào thùng chất lỏng $\\displaystyle t$ giây được tính bằng công thức $\\displaystyle T\\left( t \\right) = 400 \\cdot {e^{ - 0,000667t}} + 24$. \n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 13,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Khoảng thời gian (làm tròn đến giây) viên bi có nhiệt độ từ $300°C$ đến $400°C$ là 460 giây."
+                        },
+                        {
+                            "content": "Nhiệt độ của viên bi khi nó bắt đầu đi vào thùng chất lỏng là $\\displaystyle {424^ \\circ }C$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": " $T(t) = 400e^{-0.000667t} + 24$.\n $T(0) = 400e^0 + 24 = 424^{\\circ}\\text{C}$ $\\rightarrow$ mệnh đề 2 Đúng.\n $T=400 \\Rightarrow t \\approx 93s$; $T=300 \\Rightarrow t \\approx 556s$; chênh lệch $\\approx 463s $ $\\rightarrow$ mệnh đề 1 Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:36:26.554406+07:00"
+            },
+            {
+                "id": "55004cbe-9351-4eed-83d9-48ddca2373ae",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Từ các chữ số $1, 2, 3, 4, 5, 6, 7$, ta có thể lập được ____ số tự nhiên có $3$ chữ số, trong đó có ____ số tự nhiên có $3$ chữ số mà các chữ số tăng dần từ trái qua phải.\n\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 343$",
+                        "$\\displaystyle 30$",
+                        "$\\displaystyle 35$",
+                        "$\\displaystyle 210$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": " Dùng các chữ số $1–7:$\n Số 3 chữ số (cho phép lặp): $7^3 = 343$.\n Tăng dần (không lặp): $7C3 = 35$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:38:06.708245+07:00"
+            },
+            {
+                "id": "c68d47b9-8f56-432a-8ae7-b9f70c98971a",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Điền một số nguyên dương thích hợp vào chỗ trống:\nCó tất cả ____ số nguyên dương nằm trong tập nghiệm của bất phương trình $\\displaystyle x < \\frac{{{3^{2024}}}}{{{2^{3200}}}}$\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "249"
+                    ]
+                },
+                "answer_detail": " Số nguyên dương trong nghiệm $x < \\dfrac{3^{2024}}{2^{3200}}$.\n $\\ln$ của phân số = $2024\\ln3 - 3200\\ln2 \\approx 5.5203 \\Rightarrow$ giá trị $\\approx e^{5.5203} \\approx 249.6$.\n Số nguyên dương < 249.6 là 249.\n Đáp án: 249.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:39:13.906549+07:00"
+            },
+            {
+                "id": "8a4362cb-4e7a-4220-967e-94c6ae15565a",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hàm số $\\displaystyle f\\left( x \\right)$ có bảng biến thiên như hình vẽ\n$/image_{https://api-course.hethonglab.com/static/51681f00-40f7-4867-b210-8ee3f3be6ba9.png}_{center}_{30}_{block}$\nMỗi phát biểu sau đây là đúng hay sai?",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Đồ thị hàm số không thể có tiệm cận xiên"
+                        },
+                        {
+                            "content": "Giá trị lớn nhất của $\\displaystyle f\\left( x \\right)$ trên $\\displaystyle \\left( { - \\infty ;1} \\right)$ bằng 3"
+                        },
+                        {
+                            "content": "Giá trị nhỏ nhất của $\\displaystyle f\\left( x \\right)$ trên $R$ bằng $1$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Đồ thị không thể có tiệm cận xiên\": Sai. Bảng cho thấy $y \\to 3$ khi $x \\to -\\infty$ (tiệm cận ngang $y=3$); phía $+\\infty$ vẫn có thể tồn tại tiệm cận xiên nên không loại trừ được.\nGTLN của $f(x)$ trên $(-\\infty; 1]$ bằng 3\": Sai. 3 chỉ là giới hạn khi $x \\to -\\infty$, không đạt được trên khoảng $\\to$ không có GTLN.\nGTNN của $f(x)$ trên $\\mathbb{R}$ bằng 1\": Đúng. GTNN đạt tại $x=1$ (nhánh trái) và $x=5$ (nhánh phải).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T14:59:30.500299+07:00"
+            },
+            {
+                "id": "3e918ce9-01d6-4b47-af29-dfa7d3f45914",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hàm số bậc ba $\\displaystyle y = f\\left( x \\right)$ có bảng biến thiên như sau:\n$/image_{https://api-course.hethonglab.com/static/6e67a1e8-c387-4418-93d2-8f40bbbcfec9.png}_{left}_{30}_{block}$\nSố điểm cực trị của hàm số $\\displaystyle y = f\\left( {{x^2} - 2x} \\right)$ là\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$5$"
+                        },
+                        {
+                            "content": "$2$"
+                        },
+                        {
+                            "content": "$4$"
+                        },
+                        {
+                            "content": "$3$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Đặt $u = x^2 - 2x = (x - 1)^2 - 1.$\nCực trị của $y = f(u)$ khi $f'(u) = 0$ hoặc $u' = 0$. Từ bảng; $f'(u) = 0$ tại $u = -1, 1.$\nGiải $u = -1 \\Rightarrow x = 1$; $u = 1 \\Rightarrow x = 1 \\pm \\sqrt{2}$; thêm $u' = 2x - 2 = 0 \\Rightarrow x = 1$ (trùng).\nVậy có 3 điểm cực trị; $x = 1 - \\sqrt{2}, 1, 1 + \\sqrt{2}.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T14:53:31.167056+07:00"
+            },
+            {
+                "id": "dbacfcf3-fe6f-4bae-afcb-56784f32aa24",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Biết rằng giá trị nhỏ nhất của hàm số $\\displaystyle f(x) = \\frac{{x + \\sqrt x  + 5}}{{\\sqrt x  + 1}}$ bằng $\\displaystyle \\sqrt a  - b$, với $\\displaystyle a,b$ là các số nguyên dương. Khi đó $\\displaystyle {a^2} + {b^2} = $ ____.\n\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "401"
+                    ]
+                },
+                "answer_detail": " Min của $f(x)=\\dfrac{x+\\sqrt{x}+5}{\\sqrt{x}+1}$. Đặt $t=\\sqrt{x} \\ge 0$:\n\n $f(t) = t + \\dfrac{5}{t+1}$.\n\n $f'(t) = 1 - \\dfrac{5}{(t+1)^2} = 0 \\Rightarrow t+1 = \\sqrt{5}$.\n\n $f_{\\min} = (\\sqrt{5}-1) + \\dfrac{5}{\\sqrt{5}} = 2\\sqrt{5}-1 = \\sqrt{20}-1$.\n\n $a=20, b=1 \\Rightarrow a^2+b^2=401$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-27T13:30:41.817361+07:00"
+            },
+            {
+                "id": "7af92a06-9825-4917-9f9c-4a40076abe9f",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Điền số nguyên dương thích hợp vào chỗ trống.\nCho hình chóp $\\displaystyle S.ABC$ có độ dài đường cao là $12$ cm. Gọi $\\displaystyle M,I$ lần lượt là trung điểm của các đoạn $\\displaystyle SA,CM$. Đường kính mặt cầu $\\displaystyle \\left( S \\right)$ tâm $\\displaystyle I$ tiếp xúc với mặt phẳng $\\displaystyle \\left( {ABC} \\right)$ là ____ cm.\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "6"
+                    ]
+                },
+                "answer_detail": "$/image_{https://api-course.hethonglab.com/static/bc6f68e8-2446-4fd0-8260-5ff5686e3f53.png}_{center}_{50}_{block}$\nHình chiếu S M I $\\rightarrow$ ABC là S' M' I'\n\ndo $SM = \\frac{1}{2} SA \\Rightarrow \\frac{MM'}{SS'} = \\frac{1}{2}$\n\ndo $MI = \\frac{1}{2} MC \\Rightarrow \\frac{II'}{MM'} = \\frac{1}{2}$\n\n$\\Rightarrow \\frac{II'}{SS'} = \\frac{1}{4} = \\frac{r}{h}$\n\n$\\Rightarrow r = \\frac{h}{4} = \\frac{12}{4} = 3 \\Rightarrow d=6$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:08:55.777221+07:00"
+            },
+            {
+                "id": "c4d77166-ceee-47d9-be0a-4af69a27e307",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho phương trình lượng giác: $\\displaystyle {\\rm{sin}}\\left( x \\right) - 4{\\rm{cos}}\\left( x \\right) = m$, với $\\displaystyle m$ là tham số. Các khẳng định sau đây đúng hay sai?\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Khi $\\displaystyle m = 4$ thì phương trình có nghiệm $\\displaystyle x = \\pi $."
+                        },
+                        {
+                            "content": "Có tất cả 10 giá trị nguyên của $\\displaystyle m$ để phương trình có nghiệm."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Cho $\\sin(x) - 4\\cos(x) = m$.\n\n    $\\sin \\pi - 4\\cos \\pi = 0 - 4(-1) = 4 = m \\Rightarrow$ a) Đúng.\n\n    Giá trị cực đại/tiểu của $\\sin x - 4\\cos x$ là $\\pm\\sqrt{1^2+4^2} = \\pm\\sqrt{17}$.\n    $m \\in [-\\sqrt{17}, \\sqrt{17}] \\Rightarrow$ các $m$ nguyên: $-4, -3, -2, -1, 0, 1, 2, 3, 4$ (9 giá trị) $\\Rightarrow$ b) Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:11:46.984413+07:00"
+            },
+            {
+                "id": "220efe6c-85aa-43b1-bb17-3ec6d42af9f3",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Mỗi phát biểu sau đây đúng hay sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Căn bậc hai của $\\displaystyle 2x$ là $\\displaystyle \\sqrt{2x}$, bằng $\\displaystyle (2x)^{1/2}$ với mọi $\\displaystyle x \\in \\mathbb{R}$."
+                        },
+                        {
+                            "content": "Hàm số $\\displaystyle x^{1/a}$ có tập xác định là $\\displaystyle (0; +\\infty)$ với mọi $\\displaystyle a \\in \\mathbb{R}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": " $\\sqrt{2x} = (2x)^{1/2}$ với mọi $x \\in \\mathbb{R}$: Sai ( $x<0 $ biểu thức không xác định)\n Hàm $x^{1/a}$ có TXĐ là $(0; +\\infty)$ với mọi $a \\in \\mathbb{R}$: Sai (nếu $a = 0$) ( biểu thức không xác định ).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:16:52.729056+07:00"
+            },
+            {
+                "id": "d08dccc4-16de-431b-8255-db2886d3fcc9",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Điền số tự nhiên thích hợp vào chỗ trống.\nTrong không gian $\\displaystyle Oxyz$, cho điểm $\\displaystyle M\\left( {2; - 3;5} \\right)$. Mặt phẳng $\\displaystyle \\left( P \\right)$ đi qua $\\displaystyle M$ lần lượt cắt ba trục tọa độ tại ba điểm $\\displaystyle A,B,C$ sao cho $\\displaystyle M$ là trọng tâm tam giác $\\displaystyle ABC$. Thể tích khối tứ diện $\\displaystyle OABC$ bằng ____.\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "135"
+                    ]
+                },
+                "answer_detail": "\nGọi $A(a,0,0)$, $B(0,b,0)$, $C(0,0,c)$ vì $(P)$ cắt các trục $Ox, Oy, Oz$ tại $A, B, C$.\n\nTrọng tâm $M(2,-3,5)$ của tam giác $ABC \\Rightarrow$\n\n$a/3 = 2 \\rightarrow a = 6; \\quad b/3 = -3 \\rightarrow b = -9; \\quad c/3 = 5 \\rightarrow c = 15.$\n\nTứ diện $OABC$ vuông tại $O \\Rightarrow$ thể tích\n\n$V = (1/6)|OA||OB||OC| = (1/6)|a||b||c|.$\n\n $V = (1/6) \\cdot 6 \\cdot 9 \\cdot 15 = 135$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T14:45:51.352419+07:00"
+            },
+            {
+                "id": "b285dfd2-102c-43c8-951d-fe4304435f03",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Một nguyên hàm của $\\displaystyle f(x) = \\frac{1}{x}(x < 0)$ là:",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 13,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle {\\rm{ln}}\\mid x\\mid  + C$"
+                        },
+                        {
+                            "content": "$ - \\dfrac{1}{{{x^2}}} + 2$"
+                        },
+                        {
+                            "content": "$\\displaystyle {\\rm{ln}}\\left( x \\right) + C$"
+                        },
+                        {
+                            "content": "$\\displaystyle {\\rm{ln}}\\left( {2x} \\right)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "\n\nVì $∫(1/x) dx = \\ln|x| + C.$ Với miền $x < 0, \\ln|x|$ vẫn xác định; còn $ \\ln(x)$ hay $ \\ln(2x)$ không xác định trên miền này.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:43:09.364135+07:00"
+            },
+            {
+                "id": "e846d182-516a-418a-958a-4f7e4cd0341d",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hàm số $\\displaystyle y = \\dfrac{{{x^2} + 2x + 2}}{{x + 1}}$\n\n\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số có tiệm cận xiên"
+                        },
+                        {
+                            "content": "Hàm số có tiệm cận nghang"
+                        },
+                        {
+                            "content": "Hàm số có 2 điểm cực trị"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Cho ($y=\\dfrac{x^2+2x+2}{x+1}$) ($x\\neq−1$). Chia đa thức:\n\n\n$y=x+1+\\dfrac{1}{x+1}.$\n\n\nTiệm cận xiên: ($y=x+1$) (đúng).\nTiệm cận ngang: không có (sai).\nCực trị: ($y'=1-\\dfrac{1}{(x+1)^2}=0 \\Rightarrow (x+1)^2=1 \\Rightarrow x=0,-2$) (đều thuộc TXĐ) $\\Rightarrow$ có 2 điểm cực trị (đúng).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:05:27.306024+07:00"
+            },
+            {
+                "id": "9bf242dd-e364-40db-b94b-016683fc3ed8",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho $\\displaystyle \\left( {a{x^3} + b{x^2} + cx + d} \\right) \\cdot {e^x}$ là một nguyên hàm của hàm số $\\displaystyle \\left( {2{x^2} - 6x + 2} \\right) \\cdot {e^x}$. Giá trị của $\\displaystyle a + b + c + d$ bằng ____.\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 13,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "4"
+                    ]
+                },
+                "answer_detail": "Ta có $(P e^x)'=(P'+P)e^x=(2x^2−6x+2)e^x \\Rightarrow P'+P=2x^2−6x+2$.\n\nVới $P(x)=ax^3+bx^2+cx+d \\Rightarrow P'+P = ax^3+(b+3a)x^2+(c+2b)x+(d+c)$.\n\nSo sánh hệ số:\n$a=0$\n$b=2$\n$c+2b=−6 \\Rightarrow c=−10$\n$d+c=2 \\Rightarrow d=12$\n\n$\\Rightarrow a+b+c+d=0+2−10+12=4$.\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:07:18.060822+07:00"
+            },
+            {
+                "id": "6927ed69-dd56-485b-9927-4a35aa1b16af",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hàm số $\\displaystyle y = {x^3} - 3x$ có đồ thị hàm số cắt tia $\\displaystyle Ox$ tại bao nhiêu điểm",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$1$"
+                        },
+                        {
+                            "content": "$2$"
+                        },
+                        {
+                            "content": "$0$"
+                        },
+                        {
+                            "content": "$3$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Đồ thị cắt tia Ox\n\n$y = x^3 - 3x = x(x^2 - 3)$. Nghiệm: $x = 0, x = \\pm\\sqrt{3}$.\n\nCắt tia $Ox$ ($x \\ge 0$) tại $x = 0$ và $x = \\sqrt{3} \\rightarrow$ có 2 điểm.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:20:56.038472+07:00"
+            },
+            {
+                "id": "85dc276d-1ed5-44a1-8c82-08062d7544bc",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho $\\displaystyle a,b,c$ là 3 số nguyên thỏa mãn $\\displaystyle a,b,c$ lập thành thứ tự của một cấp số cộng và $\\displaystyle a,c,b$ lập thành thứ tự của một cấp số nhân. $a<b<c$\nNhững khẳng định nào đúng trong các khẳng định sau?\n",
+                "difficulty": "M3",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle a + b + c$ luôn chẵn"
+                        },
+                        {
+                            "content": "Tích $\\displaystyle abc$ đạt giá trị nhỏ nhất bằng 8"
+                        },
+                        {
+                            "content": "Giá trị lớn nhất của $\\displaystyle a$ bằng $ - 4$"
+                        },
+                        {
+                            "content": "Tích $\\displaystyle abc$ chia hết cho 8"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3,
+                        2,
+                        1
+                    ]
+                },
+                "answer_detail": "Điều kiện CSC và CSN\n\n$b = (a + c)/2$, $c^2 = ab$\n\n$\\Rightarrow a(a + c) = 2c^2 \\Rightarrow 2c^2 - ac - a^2 = 0$ (bậc hai theo c).\n\n$\\Delta = a^2 + 8a^2 = 9a^2 \\Rightarrow c = (a \\pm 3a)/4$.\n\n $c = a \\Rightarrow a = b = c$ (loại vì yêu cầu $a < b < c$).\n\n $c = -a/2 \\Rightarrow a \\equiv 0 \\pmod 4$. Đặt $a = 4k \\Rightarrow b = k, c = -2k$ ($k \\in \\mathbb{Z}$).\n\nĐiều kiện $a < b < c$: $4k < k < -2k \\Leftrightarrow 3k < 0 \\Rightarrow k < 0$.\n\nVậy mọi bộ nghiệm là $(a, b, c) = (4k, k, -2k)$ với $k \\le -1$.\n\n\n $a + b + c = 4k + k - 2k = 3k$. Với $k = -1 \\Rightarrow$ tổng $= -3$ (lẻ) $\\Rightarrow$ không luôn chẵn $\\rightarrow$ Sai.\n\n $abc = (4k)(k)(-2k) = -8k^3 = 8|k|^3$ ($k \\le -1$) $\\Rightarrow$ nhỏ nhất khi $|k| = 1$, bằng 8 $\\rightarrow$ Đúng.\n\n $a = 4k$ ($k \\le -1$) $\\Rightarrow$ lớn nhất khi $k = -1$, $a_{\\text{max}} = -4 \\rightarrow$ Đúng.\n\n $abc = -8k^3$ luôn chia hết cho 8 $\\rightarrow$ Đúng.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:40:41.686547+07:00"
+            },
+            {
+                "id": "afcfa674-a3c5-4da8-9aff-a946bd682670",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho $\\displaystyle \\left( {{u_n}} \\right)$ là một cấp số cộng với $\\displaystyle {u_1} = 3$. Biết $\\displaystyle {u_3} + {u_6} = 13$, khi đó $\\displaystyle {u_4} + {u_{10}}$ bằng",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "17"
+                        },
+                        {
+                            "content": "18"
+                        },
+                        {
+                            "content": "15"
+                        },
+                        {
+                            "content": "14"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Cấp số cộng $u_1 = 3$, biết $u_3 + u_6 = 13$\n\n$u_3 = 3 + 2d, u_6 = 3 + 5d \\Rightarrow 6 + 7d = 13 \\Rightarrow d = 1$.\n\n$u_4 + u_{10} = (3 + 3) + (3 + 9) = 18$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:43:17.88209+07:00"
+            },
+            {
+                "id": "ab02adb5-3f08-471f-82ce-a1a898dcba20",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho 2 biến cố độc lập $\\displaystyle A,B$ biết rằng Giá trị của $\\displaystyle P(A)=0.4$ và $\\displaystyle P(B)=0.5$ $\\displaystyle P\\left( {A\\mid B} \\right)$ bằng",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 17,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$0,4$"
+                        },
+                        {
+                            "content": "$0,8$"
+                        },
+                        {
+                            "content": "$0,5$"
+                        },
+                        {
+                            "content": "$0,02$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Hai biến cố A, B độc lập; $P(A) = 0,4$; $P(B) = 0,5$.\n$P(A|B) = P(A) = \\mathbf{0,4}$.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:19:07.964103+07:00"
+            },
+            {
+                "id": "b3900ae3-2d58-4a6a-8eb0-752a0c9af3fb",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Số ước nguyên dương nhỏ hơn $9990$ của $99900000$ là ____\n\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "143"
+                    ]
+                },
+                "answer_detail": "$N = 9 990 0000 = 2^5 \\cdot 3^3 \\cdot 5^5 \\cdot 37$.\nTổng số ước dương $\\tau(N) = (5+1)(3+1)(5+1)(1+1) = 288$.\nCần đếm số ước $d < 9 990$.\nVì $N/9 990 = 1 0000$, cặp ước $(d \\leftrightarrow N/d)$ cho ta:\nSố ước $< 9 990$ = $288/2-1=143$ (trừ 1 là do trừ đi ước $9990$)",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:29:18.849527+07:00"
+            },
+            {
+                "id": "08c6fb65-272f-4cb3-a0d3-db2af33918bc",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hình lăng trụ $\\displaystyle ABC.A'B'C'$ nội tiếp mặt cầu tâm $\\displaystyle I$, bán kính $\\displaystyle R$, ta có\n$\\displaystyle A(1; 2; 3), B(4; 1; 7), C(-2; 1; 5), A'(a; b; -6)$. Diện tích mặt cầu là $\\displaystyle \\pi x$ (đvtt). Giá trị của $\\displaystyle x_t$ là ____\n",
+                "difficulty": "M3",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "859"
+                    ]
+                },
+                "answer_detail": "Biết diện tích mặt cầu là $S = \\pi x_t$.\n $S = 4\\pi R^2 \\Rightarrow x_t = 4R^2$.\n\n\n\nVì lăng trụ $ABC.A'B'C'$ nội tiếp mặt cầu, tâm $I(x,y,z)$ cách đều các đỉnh:\n$IA^2 = IB^2 = IC^2 = IA'^2 = IB'^2 = IC'^2 = R^2.$\nTừ $A(1,2,3), B(4,1,7), C(-2,1,5), A'(a,b,-6)$.\nTừ $IA^2 = IB^2$: $3x - y + 4z = 26$\nTừ $IB^2 = IC^2$: $3x + z = 9$\n\n$\\rightarrow z = 9 - 3x, y = 10 - 9x$.\n\n\n\nVì $\\overrightarrow{AA'} \\parallel \\overrightarrow{BB'} \\parallel \\overrightarrow{CC'}$ nên $A'(a,b,-6)$, $B'(a+3,b-1,-2)$, $C'(a-3,b-1,-4)$.\nTừ $IA^2 = IA'^2$, $IA^2 = IB'^2$, $IA^2 = IC'^2$ ta được 3 phương trình có cùng vế trái:\n\n$(2a-2)x + (2b-4)y - 18z (*) = a^2 + b^2 + 22 \\quad \\text{(1)}$\n$(2a-2)x + (2b-4)y - 18z (*)= a^2 + b^2 + 6a - 2b - 52 \\quad \\text{(2)}$\n$(2a-2)x + (2b-4)y - 18z (*)= a^2 + b^2 - 6a - 2b - 4 \\quad \\text{(3)}$\n\n\n\n (2) = (3) $\\Rightarrow 12a = 48 \\Rightarrow a = 4$\n (1) = (3) $\\Rightarrow 26 = -6a - 2b \\Rightarrow$ với $a = 4 \\Rightarrow b = -25$\n\n\n\nThay lại vào phương trình $(*)$, được:\n$2x - 18y - 6z = 221$.\nThế $y = 10 - 9x, z = 9 - 3x$\n$\\rightarrow 2x - 18(10 - 9x) - 6(9 - 3x) = 221 \\Rightarrow x = \\dfrac{5}{2}.$\n\n\n$I\\left(\\dfrac{5}{2}, -\\dfrac{25}{2}, \\dfrac{3}{2}\\right)$\n$R^2 = IA^2 = (1.5)^2 + (-14.5)^2 + (-1.5)^2 = \\dfrac{859}{4}.$\n\n\n$x_t = 4R^2 = 4 \\times \\dfrac{859}{4} = 859.$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T14:41:36.923019+07:00"
+            },
+            {
+                "id": "2ada20b4-70e6-48aa-8a55-665c71b4bdf9",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Nhà nọ có 3 anh em tên là Khoa, Thành, Anh. Một hôm mẹ sai 3 anh em đi chợ mua 8 nguyên liệu về nấu ăn. Trên đường đi 3 anh em cãi nhau nên tách ra mua riêng, số tiền mỗi người cầm đủ để mua cả 8 nguyên liệu. Tính xác suất 3 bạn làm mẹ KHÔNG hài lòng biết rằng nếu mua không đủ 8 loại nguyên liệu hoặc mỗi bạn mua cùng 1 loại nguyên liệu thì sẽ bị mẹ phạt.\n",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\frac{4}{{81}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{77}}{{81}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle 1 - {\\left( {\\frac{1}{4}} \\right)^8}$"
+                        },
+                        {
+                            "content": "$\\displaystyle 1 - {\\left( {\\frac{3}{8}} \\right)^8}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Ba anh em – 8 nguyên liệu\n\nHiểu rằng với mỗi nguyên liệu, mỗi người tự quyết định “mua/không mua” độc lập (vì ai cũng đủ tiền để mua tất cả). Mẹ chỉ hài lòng nếu với mỗi nguyên liệu có đúng 1 người mua (không thiếu, không trùng).\n\nVới 1 nguyên liệu: xác suất đúng 1 người mua = ($3\\cdot\\left(\\dfrac12\\right)^3=\\dfrac{3}{8}$). chọn 1 người mua có 3 cách , 1 người mua xác suất là 1/2 và 2 người không mua là 1/4\n\n8 nguyên liệu độc lập $\\Rightarrow$ Xác suất mẹ hài lòng (=($\\dfrac{3}{8})^8$).\n\nDo hỏi xác suất KHÔNG hài lòng $\\Rightarrow$ ($1-(\\dfrac{3}{8})^8$).\n\nChọn: ($1-\\left(\\dfrac{3}{8}\\right)^8$).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T09:51:44.043735+07:00"
+            },
+            {
+                "id": "137b7441-520c-430a-8d33-590b2ca8ab76",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho khối nón (N) có góc ở đỉnh bằng 80°. Khẳng định nào dưới đây là đúng về mối liên hệ giữa bán kính đáy $\\displaystyle r$ và độ dài đường sinh $\\displaystyle l$ của (N)?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle l = r\\tan {40^o}$"
+                        },
+                        {
+                            "content": "$\\displaystyle l = \\frac{r}{{\\cos {{40}^o}}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle l = \\frac{r}{{\\sin {{40}^o}}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle l = \\frac{r}{{\\sin {{80}^o}}}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Góc ở đỉnh của hình nón là $80^{\\circ}$. Mặt cắt qua trục cho tam giác vuông AOB với $AO \\perp OB$, $AB = l$, $OB = r$. Nửa góc ở đỉnh bằng $40^{\\circ}$ chính là $\\angle(AB, AO)$.\n\n$\\sin 40^{\\circ} = r/l \\Rightarrow l = r/\\sin 40^{\\circ}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:08:20.826032+07:00"
+            },
+            {
+                "id": "b21877e4-4f3d-400e-b652-a7054616ea68",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hình chóp $S. ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $O$ là giao điểm của $AC$ và $BD$.\nMỗi khẳng định sau là đúng hay sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Giao tuyến của hai mặt phẳng (SAB) và (SCD) là đường thẳng SO."
+                        },
+                        {
+                            "content": "Giao tuyến của hai mặt phẳng (SAD) và (SBC) là đường thẳng đi qua S và song song với BC."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Đáy ABCD là hình bình hành nên $AB \\parallel CD$ và $AD \\parallel BC$.\n\n (SAB) và (SCD) mỗi mặt phẳng chứa S và lần lượt chứa các đường thẳng AB, CD (song song). Giao tuyến của hai mặt phẳng ấy là đường thẳng qua S và song song AB (cũng song song CD), không phải SO.\n    \n    $\\rightarrow$ Sai.\n (SAD) và (SBC) lần lượt chứa các đường thẳng AD và BC (song song). Vì thế giao tuyến là đường thẳng đi qua S và song song BC (cũng song song AD).\n    \n    $\\rightarrow$ Đúng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:09:51.544688+07:00"
+            },
+            {
+                "id": "e5230097-168f-414d-9283-f82002b16a68",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hàm số $\\displaystyle y = f\\left( x \\right)$ có đồ thị như hình vẽ\n$/image_{https://api-course.hethonglab.com/static/df02a38f-5a53-4915-b284-61855786d9c0.png}_{left}_{25}_{block}$\nBiết phần tô đậm $\\displaystyle {S_1},\\;{S_2}$ có diện tích lần lượt là 1 và 5. Các khẳng định sau đây là đúng hay sai?\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$\\displaystyle \\int\\limits_0^2 {\\left| {f(x)} \\right|dx = 6} $"
+                        },
+                        {
+                            "content": "$\\displaystyle \\int\\limits_0^2 {x.f'(x)dx =  - 2} $"
+                        },
+                        {
+                            "content": "$\\displaystyle \\int\\limits_0^2 {f(x)dx = 4} $"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Ta có trên hình:\n\n Diện tích phần dương $S_1 = 1$, phần âm $S_2 = 5$.\n Điểm cực tiểu tại $x = 2$ có tung độ $f(2) = -3$ (đường kẻ đứt đoạn chỉ $y = -3$).\n\n  $\\displaystyle \\int_0^2 |f(x)| dx = S_1 + S_2 = 1 + 5 = 6 \\rightarrow$ Đúng.\n  \n  $\\displaystyle \\int_0^2 x f'(x) dx = [x f(x)]_0^2 - \\int_0^2 f(x) dx = 2f(2) - \\int_0^2 f(x) dx$.\n  \n    Lại có $\\displaystyle \\int_0^2 f(x) dx = S_1 - S_2 = 1 - 5 = -4$.\n    Do đó $2f(2) - (-4) = 2(-3) + 4 = -2 \\rightarrow$ Đúng.\n\t\n  $\\displaystyle \\int_0^2 f(x) dx = -4$ (không phải $4$) $\\rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:24:13.752215+07:00"
+            },
+            {
+                "id": "3e78db00-8f87-436f-89fc-7e32cbbf960e",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho tứ diện $\\displaystyle ABCD$, gọi $\\displaystyle I,J$ lần lượt là trọng tâm cảu tam giác $\\displaystyle ABC$ và tam giác $\\displaystyle ABD$. Chứng minh rằng $IJ // CD.$\n\nLời giai: Gọi E là trung điểm của AB.\n\nTa có $I ∈$ ____, $J ∈$ ____ nên $IJ$ và $CD$____ . Vì $I, J$ lần lượt là trọng tâm của tam giác $\\displaystyle ABC$ và tam giác $\\displaystyle ABD$ nên $\\displaystyle \\frac{{EI}}{{EC}} = \\frac{{EJ}}{{DE}}$=____\n\nTheo định lý Ta-let đảo suy ra $IJ // CD$ (đpcm)\n\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle \\frac{1}{3}$",
+                        "$\\displaystyle CE$",
+                        "$\\displaystyle DE$",
+                        " chéo nhau",
+                        "đồng phẳng",
+                        "$\\displaystyle \\frac{2}{3}$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2,
+                        4,
+                        0
+                    ]
+                },
+                "answer_detail": " Tứ diện $ABCD$, $E$ trung điểm $AB$; $I, J$ là trọng tâm tam giác $ABC, ABD$.\n $I \\in CE$. $J \\in DE$ nên $I, J, C, D$ đồng phẳng (trong mp $(CDE)$). $IJ$ và $CD$ cùng nằm trong mp $(CDE)$. Vì trọng tâm: $\\dfrac{EI}{EC} = \\dfrac{EJ}{DE} = \\dfrac{1}{3}$.\n Theo Ta-lét đảo $\\Rightarrow IJ \\parallel CD$.\n Các ô cần điền: CE; DE; đồng phẳng; 1/3.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:33:06.52437+07:00"
+            },
+            {
+                "id": "9dcd7da6-99db-41e0-bd9e-0edc7c4d3e38",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho hàm số $\\displaystyle y = f\\left( x \\right)$ liên tục trên $\\displaystyle R$, thỏa mãn $\\displaystyle f(x)<f(1)$ với mọi $\\displaystyle x$ khác $\\displaystyle 1$.\nNhững khẳng định nào sau đây đúng?\n",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hàm số đạt giá trị nhỏ nhất tại $\\displaystyle x = 1$"
+                        },
+                        {
+                            "content": "Hàm số đạt giá trị lớn nhất tại $\\displaystyle x = 1$"
+                        },
+                        {
+                            "content": "Hàm số đạt cực tiểu tại $\\displaystyle x = 1$"
+                        },
+                        {
+                            "content": "Hàm số đạt cực đại tại $\\displaystyle x = 1$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        3
+                    ]
+                },
+                "answer_detail": " $f$ liên tục, $f(x) < f(1)$ với mọi $x \\ne 1$.\n “Giá trị lớn nhất tại $x=1$”: Đúng.\n “Cực đại tại $x=1$”: Đúng.\n Hai mệnh đề “giá trị nhỏ nhất / cực tiểu tại $x=1$”: Sai.\n Đáp án: chọn 2 và 4.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T11:40:33.406375+07:00"
+            },
+            {
+                "id": "469eb751-e8fe-46b5-b325-951d01d92dd0",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Trong $1$ giải đấu gồm $210$ trận, các đội đấu theo thể thức vòng tròn và hai đội chỉ gặp nhau đúng $1$ lần. Hỏi mỗi đội phải đấu bao nhiêu trận trong giải đấu?\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "19"
+                        },
+                        {
+                            "content": "21"
+                        },
+                        {
+                            "content": "20"
+                        },
+                        {
+                            "content": "22"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Giải đấu vòng tròn có 210 trận: $nC2 = 210$.\n$\\Rightarrow \\dfrac{n(n - 1)}{2} = 210 \\Rightarrow n = 21$ (đội).\nMỗi đội đấu $n - 1 = \\mathbf{20}$ trận.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:18:22.181294+07:00"
+            },
+            {
+                "id": "a051b573-25f3-4fa2-bd40-52bf0b5a5b71",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho góc $\\displaystyle \\alpha $ thỏa mãn $\\displaystyle 0 < \\alpha  < \\frac{\\pi }{4}$ và $\\displaystyle {\\rm{ta}}{{\\rm{n}}^2}\\alpha  + {\\rm{co}}{{\\rm{t}}^2}\\alpha  = 5$. Giá trị của biểu thức $\\displaystyle T = {\\rm{tan}}\\alpha  - {\\rm{cot}}\\alpha $ bằng\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$3$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\sqrt 3 $"
+                        },
+                        {
+                            "content": "$ - \\sqrt 3 $"
+                        },
+                        {
+                            "content": "$ - 3$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$0 < \\alpha < \\pi/4$, $\\tan^2\\alpha + \\cot^2\\alpha = 5$. Đặt $t = \\tan \\alpha$ ($0 < t < 1$).\n\n$t^2 + \\dfrac{1}{t^2} = 5 \\Rightarrow (t - \\dfrac{1}{t})^2 = 3$.\n\n$\\Rightarrow t - \\dfrac{1}{t} = -\\sqrt{3}$ (chọn dấu âm vì $t < 1 \\Rightarrow t < 1/t$).\n\n$T = \\tan \\alpha - \\cot \\alpha = \\mathbf{-\\sqrt{3}}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:21:37.656796+07:00"
+            },
+            {
+                "id": "75ded926-0bc4-4751-a6a4-46ea9a78f428",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Theo định nghĩa tetration là \"luỹ thừa lặp\" (hoặc \"chồng\") nên tetration là một phép toán hai ngôi được viết dưới dạng $\\displaystyle {^b}a$, trong đó $\\displaystyle a$ được gọi là \"cơ sở\" và $\\displaystyle b$ là số lần $\\displaystyle a$ luỹ thừa lặp chính nó (hoặc số lần lặp lại của $\\displaystyle a$) được gọi là \"chiều cao\", tương tự như luỹ thừa. Như vậy, $\\displaystyle {^b}a$ sẽ được biến đổi thành một tháp luỹ thừa $\\displaystyle {a^a}^{^{{a^{{a^{{{...}^a}}}}}}}$ và  $\\displaystyle b$ là số tầng lũy thừa của $\\displaystyle a$ tính từ cơ số và $\\displaystyle {^b}a$ sẽ được đọc là “tertration bâc $\\displaystyle b$ của $\\displaystyle a$” hoặc “$\\displaystyle a$ tetration bậc $\\displaystyle b$”.\nMột máy tính có thể thực hiện phép toán đến $\\displaystyle {10^{99}}$ thì giá trị lớn nhất của $\\displaystyle b$ mà $\\displaystyle {^b}2$ có thể tính toán được bằng ____.\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "4"
+                    ]
+                },
+                "answer_detail": "Tìm $b$ lớn nhất sao cho ${^b}2 \\le 10^{99}$.\n ${^1}2 = 2$\n ${^2}2 = 2^2 = 4$\n ${^3}2 = 2^{2^2} = 2^4 = 16$ \n ${^4}2 = 2^{2^{2^2}} = 2^{16} = 65536$ \n ${^5}2 = 2^{2^{2^{2^2}}} = 2^{65536}$.\n    Ta có $2^{10} \\approx 10^3$.\n    $2^{65536} = (2^{10})^{6553.6} \\approx (10^3)^{6553.6} = 10^{19660.8}$.\n    Vì $10^{19660.8} \\gg 10^{99}$, nên máy tính không thể tính được ${^5}2$.\n\nVậy, giá trị $b$ lớn nhất là 4.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:29:54.77795+07:00"
+            },
+            {
+                "id": "a462c05e-db9e-4cc5-92d2-94a42a7d2a61",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Điền số tự nhiên thích hợp vào chỗ trống để được khẳng định đúng.\nTrọng lượng gà đủ tiêu chuẩn xuất chuồng là trên $3,3$ kg/con. Để ra quyết định có thu mua gà của trang trại X hay không, công ty A sẽ cân thử 10 con. Nếu hiệu số của trọng lượng trung bình của mẫu với trọng lượng tiêu chuẩn vượt 0,2 kg, công ty sẽ thu mua. Kết quả cân thử (tính theo kg) của $10$ con gà của trang trại X ta được bảng số liệu sau:\n$/image_{https://api-course.hethonglab.com/static/f61a5e34-31d3-4fa1-b048-29b53b1a35e7.png}_{center}_{70}_{block}$\nHiệu số giữa trọng lượng trung bình và trọng lượng tiêu chuẩn bằng $\\displaystyle m$ (kg). Khi đó, $\\displaystyle 100m$ bằng____.\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 25,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "26"
+                    ]
+                },
+                "answer_detail": "Ta có số liệu cân nặng (kg) của 10 con:\n$3.2, 2.5, 4.0, 3.0, 3.8, 3.9, 4.0, 3.6, 3.8, 3.8.$\n\nTrung bình mẫu:\n$x̄$ $=$ (tổng 10 số)$/10 = 35.6/10 = 3.56$ (kg).\n\nHiệu số giữa trung bình và chuẩn 3.3 kg là:\n$m = x̄ − 3.3 = 3.56 − 3.3 = 0.26$ (kg).\n\nVậy $100m = 26.$\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:34:26.833376+07:00"
+            },
+            {
+                "id": "633d1a74-8c22-4147-bfff-68ef57f9cf9d",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Kéo thả những số thích hợp vào ô trống.\nCho hàm số $\\displaystyle f\\left( x \\right)$ có đồ thị hàm số $\\displaystyle y = f'( x )$ trên $\\displaystyle [ {0;10} ]$ như hình vẽ sau đây.\nTrên $\\displaystyle [ {0;10} ]$ diện tích các hình phẳng giới hạn bởi đồ thị $\\displaystyle y = f'\\left( x \\right)$ và trục $\\displaystyle Ox$ lần lượt là $20, 6, 4$ (thể hiện như hình vẽ).\n$/image_{https://api-course.hethonglab.com/static/5223f782-d435-412b-81de-c8d514b3888c.png}_{center}_{30}_{block}$\nGiá trị $\\displaystyle \\int\\limits_0^{10} {f'(x)dx} $ bằng ____\n\nBiết $\\displaystyle f\\left( 0 \\right) = 6$, giá trị $\\displaystyle f\\left( {10} \\right)$ bằng ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 18$",
+                        "$\\displaystyle 30$",
+                        "$\\displaystyle 36$",
+                        "$\\displaystyle 24$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        3
+                    ]
+                },
+                "answer_detail": "Ta có các diện tích theo hình (trên $[0, 10]$):\n\n Phần nằm trên trục $Ox: 20.$\n Phần nằm dưới $Ox: 64.$\n Phần dương cuối: $4.$\n\nVậy\n$\\displaystyle \\int_0^{10} f'(x) dx = 20 - 6 + 4 = 18.$\nBiết $f(0) = 6 \\Rightarrow f(10) = f(0) + \\int_0^{10} f'(x) dx = 6 + 18 = 24$.\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T12:48:07.675285+07:00"
+            },
+            {
+                "id": "ee8f9df7-27b2-4ddd-9d21-0d3b5d1cef9f",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Năm 2026, bạn Nam thi đỗ Đại học Bách khoa Hà Nội và dự kiến sẽ học trong 4 năm. Để hàng tháng Nam có tiền chi tiêu, gia đình Nam gửi tiết kiệm vào ngân hàng với số tiền là $300$ triệu đồng theo hình thức lãi kép, kì hạn 1 tháng với lãi suất 0,4% một tháng. Biết rằng trong 1 năm đầu, mỗi tháng Nam rút đúng $5$ triệu đồng. Trong năm thứ 2, mỗi tháng Nam rút đúng 6 triệu đồng. Trong hai năm còn lại, mỗi tháng Nam rút đúng số tiền như nhau. Biết rằng Nam luôn rút vào đúng ngày ngân hàng bắt đầu tính lãi và lãi suất ngân hàng không đổi trong 4 năm. Để sau đúng 4 năm Nam sử dụng hết số tiền trong ngân hàng thì trong hai năm cuối, hàng tháng Nam phải rút số tiền gần với giá trị nào dưới đây?\n",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$3.663.3684$ đồng"
+                        },
+                        {
+                            "content": "$8.415.383$ đồng"
+                        },
+                        {
+                            "content": "$8.952.480$ đồng"
+                        },
+                        {
+                            "content": "$7.851.931$ đồng"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Gia đình Nam gửi 300 triệu đồng, lãi suất $0,4\\%$/tháng ($r = 0,004$).\n\nNam rút đầu mỗi tháng:\n Năm 1: 5 triệu/tháng\n Năm 2: 6 triệu/tháng\n Hai năm cuối: rút đều A triệu/tháng sao cho hết tiền sau 4 năm (48 tháng).\n\n\n\nĐầu mỗi tháng tiền trong sổ sinh lãi 1 tháng rồi mới rút:\n$B_k = B_{k-1}(1 + r) - w_k$, với $B_0 = 300$.\n\nNếu Nam không rút, sau 12 tháng số tiền là $300 \\cdot (1 + r)^{12}$.\n\nKhi rút, mỗi khoản $w_k$ mất phần lãi của những tháng còn lại, nên:\n$\\displaystyle B_{12} = 300 \\cdot (1 + r)^{12} - \\sum_{k=1}^{12} w_k \\cdot (1 + r)^{12-k}$ (cấp số nhân)\n\n(Tiền nếu không rút – tiền rút quy đổi theo lãi bị mất. Ví dụ: tiền rút tháng 5 mất lãi từ tháng 6 $\\rightarrow$ 12.)\n\n\nNăm 1: $w_k = 5$ (triệu)\n\n$B_{12} = 300 \\cdot (1.004)^{12} - 5 \\cdot \\dfrac{1.004^{12} - 1}{0.004} \\approx 253,30 \\text{ triệu}$\n\nNăm 2: $w_k = 6$ (triệu)\n\n$B_{24} = B_{12} \\cdot (1.004)^{12} - 6 \\cdot \\dfrac{1.004^{12} - 1}{0.004} \\approx 192,21 \\text{ triệu}$\n\nHai năm cuối: Rút A (triệu/tháng), 24 tháng, $B_{48} = 0$\n\n$0 = B_{24} \\cdot (1.004)^{24} - A \\cdot \\dfrac{1.004^{24} - 1}{0.004}$\n\n$\\Rightarrow A = \\dfrac{B_{24} \\cdot (1.004)^{24} \\cdot 0.004}{1.004^{24} - 1} \\approx 8.415 \\text{ triệu.}$\n\n\nHai năm cuối Nam cần rút khoảng  8.415.383 đồng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-10-25T14:11:11.476718+07:00"
+            },
+            {
+                "id": "a0c3ea41-7b3f-454a-9f1e-cdeec60ada00",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Cho $\\displaystyle f\\left( x \\right)$ là hàm đa thức bậc 3 có đồ thị hàm số và điểm $A$ như hình vẽ\n$/image_{https://api-course.hethonglab.com/static/56ee486d-b9a3-4b69-876f-5c1f1ef62e66.png}_{center}_{30}_{block}$\nMỗi phát biểu sau đây là đúng hay sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Tia $\\displaystyle OA\\;$ cắt đồ thị hàm số tại 3 điểm phân biệt"
+                        },
+                        {
+                            "content": "Hàm số $\\displaystyle f\\left( x \\right)$ có một điểm cực trị"
+                        },
+                        {
+                            "content": "Hàm số $\\displaystyle f\\left( x \\right) = 0$ có 1 nghiệm phân biệt"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "a) Sai. Tia $OA$ (coi nhhệ số góc dươnư một nửa đường thẳng qua $O$ có g) dựa vào hình cắt đồ thị tối đa tại 2 điểm phân biệt.\n\nb) Sai → hàm số có $2$ cực trị.\n\nc) Đúng → dựa vào hình, đồ thị chỉ cắt trục $Ox$ một lần nên $f(x)=0$ có 1 nghiệm phân biệt.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-11-10T17:38:51.493901+07:00"
+            },
+            {
+                "id": "e49ad7a0-e248-4889-adff-4c72ea38c5f2",
+                "part_id": "64aff59d-512a-4936-be30-08b359234534",
+                "position": 0,
+                "content": "Mô hình Ponzi là một hình thức lừa đảo bằng cách chủ đầu tư lấy tiền của người tham gia sau trả lãi cho người tham gia trước. Ta tìm hiểu mô hình Ponzi thông qua một ví dụ đơn giản sau.\nBác Vui tình cờ tham gia vào dự án lừa đảo theo mô hình này với số vốn đầu tư 100 USD, bác phải mời được 5 người được gọi là các đại lý cấp 1. Mỗi đại lý cấp 1 của bác phải mời được 5 người nữa, những người này được gọi là đại lý cấp 2 của bác. Mô hình đầu tư cứ tiếp tục như vậy. Biết rằng với mỗi đại lý cấp 1 của bác, chủ đầu tư trả cho bác phần thưởng 32% số tiền đầu tư, mỗi đại lý cấp tiếp theo bác được trả thưởng bằng một nửa phần thưởng của mỗi đại lý cấp trước đó. Giả sử bác có 5 cấp đại lý và mỗi đại lý đều đầu tư 100 USD.\nCác khẳng định nào đúng trong các khẳng định sau?",
+                "difficulty": "M3",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Nếu đến đây dự án kết thúc thì số tiền lãi của chủ dự án kiếm được từ nhóm của bác Vui nhiều hơn một nửa số tiền thu được từ các đại lý cấp 5 của bác Vui."
+                        },
+                        {
+                            "content": "Số tiền thưởng bác Vui nhận được từ các đại lý của mình là 10310 USD."
+                        },
+                        {
+                            "content": "Bác Vui có tổng số đại lý các cấp bằng 3125 người."
+                        },
+                        {
+                            "content": "Số tiền thưởng mỗi đại lý cấp 1 của bác Vui nhận được là 4060 USD."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        3
+                    ]
+                },
+                "answer_detail": " (a) Lợi nhuận của chủ dự án khi trả cho tất cả\n\nTổng chi ($T$) = Tổng thu nhập toàn hệ thống.\nTổng thu nhập của Bác Vui (Cấp 0) $=$ nhận từ $5$ cấp dưới.\n\n Thu nhập mỗi đại lý Cấp $1 =$ nhận từ $4$ cấp dưới.\n     Mỗi người:\n                   $5 \\cdot 32 + 25 \\cdot 16 + 125 \\cdot 8 + 625 \\cdot 4 = 4060 \\text{ USD}.$\n     Có $5$ người $\\Rightarrow$ Tổng Cấp $1 = 20 300$ USD.\n Thu nhập mỗi đại lý Cấp $2 =$ nhận từ $3$ cấp dưới.\n     Mỗi người:\n                   $5 \\cdot 32 + 25 \\cdot 16 + 125 \\cdot 8 = 1560 \\text{ USD}.$\n     Có $25$ người $\\Rightarrow$ Tổng Cấp $2 = 39 000$ USD.\n Thu nhập mỗi đại lý Cấp $3 =$ nhận từ $2$ cấp dưới.\n     Mỗi người:\n                   $5 \\cdot 32 + 25 \\cdot 16 = 560 \\text{ USD}.$\n     Có $125$ người $\\Rightarrow$ Tổng Cấp $3 = 70 000$ USD.\n Thu nhập mỗi đại lý Cấp $4 =$ nhận từ $1$ cấp dưới.\n     Mỗi người:\n                   $5 \\cdot 32 = 160 \\text{ USD}.$\n     Có $625$ người $\\Rightarrow$ Tổng Cấp $4 = 100 000$ USD.\n\nCấp 5 không có cấp dưới $\\Rightarrow$ Thu nhập $= 0.$\n\nTổng chi toàn hệ thống:\n           $T = 10 310 + 20 300 + 39 000 + 70 000 + 100 000 = 239 610 \\text{ USD}.$\n\nLợi nhuận của chủ dự án:\n           $L = 390 500 - 239 610 = 150 890 \\text{ USD}.$\n\nNửa tiền thu cấp 5:\n           $\\dfrac{1}{2} \\times (3125 \\times 100) = 156 250 \\text{ USD}.$\n\nSo sánh: $150 890 < 156 250 \\Rightarrow$ Mệnh đề (a) sai.\n\n          \n\n (b) Tiền Bác Vui nhận\n\nMức thưởng mỗi người ở cấp sau bằng nửa cấp trước, tức là các hệ số:\n           $32, 16, 8, 4, 2.$\n\nNhận theo số người từng cấp:\n           $5 \\cdot 32 + 25 \\cdot 16 + 125 \\cdot 8 + 625 \\cdot 4 + 3125 \\cdot 2$\n          \n           $= 160 + 400 + 1000 + 2500 + 6250 = 10 310 \\text{ USD}.$\n\n$\\Rightarrow$ Đúng.\n\n          \n\n (c) “Tổng đại lý $= 3125$”\n\n$3125 = 5^5$ chỉ là cấp 5.\nTổng 5 cấp là: $5 + 25 + 125 + 625 + 3125 = 3905$.\n$\\Rightarrow$ Mệnh đề sai.\n\n          \n\n (d) Tiền mỗi đại lý Cấp 1 nhận\n\nMột F1 có 4 cấp dưới với mức $32, 16, 8, 4$ và số người tương ứng $5, 25, 125, 625.$\nTổng:\n           $5 \\cdot 32 + 25 \\cdot 16 + 125 \\cdot 8 + 625 \\cdot 4 = 4060 \\text{ USD}.$\n\n$\\Rightarrow$ Đúng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "4e54641c",
+                "created_at": "2025-10-23T15:45:18.340336+07:00",
+                "updated_at": "2025-11-10T14:58:36.656734+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "d0900b76-8fcb-4021-aba9-391bf3706030",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "64aff59d-512a-4936-be30-08b359234534",
+        "status": "in_progress",
+        "created_at": "2025-12-12T00:38:20.922115+07:00",
+        "updated_at": "2025-12-12T00:38:20.922111+07:00",
+        "submited_at": "2025-12-12T00:38:20.922115+07:00"
+    }
+}
