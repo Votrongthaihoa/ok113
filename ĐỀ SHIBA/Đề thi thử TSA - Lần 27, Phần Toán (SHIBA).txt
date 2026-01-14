@@ -1,0 +1,775 @@
+{
+    "_id": "695153a2535aa47f9b7ca42f",
+    "title": "[Sách Đề]-Tư Duy Toán Học-Đề 27",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 2": [
+            6
+        ],
+        "Câu 3": [
+            {
+                "1.": [
+                    12.32
+                ]
+            },
+            {
+                "2.": [
+                    7
+                ]
+            }
+        ],
+        "Câu 4": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "D>"
+            }
+        ],
+        "Câu 5": [
+            3
+        ],
+        "Câu 6": "A",
+        "Câu 7": [
+            2
+        ],
+        "Câu 8": [
+            14800
+        ],
+        "Câu 9": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 10": "A",
+        "Câu 11": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "D>"
+            }
+        ],
+        "Câu 12": "B",
+        "Câu 13": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 14": "B",
+        "Câu 15": [
+            55
+        ],
+        "Câu 16": "A",
+        "Câu 17": "B",
+        "Câu 18": [
+            70
+        ],
+        "Câu 19": "A",
+        "Câu 20": "B",
+        "Câu 21": [
+            190
+        ],
+        "Câu 22": "D",
+        "Câu 23": [
+            {
+                "1.": [
+                    1010
+                ]
+            },
+            {
+                "2.": [
+                    575
+                ]
+            },
+            {
+                "3.": [
+                    8.5
+                ]
+            }
+        ],
+        "Câu 24": "B",
+        "Câu 25": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 26": [
+            1580
+        ],
+        "Câu 27": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "E>"
+            },
+            {
+                "slot3": "F>"
+            }
+        ],
+        "Câu 28": [
+            1707
+        ],
+        "Câu 29": [
+            {
+                "1.": [
+                    0
+                ]
+            },
+            {
+                "2.": [
+                    0
+                ]
+            },
+            {
+                "3.": [
+                    1
+                ]
+            }
+        ],
+        "Câu 30": "D",
+        "Câu 31": "C",
+        "Câu 32": "A",
+        "Câu 33": [
+            67
+        ],
+        "Câu 34": "B",
+        "Câu 35": [
+            25
+        ],
+        "Câu 36": [
+            673
+        ],
+        "Câu 37": [
+            15439
+        ],
+        "Câu 38": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 39": [
+            1673
+        ],
+        "Câu 40": [
+            "c1",
+            "c2",
+            "c3"
+        ]
+    },
+    "startTime": "2025-11-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Cho hàm số $f(x)=(x-3) \\log (2-x)$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br />\n$f(x)=(x-3) \\log (2-x)$.<br />\na, TXĐ: $2-x&gt;0 \\Rightarrow x&lt;2 \\Rightarrow \\mathscr{D}=(-\\infty, 2)$. Mệnh đề &quot; $(2 ;+\\infty)$ &quot; Sai.<br />\nb, $f(x)=0 \\Leftrightarrow(x-3) \\log (2-x)=0 \\Rightarrow x=3$ ( $\\notin \\mathscr{D}$ ) hoặc $2-x=1 \\Rightarrow x=1$. Chỉ cắt trục $O x$ tại $(1,0)$ duy nhất. Sai.<br />\nc, $x=0 \\in \\mathscr{D}$ v&agrave; $f(0)=-3 \\log 2 \\neq 0 \\Rightarrow$ đồ thị c&oacute; cắt trục tung. Sai.",
+            "contentYA": "Tập xác định $\\mathbb{D}$ của hàm số $y=f(x)$ là $\\mathbb{D}=(2 ;+\\infty)$.",
+            "contentYB": "Đồ thị hàm số $y=f(x)$ cắt trục hoành tại hai điểm phân biệt.",
+            "contentYC": "Đồ thị hàm số $y=f(x)$ không cắt trục tung."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho hàm số<br/>$f(x)= \\begin{cases}x^{2}+a, & \\forall x \\geq 0 \\\\ 2 \\sqrt{x^{2}+1}+b, & \\forall x<0\\end{cases}$<br/>liên tục tại điểm $x_{0}=0$ và thoả mãn $f\\left(\\frac{1}{2}\\right)=2$. Bốn lần tổng của $a$ và $b$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 2-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>$f(x)=\\left\\{\\begin{array}{ll}<br/>x^{2}+a, & x \\geq 0, \\\\<br/>2 \\sqrt{x^{2}+1}+b, & x<0,<br/>\\end{array} \\text { liên tục tại } 0, \\quad f\\left(\\frac{1}{2}\\right)=2.\\right.$<br/>Liên tục tại 0: $a=2+b$. Lại $f(1 / 2)=\\frac{1}{4}+a=2 \\Rightarrow a=\\frac{7}{4} \\Rightarrow b=a-2=-\\frac{1}{4}$.<br/>$4(a+b)=4\\left(\\frac{7}{4}-\\frac{1}{4}\\right)=6$"
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Điền số thích hợp vào chỗ trống. Kết quả được làm tròn đến hàng phần trăm.<br/>Cho hàm số $f(x)=-2 \\sin (x)-6 \\cos (x)+6$ xác định và liên tục trên $\\mathbb{R}$.<br/>- Giá trị lớn nhất của hàm số $y=f(x)$ bằng <span class=\"fill-blank\" data-blank-id=\"Câu 3-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/>Trong khoảng $x \\in(0 ; 20)$, số nghiệm của phương trình $f(x)=0$ là <span class=\"fill-blank\" data-blank-id=\"Câu 3-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        12.32
+                    ]
+                },
+                {
+                    "2.": [
+                        7
+                    ]
+                }
+            ],
+            "explanation": "<br />\n$f(x)=-2 \\sin x-6 \\cos x+6$.<br />\na, $-2 \\sin x-6 \\cos x$ c&oacute; bi&ecirc;n độ $R=\\sqrt{(-2)^{2}+(-6)^{2}}=2 \\sqrt{10}$. Do đ&oacute; max $f=6+R=6+2 \\sqrt{10} \\approx 12.32$ (l&agrave;m tr&ograve;n đến h&agrave;ng phần trăm).",
+            "contentYB": "Giải $f(x)=0 \\Leftrightarrow \\sin x+3 \\cos x=3$. Đặt $\\sqrt{10} \\sin (x+\\varphi)=\\sin x+3 \\cos x$ với $\\sin \\varphi=\\frac{3}{\\sqrt{10}}, \\cos \\varphi=\\frac{1}{\\sqrt{10}} (\\varphi=\\arctan 3)$. Ta được $\\sin (x+\\varphi)=\\frac{3}{\\sqrt{10}}$.<br/>$\\Rightarrow\\left\\{\\begin{array}{l}<br/>x=2 k \\pi, \\\\<br/>x=\\pi-2 \\varphi+2 k \\pi<br/>\\end{array} \\quad(k \\in \\mathbb{Z}).\\right.$<br/>Trên $(0,20)$: từ dãy thứ nhất có $x=2 \\pi, 4 \\pi, 6 \\pi$ ( 3 nghiệm); từ dãy thứ hai có $x=\\pi-2 \\varphi, \\pi-2 \\varphi+ 2 \\pi, \\pi-2 \\varphi+4 \\pi, \\pi-2 \\varphi+6 \\pi$ ( 4 nghiệm). Tổng 7 nghiệm."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Kéo và thả các phương án thích hợp vào chỗ trống.<br/>Trong hệ trục tọa độ $O x y$, cho hyperbol $(H): \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ có hai tiêu điểm $F_{1}, F_{2}$ và đồ thị như hình vẽ bên. Điểm $M$ thuộc nhánh phải của hyperbol $(H)$ sao cho $\\left|M F_{1}-M F_{2}\\right|=6$ và $\\left|3 M F_{1}-2 M F_{2}\\right|=20$.<br/><img alt=\"A diagram of a mathematical equation\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/J7BXW0S5.png-webp\" data-temp-key=\"temp-image-1768148260741-0z7p97347\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>- $M F_{1}+3 M F_{2}$ bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 4-1\">____DRAG_DROP_1____</span>.<br/>- $M F_{1}+11 M F_{2}$ bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 4-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "D>"
+                }
+            ],
+            "explanation": "<br />\n$(\\mathrm{H})$ l&agrave; hyperbol c&oacute; hai ti&ecirc;u điểm $F_{1}, F_{2} ; M$ thuộc nh&aacute;nh phải v&agrave; $\\left|M F_{1}-M F_{2}\\right|=6,\\left|3 M F_{1}-2 M F_{2}\\right|=20$.<br />\nVới nh&aacute;nh phải: $M F_{1}&gt;M F_{2} \\Rightarrow M F_{1}-M F_{2}=6$. Đặt $d_{1}=M F_{1}, d_{2}=M F_{2}$. Khi đ&oacute;<br />\n$3 d_{1}-2 d_{2}=20, \\quad d_{1}-d_{2}=6 \\Rightarrow d_{2}=2, d_{1}=8.$<br />\na, $M F_{1}+3 M F_{2}=8+3 \\cdot 2=14$.<br />\nb, $M F_{1}+11 M F_{2}=8+11 \\cdot 2=30$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "14"
+                },
+                {
+                    "id": "B>",
+                    "content": "12"
+                },
+                {
+                    "id": "C>",
+                    "content": "18"
+                },
+                {
+                    "id": "D>",
+                    "content": "30"
+                },
+                {
+                    "id": "E>",
+                    "content": "22"
+                }
+            ]
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Biết rằng ngày 16, tháng 2, năm 2023 là thứ 5, vậy ngày mùng 5, tháng 5, năm 2026 là thứ mấy?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>Từ 16/02/2023 (thứ 5) đến 05/05/2026 có<br/>$318 \\text { (ngày của năm } 2023 \\text { còn lại) }+366+365+125=1174 \\text { ngày. }$<br/>Vì $1174 \\equiv 5(\\bmod 7)$, nên thứ thay đổi +5 ngày: Thứ $5 \\rightarrow$ Thứ 3."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Giới hạn $\\lim _{a \\rightarrow 3}\\left(\\frac{2 x+4 a-3}{3}\\right)$ bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Giới hạn theo $a$:<br/>$\\lim _{a \\rightarrow 3} \\frac{2 x+4 a-3}{3}=\\frac{2 x+4 \\cdot 3-3}{3}=\\frac{2 x+9}{3}=\\frac{2 x}{3}+3.$",
+            "contentAnswerA": "$\\frac{2 x}{3}+3$.",
+            "contentAnswerB": "$\\frac{4 a}{3}+1$.",
+            "contentAnswerC": "$\\frac{3 x-2}{3}$.",
+            "contentAnswerD": "$\\frac{4 a+3}{3}$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Nếu $\\int_{1}^{4} 5 f(x) d x=10$ thì $\\int_{1}^{4} f(x) d x$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 7-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<br/>Do $\\int_{1}^{4} 5 f(x) d x=5 \\int_{1}^{4} f(x) d x=10$, suy ra $\\int_{1}^{4} f(x) d x=2$"
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Hai xe cùng xuất phát ở một vị trí và đi theo hai hướng tạo với nhau một góc $120^{\\circ}$. Biết rằng xe thứ nhất chạy với vận tốc $30(\\mathrm{~km} / \\mathrm{h})$, xe thứ hai đi với vận tốc $40(\\mathrm{~km} / \\mathrm{h})$ và sau 2 giờ thì khoảng cách giưa hai xe bằng $S$. Giá trị của $S^{2}$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                14800
+            ],
+            "explanation": "<br/>Sau 2 giờ: $d_{1}=30 \\cdot 2=60 \\mathrm{~km}, d_{2}=40 \\cdot 2=80 \\mathrm{~km}$, góc giữa hai hướng là $120^{\\circ}$. Theo định luật cos:<br/>$S^{2}=d_{1}^{2}+d_{2}^{2}-2 d_{1} d_{2} \\cos 120^{\\circ}=60^{2}+80^{2}-2 \\cdot 60 \\cdot 80 \\cdot\\left(-\\frac{1}{2}\\right)=3600+6400+4800=14800.$"
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Trong toán học, ký hiệu $y=\\min \\{f(x) ; g(x)\\}$ và $y=\\max \\{f(x) ; g(x)\\}$ nhằm chỉ giá trị nhỏ<br/>hơn/lớn hơn của hai hàm số $f(x), g(x)$ trên một khoảng/tập xác định và được định nghĩa như sau:<br/>$y=\\min \\{f(x) ; g(x)\\} \\Leftrightarrow y= \\begin{cases}f(x) & \\text { khi } f(x)<g(x) \\\\ g(x) & \\text { khi } g(x) \\leq f(x)\\end{cases}$<br/>$y=\\max \\{f(x) ; g(x)\\} \\Leftrightarrow y= \\begin{cases}f(x) & \\text { khi } f(x)>g(x) \\\\ g(x) & \\text { khi } g(x) \\geq f(x)\\end{cases}$<br/>Chẳng hạn: xét hàm số $y=\\max \\left\\{x^{2} ; 4\\right\\}$, do<br/>$\\begin{cases}x^{2}<4 & \\text { khi } x \\in(-2 ; 2) \\\\ x^{2}=4 & \\text { khi } x=\\{-2 ; 2\\} \\\\ x^{2}>4 & \\text { khi } x \\in \\mathbb{R} \\backslash(-2 ; 2)\\end{cases}$<br/>nên hàm số đã cho sẽ chia khoảng thành<br/>$y= \\begin{cases}4 & \\text { khi } x \\in(-2 ; 2) \\\\ x^{2} & \\text { khi } x \\in \\mathbb{R} \\backslash(-2 ; 2) \\\\ x^{2}=4 & \\text { khi } x=\\{-2 ; 2\\}\\end{cases}$<br/>Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Với $f(x)=\\max \\left\\{e^{x}, 1\\right\\}$: khi $x<0$ thì $e^{x}<1 \\Rightarrow f(x)=1 \\neq e^{x}$. Do đó mệnh đề \" $f(x)=\\max \\left\\{e^{x}, 1\\right\\}$ tương đương với $f(x)=e^{x} \\forall x \\in \\mathbb{R}$ \" là Sai.<br/>b, Trên $\\left(0, \\frac{\\pi}{2}\\right)$ ta có<br/>$\\cos x>\\sin x \\quad \\text { nếu } x \\in\\left(0, \\frac{\\pi}{4}\\right), \\quad \\sin x>\\cos x \\quad \\text { nếu } x \\in\\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$<br/>và $\\sin x=\\cos x$ khi $x=\\frac{\\pi}{4}$. Vì vậy<br/>$\\max \\{\\sin x, \\cos x\\}= \\begin{cases}\\cos x, & x \\in\\left(0, \\frac{\\pi}{4}\\right) \\\\ \\sin x, & x \\in\\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right) \\\\ \\sin x=\\cos x, & x=\\frac{\\pi}{4}\\end{cases}$<br/>nên mệnh đề đã cho (đảo ngược hai khoảng) là Sai.<br/>c, Khi đó<br/>$\\int_{0}^{\\pi / 2} \\max \\{\\sin x, \\cos x\\} d x=\\int_{0}^{\\pi / 4} \\cos x d x+\\int_{\\pi / 4}^{\\pi / 2} \\sin x d x=[\\sin x]_{0}^{\\pi / 4}+[-\\cos x]_{\\pi / 4}^{\\pi / 2}=\\frac{\\sqrt{2}}{2}+\\frac{\\sqrt{2}}{2}=\\sqrt{2}$",
+            "contentYA": "Hàm số $f(x)=\\max \\left\\{e^{x} ; 1\\right\\}$ tương đương với $f(x)=e^{x} \\quad \\forall x \\in \\mathbb{R}$.",
+            "contentYB": "Hàm số $g(x)=\\max \\{\\sin x ; \\cos x\\}$ tương đương với:<br/>$g(x)= \\begin{cases}\\sin x & \\forall x \\in\\left(0 ; \\frac{\\pi}{4}\\right), \\\\ \\cos x & \\forall x \\in\\left(\\frac{\\pi}{4} ; \\frac{\\pi}{2}\\right), \\\\ \\sin x=\\cos x & \\text { khi } x=\\frac{\\pi}{4}.\\end{cases}$",
+            "contentYC": "Giá trị của $\\int_{0}^{\\frac{\\pi}{2}} \\max \\{\\sin x ; \\cos x\\} d x=\\sqrt{2}$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Trong một tiết học về số học, bạn Linh viết một dãy số thuộc cấp số cộng lên trên vở và nói với bạn Bình rằng: \"Cấp số cộng của tớ đặc biệt lắm đấy, nếu cậu lấy số hạng đầu cộng với số hạng thứ hai thì sẽ thu được số hạng thứ ba, còn nếu cậu cộng bình phương số hạng đầu với bình phương công sai thì sẽ thu được số hạng thứ tư\". Bình nghe thấy vậy, liền tự ngẫm một lúc rồi đáp rằng: \"À! Thế tớ biết số hạng thứ năm của cấp số cộng của cậu là gì rồi\". Vậy, số hạng thứ năm của cấp số cộng trên bằng bao nhiêu? Biết rằng, ở cấp số cộng này thì các phần tử khác nhau.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Gọi cấp số cộng có số hạng đầu $a_{1}=a$ và công sai $d$. Điều kiện $a_{1}+a_{2}=a_{3} \\Rightarrow a+(a+d)=a+2 d \\Rightarrow a=d$.<br/>Điều kiện $a_{1}^{2}+d^{2}=a_{4} \\Rightarrow a^{2}+d^{2}=a+3 d$. Thế $d=a: 2 a^{2}=4 a \\Rightarrow a=2$ (loại nghiệm $a=0$ ).<br/>Khi đó $a_{5}=a+4 d=2+8=10$.",
+            "contentAnswerA": "10.",
+            "contentAnswerB": "11.",
+            "contentAnswerC": "12.",
+            "contentAnswerD": "13."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Kéo và thả các phương án thích hợp vào chỗ trống.<br/>Cho hàm số có đạo hàm $f^{\\prime}(x)=(x-2)\\left(4-x^{2}\\right)\\left(x^{2}-1\\right) \\quad \\forall x \\in \\mathbb{R}$.<br/>- Hàm số $f(x)$ có <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-1\">____DRAG_DROP_1____</span> điểm cực trị.<br/>- Hàm số $f(x)$ có <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-2\">____DRAG_DROP_2____</span> điểm cực tiểu.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "D>"
+                }
+            ],
+            "explanation": "<br/>$f^{\\prime}(x)=(x-2)\\left(4-x^{2}\\right)\\left(x^{2}-1\\right)=-(x-2)^{2}(x+2)(x-1)(x+1).$<br/>Điểm tới hạn: $x=-2,-1,1,2$; trong đó $x=2$ là nghiệm bội chẵn nên dấu của $f^{\\prime}$ không đổi. Xét dấu $f^{\\prime}$: tăng trên $(-\\infty,-2)$, giảm trên $(-2,-1)$, tăng trên $(-1,1)$, giảm trên $(1,+\\infty)$. Vậy cực đại tại -2, cực tiểu tại -1, cực đại tại $1 ; x=2$ không phải cực trị.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "4"
+                },
+                {
+                    "id": "B>",
+                    "content": "3"
+                },
+                {
+                    "id": "C>",
+                    "content": "2"
+                },
+                {
+                    "id": "D>",
+                    "content": "1"
+                },
+                {
+                    "id": "E>",
+                    "content": "5"
+                }
+            ]
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Trong không gian $O x y z$, cho hai điểm $M(1 ;-2 ; 0)$ và $N(-1 ; 0 ;-2)$. Mặt phẳng $(P)$ đi qua $M, N$ và song song với đường thẳng $d: \\frac{x-1}{1}=\\frac{3+y}{2}=\\frac{z}{2}$<br/>có phương trình là?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đường thẳng $d: x-1=\\frac{3+y}{2}=\\frac{z}{2}=t \\Rightarrow(1,2,2)$ là véc tơ chỉ phương.<br/>$\\overrightarrow{M N}=(-1-1,0-(-2),-2-0)=(-2,2,-2).$<br/>Pháp tuyến mặt phẳng $(P)$:<br/>$\\vec{n}=\\overrightarrow{M N} \\times(1,2,2)=(8,2,-6) \\sim(4,1,-3).$<br/>Phương trình ( $P$ ) qua $M(1,-2,0)$:<br/>$4(x-1)+1(y+2)-3(z-0)=0 \\Rightarrow 4 x+y-3 z=2.$",
+            "contentAnswerA": "$(P): 4 x-y-3 z=2$.",
+            "contentAnswerB": "$(P): 4 x+y-3 z=2$.",
+            "contentAnswerC": "$(P): 4 x-y-3 z=6$.",
+            "contentAnswerD": "$(P): 4 x+y-3 z=-2$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho hai hàm số $y=f(x)$ và $y=g(x)$ xác định, liên tục và có đạo hàm trên hai khoảng $(a ; b)$ và $(c ; d)$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai. Biết $f$ đồng biến trên $(a ; b)$ và trên $(c ; d)$ (với $b<c$ ) không suy ra đồng biến trên $(a ; b) \\cup(c ; d)$.<br/>Phản ví dụ: đặt $a=0, b=1, c=2, d=3$ và<br/>$f(x)= \\begin{cases}x, & x \\in(0,1), \\\\ x-100, & x \\in(2,3).\\end{cases}$<br/>Chọn $x_{1}=0.9<x_{2}=2.1$ thì $f\\left(x_{1}\\right)=0.9>0.1=f\\left(x_{2}\\right)$, nên không đồng biến trên hợp hai khoảng.<br/>b, $y = \\frac{1}{f(x)} \\rightarrow y' = \\frac{-f'(x)}{f^2(x)}$<br/>Với $f(x) = 0$ có nghiệm $\\in (a; b)$ thì $y'$ không xác định $\\rightarrow$ Sai<br/>c, Đúng. Nếu $f$ đồng biến và $g$ nghịch biến trên $(a ; b)$ thì $f^{\\prime}(x) \\geq 0, g^{\\prime}(x) \\leq 0 \\Rightarrow(f-g)^{\\prime}=f^{\\prime}-g^{\\prime} \\geq 0$, suy ra $f-g$ đồng biến.",
+            "contentYA": "Nếu hàm số $y=f(x)$ đồng biến trên các khoảng $(a ; b)$ và $(c ; d)$ thì hàm số $y=f(x)$ đồng biến trên khoảng $(a ; b) \\cup(c ; d)$.",
+            "contentYB": "Nếu hàm số $y=f(x)$ đồng biến trên khoảng ( $a ; b$ ) thì hàm số $y=\\frac{1}{f(x)}$ nghịch biến trên khoảng $(a ; b)$.",
+            "contentYC": "Nếu hàm số $y=f(x)$ đồng biến trên khoảng $(a ; b)$ và hàm số $y=g(x)$ nghịch biến trên khoảng $(a ; b)$ thì hàm số $y=f(x)-g(x)$ đồng biến trên khoảng $(a ; b)$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Họ nguyên hàm của hàm số $f(x)=\\frac{1}{\\sin ^{2} x}$ là?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>$\\int \\frac{1}{\\sin ^{2} x} d x = -\\cot x+C =\\cot (-x)+C.$",
+            "contentAnswerA": "$y=\\cot (x)+C$.",
+            "contentAnswerB": "$y=\\cot (-x)+C$.",
+            "contentAnswerC": "$y=\\tan (x)+C$.",
+            "contentAnswerD": "$y=\\tan ^{2}(x)+C$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Cho một ô vuông đơn vị có kích thước $5 \\times 5$ như hình vẽ sau:<br/><img alt=\"A grid of squares with purple lines\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/ZsTRUUHx.png-webp\" data-temp-key=\"temp-image-1768148260743-9eqbthdhr\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Có tổng cộng bao nhiêu hình vuông trong hình?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 15-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                55
+            ],
+            "explanation": "<br/>Số hình vuông trong lưới $5 \\times 5$: $\\sum_{k=1}^{5} k^{2}=\\frac{5 \\cdot 6 \\cdot 11}{6}=55.$"
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Cho hình lập phương $A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$ có độ dài cạnh $A C=a \\sqrt{2}$. Thể tích khối chóp $A. A^{\\prime} B^{\\prime} C^{\\prime}$ bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Với lập phương, $A C=\\sqrt{2} a_{\\text {cạnh }}$. Cho $A C=a \\sqrt{2} \\Rightarrow$ cạnh khối lập phương bằng $a$. Khối chóp $A \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ có đáy tam giác đều vuông tại $B^{\\prime}$ trên mặt phẳng $z=a$:<br/>$S_{\\text {đáy }}=\\frac{1}{2} a^{2}, \\quad h=A A^{\\prime}=a.$<br/>$V=\\frac{1}{3} S_{\\text {đáy }} h=\\frac{1}{3} \\cdot \\frac{1}{2} a^{2} \\cdot a=\\frac{a^{3}}{6}.$",
+            "contentAnswerA": "$\\frac{a^{3}}{6}$.",
+            "contentAnswerB": "$\\frac{a^{3}}{4}$.",
+            "contentAnswerC": "$\\frac{a^{3}}{3}$.",
+            "contentAnswerD": "$\\frac{a^{3}}{2}$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Một quả bóng được đặt vừa vặn vào trong chiếc hộp hình lập phương có cạnh bằng 20 như hình vẽ bên. Bán kính quả bóng đó bằng?<br/><img alt=\"A purple line drawing of a sphere\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/dOhJjox.png-webp\" data-temp-key=\"temp-image-1768148260744-9xwl9tvbh\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Quả bóng (hình cầu) vừa khít trong hình lập phương cạnh 20 nên đường kính bằng độ dài cạnh của lập phương. Vậy bán kính<br/>$R=\\frac{20}{2}=10.$",
+            "contentAnswerA": "$10 \\sqrt{3}$.",
+            "contentAnswerB": "10.",
+            "contentAnswerC": "$10 \\sqrt{2}$.",
+            "contentAnswerD": "20."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Một người vay ngân hàng 500 triệu đồng để mua xe ô tô với lãi suất mỗi tháng là $1 \\%$. Mỗi tháng người đó trả ngân hàng 10 triệu đồng và thời điểm bắt đầu trả cách thời điểm vay là đúng một tháng. Biết rằng lãi suất không thay đổi, hỏi sau ít nhất bao nhiêu tháng thì người đó trả hết nợ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 18-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                70
+            ],
+            "explanation": "<br/>Lãi suất tháng $r = 1\\% = 0,01$; mỗi tháng trả $A = 10$ (triệu)<br/>Số tiền nợ còn lại sau 1 tháng là: $P(1) = 500(1+r) - A$<br/>Số tiền nợ còn lại sau 2 tháng là: $P(2) = 500(1+r)^2 - A(1+r) - A$<br/>Số tiền nợ còn lại sau 3 tháng là: $P(3) = 500(1+r)^3 - A(1+r)^2 - A(1+r) - A$<br/>Số tiền nợ còn lại sau $n$ tháng là: $P(n) = 500(1+r)^n - A(1+r)^{n-1} - A(1+r)^{n-2} - \\dots - A$<br/>$= 500(1+r)^n - A \\left[ (1+r)^{n-1} + (1+r)^{n-2} + \\dots + 1 \\right]$<br/>$= 500(1+r)^n - A \\cdot \\frac{(1+r)^n - 1}{r}$<br/>Người đó trả hết nợ khi và chỉ khi: $P(n) \\le 0$<br/>$\\Leftrightarrow 500(1+r)^n - A \\cdot \\frac{(1+r)^n - 1}{r} \\le 0$<br/>$\\Leftrightarrow 500r(1+r)^n \\le A(1+r)^n - A$<br/>$\\Leftrightarrow (1+r)^n (A - 500r) \\ge A$<br/>$\\Leftrightarrow n \\ge \\log_{1+r} \\left( \\frac{A}{A-500r} \\right) = \\log_{1,01} 2 \\approx 69,7$<br/>Lại có: $\\begin{cases} n \\in \\mathbb{N}^* \\\\ n_{\\min} \\end{cases} \\Rightarrow n = 70$<br/>Vậy sau 70 tháng thì người đó trả hết nợ."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Đạo hàm $f^{\\prime}(x)$ của hàm số $f(x)=\\frac{\\ln (\\tan x)}{2 e^{3}}$ trên tập xác định có dạng $f^{\\prime}(x)=\\frac{c}{b e^{a} \\cos ^{b}(x) \\tan (x)}$.<br/>Giá trị của $a-b-c$ bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>$f(x)=\\frac{\\ln (\\tan x)}{2 e^{3}} \\Rightarrow \\quad f^{\\prime}(x)=\\frac{1}{2 e^{3}} \\cdot \\frac{(\\tan x)'}{\\tan x}=\\frac{1}{2 e^{3} \\cos ^{2} x \\tan x}$<br/>So sánh với dạng $\\frac{c}{b e^{a} \\cos ^{b} x \\tan x}$ suy ra $a=3, b=2, c=1 \\Rightarrow a-b-c=3-2-1=0$.",
+            "contentAnswerA": "0.",
+            "contentAnswerB": "1.",
+            "contentAnswerC": "2.",
+            "contentAnswerD": "3."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hai số thực $a, b$ thoả mãn $2+\\log _{2}(a)=3+\\log _{3}(b)=\\log _{6}(a+b)$. Giá trị của biểu thức $\\frac{1}{a}+\\frac{1}{b}$ bằng?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đặt<br/>$t=2+\\log _{2} a=3+\\log _{3} b=\\log _{6}(a+b)$<br/>Suy ra $a=2^{t-2}, b=3^{t-3}, a+b=6^{t}$. Từ $2^{t-2}+3^{t-3}=6^{t}$ chia cho $2^{t-2} 3^{t-3}$ được<br/>$2^{2-t}+3^{3-t}=2^{2} \\cdot 3^{3}=108.$<br/>Mà $\\frac{1}{a}=2^{2-t}, \\frac{1}{b}=3^{3-t}$, nên<br/>$\\frac{1}{a}+\\frac{1}{b}=108.$",
+            "contentAnswerA": "18.",
+            "contentAnswerB": "108.",
+            "contentAnswerC": "12.",
+            "contentAnswerD": "2."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Cho 9 điểm được bố trí như hình vẽ (ma trận $3 \\times 3$ các điểm thẳng hàng theo hàng và cột).<br/><img alt=\"A purple dots on a white background\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/r8hSpo.png-webp\" data-temp-key=\"temp-image-1768148260746-g1j5b01er\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Chọn ngẫu nhiên 3 điểm, xác suất để 3 điểm được chọn lập thành một tam giác là $p$. Giá trị của $210 p$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 21-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                190
+            ],
+            "explanation": "<br/>Trên lưới $3 \\times 3$ có $\\binom{9}{3}=84$ cách chọn 3 điểm. Bộ ba thẳng hàng chỉ rơi vào 8 đường ( 3 hàng, 3 cột và 2 đường chéo chính), nên có 8 bộ ba không tạo tam giác.<br/>$p=1-\\frac{8}{84}=\\frac{19}{21} \\quad \\Rightarrow \\quad 210 p=210 \\cdot \\frac{19}{21}=190.$"
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Tập xác định của hàm số $y=\\sqrt{\\frac{\\sin (2 x)+2}{1-\\cos (x)}}$ là?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>$y=\\sqrt{\\frac{\\sin (2 x)+2}{1-\\cos x}}$<br/>Điều kiện: $1-\\cos x \\neq 0 \\Rightarrow x \\neq 2 k \\pi$. Vì $\\sin (2 x)+2 \\geq 1>0$ và $1-\\cos x \\geq 0$ (khác 0 khi $x \\neq 2 k \\pi$ ), nên miền xác định là<br/>$\\mathbb{R} \\backslash\\{2 k \\pi\\}, k \\in \\mathbb{Z}.$",
+            "contentAnswerA": "$\\mathbb{D}=k 2 \\pi, k \\in \\mathbb{Z}$.",
+            "contentAnswerB": "$\\mathbb{D}=\\mathbb{R}$.",
+            "contentAnswerC": "$\\mathbb{D}=\\mathbb{R} \\backslash\\{k \\pi\\}, k \\in \\mathbb{Z}$.",
+            "contentAnswerD": "$\\mathbb{D}=\\mathbb{R} \\backslash\\{k 2 \\pi\\}, k \\in \\mathbb{Z}$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Điền số nguyên thích hợp vào chỗ trống.<br/>Trong không gian với một hệ trục toạ độ cho trước (đơn vị đo lấy theo kilômét), ra đa phát hiện một chiếc máy bay di chuyển với vận tốc và hướng không đổi từ điểm $A(800 ; 500 ; 7)$ đến điểm $B(940 ; 550 ; 8)$<br/>trong 10 phút. Nếu máy bay tiếp tục giữ nguyên vận tốc và hướng bay thì toạ độ của máy bay sau 5 phút tiếp theo là <span class=\"fill-blank\" data-blank-id=\"Câu 23-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> ; <span class=\"fill-blank\" data-blank-id=\"Câu 23-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> ; <span class=\"fill-blank\" data-blank-id=\"Câu 23-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        1010
+                    ]
+                },
+                {
+                    "2.": [
+                        575
+                    ]
+                },
+                {
+                    "3.": [
+                        8.5
+                    ]
+                }
+            ],
+            "explanation": "<br/>$\\vec{v}=\\frac{B-A}{10}=\\frac{(140,50,1)}{10}=(14,5,0.1)(\\mathrm{km} / \\mathrm{phút}).$<br/>Sau 5 phút kể từ thời điểm ở $B$:<br/>$B+5 \\vec{v}=(940,550,8)+(70,25,0.5)=(1010 ; 575 ; 8,5).$"
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Cho lăng trụ đứng $A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ có đáy là tam giác vuông tại $A$ với $A B=A C=3$, cạnh bên $A A^{\\prime}=6$. Gọi $M, N$ lần lượt là trung điểm của $B B^{\\prime}$ và $C C^{\\prime}$. Khoảng cách từ điểm $A$ đến mặt phẳng ( $A^{\\prime} M N$ ) bằng?<br/><img alt=\"A drawing of a hexagon with a point and a line\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/5UcPPSF4.png-webp\" data-temp-key=\"temp-image-1768148260747-lojaezgtj\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><img alt=\"A diagram of a geometric figure\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/fAPVky.png-webp\" data-temp-key=\"temp-image-1768148260748-tpozv8l1x\" class=\"mx-auto\" style=\"\"><br/>Đặt $A(0,0,0), B(3,0,0), C(0,3,0), A^{\\prime}(0,0,6)$. Khi đó $M(3,0,3), N(0,3,3)$. Mặt phẳng $\\left(A^{\\prime} M N\\right)$ có véc-tơ pháp tuyến<br/>$\\vec{n}=\\left(M-A^{\\prime}\\right) \\times\\left(N-A^{\\prime}\\right)=(3,0,-3) \\times(0,3,-3)=(1,1,1),$<br/>suy ra phương trình $x+y+z=6$. Khoảng cách từ $A$ đến mặt phẳng:<br/>$d=\\frac{|0+0+0-6|}{\\sqrt{1^{2}+1^{2}+1^{2}}}=\\frac{6}{\\sqrt{3}}=2 \\sqrt{3}.$",
+            "contentAnswerA": "$3 \\sqrt{2}$.",
+            "contentAnswerB": "$2 \\sqrt{3}$.",
+            "contentAnswerC": "$2 \\sqrt{2}$.",
+            "contentAnswerD": "$3 \\sqrt{3}$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Hàm ngược (hàm nghịch đảo), ký hiệu là $f^{-1}(x)$, là một loại hàm số mà hoàn tác lại hàm ban đầu, hay nếu $y=f(x)$ thì $x=f^{-1}(y)$. Chẳng hạn: $\\tan \\left(\\frac{\\pi}{4}\\right)=1 \\Rightarrow \\tan ^{-1}(1)=\\frac{\\pi}{4}$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<br/>(Hàm ngược $\\sin ^{-1} x$ )<br/>a, $\\sin ^{-1}(1)=\\frac{\\pi}{2}$ vì giá trị chính của arcsin nằm trong $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$. Đúng.<br/>b, Tập xác định của $y=\\sin ^{-1}(x)$ là [-1,1]. Đúng.",
+            "contentYA": "$\\sin ^{-1}(1)=\\frac{\\pi}{2}$.",
+            "contentYB": "Tập xác định của hàm số $y=\\sin ^{-1}(x)$ là $[-1 ; 1]$."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho hàm số $f(x)=\\sin (a x)+(b+1)\\left(e^{x}+1\\right)^{2018}-2018 \\cdot 2^{2017} x$, với $a, b \\in \\mathbb{R}$. Biết rằng $a+2018 \\cdot 2^{2017} b=1580$, giá trị của $\\lim _{x \\rightarrow 0} \\frac{f(x)-(b+1) 2^{2018}}{x}$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 26-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1580
+            ],
+            "explanation": "<br/>$f(x)=\\sin (a x)+(b+1)\\left(e^{x}+1\\right)^{2018}-2018 \\cdot 2^{2017} x, \\quad a+2018 \\cdot 2^{2017} b=1580.$<br/>Ta có $f(0)=(b+1) 2^{2018}$, do đó<br/>$\\lim _{x \\rightarrow 0} \\frac{f(x)-(b+1) 2^{2018}}{x}=f^{\\prime}(0)$<br/>Tính đạo hàm:<br/>$f^{\\prime}(x)=a \\cos (a x)+(b+1) \\cdot 2018\\left(e^{x}+1\\right)^{2017} e^{x}-2018 \\cdot 2^{2017}.$<br/>Suy ra<br/>$f^{\\prime}(0)=a+2018 \\cdot 2^{2017}(b+1)-2018 \\cdot 2^{2017}=a+2018 \\cdot 2^{2017} b.$<br/>Theo giả thiết, $a+2018 \\cdot 2^{2017} b=1580$. Vậy<br/>$\\lim _{x \\rightarrow 0} \\frac{f(x)-(b+1) 2^{2018}}{x}=1580$"
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Kéo và thả các phương án thích hợp vào chỗ trống.<br/>Cho hình nón $(C)$ có đường kính đáy bằng 4, chiều cao bằng 6, ngoại tiếp một khối trụ $(N)$ sao cho đáy của $(N)$ trùng với đáy của $(C)$. Gọi $r$ và $h$ lần lượt là bán kính đáy và chiều cao của $(N)$.<br/><img alt=\"A diagram of a cylinder and a triangle\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/Nf132U.png-webp\" data-temp-key=\"temp-image-1768148260750-n4ang2dr1\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>- $r$ và $h$ liên hệ với nhau qua biểu thức <span class=\"drag-drop-blank\" data-drop-id=\"Câu 27-1\">____DRAG_DROP_1____</span>.<br/>- Thể tích lớn nhất có thể của ( $N$ ) bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 27-2\">____DRAG_DROP_2____</span> xảy ra khi $r=$ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 27-3\">____DRAG_DROP_3____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "E>"
+                },
+                {
+                    "slot3": "F>"
+                }
+            ],
+            "explanation": "<br/>Hình nón $(C)$: bán kính đáy $R=2$, chiều cao $H=6$. Khối trụ $(N)$ có bán kính $r$ và chiều cao $h$ đặt trùng đáy với $(C)$. Trên đường sinh, bán kính của nón giảm tuyến tính theo độ cao nên<br/>$r=R\\left(1-\\frac{h}{H}\\right)=2-\\frac{h}{3} \\Longleftrightarrow h=6-3 r.$<br/>Thể tích của $(N)$:<br/>$V(r)=\\pi r^{2} h=\\pi r^{2}(6-3 r)=\\pi\\left(6 r^{2}-3 r^{3}\\right).$<br/>$V^{\\prime}(r)=\\pi\\left(12 r-9 r^{2}\\right)=3 \\pi r(4-3 r)=0 \\Rightarrow r=\\frac{4}{3}(0<r<2).$<br/>$V_{\\max }=V\\left(\\frac{4}{3}\\right)=\\pi\\left(6 \\cdot \\frac{16}{9}-3 \\cdot \\frac{64}{27}\\right)=\\frac{32 \\pi}{9}, \\quad \\text { xảy ra khi } r=\\frac{4}{3}.$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$2 h=12-3 r$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$h=6-3 r$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$\\frac{128 \\pi}{9}$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$\\frac{8}{3}$"
+                },
+                {
+                    "id": "E>",
+                    "content": "$\\frac{32 \\pi}{9}$"
+                },
+                {
+                    "id": "F>",
+                    "content": "$\\frac{4}{3}$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Số tự nhiên bé nhất chia 11 dư 2, chia 12 dư 3 và chia 13 dư 4 là?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 28-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1707
+            ],
+            "explanation": "<br/>Tìm $n$ nhỏ nhất: $n \\equiv 2 \\quad(\\bmod 11), \\quad n \\equiv 3 \\quad(\\bmod 12), \\quad n \\equiv 4 \\quad(\\bmod 13).$<br/>Tức là: $n + 9 \\equiv 0 \\pmod{11; 12; 13}$<br/>$\\Rightarrow n + 9$ chia hết cho $BCNN(11; 12; 13) = 2^2.3.11.13 = 1716$<br/>Suy ra $n = 1716 - 9 = 1707$"
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Chọn và điền các phương án thích hợp vào chỗ trống.<br/>Các phương án: $-560$/$280$/$128$/$0$/$1$<br/>Xét khai triển $\\left(2 x-\\frac{1}{x^{2}}\\right)^{7}$.<br/>- Hệ số của $x^{-3}$ là <span class=\"fill-blank\" data-blank-id=\"Câu 29-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/>- Hệ số của số hạng không chứa $x$ là <span class=\"fill-blank\" data-blank-id=\"Câu 29-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.<br/>- Tổng các hệ số là <span class=\"fill-blank\" data-blank-id=\"Câu 29-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        0
+                    ]
+                },
+                {
+                    "2.": [
+                        0
+                    ]
+                },
+                {
+                    "3.": [
+                        1
+                    ]
+                }
+            ],
+            "explanation": "<br/>Với: $\\left(2 x-\\frac{1}{x^{2}}\\right)^{7}=\\sum_{k=0}^{7}\\binom{7}{k} 2^{7-k}(-1)^{k} x^{7-3 k}$<br/>a, Hệ số của $x^{-3}: 7-3 k=-3 \\Rightarrow k=\\frac{10}{3}$ (không nguyên) $\\Rightarrow 0$.<br/>b, Hệ số của hạng không chứa $x: 7-3 k=0 \\Rightarrow k=\\frac{7}{3}$ (không nguyên) $\\Rightarrow 0$.<br/>c, Tổng các hệ số: thay $x=1$, được $(2-1)^{7}=1$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Nếu $a=\\log _{3}(10)$ và $b=\\lg (12)$ thì $\\log _{5}(60)$ bằng?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có: $\\begin{cases} a = \\log_3 10 \\\\ b = \\log_{10} 12 \\end{cases}$<br/>$\\Rightarrow ab = \\log_3 12 = 2\\log_3 2 + 1$<br/>$\\Rightarrow \\begin{cases} \\log_3 2 = \\frac{ab-1}{2} \\\\ \\log_3 5 = \\log_3 10 - \\log_3 2 = a - \\frac{ab-1}{2} = \\frac{2a-ab+1}{2} \\end{cases}$<br/>Ta có: $\\log_5 60 = \\frac{\\log_3 60}{\\log_3 5} = \\frac{\\log_3 12 + \\log_3 5}{\\log_3 5} = \\frac{ab + \\frac{2a-ab+1}{2}}{\\frac{2a-ab+1}{2}} = \\frac{2a+ab+1}{2a-ab+1}$",
+            "contentAnswerA": "$\\frac{a+a b+1}{a-a b+1}$.",
+            "contentAnswerB": "$1+\\frac{a b}{a-a b+1}$.",
+            "contentAnswerC": "$2+\\frac{a b}{a-a b+1}$.",
+            "contentAnswerD": "$\\frac{2 a+a b+1}{2 a-a b+1}$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Phần nguyên dưới của $x$, ký hiệu là $\\lfloor x\\rfloor$, là số nguyên lớn nhất không vượt quá $x$. Chẳng hạn: $\\lfloor\\pi\\rfloor=3,\\lfloor 2,99999\\rfloor=2,\\left\\lfloor-\\frac{3}{2}\\right\\rfloor=-2, \\ldots$ Khi đó, tổng $\\sum_{k=-10}^{10}\\left\\lfloor\\frac{k}{2}\\right\\rfloor$ bằng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>$S=\\sum_{k=-10}^{10}\\left\\lfloor\\frac{k}{2}\\right\\rfloor$<br/>Gom các cặp $(k,-k)$ (trừ $k=0$ ):<br/>$\\left\\lfloor\\frac{k}{2}\\right\\rfloor+\\left\\lfloor\\frac{-k}{2}\\right\\rfloor= \\begin{cases}0, & k \\text { chẵn, } \\\\ -1, & k \\text { lẻ. }\\end{cases}$<br/>Trong khoảng $1 \\rightarrow 10$ có 5 số lẻ, nên<br/>$S=0+\\sum_{k=1}^{10}\\left(\\left\\lfloor\\frac{k}{2}\\right\\rfloor+\\left\\lfloor\\frac{-k}{2}\\right\\rfloor\\right)=5 \\cdot(-1)=-5.$",
+            "contentAnswerA": "0.",
+            "contentAnswerB": "-10.",
+            "contentAnswerC": "-5.",
+            "contentAnswerD": "10."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Cho phương trình $\\frac{\\cos (4 x)-\\cos (2 x)+2 \\sin ^{2}(x)}{\\cos (x)+\\sin (x)}=0$. Diện tích đa giác có đỉnh là các điểm biểu diễn nghiệm của phương trình trên đường tròn lượng giác bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Điều kiện xác định: $\\cos x + \\sin x \\neq 0$<br/>$\\Leftrightarrow \\tan x \\neq -1 \\Leftrightarrow x \\neq -\\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z} \\quad (1)$<br/>Ta có: $\\frac{\\cos 4x - \\cos 2x + 2\\sin^2 x}{\\cos x + \\sin x} = 0$<br/>$\\Leftrightarrow \\cos 4x - \\cos 2x + 2\\sin^2 x = 0$<br/>$\\Leftrightarrow 2\\cos^2 2x - 1 - \\cos 2x + 1 - \\cos 2x = 0$<br/>$\\Leftrightarrow 2\\cos 2x (\\cos 2x - 1) = 0$<br/>$\\Leftrightarrow \\left[ \\begin{array}{l} \\cos 2x = 0 \\\\ \\cos 2x = 1 \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} 2x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z} \\\\ 2x = k2\\pi, k \\in \\mathbb{Z} \\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l} x = \\frac{\\pi}{4} + k\\frac{\\pi}{2}; k \\in \\mathbb{Z} \\\\ x = k\\pi; k \\in \\mathbb{Z} \\end{array} \\right. \\quad (2)$<br/>Lại có: $x \\in [0; 2\\pi] \\quad (3)$<br/>$(1), (2), (3) \\Rightarrow x \\in \\left\\{ 0; \\frac{\\pi}{4}; \\pi; \\frac{5\\pi}{4} \\right\\}$<br/>Diện tích đa giác (nối theo thứ tự góc) là:<br/>$S = \\frac{1}{2} \\sum_{i=1}^{4} |x_i y_{i+1} - y_i x_{i+1}| = \\sqrt{2}$",
+            "contentAnswerA": "$\\sqrt{2}$.",
+            "contentAnswerB": "$2 \\sqrt{2}$.",
+            "contentAnswerC": "$2 \\sqrt{3}$.",
+            "contentAnswerD": "$3 \\sqrt{2}$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Chọn ngẫu nhiên một hình chữ nhật từ một lưới $100 \\times 100$ ô vuông đơn vị, xác suất để hình chữ nhật được chọn là một hình vuông là $p$. Giá trị của $5050 p$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                67
+            ],
+            "explanation": "<br/>Trong lưới $100 \\times 100$,<br/>$N_{\\mathrm{HCN}}=\\binom{101}{2}^{2}=5050^{2}, \\quad N_{\\mathrm{vuông}}=\\sum_{k=1}^{100}(101-k)^{2}=\\frac{100 \\cdot 101 \\cdot 201}{6}=338350.$<br/>$p=\\frac{338350}{5050^{2}} \\Rightarrow 5050 p=\\frac{338350}{5050}=67.$"
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Chữ số tận cùng của $52^{522}$ là?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Chữ số tận cùng của $52^{522}$ như của $2^{522}$. Chu kì $2,4,8,6$ có độ dài $4,522 \\equiv 2(\\bmod 4) \\Rightarrow$ chữ số tận cùng là 4.",
+            "contentAnswerA": "2.",
+            "contentAnswerB": "4.",
+            "contentAnswerC": "6.",
+            "contentAnswerD": "8."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Gieo ngẫu nhiên ba con xúc xắc cân đối đồng chất, xác suất để tổng số chấm trên xúc xắc bằng 7 là $p$. Giá trị của $360 p$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                25
+            ],
+            "explanation": "<br/>Số bộ $(a, b, c) \\in\\{1, \\ldots, 6\\}^{3}$ có $a+b+c=7$ là $\\binom{4+3-1}{3-1}=\\binom{6}{2}=15$.<br/>$p=\\frac{15}{6^{3}}=\\frac{5}{72} \\Rightarrow 360 p=360 \\cdot \\frac{5}{72}=25.$"
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Có mấy cặp số nguyên dương ( $x ; y$ ), với $x<2021$, thỏa mãn $3^{x}(x+1)=27^{y} y$?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                673
+            ],
+            "explanation": "<br/>Ta có: $3^x(x+1) = 27^y \\cdot y \\Leftrightarrow 3^{x+1}(x+1) = 3^{3y} \\cdot 3y \\quad (1)$<br/>Đặt $f(t) = 3^t \\cdot t \\quad (t > 0)$<br/>$f'(t) = 3^t + 3^t \\ln 3 \\cdot t > 0 \\quad \\forall t > 0 \\rightarrow f(t)$ đồng biến trên $(0; +\\infty)$<br/>$(1) \\Leftrightarrow f(x+1) = f(3y)$<br/>$\\Rightarrow x+1 = 3y$<br/>$\\Leftrightarrow x = 3y - 1$<br/>Lại có: $1 \\le 3y - 1 < 2021$<br/>$\\Leftrightarrow 2 \\le 3y < 2022$<br/>$\\Leftrightarrow \\frac{2}{3} \\le y < 674$<br/>$y \\in \\mathbb{N}^* \\Rightarrow$ Có 673 giá trị $y \\Rightarrow$ Có 673 cặp $(x; y)$"
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Cho tập hợp $S=\\{1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7\\}$. Mỗi bạn Tuấn và Dũng chọn ngẫu nhiên một tập con của $S$ (bao gồm tập rỗng). Biết rằng xác suất để hai tập con chọn được có đúng 4 phần tử chung là $\\frac{a}{b}$, với $a, b$ nguyên tố cùng nhau. Hiệu $b-a$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 37-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                15439
+            ],
+            "explanation": "<br/>Mỗi bạn chọn ngẫu nhiên một tập con của $S=\\{1,2,3,4,5,6,7\\}$ (kể cả $\\varnothing$ ). Mỗi phần tử của $S$ có 4 trạng thái đối với cặp $(A, B)$: \"cùng thuộc cả hai\" (đếm vào giao), \"chỉ thuộc $A$ \", \"chỉ thuộc $B$ \", \"không thuộc cái nào\". Muốn $|A \\cap B|=4$ ta chọn 4 phần tử ở trạng thái \"cả hai\" và 3 phần tử còn lại ở ba trạng thái còn lại.<br/>$N=C_{7}^{4} \\cdot 1^4 \\cdot 3^{3} = 945$<br/>Tổng số cặp $(A, B)$ là $2^{7} \\cdot 2^{7}=2^{14}=16384$.<br/>$p=\\frac{945}{16384} \\text { (tối giản), } \\quad \\Rightarrow \\quad b-a=16384-945=15439.$"
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Cho dãy số $\\left(u_{n}\\right)_{n \\geq 1}$ thỏa mãn<br/>$u_{1}=1, \\quad u_{2}=3, \\quad u_{n+2}=1+2 u_{n+1}-u_{n}$<br/>Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>Cho $u_{1}=1, u_{2}=3, u_{n+2}=1+2 u_{n+1}-u_{n}$. Đặt $b_{n}=u_{n+1}-u_{n}$ thì<br/>$b_{n+1}=u_{n+2}-u_{n+1}=1+u_{n+1}-u_{n}=1+b_{n}$<br/>Suy ra $\\left(b_{n}\\right)$ là cấp số cộng công sai 1 ( $\\mathbf{a}$ đúng). Với $b_{1}=2 \\Rightarrow b_{n}=n+1$. Do đó<br/>$u_{n}=u_{1}+\\sum_{k=1}^{n-1} b_{k}=1+\\sum_{k=1}^{n-1}(k+1)=\\frac{n(n+1)}{2}.$<br/>Vì vậy mệnh đề $u_{n}=n+\\frac{n(n+1)}{2}$ là sai. Lại có $\\lim _{n \\rightarrow \\infty} \\frac{u_{n}}{n^{2}}=\\frac{1}{2}$ (c đúng).",
+            "contentYA": "Đặt $b_{n}=u_{n+1}-u_{n}$, khi đó $\\left(b_{n}\\right)$ là một cấp số cộng với công sai $d=1$.",
+            "contentYB": "Công thức tổng quát $u_{n}=n+\\frac{n(n+1)}{2}$.",
+            "contentYC": "Giới hạn $\\lim _{n \\rightarrow+\\infty}\\left(\\frac{u_{n}}{n^{2}}\\right)=\\frac{1}{2}$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Số nguyên dương bé nhất chia 14 dư 7, chia 15 dư 8 và chia 16 dư 9 là?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 39-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1673
+            ],
+            "explanation": "<br/>Tìm $n$ nhỏ nhất thỏa<br/>$n \\equiv 7 \\quad(\\bmod 14), \\quad n \\equiv 8 \\quad(\\bmod 15), \\quad n \\equiv 9 \\quad(\\bmod 16)$<br/>Tức là $n + 7 \\equiv 0 (\\bmod 14,15,16) \\Rightarrow n+7$ chia hết cho $BCNN(14,15,16)=2^{4} \\cdot 3 \\cdot 5 \\cdot 7=1680$. Suy ra $n= 1680-7=1673$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Với $a_{n}=\\sqrt{1+\\left(1+\\frac{1}{n}\\right)^{2}}+\\sqrt{1+\\left(1-\\frac{1}{n}\\right)^{2}}(\\forall n \\geq 1)$, ta đặt $P=\\sum_{k=1}^{20}\\left(\\frac{1}{a_{k}}\\right)$.<br/>Những khẳng định nào sau đây đúng? (Chọn nhiều đáp án)",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/>Với $\\left(\\mathrm{a}_{n}=\\sqrt{1+\\left(1+\\frac{1}{n}\\right)^{2}}+\\sqrt{1+\\left(1-\\frac{1}{n}\\right)^{2}}\\right.$. Ta có<br/>$\\frac{1}{a_{n}}=\\frac{n}{\\sqrt{2 n^{2}+2 n+1}+\\sqrt{2 n^{2}-2 n+1}}=\\frac{1}{4}\\left(\\sqrt{2 n^{2}+2 n+1}-\\sqrt{2 n^{2}-2 n+1}\\right).$<br/>Suy ra<br/>$\\frac{1}{a_{1}}=\\frac{1}{4}(\\sqrt{5}-1)=\\frac{\\sqrt{5}}{4}-\\frac{1}{4}, \\quad \\frac{1}{a_{2}}=\\frac{1}{4}(\\sqrt{13}-\\sqrt{5})$<br/>Do đó $\\mathbf{A}, \\mathbf{C}$ đúng; từ định nghĩa $a_{1}=\\sqrt{5}+1$ nên $\\mathbf{B}$ đúng. Hơn nữa<br/>$P=\\sum_{k=1}^{20} \\frac{1}{a_{k}}=\\frac{1}{4}\\left(\\sqrt{2 \\cdot 20^{2}+2 \\cdot 20+1}-\\sqrt{1}\\right)=\\frac{1}{4}(29-1)=7(\\neq \\sqrt{7}),$<br/>nên D sai.",
+            "contentC1": "$\\frac{1}{a_{2}}=\\frac{\\sqrt{13}}{4}-\\frac{\\sqrt{5}}{4}$.",
+            "contentC2": "$a_{1}=\\sqrt{5}+1$.",
+            "contentC3": "$\\frac{1}{a_{1}}=\\frac{\\sqrt{5}}{4}-\\frac{1}{4}$.",
+            "contentC4": "$P=\\sqrt{7}$."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-12-28T15:58:26.082Z",
+    "updatedAt": "2026-01-11T16:18:12.833Z",
+    "__v": 0
+}

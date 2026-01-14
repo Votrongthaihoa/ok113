@@ -1,0 +1,852 @@
+{
+    "_id": "69514cf4535aa47f9b7c4b88",
+    "title": "[Sách Đề]-Tư Duy Toán Học-Đề 26",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": [
+            6
+        ],
+        "Câu 2": [
+            {
+                "1.": [
+                    0
+                ]
+            },
+            {
+                "2.": [
+                    3
+                ]
+            },
+            {
+                "3.": [
+                    12
+                ]
+            }
+        ],
+        "Câu 3": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 4": "A",
+        "Câu 5": [
+            5
+        ],
+        "Câu 6": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 7": [
+            22.2
+        ],
+        "Câu 8": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 9": "A",
+        "Câu 10": "A",
+        "Câu 11": [
+            9
+        ],
+        "Câu 12": [
+            6174
+        ],
+        "Câu 13": [
+            60
+        ],
+        "Câu 14": "B",
+        "Câu 15": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 16": "A",
+        "Câu 17": [
+            160
+        ],
+        "Câu 18": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 19": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "F>"
+            }
+        ],
+        "Câu 20": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "B>"
+            }
+        ],
+        "Câu 21": "D",
+        "Câu 22": [
+            -4455
+        ],
+        "Câu 23": "C",
+        "Câu 24": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 25": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "G>"
+            }
+        ],
+        "Câu 26": "A",
+        "Câu 27": [
+            {
+                "1.": [
+                    20
+                ]
+            },
+            {
+                "2.": [
+                    30
+                ]
+            },
+            {
+                "3.": [
+                    10
+                ]
+            }
+        ],
+        "Câu 28": [
+            121.9
+        ],
+        "Câu 29": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 30": "A",
+        "Câu 31": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "E>"
+            }
+        ],
+        "Câu 32": "A",
+        "Câu 33": "D",
+        "Câu 34": [
+            5
+        ],
+        "Câu 35": [
+            6
+        ],
+        "Câu 36": [
+            147444
+        ],
+        "Câu 37": [
+            62
+        ],
+        "Câu 38": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 39": [
+            28
+        ],
+        "Câu 40": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ]
+    },
+    "startTime": "2025-11-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Bạn Linh muốn sắp xếp 4 chiếc bút chì giống nhau và 3 chiếc bút bi khác nhau sao cho bút chì và bút bi xen kẽ nhau. Có bao nhiêu cách sắp xếp thỏa mãn nhu cầu của bạn Linh?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 1-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>Dãy cần xếp phải xen kẽ, với 4 bút chì (giống nhau) và 3 bút bi (khác nhau):<br/>$\\underbrace{C-B-C-B-C-B-C}_{\\text {bắt buộc }}$<br/>Chỉ có cách hoán vị ba bút bi. Số cách $=3!=6$."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Điền các số nguyên thích hợp vào chỗ trống. Trong không gian $O x y z$, cho $d_{1}$ là đường thẳng đi qua hai điểm $A(1 ; 0 ; 0), B(4 ; 0 ; 0), d_{2}$ là đường thẳng đi qua hai điểm $C(0 ; e ; 0), D(0 ; \\pi ; 0)$, và $d_{3}$ là đường thẳng đi qua hai điểm $E(0 ; 0 ; 3), F(0 ; 0 ; 9)$. Mặt phẳng $(P)$ đi qua $d_{1}, d_{2}$, mặt phẳng $(Q)$ đi qua $d_{2}, d_{3}$ và mặt phẳng $(R)$ đi qua $d_{1}, d_{3}$. Xét điểm $M(3 ; 6 ; 12)$.<br/>- Hình chiếu của $M$ lên mặt phẳng $(R)$ có tung độ bằng <span class=\"fill-blank\" data-blank-id=\"Câu 2-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/>- Hình chiếu của $M$ lên mặt phẳng $(P)$ có hoành độ bằng <span class=\"fill-blank\" data-blank-id=\"Câu 2-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.<br/>- Hình chiếu của $M$ lên mặt phẳng $(Q)$ có cao độ bằng <span class=\"fill-blank\" data-blank-id=\"Câu 2-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        0
+                    ]
+                },
+                {
+                    "2.": [
+                        3
+                    ]
+                },
+                {
+                    "3.": [
+                        12
+                    ]
+                }
+            ],
+            "explanation": "<br />\nTa c&oacute;<br />\n$d_{1}: y=z=0$ (trục Ox), $d_{2}: x=z=0$ (trục Oy), $d_{3}: x=y=0$ (trục Oz).<br />\nDo đ&oacute; $P: z=0, \\quad Q: x=0, \\quad R: y=0$<br />\nVới $M(3 ; 6 ; 12)$ ta suy ra $\\mathrm{HC}_{R}(M)=(3,0,12) \\Rightarrow$ tung độ = 0<br />\n$\\mathrm{HC}_{P}(M)=(3,6,0) \\Rightarrow$ ho&agrave;nh độ = 3<br />\n$\\mathrm{HC}_{Q}(M)=(0,6,12) \\Rightarrow$ cao độ = 12."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho hàm số $f(x)=4 \\sin \\left(x+\\frac{\\pi}{4}\\right) \\sin \\left(x-\\frac{\\pi}{4}\\right)$, xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<br />\n$f(x)=4 \\sin \\left(x+\\frac{\\pi}{4}\\right) \\sin \\left(x-\\frac{\\pi}{4}\\right)=4 \\cdot \\frac{-(\\cos (2 x) - \\cos \\left(\\frac{\\pi}{2}\\right)}{2}=-2 \\cos (2 x).$<br />\nDo $\\cos (2 x) \\in[-1,1]$ n&ecirc;n $\\max f(x)=2$ (khi $\\cos (2 x)=-1$ ). Bởi vậy:<br />\n(a) Đ&uacute;ng;<br />\n(b) Sai (v&igrave; max $f$ tại $x=\\frac{\\pi}{2}+k \\pi$, kh&ocirc;ng phải $x=\\pi+2 k \\pi$ ).",
+            "contentYA": "Giá trị lớn nhất của hàm số $y=f(x)$ bằng 2.",
+            "contentYB": "Hàm số $f(x)$ đạt giá trị lớn nhất tại các điểm $x=\\pi+ k 2 \\pi(k \\in \\mathbb{Z})$."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Cho hình chóp tứ giác đều $S. A B C D$ có độ dài cạnh đáy bằng $a$ và cạnh bên tại với đáy một góc $45^{\\circ}$. Gọi $M, N$ lần lượt là trung điểm của các cạnh $S B$ và $S D$. Khoảng cách giữa hai đường thẳng $M N$ và $B C$ bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\nTrong h&igrave;nh ch&oacute;p tứ gi&aacute;c đều, ch&acirc;n đường cao l&agrave; t&acirc;m $O$ của đ&aacute;y, $|A O|=\\frac{a}{\\sqrt{2}}$. Gọi $\\alpha$ l&agrave; g&oacute;c giữa cạnh b&ecirc;n v&agrave; đ&aacute;y, th&igrave; $h=|S O|=|A O| \\tan \\alpha=\\frac{a}{\\sqrt{2}} \\tan \\alpha$<br />\nV&igrave; $M, N$ l&agrave; trung điểm của $S B, S D$ n&ecirc;n khoảng c&aacute;ch đến đ&aacute;y của mọi điểm tr&ecirc;n $M N$ đều bằng $\\frac{h}{2}$. Mặt kh&aacute;c $M N \\| B D$ c&ograve;n $B C \\subset(A B C D)$, v&eacute;c-tơ chỉ phương của $M N$ v&agrave; $B C$ đều nằm trong mặt phẳng đ&aacute;y n&ecirc;n đường vu&ocirc;ng g&oacute;c chung giữa hai đường l&agrave; thẳng đứng (vu&ocirc;ng g&oacute;c với đ&aacute;y); do đ&oacute; $d(M N, B C)=\\frac{h}{2}=\\frac{a}{2 \\sqrt{2}} \\tan \\alpha.$<br />\nVới đề cho $\\alpha=45^{\\circ}$ (g&oacute;c giữa cạnh b&ecirc;n v&agrave; đ&aacute;y), $d(M N, B C)=\\frac{a}{2 \\sqrt{2}} \\tan 45^{\\circ}=\\frac{a \\sqrt{2}}{4}.$",
+            "contentAnswerA": "$\\frac{a \\sqrt{2}}{4}$.",
+            "contentAnswerB": "$\\frac{a \\sqrt{3}}{2}$.",
+            "contentAnswerC": "$\\frac{a}{2}$.",
+            "contentAnswerD": "$\\frac{a \\sqrt{2}}{2}$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Cho hàm số $f(x)=16 \\sin \\left(x+\\frac{\\pi}{6}\\right) \\cos \\left(x-\\frac{\\pi}{6}\\right)+\\left(1-m^{2}\\right) \\sin (2 x)$, với $m$ là tham số thực. Tồn tại bao nhiêu giá trị nguyên của $m$ để hàm số đã cho đồng biến trên khoảng $\\left(0 ; \\frac{\\pi}{4}\\right)$ ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                5
+            ],
+            "explanation": "<br />\nVới $f(x)=16 \\sin \\left(x+\\frac{\\pi}{6}\\right) \\cos \\left(x-\\frac{\\pi}{6}\\right)+\\left(1-m^{2}\\right) \\sin (2 x).$<br />\nD&ugrave;ng $\\sin A \\cos B=\\frac{\\sin (A+B)+\\sin (A-B)}{2}$,<br />\n$f(x) =8\\left[\\sin \\left(\\left(x+\\frac{\\pi}{6}\\right)+\\left(x-\\frac{\\pi}{6}\\right)\\right)+\\sin \\left(\\left(x+\\frac{\\pi}{6}\\right)-\\left(x-\\frac{\\pi}{6}\\right)\\right)\\right]+\\left(1-m^{2}\\right) \\sin 2 x$<br />\n$=8\\left[\\sin (2 x)+\\sin \\frac{\\pi}{3}\\right]+\\left(1-m^{2}\\right) \\sin 2 x$<br />\n$=\\left(9-m^{2}\\right) \\sin 2 x+4 \\sqrt{3}$<br />\nSuy ra $f^{\\prime}(x)=2\\left(9-m^{2}\\right) \\cos 2 x.$<br />\nTr&ecirc;n $\\left(0 ; \\frac{\\pi}{4}\\right)$ ta c&oacute; $2 x \\in\\left(0 ; \\frac{\\pi}{2}\\right) \\Rightarrow \\cos 2 x&gt;0$.<br />\nĐể $f$ đồng biến tr&ecirc;n khoảng ấy cần $9-m^{2}&gt;0 \\Leftrightarrow|m|&lt;3$ (loại $m= \\pm 3$ v&igrave; khi đ&oacute; $f$ hằng).<br />\nSố gi&aacute; trị nguy&ecirc;n của $m: m \\in\\{-2,-1,0,1,2\\} \\Rightarrow 5$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Cho hàm số lẻ bậc ba $y=f(x)$ và thỏa mãn $f^{\\prime}(1)=0$ và $f(1)=2$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br />\n$f$ l&agrave; đa thức bậc ba lẻ $\\Rightarrow f(x)=a x^{3}+b x(a \\neq 0)$.<br />\n$f^{\\prime}(x)=3 a x^{2}+b$, diều kiện $f^{\\prime}(1)=0 \\Rightarrow 3 a+b=0 \\Rightarrow b=-3 a$.<br />\n$f(1)=2 \\Rightarrow a+b=2 \\Rightarrow a-3 a=2 \\Rightarrow a=-1, b=3$.<br />\nVậy $f(x)=-x^{3}+3 x, f^{\\prime}(x)=-3 x^{2}+3=3\\left(1-x^{2}\\right)$; c&aacute;c mệnh đề:<br />\na, $x=-1$ l&agrave; nghiệm $f^{\\prime}(x)=0$ v&agrave; $f^{\\prime}$ đổi dấu &quot; $- $ sang $+$ &quot; $\\Rightarrow$ cực tiểu tại $x=-1$. Đ&uacute;ng.<br />\nb, V&igrave; $f$ lẻ n&ecirc;n $f(-5)=-f(5)$. Nếu $f(5)=-110$ th&igrave; $f(-5)=110$. Đ&uacute;ng.<br />\nc, $f(-1)=-(-1)^{3}+3(-1)=1-3=-2 \\neq 2$. Sai.",
+            "contentYA": "Hàm số đã cho đạt cực trị tại điểm $x=-1$.",
+            "contentYB": "Nếu $f(5)=-110$ thì $f(-5)=110$.",
+            "contentYC": "Giá trị của $f(-1)=2$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Số lượng virus ( $\\rho$ ) trong một quần thể thay đổi theo thời gian và được xác định bởi hàm số $\\rho(t)=\\rho_{0} e^{-\\lambda t}$. Trong đó, $\\rho_{0}$ là số lượng cá thể virus ban đầu của quần thể, $\\lambda$ là hằng số thực và $t(\\mathrm{~h})$ là thời gian. Trong phòng thí nghiệm, một quần thể được nuôi cấy sao cho ban đầu có 9000 virus và giảm xuống còn 6000 con chỉ sau 2 (h). Nếu quần thể được coi là \"ổn định\" khi số lượng virus không vượt quá 100 thì quần thể trên sẽ đạt ngưỡng \"ổn định\" sau bao nhiêu giờ kể từ thời điểm ban đầu? (Kết quả được làm tròn đến hàng phần chục)<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 7-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                22.2
+            ],
+            "explanation": "<br />\n$\\rho(t)=\\rho_{0} e^{-\\lambda t}, \\rho_{0}=9000$. Dữ kiện 2 giờ sau c&ograve;n 6000: $6000=9000 e^{-2 \\lambda} \\Rightarrow e^{-2 \\lambda}=\\frac{2}{3} \\Rightarrow \\lambda=\\frac{1}{2} \\ln \\frac{3}{2}.$<br />\nNgưỡng &quot;ổn định&quot; $\\rho(t) \\leq 100$: $100=9000 e^{-\\lambda t} \\Rightarrow e^{-\\lambda t}=\\frac{1}{90} \\Rightarrow t=\\frac{\\ln 90}{\\lambda}=\\frac{2 \\ln 90}{\\ln (3 / 2)} \\approx 22.20$ giờ.<br />\nL&agrave;m tr&ograve;n đến một chữ số thập ph&acirc;n: $t \\approx 22.2$ giờ."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "\"Số hoàn hảo\" là một số nguyên dương là tổng các ước nguyên dương thực sự của số đó (các số nguyên dương bị số đó chia hết, ngoại trừ chính số đó) bằng chính nó. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<br />\nSố 6 l&agrave; số ho&agrave;n hảo (v&igrave; $1+2+3=6$ ) n&ecirc;n mệnh đề &quot; 6 kh&ocirc;ng phải số ho&agrave;n hảo&quot; l&agrave; sai. Số 496 l&agrave; số ho&agrave;n hảo (V&igrave; $1+2+4+8+16+31+62+124+248=496$) n&ecirc;n mệnh đề tương ứng l&agrave; đ&uacute;ng.",
+            "contentYA": "Số 6 không phải một số hoàn hảo.",
+            "contentYB": "Số 496 là một số hoàn hảo."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Tập xác định của hàm số $f(x)=(x-2)^{-\\frac{15}{3}}$ bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\n$f(x)=(x-2)^{-\\frac{15}{3}}=(x-2)^{-5}=\\frac{1}{(x-2)^{5}}$, n&ecirc;n tập x&aacute;c định l&agrave; $\\mathbb{R} \\backslash\\{2\\}$.",
+            "contentAnswerA": "$\\mathbb{R} \\backslash\\{2\\}$.",
+            "contentAnswerB": "$\\mathbb{R}$.",
+            "contentAnswerC": "$(2 ;+\\infty)$.",
+            "contentAnswerD": "$(-\\infty ; 2)$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Cho hàm số $y=f(x)$ liên tục và xác định trên đoạn $[-1 ; 3]$ và có đồ thị như hình vẽ bên. Gọi $M, m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số đã cho trên khoảng $[-1 ; 3]$. Giá trị của $M+2 m$ bằng?<br/><img alt=\"A graph of a function\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/QeamuQl.png-webp\" data-temp-key=\"temp-image-1766936308172-yu6ewvvcv\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\nTừ đồ thị: tr&ecirc;n $[-1,2]$ h&agrave;m l&agrave; một nh&aacute;nh cong đạt gi&aacute; trị lớn nhất $M=2$ v&agrave; tại $x=2$, h&agrave;m chuyển sang đoạn thẳng nối $(2,-2)$ với $(3,3)$ n&ecirc;n gi&aacute; trị lớn nhất tr&ecirc;n $[-1,3]$ l&agrave; 3, nhỏ nhất l&agrave; -2. Do đ&oacute;<br />\n$M+2 m=3+2(-2)=-1$.",
+            "contentAnswerA": "-1.",
+            "contentAnswerB": "-2.",
+            "contentAnswerC": "1.",
+            "contentAnswerD": "7."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Hưng có ba hộp rỗng và 12 cuốn sách khác nhau, 3 trong số đó là sách Toán. Hộp I có thể đựng bất kỳ 3 cuốn sách nào, hộp II có thể đựng bất kỳ 4 cuốn sách nào và hộp III có thể đựng bất kỳ 5 cuốn sách nào. Hưng sắp xếp các cuốn sách của mình vào các hộp theo thứ tự ngẫu nhiên, xác suất để cả 3 cuốn sách Toán được xếp vào cùng một hộp là $p$. Giá trị của $132 p$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 11-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                9
+            ],
+            "explanation": "<br/>Không gian mẫu: chia 12 sách phân biệt vào ba hộp có sức chứa $3,4,5$: $N=C_{12}^{3} \\cdot C^{9}_{4} \\cdot C^5_5 = 27720$.<br/>Thuận lợi để 3 sách Toán cùng một hộp: $N_A = C^4_9 \\cdot C^5_5+ C^3_9 \\cdot C^1_6 \\cdot C^5_5 + C^3_9 \\cdot C^4_6 \\cdot C^2_2 = 1890$.<br/>Xác suất $p=\\frac{1890}{\\binom{12}{3}\\binom{9}{4}}=\\frac{3}{44}$. Vì thế $132 p=132 \\cdot \\frac{3}{44}=9$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Một số tự nhiên $N$ được gọi là \"kì diệu\" khi ta lấy số được tạo bởi khi viết các chữ số của $N$ từ lớn đến bé rồi trừ đi số được tạo bởi khi viết các chữ số của $N$ từ bé đến lớn mà thu được $N$. Chẳng hạn: 495 là một số \"kì diệu\" vì $954-459=495$. Biết rằng tồn tại duy nhất một số \"kì diệu\" có 4 chữ số, gọi là hằng số Kaprekar. Số đó là?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6174
+            ],
+            "explanation": "<br/>Gọi $K(N)$ là số tạo bởi phép \"viết các chữ số của $N$ theo thứ tự giảm rồi trừ cho số viết theo thứ tự tăng\". Một số \"kì diệu\" 4 chữ số là nghiệm cố định $K(N)=N$. Hằng số Kaprekar 4 chữ số là số 6174 (duy nhất), vì $7641-1467=6174$ và mọi lần áp dụng tiếp đều cho lại 6174 ; không có số 4 chữ số khác thỏa $K(N)=N$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho lăng trụ đứng $A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ có đáy $A B C$ là tam giác vuông tại $A$. Biết độ dài $A C= a, A B=a \\sqrt{15}$ và $A A^{\\prime}=2 a$. Góc giữa cạnh $B C^{\\prime}$ và mặt phẳng ( $A C C^{\\prime} A^{\\prime}$ ) bằng bao nhiêu độ?<br/><img alt=\"A drawing of a cube with a square and a square with a square and a square with a square and a square with a square and a square with a square and a square with a square and\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/PVtCQX.png-webp\" data-temp-key=\"temp-image-1766936308174-8ofxfedpc\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 13-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                60
+            ],
+            "explanation": "<br/><img alt=\"A drawing of a cube with a rectangle and a square with a straight line\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/S5u6yI.png-webp\" data-temp-key=\"temp-image-1766936308175-lre05xv71\" class=\"mx-auto\" style=\"\"><br/>Đặt hệ trục toạ độ: $A(0,0,0), A B$ trùng trục $O x$ với $B(a \\sqrt{15}, 0,0) ; A C$ trùng $O y$ với $C(0, a, 0)$; vì lăng trụ đứng nên $A A^{\\prime}=2 a$ theo $O z$, do đó $C^{\\prime}(0, a, 2 a)$.<br/>$\\left.\\vec{u}=\\overrightarrow{B C^{\\prime}}=(-a \\sqrt{15}, a, 2 a), \\quad\\left(A C C^{\\prime} A^{\\prime}\\right): x=0\\right.$ pháp tuyến $\\vec{n}=(1,0,0)$.<br/>Góc giữa đường thẳng và mặt phẳng thỏa $\\sin \\theta=\\frac{|\\vec{u} \\cdot \\vec{n}|}{\\|\\vec{u}\\|\\|\\vec{n}\\|}=\\frac{a \\sqrt{15}}{a \\sqrt{(-\\sqrt{15})^{2}+1^{2}+2^{2}}}=\\frac{\\sqrt{15}}{\\sqrt{20}}=\\frac{\\sqrt{3}}{2}$. Suy ra $\\theta=60^{\\circ}$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Gieo một con xúc xắc 6 mặt cân đối và đồng chất hai lần, xác suất để tổng số chấm thu được trong hai lần gieo bằng 7 là?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Hai lần gieo xúc xắc cân đối: có 36 kết quả đồng khả năng.<br/>Tổng bằng 7 có 6 kết quả $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$<br/>$\\mathbb{P}$ (tổng = 7) = $\\frac{6}{36}=\\frac{1}{6}$.",
+            "contentAnswerA": "$\\frac{1}{9}$.",
+            "contentAnswerB": "$\\frac{1}{6}$.",
+            "contentAnswerC": "$\\frac{1}{18}$.",
+            "contentAnswerD": "$\\frac{1}{12}$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Trong hệ trục tọa độ $O x y$, cho hai điểm $A(1 ; 2)$ và $B(5 ; 0)$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>$\\mathrm{A}(1,2), \\mathrm{B}(5,0) \\Rightarrow \\overrightarrow{A B}=(4,-2)$.<br/>a, $\\vec{u}=(4,-2)$ là VTCP của $A B \\Rightarrow$ đúng.<br/>b, VTPT phải vuông góc VTCP: $(4,-2) \\cdot(-1,2)=-8 \\neq 0 \\Rightarrow$ sai.<br/>c, PTĐT: $x+2 y-5=0$ (đi qua A và B ). Đề cho $-x+2 y-3=0$ không thỏa B $\\Rightarrow$ sai.",
+            "contentYA": "Đường thẳng $A B$ có một vectơ chỉ phương là $\\vec{u}= (4 ;-2)$.",
+            "contentYB": "Đường thẳng $A B$ có một vectơ pháp tuyến là $\\vec{n}=$ (-1; 2).",
+            "contentYC": "Phương trình đường thẳng $A B$ là $-x+2 y-3=0$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Cho hình lập phương $A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$. Góc giữa đường thẳng $B^{\\prime} C$ và mặt phẳng $\\left(B D D^{\\prime} B^{\\prime}\\right)$ bằng?<br/><img alt=\"A purple cube with black text\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/dQu6Czr.png-webp\" data-temp-key=\"temp-image-1766936308176-42isx7sr9\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><img alt=\"A drawing of a cube with lines and letters\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/wVseXGNU.png-webp\" data-temp-key=\"temp-image-1766936308179-veysu36m1\" class=\"mx-auto\" style=\"\"><br/>Gọi $O$ là giao điểm $AC$ và $BD$.<br/>$\\Rightarrow CO \\perp BD \\quad (1)$<br/>Lại có: $ BB' \\perp (ABCD) \\Rightarrow BB' \\perp CO \\quad (2)$<br/>$(1), (2) \\Rightarrow CO \\perp (BDD'B')$<br/>$\\Rightarrow$ Góc giữa đường thẳng $BC'$ và mặt phẳng $(BDD'B')$ là: $(CO, CB') = \\widehat{B'CO}$<br/>Ta có: $\\cos \\widehat{B'CO} = \\frac{CO}{CB'} = \\frac{BC \\cdot \\frac{\\sqrt{2}}{2}}{BC \\cdot \\sqrt{2}} = \\frac{1}{2}$<br/>$\\Rightarrow \\widehat{B'CO} = 60^\\circ$, chọn A",
+            "contentAnswerA": "$60^{\\circ}$.",
+            "contentAnswerB": "$45^{\\circ}$.",
+            "contentAnswerC": "$90^{\\circ}$.",
+            "contentAnswerD": "$30^{\\circ}$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Cho hình chóp $S. A B C D$ có cạnh bên $S A \\perp(A B C D)$, đáy $A B C D$ là một hình vuông có độ dài cạnh bằng 1. Biết rằng độ dài $S A=2$ và khoảng cách từ điểm $C$ dến mặt phẳng $(S B D)$ bằng $d$. Giá trị của $360 d^{2}$ bằng?<br/><img alt=\"A triangle with a point and lines\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/sfVqG2.png-webp\" data-temp-key=\"temp-image-1766936308180-mugn3cez3\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 17-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                160
+            ],
+            "explanation": "<br/><img alt=\"A triangle with arrows and lines\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/noa7JA.png-webp\" data-temp-key=\"temp-image-1766936308181-fhhhphcu2\" class=\"mx-auto\" style=\"\"><br/>Lấy $A(0,0,0), B(1,0,0), C(1,1,0), D(0,1,0), S(0,0,2)$. Mặt phẳng $(S B D)$ có VTPT<br/>$\\vec{n}=\\overrightarrow{S B} \\times \\overrightarrow{S D}=(1,0,-2) \\times(0,1,-2)=(2,2,1).$<br/>Phương trình: $2 x+2 y+z-2=0$. Khoảng cách từ $C(1,1,0)$ đến mặt phẳng:<br/>$d=\\frac{|2s \\cdot 1+2 \\cdot 1+0-2|}{\\sqrt{2^{2}+2^{2}+1^{2}}}=\\frac{2}{3}.$<br/>Suy ra $360 d^{2}=360 \\cdot \\frac{4}{9}=160$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Cho hàm số $y=f(x)$, xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Sai. $x=x_{0}$ là tiệm cận đứng khi $\\lim _{x \\rightarrow x_{0}^{ \\pm}} f(x)= \\pm \\infty$. Điều kiện $\\lim _{x \\rightarrow \\infty} f(x)=x_{0}$ (nếu đúng) chỉ cho tiệm cận ngang $y=x_{0}$.<br/>b, Sai. Tiệm cận ngang phải có dạng $y=y_{0}$, không phải $x=x_{0}$; điều kiện đúng là $\\lim _{x \\rightarrow \\pm \\infty} f(x)=y_{0}$.<br/>c, Đúng. Nếu $\\lim _{x \\rightarrow x_{0}} f(x)=+\\infty$ thì $x=x_{0}$ là tiệm cận đứng của đồ thị $y=f(x)$.<br/>d, Sai. $\\lim _{x \\rightarrow x_{0}} f(x)=f\\left(x_{0}\\right)$ là liên tục tại $x_{0}$, không thể là tiệm cận dứng.",
+            "contentYA": "Đường thẳng $x=x_{0}$ là đường tiệm cận đứng của đồ thị hàm số $y=f(x)$ nếu $\\lim _{x \\rightarrow+\\infty} f(x)=x_{0}$.",
+            "contentYB": "Đường thẳng $x=x_{0}$ là đường tiệm cận ngang của đồ thị hàm số $y=f(x)$ nếu $\\lim _{x \\rightarrow+\\infty} f(x)=x_{0}$.",
+            "contentYC": "Đường thẳng $x=x_{0}$ là đường tiệm cận đứng của đồ thị hàm số $y=f(x)$ nếu $\\lim _{x \\rightarrow x_{0}} f(x)=+\\infty$.",
+            "contentYD": "Đường thẳng $x=x_{0}$ là đường tiệm cận đứng của đồ thị hàm số $y=f(x)$ nếu $f(x)=f\\left(x_{0}\\right)$."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Kéo và thả các phương án thích hợp vào chỗ trống.<br/>- Số nghiệm nguyên của phương trình $\\sqrt{x-x^{2}}=0$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-1\">____DRAG_DROP_1____</span>.<br/>- Số nghiệm của phương trình $\\sqrt{x-x^{2}} \\cdot \\sin (2017 x)=0$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "F>"
+                }
+            ],
+            "explanation": "<br/>a, Giải $\\sqrt{x-x^{2}}=0 \\Leftrightarrow x-x^{2}=0 \\Leftrightarrow x \\in\\{0,1\\}$ (đồng thời $x \\in[0,1]$ ). Số nghiệm nguyên: 2.<br/>b, Điều kiện $x \\in[0,1]$.<br/>$\\sqrt{x-x^{2}} \\cdot \\sin (2017 x)=0 \\Leftrightarrow\\left\\{\\begin{array}{l}<br/>x \\in\\{0,1\\}\\\\<br/>\\sin (2017 x)=0<br/>\\end{array}\\right.$<br/>Với $\\sin (2017 x)=0 \\Rightarrow 2017 x=k \\pi, k \\in \\mathbb{Z} \\Rightarrow x=\\frac{k \\pi}{2017}, k \\in \\mathbb{Z}$. Số $k$ nguyên để $x \\in[0,1]$ là $k=0,1, \\ldots,\\left\\lfloor\\frac{2017}{\\pi}\\right\\rfloor=642$ ⇒ có $642-0+1=643$ nghiệm từ nhánh $\\sin (2017 x)=0$ (đã gồm $x=0$ ). Thêm nghiệm $x=1$ từ căn bậc hai (khác các nghiệm trên). Tổng số nghiệm: $643+1=644$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "4"
+                },
+                {
+                    "id": "B>",
+                    "content": "3"
+                },
+                {
+                    "id": "C>",
+                    "content": "2"
+                },
+                {
+                    "id": "D>",
+                    "content": "1"
+                },
+                {
+                    "id": "E>",
+                    "content": "642"
+                },
+                {
+                    "id": "F>",
+                    "content": "644"
+                },
+                {
+                    "id": "G>",
+                    "content": "645"
+                },
+                {
+                    "id": "H>",
+                    "content": "643"
+                }
+            ]
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hai hàm số $y=f(x)$ và $y=g(x)$ có đồ thị là hai đường cong như hình vẽ bên:<br/><img alt=\"A diagram of a function\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/Jl7qsl6.png-webp\" data-temp-key=\"temp-image-1766936308182-ofdd2thha\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>- Diện tích phần màu vàng là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-1\">____DRAG_DROP_1____</span>.<br/>- Diện tích phần màu xanh là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "B>"
+                }
+            ],
+            "explanation": "<br/>Trên đoạn $[a, b]$ phần tô vàng là diện tích giới hạn bởi đồ thị $y=f(x)$ và trục $O x$ (nằm cả trên lẫn dưới trục), do đó $S_{\\text {vàng }}=\\int_{a}^{b}|f(x)| d x$.<br/>Trên đoạn $[b, c]$ phần tô xanh là diện tích giới hạn bởi đồ thị $y=g(x)$ (đồ thị ở trên trục $O x$ ), nên $S_{\\mathrm{xanh}}=\\int_{b}^{c} g(x) d x$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$\\int_a^b |f(x)| dx$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$\\int_b^c g(x) dx$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$\\int_c^b g(x) dx$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$\\int_a^b f(x) dx$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Trong không gian $O x y z$, tập hợp những điểm $M(x ; y ; z)$ thoả mãn bất phương trình $36 \\leq(x-2)^{2}+(y-1)^{2}+(z+6)^{2} \\leq 81$ tạo thành một khối $(H)$. Thể tích của $(H)$ bằng?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Tập điểm thỏa $36 \\leq(x-2)^{2}+(y-1)^{2}+(z+6)^{2} \\leq 81$ là lớp vỏ cầu tâm $(2,1,-6)$ bán kính 6 và 9. Thể tích: $V=\\frac{4}{3} \\pi\\left(9^{3}-6^{3}\\right)=\\frac{4}{3} \\pi(729-216)=\\frac{4}{3} \\pi \\cdot 513=684 \\pi$",
+            "contentAnswerA": "$648 \\pi$.",
+            "contentAnswerB": "$421 \\pi$.",
+            "contentAnswerC": "$422 \\pi$.",
+            "contentAnswerD": "$684 \\pi$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Hệ số của $x^{8}$ trong khai triển của $(x-3)^{11}$ là?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 22-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                -4455
+            ],
+            "explanation": "<br/>$(x-3)^{11}=\\sum_{k=0}^{11}C_{11}^{k} x^{11-k}(-3)^{k}.$<br/>Hệ số của $x^{8}$ tương ứng $11-k=8 \\Rightarrow k=3$, do đó<br/>Hệ số $=C_{11}^{3}(-3)^{3}=165 \\cdot(-27)=-4455$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Biết $\\int_{0}^{1} \\frac{e^{2 x-1}-e^{-3 x}+1}{e^{x}} d x=\\frac{1}{a}+b(a, b \\in \\mathbb{R})$. Giá trị của $P=\\frac{a+b}{a b}$ bằng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>$I=\\int_{0}^{1} \\frac{e^{2 x-1}-e^{-3 x}+1}{e^{x}} d x=\\int_{0}^{1}\\left(e^{x-1}-e^{-4 x}+e^{-x}\\right) d x$<br/>Tính từng phần:<br/>$\\int_{0}^{1} e^{x-1} d x=\\left.\\frac{e^{x}}{e}\\right|_{0} ^{1}=1-\\frac{1}{e}, \\quad \\int_{0}^{1} e^{-4 x} d x=\\frac{1-e^{-4}}{4}, \\quad \\int_{0}^{1} e^{-x} d x=1-\\frac{1}{e}$<br/>Suy ra $I=2\\left(1-\\frac{1}{e}\\right)-\\frac{1-e^{-4}}{4}=\\frac{7}{4}-\\frac{2}{e}+\\frac{e^{-4}}{4}.$<br/>Viết $I=\\frac{1}{a}+b$ với các hằng $a, b \\in \\mathbb{R}$, khi đó $P=\\frac{a+b}{a b}=\\frac{1}{a}+\\frac{1}{b}$<br/>Chọn cách tách tự nhiên $\\frac{1}{a}=1-\\frac{1}{e^{4}}$ (phần xuất hiện từ hạng $e^{-4}$ ), ta được $P=\\frac{e^{4}-1}{e^{4}}=1-\\frac{1}{e^{4}}$.",
+            "contentAnswerA": "$\\frac{e^{4}-1}{e^{2}}$.",
+            "contentAnswerB": "$\\frac{1-e^{4}}{e^{2}}$.",
+            "contentAnswerC": "$\\frac{e^{4}-1}{e^{4}}$.",
+            "contentAnswerD": "$\\frac{1-e^{4}}{e^{4}}$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Cho khai triển $(1-2 x)^{20}=a_{0}+a_{1} x+a_{2} x^{2}+\\cdots+a_{20} x^{20}$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<br/>Khai triển<br/>$(1-2 x)^{20}=a_{0}+a_{1} x+a_{2} x^{2}+\\cdots+a_{20} x^{20}.$<br/>Hệ số: $a_{0}=C_{20}^{0}=1, a_{1}=C_{20}^{1}(-2)=-40, a_{2}=C_{20}^{2}(-2)^{2}=190 \\cdot 4=760$. Do đó $a_{0}-a_{1}+a_{2}= 1-(-40)+760=801 \\neq 800 \\Rightarrow$ mệnh đề a) Sai.<br/>Tổng các hệ số bằng giá trị tại $x=1:(1-2)^{20}=(-1)^{20}=1 \\neq-1 \\Rightarrow$ mệnh đề b) Sai.",
+            "contentYA": "$a_{0}-a_{1}+a_{2}=800$.",
+            "contentYB": "$a_{0}+a_{1}+a_{2}+\\cdots+a_{20}=-1$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Kéo và thả các phương án thích hợp vào chỗ trống.<br/>Cho hàm số $y=\\left(3^{x}\\right)^{x+2}+\\left(4^{x}\\right)^{x+2}-\\left(6^{x}\\right)^{x+2}$.<br/>- Số nghiệm nguyên của phương trình $y=1$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 25-1\">____DRAG_DROP_1____</span>.<br/>- $\\lim _{x \\rightarrow-\\infty} y=$ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 25-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "G>"
+                }
+            ],
+            "explanation": "<br/>a, Ta có: $y=\\left(3^{x}\\right)^{x+2}+\\left(4^{x}\\right)^{x+2}-\\left(6^{x}\\right)^{x+2}$<br/>$=3^{x(x+2)}+4^{x(x+2)}-6^{x(x+2)}$<br/>Đặt $t=x(x+2), t \\geq -1$. Ta có: $y=3^{t}+4^{t}-6^{t}$<br/>Đặt $f(t)=3^{t}+4^{t}-6^{t}$$f^{\\prime}(t)=3^{t} \\ln 3+4^{t} \\ln 4-6^{t} \\ln 6$<br/>$f^{\\prime}(t)=0 \\Leftrightarrow t \\approx 0,6213$ (casio)<br/>Bảng biến thiên:<br/><img alt=\"A math problem with numbers and arrows\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/PjhducL.png-webp\" data-temp-key=\"temp-image-1766936308184-bdrzfvpl6\" class=\"mx-auto\" style=\"\"><br/>Dựa vào BBT, ta thấy: $f(0)=f(1)=1$<br/>Trường hợp 1: $t=0 \\Rightarrow x^{2}+2 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0(\\mathrm{TM}) \\\\ x=-2(\\mathrm{TM})\\end{array}\\right.$<br/>Trường hợp 2: $t=1 \\Rightarrow x^{2}+2 x=1 \\Leftrightarrow\\left[\\begin{array}{l}x=-1+\\sqrt{2}(\\mathrm{~L}) \\\\ x=-1-\\sqrt{2}(\\mathrm{~L})\\end{array}\\right.$<br/>Vậy số nghiệm nguyên của phương trình $y=1$ là: 2<br/>b, Khi $x \\rightarrow-\\infty$ thì $t=x(x+2)=x^{2}+2 x \\rightarrow+\\infty$. Vì $6^{t}$ trội so với $3^{t}, 4^{t}$ nên<br/>$\\lim _{x \\rightarrow-\\infty} y= \\lim _{t \\rightarrow+\\infty}\\left(3^{t}+4^{t}-6^{t}\\right)=-\\infty$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "0"
+                },
+                {
+                    "id": "B>",
+                    "content": "1"
+                },
+                {
+                    "id": "C>",
+                    "content": "2"
+                },
+                {
+                    "id": "D>",
+                    "content": "3"
+                },
+                {
+                    "id": "E>",
+                    "content": "4"
+                },
+                {
+                    "id": "F>",
+                    "content": "5"
+                },
+                {
+                    "id": "G>",
+                    "content": "$-\\infty$"
+                },
+                {
+                    "id": "H>",
+                    "content": "$\\infty$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Một hộp phô mai có dạng hình trụ có bán kính đáy bằng $6,1(\\mathrm{~cm})$ và chiều cao $2,4(\\mathrm{~cm})$. Biết rằng trong hộp có 8 miếng phô mai giống nhau và được xếp sát nhau (cho vừa hộp) với độ dày giấy gói mỗi miếng không đáng kể. Diện tích toàn phần của một miếng phô mai gần nhất với kết quả nào sau đây?<br/><img alt=\"A triangle with a line in the middle\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/W1BlGNbz.png-webp\" data-temp-key=\"temp-image-1766936308186-gbizrdwd6\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Chia hình trụ bán kính $r=6.1(\\mathrm{~cm})$, cao $h=2.4(\\mathrm{~cm})$ thành 8 miếng như nhau ⇒ mỗi miếng là một \"nêm\" có góc ở tâm $\\theta=\\frac{2 \\pi}{8}=\\frac{\\pi}{4}$. Diện tích toàn phần của một miếng:<br/>$S=\\underbrace{\\frac{1}{8} \\cdot(2 \\pi r h)}_{\\text {mặt cong ngoài }}+\\underbrace{2(r h)}_{\\text {hai mặt phẳng xuyên trục }}+\\underbrace{2 \\cdot \\frac{\\theta}{2} r^{2}}_{\\text {hai mặt phẳng trên-dưới }}=\\frac{\\pi}{4} r h+2 r h+\\frac{\\pi}{4} r^{2}.$<br/>Thay $r=6.1, h=2.4$ :<br/>$S \\approx \\frac{\\pi}{4} \\cdot 14.64+2 \\cdot 14.64+\\frac{\\pi}{4} \\cdot 37.21 \\approx 11.49+29.28+29.22 \\approx 70 \\mathrm{~cm}^{2}$",
+            "contentAnswerA": "$70\\left(\\mathrm{~cm}^{2}\\right)$.",
+            "contentAnswerB": "$72\\left(\\mathrm{~cm}^{2}\\right)$.",
+            "contentAnswerC": "$75\\left(\\mathrm{~cm}^{2}\\right)$.",
+            "contentAnswerD": "$78\\left(\\mathrm{~cm}^{2}\\right)$."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Điền số nguyên thích hợp vào chỗ trống.<br/>Bác An cứ 2 ngày đi làm thì nghỉ 1 ngày, bác Bình cứ 1 ngày đi làm thì lại nghỉ 1 ngày. Biết rằng vào ngày mùng 1 tháng 3 cả hai bác đều đi làm cùng nhau, ngày hôm qua thì cả hai bác đều nghỉ.<br/>- Tính đến ngày cuối cùng của tháng 4, bác An đã nghỉ <span class=\"fill-blank\" data-blank-id=\"Câu 27-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> ngày.<br/>- Tính đến ngày cuối cùng của tháng 4, bác Bình đã nghỉ <span class=\"fill-blank\" data-blank-id=\"Câu 27-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> ngày.<br/>- Tính đến ngày cuối cùng của tháng 4, 2 bác đã nghỉ chung <span class=\"fill-blank\" data-blank-id=\"Câu 27-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span> ngày.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        20
+                    ]
+                },
+                {
+                    "2.": [
+                        30
+                    ]
+                },
+                {
+                    "3.": [
+                        10
+                    ]
+                }
+            ],
+            "explanation": "<br/>Gọi ngày $1 / 3$ là ngày thứ 1. Bác An làm 2 ngày nghỉ 1 ngày $\\Rightarrow$ chu kỳ 3 ngày, trong 61 ngày (từ $1 / 3$ đến $30 / 4$ ) có $\\left\\lfloor\\frac{61}{3}\\right\\rfloor=20$ ngày nghỉ. Bác Bình làm 1 ngày nghỉ 1 ngày ⇒ chu kỳ 2 ngày, nên có $\\left\\lfloor\\frac{61}{2}\\right\\rfloor=30$ ngày nghỉ. Hai bác cùng nghỉ khi ngày là bội chung của 2 và 3, tức các ngày $6,12, \\ldots, 60 \\Rightarrow$ có 10 ngày.<br/>Điền: 20/30/10"
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Từ một tờ giấy hình chữ nhật có kích thước $11(\\mathrm{~cm}) \\times 10(\\mathrm{~cm})$, ta có thể cắt được một hình tam giác đều có diện tích lớn nhất bằng $\\frac{a \\sqrt{3}}{4}$. Giá trị của $a$ bằng ( $\\mathrm{cm}^{2}$, làm tròn kết quả đến hàng phần trăm)?<br/><img alt=\"A purple rectangle with a white triangle\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/sEsVkxp.png-webp\" data-temp-key=\"temp-image-1766936308187-56nn1hq1g\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 28-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                121.9
+            ],
+            "explanation": "<br/><img alt=\"A purple triangle with numbers and a white background\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/6kJU6L.png-webp\" data-temp-key=\"temp-image-1766936308188-qzao5p67j\" class=\"mx-auto\" style=\"\"><br/>Gọi $s$ là cạnh tam giác đều. Đặt tam giác nghiêng một góc $\\theta \\in\\left[0^{\\circ}, 30^{\\circ}\\right]$ so với cạnh dài của hình chữ nhật (chiều rộng 11, chiều cao 10). Khi đó hộp chữ nhật bao tam giác có<br/>$W = s \\cdot \\cos \\theta$<br/>$H = s \\cdot \\cos(30 - \\theta) = s \\cdot (cos 30^\\circ \\cdot \\cos \\theta + \\sin 30^\\circ \\cdot \\sin \\theta) = \\frac{\\sqrt{3}}{2} s \\cdot \\cos \\theta + \\frac{1}{2} s \\cdot \\sin \\theta$<br/>Điều kiện ghép vừa: $W \\leq 11; H \\leq 10$. Tối ưu đạt được khi hai điều kiện cân bằng: $\\frac{11}{\\cos \\theta} = \\frac{10}{\\frac{\\sqrt{3}}{2} \\cos \\theta + \\frac{1}{2} \\sin \\theta} \\quad (s=s)$<br/>$\\Leftrightarrow 11(\\sqrt{3} \\cos \\theta + \\sin \\theta) = 20 \\cos \\theta$<br/>$\\Leftrightarrow 11 \\tan \\theta = 20 - 11\\sqrt{3}$<br/>$\\Rightarrow \\tan \\theta = \\frac{20 - 11\\sqrt{3}}{11}$<br/>Khi ấy $s^{2}=\\frac{11^{2}}{\\cos ^{2} \\theta}=11^{2}\\left(1+\\tan ^{2} \\theta\\right)=884-440 \\sqrt{3}$<br/>Diện tích lớn nhất của tam giác đều là $\\frac{\\sqrt{3}}{4} s^{2}=\\frac{a \\sqrt{3}}{4}$, suy ra $a=884-440 \\sqrt{3} \\approx 121.90$"
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Cho hàm số $f(x)=\\cos x \\cdot \\ln \\left(\\frac{1-x}{1+x}\\right)$, xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<br/>Với $f(x)=\\cos x \\cdot \\ln \\left(\\frac{1-x}{1+x}\\right)$ (miền xác định $(-1,1)$ ): $f(-x)=\\cos (-x) \\ln \\left(\\frac{1+x}{1-x}\\right)=\\cos x \\cdot\\left(-\\ln \\left(\\frac{1-x}{1+x}\\right)\\right)=-f(x)$, nên $f$ là hàm lẻ. Do đó $\\int_{-\\frac{1}{2}}^{\\frac{1}{2}} f(x) d x=0$",
+            "contentYA": "$f(x)$ là một hàm số lẻ $\\forall x \\in \\mathbb{R}$.",
+            "contentYB": "Giá trị của $\\int_{-\\frac{1}{2}}^{\\frac{1}{2}} f(x) d x=0$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Cho hình thang cân $A B C D$ có hai đáy $A B=20, C D=40$. Một điểm $M$ linh động trên cạnh $C D$ sao cho diện tích $\\triangle A D M$ bằng diện tích hình tứ giác $A B C M$. Độ dài đoạn $D M$ bằng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Hình thang cân $A B C D$ có $A B \\| C D, A B=20, C D=40$. Lấy $M \\in C D$ sao cho $S_{\\triangle A D M}=S_{A B C M}$.<br/>Vì $D, M, C$ thẳng hàng nên $A B C M$ và $\\triangle A D M$ là hai phần chia đôi toàn bộ hình thang: $S_{A B C D}=S_{A B C M}+S_{\\triangle A D M}=2 S_{\\triangle A D M}$<br/>Gọi $h$ là chiều cao hình thang, khi đó $S_{A B C D}=\\frac{A B+C D}{2} h=\\frac{20+40}{2} h=30 h, \\quad S_{\\triangle A D M}=\\frac{1}{2} D M \\cdot h.$<br/>Từ $2 S_{\\triangle A D M}=S_{A B C D}$ suy ra $\\frac{1}{2} D M h=15 h \\Rightarrow D M=30$.",
+            "contentAnswerA": "30.",
+            "contentAnswerB": "26.",
+            "contentAnswerC": "36.",
+            "contentAnswerD": "37."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Kéo và thả các phương án thích hợp vào chỗ trống.<br/>Cho hai điểm $A, B$ thuộc đồ thị hàm số $y=\\sin x$ trên đoạn $[0 ; \\pi]$, hai điểm $C, D$ thuộc trục hoành sao cho $A B C D$ là hình chữ nhật và $C D=\\frac{2 \\pi}{3}$.<br/><img alt=\"A graph of a function\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/3LO3ul.png-webp\" data-temp-key=\"temp-image-1766936308189-mmxd8y8dm\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>- Độ dài cạnh $B C$ bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 31-1\">____DRAG_DROP_1____</span>.<br/>- Diện tích tam giác $A B C$ bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 31-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "E>"
+                }
+            ],
+            "explanation": "<br/>Gọi $A(a, \\sin a), B(b, \\sin b)$ với $0 \\leq a<b \\leq \\pi ; D(a, 0), C(b, 0)$ sao cho $A B C D$ là hình chữ nhật. Do đó $A B // C D$ nên $\\sin a=\\sin b$. Trên $[0, \\pi]$ suy ra $b=\\pi-a$. Lại có $C D=b-a=\\frac{2 \\pi}{3}$ nên $\\pi-2 a=\\frac{2 \\pi}{3} \\Rightarrow a=\\frac{\\pi}{6}, \\quad b=\\frac{5 \\pi}{6}, \\quad \\sin a=\\sin b=\\frac{1}{2}$<br/>Vì vậy $B C=\\sin b=\\frac{1}{2}, \\quad S_{\\triangle A B C}=\\frac{1}{2} \\cdot A B \\cdot B C=\\frac{1}{2} \\cdot \\frac{2 \\pi}{3} \\cdot \\frac{1}{2}=\\frac{\\pi}{6}.$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$\\frac12$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$\\frac{\\sqrt{2}}{2}$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$\\frac{\\sqrt{3}}{2}$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$\\frac{\\pi \\sqrt{3}}{6}$"
+                },
+                {
+                    "id": "E>",
+                    "content": "$\\frac{\\pi}{6}$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Một bánh xe có bán kính $r=23(\\mathrm{dm})$ được dựng thẳng đứng sao cho logo BMW nằm song song với mặt đất như hình vẽ bên. Khi bánh xe lăn được một đoạn dài $80,5 \\pi(\\mathrm{dm})$, từ $A$ đến $B$, thì logo BMW nằm ở vị trí nào sau đây?<br/><img alt=\"A black and white image of a number of objects\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/NiQTBDG.png-webp\" data-temp-key=\"temp-image-1766936308191-5b0b8y75q\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/><img src=\"https://cdn.save.moe/b/8wGvLiqh.png-webp\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1766936308193-65935bctg\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Bánh xe bán kính $r=23(\\mathrm{dm})$ lăn không trượt một đoạn $s=80,5 \\pi(\\mathrm{dm})$. Chu vi bánh xe: $C=2 \\pi r=46 \\pi (\\mathrm{dm})$. Số vòng quay: $N=\\frac{s}{C}=\\frac{80,5 \\pi}{46 \\pi}=1,75=1+\\frac{3}{4}$<br/>Sau 1 vòng bánh trở lại hướng cũ; phần còn lại $\\frac{3}{4}$ vòng tương ứng quay $270^{\\circ}$ theo chiều kim đồng hồ. Vậy logo BMW cuối cùng quay $270^{\\circ}$ (tương đương $90^{\\circ}$ ngược chiều kim đồng hồ) so với ban đầu.<br/>Logo ở vị trí quay $270^{\\circ}$ theo chiều kim đồng hồ.",
+            "contentAnswerA": "Hình A",
+            "contentAnswerB": "Hình B",
+            "contentAnswerC": "Hình C",
+            "contentAnswerD": "Hình D"
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Có bao nhiêu cách để chia 10 món quà cho 3 bạn sao cho ai cũng có ít nhất 2 món?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Gọi số phần mỗi bạn nhận là $x_{1}, x_{2}, x_{3} \\geq 2$ và $x_{1}+x_{2}+x_{3}=10$. Đặt $y_{i}=x_{i}-2 \\geq 0$ thì $y_{1}+y_{2}+y_{3}=4$. Số nghiệm nguyên không âm của phương trình là $C_{4+3-1}^{3-1}=C_{6}^{2}=15$.",
+            "contentAnswerA": "30.",
+            "contentAnswerB": "42.",
+            "contentAnswerC": "21.",
+            "contentAnswerD": "15."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Một thước kẻ bị mất đi các vạch và chỉ còn các số $0,1,4$ và $6(\\mathrm{~cm})$ như hình vẽ bên. Tuy mất một vài vạch kẻ, ta vẫn có thể đo được các độ dài có giá trị nguyên từ 1 đến $6(\\mathrm{~cm})$ như sau:<br/>- Nếu muốn đo 1 (cm), ta sử dụng khoảng [0; 1] (cm).<br/>- Nếu muốn đo 2 (cm), ta sử dụng khoảng [4; 6] (cm).<br/>- Nếu muốn đo 3 (cm), ta sử dụng khoảng [1; 4] (cm).<br/>- Nếu muốn đo 4 (cm), ta sử dụng khoảng [0; 4] (cm).<br/>- Nếu muốn đo 5 (cm), ta sử dụng khoảng [1; 6] (cm).<br/>- Nếu muốn đo 6 (cm), ta sử dụng khoảng [0; 6] (cm).<br/><img alt=\"A purple rectangle with white background\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/ttNvkl.png-webp\" data-temp-key=\"temp-image-1766936308198-69u2xqrjo\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Nếu có một thước kẻ dài 10 (cm), ta có thể xoá đi tối đa bao nhiêu vạch đo mà vẫn đo được các độ dài có giá trị nguyên từ 1 đến 10 (cm)?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                5
+            ],
+            "explanation": "<br/>Gọi tập các vạch còn giữ lại là $S \\subset\\{0,1, \\ldots, 10\\}$ (chứa 0 và 10 ). Để đo được tất cả các độ dài nguyên $1, \\ldots, 10$ cần mọi số $1, \\ldots, 10$ đều là hiệu của hai phần tử của $S$. Với $n$ vạch thì nhiều nhất có $\\binom{n}{2}$ hiệu phân biệt; do đó $\\binom{4}{2}=6<10$ nên phải có ít nhất $n=6$ vạch. Tồn tại một tập $S$ gồm 6 vạch (chẳng hạn $\\{0,1,2,4,7,10\\}$ ) đủ để tạo ra mọi hiệu từ 1 đến 10. Vì ban đầu có 11 vạch $(0,1, \\ldots, 10)$, số vạch xoá nhiều nhất là $11-6=5$."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Với mọi $m \\in[\\alpha ; \\beta]$ thì đồ thị hàm số $f(x)=m+\\sqrt{m+1+\\sqrt{1+\\sin x}}$ cắt đồ thị hàm số $y=\\sin (x)$. Giá trị của $\\beta-4 \\alpha+\\sqrt{2}$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>Phương trình hoành độ giao điểm của $f(x)$ và $y$ là: $m + \\sqrt{m+1+\\sqrt{1+\\sin x}} = \\sin x$<br/>$\\Leftrightarrow m + 1 + \\sqrt{1+\\sin x} + \\sqrt{m+1+\\sqrt{1+\\sin x}} = \\sin x + 1 + \\sqrt{1+\\sin x} \\quad (1)$<br/>Đặt $h(t) = t + \\sqrt{t} \\quad (t \\geq 0)$<br/>$h'(t) = 1 + \\frac{1}{2\\sqrt{t}} > 0 \\quad \\forall t > 0$<br/>$\\Rightarrow h(t)$ là hàm đồng biến trên tập xác định<br/>$(1) \\Leftrightarrow h(m+1+\\sqrt{1+\\sin x}) = h(1+\\sin x)$<br/>$\\Rightarrow m + 1 + \\sqrt{1+\\sin x} = 1 + \\sin x$<br/>$\\Leftrightarrow m = 1 + \\sin x - \\sqrt{1+\\sin x} - 1$<br/>Đặt $u = \\sqrt{1+\\sin x} \\quad (0 \\le u \\le \\sqrt{2})$, ta có: $m = u^2 - u - 1$<br/>Đặt $g(u) = u^2 - u - 1 \\quad (0 \\le u \\le \\sqrt{2})$<br/>$g'(u) = 2u - 1 = 0 \\rightarrow u = \\frac{1}{2}$<br/>Ta có: $\\left\\{ \\begin{array}{l} g(0) = -1 \\\\ g\\left(\\frac{1}{2}\\right) = -\\frac{5}{4} \\\\ g(\\sqrt{2}) = 1-\\sqrt{2} \\end{array} \\right.$<br/>$\\Rightarrow m \\in \\left[ -\\frac{5}{4}; 1-\\sqrt{2} \\right] \\Rightarrow \\left\\{ \\begin{array}{l} \\alpha = -\\frac{5}{4} \\\\ \\beta = 1-\\sqrt{2} \\end{array} \\right.$<br/>$\\Rightarrow \\beta - 4\\alpha + \\sqrt{2} = 1 - \\sqrt{2} - 4\\left(-\\frac{5}{4}\\right) + \\sqrt{2} = 6$"
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Trong một tiết toán về số học, bạn Phước thắc mắc với cô giáo rằng: \"Làm sao để xác định những chữ số đầu tiên của một số rất lớn cơ nhỉ?\". Để giải đáp, cô giáo đã đưa ra gợi ý rằng: \"Em có thể thử chia số đang xét cho $10^{n}$, với $n$ là số chữ số của số đang xét, để thu được một số bé hơn với thứ tự các chữ số không thay đổi. Chẳng hạn, khi em chia một số rất lớn như 123456789 cho $10^{9}$ thì sẽ thu được số bé hơn, là 0,123456789, với thứ tự các chữ số $1234 \\ldots$ không thay đổi mà chỉ bị đẩy lùi ra sau dấu phẩy\". Suy nghĩ một lúc, bạn Phước liền thử xác định 6 chữ số đầu tiên của số $7^{2026}$ và đã thu được kết quả chính xác. Hỏi, kết quả mà bạn Phước thu được là?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                147444
+            ],
+            "explanation": "<br/>Gọi $N=7^{2026}$. Viết $\\log _{10} N=2026 \\log _{10} 7=k+\\alpha, \\quad 0 \\leq \\alpha<1$<br/>Khi đó $N=10^{k+\\alpha}=10^{k} \\cdot 10^{\\alpha}$ nên 6 chữ số đầu của $N$ bằng $\\left\\lfloor 10^{\\alpha} \\cdot 10^{5}\\right\\rfloor=\\left\\lfloor 10^{\\alpha+5}\\right\\rfloor$<br/>Tính với đủ độ chính xác: $\\log _{10} 7=0.8450980400142568 \\ldots$<br/>$2026 \\log _{10} 7=1712.168629068884339 \\ldots \\Rightarrow \\alpha=0.168629068884339 \\ldots$<br/>$10^{\\alpha+5}=10^{5.168629068884339 \\ldots}=147444.6669 \\ldots$<br/>Suy ra 6 chữ số đầu của $7^{2026}$ là $147444.$"
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Chọn ngẫu nhiên một số từ tập hợp các số tự nhiên gồm bốn chữ số phân biệt được lấy từ các chữ số $0,1,2,3,4,8,9$. Xác suất để chọn được số lớn hơn 2019 và bé hơn 9102 là $p$. Giá trị của $90 p$ bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 37-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                62
+            ],
+            "explanation": "<br/>Gọi $S=\\{0,1,2,3,4,8,9\\}$. Chọn số tự nhiên 4 chữ số có các chữ số phân biệt từ $S$.<br/>Tổng số trường hợp $T=6 \\cdot 6 \\cdot 5 \\cdot 4=720$ chữ số đầu không được là 0.<br/>Đếm các số $N$ với $2019<N<9102$ theo chữ số hàng nghìn $t$.<br/>- $t=2$: có $6 \\cdot 5 \\cdot 4=120$ số, trừ các số $\\leq 2019$: $\\{2013,2014,2018,2019\\} \\Rightarrow 4$ số.<br/>Suy ra có $120-4=116$ số thỏa.<br/>- $t=3,4,8$ : đều tự động $>2019$ và $<9102$, mỗi trường hợp có $6 \\cdot 5 \\cdot 4=120$ số.<br/>- $t=9$: cần $<9102$. Khi đó bắt buộc hàng trăm $=0$, và ta có các số dạng $90 b c$ với $b \\in\\{1,2,3,4,8\\}, c$ là chữ số khác $0,9, b \\Rightarrow 5 \\cdot 4=20$ số.<br/>Do đó<br/>$F=116+120+120+120+20=496, \\quad p=\\frac{F}{T}=\\frac{496}{720}$.<br/>$90 p=\\frac{496}{8}=62$"
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Cắt bỏ đi ba góc của một tam giác đều, có cạnh bằng $12(\\mathrm{~cm})$, các đoạn có độ dài bằng $x$ (cm), với $0<x<6$, thì ta thu được một hình tam giác đều nhỏ hơn với ba hình chữ nhật gắn ở các cạnh. Gập các hình chữ nhật đó lại để tạo ra một khối lăng trụ (như hình vẽ bên).<br/><img alt=\"A triangle with a triangle and a triangle with a triangle and a triangle with a triangle and a triangle with a triangle and a triangle with a triangle and a triangle with a triangle and a triangle with\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/NnuOHr86.png-webp\" data-temp-key=\"temp-image-1766936308205-y207a14cl\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>Tam giác đều ban đầu cạnh $12(\\mathrm{~cm})$. Cắt ở mỗi đỉnh những đoạn $x$ trên hai cạnh kề $(0<x<6)$ thì cạnh tam giác đều nhỏ ở giữa là $12-2 x$. Ba hình chữ nhật kề ba cạnh có kích thước $(12-2 x) \\times x$. Gập lại được lăng trụ tam giác có chiều cao $x \\cdot \\tan 30$ và đáy là tam giác đều cạnh $12-2 x$.<br/>$V(x)=S_{\\triangle \\text { đáy }} \\cdot x \\cdot \\tan 30=\\frac{\\sqrt{3}}{4}(12-2 x)^{2} \\cdot x \\cdot \\frac{\\sqrt{3}}{3} = x \\cdot (6-x)^{2}.$<br/>Do đó $V(x)$ là hàm bậc ba theo $x$ (mệnh đề a đúng).<br/>Xét $f(x)=x(6-x)^{2}$ trên $(0,6)$: $f^{\\prime}(x)=(6-x)(6-3 x)=0 \\Rightarrow x=2 \\text { (cực đại), } x=6 \\text { (biên). }$<br/>Suy ra $V_{\\text {max }}= 2 \\cdot 4^{2}=32 \\neq 32 \\sqrt 3 \\Rightarrow b$ sai, và tại cực đại $x=2 \\Rightarrow $ c đúng.",
+            "contentYA": "Biểu diễn mối quan hệ của $V$ theo $x$, ta được một hàm bậc ba.",
+            "contentYB": "Thể tích lớn nhất của khối lăng trụ sau bằng $32 \\sqrt 3$.",
+            "contentYC": "Khi thể tích của khối lăng trụ đạt lớn nhất thì $x=2$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Trong hệ trục $O x y$, cho hai điểm $A, B$ lần lượt thuộc hai đường tròn $\\left(C_{1}\\right): x^{2}+y^{2}=1$ và $\\left(C_{2}\\right): x^{2}+y^{2}=49$ sao cho tia $O x$ luôn là phân giác của góc $A B$. Khi $A, B$ thay đổi thì tập hợp những trung điểm $I$ của đoạn $A B$ tạo thành một hình ellipse ( $E$ ). Tiêu cự của $(E)$ bằng $K$, giá trị của $K^{2}$ bằng?<br/><img alt=\"A diagram of a circle with arrows and letters\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/puFK4k.png-webp\" data-temp-key=\"temp-image-1766936308206-84ndjywt5\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 39-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                28
+            ],
+            "explanation": "<br/>Điểm $A$ trên $x^{2}+y^{2}=1, B$ trên $x^{2}+y^{2}=49$ và $O x$ là phân giác $\\angle A O B$. Lấy góc cực $\\theta: A(\\cos \\theta, \\sin \\theta)$, $B(7 \\cos \\theta,-7 \\sin \\theta)$. Trung điểm $I$ của $A B$ có<br/>$I(4 \\cos \\theta,-3 \\sin \\theta) \\Rightarrow \\frac{x^{2}}{4^{2}}+\\frac{y^{2}}{3^{2}}=1,$<br/>là ellipse có $a=4, b=3$. Khi đó $c=\\sqrt{a^{2}-b^{2}}=\\sqrt{16-9}=\\sqrt{7}$. Tiêu cự $K=2 c=2 \\sqrt{7} \\Rightarrow K^{2}=28$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Cho biểu thức $P=\\left[1+\\tan \\left(1^{\\circ}\\right)\\right]\\left[1+\\tan \\left(2^{\\circ}\\right)\\right] \\cdots\\left[1+\\tan \\left(44^{\\circ}\\right)\\right]\\left[1+\\tan \\left(45^{\\circ}\\right)\\right]$. Xét tính đúng/sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>$P=\\prod_{k=1}^{45}\\left(1+\\tan k^{\\circ}\\right)$<br/>Ta có $(1+\\tan \\theta)\\left(1+\\tan \\left(45^{\\circ}-\\theta\\right)\\right)=(1+\\tan \\theta)\\left[1+\\frac{1-\\tan \\theta}{1+\\tan \\theta}\\right]=2$<br/>Ghép cặp $\\theta$ với $45^{\\circ}-\\theta$ cho $\\theta=1^{\\circ}, \\ldots, 22^{\\circ}$ và thừa số $1+\\tan 45^{\\circ}=2$, ta được $P=2^{22} \\cdot 2=2^{23}$.<br/>Do đó $n=23$ (số nguyên tố).<br/>Các mệnh đề:<br/>a, $\\tan (\\theta-\\varphi)=\\frac{\\tan \\theta-\\tan \\varphi}{1+\\tan \\theta \\tan \\varphi}$, Đúng.<br/>b, $[1+\\tan \\theta]\\left[1+\\tan \\left(45^{\\circ}-\\theta\\right)\\right]=2$, Đúng.<br/>c, $P=2^{n}$ với $n=23$ là số nguyên tố - Đúng.",
+            "contentYA": "Giá trị của $\\tan (\\theta-\\varphi)=\\frac{\\tan \\theta-\\tan \\varphi}{1+\\tan \\theta \\tan \\varphi}$.",
+            "contentYB": "Giá trị của $[1+\\tan (\\theta)]\\left[1+\\tan \\left(45^{\\circ}-\\theta\\right)\\right]=2$.",
+            "contentYC": "Biết rằng $P=2^{n}(n \\in \\mathbb{N})$, khi đó $n$ là một số nguyên tố."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-12-28T15:29:56.839Z",
+    "updatedAt": "2025-12-28T15:38:53.042Z",
+    "__v": 0
+}
