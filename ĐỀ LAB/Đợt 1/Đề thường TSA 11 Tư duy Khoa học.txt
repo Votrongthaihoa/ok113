@@ -1,0 +1,1491 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+        "title": "Đề thường TSA 11: Tư duy Khoa học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-11T16:56:04.232569+07:00",
+        "updated_at": "2026-02-19T18:41:08.051373+07:00",
+        "questions": [
+            {
+                "id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 1,
+                "content": "Bình moka, còn được gọi là máy pha cà phê espresso trên bếp, sử dụng vật lý cơ bản để tạo ra một tách cà phê được pha hoàn hảo. Nó bao gồm ba ngăn: một cho nước, một cho bột cà phê và một ngăn chứa cà phê đã pha.\n$/image_{https://cdn.save.moe/b/XYUqu75.png?dl=1}_{center}_{50}_{block}$\nKhi đặt nồi moka lên bếp, nước nóng lên và sinh ra hơi nước làm tăng áp suất trong khoang dưới cùng và đẩy nước lên qua ống dẫn vào khoang chứa cà phê bột. Áp suất trong khoang chứa nước của bình chỉ đạt 1,5bar, không bằng 9bar đạt được ở các máy pha cà phê Espresso truyền thống. Tuy nhiên, với sự đơn giản trong thiết kế, khả năng di động cũng như việc sử dụng được các nguồn nhiệt khác nhau đặc biệt khả năng tạo ra những tách cà phê chất lượng đã khiến nó trở thành một chiếc máy pha cà phê tiện ích mà bạn nên trải nghiệm.\nĐể bình pha hoạt động bình thường thì bình cứa dưới phải có không khí $V_0$. Tổng áp suất khí trong bình chứa được cho bởi phương trình: $p=p_{nước}+p_{khí}$\nCả áp suất không khí và áp suất hơi đều phụ thuộc vào nhiệt độ. Không khí có thể được coi là khí lý tưởng, nhưng áp suất hơi đối với hơi nước phải được tăng lên theo bảng sau:\n$/image_{https://cdn.save.moe/b/J6h1Vly.png?dl=1}_{center}_{50}_{block}$\nCác đường cong khác nhau thể hiện thể tích không khí ban đầu ở bình chứa phía dưới $V_0$ khác nhau.\n$/image_{https://cdn.save.moe/b/9ocfr.png?dl=1}_{center}_{50}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "6ca0f15e-89aa-4312-a6ec-99091aa2446c",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 1,
+                        "content": "Kéo thả vào vị trí thích hợp\nKhi bình nóng lên tới nhiệt độ ____ của nước, ____ được tạo thành ở ngăn dưới dịch chuyển lên do áp suất đi qua đường ống qua bột cà phê chứa màu sắc và mùi vị và tiếp tục đi lên ____ thành dạng lỏng ở bình chứa phía trên.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "nóng chảy",
+                                "hóa hơi",
+                                "sôi",
+                                "hơi nước",
+                                "nước",
+                                "ngưng tụ"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3,
+                                5
+                            ]
+                        },
+                        "answer_detail": "Dựa vào sơ đồ bài cung cấp và lý thuyết sự chuyển thể của chất.\r\nKhi bình nóng lên tới nhiệt độ hóa hơi của nước, hơi nước được tạo thành ở ngăn dưới dịch chuyển lên do áp suất đi qua đường ống qua bột cà phê chứa màu sắc và mùi vị và tiếp tục đi lên ngưng tụ thành dạng lỏng ở bình chứa phía trên.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "183fec80-7d88-48b3-873c-f5a19cf8a447",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 2,
+                        "content": "Nước phía dưới bình có nhiệt độ khoảng bao nhiêu thì hơi nước được tạo thành và di chuyển đi lên?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$70^{0}C$"
+                                },
+                                {
+                                    "content": "$100^{\\circ}C$"
+                                },
+                                {
+                                    "content": "$200^{0}C$"
+                                },
+                                {
+                                    "content": "$300^{\\circ}C$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Với nước, nhiệt độ sôi của nước là $100^{0}C$ là nhiệt độ để hơi bốc lên và có thể di chuyển lên trên.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "4c6e3b1d-34f9-4c79-9f59-7646bb9971ab",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 3,
+                        "content": "Sau khi máy pha được pha sẵn nước và bột cà phê, nhưng trước khi đưa lên bếp, nhiệt độ là $20^{0}C$ và tổng áp suất đo được là 102,2kPa. Xác định áp suất riêng phần không khí $(20^{0}C)$ trong bình chứa dưới.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "100kPa"
+                                },
+                                {
+                                    "content": "99,9kPa"
+                                },
+                                {
+                                    "content": "98kPa"
+                                },
+                                {
+                                    "content": "97kPa"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Từ bảng 1, tại nhiệt độ $20^{0}C$ thì áp của hơi nước là: 2,34(kPa)\r\nÁp suất tổng được xác định bằng: $p=p_{nước}+p_{khí}$\r\nKhi đó áp suất của riêng phần không khí phía trên là: $p_{khí}=p-p_{nước}=102,2-2,34=99,9kPa$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "e1d39ca4-77bd-43f0-bd9e-197a71cc7d85",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 4,
+                        "content": "Ở nhiệt độ gần giá trị nào thì cà phê bắt đầu xuất hiện ở bình trên trong máy pha, nếu có 100ml không khí ở bình dưới ? Nước trước tiên phải lấp đầy đường ống, tổng cộng 48ml",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$83^{0}C$"
+                                },
+                                {
+                                    "content": "$56^{0}C$"
+                                },
+                                {
+                                    "content": "$67^{\\circ}C$"
+                                },
+                                {
+                                    "content": "$49^{0}C$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Để bắt đầu có cà phê ở bình trên thì phải lấp đầy đường ống, tổng cộng 48ml trước.\r\nTừ đồ thị hình 2, với thể tích không khí ban đầu là 100ml thì sẽ ứng với đường màu xanh dương.\r\nTừ đồ thị hình 2, ta xác định được rằng để bắt đầu có nước cà phê ở bình trên thì nhiệt độ sẽ khoảng là $67^{0}C$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "ccf3e33e-ada7-4227-aa99-6aaa337a04e4",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 5,
+                        "content": "Với tốc độ gia nhiệt $10^{0}C/phút,$ khoảng sau bao lâu thì bình trên chứa đủ cà phê cho hai cốc là 90ml? (Một lần nữa, giả sử rằng đã có 100ml không khí trong bình chứa dưới ngay từ đầu và nước trước tiên phải lấp đầy đường ống, tổng cộng 48ml.)",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "5 phút"
+                                },
+                                {
+                                    "content": "6 phút"
+                                },
+                                {
+                                    "content": "8 phút"
+                                },
+                                {
+                                    "content": "7 phút"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Trước khi có cà phê ở bình trên thì cần tiên phải lấp đầy đường ống, tổng cộng 48ml.\r\nTổng thể tích nước ở đường ống và cà phê cần đạt là: $V=48ml+90ml=138ml$.\r\nTừ đồ thị ta thấy thì khoảng đến $80^{0}C$ thì ta sẽ đạt được lượng cà phê theo yêu cầu.\r\nVới tốc độ gia nhiệt $10^{0}C/phút$ thì thời gian cần là: $t=\\frac{80}{10}=8$ phút.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "6c0b0494-8495-4cca-a3e0-0aecfc757145",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 6,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống\nDo bị hết nước sạch nên người ta đã thay thế nước bằng các viên nước đá cho vào bình dưới và đun. Trong hình 3, đoạn AB sẽ ứng với quá trình ____, đoạn CD ứng với quá trình ____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "nóng chảy",
+                                "hóa hơi"
+                            ]
+                        },
+                        "answer_detail": "Từ đồ thị trên ta có: đoạn AB ứng với sự nóng chảy, đoạn CD ứng với hóa hơi.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "156c7342-444b-4658-a0ac-2f296b95d45a",
+                        "parent_id": "03a2e8d4-4015-499c-bd21-4487f498dd68",
+                        "position": 7,
+                        "content": "Giải thích tại sao khi đang nóng chảy, nhiệt độ của nước đá không tăng dù vẫn nhận được nhiệt năng. Năng lượng mà nó nhận được lúc này dùng để làm gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhiệt độ của chất rắn không tăng lên vì nhiệt năng bị mất đi do môi trường xung quanh trong giai đoạn này là rất lớn."
+                                },
+                                {
+                                    "content": "Nhiệt độ của chất rắn không tăng lên vì nhiệt năng được sử dụng để phá vỡ cấu trúc tinh thể và cung cấp động năng cho các phân tử nước đá."
+                                },
+                                {
+                                    "content": "Nhiệt độ của chất rắn không tăng lên vì nhiệt năng được sử dụng để làm nước đá tan thành dạng lỏng."
+                                },
+                                {
+                                    "content": "Nhiệt độ của chất rắn không tăng lên vì nhiệt năng được sử dụng để làm nóng không khí xung quanh nó."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Ta có: Nhiệt độ của chất rắn không tăng lên vì nhiệt năng được sử dụng để phá vỡ cấu trúc tinh thể và cung cấp động năng cho các phân tử nước đá.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 2,
+                "content": "Nhu cầu sử dụng điện của các hộ gia đình hiện nay ngày càng tăng cao. Mọi hoạt động sinh hoạt hằng ngày phần lớn đều cần dùng đến điện.\nTuy nhiên, vì tính chất của điện và để đảm bảo sự an toàn cho mọi người, máy phát điện không thể để gần các hộ gia đình. Do đó, để truyền tải điện năng đi xa để đáp ứng nhu cầu sử dụng của mọi nhà. Cũng như khi truyền tải điện năng đi xa, để giảm hao phí điện năng tốt hơn. Đồng thời khi cần phải truyền tải điện năng đi xa sẽ bằng các đường dây truyền tải điện. Người ta không sử dụng dòng điện 1 chiều mà sẽ sử dụng dòng điện xoay chiều cho các máy biến thế. Nguyên nhân vì quy trình hoạt động của máy biến thế dựa trên hiện tượng cảm ứng điện từ. Điều này cho thấy muốn có hiện tượng cảm ứng điện từ thì từ thông qua cuộn dây phải biến thiên. Vì vậy, chỉ có dòng điện xoay chiều mới làm cho từ thông biến thiên.\n$/image_{https://cdn.save.moe/b/GsGd5X.png?dl=1}_{center}_{50}_{block}$\nTrong quá trình truyền tải điện năng đi xa bằng dây dẫn, có một phần điện năng bị hao phí. Nguyên nhân là vì xuất hiện hiện tượng tỏa nhiệt trên đường dây. Với mô hình truyền tải lí tưởng khi nâng điện áp tại nguồn lên k lần thì công suất hao phí giảm đi $k^{2}$.\nGọi R là điện trở đường dây, P là công suất truyền đi, U là điện áp nơi phát, $cos\\varphi$ là hệ số công suất của mạch thì công suất hao phí trên dây là:\n$\\Delta P=RI^{2}=R\\frac{P^{2}}{(U~cos~\\varphi)^{2}}$\nHiệu suất truyền tải được xác định bằng: $H=\\frac{P-\\Delta P}{P}.100\\%$\nCách để giảm hao phí trên đường dây tải điện là giảm điện trở R của đường dây hoặc tăng hiệu điện thế hai đầu dây dẫn. Dòng điện xoay chiều có khả năng truyền tải ở cự li xa với hao phí thấp hơn với cách tăng hiệu điện thế hai đầu đây dẫn. Cách tăng hiện điện thế ở hai đầu dây dẫn được coi là cách tối ưu và hiệu quả nhất, được áp dụng nhiều trong thực tế. Cách làm đó được thực hiện bằng máy biến áp.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "7212739b-5cbe-49c9-8c9a-f327cf30893f",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 1,
+                        "content": "Điền từ thích hợp vào chỗ trống:\nCông suất hao phí do tỏa nhiệt trên đường dây dẫn điện tỉ lệ ____ với bình phương hiệu điện thế của hai đầu đường dây dẫn điện. Đồng thời, với cùng công suất, điệp áp truyền đi và điện trở đường dây, mạch có hệ số công càng ____ thì công suất hao phí càng nhỏ.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "nghịch",
+                                "lớn"
+                            ]
+                        },
+                        "answer_detail": "Từ công thức tính công suất hao phí: $\\Delta P=RI^{2}=R\\frac{P^{2}}{(U~cos~\\varphi)^{2}}$\r\nCông suất hao phí do tỏa nhiệt trên đường dây dẫn điện tỉ lệ nghịch với bình phương hiệu điện thế của hai đầu đường dây dẫn điện. Đồng thời, với cùng công suất, điệp áp truyền đi và điện trở đường dây, mạch có hệ số công càng lớn thì công suất hao phí càng nhỏ.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "bd51c3ba-8800-4e9a-a2d1-159edec7e003",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 2,
+                        "content": "Điện năng xoay chiều có khả năng truyền tải tốt hơn so với điện một chiều. Các lí do sau đây là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Điện xoay chiều có hao phí truyền tải thấp, không phụ thuộc hạ tầng truyền tải."
+                                },
+                                {
+                                    "content": "Điện xoay chiều có công suất rất cao và hao phí luôn thấp."
+                                },
+                                {
+                                    "content": "Điện xoay chiều có khả năng tăng điện thế tại nguồn bằng cách sử dụng máy biến áp nên có thể giảm được hao phí đường truyền."
+                                },
+                                {
+                                    "content": "Điện xoay chiều có thể tăng điện thế tại nguồn nên có thể tăng được công suất tại nguồn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "Ta có dòng điện xoay chiều sẽ có khả năng truyền tải ở cự li xa với hao phí thấp bằng cách tăng điện thế tại nguồn bằng cách sử dụng máy biến áp.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "43e03f1f-6271-407a-b1f6-fcd0e7b25f10",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 3,
+                        "content": "Hệ thống truyền tải lí tưởng với điện áp tại nguồn là 500kV. Giả sử tăng giá trị của điện áp nguồn lên 600kV khi đó công suất hao phí trên đường dây:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "giảm 1,44 lần"
+                                },
+                                {
+                                    "content": "tăng 1,44 lần"
+                                },
+                                {
+                                    "content": "tăng 2,88 lần"
+                                },
+                                {
+                                    "content": "giảm 2,88 lần"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Ta có: khi nâng điện áp nguồn lên k lần thì công suất hao phí giảm đi $k^{2}$ lần.\r\n$\\Rightarrow \\frac{P_{hp}}{P_{hp}^{\\prime}} = \\frac{U^{\\prime 2}}{U^2} = \\frac{600^2}{500^2} = 1,44$\r\n=\u003e công suất hao phí giảm 1,44 lần.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "ec0c561a-6715-41d6-a5b5-81563a3f0c44",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 4,
+                        "content": "Cho các công dụng sau, đâu sẽ không phải công dụng của máy biến áp:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tăng cường độ của dòng điện không đổi."
+                                },
+                                {
+                                    "content": "Giảm điện áp của dòng điện xoay chiều."
+                                },
+                                {
+                                    "content": "Giảm hao phí trong truyền tải điện năng đi xa."
+                                },
+                                {
+                                    "content": "Tăng điện áp của dòng điện xoay chiều."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Với máy biếp áp, sẽ tăng hoặc giảm điện áp của dòng điện và sẽ giảm hao phí của đường dây truyền tải. Việc tăng cường độ của dòng điện không đổi (dòng điện một chiều) không phải là công dụng của máy biến áp.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "1c0ee954-f45c-4814-a3ab-0952694ee424",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 5,
+                        "content": "Công suất hao phí dọc đường dây tải có điện áp 500 kV, khi truyền đi một công suất điện 12000 kW theo một đường dây có điện trở $10\\Omega$ là bao nhiêu? Coi hệ số công suất bằng 1.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "1736 kW."
+                                },
+                                {
+                                    "content": "576 kW."
+                                },
+                                {
+                                    "content": "5760 W"
+                                },
+                                {
+                                    "content": "57600 W."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Công suất hao phí của đường dây:\r\n$\\Delta P=RI^{2}=(\\frac{P}{U})^{2}R=(\\frac{12000}{500})^{2}.10=5760W$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "670f9499-df6f-49df-bf80-118aac0795e3",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 6,
+                        "content": "Điền số thích hợp vào chỗ trống:\nĐiện năng ở một trạm phát điện được truyền đi dưới điện áp 2kV và công suất truyền đi 200kW. Hiệu số chỉ của các công tơ điện ở trạm phát và ở nơi thu sau mỗi ngày đêm lệch nhau thêm 480kW.h. Hiệu suất của quá trình truyền tải điện là ____ %",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "90"
+                            ]
+                        },
+                        "answer_detail": "Hiệu số chỉ của các công tơ điện ở trạm phát và nơi thu sau mỗi ngày đêm lệch nhau thêm 480kWh là điện năng hao phí do tỏa nhiệt trên đường dây.\r\nCông suất hao phí: $\\Delta P=\\frac{A}{t}=\\frac{480kWh}{24h}=20kW=10\\%P$\r\nHiệu suất của đường dây trên: $H=\\frac{P-\\Delta P}{P}.100\\%=\\frac{P-10\\%P}{P}100\\%=90\\%$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "fbe22bf8-0303-4f89-bd1b-c6700e6aa0e3",
+                        "parent_id": "141b5c8b-4168-41a5-a991-f90041bc5281",
+                        "position": 7,
+                        "content": "Với trạm phát điện ở câu trên. Cần tăng điện áp ở trạm phát đến giá trị nào để điện năng hao phí trên đường dây chỉ bằng 2,5% điện năng truyền đi? Coi công suất truyền đi ở trạm phát điện không đổi.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "3kV"
+                                },
+                                {
+                                    "content": "4kV"
+                                },
+                                {
+                                    "content": "5kV"
+                                },
+                                {
+                                    "content": "6kV"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Công suất hao phí ban đầu: $\\Delta P_1=10\\%P$. Công suất hao phí lúc sau: $\\Delta P_2=2,5\\%P$.\r\nTa có:\r\n$U=U_{1}\\Rightarrow\\Delta P_1=10\\%P=R\\frac{P^{2}}{(U_{1}cos~\\varphi)^{2}}(1)$\r\n$U=U_{2}\\Rightarrow\\Delta P_2=2,5\\%P=R\\frac{P^{2}}{(U_{2}cos~\\varphi)^{2}}$ (2)\r\nLấy $(1)/(2)\\Rightarrow\\frac{10\\%P}{2,5\\%P}=\\frac{U_{2}^{2}}{U_{1}^{2}}$\r\n$\\Rightarrow4=\\frac{U_{2}^{2}}{U_{1}^{2}}\\Rightarrow U_{2}=2U_{1}=2.2kV=4kV$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 3,
+                "content": "Vào năm 1995, một số cá thể sói đã được đưa trở lại vào Vườn Quốc gia Yellowstone sau 50 năm vắng bóng. Trong vòng 10 năm kể từ thời điểm đó, những thay đổi về kích thước quần thể của nai sừng tấm và sói đã được theo dõi và ghi lại để lập thành biểu đồ trong Hình 1.\n$/image_{https://cdn.save.moe/b/cQLU8QS.png?dl=1}_{center}_{50}_{block}$\nHình 1. Kích thước quần thể của sói và nai sừng tấm ở VQG Yellowstone\nNgoài ra, ở Vườn Quốc gia Yellowstone, các nhà sinh thái học còn thu thập số liệu về tỷ lệ (%) cây dương bị tiêu thụ bởi động vật ăn cỏ, cũng như thông tin về hiệu quả sinh trưởng của cây dương ở 2 khu vực khác nhau (vùng ven sông và vùng cao), sau đó lập thành biểu đồ trong Hình 2. Biết rằng môi trường “vùng cao có địa hình tương đối bằng phẳng; trong khi môi trường ven sông có độ dốc cao, cây cối rậm rạp.\n$/image_{https://cdn.save.moe/b/R1oCXX3.png?dl=1}_{center}_{50}_{block}$\nHình 2. Khảo sát tỷ lệ (%) cây dương bị tiêu thụ bởi động vật ăn cỏ và sự sinh trưởng của cây dương ở vùng cao và ven sông.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "89db341d-b41e-4a2d-9f65-cc85f01b98b7",
+                        "parent_id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                        "position": 1,
+                        "content": "Mối quan hệ giữa sói và nai sừng tấm là mối quan hệ như nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hợp tác."
+                                },
+                                {
+                                    "content": "Ức chế cảm nhiễm."
+                                },
+                                {
+                                    "content": "Vật ăn thịt – con mồi."
+                                },
+                                {
+                                    "content": "Hỗ trợ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Mối quan hệ giữa sói và nai sừng tấm là mối quan hệ: Vật ăn thịt – con mồi.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "0c1a1685-bbca-41aa-b0c0-057eb1e083de",
+                        "parent_id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                        "position": 2,
+                        "content": "Khi kích thước quần thể sói đạt cao nhất thì kích thước quần thể nai sừng tấm là bao nhiêu cá thể?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Khoảng 110."
+                                },
+                                {
+                                    "content": "Khoảng 38."
+                                },
+                                {
+                                    "content": "Khoảng 25."
+                                },
+                                {
+                                    "content": "Khoảng 48."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Dựa vào hình 1, khi kích thước quần thể sói đạt cao nhất (khoảng năm 2004, đạt khoảng 100 con - trục tung bên trái là sói, bên phải là nai? Chú ý trục tung: Trục trái là \"Quần thể sói\" max 20, trục phải là \"Quần thể nai sừng tấm\" max 120. Đỉnh của đồ thị Sói ứng với giá trị khoảng 100 trên trục phải? Không, đồ thị Sói (nét liền tròn đặc) ứng với trục trái, đỉnh cao nhất khoảng 100? Không, trục trái max 20. Trục phải max 120. Đường liền có chấm tròn là Sói, đường đứt nét có chấm tròn là Nai.\r\nXem lại hình 1:\r\nĐường nét liền (Sói): Đỉnh cao nhất năm 2004, gióng sang trục trái (Quần thể sói) là khoảng... chờ đã, hình 1 có 2 trục tung. Trục trái ghi \"Quần thể sói\" max 20. Trục phải ghi \"Quần thể nai sừng tấm\" max 120. Đường liền ghi chú là \"Sói\" có giá trị thấp (quanh 20 trở xuống). Đường đứt nét ghi chú \"Nai sừng tấm\" có giá trị cao (quanh 100).\r\nVậy đỉnh cao nhất của Sói (đường liền) là năm 2004, giá trị khoảng 21 (trên trục trái).\r\nTại năm 2004, đường đứt nét (Nai) có giá trị khoảng... gióng sang trục phải: Dưới 40 một chút. Khoảng 38.\r\nLG: Khi kích thước quần thể sói đạt cao nhất (năm 2004) thì kích thước quần thể nai sừng tấm là khoảng 38 cá thể.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "1fdcdf15-fc6b-4ed5-b9d9-4fc5d64f8075",
+                        "parent_id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                        "position": 3,
+                        "content": "Kéo thả vào vị trí thích hợp\nNguyên nhân hình thành xu hướng thay đổi kích thước quần thể nai sừng tấm trong khoảng thời gian từ năm 2000 – 2005 là do cường độ hoạt động săn mồi của quần thể sói ____ trong khoảng thời gian này.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                "tăng lên",
+                                "giảm đi"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Giai đoạn 2000 – 2005, kích thước quần thể nai sừng tấm có xu hướng giảm xuống, là do kích thước quần thể sói tăng lên hay cường độ hoạt động săn mồi của quần thể sói tăng lên.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "6003715d-6859-4c6b-acef-6c43b148493a",
+                        "parent_id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                        "position": 4,
+                        "content": "Nhận xét nào sau đây chính xác về quần thể cây dương ở ở Vườn Quốc gia Yellowstone?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Kích thước quần thể cây dương ở vùng cao lớn hơn ở ven biển, nhưng hiệu quả sinh trưởng lại thấp hơn."
+                                },
+                                {
+                                    "content": "Kích thước quần thể cây dương ở vùng cao lớn hơn ở ven biên và hiệu quả sinh trưởng cũng cao hơn."
+                                },
+                                {
+                                    "content": "Kích thước quần thể cây dương ở vùng cao thấp hơn ở ven biển, nhưng hiệu quả sinh trưởng lại lớn hơn."
+                                },
+                                {
+                                    "content": "Kích thước quần thể cây dương ở vùng cao thấp hơn ở ven biển và hiệu quả sinh trưởng cũng thấp hơn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Như quan sát hình 2, biểu đồ bên trái \"Khảo sát % cây dương\" (có thể hiểu là tỉ lệ sống sót hoặc kích thước quần thể được bảo tồn?) - đường Vùng cao nằm trên Ven sông. Biểu đồ bên phải \"Chiều cao của cây dương\" (hiệu quả sinh trưởng) - đường Vùng cao cũng nằm trên Ven sông.\r\nVậy kích thước/tỉ lệ và hiệu quả sinh trưởng ở vùng cao đều cao hơn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "8f04cecd-8145-4568-a0b1-885c5a63f490",
+                        "parent_id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                        "position": 5,
+                        "content": "Kéo thả vào vị trí thích hợp\nGiải thích phù hợp nhất về việc nai sừng tấm là nguyên nhân gây nên chênh lệch số lượng và sự tăng trưởng của cây dương ở vùng cao và ven sông là: Nai sừng tấm thường xuyên di chuyển đến ____ do nơi này thích hợp cho việc trốn tránh thú ăn thịt.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                "vùng cao",
+                                "ven sông"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Giải thích phù hợp nhất về việc nai sừng tấm là nguyên nhân gây nên chênh lệch số lượng và sự tăng trưởng của cây dương ở vùng cao và ven sông là: Nai sừng tấm thường xuyên di chuyển đến ven sông, do nơi này thích hợp cho việc trốn tránh thú ăn thịt (ven sông có độ dốc cao, cây cối rậm rạp), ngoài ra nai sừng tấm thường đến đây để dễ dàng tiếp cận với nguồn nước sạch. (Điều này làm giảm số lượng và chiều cao cây dương ở ven sông so với vùng cao).",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "acaddfcf-6576-4d79-b4eb-d8d0b69ce22a",
+                        "parent_id": "96284fe1-faa6-4089-a766-6f95ec289140",
+                        "position": 6,
+                        "content": "Giả sử một virus gây bệnh truyền nhiễm ở sói xuất hiện trong Vườn Quốc gia Yellowstone. Khi đó, biểu đồ nào sau đây dự đoán đúng nhất về xu hướng thay đổi kích thước quần thể sói và nai sừng tấm?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$/image_{https://cdn.save.moe/b/k5dSO.png?dl=1}_{left}_{50}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://cdn.save.moe/b/RJ2MlKr.png?dl=1}_{left}_{50}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://cdn.save.moe/b/uFvOc.png?dl=1}_{left}_{50}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://cdn.save.moe/b/wH7ll.png?dl=1}_{left}_{50}_{block}$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Khi Virus gây bệnh truyền nhiễm ở sói xuất hiện sẽ làm quần thể sói giảm số lượng (đường liền giảm).\r\nMà nai sừng tấm là con mồi của sói nên khi quần thể sói giảm kích thước (giảm số lượng cá thể) thì nai sừng tấm sẽ tăng số lượng cá thể (đường đứt nét tăng).\r\nHình A thể hiện Sói giảm và Nai tăng. Phù hợp nhất.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "7266c993-f0d2-4f9e-8f2e-b122fcc06f30",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 4,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi từ 21 - 23\nVirus gây suy hô hấp cấp (SARS)\nSARS (Severe acute respiratory syndrome) là bệnh do virus thuộc chi Coronavirus gây ra, nhóm virus này có thể gây bệnh trên nhiều đối tượng động vật như dơi, chim, mèo, chó, lợn, gà, chuột, ngựa, cừu, lạc đà và cá voi. Tên gọi corona theo tiếng Latin có nghĩa là vương miện - do các gai glycoprotein trên bề mặt virus tạo thành cấu trúc hạt giống hình vương miện.\nVirus điển hình thuộc nhóm Coronavirus gây bệnh trên người là SARS-CoV. Các nhà khoa học cho rằng SARS-CoV có nguồn gốc từ động vật. SARS-CoV lây nhiễm từ động vật sang người. Khi nhiễm vào người, chúng thích nghi, biến đổi và lây nhiễm từ người này sang người khác.\nKhi xâm nhiễm vào trong cơ thể người, SARS-CoV tấn công vào các tế bào của đường hô hấp. Thời gian ủ bệnh của SARS-CoV thường là 4 - 7 ngày hoặc có thể lâu hơn. Biểu hiện đầu tiên của bệnh thường là sốt, ho và khó thở. Tiếp theo là các triệu chứng khác như đau họng, tiêu chảy. Khoảng dưới 25% người bệnh sẽ tiến triển các triệu chứng nặng như viêm phổi, suy hô hấp. Bệnh tiến triển nặng thường xuất hiện ở những bệnh nhân trên 50 tuổi và những người có bệnh nền như tiểu đường, tim mạch, viêm gan mạn tính.\nCuối năm 2019, virus SARS-CoV-2 bùng phát ở Vũ Hán, Trung Quốc, tạo thành đại dịch COVID-19. Virus này đã lây lan ra hơn 200 quốc gia và vùng lãnh thổ, gây tử vong nhiều triệu người và ảnh hưởng nghiêm trọng đến kinh tế, xã hội trên toàn thế giới.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "8bba9ce6-8eb7-46d4-855b-a510b8ee59d1",
+                        "parent_id": "7266c993-f0d2-4f9e-8f2e-b122fcc06f30",
+                        "position": 1,
+                        "content": "Khi nói về virus SARS-CoV, nhận định nào dưới đây chính xác?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "SARS-CoV có nguồn gốc từ thực vật. SARS-CoV lây nhiễm từ thực vật sang người."
+                                },
+                                {
+                                    "content": "SARS-CoV có nguồn gốc từ động vật. SARS-CoV lây nhiễm từ động vật sang người."
+                                },
+                                {
+                                    "content": "SARS-CoV có nguồn gốc từ động vật. SARS-CoV lây nhiễm từ động vật sang thực vật."
+                                },
+                                {
+                                    "content": "SARS-CoV có nguồn gốc từ thực vật. SARS-CoV lây nhiễm từ thực vật sang động vật."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Virus điển hình thuộc nhóm Coronavirus gây bệnh trên người là SARS-CoV. Các nhà khoa học cho rằng SARS-CoV có nguồn gốc từ động vật. SARS-CoV lây nhiễm từ động vật sang người.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "b067eca5-1171-4c04-b88e-93ffc692934d",
+                        "parent_id": "7266c993-f0d2-4f9e-8f2e-b122fcc06f30",
+                        "position": 2,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau\nNhững biểu hiện hay triệu chứng của bệnh COVID - 19 do virus SARS-CoV-2 khi chưa tiến triển nặng là?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sốt"
+                                },
+                                {
+                                    "content": "Khó thở"
+                                },
+                                {
+                                    "content": "Đau tim"
+                                },
+                                {
+                                    "content": "Đau họng"
+                                },
+                                {
+                                    "content": "Tiêu chảy"
+                                },
+                                {
+                                    "content": "Suy hô hấp."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                3,
+                                4
+                            ]
+                        },
+                        "answer_detail": "Biểu hiện đầu tiên của bệnh thường là sốt, ho và khó thở. Tiếp theo là các triệu chứng khác như đau họng, tiêu chảy.\r\nĐau tim không phải triệu chứng của bệnh COVID – 19.\r\nSuy hô hấp là triệu chứng của bệnh COVID – 19 khi đã tiến triển nặng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "ebf9d32d-30ab-4365-b513-4a8f96761cb6",
+                        "parent_id": "7266c993-f0d2-4f9e-8f2e-b122fcc06f30",
+                        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                        "position": 3,
+                        "content": "Khẳng định sau đúng hay sai?\nVirus SARS-CoV 2 khi gây bệnh COVID - 19 cho con người chỉ ảnh hưởng đến đường hô hấp và gây ra các triệu chứng liên quan đến đường hô hấp.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Virus SARS-CoV 2 khi gây bệnh COVID - 19 cho con người chỉ ảnh hưởng đến đường hô hấp và gây ra các triệu chứng liên quan đến đường hô hấp."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false
+                            ]
+                        },
+                        "answer_detail": "Khi xâm nhiễm vào trong cơ thể người, SARS-CoV tấn công vào các tế bào của đường hô hấp, khi đường hô hấp bị ảnh hưởng quá xấu dẫn đến suy hô hấp, làm cho việc hô hấp (thải khí và lấy khí) trở nên khó khăn sẽ ảnh hưởng đến việc trao đổi chất của tế bào và cơ thể.\nKhi bệnh COVID – 19 tiến triển nặng có thể ảnh hưởng đến nhiều cơ quan khác của bệnh nhân như tim, gan…\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-19T19:55:39.789282+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "7dfc8147-c73c-436c-b807-3289bcce7331",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 5,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi từ 24 - 26\nTừ những quan sát của mình, Darwin cho rằng các sinh vật cạnh tranh nhau (đấu tranh sinh tồn) dẫn tới chỉ một số ít cá thể được sinh ra sống sót qua mỗi thế hệ (số lượng cá thể trong tuổi sinh sản ít hơn số lượng cá thể được sinh ra). Trong đấu tranh sinh tồn, cá thể nào có biến dị thích nghi với môi trường sống sẽ có khả năng sống sót và sinh sản cao hơn, tạo ra được nhiều cá thể con hơn cho quần thể so với cá thể khác. Các cá thể mang biến dị thích nghi với môi trường sẽ tồn tại và tiếp tục phát triển. Kết quả là qua nhiều thế hệ, cá thể mang biến dị thích nghi trở nên phổ biến trong quần thể. Theo Darwin, quá trình này gọi là chọn lọc tự nhiên. Chọn lọc tự nhiên trong các điều kiện sống khác nhau có thể tạo nên nhiều loài từ một loài ban đầu.\nDưới tác động của chọn lọc tự nhiên, các biến dị thích nghi nhỏ được tích luỹ qua sinh sản và nhân lên qua các thế hệ, dần dần trở thành những biến đổi lớn và có thể dẫn tới hình thành loài mới.\nTrong môi trường tự nhiên, dưới tác động của rất nhiều nhân tố khác nhau lên cùng đối tượng, chọn lọc diễn ra theo nhiều hướng khác nhau dẫn đến sự tích luỹ các biến dị thích nghi theo các hướng khác nhau, dần dần dẫn tới sự phân li tính trạng, làm xuất hiện các loài khác nhau từ một loài ban đầu. Đồng thời, chọn lọc tự nhiên cũng dẫn tới sự diệt vong của một số loài.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "d8a5f6a6-e2a6-4fcf-ae83-81e1f1283e7e",
+                        "parent_id": "7dfc8147-c73c-436c-b807-3289bcce7331",
+                        "position": 1,
+                        "content": "Theo Darwin, mối quan hệ nào dưới đây của các sinh vật có vai trò quan trọng trong quá trình tiến hóa?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hỗ trợ."
+                                },
+                                {
+                                    "content": "Hợp tác."
+                                },
+                                {
+                                    "content": "Cạnh tranh."
+                                },
+                                {
+                                    "content": "Kí sinh."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Từ những quan sát của mình, Darwin cho rằng các sinh vật cạnh tranh nhau (đấu tranh sinh tồn) dẫn tới chỉ một số ít cá thể được sinh ra sống sót qua mỗi thế hệ\r\n=\u003e Cá thể nào có biến dị thích nghi với môi trường sống sẽ có khả năng sống sót và sinh sản cao hơn, tạo ra được nhiều cá thể con hơn cho quần thể so với cá thể khác.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "cbc94964-de44-4d9a-b833-8b31d1a7f372",
+                        "parent_id": "7dfc8147-c73c-436c-b807-3289bcce7331",
+                        "position": 2,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Kết quả của chọn lọc tự nhiên là những biến dị thích nghi."
+                                },
+                                {
+                                    "content": "Quá trình chọn lọc tự nhiên giải thích cho sự giả thuyết các loài đều có nguồn gốc chung."
+                                },
+                                {
+                                    "content": "Loài mới được hình thành từ những biến đổi lớn được tích lũy từ những biến dị nhỏ."
+                                },
+                                {
+                                    "content": "Chọn lọc tự nhiên trong phân hóa khả năng sống sót và sinh sản của các cá thể trong quần thể."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ]
+                        },
+                        "answer_detail": "Ý 1 đúng, Kết quả là qua nhiều thế hệ, cá thể mang biến dị thích nghi trở nên phổ biến trong quần thể, theo Darwin, quá trình này gọi là chọn lọc tự nhiên.\r\nÝ 2 đúng, Chọn lọc tự nhiên trong các điều kiện sống khác nhau có thể tạo nên nhiều loài từ một loài ban đầu.\r\nÝ 3 đúng, Dưới tác động của chọn lọc tự nhiên, các biến dị thích nghi nhỏ được tích luỹ qua sinh sản và nhân lên qua các thế hệ, dần dần trở thành những biến đổi lớn và có thể dẫn tới hình thành loài mới.\r\nÝ 4 đúng, Trong đấu tranh sinh tồn, cá thể nào có biến dị thích nghi với môi trường sống sẽ có khả năng sống sót và sinh sản cao hơn, tạo ra được nhiều cá thể con hơn cho quần thể so với cá thể khác.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "65faaed3-7a11-4e7f-9934-9bb350a4de26",
+                        "parent_id": "7dfc8147-c73c-436c-b807-3289bcce7331",
+                        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                        "position": 3,
+                        "content": "Khẳng định sau đúng hay sai?\nQuá trình chọn lọc tự nhiên trong tự nhiên lúc nào cũng thúc đẩy quá trình tiến hóa, đồng thời làm xuất hiện các loài mới.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Quá trình chọn lọc tự nhiên trong tự nhiên lúc nào cũng thúc đẩy quá trình tiến hóa, đồng thời làm xuất hiện các loài mới."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Trong môi trường tự nhiên, dưới tác động của rất nhiều nhân tố khác nhau lên cùng đối tượng, chọn lọc diễn ra theo nhiều hướng khác nhau dẫn đến sự tích luỹ các biến dị thích nghi theo các hướng khác nhau, dần dần dẫn tới sự phân li tính trạng, làm xuất hiện các loài khác nhau từ một loài ban đầu.\r\nĐồng thời, chọn lọc tự nhiên cũng dẫn tới sự diệt vong của một số loài.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-17T22:37:51.201347+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 6,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi từ 27 - 34\nPhân đạm cung cấp nitrogen (N), là nguyên tố có trong thành phần của protein, chlorophyll, amino acid, enzyme, vitamin của thực vật. Phân đạm thúc đẩy quá trình tăng trưởng của cây, giúp cây đẻ nhánh khỏe, ra lá nhiều, có khả năng quang hợp tốt,... làm tăng năng suất cây trồng.\nAmmionia (NH3) là nguyên liệu ban đầu của tất cả các quá trình sản xuất phân đạm. “Cuộc cách mạng xanh giúp loài người thoát khỏi tình trạng thiếu lương thực bắt đầu từ việc sản xuất ammonia theo quy trình Haber - Bosch như sau:\nAmmonia được điều chế từ nitrogen và hydrogen theo phương trình hóa học:\n$N_{2}+3H_{2} \\rightleftharpoons 2NH_{3}$ $\\Delta_{r}H_{298}^{o}=-92kJ$\nTrên thực tế, phản ứng này thường được thực hiện ở nhiệt độ khoảng $380^{\\circ}C-450^{\\circ}C,$ áp suất khoảng 25 – 200 bar và dùng chất xúc tác là Fe, có trộn thêm $Al_{2}O_{3}$, K2O. Tại thời điểm cân bằng, nồng độ ammonia, nitrogen và hydrogen trong buồng phản ứng là không đổi. Khi đó, hỗn hợp khí này được dẫn qua hệ thống làm lạnh để hóa lỏng ammonia. Ammonia lỏng sẽ được tách ra. Hỗn hợp khí hydrogen và nitrogen được tái sử dụng bằng cách đưa trở lại buồng phản ứng để tiếp tục lặp lại quá trình phản ứng tổng hợp ammonia.\nHiệu suất của quá trình này là 18%.\nPhân đạm có hàm lượng dinh dưỡng cao nhất hiện nay là phân đạm urea. Nguyên liệu chính dùng để sản xuất phân đạm urea là ammonia và carbon dioxide. Phản ứng tổng quát trong quá trình sản xuất phân urea như sau:\n$2NH_{3}+CO_{2}\\xrightarrow{t^{\\circ},p} H_{2}NCONH_{2}+H_{2}O$\nPhản ứng trên được thực hiện ở nhiệt độ $180-200^{\\circ}C$, áp suất khoảng 200 bar.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "28a7dc59-6994-4b7c-a3a7-8c34c1aa0170",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                        "position": 1,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nPhản ứng điều chế ammnonia từ hydrogen và nitrogen là phản ứng xảy ra hoàn toàn.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Phản ứng điều chế ammnonia từ hydrogen và nitrogen là phản ứng xảy ra hoàn toàn."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Phản ứng tổng hợp ammonia từ hydrogen và nitrogen được biểu diễn bằng mũi tên hai chiều là phản ứng thuận nghịch nên phản ứng xảy ra không hoàn toàn.\r\nVậy nhận định trên là nhận định sai.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-17T22:38:29.576159+07:00"
+                    },
+                    {
+                        "id": "1972ed12-58fd-4e1c-805d-2b2624269228",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "position": 2,
+                        "content": "Điền số thích hợp vào chỗ trống (Lấy đến chữ số thập phân thứ hai)\nĐộ dinh dưỡng của phân đạm được đánh giá theo tỉ lệ phần trăm về khối lượng của nguyên tố nitrogen. Độ dinh dưỡng của phân bón urea là ____ %.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "46,67"
+                            ]
+                        },
+                        "answer_detail": "Độ dinh dưỡng của phân bón urea là: $\\%N=\\frac{14.2}{14.2+4+12+16}.100\\%=46,67\\%$\r\nVậy số cần điền là: 46,67 hoặc 46.67",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "fbab5308-a1e0-4cfb-a988-e2caf0337682",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                        "position": 3,
+                        "content": "Nhận định trên là đúng hay sai?\nPhân urea là phân bón vô cơ.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Phân urea là phân bón vô cơ."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Phân bón urea là chất hữu cơ.\r\nVậy nhận định trên là nhận định sai.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-17T22:40:25.73785+07:00"
+                    },
+                    {
+                        "id": "da3e3be1-8244-4780-a6a1-79211d57277f",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "position": 4,
+                        "content": "Những nhận định dưới đây là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Phản ứng điều chế ammonia là phản ứng thu nhiệt vì thực hiện phản ứng ở nhiệt độ cao."
+                                },
+                                {
+                                    "content": "Phản ứng điều chế ammnoia và điều chế urea đều có bản chất là phản ứng oxi hóa khử."
+                                },
+                                {
+                                    "content": "Một mảnh đất bị chua (có pH \u003c 7) được người nông dân tiến hành cải tạo. Việc sử dụng kết hợp vôi bột (CaO) và phân urea có thể khắc phục tình trạng đất bị chua."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                false
+                            ]
+                        },
+                        "answer_detail": "- Phát biểu 1: Sai. Phản ứng tổng hợp ammonia là phản ứng tỏa nhiệt vì biến thiên enthalpy có giá trị nhỏ hơn 0.\r\n- Phát biểu 2: Sai. Phản ứng tổng hợp phân bón urea không phải là phản ứng oxi hóa – khử.\r\n- Phát biểu 3: Sai. Việc kết hợp vôi bột với phân urea có thể làm thất thoát lượng đạm trong phân bón do tạo thành hơi ammonia bay đi.\r\nVậy cả 3 phát biểu trên đều sai.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "713d9cce-766c-491a-b175-a810f25d81d6",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "position": 5,
+                        "content": "Điền số nguyên thích hợp vào chỗ trống\nNếu hiệu suất của quá trình sản xuất phân đạm urea từ $NH_{3}$ là 85% thì khối lượng urea sản xuất được từ 1,4 tấn $N_{2}$ là ____ kg.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "2550"
+                            ]
+                        },
+                        "answer_detail": "Số mol ammonia được điều chế là: $n_{NH_{3}}=\\frac{1,4.10^{6}}{28}.2.85\\%=85000mol$\r\nKhối lượng phân bón urea điều chế được là:\r\n$m_{urea}=\\frac{85000}{2}.60=2550000gam=2550kg$\r\nSố cần điền: 2550",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "3f061d9a-3bbd-47a6-a36a-2c1a34b9fe48",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "position": 6,
+                        "content": "Theo lý thuyết, những cách nào dưới đây làm tăng hiệu suất phản ứng tổng hợp NH3?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tăng áp suất của hệ phản ứng."
+                                },
+                                {
+                                    "content": "Tăng nhiệt độ phản ứng."
+                                },
+                                {
+                                    "content": "Liên tục bơm thêm khí N2, H2 vào trong bình phản ứng."
+                                },
+                                {
+                                    "content": "Thêm chất xúc tác."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "Các yếu tố làm phản ứng chuyển dịch theo chiều thuận là: Tăng áp suất của hệ phản ứng, Liên tục bơm thêm khí $N_{2}$, $H_{2}$ vào trong bình phản ứng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "64955406-3e93-4a31-9d29-222885e4d7e8",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "position": 7,
+                        "content": "Nhận định nào sai về phản ứng điều chế ammonia?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Phản ứng điều chế ammonia có sự tham gia của xúc tác kim loại."
+                                },
+                                {
+                                    "content": "Hiệu suất phản ứng có thể đạt tới 100%."
+                                },
+                                {
+                                    "content": "Ammonia có nhiệt độ sôi thấp hơn nitrogen và hydrogen."
+                                },
+                                {
+                                    "content": "Ammonia tham gia vào quá trình sản xuất phân đạm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Phát biểu sai là phát biểu B. Vì phản ứng không xảy ra hoàn toàn nên hiệu suất của phản ứng tổng hợp ammonia không đạt được 100%.\r\nChọn đáp án B.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "e8dbdd81-b70d-4d91-a093-48eabd24a9f1",
+                        "parent_id": "f1651e82-9dc3-43d3-947b-2c48d7736b78",
+                        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                        "position": 8,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nDo có hàm lượng nitrogen cao nên ammonia được sử dụng trực tiếp làm phân bón.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Do có hàm lượng nitrogen cao nên ammonia được sử dụng trực tiếp làm phân bón."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhận định trên là sai. Ammonia không được sử dụng trực tiếp mà là nguyên liệu của quá trình sản xuất phân bón.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-17T22:40:56.453125+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "11263242-b889-4418-94ab-1e1b64290b00",
+                "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                "position": 7,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi từ 35 - 40\nChất chỉ thị acid – base thường là những chất hữu cơ có tính acid – base yếu. Đây là những chất có khả năng biến đổi màu tùy thuộc vào giá trị pH của môi trường, thường được sử dụng trong quá trình chuẩn độ acid – base như một tín hiệu để nhận biết điểm dừng chuẩn độ.\nTrong dung dịch, chất chỉ thị acid – base phân li theo phương trình:\n$HInd \\rightleftharpoons Ind^{-} + H^{+}$\nMàu của dung dịch mà trong đó chất chỉ thị ở dạng phân tử (HInd) khác với màu của dung dịch ở dạng ion (Ind). Nếu cân bằng của phản ứng chuyển dịch về phía phải thì dung dịch có màu của dạng ion chất chỉ thị. Nếu cân bằng chuyển dịch về phía trái thì dung dịch có màu của phân tử chất chỉ thị.\nKhoảng pH giữa hai giá trị pH đổi màu của của chất chỉ thị là khoảng chuyển tiếp, có màu trung gian của 2 màu dạng phân tử và dạng ion.\nMột học sinh nghiên cứu 5 chất chỉ thị acid – base bằng cách sử dụng dung dịch nước không màu có độ pH khác nhau, thực hiện thí nghiệm trên đĩa nuôi cấy tế bào nhiều giếng (giếng là những chỗ lõm xuống có thể chứa một lượng nhỏ chất lỏng, xếp thành hàng và thành cột trên đĩa nhựa) như sau:\nThí nghiệm 1: Học sinh thêm dung dịch có $pH=0$ bằng 5 giếng ở cột đầu tiên, sau đó thêm dung dịch có $pH=1$ vào 5 giếng ở cột tiếp theo.... cho tới khi $pH=7$ Tiếp theo, học sinh đó thêm vào mỗi một giếng một giọt chất chỉ thị và thêm theo hàng ngang, lặp lại quá trình trên với bốn chất chỉ thị còn lại.\nMàu của dung dịch trong giếng sau khi thêm chỉ thị được ghi lại trong bảng 1:\n$/image_{https://cdn.save.moe/b/YBc2joK.png?dl=1}_{center}_{50}_{block}$\nThí nghiệm 2: Tiến hành tương tự thí nghiệm 1 nhưng sử dụng mẫu nước thử pH có độ pH từ 8 trở lên\n$/image_{https://cdn.save.moe/b/GVEq4VM.png?dl=1}_{center}_{50}_{block}$\nThí nghiệm 3: Học sinh được giao thành bốn dung dịch được kí hiệu từ $I-IV$ chưa biết pH. Với 4 dung dịch chỉ thị vàng metanil, xanh resorcin, nghệ và xanh indigo, học ính đã tiến hành thí nghiệm nhận biết pH của các các dung dịch trên và có kết quả theo bảng sau:\n$/image_{https://cdn.save.moe/b/ZjWhQj.png?dl=1}_{center}_{50}_{block}$\nGhi chú màu sắc: Đ: màu đỏ; V: màu vàng; T: tím; XB: xanh nước biển; XL: xanh lục; C: cam.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T18:42:44.901178+07:00",
+                "updated_at": "2026-02-11T18:42:44.901178+07:00",
+                "questions": [
+                    {
+                        "id": "12224c0e-7157-44d3-b5dd-c09da9f9500c",
+                        "parent_id": "11263242-b889-4418-94ab-1e1b64290b00",
+                        "position": 1,
+                        "content": "Điền từ thích hợp vào chỗ trống\nMàu sắc phù hợp để điền vào dấu hỏi chấm trong bảng 1 là màu ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "cam"
+                            ]
+                        },
+                        "answer_detail": "Thông qua thí nghiệm 2, thấy màu tại vị trí “?” là màu chuyển tiếp của chỉ thị vang metanil. Tại thí nghiệm 3, chỉ thị vàng metanil có màu cam ở mẫu IV nên màu sắc cần điền là màu cam.\r\nTừ cần điền: cam.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "ca78613c-3c45-46c2-8556-30f61fde98eb",
+                        "parent_id": "11263242-b889-4418-94ab-1e1b64290b00",
+                        "position": 2,
+                        "content": "Những nhận định sau đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Dạng Hind của chỉ thị vàng metanil có màu vàng."
+                                },
+                                {
+                                    "content": "Khoảng chuyển tiếp của chỉ thị nghệ nằm trong khoảng pH từ 7 – 9."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Nhận định 1: Sai. Dạng Hind của chỉ thị vàng metanil là dạng tồn tại trong môi trường acid và có màu đỏ theo thí nghiệm 1 tại $pH=0$ $pH=1$.\r\n- Nhận định 2: Đúng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "e993c7e1-6f40-4bc3-9820-2acac8512ef5",
+                        "parent_id": "11263242-b889-4418-94ab-1e1b64290b00",
+                        "position": 3,
+                        "content": "Một điểm khác nhau giữa thí nghiệm 2 so với thí nghiệm 3 là ở thí nghiệm 2",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "chỉ thị được thêm vào các dung dịch có pH đã biết."
+                                },
+                                {
+                                    "content": "chất chỉ thị được thêm vào dung dịch chưa biết pH."
+                                },
+                                {
+                                    "content": "chỉ thị vàng metanil đã được sử dụng."
+                                },
+                                {
+                                    "content": "chỉ thị xanh indigo đã được sử dụng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Một điểm khác nhau giữa thí nghiệm 2 so với thí nghiệm 3 là ở thí nghiệm 2 chỉ thị được thêm vào các dung dịch có pH đã biết.\r\nChọn đáp án A.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "5a7a5560-85a1-45c8-a505-2332795cde79",
+                        "parent_id": "11263242-b889-4418-94ab-1e1b64290b00",
+                        "position": 4,
+                        "content": "Điền từ thích hợp vào chỗ trống\n- Dựa vào kết quả của thí nghiệm 1 và 2, dung dịch có sự đổi màu rõ rệt từ màu ____ sang màu ____ là khoảng đổi màu của dung dịch nghệ.\n- Màu của dạng HInd của chỉ thị xanh indigo có màu ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "vàng",
+                                "đỏ",
+                                "xanh nước biển"
+                            ]
+                        },
+                        "answer_detail": "Dựa vào kết quả của thí nghiệm 1 và 2, dung dịch có sự đổi màu rõ rệt từ màu vàng sang màu đỏ là khoảng đổi màu của dung dịch nghệ.\r\n- Màu của dạng HInd của chỉ thị xanh indigo có màu xanh nước biển.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "85e6c4d0-1a96-4660-90fd-ea8c94836513",
+                        "parent_id": "11263242-b889-4418-94ab-1e1b64290b00",
+                        "position": 5,
+                        "content": "Chỉ thị propyl đỏ có khoảng chuyển tiếp từ $pH=4,6$ đến $pH=6,8$. Nếu propyl đỏ được đưa vào sử dụng trong thí nghiệm 1 và 2, nó sẽ cho kết quả gần giống nhất với kết quả do chỉ thị nào trong 5 chỉ thị trước đó?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Vàng metanil."
+                                },
+                                {
+                                    "content": "Xanh resorcin."
+                                },
+                                {
+                                    "content": "Nghệ."
+                                },
+                                {
+                                    "content": "Xanh indigo."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Từ bảng 1 ta thấy có duy nhất chỉ thị xanh resorcin chuyển màu trong khoảng $pH=4-7$ và gần giống với khoảng chuyển màu của propyl đỏ nhất.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-11T18:42:44.901178+07:00"
+                    },
+                    {
+                        "id": "455541fe-de33-4dc5-a8b9-c19b0fed313d",
+                        "parent_id": "11263242-b889-4418-94ab-1e1b64290b00",
+                        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+                        "position": 6,
+                        "content": "Phát biểu sau đây đúng hay sai?\nThông qua kết quả của thí nghiệm 1 và 3 thì một học sinh cho rằng dung dịch III có độ pH là 7,3.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Thông qua kết quả của thí nghiệm 1 và 3 thì một học sinh cho rằng dung dịch III có độ pH là 7,3."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng "
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhận định trên là sai, vì nếu dung dịch III có $pH=7,3$ thì khi nhỏ chỉ thị Xanh resorcin dung dịch thu được phải có màu đỏ.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T18:42:44.901178+07:00",
+                        "updated_at": "2026-02-17T22:15:59.255109+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "9a8ac594-6b45-4499-a161-37aeab5d817b",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "72737e05-6f37-4089-a6a4-6ac39b888b6e",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:37:17.606071+07:00",
+        "updated_at": "2026-03-02T15:37:17.606071+07:00",
+        "submited_at": "2026-03-02T15:37:17.606071+07:00"
+    }
+}

@@ -1,0 +1,1277 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+        "title": "Đề thường TSA 15: Tư duy Toán học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-11T04:49:50.940384+07:00",
+        "updated_at": "2026-02-12T14:37:27.676108+07:00",
+        "questions": [
+            {
+                "id": "ba2eabd1-fa61-4fe5-ad66-af457826286e",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 1,
+                "content": "Một bộ ghép hình gồm các miếng gỗ, mỗi miếng gỗ được đặc trưng bởi 4 tiêu chuẩn: chất liệu, màu sắc, hình dạng, kích cỡ. Biết rằng có hai chất liệu gỗ, nhựa và 4 màu: xanh, đỏ, lam, vàng; 4 hình dạng: tròn, vuông, tam giác, lục giác, ngoài ra còn 3 kích cỡ nhỏ, vừa, lớn. Hỏi có bao nhiêu miếng gỗ?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "45."
+                        },
+                        {
+                            "content": "96."
+                        },
+                        {
+                            "content": "58."
+                        },
+                        {
+                            "content": "84."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Sử dụng quy tắc nhân.\r\nSố miếng gỗ là: $2.4.4.3=96$ miếng.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "f607228d-ac51-46a5-b90d-d73374e260bd",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 2,
+                "content": "Cho hình hộp chữ nhật ABCD.A'B'C'D' có đáy là hình vuông cạnh a và chiều cao $a\\sqrt{2}$ Khẳng định nào sau đây đúng?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$AC^{\\prime}=a\\sqrt{3}$."
+                        },
+                        {
+                            "content": "$AC^{\\prime}=2a$."
+                        },
+                        {
+                            "content": "Góc giữa $AC^{\\prime}$ và đáy ABCD là $45^{\\circ}$."
+                        },
+                        {
+                            "content": "Góc giữa $AC^{\\prime}$ và đáy ABCD là $60^{\\circ}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/Bm0El.png?dl=1}_{left}_{30}_{block}$\nTa có: $AC=\\sqrt{AB^2+BC^2}=\\sqrt{a^2+a^2}=a\\sqrt{2}$\n$AC^{\\prime}=\\sqrt{AC^2+CC'^2}=\\sqrt{(a\\sqrt{2})^2+(a\\sqrt{2})^2}=\\sqrt{4a^2}=2a$\nGóc giữa $AC^{\\prime}$ và đáy ABCD là góc $\\widehat{C'AC}$.\n$tan\\widehat{C'AC}=\\dfrac{CC'}{AC}=\\dfrac{a\\sqrt{2}}{a\\sqrt{2}}=1\\Rightarrow\\widehat{C'AC}=45^{\\circ}$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "f8e5fe00-1f15-4757-b93e-ed54bf6e179b",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 3,
+                "content": "Khai triển $Q(x)=(26x+5y)^{n^{2}-8n+40}+2000$ có tối thiểu bao nhiêu số hạng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "26."
+                        },
+                        {
+                            "content": "25."
+                        },
+                        {
+                            "content": "15."
+                        },
+                        {
+                            "content": "12."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có: $(26x+5y)^{n^{2}-8n+40}$ có số mũ là $n^{2}-8n+40=(n-4)^{2}+24\\ge24$\r\nKhi đó $(26x+5y)^{n^{2}-8n+40}$ có tối thiểu $24+1=25$ số hạng.\r\n$\\Rightarrow Q(x)$ có tối thiểu 26 số hạng.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "281bc942-ed0a-4003-ab60-03b4573ba07b",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 4,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho hàm số $y=\\dfrac{mx-9}{x-m}$ Tập hợp tâm đối xứng của đường cong trên là đường thẳng $y=kx$ bỏ đi hai điểm (3;3) và (-3;-3). Khi đó $k=$ ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1"
+                    ]
+                },
+                "answer_detail": "Đồ thị có tâm đối xứng nếu có đường tiệm cận đứng $x=m$ và tiệm cận ngang $y=m$, đồng thời $m.m-9.1\\ne0\\Leftrightarrow m\\ne\\pm3$.\r\nTâm đối xứng của của đường cong là $I(m;m)$.\r\nTập hợp tâm đối xứng của đường cong trên là đường thẳng $y=x$ (với $x=m, y=m$) bỏ đi hai điểm (3;3) và (-3;-3).\r\nVậy $k=1$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "50d92e19-64aa-40a9-8b4f-72f6fbf9a960",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 5,
+                "content": "Cho hàm số $f(x)$ có đạo hàm là $f^{\\prime}(x)$. Đồ thị $y=f^{\\prime}(x)$ được cho như hình vẽ. \n$/image_{https://cdn.save.moe/b/PJB2vDk.png?dl=1}_{left}_{40}_{block}$\nBiết rằng $f(0)+f(3)=f(2)+f(5)$.\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số nghịch biến trên khoảng (-∞;0)."
+                        },
+                        {
+                            "content": "$min_{[0;5]}f(x)=f(2)$."
+                        },
+                        {
+                            "content": "$max_{[0;5]}f(x)=f(0)$ ."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Dễ thấy hàm số không nghịch biến trên khoảng (-∞;0) (vì đồ thị $f'(x)$ có phần nằm trên trục hoành).\nBBT:\n$/image_{https://cdn.save.moe/b/0wYfZiL.png?dl=1}_{left}_{40}_{block}$\nTừ bảng biến thiên suy ra $min_{[0;5]}f(x)=f(2)$ và $max_{[0;5]}f(x)=max\\{f(0);f(5)\\}$.\nTheo bảng biến thiên thì $f(3)\u003ef(2)$ nên $f(3)-f(2)\u003e0$.\nTheo giả thiết, ta có $f(0)+f(3)=f(2)+f(5)\\Leftrightarrow f(5)=f(0)+[f(3)-f(2)]\u003ef(0)$.\nSuy ra $max_{[0;5]}f(x)=f(5)$.\nVậy:\n- Phát biểu a sai.\n- Phát biểu b đúng.\n- Phát biểu c sai.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "6e19a290-704c-40b0-b059-a863c740c8fc",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 6,
+                "content": "Cho a,b, $c\u003e0$ và a, $b\\ne1$ Trong các khẳng định sau, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$a^{log_{a}b}=b$."
+                        },
+                        {
+                            "content": "$log_{a}b=log_{a}c\\Leftrightarrow b=c$."
+                        },
+                        {
+                            "content": "$log_{b}c=\\dfrac{log_{a}c}{log_{a}b}$"
+                        },
+                        {
+                            "content": "$log_{a}b\u003elog_{a}c\\Leftrightarrow b\u003ec$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Khẳng định D sai vì $log_{a}b\u003elog_{a}c\\Leftrightarrow b\u003ec$ chỉ đúng khi $a\u003e1$, còn khi $0\u003ca\u003c1$ thì bất đẳng thức đổi chiều.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "f207425c-9fad-43e1-8d12-5383641326e9",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 7,
+                "content": "Cho hàm số $y=f(x)=ax^{3}+bx^{2}+cx+d$ có đồ thị như hình vẽ bên.\n$/image_{https://cdn.save.moe/b/1OfiKZx.png?dl=1}_{left}_{40}_{block}$\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số có hai điểm cực trị."
+                        },
+                        {
+                            "content": "$f(x)\u003e0$ trên (-∞;0)."
+                        },
+                        {
+                            "content": "$f^{\\prime}(-3)\u003cf^{\\prime}(-1)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "Hàm số có hai điểm cực trị là $x=-2$ và $x=0$ (Đúng).\r\nTrên (-∞;0), đồ thị hàm số $f(x)$ có phần nằm dưới trục hoành, nên $f(x)\u003e0$ là Sai.\r\nTrên khoảng (-∞;-2), đồ thị hàm số $f(x)$ đồng biến nên $f^{\\prime}(-3)\u003e0$. Trên khoảng (-2;0), đồ thị hàm số $f(x)$ nghịch biến nên $f^{\\prime}(-1)\u003c0$.\r\nSuy ra $f^{\\prime}(-3)\u003ef^{\\prime}(-1)$. Vậy phát biểu c Sai.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "7a5ae88c-9cb2-451c-91c0-ec06670a5a65",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 8,
+                "content": "Cho hàm số $y=\\dfrac{x+3}{x-1}$ có đồ thị (C). Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Đồ thị (C) cắt 2 trục tọa độ tại 2 điểm A, B thoả $OA=OB$."
+                        },
+                        {
+                            "content": "Đường thẳng $y=x-2$ cắt (C) tại 2 điểm phân biệt $A(x_{A};y_{A})$, $B(x_{B};y_{B})$ thoả $x_{A}+x_{B}=-4$."
+                        },
+                        {
+                            "content": "Phương trình $\\dfrac{x+3}{x-1}=-x+m$ vô nghiệm khi và chỉ khi $m\u003c-2$ hoặc $m\u003e6$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "a) Đồ thị (C) cắt trục hoành tại điểm $A(-3;0)$, cắt trục tung tại điểm $B(0;-3)$. Khi đó $OA=OB=3$. (Đúng)\r\nb) Hoành độ giao điểm là nghiệm của $\\dfrac{x+3}{x-1}=x-2 \\Leftrightarrow x+3 = x^2-3x+2 \\Leftrightarrow x^2-4x-1=0$. Theo Vi-et, $x_A+x_B=4 \\neq -4$. (Sai)\r\nc) Phương trình $\\dfrac{x+3}{x-1}=-x+m \\Leftrightarrow x^2-mx+m+3=0$ (với $x \\neq 1$). Phương trình vô nghiệm khi $\\Delta \u003c 0 \\Leftrightarrow m^2-4m-12 \u003c 0 \\Leftrightarrow -2 \u003c m \u003c 6$. (Sai, vì đề bài nói $m\u003c-2$ hoặc $m\u003e6$).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "19a69970-b505-4d63-b321-0fa1a5332952",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 9,
+                "content": "Trong không gian Oxyz, có bao nhiêu mặt cầu bán kính 2023 tiếp xúc với cả 3 mặt phẳng Oxy, Oxz, Oyz?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "4."
+                        },
+                        {
+                            "content": "8."
+                        },
+                        {
+                            "content": "Vô số."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Trong không gian Oxyz, có 8 góc phần tám, mỗi góc phần tám sẽ có một mặt cầu bán kính 2023 tiếp xúc với cả 3 mặt phẳng tọa độ. Vậy có 8 mặt cầu.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "b810848c-3b0e-413e-ae2e-e7ab6153e729",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 10,
+                "content": "Tập nghiệm của bất phương trình $2^{x}+2^{x+1}\\le3^{x}+3^{x-1}$ là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$[2;+\\infty)$."
+                        },
+                        {
+                            "content": "$(2;+\\infty)$."
+                        },
+                        {
+                            "content": "$(-\\infty;2)$."
+                        },
+                        {
+                            "content": "$(2;+\\infty)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$2^{x}+2^{x+1}\\le3^{x}+3^{x-1}\\Leftrightarrow2^x(1+2)\\le3^x(1+\\dfrac{1}{3})$\r\n$\\Leftrightarrow3.2^{x}\\le\\dfrac{4}{3}.3^{x}\\Leftrightarrow\\dfrac{3^{x}}{2^{x}}\\ge3:\\dfrac{4}{3}=\\dfrac{9}{4}$\r\n$\\Leftrightarrow(\\dfrac{3}{2})^{x}\\ge(\\dfrac{3}{2})^{2}\\Leftrightarrow x\\ge2$.\r\nTập nghiệm là $[2;+\\infty)$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "4867eaf3-57f9-4ee0-9619-b5d85e7af1d0",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 11,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho hàm số $f(x)=3+m~sin(x+\\dfrac{\\pi}{4})$. Để giá trị lớn nhất của hàm số trên $\\mathbb{R}$ không vượt quá 10 thì có ____ giá trị nguyên của m.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "15"
+                    ]
+                },
+                "answer_detail": "Ta có: $f(x)\\le3+|m|\\Rightarrow maxf(x)=3+|m|$\r\nĐể giá trị lớn nhất của hàm số không vượt quá 10 thì $3+|m|\\le10\\Leftrightarrow|m|\\le7\\Leftrightarrow-7\\le m\\le7$.\r\nSố giá trị nguyên của m là $7 - (-7) + 1 = 15$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "5a49999e-c9a6-417d-86ec-8dc4935aebc9",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 12,
+                "content": "Cho hình phẳng (H) giới hạn bởi các đường thẳng $x=y^{2}+2,$ $x=0$ $y=1,$ $y=2$ Gọi V là thể tích của khối tròn xoay được tạo thành khi quay (H) xung quanh trục Oy. Mệnh đề nào dưới đây đúng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$V=\\displaystyle \\int_{1}^{2}(y^{2}+2)^{2}dy$."
+                        },
+                        {
+                            "content": "$V=\\displaystyle \\int_{1}^{2}(y^{2}+2)dy$."
+                        },
+                        {
+                            "content": "$V=\\pi\\displaystyle \\int_{1}^{2}(y^{2}+2)^{2}dy$."
+                        },
+                        {
+                            "content": "$V=\\pi\\displaystyle \\int_{1}^{2}(y^{2}+2)dy$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Công thức tính thể tích khối tròn xoay quanh trục Oy giới hạn bởi $x=g(y)$, trục tung và $y=a, y=b$ là $V=\\pi\\displaystyle \\int_{a}^{b}[g(y)]^2dy$.\r\nVậy $V=\\pi\\displaystyle \\int_{1}^{2}(y^{2}+2)^{2}dy$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "e72476cc-7d22-44f8-9159-49aa5b4b6c52",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 13,
+                "content": "Cho parabol (P): $y=x^{2}$ và một đường thẳng d thay đổi cắt (P) tại hai điểm A, B sao cho $AB=2018$ Gọi S là diện tích hình phẳng giới hạn bởi (P) và đường thẳng d . Tìm giá trị lớn nhất $S_{max}$ của S.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$S_{max}=\\dfrac{2018^{3}+1}{6}$"
+                        },
+                        {
+                            "content": "$S_{max}=\\dfrac{2018^{3}}{3}.$"
+                        },
+                        {
+                            "content": "$S_{max}=\\dfrac{2018^{3}-1}{6}$"
+                        },
+                        {
+                            "content": "$S_{max}=\\dfrac{2018^{3}}{6}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Giả sử $A(a;a^{2})$; $B(b;b^{2})(b\u003ea)$. Diện tích $S=\\dfrac{1}{6}(b-a)^{3}$.\r\nTa có $AB^2 = (b-a)^2 + (b^2-a^2)^2 = (b-a)^2 [1+(b+a)^2] = 2018^2$.\r\nSuy ra $(b-a)^2 \\le 2018^2 \\Rightarrow b-a \\le 2018$.\r\n$S = \\dfrac{1}{6}(b-a)^3 \\le \\dfrac{2018^3}{6}$.\r\nVậy $S_{max}=\\dfrac{2018^{3}}{6}$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "2580578d-4ca2-4dbe-a8c8-f2ce14f30ae8",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 14,
+                "content": "Cho bảng biến thiên:\n$/image_{https://cdn.save.moe/b/2E2PVW.png?dl=1}_{left}_{40}_{block}$\nChọn mệnh đề đúng:\n",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hàm số luôn đạt cực đại tại $x=1$."
+                        },
+                        {
+                            "content": "Hàm số có 2 cực trị."
+                        },
+                        {
+                            "content": "Đồ thị hàm số có đường tiệm cận đứng $x=0$."
+                        },
+                        {
+                            "content": "Hàm số đạt cực đại tại $x=-1$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": "Dễ thấy đạo hàm đổi dấu từ dương sang âm qua $x=1$ và hàm số xác định tại đây nên hàm số đạt cực đại tại $x=1$. (c1 đúng)\r\nHàm số có đạo hàm đổi dấu qua $x=0$ nhưng hàm số không xác định tại $x=0$ nên $x=0$ không là cực trị. Hàm số chỉ có 1 cực trị tại $x=1$. (c2 sai)\r\nTa thấy $lim_{x\\rightarrow0^{+}}f(x)=-\\infty$ (hoặc nhìn vào bảng biến thiên tại x=0 có 2 gạch sọc và giới hạn vô cực) nên $x=0$ là đường tiệm cận đứng. (c3 đúng)\r\nKhông có thông tin về $x=-1$ là cực đại. (c4 sai)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "5e595a13-8148-4766-927f-89a55f70d54a",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 15,
+                "content": "Điền số thích hợp vào chỗ trống\nCho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ có đồ thị như hình vẽ. \n$/image_{https://cdn.save.moe/b/4tyWg6.png?dl=1}_{left}_{40}_{block}$\nBiết rằng $\\displaystyle \\int_{0}^{3}f(x)dx=5.$\nDiện tích phần không gạch chéo giới hạn bởi $y=f(x)$, hai trục tọa độ và đường thẳng $x=3$ là ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "5"
+                    ]
+                },
+                "answer_detail": "Diện tích phần không gạch chéo là hình phẳng giới hạn bởi $y=f(x)$, trục hoành, $x=0$ và $x=3$.\r\nDo $f(x)\u003e0 \\forall x \\in [0;3]$ nên $S = \\displaystyle \\int_{0}^{3}f(x)dx=5$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "048ae30d-9f81-4015-b125-18fe631ee446",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 16,
+                "content": "Điền số thích hợp vào chỗ trống\nCho hàm số $y=f^{\\prime}(x)$ liên tục trên $\\mathbb{R}$. Diện tích của các hình phẳng giới hạn bởi đồ thị hàm số $y=f^{\\prime}(x)$ và trục Ox là 20;6;4 như hình sau:\n$/image_{https://cdn.save.moe/b/yHFyeC.png?dl=1}_{left}_{40}_{block}$\nBiết $\\displaystyle \\int_{1}^{10}f^{\\prime}(x)dx=$ ____ và $f(1)=4$ thì $f(10)=$ ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "18",
+                        "22"
+                    ]
+                },
+                "answer_detail": "$\\displaystyle \\int_{1}^{10}f^{\\prime}(x)dx = \\displaystyle \\int_{1}^{?}(\\text{phần dương}) - \\displaystyle \\int_{?}^{?}(\\text{phần âm}) + \\dots$\r\nDựa vào hình vẽ: Diện tích miền thứ nhất (dương) là 20, miền thứ hai (âm) là 6, miền thứ ba (dương) là 4.\r\n$\\Rightarrow \\displaystyle \\int_{1}^{10}f^{\\prime}(x)dx = 20 - 6 + 4 = 18$.\r\nTa có $\\displaystyle \\int_{1}^{10}f^{\\prime}(x)dx = f(10) - f(1) \\Rightarrow 18 = f(10) - 4 \\Rightarrow f(10) = 22$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "1ba5d44a-6c37-4d96-bc99-47b6a96f45ff",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 17,
+                "content": "Điền số thích hợp vào chỗ trống\r\nPhát hành 100000 vé số thì có 10000 vé trúng thưởng. Một người muốn trúng ít nhất 1 vé với xác suất lớn hơn 95% thì cần mua tối thiểu ____ vé.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "29"
+                    ]
+                },
+                "answer_detail": "Xác suất 1 tờ vé số bất kỳ trúng là $p = \\dfrac{10000}{100000} = 0,1$.\r\nXác suất không trúng là $1 - 0,1 = 0,9$.\r\nGiả sử mua n tờ vé số. Xác suất để không trúng tờ nào là $0,9^n$.\r\nXác suất trúng ít nhất 1 tờ là $P = 1 - 0,9^n$.\r\nĐể $P \u003e 0,95 \\Leftrightarrow 1 - 0,9^n \u003e 0,95 \\Leftrightarrow 0,9^n \u003c 0,05 \\Leftrightarrow n \u003e log_{0,9}0,05 \\approx 28,4$.\r\nVậy cần mua tối thiểu 29 vé.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "0b8957a5-21f3-4dc3-bbdc-7c08e588409c",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 18,
+                "content": "Kéo thả vào vị trí thích hợp\nNgười ta muốn trồng cây trên một nương dạng ruộng bậc thang như hình sau. \n$/image_{https://cdn.save.moe/b/WWPHl.png?dl=1}_{left}_{40}_{block}$\nMỗi bậc cách nhau 2m, trên mỗi bậc các cây được trồng cách đều nhau 2m và ở đầu mỗi bậc đều được trồng cây.\nTổng số bậc (tính cả bậc S) là ____\nTổng số cây là ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$101$",
+                        "$100$",
+                        "$10200$",
+                        "$10201$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        3
+                    ]
+                },
+                "answer_detail": "Số bậc thang là $\\dfrac{200}{2}+1=101$ bậc.\r\nĐộ dài bậc ngoài cùng (bậc 1) là 400m. Độ dài bậc trong cùng (bậc 101, bậc S) là 0m? (Đề bài hình vẽ có S là đỉnh, khoảng cách các bậc là 2m, bán kính lớn nhất 200m).\r\nGọi $u_n$ là độ dài bậc thứ n. $u_1=400$, công sai $d = -2 \\times \\alpha = -4$ (vì bán kính giảm 2m, góc $\\alpha = 400/200 = 2$ rad, độ dài cung giảm $2\\alpha=4$).\r\nSố cây trên bậc thứ n là $v_n = \\dfrac{u_n}{2} + 1$.\r\nTổng số cây là $S_{101} = \\sum v_n$.\r\nTính toán từ lời giải: $S_{101} = 10201$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "565d8e24-521d-4627-ae67-ea6dc170e146",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 19,
+                "content": "Kéo thả vào vị trí thích hợp\r\nHai mặt phẳng ____ với nhau nếu ____ của mặt phẳng này song song với mặt phẳng kia.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "song song",
+                        "phân biệt hai đường thẳng phân biệt",
+                        "hai đường thẳng cắt nhau"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": "Định lý: \"Hai mặt phẳng song song với nhau nếu hai đường thẳng cắt nhau của mặt phẳng này song song với mặt phẳng kia.\"",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "bf34c6e5-c827-451a-b33d-314a39b6be36",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 20,
+                "content": "Điền số thích hợp vào chỗ trống\r\nHai tên cướp bịt mặt tấn công 1 ngân hàng... Đối mặt với 40 người trong ngân hàng... Giả sử xác suất 1 người phạm tội bị máy phát hiện nói dối báo động là 0,85, xác suất 1 người vô tội bị máy báo động 0,08. Xác suất ông Smith là 1 trong 2 tên cướp biết rằng ông Smith bị máy phát hiện nói dối báo động là ____ (Làm tròn đến chữ số thập phân thứ 2 sau dấu \",\")\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "0,36"
+                    ]
+                },
+                "answer_detail": "Gọi A là biến cố \"là tên cướp\", B là biến cố \"bị máy báo động\".\n$P(A) = \\dfrac{2}{40} = 0,05; P(\\overline{A}) = 0,95$.\n$P(B|A) = 0,85; P(B|\\overline{A}) = 0,08$.\n$P(B) = P(B|A)P(A) + P(B|\\overline{A})P(\\overline{A}) = 0,85 \\times 0,05 + 0,08 \\times 0,95 = 0,0425 + 0,076 = 0,1185$.\n\n$P(A|B) = \\dfrac{P(A \\cap B)}{P(B)} = \\dfrac{0,0425}{0,1185} \\approx 0,358... \\approx 0,36$.\n",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "879c7a97-f38e-4f3b-9b50-a0563f616711",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 21,
+                "content": "Cho bảng số liệu về số lượng bánh ga - tô như sau:\n$/image_{https://cdn.save.moe/b/7B06na.png?dl=1}_{left}_{40}_{block}$\nBiểu đồ nào biểu diễn đúng bảng trên:\n$/image_{https://cdn.save.moe/b/ede3yav.png?dl=1}_{left}_{50}_{block}$",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hình 2."
+                        },
+                        {
+                            "content": "Hình 3."
+                        },
+                        {
+                            "content": "Hình 1."
+                        },
+                        {
+                            "content": "Hình 4."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Loại to (230) nhiều hơn loại nhỏ (216) nên loại Hình 2 và Hình 4.\r\nTỉ lệ loại vừa: $\\dfrac{522}{522+230+216}.100\\% \\approx 53,9\\% \u003e 50\\%$ nên chọn Hình 3.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "2ea35af3-6b7e-414a-b0ef-b736c2c2de96",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 22,
+                "content": "Kéo thả vào vị trí thích hợp\r\nCho hàm số $f(x)=$ sinx liên tục trên $\\mathbb{R}$.\r\n$f(x)+f^{\\prime}(x)+f^{\\prime\\prime}(x)+f^{(3)}(x)=$ ____\r\nĐạo hàm $f^{(5)}(x)$ tại $x=0$ là ____\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$1$",
+                        "$2$",
+                        "$0$",
+                        "$3$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2,
+                        0
+                    ]
+                },
+                "answer_detail": "$f^{\\prime}(x)=cosx;f^{\\prime\\prime}(x)=-sinx;f^{(3)}(x)=-cosx$.\r\n$\\Rightarrow f(x)+f^{\\prime}(x)+f^{\\prime\\prime}(x)+f^{(3)}(x)=sinx+cosx-sinx-cosx=0$.\r\n\r\n$f^{(4)}(x)=sinx;f^{(5)}(x)=cosx\\Rightarrow f^{(5)}(0)=cos0=1$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "197927fd-4827-4fbc-a0de-f94720c02d3c",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 23,
+                "content": "Trong không gian Oxyz, cho các điểm $A(3;0;0)$, $B(0;3;0)$, $C(0;0;3)$ và $D(1;1;1)$. Đường thẳng d luôn đi qua điểm D.\r\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "4 điểm A,B,C,D đồng phẳng."
+                        },
+                        {
+                            "content": "Khi d cắt cạnh AB thì tổng khoảng cách từ A,B,C tới d lớn nhất là $\\sqrt{3}$."
+                        },
+                        {
+                            "content": "Khi d bất kì thì tổng khoảng cách từ A,B,C tới d lớn nhất là $2\\sqrt{6}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "Dễ thấy mặt phẳng đi qua $A(3;0;0)$, $B(0;3;0)$, $C(0;0;3)$ là: $\\dfrac{x}{3}+\\dfrac{y}{3}+\\dfrac{z}{3}=1$.\r\nThay tọa độ D(1;1;1) vào thấy thỏa mãn $\\Rightarrow D\\in(ABC)\\Rightarrow A,B,C,D$ đồng phẳng. (Phát biểu a đúng).\r\nDễ thấy D là trọng tâm tam giác đều ABC cạnh $3\\sqrt{2}$.\r\nNếu $C\\in d$ (d cắt AB tại trung điểm sai, nếu d qua C và D thì d là trung tuyến, cắt AB) thì tổng khoảng cách là $AH + BK = \\dfrac{3\\sqrt{2}.\\sqrt{3}}{2} = \\dfrac{3\\sqrt{6}}{2} \\approx 3.67 \u003e \\sqrt{3}$. (Phát biểu b sai).\r\nGiả sử $d\\perp(ABC)\\Rightarrow$ Tổng khoảng cách từ A,B,C tới d là: $AD+BD+CD=3.\\dfrac{2}{3}.\\dfrac{3\\sqrt{2}.\\sqrt{3}}{2}=3\\sqrt{6}$. (Phát biểu c sai).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "118db92e-3d97-4f56-ba4b-dcc2e96ec8fb",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 24,
+                "content": "Cho $(u_{n})$, $n\\ge1$ là dãy số gồm các số âm. $(S_{n})$ là dãy thỏa mãn $S_{n}=u_{1}+u_{2}+...+u_{n}$\r\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$(S_{n})$ là dãy số tăng."
+                        },
+                        {
+                            "content": "Nếu $(u_{n})$ là cấp số nhân có $q=2$ thì $S_{n}=u_{1}(2^{n}-1)$."
+                        },
+                        {
+                            "content": "Nếu $S_{n}=4(1-2^{n})$ thì $u_{n+1}^{2}-u_{n+2}.u_{n}=1$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "$S_{n+1}-S_{n}=u_{n+1}\u003c0$ (do $u_n$ âm) nên $(S_{n})$ là dãy số giảm. (Phát biểu a sai).\r\nNếu $(u_{n})$ là cấp số nhân có $q=2$ thì $S_{n}=u_{1}.\\dfrac{2^{n}-1}{2-1}=u_{1}(2^{n}-1).$ (Phát biểu b đúng).\r\nNếu $S_{n}=4(1-2^{n})=-4(2^n-1)$, suy ra $u_1=-4, q=2$.\r\nKhi đó $u_n$ là cấp số nhân, nên $u_{n+1}^2 = u_n . u_{n+2}$.\r\nVậy $u_{n+1}^{2}-u_{n+2}.u_{n}=0 \\ne 1$. (Phát biểu c sai).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "96a2e78c-222c-422b-b37b-3656f9a24bb3",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 25,
+                "content": "Kéo thả vào vị trí thích hợp\r\nCho hình lập phương ABCD.A'B'C'D' cạnh a.\r\nKhoảng cách giữa AB và $C^{\\prime}D^{\\prime}$ là ____\r\nBiết diện tích xung quanh khối cầu được tính bởi công thức $S=4\\pi R^{2}$. Diện tích xung quanh khối cầu ngoại tiếp ABCD.A'B'C'D' là ____\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$a\\sqrt{2}$",
+                        "$a\\sqrt{3}$",
+                        "$4\\pi a^{2}$",
+                        "$3\\pi a^{2}$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        3
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/AhA1p.png?dl=1}_{left}_{40}_{block}$\nKhoảng cách giữa AB và $C^{\\prime}D^{\\prime}$ là $BC^{\\prime}=a\\sqrt{2}$.\nBán kính cầu ngoại tiếp $R= \\dfrac{AC'}{2} = \\dfrac{a\\sqrt{3}}{2}$.\nDiện tích mặt cầu $S=4\\pi(\\dfrac{a\\sqrt{3}}{2})^{2}=3\\pi a^{2}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "8a11e16b-ff4a-4f6c-89c7-62a2a077eec5",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 26,
+                "content": "Kéo thả vào vị trí thích hợp\r\nSố giờ có ánh sáng mặt trời của một thành phố A ở vĩ độ $40^{\\circ}$ Bắc trong ngày thứ t của một năm không nhuận được cho bởi hàm số $d(t)=3sin[\\dfrac{\\pi}{182}(t-80)] +12$ với $t\\in\\mathbb{Z}$ và $0\u003ct\\le365$.\r\nThành phố A có đúng 12 giờ có ánh sáng mặt trời vào đúng ____ ngày trong năm.\r\nVào ngày thứ ____ trong năm thành phố A có đúng 9 giờ có ánh sáng mặt trời.\r\nVào ngày thứ ____ trong năm thì thành phố A có đúng 15 giờ có ánh sáng mặt trời.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$2$",
+                        "$353$",
+                        "$171$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Giải $d(t)=12 \\Leftrightarrow sin[\\dots]=0$. Có 2 nghiệm trong khoảng (0;365] là $t=80$ và $t=262$. (2 ngày).\r\nGiải $d(t)=9 \\Leftrightarrow sin[\\dots]=-1$. Có nghiệm $t=353$.\r\nGiải $d(t)=15 \\Leftrightarrow sin[\\dots]=1$. Có nghiệm $t=171$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "38433437-e25c-498c-9ed0-36d476916385",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 27,
+                "content": "Kéo thả vào vị trí thích hợp\r\nCho tam giác đều $A_{1}B_{1}C_{1}$ cạnh bằng 10 cm. Ba điểm $A_{2}$, $B_{2}$, $C_{2}$ lần lượt là trung điểm của $B_{1}C_{1}$, $C_{1}A_{1}$, $A_{1}B_{1}$. Làm tương tự đến tam giác $A_{10}B_{10}C_{10}$.\r\nTổng chu vi 10 tam giác trên là ____ cm.\r\nTổng diện tích 10 tam giác trên là ____ $cm^2$.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$\\dfrac{15345}{256}$",
+                        "$57,7$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1
+                    ]
+                },
+                "answer_detail": "Chu vi $u_n$ lập thành CSN với $u_1=30, q=1/2$. Tổng $S_{10} = 30.\\dfrac{1-(1/2)^{10}}{1/2} = \\dfrac{15345}{256}$.\r\nDiện tích $v_n$ lập thành CSN với $v_1=\\dfrac{10^2\\sqrt{3}}{4}, q=1/4$. Tổng $T_{10} = v_1.\\dfrac{1-(1/4)^{10}}{1-1/4} \\approx 57,7$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "36a3f4ab-9315-41a3-839d-2121e2666ae8",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 28,
+                "content": "Cho hình hộp ABCD.A'B'C'D' có thể tích V . \n$/image_{https://cdn.save.moe/b/sblygy2.png?dl=1}_{left}_{40}_{block}$\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Thể tích $B^{\\prime}.ABD$ là $\\dfrac{V}{6}$"
+                        },
+                        {
+                            "content": "Thể tích $AB^{\\prime}CD^{\\prime}$ là $\\dfrac{V}{2}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "$V_{B^{\\prime}.ABD}=\\dfrac{1}{3}h.S_{ABD}=\\dfrac{1}{3}h.\\dfrac{1}{2}S_{ABCD}=\\dfrac{1}{6}V$. (Phát biểu a đúng).\r\n$V_{AB^{\\prime}CD^{\\prime}}=V - 4.V_{chóp~góc} = V - 4.\\dfrac{V}{6} = V - \\dfrac{2V}{3} = \\dfrac{V}{3}$. (Phát biểu b sai).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "77e9f01f-e873-4525-be74-734cb00b5842",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 29,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho $(u_{n})$ gồm các số 4;7;10;13;16;... và dãy số $(v_{n})$ gồm các số 1;5;9;13;17;... Cả 2 dãy đều có 2023 số hạng. Có ____ số hạng của $(u_{n})$ không nằm trong dãy $(v_{n})$.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1518"
+                    ]
+                },
+                "answer_detail": "$u_n = 3n+1$; $v_m = 4m-3$.\r\n$u_n = v_m \\Leftrightarrow 3n+1 = 4m-3 \\Leftrightarrow 3n = 4m-4 \\Rightarrow n$ chia hết cho 4.\r\n$n=4k$. Vì $1 \\le n \\le 2023 \\Rightarrow 1 \\le 4k \\le 2023 \\Rightarrow 1 \\le k \\le 505$.\r\nCó 505 số hạng chung.\r\nSố hạng của $(u_n)$ không nằm trong $(v_n)$ là $2023 - 505 = 1518$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "65601bf8-c02e-44f6-8a90-8bf502297e2e",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 30,
+                "content": "Biết $\\displaystyle \\int_{0}^{1}\\dfrac{x^{3}+3x}{x^{2}+3x+2}dx=a+b~ln~2+c~ln~3$ với a,b,c là các số hữu tỉ, giá trị của $S=2a+b^{2}+c^{2}$ thuộc khoảng nào trong các khoảng sau?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(515;600)."
+                        },
+                        {
+                            "content": "(500;520)."
+                        },
+                        {
+                            "content": "(512;550)."
+                        },
+                        {
+                            "content": "(150; 200)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Tính tích phân ta được $-\\dfrac{5}{2}+14~ln~3-18~ln~2$.\r\nSuy ra $a=-5/2, b=-18, c=14$.\r\n$S = 2(-5/2) + (-18)^2 + 14^2 = -5 + 324 + 196 = 515$.\r\nGiá trị 515 thuộc khoảng (500;520) và (512;550).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "247a5dc4-18b0-4544-b5c6-4e251a8a5d69",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 31,
+                "content": "Cho hàm số $f(x)=\\dfrac{x}{x-1}+\\dfrac{x+1}{x}-e^{x}$ Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số $y=f(x)$ không có cực trị."
+                        },
+                        {
+                            "content": "Phương trình $f(x)=0$ có 2 nghiệm."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "\n$f^{\\prime}(x)=-\\dfrac{1}{(x-1)^{2}}-\\dfrac{1}{x^{2}}-e^{x}\u003c0\\forall x\\notin\\{0;1\\}$. Hàm số nghịch biến trên từng khoảng xác định, không có cực trị. (Đúng).\nBBT:\n$/image_{https://cdn.save.moe/b/FIIx4Nb.png?dl=1}_{left}_{40}_{block}$\n$\\Rightarrow$ Phương trình có 2 nghiệm.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "720b0820-5913-4d9f-ac14-177ceebd847c",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 32,
+                "content": "Cho hàm số $f(x)=sin~x+cos~x$ Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Trên $[0;2\\pi]$ thì phương trình $f(x)=0$ có 2 nghiệm."
+                        },
+                        {
+                            "content": "Cho $\\alpha\\in[0;\\pi]$ thỏa mãn $sin~\\alpha+cos~\\alpha=\\dfrac{3}{4}$ thì $tan\\alpha+cot\\alpha=\\dfrac{-32}{7}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "$f(x)=0 \\Leftrightarrow x = -\\dfrac{\\pi}{4} + k\\pi$. Trên $[0;2\\pi]$ có nghiệm $3\\pi/4$ và $7\\pi/4$ (2 nghiệm). (Đúng).\r\n$sin\\alpha+cos\\alpha=\\dfrac{3}{4} \\Rightarrow 1 + 2sin\\alpha cos\\alpha = \\dfrac{9}{16} \\Rightarrow sin\\alpha cos\\alpha = -\\dfrac{7}{32}$.\r\n$tan\\alpha+cot\\alpha = \\dfrac{1}{sin\\alpha cos\\alpha} = -\\dfrac{32}{7}$. (Đúng).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "2ff4abd2-a74e-45e3-b8d4-e2a3d99fb536",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 33,
+                "content": "Tìm m để bất phương trình $log_{2}(5^{x}-1).log_{2}(2.5^{x}-2)\\le m$ có nghiệm $x\\ge1$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$m\\ge6$."
+                        },
+                        {
+                            "content": "$m\u003e6$."
+                        },
+                        {
+                            "content": "$m\\le6$."
+                        },
+                        {
+                            "content": "$m\u003c6$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "BPT $\\Leftrightarrow log_{2}(5^{x}-1).[1+log_{2}(5^{x}-1)]\\le m$.\r\nĐặt $t = log_2(5^x-1)$. Với $x\\ge1 \\Rightarrow t \\ge log_2(4) = 2$.\r\nBPT trở thành $t(1+t) \\le m \\Leftrightarrow t^2+t \\le m$.\r\nĐể có nghiệm $t \\ge 2$, ta cần $m \\ge \\min_{t\\ge2} (t^2+t) = 2^2+2 = 6$.\r\nVậy $m \\ge 6$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "294e25ed-b0aa-4e4b-a45e-e49e6496af84",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 34,
+                "content": "Trong không gian Oxyz, cho hai đường thẳng $\\Delta_{1}:\\dfrac{x+1}{1}=\\dfrac{y-2}{2}=\\dfrac{z+1}{3}$ và $\\Delta_{2}:\\dfrac{x+1}{1}=\\dfrac{y-2}{2}=\\dfrac{z+1}{-3}$ cắt nhau và cùng nằm trong mặt phẳng (P). Lập phương trình đường phân giác d của góc nhọn tạo bởi $\\Delta_{1}$, $\\Delta_{2}$ và nằm trong mặt phẳng (P).\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$d:\\begin{cases}x=-1\\\\ y=2,(t\\in\\mathbb{R})\\\\ z=-1+t\\end{cases}$"
+                        },
+                        {
+                            "content": "$d:\\begin{cases}x=-1+t\\\\ y=2\\\\ z=-1+2t\\end{cases}$"
+                        },
+                        {
+                            "content": "$d:\\begin{cases}x=-1+t\\\\ y=2-2t,(t\\in\\mathbb{R})\\\\ z=-1-t\\end{cases}$"
+                        },
+                        {
+                            "content": "$d:\\begin{cases}x=-1+t\\\\ y=2+2t,(t\\in\\mathbb{R})\\\\ z=-1\\end{cases}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "VTCP $\\vec{u_1}=(1;2;3)$, $\\vec{u_2}=(1;2;-3)$. Hai vecto có cùng độ dài.\r\nVecto chỉ phương của phân giác góc nhọn (do tích vô hướng $\u003e0$ nên góc giữa 2 vecto là nhọn) là $\\vec{u} = \\vec{u_1} + \\vec{u_2} = (2;4;0) = 2(1;2;0)$.\r\nTuy nhiên, đáp án A có VTCP $(0;0;1)$.\r\nKiểm tra lại lời giải trong tài liệu:\r\nLời giải xét 2 trường hợp phân giác. Tính cos góc. Loại trường hợp góc \u003e 45 độ.\r\nKết quả chọn trường hợp $a=b=0 \\Rightarrow \\vec{u}=(0;0;1)$.\r\nVậy đáp án A là đúng.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "1cb4f042-36d1-4137-a34a-4319896408d6",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 35,
+                "content": "Trong không gian Oxyz, tìm tất cả các giá trị của tham số m để đường thẳng $d:\\dfrac{x-1}{1}=\\dfrac{y+1}{-1}=\\dfrac{z-2}{1}$ song song với mặt phẳng (P): $2x+y-m^{2}z+m=0$\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$m=1$."
+                        },
+                        {
+                            "content": "$m\\in\\emptyset$."
+                        },
+                        {
+                            "content": "$m\\in\\{-1;1\\}$."
+                        },
+                        {
+                            "content": "$m=-1$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Điều kiện: $\\vec{u_d} \\perp \\vec{n_P}$ và điểm thuộc d không thuộc P.\r\n$1.2 + (-1).1 + 1.(-m^2) = 0 \\Leftrightarrow 1 - m^2 = 0 \\Leftrightarrow m = \\pm 1$.\r\nĐiểm $A(1;-1;2)$. Thay vào P: $2(1) + (-1) - m^2(2) + m = 1 - 2m^2 + m$.\r\nNếu $m=1$: $1-2+1=0 \\Rightarrow A \\in (P) \\Rightarrow d \\subset (P)$ (Loại).\r\nNếu $m=-1$: $1-2-1=-2 \\ne 0 \\Rightarrow A \\notin (P) \\Rightarrow d // (P)$ (Nhận).\r\nVậy $m=-1$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "c526c715-1be4-435e-ba36-069a9b87b2c8",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 36,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCác số thực dương x, y, z thỏa mãn $log_{6}x=log_{3}y=log_{2}z=log_{5}(\\dfrac{x}{yz}+3)$. Giá trị biểu thức $P=x^{log_{6}5}+2y^{log_{3}5}+3z^{log_{2}5}$ là ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "24"
+                    ]
+                },
+                "answer_detail": "Đặt các log bằng k. $x=6^k, y=3^k, z=2^k$.\r\n$\\dfrac{x}{yz}+3 = 5^k$.\r\n$x^{log_6 5} = (6^k)^{log_6 5} = 5^k$. Tương tự cho y, z.\r\n$P = 5^k + 2.5^k + 3.5^k = 6.5^k = 6(\\dfrac{x}{yz}+3)$.\r\nTa có $x=yz$ (vì $6^k = 3^k . 2^k$).\r\nVậy $P = 6(1+3) = 24$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "209fbae0-7ca1-4f10-b512-2ccc46d9b366",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 37,
+                "content": "Trong không gian Oxyz cho $A(1;2;-1)$, $B(-2;1;0)$. Điểm $M(a;b;c)$ thuộc mặt phẳng (P): $x-2y+z+4=0$ sao cho $MA=MB=\\dfrac{\\sqrt{11}}{2}$ . Khi đó, giá trị $a+b+c$ bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{1}{2}.$"
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "$\\dfrac{3}{2}$"
+                        },
+                        {
+                            "content": "2."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có $AB=\\sqrt{11}$.\r\n$MA=MB=\\dfrac{\\sqrt{11}}{2} = \\dfrac{AB}{2} \\Rightarrow M$ là trung điểm của AB.\r\nTrung điểm AB là $M(-1/2; 3/2; -1/2)$.\r\nThay vào (P): $-1/2 - 3 - 1/2 + 4 = 0$ (Thỏa mãn).\r\n\r\n$a+b+c = -1/2 + 3/2 - 1/2 = 1/2$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "2c85d2d5-7828-4a28-9b8e-5b3d07ac1c4a",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 38,
+                "content": "Cho x,y,z là các số thực thỏa mãn $log_{x^{2}+y^{2}+z^{2}+21}(2x+4y-8z+m)\\ge1$ và $x+3y-2z-1=0$ (với m là số thực dương). Khi $m=m_{0}$ có duy nhất bộ (x;y;z) thỏa mãn các điều kiện trên thì $m_{0}$ thuộc khoảng nào?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(1;6)."
+                        },
+                        {
+                            "content": "(11;14)."
+                        },
+                        {
+                            "content": "(13;17)."
+                        },
+                        {
+                            "content": "(5;13)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "BPT $\\Leftrightarrow (x-1)^2+(y-2)^2+(z+4)^2 \\le m$. Đây là khối cầu tâm $I(1;2;-4)$, bán kính $\\sqrt{m}$.\r\nĐiều kiện có duy nhất bộ số là mặt phẳng cắt mặt cầu tại 1 điểm (tiếp xúc).\r\n$d(I, (P)) = \\sqrt{m}$.\r\n$d = \\dfrac{|1+6+8-1|}{\\sqrt{1+9+4}} = \\dfrac{14}{\\sqrt{14}} = \\sqrt{14}$.\r\n$\\Rightarrow \\sqrt{m} = \\sqrt{14} \\Rightarrow m=14$.\r\n\r\n$m=14 \\in (13;17)$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "dbf31525-1c83-448e-be90-2ed1d3083842",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 39,
+                "content": "Số hộp sữa loại 1 ít hơn so với loại 2 là 12,5% nhưng lượng sữa trong mỗi hộp loại 1 lại nhiều hơn trong loại 2 là 8%. Khẳng định nào sau đây đúng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Lượng sữa tổng cộng của loại 1 ít hơn loại 2 khoảng 4,17%"
+                        },
+                        {
+                            "content": "Lượng sữa tổng cộng của loại 2 ít hơn loại 1 khoảng 4,17%."
+                        },
+                        {
+                            "content": "Lượng sữa tổng cộng của loại 1 ít hơn loại 2 là 4%."
+                        },
+                        {
+                            "content": "Lượng sữa tổng cộng của loại 2 ít hơn loại 1 là 4%."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Giả sử số hộp sữa của loại 1 là $200$ hộp.\nKhi đó loại 2: $225$ hộp.\nLượng sữa loại 1 là: $108 \\text{ ml/hộp}$.\nLượng sữa loại 2 là: $100 \\text{ ml/hộp}$.\nLượng sữa tổng cộng loại 1 là: $200.108 = 21600 \\text{ ml}$.\nLượng sữa loại 2 có là: $225.100 = 22500 \\text{ ml}$.\nVậy lượng sữa loại 2 $\\underline{\\textbf{nhiều}}$ hơn loại 1 là:\n$ \\dfrac{225 - 216}{216} . 100\\% \\approx 4,17\\% $",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            },
+            {
+                "id": "97cc47fb-2145-473b-bc73-745f1add90b2",
+                "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+                "position": 40,
+                "content": "Điền số thích hợp vào chỗ trống\r\nMột cây gỗ tươi có khối lượng 400 kg, trong đó chứa 85% nước. Cây gỗ này bốc hơi ____ kilôgam nước thì được gỗ khô chứa 60% nước.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "250"
+                    ]
+                },
+                "answer_detail": "Lượng chất khô trong gỗ: $400 \\times (100\\% - 85\\%) = 60$ kg.\r\nTrong gỗ khô, chất khô chiếm $100\\% - 60\\% = 40\\%$.\r\nKhối lượng gỗ khô: $60 : 40\\% = 150$ kg.\r\nLượng nước bốc hơi: $400 - 150 = 250$ kg.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T06:17:44.215525+07:00",
+                "updated_at": "2026-02-11T06:17:44.215525+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "8b2f40c3-566c-4b04-b963-b5b1d7dfd22c",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "89351cc8-be41-4311-b2f2-78ff4dc191f2",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:42:26.718336+07:00",
+        "updated_at": "2026-03-02T15:42:26.718336+07:00",
+        "submited_at": "2026-03-02T15:42:26.718337+07:00"
+    }
+}

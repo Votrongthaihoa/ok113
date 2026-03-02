@@ -1,0 +1,1510 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+        "title": "Đề thường TSA 12: Tư duy Khoa học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-11T16:56:41.631813+07:00",
+        "updated_at": "2026-02-19T18:45:11.368566+07:00",
+        "questions": [
+            {
+                "id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 1,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 1 - 6\nChuyển động tròn đều là chuyển động có gia tốc và gia tốc trong chuyển động tròn đều luôn hướng vào tâm của quỹ đạo nên gọi là gia tốc hướng tâm ($a_{ht}$) ta có: $a_{ht}=\\dfrac{v^{2}}{r}=r\\omega^{2}$\ntrong đó $\\omega$ là tốc độ góc của chuyển động tròn, đo bằng góc mà bán kính $OM=R$ quét được trong một đơn vị thời gian, là đại lượng không đổi; v là tốc độ dài luôn có độ lớn không đổi và luôn có phương tiếp tuyến với đường tròn quỹ đạo, r là bán kính quỹ đạo.\nLực hướng tâm là tổng hợp của tất cả ngoại lực tác dụng lên vật chuyển động tròn. Khi đó lực hướng tâm $(F_{ht})$ được tính bằng công thức: $\\vec{F_{ht}}=m\\vec{a_{ht}}=\\sum\\vec{F_{ng}}$ (trong đó m là khối lượng của vật).\nTrong chuyển động tròn, ta còn cần nói tới 1 lực nữa, đó là lực ly tâm. Lực ly tâm là một lực quán tính xuất hiện trên mọi vật nằm yên trong hệ quy chiếu quay so với một hệ quy chiếu quán tính. Nó là hệ quả của trường gia tốc, xuất hiện trong hệ quy chiếu phi quán tính mà trong trường hợp này là hệ quy chiếu quay. Hay nói cách khác, lực li tâm $(F_{lt})$ là lực đối của lực hướng tâm: $\\vec{F_{lt}}=-\\vec{F_{ht}}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-21T00:15:54.389813+07:00",
+                "questions": [
+                    {
+                        "id": "661be9ac-1ce9-4b22-92d9-0062ed6e077d",
+                        "parent_id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                        "position": 1,
+                        "content": "Lực hướng tâm tác dụng vào vật chuyển động:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "tròn đều và gây ra gia tốc hướng tâm."
+                                },
+                                {
+                                    "content": "thẳng đều và gây ra gia tốc hướng tâm."
+                                },
+                                {
+                                    "content": "thẳng nhanh đều và gây ra gia tốc hướng tâm."
+                                },
+                                {
+                                    "content": "thẳng chậm dần và gây ra gia tốc hướng tâm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Ta có: Chuyển động tròn đều là chuyển động có gia tốc và gia tốc trong chuyển động tròn đều luôn hướng vào tâm của quỹ đạo nên gọi là gia tốc hướng tâm.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "5c01093d-f3fe-4342-8123-07dd0fa5d076",
+                        "parent_id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                        "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                        "position": 2,
+                        "content": "Kéo thả vào vị trí thích hợp\nLực hướng tâm và lực li tâm có cùng ____ và ngược ____\nĐộ lớn của lực hướng tâm bằng tích của ____ vật và gia tốc ____ của vật.\nChiều của lực hướng tâm là chiều của ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "phương",
+                                "hướng",
+                                "khối lượng",
+                                "hướng tâm",
+                                "gia tốc trọng trường",
+                                "gia tốc hướng tâm",
+                                "li tâm"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                5
+                            ]
+                        },
+                        "answer_detail": "Lực hướng tâm và lực li tâm có cùng phương và ngược hướng.\r\nĐộ lớn của lực hướng tâm bằng tích khối lượng của vật và gia tốc hướng tâm của vật.\r\nChiều của lực hướng tâm là chiều của gia tốc hướng tâm.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-21T00:21:26.751848+07:00"
+                    },
+                    {
+                        "id": "475941b6-844b-4a4a-b568-6cbe4d78b03b",
+                        "parent_id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                        "position": 3,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau.\nCho một vật nặng được buộc vào một sợi dây không dãn, coi như con lắc đơn và được quay đều. Bỏ qua các lực nhỏ, khi đó vật nặng chịu tác dụng của:",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Trọng lực"
+                                },
+                                {
+                                    "content": "Lực hướng tâm"
+                                },
+                                {
+                                    "content": "Lực ma sát"
+                                },
+                                {
+                                    "content": "Lực căng dây"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "Trong quá trình quay, bỏ quả các lực nhỏ thì vật nặng chịu tác dụng của: Trọng lực, lực hướng tâm và lực căng dây.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "eb7f553c-19df-4c28-9af0-10962033c41c",
+                        "parent_id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                        "position": 4,
+                        "content": "Trạm vũ trụ quốc tế ISS được phóng lên vào ngày 20 tháng 11 năm 1998 với thông số kĩ thuật $m=444615$ kg, quay quanh Trái Đất ở độ cao viễn điểm h = 422 km với chu kì quỹ đạo là $T=92,68$ phút. Bán kính trái đất là $R=6370~km.$ Gia tốc hướng tâm của của trạng vũ trụ trên là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "8,67 $(m/s^2)$"
+                                },
+                                {
+                                    "content": "9,81 $(m/s^{2})$"
+                                },
+                                {
+                                    "content": "8,76 $(cm/s^{2})$"
+                                },
+                                {
+                                    "content": "8,76 $(m/s^{2})$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Ta có tốc độ dài của vật:\r\n$v=r\\omega=r\\dfrac{2\\pi}{T}=(422+6370).1000.\\dfrac{2\\pi}{92,68.60}=7674,3(m/s)$\r\nGia tốc hướng tâm của tàu: $a_{Ht}=\\dfrac{v^{2}}{r}=\\dfrac{7674,3^{2}}{(422+6370).1000}=8,67(m/s^{2})$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "2a3da3b2-5d44-4472-b87b-21449374ced0",
+                        "parent_id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                        "position": 5,
+                        "content": "Một ô tô chuyển động trên một đoạn đường nằm ngang là một cung tròn bán kính 100m, biết hệ số ma sát trượt giữa oto và mặt đường $\\mu=0,4$, các bánh xe đều là bánh phát động. Lấy $g=10m/s^{2}.$ Lực đóng vai trò là lực hướng tâm là lực nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Trọng lực"
+                                },
+                                {
+                                    "content": "Lực ma sát trượt"
+                                },
+                                {
+                                    "content": "Lực ma sát nghỉ"
+                                },
+                                {
+                                    "content": "Phản lực"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Lực tác dụng vào xe bao gồm: Trọng lực $\\vec{P}$, Phản lực $\\vec{N}$, Lực ma sát nghỉ $F_{msn}$ của mặt đường tác dụng lên xe, hướng vào tâm cong.\r\nTheo định luật II Newton ta có: $\\vec{P}+\\vec{N}+\\vec{F_{msn}}=m\\vec{a}$ (1)\r\nDo mặt đường nằm ngang nên $\\vec{P}$ cân bằng với phản lực $\\vec{N}$ nên lực đóng vai trò như lực hướng tâm là lực ma sát nghỉ $F_{msn}$ của mặt đường tác dụng lên xe, hướng vào tâm cong.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "dfd9194b-14d1-4f52-8302-4a16468f7451",
+                        "parent_id": "3d7ad13c-a908-4d3f-abca-8187a084dbc6",
+                        "position": 6,
+                        "content": "Tốc độ tối đa mà xe trên có thể đi mà không bị trượt là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$20(km/h)$"
+                                },
+                                {
+                                    "content": "$15(cm/s)$"
+                                },
+                                {
+                                    "content": "20(m/s)"
+                                },
+                                {
+                                    "content": "$20(cm/ph)$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Chiếu (1) lên trục hướng tâm ta có: $F_{msn}=ma_{H}=\\dfrac{mv^{2}}{R}$\r\nTa có: $F_{msn}\\le F_{msl}=\\mu N=\\mu mg\\Rightarrow\\mu mg\\ge\\dfrac{mv^{2}}{R}$\r\n$v\\le\\sqrt{\\mu gR}$\r\nĐể xe không trượt thì: $v_{max}=\\sqrt{\\mu gR}=\\sqrt{0,4.10.100}=20(m/s)$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 2,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 7 - 12\nTrong nhà máy điện hạt nhân, nhiệt từ hạt nhân tạo ra hơi nước của lò phản ứng cho các tua-bin.\nHình 1 là sơ đồ đơn giản của một loại lò phản ứng.\n$/image_{https://cdn.save.moe/b/NX4f6M.png?dl=1}_{center}_{50}_{block}$\nLò phản ứng hạt nhân là một thiết bị để khởi động, kiểm soát, và duy trì một chuỗi phản ứng hạt nhân. Lò phản ứng hạt nhân thường được sử dụng để tạo ra điện và cung cấp năng lượng cho một số tàu ngầm, tàu sân bay...mà hiện nay quân đội Hoa Kì phát triển rất mạnh. Nhiên liệu trong các lò này thường là 235U hoặc ${}^{239}Pu$. Sự phân hạch của một hạt nhân 235U có kèm theo giải phóng 2,5 neutron (tính trung bình), đối với ${}^{239}Pu$ con số đó là 3. Các neutron này có thể kích thích các hạt nhân khác phân hạch để tạo nên một phản ứng dây truyền nếu không được điều khiển. Các lò phản ứng hạt nhân được điều khiển để đảm bảo năng lượng tỏa ra từ lò phản ứng là không đổi theo thời gian, trong trường hợp này người ta thường dùng những thanh điều khiển ngập sâu vào trong lò để hấp thụ số nơtron thừa.\nPhản ứng dây chuyền xảy ra với tốc độ ổn định được kiểm soát bằng cách chèn hoặc rút các thanh boron hấp thụ neutron giữa các thanh Uranium. Lõi than chì được gọi là chất điều tiết và làm chậm các neutron phân hạch; sự phân hạch của Uranium-235 xảy ra dễ dàng hơn với neutron chậm hơn so với neutron nhanh. Khí carbondioxide được bơm qua lõi và mang nhiệt đến bộ trao đổi nhiệt nơi tạo ra hơi nước. Tấm chắn bê tông giúp bảo vệ người lao động khỏi tia y và neutron thoát ra ngoài. Các mảnh phân hạch phóng xạ thỉnh thoảng phải được loại bỏ nếu muốn sử dụng nhiên liệu hạt nhân một cách hiệu quả.\nLò phản ứng hạt nhân có thể được sử dụng cho các mục đích khác như nghiên cứu khoa học, sản xuất đồng vị phóng xạ cho y tế và công nghiệp, hoặc làm nhiên liệu cho tàu ngầm và tàu vũ trụ. Chúng là công cụ mạnh mẽ với nhiều ứng dụng quan trọng trong cuộc sống hiện đại.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-11T20:14:29.957219+07:00",
+                "questions": [
+                    {
+                        "id": "18d9fc73-cf96-48b0-ba9a-be8736af75ed",
+                        "parent_id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                        "position": 1,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau\nLò phản ứng hạt nhân là một thiết bị để:",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Khởi động chuỗi phản ứng hạt nhân"
+                                },
+                                {
+                                    "content": "Kiểm soát chuỗi phản ứng hạt nhân"
+                                },
+                                {
+                                    "content": "Kết thúc một chuỗi phản ứng hạt nhân"
+                                },
+                                {
+                                    "content": "Duy trì một chuỗi phản ứng hạt nhân"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "Lò phản ứng được thiết kế để khởi đầu chuỗi phản ứng, nơi mà các neutron gây ra sự phân hạch của các nguyên tử nhiên liệu hạt nhân như uranium hoặc plutonium. Đồng thời, nó kiểm soát và duy trì chuỗi phản ứng hạt nhân.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "e45368fa-49d7-4d5e-bcc2-d044fc70c9cd",
+                        "parent_id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                        "position": 2,
+                        "content": "Kéo thả vào vị trí thích hợp\nNăng lượng tỏa ra từ các phản ứng hạt nhân được chuyển thành điện năng qua hệ thống ____ , ____ và máy phát điện để hòa vào mạng lưới điện và cung cấp năng lượng cho các lĩnh vực.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "nhiệt năng",
+                                "tua bin",
+                                "lò phản ứng",
+                                "điện năng"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                1
+                            ]
+                        },
+                        "answer_detail": "Từ sơ đồ hình 2 ta có:\r\nNăng lượng tỏa ra từ các phản ứng hạt nhân được chuyển thành điện năng qua hệ thống lò phản ứng, tua bin và máy phát điện để hòa vào mạng lưới điện và cung cấp năng lượng cho các lĩnh vực.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "4572a5cc-986c-45f0-9736-14e4164ab218",
+                        "parent_id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                        "position": 3,
+                        "content": "Phát biểu sau đây là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Các thanh điều khiển được dùng để kiểm soát chuỗi phản ứng"
+                                },
+                                {
+                                    "content": "Thanh điều khiển có chứa Uranium"
+                                },
+                                {
+                                    "content": "Thanh điều khiển ngập sâu trong lò để hấp thụ số neutron thừa"
+                                },
+                                {
+                                    "content": "Thanh điều khiển có chứa Boron"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "Các thanh điều khiển trong lò thường chứa Boron (hoặc cadimi) thường dùng để kiểm soát chuỗi phản ứng. Trong quá trình phản ứng, các lò phản ứng hạt nhân được điều khiển để đảm bảo năng lượng tỏa ra từ lò phản ứng là không đổi theo thời gian, trong trường hợp này người ta thường dùng những thanh điều khiển ngập sâu vào trong lò để hấp thụ số nơtron thừa.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "deaee4cc-509f-4cad-a5d5-fcbe7adb8185",
+                        "parent_id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                        "position": 4,
+                        "content": "Trong quá trình phân hạch của ${}^{235}U$ hấp thụ 1 neutron, khi đó các sản phẩm phân hạch được thể hiện trong phương trình sau:\n${}_{92}^{235}U+_{0}^{1}n\\rightarrow_{58}^{140}Ce+{}_{40}^{94}Zr+x_{0}^{1}n+y_{-1}^{0}e$\nGiá trị của x, y có thể nhận là :",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$x=1$, $y=3$"
+                                },
+                                {
+                                    "content": "$x=2$, $y=6$"
+                                },
+                                {
+                                    "content": "$x=6$, $y=3$"
+                                },
+                                {
+                                    "content": "$x=5,$ $y=2$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Theo định luật bảo toàn số khối và bảo toàn điện tích trong phản ứng hạt nhân ta có:\r\n\r\n$\\begin{cases}235+1=140+94+x \\\\ 92+0=58+40-y \\end{cases} \\Leftrightarrow \\begin{cases}x=2 \\\\ y=6 \\end{cases}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "a892d47a-e76a-4ec4-887c-111c337e1e99",
+                        "parent_id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                        "position": 5,
+                        "content": "Trong phản ứng phân hạch ${}^{235}U$ năng lượng trung bình tỏa ra khi một hạt nhân bị phân hạch là 200MeV. Một nhà máy điện nguyên tử dùng nguyên liệu Uranium, có công suất 500000kW, hiệu suất là 25%. Lượng tiêu thụ hàng năm nhiên liệu Uranium là bao nhiêu? (1 năm có 365 ngày)",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "1068kg"
+                                },
+                                {
+                                    "content": "864kg"
+                                },
+                                {
+                                    "content": "928kg"
+                                },
+                                {
+                                    "content": "768kg"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Năng lượng nhà máy tiêu thụ trong một năm là:\r\n$E=\\dfrac{P_{I}}{H}.100\\%=\\dfrac{5.10^{8}.365.86400}{25}.100\\Rightarrow E=6,30072.10^{16}J=3,9366.10^{29}MeV$\r\nSố phân hạch là: $N_{U^{235}}=\\dfrac{3,9366.10^{29}}{200}=1,9683.10^{27}$\r\nKhối lượng Uranium cần thiết:\r\n\r\n$m_{U^{235}}=\\dfrac{N_{U^{235}}.A_{U^{235}}}{N_{A}}=\\dfrac{1,9683.10^{27}.235}{6,022.10^{23}}\\approx768kg$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "d6dcb89e-6a7b-4cc0-b97b-57a8dee55b85",
+                        "parent_id": "b0ebbac5-aed8-44d0-8088-2f187dad5418",
+                        "position": 6,
+                        "content": "Trong phản ứng phân hạch hạt nhân ${}^{235}U$, năng lượng trung bình toả ra khi phân chia một hạt nhân là 200(MeV). Nếu 40% năng lượng này biến thành điện năng thì điện năng bằng bao nhiêu (kWh) khi phân hạch hết 500kg ${}^{235}U$ Cho biết $N_{A}=6,023.10^{23}.$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$4,565\\times10^{9}kJh$"
+                                },
+                                {
+                                    "content": "$4,565\\times10^{9}Jh$"
+                                },
+                                {
+                                    "content": "$4,565\\times10^{9}kWh$"
+                                },
+                                {
+                                    "content": "$4,565\\times10^{9}Wh$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "số mol $U^{235}$ trong 500 kg là: $n_{U^{235}}=\\dfrac{500.10^{3}}{235}=2127,66mol$\r\nSố hạt nhân $U^{235}$ là: $N=n_{U^{235}}.N_{A}=2127,66.6,023\\times10^{23}=1,281\\times10^{27}$\r\nTổng năng lượng toả ra là: $E=N.200=1,281.10^{27}.200=2,562.10^{29}MeV$\r\nTa có điện năng tiêu thụ của phản ứng: $A=40\\%E=1,025\\times10^{29}MeV \\approx 4,565\\times10^{9}kWh$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 3,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 13 - 19\nQuá trình nhân đôi DNA xảy ra trong nhân tế bào đối với sinh vật nhân chuẩn. Đối với sinh vật nhân sơ thì xảy ra trong tế bào chất. Thời điểm diễn ra nhân đôi DNA xảy ra vào pha S (thuộc kì trung gian) trong chu kì tế bào. Quá trình tổng hợp DNA còn được gọi là quá trình tái bản (replication). Một cơ chế đảm bảo thông tin di truyền cho các thế hệ sau.\n$/image_{https://cdn.save.moe/b/tTDOHN2.png?dl=1}_{center}_{50}_{block}$\nHình 1. Mô tả quá trình nhân đôi ADN\n\nBước 1: Tháo xoắn phân tử DNA\nNhờ enzym tháo xoắn, phân tử DNA thoát khỏi trạng thái siêu xoắn, sau đó các enzym helicasa tách hai mạch đơn của DNA ra, tạo nên chạc nhân đôi (chạc chữ Y) để lộ ra hai đoạn mạch đơn làm khuôn.\nBước 2: Tổng hợp mạch DNA mới\nEnzym DNA polymerase sử dụng 2 mạch đơn khuôn tổng hợp nên mạch mới theo nguyên tắc bổ sung. Vì enzym DNA polymerase chỉ tổng hợp mạch mới theo chiều $5^{\\prime}-3^{\\prime}$ (DNA polymeraza chỉ có thể xúc tác kéo dài mạch mới khi có sẵn đầu 3' OH tự do) nên :\n- Trên mạch khuôn có chiều 3'-5', quá trình tổng hợp mạch mới diễn ra liên tục, mạch mới này được gọi là mạch sớm hay mạch trước (leading strand).\n- Trên mạch khuôn 5'-3' quá trình tổng hợp gián đoạn tạo thành các đoạn okazaki. Mạch này tổng hợp gián đoạn và chậm hơn nên gọi là mạch ra chậm (lagging strand). Sau đó các đoạn okazaki được nối lại với nhau nhờ enzym nối ligaza.\nBước 3: Hai phân tử DNA được tạo thành (kết thúc)\nMạch mới được tổng hợp đến đâu thì 2 mạch đơn xoắn lại đến đó, tạo thành phân tử DNA con. Trong đó có một mạch được tổng hợp còn mạch kia từ DNA ban đầu (nguyên tắc bán bảo toàn). Tuy nhiên, tế bào sinh vật nhân thực có nhiều phân tử DNA có kích thước lớn. Sự nhân đôi DNA xảy ra ở nhiều điểm trong mỗi phân tử DNA tạo ra nhiều đơn vị tái bản và do nhiều loại enzym tham gia.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-11T20:14:29.957219+07:00",
+                "questions": [
+                    {
+                        "id": "bea6e9eb-e864-48fb-9751-f63890a1b954",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 1,
+                        "content": "Kéo thả vào vị trí thích hợp\nỞ tế bào của sinh vật nhân chuẩn, quá trình nhân đôi ADN diễn ra trong ____\nỞ tế bào của sinh vật nhân sơ, quá trình nhân đôi ADN diễn ra trong ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                "nhân",
+                                "tế bào chất"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1
+                            ]
+                        },
+                        "answer_detail": "Ở tế bào của sinh vật nhân chuẩn, quá trình nhân đôi ADN diễn ra trong nhân.\r\nỞ tế bào của sinh vật nhân sơ, quá trình nhân đôi ADN diễn ra trong tế bào chất.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "48a189dd-1abe-4fd2-8ce9-6a4c63c237b0",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 2,
+                        "content": "Điền từ/ cụm từ thích hợp vào chỗ trống\nTrong chu kì tế bào, quá trình nhân đôi diễn ra vào pha ____ chuẩn bị cho sự phân chia tế bào",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "S"
+                            ]
+                        },
+                        "answer_detail": "Quá trình nhân đôi ADN diễn ra chủ yếu ở pha S của kỳ trung gian trong chu kỳ tế bào.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "ceda7c94-828b-496d-9aa6-7b3e509f2208",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 3,
+                        "content": "Sự kéo dài mạch mới được tổng hợp diễn ra liên tục nhờ:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sự xúc tác của enzim DNA polimeraza."
+                                },
+                                {
+                                    "content": "Sự hình thành các đoạn okazaki."
+                                },
+                                {
+                                    "content": "Sự xúc tác của enzim RNA polimeraza."
+                                },
+                                {
+                                    "content": "Sự xúc tác của enzim tháo xoắn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Vì enzym DNA polymerase chỉ tổng hợp mạch mới theo chiều $5^{\\prime}-3^{\\prime}$ nên trên mạch khuôn có chiều 3'-5', quá trình tổng hợp mạch mới diễn ra liên tục.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "5b6f9c0a-f736-4a03-9e5b-5556282a92b2",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 4,
+                        "content": "Kết quả của quá trình nhân đôi ADN là: Từ 1 phân tử ADN ban đầu sẽ tạo ra:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "2 phân tử ADN giống hệt nhau, và giống hệt với ADN ban đầu."
+                                },
+                                {
+                                    "content": "2 phân tử ADN khác nhau và khác với ADN ban đầu."
+                                },
+                                {
+                                    "content": "2 phân tử ADN giống hệt nhau và khác với ADN ban đầu."
+                                },
+                                {
+                                    "content": "1 phân tử ADN giống với ADN ban đầu."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Từ một ADN mẹ, quá trình nhân đôi tạo ra hai phân tử DNA con giống hệt nhau và giống ADN ban đầu.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "2a1e38fb-aaf1-4fed-b770-21139d3e5159",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 5,
+                        "content": "Điền từ/ cụm từ thích hợp vào chỗ trống\nBiết trên một đơn vị tái bản của sinh vật nhân thực có 2 phễu tái bản (chạc chữ Y).\n$/image_{https://cdn.save.moe/b/nrioNfw.png?dl=1}_{left}_{50}_{block}$\nGiả sử một đơn vị tái bản của sinh vật nhân thực có 30 phân đoạn Okazaki thì sẽ ____ đoạn mồi cho việc nhân đôi.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "32"
+                            ]
+                        },
+                        "answer_detail": "Biết trên một đơn vị tái bản của sinh vật nhân thực có 2 phễu tái bản (chạc chữ Y).\r\nTrên một đơn vị có 30 đoạn Okazaki số đoạn mồi cần cho việc nhân đôi ở đơn vị đó là $30+2$ đoạn mồi = 32.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "6a63fbcf-0f68-4c58-948a-f0c65805f56c",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 6,
+                        "content": "Quá trình nhân đôi ở tế bào sinh vật nhân thực được xảy ra ở nhiều vị trí trên ADN cùng một thời điểm. Điều này có ý nghĩa gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sự nhân đôi diễn ra chính xác hơn."
+                                },
+                                {
+                                    "content": "Giúp dễ dàng điều hòa hoạt động của gen."
+                                },
+                                {
+                                    "content": "Rút ngắn thời gian nhân đôi."
+                                },
+                                {
+                                    "content": "Tiết kiệm nguyên liệu, enzyme và năng lượng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Sự nhân đôi ADN xảy ra ở nhiều điểm trong mỗi phân tử ADN tạo ra nhiều đơn vị nhân đôi và chính điểm này giúp quá trình nhân đôi diễn ra nhanh chóng (rút ngắn thời gian).",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "feaa9c90-7a8e-465d-81ed-ebce6d5e2ce4",
+                        "parent_id": "74e6e801-a020-4d50-ad77-b4ff12b4e396",
+                        "position": 7,
+                        "content": "Ở một thí nghiệm, các nhà khoa học mô tả quá trình nhân đôi ADN, sau khi thêm các nguyên liệu cần thiết, họ quan sát toàn bộ quá trình diễn ra và phân tích sản phẩm. Họ thu được rất nhiều đoạn ADN ngắn, vậy trong hỗn hợp nguyên liệu ban đầu đã thiếu thành phần nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Các nucleotide tự do."
+                                },
+                                {
+                                    "content": "Enzyme ADN polimerase"
+                                },
+                                {
+                                    "content": "Enzyme ARN polimerase"
+                                },
+                                {
+                                    "content": "Enzyme ligase"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Sản phẩm gồm nhiều đoạn ADN ngắn, đây rất có thể là những đoạn Okazaki được tổng hợp từ mạch 3'-5' nhưng chưa được nối lại.\r\n=\u003e Nguyên liệu thiếu là enzim nối ligaza.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "fc3f9855-f553-4f1a-9df1-bd3ea6c55cb9",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 4,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 20 - 23\nCác nhà khoa học đã nghiên cứu ảnh hưởng của pH và nồng độ niken đối với sự phát triển của thực vật và sự hấp thu sắt và kẽm của thực vật. Cây con nảy mầm gần đây của loài A và loài B được các nhà khoa học nuôi trong các dung dịch dinh dưỡng khác nhau (đánh số 1 – 12) trong 8 ngày và sau đó được thu hoạch. Các dung dịch dinh dưỡng 1-12 khác nhau về nồng độ pH và niken.\nBảng 1. Khối lượng khô trung bình của các cây được nuôi dưỡng tương ứng với mỗi dung dịch dinh dưỡng.\n$/image_{https://cdn.save.moe/b/MhZz82q.png?dl=1}_{center}_{50}_{block}$\n$/image_{https://cdn.save.moe/b/09qZA2.png?dl=1}_{center}_{50}_{block}$\nHình 1. Hàm lượng sắt, kẽm trung bình trong cây được nuôi trong các dung dịch dinh dưỡng 1 - 4",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-11T20:14:29.957219+07:00",
+                "questions": [
+                    {
+                        "id": "1d74eded-4dcd-4ec3-9e08-1ce3fa19c05c",
+                        "parent_id": "fc3f9855-f553-4f1a-9df1-bd3ea6c55cb9",
+                        "position": 1,
+                        "content": "Theo Bảng 1, các loài thực vật B được cho chăm sóc với dung dịch dinh dưỡng có độ pH là 6 và nồng độ niken là $10~\\mu M$ có khối lượng khô trung bình là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "7,0 g."
+                                },
+                                {
+                                    "content": "8,1 g."
+                                },
+                                {
+                                    "content": "9,2 g."
+                                },
+                                {
+                                    "content": "23,8 g."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Theo Bảng 1, các loài thực vật B được cho chăm sóc với dung dịch dinh dưỡng có độ pH là 6 (Dung dịch 7) và nồng độ niken là $10~\\mu M$ có khối lượng khô trung bình là: 8,1 g.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "d75b908d-2ce3-4437-89d7-258254d44aba",
+                        "parent_id": "fc3f9855-f553-4f1a-9df1-bd3ea6c55cb9",
+                        "position": 2,
+                        "content": "Trong điều kiện dinh dưỡng nào dưới đây thì loài B đạt được khối lượng khô trung bình lớn nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$pH=7$; nồng độ niken là $10~\\mu M.$"
+                                },
+                                {
+                                    "content": "$pH=7;$ nồng độ niken là $5\\mu M.$"
+                                },
+                                {
+                                    "content": "$pH=6$; nồng độ niken là $5~\\mu M.$"
+                                },
+                                {
+                                    "content": "$pH=5$; nồng độ niken là $5~\\mu M.$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Quan sát bảng 1, ta thấy khối lượng khô trung bình của loài thực vật B khi được chăm sóc là 10,7, tương ứng với điều kiện nuôi dưỡng là $pH=7$; nồng độ niken là 0 µM hoặc 5 µM.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "5a5ad698-6976-45f9-900d-122d3ecc5d18",
+                        "parent_id": "fc3f9855-f553-4f1a-9df1-bd3ea6c55cb9",
+                        "position": 3,
+                        "content": "Điền từ/ cụm từ thích hợp vào chỗ trống\nLoài thực vật ____ khi được chăm sóc với dung dịch dinh dưỡng 3 có hàm lượng kẽm trung bình là: $250\\mu g/g.$",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "A"
+                            ]
+                        },
+                        "answer_detail": "Dung dịch dinh dưỡng 3 là $pH=7$ và nồng độ niken là $10~\\mu M$\r\n=\u003e So vào hình 1, ta thấy với điều kiện trên thì hãm lượng kẽm trung bình của loài thực vật A là khoảng $250\\mu g/g$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "ffdc0a73-45bd-47ba-8e26-cece3a574b9c",
+                        "parent_id": "fc3f9855-f553-4f1a-9df1-bd3ea6c55cb9",
+                        "position": 4,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hàm lượng sắt trung bình ở loài thực vật A không phụ thuộc vào chế độ dinh dưỡng."
+                                },
+                                {
+                                    "content": "Hàm lượng sắt trung bình ở loài thực vật B có xu hướng giảm dần khi giảm nồng độ niken."
+                                },
+                                {
+                                    "content": "Hàm lượng kẽm trung bình ở loài thực vật A tăng dần khi tăng độ pH và nồng độ niken."
+                                },
+                                {
+                                    "content": "Hàm lượng kẽm trung bình ở loài thực vật B max khi $pH=5$ và nồng độ niken $=15~\\mu M.$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Ý 1 không đúng, vì có sự thay đổi hàm lượng sắt trung bình khi tăng nồng độ niken.\r\nÝ 2 đúng\r\nÝ 3 không đúng, pH không đổi đều là 7\r\nÝ 4 không đúng, pH ở trường hợp này là 7",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "023eb0c9-5e1c-4f6b-94d5-84c70df60e69",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 5,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 24 - 26\nQuan hệ giữa các loài góp phần quan trọng đảm bảo cân bằng sinh học của quần xã. Khi nghiên cứu biến động số lượng cá thể của quần thể nai và chó sói trên một hòn đảo từ năm 1980 đến năm 2015, các nhà nghiên cứu đã thu được kết quả như hình dưới.\n$/image_{https://cdn.save.moe/b/lgrgsZz.png?dl=1}_{center}_{50}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-11T20:14:29.957219+07:00",
+                "questions": [
+                    {
+                        "id": "b3f49880-3ae9-4521-8734-9f830f13427c",
+                        "parent_id": "023eb0c9-5e1c-4f6b-94d5-84c70df60e69",
+                        "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                        "position": 1,
+                        "content": "Khẳng định sau đúng hay sai?\nTrong thời gian nghiên cứu, số lượng cá thể chó sói luôn thấp hơn số lượng cá thể nai.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Trong thời gian nghiên cứu, số lượng cá thể chó sói luôn thấp hơn số lượng cá thể nai."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Dựa vào thống kê kết quả, ta nhận thấy, số lượng cá thể chó sói luôn thấp hơn số lượng cá thể nai (số lượng cá thể so ở hai cột khác nhau).",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-19T18:43:23.695013+07:00"
+                    },
+                    {
+                        "id": "1f9da30d-db2f-480c-9e16-334d5ab4f224",
+                        "parent_id": "023eb0c9-5e1c-4f6b-94d5-84c70df60e69",
+                        "position": 2,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau\nDựa kết quả thí nghiệm, xác định mối liên hệ của số lượng sói và số lượng nai?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Số lượng nai tăng kéo theo số lượng sói tăng"
+                                },
+                                {
+                                    "content": "Số lượng nai giảm làm cho số lượng sói tăng"
+                                },
+                                {
+                                    "content": "Sự biến động số lượng sói không liên quan đến sự biến động số lượng nai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Quần thể chó sói: nai là con mồi của chó sói do đó số lượng nai sẽ phụ thuộc vào số lượng chó sói.\r\nKhi số lượng chó sói tăng thì số lượng nai sẽ giảm và ngược lại\r\nÝ 1 đúng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "a87a1bbb-c139-4f1d-aee9-7db9d8927cf7",
+                        "parent_id": "023eb0c9-5e1c-4f6b-94d5-84c70df60e69",
+                        "position": 3,
+                        "content": "Sau năm 2015, nếu môi trường sống ổn định và kích thước quần thể chó sói ổn định thì kích thước quần thể nai sẽ thay đổi như thế nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sau năm 2015, nếu môi trường sống ổn định và kích thước quần thể chó sói ổn định thì kích thước quần thể nai sẽ thay đổi như thế nào?"
+                                },
+                                {
+                                    "content": "Kích thước quần thể nai sẽ ôn định"
+                                },
+                                {
+                                    "content": "Kích thước quần thể nai sẽ giảm đột biến rồi tăng dẫn"
+                                },
+                                {
+                                    "content": "Kích thước quần thể nai sẽ không ổn định, có thể tăng hoặc giảm mạnh"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Dựa trên biểu đồ, chúng ta thấy rằng mối quan hệ giữa số lượng chó sói và số lượng nai là mối quan hệ sinh thái kiểu con mồi - kẻ săn mồi. Nếu kích thước quần thể chó sói ổn định sau năm 2015 và môi trường sống cũng ổn định, kích thước quần thể nai sẽ có xu hướng ổn định do trạng thái cân bằng sinh thái được thiết lập.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 6,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 27 - 33\nMức độ sử dụng nhiên liệu hoá thạch cao trong cuộc sống hiện nay, bao gồm các nhà máy nhiệt điện (sử dụng nhiên liệu chính là than đá) hay ô tô chạy bằng xăng, dầu đã góp phần làm tăng nồng độ lưu huỳnh trioxit - $SO_{3}$ trong khí quyển. Khí lưu huỳnh trioxit và nước tương tác với nhau, xảy ra phản ứng hoá học để tạo ra dung dịch axit sunfuric, là nguyên nhân chính gây ra mưa axit trên toàn thế giới:\n$SO_{3}+H_{2}O\\rightleftharpoons H_{2}SO_{4}$\nMưa axit đặc biệt phổ biến tại khu vực có các nhà máy nhiệt điện đốt than và các thành phố lớn. Những trận mưa rào này gây thiệt hại kinh tế đáng kể cho các công trình công cộng như vỉa hè, đường sá và các toà nhà. Các nhà khoa học quan tâm đến việc nghiên cứu tác động của mưa axit thường sử dụng các chất cơ bản như canxi cacbonat, thành phần chính của các toà nhà bằng đá vôi và cho chúng tiếp xúc với lượng mưa axit khác nhau để xác định lượng mưa axit cần thiết để bắt đầu xói mòn một toà nhà. Một biểu đồ mẫu của thí nghiệm của một nhà khoa học được sao chép dưới đây:\n$/image_{https://cdn.save.moe/b/CTPvLH2.png?dl=1}_{center}_{50}_{block}$\nHình 1. Biểu đồ thí nghiệm pH của dung dịch và thể tích của dung dịch axit\nViệc đo nồng độ axit và bazơ thường được thực hiện bằng thang đo gọi là pH, sử dụng nồng độ của ion $H^{+}$ để xác định độ axit. Các ion $H^{+}$ cân bằng với các ion OH để tạo thành thang đo có phạm vi từ 0 đến 14. Các giá trị bằng hoặc trong khoảng từ 0 đến 6,9 biểu thị khoảng axit trong đó các ion H+ chiếm ưu thế và các giá trị bằng hoặc nằm trong khoảng từ 7,1 – 14 biểu thị khoảng cơ bản phạm vi mà các ion OH chiếm ưu thế. Vì vậy, càng có nhiều ion H thì dung dịch càng có tính axit.\nCác nhà khoa học có thể biết khi nào một thí nghiệm chuẩn độ (pH) vượt qua một độ pH nhất định bằng cách sử dụng các chất chỉ thị. Các chất chỉ thị thường không có màu ở mức pH thấp hơn mức pH chỉ định gây ra sự đổi màu của chúng. Bảng các chỉ số được các nhà khoa học trên sử dụng và độ pH để chúng đôi màu được trình bày dưới đây:\n$/image_{https://cdn.save.moe/b/gmESZ.png?dl=1}_{center}_{50}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-11T20:14:29.957219+07:00",
+                "questions": [
+                    {
+                        "id": "44cbb395-e036-4b04-9be6-08b071d66e17",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                        "position": 1,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nThể tích acid càng tăng pH của dung dịch càng tăng.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Thể tích acid càng tăng pH của dung dịch càng tăng."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhận thấy, càng tăng thể tích của dung dịch acid thì pH của dung dịch càng giảm nên nhận định trên là sai.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-19T18:43:09.621157+07:00"
+                    },
+                    {
+                        "id": "92802646-fc08-4f64-b6e3-1c1823af32a8",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "position": 2,
+                        "content": "pH thu được của dung dịch sau khi cho calcium carbonate phản ứng với 31 mL dung dịch $H_{2}SO_{4}$ là",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "7."
+                                },
+                                {
+                                    "content": "0."
+                                },
+                                {
+                                    "content": "12."
+                                },
+                                {
+                                    "content": "3."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Có thể thấy tại thể tích dung dịch $H_{2}SO_{4}=31$ mL thì pH của dung dịch giảm xuống nhưng chưa về 0.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "3f6314f3-a389-4dd5-ac41-55189ecf8a9a",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "position": 3,
+                        "content": "Điền số thích hợp vào chỗ trống\nKhi cho vào dung dịch ____ mL $H_{2}SO_{4}$ thì có sự thay đổi đột ngột của pH.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "20"
+                            ]
+                        },
+                        "answer_detail": "Tại thể tích dung dịch $H_{2}SO_{4}$ thêm vào là 20 mL thì pH thay đổi theo đường thẳng (sự thay đổi đột ngột).\r\nSố cần điền: 20.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "659b2628-1792-4bae-ade9-367b400b77b3",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "position": 4,
+                        "content": "Kéo thả ô đáp án vào vị trí thích hợp\nChỉ thị phù hợp để biết lượng axit sunfuric đã thêm vào là vừa đủ để phản ứng hết với canxi cacbonat là ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                "metyl đỏ",
+                                "isobutyl terpine",
+                                "propyl cyonate"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Tại pH bằng 7 được coi là phản ứng vừa đủ. Isobutyl terpine có sự đổi màu tại $pH=7$ nên phù hợp để làm chỉ thị.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "67642d22-f896-461d-a207-4d37f6c0400f",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "position": 5,
+                        "content": "Mô tả nào dưới đây biểu thị tốt nhất mối quan hệ giữa độ pH và thể tích axit được thêm vào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tỉ lệ thuận."
+                                },
+                                {
+                                    "content": "Hình chữ S."
+                                },
+                                {
+                                    "content": "Tỉ lệ nghịch đảo."
+                                },
+                                {
+                                    "content": "Tỉ lệ gián tiếp."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhìn vào đồ thị Hình 1 ta thấy đường màu xanh biểu thị mối quan hệ giữa pH và thể tích dung dịch axit thêm vào là đường cong hình chữ S.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "1f6fd249-8d7f-41dd-afbf-fb5f68bdd2bc",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "position": 6,
+                        "content": "Mỗi dung dịch A, B, C đều chứa số lượng ion H+ khác nhau. Dung dịch A có pH là 6,9, dung dịch B có pH là 7,3 và dung dịch C có pH là 1,3. Sắp xếp các dung dịch theo thứ tự tăng dần số lượng ion H .",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$A\u003cB\u003cC$."
+                                },
+                                {
+                                    "content": "$B\u003cC\u003cA$"
+                                },
+                                {
+                                    "content": "$C\u003cA\u003cB$"
+                                },
+                                {
+                                    "content": "$B\u003cA\u003cC$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Nhìn vào đồ thị Hình1, khi thể tích dung dịch axit càng tăng, tức là lượng ion $H^{+}$ trong dung dịch ngày càng nhiều thì pH của dung dịch ngày càng thấp.\r\nVậy pH càng nhỏ thì nồng độ $H^{+}$ càng lớn.\r\nVậy thứ tự tăng dần nồng độ $H^{+}$ trong các dung dịch là: $B\u003cA\u003cC$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "cc19237b-2aef-4591-a25c-85e3f449a192",
+                        "parent_id": "d65e87cf-2561-4e21-9cff-512bd022b9b6",
+                        "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                        "position": 7,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nNồng độ ion $H^{+}$ càng lớn thì pH càng lớn.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Nồng độ ion $H^{+}$ càng lớn thì pH càng lớn."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nồng độ ion H càng lớn thì pH càng thấp.\r\nVậy nhận định trên sai.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-19T18:44:28.126451+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                "position": 7,
+                "content": "Đọc thông tin sau đây và trả lời các câu hỏi từ 34 - 40\nHai học sinh làm thí nghiệm để chuyển hoá hợp chất magie clorua theo phương trình hoá học như sau:\n$MgCl_{2(aq)}+2AgNO_{3(aq)}\\rightarrow Mg(NO_{3})_{2(aq)}+2AgCl_{(r)}$\nDưới đây là các bước làm thí nghiệm của hai học sinh:\n1. Ghi lại lượng magie clorua đã được sử dụng để tạo ra dung dịch ban đầu, sau đó tính lượng bạc clorua theo lý thuyết được tạo ra từ dung dịch này:\n2. Thêm một lượng bạc nitrat dư để chuyển toàn bộ magie clorua thành bạc clorua.\n3. Sử dụng phương pháp lọc chân không để tách toàn bộ phần dung dịch ra khỏi bạc clorua dạng rắn, sao cho chỉ còn lại bạc clorua dạng rắn trên giấy lọc.\n4. Làm khô hoàn toàn bạc clorua trong lò nung.\n5. Sau khi lọc và sấy khô thì thu được sản phẩm bạc clorua cuối cùng. Ghi khối lượng bạc clorua được sinh ra.\n6. Xác định hiệu suất phản ứng.\nBằng những số liệu của mình, các học sinh tính được hiệu sất phản ứng là lớn hơn 100%.\nHọc sinh 1: Giấy lọc dùng để lọc chân không quá mịn. Các lỗ trên giấy lọc quá nhỏ nên nước và các ion trong nước được lọc rất chậm. Vậy nên, khi sấy khô có cả bạc nitrat và magie nitrat chưa được lọc hết. Việc có nước làm cho khối lượng kết tủa bị tăng so với lượng lý thuyết là không hợp lý vì cuối cùng nước sẽ bay hơi hết trong quá trình sấy trong lò nung. Cuối cùng, khối lượng thực tế thu được tăng là do có bạc nitrat và magie nitrat.\nHọc sinh 2: Khi sấy kết tủa trong lò nung đã không sấy đủ thời gian để có thể làm cho nước bay hơi hoàn toàn, vậy nên kết quả thu được là bạc clorua còn nước. Việc khối lượng tăng lên do các muối nitrat là không hợp lý vì sản phẩm cuối cùng thu được là đồng nhất.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-11T20:14:29.957219+07:00",
+                "updated_at": "2026-02-11T20:14:29.957219+07:00",
+                "questions": [
+                    {
+                        "id": "7e89bd09-f896-46e7-9257-acbc94a48cee",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "position": 1,
+                        "content": "Điền số thích hợp vào chỗ trống\nSố mol AgCl được tạo ra từ 1 mol $MgCl_{2}$ là ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "2"
+                            ]
+                        },
+                        "answer_detail": "Từ phương trình phản ứng: $MgCl_{2(aq)}+2AgNO_{3(aq)}\\rightarrow Mg(NO_{3})_{2(aq)}+2AgCl_{(r)}$ ta thấy cứ 1 mol $MgCl_{2}$ tham gia phản ứng thì sẽ có 2 mol AgCl được tạo ra.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "0532ad7a-ef5b-4308-acb3-2eb5bc71c948",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "position": 2,
+                        "content": "Trong một phản ứng, hiệu suất phản ứng được tính theo công thức sau:\nHiệu suất phản ứng = (Lượng thực tế Lượng lý thuyết) × 100%\nDựa vào lập luận của hai sinh viên, điều nào sau đây có thể làm tăng hiệu suất tạo ra AgCl?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Cân bằng phản ứng và tính chính xác lượng thực tế."
+                                },
+                                {
+                                    "content": "Cân bằng phản ứng và tính chính xác lượng lý thuyết."
+                                },
+                                {
+                                    "content": "Thay đổi quy trình thí nghiệm để tăng lượng magie nitrat có trong sản phẩm cuối cùng."
+                                },
+                                {
+                                    "content": "Thay đổi quy trình thí nghiệm để giảm lượng magie nitrat có trong sản phẩm cuối cùng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Để tăng hiệu suất tạo ra AgCl, tức lượng sản phẩm thực tế được tạo ra phải nhiều. Vậy ở đây tăng lượng sản phẩm magie nitrat được tạo ra đồng nghĩa với việc AgCl được tạo ra tăng lên nên hiệu suất phản ứng tăng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "98898914-1db9-478f-a9b6-111a3ebdc209",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "position": 3,
+                        "content": "Học sinh 1 tin rằng giấy lọc được sử dụng là một phần nguyên nhân gây ra sự cao bất thường của hiệu suất phản ứng, trong khi học sinh 2 tin rằng đó là do sản phẩm không được làm khô hoàn toàn. Theo học sinh 1, cách nào sau đây có khả năng làm giảm sự tăng thêm về khối lượng của sản phẩm cuối cùng?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tăng nhiệt độ của hỗn hợp phản ứng."
+                                },
+                                {
+                                    "content": "Giảm nhiệt độ của hỗn hợp phản ứng."
+                                },
+                                {
+                                    "content": "Sử dụng giấy lọc khác có kích thước lỗ lớn hơn."
+                                },
+                                {
+                                    "content": "Sử dụng giấy lọc khác có kích thước lỗ nhỏ hơn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Sử dụng một giấy lọc khác có kích thước lỗ lớn hơn sẽ làm giảm sự tăng thêm về khối lượng trong hỗn hợp sản phẩm cuối cùng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "f4dc0822-dd35-4237-9643-05eea3cd59fe",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "position": 4,
+                        "content": "Trong công nghiệp, các nhà khoa học đã sản xuất được 300g AgCl cho mỗi 100g $MgCl_{2}$ được sử dụng. Sau khi thay đổi một vài điểm trong quy trình, họ đã bắt đầu sản xuất 250 g AgCl từ 100 g $MgCl_{2}$. Nhận xét nào dưới đây là đúng nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hiệu suất phản ứng đã giảm đi."
+                                },
+                                {
+                                    "content": "Lượng sản phẩm thực tế thu được tăng lên."
+                                },
+                                {
+                                    "content": "Xúc tác đã được thêm vài quá trình phản ứng."
+                                },
+                                {
+                                    "content": "Một chất phản ứng đã bị loại khỏi hệ thống phản ứng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Lượng AgCl sau khi thay đổi đã bị giảm từ 300g xuống chỉ còn 250g nên hiệu suất phản ứng bị giảm đi.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "9c1b8ae2-0775-43fa-a755-885a57bb6ce4",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "position": 5,
+                        "content": "Đâu là giả định của học sinh 2 khi phân tích kết quả?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Phải làm khô hết nước trong sản phẩm."
+                                },
+                                {
+                                    "content": "Ion nitrat trong muối bạc và magie là nguyên nhân gây ra sự tăng khối lượng sản phẩm."
+                                },
+                                {
+                                    "content": "Nước trong sản phẩm khiến sản phẩm không đồng đều và thống nhất."
+                                },
+                                {
+                                    "content": "Ion nitrat trong muối của bạc và magie không đồng nhất."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Vậy theo lập luận của học sinh 2 thì phải làm khô hết nước trong sản phẩm.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "bd8c9af0-950c-4c4e-ab55-0700ecdb5124",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "position": 6,
+                        "content": "Liệu học sinh 2 có ủng hộ quan điểm rằng việc hiệu suất phản ứng có giá trị lớn hơn 100% là do sự có mặt của MgCl2 không phản ứng trong sản phẩm cuối cùng không?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Có, học sinh 2 tin rằng nước có thể có trong sản phẩm cuối cùng."
+                                },
+                                {
+                                    "content": "Có, học sinh 2 tin rằng bạc nitrat có thể góp phần làm cho khối lượng sản phẩm cuối cùng tăng lên."
+                                },
+                                {
+                                    "content": "Không, học sinh 2 tin rằng khối lượng tăng lên là do có các phân tử nước."
+                                },
+                                {
+                                    "content": "Không, học sinh 2 tin rằng khối lượng tăng lên là do có thêm nitrat."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Học sinh 2 cho rằng sản phẩm còn nước là nguyên nhân chính gây nên việc hiệu suất phản ứng lớn hơn 100%, vậy nên học sinh sẽ không đồng ý với việc hiệu suất phản ứng tăng là do sự có mặt của MgCl2 trong sản phẩm cuối cùng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-11T20:14:29.957219+07:00"
+                    },
+                    {
+                        "id": "e4a76521-1dd7-4cbd-bc6e-ddaecc27b8c0",
+                        "parent_id": "949d7636-6105-4e6a-ae20-64e17e2c5151",
+                        "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+                        "position": 7,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nMục tiêu của thí nghiệm trên là kiểm chứng các yếu tố ảnh hưởng đến kết quả của thí nghiệm chuyển hóa magnesium chloride thành silver chloride.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Mục tiêu của thí nghiệm trên là kiểm chứng các yếu tố ảnh hưởng đến kết quả của thí nghiệm chuyển hóa magnesium chloride thành silver chloride."
+                                }
+                            ],
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhận định trên là sai. Thí nghiệm kiểm chứng phương pháp tách chất nào tối ưu hơn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-11T20:14:29.957219+07:00",
+                        "updated_at": "2026-02-19T18:44:37.347994+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "eeccd684-bb34-4056-a1ea-658d6f48f036",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "8421eeab-a9d5-45ef-a12a-1376bf240707",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:39:01.726814+07:00",
+        "updated_at": "2026-03-02T15:39:01.726814+07:00",
+        "submited_at": "2026-03-02T15:39:01.726814+07:00"
+    }
+}

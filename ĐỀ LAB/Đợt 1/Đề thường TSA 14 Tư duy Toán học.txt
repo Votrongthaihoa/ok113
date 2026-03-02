@@ -1,0 +1,1287 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+        "title": "Đề thường TSA 14: Tư duy Toán học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-10T15:04:29.417382+07:00",
+        "updated_at": "2026-02-12T14:37:35.546926+07:00",
+        "questions": [
+            {
+                "id": "0500fe5d-17cf-480b-9f96-d929d6bab58a",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 1,
+                "content": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như sau:\n$/image_{https://cdn.save.moe/b/0RRJR28.png?dl=1}_{left}_{40}_{block}$\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Tổng giá trị cực đại và cực tiểu của hàm số là 2."
+                        },
+                        {
+                            "content": "GTLN $f(x)=3$ đạt tại $x=1$."
+                        },
+                        {
+                            "content": "Hàm số đạt cực tiểu tại $x=3$."
+                        },
+                        {
+                            "content": "Hàm số đồng biến trên khoảng $(3;+\\infty)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Giá trị cực đại: $y=3$\r\nHàm số đạt cực tiểu tại $x=3$. Giá trị cực tiểu: $y=-1$\r\nTổng giá trị cực đại và cực tiểu của hàm số là 2.\r\nHàm số đồng biến trên khoảng $(3;+\\infty)$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:49:41.529203+07:00"
+            },
+            {
+                "id": "04a8dde8-98dd-4a23-8780-0e434fe7a02a",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 2,
+                "content": "Trong khai triển của nhị thức $(3x^{2}-y)^{4}$ chứa số hạng $54x^{4}y^{k}$ thì giá trị của k là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "3."
+                        },
+                        {
+                            "content": "4."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$(3x^{2}-y)^{4}=\\sum_{k=0}^{4}C_{4}^{k}(3x^{2})^{4-k}(-y)^{k}$\r\n$=\\sum_{k=0}^{4}C_{4}^{k}3^{4-k}x^{2(4-k)}(-1)^{k}y^{k}$\r\n$=\\sum_{k=0}^{4}C_{4}^{k}3^{4-k}(-1)^{k}x^{2(4-k)}y^{k}$\r\nKhi đó số hạng $54x^{4}y^{k}$ là số hạng có $\\begin{cases}2(4-k)=4\\\\ C_{4}^{k}.3^{4-k}.(-1)^{k}=54\\end{cases}\\Leftrightarrow k=2$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "f644676e-2f24-4ef9-9b69-7960d7030b74",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 3,
+                "content": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên dưới.\n$/image_{https://cdn.save.moe/b/vVa9EF.png?dl=1}_{left}_{30}_{block}$\nTìm số đường tiệm cận của đồ thị hàm số $y=\\dfrac{\\sqrt{100-x^{2}}}{2f(x)+5}.$\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "3."
+                        },
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "5."
+                        },
+                        {
+                            "content": "4."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Điều kiện: $\\begin{cases}-10\\le x\\le10\\\\ f(x)\\ne-\\dfrac{5}{2}\\end{cases}$\r\nXét $f(x)=-\\dfrac{5}{2}$ trên $[-10;10]$\r\nPhương trình trên có 3 nghiệm phân biệt nên đồ thị hàm số $y=\\dfrac{\\sqrt{100-x^{2}}}{2f(x)+5}$ có 3 đường tiệm cận đứng.\r\nĐồ thị không có đường tiệm cận ngang.\r\nTổng số đường tiệm cận là 3.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "3853ebb6-a2e6-45c4-a721-1d15b1e4a48c",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 4,
+                "content": "Kéo thả vào vị trí thích hợp\nCho các đồ thị sau:\n$/image_{https://cdn.save.moe/b/2qvT8.png?dl=1}_{left}_{40}_{block}$\nHình 1 là đồ thị hàm số ____\nHình 2 là đồ thị hàm số ____\nHình 3 là đồ thị hàm số ____\nHình 4 là đồ thị hàm số ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$y=-cos~x$",
+                        "$y=|s~in~x|$",
+                        "$y=sin\\dfrac{x}{2}$",
+                        "$y=|cosx|$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2,
+                        1,
+                        3,
+                        0
+                    ]
+                },
+                "answer_detail": "Hình 1: Đồ thị qua các điểm (0;0); (π;1) và có chu kì $4\\pi$ nên là đồ thị của hàm số $y=sin\\dfrac{x}{2}$.\r\nHình 2: Đồ thị qua các điểm (0;0); $(-\\dfrac{\\pi}{2};1)$ và có chu kì $\\pi$ nên là đồ thị của hàm số $y=|sinx|$.\r\nHình 3: Đồ thị hàm số qua các điểm (0;1);(-π;1) và có chu kì $\\pi$ nên là đồ thị của hàm số $y=|cosx|$.\r\nHình 4: Đồ thị hàm số qua các điểm $(0;-1);(\\dfrac{\\pi}{2};0);(\\pi;1)$ và có chu kì $2\\pi$ nên là đồ thị của hàm số $y=-cos~x$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "75d19603-193c-47fd-9258-ebbe01e4a66c",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 5,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho hàm số $f(x)$ có đạo hàm là $f^{\\prime}(x)=\\dfrac{2x-3}{x-2},\\forall x\\in\\mathbb{R}\\backslash\\{2\\}$ thỏa mãn $f(1)=1$ và $f(3)=2$ . Giá trị của biểu thức $f(0)+2f(4)$ bằng a+blnc với a,b, $c\\in\\mathbb{Z}$ . Giá trị của $a+b+c$ là ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "12"
+                    ]
+                },
+                "answer_detail": "$\\displaystyle \\int_{0}^{1}f^{\\prime}(x)dx=f(1)-f(0)\\Rightarrow f(0)=f(1)-\\displaystyle \\int_{0}^{1}f^{\\prime}(x)dx$\r\n$\\displaystyle \\int_{3}^{4}f^{\\prime}(x)dx=f(4)-f(3)\\Rightarrow f(4)=\\displaystyle \\int_{3}^{4}f^{\\prime}(x)dx+f(3)$\r\n$f(0)+2f(4)=f(1)-\\displaystyle \\int_{0}^{1}f^{\\prime}(x)dx+2(\\displaystyle \\int_{3}^{4}f^{\\prime}(x)dx+f(3))=7+3~ln~2$\r\n$\\Rightarrow a+b+c=7+3+2=12$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "2111db81-d719-444c-a914-b768f37a1cb5",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 6,
+                "content": "Tìm nguyên hàm $F(t)=\\displaystyle \\int txdt$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$F(t)=x+t+C$."
+                        },
+                        {
+                            "content": "$F(t)=\\dfrac{x^{2}t}{2}+C$."
+                        },
+                        {
+                            "content": "$F(t)=\\dfrac{xt^{2}}{2}+C.$"
+                        },
+                        {
+                            "content": "$F(t)=\\dfrac{(tx)^{2}}{2}+C.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Coi x là tham số.\r\n$F(t)=\\displaystyle \\int txdt=x\\displaystyle \\int tdt=x.\\dfrac{t^{2}}{2}+C$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "4d7f3683-5ef5-429d-a062-2d5c2e038f64",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 7,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho $F(x)$ là một nguyên hàm của hàm số $f(x)=e^{x^{2}}(x^{3}-4x)$. Hàm số $F(x)$ có ____ điểm cực trị.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3"
+                    ]
+                },
+                "answer_detail": "$F(x)$ là một nguyên hàm của hàm số $f(x)=e^{x^{2}}(x^{3}-4x)$ nên $f(x)=F^{\\prime}(x)$.\r\n$F^{\\prime}(x)=0\\Leftrightarrow x^{3}-4x=0\\Leftrightarrow\\begin{cases}x=0\\\\ x=2\\\\ x=-2\\end{cases}$\r\nKhi đó hàm số $F(x)$ có 3 điểm cực trị.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "bc5ae208-2883-446b-bd9a-567c4b15c4ca",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 8,
+                "content": "Có 20 thùng hàng giống nhau gồm 3 loại: 8 thùng loại I, 7 thùng loại II và 5 thùng loại III. Mỗi thùng hàng có 10 sản phẩm và số sản phẩm tốt tương ứng cho mỗi loại lần lượt là 8,7 và 5. Chọn ngẫu nhiên 1 thùng hàng và từ thùng đó lấy ra 3 sản phẩm. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Xác suất có 2 sản phẩm lấy ra là tốt là $\\dfrac{1139}{2400}.$"
+                        },
+                        {
+                            "content": "Xác suất có 2 sản phẩm lấy ra là tốt và của thùng hàng loại II là $\\dfrac{21}{40}.$"
+                        },
+                        {
+                            "content": "Giả sử có 2 sản phẩm lấy ra là tốt, xác suất 2 sản phẩm này là của thùng hàng loại II là $\\dfrac{441}{1139}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Gọi $A_{i}$: \"lấy được thùng loại i\", $i=1,2,3$\r\nGọi B : \"2 sản phẩm lấy ra là tốt\".\r\n$P(B)=P(A_{1}.B)+P(A_{2}.B)+P(A_{3}.B)$\r\n$=P(A_{1}).P(B|A_{1})+P(A_{2}).P(B|A_{2})+P(A_{3}).P(B|A_{3})$\r\n$=\\dfrac{8}{20}.\\dfrac{C_{8}^{2}.C_{2}^{1}}{C_{10}^{3}}+\\dfrac{7}{20}.\\dfrac{C_{7}^{2}.C_{3}^{1}}{C_{10}^{3}}+\\dfrac{5}{20}.\\dfrac{C_{5}^{2}.C_{5}^{1}}{C_{10}^{3}}=\\dfrac{1139}{2400}$\r\nGọi C: \"2 sản phẩm tốt của thùng loại 2\", $C=B\\cap A_{2}$\r\n$\\Rightarrow P(C)=P(A_{2}).P(B|A_{2})=\\dfrac{7}{20}\\cdot\\dfrac{C_{7}^{2}.C_{3}^{1}}{C_{10}^{3}}=\\dfrac{147}{800}$\r\n$P(A_{2}|B)=\\dfrac{P(A_{2}).P(B|A_{2})}{P(B)}=\\dfrac{\\dfrac{147}{800}}{\\dfrac{1139}{2400}}=\\dfrac{441}{1139}$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "12f5ba1f-88da-43ac-aeda-92a2309d1dea",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 9,
+                "content": "Cho hai dãy số $(u_{n}),(u_{m})$ xác định bởi $u_{n}=n^{2}$; $u_{m}=4m+2$. Hai dãy có bao nhiêu số hạng trùng nhau?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "3."
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "4."
+                        },
+                        {
+                            "content": "0."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "2 số hạng của dãy số trùng nhau nếu tồn tại (n,m) thỏa mãn: $n^{2}=4m+2$.\r\nKhi đó $n:2\\Rightarrow n=2a\\Rightarrow4a^{2}=4m+2\\Rightarrow2m+1=2a^{2}$ (Vô nghiệm vì vế trái lẻ, vế phải chẵn)\r\n2 dãy số không có số hạng nào trùng nhau.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "ee7bf545-7d72-4e86-8ca7-7d1e9ad1912e",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 10,
+                "content": "Cho hàm số $f(x)=\\dfrac{4^{x}}{4^{x}+2}$. Tính giá trị biểu thức $A=f(\\dfrac{1}{100})+f(\\dfrac{2}{100})+...+f(\\dfrac{100}{100})$\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "50."
+                        },
+                        {
+                            "content": "49."
+                        },
+                        {
+                            "content": "$\\dfrac{149}{3}.$"
+                        },
+                        {
+                            "content": "$\\dfrac{301}{6}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "$f(a)+f(1-a)=\\dfrac{4^{a}}{4^{a}+2}+\\dfrac{4^{1-a}}{4^{1-a}+2}=\\dfrac{4^{a}}{4^{a}+2}+\\dfrac{4}{4+2.4^{a}}$\r\n$=\\dfrac{4^{a}}{4^{a}+2}+\\dfrac{2}{2+4^{a}}=\\dfrac{2+4^{a}}{2+4^{a}}=1$\r\n$A=f(\\dfrac{1}{100})+f(\\dfrac{2}{100})+...+f(\\dfrac{100}{100})$\r\n$=[f(\\dfrac{1}{100})+f(\\dfrac{99}{100})]+[f(\\dfrac{2}{100})+f(\\dfrac{98}{100})]+...+[f(\\dfrac{49}{100})+f(\\dfrac{51}{100})]+f(\\dfrac{50}{100})+f(\\dfrac{100}{100}).$\r\n$f(\\dfrac{50}{100})+f(\\dfrac{100}{100})=f(\\dfrac{1}{2})+f(1)$\r\n$=\\dfrac{4^{0,5}}{4^{0.5}+2}+\\dfrac{4}{4+2}=\\dfrac{7}{6}$\r\n$\\Rightarrow A=49.1+\\dfrac{7}{6}=\\dfrac{301}{6}$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "f437f4c5-b0dc-48f5-bd59-866154c5f8b1",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 11,
+                "content": "Đồ thị hàm số $y=8^{|sin~2x|}$ luôn nằm trong khoảng giữa hai đường thẳng, khoảng cách giữa hai đường thẳng này bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "7."
+                        },
+                        {
+                            "content": "6."
+                        },
+                        {
+                            "content": "5."
+                        },
+                        {
+                            "content": "4."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có: $0\\le|sin~2x|\\le1\\Rightarrow1\\le8^{|sin~2x|}\\le8\\Rightarrow$ Đồ thị hàm số $y=8^{|sin~2x|}$ luôn nằm trong khoảng giữa hai đường thẳng $y=1$ và $y=8$\r\nKhoảng cách giữa hai đường thẳng là 7.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "26afef6e-a88c-40df-b61c-3ecaeb75cfc1",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 12,
+                "content": "Kéo thả vào vị trí thích hợp\r\n$lim_{x\\rightarrow+\\infty}x^{k}=+\\infty$ với k là ____\r\n$lim_{x\\rightarrow-\\infty}x^{k}=-\\infty$ với k là ____\r\n$lim_{x\\rightarrow-\\infty}x^{k}=+\\infty$ với k là ____\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "số nguyên dương",
+                        "số nguyên dương lẻ",
+                        "số nguyên dương chẵn"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "$+lim_{x\\rightarrow+\\infty}x^{k}=+\\infty$ với k nguyên dương.\r\n$+lim_{x\\rightarrow-\\infty}x^{k}=-\\infty$ với k nguyên dương lẻ.\r\n$+lim_{x\\rightarrow-\\infty}x^{k}=+\\infty$ với k nguyên dương chẵn.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "0bb08511-ab3b-41ed-b434-3b76c6459c89",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 13,
+                "content": "Cho a,b,c,d là các số nguyên dương thỏa mãn $log_{a}b=\\dfrac{3}{2};log_{c}d=\\dfrac{5}{4}$ và $a-c=9$. Tính $b-d$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "93."
+                        },
+                        {
+                            "content": "85."
+                        },
+                        {
+                            "content": "71."
+                        },
+                        {
+                            "content": "76."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$log_{a}b=\\dfrac{3}{2}\\Leftrightarrow b=a^{\\dfrac{3}{2}}=(\\sqrt{a})^{3}$\r\n$log_{c}d=\\dfrac{5}{4}\\Leftrightarrow d=c^{\\dfrac{5}{4}}=(\\sqrt[4]{c})^{5}$\r\na,b,c,d là các số nguyên dương nên a,c là số chính phương.\r\n$a-c=9$ nên a và c là 1 số chính phương chẵn và 1 số chính phương lẻ. Đồng thời $a\u003ec$\r\nĐặt $a=k^{2}$ $;c=m^{2}\\Rightarrow k^{2}-m^{2}=9=1.9$\r\n$\\Leftrightarrow\\begin{cases}k-m=1\\\\ k+m=9\\end{cases}\\Leftrightarrow\\begin{cases}k=5\\\\ m=4\\end{cases}\\Rightarrow a=25;c=16$\r\n$\\Rightarrow b=25^{\\dfrac{3}{2}}=125; d=16^{\\dfrac{5}{4}}=32$\r\n$\\Rightarrow b-d=93$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "68443671-6991-4e0a-bd4f-573663b10c4e",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 14,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCó ____ số nguyên m thuộc miền [-2019;2019] để phương trình sau có nghiệm $log_{2}^{2}x-2~log_{2}x-\\sqrt{m+log_{2}x}=m$.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "4039"
+                    ]
+                },
+                "answer_detail": "Đk: $x\u003e0;$ $m+log_{2}x\\ge0$\r\n$log_{2}^{2}x-2~log_{2}x-\\sqrt{m+log_{2}x}=m$\r\n$\\Leftrightarrow log_{2}^{2}x-log_{2}x=m+log_{2}x+\\sqrt{m+log_{2}x}$\r\n$\\Leftrightarrow(log_{2}x+\\sqrt{m+log_{2}x})(log_{2}x-\\sqrt{m+log_{2}x}-1)=0$\r\nXét $\\begin{cases}m+log_{2}x=(log_{2}x)^{2}\\\\ log_{2}x\\le0\\end{cases}$. Đặt $log_{2}x=t\\le0$, khi đó $\\begin{cases}m=t^{2}-t\\\\ t\\le0\\end{cases}$. Phương trình có nghiệm khi $m\\ge0$.\r\n$m\\in[-2019;2019]$; $m\\ge0\\Rightarrow0\\le m\\le2019$. Có 2020 giá trị của m.\r\nXét $\\begin{cases}m=(log_{2}x)^{2}+log_{2}x+1\\\\ log_{2}x+1\\ge0\\end{cases}$ có nghiệm khi $m\\ge\\dfrac{3}{4}$\r\n$m\\in[-2019;2019]$; $m\\ge\\dfrac{3}{4}\\Rightarrow1\\le m\\le2019$. Có 2019 giá trị của m .\r\nVậy có 4039 giá trị của m.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "bbb8b04e-9f11-4422-8b6c-3df496010f95",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 15,
+                "content": "Biết ba số hạng $2x-1;4x^{2}-1;(4x^{2}-1)(2x+1)$ theo thứ tự lập thành một cấp số nhân. Số hạng tiếp theo của cấp số nhân đó có dạng đa thức $f(x)$, tính $f(1)$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "27."
+                        },
+                        {
+                            "content": "30."
+                        },
+                        {
+                            "content": "36."
+                        },
+                        {
+                            "content": "20."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$2x-1;4x^{2}-1;(4x^{2}-1)(2x+1)$ theo thứ tự lập thành một cấp số nhân\r\n$\\Leftrightarrow(2x-1).(4x^{2}-1)(2x+1)=(4x^{2}-1)^{2}$ (Luôn đúng)\r\n$\\Rightarrow q=2x+1$\r\n$f(x)=(4x^{2}-1)(2x+1).(2x+1)=(2x+1)^{3}(2x-1)$\r\n$f(1)=3^{3}.1=27$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "91175683-2310-48c2-99cb-2f53df003988",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 16,
+                "content": "Kéo thả vào vị trí thích hợp\r\nCho hình chóp tam giác S.ABC có $\\triangle ABC$ vuông tại $B,SA\\perp(ABC)$. Gọi G là trọng tâm $\\triangle SBC$. Biết $SA=AB=a$, $BC=2a$.\r\nThể tích khối chóp S.ABC là ____\r\nThể tích khối chóp G.ABC là ____\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$\\dfrac{2a^{3}}{9}$",
+                        "$\\dfrac{a^{3}}{9}$",
+                        "$\\dfrac{a^{3}}{3}$",
+                        "$\\dfrac{a^{3}}{6}$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2,
+                        1
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/Nxing.png?dl=1}_{left}_{30}_{block}$\nTa có: $V_{S.ABC}=\\dfrac{1}{3}SA.S_{\\Delta ABC}=\\dfrac{1}{3}.SA.\\dfrac{1}{2}AB.BC=\\dfrac{a^{3}}{3}$\nGọi E là trung điểm của BC.\nDo $\\dfrac{GE}{SE}=\\dfrac{1}{3}\\Rightarrow\\dfrac{d(G,(ABC))}{d(S,(ABC))}=\\dfrac{1}{3}\\Rightarrow d(G,(ABC))=\\dfrac{1}{3}d(S,(ABC))=\\dfrac{a}{3}.$\nKhi đó, $V_{GABC}=\\dfrac{1}{3}d(G,(ABC))S_{\\Delta ABC}=\\dfrac{1}{3}.\\dfrac{a}{3}.\\dfrac{1}{2}a.2a=\\dfrac{a^{3}}{9}$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "c3d49d73-0b24-407c-ac53-e4e4263cad94",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 17,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho một hình vuông, mỗi cạnh của hình vuông đó được chia thành n đoạn bằng nhau bằng $(n-1)$ điểm chia, không tính hai đầu mút của mỗi cạnh. Gọi S là tập hợp các tứ giác có 4 đỉnh là 4 điểm chia trên 4 cạnh của hình vuông đã cho. Chọn 1 tứ giác bất kì thuộc S, xác suất chọn được 1 hình bình hành là $\\dfrac{1}{36}$ thì số điểm chia là ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "6"
+                    ]
+                },
+                "answer_detail": "Số tứ giác tạo thành có 4 đỉnh là 4 điểm chia trên 4 cạnh của hình vuông đã cho là $(C_{n-1}^{1})^{4}$\r\nCố định 2 cạnh kề nhau của hình vuông.\r\nCứ mỗi 2 điểm trên 2 cạnh kề nhau cố định của hình vuông thì chỉ lập được 1 hình bình hành từ 2 điểm đó (tìm được đúng 2 điểm nữa để tạo thành hình bình hành).\r\nKhi đó số hình bình hành tạo thành có 4 đỉnh là 4 điểm chia trên 4 cạnh của hình vuông đã cho là $(C_{n-1}^{1})^{2}$\r\nTheo đề bài ta có $\\dfrac{(C_{n-1}^{1})^{2}}{{(C_{n-1}^{1})}^{4}}=\\dfrac{1}{36}\\Leftrightarrow(C_{n-1}^{1})^{2}=36$\r\n$\\Leftrightarrow C_{n-1}^{1}=6\\Leftrightarrow n-1=6$.\r\nSố điểm chia là $7-1=6$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "e0fed6fd-6c9e-49c1-8625-e5416d8c14f8",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 18,
+                "content": "Điền số thích hợp vào chỗ trống\r\nMột cuộc điều tra trong thành phố X đối với các hộ gia đình sử dụng dịch vụ truyền hình cáp và internet, có 30% hộ sử dụng truyền hình cáp, 20% hộ sử dụng internet và 15% hộ sử dụng cả hai dịch vụ trên. Điều tra ngẫu nhiên một hộ gia đình, tính xác suất để hộ này không sử dụng dịch vụ nào là ____ (Làm tròn đến chữ số thập phân thứ hai sau dấu \",\")\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "0,65"
+                    ]
+                },
+                "answer_detail": "Đặt A: \"Hộ gia đình sử dụng truyền hình cáp\";\r\nB: \"Hộ gia đình sử dụng internet \".\r\nTa có: $P(A)=0,3;P(B)=0,2;P(AB)=0,15$.\r\nXác suất để hộ gia đình không dùng dịch vụ nào là\r\n$P(\\overline{A}.\\overline{B})=P(\\overline{A})+P(\\overline{B})-P(\\overline{A}\\cup\\overline{B})$\r\n$=P(\\overline{A})+P(\\overline{B})-[1-P(A.B)]$\r\n$=1-\\dfrac{3}{10}+1-\\dfrac{2}{10}-(1-\\dfrac{15}{100})=\\dfrac{13}{20}=0,65$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "422a7679-6b59-4987-811d-a58e83cad614",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 19,
+                "content": "Điền số thích hợp vào chỗ trống\nMột học sinh ghi lại bảng phân bố tần số, tần suất ghép lớp của một mẫu số liệu như sau:\n$/image_{https://cdn.save.moe/b/PJ7XQ.png?dl=1}_{left}_{40}_{block}$\nTuy nhiên, em đó quên ghi kích thước mẫu n. Biết rằng n là số có 3 chữ số và chữ số tận cùng là 8. Giá trị nhỏ nhất của n là ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "128"
+                    ]
+                },
+                "answer_detail": "Hai lớp [1;9] và [40;49] có tần số là $n.12,5\\%=\\dfrac{n}{8}$\r\nLớp có tần số là $n.50\\% = \\dfrac{n}{2}$\r\nLớp có tần số là $n.25\\%=\\dfrac{n}{4}$ .\r\nVì tần số là các số nguyên dương nên n phải chia hết cho 8;4;2.\r\nMà n là số có 3 chữ số, chữ số tận cùng là 8 và nhỏ nhất nên $n=128$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "83e3d90f-8783-41a8-a9b4-e29c3934f991",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 20,
+                "content": "Trong không gian Oxyz, mặt cầu tâm I(2;5;3) cắt đường thẳng d: $\\dfrac{x-1}{2}=\\dfrac{y}{1}=\\dfrac{z-2}{2}$ tại hai điểm phân biệt A, B với chu vi tam giác IAB bằng $10+2\\sqrt{7}$ có phương trình:\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(S): $(x-2)^{2}+(y-5)^{2}+(z-3)^{2}=7$."
+                        },
+                        {
+                            "content": "(S): $(x-2)^{2}+(y-5)^{2}+(z-3)^{2}=28$."
+                        },
+                        {
+                            "content": "(S): $(x-2)^{2}+(y-5)^{2}+(z-3)^{2}=25$."
+                        },
+                        {
+                            "content": "(S): $(x-2)^{2}+(y-5)^{2}+(z-3)^{2}=100$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/eohc3.png?dl=1}_{left}_{40}_{block}$\nGọi H là hình chiếu của I trên đường thẳng d.\nTa có $IH=d(I;d)=\\dfrac{|[\\overline{MI},\\overline{u_{d}}]|}{|\\overline{u_{d}}|}=3\\sqrt{2}$ với $M(1;0;2)\\in d;\\overline{u_{d}}=(2;1;2)$.\nĐặt $HA=x$ trong tam giác vuông IAH ta có: $IA=\\sqrt{HA^{2}+IH^{2}}=\\sqrt{x^{2}+18}$. Theo giả thiết ta có:\n$IA+IB+AB=2\\sqrt{x^{2}+18}+2x=10+2\\sqrt{7}$.\n$\\Leftrightarrow2(\\sqrt{x^{2}+18}-5)+2(x-\\sqrt{7})=0\\Leftrightarrow\\dfrac{x^{2}-7}{\\sqrt{x^{2}+18}+5}+x-\\sqrt{7}=0$\n$\\Leftrightarrow(x-\\sqrt{7})(\\dfrac{x+\\sqrt{7}}{\\sqrt{x^{2}+18}+5}+1)=0\\Leftrightarrow x=\\sqrt{7}.$\n$\\Rightarrow R=IA=\\sqrt{HA^{2}+IH^{2}}=\\sqrt{7+18}=5$.\nVậy phương trình mặt cầu là: (S): $(x-2)^{2}+(y-5)^{2}+(z-3)^{2}=25$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "ad96e017-b670-48b4-9869-a5a22bff80a4",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 21,
+                "content": "Cho hình chóp S.ABCD có đáy ABCD là hình thang vuông tại A và B, biết $AD=2a$, $AB=BC=a$, cạnh bên SA vuông góc với mặt đáy và $SA=\\dfrac{a\\sqrt{6}}{2}$ Gọi E là trung điểm của AD. Tính số đo của góc phẳng nhị diện [S, BE, A].\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$45^{\\circ}.$"
+                        },
+                        {
+                            "content": "$120^{\\circ}.$"
+                        },
+                        {
+                            "content": "$30^{\\circ}.$"
+                        },
+                        {
+                            "content": "$60^{\\circ}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/4gVXL.png?dl=1}_{left}_{30}_{block}$\nABCE là hình vuông cạnh bằng a.\nGọi $I=AC\\cap BE$.\nTa có: $\\begin{cases}BE\\perp AI\\\\ BE\\perp SA\\end{cases}\\Rightarrow BE\\perp(SAI)\\Rightarrow BE\\perp SI$ .\nKhi đó $\\begin{cases}(SBE)\\cap(ABE)=BE\\\\ AI\\perp BE\\\\ SI\\perp BE\\end{cases}\\Rightarrow[S,BE,A]=SIA$\nXét $\\Delta SIA$ vuông tại A, ta có: $tanSIA=\\dfrac{SA}{IA}=\\dfrac{a\\sqrt{6}}{2}:\\dfrac{a\\sqrt{2}}{2}=\\sqrt{3}\\Rightarrow SIA=60^{\\circ}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "9b219a1c-7f1e-4427-b885-66cf3a37996e",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 22,
+                "content": "Hàm số $f(x)$ có đạo hàm xác định trên $\\mathbb{R}$ thỏa mãn $y=f(x)+f(-x)$ đồng biến trên khoảng (1;5). Khi đó hàm số $y=f(x)+f(-x)$ nghịch biến trên khoảng nào?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(-1;1)."
+                        },
+                        {
+                            "content": "(1;2)."
+                        },
+                        {
+                            "content": "(-3;-1)."
+                        },
+                        {
+                            "content": "(-2;0)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$y^{\\prime}=f^{\\prime}(x)-f^{\\prime}(-x)\u003e0\\forall x\\in(1;5)$\r\nĐặt $x=-t\\Rightarrow t\\in(-5;-1)$\r\n$\\Rightarrow f^{\\prime}(-t)-f^{\\prime}(t)\u003e0\\forall t(-5;-1)$\r\n$\\Leftrightarrow f^{\\prime}(t)-f^{\\prime}(-t)\u003c0\\forall t(-5;-1)$\r\n$\\Leftrightarrow f^{\\prime}(x)-f^{\\prime}(-x)\u003c0\\forall x(-5;-1)$\r\nVậy hàm số $y=f(x)+f(-x)$ nghịch biến trên (-3;-1).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "f56e8bd1-7629-4eff-a863-58c6e101173f",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 23,
+                "content": "Có bao nhiêu giá trị thực của tham số m để hàm số $y=x^{3}+\\dfrac{3}{2}x^{2}+mx+m^{2}-1$ nghịch biến trên một khoảng có độ dài đúng bằng 1?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "0."
+                        },
+                        {
+                            "content": "3."
+                        },
+                        {
+                            "content": "1."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "$y^{\\prime}=3x^{2}+3x+m\u003c0$ trên một khoảng có độ dài đúng bằng 1 nếu $y^{\\prime}\u003c0$ trên $(x_{1};x_{2})$\r\nVới $x_{1}$, $x_{2}$ là 2 nghiệm của phương trình $y^{\\prime}=0$ thỏa mãn: $x_{1}\u003cx_{2}$ và $x_{2}-x_{1}=1$.\r\n$\\Rightarrow\\begin{cases}\\Delta\u003e0\\\\ (x_{2}-x_{1})^{2}=1\\end{cases}\\Leftrightarrow\\begin{cases}9-4.3.m\u003e0\\\\ (x_{2}+x_{1})^{2}-4x_{1}x_{2}=1\\end{cases}$\r\n$\\Leftrightarrow\\begin{cases}m\u003c\\dfrac{3}{4}\\\\ 1-4\\cdot\\dfrac{m}{3}=1\\end{cases}\\Leftrightarrow m=0(TM)$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "bb97a86c-4fbc-4637-ac57-0555cdde4816",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 24,
+                "content": "Điền số thích hợp vào chỗ trống\r\nTại cùng 1 điểm xuất phát, có 2 người cùng đi quanh vòng sân, người thứ nhất đi mất 15 phút/vòng, người thứ hai chạy mất 6 phút/vòng.\r\nHai người đi cùng chiều thì trong một giờ họ gặp nhau ____ lần (không tính điểm xuất phát).\r\nHai người đi ngược chiều thì trong một giờ họ gặp nhau ____ lần (không tính điểm xuất phát).\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "6",
+                        "2"
+                    ]
+                },
+                "answer_detail": "1 phút thì người thứ nhất đi được $1/15$ vòng, người thứ 2 chạy được $1/6$ vòng.\r\nn phút thì người thứ nhất đi được $\\dfrac{n}{15}$ vòng, còn người thứ 2 chạy được $\\dfrac{n}{6}$ vòng.\r\nĐể 2 người gặp nhau khi đi cùng chiều thì $\\dfrac{n}{6}-\\dfrac{n}{15}$ là một số nguyên.\r\n$\\dfrac{n}{6}-\\dfrac{n}{15}=\\dfrac{n}{10}\\Rightarrow n$ chia hết cho 10.\r\n1 giờ có 60 phút nên gặp nhau 6 lần.\r\nĐể 2 người gặp nhau khi đi ngược chiều thì $\\dfrac{n}{6}+\\dfrac{n}{15}=\\dfrac{7n}{30}$ là một số nguyên.\r\n$\\Rightarrow n$ chia hết cho 30.\r\n1 giờ có 60 phút nên gặp nhau 2 lần.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "085bbc2a-098d-4010-b190-a720f37e7378",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 25,
+                "content": "Trong không gian Oxyz cho điểm $A(1;a;1)$ và mặt cầu (S) có phương trình $x^{2}+y^{2}+z^{2}-2y+4z-9=0$ . Gọi S là tập các giá trị của a để điểm A nằm trong khối cầu. Khi đó, những khẳng định nào sau đây đúng?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$(-1;1)\\subset S$"
+                        },
+                        {
+                            "content": "$[-1;3]\\subset S$"
+                        },
+                        {
+                            "content": "$(-1;3)\\subset S$"
+                        },
+                        {
+                            "content": "$(-2;1)\\subset S$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": "Cách 1:\r\nMặt cầu (S) có tâm $I(0;1;-2)$ và bán kính $R=\\sqrt{1+(-2)^{2}+9}=\\sqrt{14}$\r\nTa có: $IA=\\sqrt{1+(a-1)^{2}+(1+2)^{2}}=\\sqrt{a^{2}-2a+11}$.\r\nĐiểm A nằm trong khối cầu $\\Leftrightarrow IA\u003cR\\Leftrightarrow\\sqrt{a^{2}-2a+11}\u003c\\sqrt{14}$\r\n$\\Leftrightarrow a^{2}-2a+11\u003c14\\Leftrightarrow a^{2}-2a-3\u003c0\\Leftrightarrow a\\in(-1;3).$\r\nCách 2:\r\n+) Mặt cầu (S) có phương trình $x^{2}+y^{2}+z^{2}-2y+4z-9=0$.\r\n+) Điểm $A(1;a;1)$ nằm trong khối cầu (S)\r\n$\\Leftrightarrow1^{2}+a^{2}+1^{2}-2.a+4.1-9\u003c0\\Leftrightarrow a^{2}-2a-3\u003c0\\Leftrightarrow a\\in(-1;3)$ .",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "58585e40-6d62-41f2-b75b-6f83a882f3e4",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 26,
+                "content": "Hàm số $y=\\dfrac{x}{cosx}$ có bao nhiêu điểm cực trị trên (0;2023)?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2021."
+                        },
+                        {
+                            "content": "643."
+                        },
+                        {
+                            "content": "644."
+                        },
+                        {
+                            "content": "2022."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Điều kiện: $cos~x\\ne0$\n$y^{\\prime}=\\dfrac{cos~x-x.(-sin~x)}{cos^{2}x}=\\dfrac{cos~x+x.sin~x}{cos^{2}x}$\n$y^{\\prime}=0\\Leftrightarrow cos~x+x.sin~x=0\\Leftrightarrow\\dfrac{cosx}{sin~x}=-x$\n$cotx=-x\\Leftrightarrow cotx+x=0$\nXét hàm số $y=cotx+x$ trên $(k\\pi;k\\pi+\\pi)$\n$y^{\\prime}=-\\dfrac{1}{sin^{2}x}+1\u003c0$\nKhi đó hàm số nghịch biến trên mỗi khoảng $(k\\pi;k\\pi+\\pi)$\nBBT:\n$/image_{https://cdn.save.moe/b/b1s6D.png?dl=1}_{left}_{40}_{block}$\nKhi đó phương trình $cotx+x=0$ có đúng 1 nghiệm trên mỗi khoảng $(k\\pi;k\\pi+\\pi)$\nTrên ( $0;2023)=(0;\\pi)\\cup(\\pi;2\\pi)\\cup...\\cup(642\\pi;643\\pi)\\cup(643\\pi;2023)$\nCó tất cả 643 khoảng $(k\\pi;k\\pi+\\pi)$ và 1 khoảng $(643\\pi;2023)$\nTrên $(643\\pi;2023)$ ta thấy $cot2023+2023\u003e0$ nên không có nghiệm.\nVậy hàm số đã cho có tất cả 643 điểm cực trị.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "62f60aca-692a-456e-87ff-083c65073b17",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 27,
+                "content": "Có bao nhiêu số nguyên dương n để $A=n^{2}-n+2$ là số chính phương?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "0."
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "Vô số."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Với $n=1$ thì $A=n^{2}-n+2=2$ không là số chính phương.\r\nVới $n=2$ thì $A=n^{2}-n+2=4$ là số chính phương.\r\nVới $n\u003e2$ thì $A=n^{2}-n+2$ không là số chính phương vì:\r\n$(n-1)^{2}=n^{2}-(2n-1)\u003cn^{2}-(n-2)\u003cn^{2}$\r\nVậy có đúng 1 số nguyên dương n để A là số chính phương.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "60d170f7-e897-4388-b0ec-9110bae55b86",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 28,
+                "content": "Cho hàm số $y=f(x)$ có $f^{\\prime}(x)=4x^{3}-m+1,$ $f(2)=1$ và có đồ thị của hàm số $y=f(x)$ cắt trục tung tại điểm có tung độ bằng 3. Tìm được $f(x)=ax^{4}+bx+c$ với a,b, $c\\in\\mathbb{Z}$ . Tính $a+b+c$\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "-11."
+                        },
+                        {
+                            "content": "-5."
+                        },
+                        {
+                            "content": "-13."
+                        },
+                        {
+                            "content": "-7."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "$f(x)=ax^{4}+bx+c$\r\n$f^{\\prime}(x)=4ax^{3}+b\\Rightarrow a=1$\r\nĐồ thị của hàm số $y=f(x)$ cắt trục tung tại điểm có tung độ bằng 3 nên:\r\n$f(0)=3\\Rightarrow c=3$\r\n$\\Rightarrow f(x)=ax^{4}+bx+c=x^{4}+bx+3$\r\n$f(2)=1\\Leftrightarrow16+2b+3=1\\Leftrightarrow b=-9$\r\n$\\Rightarrow a+b+c=1+(-9)+3=-5$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "bc4b191b-6587-4f35-82df-f19cf868adb7",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 29,
+                "content": "Cho hàm số $f(x)$ có đạo hàm và liên tục trên $\\mathbb{R}$ thỏa mãn $f^{\\prime}(x)-2021.f(x)=2021.x^{2020}.e^{2021x}$ với mọi $x\\in\\mathbb{R}$ và $f(0)=2021$ Tính giá trị $f(1)$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$f(1)=2021.e^{2021}$."
+                        },
+                        {
+                            "content": "$f(1)=2022.e^{2021}$"
+                        },
+                        {
+                            "content": "$f(1)=2021.e^{-2021}$."
+                        },
+                        {
+                            "content": "$f(1)=2020.e^{2021}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Ta có $f^{\\prime}(x)-2021.f(x)=2021.x^{2020}.e^{2021x}\\Leftrightarrow\\dfrac{f^{\\prime}(x)-2021.f(x)}{e^{2021x}}=2021.x^{2020}$\r\n$\\Leftrightarrow f^{\\prime}(x).e^{-2021x}-2021.f(x).e^{-2021x}=2021.x^{2020}$\r\n$\\Leftrightarrow(f(x).e^{-2021x})^{\\prime}=2021.x^{2020}$\r\nNên $\\displaystyle \\int(f(x).e^{-2021x})^{\\prime}dx=\\displaystyle \\int2021.x^{2020}dx\\Leftrightarrow f(x).e^{-2021x}=x^{2021}+C$\r\n$\\Leftrightarrow f(x)=\\dfrac{x^{2021}+C}{e^{-2021x}}\\Leftrightarrow f(x)=(x^{2021}+C)e^{2021x}(1)$\r\nTừ đó $f(0).e^{-2021.0}=0^{2021}+C\\Leftrightarrow C=f(0)$\r\nTheo đề ra ta có: $f(0)=2021$ nên $C=2021$.\r\nTừ (1) suy ra $f(1)=(1^{2021}+2021)e^{2021.1}=2022.e^{2021}$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "5fbf4a74-2ebb-48ed-963b-e38508c60464",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 30,
+                "content": "Cho hình vuông $A_{1}B_{1}C_{1}D_{1}$ có cạnh bằng 1. Gọi các điểm $A_{k+1}$, $B_{k+1}$, $C_{k+1}$, $D_{k+1}$ thứ tự là trung điểm của các cạnh $A_{k}B_{k}$, $B_{k}C_{k}$, $C_{k}D_{k}$, $D_{k}A_{k}$. Chu vi hình vuông $A_{2018}B_{2018}C_{2018}D_{2018}$ bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{\\sqrt{2}}{2^{2019}}$"
+                        },
+                        {
+                            "content": "$\\dfrac{\\sqrt{2}}{2^{1006}}$"
+                        },
+                        {
+                            "content": "$\\dfrac{\\sqrt{2}}{2^{2018}}$"
+                        },
+                        {
+                            "content": "$\\dfrac{\\sqrt{2}}{2^{1007}}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Gọi cạnh hình vuông $A_nB_nC_nD_n$ là $u_{n}$\r\nTa có: $u_{1}=1;u_{2}=\\dfrac{1}{2}.\\sqrt{2}=\\dfrac{\\sqrt{2}}{2};u_{n}=\\dfrac{u_{n-1}}{\\sqrt{2}}$\r\n$(u_{n})$ là cấp số nhân có $u_{1}=1$; $q=\\dfrac{1}{\\sqrt{2}}$\r\n$\\Rightarrow u_{n}=1.(\\dfrac{1}{\\sqrt{2}})^{n-1}=(\\dfrac{1}{\\sqrt{2}})^{n-1}$\r\nChu vi của hình vuông $A_{n}B_{n}C_{n}D_{n}$ là:\r\n$4.u_{n}=4.(\\dfrac{1}{\\sqrt{2}})^{n-1}\\Rightarrow u_{2018}=4.(\\dfrac{1}{\\sqrt{2}})^{2017}$\r\n$=4.\\dfrac{1}{\\sqrt{2}}.\\dfrac{1}{2^{\\dfrac{2016}{2}}}=2\\sqrt{2}.\\dfrac{1}{2^{1008}}=\\dfrac{\\sqrt{2}}{2^{1007}}$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "3c3c47c8-3161-4cf5-9de1-fdfb82b66601",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 31,
+                "content": "Cho dãy số $(x_{n})$ thỏa mãn: $x_{1}=2,$ $x_{n+1}=x_{n}+3n^{2}+3n-3,$ $\\forall n\\in\\mathbb{N}^*$.\r\nTrong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Giá trị của $x_{5}=108$."
+                        },
+                        {
+                            "content": "$S_{n}$ là tổng của n số hạng. Khi đó $S_{10}=2835$."
+                        },
+                        {
+                            "content": "$x_{n}=n^{3}-4n+5\\forall n\\in\\mathbb{N}^{*}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Ta có: $x_{n+1}-x_{n}=3n^{2}+3n-3$\r\nKhi đó $x_{5}-x_{1}=\\sum_{k=1}^{4}(x_{k+1}-x_{k})=\\sum_{k=1}^{4}(3k^{2}+3k-3)=108$\r\n$\\Rightarrow x_{5}=108+2=110$\r\nTa có: $x_{n+1}-x_{1}=\\sum_{k=1}^{n}(x_{k+1}-x_{k})=\\sum_{k=1}^{n}(3k^{2}+3k-3)$\r\n$=n(n^{2}-1)+3n^{2}=n^{3}+3n^{2}-n$\r\n$\\Rightarrow x_{n+1}=n^{3}+3n^{2}-n+2$\r\nHay $x_n = (n-1)^3 + 3(n-1)^2 - (n-1) + 2 = n^3 - 4n + 5$.\r\n$S_{10} = \\sum_{k=1}^{10} x_k = 2855$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "56daa6af-4838-4719-bb57-5f68073added",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 32,
+                "content": "Điền số thích hợp vào chỗ trống\r\nBiết rằng hàm số $f(x)=\\begin{cases}\\dfrac{x^{2}+5x+6}{x+2}\u0026khi~x\u003e-2\\\\ mx+n\u0026khi~x\\le-2\\end{cases}$ liên tục trên $\\mathbb{R}$ và n là một số thực tùy ý. Giá trị của $-2m+n$ là ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1"
+                    ]
+                },
+                "answer_detail": "Để hàm số liên tục tại $x=-2$ thì\r\n$lim_{x\\rightarrow(-2)^{+}}f(x)=lim_{x\\rightarrow(-2)^{-}}f(x)=f(-2)$\r\nTa có: $lim_{x\\rightarrow(-2)^{+}}f(x)=lim_{x\\rightarrow(-2)^{+}}\\dfrac{x^{2}+5x+6}{x+2}=lim_{x\\rightarrow(-2)^{+}}(x+3)=1$\r\n$lim_{x\\rightarrow(-2)^{-}}f(x)=lim_{x\\rightarrow(-2)^{-}}(mx+n)=-2m+n$ .\r\n$f(-2)=-2m+n$\r\nVậy $-2m+n=1$ .",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "0732b8e3-2964-485e-a5b3-81fd859251ad",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 33,
+                "content": "Cho số thực a,b,c thỏa mãn $\\begin{cases}-8+4a-2b+c\u003e0\\\\ 8+4a+2b+c\u003c0\\end{cases}$ Số giao điểm của đồ thị hàm số $y=x^{3}+ax^{2}+bx+c$ và trục Ox là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "0."
+                        },
+                        {
+                            "content": "3."
+                        },
+                        {
+                            "content": "1."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Đặt $f(x)=x^{3}+ax^{2}+bx+c.$\r\nKhi đó $\\begin{cases}f(2)=8+4a+2b+c\u003c0\\\\ f(-2)=-8+4a-2b+c\u003e0\\end{cases}$\r\n$f(x)$ là hàm đa thức liên tục trên $\\mathbb{R}$ .\r\n$\\begin{cases}f(2)\u003c0\\\\ f(-2)\u003e0\\end{cases}\\Rightarrow f(-2).f(2)\u003c0\\Rightarrow$ đồ thị hàm số $y=f(x)$ cắt trục Ox tại ít nhất một điểm trong khoảng (-2;2).\r\n$\\begin{cases}f(2)\u003c0\\\\ lim_{x\\rightarrow+\\infty}f(x)=+\\infty\\end{cases}\\Rightarrow$ đồ thị hàm số $y=f(x)$ cắt trục Ox tại ít nhất một điểm trong khoảng (2;+∞).\r\n$\\begin{cases}f(-2)\u003e0\\\\ lim_{x\\rightarrow-\\infty}f(x)=-\\infty\\end{cases}\\Rightarrow$ đồ thị hàm số $y=f(x)$ cắt trục Ox tại ít nhất một điểm trong khoảng (-∞;-2).\r\nVậy số giao điểm là 3.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "8239b9e2-8892-492d-b4ed-31e5c57378d6",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 34,
+                "content": "Với tham số $a\u003e0$, hàm số $y=(ax^{2}+bx+c)e^{x}$ có đạo hàm $y^{\\prime}=(ax^{2}+5ax+2b+3c)e^{x}$. Tính giá trị biểu thức $M=x_{1}+x_{2}-8x_{1}x_{2}$ với $x_1,x_2$ là nghiệm của phương trình $y=0$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "10."
+                        },
+                        {
+                            "content": "9."
+                        },
+                        {
+                            "content": "20."
+                        },
+                        {
+                            "content": "6."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "$y^{\\prime}=(2ax+b)e^{x}+(ax^{2}+bx+c)e^{x}=(ax^{2}+2ax+bx+b+c)e^{x}$\r\n$y^{\\prime}=[ax^{2}+5ax+2b+3c]e^{x}$\r\nNên $2a+b=5a\\Rightarrow b=3a$\r\n$2b+3c=b+c\\Rightarrow b=-2c\\Rightarrow c=\\dfrac{-1}{2}.3a=\\dfrac{-3}{2}a$\r\n$y=(ax^{2}+bx+c)e^{x}=(ax^{2}+3ax-\\dfrac{3}{2}a)e^{x}$\r\n$y=0\\Leftrightarrow ax^{2}+3ax-\\dfrac{3a}{2}=0\\Leftrightarrow x^{2}+3x-\\dfrac{3}{2}=0\\Leftrightarrow\\begin{cases}x_{1}+x_{2}=-3\\\\ x_{1}x_{2}=\\dfrac{-3}{2}\\end{cases}$\r\n$\\Rightarrow M=x_{1}+x_{2}-8x_{1}x_{2}=-3-8.(\\dfrac{-3}{2})=9$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "2fc9191f-ca83-4b53-b987-dfb88986d6ea",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 35,
+                "content": "Hình lăng trụ đứng ABC.A'B'C' có diện tích đáy bằng 4, diện tích ba mặt bên lần lượt là 9, 18 và 10. Thể tích khối lăng trụ ABC.A'B'C' bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{\\sqrt{11951}}{2}.$"
+                        },
+                        {
+                            "content": "$\\sqrt[4]{11951}$."
+                        },
+                        {
+                            "content": "$\\sqrt{11951}$."
+                        },
+                        {
+                            "content": "$\\dfrac{\\sqrt[4]{1951}}{2}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/FRFeQ.png?dl=1}_{left}_{40}_{block}$\nĐặt $AA^{\\prime}=x,$ $AB=c,$ $AC=b$, $BC=a$.\nTa có: $\\begin{cases}xc=18\\\\ xb=9\\\\ xa=10\\end{cases}\\Rightarrow\\begin{cases}c=2b\\\\ a=\\dfrac{10}{9}b\\end{cases}$\nTa lại có $S_{ABC}=4\\Leftrightarrow\\sqrt{p(p-a)(p-b)(p-c)}=4.$ với $p=\\dfrac{a+b+c}{2}=\\dfrac{37}{18}b$\n$\\Leftrightarrow\\sqrt{\\dfrac{37}{18}b(\\dfrac{37}{18}b-\\dfrac{10}{9}b)(\\dfrac{37}{18}b-b)(\\dfrac{37}{18}b-2b)}=4\\Leftrightarrow b=\\dfrac{1296}{\\sqrt{11951}}.$\n$x=\\dfrac{9}{b}=\\dfrac{9\\sqrt{11951}}{1296}=\\dfrac{\\sqrt{11951}}{144}$\nVậy thể tích khối lăng trụ ABC.A'B'C': $V=AA^{\\prime}.S_{ABC}=\\dfrac{\\sqrt{11951}}{2}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "122470ae-9b8c-4193-9366-a0b53c22b4d9",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 36,
+                "content": "Kéo thả vào vị trí thích hợp\r\nCho hình chóp S.ABCD có đáy ABCD là hình vuông cạnh a, cạnh bên $SA=y(y\u003e0)$ và vuông góc với mặt đáy (ABCD). Trên cạnh AD lấy điểm M và đặt $AM=x(0\u003cx\u003ca)$. $V_{max}$ là thể tích lớn nhất của khối chóp S.ABCM, biết $x^{2}+y^{2}=a^{2}$.\r\n$V_{max}=$ ____\r\n$x=$ ____\r\n$y=$ ____\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$\\dfrac{a}{2}$",
+                        "$\\dfrac{a\\sqrt{2}}{2}$",
+                        "$\\dfrac{a\\sqrt{3}}{2}$",
+                        "$\\dfrac{3\\sqrt{3}a^{3}}{4}$",
+                        "$\\dfrac{a^{3}\\sqrt{3}}{8}$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        4,
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/l69icDM.png?dl=1}_{left}_{40}_{block}$\nTừ $x^{2}+y^{2}=a^{2}\\Rightarrow y=\\sqrt{a^{2}-x^{2}}$.\nDiện tích mặt đáy $S_{ABCM}=(\\dfrac{BC+AM}{2}).AB=(\\dfrac{a+x}{2})a$ .\nThể tích khối chóp $V_{S.ABCM}=\\dfrac{1}{3}S_{ABCM}.SA=\\dfrac{1}{3}.(\\dfrac{a+x}{2}.a)\\sqrt{a^{2}-x^{2}}$\n$=\\dfrac{a}{6}(a+x)\\sqrt{a^{2}-x^{2}}$.\nXét hàm $f(x)=(a+x)\\sqrt{a^{2}-x^{2}}$ trên (0;a), ta được\n$max_{(0;a)}f(x)=f(\\dfrac{a}{2})=\\dfrac{3\\sqrt{3}a^{2}}{4}$\nSuy ra $V_{max}=\\dfrac{a}{6}.\\dfrac{3\\sqrt{3}a^{2}}{4}=\\dfrac{a^{3}\\sqrt{3}}{8}khi~x=\\dfrac{a}{2}.$\n$\\Rightarrow y=\\dfrac{a\\sqrt{3}}{2}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "79d8a98b-c2e0-445c-98f7-9739f156ed99",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 37,
+                "content": "Điền số thích hợp vào chỗ trống\r\nTrong không gian Oxyz cho các vecto $\\vec{a},\\vec{b},\\vec{c}$ không đồng phẳng thỏa mãn $(x-y)\\vec{a}+(y-z)\\vec{b}=(x+z-2)\\vec{c}$. Khi đó $T=x+y+z=$ ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3"
+                    ]
+                },
+                "answer_detail": "Vì các vectơ $\\vec{a},$ $\\vec{b},$ $\\vec{c}$ không đồng phẳng nên: $m\\vec{a}+n\\vec{b}=p\\vec{c}\\Leftrightarrow m=n=p=0$.\r\n$\\Rightarrow \\begin{cases}x-y=0\\\\ y-z=0\\\\ x+z-2=0\\end{cases}\\Leftrightarrow x=y=z=1.$\r\nVậy $x+y+z=3$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "cbba5cfb-aea6-4275-9b30-b6c8ffc9aa47",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 38,
+                "content": "Trong không gian Oxyz cho đường thẳng $d:\\dfrac{x+2}{4}=\\dfrac{y-1}{-4}=\\dfrac{z+2}{3}$ và mặt phẳng (P): $2x-y+2z+1=0$. Đường thẳng $\\Delta$ đi qua $E(-2;1;-2)$, song song với (P) đồng thời tạo với d góc bé nhất. Biết rằng $\\Delta$ có một vectơ chỉ phương $\\vec{u}=(m;n;1)$. Tính $T=m^{2}-n^{2}$ .\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$T=-5$."
+                        },
+                        {
+                            "content": "$T=4$."
+                        },
+                        {
+                            "content": "$T=3$."
+                        },
+                        {
+                            "content": "$T=-4$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Mặt phẳng (P) có vectơ pháp tuyến $\\vec{n}=(2;-1;2)$ và đường thẳng d có vectơ chỉ phương $\\vec{v}=(4;-4;3)$\nVì $\\Delta$ song song với mặt phẳng (P) nên $\\vec{u}\\perp\\vec{n}\\Leftrightarrow2m-n+2=0\\Leftrightarrow n=2m+2$\nMặt khác ta có $cos(\\Delta;d)=\\dfrac{|\\vec{u}.\\vec{v}|}{|\\vec{u}|.|\\vec{v}|}$\nKhảo sát hàm số để tìm giá trị m làm cho cos lớn nhất (góc bé nhất).\nBBT:\n$/image_{https://cdn.save.moe/b/2M9VM.png?dl=1}_{left}_{40}_{block}$\nDựa vào bảng biến thiên ta có $maxf(t)=f(0)=5$ suy ra $(\\Delta;d)$ bé nhất khi $m=0\\Rightarrow n=2$. Do đó\n$T=m^{2}-n^{2}=-4$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "1fc77ff6-3d74-4ba8-beca-e3deee2e19b9",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 39,
+                "content": "Điền số thích hợp vào chỗ trống\r\nTrong mặt phẳng Oxy, cho đường tròn (C): $x^{2}+y^{2}=4$ và các điểm $A(1;-\\dfrac{8}{3})$, $B(3;0)$. Điểm $M(a;b)$ có hoành độ không nguyên thuộc (C) sao cho tam giác MAB có diện tích bằng $\\dfrac{20}{3}$. Giá trị của $25a+75b=$ ____\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "130"
+                    ]
+                },
+                "answer_detail": "Gọi I là tâm và R là bán kính đường tròn (C). Khi đó $I(0;0)$; $R=2$.\r\nTa có: $\\vec{AB}=(2;\\dfrac{8}{3});AB=\\sqrt{(3-1)^{2}+(0+\\dfrac{8}{3})^{2}}=\\dfrac{10}{3}$\r\n$\\Rightarrow d(M;AB)=\\dfrac{2S_{MAB}}{AB}=4$\r\n$AB:\\dfrac{8}{3}.(x-3)-2.(y-0)=0\\Leftrightarrow\\dfrac{8}{3}x-2y-8=0$\r\n$d(I;AB)=\\dfrac{|-8|}{\\dfrac{10}{3}}=\\dfrac{12}{5}\\Rightarrow AB$ không giao (C). $\\Rightarrow M,I$ cùng phía nhau so với AB.\r\nThay tọa độ của I vào đường thăng AB được $-8\u003c0$ nên $\\dfrac{8}{3}a-2b-8=-\\dfrac{40}{3}\\Leftrightarrow b=\\dfrac{4}{3}a+\\dfrac{8}{3}$\r\n$M\\in(C)\\Rightarrow a^{2}+(\\dfrac{4}{3}a+\\dfrac{8}{3})^{2}=4\\Leftrightarrow a=-2$ hoặc $a=-\\dfrac{14}{25}$\r\nVì hoành độ không nguyên nên $a=-\\dfrac{14}{25}\\Rightarrow b=\\dfrac{48}{25}$\r\n$25a+75b=25.(-\\dfrac{14}{25})+75.\\dfrac{48}{25}=130.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            },
+            {
+                "id": "cd480ae9-06fa-4d6c-848e-71e387bc96bd",
+                "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+                "position": 40,
+                "content": "Điền số thích hợp vào chỗ trống\r\nLong có thói quen quan sát đồng hồ treo tường trong các kì thi để tính toán và căn chỉnh thời gian làm bài cho hợp lí. Long chia sẻ đó cũng là một cách giảm căng thẳng, tạo sự tự tin cho mình. Ở một kỳ thi học sinh giỏi, thời gian làm bài là 180 phút, Long đã vẽ lại đồng hồ lên giấy nháp và bắt đầu tính toán thời gian làm bài. Khi giám thị nhắc qua $\\dfrac{2}{3}$ thời gian làm bài, Long đã tự tin làm xong gần hết đề thi. Không bao lâu sau đó bài toán cuối cùng cũng đã được Long giải quyết. Long kiểm tra lại bài kỹ càng rồi quyết định nộp bài sớm, trở về chỗ ngồi Long quan sát đồng hồ thấy thật trùng hợp khi vị trí kim giờ và phút đã đổi chỗ cho nhau. Số phút hoàn thành bài thi của Long là ____ (Làm tròn đến hàng đơn vị)\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "166"
+                    ]
+                },
+                "answer_detail": "Gọi t là khoảng cách dịch chuyển của mỗi chiếc kim (kim giờ dịch chuyển 1 khoảng bằng kim phút do chúng đổi chỗ cho nhau) từ lúc Long bắt đầu làm bài và lúc Long nộp bài.\nKhi đó Long làm hết trong t giờ, tức là 60t (phút).\n$/image_{https://cdn.save.moe/b/KnBkOE.png?dl=1}_{left}_{40}_{block}$\nDo Long làm nhiều hơn $\\dfrac{2}{3}$ thời gian và ít hơn 180 phút nên thời gian Long làm tính theo kim phút là:\n$120+\\dfrac{12-t}{12}.60$ (phút).\nDo đó ta có phương trình sau:\n$60t=120+\\dfrac{12-t}{12}.60\\Leftrightarrow65.t=180\\Leftrightarrow t=\\dfrac{36}{13}$\nThời gian làm bài là $\\dfrac{36}{13}.60 \\approx 166$ phút.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-10T22:47:04.066787+07:00",
+                "updated_at": "2026-02-10T22:47:04.066787+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "bd8fa016-128c-46f1-bf38-660008c426c7",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "9a6d29e0-5aa7-4f4b-a72e-ecc2289232e1",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:43:59.781655+07:00",
+        "updated_at": "2026-03-02T15:43:59.781655+07:00",
+        "submited_at": "2026-03-02T15:43:59.781655+07:00"
+    }
+}

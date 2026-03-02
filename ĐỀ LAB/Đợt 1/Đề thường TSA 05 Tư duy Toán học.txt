@@ -1,0 +1,1319 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+        "title": "Đề thường TSA 05: Tư duy Toán học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-19T14:22:19.361896+07:00",
+        "updated_at": "2026-02-20T14:35:01.092902+07:00",
+        "questions": [
+            {
+                "id": "9a970af9-ee3e-4b82-a891-fb44f49f38fc",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 1,
+                "content": "Kéo và thả các số thích hợp vào các chỗ trống:\r\nBạn Minh chơi xếp một kim tự tháp nhiều tầng từ những mảnh gỗ nhỏ hình hộp chữ nhật. Ở tầng dưới cùng, bạn Minh dùng hết 25 mảnh gỗ. Mỗi tầng tiếp theo, Minh dùng ít hơn tầng trước 3 mảnh gỗ. Đến tầng cuối cùng, bạn Minh chỉ dùng 1 mảnh gỗ. Như vậy, chiếc kim tự tháp của bạn Minh hoàn thành có ____ tầng và bạn Minh phải dùng tất cả ____ mảnh gỗ.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "104",
+                        "9",
+                        "8",
+                        "117"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "1;3"
+                    ]
+                },
+                "answer_detail": "Số mảnh gỗ mà bạn Minh xếp các tầng của kim tự tháp lập thành một cấp số cộng $(u_{n})$ với số hạng đầu $u_{1}=25$, số hạng cuối $u_{n}=1$ và công sai $d=-3$.\r\nDo đó, ta có số tầng của kim tự tháp bằng số phần tử của cấp số cộng:\r\n$n=\\dfrac{u_{n}-u_{1}}{d}+1=9$.\r\nVà tổng số mảnh gỗ mà bạn Minh đã dùng là:\r\n$S_{n}=u_{1}+u_{2}+\\cdot\\cdot\\cdot+u_{n}=\\dfrac{9.(u_{1}+u_{9})}{2}=117$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "9ddbfbc4-2d9d-4081-8f33-589a08c2ea57",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 2,
+                "content": "Diện tích miền phẳng D (tô màu đậm) được giới hạn bởi đồ thị các hàm số $y=sinx$, $y=cosx$ và trục Oy bằng \n$/image_{https://cdn.save.moe/b/dFJWnLR.png?dl=1}_{center}_{40}_{block}$\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\sqrt{2}-1$"
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "$\\sqrt{2}+1$."
+                        },
+                        {
+                            "content": "$\\sqrt{2}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Từ hình vẽ, ta có:\r\n\r\n$S(D)=\\displaystyle \\int_{-3\\pi/4}^{0}|cosx-sinx|dx$ $=\\displaystyle \\int_{-3\\pi/4}^{0}(cosx-sinx)dx$ $=(sinx+cosx)|_{-3\\pi/4}^{0}=\\sqrt{2}+1$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "52a860b7-2f50-44cd-bf34-1fc024167ee9",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 3,
+                "content": "Vũ và nhóm bạn lập kế hoạch đi tham quan lần lượt sáu địa điểm, ký hiệu là A, B, C, D, E, F. Mỗi lộ trình là một dãy có thứ tự các địa điểm này (mỗi địa điểm chỉ xuất hiện một lần). Có bao nhiêu cách chọn lộ trình tham quan, biết cả nhóm sẽ bắt đầu tham quan tại địa điểm A? \r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "720."
+                        },
+                        {
+                            "content": "3125."
+                        },
+                        {
+                            "content": "15."
+                        },
+                        {
+                            "content": "120."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Vì địa điểm bắt đầu tham quan của nhóm bạn cố định là A, nên mỗi lộ trình tham quan sẽ là một hoán vị của năm địa điểm còn lại.\r\nDo vậy, số cách chọn lộ trình tham quan là $P_{5}=5!=120$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "4955aacc-d258-4f9c-ba72-e96cad781289",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 4,
+                "content": "Cho hình chóp S.ABCD có đáy là hình vuông, SA vuông góc với đáy. Góc giữa SC và mặt phẳng (SAD) là \r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "SCA."
+                        },
+                        {
+                            "content": "SCD."
+                        },
+                        {
+                            "content": "CSD."
+                        },
+                        {
+                            "content": "CSA."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Vì SA $\\perp$ (ABCD) nên SA $\\perp$ CD. Mà CD $\\perp$ AD nên CD $\\perp$ (SAD).\r\nDo đó, D là hình chiếu vuông góc của C lên (SAD).\r\nBởi vậy, góc giữa SC và mặt phẳng (SAD) là CSD.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "e1f19781-b1c4-4e8d-a900-9ff466e26146",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 5,
+                "content": "Với các số thực dương A, B bất kỳ, ta định nghĩa phép toán $A \\uparrow B$ và $A \\downarrow B$ như sau: $A \\uparrow B = A^B$ và $A \\downarrow B = A^{-B}$ Mỗi phát biểu sau đây là đúng hay sai? \r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$2 \\uparrow 5 = 25$."
+                        },
+                        {
+                            "content": "$4 \\downarrow 3 = \\dfrac{1}{64}$"
+                        },
+                        {
+                            "content": "Với mọi số nguyên dương A, B, C thì $(2 \\uparrow (A \\downarrow B)) \\uparrow C = 2^{C \\cdot A^{-B}}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Ta có: $2 \\uparrow 5 = 2^5 = 32$.\r\n$4 \\downarrow 3 = 4^{-3} = \\dfrac{1}{64}$.\r\nVới mọi số nguyên dương A, B, C thì:\r\n$(2 \\uparrow (A \\downarrow B)) \\uparrow C = (2 \\uparrow (A^{-B})) \\uparrow C$ $= (2^{A^{-B}})^C = 2^{A^{-B} \\cdot C} = 2^{C \\cdot A^{-B}}$.\r\nDo đó, phát biểu thứ nhất sai, các phát biểu thứ hai và thứ ba là đúng.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "ec0bac52-da72-4974-8bf0-eb3fd085b255",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 6,
+                "content": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}\\backslash\\{1\\}$ có bảng biến thiên như sau:\n$/image_{https://cdn.save.moe/b/SPehqAW.png?dl=1}_{center}_{40}_{block}$\nMỗi phát biểu sau đây là đúng hay sai? \n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số $f(x)$ đạt cực tiểu tại $x=4$."
+                        },
+                        {
+                            "content": "Hàm số $f(x)$ đạt cực đại tại $x=1$."
+                        },
+                        {
+                            "content": "Hàm số $f(x)$ đạt cực tiểu tại $x=-1$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "Từ bảng biến thiên, ta có:\r\nHàm số $f(x)$ đạt cực tiểu tại $x=4$, có giá trị cực tiểu là $y_{CT}=-1$.\r\nDo đó, phát biểu thứ nhất đúng.\r\nVì hàm số $f(x)$ không xác định tại $x=1$ nên phát biểu thứ hai sai.\r\nDấu của $f^{\\prime}(x)$ không đổi khi x đi qua $x_{0}=-1$, nên $x_{0}=-1$ không là điểm cực trị của $f(x)$.\r\nDo đó, phát biểu thứ ba sai.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "96d8cdfb-0c2a-4245-ac5d-e6fc982ac2c0",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 7,
+                "content": "Cho hàm số $y=3+m~sin(2x+\\dfrac{\\pi}{6})$ với m là tham số. Số giá trị nguyên của m để giá trị lớn nhất của hàm số trên đoạn $[0;\\dfrac{\\pi}{2}]$ nhỏ hơn 10 là ____.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "20"
+                    ]
+                },
+                "answer_detail": "Vì $x \\in [0; \\dfrac{\\pi}{2}]$ nên $2x + \\dfrac{\\pi}{6} \\in [\\dfrac{\\pi}{6}; \\dfrac{7\\pi}{6}]$.\r\nDo đó, $sin(2x + \\dfrac{\\pi}{6}) \\in [-\\dfrac{1}{2}; 1]$.\r\nXét hai trường hợp:\r\nTH1: Nếu $m \\ge 0$ thì giá trị lớn nhất của hàm số trên $[0; \\dfrac{\\pi}{2}]$ là $Max~y = 3+m$.\r\nTa có $3+m \u003c 10 \\Leftrightarrow m \u003c 7$. Bởi vậy, $m \\in \\{0; 1; ...; 6\\}$ (có 7 giá trị).\r\nTH2: Nếu $m \u003c 0$ thì giá trị lớn nhất của hàm số trên $[0; \\dfrac{\\pi}{2}]$ là $Max~y = 3 - \\dfrac{m}{2}$.\r\nTa có $3 - \\dfrac{m}{2} \u003c 10 \\Leftrightarrow m \u003e -14$. Bởi vậy, $m \\in \\{-13; -12; ...; -1\\}$ (có 13 giá trị).\r\nDo đó, ta có tất cả $7+13=20$ giá trị của tham số m thỏa mãn.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "757b2b61-f570-46de-b6be-075d2cbd5675",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 8,
+                "content": "Cho dãy số $(u_{n})$ xác định bởi công thức $u_{n}=\\dfrac{2n^{2}+1}{n+5}$ với $n\\ge1$. Mỗi phát biểu sau đây là đúng hay sai? \r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Dãy số $(u_{n})$ là dãy tăng."
+                        },
+                        {
+                            "content": "Dãy số $(u_{n})$ bị chặn trên."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Ta có $u_{n}=2n-10+\\dfrac{51}{n+5}$. Do đó:\r\n$u_{n+1}-u_{n}=2+\\dfrac{51}{n+6}-\\dfrac{51}{n+5}=2-\\dfrac{51}{(n+5)(n+6)}\u003e2-\\dfrac{51}{5.6}\u003e0$ với mọi $n\\ge1$.\r\nVì vậy, $u_{n+1}\u003eu_{n}$ với mọi $n\\ge1$, dẫn đến dãy $(u_{n})$ là dãy tăng.\r\nMặt khác, $\\lim u_{n}=\\lim\\dfrac{2n^{2}+1}{n+5}=+\\infty$ nên dãy $(u_{n})$ không bị chặn trên.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "052f4e6f-f5d0-46c2-8f03-fe6e9683fa93",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 9,
+                "content": "Cho hàm số bậc bốn $y=f(x)$ có đồ thị của hàm số $y=f^{\\prime}(x)$ như hình vẽ.\n$/image_{https://cdn.save.moe/b/F8aJd.png?dl=1}_{center}_{40}_{block}$\nNhững phát biểu nào dưới đây đúng? \n",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hàm số $f(x)$ đồng biến trên (0;2)."
+                        },
+                        {
+                            "content": "Hàm số $f(x)$ đồng biến trên các khoảng (-∞;a) và (1;b)."
+                        },
+                        {
+                            "content": "Hàm số $f(x)$ nghịch biến trên (-∞;0)."
+                        },
+                        {
+                            "content": "Hàm số $f(x)$ nghịch biến trên (0;1)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        3
+                    ]
+                },
+                "answer_detail": "Từ đồ thị của hàm số $y=f^{\\prime}(x)$, ta thấy:\r\nTrên các khoảng (-∞;a) và (1;b), đồ thị hàm số $y=f^{\\prime}(x)$ nằm bên trên Ox nên $f^{\\prime}(x)\u003e0$ với mọi x thuộc các khoảng này.\r\nDo đó, hàm số $f(x)$ đồng biến trên các khoảng này. Vậy phát biểu thứ hai đúng và phát biểu thứ ba sai.\r\nTrên các khoảng (a;1) và $(b;+\\infty)$, đồ thị hàm số $y=f^{\\prime}(x)$ nằm bên dưới Ox nên $f^{\\prime}(x)\u003c0$ với mọi x thuộc các khoảng này.\r\nDo đó, hàm số $f(x)$ nghịch biến trên các khoảng này.\r\nHơn nữa, vì $(0;1)\\subset(a;1)$ nên ta có $f(x)$ nghịch biến trên (0;1).\r\nBởi vậy, phát biểu thứ tư đúng và phát biểu thứ nhất sai.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "ec99bfb7-5de2-4b0c-b39e-a89640497268",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 10,
+                "content": "Trong mặt phẳng Oxy, phương trình tiếp tuyến của đường tròn $(C):x^{2}+y^{2}-2x+4y-20=0$ tại $M(4;2)$ là \r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$3x+4y-20=0$."
+                        },
+                        {
+                            "content": "$y=2$."
+                        },
+                        {
+                            "content": "$x=4$."
+                        },
+                        {
+                            "content": "$4x+3y-22=0$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Đường tròn $(C):(x-1)^{2}+(y+2)^{2}=25$ có tâm $I(1;-2)$.\r\nĐường thẳng d tiếp xúc với (C) tại điểm $M(4;2)$ nên $d \\perp IM$, vì vậy $\\overline{IM}=(3;4)$ là một vectơ pháp tuyến của d.\r\nPhương trình của d là $3(x-4)+4(y-2)=0 \\Leftrightarrow 3x+4y-20=0$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "9987b5f4-9d75-4b62-85c4-17049f82cdfc",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 11,
+                "content": "Một robot đi từ điểm A trên một đoạn đường thẳng, hướng về phía trước. Biết rằng mỗi lần bước, robot đó bước được 40 cm hoặc 80 cm. Với mỗi số nguyên dương n, gọi $a_{n}$ là tổng số cách robot đó di chuyển được quãng đường dài 40n (cm). Mỗi phát biểu sau đây là đúng hay sai? \r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$a_{1}=1$ $a_{2}=2$."
+                        },
+                        {
+                            "content": "$a_{10}\u003ea_{9}+a_{8}$."
+                        },
+                        {
+                            "content": "$a_{10}=89$."
+                        },
+                        {
+                            "content": "Nếu $a_{n}=233$ thì $n=13$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Gọi $B_{n}$ là điểm nằm trên đường đi của robot sao cho $AB_{n}=40n(cm)$.\nVới $n=1$, $AB_{1}=40$ cm, chỉ có duy nhất một cách để robot di chuyển từ A đến $B_{1}$ là bước một bước 40 cm. Do đó, $a_{1}=1$.\nVới $n=2$, $AB_{2}=80$ cm, có hai cách để robot di chuyển từ A đến $B_{2}$ là: bước hai bước 40 cm hoặc bước một bước 80 cm. Do đó, $a_{2}=2$.\nVới $n\u003e2$, robot đến $B_{n}$ theo hai phương án:\nPhương án 1: Di chuyển từ A đến điểm $B_{n-2}$, sau đó thực hiện một bước 80 cm. Có $a_{n-2}$ cách.\nPhương án 2: Di chuyển từ A đến điểm $B_{n-1}$, sau đó thực hiện một bước 40 cm. Có $a_{n-1}$ cách.\nBởi vậy, ta có công thức truy hồi: $a_{n}=a_{n-1}+a_{n-2}$ với mọi $n\u003e2$.\nBảng giá trị: \n$/image_{https://cdn.save.moe/b/StLbt.png?dl=1}_{center}_{50}_{block}$\nTừ bảng ta có $a_{10}=89$ và nếu $a_{n}=233$ thì $n=12$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "2183beb7-dd66-401e-beb2-0cbf1133070a",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 12,
+                "content": "Cho hai hàm số $f(x)=\\dfrac{25x}{x^{2}+1}$ và $g(x)=\\dfrac{25x^{3}}{x^{2}+1}$. Khi đó, nếu $f^{\\prime}(x_{0})=12$ thì $g^{\\prime}(x_{0})=$ ____.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "13"
+                    ]
+                },
+                "answer_detail": "Ta có $f^{\\prime}(x)=\\dfrac{25(1-x^{2})}{(x^{2}+1)^{2}}$.\r\n$f^{\\prime}(x)=12 \\Leftrightarrow 12x^{4}+49x^{2}-13=0 \\Leftrightarrow x^{2}=\\dfrac{1}{4}$ (do $x^2 \\ge 0$).\r\nDo đó, ${x_{0}}^{2}=\\dfrac{1}{4}$.\r\nVì $g^{\\prime}(x)=\\dfrac{25x^{2}(x^{2}+3)}{(x^{2}+1)^{2}}$ nên $g^{\\prime}(x_{0})=\\dfrac{25x_{0}^{2}(x_{0}^{2}+3)}{(x_{0}^{2}+1)^{2}}=13$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "56786d16-a9ed-4a40-8d9f-d958f1f56707",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 13,
+                "content": "Biết giới hạn $\\lim_{x\\rightarrow\\sqrt{3}}\\dfrac{2x^{2}-6}{x-\\sqrt{3}}=a\\sqrt{b}$ trong đó a là số nguyên và b là số nguyên tố. Giá trị của biểu thức $P=a^{2}+b^{2}$ là \r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "7."
+                        },
+                        {
+                            "content": "19."
+                        },
+                        {
+                            "content": "25."
+                        },
+                        {
+                            "content": "13."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Ta có:\r\n\r\n$\\lim_{x\\rightarrow\\sqrt{3}}\\dfrac{2x^{2}-6}{x-\\sqrt{3}}=\\lim_{x\\rightarrow\\sqrt{3}}\\dfrac{2(x^{2}-3)}{x-\\sqrt{3}}$ $=\\lim_{x\\rightarrow\\sqrt{3}}\\dfrac{2(x-\\sqrt{3})(x+\\sqrt{3})}{x-\\sqrt{3}}$ $=\\lim_{x\\rightarrow\\sqrt{3}}2(x+\\sqrt{3})=4\\sqrt{3}$.\r\nDo đó, $a=4$, $b=3$ và $P=a^2+b^2=16+9=25$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "0639b794-7879-4af1-8da3-a37fc5cf28e9",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 14,
+                "content": "Có bao nhiêu giá trị nguyên của tham số m thuộc đoạn [-100;100] để hàm số $y=\\dfrac{2^{x}+16}{2^{x}-m}$ nghịch biến trên (1;5)? \r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "85."
+                        },
+                        {
+                            "content": "87."
+                        },
+                        {
+                            "content": "88."
+                        },
+                        {
+                            "content": "116."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Ta có $y^{\\prime}=\\dfrac{(-m-16)2^{x}ln~2}{(2^{x}-m)^{2}}$. Nếu $y^{\\prime}=0$ thì $m=-16$. Khi đó $y=1$, là một hàm hằng.\r\nHàm số nghịch biến trên (1;5) khi và chỉ khi $y^{\\prime}\u003c0$ với mọi $x\\in(1;5)$.\r\nĐiều này tương đương với $\\begin{cases}m\\ne2^{x}\\forall x\\in(1;5)\\\\ -m-16\u003c0\\end{cases} \\Leftrightarrow \\begin{cases}m\\notin(2;32)\\\\ m\u003e-16\\end{cases}$.\r\nKết hợp với $m\\in[-100;100]$, ta được $\\begin{cases}-16\u003cm\\le2\\\\ 32\\le m\\le100\\end{cases}$.\r\nCó 18 số nguyên thuộc (-16;2] và 69 số nguyên thuộc [32;100]. Bởi vậy, ta có tất cả $18+69=87$ giá trị nguyên của m thỏa mãn.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "6825fb7b-7df1-4c2a-970c-408c9879c007",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 15,
+                "content": "Một đồ lưu niệm bằng thủy tinh, có phần dưới là một khối lập phương và phần trên là một phần khối cầu. Biết đồ lưu niệm đó cao 14 cm; độ dài cạnh của khối lập phương và đường kính của khối cầu đều bằng 8 cm. \n$/image_{https://cdn.save.moe/b/hA90be.png?dl=1}_{center}_{40}_{block}$\nThể tích của đồ lưu niệm đó bằng ____ cm³ (làm tròn kết quả đến hàng đơn vị).\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "738"
+                    ]
+                },
+                "answer_detail": "Thể tích của khối lập phương là $V_{lp}=8^{3}=512(cm^{3})$.\nMặt khác, ta thấy phần khối cầu có bán kính 4 cm và chiều cao $14-8=6(cm)$ sinh ra khi quay hình phẳng giới hạn bởi cung tròn có phương trình $y=\\sqrt{8x-x^{2}}$, trục hoành Ox và các đường thẳng $x=2, x=8$.\n$/image_{https://cdn.save.moe/b/VQK83jH.png?dl=1}_{center}_{40}_{block}$\n$/image_{https://cdn.save.moe/b/H7X6X.png?dl=1}_{center}_{40}_{block}$\nBởi vậy, thể tích phần khối cầu là:\n$V_{c}=\\pi \\displaystyle \\int_{2}^{8}(\\sqrt{8x-x^{2}})^{2}dx = \\pi \\displaystyle \\int_{2}^{8}(8x-x^{2})dx = 72\\pi(cm^{3})$.\nThể tích của đồ lưu niệm là $V=V_{lp}+V_{c}=512+72\\pi \\approx 738(cm^{3})$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "cedc2d7a-b546-44db-ae44-cdf7cddfc04e",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 16,
+                "content": "Thống kê số bánh rán bán ra theo cỡ tại một cửa hàng bánh pizza trong một tuần, người ta thu được bảng sau: \n$/image_{https://cdn.save.moe/b/ouDMXu.png?dl=1}_{center}_{40}_{block}$\nTrong những biểu đồ hình quạt sau, biểu đồ nào thích hợp nhất để biểu diễn dữ liệu trong bảng trên? \n$/image_{https://cdn.save.moe/b/S0aMdw.png?dl=1}_{center}_{40}_{block}$",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hình 1."
+                        },
+                        {
+                            "content": "Hình 2."
+                        },
+                        {
+                            "content": "Hình 3."
+                        },
+                        {
+                            "content": "Hình 4."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Tổng số bánh đã bán của cửa hàng trong tuần là $234+512+220=966$.\r\nTần suất: Cỡ nhỏ: 24%; Cỡ vừa: 53%; Cỡ to: 23%.\r\nDo đó, phần hình tròn biểu thị số bánh cỡ vừa chiếm hơn nửa hình tròn, các phần hình tròn biểu thị số bánh cỡ nhỏ và số bánh cỡ to xấp xỉ bằng nhau.\r\nVậy Hình 2 thích hợp nhất.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "b3307387-f7e0-47ee-ac94-eb9adc755233",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 17,
+                "content": "Hàm số nào dưới đây là một nguyên hàm của hàm số $f(x)=2x+sin~3x$ trên $\\mathbb{R}$ ? \r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$F(x)=x^{2}-3~cos~3x$."
+                        },
+                        {
+                            "content": "$G(x)=x^{2}-cos~3x+2.$"
+                        },
+                        {
+                            "content": "$H(x)=x^{2}-\\dfrac{cos~3x}{3}$."
+                        },
+                        {
+                            "content": "$R(x)=x^{2}+\\dfrac{cos~3x}{3}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Ta có $H^{\\prime}(x)=(x^{2}-\\dfrac{cos~3x}{3})^{\\prime}=2x+sin~3x$.\r\nDo đó, $H^{\\prime}(x)=f(x)$ với mọi $x\\in\\mathbb{R}$.\r\nVậy $H(x)$ là một nguyên hàm của $f(x)$ trên $\\mathbb{R}$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "2e8ef3d3-f996-48ce-be22-45c8c8710306",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 18,
+                "content": "Kéo và thả các số thích hợp vào các chỗ trống:\nCho hàm số $f(x)$ có đồ thị của hàm số $y=f^{\\prime}(x)$ trên đoạn [0;10] như hình vẽ sau đây. \n$/image_{https://cdn.save.moe/b/QHEtulv.png?dl=1}_{center}_{40}_{block}$\nTrên [0;10] diện tích các hình phẳng giới hạn bởi đồ thị $y=f^{\\prime}(x)$ và trục Ox lần lượt là 20, 6 và 4 (thể hiện như hình vẽ). Tích phân $\\displaystyle \\int_{0}^{10}f^{\\prime}(x)dx$ bằng ____. Biết $f(0)=6$, giá trị của $f(10)$ bằng ____.\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "24",
+                        "18",
+                        "30",
+                        "36"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "1;0"
+                    ]
+                },
+                "answer_detail": "Gọi hoành độ các giao điểm còn lại của đồ thị và trục Ox là a, b ($a \u003c b$).\r\nKhi đó, ta có:\r\n$\\displaystyle \\int_{0}^{10}f^{\\prime}(x)dx = \\displaystyle \\int_{0}^{a}f^{\\prime}(x)dx + \\displaystyle \\int_{a}^{b}f^{\\prime}(x)dx + \\displaystyle \\int_{b}^{10}f^{\\prime}(x)dx$ $= 20 - 6 + 4 = 18$.\r\nMặt khác, $\\displaystyle \\int_{0}^{10}f^{\\prime}(x)dx = f(10) - f(0)$ $\\Rightarrow f(10) = \\displaystyle \\int_{0}^{10}f^{\\prime}(x)dx + f(0) = 18 + 6 = 24$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "2849f5a6-0884-4683-a5df-4b6837f50484",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 19,
+                "content": "Có hai thùng nước hình hộp chữ nhật tạo thành một khối lập phương cạnh bằng 1 (m). Đổ một phần nước từ thùng chứa đầy sang thùng không có nước, lượng nước của thùng ban đầu còn lại $\\dfrac{3}{4}$ thùng và thùng kia chứa $\\dfrac{1}{3}$ thùng. Thể tích thùng rỗng ban đầu là $\\dfrac{a}{b}(m^{3})$ tối giản. Giá trị của $a+b$ bằng ____.\n$/image_{https://cdn.save.moe/b/2tf4y.png?dl=1}_{center}_{40}_{block}$\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "10"
+                    ]
+                },
+                "answer_detail": "Vì hai thùng nước tạo thành một khối lập phương cạnh bằng 1 nên thể tích của thùng chứa đầy nước ban đầu là $1-\\dfrac{a}{b}(m^{3})$.\r\nSau khi đổ $1-\\dfrac{3}{4}=\\dfrac{1}{4}$ lượng nước của thùng chứa đầy nước sang cho thùng rỗng, thì thùng rỗng ban đầu chứa $\\dfrac{1}{3}$ thùng nên ta có:\r\n$\\dfrac{1}{4}(1-\\dfrac{a}{b}) = \\dfrac{1}{3} \\cdot \\dfrac{a}{b}$.\r\nTừ đó tính được $\\dfrac{a}{b}=\\dfrac{3}{7}$.\r\nDo đó, $a+b=10$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "3de41c36-b04c-4e3d-9bd6-5ed3d65b2f65",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 20,
+                "content": "Bác Việt mở một trang trại nuôi vịt. Trong 5 năm đầu bác thống kê số lượng vịt phát triển được ghi lại như hình vẽ:\n$/image_{https://cdn.save.moe/b/E2o33nv.png?dl=1}_{center}_{40}_{block}$\nGiả sử số lượng vịt (đơn vị: con) sau t năm được tính theo hàm số $n(t)=100.a^{t}$ ($a$ là một hằng số và $t$ là số năm). Mỗi phát biểu sau đây là đúng hay sai? \n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Số lượng vịt ban đầu là 196 con."
+                        },
+                        {
+                            "content": "Dự báo số vịt sau 9 năm (đã làm tròn) là 2066 con."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Quan sát đồ thị, ta thấy tại thời điểm ban đầu, tức là $t=0$, số vịt là 100 con.\r\nDo đó, phát biểu thứ nhất là sai.\r\nĐồ thị hàm số $n(t)=100.a^{t}$ đi qua điểm (2;196) nên:\r\n$n(2)=196 \\Leftrightarrow 100a^{2}=196 \\Leftrightarrow a=1,4$.\r\nTừ đó, suy ra dự báo số vịt sau 9 năm là $n(9)=100.1,4^{9} \\approx 2066$ con.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "9591ff26-c723-4856-862a-391b3d4f37be",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 21,
+                "content": "Trong không gian Oxyz, cho hình bình hành ABCD có $A(3;-5;1)$, $B(-2;-1;4)$ và $C(7;-5;-2).$ Khi đó, tọa độ của điểm D là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$(12;-9;-5).$"
+                        },
+                        {
+                            "content": "$(-6;-1;7).$"
+                        },
+                        {
+                            "content": "$(2;-1;1).$"
+                        },
+                        {
+                            "content": "$(8;-11;3).$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Gọi $D(a;b;c).$\r\nTa có: $\\vec{AB} = (-5; 4; 3)$\r\nVà: $\\vec{DC} = (7-a; -5-b; -2-c).$\r\n\r\nDo ABCD là hình bình hành nên $\\vec{AB} = \\vec{DC}$\r\n$\\Leftrightarrow \\begin{cases} 7-a = -5 \\\\ -5-b = 4 \\\\ -2-c = 3 \\end{cases}$\r\n$\\Leftrightarrow \\begin{cases} a = 12 \\\\ b = -9 \\\\ c = -5 \\end{cases}$\r\n\r\nVậy $D(12;-9;-5).$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "8d1dc8de-7a6b-4a0c-989d-0e8fcb1c738e",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 22,
+                "content": "Một hồ thủy điện có 9 đập tràn, mỗi đập có thể xả nước với tốc độ tối đa là $500(m^3/s).$ Do mưa liên tục nên mực nước trong hồ lên cao đến mức báo động và phải xả lũ khẩn cấp. Khi có lệnh xả lũ, người ta mở trước 5 đập tràn và sau đó 5 phút mở tiếp 4 đập tràn còn lại. Biết rằng tốc độ lưu lượng nước qua mỗi đập tại thời điểm t (giây) là $v(t)=kt(m^3/s)$ cho đến khi đạt tốc độ tối đa, trong đó t là thời gian tính từ lúc đập đó được mở và k là một hằng số. Giả sử sau 30 phút từ khi có lệnh bắt đầu mở đập xả lũ, lưu lượng nước qua mỗi đập đều ở tốc độ tối đa và hồ thủy điện đã xả được $7387500~m^3$ nước. Khi đó, hằng số k bằng\n$/image_{https://cdn.save.moe/b/7pjTlL.png?dl=1}_{center}_{40}_{block}$",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "9."
+                        },
+                        {
+                            "content": "10."
+                        },
+                        {
+                            "content": "12."
+                        },
+                        {
+                            "content": "15."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Lượng nước mà mỗi đập đã xả trong khoảng thời gian từ $a(s)$ đến $b(s)$ sẽ là $\\Phi = \\displaystyle \\int_{a}^{b} v(t)dt.$\r\n\r\nVì tốc độ xả nước tối đa của mỗi đập là $500~m^3/s$ nên thời gian tính từ khi mở đập xả lũ đến khi lưu lượng nước đạt tốc độ tối đa là:\r\n$t_0 = \\dfrac{500}{k}$ (giây).\r\n\r\nDo đó, công thức của $v(t)$ sẽ là:\r\n$v(t) = \\begin{cases} kt \u0026 \\text{khi } 0 \\le t \\le t_0 \\\\ 500 \u0026 \\text{khi } t \\ge t_0 \\end{cases}$\r\n\r\nĐổi 30 phút = 1800 giây; 25 phút = 1500 giây.\r\nTrong 30 phút (1800 giây), lượng nước xả qua 5 đập được mở trước là:\r\n$\\Phi_1 = 5 \\cdot \\displaystyle \\int_{0}^{1800} v(t)dt = 5 \\left( \\displaystyle \\int_{0}^{t_0} ktdt + \\displaystyle \\int_{t_0}^{1800} 500dt \\right)$\r\n\r\nBốn đập thủy điện còn lại chỉ xả trong 25 phút (1500 giây). Lượng nước xả qua 4 đập còn lại là:\r\n$\\Phi_2 = 4 \\cdot \\displaystyle \\int_{0}^{1500} v(t)dt = 4 \\left( \\displaystyle \\int_{0}^{t_0} ktdt + \\displaystyle \\int_{t_0}^{1500} 500dt \\right)$\r\n\r\nHơn nữa, $kt_0 = 500.$ Bởi vậy, lượng nước được xả qua 9 con đập sau 30 phút sẽ là:\r\n$\\Phi_1 + \\Phi_2 = 5 \\left( \\displaystyle \\int_{0}^{t_0} ktdt + \\displaystyle \\int_{t_0}^{1800} 500dt \\right) + 4 \\left( \\displaystyle \\int_{0}^{t_0} ktdt + \\displaystyle \\int_{t_0}^{1500} 500dt \\right)$\r\n$= \\dfrac{9kt_0^2}{2} - 4500t_0 + 7500000$\r\n$= -2250t_0 + 7500000$\r\n\r\nTa có: $-2250t_0 + 7500000 = 7387500 \\Leftrightarrow t_0 = 50.$\r\nVậy $k = \\dfrac{500}{t_0} = 10.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "235ef48b-89f7-4a5b-91b4-35869d3439ea",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 23,
+                "content": "Tập xác định của hàm số $y = \\log_2(x-3)^2 + \\log_3(x-1)$ là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$D = (1;3) \\cup (3;+\\infty).$"
+                        },
+                        {
+                            "content": "$D = (1;+\\infty).$"
+                        },
+                        {
+                            "content": "$D = (3;+\\infty).$"
+                        },
+                        {
+                            "content": "$D = [3;+\\infty).$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Điều kiện xác định của hàm số là:\r\n$\\begin{cases} (x-3)^2 \u003e 0 \\\\ x-1 \u003e 0 \\end{cases} \\Leftrightarrow \\begin{cases} x \\ne 3 \\\\ x \u003e 1 \\end{cases}$\r\n\r\nVậy tập xác định là $D = (1;3) \\cup (3;+\\infty).$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "042a595d-f5e5-456b-a783-0ec33a751b72",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 24,
+                "content": "Cho hình chóp S.ABC có SA vuông góc với đáy và $SA=2a$, tam giác ABC vuông tại $A, AC=4a, AB=3a.$\n$/image_{https://cdn.save.moe/b/fEY6o.png?dl=1}_{center}_{40}_{block}$\nGọi $\\alpha$ là góc giữa mặt phẳng (SBC) và mặt phẳng (ABC), giá trị của $\\tan \\alpha$ bằng\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{2}{3}$"
+                        },
+                        {
+                            "content": "$\\dfrac{6}{5}$"
+                        },
+                        {
+                            "content": "$\\dfrac{4}{5}$"
+                        },
+                        {
+                            "content": "$\\dfrac{5}{6}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/bfEtyfz.png?dl=1}_{center}_{40}_{block}$\nTrong tam giác ABC kẻ $AH \\perp BC.$\nMà $BC \\perp SA$ (do $SA \\perp (ABC))$ nên $BC \\perp (SAH).$\nVậy $\\alpha = \\widehat{SHA}.$\nTa có:\n$AH = \\dfrac{AB \\cdot AC}{BC} = \\dfrac{3a \\cdot 4a}{5a} = \\dfrac{12a}{5}.$\nVậy:\n$\\tan \\alpha = \\dfrac{SA}{AH} = \\dfrac{2a}{\\dfrac{12a}{5}} = \\dfrac{5}{6}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "05005a61-fa1b-409b-9d65-11efc9162cba",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 25,
+                "content": "Kéo và thả các thẻ thích hợp từ các thẻ đã cho để được lời giải đúng của bài toán sau:\r\nBài toán: Cho tứ diện ABCD. Gọi I, J lần lượt là trọng tâm của tam giác ABC và tam giác ABD. Chứng minh rằng IJ // CD.\r\nLời giải: Gọi E là trung điểm của AB. Ta có $I \\in$ ____ , $J \\in$ ____ nên IJ và CD ____. Vì I, J lần lượt là trọng tâm của tam giác ABC và tam giác ABD nên $\\dfrac{EI}{EC} = \\dfrac{EJ}{ED} =$ ____. Theo định lý Thales đảo suy ra IJ // CD (đpcm).\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$\\dfrac{2}{3}$",
+                        "CE",
+                        "đồng phẳng",
+                        "$\\dfrac{1}{3}$",
+                        "DE",
+                        "chéo nhau"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "1;4;2;3"
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/YvgKQP.png?dl=1}_{center}_{40}_{block}$\nGọi E là trung điểm của AB.\nTa có $I \\in CE, J \\in DE$ nên IJ và CD đồng phẳng.\nVì I, J lần lượt là trọng tâm của tam giác ABC và tam giác ABD nên:\n$\\dfrac{EI}{EC} = \\dfrac{EJ}{ED} = \\dfrac{1}{3}$\nTheo định lý Thales đảo suy ra IJ // CD (đpcm).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "f2b1030e-5567-4043-9e72-ef9b610ee5f1",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 26,
+                "content": "$/image_{https://cdn.save.moe/b/DpYuR.png?dl=1}_{center}_{50}_{block}$\nGiám đốc Long của một công ty xây dựng đang nghiên cứu xây nhà cho nhân viên. Ông vẽ lại khung nhà và đề xuất các thông số như sau: $ED=4(m), DP=16(m), CD=3(m), AB=BC=NO=MN=3(m), BN=12(m).$ Chiều cao của ngôi nhà là khoảng cách từ đường thẳng BN đến mặt đất. Nếu chiều cao của ngôi nhà là $h(m)$ thì $h^2 =$ ____.\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "16"
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/Rq3EX0.png?dl=1}_{center}_{40}_{block}$\nVì hai mặt phẳng (ACOM) và (EDPQ) song song nên chiều cao của ngôi nhà sẽ là:\n$h = d((EDPQ);(ACOM)) + d(B;(ACOM)) = CD + d(B;(ACOM)) = 3 + d(B;(ACOM))$\nTa có $AC = ED = 4(m), AM = CO = DP = 16(m).$\nGọi I là trung điểm của AC, H là hình chiếu vuông góc của B lên mặt phẳng (ACOM), K là hình chiếu vuông góc của H lên CO.\nKhi đó: $AI = \\dfrac{1}{2}AC = 2(m).$\nHơn nữa, vì $AB=BC$ nên tam giác ABC là tam giác cân; dẫn đến $BI \\perp AC$ và:\n$BI^2 = AB^2 - AI^2 = 3^2 - 2^2 = 5(m^2).$\n\nLại có $BH \\perp AC$ (vì $BH \\perp (ACOM))$ nên $AC \\perp (BIH).$ Do đó, $AC \\perp HI.$\nBởi vậy, tứ giác HKCI có ba góc vuông nên nó là hình chữ nhật.\n\nMặt khác: $CK = IH = \\dfrac{1}{2}(CO - BN) = \\dfrac{1}{2}(16 - 12) = 2(m).$\nTrong tam giác BIH, ta có $BH = \\sqrt{BI^2 - IH^2} = \\sqrt{5 - 4} = 1(m).$\n\nVậy $d(B;(ACOM)) = 1(m)$ và chiều cao của ngôi nhà là $h = 4(m).$\nBởi vậy, $h^2 = 16.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "b49f0610-2c49-4c2a-b3e5-88797eab8612",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 27,
+                "content": "Một bác thợ định gò một chiếc thùng hình trụ bằng tôn không có nắp đậy để đựng nước. Biết thể tích nước đựng được là $8\\pi(dm^3),$ độ dày của miếng tôn và mối hàn không đáng kể. Để tốn ít vật liệu nhất thì bác thợ cần làm chiếc thùng có chiều cao $h = a + b\\pi(dm)$ với a, b là các số nguyên. Khi đó, tổng $a^6 + b^6$ bằng ____.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "64"
+                    ]
+                },
+                "answer_detail": "Gọi $R(dm)$ là bán kính của hình trụ. Khi đó, ta có:\r\n$\\pi R^2h = 8\\pi$ (1)\r\n\r\nVì chiếc thùng không có nắp nên diện tích tôn cần dùng là:\r\n$S = S_{xq} + S_{đ} = 2\\pi Rh + \\pi R^2$ (2)\r\n\r\nTừ (1) suy ra $Rh = \\dfrac{8}{R},$ thế vào (2) ta được:\r\n$S = \\dfrac{16\\pi}{R} + \\pi R^2 = \\pi \\left( \\dfrac{8}{R} + \\dfrac{8}{R} + R^2 \\right)$\r\n\r\nÁp dụng bất đẳng thức Cauchy cho 3 số dương:\r\n$S \\ge 3\\pi \\sqrt[3]{\\dfrac{8}{R} \\cdot \\dfrac{8}{R} \\cdot R^2} = 12\\pi$\r\n\r\nDo đó, $\\min S = 12\\pi$ đạt được khi $\\dfrac{8}{R} = R^2 \\Rightarrow R = 2 \\Rightarrow h = 2.$\r\nSuy ra $a = 2, b = 0.$\r\nVậy $a^6 + b^6 = 64.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "bb7a78fe-d2cc-40f4-921c-ec726931b444",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 28,
+                "content": "Trong không gian Oxyz, mặt cầu (S) đi qua ba điểm $A(1;2;3), B(1;3;2), C(0;1;1)$ và có tâm $I(a;b;c)$ thuộc mặt phẳng $(P): x+2y+3z-8=0.$ Tổng $a+b+c$ bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "-1."
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "5."
+                        },
+                        {
+                            "content": "8."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Vì I là tâm của mặt cầu (S) nên $IA = IB = IC.$ Ta có:\r\n$\\begin{cases} IA^2 = IB^2 \\\\ IA^2 = IC^2 \\end{cases}$\r\n\r\n$\\Rightarrow \\begin{cases} (a-1)^2 + (b-2)^2 + (c-3)^2 = (a-1)^2 + (b-3)^2 + (c-2)^2 \\\\ (a-1)^2 + (b-2)^2 + (c-3)^2 = a^2 + (b-1)^2 + (c-1)^2 \\end{cases}$\r\n\r\n$\\Leftrightarrow \\begin{cases} b = c \\\\ a + b + 2c - 6 = 0 \\end{cases}$\r\n$\\Leftrightarrow \\begin{cases} b = c \\\\ a = 6 - 3c \\end{cases}$\r\nDo đó $I(6 - 3c; c; c).$\r\n\r\nHơn nữa, $I \\in (P) \\Leftrightarrow (6 - 3c) + 2c + 3c - 8 = 0 \\Leftrightarrow 2c = 2 \\Leftrightarrow c = 1.$\r\nDo đó, $b = 1, a = 3$ và vì vậy $a + b + c = 5.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "83aa3b63-aaff-4c82-b212-bf51220c2cf3",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 29,
+                "content": "Kéo và thả các số thích hợp vào các chỗ trống:\r\nMột chiếc lều cắm trại có dạng hình chóp tứ giác đều với chiều cao 2m và cạnh đáy là 3m. Khi đó, thể tích của lều bằng ____ $m^3$ và diện tích xung quanh của lều là ____ $m^2.$\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "24",
+                        "15",
+                        "18",
+                        "6"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "3;1"
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/2AlPd8.png?dl=1}_{center}_{40}_{block}$\nThể tích của lều bằng:\n$V = \\dfrac{1}{3} \\cdot S_{đáy} \\cdot h = \\dfrac{1}{3} \\cdot 3 \\cdot 3 \\cdot 2 = 6(m^3).$\nDiện tích xung quanh bốn mặt lều bằng:\n$S_{xq} = 4 \\cdot \\dfrac{1}{2} \\cdot 3 \\cdot \\sqrt{2^2 + \\left(\\dfrac{3}{2}\\right)^2} = 15(m^2).$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "366ccfe1-3b4b-4ba5-b3e0-be072e046360",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 30,
+                "content": "Trong không gian Oxyz, cho ba điểm $A(2;1;1), B(1;2;1), C(0;1;3).$ Những khẳng định nào dưới đây là đúng?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Tam giác ABC là tam giác vuông tại B."
+                        },
+                        {
+                            "content": "Tâm đường tròn ngoại tiếp của tam giác ABC là điểm (-2;0;2)."
+                        },
+                        {
+                            "content": "Tâm đường tròn nội tiếp của tam giác ABC là điểm (1;1;2)."
+                        },
+                        {
+                            "content": "Tập hợp điểm M trong không gian thỏa mãn điều kiện $MA=MB=MC$ là đường thẳng có phương trình $\\dfrac{x-1}{1} = \\dfrac{y-1}{1} = \\dfrac{z-2}{1}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        3
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/bw7xIOt.png?dl=1}_{center}_{40}_{block}$\nTa có $\\vec{AB} = (-1; 1; 0), \\vec{BC} = (-1; -1; 2), \\vec{AC} = (-2; 0; 2).$\nVì $\\vec{AB} \\cdot \\vec{BC} = (-1)(-1) + 1(-1) + 0 \\cdot 2 = 0$ nên $AB \\perp BC.$\nDo đó, tam giác ABC là tam giác vuông tại B và khẳng định thứ nhất là đúng.\nDo tính chất của tam giác vuông nên trung điểm I của AC là tâm đường tròn ngoại tiếp tam giác ABC. Tọa độ điểm I là $(1; 1; 2).$\nDo đó, khẳng định thứ hai và thứ ba đều sai.\nTập hợp các điểm M trong không gian thỏa mãn điều kiện $MA=MB=MC$ là đường thẳng $\\Delta$ đi qua I và vuông góc với mặt phẳng ABC.\nMột vectơ chỉ phương của $\\Delta$ là $[\\vec{AB}, \\vec{BC}] = (2; 2; 2).$\nTa có phương trình của $\\Delta$ là:\n$\\dfrac{x-1}{2} = \\dfrac{y-1}{2} = \\dfrac{z-2}{2} \\Leftrightarrow \\dfrac{x-1}{1} = \\dfrac{y-1}{1} = \\dfrac{z-2}{1}$\nVà khẳng định thứ tư đúng.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "9e00abff-a9df-430b-a70e-9522f2ebe851",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 31,
+                "content": "Cho M là tập hợp các số tự nhiên n thỏa mãn $\\dfrac{2n-10}{n+1}$ là số nguyên. Những khẳng định nào sau đây là đúng?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Phần tử nhỏ nhất của M là 1."
+                        },
+                        {
+                            "content": "M có 6 phần tử."
+                        },
+                        {
+                            "content": "Tích tất cả các phần tử của M là 330."
+                        },
+                        {
+                            "content": "Tổng tất cả các phần tử của M là 22."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        3
+                    ]
+                },
+                "answer_detail": "Ta có $\\dfrac{2n-10}{n+1} = 2 - \\dfrac{12}{n+1}.$\nĐể $\\dfrac{2n-10}{n+1}$ là số nguyên $\\Leftrightarrow \\dfrac{12}{n+1} \\in \\mathbb{Z} \\Leftrightarrow 12 \\ \\vdots \\ (n+1).$\nKết hợp với $n+1 \\ge 1,$ ta được:\n$n+1 \\in \\{1; 2; 3; 4; 6; 12\\}$\n$\\Rightarrow n \\in \\{0; 1; 2; 3; 5; 11\\}$\nHay $M = \\{0; 1; 2; 3; 5; 11\\}.$\nVậy:\n- Phần tử nhỏ nhất của M là 0;\n- M có 6 phần tử;\n- Tích các phần tử của M là 0;\n- Tổng các phần tử của M là 22.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "6b30966a-e351-41ba-b0f2-14dea8a455b9",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 32,
+                "content": "Trong hệ tọa độ Oxyz với đơn vị 1 cm, cho các điểm $A(0;-2;3), B(2;-2;3), C(9;0;2), D(9;4;5).$ Chất điểm M chuyển động trên đường thẳng AB theo chiều từ A đến B và chất điểm N chuyển động trên đường thẳng CD theo chiều từ C đến D với cùng vận tốc $1~cm/s.$ Tại thời điểm $t=0$ thì điểm M tại vị trí A và N tại vị trí C. Gọi $M_t, N_t$ lần lượt là tọa độ của điểm M và N sau t giây. Mỗi khẳng định sau là đúng hay sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Tọa độ của $M_t$ là $M_t(t;-2;3).$"
+                        },
+                        {
+                            "content": "Tọa độ của $N_t$ là $N_t(9;4t;2+3t).$"
+                        },
+                        {
+                            "content": "Độ dài đoạn $M_tN_t$ ngắn nhất khi $t=4.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Gọi $\\vec{v}_1$ là vận tốc chất điểm M, ta có $\\vec{v}_1 = (1; 0; 0)$ vì $\\vec{v}_1$ cùng hướng với $\\vec{AB}$ và $|\\vec{v}_1|=1.$\nKhi đó, $\\vec{AM_t} = t \\cdot \\vec{v}_1 = (t; 0; 0) \\Rightarrow M_t(t; -2; 3).$\nGọi $\\vec{v}_2$ là vận tốc chất điểm N, ta có $\\vec{v}_2 = (0; \\dfrac{4}{5}; \\dfrac{3}{5})$ vì $\\vec{v}_2$ cùng hướng với $\\vec{CD}$ và $|\\vec{v}_2|=1.$\nKhi đó, $\\vec{CN_t} = t \\cdot \\vec{v}_2 = (0; \\dfrac{4}{5}t; \\dfrac{3}{5}t) \\Rightarrow N_t(9; \\dfrac{4}{5}t; 2 + \\dfrac{3}{5}t).$\nCó:\n$M_tN_t^2 = (t-9)^2 + (\\dfrac{4}{5}t+2)^2 + (\\dfrac{3}{5}t-1)^2 = 2t^2 - 16t + 86$\nNên $M_tN_t$ nhỏ nhất khi $t = 4(s).$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "bf442a67-0441-4889-aa5c-533844beb290",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 33,
+                "content": "Có ba bì thư được đánh số thứ tự từ 1 đến 3 và ba con tem cũng được đánh số thứ tự từ 1 đến 3. Dán ngẫu nhiên mỗi bì thư một con tem trong ba con tem đó. Xác suất để có được hai bì thư trong ba bì thư trên mà mỗi bì thư đều có số thứ tự giống với số thứ tự con tem đã dán vào nó bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{1}{9}$"
+                        },
+                        {
+                            "content": "$\\dfrac{1}{2}$"
+                        },
+                        {
+                            "content": "$\\dfrac{1}{3}$"
+                        },
+                        {
+                            "content": "$\\dfrac{1}{6}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Dán ba tem khác nhau vào ba bì thư khác nhau có $|\\Omega| = 3! = 6$ cách.\nSố ghi trên bì thư và tem ở hai trong ba bì thư trùng nhau tương đương với số ghi trên cả ba bì thư và ba tem đều trùng nhau.\nDo đó, số kết quả thuận lợi cho biến cố của đề bài bằng 1.\nVậy xác suất cần tìm là $\\dfrac{1}{6}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "8fcb129b-2c71-43f4-9316-24841e091060",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 34,
+                "content": "Gieo một con xúc xắc cân đối đồng chất liên tiếp bốn lần. Mỗi phát biểu sau đây là đúng hay sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Xác suất để cả bốn lần gieo đều xuất hiện mặt sáu chấm bằng $\\dfrac{1}{1296}.$"
+                        },
+                        {
+                            "content": "Xác suất để trong bốn lần gieo đó có ít nhất một lần xuất hiện mặt sáu chấm bằng $\\dfrac{625}{1296}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Không gian mẫu $|\\Omega| = 6^4 = 1296.$\nGọi A: \"Cả bốn lần gieo đều xuất hiện mặt sáu chấm\",\nB: \"Trong bốn lần gieo đó có ít nhất một lần xuất hiện mặt sáu chấm\".\nTa có $\\bar{B}$: \"Cả bốn lần gieo đều không xuất hiện mặt sáu chấm\".\n$|A| = 1^4 = 1.$\n$|\\bar{B}| = 5^4 = 625.$\nBởi vậy:\n$P(A) = \\dfrac{|A|}{|\\Omega|} = \\dfrac{1}{1296}$\nVà:\n$P(B) = 1 - P(\\bar{B}) = 1 - \\dfrac{|\\bar{B}|}{|\\Omega|} = 1 - \\dfrac{625}{1296} = \\dfrac{671}{1296}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "4fbdebbf-0fe6-46f0-bc60-9441e6b7acaf",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 35,
+                "content": "Thống kê cân nặng của học sinh lớp 12A được cho trong bảng sau:\n$/image_{https://cdn.save.moe/b/2IbqS.png?dl=1}_{center}_{40}_{block}$\nCân nặng trung bình của các học sinh lớp 12A là\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "48."
+                        },
+                        {
+                            "content": "49,1."
+                        },
+                        {
+                            "content": "50,5."
+                        },
+                        {
+                            "content": "50,9."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Trong mỗi khoảng cân nặng, giá trị đại diện là trung bình cộng của hai đầu mút nên ta có bảng sau:\n$/image_{https://cdn.save.moe/b/tIOBAP0.png?dl=1}_{left}_{40}_{block}$\nCân nặng trung bình của các học sinh lớp 12A là:\n$\\bar{x} = \\dfrac{4 \\cdot 43 + 15 \\cdot 48 + 11 \\cdot 53 + 2 \\cdot 58 + 2 \\cdot 63}{4 + 15 + 11 + 2 + 2} = 50,5.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "20f34d44-bec9-4ce0-8482-bf78f4921c8f",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 36,
+                "content": "Kéo và thả các số thích hợp vào các chỗ trống:\r\nCho các biến cố A và B thỏa mãn $P(\\bar{B}) = 0,6;$ $P(\\bar{A} \\cap B) = 0,25.$ Ta có $P(B) =$ ____ và $P(A \\cap B) =$ ____. Do đó $P(A|B) =$ ____.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "0,2",
+                        "0,575",
+                        "0,4",
+                        "0,15",
+                        "0,375"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "2;3;4"
+                    ]
+                },
+                "answer_detail": "Ta có $P(B) = 1 - P(\\bar{B}) = 1 - 0,6 = 0,4.$\nDo $P(B) = P(A \\cap B) + P(\\bar{A} \\cap B)$ nên:\n$P(A \\cap B) = 0,4 - 0,25 = 0,15.$\nVì vậy:\n$P(A|B) = \\dfrac{P(A \\cap B)}{P(B)} = \\dfrac{0,15}{0,4} = 0,375.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "c1ce3630-a611-4af3-9c5e-93475e2856a0",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 37,
+                "content": "Bà nội đến nhà hai bạn Lân và Linh chơi. Trong túi bà có 4 chiếc kẹo vị dâu, 5 chiếc kẹo vị nho và 6 chiếc kẹo vị cam. Khi bà đến, Lân đang đi học. Bà lấy ngẫu nhiên trong túi ra 8 chiếc kẹo để cho Linh, số kẹo còn lại bà để dành cho Lân. Xác suất để số kẹo Lân nhận được từ bà không đủ ba vị dâu, nho và cam là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{661}{715}$"
+                        },
+                        {
+                            "content": "$\\dfrac{54}{715}$"
+                        },
+                        {
+                            "content": "$\\dfrac{331}{429}$"
+                        },
+                        {
+                            "content": "$\\dfrac{98}{429}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Số phần tử của không gian mẫu là $|\\Omega| = C_{15}^8.$\r\nGọi A là biến cố: \"Số kẹo Lân nhận được từ bà không đủ ba vị\".\r\n\r\nSố kẹo Lân nhận được từ bà không đủ ba vị tương ứng với việc trong số kẹo của một vị nào đó đã được bà cho hết Linh.\r\nLưu ý rằng Linh chỉ có thể có toàn bộ số kẹo của một vị duy nhất (vì nếu Linh có toàn bộ kẹo của hai vị thì số kẹo ít nhất của Linh là $4+5=9 \u003e 8$, không thể).\r\n\r\nCó ba trường hợp:\r\nTH 1: Linh có 4 chiếc kẹo vị dâu và 4 chiếc kẹo vị khác. Số khả năng là $C_4^4 \\cdot C_{11}^4.$\r\nTH 2: Linh có 5 chiếc kẹo vị nho và 3 chiếc kẹo vị khác. Số khả năng là $C_5^5 \\cdot C_{10}^3.$\r\nTH 3: Linh có 6 chiếc kẹo vị cam và 2 chiếc kẹo vị khác. Số khả năng là $C_6^6 \\cdot C_9^2.$\r\n\r\nDo đó, xác suất của A là:\r\n$P(A) = \\dfrac{C_4^4 \\cdot C_{11}^4 + C_5^5 \\cdot C_{10}^3 + C_6^6 \\cdot C_9^2}{C_{15}^8} = \\dfrac{54}{715}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "548553ee-4553-4582-99de-bf9dc205eff2",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 38,
+                "content": "Biết rằng số $\\overline{abcd}$ chia hết cho 11 khi và chỉ khi $a-b+c-d$ chia hết cho 11. Có thể lập được bao nhiêu số gồm 4 chữ số khác nhau, chia hết cho 11 và tổng các chữ số của nó cũng chia hết cho 11?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "48."
+                        },
+                        {
+                            "content": "24."
+                        },
+                        {
+                            "content": "12."
+                        },
+                        {
+                            "content": "44."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Gọi số cần lập là $\\overline{abcd}$ với $a,b,c,d \\in \\{0;1; \\dots ;9\\}, a \\ne 0.$\r\nTa có $a \\ne b \\ne c \\ne d$ và:\r\n$\\begin{cases} a-b+c-d \\ \\vdots \\ 11 \\\\ a+b+c+d \\ \\vdots \\ 11 \\end{cases}$\r\n\r\nSuy ra $a+c$ và $b+d$ đều chia hết cho 11.\r\nVì $a \\ne b \\ne c \\ne d$ nên các tổng $a+c, b+d$ đều khác 0.\r\nCó 4 bộ số thỏa mãn tổng bằng 11 là: $(2;9), (3;8), (4;7), (5;6).$\r\n\r\nLập số $\\overline{abcd}$ gồm các bước:\r\nBước 1: Chọn 2 bộ số trong 4 bộ trên và sắp thứ tự, có $A_4^2$ cách.\r\nBước 2: Hoán vị các số trong từng bộ số, có $2! \\cdot 2!$ cách.\r\n\r\nDo đó, số các số thỏa mãn là:\r\n$A_4^2 \\cdot 2! \\cdot 2! = 12 \\cdot 4 = 48.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "bb638949-4126-492b-83f9-5a7b22678e85",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 39,
+                "content": "Có hai chiếc hộp, hộp I chứa 6 viên bi màu xanh và 4 viên bi màu đỏ, hộp II chứa 7 viên bi màu xanh và 3 viên bi màu đỏ. Lấy ngẫu nhiên một viên bi từ hộp I sang hộp II. Sau đó lấy ngẫu nhiên hai viên bi từ hộp II. Nếu hai viên bi lấy ra từ hộp II đều có màu xanh thì xác suất để một trong hai viên bi đó thuộc hộp I là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{1}{6}$"
+                        },
+                        {
+                            "content": "$\\dfrac{1}{2}$"
+                        },
+                        {
+                            "content": "$\\dfrac{4}{7}$"
+                        },
+                        {
+                            "content": "$\\dfrac{6}{7}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Xét các biến cố:\r\nA: \"Viên bi được lấy từ hộp I sang hộp II có màu xanh\",\r\nB: \"Hai viên bi lấy từ hộp II có màu xanh\",\r\nC: \"Một trong hai viên bi lấy từ hộp II thuộc hộp I\".\r\n\r\nTa có $P(A) = \\dfrac{6}{10} = \\dfrac{3}{5}, P(\\bar{A}) = \\dfrac{2}{5}.$\r\n\r\nNếu bi từ I sang II màu xanh thì hộp II có 8 xanh, 3 đỏ:\r\n$P(B|A) = \\dfrac{C_8^2}{C_{11}^2} = \\dfrac{28}{55}.$\r\n\r\nNếu bi từ I sang II màu đỏ thì hộp II có 7 xanh, 4 đỏ:\r\n$P(B|\\bar{A}) = \\dfrac{C_7^2}{C_{11}^2} = \\dfrac{21}{55}.$\r\n\r\nDo đó:\r\n$P(B) = P(A)P(B|A) + P(\\bar{A})P(B|\\bar{A}) = \\dfrac{3}{5} \\cdot \\dfrac{28}{55} + \\dfrac{2}{5} \\cdot \\dfrac{21}{55} = \\dfrac{126}{275}.$\r\n\r\nXác suất cần tìm là $P(C|B).$ Ta tính qua biến cố đối $\\bar{C}$ (cả 2 bi xanh đều của hộp II cũ):\r\n$P(\\bar{C}|B) = \\dfrac{P(\\bar{C} \\cap B)}{P(B)} = \\dfrac{P(\\bar{C}) \\cdot P(B|\\bar{C})}{P(B)}$\r\n\r\nVới $P(\\bar{C}) = \\dfrac{C_{10}^2}{C_{11}^2}$ và $P(B|\\bar{C}) = \\dfrac{C_7^2}{C_{10}^2}.$\r\n$\\Rightarrow P(\\bar{C} \\cap B) = \\dfrac{C_7^2}{C_{11}^2} = \\dfrac{21}{55}.$\r\n\r\nDo đó $P(\\bar{C}|B) = \\dfrac{21/55}{126/275} = \\dfrac{5}{6}.$\r\nVậy $P(C|B) = 1 - \\dfrac{5}{6} = \\dfrac{1}{6}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            },
+            {
+                "id": "8036770e-29ec-4bea-96f5-f86a1996bca2",
+                "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+                "position": 40,
+                "content": "Số $2^{2024}$ có chữ số hàng chục và hàng đơn vị lần lượt là a và b. Khi đó $a=$ ____ và $b=$ ____.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1\";\"6"
+                    ]
+                },
+                "answer_detail": "Cách 1. Ta có $2^{20} = 1048576$ có hai chữ số tận cùng là 76.\nMà tích của hai số có tận cùng là 76 thì cũng có hai chữ số tận cùng là 76.\nBởi vậy:\n$2^{2024} = (2^{20})^{101} \\cdot 16 = (\\dots 76) \\cdot 16 = \\dots 16.$\nTận cùng là 16. Vậy $a=1, b=6.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-19T22:39:31.909639+07:00",
+                "updated_at": "2026-02-19T22:39:31.909639+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "dc6f94f5-93f9-42ee-b829-401357cb4be0",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "ff15c7ab-6e6d-4757-ae76-28403b9c1c7b",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:15:48.972714+07:00",
+        "updated_at": "2026-03-02T15:15:48.972714+07:00",
+        "submited_at": "2026-03-02T15:15:48.972714+07:00"
+    }
+}

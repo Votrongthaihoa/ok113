@@ -1,0 +1,1439 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+        "title": "Đề thường TSA 14: Tư duy Khoa học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-11T22:47:00.77028+07:00",
+        "updated_at": "2026-02-19T19:31:05.788683+07:00",
+        "questions": [
+            {
+                "id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 1,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 1 - 6\nThí nghiệm giao thoa 2 nguồn sáng kết hợp được bố trí như sau:\n$/image_{https://cdn.save.moe/b/57ISGb.png?dl=1}_{center}_{50}_{block}$\nTrên màn quan sát E sẽ quan sát được một hệ vân sáng tối xen kẽ nhau.\n$/image_{https://cdn.save.moe/b/G7O6HP.png?dl=1}_{center}_{50}_{block}$\nNhững vạch sáng là chỗ ánh sáng tăng cường lẫn nhau.\nThí nghiệm trên là thí nghiệm giao thoa ánh sáng của Young, sơ đồ rút gọn được thể hiện như sau:\n$/image_{https://cdn.save.moe/b/sPcpGdp.png?dl=1}_{center}_{50}_{block}$\na là khoảng cách giữa hai khe, D là khoảng cách giữa hai khe đến màn quan sát. Khi đó khoảng vân i – khoảng cách giữa hai vân sáng (hoặc tối) liên tiếp được xác định bằng:\n$i=\\dfrac{\\lambda D}{a}$. Trong đó, $\\lambda$ là bước sóng của ánh sáng truyền đi.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "11e008f1-1be4-4ee7-8bc4-c7768cfd1e53",
+                        "parent_id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                        "position": 1,
+                        "content": "Điền các cụm từ thích hợp vào chỗ trống.\n- Khi dịch hai khe lại gần màn chắn thì khoảng vân sẽ ____\n- Khi giảm khoảng cách hai khe thì khoảng vân sẽ ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "giảm",
+                                "tăng"
+                            ]
+                        },
+                        "answer_detail": "Ta có khoảng vân được xác định bằng: $i=\\dfrac{\\lambda D}{a}$\r\nta thấy rằng:\r\n- Khi dịch hai khe lại gần màn chắn thì khoảng vân sẽ giảm\r\n- Khi giảm khoảng cách hai khe hẹp đi thì khoảng vân sẽ tăng",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "edc181dc-441a-4d7f-90f2-aed0cc0e9247",
+                        "parent_id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                        "position": 2,
+                        "content": "Một trong hai khe hẹp được làm mờ sao cho nó chỉ truyền ánh sáng được bằng $\\dfrac{1}{2}$ cường độ sáng của khe còn lại. Kết quả xảy ra là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Vân giao thoa biến mất"
+                                },
+                                {
+                                    "content": "Vân giao thoa tối đi"
+                                },
+                                {
+                                    "content": "Vạch sáng trở nên sáng hơn và vạch tối thì tối hơn."
+                                },
+                                {
+                                    "content": "Vạch tối sáng hơn và vạch sáng tối hơn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Khi ta làm mờ 1 khe thì tại nơi giao thoa cực đại ánh sáng là giao thoa bởi 2 ánh sáng khác cường độ nên tối hơn, còn ở nơi giao thoa cực tiểu ánh sáng không bị triệt tiêu bởi ánh sáng có cùng cường độ nên yếu hơn (tức là sáng hơn so với trường hợp triệt tiêu hoàn toàn).\r\nĐáp án: D",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "4d99b704-7d32-4bc2-b044-3bdb60aff806",
+                        "parent_id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                        "position": 3,
+                        "content": "Trong thí nghiệm Young về giao thoa ánh sáng, khoảng vân sẽ thay đổi thế nào khi ta thay nguồn sáng đơn sắc có bước sóng $\\lambda$ bằng ánh sáng đơn sắc có bước sóng là $1,2\\lambda$? Nếu khoảng cách từ hai khe đến màn quan sát giữ cố định, ta phải thay đổi khoảng cách giữa hai khe như thế nào để khoảng vân lại có độ lớn như ban đầu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "tăng 1,2 lần"
+                                },
+                                {
+                                    "content": "giảm 1,2 lần"
+                                },
+                                {
+                                    "content": "tăng 2 lần"
+                                },
+                                {
+                                    "content": "giảm 2 lần"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Ta có khoảng vân được xác định bằng: $i=\\dfrac{\\lambda D}{a}$\r\nTừ công thức ta thấy nếu $\\lambda$ tăng thành $1,2\\lambda$ để giữ nguyên i thì phải tăng a thành $1,2a$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "15df1466-3a0f-4836-8c67-23d93eebfbc5",
+                        "parent_id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                        "position": 4,
+                        "content": "Giả sử tại điểm M trên màn quan sát là vân sáng bậc 3. Khi đó, vị trí của M được xác định bằng biểu thức nào sau đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$x_{M}=3i$"
+                                },
+                                {
+                                    "content": "$x_{M}=2i$"
+                                },
+                                {
+                                    "content": "$x_{M}=3,5i$"
+                                },
+                                {
+                                    "content": "$x_{M}=2,5i$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Ta có khoảng vân i là khoảng cách giữa hai vân sáng hoặc vân tối liên tiếp.\r\nVới M là vân sáng bậc 3 thì khi đó: $x_{M}=3i$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "b28e5389-f256-40cb-8312-65b661f95c85",
+                        "parent_id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                        "position": 5,
+                        "content": "Trong thí nghiệm giao thoa, khoảng cách hai khe hẹp là 1mm, khoảng cách D là 2m. Tại điểm M trên màn quan sát cách vân trung tâm 3mm có 1 vân sáng bậc 4. Bước sóng của ánh sáng trên là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "274nm"
+                                },
+                                {
+                                    "content": "357nm"
+                                },
+                                {
+                                    "content": "375nm"
+                                },
+                                {
+                                    "content": "435nm"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Vị trí vân sáng được sáng được xác định bằng: $x_{M}=ki$\r\nTa có: $i=\\dfrac{\\lambda D}{a}$\r\n$\\Rightarrow4.\\dfrac{\\lambda.2}{1.10^{-3}}=3.10^{-3}$\r\n$\\Rightarrow\\lambda=3,75.10^{-7}m=375nm$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "926b687e-a0aa-438a-8c0d-ba6341ce3a7b",
+                        "parent_id": "ad631a1e-c30e-470c-b37d-488514143f6e",
+                        "position": 6,
+                        "content": "Cho hai từ: sóng, hạt. Hãy chọn từ thích hợp điền vào chỗ trống:\nGiao thoa ánh sáng là thí nghiệm chứng minh ánh sáng có tính chất ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "sóng"
+                            ]
+                        },
+                        "answer_detail": "Giao thoa ánh sáng sẽ chứng minh ánh sáng có tính chất sóng.\r\nTương tự với giao thoa sóng cơ, sự giao thoa xảy ra khi sự tổng hợp của hai hoặc nhiều ánh sáng kết hợp trong không gian, tạo ra các vân sáng tối xen kẽ. Hai nguồn kết hợp ở đây là hai nguồn có cùng bước sóng và độ lệch pha giữa hai nguồn không thay đổi theo thời gian.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 2,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 7 - 12\nTụ điện là một thiết bị để lưu trữ điện tích. Học sinh trong lớp khoa học đã xác định điện tích trên một tụ điện bản song song có điện dung cố định (tỷ lệ giữa điện tích trên mỗi bản với điện áp giữa các bản). Các phép đo được thực hiện trong khi tụ điện đang được tích điện và trong khi nó đang phóng điện.\nNghiên cứu 1:\nCác sinh viên đã chế tạo một mạch điện bao gồm tụ điện, ban đầu không được tích điện, một pin 4V, một điện trở $10^{11}\\Omega$ và một công tắc (xem Hình 1).\n$/image_{https://cdn.save.moe/b/wjKdz5X.png?dl=1}_{center}_{50}_{block}$\nHọ đóng công tắc và sạc tụ điện. Trong quá trình sạc, điện áp trên tụ điện, $\\varepsilon$, tính bằng V, được theo dõi bằng vôn kế. Một máy tính được kết nối với vôn kế được vẽ đồ thị $\\varepsilon$ theo thời gian, t, tính bằng giây. Kết quả được thể hiện trong Hình 2.\n$/image_{https://cdn.save.moe/b/AGyOn.png?dl=1}_{center}_{50}_{block}$\nKhi tụ điện được sạc đầy, $\\varepsilon$ bằng điện áp do pin cung cấp. Sử dụng dữ liệu trong Hình 2, máy tính đã tính điện tích Q trên tụ điện ở các thời điểm t khác nhau (pC; $1pC=10^{-12}C).$ Kết quả được thể hiện ở Bảng 1.\n$/image_{https://cdn.save.moe/b/Qg9Bu.png?dl=1}_{center}_{50}_{block}$\nNghiên cứu 2:\nKhi tụ điện đã được sạc đầy, sinh viên mở công tắc, tháo pin ra khỏi mạch điện và thay thế bằng 1 ampe kế (đo bằng pA) có khả năng đo dòng điện nhỏ tới $1pA=10^{-12}A$ Sau đó, họ đóng công tắc lại, cho tụ điện phóng điện qua điện trở.\n$/image_{https://cdn.save.moe/b/55vx2K8.png?dl=1}_{center}_{50}_{block}$\nTrong khi tụ phóng điện, học sinh đo cường độ dòng điện I chạy qua điện trở. Máy tính vẽ đồ thị I theo t (xem Hình 4) và sau đó, sử dụng các giá trị được vẽ đồ thị, tính Q cho các t khác nhau (xem Bảng 2)\n$/image_{https://cdn.save.moe/b/GzqW9Q.png?dl=1}_{center}_{50}_{block}$\n$/image_{https://cdn.save.moe/b/3xyQpSK.png?dl=1}_{center}_{50}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "0acb5c43-dc0a-496b-9b69-bcbeafeeca9b",
+                        "parent_id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                        "position": 1,
+                        "content": "Trong khoảng thời gian $t=0s$ và $t=30s$ trong Nghiên cứu 1, điện áp trên tụ:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "chỉ tăng."
+                                },
+                                {
+                                    "content": "chỉ giảm."
+                                },
+                                {
+                                    "content": "giảm rồi tăng."
+                                },
+                                {
+                                    "content": "không đổi."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Quan sát đồ thị hình 2 ta có: trong khoảng thời gian từ $0\\rightarrow30s$ thì điện áp trên tụ chỉ tăng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "39f43977-0b24-425c-b8f6-f8cd231a19f8",
+                        "parent_id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                        "position": 2,
+                        "content": "Dựa trên Bảng 2, bắt đầu từ thời điểm $t=0s$, rất có thể phải mất bao lâu để điện tích trên tụ điện bằng 200pC trong Nghiên cứu 2?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Dưới 5s."
+                                },
+                                {
+                                    "content": "Từ 5s đến 10s."
+                                },
+                                {
+                                    "content": "Từ 10s đến 15s."
+                                },
+                                {
+                                    "content": "Hơn 15s."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Từ bảng 2 ta thấy: trong khoảng thời gian $5\\rightarrow10s$ thì điện tích của tụ sẽ là $240pC\\rightarrow150pC$\r\nđiện tích trong tụ là 200pC sẽ có thể là trong khoảng thời gian là $5\\rightarrow10s$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "19006d31-552f-44c8-818a-68497d1d0623",
+                        "parent_id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                        "position": 3,
+                        "content": "Điền đáp án thích hợp vào chỗ trống:\nGiả sử rằng trong Nghiên cứu 1, điện áp của pin là 10 V thay vì 4 V. Dựa trên Hình 2, khi tụ điện được sạc đầy, điện áp trên tụ điện sẽ là ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "10V",
+                                    "10 V"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Theo hình 2, điện áp ban đầu của pin là 4 V và điện áp tối đa mà tụ đạt tới cũng là 4 V, bằng với điện áp của pin.\r\nkhi hiệu điện thế ắc quy là 10 V thì hiệu điện thế cực đại của tụ điện cũng là 10 V.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "d1ded1ff-ed30-40a2-88f5-f1927b896a49",
+                        "parent_id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                        "position": 4,
+                        "content": "Từ nghiên cứu 1:\nTại thời điểm $t=0$ tụ không được tích điện, đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Đúng"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true
+                            ]
+                        },
+                        "answer_detail": "Pin ở nghiên cứu 1 đang nạp điện cho tụ nên khi $t=0$ thì tụ chưa được nạp điện.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "7504e428-1a60-4e7c-bd5e-e875b3f22170",
+                        "parent_id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                        "position": 5,
+                        "content": "Dựa trên Bảng 1 và Hình 2, khi tụ điện được phóng điện trong khoảng thời gian $t=0$ và $t=30s$ trong Nghiên cứu 2, điện áp trên tụ điện:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "chỉ tăng."
+                                },
+                                {
+                                    "content": "chỉ giảm."
+                                },
+                                {
+                                    "content": "tăng rồi giảm."
+                                },
+                                {
+                                    "content": "không đổi."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Qua hình 2 và bảng 1 cho thấy khi tụ điện đang tích điện thì điện áp tăng dần và điện tích Q của tụ cũng tăng;\r\nsau đó, khi tụ phóng điện thì điện tích của tụ giảm và hiệu điện thế cũng giảm.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "168bc0b3-511a-4eef-9861-6656613d6e45",
+                        "parent_id": "50fe64eb-9dea-4d6d-8253-99f70513b3aa",
+                        "position": 6,
+                        "content": "Câu nào sau đây giải thích đúng nhất giá trị của I tại thời điểm $t=100s$ trong Hình 4? Tại thời điểm $t=100s$:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Điện áp của pin là 0 V."
+                                },
+                                {
+                                    "content": "Điện áp của pin là 4 V."
+                                },
+                                {
+                                    "content": "Tụ điện đã được sạc đầy."
+                                },
+                                {
+                                    "content": "Tụ điện đã phóng điện hoàn toàn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Có thể thấy từ hình 4, khi $t\\ge60s\\Rightarrow I=0$\r\n$\\Rightarrow t=100s\\Leftrightarrow I=0$\r\nlúc này tụ điện đã phóng điện hoàn toàn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 3,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 13 - 19\nNHIỆT LƯỢNG MOL CỦA MỘT PHẢN ỨNG TỔNG HỢP\nNhiệt lượng mol của một phản ứng tổng hợp là lượng nhiệt cần thiết để làm tan chảy (hoặc đóng băng) 1,00 mol chất tại điểm nóng chảy của nó ở áp suất không đổi. Nhiệt lượng mol của phản ứng tổng hợp nước là $6,02~kJ/mol$\nCông thức để tính nhiệt lượng mol của phản ứng tổng hợp là:\n$q=\\Delta H_{fus}.\\dfrac{m}{M}$\nTrong đó:\nq là tổng lượng nhiệt của phản ứng\n$\\Delta H_{fus}$ biểu thị nhiệt lượng mol của phản ứng tổng hợp chất đó (giá trị này là hằng số với một chất nhất định)\nBảng dưới đây cho biết nhiệt lượng mol của phản ứng tổng hợp, điểm sôi và điểm nóng chảy của một số nguyên tố:\nBảng 1:\n$/image_{https://cdn.save.moe/b/fMB97R.png?dl=1}_{center}_{50}_{block}$\nLưu ý: Các số liệu thu được tại điều kiện áp suất la 1 atm",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "be172929-f4aa-43b9-8e9b-14796d02efee",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "position": 1,
+                        "content": "Điền số thích hợp vào chỗ trống (làm tròn đến số thập phân thứ 2)\nNhiệt lượng mol của phản ứng tổng hợp 24 gam nước tại áp suất 1 atm là ____ kJ.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "8,03"
+                            ]
+                        },
+                        "answer_detail": "Nhiệt lượng mol của phản ứng tổng hợp 1 mol nước theo đề bài là $6,02~kJ/mol$.\r\nNhiệt lượng mol của phản ứng tổng hợp 24 gam nước theo đề bài là: $q=6,02.\\dfrac{24}{18}=8,03kJ$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "56984336-ff16-407f-86c0-e05a38c93d4d",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "position": 2,
+                        "content": "Năng lượng cần thiết để nấu chảy 2,00 mol sắt ở $1,535^{\\circ}C$ và áp suất 1 atm là",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "17,08 kJ."
+                                },
+                                {
+                                    "content": "27,60 kJ."
+                                },
+                                {
+                                    "content": "13,80 kJ."
+                                },
+                                {
+                                    "content": "34,92 kJ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhiệt lượng mol của phản ứng tổng hợp 1 mol sắt theo đề bài là $13,80~kJ/mol.$\r\nNhiệt lượng mol của phản ứng tổng hợp 2,00 mol sắt theo đề bài là: $q=13,80.2=27,60kJ$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "4d9a1b8c-cd9a-4df6-a5e7-8eabcf6d5965",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "position": 3,
+                        "content": "Trong các nhận định dưới đây, nhận định nào là nhận định đúng?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Tại cùng một áp suất, nhiệt độ nóng chảy và nhiệt độ sôi của các chất rắn tỉ lệ thuận với nhau."
+                                },
+                                {
+                                    "content": "Khi năng lượng cần thiết để làm tan chảy 1 mol các nguyên tố đã cho tăng lên thì nhiệt độ nóng chảy giảm đi."
+                                },
+                                {
+                                    "content": "Khối lượng mol nguyên tử của chất càng lớn thì nhiệt lượng cần cung cấp để làm nóng chảy của 1,00 mol chất đó càng lớn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                false
+                            ]
+                        },
+                        "answer_detail": "Nhận định “Tại cùng một áp suất, nhiệt độ nóng chảy và nhiệt độ sôi của các chất rắn tỉ lệ thuận với nhau là ĐÚNG. Ta thấy nhiệt độ nóng chảy của bạc lớn hơn của canxi và nhiệt độ sôi của bạc cũng lớn hơn của canxi.\r\nNhận định “Khi năng lượng cần thiết để làm tan chảy 1 mol các nguyên tố đã cho tăng lên thì nhiệt độ nóng chảy giảm đi là SAI. Ta thấy giá trị của $Ca\u003cAg\u003cFe\u003cNi$ nhưng nhiệt độ nóng chảy của các chất này lại biến đổi không tuân theo dãy trên. Nhiệt độ nóng chảy là $Ca\u003cAg\u003cNi\u003cFe.$\r\nNhận định “Khối lượng mol nguyên tử của chất càng lớn thì nhiệt lượng cần cung cấp để làm nóng chảy của 1,00 mol chất tại 1 atm đó càng lớn” là SAI vì khối lượng nguyên tử của Ag lớn hơn Fe nhưng nhiệt lượng cần cung cấp để làm nóng chảy 1,00 mol Ag bé hơn nhiệt lượng cần cung cấp 1,00 mol Fe.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "f76f74e5-4cc3-4d6c-a76f-5579dbe749dc",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "position": 4,
+                        "content": "Kéo thả ô trống vào vị trí thích hợp\nĐiểm sôi của nguyên tố K là $759,90^{\\circ}C.$ Nếu K cũng tuân theo mô hình chung của các nguyên tố khác trong bảng thì nhiệt lượng mol của phản ứng tổng hợp là ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                "nhỏ hơn 8kJ/mol",
+                                "nằm trong khoảng từ 11-14kJ/mol",
+                                "nằm trong khoảng từ 8-11kJ/mol",
+                                "nằm trong khoảng từ 14-18kJ/mol"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Điểm sôi của nguyên tố K nhỏ hơn rất nhiều so với điểm sôi của nguyên tố Ca nên theo quy luật trong bảng thì nhiệt lượng cần cung cấp để làm nóng chảy 1 mol nguyên tố K sẽ nhỏ hơn Ca. Vậy giá trị phù hợp sẽ là nhỏ hơn 8 kJ/mol.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "5a2de9fe-b09c-4f08-ae07-74bf25ec04b1",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "position": 5,
+                        "content": "Nhiệt lượng mol của phản ứng tổng hợp liên quan trực tiếp đến độ lớn của các lực giữ các nguyên tử, phân tử lại với nhau. Lực càng mạnh thì phân tử càng khó tách ra khỏi pha lỏng hoặc pha khí. Dữ liệu trong bảng 1 cho thấy những lực liên kết",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "trong Ca lớn hơn trong Ag."
+                                },
+                                {
+                                    "content": "trong Ag lớn hơn trong Ni."
+                                },
+                                {
+                                    "content": "trong Fe lớn hơn trong Ca."
+                                },
+                                {
+                                    "content": "trong Fe lớn hơn trong Ni."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Đáp án đúng là đáp án C.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "0b29f45e-32a9-4815-8793-e62cc9a64847",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "position": 6,
+                        "content": "Người ta đưa ra giả thuyết rằng nhiệt lượng mol của phản ứng tổng hợp sẽ tăng khi nhiệt độ sôi tăng. Dựa trên dữ liệu trong bảng, cặp chất nào sau đây hỗ trợ giải thuyết này?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Ni và Fe."
+                                },
+                                {
+                                    "content": "Nước và Ca."
+                                },
+                                {
+                                    "content": "Ag và Fe."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                2
+                            ]
+                        },
+                        "answer_detail": "Ta thấy II và III là hợp lý. Nhiệt độ sôi của Ni thấp hơn Fe nhưng $\\Delta H_{fius}$ của Ni lại lớn hơn Fe.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "2566756b-6b1c-492a-8357-d36631d50ee6",
+                        "parent_id": "5466034d-4b89-46a2-9d21-e62f3047efaf",
+                        "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                        "position": 7,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nĐể làm đóng băng hay tan chảy 1 gam nước cần 6,02 kJ.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Nhận định trên là sai. (Vì 6,02 kJ là nhiệt lượng mol cho 1 mol nước, tức 18g).",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-19T19:32:15.600854+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 4,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 20 - 26\nSULFURIC ACID\nSulfuric acid $(H_{2}SO_{4})$ là hoá chất quan trọng hàng đầu trong công nghiệp, được sử dụng ở cả dạng dung dịch loãng và dạng dung dịch đặc dựa trên những tính chất khác biệt.\nỞ điều kiện thường, sulfuric acid là chất lỏng sánh như dầu, không màu, không bay hơi và có tính hút ẩm mạnh. Dung dịch sulfuric acid 98% có khối lượng riêng là $1,84~g/cm^{3}$ nặng gần gấp hai lần nước.\nSulfuric acid tan vô hạn trong nước và toả ra rất nhiều nhiệt. Do vậy tuyệt đối không tự ý pha loãng sulfuric acid. Khi pha loãng dung dịch sulfuric acid đặc, để đảm bảo an toàn phải rót từ từ sulfuric acid đặc vào nước, vừa rót vừa khuấy (không làm ngược lại). Một số thông số về tính chất vật lý của sulfuric acid có thể được tham khảo dưới đây:\nDung dịch sulfuric acid loãng có đầy đủ tính chất hoá học của một acid mạnh như:\n- Làm đổi màu quỳ tím thành màu đỏ.\n- Tác dụng với kim loại (đứng trước H) tạo ra muối sunfat tương ứng và khí H2.\n- Tác dụng với base/oxide base tạo ra muối và nước.\n- Tác dụng với dung dịch muối sinh ra muối mới.\nỞ nồng độ cao hơn, $H_{2}SO_{4}$ hoạt động như một chất oxi hoá mạnh và là một acid\nTính axit: $H_{2}SO_{4}$ được sử dụng để điều chế một số acid dễ bay hơi\nVD: $CaF_{2}+H_{2}SO_{4}\\rightarrow CaSO_{4}+2HF$\nTính oxi hoá: Dung dịch sulfuric acid đặc thể hiện tính oxi hoá mạnh, nhất là khi đun nóng, kèm theo sự giảm số oxi hoá của nguyên tử S tạo ra sản phẩm khử $(SO_{2},S,H_{2}S)$. Dung dịch sulfuric acid đặc có thể oxi hoá được nhiều kim loại, phi kim và hợp chất.\nVD: $Cu+2H_{2}SO_{4}\\rightarrow CuSO_{4}+SO_{2}+2H_{2}O$\nTính háo nước: Dung dịch sulfuric acid đặc có khả năng lấy nước từ các hợp chất carbohydrate và khiến chúng hoá đen (hiện tượng than hoá).\nSulfuric acid có lẽ là hoá chất công nghiệp nặng quan trọng nhất, được sử dụng quy mô lớn trong hầu hết các ngành công nghiệp vậy nên quá trình điều chế sulfuric acid trong công nghiệp là rất quan trọng. Trong công nghiệp, $H_{2}SO_{4}$ chủ yếu được sản xuất bằng phương pháp tiếp xúc, đi từ nguyên liệu chính là lưu huỳnh, quặng pyrite $(FeS_{2})$.\nPhương pháp tiếp xúc gồm 3 giai đoạn chính:\n- Giai đoạn 1: Sản xuất lưu huỳnh đioxit\nTuỳ thuộc vào nguyên liệu, lưu huỳnh đioxit được sản xuất bằng cách đốt cháy lưu huỳnh, pirit hoặc quặng sunfit trong lò đốt bằng không khí\n$S_{(r)}+O_{2(k)}\\rightarrow SO_{2(k)}$ (1)\n$4FeS_{2(r)}+11O_{2(k)}\\rightarrow2Fe_{2}O_{3(r)}+8SO_{2(k)}$ (2)\n- Giai đoạn 2: Sản xuất lưu huỳnh trioxit\nOxi hoá lưu huỳnh đioxit bằng không khí dư ở nhiệt độ khoảng $450^{\\circ}C,$ áp suất $1-2$ bar, xúc tác $V_{2}O_{5}$, hiệu suất đạt trên 98%:\n$2SO_{2(k)}+O_{2(k)}\\rightleftharpoons 2SO_{3(k)}$ (3)\nGiai đoạn 3: Hấp thụ lưu huỳnh trioxit bằng axit sunfuric đặc, tạo ra oleum (hỗn hợp các axit có công thức chung dạng $H_{2}SO_{4}.nH_{2}O)$. Sau đó pha loãng oleum vào nước thu được dung dịch axit sunfuric loãng theo phương trình:\n$H_{2}SO_{4}.nSO_{3}+nH_{2}O\\rightarrow(n+1)H_{2}SO_{4}$ (4)",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "418009b2-be10-4136-9b5f-2783eaa50424",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                        "position": 1,
+                        "content": "Nhận định dưới đây là đúng hay sai?\nPhản ứng điều chế $SO_{3}$ từ $SO_{2}$ và $O_{2}$ thực hiện ở nhiệt độ $450^{\\circ}C$ với xúc tác $V_{2}O_{5}$, áp suất từ $1-2$ bar là phản ứng xảy ra hoàn toàn.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Phương trình điều chế $SO_{3}$ từ $SO_{2}$ và $O_{2}$ thực hiện ở nhiệt độ $450^{\\circ}C$ với xúc tác $V_{2}O_{5}$, áp suất từ 1-2 bar là phản ứng thuận nghịch vì được biểu diễn bằng mũi tên hai chiều.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-19T19:33:32.989597+07:00"
+                    },
+                    {
+                        "id": "fdaa9ddf-0cb9-4f27-990a-ddb3b6f85d13",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "position": 2,
+                        "content": "Điền số thích hợp vào chỗ trống (Lấy đến chữ số thập phân thứ hai)\nMột trong những ứng dụng quan trọng của sulfuric acid là sản xuất phân bón ammonium sulfate $(NH_{4})_{2}SO_{4}$. Hàm lượng phần trăm của nguyên tố lưu huỳnh trong phân bón ammonium sulfate là ____ %.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "24,24"
+                            ]
+                        },
+                        "answer_detail": "Hàm lượng phần trăm của nguyên tố S trong phân bón ammonium sulfate là:\r\n$\\%S=\\dfrac{M_{S}}{M_{(NH_{4})_{2}SO_{4}}}.100\\%=\\dfrac{32.1}{132}.100\\%=24,24\\%$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "710bbb6d-ee37-4c4f-9b5e-529538f12801",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "position": 3,
+                        "content": "Hoàn thành những nhận định dưới đây bằng cách kéo thả từ thích hợp:\n- Phản ứng hoá học của giai đoạn (3) là phản ứng ____\n- Trong phản ứng hoá học (3), lưu huỳnh trong $SO_{2}$ đóng vai trò là chất ____\n- Quá trình ${}^{+4}S\\rightarrow S^{+6}+2e$ là quá trình ____ vì số oxi hoá của lưu huỳnh tăng sau phản ứng.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                "oxi~hoá",
+                                "khử",
+                                "oxi hoá - khử",
+                                "trao đổi"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                1,
+                                0
+                            ]
+                        },
+                        "answer_detail": "Phản ứng hoá học trong giai đoạn (3) là phản ứng oxi hoá - khử vì có sự thay đổi số oxi hoá của các nguyên tố.\r\nTrong phản ứng hoá học (3), lưu huỳnh trong $SO_{2}$ đóng vai trò là chất khử vì số oxi hoá tăng sau phản ứng.\r\n${}^{+4}S\\rightarrow S^{+6}+2e$\r\nQuá trình là quá trình oxi hoá vì số oxi hoá của lưu huỳnh tăng sau phản ứng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "3014f028-9310-4b50-8069-ef2b9bef03a6",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "position": 4,
+                        "content": "Lựa chọn những tính chất hoá học khác nhau giữa sulfuric acid loãng và sulfuric acid đặc",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tác dụng với Ag."
+                                },
+                                {
+                                    "content": "Than hoá các hợp chất carbohydrate."
+                                },
+                                {
+                                    "content": "Tác dụng với kim loại có thể tạo ra khí."
+                                },
+                                {
+                                    "content": "Tác dụng với kim loại tạo ra sản phẩm khử."
+                                },
+                                {
+                                    "content": "Sản phẩm có tạo ra chất rắn lưu huỳnh (S)."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                4
+                            ]
+                        },
+                        "answer_detail": "- Sulfuric acid đặc ngoài là một axit còn có tính oxi hoá mạnh nên có thể tác dụng với kim loại đứng sau H như Ag.\r\n- Sulfuric acid đặc có khả năng than hoá các hợp chất carbohydrate vì có tính háo nước mạnh, tính chất này không có ở axit sunfuric loãng.\r\n- Sulfuric acid đặc tác dụng với kim loại có thể tạo ra khí như $SO_{2}$ H2S, sulfuric acid loãng sẽ tác dụng với kim loại sẽ tạo ra khí như khí H2.\r\n- Sulfuric acid đặc và sulfuric acid loãng đều tác dụng với kim loại tạo ra sản phẩm khử, trong đó sản phẩm khử của sulfuric acid loãng chính là khí H2.\r\n- Chất rắn lưu huỳnh (S) là sản phẩm khử của sulfuric acid đặc.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "1379c519-32dc-4828-87e1-97563d6c4143",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "position": 5,
+                        "content": "Khi pha loãng dung dịch sulfuric acid đặc cần tuân thủ thao tác nào sau đây để đảm bảo an toàn?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Rót từ từ acid vào nước."
+                                },
+                                {
+                                    "content": "Rót nhanh acid vào nước."
+                                },
+                                {
+                                    "content": "Rót nhanh nước vào acid."
+                                },
+                                {
+                                    "content": "Rót từ từ nước vào acid."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Khi pha loãng dung dịch sulfuric acid đặc cần tuân thủ: Rót từ từ acid và nước.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "0fa35dcf-36ec-4d2e-842f-487710867963",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "position": 6,
+                        "content": "Điền số thích hợp vào chỗ trống\nTại một nhà máy, cứ đốt cháy một tấn quặng pirit (chứa 84% khối lượng FeS2) bằng không khí, thu được tối đa $V~m^{3}$ khí $SO_{2}$ (tại điều kiện tiêu chuẩn). Giá trị của V là ____ (Điền kết quả tới số thập phân thứ nhất).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "313,6"
+                            ]
+                        },
+                        "answer_detail": "Trong 1 tấn quặng pyrite thì khối lượng $FeS_{2}$ là: $m_{FeS_{2}}=1.84\\%=0,84~t\\hat{a}n$\r\n$\\Rightarrow n_{FeS_{2}}=\\dfrac{0,84.10^6}{120}=7000mol$\r\n$\\Rightarrow n_{SO_{2}}=2n_{FeS_{2}}=7000.2=14000mol$\r\n$\\Rightarrow V_{SO_{2}}=14000.22,4=313600L=313,6~m^{3}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "ce8e289d-2b2e-40ef-a439-f58072e66c4c",
+                        "parent_id": "f12da328-8849-4b9a-9a81-f7ea747c6df9",
+                        "position": 7,
+                        "content": "Xác định công thức của một oleum A, biết khi hoà tan oleum này vào trong nước thì cần 200 mL dung dịch NaOH 0,2 M để trung hoà hết dung dịch thu được khi hoà tan 1,69 gam oleum A vào nước.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$H_{2}SO_{4}.2SO_{3}$."
+                                },
+                                {
+                                    "content": "$H_{2}SO_{4}.4SO_{3}$."
+                                },
+                                {
+                                    "content": "$H_{2}SO_{4}.3SO_{3}.$"
+                                },
+                                {
+                                    "content": "$H_{2}SO_{4}.5SO_{3}.$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "$n_{NaOH}=0,04~mol$\r\nPhương trình trung hoà sulfuric acid:\r\n$2NaOH+H_{2}SO_{4}\\rightarrow Na_{2}SO_{4}+2H_{2}O$\r\n0,04 -\u003e 0,02 mol\r\n$H_{2}SO_{4}.nSO_{3}+nH_{2}O\\rightarrow(n+1)H_{2}SO_{4}$\r\nTa có: $n_{oleum} = \\dfrac{1,69}{98+80n}$\r\n$\\Rightarrow\\dfrac{1,69}{98+80n}.(n+1)=0,02\\Rightarrow n=3$\r\nVậy công thức của oleum là $H_{2}SO_{4}.3SO_{3}$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "506f9045-e86d-4175-989a-8418c96457ba",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 5,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 27 - 30\nHóa thạch cổ xưa nhất của bò sát được tìm thấy ở những tảng đá ở Nova Scotia, có tuổi từ cuối kỷ Carbon, cách đây khoảng 300 triệu năm. Một trong những nhóm lớn đầu tiên của bò sát nổi lên là thằn lằn sọ đủ, là bò sát cổ lớn nhất, và là động vật bốn chân ăn cỏ. Khi nhóm này suy giảm, một nhánh bò sát cổ khác lại trở nên đa dạng, trong đó có nhóm các loài thằn lằn vảy.\nRắn là loài thằn lằn vảy không chân. Ngày nay, một số loài rắn còn giữ vết tích của xương chậu và xương chi là những chứng cứ về tổ tiên của chúng. Mặc dù không có chân, rắn di chuyển trên đất rất giỏi, hầu hết là nhờ tạo sóng uốn lượn hai bên từ đầu tới chân. Lực sinh ra từ sự uốn lượn sóng tỳ vào những vật rắn đẩy con rắn lên phía trước. Rắn cũng có thể di chuyển nhờ ép chặt phần vảy bụng xuống mặt đất ở các điểm dọc theo cơ thể trong khi những vảy ở những điểm tham gia chuyển động được nâng nhẹ lên khỏi mặt đất và đẩy chúng tiến về phía trước.\nRắn là loài bò sát ăn thịt và có nhiều đặc điểm thích nghi giúp chúng săn mồi và ăn thịt con mồi. Chúng có cơ quan cảm ứng hóa học rất nhạy bén, và dù chúng thiếu màng nhĩ, nhưng chúng lại nhạy cảm với những rung động từ đất, giúp chúng phát hiện chuyển động của con mồi. Cơ quan cảm nhận nhiệt giữa hai mắt và lỗ mũi của các loài rắn hổ, bao gồm rắn chuông, rất nhạy cảm với sự thay đổi nhiệt độ theo từng phút, cho phép những loài săn mồi đêm này định vị những con mồi có thân nhiệt cao. Rắn độc tiêm chất độc qua một đôi răng sắc, rỗng hoặc có rãnh. Lưỡi rắn thụt ra thụt vào liên tục, không độc. Chúng ngửi bằng lưỡi. Nhờ chiếc lưỡi có hình dạng giống cái nĩa, rắn có thể xác định hướng của mùi. Các xương hàm khớp nối lỏng lẻo và lớp da co giãn cho phép hầu hết các loài rắn nuốt chửng con mồi lớn hơn đường kính đầu của rắn.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "55a69e67-4e7c-4148-a061-8e74dba01980",
+                        "parent_id": "506f9045-e86d-4175-989a-8418c96457ba",
+                        "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                        "position": 1,
+                        "content": "Khẳng định sau đúng hay sai?\nTừ khi phát sinh, loài sinh vật được coi là tổ tiên của rắn đã di chuyển không cần chân.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Loài sinh vật được coi là tổ tiên của rắn là thằn lằn sọ đủ, là bò sát cổ lớn nhất, và là động vật bốn chân ăn cỏ.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-19T19:39:47.542539+07:00"
+                    },
+                    {
+                        "id": "e9cd5a21-6dad-4b81-a87a-143eb3f1bdea",
+                        "parent_id": "506f9045-e86d-4175-989a-8418c96457ba",
+                        "position": 2,
+                        "content": "Loài bò sát cổ lớn nhất được xác định đã tồn tại cách đây khoảng:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "3 triệu năm."
+                                },
+                                {
+                                    "content": "300 năm."
+                                },
+                                {
+                                    "content": "300 triệu năm."
+                                },
+                                {
+                                    "content": "300 nghìn năm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Hóa thạch cổ xưa nhất của bò sát được tìm thấy ở những tảng đá ở Nova Scotia, có tuổi từ cuối kỷ Carbon, cách đây khoảng 300 triệu năm. Một trong những nhóm lớn đầu tiên của bò sát nổi lên là thằn lằn sọ đủ, là bò sát cổ lớn nhất, và là động vật bốn chân ăn cỏ.\r\n=\u003e Loài bò sát cổ lớn nhất được xác định đã tồn tại cách đây khoảng: 300 triệu năm.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "795faabf-7c22-47c9-a5b2-5603fc350953",
+                        "parent_id": "506f9045-e86d-4175-989a-8418c96457ba",
+                        "position": 3,
+                        "content": "Phát biểu sau đây là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Hiện nay, hầu hết các loài rắn đều không còn vết tích của xương chi."
+                                },
+                                {
+                                    "content": "Rắn di chuyển nhờ hoạt động tạo sóng uốn lượn hai bên."
+                                },
+                                {
+                                    "content": "Rắn là loài động vật có màng nhĩ và rất nhạy cảm với những rung động từ đất."
+                                },
+                                {
+                                    "content": "Cơ quan định hướng mùi của rắn là lưỡi."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Ngày nay, một số loài rắn còn giữ vết tích của xương chậu và xương chỉ là những chứng cứ về tổ tiên của chúng =\u003e Ý 1 Sai.\r\n- Rắn di chuyển trên đất rất giỏi, hầu hết là nhờ tạo sóng uốn lượn hai bên từ đầu tới chân =\u003e Ý 2 đúng.\r\n- Dù rắn thiếu màng nhĩ, nhưng chúng lại nhạy cảm với những rung động từ đất, giúp chúng phát hiện chuyển động của con mồi =\u003e Ý 3 Sai.\r\n- Rắn ngửi bằng lưỡi. Nhờ chiếc lưỡi có hình dạng giống cái nĩa, rắn có thể xác định hướng của mùi. =\u003e Ý 4 đúng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "86d5ce44-43ef-4ef8-a822-4574b5249ebe",
+                        "parent_id": "506f9045-e86d-4175-989a-8418c96457ba",
+                        "position": 4,
+                        "content": "Chọn các đáp án đúng trong các nhận định sau\nĐiều gì cho phép các loài rắn có thể nuốt chửng những con mồi lớn hơn đường kính đầu của chúng?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Chúng không có xương hàm."
+                                },
+                                {
+                                    "content": "Các xương hàm của chúng có các khớp nối lỏng lẻo."
+                                },
+                                {
+                                    "content": "Chúng nhiều răng, rất sắc bén, rỗng hoặc có rãnh."
+                                },
+                                {
+                                    "content": "Lớp da của chúng co giãn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "Các xương hàm khớp nối lỏng lẻo và lớp da co giãn cho phép hầu hết các loài rắn nuốt chửng con mồi lớn hơn đường kính đầu của rắn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 6,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 31 - 37\nHỘI CHỨNG SUY GIẢM MIỄN DỊCH MẮC PHẢI (HIV/AIDS)\nHIV là viết tắt của từ human immunodeficiency virus. HIV/AIDS (Hội chứng suy giảm miễn dịch mắc phải ở người, bệnh liệt kháng) là một bệnh gây ra do bị nhiễm virus suy giảm miễn dịch ở người.\nGiai đoạn đầu của bệnh có triệu chứng giống cúm nhưng sau đó thì không có dấu hiệu gì trong một thời gian dài. Bệnh tiến triển khi hệ miễn dịch bệnh nhân suy giảm, cũng là lúc bệnh nhân dễ mắc các loại nhiễm trùng cơ hội hoặc khối u khác thường.\nHIV/AIDS không thể chữa khỏi và không có thuốc chủng ngừa. Tuy nhiên điều trị bằng thuốc kháng virus có thể làm chậm tiến trình của bệnh và kéo dài tuổi thọ cho bệnh nhân.\nNguyên nhân của bệnh HIV là do virus suy giảm miễn dịch ở người (HIV) thuộc họ retroviridae. Khi cơ thể mắc phải thì virus HIV sống ở các tế bào quan trọng trong hệ thống miễn dịch của con người như lympho bào T hay đại thực bào làm giảm mạnh số lượng tế bào dẫn tới suy giảm hệ thống miễn dịch của cơ thể tạo điều kiện cho các nhiễm trùng cơ hội khác.\nNhiễm HIV có 3 giai đoạn tương ứng với các triệu chứng cho từng giai đoạn cụ thể như sau:\n(1) Giai đoạn nhiễm trùng cấp tính (nhiễm trùng tiên phát):\nGiai đoạn khi mà người bệnh vừa tiếp nhận các chất dịch cơ thể từ người nhiễm trước đó, virus giai đoạn này nhân lên rất nhanh. Thời gian của các triệu chứng trung bình là 28 ngày và ngắn nhất là 1 tuần. Vì các tính chất không rõ ràng của triệu chứng nên bệnh nhân thường không nhận ra dấu hiệu của HIV.\n(2) Giai đoạn mãn tính:\nĐây là giai đoạn mà sự bảo vệ mạnh mẽ của hệ miễn dịch sẽ làm giảm số lượng của các hạt virus trong máu, chuyển sang giai đoạn nhiễm HIV mãn tính. Giai đoạn này có thể kéo dài từ 2 tuần đến 20 năm tùy trường hợp, trong suốt thời gian này HIV hoạt động trong các hạch bạch huyết nên các hạch này thường xuyên bị sưng do phản ứng với một lượng lớn virus.\n(3) Giai đoạn AIDS:\nGiai đoạn này xảy ra khi sự miễn dịch qua trung gian tế bào bị vô hiệu và xuất hiện nhiễm trùng do một loạt các vi sinh vật cơ hội gây ra.\nĐường lây truyền bệnh HIV. Bệnh nhân HIV/AIDS là nguồn truyền nhiễm duy nhất của HIV, không có ổ chứa nhiễm trùng ở động vật. HIV lây truyền chủ yếu qua 3 con đường: lây qua đường máu; lây qua đường tình dục; lây truyền từ mẹ sang con.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "cb25a7ac-578a-478e-aba5-d755378eeb9d",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "position": 1,
+                        "content": "Hoàn thành câu sau bằng cách kéo thả các từ/ cụm từ vào đúng vị trí\nHIV/AIDS còn được gọi là hội chứng suy giảm miễn dịch, bệnh này ảnh hưởng trực tiếp đến hệ ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                "miễn dịch",
+                                "tuần hoàn",
+                                "hô hấp"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "HIV/AIDS còn được gọi là hội chứng suy giảm miễn dịch do bệnh này ảnh hưởng trực tiếp đến hệ miễn dịch.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "47a89621-8617-4351-be6b-a8cf5d65fa56",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "position": 2,
+                        "content": "Điền từ/ cụm từ thích hợp vào chỗ trống\nHội chứng suy giảm miễn dịch mắc phải ở người là một bệnh gây ra do bị nhiễm ____ suy giảm miễn dịch ở người.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "virus"
+                            ]
+                        },
+                        "answer_detail": "HIV là viết tắt của từ human immunodeficiency virus. HIV/AIDS (Hội chứng suy giảm miễn dịch mắc phải ở người, bệnh liệt kháng) là một bệnh gây ra do bị nhiễm virus suy giảm miễn dịch ở người.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "2b84eb03-9784-4904-83ff-9abc660858e1",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "position": 3,
+                        "content": "Hoàn thành câu sau bằng cách kéo thả các từ/ cụm từ vào đúng vị trí\nCác dấu hiện của HIV chưa rõ ràng khi bệnh ở giai đoạn ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                "nhiễm trùng cấp tính",
+                                "mãn tính",
+                                "AIDS"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Các dấu hiện của HIV chưa rõ ràng khi bệnh ở giai đoạn nhiễm trùng cấp tính.\r\nHệ miễn dịch bị vô hiệu hóa ở giai đoạn AIDS.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "81661948-1abf-4572-a7fc-e5a02e0d27aa",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "position": 4,
+                        "content": "Khi cơ thể bị virus HIV tấn công, virus sẽ chưa tấn công đến tế bào nào ngay?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tế bào bạch cầu."
+                                },
+                                {
+                                    "content": "Tế bào cơ tim."
+                                },
+                                {
+                                    "content": "Tế bào lympho T"
+                                },
+                                {
+                                    "content": "Đại thực bào."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Khi cơ thể mắc phải thì virus HIV sống ở các tế bào quan trọng trong hệ thống miễn dịch của con người như lympho T hay đại thực bào làm giảm mạnh số lượng tế bào dẫn tới suy giảm hệ thống miễn dịch của cơ thể tạo điều kiện cho các nhiễm trùng cơ hội khác.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "f7f3ae5b-3588-4064-b176-cbec5b757eb7",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "position": 5,
+                        "content": "Chọn đáp án đúng trong các nhận định sau: Virus hoạt động mạnh trong hạch bạch huyết ở giai đoạn nào?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Giai đoạn nhiễm trùng cấp tính. "
+                                },
+                                {
+                                    "content": "Giai đoạn mãn tính."
+                                },
+                                {
+                                    "content": "Giai đoạn AIDS."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Giai đoạn mãn tính sự bảo vệ mạnh mẽ của hệ miễn dịch sẽ làm giảm số lượng của các hạt virus trong máu. Trong suốt thời gian này HIV hoạt động trong các hạch bạch huyết nên các hạch này thường xuyên bị sưng do phản ứng với một lượng lớn virus.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "d8e001f4-2cc4-4066-830b-5b32a42d7423",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "position": 6,
+                        "content": "Trong trường hợp nào sau đây bệnh HIV không thể được lây nhiễm vào cơ thể người?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Dùng chung kim tiêm khi lấy máu."
+                                },
+                                {
+                                    "content": "Quan hệ tình dục không an toàn."
+                                },
+                                {
+                                    "content": "Dùng chung khăn lau mặt."
+                                },
+                                {
+                                    "content": "Dùng chung dụng cụ cắt móng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "HIV lây truyền chủ yếu qua 3 con đường: lây qua đường máu; lây qua đường tình dục; lây truyền từ mẹ sang con.\r\nTrường hợp “dùng chung khăn lau mặt” không liên quan đến ba con đường trên nên trường hợp này không thể lây nhiễm HIV vào cơ thể người.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "44b5c50b-a4eb-4282-9a83-f2818ef00b12",
+                        "parent_id": "9964f9e0-7177-4899-b30b-b50aafb7063d",
+                        "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                        "position": 7,
+                        "content": "Khẳng định sau đúng hay sai?\nHIV/AIDS có thể chữa khỏi hẳn nhờ thuốc hoặc các thủ thuật y học hiện nay.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "HIV/AIDS không thể chữa khỏi và không có thuốc chủng ngừa. Tuy nhiên điều trị bằng thuốc kháng virus có thể làm chậm tiến trình của bệnh và kéo dài tuổi thọ cho bệnh nhân.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:21:17.468477+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "c94ad768-d3ec-4590-80c7-11a5b93e7a0d",
+                "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                "position": 7,
+                "content": "Đọc thông tin sau và trả lời các câu hỏi sau từ câu 38 - 40\nSự ra hoa của cây là một quá trình phức tạp, chịu ảnh hưởng của nhiều yếu tố, bao gồm cả quang chu kì.\nQuang chu kì là một yếu tố quan trọng quyết định thời điểm ra hoa của cây. Quang chu kì là sự phát triển của thực vật phụ thuộc vào tương quan độ dài ngày và đêm Dựa vào phản ứng đối với quang chu kì, thực vật được chia làm ba nhóm:\nCây ngày ngắn ra hoa trong điều kiện ngày ngắn với thời gian chiếu sáng thường dưới 10 giờ, thời gian tối liên tục trên 14 giờ (ví dụ: cây cà phê, cây lúa, ...), cây ngày dài ra hoa trong điều kiện ngày dài với thời gian chiếu sáng thường trên 14 giờ hoặc thời gian tối liên tục dưới 10 giờ (ví dụ: cây lúa mì, cây thanh long, ...) và cây trung tính ra hoa không phụ thuộc độ dài thời gian chiếu sáng (ví dụ: cây cà chua, cây hướng dương,...). Cây trung tính không phụ thuộc vào quang chu kì để ra hoa, có thể ra hoa ở bất kỳ thời điểm nào trong năm, miễn là cây được cung cấp đủ nước và chất dinh dưỡng.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-12T07:16:20.137605+07:00",
+                "updated_at": "2026-02-12T07:16:20.137605+07:00",
+                "questions": [
+                    {
+                        "id": "988b92d1-a1e0-4529-abf7-77d2eb013bc4",
+                        "parent_id": "c94ad768-d3ec-4590-80c7-11a5b93e7a0d",
+                        "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+                        "position": 1,
+                        "content": "Khẳng định sau đúng hay sai?\nSự ra hoa của thực vật chỉ chịu ảnh hưởng của quang chu kì.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Sự ra hoa của cây là một quá trình phức tạp, chịu ảnh hưởng của nhiều yếu tố, bao gồm cả quang chu kì.\r\nQuang chu kì là một yếu tố quan trọng quyết định thời điểm ra hoa của cây.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-19T19:39:13.405233+07:00"
+                    },
+                    {
+                        "id": "c583a2ef-1954-43a0-b05b-0cb9a6f8e0d3",
+                        "parent_id": "c94ad768-d3ec-4590-80c7-11a5b93e7a0d",
+                        "position": 2,
+                        "content": "Chọn đáp án đúng trong các nhận định sau:\nHoa thược dược là loài thực vật ra hoa vào tháng 9 đến tháng 4 năm sau. Những tháng còn lại trong năm cây sẽ không ra hoa, để cây ra hoa trong khoảng thời gian này, người ta trồng cây trong nhà kính với ánh sáng yếu hoặc không có ánh sáng.",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hoa thược dược là cây ngày ngắn. "
+                                },
+                                {
+                                    "content": "Hoa thược dược là cây ngày dài."
+                                },
+                                {
+                                    "content": "Hoa thược dược là cây trung tính. "
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Tháng 4 đến tháng 9, là thời kì ngày ngắn đêm dài. (Lưu ý: Mùa hè ngày dài đêm ngắn).\r\nBên cạnh đó, để cây nở hoa vào các tháng còn lại, người ta người ta trồng cây trong nhà kính với ánh sáng yếu hoặc không có ánh sáng.\r\n=\u003e Cây thược dược chỉ ra hoa khi thời gian chiếu sáng ít hơn thời gian tối.\r\n=\u003e Cây thược dược là cây ngày ngắn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    },
+                    {
+                        "id": "7c72a827-74be-44e7-bf3c-a742c988b679",
+                        "parent_id": "c94ad768-d3ec-4590-80c7-11a5b93e7a0d",
+                        "position": 3,
+                        "content": "Khi nghiên cứu sự ra hoa của ba loài thực vật, người ta thay đổi thời gian chiếu sáng và kết qua như sau:\n$/image_{https://cdn.save.moe/b/0ZDDOMS.png?dl=1}_{center}_{50}_{block}$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Trong ba loài thì loài A và B là cây trung tính."
+                                },
+                                {
+                                    "content": "Loài A là cây ngày ngắn, loài C là cây ngày dài."
+                                },
+                                {
+                                    "content": "Ở thí nghiệm (2), khi chiếu ánh sáng chớp vào thời gian tối thì loài C sẽ ra hoa."
+                                },
+                                {
+                                    "content": "Ở thí nghiệm (3), khi chiếu ánh sáng chớp vào thời gian tối thì loài A sẽ ra hoa."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Dựa vào kết quả thí nghiệm:\r\n- Loài B, không phụ thuộc vào thời gian chiếu sáng -\u003e cây trung tính.\r\n- Loài A, khi thời gian chiếu sáng lớn hơn thời gian trong tối thì sẽ ra hoa và ngược lại thì không ra hoa -\u003e cây ngày dài -\u003e Ở thí nghiệm (3), khi chiếu ánh sáng chớp vào thời gian tối (đang dài thành ngắn, hoặc ngắt quãng đêm dài) thì loài A sẽ ra hoa.\r\n- Loài C, khi thời gian chiếu sáng ít hơn thời gian trong tối thì sẽ ra hoa và ngược lại thì không ra hoa -\u003e cây ngày ngắn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-12T07:16:20.137605+07:00",
+                        "updated_at": "2026-02-12T07:16:20.137605+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "8e640b54-6cef-4bb5-a4dd-fcbedcc92289",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "06098d5d-1c0f-4f84-ab95-d31bcde27f64",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:53:12.783112+07:00",
+        "updated_at": "2026-03-02T15:53:12.783111+07:00",
+        "submited_at": "2026-03-02T15:53:12.783112+07:00"
+    }
+}

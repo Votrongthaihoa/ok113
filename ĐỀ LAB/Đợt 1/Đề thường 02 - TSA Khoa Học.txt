@@ -1,0 +1,1525 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+        "title": "Đề thường 02 - TSA Khoa Học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2025-12-28T09:31:07.259925+07:00",
+        "updated_at": "2026-01-02T15:55:24.921303+07:00",
+        "questions": [
+            {
+                "id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 1,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 1 - 7:***\nHiện nay, để giảm thiểu áp lực giao thông, tàu điện là một trong số các phương tiện đã và đang được khuyến khích sử dụng. Tàu điện sẽ đi trên đường ray và di chuyển dần vào nhà ga để đón khách.\nCho kích thước của nhà ga được cho như trong hình vẽ sau đây:\n$/image_{https://cdn.save.moe/b/gA1lO0f.png?dl=1}_{center}_{100}_{block}$\nBiết rằng tàu nặng 40 tấn và ban đầu tàu di chuyển với tốc độ $15,5 m/s$ vào ga và dừng để phanh nguội bớt. Giả sử trong quá trình trên, toàn bộ công do phanh thực hiện khi tàu dừng lại được truyền dưới dạng nhiệt đồng đều cho toàn bộ không khí trong ga. Lấy mật độ của không khí là $1,2 kg/m^3$ và nhiệt dung riêng của nó là $1020 J/kgK$.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2025-12-28T11:44:12.367267+07:00",
+                "questions": [
+                    {
+                        "id": "cc967ec9-ea3c-4af3-b404-ff717a3dda44",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "position": 1,
+                        "content": "Hãy chọn đúng hay sai cho các nhận định sau đây.",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Chuyển động của tàu khi vào ga là chuyển động chậm dần"
+                                },
+                                {
+                                    "content": "Thể tích của nhà ga trên là $15000m^3$"
+                                },
+                                {
+                                    "content": "Tổng khối lượng không khí trong nhà ga là $2000kg$"
+                                },
+                                {
+                                    "content": "Có sự chuyển hóa từ cơ năng sang nhiệt năng trong quá trình trên"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Chuyển động của tàu khi vào ga là chuyển động chậm dần đúng.\r\n- Thể tích của nhà ga trên là $15000m^3$ sai.\r\nThể tích được xác định bằng: $V = 65.20.12 = 15600m^3$\r\nTổng khối lượng không khí trong nhà ga là $2000kg$ sai\r\nTa có: $\\rho = \\frac{m}{V} \\Rightarrow m = \\rho V = 1,2.15600 = 1,87.10^4 kg$\r\nCó sự chuyển hóa từ cơ năng sang nhiệt năng trong quá trình trên là đúng.\r\nTrong quá trình trên cơ năng hay động năng sẽ chuyển dần thành nhiệt, đặc biệt là do ma sát gây ra và trong quá trình phanh xe.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "22e53704-99e1-46b9-8166-30c462bfdede",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "position": 2,
+                        "content": "Động năng ban đầu của tàu điện ngầm là bao nhiêu trước khi bắt đầu phanh?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$4,81.10^6(J)$"
+                                },
+                                {
+                                    "content": "$3,2.10^6(J)$"
+                                },
+                                {
+                                    "content": "$3,1.10^5(J)$"
+                                },
+                                {
+                                    "content": "$6,2.10^6(J)$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Động năng ban đầu của tàu là: $W_d = \\frac{1}{2}mv^2 = \\frac{1}{2}.40000.15,5^2 \\approx 4,81.10^6 (J)$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "61d68c75-b366-46c0-8fdf-d5b147c0736b",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "position": 3,
+                        "content": "Nếu quá trình phanh diễn ra trong 20 giây, tính gia tốc trung bình của tàu và lực phanh cần thiết.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$-0,5m/s^2; 3100N$"
+                                },
+                                {
+                                    "content": "$0,775m/s^2; -31000N$"
+                                },
+                                {
+                                    "content": "$-0,55m/s^2; 30100N$"
+                                },
+                                {
+                                    "content": "$-0,775m/s^2; -31000N$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Gia tốc trung bình của tàu: $a = \\frac{\\Delta v}{\\Delta t} = \\frac{-15,5}{20} = -0,775 m/s^2$\r\nÁp dụng định luật II Newton ta có: $F = ma = 40.10^3.(-0,775) = -31000N$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "3abaae3c-c3f5-4715-89be-8d84d6eacc5c",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "position": 4,
+                        "content": "Tổng nhiệt lượng sinh ra do quá trình phanh tàu là bao nhiêu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$6,03.10^5 J$"
+                                },
+                                {
+                                    "content": "$4,81.10^6 J$"
+                                },
+                                {
+                                    "content": "$3,1.10^7 J$"
+                                },
+                                {
+                                    "content": "$5,41.10^6 J$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Ta có toàn bộ công do phanh thực hiện khi tàu dừng lại được truyền dưới dạng nhiệt đồng đều cho toàn bộ không khí trong ga.\r\nMà ta có: $A = \\Delta W_d = 4,81.10^6 J$\r\n$\\Rightarrow Q = A = 4,81.10^6 J$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "301a9beb-f1f4-4a3f-8a1b-701159e683c8",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                        "position": 5,
+                        "content": "Điền số thích hợp vào chỗ trống\nGiả sử nhiệt độ ban đầu của không khí trong nhà ga là $25^{\\circ}C$, tính nhiệt độ cuối cùng sau khi tàu dừng. Làm tròn đến 2 chữ số sau dấu phẩy.\n____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "25,25"
+                            ]
+                        },
+                        "answer_detail": "Nhiệt lượng truyền cho không khí được xác định bằng: $Q = mc\\Delta t$\r\n$\\Rightarrow \\Delta t = \\frac{Q}{mc} = \\frac{4,81.10^6}{1,87.10^4.1020} = 0,25K$ hay $0,25^{\\circ}C$\r\nNhiệt độ sau khi tàu dừng: $t = t_0 + \\Delta t = 25 + 0,25 = 25,25^{\\circ}C$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:45:42.845126+07:00"
+                    },
+                    {
+                        "id": "650a3b7e-8a7c-42fc-a76e-67cf9fc22b69",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "position": 6,
+                        "content": "Nếu chỉ 90% nhiệt lượng từ phanh tàu truyền vào không khí, phần còn lại thất thoát ra môi trường, thì nhiệt độ không khí trong ga tăng bao nhiêu độ?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "0,22K"
+                                },
+                                {
+                                    "content": "273,22K"
+                                },
+                                {
+                                    "content": "273,22C"
+                                },
+                                {
+                                    "content": "23,22K"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Khi chỉ có 90% nhiệt lượng truyền vào không khí:\r\n$Q' = 90\\%Q = 90\\%.4,81.10^6 = 4,329.10^6 J$\r\nKhi đó nhiệt độ trong môi trường sẽ có sự thay đổi là:\r\n$\\rightarrow \\Delta t' = \\frac{Q'}{mc} = \\frac{4,329.10^6}{1,87.10^4.1020} \\approx 0,22K$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "87963571-12f5-44b9-98d9-18047dee8f69",
+                        "parent_id": "94d973a3-e820-4891-90a7-0b94a094906e",
+                        "position": 7,
+                        "content": "Biết hệ thống tàu điện trên sử dụng nguồn điện có điện áp $U=25kV$ và cường độ dòng điện $I=100A$. Hỏi hệ thống trên sẽ tiêu thụ điện năng là bao nhiêu trong 1 ngày.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "60000MWh"
+                                },
+                                {
+                                    "content": "600MWh"
+                                },
+                                {
+                                    "content": "60000kWh"
+                                },
+                                {
+                                    "content": "60000Wh"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Công suất tiêu thụ của hệ thống trên: $P = UI = 25.100 = 2500 kW$\r\nĐiện năng tiêu thụ trong 1 ngày là: $A = Pt = 2500.24 = 60000 kWh$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 2,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 8 - 14:***\nNhảy sào là một nội dung thi đấu cơ bản trong môn điền kinh, trong đó từng người vận động viên dùng một gậy dài và dễ uốn để nhảy qua một xà ngang được đặt trên rất cao so với tầm nhảy cao cực đại của con người. Nguyên lý của nhảy sào dựa vào sự chuyển hóa động năng mà vận động viên nhảy sào có được sau quá trình chạy đà thành thế năng trọng trường. Vận động viên nhảy sào cắm cây sào vào vị trí và uốn cong nó. Động năng của vận động viên đến từ việc chạy đà sẽ được chuyển hóa thành thế năng đàn hồi trong cây sào. Khi cây sào duỗi ra, nó sẽ hoàn trả thế năng đàn hồi cho vận động viên. Ngày nay, các cây sào được chế tạo bằng sợi các-bon để hoàn trả gần như hoàn toàn năng lượng mà nó có được.\nChuyển động vận động viên Armand Duplantis trong lần lập kỉ lục được quay lại rồi nghiên cứu nhờ một phần mềm máy tính. Khối lượng của vận động viên là 79 (kg) và gia tốc trọng trường là $9,81 m/s^2$. Vận động viên được coi là một điểm trùng với trọng tâm của anh ấy.\nCác dữ liệu của chuyển động bay lên được xử lý nhờ một chương trình cho phép biểu diễn sự biến đổi theo thời gian của động năng $W_d$, thế năng trọng trường $W_t$, thế năng đàn hồi $W_{đh}$ và cơ năng $W$ của hệ cả hệ gồm vận động viên và cây sào. Kết quả thu được những đường cong như sau:\n$/image_{https://cdn.save.moe/b/96unIG.png?dl=1}_{center}_{100}_{block}$\n**(Hình 1. Đồ thị động năng, thế năng đàn hồi, thế năng hấp dẫn theo thời gian)**\nỞ thời điểm vượt qua xà ngang, trọng tâm của vận động viên ở độ cao $z_A = 6,16 m$ so với mặt đất và vận tốc của vận động viên coi là bằng 0. Bỏ qua sức cản của không khí, chuyển động của vận động viên sau đó được coi là rơi tự do. Gọi $z_B$ là độ cao của trọng tâm vận động viên ở thời điểm va chạm với đệm đỡ, $z_B = 0,85 m$. Đệm đỡ tác dụng lên vận động viên một lực $\\overrightarrow{F_d}$ hướng thẳng đứng lên trên. Để không gây ra chấn thương cho vận động viên, đệm đỡ phải biến dạng sao cho gia tốc mà cơ thể vận động viên phải chịu có độ lớn không vượt quá 10 lần gia tốc trọng trường.\nTrong các tính toán dưới đây, ta sẽ lấy độ lớn gia tốc này bằng 10 lần gia tốc trọng trường.\n$/image_{https://cdn.save.moe/b/QvN4HR.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2025-12-28T11:44:12.367267+07:00",
+                "questions": [
+                    {
+                        "id": "7284fd66-4b97-4514-86a8-0f0f33711b48",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 1,
+                        "content": "Kéo thả các cụm từ thích hợp vào chỗ trống:\nQuá trình thực hiện phần thi được chia làm các giai đoạn như sau:\n 1. Giai đoạn chạy đà: Vận động viên tích lũy ____ bằng cách chạy nhanh.\n2. Giai đoạn cắm sào: Khi cắm sào xuống đất, động năng của vận động viên chuyển hóa thành _____ đàn hồi của cây sào. Cây sào bị uốn cong đến mức ____.\n3. Giai đoạn đẩy lên: Khi cây sào phục hồi hình dạng ban đầu, thế năng đàn hồi được giải phóng, đẩy vận động viên lên cao.\n4. Giai đoạn bay qua thanh chắn: Vận động viên tận dụng động năng và ____ để bay qua thanh chắn.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "động năng",
+                                "vận động viên",
+                                "cây sào",
+                                "thế năng đàn hồi",
+                                "thế năng trọng trường",
+                                "giới hạn đàn hồi"
+                            ],
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                3,
+                                5,
+                                4
+                            ]
+                        },
+                        "answer_detail": "1. Giai đoạn chạy đà: Vận động viên tích lũy động năng bằng cách chạy nhanh.\r\n2. Giai đoạn cắm sào: Khi cắm sào xuống đất, động năng của vận động viên chuyển hóa thành thế năng đàn hồi của cây sào. Cây sào bị uốn cong đến mức giới hạn đàn hồi.\r\n3. Giai đoạn đẩy lên: Khi cây sào phục hồi hình dạng ban đầu, thế năng đàn hồi được giải phóng, đẩy vận động viên lên cao.\r\n4. Giai đoạn bay qua thanh chắn: Vận động viên tận dụng động năng và thế năng trọng trường để bay qua thanh chắn.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "45cad7f5-ef00-4b82-b845-ab59a8c4ab93",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 2,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống:\nTrong đó thị biểu diễn hình 1:\nĐường A sẽ biểu diễn ____ của vận động viên.\nĐường B sẽ biểu diễn ____ của vận động viên.\nĐường C sẽ biểu diễn ____ của cây sào.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "động năng"
+                                ],
+                                [
+                                    "thế năng hấp dẫn",
+                                    "thế năng trọng trường"
+                                ],
+                                "thế năng đàn hồi"
+                            ]
+                        },
+                        "answer_detail": "Xét với vận động viên: ban đầu từ trạng thái nghỉ, sau đó vào giai đoạn chạy đà thì vận tốc là lớn nhất nên động năng khi chạy là lớn nhất. Cho đến khi được đưa lên cao nhờ cây sào thì sẽ giảm dần đi. Sau khi qua xà thì vận động viên sẽ chuẩn bị tiếp đất nên động năng lại lại bắt đầu xuất hiện ngược trở lại và đến cuối cùng tiếp đất động năng giảm. Từ phân tích đó thấy rằng động năng của vận động viên là đường A.\r\nCòn thế năng tăng dần khi vận động viên chạy đà thì thấy rằng đường B là hợp lí.\r\nXét với cây sào:\r\nGiai đoạn 1: Chạy đà: Thế năng đàn hồi gần như bằng không vì cây sào chưa bị biến dạng.\r\nGiai đoạn 2: Cắm sào: Khi vận động viên cắm sào, cây sào bị uốn cong, thế năng đàn hồi tăng rất nhanh đến giá trị cực đại.\r\nGiai đoạn 3: Đẩy lên: Khi cây sào phục hồi hình dạng ban đầu, thế năng đàn hồi giảm nhanh chóng về 0.\r\nHình biểu diễn đúng cho thế năng đàn hồi của cây sào là đường C.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "d7fe6819-c9ac-40f5-bdd8-9d2f537bc5e6",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 3,
+                        "content": "Tại thời điểm $t = 0,9s$ thì trạng thái của vận động viên sẽ là hình nào sau đây?\n$/image_{https://cdn.save.moe/b/xr2VPG7.png?dl=1}_{center}_{100}_{block}$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Hình 1"
+                                },
+                                {
+                                    "content": "Hình 2"
+                                },
+                                {
+                                    "content": "Hình 3"
+                                },
+                                {
+                                    "content": "Hình 4"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Xét từ đồ thị 1 thì tại $t = 0,9s$ ta thấy:\r\nĐộng năng của vận đang giảm dần, thế năng trọng trường của vận động viên tăng dần – vận động viên đang cắm cây sào, có thể đang đến vị trí cao nhất; và thế năng đàn hồi là cực đại – khi đó cây sào uốn cong nhất.\r\n$\\Rightarrow$ hình thể hiện đúng nhất trạng thái sẽ là hình 2",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "54437147-867a-420e-9fa7-abd3c96fca4a",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 4,
+                        "content": "Lực $\\overrightarrow{F_d}$ mà đệm tác dụng lên vận động viên có độ lớn là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "7749,9N"
+                                },
+                                {
+                                    "content": "774,49N"
+                                },
+                                {
+                                    "content": "8252,98N"
+                                },
+                                {
+                                    "content": "8524,89N"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Gia tốc tối đa vận động viên chịu được là:\r\n$a = 10g = 10.9,81 = 98,1 (m/s^2)$\r\nÁp dụng định luật II Newton và chọn chiều dương hướng lên ta có:\r\n$F_d - P = ma \\Leftrightarrow F_d = ma + mg = m(a+g) = 79.(98,1+9,91) = 8524,89N$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "615d4914-57b9-4153-ba41-59b4f6795840",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 5,
+                        "content": "Khi va chạm với đệm, tốc độ của vận động viên trên là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "10,21m/s."
+                                },
+                                {
+                                    "content": "7,22m/s."
+                                },
+                                {
+                                    "content": "10,3m/s."
+                                },
+                                {
+                                    "content": "11,5m/s."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Bảo toàn cho vị trí $z_A$ và $z_B$ với mốc thế năng chọn ở mặt đất, ta có:\r\n$W_A = W_B \\Leftrightarrow mgz_A = \\frac{1}{2}mv_B^2 + mgz_B$\r\n$\\Leftrightarrow v_B^2 = 2g(z_A - z_B) \\Leftrightarrow v_B^2 = 2.9,81.(6,16 - 0,85) = 104,18m^2/s^2$\r\n$\\Rightarrow v_B = 10,21 m/s$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "6dedd4db-1e13-45a9-bdff-abb9631575c7",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 6,
+                        "content": "Hãy xác định tốc độ của vận động viên ở cuối giai đoạn chạy đà. Biết rằng trọng tâm của vận động viên ở độ cao $0,9m$ khi chạy đà.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "8,98m/s."
+                                },
+                                {
+                                    "content": "10,21m/s."
+                                },
+                                {
+                                    "content": "9,87m/s."
+                                },
+                                {
+                                    "content": "10,16m/s."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Xét gốc thế năng tại mặt đất.\r\nSử dụng bảo toàn cơ năng cho thời điểm cuối giai đoạn chạy đà và thời điểm ngay trước khi vận động viên tiếp xúc với đệm.\r\nGọi vận tốc ngay trước khi chạm tấm đệm là $v_1$ và người ở vị trí cao $z_1$ so với mặt đất.\r\nÁp dụng bảo toàn cơ năng ta có: $\\frac{mv_1^2}{2} + mgz_1 = \\frac{mv_2^2}{2} + mgz_2$\r\n$\\Leftrightarrow \\frac{10,21^2}{2} + 9,81.0,85 = \\frac{v_2^2}{2} + 9,81.0,9$\r\n$\\Rightarrow v_2 = 10,16 m/s$",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "d6f14638-ddbf-4a72-bfc9-e5b842e6e6bf",
+                        "parent_id": "2fe2beb9-3252-4449-ae40-dd6a35556c7a",
+                        "position": 7,
+                        "content": "Nếu tấm đệm được sử dụng có độ dày là 75cm thì nó có đủ an toàn cho vận động viên không?\nHãy chọn đúng/sai cho nhận xét sau đây.",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Đủ an toàn, vì gia tốc thu được của vận động viên khi đệm nén nhiều nhất nhỏ hơn gia tốc cực đại."
+                                },
+                                {
+                                    "content": "Không an toàn, vì gia tốc thu được của vận động viên khi đệm nén nhiều nhất lớn hơn gia tốc cực đại."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "Khi vận động viên xuống tấm nệm và nệm nén cực đại thì ta có: $v^2 - v_0^2 = 2as \\Rightarrow a = \\frac{v^2 - v_0^2}{2d} = \\frac{0 - 10,2^2}{2.0,75} = -69,36 m/s^2$\r\nXét với gia tốc cực đại có thể bảo đảm an toàn là $98,1 m/s^2$ ta thấy rằng gia tốc thu được của vận động viên trên tấm nệm dày 75cm sẽ nhỏ hơn mức giới hạn\r\n$\\Rightarrow$ tấm nệm đó là an toàn cho vận động viên.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "e0f710cc-7ed6-474c-b531-153e8f128154",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 3,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 15 - 19:***\n**PHẢN ỨNG HÓA HỌC THUẬN NGHỊCH**\nPhản ứng hóa học xảy ra theo hai chiều ngược nhau trong cùng một điều kiện được gọi là phản ứng thuận nghịch, biểu diễn bằng mũi tên hai chiều: $aA + bB \\rightleftharpoons cC + dD$\nChiều từ trái sang phải là chiều phản ứng thuận, chiều từ phải sang trái là chiều phản ứng nghịch. Đến một thời điểm, khi tốc độ phản ứng thuận bằng với tốc độ phản ứng nghịch, phản ứng thuận nghịch sẽ đạt tới trạng thái cân bằng. Nồng độ của các chất ở trạng thái cân bằng là không đổi, được biểu diễn thông qua biểu thức hằng số cân bằng như sau:\n                                                             $K_C = \\dfrac{[C]^c.[D]^d}{[A]^a.[B]^b}$\nTrong đó, [A], [B], [C], [D] là nồng độ mol của các chất A, B, C, D ở trạng thái cân bằng.\na, b, c, d là hệ số tỉ lượng của các chất trong phương trình hóa học của phản ứng.\nĐối với các phản ứng có chất rắn tham gia, không biểu diễn nồng độ của chất rắn trong biểu thức hằng số cân bằng.\nHằng số cân bằng $K_C$ phụ thuộc vào bản chất của phản ứng và nhiệt độ. Người ta nhận thấy, sự thay đổi của các yếu tố như nồng độ, áp suất, nhiệt độ sẽ làm cho cân bằng chuyển dịch tuân theo nguyên lý Le Chatelier: Một phản ứng thuận nghịch đang ở trạng thái cân bằng, khi chịu một tác động bên ngoài làm thay đổi nồng độ, nhiệt độ, áp suất thì cân bằng sẽ chuyển dịch theo chiều làm giảm tác động bên ngoài đó.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2026-01-02T16:29:09.846239+07:00",
+                "questions": [
+                    {
+                        "id": "c5a572e1-acb2-4f2b-8c54-bc17f0aa7fb4",
+                        "parent_id": "e0f710cc-7ed6-474c-b531-153e8f128154",
+                        "position": 1,
+                        "content": "Chọn các nhận định đúng trong các nhận định dưới đây.",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Ở trạng thái cân bằng, các chất không phản ứng với nhau nên nồng độ các chất không thay đổi."
+                                },
+                                {
+                                    "content": "Hằng số cân bằng càng lớn thì phản ứng thuận càng chiếm ưu thế hơn."
+                                },
+                                {
+                                    "content": "Theo thời gian, nồng độ chất A và B luôn giảm đi."
+                                },
+                                {
+                                    "content": "Khi cân bằng chuyển dịch sang một trạng thái cân bằng mới thì tại đó tốc độ của phản ứng thuận bằng tốc độ của phản ứng nghịch."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "- Nhận định (1) là sai. Ở trạng thái cân bằng, chất ban đầu vẫn chuyển hóa thành chất sản phẩm còn chất sản phẩm vẫn chuyển hóa thành chất ban đầu. Do tốc độ của hai quá trình này là bằng nhau nên nồng độ các chất ở trạng thái cân bằng là không đổi.\r\n- Nhận định (2) là đúng. Dựa vào biểu thức tính hằng số cân bằng, ta thấy nếu $K_C$ càng lớn cũng đồng nghĩa với việc $[C]^c[D]^d \u003e [A]^a[B]^b$, tức là chất ban đầu chuyển hóa thành chất sản phẩm nhiều nên tích nồng độ của chất sản phẩm lớn hơn tích nồng độ chất ban đầu hay phản ứng thuận diễn ra thuận lợi hơn phản ứng nghịch.\r\n- Nhận định (3) là sai. Nồng độ của chất A và B sẽ chỉ giảm cho đến khi phản ứng thuận nghịch đạt trạng thái cân bằng. Khi phản ứng đạt trạng thái cân bằng, nồng độ của chất A và B sẽ không thay đổi nữa.\r\n- Nhận định (4) là đúng. Tại bất kì trạng thái cân bằng nào thì tốc độ phản ứng thuận luôn bằng tốc độ phản ứng nghịch.\r\nĐáp án: Sai/Đúng/Sai/Đúng.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "96e4f88c-b371-447f-b168-907cb1a05d76",
+                        "parent_id": "e0f710cc-7ed6-474c-b531-153e8f128154",
+                        "position": 2,
+                        "content": "Khi trời có mưa dông kèm sấm sét, dưới tác dụng của tia lửa điện (hoặc ở nhiệt độ rất cao trên $3000^{\\circ}C$), nitrogen kết hợp với oxygen trong bầu khí quyển để tạo ra nitrogen monoxide với hiệu suất rất thấp: $N_{2(g)} + O_{2(g)} \\rightleftharpoons 2NO_{(g)}$\nNhận xét nào dưới đây sai về quá trình trên?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Ở điều kiện thường, phản ứng thuận không thể tự xảy ra được."
+                                },
+                                {
+                                    "content": "Khi nitrogen monoxide rất dễ bị phân hủy."
+                                },
+                                {
+                                    "content": "Chiều nghịch của phản ứng trên sẽ giải phóng năng lượng ra môi trường dưới dạng nhiệt."
+                                },
+                                {
+                                    "content": "Chiều thuận của phản ứng trên là chiều phân hủy nitrogen monoxide."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "- Đáp án A đúng, vì phản ứng trên cần được cung cấp nhiệt độ rất cao mới xảy ra, nên nếu ở điều kiện thường sẽ không xảy ra được.\r\n- Đáp án B đúng. Do phản ứng thuận là phản ứng khó xảy ra hơn nên xu hướng là phản ứng nghịch hay phản ứng phân hủy nitrogen monoxide sẽ trội hơn.\r\n- Đáp án C đúng. Nếu chiều thuận của phản ứng cần nhiệt mới phản ứng được thì phản ứng nghịch sẽ giải phóng nhiệt ra môi trường.\r\n- Đáp án D sai. Chiều thuận của phản ứng trên có phương trình hóa học là $N_{2(g)} + O_{2(g)} \\rightarrow 2NO(g)$ là phản ứng tổng hợp nitrogen monoxide.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "930b24ce-2baf-41c9-b6a1-caae6ddd3ec3",
+                        "parent_id": "e0f710cc-7ed6-474c-b531-153e8f128154",
+                        "position": 3,
+                        "content": "Phát biểu dưới đây là đúng hay sai?\nPhản ứng thuận nghịch sẽ đến một thời điểm phản ứng xảy ra hoàn toàn và dừng lại.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Sai, phản ứng thuận nghịch không xảy ra hoàn toàn được vì luôn có sự chuyển hóa ngược lại từ chất sản phẩm thành chất ban đầu.\r\nVậy nhận định trên là sai.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "1885a4db-1151-49fa-abcb-5753419fd72b",
+                        "parent_id": "e0f710cc-7ed6-474c-b531-153e8f128154",
+                        "position": 4,
+                        "content": "$NH_3$ là một base yếu được thừa nhận theo thuyết Brønsted – Lowry bởi trong dung dịch, $NH_3$ tương tác với $H_2O$ theo cân bằng: $NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^- \\quad \\Delta H \u003c 0$\nChọn các nhận định đúng trong các nhận định dưới đây?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Khi cho thêm dung dịch HCl vào trong dung dịch $NH_3$, cân bằng chuyển dịch theo chiều thuận."
+                                },
+                                {
+                                    "content": "Nếu đun nóng phản ứng trên thì cân bằng chuyển dịch theo chiều thuận."
+                                },
+                                {
+                                    "content": "Khi cho thêm dung dịch NaOH vào dung dịch $NH_3$ ban đầu thì tăng sự chuyển hóa thành $NH_4^+$ và $OH^-$."
+                                },
+                                {
+                                    "content": "Ở điều kiện thường, phản ứng xảy ra càng lâu thì trong dung dịch càng nhiều $NH_4^+$ và $OH^-$ và sẽ đến lúc trong dung dịch chỉ còn $NH_4^+$ và $OH^-$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "(1) Khi cho thêm dung dịch HCl vào trong dung dịch $NH_3$, ion $H^+$ sẽ phản ứng với ion $OH^-$ tạo thành $H_2O$, làm giảm nồng độ $OH^-$, từ đó cân bằng chuyển dịch theo chiều làm tăng trở lại nồng độ của ion $OH^-$, tức cân bằng chuyển dịch theo chiều thuận.\r\nVậy nhận định này đúng.\r\n(2) Phản ứng trên có chiều thuận là một phản ứng tỏa nhiệt vì có biến thiên enthalpy của phản ứng nhỏ hơn 0. Vậy khi đun nóng, cân bằng sẽ chuyển dịch theo chiều làm giảm nhiệt độ, tức là chiều thu nhiệt. Vậy cân bằng sẽ chuyển dịch theo chiều nghịch là chiều thu nhiệt.\r\nVậy nhận định này là sai.\r\n(3) Khi cho thêm dung dịch NaOH vào dung dịch $NH_3$ ban đầu đã làm cung cấp thêm ion $OH^-$ cho dung dịch, vì vậy cân bằng chuyển dịch theo chiều làm giảm nồng độ của ion, tức là cân bằng chuyển dịch theo chiều nghịch.\r\nVậy nhận định này là sai.\r\n(4) Khi cân bằng thuận nghịch diễn ra thì theo thời gian sẽ dẫn đạt đến trạng thái cân bằng, nhưng không xảy ra hoàn toàn, vậy nên luôn tồn tại cả $NH_3, H_2O, NH_4^+, OH^-$ trong hỗn hợp dung dịch.\r\nVậy nhận định này là sai.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "47cf3a02-445d-4b4b-8a51-5b67faf216bd",
+                        "parent_id": "e0f710cc-7ed6-474c-b531-153e8f128154",
+                        "position": 5,
+                        "content": "Trong phản ứng tổng hợp ammonia sau đây, có thể làm cách nào để thu được nhiều khí $NH_3$ nhất?\n$N_{2(g)} + 3H_{2(g)} \\rightleftharpoons 2NH_{3(g)} \\quad \\Delta H = -92 kJ$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "giảm nhiệt độ và giảm áp suất."
+                                },
+                                {
+                                    "content": "tăng nhiệt độ và tăng áp suất."
+                                },
+                                {
+                                    "content": "giảm nhiệt độ và tăng áp suất."
+                                },
+                                {
+                                    "content": "tăng nhiệt độ và giảm áp suất."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "- Với áp suất: Tổng số mol khí của vế trái nhiều hơn vế phải, vậy để cân bằng chuyển dịch theo chiều từ nhiều mol khí sang ít mol khí thì cân bằng cần làm tăng áp suất của hệ phản ứng.\r\n- Với nhiệt độ: Chiều thuận của phản ứng là phản ứng tỏa nhiệt vì biến thiên enthalpy nhỏ hơn 0. Vậy cần giảm nhiệt độ của phản ứng để cân bằng tăng chuyển dịch theo chiều tỏa nhiệt.\r\nChọn đáp án C.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 4,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 20 - 26:***\n**SẢN XUẤT KIM LOẠI NHÔM TRONG CÔNG NGHIỆP**\nTrong công nghiệp, một số kim loại trung bình và yếu được sản xuất bằng phương pháp điện phân dung dịch.\nCác kim loại mạnh như Na, K, Mg, Ca, Al... được sản xuất bằng phương pháp điện phân nóng chảy (đpnc) hợp chất ion của chúng. Xét đến quá trình sản xuất nhôm trong công nghiệp từ quặng bauxite như sau:\nGiai đoạn 1:\nQuặng bauxite (thành phần chính $Al_2O_3.2H_2O$) thường lẫn tạp chất. Sau khi loại bỏ tạp chất bằng phương pháp hóa học thu được $Al_2O_3$.\nGiai đoạn 2:\nDo $Al_2O_3$ có nhiệt độ nóng chảy rất cao ($2050^{\\circ}C$) nên $Al_2O_3$ được trộn cùng với cryolite ($Na_3AlF_6$) để tạo thành hỗn hợp nóng chảy ở gần $1000^{\\circ}C$.\nThùng điện phân có cathode là tấm than chì ở dưới đáy thùng, anode là những tấm than chì có thể di chuyển theo phương thẳng đứng. Ở anode xảy ra quá trình oxi hóa $O^{2-}$ thành $O_2$, ở cathode xảy ra quá trình khử $Al^{3+}$ thành Al: $Al^{3+} + 3e \\to Al$\nKhí $O_2$ tạo thành ở nhiệt độ cao, đốt cháy dần điện cực anode than chì thành CO và $CO_2$. Do vậy, trong quá trình điện phân phải hạ thấp dần các điện cực anode vào thùng điện phân.\n$/image_{https://cdn.save.moe/b/6lKdeGx.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2025-12-28T12:12:33.84658+07:00",
+                "questions": [
+                    {
+                        "id": "408424b3-c4e7-4d2b-ad4c-e2af958f8d75",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "position": 1,
+                        "content": "Kim loại nào dưới đây điều chế bằng phương pháp điện phân dung dịch?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Na."
+                                },
+                                {
+                                    "content": "Ca."
+                                },
+                                {
+                                    "content": "Al."
+                                },
+                                {
+                                    "content": "Zn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Bài đọc đã cung cấp đoạn thông \"Các kim loại mạnh như Na, K, Mg, Ca, Al... được sản xuất bằng phương pháp điện phân nóng chảy (đpnc)\" nên loại trừ được đáp án A, B, C.\r\nChọn đáp án D.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "822d5137-b7b0-45f7-be25-128529ff457d",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "position": 2,
+                        "content": "Chọn các ý đúng trong các nhận định dưới đây về vai trò của cryolite trong quá trình điện phân nóng chảy bauxite:",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Cryolite có vai trò làm giảm nhiệt độ nóng chảy của bauxite."
+                                },
+                                {
+                                    "content": "Sử dụng cryolite giúp tiết kiệm nhiều năng lượng cần cung cấp cho quá trình điều chế nhôm."
+                                },
+                                {
+                                    "content": "Cryolite ban đầu tồn tại ở trạng thái lỏng."
+                                },
+                                {
+                                    "content": "Bản chất của cực cathode và anode trong quá trình điện phân nóng chảy aluminium oxide là khác nhau."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false,
+                                false
+                            ]
+                        },
+                        "answer_detail": "- Nhận định (1) là đúng vì khi trộn thêm cryolite vào $Al_2O_3$ thì nhiệt độ nóng chảy của $Al_2O_3$ giảm từ $2050^{\\circ}C$ xuống còn gần $1000^{\\circ}C$.\r\n- Nhận định (2) là đúng vì cryolite làm giảm nhiệt độ nóng chảy của $Al_2O_3$ nên trong quá trình sản xuất có thể giảm lượng nhiệt cần cung cấp cho quá trình từ đó giúp tiết kiệm năng lượng.\r\n- Nhận định (3) là sai. Cryolite được biểu diễn trong sơ đồ điều chế là cryolite nóng chảy nên cryolite được trộn vào $Al_2O_3$ từ ban đầu là cryolite dạng rắn (nóng chảy là quá trình chuyển từ thể rắn sang thể lỏng).\r\n- Nhận định (4) là sai. Cả cathode và anode đều được làm bằng than chì.\r\nĐáp án: Đúng/Đúng/Sai/Sai.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "098bb3ca-ea52-4e7d-bb15-201b5fd453a2",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "position": 3,
+                        "content": "Kéo thả ô trống thích hợp vào chỗ trống\n- Giai đoạn 1 của quy trình điều chế aluminium từ quặng bauxite có mục tiêu là ____.\n- Quá trình khử xảy ra tại cathode là ____.\n- Quá trình oxi hóa xảy ra tại anode là ____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "$Al \\to Al^{3+} + 3e$",
+                                "$Al^{3+} + 3e \\to Al$",
+                                "$2O^{2-} + 4e \\to O_2$",
+                                "$2O^{2-} \\to O_2 + 4e$",
+                                "tinh chế quặng bauxite",
+                                "tinh chế nhôm"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                4,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "- Giai đoạn 1 có mục tiêu là loại bỏ tạp chất bằng phương pháp hóa học thu được $Al_2O_3$ từ quặng bauxite. Vậy mô tả đúng nhất cho quá trình này là \"tinh chế quặng bauxite\".\r\n- Quá trình khử xảy ra tại cathode được đề bài cung cấp là khử từ $Al^{3+}$ thành Al, tức nếu viết bán phản ứng xảy ra tại cathode sẽ bắt đầu từ $Al^{3+}$ được viết trước mũi tên, sau đó sản phẩm của quá trình này là Al nằm sau mũi tên. Vậy quá trình xảy ra tại cathode là $Al^{3+} + 3e \\to Al$.\r\n- Quá trình oxi hóa xảy ra tại anode được đề bài cung cấp là xảy ra quá trình oxi hóa $O^{2-}$ thành $O_2$: tức nếu viết bán phản ứng xảy ra tại anode sẽ bắt đầu từ $O^{2-}$ được viết trước mũi tên, sau đó sản phẩm của quá trình này là $O_2$ nằm sau mũi tên. Vậy quá trình xảy ra tại anode là $2O^{2-} \\to O_2 + 4e$.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "39669594-f89d-44c6-8fa6-a2d3727fdb89",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                        "position": 4,
+                        "content": "***Điền số thích hợp vào chỗ trống***\nQuá trình điện phân nóng chảy quặng bauxite thường được thực hiện ở nhiệt độ ____$^{\\circ}C$.\n",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "1000"
+                            ]
+                        },
+                        "answer_detail": "Quá trình điện phân nóng chảy quặng bauxite thường thực hiện ở nhiệt độ $1000^{\\circ}C$.\r\nSố cần điền là: 1000.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2026-01-02T16:29:40.545964+07:00"
+                    },
+                    {
+                        "id": "fe0b835d-aa15-4d17-bd73-afbf61bc83ae",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                        "position": 5,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống\n- Vật liệu thường được sử dụng làm anode trong quá trình điện phân nóng chảy bauxite là ____.\n- Vật liệu thường được sử dụng làm cathode trong quá trình điện phân nóng chảy bauxite là ____.\n- Trong quá trình điện phân nóng chảy bauxite, ____ là điện cực tính còn ____ là điện cực động.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "than chì",
+                                    "THAN CHÌ"
+                                ],
+                                [
+                                    "THAN CHÌ",
+                                    "than chì"
+                                ],
+                                [
+                                    "cathode",
+                                    "CATHODE"
+                                ],
+                                [
+                                    "ANODE",
+                                    "anode"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "- Vật liệu thường được sử dụng làm anode trong quá trình điện phân nóng chảy bauxite là than chì.\r\n- Vật liệu thường được sử dụng làm cathode trong quá trình điện phân nóng chảy bauxite là than chì.\r\n- Trong quá trình điện phân nóng chảy bauxite, cathode là điện cực tĩnh còn anode là điện cực động.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2026-01-02T16:30:04.452284+07:00"
+                    },
+                    {
+                        "id": "ca18fd9d-de1a-4800-b6f4-1d6c84888bd9",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "position": 6,
+                        "content": "Tại sao trong quá trình điện phân nóng chảy bauxite, điện cực anode bị hao mòn?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Do sự tác dụng của dòng điện một chiều."
+                                },
+                                {
+                                    "content": "Do sự hòa tan của anode vào dung dịch điện phân."
+                                },
+                                {
+                                    "content": "Do sản phẩm của phản ứng oxi hóa xảy ra tại anode có khả năng tác dụng với điện cực anode."
+                                },
+                                {
+                                    "content": "Do sự bay hơi của vật liệu làm bằng anode."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Khí $O_2$ tạo thành ở nhiệt độ cao, đốt cháy dần điện cực anode than chì thành CO và $CO_2$ gây ra hiện tượng ăn mòn điện cực.\r\nChọn đáp án C.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "30f23640-33bf-4eeb-8e3a-0f9bbef4282c",
+                        "parent_id": "28d52f81-ed4b-474f-805a-3a0c6faba154",
+                        "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                        "position": 7,
+                        "content": "Điền số thích hợp vào chỗ trống\nCho 5 tấn quặng bauxite chứa 80% $Al_2O_3$. Với hiệu suất quá trình là 95%, khối lượng kim loại nhôm thu được sau khi quá trình điện phân xảy ra hoàn toàn là ____ kg ***(Lấy kết quả là số nguyên).***",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "2012"
+                            ]
+                        },
+                        "answer_detail": "$m_{Al_2O_3} = 5.10^3.80\\% = 4000 kg \\Rightarrow n_{Al_2O_3} = \\frac{2000}{51} kmol$\r\nPhương trình điện phân nóng chảy aluminium oxide là $2Al_2O_3 \\xrightarrow{dpnc} 4Al + 3O_2$\r\n$\\Rightarrow n_{Al\\ lt} = \\frac{4000}{51} kmol$\r\nVì hiệu suất phản ứng là 95% nên số mol nhôm thực tế thu được là: $n_{tt} = \\frac{4000}{51}.95\\% = \\frac{3800}{51} kmol$\r\nVậy khối lượng nhôm thực tế thu được là: $m_{Al \\ tt} = 27.\\frac{3800}{51} \\approx 2011,76 kg$\r\nVì kết quả lấy số nguyên nên số cần điền là 2012 kg.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2026-01-02T16:30:31.275562+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "6481ba3b-6a66-49a1-b265-7d99152c9ba1",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 5,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 27 - 29:***\nMàu lông chuột do hai enzyme được quy định bởi gene B và gene A xúc tác. Thể đồng hợp lặn bb không có enzyme xúc tác chuyển hoá tiền chất không màu thành sắc tố đen nên có màu lông bạch tạng. Nếu sản phẩm của gene B có chức năng xúc tác nhưng sản phẩm của gene A không có hoạt tính thì chuột sẽ có màu lông đen. Chỉ khi cả hai gene B và A cùng tạo ra sản phẩm có chức năng xúc tác thì chuột sẽ có màu lông lang (vân vàng đen).\n$/image_{https://cdn.save.moe/b/fupUbpj.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2025-12-28T11:44:12.367267+07:00",
+                "questions": [
+                    {
+                        "id": "268dca73-a930-4e62-9425-42baa431a68d",
+                        "parent_id": "6481ba3b-6a66-49a1-b265-7d99152c9ba1",
+                        "position": 1,
+                        "content": "Nhận định sau đây đúng hay sai?\nChuột có màu lông khác nhau có thể có kiểu gen quy định màu lông giống nhau.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Theo thông tin bài đọc, Chuột có màu lông khác nhau có thể có kiểu gen quy định màu lông khác nhau.\r\nĐáp án: Sai",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "a3c77765-8229-415f-8c4f-be60e16f0697",
+                        "parent_id": "6481ba3b-6a66-49a1-b265-7d99152c9ba1",
+                        "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                        "position": 2,
+                        "content": "Chuột có màu lông bạch tạng có bao nhiêu kiểu gen quy định?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "1."
+                                },
+                                {
+                                    "content": "3."
+                                },
+                                {
+                                    "content": "2."
+                                },
+                                {
+                                    "content": "4."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Phương pháp giải\nĐọc kĩ thông tin bài đọc.\n\nThể đồng hợp lặn bb không có enzyme xúc tác chuyển hoá tiền chất không màu thành sắc tố đen nên có màu lông bạch tạng.\n=\u003e Chuột có màu lông bạch tạng có 3 kiểu gen quy định là aabb; Aabb; AAbb.\nĐáp án: B",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2026-01-02T16:31:05.877244+07:00"
+                    },
+                    {
+                        "id": "c6251f5a-0480-4f6c-b8f2-0d209ae97d52",
+                        "parent_id": "6481ba3b-6a66-49a1-b265-7d99152c9ba1",
+                        "position": 3,
+                        "content": "Kéo thả đáp án chính xác vào chỗ trống\nChuột có nhiều kiểu gen quy định màu sắc lông nhất là:____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "",
+                        "data_questions": {
+                            "items": [
+                                "Chuột bạch tạng",
+                                "Chuột lông đen",
+                                "Chuột lông lang"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "- Thể đồng hợp lặn bb không có enzyme xúc tác chuyển hoá tiền chất không màu thành sắc tố đen nên có màu lông bạch tạng. =\u003e Chuột có màu lông bạch tạng có 3 kiểu gen quy định là aabb; Aabb; AAbb.\r\n- Nếu sản phẩm của gene B có chức năng xúc tác nhưng sản phẩm của gene A không có hoạt tính thì chuột sẽ có màu lông đen. =\u003e Chuột có màu lông đen có 2 kiểu gen quy định là aaBB và aaBb.\r\n- Chỉ khi cả hai gene B và A cùng tạo ra sản phẩm có chức năng xúc tác thì chuột sẽ có màu lông lang (vân vàng đen). =\u003e Chuột có màu lông lang có 4 kiểu gen quy định là AABB; AABb; AaBB và AaBb.\r\nĐáp án: Chuột lông lang",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "b218db66-8c42-4f43-b9a5-427c34121b1a",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 6,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 30 - 34:***\nMức phản ứng là tập hợp kiểu hình của các cá thể có cùng một kiểu gene tương ứng với phạm vi biến đổi các điều kiện môi trường sống khác nhau. Mức phản ứng cho biết ảnh hưởng của sự thay đổi môi trường đối với kiểu hình ở sinh vật.\nĐể xác định mức phản ứng, có thể theo dõi và ghi nhận kiểu hình của các cá thể có cùng một kiểu gene đồng hợp khi được nuôi, trồng ở một dãy điều kiện môi trường. Sự tương tác giữa kiểu gene và môi trường sống của sinh vật được quan sát thông qua việc lập biểu đồ biểu diễn mối quan hệ giữa sự thay đổi môi trường và biến đổi kiểu hình.\nVí dụ: Số lượng mắt đơn cấu thành mắt kép ở ruồi giấm *Drosophila melanogaster* là tính trạng chịu ảnh hưởng của nhiệt độ môi trường. Để xác định mức phản ứng, người ta cho trứng đã thụ tinh phát triển thành cá thể trưởng thành ở các nhiệt độ khác nhau và đếm số lượng mắt đơn của ruồi giấm.\n$/image_{https://cdn.save.moe/b/vhCeWGG.png?dl=1}_{center}_{100}_{block}$\n**Hình 1. Ảnh hưởng của nhiệt độ đến số lượng mắt đơn trong mắt kép ở ruồi giấm (*Drosophila melanogaster*)**",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2025-12-28T11:44:12.367267+07:00",
+                "questions": [
+                    {
+                        "id": "725dc64f-00e6-4455-ab14-d9d9185314bb",
+                        "parent_id": "b218db66-8c42-4f43-b9a5-427c34121b1a",
+                        "position": 1,
+                        "content": "Yếu tố qui định mức phản ứng của cơ thể là",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "điều kiện môi trường"
+                                },
+                                {
+                                    "content": "thời kì sinh trưởng"
+                                },
+                                {
+                                    "content": "kiểu gen của cơ thể"
+                                },
+                                {
+                                    "content": "thời kì phát triển."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Yếu tố qui định mức phản ứng của cơ thể là điều kiện môi trường.\r\nĐáp án: A",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "16f6e60f-d657-41aa-b5da-e5dc0752f9cd",
+                        "parent_id": "b218db66-8c42-4f43-b9a5-427c34121b1a",
+                        "position": 2,
+                        "content": "Nhận định dưới đây đúng hay sai?\nMột kiểu gen khi ở những điều kiện môi trường khác nhau thì chỉ biểu hiện một kiểu hình duy nhất.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Một kiểu gen khi ở những điều kiện môi trường khác nhau thì có thể biểu hiện những kiểu hình khác nhau, được gọi là mức phản ứng.\r\nĐáp án: Sai.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "c64f785c-ebcf-45fb-be09-b1825af03a43",
+                        "parent_id": "b218db66-8c42-4f43-b9a5-427c34121b1a",
+                        "position": 3,
+                        "content": "Các nhận định dưới đây đúng  ?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Mức phản ứng không do kiểu gen qui định."
+                                },
+                                {
+                                    "content": "Mỗi gen trong một kiểu gen có mức phản ứng riêng."
+                                },
+                                {
+                                    "content": "Tính trạng số lượng có mức phản ứng hẹp, tính trạng chất lượng có mức phản ứng rộng."
+                                },
+                                {
+                                    "content": "Các gen trong một kiểu gen chắc chắn sẽ có mức phản ứng như nhau."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "B Đúng.\r\nA sai, mức phản ứng do kiểu gen qui định\r\nC sai, tính trạng số lượng có mức phản ứng rộng, tính trạng chất lượng có mức phản ứng hẹp\r\nD sai, các gen trong 1 kiểu gen có mức phản ứng khác nhau.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "95c22ba8-36ac-4334-8832-ea728e893aae",
+                        "parent_id": "b218db66-8c42-4f43-b9a5-427c34121b1a",
+                        "position": 4,
+                        "content": "Tính trạng số lượng mắt đơn ở ruồi giấm *Drosophila melanogaster* chịu ảnh hưởng của nhân tố môi trường nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Độ ẩm"
+                                },
+                                {
+                                    "content": "Nhiệt độ."
+                                },
+                                {
+                                    "content": "Ánh sáng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Số lượng mắt đơn cấu thành mắt kép ở ruồi giấm *Drosophila melanogaster* là tính trạng chịu ảnh hưởng của nhiệt độ môi trường.\r\nĐáp án: Nhiệt độ",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "0f18a727-2ccc-49c4-bc29-f069f8fbabc1",
+                        "parent_id": "b218db66-8c42-4f43-b9a5-427c34121b1a",
+                        "position": 5,
+                        "content": "Ở nhiệt độ khoảng bao nhiêu thì số lượng mắt đơn của ruồi giấm *Drosophila melanogaster* hình thành nhiều nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$30^{\\circ}C$."
+                                },
+                                {
+                                    "content": "$15^{\\circ}C$."
+                                },
+                                {
+                                    "content": "$20^{\\circ}C$."
+                                },
+                                {
+                                    "content": "$25^{\\circ}C$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Người ta cho trứng đã thụ tinh phát triển thành cá thể trưởng thành ở các nhiệt độ khác nhau và đếm số lượng mắt đơn của ruồi giấm, Ở nhiệt độ khoảng $15^{\\circ}C$ thì số lượng mắt đơn của ruồi giấm *Drosophila melanogaster* hình thành nhiều nhất.\r\nĐáp án: B",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+                "position": 7,
+                "content": "***Dựa vào thông tin sau đây và trả lời các câu hỏi từ câu 35 - 40:***\nGạo huyết rồng là giống gạo đỏ truyền thống của vùng đất ngập nước, chua phèn Đồng Tháp Mười. Gạo huyết rồng mang nhiều ưu thế vượt trội về chất đạm, vitamin B1, chất xơ tiêu hóa, chất sắt, có giá trị dinh dưỡng cao và tốt cho sức khỏe. Sử dụng loại gạo này còn có thể kiểm soát lượng đường trong máu, tăng cường các chất chông oxy hóa (kẽm) chống lại các gốc tự do, hạ thấp mức cholesterol xấu trong cơ thể.\nGạo chứa hàm lượng tinh bột cao và hàm lượng này có thể được chuyển hóa thành đường để tăng tính hữu dụng cho các tiến trình chế biến sản phẩm mới từ tinh bột ở các giai đoạn tiếp theo. Enzyme thủy phân tinh bột thành các loại đường là amylase, trong đó $\\alpha$-amylase được tìm thấy từ thực vật và động vật.\nNghiên cứu dưới đây xác định ảnh hưởng của nhiệt độ, nồng độ enzyme và thời gian ảnh hưởng lớn đến quá trình thủy phân gạo huyết rồng.\n$/image_{https://cdn.save.moe/b/Eh8cP0.png?dl=1}_{center}_{100}_{block}$\n$/image_{https://cdn.save.moe/b/lKI1R.png?dl=1}_{center}_{100}_{block}$\n$/image_{https://cdn.save.moe/b/xX6LQaL.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:44:12.367267+07:00",
+                "updated_at": "2025-12-28T11:44:12.367267+07:00",
+                "questions": [
+                    {
+                        "id": "6339abd6-4ef8-439e-8698-f90d17750399",
+                        "parent_id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                        "position": 1,
+                        "content": "Chọn những đáp án chính xác\nGạo huyết rồng có những tác dụng nào dưới đây khi sử dụng?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Kiểm soát lượng đường trong máu"
+                                },
+                                {
+                                    "content": "Hạ thấp mức cholesterol trong cơ thể."
+                                },
+                                {
+                                    "content": "Làm giảm những chất chống oxy hóa chống lại các gốc tự do."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    0
+                                ],
+                                [
+                                    1
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Sử dụng loại gạo này còn có thể kiểm soát lượng đường trong máu, tăng cường các chất chống oxy hóa (kẽm) chống lại các gốc tự do, hạ thấp mức cholesterol xấu trong cơ thể.\r\nĐáp án: Kiểm soát lượng đường trong máu/ Hạ thấp mức cholesterol trong cơ thể.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "42202ed5-1523-4166-91bb-756879a557d7",
+                        "parent_id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                        "position": 2,
+                        "content": "Nhận định dưới đây đúng hay sai?\nEnzyme amylase chỉ tìm được thấy ở động vật, có tác dụng phân giải tinh bột thành các loại đường.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Enzyme thủy phân tinh bột thành các loại đường là amylase, trong đó α-amylase được tìm thấy từ thực vật và động vật.\r\nĐáp án: Sai",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "ac75cd4c-74af-4491-9c99-aa5a870c80b7",
+                        "parent_id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                        "position": 3,
+                        "content": "Chọn những đáp án chính xác\nNghiên cứu được thực hiện đã xác định được quá trình thủy phân gạo huyết rồng phụ thuộc vào những yếu tố nào?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhiệt độ"
+                                },
+                                {
+                                    "content": "Độ ẩm"
+                                },
+                                {
+                                    "content": "Nồng độ enzyme α-amylase"
+                                },
+                                {
+                                    "content": "Thời gian thủy phân."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    0
+                                ],
+                                [
+                                    2
+                                ],
+                                [
+                                    3
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Nghiên cứu được thực hiện đã xác định được quá trình thủy phân gạo huyết rồng phụ thuộc vào những yếu tố: Nhiệt độ; Nồng độ enzyme α-amylase; Thời gian thủy phân.\r\nĐáp án: Nhiệt độ; Nồng độ enzyme α-amylase; Thời gian thủy phân.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "51de6efa-9e0a-494a-879d-268127e2924b",
+                        "parent_id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                        "position": 4,
+                        "content": "Khi tăng dần nhiệt độ của quá trình thủy phân gạo huyết rồng thì hàm lượng đường của sản phẩm khác biệt như thế nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tăng lên"
+                                },
+                                {
+                                    "content": "Giảm xuống."
+                                },
+                                {
+                                    "content": "Tăng lên rồi giảm xuống."
+                                },
+                                {
+                                    "content": "Giảm xuống rồi tăng lên."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Quan sát bảng ảnh hưởng của nhiệt độ, khi tăng dần nhiệt độ của quá trình thủy phân gạo huyết rồng thì hàm lượng đường cũng tăng dần lên.\r\nĐáp án: Chọn A",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "63de1f0e-22ce-4b64-a707-4f6f6f21b666",
+                        "parent_id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                        "position": 5,
+                        "content": "Dựa vào kết quả nghiên cứu chọn các đáp án chính xác:",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Thủy phân ở nhiệt độ 70°C tạo ra sản phẩm có hàm lượng đường thấp nhất."
+                                },
+                                {
+                                    "content": "Khi tăng nồng độ enzyme lên thì hàm lượng đường ở sản phẩm tạo ra cũng tăng lên."
+                                },
+                                {
+                                    "content": "Để sản phẩm sinh ra có hàm lượng đường cao nhất thì cần thủy phân với nồng độ enzyme α-amylase 0,15%"
+                                }
+                            ]
+                        },
+                        "data_answers": {},
+                        "answer_detail": "Để sản phẩm sinh ra có hàm lượng đường cao nhất thì cần thủy phân với nồng độ enzyme α-amylase 0,25%\r\nCác ý còn lại đều chính xác.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    },
+                    {
+                        "id": "7106043c-a508-4cf5-a737-f31504fad82c",
+                        "parent_id": "0f99d68b-0d61-43f3-abe3-c23cf71aebe5",
+                        "position": 6,
+                        "content": "Để sản phẩm sau thủy phân đạt được hàm lượng đường cao nhất thì cần thực hiện thủy phân trong điều kiện nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhiệt độ 70°C, nồng độ enzyme là 0,05%, thời gian thủy phân diễn ra trong 10 phút."
+                                },
+                                {
+                                    "content": "Nhiệt độ 80°C, nồng độ enzyme là 0,1%, thời gian thủy phân diễn ra trong 20 phút."
+                                },
+                                {
+                                    "content": "Nhiệt độ 90°C, nồng độ enzyme là 0,25%, thời gian thủy phân diễn ra trong 40 phút."
+                                },
+                                {
+                                    "content": "Nhiệt độ 90°C, nồng độ enzyme là 0,25%, thời gian thủy phân diễn ra trong 60 phút."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Để sản phẩm sau thủy phân đạt được hàm lượng đường cao nhất thì cần thực hiện thủy phân trong điều kiện: Nhiệt độ 90°C, nồng độ enzyme là 0,25%, thời gian thủy phân diễn ra trong 40 phút.\r\nCác điều kiện khác, hàm lượng đường đều thấp hơn.",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2025-12-28T11:44:12.367267+07:00",
+                        "updated_at": "2025-12-28T11:44:12.367267+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "cf4f2174-cf8d-45e1-acd5-c827e1955311",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "8bd5dbb0-6c5f-4b7d-b902-f456b6328bdf",
+        "status": "in_progress",
+        "created_at": "2026-03-02T14:50:54.158635+07:00",
+        "updated_at": "2026-03-02T14:50:54.158634+07:00",
+        "submited_at": "2026-03-02T14:50:54.158635+07:00"
+    }
+}

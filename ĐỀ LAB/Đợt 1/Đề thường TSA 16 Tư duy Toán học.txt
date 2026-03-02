@@ -1,0 +1,1300 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "2b77884b-6625-499a-9444-1454bca6441e",
+        "title": "Đề thường TSA 16: Tư duy Toán học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-11T04:50:21.862069+07:00",
+        "updated_at": "2026-02-12T14:37:26.811197+07:00",
+        "questions": [
+            {
+                "id": "85ddbbad-5039-42da-87c0-670e0f7944c6",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 1,
+                "content": "Nồng độ oxygen trong hồ theo thời gian t được cho bởi công thức $C(t)=\\dfrac{45t^{2}-15t+5}{9t^{2}+1},$ trong đó $C(t)$ được tính theo mg/l và t được tính theo giờ, $t\\ge0$. Khi thời gian đủ dài, nồng độ oxygen trong hồ đạt trạng thái bão hòa. Tính nồng độ bão hòa của oxygen trong hồ.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$20~mg/l$."
+                        },
+                        {
+                            "content": "45 mg/l."
+                        },
+                        {
+                            "content": "$5~mg/l$."
+                        },
+                        {
+                            "content": "9 mg/l."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Ta có $lim_{t\\rightarrow+\\infty}C(t)=lim_{t\\rightarrow+\\infty}\\dfrac{45t^{2}-15t+5}{9t^{2}+1}=lim_{t\\rightarrow+\\infty}\\dfrac{45-\\dfrac{15}{t}+\\dfrac{5}{t^{2}}}{9+\\dfrac{1}{t^{2}}}=\\dfrac{45}{9}=5.$\r\nVậy nồng độ bão hòa của oxygen trong hồ là 5 mg/l.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "7dcc6dcb-eba3-4218-9394-320eeff3bc3d",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 2,
+                "content": "Trong một cuộc thi các môn thể thao trên tuyết, người ta muốn thiết kế một đường trượt bằng băng cho nội dung đổ dốc tốc độ đường dài. Vận động viên sẽ xuất phát từ vị trí (0;15) cao 15m so với mặt đất (trục Ox). Đường trượt phải thoả mãn yêu cầu là càng ra xa thì càng gần mặt đất để tiết kiệm lượng tuyết nhân tạo. Một nhà thiết kế đề nghị sử dụng đường cong là đồ thị hàm số $y=f(x)=\\dfrac{150}{x+10},$ với $x\\ge0$.\n$/image_{https://cdn.save.moe/b/111pxi.png?dl=1}_{left}_{40}_{block}$\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số $y=f(x)$ có đồ thị qua điểm (0;15)."
+                        },
+                        {
+                            "content": "Hàm số $y=f(x)$ giảm trên $[0;+\\infty)$."
+                        },
+                        {
+                            "content": "Càng ra xa (x càng lớn), đồ thị của hàm số $y=f(x)$ càng gần trục Ox với khoảng cách nhỏ tuỳ ý."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "a) Ta có $f(0)=\\dfrac{150}{10}=15$ nên đồ thị hàm số $f(x)$ đi qua điểm (0;15). (Đúng)\r\nb) Ta có $f'(x) = -\\dfrac{150}{(x+10)^2} \u003c 0$ với mọi $x \\ge 0$. Suy ra hàm số nghịch biến (giảm) trên $[0;+\\infty)$. (Đúng)\r\nc) Ta có $lim_{x\\rightarrow+\\infty}f(x)=lim_{x\\rightarrow+\\infty}\\dfrac{150}{x+10}=0$. Vậy khi x càng lớn, đồ thị của hàm số càng gần trục Ox. (Đúng)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "de55b3d3-84b3-44a7-9422-41b2c9c158c9",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 3,
+                "content": "Trong không gian với hệ tọa độ Oxyz, cho điểm $A(2;0;0), B(0;2;0), C(0;0;2), D(2;2;2)$.\r\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hình chóp ABCD là tứ diện đều."
+                        },
+                        {
+                            "content": "Mặt cầu ngoại tiếp tứ diện ABCD có bán kính là $\\sqrt{3}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "1. Ta có $AB=BC=CA=2\\sqrt{2}$ và $DA=DB=DC=2\\sqrt{2}$. Khi đó ABCD là tứ diện đều. (Đúng)\r\n2. Gọi $I(a;b;c)$ là tâm mặt cầu ngoại tiếp. Giải hệ phương trình $IA=IB=IC=ID$ ta được $I(1;1;1)$.\r\nBán kính mặt cầu là $R=IA=\\sqrt{(2-1)^2+(0-1)^2+(0-1)^2}=\\sqrt{3}$. (Đúng)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "ae87cd27-f437-4fd9-91b6-61d50552bae2",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 4,
+                "content": "Tính $I=\\displaystyle \\int_{0}^{a}25^{x}dx$ theo số thực a.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$a.25^{a-1}$."
+                        },
+                        {
+                            "content": "$(25^{a}-1).ln~25$."
+                        },
+                        {
+                            "content": "$\\dfrac{25}{a+1}(25^{a}-1)$."
+                        },
+                        {
+                            "content": "$\\dfrac{1}{ln~25}(25^{a}-1).$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Có $I=\\displaystyle \\int_{0}^{a}25^{x}dx=\\dfrac{1}{ln~25}25^{x}|_{0}^{a}=\\dfrac{1}{ln~25}(25^{a}-25^{0})=\\dfrac{1}{ln~25}(25^{a}-1).$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "98525479-2cf9-4081-a624-7d285cb86eee",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 5,
+                "content": "Hàm số $y=f(x)$ có đạo hàm thỏa mãn $f^{\\prime}(x)\\ge0, \\forall x\\in(1;4)$; $f^{\\prime}(x)=0\\Leftrightarrow x\\in[2;3].$\r\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số $f(x)$ đồng biến trên khoảng (1;2)."
+                        },
+                        {
+                            "content": "$f(\\sqrt{5})=f(\\sqrt{7})$."
+                        },
+                        {
+                            "content": "Hàm số $f(x)$ đồng biến trên khoảng (1;4)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "- Ta có: $f^{\\prime}(x)\\ge0$, $\\forall x\\in(1;2)$; $f^{\\prime}(x)\\ne0\\Leftrightarrow x\\in(1;2)$. Nên hàm số $f(x)$ đồng biến trên khoảng $(1;2)$. (Đúng)\r\n- $f^{\\prime}(x)=0\\Leftrightarrow x\\in[2;3]\\Rightarrow$ Hàm số là hàm hằng trên [2;3]. Vì $\\sqrt{5}, \\sqrt{7} \\in [2;3]$ nên $f(\\sqrt{5})=f(\\sqrt{7})$. (Đúng)\r\n- Hàm số $f(x)$ là hàm hằng trên [2;3] nên không đồng biến trên toàn bộ khoảng (1;4). (Sai)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "275dc814-eed0-4c94-aa48-2f4e1e0e5640",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 6,
+                "content": "Biết điện lượng trong một dây dẫn theo thời gian biểu thị bởi hàm số $Q=3t^{2}+8t+2$ (t được tính bằng giây, Q được tính bằng Coulomb). Thời điểm cường độ của dòng điện trong dây dẫn $I=50$ A là:\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "7."
+                        },
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "9,6."
+                        },
+                        {
+                            "content": "1,3."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có: $Q=3t^{2}+8t+2\\Rightarrow Q^{\\prime}(t)=6t+8$ là cường độ dòng điện tại thời điểm t.\r\n\r\n$\\Rightarrow I=Q^{\\prime}(t)=6t+8=50\\Rightarrow t=7(s)$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "d4cc4d0b-d3bd-409d-a879-a20bce95a46a",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 7,
+                "content": "Người ta viết liên tiếp các chữ cái: V,I,E,T,N,A,M thành dãy VIETNAMVIETNAM... Chữ cái thứ 2025 là chữ cái gì?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "N."
+                        },
+                        {
+                            "content": "I."
+                        },
+                        {
+                            "content": "T."
+                        },
+                        {
+                            "content": "A."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Tổng các chữ số trong chữ V,I,E,T,N,A,M là 7.\r\nTa lấy: 2025 : $7=289$ dư 2.\r\nVậy chữ cái thứ 2025 là chữ cái thứ 2 trong dãy, tức là chữ I.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "3b4d5fca-cb40-49b4-a12c-6cacb8720676",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 8,
+                "content": "Cho tam giác đều ABC có đường tròn nội tiếp (O;r), cắt bỏ phần hình tròn và cho hình phẳng thu được quay quanh AO.\r\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Thể tích khối tròn xoay thu được là $\\pi r^{3}$."
+                        },
+                        {
+                            "content": "Thể tích khối tròn xoay thu được bằng thể tích khối cầu có cùng bán kính với phần bị cắt bỏ."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/2lOe2.png?dl=1}_{left}_{40}_{block}$\nGọi H là chân đường cao AH. Tam giác đều nên $AH=3r$, $BC=2\\sqrt{3}r$.\nKhi quay tam giác ABC quanh AO, ta được hình nón có $R_{nón}=r\\sqrt{3}, h=3r$.\n$V_{nón} = \\dfrac{1}{3}\\pi (r\\sqrt{3})^2 . 3r = 3\\pi r^3$.\nThể tích khối cầu nội tiếp (phần bị cắt bỏ) là $V_{cầu} = \\dfrac{4}{3}\\pi r^3$.\nThể tích khối tròn xoay thu được là $V = V_{nón} - V_{cầu} = 3\\pi r^3 - \\dfrac{4}{3}\\pi r^3 = \\dfrac{5}{3}\\pi r^3$.\nVậy cả hai khẳng định đều sai.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "a9382556-e712-4085-9ee8-44635a9e38ca",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 9,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho hình lập phương có cạnh bằng 2. Thể tích khối cầu nội tiếp hình lập phương là ____ (kết quả làm tròn đến hàng phần trăm).\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "4,19"
+                    ]
+                },
+                "answer_detail": "Cạnh hình lập phương bằng 2 nên đường kính khối cầu nội tiếp bằng 2 $\\Rightarrow$ bán kính $R=1$.\r\nThể tích khối cầu là $V=\\dfrac{4}{3}\\pi R^{3}=\\dfrac{4}{3}\\pi \\approx 4,19$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "ea486b8d-e17e-4170-8926-8131b2230f99",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 10,
+                "content": "Một công ty du lịch khảo sát khách hàng xem họ đã chi tiêu hết bao nhiêu tiền trong quá trình du lịch tại thành phố X. Kết quả khảo sát được ghi lại ở bảng sau:\n$/image_{https://cdn.save.moe/b/J3Pr9.png?dl=1}_{left}_{50}_{block}$\nTìm a sao cho có ít nhất 25% số người có tham gia khảo sát chi tiêu hết ít nhất a triệu đồng.\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "8,86."
+                        },
+                        {
+                            "content": "9,2."
+                        },
+                        {
+                            "content": "9."
+                        },
+                        {
+                            "content": "8,97."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Giá trị a chính là giá trị tứ phân vị thứ ba ($Q_3$) của mẫu số liệu ghép nhóm (vì có 25% người chi tiêu $\\ge Q_3$).\r\nTổng cỡ mẫu $n=325$. Vị trí $Q_3$ là $\\dfrac{3n}{4} = 243,75$.\r\nNhóm chứa $Q_3$ là nhóm [7;9) (tần số tích lũy đến nhóm trước là 132, đến nhóm này là 252).\r\n\r\n$Q_{3}=7+\\dfrac{243,75-132}{120}.2 \\approx 8,86$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:52:21.114145+07:00"
+            },
+            {
+                "id": "1d273ed9-a2f1-48f6-9ffe-6287ba017fe7",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 11,
+                "content": "Gọi $m_{0}$ là giá trị thực của tham số m để giá trị lớn nhất của hàm số $y=\\dfrac{-x+m^{2}+1}{x+2}$ trên đoạn [2;5] bằng 1. Khi đó, giá trị của $m_{0}$ có thể thuộc những khoảng nào trong các khoảng sau?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(0;2)."
+                        },
+                        {
+                            "content": "(2;3)."
+                        },
+                        {
+                            "content": "(-4;-2)."
+                        },
+                        {
+                            "content": "(-1;1)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "$y^{\\prime}=\\dfrac{-m^{2}-3}{(x+2)^{2}}\u003c0$ với mọi $x \\in [2;5]$ nên hàm số nghịch biến.\r\n$\\Rightarrow \\max_{[2;5]}y=y(2)=\\dfrac{-2+m^{2}+1}{4}=\\dfrac{m^{2}-1}{4}$.\r\nTheo đề bài, $\\dfrac{m^{2}-1}{4}=1 \\Leftrightarrow m^2=5 \\Leftrightarrow m=\\pm\\sqrt{5}$.\r\n$m=\\sqrt{5} \\approx 2,23 \\in (2;3)$.\r\n\r\n$m=-\\sqrt{5} \\approx -2,23 \\in (-4;-2)$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "48bcd70b-b870-4396-8e96-ffba3d6ba055",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 12,
+                "content": "Cho hình chóp S.ABCD có $SA\\perp(ABCD)$, ABCD là hình thoi cạnh a, $AC=a, SA=\\dfrac{a}{2}$. Gọi H là hình chiếu của S trên cạnh CD.\r\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$AH\\perp CD$."
+                        },
+                        {
+                            "content": "$AH=\\dfrac{a\\sqrt{3}}{3}.$"
+                        },
+                        {
+                            "content": "Số đo của góc nhị diện [S, CD, A] bằng 30°."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/is5eC5p.png?dl=1}_{left}_{40}_{block}$\n- Vì $SA \\perp (ABCD)$ và $SH \\perp CD$ (gt), suy ra $CD \\perp (SAH) \\Rightarrow CD \\perp AH$. (Đúng)\n- Tam giác ACD là tam giác đều cạnh a (do $AD=CD=a, AC=a$). AH là đường cao nên $AH = \\dfrac{a\\sqrt{3}}{2}$. Khẳng định $AH=\\dfrac{a\\sqrt{3}}{3}$ là Sai.\n- Góc nhị diện [S, CD, A] chính là góc $\\widehat{SHA}$.\nTam giác SAH vuông tại A, $tan(\\widehat{SHA}) = \\dfrac{SA}{AH} = \\dfrac{a/2}{a\\sqrt{3}/2} = \\dfrac{1}{\\sqrt{3}}$.\nSuy ra $\\widehat{SHA} = 30^\\circ$. (Đúng)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "6cdd4370-4953-410b-9a64-4b422ae33ac7",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 13,
+                "content": "Cho hàm số $f(x)=\\dfrac{tan~x+3}{2~sin~x+3}.$\r\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số xác định với mọi $x\\in\\mathbb{R}\\backslash\\{0\\}$."
+                        },
+                        {
+                            "content": "Các nghiệm của phương trình $f(x)=0$ được biểu diễn bởi 2 điểm trên đường tròn lượng giác."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "- Hàm số xác định khi $2\\sin x + 3 \\ne 0$ (luôn đúng) và $x \\ne \\dfrac{\\pi}{2} + k\\pi$ (để tanx xác định). Khẳng định xác định với mọi $x \\ne 0$ là Sai.\r\n- $f(x)=0 \\Leftrightarrow tanx = -3$. Phương trình $tanx = a$ luôn có 2 điểm biểu diễn trên đường tròn lượng giác (đối xứng qua gốc tọa độ). (Đúng)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "c1308b14-8c02-49ec-aa07-857fe166d50a",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 14,
+                "content": "Điền số thích hợp vào chỗ trống\nVới mọi giá trị của $a\u003e0$, $a\\ne1$, đồ thị hàm số $y=a^{x-2}$ luôn đi qua điểm cố định A(2; ____) và đồ thị hàm số $y=log_{a}(4-x)$ luôn đi qua điểm cố định B(____; ____).\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1",
+                        "3",
+                        "0"
+                    ]
+                },
+                "answer_detail": "- Với hàm $y=a^{x-2}$, khi $x=2$ thì $y=a^0=1$. Điểm cố định A(2;1).\r\n- Với hàm $y=log_{a}(4-x)$, khi $4-x=1 \\Rightarrow x=3$ thì $y=log_a(1)=0$. Điểm cố định B(3;0).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "68c69046-53b5-4fd9-8b1f-7a4c37d00ee6",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 15,
+                "content": "Cho hàm số bậc ba $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ dưới đây.\n$/image_{https://cdn.save.moe/b/d37MtIr.png?dl=1}_{left}_{40}_{block}$\nĐiền số thích hợp vào chỗ trống:\nGiá trị lớn nhất của hàm số $f(x)$ trên đoạn [0;3] bằng ____\nSố nghiệm thuộc khoảng (0;27) của phương trình $2f(sin(x))-5=0$ bằng ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "2,5",
+                        "1"
+                    ]
+                },
+                "answer_detail": "Điểm cao nhất của đồ thị trên đoạn $[0; 3]$ là $y = 2,5$ \nVậy $\\max\\limits_{x\\in[0;3]} f(x) = 2,5$ \nTa có $f(\\sin(x)) = 2,5 \\Leftrightarrow \\left[ \\begin{matrix} \\sin(x) = 1 \\\\ \\sin(x) = a \u003e 3 \\, (L) \\end{matrix} \\right.$ \nSuy ra $\\sin(x) = 1 \\Leftrightarrow x = \\dfrac{\\pi}{2} + k2\\pi$ \nVậy có 1 nghiệm $x = \\dfrac{\\pi}{2}$ thuộc khoảng $(0; 2\\pi)$\n",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:56:04.871486+07:00"
+            },
+            {
+                "id": "62f91dfb-bdb5-4a67-8976-939f2c6028b2",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 16,
+                "content": "Điền số thích hợp vào chỗ trống\r\nKí hiệu $h(x)$ là chiều cao của một cây (tính theo mét) sau khi trồng x năm. Biết rằng sau năm đầu tiên, cây cao 2 m. Trong 10 năm tiếp theo, cây phát triển với tốc độ $h^{\\prime}(x)=\\dfrac{1}{x}(m/năm).$\r\n- Kể từ ngày trồng cây, cần ít nhất ____ tháng để cây có chiều cao không dưới 4 m. (kết quả làm tròn đến hàng đơn vị)\r\n- Sau 10 năm kể từ ngày trồng cây, trung bình mỗi năm chiều cao của cây tăng thêm là ____ mét. (kết quả làm tròn đến hàng phần trăm)\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "89",
+                        "0,43"
+                    ]
+                },
+                "answer_detail": "- $h(x) = \\displaystyle \\int \\dfrac{1}{x} dx = ln|x| + C$.\r\n$h(1) = 2 \\Rightarrow ln(1) + C = 2 \\Rightarrow C=2$. Vậy $h(x) = lnx + 2$.\r\n$h(x) \\ge 4 \\Leftrightarrow lnx + 2 \\ge 4 \\Leftrightarrow x \\ge e^2 \\approx 7,389$ năm.\r\nĐổi ra tháng: $7,389 \\times 12 \\approx 88,66$ tháng. Cần ít nhất 89 tháng.\r\n- Chiều cao sau 10 năm: $h(10) = ln(10) + 2 \\approx 4,303$ m.\r\nTrung bình mỗi năm tăng: $\\dfrac{h(10)}{10} \\approx 0,43$ m/năm.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "72bdd96d-c03a-4529-bf6e-65a920e38044",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 17,
+                "content": "Biết $x_{1},x_{2}$ là hai nghiệm của phương trình $(3+\\sqrt{5})^{x}+(3-\\sqrt{5})^{x}=3.2^{x}$. Giá trị của biểu thức $T=x_{1}^{2}+x_{2}^{2}$ bằng\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "9."
+                        },
+                        {
+                            "content": "1."
+                        },
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "13."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Chia 2 vế cho $2^x$: $(\\dfrac{3+\\sqrt{5}}{2})^x + (\\dfrac{3-\\sqrt{5}}{2})^x = 3$.\r\nNhận thấy $\\dfrac{3+\\sqrt{5}}{2} . \\dfrac{3-\\sqrt{5}}{2} = 1$. Đặt $t = (\\dfrac{3+\\sqrt{5}}{2})^x$, ta có $t + \\dfrac{1}{t} = 3 \\Leftrightarrow t^2 - 3t + 1 = 0$.\r\nPhương trình có 2 nghiệm $t_1, t_2$.\r\n$x = \\log_{\\dfrac{3+\\sqrt{5}}{2}} t$.\r\nGiải ra ta được $x_1=1, x_2=-1$.\r\n\r\n$T = 1^2 + (-1)^2 = 2$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "6dbdb8b5-f8d8-460d-927d-7079d118d5c3",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 18,
+                "content": "Cho cấp số nhân $(u_{n})$ có $\\begin{cases}u_{20}=8u_{17}\\\\ u_{1}+u_{5}=272\\end{cases}.$\r\nTrong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Số hạng đầu là $u_{1}=14$."
+                        },
+                        {
+                            "content": "Tổng của 100 số hạng đầu tiên của cấp số nhân này là: $16(2^{100}-1)$."
+                        },
+                        {
+                            "content": "$lim_{n\\rightarrow+\\infty}\\dfrac{u_{n}+5}{2u_{n+1}+1}=\\dfrac{1}{2}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "- $u_{20}=8u_{17} \\Rightarrow q^3=8 \\Rightarrow q=2$.\r\n$u_1 + u_1 q^4 = 272 \\Rightarrow u_1(1+16)=272 \\Rightarrow u_1=16$. (Khẳng định a Sai).\r\n- $S_{100} = u_1 \\dfrac{1-q^{100}}{1-q} = 16 \\dfrac{1-2^{100}}{-1} = 16(2^{100}-1)$. (Khẳng định b Đúng).\r\n- $\\lim \\dfrac{u_n+5}{2u_{n+1}+1} = \\lim \\dfrac{16.2^{n-1}+5}{2.16.2^n+1} = \\lim \\dfrac{8.2^n+5}{32.2^n+1} = \\dfrac{8}{32} = \\dfrac{1}{4}$. (Khẳng định c Sai).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "3972db94-7f10-429a-9cdc-d8b1a34cbeac",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 19,
+                "content": "Đồ thị (P) của một hàm số bậc hai $y=f(x)$ đã bị xoá đi, chỉ còn lại trục đối xứng $\\Delta$, điểm A thuộc (P) và tiếp tuyến tại A của (P) được cho dưới đây:\n$/image_{https://cdn.save.moe/b/mwOqnx.png?dl=1}_{left}_{40}_{block}$\nĐồ thị hàm số $y=f(x)$ đi qua điểm nào trong các điểm sau?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(1;-1)."
+                        },
+                        {
+                            "content": "(1;0)."
+                        },
+                        {
+                            "content": "(-1;0)."
+                        },
+                        {
+                            "content": "(-1;1)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Hàm số $P(x)=ax^2+bx+c$.\r\nTrục đối xứng $x=1 \\Rightarrow -\\dfrac{b}{2a}=1 \\Rightarrow 2a+b=0$.\r\nĐi qua A(3;0) $\\Rightarrow 9a+3b+c=0$.\r\nTiếp tuyến tại A tạo với Ox góc 45 độ $\\Rightarrow P'(3) = tan(45^\\circ) = 1 \\Rightarrow 6a+b=1$.\r\nGiải hệ: $a=1/4, b=-1/2, c=-3/4$.\r\n$P(x) = \\dfrac{1}{4}x^2 - \\dfrac{1}{2}x - \\dfrac{3}{4}$.\r\nTại $x=1, P(1) = 1/4 - 1/2 - 3/4 = -1$. Điểm (1;-1).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "698f0d6d-b36d-44b1-9d0c-fadd8c2d5d2b",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 20,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho tập hợp $A=\\{1,2,3,...,100\\}$. Có ____ cặp (x;y) với $x\\in A, y\\in A$ và $x\u003ey$?\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "4950"
+                    ]
+                },
+                "answer_detail": "Mỗi cặp 2 số phân biệt bất kỳ trong A đều có duy nhất một cách sắp xếp $x\u003ey$.\r\nSố cặp là số tổ hợp chập 2 của 100: $C_{100}^2 = \\dfrac{100.99}{2} = 4950$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "340f67eb-614f-4464-ada1-c7c6569d294e",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 21,
+                "content": "Cho đồ thị ba hàm số $y=f(x)$, $y=f^{\\prime}(x)$ $y=f^{\\prime\\prime}(x)$ được vẽ như hình bên dưới. \n$/image_{https://cdn.save.moe/b/wFub7i.png?dl=1}_{left}_{40}_{block}$\nHỏi đồ thị các hàm số $y=f(x)$, $y=f^{\\prime}(x)$ $y=f^{\\prime\\prime}(x)$ theo thứ tự, lần lượt tương ứng với đường cong nào?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$(C_{3}),(C_{2}),(C_{1})$."
+                        },
+                        {
+                            "content": "$(C_{3}),(C_{1}),(C_{2})$"
+                        },
+                        {
+                            "content": "$(C_{2}),(C_{1}),(C_{3})$"
+                        },
+                        {
+                            "content": "$(C_{2}),(C_{1}),(C_{3})$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Dựa vào đồ thị ta thấy đồ thị $(C_{1})$ cắt Ox tại hai điểm là cực trị của đồ thị $(C_{2})$.\r\nĐồ thị $(C_{3})$ cắt Ox tại hai điểm là cực trị của đồ thị $(C_{1})$.\r\nTừ đó ta có đồ thị các hàm số $y=f(x)$, $y=f^{\\prime}(x),$ $y=f^{\\prime\\prime}(x)$ theo thứ tự, lần lượt tương ứng với đường cong: $(C_{2}),(C_{1}),(C_{3})$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "c2068692-d421-4d39-8aa3-26b333077906",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 22,
+                "content": "Giá trị của biểu thức $M=(lna+log_{a}e)^{2}+ln^{2}a-log_{a}^{2}e$ khi được rút gọn là:\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2."
+                        },
+                        {
+                            "content": "$2+2~ln^{2}a$."
+                        },
+                        {
+                            "content": "$2~ln^{2}a-2$."
+                        },
+                        {
+                            "content": "$ln^{2}a$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "$M=(lna+log_{a}e)^{2}+ln^{2}a-log_{a}^{2}e=ln^{2}a+2~ln~a.log_{a}e+log_{a}^{2}e+ln^{2}a-log_{a}^{2}e$\r\n$=2~ln^{2}a+2$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "d973c754-12a8-437d-846e-df50061452ec",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 23,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho biểu thức $S(x)=[x]+[\\dfrac{x}{2}]+[\\dfrac{x}{3}]+\\cdot\\cdot\\cdot+[\\dfrac{x}{10000}]voi~x\\in\\mathbb{R}$ .\r\nTính $S(2037)-S(2036)=$ ____ Trong đó $[x]$ là phần nguyên của x hay là số nguyên lớn nhất không vượt quá x.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "8"
+                    ]
+                },
+                "answer_detail": "Ta có: $S(2037)-S(2036)=\\sum_{k=1}^{k=10000}([\\dfrac{2037}{k}]-[\\dfrac{2036}{k}])$\r\nTa thấy: $[\\dfrac{x-1}{k}]\\le[\\dfrac{x}{k}],k\\in\\mathbb{Z}^{*}$ .\r\nTức là $[\\dfrac{x-1}{k}]=[\\dfrac{x}{k}]-1$ khi và chỉ khi k là ước của x.\r\nSuy ra với k là ước của 2037 thì $[\\dfrac{2037}{k}]-[\\dfrac{2036}{k}]=1$ và k khác ước của 2037 thì $[\\dfrac{2037}{k}]-[\\dfrac{2036}{k}]=0$\r\nMà $2037=3\\times7\\times97\\Rightarrow2037$ có 8 ước.\r\nVậy $S(2037)-S(2036)=8$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "6b8e0bd2-9524-4b38-8306-549cb7862833",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 24,
+                "content": "Trong các dãy số sau, dãy nào là cấp số nhân?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$u_{n}=(-1)^{n}n$"
+                        },
+                        {
+                            "content": "$u_{n}=n^{2}$"
+                        },
+                        {
+                            "content": "$u_{n}=2^{n}$"
+                        },
+                        {
+                            "content": "$u_{n}=\\dfrac{n}{3^{n}}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$\\dfrac{u_{n+1}}{u_{n}}=\\dfrac{2^{n+1}}{2^{n}}=2\\Rightarrow u_{n+1}=2u_{n}\\Rightarrow(u_{n})$ là cấp số nhân có công bội bằng 2.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "d32dbfff-9877-45d0-8527-c5bfb59c45ec",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 25,
+                "content": "Công thức thể tích vật thể tròn xoay thu được khi quay hình phẳng (phần gạch sọc của hình vẽ) xung quanh trục Ox là\n$/image_{https://cdn.save.moe/b/GvPGn.png?dl=1}_{left}_{40}_{block}$\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\pi\\displaystyle \\int_{0}^{1}(2-x)dx+\\pi\\displaystyle \\int_{1}^{2}x^{2}dx$."
+                        },
+                        {
+                            "content": "$\\pi\\displaystyle \\int_{0}^{1}x^{2}dx+\\pi\\displaystyle \\int_{1}^{2}(2-x)dx$."
+                        },
+                        {
+                            "content": "$\\pi\\displaystyle \\int_{0}^{2}(2-x+x^{2})dx$."
+                        },
+                        {
+                            "content": "$\\pi\\displaystyle \\int_{0}^{2}x^{2}dx+\\pi\\displaystyle \\int_{2}^{4}(2-x)dx.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Ta chia hình phẳng gạch chéo làm 2 phần: từ 0 đến 1 giới hạn bởi $y=x$, và từ 1 đến 2 giới hạn bởi $y=\\sqrt{2-x}$.\r\nÁp dụng công thức thể tích vật thể tròn xoay quanh trục Ox: $V=\\pi\\displaystyle \\int_{0}^{1}x^{2}dx+\\pi\\displaystyle \\int_{1}^{2}(2-x)dx$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "465273e6-f58c-4d6a-8e47-de0794438992",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 26,
+                "content": "Điền số thích hợp vào chỗ trống\r\nTrong mặt phẳng toạ độ Oxy, ở góc phần tư thứ nhất ta lấy 3 điểm phân biệt; cứ thế ở các góc phần tư thứ hai, thứ ba, thứ tư lần lượt lấy 4, 5, 6 điểm phân biệt (các điểm không nằm trên các trục toạ độ). Trong 18 điểm đó ta lấy 2 điểm bất kỳ và nối chúng lại. Khi đó, có ____ đoạn thẳng cắt hai trục toạ độ, biết đoạn thẳng nối 2 điểm bất kì không qua O.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "39"
+                    ]
+                },
+                "answer_detail": "Để chọn 2 điểm trong 18 điểm đã cho nối lại cắt hai trục toạ độ thì hai điểm đó phải thuộc hai góc phần tư đối đỉnh với nhau.\r\nTH1: Chọn 1 điểm ở góc phần tư thứ I và 1 điểm ở góc phần tư thứ III. Số đoạn thẳng tạo thành: $3.5=15$.\r\nTH2: Chọn 1 điểm ở góc phần tư thứ II và 1 điểm ở góc phần tư thứ IV. Số đoạn thẳng tạo thành: $4.6=24$.\r\nTheo quy tắc cộng ta có $24+15=39$ đoạn thẳng.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "a15b440d-2fe5-4f6a-ae4e-2d59e42a3811",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 27,
+                "content": "Cho hình lăng trụ đứng ABC.A'B'C' có đáy là tam giác đều cạnh a và thể tích là $\\dfrac{3a^{3}}{8}$. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$AA^{\\prime}=\\dfrac{a\\sqrt{3}}{2}$"
+                        },
+                        {
+                            "content": "Gọi H là hình chiếu vuông góc của A trên BC. Góc $AHA^{\\prime}=60^{\\circ}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/E7EfF.png?dl=1}_{left}_{40}_{block}$\nDiện tích tam giác ABC là $S_{ABC}=\\dfrac{a^{2}\\sqrt{3}}{4}.$\nTa có $V_{ABC.A'B'C'}=AA^{\\prime}.S_{ABC}\\Rightarrow AA^{\\prime}=\\dfrac{V}{S_{ABC}}=\\dfrac{3a^{3}/8}{a^{2}\\sqrt{3}/4}=\\dfrac{a\\sqrt{3}}{2}.$ (Phát biểu a đúng).\nGọi H là hình chiếu vuông góc của A trên BC. Khi đó $BC \\perp (AA^{\\prime}H)$ nên góc giữa (A'BC) và (ABC) là góc AHA'.\nTa có $AH=\\dfrac{a\\sqrt{3}}{2}, tan(AHA^{\\prime})=\\dfrac{AA^{\\prime}}{AH}=\\dfrac{a\\sqrt{3}/2}{a\\sqrt{3}/2}=1\\Rightarrow AHA^{\\prime}=45^{0}.$ (Phát biểu b sai).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "a8c5964a-87fa-44f6-9382-8abd30b3f202",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 28,
+                "content": "Cho hàm số $f(x)=\\dfrac{25^{x}-4}{25^{x}+5}$. Giá trị của biểu thức $S=f(\\dfrac{1}{2023})+f(\\dfrac{2}{2023})+...+f(\\dfrac{2022}{2023})$ là\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{2022}{5}$"
+                        },
+                        {
+                            "content": "$\\dfrac{1011}{5}.$"
+                        },
+                        {
+                            "content": "1011."
+                        },
+                        {
+                            "content": "2022."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Xét $f(a)+f(1-a)=\\dfrac{25^{a}-4}{25^{a}+5}+\\dfrac{25^{1-a}-4}{25^{1-a}+5}=\\dfrac{25^{a}-4}{25^{a}+5}+\\dfrac{\\dfrac{25}{25^{a}}-4}{\\dfrac{25}{25^{a}}+5}=\\dfrac{25^{a}-4}{25^{a}+5}+\\dfrac{25-4.25^{a}}{25+5.25^{a}}=\\dfrac{5+25^{a}}{5(5+25^{a})}=\\dfrac{1}{5}$.\r\nBiểu thức S là tổng của 2022 số hạng, được chia thành 1011 cặp có tổng bằng 1/5.\r\nVậy $S=\\dfrac{1}{5}.1011=\\dfrac{1011}{5}$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "07006b43-d999-4406-bac5-9744da33ee0c",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 29,
+                "content": "Cho A là tập hợp tất cả các số tự nhiên có 5 chữ số. Chọn ngẫu nhiên một số từ tập A, tính xác suất để chọn được một số chia hết cho 7 và chữ số hàng đơn vị là chữ số 1.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\dfrac{643}{45000}.$"
+                        },
+                        {
+                            "content": "$\\dfrac{1285}{90000}.$"
+                        },
+                        {
+                            "content": "$\\dfrac{107}{7500}$"
+                        },
+                        {
+                            "content": "$\\dfrac{143}{10000}.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Số các số tự nhiên có 5 chữ số là $90000$.\r\nGọi số cần tìm là $x=\\overline{abcd1}=10\\overline{abcd}+1=3\\overline{abcd}+7\\overline{abcd}+1$.\r\nĐể x chia hết cho 7 thì $3\\overline{abcd}+1$ chia hết cho 7.\r\nĐặt $3\\overline{abcd}+1=7k \\Rightarrow \\overline{abcd}=2k + \\dfrac{k-1}{3}$.\r\nĐặt $k=3t+1$. Ta được $\\overline{abcd}=7t+2$.\r\nVì $1000 \\le \\overline{abcd} \\le 9999 \\Rightarrow 1000 \\le 7t+2 \\le 9999 \\Rightarrow 142,5 \\le t \\le 1428,1$.\r\nSố giá trị t là $1428 - 143 + 1 = 1286$.\r\nXác suất: $\\dfrac{1286}{90000}=\\dfrac{643}{45000}.$",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "f7af1d2f-6c5c-40a5-b0ed-b113ae032063",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 30,
+                "content": "Có bao nhiêu giá trị nguyên của tham số a thuộc đoạn [0;2025] sao cho ba số $5^{x+1}+5^{1-x}$; $\\dfrac{a}{2};25^{x}+25^{-x}$, theo thứ tự đó, lập thành một cấp số cộng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2025."
+                        },
+                        {
+                            "content": "2024."
+                        },
+                        {
+                            "content": "2018."
+                        },
+                        {
+                            "content": "2014."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Ba số lập thành cấp số cộng $\\Leftrightarrow a = (5^{x+1}+5^{1-x})+(25^{x}+25^{-x}) = 5(5^x+5^{-x}) + ((5^x)^2+(5^{-x})^2)$.\r\nĐặt $t=5^x+5^{-x} \\ge 2$.\r\n$a = 5t + t^2 - 2$. Hàm số đồng biến với $t \\ge 2$.\r\n$a \\ge 5(2) + 2^2 - 2 = 12$.\r\nTrong đoạn [0;2025], $a \\in [12;2025]$.\r\nSố giá trị nguyên của a là $2025 - 12 + 1 = 2014$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "4ee57223-053d-4ba3-b76a-555d04158b17",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 31,
+                "content": "Kéo thả vào vị trí thích hợp\r\nTrong hệ toạ độ Oxy:\r\nKhoảng cách Euclid và khoảng cách Manhattan giữa 2 điểm $A(1;3)$ và $B(4;-1)$ lần lượt là ____ và ____\r\nKhoảng cách Euclid giữa hai điểm A và B bất kỳ luôn ____ khoảng cách Manhattan giữa hai điểm đó.\r\nKhoảng cách Euclid giữa hai điểm A và B phân biệt bằng khoảng cách Manhattan giữa hai điểm đó khi và chỉ khi đường thẳng đi qua 2 điểm A và B ____ với một trong hai trục toạ độ.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$5$",
+                        "$7$",
+                        "lớn hơn hoặc bằng",
+                        "vuông góc",
+                        "nhỏ hơn hoặc bằng",
+                        "song song"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        4,
+                        3
+                    ]
+                },
+                "answer_detail": "$/image_{https://cdn.save.moe/b/eULfSO.png?dl=1}_{left}_{40}_{block}$\nKhoảng cách Euclid: $\\sqrt{(4-1)^2+(-1-3)^2} = 5$.\nKhoảng cách Manhattan: $|4-1| + |-1-3| = 3+4=7$.\nKhoảng cách Euclid luôn nhỏ hơn hoặc bằng khoảng cách Manhattan (Bất đẳng thức tam giác).\nDấu bằng xảy ra khi đoạn thẳng song song với trục (tức là vuông góc với trục còn lại).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "d0033be4-67d3-46f7-897b-6498b7f5ec04",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 32,
+                "content": "Dung dịch muối NaCl có nồng độ 20% (tức là trong 100 g dung dịch NaCl có 20 g NaCl nguyên chất). Nếu ta thêm x gam muối tinh khiết vào 500 g dung dịch muối có sẵn ta được dung dịch mới có nồng độ $f(x)\\%$. Xác định công thức hàm $f(x)$?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$f(x)=\\dfrac{x}{500}.100$."
+                        },
+                        {
+                            "content": "$f(x)=\\dfrac{(x+500)}{x}.100.$"
+                        },
+                        {
+                            "content": "$f(x)=\\dfrac{x+100}{x+500}.100$"
+                        },
+                        {
+                            "content": "$f(x)=\\dfrac{x+100}{x}.100.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Trong 500g dung dịch 20% có $500 \\times 0.2 = 100g$ muối.\r\nThêm x gam muối, tổng khối lượng muối là $100+x$.\r\nTổng khối lượng dung dịch là $500+x$.\r\nNồng độ $f(x) = \\dfrac{100+x}{500+x}.100$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "0d8164a2-f40d-44a4-b541-1b10e11e7091",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 33,
+                "content": "Số học sinh khối 12 của một trường học là một số có ba chữ số và khi yêu cầu các em học sinh này xếp thành 16 hàng, 20 hàng hoặc 24 hàng đều nhau thì vừa đủ. Số học sinh khối 12 của trường đó có thể là số nào sau đây?\r",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "640"
+                        },
+                        {
+                            "content": "240"
+                        },
+                        {
+                            "content": "480"
+                        },
+                        {
+                            "content": "520"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Gọi x là số học sinh. x chia hết cho 16, 20, 24.\r\nBCNN(16, 20, 24) = 240.\r\nx là bội của 240 và có 3 chữ số.\r\n$x \\in \\{240; 480; 720; 960\\}$.\r\nCác đáp án phù hợp là 240 và 480.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "4ae90e49-2479-4b5b-96ff-ca1e122a7ba5",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 34,
+                "content": "Kéo thả vào vị trí thích hợp\nCho hai hàm số bậc ba $y=f(x)$ và $y=g(x)$ có đồ thị như hình vẽ:\n$/image_{https://cdn.save.moe/b/kXEub7.png?dl=1}_{left}_{40}_{block}$\nDiện tích của phần tô màu vàng (từ a đến b) là: ____\nDiện tích của phần tô màu xanh (từ b đến c) là: ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle \\int_{a}^{b}[f(x)-g(x)]dx$",
+                        "$\\displaystyle \\int_{b}^{c}[g(x)-f(x)]dx$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1
+                    ]
+                },
+                "answer_detail": "Trên đoạn [a,b], đồ thị f(x) nằm trên g(x) (dựa vào hình vẽ và logic diện tích dương), nên diện tích là $\\displaystyle \\int_{a}^{b}[f(x)-g(x)]dx$.\r\nTrên đoạn [b,c], đồ thị g(x) nằm trên f(x), nên diện tích là $\\displaystyle \\int_{b}^{c}[g(x)-f(x)]dx$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "037b2672-1dcc-4a2b-9685-90a6d10453b6",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 35,
+                "content": "Một số hàm hyperbol được xác định bởi công thức như sau: $sinhx=\\dfrac{e^{x}-e^{-x}}{2};coshx=\\dfrac{e^{x}+e^{-x}}{2};$ $tanhx=\\dfrac{sinhx}{coshx}$ $cothx=\\dfrac{coshx}{sinhx}$.\r\nTrong các khẳng định dưới đây, khẳng định nào đúng, khẳng định nào sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hàm số $y=$ cothx có tập xác định $D=\\mathbb{R}$."
+                        },
+                        {
+                            "content": "Trong ba hàm số $y=$ sinhx; $y=$ coshx; $y=$ tanhx có hai hàm số lẻ."
+                        },
+                        {
+                            "content": "$cosh^{2}x-sinh^{2}x=1\\forall x\\in\\mathbb{R}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "a) cothx xác định khi sinhx khác 0 $\\Leftrightarrow x \\ne 0$. Tập xác định là $\\mathbb{R} \\backslash \\{0\\}$. (Sai)\r\nb) sinh(-x) = -sinh(x) (Lẻ); cosh(-x) = cosh(x) (Chẵn); tanh(-x) = -tanh(x) (Lẻ). Có 2 hàm số lẻ. (Đúng)\r\nc) $cosh^2 - sinh^2 = (\\dfrac{e^x+e^{-x}}{2})^2 - (\\dfrac{e^x-e^{-x}}{2})^2 = \\dfrac{e^{2x}+2+e^{-2x} - (e^{2x}-2+e^{-2x})}{4} = \\dfrac{4}{4} = 1$. (Đúng)",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "dfe8bc3a-e843-4c64-8a4e-9e42bb220c0c",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 36,
+                "content": "Mai muốn rán 14 chiếc bánh giống hệt nhau. Mai có một chiếc chảo chỉ chứa được 3 chiếc bánh cho một lần rán. Mỗi chiếc bánh phải rán đủ 2 mặt. Thời gian rán một mặt của mỗi chiếc bánh là 4 phút. Hỏi Mai cần ít nhất bao nhiêu thời gian để rán xong số bánh Mai muốn?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "48 phút"
+                        },
+                        {
+                            "content": "44 phút"
+                        },
+                        {
+                            "content": "40 phút"
+                        },
+                        {
+                            "content": "36 phút"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Tổng số mặt cần rán: 14 * 2 = 28 mặt.\r\nMỗi lượt rán được 3 mặt trong 4 phút.\r\nSố lượt rán tối thiểu: 28 / 3 = 9,33 lượt.\r\nTuy nhiên, cần tính toán sắp xếp.\r\nLời giải tham khảo: Số lần rán ít nhất là 5 lần (vì 14/3 = 4.66 -\u003e 5 mẻ).\r\nMỗi mẻ (lần rán) tốn 8 phút (2 mặt)? Không, lời giải ghi: \"Mai cần 8 phút để rán xong 2 mặt bánh (tức là xong 1 lần rán thì Mai cần 8 phút)\".\r\nNếu rán theo mẻ 3 cái:\r\nMẻ 1 (3 cái): 8 phút.\r\nMẻ 2 (3 cái): 8 phút.\r\nMẻ 3 (3 cái): 8 phút.\r\nMẻ 4 (3 cái): 8 phút.\r\nMẻ 5 (2 cái): 8 phút.\r\nTổng: 40 phút.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "39abbac7-140d-461d-9c0f-92eac4d706e6",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 37,
+                "content": "Cho $lim_{x\\rightarrow1}\\dfrac{f(x)+1}{x+1}=-1$. Tính $I=lim_{x\\rightarrow1}\\dfrac{(x^{2}+x)f(x)+2}{x+4}$.\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$I=-\\dfrac{4}{5}$"
+                        },
+                        {
+                            "content": "$I=\\dfrac{4}{5}$"
+                        },
+                        {
+                            "content": "$I=4$"
+                        },
+                        {
+                            "content": "$I=-5$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Từ giả thiết $\\Rightarrow f(1)+1 = -1(1+1) = -2 \\Rightarrow f(1)=-3$.\r\n$I = \\dfrac{(1^2+1)f(1)+2}{1+4} = \\dfrac{2(-3)+2}{5} = -\\dfrac{4}{5}$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "ceb6cc43-1e0b-4e74-be5e-1355e330cf74",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 38,
+                "content": "Điền số thích hợp vào chỗ trống\nCho hàm số đa thức bậc bốn $y=f(x)$ có đồ thị như hình vẽ dưới đây.\n$/image_{https://cdn.save.moe/b/6rHQw6.png?dl=1}_{left}_{40}_{block}$\nPhương trình $f(x)-1=0$ có ____ nghiệm thực phân biệt.\nKhi $m\\in(0;1)$ thì phương trình $f(x)=m$ có ____ nghiệm thực phân biệt.\nKhi $m\\in(1;+\\infty)$ thì phương trình $f(x)=m$ có tối đa ____ nghiệm thực phân biệt.\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3",
+                        "4",
+                        "2"
+                    ]
+                },
+                "answer_detail": "Dựa vào đồ thị:\n$/image_{https://cdn.save.moe/b/6rHQw6.png?dl=1}_{left}_{40}_{block}$\n- Đường thẳng y=1 cắt đồ thị tại 3 điểm (tiếp xúc tại cực đại phải và cắt nhánh trái).\n$/image_{https://cdn.save.moe/b/PgoKh.png?dl=1}_{left}_{40}_{block}$\n- Với $0 \u003c m \u003c 1$, đường thẳng y=m cắt đồ thị tại 4 điểm.\n$/image_{https://cdn.save.moe/b/62Ow0.png?dl=1}_{left}_{40}_{block}$\n- Với $m \u003e 1$, đường thẳng y=m cắt đồ thị tại tối đa 2 điểm (hoặc 0 điểm nếu m quá lớn).",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "0dc8229e-3501-49f4-9b9b-dbfea321fc55",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 39,
+                "content": "Kéo thả vào vị trí thích hợp\n$/image_{https://cdn.save.moe/b/M2n3C.png?dl=1}_{left}_{30}_{block}$\nCho khối trụ có thiết diện qua trục là hình vuông có diện tích bằng $16~cm^{2}$.\nDiện tích xung quanh của hình trụ là ____ $(cm^{2})$ và diện tích toàn phần là ____ $(cm^{2})$\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$16\\pi$",
+                        "$24\\pi$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1
+                    ]
+                },
+                "answer_detail": "Thiết diện là hình vuông diện tích 16 $\\Rightarrow$ cạnh = 4.\r\nChiều cao h = 4, đường kính đáy 2r = 4 $\\Rightarrow$ r = 2.\r\n$S_{xq} = 2\\pi rh = 2\\pi.2.4 = 16\\pi$.\r\n$S_{tp} = S_{xq} + 2\\pi r^2 = 16\\pi + 2\\pi.4 = 24\\pi$.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            },
+            {
+                "id": "6c87dbdc-4c17-40bb-aba0-ac14afc2f12d",
+                "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+                "position": 40,
+                "content": "Điền số thích hợp vào chỗ trống\r\nCho cấp số cộng có $u_{1}=2025$, $d=-5$. Bắt đầu từ số hạng ____ của cấp số cộng đó thì nó nhận giá trị âm.\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "407"
+                    ]
+                },
+                "answer_detail": "$u_n = u_1 + (n-1)d = 2025 - 5(n-1)$.\r\nĐể $u_n \u003c 0 \\Leftrightarrow 2025 - 5n + 5 \u003c 0 \\Leftrightarrow 5n \u003e 2030 \\Leftrightarrow n \u003e 406$.\r\nSố hạng đầu tiên nhận giá trị âm là số hạng thứ 407.",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-11T09:51:32.204727+07:00",
+                "updated_at": "2026-02-11T09:51:32.204727+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "934e4c14-c062-4532-a04d-91f77b06d360",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "2b77884b-6625-499a-9444-1454bca6441e",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:35:08.429681+07:00",
+        "updated_at": "2026-03-02T15:35:08.429681+07:00",
+        "submited_at": "2026-03-02T15:35:08.429681+07:00"
+    }
+}

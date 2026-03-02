@@ -1,0 +1,1408 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+        "title": "Đề thường TSA 04: Tư duy Khoa học",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-20T14:37:34.040709+07:00",
+        "updated_at": "2026-02-22T08:16:57.039004+07:00",
+        "questions": [
+            {
+                "id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+                "position": 1,
+                "content": "Điện trở nhiệt (thermistor) là linh kiện có điện trở thay đổi một cách rõ rệt theo nhiệt độ. Điện trở nhiệt được ứng dụng rộng rãi trong kĩ thuật điện tử, làm cảm biến nhiệt (Hình 1).\n$/image_{https://cdn.save.moe/b/De2J7e0.png?dl=1}_{center}_{60}_{block}$\nĐể khảo sát sự phụ thuộc của giá trị điện trở của điện trở nhiệt NTC (Negative Temperature Coefficient) vào nhiệt độ, người ta làm thí nghiệm như sau:\n• Bố trí thí nghiệm như Hình 2.\n• Đặt điện trở nhiệt vào giữa bình, đặt nhiệt kế vào trong bình, cạnh điện trở nhiệt.\n• Đổ nước mát vào bình cách nhiệt sao cho lượng nước ngập cảm biến của nhiệt kế. Sau khoảng 2 phút, đo nhiệt độ của nước và điện trở của điện trở nhiệt.\n• Tăng nhiệt độ của nước trong bình bằng cách thêm từ từ nước nóng vào bình. Chờ nhiệt độ của nước trong bình ổn định. Đo nhiệt độ của nước và điện trở của điện trở nhiệt.\n• Lặp lại thao tác để đo nhiệt độ và điện trở của điện trở nhiệt ở các nhiệt độ khác.\nKết quả thí nghiệm thu được cho như trong Bảng 1.\n$/image_{https://cdn.save.moe/b/HMSc2W.png?dl=1}_{center}_{70}_{block}$\nNgoài điện trở nhiệt NTC, trong thực tế còn có loại điện trở nhiệt PTC (Positive Temperature Coefficient). Điện trở của điện trở nhiệt PTC tăng khi nhiệt độ tăng.\n(Soạn dựa theo nội dung sách giáo khoa Vật lí 11 – Bộ Kết nối tri thức với cuộc sống, 2023)",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T17:08:42.197859+07:00",
+                "updated_at": "2026-02-20T17:08:42.197859+07:00",
+                "questions": [
+                    {
+                        "id": "04834bbe-6514-41f1-b80e-346b3c6344b1",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 1,
+                        "content": "Trong thí nghiệm khảo sát sự phụ thuộc của giá trị điện trở của điện trở nhiệt NTC, ở nhiệt độ $32^{\\circ}C$, giá trị điện trở của điện trở nhiệt là ____ $\\Omega$.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "33333,3"
+                            ]
+                        },
+                        "answer_detail": "Xem thông tin ở bảng 1.\n$/image_{https://cdn.save.moe/b/qcDBgY9.png?dl=1}_{center}_{60}_{block}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "bc56ba07-766e-4996-ba5f-85e428399521",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 2,
+                        "content": "Kéo thả các từ/cụm từ sau vào vị trí thích hợp.\n\"Loại điện trở nhiệt khi nhiệt độ tăng thì điện trở giảm gọi là ____, ký hiệu là ____. Loại điện trở nhiệt khi nhiệt độ tăng thì điện trở tăng gọi là ____, ký hiệu là ____.\"",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "thuận điện trở nhiệt",
+                                "nghịch điện trở nhiệt",
+                                "NTC",
+                                "PTC"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "1; 2; 0; 3"
+                            ]
+                        },
+                        "answer_detail": "Từ bảng 1 có thể thấy khi nhiệt độ tăng thì điện trở của điện trở nhiệt NTC giảm.\r\nTrong đoạn văn có đề cập đến thông tin: “Điện trở của điện trở nhiệt PTC tăng khi nhiệt độ tăng.\" \r\nVậy, câu hoàn chỉnh là:\r\nLoại điện trở nhiệt khi nhiệt độ tăng thì điện trở giảm gọi là nghịch điện trở nhiệt, ký hiệu là NTC.\r\nLoại điện trở nhiệt khi nhiệt độ tăng thì điện trở tăng gọi là thuận điện trở nhiệt, ký hiệu là PTC.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "693848bd-2b65-4b9c-b9e6-428e8173e311",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 3,
+                        "content": "Điện trở nhiệt được sử dụng chủ yếu trong lĩnh vực nào sau đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nông nghiệp."
+                                },
+                                {
+                                    "content": "Năng lượng tái tạo."
+                                },
+                                {
+                                    "content": "Điện tử."
+                                },
+                                {
+                                    "content": "Y tế."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Theo phần dẫn, ta có: Điện trở nhiệt được ứng dụng rộng rãi trong kĩ thuật điện tử, làm cảm biến nhiệt.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "b00e2021-752a-4881-9edf-aa61ece96b65",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 4,
+                        "content": "Trong bảng kết quả thí nghiệm, khi nhiệt độ tăng từ $5^{\\circ}C$ đến $41^{\\circ}C$ thì giá trị điện trở của điện trở nhiệt NTC",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "tăng lên 36 $\\Omega$."
+                                },
+                                {
+                                    "content": "giảm đi 36 $\\Omega$."
+                                },
+                                {
+                                    "content": "tăng lên 99428,7 $\\Omega$."
+                                },
+                                {
+                                    "content": "giảm đi 99428,7 $\\Omega$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Xem thông tin ở bảng 1.\n$/image_{https://cdn.save.moe/b/EjMHF6.png?dl=1}_{center}_{60}_{block}$\nKhi nhiệt độ tăng từ $5^{\\circ}C$ đến $41^{\\circ}C$ thì điện trở của điện trở nhiệt NTC giảm từ 121951,2 xuống 22522,5 tương ứng với giá trị giảm đi 99428,7.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "62a0462c-1224-4bd1-81c1-b5da32052594",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 5,
+                        "content": "Trong khoảng nhiệt độ nào dưới đây, giá trị điện trở của điện trở nhiệt biến đổi chậm nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$9^{\\circ}C - 15^{\\circ}C$."
+                                },
+                                {
+                                    "content": "$26^{\\circ}C - 32^{\\circ}C$."
+                                },
+                                {
+                                    "content": "$41^{\\circ}C - 49^{\\circ}C$."
+                                },
+                                {
+                                    "content": "$74^{\\circ}C - 80^{\\circ}C$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "$/image_{https://cdn.save.moe/b/dv5QKU.png?dl=1}_{center}_{60}_{block}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "43c77013-3917-49a6-9d1d-e13b448ddaf7",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 6,
+                        "content": "Kéo thả các từ/cụm từ sau vào vị trí thích hợp.\nĐồ thị sau đây biểu diễn sự phụ thuộc của giá trị điện trở theo nhiệt độ đối với hai loại điện trở nhiệt NTC và PTC.\n$/image_{https://cdn.save.moe/b/xxp1GqU.png?dl=1}_{center}_{60}_{block}$\n\"Đường màu xanh thể hiện sự phụ thuộc của giá trị điện trở theo nhiệt độ đối với điện trở nhiệt ____. Đường màu đỏ thể hiện sự phụ thuộc của giá trị điện trở theo nhiệt độ đối với điện trở nhiệt ____.\"",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "NTC",
+                                "PTC"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "0; 1"
+                            ]
+                        },
+                        "answer_detail": "Đồ thị màu xanh có giá trị R giảm dần khi nhiệt độ tăng nên đây là đường biểu diễn đối với điện trở nhiệt NTC.\r\nĐồ thị màu đỏ có giá trị R tăng dần khi nhiệt độ tăng nên đây là đường biểu diễn đối với điện trở nhiệt PTC.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "6ba4c7e6-a0a8-40c7-aaa7-83eab13668eb",
+                        "parent_id": "636c9c32-f79b-4596-a47a-a2131cde6f07",
+                        "position": 7,
+                        "content": "Điện trở nhiệt NTC được sử dụng trong mạch điện như hình vẽ. Nguồn điện không đổi có hiệu điện thế 10 V và điện trở trong không đáng kể. Điện trở của điện trở nhiệt NTC thay đổi theo nhiệt độ như trong bảng 1. \n$/image_{https://cdn.save.moe/b/2AQI5.png?dl=1}_{center}_{60}_{block}$\nHiệu điện thế ra $U_{NTC}$ ở nhiệt độ $62^{\\circ}C$ là ____ V. (Làm tròn đến chữ số thập phân thứ 2).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "9,05"
+                            ]
+                        },
+                        "answer_detail": "Ở nhiệt độ $62^{\\circ}C, R_{NTC}=9542~\\Omega$.\r\nR và $R_{NTC}$ mắc nối tiếp nên điện trở tương đương của mạch là $R_{td}=R+R_{NTC}$.\r\nCường độ dòng điện chạy trong mạch là: $I=\\frac{U}{R+R_{NTC}} \\Rightarrow U_{NTC}=I.R_{NTC}=\\frac{U.R_{NTC}}{R+R_{NTC}}$.\r\nThay số: $U_{NTC}=\\frac{10.9542}{1000+9542}=9,05~V$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+                "position": 2,
+                "content": "Người ta thực hiện nhiều phép lai trên đậu nành để tìm ra được các quy luật di truyền về các đặc điểm hình thái như: màu sắc hoa, hình dạng lá, màu sắc trụ dưới lá mầm, chiều cao cây và độ dài của quả. Trong đó một số tính trạng được gọi là tính trạng chất lượng, thường do đơn gen quy định; và tính trạng số lượng, do nhiều gen quy định, thường biến động liên tục. Các trạng thái khác nhau của cùng một gen được quy định bởi các alen tương ứng. Các alen trội có khả năng lấn át một biến thể khác của cùng một gen, trong khi các alen lặn thường bị che lấp bởi các alen trội. Một cây đậu nành mang alen lặn nhưng có thể sẽ không biểu hiện ra trạng thái kiểu hình ở thế hệ đó, mà phải chờ tới các thế hệ sau, cho tới khi không còn bị lấn át bởi alen trội. Một số tính trạng trội và tính trạng lặn về các đặc điểm hình thái của đậu nành được trình bày trong Bảng 1 dưới đây:\n$/image_{https://cdn.save.moe/b/mhGuvu.png?dl=1}_{center}_{60}_{block}$\nHình 1 dưới đây là sơ đồ thể hiện sự di truyền của một số tính trạng qua các thế hệ:\n$/image_{https://cdn.save.moe/b/l173w.png?dl=1}_{left}_{60}_{block}$\nHình 1",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T17:08:42.197859+07:00",
+                "updated_at": "2026-02-20T17:08:42.197859+07:00",
+                "questions": [
+                    {
+                        "id": "c7d27546-2a6f-4e79-b2f2-cc388fa8e347",
+                        "parent_id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                        "position": 1,
+                        "content": "Sự di truyền được thể hiện trong hình 1 là di truyền theo quy luật ____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "phân li"
+                            ]
+                        },
+                        "answer_detail": "Quy luật phân li: mỗi cặp tính trạng được quy định bởi 1 cặp alen, có sự phân li đồng đều của các alen trong quá trình hình thành giao tử.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "9e33ae89-248b-4c69-9ffe-32246be3890c",
+                        "parent_id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                        "position": 2,
+                        "content": "Giải thích nào sau đây là hợp lí nhất cho việc màu xanh của trụ dưới lá mầm không xuất hiện ở thế hệ $F_{1}$ mà đến thế hệ $F_{2}$ mới xuất hiện?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Không có cá thể nào thuộc thế hệ $F_{2}$ mang alen quy định trụ dưới lá mầm màu xanh."
+                                },
+                                {
+                                    "content": "Các cá thể của thế hệ P và $F_{1}$ đều không mang gen quy định màu sắc của trụ dưới lá mầm."
+                                },
+                                {
+                                    "content": "Sự tổ hợp alen lặn chỉ được diễn ra ở thế hệ $F_{2}$."
+                                },
+                                {
+                                    "content": "Alen quy định màu xanh của trụ dưới lá mầm là alen trội."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Giả sử quy ước alen A – màu tím, alen a – màu xanh của trụ dưới lá mầm.\r\nNhư vậy cây (2) sẽ có kiểu gen aa, thế hệ $F_{1}$ 100% A-, như vậy cây (1) có kiểu gen AA.\r\nKhi cho lai giữa các cây thế hệ $F_{1}$, ta được phép lai: $Aa \\times Aa \\rightarrow F_{2}$ 3A- : 1aa.\r\nNhư vậy tới thế hệ $F_{2}$ thì các alen lặn mới được tổ hợp với nhau và biểu hiện ra kiểu hình.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "f07705ac-e908-4659-ad66-f8a02cbc9259",
+                        "parent_id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                        "position": 3,
+                        "content": "Kéo thả các từ/cụm từ sau vào vị trí thích hợp.\n\"Các ____ phụ thuộc chủ yếu vào kiểu gen, không hoặc chịu ảnh hưởng rất ít từ môi trường. Còn các ____ chịu ảnh hưởng nhiều của môi trường tự nhiên, điều kiện trồng trọt và chăn nuôi nên biểu hiện rất khác nhau.\"",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                "tính trạng chất lượng",
+                                "tính trạng số lượng"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "0; 1"
+                            ]
+                        },
+                        "answer_detail": "Theo bài đọc: “Trong đó một số tính trạng được gọi là tính trạng chất lượng, thường do đơn gen quy định; và tính trạng số lượng, do nhiều gen quy định, thường biến động liên tục.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "ee80d920-c1df-4079-bb07-14ccb4dbf580",
+                        "parent_id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                        "position": 4,
+                        "content": "Để cho các alen của một gen phân li đồng đều về các giao tử (50% giao tử chứa alen này, 50% giao tử chứa alen kia) thì cần có điều kiện nào dưới đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Quá trình giảm phân phải xảy ra bình thường."
+                                },
+                                {
+                                    "content": "Bố mẹ phải thuần chủng."
+                                },
+                                {
+                                    "content": "Số lượng cá thể con lai phải lớn."
+                                },
+                                {
+                                    "content": "Alen trội phải trội hoàn toàn so với alen lặn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Quá trình giảm phân nếu xảy ra bất thường, các alen không phân li thì sẽ dẫn tới hiện tượng có giao tử chứa nhiều hơn 1 alen, và có giao tử không chứa alen nào.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "d27a8748-650d-453a-ac08-e4e6863aafe5",
+                        "parent_id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                        "position": 5,
+                        "content": "Phát biểu nào sau đây là đúng khi nói về kiểu gen của cây (a) ở thế hệ P trong Hình 1?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Kiểu gen của cây (a) là đồng hợp lặn."
+                                },
+                                {
+                                    "content": "Kiểu gen của cây (a) là đồng hợp trội."
+                                },
+                                {
+                                    "content": "Kiểu gen của cây (a) là dị hợp."
+                                },
+                                {
+                                    "content": "Kiểu gen của cây (a) chỉ có 1 alen."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Giả sử quy ước alen B – lá tròn, alen b – lá dẹt.\r\nTa thấy ở thế hệ $F_{1}$: 50% lá tròn (B-) : 50% lá dẹt (bb).\r\nKiểu hình lá dẹt có kiểu gen bb nhận 2 alen b từ thế hệ P, nên cây (a) phải có kiểu gen Bb – dị hợp.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "0df45f3a-0920-41b7-aed1-08771bc44f6b",
+                        "parent_id": "8b263c94-8940-48ee-8d55-463d4fe913de",
+                        "position": 6,
+                        "content": "Phát biểu sau đúng hay sai? \"Có thể xác định chính xác kiểu gen của cây (c) và (d) ở thế hệ $F_{1}$.\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Kiểu gen của cây (c) và (d) là kiểu gen dị hợp do luôn nhận được alen lặn từ cây (b).",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+                "position": 3,
+                "content": "Trong giới hạn phân bố địa lý của quần thể, mật độ của từng khu vực có thể rất khác nhau. Đó là một trong những nội dung quan trọng được các nhà sinh thái học nghiên cứu. Các nghiên cứu này giúp cho chúng ta hiểu sâu sắc hơn quan hệ giữa sinh vật với môi trường và sự tương tác giữa các cá thể trong quần thể. Sự khác biệt về môi trường – thậm chí chỉ ở mức độ địa phương – cũng góp phần làm thay đổi mật độ của quần thể. Một số nơi ở hẹp rất phù hợp với loài này nhưng lại không phù hợp với loài khác. Sự tương tác trong xã hội sinh vật, giữa các cá thể trong quần thể có thể duy trì khoảng cách phân bố giữa các cá thể, cũng có thể góp phần làm thay đổi mật độ của quần thể.\nKiểu phân bố phổ biến nhất là phân bố theo nhóm, với nhiều cá thể tập hợp theo nhóm ở một vị trí. Thực vật và nấm thường phân bố theo nhóm ở những nơi có các điều kiện về đất và các nhân tố khác của môi trường phù hợp cho hạt nảy mầm và phát triển. Kiểu phân bố đồng đều (khoảng cách giữa các cá thể bằng nhau) là kết quả từ sự tương tác giữa các cá thể trong quần thể. Ví dụ, một số cây tiết chất hóa học gây ức chế sự nảy mầm và sinh trưởng của các cá thể ở xung quanh chúng, cá thể bị ức chế là những cá thể có thể cạnh tranh và giành nguồn sống với các cây đó. Động vật thường có kiểu phân bố đồng đều do sự tương tác đối kháng giữa các cá thể trong xã hội sinh vật. Trong kiểu phân bố ngẫu nhiên (khoảng cách giữa các cá thể là không ổn định) vị trí của mỗi cá thể là độc lập với các cá thể khác. Kiểu phân bố này xuất hiện khi các cá thể không hấp dẫn mạnh lẫn nhau, hoặc không có sự cạnh tranh gay gắt giữa các cá thể trong quần thể, hay khi các nhân tố hóa học và vật lý chủ yếu trong khu vực nghiên cứu là đồng đều. Kiểu phân bố ngẫu nhiên không phổ biến trong tự nhiên.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T17:08:42.197859+07:00",
+                "updated_at": "2026-02-20T17:08:42.197859+07:00",
+                "questions": [
+                    {
+                        "id": "fb2f55df-0c8d-4e5a-b18b-5a680757c896",
+                        "parent_id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                        "position": 1,
+                        "content": "Quan sát thấy các cá thể của quần thể phân bố một cách đồng đều, điều đó chứng tỏ",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "kích thước của vùng phân bố của quần thể đang tăng."
+                                },
+                                {
+                                    "content": "nguồn sống phân bố không đồng đều."
+                                },
+                                {
+                                    "content": "các cá thể trong quần thể cạnh tranh nhau giành nguồn sống."
+                                },
+                                {
+                                    "content": "mật độ của quần thể thấp."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Theo đoạn thông tin: “Động vật thường có kiểu phân bố đồng đều do sự tương tác đối kháng giữa các cá thể trong xã hội sinh vật.”",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "b13fc550-f0aa-4cca-a62f-3f760b075234",
+                        "parent_id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                        "position": 2,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống:\n\"Hình thức thụ tinh (1) ____ tiến hóa hơn thụ tinh (2) ____ vì cho hiệu suất thụ tinh (3) ____ hơn.\"",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "trong",
+                                "ngoài",
+                                "cao"
+                            ]
+                        },
+                        "answer_detail": "Hình thức thụ tinh trong tiến hóa hơn thụ tinh ngoài vì cho hiệu suất thụ tinh lớn hơn.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "3508e449-5dc0-426b-9e1b-b29a3651bd4c",
+                        "parent_id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                        "position": 3,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống dưới đây:\n\"Chim cánh cụt trên đảo Nam Georgia ở Nam Đại Tây Dương, giữa các cá thể chim này luôn có sự cạnh tranh và tấn công lẫn nhau nên chúng phù hợp với kiểu phân bố (1) ____\"",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_sinh",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "đồng đều"
+                            ]
+                        },
+                        "answer_detail": "Kiểu phân bố đồng đều luôn duy trì một khoảng cách nhất định giữa các cá thể với nhau, nên hạn chế sự cạnh tranh và tấn công lẫn nhau giữa các cá thể trong cùng một bầy.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "a5fe28b9-9486-4733-9881-74e73f096144",
+                        "parent_id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                        "position": 4,
+                        "content": "Bồ công anh phát tán hạt nhờ gió, đây là kiểu phân bố nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Phân bố ngẫu nhiên."
+                                },
+                                {
+                                    "content": "Phân bố theo nhóm."
+                                },
+                                {
+                                    "content": "Phân bố đồng đều."
+                                },
+                                {
+                                    "content": "Không thể xác định."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Hạt của hoa bồ công anh được phát tán đi nhờ gió, và chúng sẽ nảy mầm trên những vùng đất thuận lợi.\r\nHình thức phát tán này không thể giúp cho loài thực vật phân bố một cách đồng đều hoặc theo nhóm, mà tùy thuộc vào sức gió cũng như sự phù hợp của môi trường.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "5dfc42a6-15da-4de5-a811-90c02fe622cb",
+                        "parent_id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                        "position": 5,
+                        "content": "Phát biểu nào sau đây là đúng khi nói về các kiểu phân bố ở sinh vật?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Kiểu phân bố ngẫu nhiên làm tăng sự hỗ trợ và giảm sự cạnh tranh cùng loài."
+                                },
+                                {
+                                    "content": "Kiểu phân bố cá thể theo nhóm thường gặp khi điều kiện môi trường sống phân bố không đồng đều."
+                                },
+                                {
+                                    "content": "Kiểu phân bố đồng đều thường gặp khi điều kiện môi trường sống đồng đều và không có sự cạnh tranh gay gắt giữa các cá thể."
+                                },
+                                {
+                                    "content": "Sự phân bố cá thể của quần thể không ảnh hưởng tới khả năng khai thác nguồn sống trong khu vực phân bố."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Trong kiểu phân bố theo nhóm, nhiều cá thể sẽ tập trung tại một vị trí, phù hợp với sự sinh trưởng, tồn tại, sinh sản của loài.\r\nKiểu phân bố theo nhóm thường gặp khi điều kiện môi trường sống không đồng đều, giúp tăng cường mối quan hệ hỗ trợ, hợp tác giữa các cá thể trong cùng một loài.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "c6c85801-7414-4293-8795-863d16d6878a",
+                        "parent_id": "8cdbe991-e245-4e35-b2be-432a7a37a6b3",
+                        "position": 6,
+                        "content": "Các phát biểu sau đây đúng hay sai? \"Kiểu phân bố cá thể theo nhóm làm tăng mối quan hệ hỗ trợ giữa các cá thể trong loài.\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Kiểu phân bố cá thể theo nhóm làm tăng sự giúp đỡ, hỗ trợ giữa các cá thể trong loài trong việc săn bắt mồi,...",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+                "position": 4,
+                "content": "Giáo viên yêu cầu 4 học sinh mô tả hình dạng phân tử (sự sắp xếp hình học của các nguyên tử trong phân tử) của một trong 4 phân tử: arsenic trifluoride ($AsF_{3}$), arsenic trichloride ($AsCl_{3}$), arsenic tribromide ($AsBr_{3}$) và arsenic triiodide ($AsI_{3}$).\nHọc sinh 1:\nPhân tử $AsF_{3}$ có dạng hình chữ T với nguyên tử As nằm ở trung tâm. Tất cả các nguyên tử trong $AsF_{3}$ nằm trong cùng một mặt phẳng và có 2 góc liên kết là $90^{\\circ}$ và $180^{\\circ}$ giữa các liên kết As-F liền kề (xem Hình 1).\n$/image_{https://cdn.save.moe/b/8BwyTk.png?dl=1}_{center}_{60}_{block}$\nNguyên tử As có một cặp electron độc thân (cặp electron ngoài cùng không tham gia liên kết) nằm trong cùng một mặt phẳng với các nguyên tử As và F. Cặp electron này đẩy mạnh 3 liên kết As-F, dẫn đến 2 góc liên kết là $90^{\\circ}$ và $180^{\\circ}$. Các phân tử $AsCl_{3}$, $AsBr_{3}$ và $AsI_{3}$ cũng có dạng hình chữ T.\nHọc sinh 2:\nHình dạng của phân tử $AsF_{3}$ là tam giác đều, với nguyên tử As nằm ở trung tâm. Tất cả các nguyên tử trong $AsF_{3}$ nằm trong cùng một mặt phẳng và chỉ có duy nhất góc $120^{\\circ}$ giữa các liên kết As-F liền kề (xem Hình 2).\n$/image_{https://cdn.save.moe/b/x1HKv.png?dl=1}_{center}_{60}_{block}$\nNguyên tử As không có cặp electron độc thân. Lực đẩy giữa 3 liên kết As-F cân bằng với nhau, dẫn đến 1 góc liên kết duy nhất là $120^{\\circ}$. Các phân tử $AsCl_{3}$, $AsBr_{3}$ và $AsI_{3}$ cũng có dạng là tam giác đều.\nHọc sinh 3:\nHình dạng phân tử của $AsF_{3}$ là hình chóp tam giác, với nguyên tử As nằm ở trung tâm. Tất cả các nguyên tử trong $AsF_{3}$ không nằm trong cùng một mặt phẳng và chỉ có 1 góc duy nhất là $109^{\\circ}$ giữa các liên kết As-F liền kề (xem Hình 3).\n$/image_{https://cdn.save.moe/b/3R1U7Oo.png?dl=1}_{center}_{60}_{block}$\nNguyên tử As có một cặp electron độc thân. Lực đẩy giữa cặp electron này và 3 liên kết As-F cân bằng với nhau, dẫn đến 1 góc liên kết duy nhất là $109^{\\circ}$. Các phân tử $AsCl_{3}$, $AsBr_{3}$ và $AsI_{3}$ cũng có dạng là hình chóp tam giác.\nHọc sinh 4:\nHọc sinh 3 đúng, do $AsF_{3}, AsCl_{3}, AsBr_{3}$ và $AsI_{3}$ có cặp electron độc thân nên các phân tử đều có dạng hình chóp tam giác. Các phân tử này chỉ có 1 góc liên kết duy nhất, nhưng góc liên kết đó khác nhau đối với mỗi phân tử. Góc liên kết phụ thuộc vào kích thước của nguyên tử liên kết với nguyên tử As: nguyên tử càng lớn thì góc liên kết càng lớn. Các nguyên tử liên kết với nguyên tử As có kích thước từ nhỏ đến lớn là F, Cl, Br và I.\nSau khi đưa ra 4 mô tả, giáo viên đã sử dụng một chương trình máy tính để: (1) xác định rằng mỗi phân tử có duy nhất 1 góc liên kết; (2) tính góc liên kết cho mỗi phân tử (kết quả trong Bảng 1) .\nBảng 1. Góc liên kết của các phân tử\n$/image_{https://cdn.save.moe/b/7XV1rly.png?dl=1}_{center}_{60}_{block}$\n(Số liệu theo Ian J. McNaught công bố năm 2011)",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T17:08:42.197859+07:00",
+                "updated_at": "2026-02-20T17:08:42.197859+07:00",
+                "questions": [
+                    {
+                        "id": "71f2ae5e-dbd1-400c-ad65-e0a38ad1d825",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 1,
+                        "content": "Phát biểu sau đúng hay sai? \"Học sinh 3 cho rằng, trong phân tử $AsF_{3}$, As có 2 electron độc thân.\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Theo đoạn văn, học sinh 3 cho rằng nguyên tử As có một cặp electron độc thân.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "a3e97696-4484-4041-a63c-de5ea39e1e43",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 2,
+                        "content": "Phát biểu sau đúng hay sai? \"Học sinh 1 và 2 cho rằng tổng của 3 góc liên kết trong phân tử $AsI_{3}$ bằng $360^{\\circ}$.\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Theo đoạn văn, học sinh 1 cho rằng phân tử $AsF_{3}$ có dạng hình chữ T với nguyên tử As nằm ở trung tâm và có 2 góc liên kết là $90^{\\circ}$ và $180^{\\circ}$ giữa các liên kết As-F liền kề (Hình 1). Tổng các góc trong mô hình của học sinh 1 là $180^{\\circ} + 90^{\\circ} + 90^{\\circ} = 360^{\\circ}$.\r\nHọc sinh 2 cho rằng hình dạng của phân tử $AsF_{3}$ là tam giác đều, với nguyên tử As nằm ở trung tâm và chỉ có duy nhất góc $120^{\\circ}$ giữa các liên kết As–F liền kề (Hình 2). Tổng các góc trong mô hình của học sinh 2 là $120^{\\circ} + 120^{\\circ} + 120^{\\circ} = 360^{\\circ}$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "0672800d-b022-42c2-8629-6be176b28c4f",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 3,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống.\n\"Theo học sinh 3, hình dạng của phân tử $AsF_{3}$ là (1) ___\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                "hình chóp tam giác"
+                            ]
+                        },
+                        "answer_detail": "Theo học sinh 3, hình dạng phân tử của $AsF{3}$ là hình chóp tam giác, với nguyên tử As nằm ở trung tâm.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "679e6be9-1d87-4d6f-bb25-25c7bdbf079e",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 4,
+                        "content": "Điền từ/cụm từ thích hợp vào chỗ trống.\n\"Học sinh 3 cho rằng tổng của 3 góc liên kết trong phân tử $AsI_{3}$ bằng (1) ____°\"",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_hoa",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "327"
+                            ]
+                        },
+                        "answer_detail": "Theo đoạn văn, tổng các góc trong mô tả của học sinh 3 là $109^{\\circ} + 109^{\\circ} + 109^{\\circ} = 327^{\\circ}$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "0a99a19d-0d81-4d00-b0d7-fb9dfc54ba62",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 5,
+                        "content": "Học sinh nào đồng ý với phát biểu \"Có 3 góc liên kết trong phân tử $AsF_{3}$\"?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Học sinh 2."
+                                },
+                                {
+                                    "content": "Học sinh 1 và 2."
+                                },
+                                {
+                                    "content": "Học sinh 3 và 4."
+                                },
+                                {
+                                    "content": "Không có học sinh nào."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Học sinh 1 cho rằng có 2 góc liên kết trong phân tử $AsF_{3}$.\r\nHọc sinh 2, 3 và 4 cho rằng chỉ có 1 góc liên kết duy nhất trong phân tử $AsF_{3}$.\r\nKhông có học sinh nào đồng ý rằng có 3 góc liên kết trong phân tử $AsF_{3}$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "aa35cc9c-e9b2-4ca8-8ecb-4a9327edb388",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 6,
+                        "content": "Học sinh nào khẳng định rằng nguyên tử As trong phân tử $AsF_{3}$ có một cặp electron độc thân?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Học sinh 1 và 2."
+                                },
+                                {
+                                    "content": "Học sinh 3 và 4."
+                                },
+                                {
+                                    "content": "Học sinh 1, 3 và 4."
+                                },
+                                {
+                                    "content": "Học sinh 2, 3 và 4."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Theo đoạn văn, chỉ có học sinh 2 nói rằng As không có cặp electron độc thân.\r\nHọc sinh 1, 3 và 4 đều nói rằng As có một cặp electron độc thân.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "62d7f10e-c65d-4410-9aa1-fba1a7bc76e0",
+                        "parent_id": "60afcf7e-f038-4d50-9c9b-259924638a1d",
+                        "position": 7,
+                        "content": "Bảng dưới đây đưa ra khối lượng nguyên tử (amu) của các nguyên tố F, Cl, Br và I.\nBảng khối lượng nguyên tử: \n$/image_{https://cdn.save.moe/b/q9KL5V.png?dl=1}_{center}_{60}_{block}$\nDựa vào mô tả của học sinh 4, trong số các nguyên tố ghi trong bảng, khi khối lượng nguyên tử tăng dần thì bán kính nguyên tử",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "tăng."
+                                },
+                                {
+                                    "content": "giảm."
+                                },
+                                {
+                                    "content": "tăng rồi giảm."
+                                },
+                                {
+                                    "content": "giảm rồi tăng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Theo học sinh 4, các nguyên tử có kích thước từ nhỏ đến lớn là F, Cl, Br và I. Bảng cho thấy các nguyên tử có khối lượng nguyên tử từ nhỏ đến lớn là F, Cl, Br và I. Do đó, khi khối lượng nguyên tử tăng thì bán kính nguyên tử cũng tăng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+                "position": 5,
+                "content": "Xăng dùng cho các loại động cơ thông dụng như ô tô, xe máy là hỗn hợp các hydrocarbon no ở thể lỏng (từ $C_{5}H_{12}$ đến $C_{12}H_{26}$). Chất lượng xăng được đánh giá qua chỉ số octane. Chỉ số octane là một đại lượng đặc trưng dùng để đo lường hiệu năng của nhiên liệu, đặc trưng cho khả năng chống kích nổ. Khi giá trị octane càng cao thì khả năng chịu nén của nhiên liệu trước khi phát nổ (đốt cháy) càng lớn và ngược lại. Những nhiên liệu có chỉ số octane cao thường được dùng cho các động cơ xăng hiệu suất cao, có tỉ số nén lớn. Các tỷ lệ khác nhau của heptane và isooctane được trộn lẫn để thu được các hỗn hợp có chỉ số octane nằm trong khoảng từ 0 đến 100 (xem bảng 1).\n$/image_{https://cdn.save.moe/b/Vzovem.png?dl=1}_{center}_{60}_{block}$\nThí nghiệm 1\nCác mẫu của mỗi hỗn hợp nhiên liệu liệt kê trong bảng 1 được đốt cháy trong động cơ thử nghiệm ở tốc độ động cơ là 600 vòng/phút. Số lần gõ mỗi phút được xác định cho mỗi hỗn hợp để có thể chỉ định chỉ số octane cho bất kỳ loại nhiên liệu nào bằng cách đo tốc độ gõ của nó.\nThí nghiệm 2\nTetraethyllead (TEL) là một chất phụ gia làm thay đổi chỉ số octane của nhiên liệu. Các lượng TEL khác nhau đã được thêm vào 1000 ml mẫu isooctane. Mỗi hỗn hợp nhiên liệu được thử nghiệm trong điều kiện giống thí nghiệm 1 và tốc độ gõ đo được được sử dụng để xác định chỉ số octane (xem hình 1).\n$/image_{https://cdn.save.moe/b/E9VPQfA.png?dl=1}_{center}_{60}_{block}$\nThí nghiệm 3\nChỉ số octane của động cơ (EOR) là chỉ số octane tối thiểu của nhiên liệu để động cơ hoạt động mà không bị hỏng. Nhiên liệu A và B được đốt cháy riêng biệt trong một động cơ ở các tốc độ khác nhau. Bảng 2 cho thấy chỉ số octane được xác định cho từng loại nhiên liệu ở từng tốc độ động cơ và EOR của động cơ ở từng tốc độ.\n$/image_{https://cdn.save.moe/b/Gyo8k4.png?dl=1}_{center}_{60}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_hoa",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T17:08:42.197859+07:00",
+                "updated_at": "2026-02-20T17:08:42.197859+07:00",
+                "questions": [
+                    {
+                        "id": "37c1697e-39ee-4b29-933c-e1addc354dbc",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 1,
+                        "content": "Phát biểu sau đúng hay sai? \"Octane là một hydrocarbon thuộc họ alkane có công thức hóa học là $C_{8}H_{18},$ là chất lỏng không màu, có tính chống nổ kém, không tan trong nước và có trong dầu mỏ.\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Octane là một hydrocarbon thuộc họ alkane có công thức hóa học là $C_{8}H_{18},$ là chất lỏng không màu, có tính chống nổ kém, không tan trong nước và có trong dầu mỏ.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "51747691-beb2-4a9d-b794-a31729b3cc5a",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 2,
+                        "content": "Các phát biểu sau đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Nếu 2 ml heptane được trộn với 8 ml isooctane thì chỉ số octane của hỗn hợp này là 80."
+                                },
+                                {
+                                    "content": "Xăng RON 92 có chỉ số octane là 92 là hỗn hợp chỉ chứa 92% isooctane và 8% heptane."
+                                },
+                                {
+                                    "content": "Đồng phân của octane có công thức 2,2,4-trimethylhexane (isooctane) là một thành phần của xăng, có tính chống nổ, được dùng làm chất chuẩn để đánh giá tính chống nổ của xăng qua chỉ số octane."
+                                },
+                                {
+                                    "content": "Cách làm tăng chỉ số octane của xăng hoặc các nhiên liệu khác là bổ sung các chất phụ gia như: toluene, ethanol, MTBE, ETBE, TEL. Trong đó, ethanol là chất phụ gia gây nên những tác động xấu đến con người và môi trường."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                false,
+                                false
+                            ]
+                        },
+                        "answer_detail": "1. Đúng, vì: Bảng 1 cho biết chỉ số octane của hỗn hợp heptane và isooctane bằng phần trăm thể tích của isooctane trong hỗn hợp. Một hỗn hợp gồm 2 ml heptane và 8 ml isooctane sẽ chứa 20% heptane và 80% isooctane theo thể tích. Vì vậy, chỉ số octane của hỗn hợp này sẽ là 80.\r\n2. Sai, vì: Xăng RON 92 có chỉ số octane là 92 là hỗn hợp chứa khoảng 92% isooctane, 8% heptane và rất nhiều hydrocacbon, các chất phụ gia khác với hàm lượng rất nhỏ.\r\n3. Sai, vì: Isooctane là đồng phân của octane có công thức 2,2,4-trimethylpentane, là một thành phần của xăng, có tính chống nổ, được dùng làm chất chuẩn để đánh giá tính chống nổ của xăng qua chỉ số octane.\r\n4. Sai, vì: Cách làm tăng chỉ số octane của xăng hoặc các nhiên liệu khác là bổ sung các chất phụ gia như: toluene, ethanol, MTBE (methyl tert-butyl ether), ETBE (ethyl tert-butyl ether), TEL (tetraethyllead). Trong đó, ethanol là chất phụ gia thân thiện với môi trường nhất và được khuyến khích sử dụng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "da92f64c-458d-45ac-a4b7-c8b8631b1b35",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 3,
+                        "content": "Kéo thả các từ/cụm từ sau vào vị trí thích hợp.\n\"Dựa trên bảng 1 và thí nghiệm 2, nếu thêm 3 ml TEL vào hỗn hợp gồm 100 ml heptane và 900 ml isooctane thì chỉ số octane của nhiên liệu thu được có giá trị ____\"",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "items": [
+                                "nằm trong khoảng từ 90 đến 125",
+                                "nằm trong khoảng từ 55 đến 90",
+                                "lớn hơn 125",
+                                "dưới 55"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Bảng 1 cho biết chỉ số octane của hỗn hợp heptane và isooctane bằng phần trăm thể tích của isooctane trong hỗn hợp. Một hỗn hợp gồm 100 ml heptane và 900 ml isooctane sẽ chứa 10% heptane và 90% isooctane theo thể tích. Vì vậy, chỉ số octane của hỗn hợp này sẽ là 90. Đoạn văn nói rằng việc thêm TEL vào nhiên liệu sẽ làm thay đổi chỉ số octane của nhiên liệu. Thí nghiệm 2 cho thấy rằng việc thêm 3 ml TEL vào 1000 ml mẫu isooctane đã làm tăng chỉ số octane của isooctane từ 100 lên 125. Nếu 3 ml TEL được thêm vào hỗn hợp gồm 100 ml heptane và 900 ml isooctane, thì chỉ số octane của nhiên liệu thu được rất có thể sẽ nằm trong khoảng từ 90 đến 125.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "3edf0e55-a12a-4e6d-bea3-40a803aebff2",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 4,
+                        "content": "Giả sử một thử nghiệm được thực hiện trong thí nghiệm 3 ở tốc độ động cơ là 2200 vòng/phút, chỉ số octane có nhiều khả năng nhất được xác định cho nhiên liệu A và nhiên liệu B lần lượt là",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "95,0 và 95,4."
+                                },
+                                {
+                                    "content": "96,1 và 95,8."
+                                },
+                                {
+                                    "content": "96,6 và 96,1."
+                                },
+                                {
+                                    "content": "97,6 và 96,4."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Ở thí nghiệm 3, khi tốc độ động cơ tăng thì chỉ số octane đều giảm đối với cả nhiên liệu A và nhiên liệu B. Vì vậy, chỉ số octane xác định được ở tốc độ động cơ 2200 vòng/phút rất có thể nằm giữa chỉ số octane xác định được ở tốc độ động cơ 2000 vòng/phút và chỉ số octane xác định được ở tốc độ động cơ 2500 vòng/phút. Đối với nhiên liệu A, chỉ số octane xác định được ở tốc độ động cơ 2000 vòng/phút và 2500 vòng/phút lần lượt là 96,6 và 95,0. Giá trị 96,1 là phù hợp. Đối với nhiên liệu B, chỉ số octane xác định được ở tốc độ động cơ 2000 vòng/phút và 2500 vòng/phút lần lượt là 96,1 và 95,4. Giá trị 95,8 là phù hợp.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "090f3498-c6bc-4322-ba6d-1f5006b06ec8",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 5,
+                        "content": "Dựa vào thí nghiệm 3, khi tốc độ động cơ tăng lên, chỉ số octane tối thiểu của nhiên liệu cần thiết để động cơ hoạt động mà không bị hỏng",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "chỉ tăng."
+                                },
+                                {
+                                    "content": "chỉ giảm."
+                                },
+                                {
+                                    "content": "tăng rồi giảm."
+                                },
+                                {
+                                    "content": "giảm rồi tăng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Theo bảng 2, khi tốc độ động cơ tăng từ 1500 vòng/phút lên 3500 vòng/phút, EOR giảm từ 97,4 xuống 90,6. Tốc độ động cơ tăng luôn đi kèm với việc giảm EOR. Mà EOR là chỉ số octane tối thiểu của nhiên liệu cần thiết để động cơ hoạt động mà không bị hỏng. Do đó, khi tốc độ động cơ tăng lên, chỉ số octane tối thiểu của nhiên liệu cần thiết để động cơ hoạt động mà không bị hư hỏng chỉ giảm đi.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "837650eb-4441-4e65-827d-fb20266ec1bd",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 6,
+                        "content": "Biểu thức nào sau đây là công thức tính cho chỉ số octane của mỗi hỗn hợp nhiên liệu ghi trong Bảng 1?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$\\frac{V_{isooctane}}{V_{heptane}} \\cdot 100$"
+                                },
+                                {
+                                    "content": "$\\frac{V_{heptane}}{V_{isooctane}} \\cdot 100$"
+                                },
+                                {
+                                    "content": "$\\frac{V_{isooctane}}{V_{isooctane} + V_{heptane}} \\cdot 100$"
+                                },
+                                {
+                                    "content": "$\\frac{V_{heptane}}{V_{isooctane} + V_{heptane}} \\cdot 100$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Bảng 1 cho thấy chỉ số octane của mỗi hỗn hợp nhiên liệu bằng phần trăm thể tích của isooctane trong hỗn hợp. Như vậy chỉ số octane của mỗi hỗn hợp nhiên liệu được tính theo công thức: $\\frac{V_{isooctane}}{V_{isooctane} + V_{heptane}} \\cdot 100$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "4d9a18ce-ea1c-4062-a1df-bb9906ae209e",
+                        "parent_id": "328683c3-52c4-4d07-a91a-3bbdd09a0a26",
+                        "position": 7,
+                        "content": "Nhiên liệu nào trong số 2 loại nhiên liệu từ thí nghiệm 3 sẽ tốt hơn khi sử dụng cho động cơ chạy ở mọi tốc độ động cơ trong khoảng từ 1500 vòng/phút đến 3500 vòng/phút?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_hoa",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhiên liệu A, vì chỉ số octane của nó thấp hơn EOR ở mỗi tốc độ động cơ được thử nghiệm."
+                                },
+                                {
+                                    "content": "Nhiên liệu A, vì chỉ số octane của nó cao hơn EOR ở mỗi tốc độ động cơ được thử nghiệm."
+                                },
+                                {
+                                    "content": "Nhiên liệu B, vì chỉ số octane của nó thấp hơn EOR ở mỗi tốc độ động cơ được thử nghiệm."
+                                },
+                                {
+                                    "content": "Nhiên liệu B, vì chỉ số octane của nó cao hơn EOR ở mỗi tốc độ động cơ được thử nghiệm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Chỉ số octane của nhiên liệu phải lớn hơn hoặc bằng chỉ số octane tối thiểu của nhiên liệu cần thiết để động cơ hoạt động mà không bị hỏng, hay còn gọi là EOR. Trong thí nghiệm 3, tốc độ động cơ chậm nhất được thử nghiệm là 1500 vòng/phút và tốc độ động cơ nhanh nhất được thử nghiệm là 3500 vòng/phút. Ở mọi tốc độ động cơ được thử nghiệm trong thí nghiệm 3, chỉ số octane của nhiên liệu A đều cao hơn EOR. Ở tốc độ động cơ 1500 vòng/phút, chỉ số octane của nhiên liệu B thấp hơn EOR.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "63370ccc-f342-4e7c-8798-48559779d896",
+                "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+                "position": 6,
+                "content": "Lực ma sát là lực cản trở sự trượt hoặc lăn của vật này so với vật khác. Tuỳ vào đặc điểm chuyển động giữa các mặt tiếp xúc mà lực ma sát được chia thành lực ma sát trượt, lực ma sát lăn hay lực ma sát nghỉ. Nguyên nhân chính gây ra ma sát giữa các bề mặt là do lực hút, được gọi là lực bám dính, giữa các vùng tiếp xúc của các bề mặt. Ngoài ra, ma sát cũng phát sinh do tác động của các vùng gồ ghề trên bề mặt cứng hơn cắt qua bề mặt mềm hơn khi xảy ra sự trượt hoặc lăn. Nếu một vật đang trượt trên bề mặt của một vật khác thì lực ma sát tác dụng ngược hướng với chuyển động trượt đó, đây là lực ma sát trượt. Nếu một vật đứng yên trên một bề mặt nhưng có xu hướng trượt theo một hướng nào đó thì lực ma sát sẽ tác dụng ngăn nó trượt theo hướng đó. Đây là lực ma sát nghỉ.\nMột vật nằm trên mặt phẳng nghiêng như hình 1. Lực ma sát là lực cản lại chuyển động khi hai bề mặt tiếp xúc nhau và được biểu diễn bằng lực $F_{ms}$. Hệ số ma sát (COF, ký hiệu là $\\mu$) là đại lượng dùng để đo lực ma sát dựa trên lực pháp tuyến ($F_{N}$). Có hai COF cho một bề mặt tiếp xúc nhất định: COF tĩnh ($\\mu_{s}$) và COF động ($\\mu_{k}$). $\\mu_{s}$ dùng cho vật đứng yên và $\\mu_{k}$ dùng cho vật chuyển động. Lực pháp tuyến là lực hướng lên, vuông góc với bề mặt mà vật đang đứng yên hoặc đang chuyển động. Hệ số ma sát nói chung được xác định bởi hệ thức: $\\mu = \\frac{F_{ms}}{F_{N}}$. Các nhà khoa học đã thực hiện thí nghiệm như hình 1 sử dụng nhiều cặp vật liệu khác nhau để xác định $\\mu_{s}$ và $\\mu_{k}$ cho mỗi cặp vật liệu. $/image_{https://cdn.save.moe/b/K1w4I.png?dl=1}_{center}_{60}_{block}$\nKết quả được thể hiện trong Hình 2 và Hình 3.\n$/image_{https://cdn.save.moe/b/i31Zz83.png?dl=1}_{center}_{60}_{block}$\n$/image_{https://cdn.save.moe/b/kEb3Q0M.png?dl=1}_{center}_{60}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T17:08:42.197859+07:00",
+                "updated_at": "2026-02-20T17:08:42.197859+07:00",
+                "questions": [
+                    {
+                        "id": "5f6e6b6c-54a8-448e-adc5-a47eb2875426",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 1,
+                        "content": "Lực ma sát nghỉ xuất hiện do",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "bề mặt tiếp xúc giữa hai vật là không phẳng."
+                                },
+                                {
+                                    "content": "bề mặt tiếp xúc giữa hai vật là nhẵn."
+                                },
+                                {
+                                    "content": "bề mặt của hai vật tiếp xúc nhau."
+                                },
+                                {
+                                    "content": "do hai vật tác dụng lực lên nhau."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Lực ma sát nghỉ xuất hiện do bề mặt tiếp xúc giữa hai vật là gồ ghề hay không phẳng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "8bf383ac-94e2-4fca-ba64-345183ad80e3",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 2,
+                        "content": "Dựa vào kết quả thí nghiệm, cặp vật liệu nào có hệ số ma sát tĩnh là lớn nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhựa trên nhựa."
+                                },
+                                {
+                                    "content": "Nhựa trên thép."
+                                },
+                                {
+                                    "content": "Cao su trên bê tông."
+                                },
+                                {
+                                    "content": "Cao su trên nhựa đường."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "Để so sánh hệ số ma sát tĩnh giữa các vật liệu, ta cần chú ý đến Hình 3. Dựa vào Hình 3, ta thấy cặp vật liệu Cao su trên bê tông sẽ cho hệ số ma sát tĩnh là lớn nhất.\n$/image_{https://cdn.save.moe/b/20yHWP.png?dl=1}_{center}_{60}_{block}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "7ad03e1f-6698-4ab0-b11e-f6f150d75c01",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 3,
+                        "content": "Cách sắp xếp nào sau đây theo thứ tự từ bé đến lớn về hệ số ma sát tĩnh của các cặp vật liệu là đúng?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhựa trên nhựa, thép trên thép, nhựa trên thép, cao su trên nhựa đường, cao su trên bê tông."
+                                },
+                                {
+                                    "content": "Cao su trên bê tông, cao su trên nhựa đường, thép trên thép, nhựa trên thép, nhựa trên nhựa."
+                                },
+                                {
+                                    "content": "Nhựa trên thép, nhựa trên nhựa, cao su trên nhựa đường, cao su trên bê tông, thép trên thép."
+                                },
+                                {
+                                    "content": "Nhựa trên nhựa, nhựa trên thép, thép trên thép, cao su trên nhựa đường, cao su trên bê tông."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Dựa vào Hình 3, ta thấy hệ số ma sát tĩnh được sắp xếp theo thứ tự tăng dần là: Nhựa trên nhựa, nhựa trên thép, thép trên thép, cao su trên nhựa đường, cao su trên bê tông.\n$/image_{https://cdn.save.moe/b/oIErW.png?dl=1}_{center}_{60}_{block}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "82f53406-9c1f-4bc8-8db2-3463cfb98324",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 4,
+                        "content": "Giả thuyết sau đây là đúng hay sai? \"Một sinh viên đưa ra giả thuyết rằng hệ số ma sát tĩnh của một cặp vật liệu càng cao thì hệ số ma sát động càng cao.\"",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng"
+                                },
+                                {
+                                    "content": "Sai"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Dựa theo Hình 2 và Hình 3, ta thấy hệ số ma sát tĩnh và hệ số ma sát động đều được sắp xếp theo thứ tự tăng dần là: Nhựa trên nhựa, nhựa trên thép, thép trên thép, cao su trên nhựa đường, cao su trên bê tông $\\rightarrow$ Giả thuyết đúng .",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "bd705b60-0cf5-4804-a13a-ac44cb6fab22",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 5,
+                        "content": "Vật trong Hình 1 sẽ có khả năng trượt xuống mặt nghiêng nhanh nhất nếu sử dụng cặp vật liệu nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Khối thép trên một mặt phẳng nghiêng bằng thép."
+                                },
+                                {
+                                    "content": "Khối nhựa trên một mặt phẳng nghiêng bằng nhựa."
+                                },
+                                {
+                                    "content": "Khối cao su trên mặt nghiêng bê tông."
+                                },
+                                {
+                                    "content": "Khối nhựa trên một mặt phẳng nghiêng bằng thép."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Hệ số ma sát giữa các cặp vật liệu càng nhỏ thì lực ma sát xuất hiện giữa hai bề mặt tiếp xúc càng nhỏ hay vật chuyển động càng nhanh. Từ Hình 2 hoặc Hình 3, ta thấy hệ số ma sát động của cặp vật liệu nhựa trên nhựa là nhỏ nhất. Vậy khối nhựa trên một mặt phẳng nghiêng bằng nhựa thì vật sẽ chuyển động là nhanh nhất.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "0ccfb48a-e883-4922-af87-d2f883918dfa",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 6,
+                        "content": "Điền số thích hợp vào chỗ trống.\n\"Một đồng tiền xu nằm trên một quyển sách, sách nghiêng một góc $\\alpha$ so với phương ngang. Thay đổi góc nghiêng nhiều lần, một học sinh thấy rằng khi $\\alpha$ tăng đến $13^{\\circ}$ thì đồng tiền xu bắt đầu trượt xuống. Hệ số ma sát tĩnh $\\mu_{s}$ giữa đồng tiền và sách là (1) ____ (làm tròn đến chữ số thập phân thứ hai)\"",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                "0.23"
+                            ]
+                        },
+                        "answer_detail": "Các lực tác dụng lên đồng tiền xu là: Phản lực $\\overline{N}$; Trọng lực $\\overline{P}$; Lực ma sát $\\overline{F_{s}}$ . Vì đồng tiền xu ở trạng thái cân bằng nên hợp lực tác dụng vào nó phải bằng 0. Từ định luật II Newton, ta có: $\\overline{N} + \\overline{P} + \\overline{F_{s}} = \\vec{0}$. Xét theo phương song song với mặt phẳng nghiêng, ta có: $F_{s} = P.sin \\alpha$. Xét theo phương vuông góc với phương chuyển động: $N = P.cos \\alpha$. Khi đồng tiền xu sắp trượt, lực ma sát tĩnh tác dụng vào nó có giá trị lớn nhất, bằng $\\mu.N$. Khi đó $\\frac{F_{s}}{N} = \\frac{\\mu_{s}N}{N} = \\frac{P sin \\alpha}{P cos \\alpha} = tan \\alpha$. $\\rightarrow \\mu_{s} = tan \\alpha = tan 13^{\\circ} \\approx 0,23$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    },
+                    {
+                        "id": "ddf08eb0-01c8-48de-a97b-a906ee8c29a1",
+                        "parent_id": "63370ccc-f342-4e7c-8798-48559779d896",
+                        "position": 7,
+                        "content": "Khi hãm phanh khẩn cấp thì bánh xe ô tô bị “khóa” (không quay được) làm cho xe trượt trên đường thẳng. Những mẩu nhỏ của lốp và chỗ đường bị nóng chảy tạo thành “dấu trượt”. Kỉ lục về dấu trượt dài nhất là dấu trượt trên đường cao tốc M1 ở Anh của một chiếc xe xảy ra vào năm 1960, nó dài tới 290 m. Lấy $g=9,8m/s^{2}.$ Giả sử $\\mu_{k}=0,60$ thì tốc độ của xe khi bánh xe ô tô này bắt đầu bị khóa gần nhất với giá trị nào sau đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "58 km/h."
+                                },
+                                {
+                                    "content": "250 km/h."
+                                },
+                                {
+                                    "content": "115 km/h."
+                                },
+                                {
+                                    "content": "210 km/h."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "Phân tích các lực tác dụng lên ô tô như hình vẽ. $/image_{https://cdn.save.moe/b/2btnr6d.png?dl=1}_{center}_{60}_{block}$\nKhi xe hãm phanh: $v^{2} = v_{0}^{2} + 2a_{x}(x-x_{0}) (*)$ với $v=0, x-x_{0}=d$ . $\\rightarrow v_{0} = \\sqrt{-2a_{x}d}$. Để tìm $a_{x}$ ta áp dụng định luật thứ hai của Newton theo trục x. Nếu bỏ qua lực cản của không khí thì chỉ có lực $F_{ms}$ tác dụng theo phương x, nên $F_{ms} = -ma_{x} \\rightarrow a_{x} = -\\frac{F_{ms}}{m} = -\\frac{\\mu_{k}N}{m} (**)$ . Mà $N=P=mg \\rightarrow a_{x} = -\\frac{\\mu_{k}mg}{m} = -\\mu_{k}g$. Vậy $v_{0} = \\sqrt{2\\mu_{k}gd} = \\sqrt{2 \\cdot 0,60 \\cdot 9,8 \\cdot 290} \\approx 58~m/s \\approx 210~km/h$.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T17:08:42.197859+07:00",
+                        "updated_at": "2026-02-20T17:08:42.197859+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "43844e8f-118d-430b-b374-c61f60bbd794",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "9d91a3b2-9ed2-4787-b98c-9f6715372f5b",
+        "status": "in_progress",
+        "created_at": "2026-03-02T15:55:45.660009+07:00",
+        "updated_at": "2026-03-02T15:55:45.660009+07:00",
+        "submited_at": "2026-03-02T15:55:45.660009+07:00"
+    }
+}
