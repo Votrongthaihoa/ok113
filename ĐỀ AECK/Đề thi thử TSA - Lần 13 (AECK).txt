@@ -1,0 +1,2087 @@
+{
+    "_id": "6967bdaf122c65b6a44237f1",
+    "title": "[AECK]-Tư Duy Toán Học-Đề 13",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "B",
+        "Câu 2": "D",
+        "Câu 3": "D",
+        "Câu 4": "D",
+        "Câu 5": "C",
+        "Câu 6": "B",
+        "Câu 7": [
+            6
+        ],
+        "Câu 8": "B",
+        "Câu 9": "D",
+        "Câu 10": [
+            1
+        ],
+        "Câu 11": [
+            6.93
+        ],
+        "Câu 12": "A",
+        "Câu 13": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 14": "A",
+        "Câu 15": [
+            2.53
+        ],
+        "Câu 16": [
+            16
+        ],
+        "Câu 17": "A",
+        "Câu 18": [
+            0.6
+        ],
+        "Câu 19": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 20": [
+            21
+        ],
+        "Câu 21": "A",
+        "Câu 22": "A",
+        "Câu 23": [
+            14
+        ],
+        "Câu 24": [
+            40
+        ],
+        "Câu 25": "C",
+        "Câu 26": [
+            1.41
+        ],
+        "Câu 27": "C",
+        "Câu 28": "C",
+        "Câu 29": [
+            2025
+        ],
+        "Câu 30": "B",
+        "Câu 31": "C",
+        "Câu 32": [
+            59
+        ],
+        "Câu 33": "D",
+        "Câu 34": [
+            1
+        ],
+        "Câu 35": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 36": [
+            3557
+        ],
+        "Câu 37": "B",
+        "Câu 38": "B",
+        "Câu 39": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "D>"
+            },
+            {
+                "slot3": "F>"
+            }
+        ],
+        "Câu 40": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ]
+    },
+    "startTime": "2025-12-24T04:01:00.000Z",
+    "endTime": "2026-04-30T04:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Cho dãy số $u_{n}$ xác định bởi $\\left\\{\\begin{array}{l}u_{1}=7 \\\\ u_{n+1}=2 u_{n}+3\\end{array}\\right.$ khi đó $u_{5}$ bằng:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nTa c&oacute; $u_{2}=2.7+3=17, u_{3}=2.17+3=37, u_{4}=2.37+3=77, u_{5}=2.77+3=157$.",
+            "contentAnswerA": "317.",
+            "contentAnswerB": "157.",
+            "contentAnswerC": "77.",
+            "contentAnswerD": "112."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho $a \\in \\mathbb{R}, a \\neq 0$. Khi đó $\\lim _{x \\rightarrow+\\infty}\\left(\\frac{x^{2}-2}{a x^{2}-1}\\right)=3$ thì giá trị của $a$ bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>$\\lim _{x \\rightarrow+\\infty}\\left(\\frac{x^{2}-2}{a x^{2}-1}\\right)=\\lim _{x \\rightarrow+\\infty}\\left(\\frac{1-\\frac{2}{x^{2}}}{a-\\frac{1}{x^{2}}}\\right)=\\frac{1}{a}=3 \\Rightarrow a=\\frac{1}{3}$.",
+            "contentAnswerA": "2.",
+            "contentAnswerB": "-1.",
+            "contentAnswerC": "1.",
+            "contentAnswerD": "$\\frac{1}{3}$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho $n>1$ là một số nguyên. Giá trị của biểu thức $\\frac{1}{\\log _{2} n!}+\\frac{1}{\\log _{3} n!}+\\ldots .+\\frac{1}{\\log _{n} n!}$ bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>$n>1, n \\in \\mathbb{Z} \\Rightarrow \\frac{1}{\\log _{2} n!}+\\frac{1}{\\log _{3} n!}+\\frac{1}{\\log _{4} n}+\\ldots .+\\frac{1}{\\log _{n} n!}=\\log _{n!} 2+\\log _{n!} 3+\\log _{n!} 4+\\ldots .+\\log _{n!} n =\\log _{n!}(2 \\cdot 3.4 \\ldots \\mathrm{n})=\\log _{n!} n!=1$.",
+            "contentAnswerA": "0.",
+            "contentAnswerB": "$n$.",
+            "contentAnswerC": "$n!$.",
+            "contentAnswerD": "1."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Cho hàm số $y=f(x)$ đồng biến, có đạo hàm trên khoảng $K$ và hai điểm $x_{1}, x_{2} \\in K ; x_{1} \\geq x_{2}$. Khi đó giá trị của biểu thức $P=f^{\\prime}\\left(x_{1}\\right)\\left(x_{1}-x_{2}\\right)+f^{\\prime}\\left(x_{2}\\right)\\left(f\\left(x_{1}\\right)-f\\left(x_{2}\\right)\\right)$ là:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Hàm số $y=f(x)$ đồng biến trên $K$ nên $\\forall x_{1}, x_{2} \\in K ; x_{1} \\geq x_{2}$ thì $f\\left(x_{1}\\right) \\geq f\\left(x_{2}\\right)$ và $f^{\\prime}\\left(x_{1}\\right) \\geq 0$; $f^{\\prime}\\left(x_{2}\\right) \\geq 0$.<br/>Do đó $P=f^{\\prime}\\left(x_{1}\\right)\\left(x_{1}-x_{2}\\right)+f^{\\prime}\\left(x_{2}\\right)\\left(f\\left(x_{1}\\right)-f\\left(x_{2}\\right)\\right) \\geq 0$.",
+            "contentAnswerA": "$P<0$.",
+            "contentAnswerB": "$P>0$.",
+            "contentAnswerC": "$P=0$.",
+            "contentAnswerD": "$P \\geq 0$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Cho hình lăng trụ $A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$. Gọi $I, J, K$ lần lượt là trọng tâm tam giác $A B C, A C C^{\\prime}$, $A B^{\\prime} C^{\\prime}$. Mặt phẳng nào sau đây song song với $(IJK)$?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/K5sLcH5.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727133-96c2x4inn\" class=\"mx-auto\" style=\"\"><br/>Do $I, J, K$ lần lượt là trọng tâm tam giác $A B C, A C C^{\\prime}$ nên $\\frac{A I}{A M}=\\frac{A J}{A N}=\\frac{2}{3}$ nên $I J / / M N$.<br/>$\\Rightarrow I J / /\\left(B C C^{\\prime} B^{\\prime}\\right)$<br/>Tương tự $I K / /\\left(B C C^{\\prime} B^{\\prime}\\right)$<br/>$\\Rightarrow(I J K) / /\\left(B C C^{\\prime} B^{\\prime}\\right)$<br/>Hay $(I J K) / /\\left(B B^{\\prime} C\\right)$.",
+            "contentAnswerA": "$\\left(B C^{\\prime} \\mathrm{A}\\right)$.",
+            "contentAnswerB": "$\\left(A A^{\\prime} B\\right)$.",
+            "contentAnswerC": "$\\left(B B^{\\prime} C\\right)$.",
+            "contentAnswerD": "$\\left(C C^{\\prime} A\\right)$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Cho hình chóp $S . A B C$ có $S A=S B=S C=A B=A C=a$ và góc $C A B=30^{\\circ}$. Giá trị $\\cos (\\overrightarrow{A B}, \\overrightarrow{S C})$ gần nhất với giá trị nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/grvvog4.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727134-c3vfu8j14\" class=\"mx-auto\" style=\"\"><br/>+) Ta có: $\\overrightarrow{A B} \\cdot \\overrightarrow{S C}=\\overrightarrow{A B}(\\overrightarrow{S A}+\\overrightarrow{A C})=\\overrightarrow{A B} \\cdot \\overrightarrow{S A}+\\overrightarrow{A B} \\cdot \\overrightarrow{A C}=a \\cdot a \\cdot \\cos 120^{\\circ}+a \\cdot a \\cdot \\cos 30^{\\circ}=-\\frac{a^{2}}{2}+\\frac{a^{2} \\sqrt{3}}{2}$<br/>+) Do đó: $\\cos (\\overrightarrow{A B}, \\overrightarrow{S C})=\\frac{|\\overrightarrow{A B} \\cdot \\overrightarrow{S C}|}{A B \\cdot S C}=\\frac{-\\frac{a^{2}}{2}+\\frac{a^{2} \\sqrt{3}}{2}}{a^{2}}=\\frac{-1+\\sqrt{3}}{2} \\approx 0.37$. Chọn B",
+            "contentAnswerA": "0,83.",
+            "contentAnswerB": "0,37.",
+            "contentAnswerC": "0,45.",
+            "contentAnswerD": "0,71."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Cho $f, g$ là hai hàm liên tục trên đoạn $[1 ; 3]$ thoả: $\\int_{1}^{3}[f(x)+3 g(x)] \\mathrm{d} x=10$, $\\int_{1}^{3}[2 f(x)-g(x)] \\mathrm{d} x=6$. Tính $\\int_{1}^{3}[f(x)+g(x)] \\mathrm{d} x$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 7-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>$\\int_{1}^{3}[f(x)+3 g(x)] \\mathrm{d} x=10 \\Leftrightarrow \\int_{1}^{3} f(x) \\mathrm{d} x+3 \\int_{1}^{3} g(x) \\mathrm{d} x=10$<br/>$\\int_{1}^{3}[2 f(x)-g(x)] \\mathrm{d} x=6 \\Leftrightarrow 2 \\int_{1}^{3} f(x) \\mathrm{d} x-\\int_{1}^{3} g(x) \\mathrm{d} x=6$<br/>Đặt $X=\\int_{1}^{3} f(x) \\mathrm{d} x, Y=\\int_{1}^{3} g(x) \\mathrm{d} x$.<br/>Từ (1) và (2) ta có hệ phương trình: $\\left\\{\\begin{array}{l}X+3 Y=10 \\\\ 2 X-Y=6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}X=4 \\\\ Y=2\\end{array}\\right.\\right.$.<br/>Do đó ta được: $\\int_{1}^{3} f(x) \\mathrm{d} x=4$ và $\\int_{1}^{3} g(x) \\mathrm{d} x=2$.<br/>Vậy $\\int_{1}^{3}[f(x)+g(x)] \\mathrm{d} x=4+2=6$."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Trên tập số thực, người ta định nghĩa một phép toán mới ký hiệu là ⊕ như sau: $a \\oplus b=2 a+b-a b$. Khi ấy tập hợp tất cả các giá trị của $x$ sao cho $2 \\oplus x>0$ là:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Áp dụng định nghĩa ta có: $2 \\oplus x=2.2+x-2 . x=4-x>0 \\Leftrightarrow x<4$.",
+            "contentAnswerA": "$x<2$.",
+            "contentAnswerB": "$x<4$.",
+            "contentAnswerC": "$x>4$.",
+            "contentAnswerD": "$x>2$."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Số lượng vi khuẩn trong một quần thể tuân theo công thức $N(t)=1000 \\cdot e^{0,5 t}$ ( $t$ là giờ). Hỏi sau bao lâu số lượng vi khuẩn tăng gấp 3 lần so với ban đầu?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ban đầu $N(0)=1000$. Khi gấp 3 lần thì $N(t)=3000$.<br/>$1000 \\cdot e^{0,5 t}=3000 \\Leftrightarrow e^{0,5 t}=3 \\Leftrightarrow 0,5 t=\\ln 3 \\Leftrightarrow t=\\frac{\\ln 3}{0,5}=2 \\ln 3$",
+            "contentAnswerA": "$\\ln 3$ giờ.",
+            "contentAnswerB": "$\\frac{\\ln 3}{2}$ giờ.",
+            "contentAnswerC": "$3 \\ln 2$ giờ.",
+            "contentAnswerD": "$2 \\ln 3$ giờ."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Cho hai tập hợp $A=[m+1 ; 2 m-1], B=(0 ; 6)$. Có bao nhiêu giá trị $m$ nguyên để $A \\subset B$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br />\nĐiều kiện: $m+1&lt;2 m-1 \\Leftrightarrow m&gt;2$<br />\nĐể $A \\subset B$ th&igrave; $\\left\\{\\begin{array}{l}m+1&gt;0 \\\\ 2 m-1&lt;6\\end{array} \\right.$<br />\n$\\Leftrightarrow\\left\\{\\begin{array}{l}m&gt;-1 \\\\ m&lt;\\frac{7}{2}\\end{array} \\Leftrightarrow-1<m<\\frac{7}{2}\\right.$.<br>So điều kiện ta được $2 &lt; m &lt; \\frac{7}{2}$. V&igrave; $m$ nguy&ecirc;n n&ecirc;n $m=3$. Vậy c&oacute; 1 gi&aacute; trị $m$.</m<\\frac{7}{2}\\right.$.<br>"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Một chiếc máy bay, bay ở độ cao 6 dặm, đang bay theo quỹ đạo đi thẳng qua ngay phía trên một người quan sát (xem hình). Gọi $\\theta$ là góc nâng (góc quan sát lên) từ người quan sát đến máy bay. Hãy tìm khoảng cách $d$ từ người quan sát đến máy bay trong trường hợp: $\\theta=120^{\\circ}$ (làm tròn kết quả đến hàng phần trăm)<br/><img src=\"https://cdn.save.moe/b/mpDqq.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 11-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6.93
+            ],
+            "explanation": "<br />\nGọi $d$ l&agrave; khoảng c&aacute;ch từ người quan s&aacute;t đến m&aacute;y bay, 6 dặm l&agrave; độ cao (cạnh đối với g&oacute;c $\\theta$ ), v&agrave; $d$ l&agrave; cạnh huyền của tam gi&aacute;c vu&ocirc;ng (x&eacute;t g&oacute;c $\\theta$ giữa phương ngang v&agrave; đường nh&igrave;n).<br />\nTheo định nghĩa sin trong tam gi&aacute;c vu&ocirc;ng, ta c&oacute; $\\sin \\theta=\\frac{6}{d} \\Rightarrow d=\\frac{6}{\\sin \\theta}$.<br />\nTrường hợp $\\theta=120^{\\circ} \\sin 120^{\\circ}=\\sin \\left(180^{\\circ}-60^{\\circ}\\right)=\\sin 60^{\\circ}=\\frac{\\sqrt{3}}{2} \\Rightarrow d=\\frac{6}{\\frac{\\sqrt{3}}{2}}=\\frac{6 \\cdot 2}{\\sqrt{3}}=\\frac{12}{\\sqrt{3}}=4 \\sqrt{3} \\approx 6,93$ (dặm)."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Tìm chu kì $T$ của hàm số $y=-\\frac{1}{2} \\sin (100 \\pi x+50 \\pi)$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Hàm số $y=\\sin (a x+b)$ tuần hoàn với chu kì $T=\\frac{2 \\pi}{|a|}$.<br/>Áp dụng: Hàm số $y=-\\frac{1}{2} \\sin (100 \\pi x+50 \\pi)$ tuần hoàn với chu kì $T=\\frac{2 \\pi}{100 \\pi}=\\frac{1}{50}$.",
+            "contentAnswerA": "$T=\\frac{1}{50}$.",
+            "contentAnswerB": "$T=\\frac{1}{100}$.",
+            "contentAnswerC": "$T=\\frac{\\pi}{50}$.",
+            "contentAnswerD": "$T=200 \\pi^{2}$"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Một quả bóng siêu nẩy được thả rơi từ độ cao 30 mét so với mặt đất, khi chạm đất nó nẩy lên cao với độ cao bằng $\\frac{2}{3}$ lần so với độ cao của lần rơi ngay trước đó. Xét tính đúng sai của các khẳng định sau.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đ. Gọi $\\left(u_{n}\\right)$ là dãy các độ cao ta có $u_{n}=\\frac{2}{3} u_{n-1}$. Vậy $\\left(u_{n}\\right)$ là cấp số nhân có công bội $q=\\frac{2}{3}$.<br/>b, S. Theo câu a) ta có $\\frac{u_{n}}{u_{n-1}}=\\frac{2}{3}<1 \\Rightarrow u_{n}<u_{n-1}$ vậy dãy ( $u_{n}$ ) giảm.<br/>c, S. Gọi $u_{n}(m)$ là độ cao của quả bóng nảy lên cao nhất sau lần chạm đất thứ $n(n \\in \\mathbb{N}, n \\geq 1)$.<br/>Ta có $u_{1}=\\frac{2}{3} .30=20$ và $u_{n+1}=\\frac{2}{3} u_{n}$. Vì vậy $u_{n}=\\left(\\frac{2}{3}\\right)^{n-1} u_{1}=20\\left(\\frac{2}{3}\\right)^{n-1} \\Rightarrow u_{11}=20\\left(\\frac{2}{3}\\right)^{10} \\approx 0,35 m$.<br/>d, S . Ta có tổng quãng đường quả bóng di chuyển là:<br/>$S=30+2 . S_{10}=30+2 \\quad u_{1}+u_{2}+u_{3}+\\ldots+u_{10}=30+2 u_{1} \\frac{1-q^{10}}{1-q}$.<br/>Với $u_{1}=\\frac{2}{3} .30=20 ; q=\\frac{2}{3} . \\Rightarrow S=30+2.20 \\frac{1-\\left(\\frac{2}{3}\\right)^{10}}{1-\\frac{2}{3}}=147,92 \\mathrm{~m}$.",
+            "contentYA": "Dãy các độ cao của quả bóng ở mỗi lần nảy lên là một cấp số nhân.",
+            "contentYB": "Dãy các độ cao của quả bóng ở mỗi lần nảy lên là một dãy số tăng.",
+            "contentYC": "Ở lần nảy lên thư 11 quả bóng đạt độ cao tối đa là $1,35 m$.(kết quả làm tròn đến hàng phần trăm)",
+            "contentYD": "Tổng quãng đường mà quả bóng di chuyển từ khi thả rơi đến khi chạm đất ở sau lần nay thứ 10 là 117,92 (kết quả làm tròn đến hàng phần trăm)."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Cho $f(x)$ và $g(x)$ là các hàm số liên tục tại $x=-1$. Biết $g(-1)=3$ và $\\lim _{x \\rightarrow-1}[f(x)-3 g(x)]=-2$. Khi đó",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Vì $f(x)$ và $g(x)$ là các hàm số liên tục tại $x=-1$ nên ta có các giới hạn hữu hạn sau: $\\lim _{x \\rightarrow-1} f(x)=f(-1), \\lim _{x \\rightarrow-1} g(x)=g(-1)=3$.<br/>Do đó: $\\lim _{x \\rightarrow-1}[f(x)-3 g(x)]=-2 \\Leftrightarrow f(-1)-3.3=-2 \\Leftrightarrow f(-1)=7$.",
+            "contentAnswerA": "$f(-1)=7$.",
+            "contentAnswerB": "$f(-1)=-1$.",
+            "contentAnswerC": "$f(-1)=9$.",
+            "contentAnswerD": "$f(-1)=3$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Đổ vào chiếc phễu dạng hình tứ diện đều cạnh bằng 15 cm một lượng nước sao cho các mép phễu song song với mặt nước ( như hình vẽ). Tính khoảng cách từ mặt nước đến miệng phễu (mặt phẳng chứa các mép phễu) để lượng nước đổ vào bằng một nữa dung tích của phễu (Làm tròn kết quả đến hàng phần trăm).<br/><img src=\"https://cdn.save.moe/b/iZif6Gs.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 15-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2.53
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/QVh68Q.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727138-zbs3kgi3r\" class=\"mx-auto\" style=\"\"><br/>Gọi $G, G^{\\prime}$ lần lượt là trọng tâm các tam giác $\\triangle A B C$ và $\\Delta A^{\\prime} B^{\\prime} C^{\\prime}$, khi đó độ dài đoạn $G G^{\\prime}$ là khoảng cách từ mặt nước đến miệng phễu.<br/>Do $V_{S . A^{\\prime} B^{\\prime} C^{\\prime}}=\\frac{1}{2} V_{S . A B C} \\Rightarrow \\frac{V_{S . A^{\\prime} B^{\\prime} C^{\\prime}}}{V_{S . A B C}}=\\left(\\frac{S A^{\\prime}}{S A}\\right)^{3}=\\frac{1}{2}$, ta có $\\frac{S G^{\\prime}}{S G}=\\frac{S A^{\\prime}}{S A}=\\frac{1}{\\sqrt[3]{2}}$.<br/>Do $S G^{2}=S A^{2}-A G^{2}=15^{2}-\\left(\\frac{2}{3} \\cdot \\frac{15 \\sqrt{3}}{2}\\right)^{2}=\\frac{2 \\cdot 15^{2}}{3} \\Rightarrow S G=5 \\sqrt{6}$.<br/>Do $G G^{\\prime}=S G-S G^{\\prime}=5 \\sqrt{6}-5 \\sqrt{6} \\cdot \\frac{1}{\\sqrt[3]{2}} \\approx 2.52664 \\mathrm{~cm}$.<br/>Vậy khoảng cách từ mặt nước đến miệng phễu $G G^{\\prime} \\approx 2.53 c m$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Cho hai số thực $a, b$ thõa mãn $1>a \\geq b>0$. Tìm giá trị nhỏ nhất của biểu thức sau $T=\\log _{a}^{2} b+\\log _{a b} a^{36}$ là<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 16-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                16
+            ],
+            "explanation": "<br/>Ta có $T=\\log _{a}^{2} b+\\log _{a b} a^{36}=\\log _{a}^{2} b+36 \\cdot \\frac{1}{\\log _{a} a b}=\\log _{a}^{2} b+\\frac{36}{1+\\log _{a} b}$<br/>Đặt $t=\\log _{a} b$<br/>Vì $0<b \\leq a<1$ nên $\\log _{a} b \\geq \\log _{a} a \\Rightarrow t \\geq 1$<br/>Xét hàm $f(t)=t^{2}+\\frac{36}{1+t}$ trên $[1 ;+\\infty) . f^{\\prime}(t)=2 t-\\frac{36}{(t+1)^{2}}, f^{\\prime}(t)=0 \\Leftrightarrow t=2$<br/>Bảng biến thiên<br/><img src=\"https://cdn.save.moe/b/AzebA.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727138-1mmlyjy47\" class=\"mx-auto\" style=\"\"><br/>Từ bảng biến thiên ta có $T_{\\min }=16$. Dấu \" = \"xảy ra $\\Leftrightarrow t=2 \\Leftrightarrow b=a^{2}$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Cho hàm số $y=f(x)$ xác định và liên tục trên $(-\\infty ; 0)$ và $(0 ;+\\infty)$ có bảng biến thiên như hình bên.<br/><img src=\"https://cdn.save.moe/b/mVijE.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Mệnh đề nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Theo bảng biến thiên hàm số nghịch biến trên khoảng $(-\\infty ; 0) \\Rightarrow f(-3)>f(-2)$.",
+            "contentAnswerA": "$f(-3)>f(-2)$.",
+            "contentAnswerB": "Hàm số đồng biến trên khoảng $(2 ;+\\infty)$.",
+            "contentAnswerC": "Đường thẳng $x=2$ là tiệm cận đứng của đồ thị hàm số.",
+            "contentAnswerD": "Hàm số có giá trị nhỏ nhất bằng 2 ."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Trong không gian với hệ tọa độ $O x y z$, cho mặt phẳng $(P)$ có phương trình: $a x+b y+c z-1=0$ với $c<0$ đi qua 2 điểm $A(0 ; 1 ; 0), B(1 ; 0 ; 0)$ và tạo với $(O y z)$ một góc $60^{\\circ}$. Khi đó $a+b+c$ bằng bao nhiêu? (làm tròn kết quả đến hàng phần mười)<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 18-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.6
+            ],
+            "explanation": "<br/>Mặt phẳng $(P)$ đi qua hai điểm $A, B$ nên $\\left\\{\\begin{array}{l}b-1=0 \\\\ a-1=0\\end{array} \\Rightarrow a=b=1\\right.$.<br/>Và $(P)$ tạo với $(O y z)$ góc $60^{\\circ}$ nên $\\cos ((P),(O y z))=\\frac{|a|}{\\sqrt{a^{2}+b^{2}+c^{2}} \\cdot \\sqrt{1}}=\\frac{1}{2}\\left(^{*}\\right)$.<br/>Thay $a=b=1$ vào phương trình được $\\sqrt{2+c^{2}}=2 \\Rightarrow c=-\\sqrt{2}$.<br/>Khi đó $a+b+c=2-\\sqrt{2} \\approx 0,6$."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Hệ thống cáp treo gồm hai trụ lớn và một đường cáp nối giữa hai trụ đó (coi như độ cong không đáng kể), được đặt trong không gian với hệ tọa độ $O x y z$. Một cabin cáp treo xuất phát từ điểm $O(0 ; 0 ; 0)$ thuộc trụ thứ nhất và chuyển động thẳng đều theo đường cáp treo đến điểm $A(896 ; 2025 ; 189)$ thuộc trụ thứ hai với tốc độ $7,4(\\mathrm{~m} / \\mathrm{s})$ (đơn vị trên môi trục là mét).",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Độ dài cáp treo bằng khoảng cách $O A=\\sqrt{896^{2}+2025^{2}+189^{2}} \\approx 2222$ (mét). Do đó ý a) đúng<br/>b, Điểm chính giữa của cáp treo là trung điểm của đoạn thẳng $O A$ có tọa độ là $(448 ; 1012,5 ; 94,5)$. Do đó ý b) sai<br/>c, Gọi $B(672 ; a ; b)$ suy ra $\\overrightarrow{O A}=(896 ; 2025 ; 189), \\overrightarrow{O B}=(672 ; a ; b)$<br/>Vì điểm $B$ thuộc $O A$ nên $\\overrightarrow{O A}, \\overrightarrow{O B}$ cùng phương $\\Rightarrow \\frac{672}{896}=\\frac{a}{2025}=\\frac{b}{189} \\Rightarrow\\left\\{\\begin{array}{l}a=1518,75 \\\\ b=141,75\\end{array}\\right.$<br/>$\\Rightarrow B(672 ; 1518,75 ; 141,75)$<br/>Vì cáp treo đi từ $B$ đến $A$ với tốc độ $7,4(\\mathrm{~m} / \\mathrm{s})$ nên thời gian đi từ $B$ đến $A$ là 75 (giây).<br/>Do đó ý c) đúng<br/>d, Ta có $\\overrightarrow{O M}=\\left(x_{0} ; y_{0} ; z_{0}\\right)$ và $\\overrightarrow{O A}=(896 ; 2025 ; 189)$<br/>Vì vị trí điểm $M$ thuộc cáp treo nên $\\overrightarrow{O M}, \\overrightarrow{O A}$ cùng phương suy ra $x_{0}=896 k ; y_{0}=2025 k ; z_{0}=189 k (k \\neq 0)$<br/>Gọi $C(750,5 ; 1497,25 ; 0)$ thì $M C^{2}=(896 k-750,5)^{2}+(2025 k-1497,25)^{2}+(189 k)^{2}$<br/>$\\Leftrightarrow M C^{2}=4939162 k^{2}-7408758,5 k+2805007,813 \\Leftrightarrow M C \\geq 163,5$<br/>Dấu \"=\" xảy ra khi $k \\approx 0,75 \\Rightarrow x_{0} \\approx 672,0 ; y_{0} \\approx 1518,8 ; z_{0} \\approx 141,8$",
+            "contentYA": "Độ dài đường cáp xấp xỉ bằng 2222 mét (kết quả làm tròn đến hàng đơn vị).",
+            "contentYB": "Điểm chính giữa của đường cáp có tọa độ là $(448 ; 1012,5 ; 94)$.",
+            "contentYC": "Trên đường cáp có điểm $B$ với hoành độ $x_{B}=672$, khi đó thời gian để cabin đi từ điểm $B$ đến điểm $A$ xấp xỉ bằng 75 giây (kết quả làm tròn đến hàng đơn vị).",
+            "contentYD": "Có một khu vui chơi phía dưới cáp treo nằm trong mặt phẳng $(O x y)$ với điểm trung tâm có tọa độ $(750,5 ; 1497,25 ; 0)$. Biết rằng từ trong cabin cáp treo có thể ngắm nhìn toàn cảnh khu vui chơi rõ nhất tại vị trí điểm $M\\left(x_{0} ; y_{0} ; z_{0}\\right)$ cách trung tâm khu vui chơi một khoảng ngắn nhất. Khi đó, ta có $x_{0}+y_{0}+z_{0}=2330,5$ (kết quả làm tròn đến hàng phần mười)."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hàm số $f(x)$ xác định và liên tục trên đoạn $[-5 ; 3]$ có đồ thị như hình vẽ bên. Biết diện tích các hình phẳng $(A),(B),(C),(D)$ giới hạn bởi đồ thị hàm số $f(x)$ và trục hoành lần lượt bằng 6 ; 3; 12; 2. Tích phân $\\int_{-3}^{1}(2 f(2 x+1)+1) \\mathrm{d} x$ bằng<br/><img src=\"https://cdn.save.moe/b/a8jD2q3.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 20-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                21
+            ],
+            "explanation": "<br/>Ta có $I=\\int_{-3}^{1}(2 f(2 x+1)+1) \\mathrm{d} x=\\int_{-3}^{1} f(2 x+1) \\mathrm{d}(2 x+1)+\\int_{-3}^{1} \\mathrm{~d} x=\\int_{-5}^{3} f(x) \\mathrm{d} x+4$.<br/>Mặt khác dựa vào hình vẽ ta có $\\int_{-5}^{3} f(x) \\mathrm{d} x=6-3+12+2=17$.<br/>Vậy $I=\\int_{-3}^{1}[2 f(2 x+1)+1] \\mathrm{d} x=17+4=21$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Giả sử $\\left(1+x+x^{2}+x^{3}+\\ldots+x^{10}\\right)^{11}=a_{0}+a_{1} x+a_{2} x^{2}+a_{3} x^{3}+\\ldots+a_{110} x^{110}$ với $a_{0}, a_{1}, a_{2}, \\ldots, a_{110}$ là các hệ số. Giá trị của tổng $T=C_{11}^{0} a_{11}-C_{11}^{1} a_{10}+C_{11}^{2} a_{9}-C_{11}^{3} a_{8}+\\ldots+C_{11}^{10} a_{1}-C_{11}^{11} a_{0}$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có: $A=\\left(1+x+x^{2}+x^{3}+\\ldots+x^{10}\\right)^{11} \\Leftrightarrow(1-x)^{11} A=\\left(1-x^{11}\\right)^{11}$<br/>$\\Leftrightarrow \\underbrace{\\sum_{k=0}^{11} C_{11}^{k}(-x)^{k} \\cdot \\sum_{i=0}^{110} a_{i} x^{i}}_{P}=\\underbrace{\\sum_{m=0}^{11} C_{11}^{m}\\left(-x^{11}\\right)^{m}}_{Q}$.<br/>Hệ số của $x^{11}$ trong $P$ là $C_{11}^{0} a_{11}-C_{11}^{1} a_{10}+C_{11}^{2} a_{9}-C_{11}^{3} a_{8}+\\ldots+C_{11}^{10} a_{1}-C_{11}^{11} a_{0}=T$<br/>Hệ số của $x^{11}$ trong $Q$ là $-C_{11}^{1}$<br/>Vậy $T=-C_{11}^{1}=-11$.",
+            "contentAnswerA": "$T=-11$.",
+            "contentAnswerB": "$T=11$.",
+            "contentAnswerC": "$T=0$.",
+            "contentAnswerD": "$T=1$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Thời gian (phút) truy cập Internet mỗi buổi tối của một số học sinh được cho trong bảng sau:<br/><table class=\"word-table\"><tbody><tr><td><ul><li>Thời gian (phút)</li></ul></td><td><ul><li>[9,5;12,5)</li></ul></td><td><ul><li>[12,5;15,5)</li></ul></td><td><ul><li>[15,5;18,5)</li></ul></td><td><ul><li>[18,5;21,5)</li></ul></td><td><ul><li>[21,5;24,5)</li></ul></td></tr><tr><td><ul><li>Số học sinh</li></ul></td><td><ul><li>3</li></ul></td><td><ul><li>12</li></ul></td><td><ul><li>15</li></ul></td><td><ul><li>24</li></ul></td><td><ul><li>2</li></ul></td></tr></tbody></table>Tứ phân vị thứ hai của mẫu số liệu ghép nhóm này thuộc lớp nào?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Cỡ mẫu là $n=56, \\frac{n}{2}=28$.<br/>Do 2 giá trị $x_{28}, x_{29}$ thuộc nhóm $[15,5 ; 18,5)$ nên nhóm này chứa trung vị (tứ phân vị thứ 2).",
+            "contentAnswerA": "$[15,5 ; 18,5)$.",
+            "contentAnswerB": "$[9,5 ; 12,5)$.",
+            "contentAnswerC": "$[18,5 ; 21,5)$.",
+            "contentAnswerD": "$[21,5 ; 24,5)$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Hình vẽ có thể được gấp dọc theo các đường đã chỉ ra để tạo thành một khối lập phương số. Ba mặt số gặp nhau tại mỗi đỉnh của khối lập phương. Tổng lớn nhất của ba số có các mặt gặp nhau tại một đỉnh là bao nhiêu?<br/><img src=\"https://cdn.save.moe/b/fmILGA.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 23-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                14
+            ],
+            "explanation": "<br/>Ta cần xác định các bộ ba mặt nào có thể gặp nhau tại cùng một đỉnh. Bằng cách hình dung việc gấp tấm bìa thành khối lập phương, ta có thể xác định được các đỉnh. Ví dụ, nếu coi mặt ' 2 ' là mặt trước:<br/>Đỉnh trên-trái-sau sẽ gồm các mặt: $1,6,5$. Tổng: $1+6+5=12$.<br/>Đỉnh dưới-trái-sau sẽ gồm các mặt: $3,6,5$. Tổng: $3+6+5=14$.<br/>Đỉnh trên-phải-sau sẽ gồm các mặt: $1,4,5$. Tổng: $1+4+5=10$.<br/>Đỉnh dưới-phải-sau sẽ gồm các mặt: $3,4,5$. Tổng: $3+4+5=12$.<br/>Bằng cách kiểm tra các đỉnh khác, ta thấy rằng tổng lớn nhất là 14 . Các mặt 6,5 , và 3 gặp nhau tại một đỉnh chung, tạo ra tổng lớn nhất là $6+5+3=14$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Một của hàng bán 3 loại táo nhập khẩu: Táo Envy, Táo New Zealand và Táo Fuji Nam Phi. Sau khi giảm giá mỗi loại lần lượt là $x, y, z$ nghìn đồng trên $1 k g$ thì số liệu tính toán được ghi lại bởi bảng sau:<br/><table class=\"word-table\"><tbody><tr><td>Loại quả</p></td><td>Táo Envy</p></td><td>Táo New Zealand</p></td><td>Táo Fuji Nam Phi</p></td></tr><tr><td>Giá bán (nghìn đồng/kg)</p></td><td>250 – <em>x </em></p></td><td>200 – <em>y</em></p></td><td>180 – <em>z</em></p></td></tr><tr><td>Số lượng bán (kg)</p></td><td>200 + <em>x</em></p></td><td>150 + <em>y</em></p></td><td>130 + <em>z</em></p></td></tr></tbody></table>Biết rằng $x+y+z=120$ (nghìn). Tính giá trị $x$ để lợi nhuận bình quân của 1 kg táo bán được đạt được cao nhất.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 24-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                40
+            ],
+            "explanation": "<br/>Vì số lượng hoa quả bán được là $250+x+150+y+130+z=530+(x+y+z)=650$ là cố định nên bình quân mỗi $k g$ táo có giá cao nhất khi số tiền thu được là cao nhất.<br/>Gọi $P$ là tổng số tiền thu được.<br/>Khi đó $P=(250-x)(200+x)+(200-y)(150+y)+(180-z)(130+z)$<br/>$=103400+50(x+y+z)-x^{2}-y^{2}-z^{2}=109400-x^{2}-y^{2}-z^{2}$.<br/>Ta có bất đẳng thức: $x^{2}+y^{2}+z^{2} \\geq \\frac{1}{3}(x+y+z)^{2}=4800$.<br/>Do đó $P \\leq 104600$.<br/>Vậy $P$ lớn nhất $\\Leftrightarrow\\left\\{\\begin{array}{l}x+y+z=120 \\\\ x=y=z\\end{array} \\Leftrightarrow x=y=z=40\\right.$ (nghìn)."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Cho tam giác $A B C$ vuông tại $B$, cạnh $A B / / O x$, các điểm $A, B, C$ lần lượt nằm trên đồ thị hàm số $y=\\log _{a} x, y=2 \\log _{a} x, y=4 \\log _{a} x(a>1)$. Biết rằng $A B=6$ và $S_{A B C} \\geq 24$. Tập giá trị của $a$ là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Đặt $A=\\left(k ; \\log _{a} k\\right), k>0$<br/>Vì $A B / / \\mathrm{Ox}$ nên ta suy ra tọa độ $B=\\left(\\sqrt{k} ; \\log _{a} k\\right)$<br/>Tam giác ABC vuông tại B nên $B C / / \\mathrm{Oy} \\Rightarrow$ tọa độ điểm $C=\\left(\\sqrt{k} ; 2 \\log _{a} k\\right)$<br/>$A B=6$ mà $S_{A B C} \\geq 24 \\Rightarrow A B \\cdot B C \\geq 48 \\Rightarrow B C \\geq 8$<br/>$A B=6 \\Rightarrow|k-\\sqrt{k}|=6 \\Rightarrow\\left[\\begin{array}{l}<br/>k-\\sqrt{k}=6 \\\\<br/>k-\\sqrt{k}=-6<br/>\\end{array} \\Rightarrow k=9\\right.$<br/>$B C \\geq 8 \\Rightarrow\\left|\\log _{a} k\\right| \\geq 8 \\Rightarrow\\left[\\begin{array} { l }<br/>{ \\operatorname { l o g } _ { a } 9 \\geq 8 } \\\\<br/>{ \\operatorname { l o g } _ { a } 9 \\leq - 8 }<br/>\\end{array} \\Rightarrow \\left[\\begin{array}{l}<br/>a^{4} \\leq 3 \\\\<br/>a^{-4} \\geq 3<br/>\\end{array}\\right.\\right.$ vì $a>1 \\Rightarrow 1<a \\leq \\sqrt[4]{3}$",
+            "contentAnswerA": "$[\\sqrt[4]{3},+\\infty)$.",
+            "contentAnswerB": "$(1, \\sqrt[3]{4}]$.",
+            "contentAnswerC": "$(1, \\sqrt[4]{3}]$.",
+            "contentAnswerD": "$(1,2 \\sqrt[3]{3}]$."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho đường cong $y=x^{2}$. Trên đường cong lấy điểm $P\\left(t, t^{2}\\right)$ với $t>0$, và lấy $O$ là gốc tọa độ. Gọi $M$ là trung điểm của đoạn $O P$. Đường thẳng qua $M$ song song với trục $O x$ cắt đường cong $y=x^{2}$ tại hai điểm $A, B$. Tính $\\lim _{t \\rightarrow 0^{+}} \\frac{A B}{O P}$ (làm tròn kết quả đến hàng phần trăm)<br/><img src=\"https://cdn.save.moe/b/9LlEn.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 26-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1.41
+            ],
+            "explanation": "<br/>Ta có được đường thẳng qua $M$ song song với trục $O x$ cắt đường cong $y=x^{2}$ tại hai điểm $A, B$ là: $y=\\frac{t^{2}}{2}$.<br/>Phương trình hoành độ giao điểm: $\\frac{t^{2}}{2}=x^{2} \\Rightarrow x_{A}=-\\frac{t}{\\sqrt{2}}$, $x_{B}=\\frac{t}{\\sqrt{2}}$<br/>Suy ra: $A B=2 \\frac{t}{\\sqrt{2}}=t \\sqrt{2}, O P=\\sqrt{t^{2}+t^{4}}=\\sqrt{t^{2}\\left(1+t^{2}\\right)}=t \\sqrt{1+t^{2}}$<br/>Khi đó $\\lim _{t \\rightarrow 0^{+}} \\frac{A B}{O P}=\\frac{t \\sqrt{2}}{t \\sqrt{1+t^{2}}}=\\frac{\\sqrt{2}}{1}=\\sqrt{2} \\approx 1,41$"
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Cho tứ diện $A B C D$ có $A B=C D$ và $\\cos A C D>0$. Gọi $I, J, E, F$ lần lượt là trung điểm của $A C, B C, B D, A D$. Tính góc giữa hai đường thẳng $I E$ và $J F$.",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/HzWiagg.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727140-nvtfab386\" class=\"mx-auto\" style=\"\"><br/>Ta có $I F$ là đường trung bình của $\\triangle A C D \\Rightarrow\\left\\{\\begin{array}{l}I F / / C D \\\\ I F=\\frac{1}{2} C D\\end{array}\\right.$.<br/>Lại có $J E$ là đường trung bình của $\\triangle B C D \\Rightarrow\\left\\{\\begin{array}{l}J E / / C D \\\\ J E=\\frac{1}{2} C D\\end{array}\\right.$.<br/>$\\Rightarrow\\left\\{\\begin{array}{l}I F=J E \\\\ I F / / J E\\end{array} \\Rightarrow\\right.$ Tứ giác IJEF là hình bình hành.<br/>Mặt khác: $\\left\\{\\begin{array}{l}I J=\\frac{1}{2} A B \\\\ J E=\\frac{1}{2} C D\\end{array}\\right.$. Mà $A B=C D \\Rightarrow I J=J E$.<br/>Do đó $I J E F$ là hình thoi. Suy ra $(I E, J F)=90^{\\circ}$.",
+            "contentAnswerA": "$75^{\\circ}$.",
+            "contentAnswerB": "$30^{\\circ}$.",
+            "contentAnswerC": "$90^{\\circ}$.",
+            "contentAnswerD": "$60^{\\circ}$."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Cho hàm số $y=f(x)$ xác định trong khoảng $(a ; b)$ và có đồ thị như hình bên dưới. Trong các khẳng định dưới đây, khẳng định nào là sai?<br/><img src=\"https://cdn.save.moe/b/z57Ez8.png?dl=1\" alt=\"Image from Word document\" data-uploaded=\"true\" style=\"width: 55%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Dựa vào đồ thị ta thấy hàm số đạt cực đại tại $x^{\\prime}, x^{\\prime} \\in\\left(x_{1} ; x_{2}\\right)$, đạt cực tiểu tại $x_{3}$, và hàm số đồng biến trên các khoảng $\\left(a ; x^{\\prime}\\right),\\left(x_{3} ; b\\right)$, hàm số nghịch biến trên $\\left(x^{\\prime} ; x_{3}\\right)$; đồ thị hàm số không bị \"gãy\" trên $(a ; b)$<br/>Vì $x_{2} \\in\\left(x^{\\prime} ; x_{3}\\right)$ nên $f^{\\prime}\\left(x_{2}\\right)<0$, do đó mệnh đề C sai.",
+            "contentAnswerA": "Hàm số $y=f(x)$ có đạo hàm trong khoảng $(a ; b)$.",
+            "contentAnswerB": "$f^{\\prime}\\left(x_{1}\\right)>0$.",
+            "contentAnswerC": "$f^{\\prime}\\left(x_{2}\\right)>0$.",
+            "contentAnswerD": "$f^{\\prime}\\left(x_{3}\\right)=0$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Có tất cả bao nhiêu giá trị nguyên của tham số $\\boldsymbol{m}$ thuộc [-2025;2025] để hàm số $y=\\ln \\left(x^{2}+2024\\right)-m x+2025$ đồng biến trên $\\mathbb{R}$ ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 29-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2025
+            ],
+            "explanation": "<br/>Tập xác định: $D=\\mathbb{R}$.<br/>$y^{\\prime}=\\frac{2 x}{x^{2}+2024}-m=\\frac{-m x^{2}+2 x-2024 m}{x^{2}+2024} .$<br/>Để hàm số đồng biến trên $\\mathbb{R}$ điều kiện là: $y^{\\prime} \\geq 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow-m x^{2}+2 x-2024 m \\geq 0, \\forall x \\in \\mathbb{R}(*)$<br/>+) $m=0$ thì (*) vô lý $\\Rightarrow m=0$ loại.<br/>+) $m \\neq 0$ thì $(*) \\Leftrightarrow\\left\\{\\begin{array}{c}-m>0 \\\\ \\Delta^{\\prime}=1-2024 m^{2} \\leq 0\\end{array} \\Leftrightarrow m \\leq-\\frac{1}{\\sqrt{2024}}\\right.$.<br/>Vì $m \\in[-2025 ; 2025]$ nên $m \\in\\{-2025 ;-2024 ; \\ldots ;-2 ;-1\\}$.<br/>Vậy có 2025 giá trị nguyên $m$ thỏa mãn yêu cầu bài toán."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Cho hàm số $y=a x^{2}+b x+c$ có đồ thị đi qua điểm $A(1 ; 1)$ và cắt trục hoành tại hai điểm $B, C$ sao cho tam giác $A B C$ vuông đỉnh $A$ và có diện tích $S \\leq \\sqrt{2}$. Gọi $M$ là giá trị lớn nhất của hàm số. Tìm giá trị lớn nhất của $M$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đồ thị hàm số đi qua $A(1 ; 1)$ nên ta có $a+b+c=1$, (1)<br/>Gọi $x_{1} ; x_{2}$ là nghiệm phương trình $a x^{2}+b x+c=0$ thì $B\\left(x_{1} ; 0\\right), C\\left(x_{2} ; 0\\right)$. Tam giác $A B C$ vuông đỉnh $A$ nên $B C^{2}=A B^{2}+A C^{2} \\Leftrightarrow\\left(x_{1}-1\\right)^{2}+1+\\left(x_{2}-1\\right)^{2}+1=\\left(x_{2}-x_{1}\\right)^{2}$<br/>$\\Leftrightarrow x_{1} x_{2}-\\left(x_{1}+x_{2}\\right)+2=0 \\Leftrightarrow 2 a+b+c=0$,<br/>Từ (1) và (2) ta có $a=-1, c=2-b$.<br/>Ta có $B C=\\sqrt{\\left(x_{2}-x_{1}\\right)^{2}}=\\sqrt{\\left(x_{2}+x_{1}\\right)^{2}-4 x_{2} x_{1}}=\\sqrt{\\frac{b^{2}-4 a c}{a^{2}}}=\\sqrt{b^{2}-4 b+8}$. Tam giác ABC có diện tích $S \\leq \\sqrt{2}$ nên $\\frac{1}{2} B C \\leq \\sqrt{2} \\Rightarrow \\sqrt{b^{2}-4 b+8} \\leq 2 \\sqrt{2} \\Rightarrow b^{2}-4 b \\leq 0$.<br/>Ta có $a=-1$ nên hàm số có giá trị lớn nhất là $M=\\frac{-\\Delta}{4 a}=\\frac{4 a c-b^{2}}{4 a}=\\frac{b^{2}-4 b+8}{4}$.<br/>Vì $b^{2}-4 b \\leq 0$ nên $M \\leq 2, \\operatorname{maxM}=2, M=2 \\Leftrightarrow\\left[\\begin{array}{l}b=0 \\\\ b=4\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}y=-x^{2}+2 \\\\ y=-x^{2}+4 x-2\\end{array}\\right.\\right.$.",
+            "contentAnswerA": "$\\operatorname{Max} M=1$.",
+            "contentAnswerB": "$\\operatorname{Max} M=2$.",
+            "contentAnswerC": "$\\operatorname{Max} M=3$.",
+            "contentAnswerD": "$\\operatorname{Max} M=\\frac{3}{2}$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Hai xạ thủ $A$ và $B$ cùng bắn vào một tấm bia một cách độc lập. Xác suất bắn trúng của $A$ là 0,7 và của $B$ là 0,8 . Tính xác suất để tấm bia bị trúng đạn (tức là có ít nhất một người bắn trúng).",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Xác suất cả hai cùng bắn trượt là: $P($ Truot $)=(1-0,7) \\times(1-0,8)=0,3 \\times 0,2=0,06$.<br/>Biến cố \"bia trúng đạn\" là biến cố đối của \"cả hai trượt\".<br/>Suy ra xác suất cần tìm là: $P($ Trúng $)=1-P($ Truot $)=1-0,06=0,94$",
+            "contentAnswerA": "0,06.",
+            "contentAnswerB": "0,56.",
+            "contentAnswerC": "0,94.",
+            "contentAnswerD": "0,9."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Gọi $S$ là một hình vuông có cạnh bằng 1. Chọn hai điểm bất kì ngẫu nhiên độc lập nhau nằm trên cạnh của $S$. Xác suất để đường thẳng nối hai điểm đó có khoảng cách tối thiểu bằng $\\frac{1}{2}$ là $\\frac{a-b \\pi}{c}$, trong đó $a, b$ và $c$ là các số nguyên dương, ước chung lớn nhất của $a, b, c$ là 1 . Khi ấy giá trị của biểu thức $a+b+c$ bằng bao nhiêu?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 32-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                59
+            ],
+            "explanation": "<br/>Đầu tiên ta chọn một điểm bất kì trên các cạnh của $S$. Khi đó xác suất để chọn điểm thứ hai ở cạnh có chứa điểm ban đầu là $\\frac{1}{4}$, ở cạnh đối diện cạnh chứa điểm ban đầu là $\\frac{1}{4}$ và ở cạnh kề với cạnh chứa điểm đầu là $\\frac{1}{2}$. Từ đó ta chia ba trường hợp như sau:<br/>Trường họp 1: hai điểm cùng ở trong 1 cạnh bất kì của $S$. Trong mặt phẳng $O x y$, luôn tồn tại hai điểm có tọa độ hoành lần lượt là $0 \\leq a, b \\leq 1$. Suy ra miền $\\left\\{(a ; b):|b-a|>\\frac{1}{2}\\right\\}$ sẽ có diện tích giới hạn bằng $\\left(\\frac{1}{2}\\right)^{2}$ . Như vậy xác suất để $|b-a|>\\frac{1}{2}$ chính là bằng $\\frac{1}{4} \\cdot \\frac{1}{4}=\\frac{1}{16}$<br/>Trường hợp 2: Hai điểm nằm hai cạnh kề nhau, gọi hai điểm là $A(a ; 0), B(0 ; b)$ trên hình vuông giới hạn miền là: $[0 ; 1] \\times[0 ; 1]$.<br/>Diện tích của miền: $\\left\\{(a ; b): \\sqrt{a^{2}+b^{2}} \\leq \\frac{1}{2}, 0 \\leq a, b \\leq 1\\right\\}$ bằng một góc tư của phương trình đường tròn $(C): x^{2}+y^{2}=\\frac{1}{4}$ tức bằng $\\frac{\\pi}{16}$<br/>Suy ra, phần diện tích của miển $\\left\\{(a ; b): \\sqrt{a^{2}+b^{2}}>\\frac{1}{2}, 0 \\leq a, b \\leq 1\\right\\}$ bằng $1-\\frac{\\pi}{16}$. Như vậy xác suất trường hợp này bằng $\\frac{1}{2}\\left(1-\\frac{\\pi}{16}\\right)$<br/>Trường hợp 3: Hai điểm nằm trên hai cạnh đối diện nhau, do trường hợp này khoảng cách giữa hai điểm tối thiểu luôn là lớn hơn $\\frac{1}{2}$ Nên suy ra xác suất là $1 . \\frac{1}{4}=\\frac{1}{4}$<br/>Như vậy cộng ba trường hợp lại, ta suy ra xác suất cần tìm thỏa mãn đề bài là:<br/>$P(A)=\\frac{1}{16}+\\left(1-\\frac{\\pi}{16}\\right)+\\frac{1}{4}=\\frac{26-\\pi}{32}=\\frac{a-b \\pi}{c}$.<br/>Đồng nhất hệ số suy ra: $\\left\\{\\begin{array}{l}a=32 \\\\ b=1 \\\\ c=26\\end{array}, G C D(32,1,26)=1\\right.$. Như vậy suy ra $a+b+c=59$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Nghiệm của phương trình $\\sin 3 x \\cdot \\cot x+\\cot x=0$ có các điểm biểu diễn trên đường tròn lượng giác tạo thành đa giác có diện tích bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Điều kiện: $\\sin x \\neq 0 \\Leftrightarrow x \\neq k \\pi$.<br/>$\\sin 3 x \\cdot \\cot x+\\cot x=0 \\Leftrightarrow \\cot x(\\sin 3 x+1)=0 \\Leftrightarrow\\left[\\begin{array} { l }<br/>{ \\operatorname { c o t } x = 0 } \\\\<br/>{ \\operatorname { s i n } 3 x = - 1 }<br/>\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}<br/>x=\\frac{\\pi}{2}+k \\pi \\\\<br/>3 x=-\\frac{\\pi}{2}+k 2 \\pi<br/>\\end{array}\\right.\\right.$<br/>$\\Leftrightarrow\\left[\\begin{array}{l}<br/>x=\\frac{\\pi}{2}+k \\pi \\\\<br/>x=-\\frac{\\pi}{6}+k \\frac{2 \\pi}{3}<br/>\\end{array},(k \\in \\mathbb{Z}) .\\right.$<br/>Kết hợp với điều kiện ta có nghiệm của phương trình là: $\\left[\\begin{array}{l}x=\\frac{\\pi}{2}+k \\pi \\\\ x=-\\frac{\\pi}{6}+k \\frac{2 \\pi}{3}\\end{array},(k \\in \\mathbb{Z})\\right.$.<br/><img src=\"https://cdn.save.moe/b/0OzsmCX.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727141-uawqmnqkw\" class=\"mx-auto\" style=\"\"><br/>Biễu diễn nghiệm trên đường tròn lượng giác ta được các điểm $A, B, C, D$ và các điểm này tạo thành tứ giác có diện tích là $S_{A B C D}=S_{\\triangle A B D}+S_{\\triangle B C D}=\\frac{3 \\sqrt{3}}{4}+\\frac{\\sqrt{3}}{4}=\\sqrt{3}$.",
+            "contentAnswerA": "$2 \\sqrt{3} \\mathrm{dvdt}$.",
+            "contentAnswerB": "$\\frac{\\sqrt{3}}{2} \\mathrm{dvdt}$.",
+            "contentAnswerC": "$\\frac{\\sqrt{3}}{4} \\mathrm{dvdt}$.",
+            "contentAnswerD": "$\\sqrt{3}$ đvdt."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Trên đồ thị $(C): y=\\frac{x^{2}-3 x+6}{x-2}$ có bao nhiêu cặp điểm đối xứng nhau qua điểm $I\\left(\\frac{1}{2} ; 1\\right)$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br/>Gọi $M(x ; y) ; M^{\\prime}\\left(x^{\\prime} ; y^{\\prime}\\right)$ thuộc $(C)$ và đối xứng nhau qua điểm $I\\left(\\frac{1}{2} ; 1\\right)$.<br/>Khi đó ta có hệ: $\\left\\{\\begin{array}{l}x+x^{\\prime}=1 \\\\ y+y^{\\prime}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{\\prime}=1-x \\\\ y^{\\prime}=2-y\\end{array} \\Rightarrow M^{\\prime}(1-x ; 2-y)\\right.\\right.$.<br/>Vì $M(x ; y) ; M^{\\prime}\\left(x^{\\prime} ; y^{\\prime}\\right)$ thuộc $(C)$ nên ta có $\\left\\{\\begin{array}{l}y=\\frac{x^{2}-3 x+6}{x-2} \\\\ 2-y=\\frac{x^{2}-x+4}{-x-1}\\end{array}\\right.$<br/>$\\Rightarrow 2=\\frac{x^{2}-3 x+6}{x-2}+\\frac{x^{2}+x+4}{-x-1} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+x-6=0 \\\\ x \\neq-1, x \\neq 2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-2 \\Rightarrow y=-4 \\\\ x=3 \\Rightarrow y=6\\end{array}\\right.\\right.$<br/>Vậy trên $(C)$ có đúng một cặp điểm: $M(-2,-4) ; M^{\\prime}(3 ; 6)$"
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Cho hàm số $f(x)=\\frac{1}{2} x^{2}+x-6 \\ln (x+2)$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đúng: Có $f^{\\prime}(x)=\\frac{1}{2} \\cdot 2 x+1-6 \\cdot \\frac{1}{x+2}=x+1-\\frac{6}{x+2}$<br/>b, Sai:<br/>Giải phương trình $f^{\\prime}(x)=0 \\Rightarrow x+1-\\frac{6}{x+2}=0 \\Rightarrow \\frac{(x+1)(x+2)-6}{x+2}=0 \\Rightarrow x^{2}+3 x-3=0 \\Rightarrow\\left[\\begin{array}{l}x=\\frac{-3+\\sqrt{21}}{2} \\\\ x=\\frac{-3-\\sqrt{21}}{2}\\end{array}\\right.$<br/>Mà $x \\in[-1 ; 2]$ nên $x=\\frac{-3+\\sqrt{21}}{2}$.<br/>c, Đúng: Ta có $\\left\\{\\begin{array}{l}f(-1)=\\frac{1}{2} \\cdot(-1)^{2}+1-6 \\ln (-1+2)=\\frac{-1}{2} ; \\\\ f(2)=\\frac{1}{2} \\cdot 2^{2}+2-6 \\ln (2+2)=4-12 \\ln 2\\end{array}\\right.$<br/>d, Sai: Có $f\\left(\\frac{-3+\\sqrt{21}}{2}\\right)=\\frac{1}{2} \\cdot\\left(\\frac{-3+\\sqrt{21}}{2}\\right)^{2}+\\left(\\frac{-3+\\sqrt{21}}{2}\\right)-6 \\ln \\left(\\frac{-3+\\sqrt{21}}{2}+2\\right) \\approx-5,05$<br/>Và $f(-1)=\\frac{-1}{2}=-0,5 ; f(2)=4-12 \\ln 2 \\approx-4,32$<br/>Suy ra: $\\min _{[-1 ; 2]} f(x)=f\\left(\\frac{-3+\\sqrt{21}}{2}\\right) \\approx-5,05<-5$",
+            "contentYA": "Đạo hàm của hàm số là $f^{\\prime}(x)=x+1-\\frac{6}{x+2}$.",
+            "contentYB": "Trên đoạn $[-1 ; 2]$, phương trình $f^{\\prime}(x)=0$ có hai nghiệm phân biệt",
+            "contentYC": "Giá trị $f(-1)=-\\frac{1}{2}$ và $f(2)=4-12 \\ln 2$.",
+            "contentYD": "Giá trị nhỏ nhất của $f(x)$ trên đoạn $[-1 ; 2]$ lớn hơn -5."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Cho hình phẳng ( $H$ ) giới hạn bởi hai đường cong $y=f(x)=\\sqrt{x}$ và $y=g(x)=\\frac{x-4}{3}$. Nếu ta cho hình phẳng $(H)$ quay quanh trục hoành $O x$ thì thể tích khối tròn xoay thu được là $\\frac{a \\pi}{b}$ (đvtt); trong đó $a$ và $b$ là những số nguyên dương và phân số $\\frac{a}{b}$ tối giản. Giá trị của biểu thức $T=a+b$ bằng<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3557
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/xVJqYzd.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727142-dxg422gpp\" class=\"mx-auto\" style=\"\"><br/>Lập bảng xét dấu: $(f(x))^{2}-(g(x))^{2}=x-\\left(\\frac{x-4}{3}\\right)^{2}=\\frac{-x^{2}+17 x-16}{9}$. Và $f(x) \\cdot g(x)=\\sqrt{x} \\cdot \\frac{x-4}{3}$<br/><img src=\"https://cdn.save.moe/b/SItza8.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1768406727145-3f8xw1mhc\" class=\"mx-auto\" style=\"\"><br/>Suy ra thể tích cần tính: $V=\\pi \\int_{0}^{1}(g(x))^{2} d x+\\pi \\int_{1}^{4}(f(x))^{2} d x+\\pi \\int_{4}^{16}\\left|(f(x))^{2}-(g(x))^{2}\\right| d x$<br/>$V=\\pi \\int_{0}^{1}\\left(\\frac{x-4}{3}\\right)^{2} d x+\\pi \\int_{1}^{4}(\\sqrt{x})^{2} d x+\\pi \\int_{4}^{16}\\left|(\\sqrt{x})^{2}-\\left(\\frac{x-4}{3}\\right)^{2}\\right| d x=\\frac{3503 \\pi}{54}=\\frac{a \\pi}{b}$<br/>Suy ra $a=3503 ; b=54 \\Rightarrow a+b=3557$."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Trong không gian $O x y z$, cho tám điểm $A(-2 ;-2 ; 0), B(3 ;-2 ; 0), C(3 ; 3 ; 0), D(-2 ; 3 ; 0)$, $M(-2 ;-2 ; 5), N(3 ; 3 ; 5), P(3 ;-2 ; 5), Q(-2 ; 3 ; 5)$. Hình đa diện tạo bởi tám điểm đã cho có bao nhiêu mặt đối xứng?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có $\\overrightarrow{A B}=(5 ; 0 ; 0), \\overrightarrow{D C}=(5 ; 0 ; 0)$ nên $\\overrightarrow{A B}=\\overrightarrow{D C} \\Rightarrow A B C D$ là hình bình hành, mặt khác $\\overrightarrow{A D}=(0 ; 5 ; 0) \\Rightarrow\\left\\{\\begin{array}{l}A B \\perp A D \\\\ A B=A D=5\\end{array}\\right.$. Vậy $A B C D$ là hình vuông.<br/>Tương tự, ta có $\\overrightarrow{M P}=\\overrightarrow{Q N}=(5 ; 0 ; 0) ; \\overrightarrow{M Q}=(0 ; 5 ; 0)$ nên $M P N Q$ cũng là hình vuông.<br/>Lại có, $\\overrightarrow{A M}=(0 ; 0 ; 5)$ nên $A M \\perp(A B C D)$ và $A M=A B=A D$. Vậy 8 điểm trên tạo thành hình lập phương nên có 9 mặt phẳng đối xứng.",
+            "contentAnswerA": "6.",
+            "contentAnswerB": "9.",
+            "contentAnswerC": "3.",
+            "contentAnswerD": "4."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Gọi $S$ là tập hợp tất cả giá trị của $m$ sao cho $10 m \\in \\mathbb{Z}$ và phương trình $2 \\log _{m x-5}\\left(2 x^{2}-5 x+4\\right)=\\log _{\\sqrt{m x-5}}\\left(x^{2}+2 x-6\\right)$ có nghiệm duy nhất. Tìm số phần tử của $S$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nX&eacute;t phương tr&igrave;nh: $2 \\log _{m x-5}\\left(2 x^{2}-5 x+4\\right)=\\log _{\\sqrt{m x-5}}\\left(x^{2}+2 x-6\\right)(1)$.<br />\nĐiều kiện: $\\left\\{\\begin{array}{l}m x-5&gt;0 \\\\ m x-5 \\neq 1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m x&gt;5 \\\\ m x \\neq 6\\end{array}(2)\\right.\\right.$.<br />\nKhi đ&oacute;: (1) $\\Leftrightarrow \\log _{m x-5}\\left(2 x^{2}-5 x+4\\right)=\\log _{m x-5}\\left(x^{2}+2 x-6\\right) \\Leftrightarrow 2 x^{2}-5 x+4=x^{2}+2 x-6$<br />\n$\\Leftrightarrow x^{2}-7 x+10=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\\\ x=5\\end{array}\\right.$.<br />\nPhương tr&igrave;nh (1) c&oacute; nghiệm duy nhất khi xảy ra một trong hai trường hợp sau:<br />\nTrường hợp 1: $x=2$ thỏa (2) v&agrave; $x=5$ kh&ocirc;ng thỏa (2) $\\Leftrightarrow\\left\\{\\begin{array}{l}2 m&gt;5 \\\\ 2 m \\neq 6 \\\\ {\\left[\\begin{array}{l}5 m \\leq 5 \\\\ 5 m=6\\end{array}\\right.}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m&gt;\\frac{5}{2} \\\\ m \\neq 3 \\\\ {\\left[\\begin{array}{l}m \\leq 1 \\\\ m=\\frac{6}{5}\\end{array}\\right.}\\end{array} \\Leftrightarrow m \\in \\varnothing\\right.\\right.$.<br />\nTrường hợp 2: $x=2$ kh&ocirc;ng thỏa (2) v&agrave; $x=5$ thỏa (2) $\\Leftrightarrow\\left\\{\\begin{array}{l}5 m&gt;5 \\\\ 5 m \\neq 6 \\\\ {\\left[\\begin{array}{l}2 m \\leq 5 \\\\ 2 m=6\\end{array}\\right.}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m&gt;1 \\\\ m \\neq \\frac{6}{5} \\\\ {\\left[\\begin{array}{l}m \\leq \\frac{5}{2} \\\\ m=3\\end{array}\\right.}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}1&lt;m \\leq \\frac{5}{2} \\\\ m=3\\end{array}\\right.} \\\\ m \\neq \\frac{6}{5}\\end{array}\\right.\\right.\\right.$.<br />\nTừ hai trường hợp tr&ecirc;n ta c&oacute;: $\\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}1&lt;m \\leq \\frac{5}{2} \\\\ m=3\\end{array}\\right.} \\\\ m \\neq \\frac{6}{5}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}10&lt;10 m \\leq 25 \\\\ 10 m=30\\end{array}\\right.} \\\\ 10 m \\neq 12\\end{array}\\right.\\right.$.<br />\nTheo đề b&agrave;i, $10 m \\in \\mathbb{Z}$ n&ecirc;n ta c&oacute;: $10 m \\in\\{11 ; 13 ; 14 ; \\ldots ; 25 ; 30\\}$.<br />\nVậy c&oacute; 15 gi&aacute; trị của tham số $m$ cần t&igrave;m.<m><m></m></m>",
+            "contentAnswerA": "16.",
+            "contentAnswerB": "15.",
+            "contentAnswerC": "13.",
+            "contentAnswerD": "14."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Có hai hộp chứa các viên bi chỉ khác nhau về màu. Hộp thứ nhất chứa 6 bi xanh, 3 bi vàng, 1 bi đỏ. Hộp thứ hai chứa 3 bi xanh, 2 vàng, 5 bi đỏ. Lấy ngẫu nhiên từ mỗi hộp hai viên bi.<br/>- Biến cố $A$ : \"Lấy được bốn viên bi cùng màu xanh\" và biến cố $B$ : \"Lấy được bốn viên bi cùng màu vàng\" là hai biến cố <span class=\"drag-drop-blank\" data-drop-id=\"Câu 39-1\">____DRAG_DROP_1____</span><br/>- Số phần tử không gian mẫu của phép thử là: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 39-2\">____DRAG_DROP_2____</span><br/>- Xác suất để \"Lấy được bốn viên bi cùng màu\" là: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 39-3\">____DRAG_DROP_3____</span><br/>Kéo biểu thức ở các ô vuông thả vào vị trí thích hợp trong ba ô trống ( 1 ) → (3) ở trên.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "D>"
+                },
+                {
+                    "slot3": "F>"
+                }
+            ],
+            "explanation": "<br/>Biến cố $A$: \"Lấy được bốn viên bi cùng màu xanh\" và biến cố $B$: \"Lấy được bốn viên bi cùng màu vàng\" là hai biến cố xung khắc do không thể đồng thời xảy ra.<br/>Số phần tử không gian mẫu của phép thử là $n(\\Omega)=C_{10}^{2} \\cdot C_{10}^{2}=2025$.<br/>Xét biến cố $D$: \"Lấy được bốn viên bi cùng màu\". Khi đó bốn viên bi lấy được chỉ có thể cùng màu xanh hoặc cùng màu vàng, hay $D=A \\cup B, A$ và $B$ là hai biến cố xung khắc.<br/>Gọi $A_{1}$ là biến cố: \"Hai bi lấy được ở hộp thứ nhất màu xanh\" $\\Rightarrow P\\left(A_{1}\\right)=\\frac{C_{6}^{2}}{C_{10}^{2}}$.<br/>Gọi $A_{2}$ là biến cố: \"Hai bi lấy được ở hộp thứ hai màu xanh\" $\\Rightarrow P\\left(A_{1}\\right)=\\frac{C_{3}^{2}}{C_{10}^{2}}$.<br/>Các biến cố $A_{1}, A_{2}$ độc lập, $A=A_{1} \\cdot A_{2}$ nên $P(A)=P\\left(A_{1}\\right) \\cdot P\\left(A_{2}\\right)=\\frac{C_{6}^{2}}{C_{10}^{2}} \\cdot \\frac{C_{3}^{2}}{C_{10}^{2}}=\\frac{1}{45}$.<br/>Gọi $B_{1}$ là biến cố: \"Hai bi lấy được ở hộp thứ nhất màu vàng\" $\\Rightarrow P\\left(B_{1}\\right)=\\frac{C_{3}^{2}}{C_{10}^{2}}$.<br/>Gọi $B_{2}$ là biến cố: \"Hai bi lấy được ở hộp thứ hai màu vàng\" $\\Rightarrow P\\left(B_{2}\\right)=\\frac{C_{2}^{2}}{C_{10}^{2}}$.<br/>Các biến cố $B_{1}, B_{2}$ độc lập, $B=B_{1} \\cdot B_{2}$ nên $P(B)=P\\left(B_{1}\\right) \\cdot P\\left(B_{2}\\right)=\\frac{C_{3}^{2}}{C_{10}^{2}} \\cdot \\frac{C_{2}^{2}}{C_{10}^{2}}=\\frac{1}{675}$.<br/>Vậy $P(D)=P(A)+P(B)=\\frac{1}{45}+\\frac{1}{675}=\\frac{16}{675}$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Độc lập"
+                },
+                {
+                    "id": "B>",
+                    "content": "Xung khắc"
+                },
+                {
+                    "id": "C>",
+                    "content": "2024"
+                },
+                {
+                    "id": "D>",
+                    "content": "2025"
+                },
+                {
+                    "id": "E>",
+                    "content": "\\frac{44}{45}"
+                },
+                {
+                    "id": "F>",
+                    "content": "\\frac{16}{675}"
+                },
+                {
+                    "id": "G>",
+                    "content": "\\frac{12}{225}"
+                }
+            ]
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Xét tập hợp $S=\\left\\{n \\in \\mathbb{Z}^{+} \\mid n:\\lfloor\\sqrt{n}\\rfloor\\right\\}$ với kí hiệu $\\lfloor x\\rfloor$ là phần nguyên của $x$, ví dụ $\\lfloor 2,3\\rfloor=2$<br/>Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Đúng: Ta thấy nếu $n$ là số chính phương, tức $n=x^{2}$ với $x \\in \\mathbb{Z}^{+}$. Khi đó: $\\lfloor\\sqrt{n}\\rfloor=\\lfloor x\\rfloor=x$.<br/>Rõ ràng $n=x^{2}$ luôn chia hết cho $x$. Vậy mọi số chính phương đều thuộc $S$<br/>b, Sai: (Bẫy) Ta xét: $n$ là số nguyên tố $p$. Để $p \\in S$ thì $p$ phải chia hết cho $k=\\lfloor\\sqrt{p}\\rfloor$.<br/>Vì $p$ là số nguyên tố nên $p$ chỉ chia hết cho 1 và chính nó.<br/>Trường hợp 1: $k=p$, khi ấy $\\lfloor\\sqrt{p}\\rfloor=p \\rightarrow p \\leq \\sqrt{p}<p+1$. Điều này chỉ xảy ra khi $p=1$ (loại vì 1 không phải là số nguyên tố).<br/>Trường hợp 2: $k=1$, khi ấy $|\\sqrt{p}|=1 \\rightarrow 1 \\leq \\sqrt{p}<2 \\rightarrow 1 \\leq p<4$. Các số nguyên tố thỏa mãn là 2 và 3 . Thử lại ta thấy $\\lfloor\\sqrt{2}\\rfloor=1 \\rightarrow 2 \\vdots 1$ (đúng) và $\\lfloor\\sqrt{3}\\rfloor=1 \\rightarrow 3 \\vdots 1$ (đúng).<br/>Xét $p=5 \\rightarrow\\lfloor\\sqrt{5}\\rfloor=2$ mà $5 \\% 2$.<br/>Vậy chỉ có đúng 2 số nguyên tố là 2 và 3 thuộc $S$. Không phải vô số.<br/>c, Đúng: Ta chỉ cần chỉ ra một cặp thỏa mãn. Chọn 2 số chính phương liên tiếp thuộc $S$ (căn cứ vào ý a). Xét $x^{2}$ và $(x+1)^{2} \\rightarrow(x+1)^{2}-x^{2}=2 x+1$<br/>Khi ấy ta muốn $2 x+1=2023 \\Leftrightarrow x=1011$.<br/>Vậy hai số $1011^{2}$ và $1012^{2}$ đều thuộc $S$ và hiệu của chúng là 2023.",
+            "contentYA": "Tập hợp $S$ chứa tất cả các số chính phương.",
+            "contentYB": "Tồn tại vô số số nguyên tố thuộc tập hợp $S$.",
+            "contentYC": "Tồn tại hai số thuộc $S$ mà hiệu của chúng bằng 2023."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-01-14T16:00:47.191Z",
+    "updatedAt": "2026-01-14T16:06:30.802Z",
+    "__v": 0
+}
+
+{
+    "_id": "695f1041122c65b6a430d9e8",
+    "title": "[AECK]-Tư Duy Đọc Hiểu-Đề 13",
+    "numberOfQuestions": 20,
+    "time": 30,
+    "answer": {
+        "32d52f16-22d4-40aa-8ec1-6e6d42561bb0": "X",
+        "Câu 1": "A",
+        "Câu 2": [
+            "cạn dần"
+        ],
+        "Câu 3": "A",
+        "Câu 4": "B",
+        "Câu 5": "A",
+        "Câu 6": [
+            {
+                "slot1": "E>"
+            },
+            {
+                "slot2": "A>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "Câu 7": [
+            "c1",
+            "c2"
+        ],
+        "Câu 8": "A",
+        "Câu 9": [
+            "chất phác"
+        ],
+        "Câu 10": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "A>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "48e36513-3f01-4bd8-ae17-00e8cb1750f3": "X",
+        "Câu 11": "B",
+        "Câu 12": [
+            "c1",
+            "c3"
+        ],
+        "Câu 13": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "E>"
+            },
+            {
+                "slot3": "C>"
+            }
+        ],
+        "Câu 14": "A",
+        "Câu 15": "A",
+        "Câu 16": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "E>"
+            },
+            {
+                "slot3": "C>"
+            }
+        ],
+        "Câu 17": [
+            "c1",
+            "c3"
+        ],
+        "Câu 18": "B",
+        "Câu 19": "B",
+        "Câu 20": "B"
+    },
+    "startTime": "2025-12-24T04:01:00.000Z",
+    "endTime": "2026-04-30T04:01:00.000Z",
+    "questions": [
+        {
+            "question": "32d52f16-22d4-40aa-8ec1-6e6d42561bb0",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>BAN NỞ RỒI L&Ecirc;N T&Acirc;Y BẮC ĐI EM</strong></div>\n<strong>[0] </strong>Rừng T&acirc;y Bắc bất chợt gọi về những cơn mưa m&atilde;n xu&acirc;n nh&egrave; nhẹ, l&agrave;nh lạnh; nhưng chưa khi n&agrave;o l&agrave;m vơi đi cơn kh&aacute;t ch&aacute;y của rừng. Những c&acirc;y hoa ban nặng trĩu nụ, phải vươn rễ qua ch&iacute;n quả n&uacute;i...<br />\n<strong>[1]</strong> Th&aacute;ng 3. Cả bầu trời T&acirc;y Bắc như một quả cầu lửa, những cơn gi&oacute; L&agrave;o v&ocirc; t&igrave;nh n&eacute;m sang từ b&ecirc;n kia bi&ecirc;n giới. Cảm gi&aacute;c ngộp thở như đang bị đựng trong quả bầu chật căng kh&iacute; cacbonic oi nồng. Bụng dạ ruột r&agrave; cứ như c&oacute; ai đ&oacute; đem phơi trộm, kh&ocirc; cong l&ecirc;n từng đoạn. Rừng thi nhau tr&uacute;t l&aacute; sau mỗi c&aacute;i lắc đầu của gi&oacute;. Vạn diệp lao xao v&agrave;ng, v&agrave; tao t&aacute;c mang &ocirc;xy đi. Ngực nh&oacute;i l&ecirc;n từng cơn sau nhịp thở. Cảm gi&aacute;c gi&agrave; nua len v&agrave;o l&agrave;n da, thớ thịt. M&aacute;u cạn dần sau ba bốn th&aacute;ng nắng nỏ, hạn hanh. Bất chợt một sắc &aacute;o c&oacute;m, len l&eacute;n, khe khẽ l&oacute;e ra tr&ecirc;n nền rừng khuềnh kho&agrave;ng c&agrave;nh cội. &Ocirc; xy như từ đ&acirc;u &ugrave;a về, no mẩy ngực. C&aacute;i lắc đầu của gi&oacute;, l&agrave;m cả một mảng rừng trắng muốt rung rinh.<br />\n<strong>[2]</strong> Ban nở rồi! L&ecirc;n T&acirc;y Bắc đi em. Mỗi eo n&uacute;i l&agrave; một rừng m&acirc;y trắng&hellip; ở đầu s&agrave;n, những &ldquo;b&ocirc;ng hoa ban&rdquo; thong thả bu&ocirc;ng m&aacute;i t&oacute;c mầu l&aacute; sậm xuống chậu nước m&oacute; trong leo lẻo, in b&oacute;ng cả chim trời. Tr&ecirc;n ngọn rừng, từng &ldquo;c&ocirc; g&aacute;i Th&aacute;i&rdquo; thắt đ&aacute;y lưng ong, x&ograve;e t&agrave; &aacute;o c&oacute;m ra chờn vờn trước gi&oacute;. Th&aacute;ng 3 l&agrave; m&ugrave;a của &aacute;o trắng, hoa trắng v&agrave; đ&ecirc;m trắng. Tất cả những ch&agrave;ng trai người Th&aacute;i đều trở th&agrave;nh Ch&agrave;ng Khum, c&ograve;n tất cả c&aacute;c c&ocirc; g&aacute;i Th&aacute;i đều l&agrave; những N&agrave;ng Ban. Đ&acirc;y đ&oacute; tr&ecirc;n khắp c&aacute;c bản l&agrave;ng, tiếng đ&agrave;n, tiếng nhị, tiếng p&iacute;, tiếng c&ocirc;ống&hellip; vang động tận lưng trời, theo từng trường đoạn của &ldquo;Lễ hội Hoa Ban&rdquo; đang ng&agrave;y một trở n&ecirc;n quan trọng trong t&acirc;m linh t&iacute;n ngưỡng. C&oacute; c&ocirc; g&aacute;i Th&aacute;i xinh như một b&ocirc;ng ban mới h&eacute; bảo, d&ugrave; ng&agrave;y ấy N&agrave;ng Ban kh&ocirc;ng đi t&igrave;m Ch&agrave;ng Khum để rồi chết gục tr&ecirc;n đỉnh n&uacute;i cao, v&agrave; h&oacute;a th&agrave;nh c&acirc;y hoa ban, th&igrave; h&ocirc;m nay mỗi b&ocirc;ng hoa ban cũng vẫn h&oacute;a th&agrave;nh một c&ocirc; g&aacute;i Th&aacute;i: &ldquo;Nếu kh&ocirc;ng tin, anh thử ra &ldquo;m&oacute; nặm&rdquo; đầu bản m&agrave; xem con g&aacute;i Th&aacute;i tắm ti&ecirc;n&rdquo;. Quả đ&uacute;ng thế, mỗi l&agrave;n da l&agrave; một c&aacute;nh hoa ban, tự bao giờ đ&atilde; lặn v&agrave;o thật s&acirc;u trong từng thớ thịt. Cả một đoạn suối trắng lung linh, đến m&acirc;y c&ograve;n phải nghi&ecirc;ng xuống tị ghen.<br />\n<strong>[3]</strong> Rừng T&acirc;y Bắc bất chợt gọi về những cơn mưa m&atilde;n xu&acirc;n nh&egrave; nhẹ, l&agrave;nh lạnh; nhưng chưa khi n&agrave;o l&agrave;m vơi đi cơn kh&aacute;t ch&aacute;y của rừng. Những c&acirc;y hoa ban nặng trĩu nụ, phải vươn rễ qua ch&iacute;n quả n&uacute;i để đ&acirc;m v&ograve;i xuống khe, chuyển vận những hạt nước mong manh trước nỗi r&igrave;nh rập hanh hao của nắng để về nu&ocirc;i cho những ch&ugrave;m hoa ng&agrave;y một th&ecirc;m trắng muốt. V&ocirc; t&igrave;nh, rễ ban để lại nơi đầu nguồn con suối một vị ngọt dị thường, để rồi ch&iacute;nh vị ngọt ấy xoa dịu c&aacute;i đắng quay quắt của một lo&agrave;i măng dại. Lo&agrave;i măng ấy, sau khi được uống nước đầu nguồn do c&acirc;y ban để lại, uống nước trong chiếc ninh đồng của mẹ m&uacute;c về, trong b&aacute;t ch&eacute;o đậm đ&agrave; m&agrave;u ớt hiểm của em g&aacute;i kh&eacute;o tay gi&atilde;&hellip; bỗng trở th&agrave;nh vị của t&igrave;nh y&ecirc;u, vị của hạnh ph&uacute;c m&agrave; bất kỳ ai, sẽ cả đời kh&ocirc;ng thể qu&ecirc;n cho d&ugrave; chỉ một lần nếm thử. Người T&acirc;y Bắc bảo, đấy ch&iacute;nh l&agrave; m&aacute;u của N&agrave;ng Ban (ngọt) v&agrave; thịt của Ch&agrave;ng Khum (đắng) h&ograve;a trộn với nhau để tạo ra một thứ vị được xếp v&agrave;o h&agrave;ng thứ hai trong &ldquo;tứ vị linh l&acirc;m&rdquo;, đ&oacute; l&agrave;: &ldquo;Nhất củ m&agrave;i, nhị măng đắng, tam rau sắng, tứ mật ong&rdquo;.<br />\n<strong>[4]</strong> Hoa ban l&agrave; thế. Người T&acirc;y Bắc l&agrave; thế. L&ecirc;n T&acirc;y Bắc đi em, nếu kh&ocirc;ng v&igrave; người th&igrave; cũng v&igrave; cảnh. Ch&uacute;ng m&igrave;nh chẳng bốc ch&aacute;y khi ngắm hoa ban nở th&igrave; cũng một lần, em thấy l&ograve;ng m&igrave;nh xao xuyến trước một lo&agrave;i hoa b&igrave;nh dị v&agrave; chất ph&aacute;c như cuộc sống sơn cước ng&agrave;n đời; m&agrave; mỗi b&ocirc;ng ch&iacute;nh l&agrave; một c&ocirc; g&aacute;i Th&aacute;i. L&ecirc;n T&acirc;y Bắc xem chim rừng bay trong thau nước gội đầu. L&ecirc;n T&acirc;y Bắc cho măng đắng truyền vị đắng c&oacute; linh hồn của &ldquo;Ch&agrave;ng Khum&rdquo; v&agrave; của &ldquo;N&agrave;ng Ban&rdquo; l&agrave;m đ&ecirc; m&ecirc; đầu lưỡi. L&ecirc;n T&acirc;y Bắc để được một lần tắm ti&ecirc;n khiến hoa thẹn nguyệt nhường. L&ecirc;n T&acirc;y Bắc cho hoa ban m&atilde;i trắng muốt như m&acirc;y, v&agrave; trắng muốt như da&hellip;<br />\nBan nở rồi, l&ecirc;n T&acirc;y Bắc đi em!<br />\n<strong><em>( Tản văn Nguyễn Đức Lợi)</em></strong>",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 10:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Ý nào sau đây nêu đúng cảm nhận của tác giả khi nhìn thấy hoa ban?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><strong>Phương pháp: </strong>Xác định từ khóa “hoa ban bung nở”, “sức sống”, “Tây Bắc”, sau đó đối chiếu đoạn miêu tả hoa ban để chọn đáp án đúng.<br/><strong>Giải thích: </strong>Đoạn văn [1] miêu tả cảnh hoa ban bung nở mang sức sống mới cho rừng Tây Bắc. Ví dụ, chi tiết “oxy như từ đâu ùa về… cả một mảng rừng trắng muốt rung rinh” cho thấy khi hoa ban nở, không khí trong lành, rừng căng tràn sức sống. Cùng lúc, tác giả gọi bạn “Lên Tây Bắc đi em” ngụ ý khát khao cho người khác thưởng ngoạn hoa ban. Cả hai ý “thể hiện sức sống của núi rừng” và “khao khát chiêm ngưỡng” được thể hiện rõ trong đoạn văn này. Các phương án B, C, D không phản ánh đúng nội dung: B chỉ nói hoa ban dịu bớt cái gay gắt (không có trong văn bản), C, D nói về mùa xuân và sự “tỉnh thức” cũng không được nêu trong tác phẩm.",
+            "contentAnswerA": "Hoa ban bung nở, thể hiện sức sống của núi rừng và khao khát chiêm ngưỡng của con người.",
+            "contentAnswerB": "Rừng hoa ban nở trắng xóa làm dịu bớt cái gay gắt của những cơn cháy rừng, xoa dịu con người.",
+            "contentAnswerC": "Hoa ban nở vào đúng mùa xuân, phần nào sưởi ấm cánh rừng sau những ngày đông giá buốt.",
+            "contentAnswerD": "Rừng hoa ban nở bất chợt, khiến con người như tỉnh thức sau những ngày đông u ám, lạnh giá."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Tìm từ thích hợp (không quá hai tiếng) để hoàn thành nhận định sau:<br/>Gió Lào khiến cả cánh rừng như ngộp thở, cảm giác sức sống đang <span class=\"fill-blank\" data-blank-id=\"Câu 2-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> thì bỗng nhiên, oxy như từ đâu ủa về, bừng lên sức sống mới, rừng trắng muốt, bung nở hương sắc.",
+            "type": "TLN",
+            "correctAnswer": [
+                "cạn dần"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm cụm từ giống trong bài (“cạn dần”, “bỗng nhiên, oxy ùa về”) để điền vào chỗ trống.<strong> </strong><br/><strong>Giải thích: </strong>Đoạn [1] mô tả “máu cạn dần sau ba bốn tháng nắng hạn” trước khi hoa ban nở, vì thế sức sống của rừng bị “cạn dần”. Ngay sau đó, “oxy như từ đâu ùa về” và hoa ban bung nở. Từ cần điền “cạn dần” là từ đồng nghĩa với “đang giảm dần”, phù hợp với ngữ cảnh “sức sống đang ___ thì bỗng nhiên…” được nêu trong câu hỏi."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Theo quan niệm của người Thái, bông hoa ban đại diện người con gái thủy chung, đẹp thuần khiết và rực rỡ nhưng lại bất hạnh, chẳng tìm được tình yêu của riêng mình, đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><strong>Phương pháp: </strong>Xác định kiểu câu hỏi “Đúng/Sai” (kiểm chứng thông tin); tìm đoạn nói về Nàng Ban để đối chiếu ý trong câu hỏi.<br/><strong>Giải thích: </strong>Đoạn [2] kể truyện huyền thoại về Nàng Ban (hoa ban) và Chàng Khum – một cô gái Thái xinh đẹp nhưng không tìm được tình yêu và “chết gục trên đỉnh núi cao, và hóa thành cây hoa ban”. Điều này thể hiện hình ảnh “bông hoa ban đại diện cho người con gái thủy chung, đẹp thuần khiết nhưng bất hạnh, không tìm được tình yêu riêng” như trong câu hỏi.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Theo đoạn [2], bông hoa ban trở thành biểu tượng cho các cô gái Thái bởi vẻ đẹp:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm cụm từ miêu tả hoa ban/cô gái Thái trong đoạn [2] và đối chiếu với các tính từ trong đáp án<br/><strong>Giải thích: </strong>Đoạn [2] mô tả “những ‘bông hoa ban’ thong thả buông mái tóc mầu lá sậm… những ‘cô gái Thái’ thắt đáy lưng ong, xòe tà áo cóm… chờn vờn trước gió”. Các hình ảnh “thong thả buông tóc”, “tà áo xòe” gợi dáng dấp dịu dàng, e ấp, mộc mạc của cô gái Thái. Vì vậy phương án B phù hợp nhất. Các đáp án khác (kiêu sa, tự tin, gần gũi yêu thương) không được minh họa trong văn bản.",
+            "contentAnswerA": "Dáng vẻ kiêu sa, lạnh lùng.",
+            "contentAnswerB": "Dịu dàng, e ấp, mộc mạc.",
+            "contentAnswerC": "Tự tin, mạnh mẽ, cá tính.",
+            "contentAnswerD": "Gần gũi, mềm mại, yêu thương."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Theo đoạn [3], hình ảnh hoa ban và cây măng biểu tượng cho tình yêu vĩnh cửu, dù có phải xa nhau ở hiện tại nhưng họ vẫn luôn tìm thấy và hạnh phúc bên nhau ở những kiếp sống khác, đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p: </strong>X&aacute;c định nội dung &ldquo;h&igrave;nh ảnh hoa ban v&agrave; c&acirc;y măng biểu tượng t&igrave;nh y&ecirc;u&rdquo; &ndash; đối chiếu c&acirc;u hỏi với văn bản<br />\n<strong>Giải th&iacute;ch: </strong>Đoạn [3] khắc họa h&igrave;nh ảnh c&acirc;y hoa ban v&agrave; c&acirc;y măng biểu trưng cho t&igrave;nh y&ecirc;u bất diệt. Cụ thể, t&aacute;c giả viết &ldquo;nước đầu nguồn c&acirc;y ban để lại&hellip; bỗng trở th&agrave;nh vị của t&igrave;nh y&ecirc;u&hellip; Người T&acirc;y Bắc bảo, đấy ch&iacute;nh l&agrave; m&aacute;u của N&agrave;ng Ban (ngọt) v&agrave; thịt của Ch&agrave;ng Khum (đắng) h&ograve;a trộn&rdquo;. H&igrave;nh ảnh &ldquo;m&aacute;u của N&agrave;ng Ban v&agrave; thịt của Ch&agrave;ng Khum h&ograve;a trộn&rdquo; ngụ &yacute; t&igrave;nh y&ecirc;u trường tồn xuy&ecirc;n kiếp. Do đ&oacute; khẳng định trong c&acirc;u hỏi l&agrave; đ&uacute;ng.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Trong những câu chuyện mang đầy màu sắc <span class=\"drag-drop-blank\" data-drop-id=\"Câu 6-1\">____DRAG_DROP_1____</span>, người Tây Bắc bảo thịt của chàng Khum làm nên <span class=\"drag-drop-blank\" data-drop-id=\"Câu 6-2\">____DRAG_DROP_2____</span>, vị ngọt là máu của <span class=\"drag-drop-blank\" data-drop-id=\"Câu 6-3\">____DRAG_DROP_3____</span>, hai thứ đó hòa quyện vào nhau, tạo nên thứ vị đặc biệt, khó quên.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "E>"
+                },
+                {
+                    "slot2": "A>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Dựa vào ngữ cảnh và gợi ý trong văn bản đoạn [3] để điền khái niệm cho phù hợp (xác định nghĩa của các cụm “truyền thuyết Nàng Ban – Chàng Khum”).",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "cái đắng"
+                },
+                {
+                    "id": "B>",
+                    "content": "nàng Ban"
+                },
+                {
+                    "id": "C>",
+                    "content": "mùa đông"
+                },
+                {
+                    "id": "D>",
+                    "content": "tình yêu"
+                },
+                {
+                    "id": "E>",
+                    "content": "huyền thoại"
+                }
+            ]
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Từ (2) “cái đắng” và (3) “Nàng Ban” được minh họa bởi cụm từ “thịt của Chàng Khum (đắng) và máu của Nàng Ban (ngọt)”. Từ (1) “huyền thoại” mang nghĩa khái quát cho các “câu chuyện mang đầy màu sắc huyền thoại” về Nàng Ban – điều này phù hợp với sắc thái truyền thuyết của đoạn [3]. Do đó đáp án (1) huyền thoại, (2) cái đắng, (3) Nàng Ban là đúng.",
+            "type": "TN",
+            "correctAnswer": "",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p: </strong>X&aacute;c định nội dung &ldquo;h&igrave;nh ảnh hoa ban v&agrave; c&acirc;y măng biểu tượng t&igrave;nh y&ecirc;u&rdquo; &ndash; đối chiếu c&acirc;u hỏi với văn bản<br />\n<strong>Giải th&iacute;ch: </strong>Đoạn [3] khắc họa h&igrave;nh ảnh c&acirc;y hoa ban v&agrave; c&acirc;y măng biểu trưng cho t&igrave;nh y&ecirc;u bất diệt. Cụ thể, t&aacute;c giả viết &ldquo;nước đầu nguồn c&acirc;y ban để lại&hellip; bỗng trở th&agrave;nh vị của t&igrave;nh y&ecirc;u&hellip; Người T&acirc;y Bắc bảo, đấy ch&iacute;nh l&agrave; m&aacute;u của N&agrave;ng Ban (ngọt) v&agrave; thịt của Ch&agrave;ng Khum (đắng) h&ograve;a trộn&rdquo;. H&igrave;nh ảnh &ldquo;m&aacute;u của N&agrave;ng Ban v&agrave; thịt của Ch&agrave;ng Khum h&ograve;a trộn&rdquo; ngụ &yacute; t&igrave;nh y&ecirc;u trường tồn xuy&ecirc;n kiếp. Do đ&oacute; khẳng định trong c&acirc;u hỏi l&agrave; đ&uacute;ng."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Ý nào sau đây thể hiện mối liên hệ giữa thiên nhiên và con người Tây Bắc? (Chọn 2 đáp án đúng)",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Nhìn vào từ khóa “thiên nhiên”, “tượng trưng”, “nguồn sống” và đối chiếu với nội dung từng đoạn trong bài để chọn hai đáp án hợp lý.<br/><strong>Giải thích: </strong>A là đúng vì bài văn nhiều lần thể hiện hoa ban là biểu tượng vẻ đẹp và tình yêu của người Thái (xem câu 10 dưới đây). Đặc biệt, [4] đã nêu “hình ảnh hoa ban như biểu tượng của <strong>tình yêu</strong>, thể hiện mối quan hệ giữa <strong>thiên nhiên</strong> và <strong>con người</strong>”, ám chỉ hoa ban gắn với tình yêu của người Thái (vẻ đẹp tình cảm). B cũng đúng vì đoạn [3] cho thấy rừng Tây Bắc là nguồn cung cấp nước – hơi thở cho cả môi trường (chuyển hạt nước nuôi hoa ban), ngụ ý rừng là nguồn sống và niềm tự hào cho cư dân Tây Bắc. C và D không có căn cứ trong văn bản.",
+            "contentC1": "Hoa ban tượng trưng cho vẻ đẹp và tình yêu người Thái.",
+            "contentC2": "Rừng Tây Bắc là nguồn sống và niềm tự hào của người dân.",
+            "contentC3": "Thiên nhiên luôn hàm chứa những nỗi sợ của người Tây Bắc.",
+            "contentC4": "Người dân Tây Bắc sống lệ thuộc vào tự nhiên từ ngàn đời."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Xác định mục đích chính của tác giả thể hiện qua bài viết trên.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Phương pháp: Xác định ý chính (overall topic), đọc đoạn mở/đoạn cuối tìm luận điểm tổng kết, nhận ra mục đích là tán dương vẻ đẹp và văn hoá.<br/>Giải thích: Mục đích chính của tác giả là ca ngợi vẻ đẹp thiên nhiên và văn hóa Tây Bắc. Bài viết kêu gọi “Lên Tây Bắc đi em” với giọng văn trữ tình, miêu tả hoa ban và con người Tây Bắc với nhiều hình ảnh tích cực (ví dụ [5†L52-L55] “loài hoa bình dị và chất phác”, “mỗi bông chính là một cô gái Thái”). Điều này phù hợp với đáp án A. Các đáp án B, C, D đều hẹp hơn hoặc không đúng trọng tâm (B nói du lịch; C chỉ huyền thoại; D chỉ hoa ban mùa xuân).",
+            "contentAnswerA": "Ca ngợi vẻ đẹp thiên nhiên và văn hóa của vùng đất Tây Bắc.",
+            "contentAnswerB": "Khẳng định sự quan trọng của Tây Bắc trong phát triển du lịch.",
+            "contentAnswerC": "Giới thiệu những câu chuyện huyền thoại về vùng đất Tây Bắc.",
+            "contentAnswerD": "Miêu tả vẻ đẹp của hoa ban Tây Bắc mỗi khi mùa xuân về."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Tìm từ thích hợp (không quá hai tiếng) để hoàn thành nhận định sau:<br/>Hoa ban đại diện cho vẻ đẹp bình dị, <span class=\"fill-blank\" data-blank-id=\"Câu 9-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> của con người sơn cước, lên Tây Bắc là dịp để con người chìm đắm vào thiên nhiên, giải phóng mình khỏi những xô bồ thường nhật.",
+            "type": "TLN",
+            "correctAnswer": [
+                "chất phác"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm cụm từ mô tả “hoa ban” (“bình dị và ____”) trong văn bản để điền vào.<br/><strong>Giải thích: </strong>Đoạn [4] có câu “trước một loài hoa bình dị và <strong>chất phác</strong> như cuộc sống sơn cước ngàn đời”. Trong chỗ trống cần điền “Hoa ban đại diện cho vẻ đẹp bình dị, ___ của con người sơn cước...”, từ “chất phác” khớp hoàn hảo với trích dẫn trên."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Bài viết sử dụng hình ảnh hoa ban như biểu tượng của <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-1\">____DRAG_DROP_1____</span> thể hiện mối quan hệ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-2\">____DRAG_DROP_2____</span> và <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-3\">____DRAG_DROP_3____</span>  trong đời sống người Thái.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "A>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Nhìn vào cụm “hoa ban như biểu tượng” trong văn bản – thông tin dạng nhận định rõ ràng – và đối chiếu với các từ gợi ý để điền chính xác.<br/><strong>Giải thích: </strong>Chính văn bản [4] đã nêu rõ: “Bài viết sử dụng hình ảnh hoa ban như biểu tượng của <strong>tình yêu</strong>, thể hiện mối quan hệ giữa <strong>thiên nhiên</strong> và <strong>con người</strong> trong đời sống người Thái”. Đây là câu trả lời trực tiếp cho câu hỏi.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Thiên nhiên"
+                },
+                {
+                    "id": "B>",
+                    "content": "Con người"
+                },
+                {
+                    "id": "C>",
+                    "content": "Tình yêu"
+                },
+                {
+                    "id": "D>",
+                    "content": "Núi rừng"
+                },
+                {
+                    "id": "E>",
+                    "content": "Động vật"
+                }
+            ]
+        },
+        {
+            "question": "48e36513-3f01-4bd8-ae17-00e8cb1750f3",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>THỤ PHẤN C&Acirc;U TRỒNG BẰNG TAY TRONG CANH T&Aacute;C N&Ocirc;NG NGHIỆP</strong></div>\n<strong>[1]</strong> C&aacute;c lo&agrave;i thụ phấn chẳng hạn như ong, bướm v&agrave; chim rất cần thiết cho sản xuất n&ocirc;ng nghiệp. Tuy nhi&ecirc;n, thụ phấn tự nhi&ecirc;n cũng c&oacute; thể kh&ocirc;ng th&agrave;nh c&ocirc;ng hoặc kh&ocirc;ng đủ số lượng c&aacute;c lo&agrave;i thụ phấn, n&ecirc;n c&oacute; thể dẫn đến năng suất v&agrave; chất lượng k&eacute;m hơn. Điều n&agrave;y c&oacute; nghĩa l&agrave; cần c&oacute; c&aacute;c giải ph&aacute;p thay thế. Thụ phấn bằng tay, trong đ&oacute; hạt phấn được đưa v&agrave;o hoa một c&aacute;ch thủ c&ocirc;ng hay sử dụng m&aacute;y m&oacute;c, c&oacute; thể bổ sung hoặc thay thế thụ phấn bởi động vật. C&aacute;c nh&agrave; nghi&ecirc;n cứu của trường Đại học G&ouml;ttingen and Hohenheim đ&atilde; tr&igrave;nh b&agrave;y bản đ&aacute;nh gi&aacute; c&oacute; hệ thống đầu ti&ecirc;n về qu&aacute; tr&igrave;nh thụ phấn bằng tay ở c&acirc;y lương thực. Họ chỉ ra rằng thụ phấn bằng tay được sử dụng tr&ecirc;n to&agrave;n thế giới với hơn 20 loại c&acirc;y trồng, bao gồm c&aacute;c loại c&acirc;y quan trọng về kinh tế như t&aacute;o, cọ dầu v&agrave; ca cao. Kết quả của nghi&ecirc;n cứu đ&atilde; được c&ocirc;ng bố tr&ecirc;n tạp ch&iacute; Basic and Applied Ecology.<br />\n<strong>[2] </strong>Trong những năm gần đ&acirc;y, việc canh t&aacute;c c&acirc;y trồng phụ thuộc v&agrave;o c&aacute;c lo&agrave;i thụ phấn đ&atilde; gia tăng tr&ecirc;n to&agrave;n thế giới. Đồng thời, đ&atilde; c&oacute; sự suy giảm mạnh v&agrave; tr&ecirc;n diện rộng c&aacute;c lo&agrave;i thụ phấn do thay đổi mục đ&iacute;ch sử dụng đất v&agrave; đặc biệt l&agrave; n&ocirc;ng nghiệp th&acirc;m canh nhiều hơn. Rất &iacute;t nghi&ecirc;n cứu về sự phổ biến của việc thụ phấn bằng tay v&agrave; tầm quan trọng của n&oacute; được thực hiện. Sau khi ph&acirc;n t&iacute;ch t&agrave;i liệu, c&aacute;c nh&agrave; nghi&ecirc;n cứu ph&aacute;t hiện ra rằng thụ phấn bằng tay thường được sử dụng cho nhiều loại c&acirc;y ăn quả v&agrave; tr&ecirc;n thực tế, được sử dụng tr&ecirc;n to&agrave;n thế giới đối với vani, chanh d&acirc;y, ch&agrave; l&agrave;, cọ dầu v&agrave; hai lo&agrave;i c&acirc;y trồng quan trọng ở v&ugrave;ng nhiệt đới Ch&acirc;u Mỹ (Atemoya v&agrave; Cherimoya).<br />\n<strong>[3]</strong> C&oacute; nhiều l&yacute; do li&ecirc;n quan đến m&ocirc;i trường, kh&iacute; hậu hoặc kinh tế để giải th&iacute;ch tại sao thụ phấn bằng tay c&oacute; thể cần thiết. Việc thiếu c&aacute;c lo&agrave;i thụ phấn tự nhi&ecirc;n l&agrave; động lực quan trọng nhất, c&oacute; thể do nhiều nguy&ecirc;n nh&acirc;n kh&aacute;c nhau. Đặc biệt, những c&acirc;y trồng chỉ dựa v&agrave;o một lo&agrave;i chuy&ecirc;n biệt để thụ phấn c&oacute; nguy cơ bị ảnh hưởng. Nhiều loại c&acirc;y cũng được trồng b&ecirc;n ngo&agrave;i m&ocirc;i trường sống tự nhi&ecirc;n của ch&uacute;ng, v&iacute; dụ như vani ở Madagascar v&agrave; cọ dầu ở Indonesia. Khi kh&ocirc;ng c&oacute; c&aacute;c t&aacute;c nh&acirc;n thụ phấn tự nhi&ecirc;n của những c&acirc;y trồng n&agrave;y, phương ph&aacute;p thụ phấn bằng tay thường được sử dụng. Việc lạm dụng thuốc trừ s&acirc;u v&agrave; mất m&ocirc;i trường sống tự nhi&ecirc;n cho c&aacute;c lo&agrave;i thụ phấn cũng c&oacute; thể th&uacute;c đẩy nhu cầu thụ phấn bằng tay. V&iacute; dụ, sản xuất chanh d&acirc;y ở Brazil bị ảnh hưởng bởi số lượng thấp của ong thợ v&agrave; việc trồng Atemoya ở &Uacute;c bị ảnh hưởng do sự thiếu hụt bọ c&aacute;nh cứng (Nitidulidae).<br />\n<strong>[4]</strong> Gi&aacute;o sư Teja Tscharntke, Trưởng khoa N&ocirc;ng nghiệp tại trường Đại học G&ouml;ttingen nhấn mạnh &ldquo;Nghi&ecirc;n cứu của ch&uacute;ng t&ocirc;i cho thấy thụ phấn bằng tay trong n&ocirc;ng nghiệp thường c&oacute; thể giảm hoặc ngăn ngừa tổn thất t&agrave;i ch&iacute;nh, điều n&agrave;y khiến n&oacute; trở th&agrave;nh một phương ph&aacute;p hấp dẫn v&agrave; c&oacute; lợi nhuận&rdquo;. Thụ phấn bằng tay cho ph&eacute;p người n&ocirc;ng d&acirc;n đảm bảo năng suất kh&ocirc;ng đổi, tr&aacute;nh thụ phấn qu&aacute; mức hoặc thiếu, quản l&yacute; tần suất thụ phấn, kiểm so&aacute;t nguồn gốc của hạt phấn v&agrave; chọn thời điểm thụ phấn tối ưu. C&aacute;c chỉ số về chất lượng như h&igrave;nh dạng, k&iacute;ch thước, những yếu tố quan trọng để đảm bảo gi&aacute; trị thị trường cao c&oacute; thể được cải thiện đối với một số loại c&acirc;y trồng th&ocirc;ng qua thụ phấn bằng tay.<br />\n<strong>[5]</strong> Gi&aacute;o sư Ingo Grass, Trưởng khoa Hệ sinh th&aacute;i c&aacute;c Hệ thống N&ocirc;ng nghiệp Nhiệt đới tại trường Đại học Hohenheim, cho biết th&ecirc;m rằng thụ phấn bằng tay mang lại những th&aacute;ch thức v&agrave; rủi ro ri&ecirc;ng: &ldquo;Việc n&agrave;y tốn nhiều thời gian v&agrave; c&ocirc;ng sức, v&igrave; n&oacute; li&ecirc;n quan đến nhiều bước, bao gồm thu hoạch, sấy kh&ocirc;, lưu trữ v&agrave; ph&acirc;n phối phấn hoa. Đầu tư v&agrave;o nhiều lao động v&agrave; vật liệu hơn c&oacute; thể qu&aacute; tốn k&eacute;m đối với c&aacute;c hệ thống canh t&aacute;c quy m&ocirc; lớn n&oacute;i ri&ecirc;ng&rdquo;. V&igrave; vậy, điều quan trọng l&agrave; phải xem x&eacute;t chi ph&iacute; v&agrave; lợi &iacute;ch của thụ phấn bằng tay trước khi đưa v&agrave;o sử dụng. C&oacute; thể giảm chi ph&iacute; bằng c&aacute;ch ph&aacute;t triển c&aacute;c c&ocirc;ng nghệ mới như kỹ thuật tự động, nhưng nếu kh&ocirc;ng thể, việc thụ phấn bằng tay thường được thực hiện bởi những người lao động được trả lương thấp, thậm ch&iacute; cả trẻ em. Qu&aacute; tr&igrave;nh thụ phấn bằng tay phải đi k&egrave;m với c&aacute;c ti&ecirc;u chuẩn sinh th&aacute;i x&atilde; hội bao gồm việc bảo vệ c&aacute;c lo&agrave;i thụ phấn tự nhi&ecirc;n v&agrave; c&aacute;c c&aacute;ch đảm bảo thực h&agrave;nh c&ocirc;ng việc an to&agrave;n v&agrave; c&ocirc;ng bằng.<br />\n<strong>[6]</strong> Annemarie Wurz, Nh&agrave; n&ocirc;ng học tại Đại học G&ouml;ttingen v&agrave; l&agrave; t&aacute;c giả ch&iacute;nh của nghi&ecirc;n cứu, nhấn mạnh: &ldquo;Nếu qu&aacute; tr&igrave;nh thụ phấn tự nhi&ecirc;n c&oacute; sẵn hoặc c&oacute; thể phục hồi, th&igrave; n&oacute; phải được ưu ti&ecirc;n, v&igrave; n&oacute; l&agrave; c&aacute;ch hiệu quả nhất, tiết kiệm chi ph&iacute; v&agrave; th&acirc;n thiện với đa dạng sinh học&rdquo;. Nh&oacute;m nghi&ecirc;n cứu nhận thấy tiềm năng của thụ phấn bằng tay ở những nơi kh&ocirc;ng c&oacute; t&aacute;c nh&acirc;n thụ phấn chẳng hạn như trồng vani ở Madagascar hoặc những nơi kh&ocirc;ng đủ c&aacute;c lo&agrave;i thụ phấn chẳng hạn như trồng chanh d&acirc;y ở Brazil.<br />\n<strong><em>(Theo https://www.hcmbiotech.com.vn/vi/news/tin-khoa-hoc/cac-nha-nghien-cuu-phan-tich-viec-thu-phan-cay-trong-bang-tay-trong-canh-tac-nong-nghiep-tren-toan-the-gioi-808.html)</em></strong>",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 11 - 20:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Theo đoạn [1], vì sao thụ phấn bằng tay trở thành phương pháp cần thiết trong nông nghiệp?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Dựa vào nội dung đoạn 1, tìm cụm từ như “giải pháp thay thế”, “loài thụ phấn” để xác định đúng đáp án.<br/><strong>Giải thích: </strong>Đoạn [1] cho biết thụ phấn tự nhiên đôi khi thất bại hoặc thiếu hụt các loài thụ phấn, dẫn đến năng suất kém, <strong>“cần có các giải pháp thay thế”</strong>. Cụ thể văn bản viết: “thụ phấn tự nhiên cũng có thể không thành công hoặc không đủ… nên có thể dẫn đến năng suất kém hơn. Điều này có nghĩa là cần có các giải pháp thay thế. Thụ phấn bằng tay… có thể bổ sung hoặc thay thế thụ phấn bởi động vật”. Do đó đáp án B (“Thiếu hụt loài thụ phấn tự nhiên, tạo giải pháp để đảm bảo năng suất cây trồng”) chính xác. Các phương án khác không được nêu hoặc không rõ ràng trong đoạn [1]",
+            "contentAnswerA": "Nhằm nâng cao chất lượng cây trồng, đảm bảo các tiêu chí về thực phẩm sạch.",
+            "contentAnswerB": "Thiếu hụt loài thụ phấn tự nhiên, tạo giải pháp để đảm bảo năng suất cây trồng.",
+            "contentAnswerC": "Tối ưu nguồn nhân lực phổ thông, nâng cao chất lượng sản phẩm nông nghiệp.",
+            "contentAnswerD": "Đảm bảo các vấn đề về năng suất cây trồng và an ninh lương thực toàn cầu."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Từ thống kê của tác giả, những cây trồng nào sau đây thường sử dụng phương pháp thụ phần bằng tay? (Chọn 2 đáp án đúng)",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm từ khóa “cọ dầu”, “vani” trong các đoạn thống kê (đoạn 1 và 2) để chọn đáp án phù hợp.<br/><strong>Giải thích: </strong>Đoạn [2] liệt kê các cây trồng thường áp dụng thụ phấn tay. Cụ thể có đoạn: “…trong đó có hơn 20 loại cây trồng, bao gồm các loại cây quan trọng như <strong>cọ dầu</strong> và ca cao”. Sau đó: “Sau khi phân tích tài liệu, các nhà nghiên cứu phát hiện được sử dụng trên toàn thế giới đối với <strong>vani</strong>, chanh dây, chà là, <strong>cọ dầu</strong>…”. Từ hai đoạn trên ta thấy “cọ dầu” và “vani” là hai cây được nhắc đến rõ ràng. Các lựa chọn khác (lúa gạo, ngô) không xuất hiện trong văn bản.",
+            "contentC1": "Cọ dầu.",
+            "contentC2": "Lúa gạo.",
+            "contentC3": "Vani.",
+            "contentC4": "Ngô"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Nguyên nhân dẫn đến thụ phấn bằng tay gồm: sự thiếu hụt <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-1\">____DRAG_DROP_1____</span>, tự nhiên, tác động tiêu cực <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-2\">____DRAG_DROP_2____</span> và việc cây trồng năm ngoài <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-3\">____DRAG_DROP_3____</span> vốn có.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "E>"
+                },
+                {
+                    "slot3": "C>"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Dựa vào gợi ý trong đề (nguyên nhân dẫn đến thụ phấn tay), mở rộng đọc đoạn [3] để điền đúng từng từ vào chỗ trống.<br/><strong>Giải thích: </strong>Đoạn [3] liệt kê nguyên nhân dẫn đến phải thụ phấn bằng tay: “thiếu hụt (1) <strong>loài thụ phấn</strong> tự nhiên, tác động tiêu cực từ (2) <strong>thuốc trừ sâu</strong> và việc cây trồng nằm ngoài (3) <strong>môi trường sống</strong> vốn có”. Các từ đã điền khớp với trích dẫn này.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Loài thụ phấn"
+                },
+                {
+                    "id": "B>",
+                    "content": "Nguồn nước"
+                },
+                {
+                    "id": "C>",
+                    "content": "Môi trường sống"
+                },
+                {
+                    "id": "D>",
+                    "content": "Hóa chất"
+                },
+                {
+                    "id": "E>",
+                    "content": "Thuốc trừ sâu"
+                }
+            ]
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Việc thụ phấn bằng tay đặc biệt hữu ích với những loại cây trồng phụ thuộc vào loại thụ phẩn chuyên biệt, đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><strong>Phương pháp: </strong>Đối chiếu câu khẳng định “phụ thuộc vào loài chuyên biệt” với nội dung đoạn [3] để xác định tính đúng/sai.<br/><strong>Giải thích: </strong>Đoạn [3] nhấn mạnh rằng thụ phấn tay “đặc biệt hữu ích” cho những cây trồng chỉ dựa vào một loài thụ phấn chuyên biệt. Cụ thể: “Đặc biệt, những cây trồng chỉ dựa vào một loài chuyên biệt để thụ phấn có nguy cơ bị ảnh hưởng”. Ý này ngụ ý rõ nếu cây chỉ nhờ một loài ong hay bướm, thì cần dùng thụ phấn tay khi các tác nhân tự nhiên này không có. Vậy khẳng định của câu hỏi là đúng.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Đối với người nông dân, phương pháp thụ phấn bằng tay sẽ đem lại hiệu quả kinh tế cao bởi",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm ý “đảm bảo năng suất”, “kiểm soát” trong đoạn giới thiệu lợi ích thụ phấn tay (đoạn [4]) để đối chiếu các lựa chọn.<br/>Giải thích: Đoạn [4] (trích từ Giáo sư Tscharntke) nêu lợi ích kinh tế của thụ phấn tay: “Thụ phấn bằng tay cho phép người nông dân đảm bảo năng suất không đổi… kiểm soát nguồn gốc của hạt phấn và chọn thời điểm thụ phấn tối ưu”. Đây chính là việc “kiểm soát chặt chẽ thời điểm và nguồn gốc phần hoa” như phương án A mô tả. Các phương án khác (giảm áp lực thời tiết, tận dụng nguồn lực, tăng năng suất) không được đề cập cụ thể như đáp án A.",
+            "contentAnswerA": "Sự kiểm soát chặt chẽ và đảm bảo thời điểm và nguồn gốc phần hoa.",
+            "contentAnswerB": "Giảm bớt áp lực phụ thuộc vào điều kiện thời tiết và khí hậu vùng.",
+            "contentAnswerC": "Tận dụng tối đa hiệu quả về nguồn lực, đẩy nhanh tốc độ thụ phấn.",
+            "contentAnswerD": "Tăng năng suất cây trồng thông qua việc chủ động thời điểm thụ phẩn."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Mặc dù đem tới những hiệu quả về việc tăng năng suất cây trồng nhưng phương pháp thụ phấn bằng tay đứng trước các vấn đề về <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-1\">____DRAG_DROP_1____</span> khi chưa có giải pháp thay thế bằng máy móc, việc chịu áp <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-2\">____DRAG_DROP_2____</span> này lại có thể dẫn tới nguy cơ vi phạm luật và <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-3\">____DRAG_DROP_3____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "E>"
+                },
+                {
+                    "slot3": "C>"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm kiếm cụm từ “đứng trước các vấn đề” trong đoạn [5], trích dẫn nguyên văn để điền từ thích hợp.<br/><strong>Giải thích: </strong>Đoạn [5] cảnh báo các vấn đề khi sử dụng thụ phấn tay: “Mặc dù đem tới hiệu quả tăng năng suất nhưng phương pháp thụ phấn bằng tay đứng trước vấn đề về <strong>(1) lao động</strong>… việc chịu áp lực <strong>(2) chi phí</strong> này có thể dẫn tới nguy cơ vi phạm luật và <strong>(3) quyền trẻ em</strong>”. Tương ứng với ba chỗ trống là “lao động”, “chi phí”, “quyền trẻ em”.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Lao động"
+                },
+                {
+                    "id": "B>",
+                    "content": "Thời gian"
+                },
+                {
+                    "id": "C>",
+                    "content": "Quyền trẻ em"
+                },
+                {
+                    "id": "D>",
+                    "content": "Chất lượng"
+                },
+                {
+                    "id": "E>",
+                    "content": "Chi phí"
+                }
+            ]
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Theo bài viết, phương pháp thụ phần bằng tay nên được áp dụng khi nào? (Chọn 2 đáp án đúng)",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Xác định điều kiện sử dụng thụ phấn tay từ đoạn văn (đoạn [3]) rồi chọn câu phù hợp.<br/><strong>Giải thích: </strong>Bài viết cho biết hai tình huống nên dùng thụ phấn tay: A) Khi <strong>không thể khôi phục thụ phấn tự nhiên</strong> do thiếu các loài thụ phấn, và C) khi trồng “các loài thụ phấn đặc thù” (loài chuyên biệt) dễ bị ảnh hưởng nếu chỉ có loài thụ phấn tự nhiên duy nhất. Đoạn [3] giải thích “thiếu hụt các loài thụ phấn… là động lực quan trọng nhất” và “cây trồng chỉ dựa vào một loài chuyên biệt…”. Hai phương án B, D không được đề cập.",
+            "contentC1": "Không thể khôi phục sự thụ phấn tự nhiên.",
+            "contentC2": "Dùng khi trồng cây trong điều kiện đặc biệt.",
+            "contentC3": "Ưu tiên khi thiểu các loài thụ phấn đặc thù.",
+            "contentC4": "Chỉ dùng trong khu vực ô nhiễm nghiêm trọng."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Theo đoạn [4], khi nhắc tới mục tiêu kinh tế, phương pháp thụ phấn bằng tay hướng tới điều gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Đọc kỹ đoạn [4] chứa trích dẫn của Tscharntke, tìm cụm từ “giảm... tài chính” để đối chiếu lựa chọn.<br/><strong>Giải thích: </strong>Đoạn [4] tập trung vào mục tiêu kinh tế của thụ phấn tay là <strong>giảm thiệt hại tài chính</strong>. Cụ thể, Giáo sư Tscharntke nói: “Nghiên cứu của chúng tôi cho thấy thụ phấn bằng tay… có thể giảm hoặc ngăn ngừa tổn thất tài chính”. Điều này tương ứng với “tránh tổn thất tài chính do mất mùa” (đáp án B). Các phương án khác (cắt giảm nhân công, chi phí phân loại, đảm bảo chất lượng toàn vùng) không được đề cập.",
+            "contentAnswerA": "Cắt giảm nhân công lao động đặc thù.",
+            "contentAnswerB": "Tránh tổn thất tài chính do mất mùa.",
+            "contentAnswerC": "Giảm chi phí phân loại giống cây trồng.",
+            "contentAnswerD": "Đảm bảo chất lượng quả toàn vùng."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Thụ phần bằng tay cần được hạn chế do quá nhiều tác hại đối với sự phát triển tự nhiên của cây trồng, không thực sự đem lại lợi ích lâu dài. Đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Xác định câu này là dạng Đúng/Sai, so sánh với ý của đoạn [5] (trích dẫn Ingo Grass) để thấy nội dung không khớp<br/><strong>Giải thích: </strong>Đoạn [5] không khẳng định thụ phấn tay “cần hạn chế do nhiều tác hại” như câu hỏi. Ngược lại, nó chỉ nêu thách thức (tốn thời gian, công sức, chi phí, lao động trẻ em) và khuyên “cần xem xét chi phí và lợi ích”. Không có chỗ nào nói thụ phấn tay không có lợi lâu dài hay gây hại sự phát triển tự nhiên. Vì thế phát biểu “Thụ phấn bằng tay cần hạn chế…” là sai.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Ý nào sau đây nêu đúng thông tin trong bài viết?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Đọc đoạn đầu đoạn [1] để xác định khái quát bài viết (thụ phấn tay như giải pháp thay thế) rồi chọn phương án phù hợp nhất.<br/>Giải thích: Câu hỏi hỏi thông tin đúng trong bài. Đoạn mở [1] nhấn mạnh thụ phấn tay chỉ là “giải pháp thay thế” khi thụ phấn tự nhiên không hiệu quả: “cần có các giải pháp thay thế. Thụ phấn bằng tay... có thể bổ sung hoặc thay thế thụ phấn bởi động vật”. Điều này nghĩa là thụ phấn tay chỉ áp dụng khi thụ phấn tự nhiên không đủ (một giải pháp tạm thời). Do đó đáp án B (“giải pháp tạm thời khi không còn phương án tự nhiên”) đúng. Các đáp án A, C, D không phù hợp: A nói dùng thụ phấn tự nhiên cho mọi cây “khi có điều kiện” tuy logic nhưng không phải trọng tâm; C khuyến khích nhân rộng thụ phấn tay (không phải thông tin tác giả nhấn mạnh); D loại bỏ hoàn toàn thụ phấn tự nhiên là sai.",
+            "contentAnswerA": "Thụ phấn tự nhiên là phương pháp nên dùng trong mọi loại cây trồng khi có đủ điều kiện.",
+            "contentAnswerB": "Nhấn mạnh thụ phấn bằng tay chỉ là giải pháp tạm thời khi không còn giải pháp tự nhiên.",
+            "contentAnswerC": "Cổ vũ nhân rộng mô hình thụ phấn bằng tay để đảm bảo sản lượng lương thực toàn cầu.",
+            "contentAnswerD": "Khuyến khích loại bỏ hoàn toàn thụ phần tự nhiên để giảm bớt sự lệ thuộc vào tự nhiên."
+        }
+    ],
+    "subject": "TƯ DUY ĐỌC HIỂU",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-01-08T02:02:41.635Z",
+    "updatedAt": "2026-01-08T02:20:59.989Z",
+    "__v": 0
+}
+
+{
+    "_id": "6963bff9122c65b6a4399173",
+    "title": "[AECK]-Tư Duy Khoa Học-Đề 13",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "8cf1c7c4-4be1-463c-af89-022f3b1453d5": "X",
+        "Câu 1": "C",
+        "Câu 2": "D",
+        "Câu 3": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 4": "A",
+        "Câu 5": "C",
+        "d630f6a7-ca4d-42dd-a2d4-0522ae724da6": "X",
+        "Câu 6": "B",
+        "Câu 7": [
+            "nhỏ hơn"
+        ],
+        "Câu 8": "B",
+        "Câu 9": "B",
+        "Câu 10": "C",
+        "8dbd7060-0066-4873-ad68-4fca85331384": "X",
+        "Câu 11": [
+            {
+                "slot1": "D>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "A>"
+            }
+        ],
+        "Câu 12": "A",
+        "Câu 13": "D",
+        "Câu 14": "C",
+        "Câu 15": "B",
+        "Câu 16": [
+            "c1",
+            "c3"
+        ],
+        "0a99a3ff-68c5-4eb7-823c-dfbeaa6a326f": "X",
+        "Câu 17": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 18": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "F>"
+            },
+            {
+                "slot4": "D>"
+            }
+        ],
+        "Câu 19": "A",
+        "Câu 20": "B",
+        "2d18fe24-2574-4269-92e4-10faf8d49a77": "X",
+        "Câu 21": "D",
+        "Câu 22": [
+            8.03
+        ],
+        "Câu 23": "B",
+        "Câu 24": [
+            {
+                "slot1": "B>"
+            }
+        ],
+        "Câu 25": [
+            "c2",
+            "c3"
+        ],
+        "85bcbcfe-5d13-498f-8da6-5c1d631eb1f8": "X",
+        "Câu 26": [
+            "c1",
+            "c2",
+            "c3"
+        ],
+        "Câu 27": "B",
+        "Câu 28": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "E>"
+            }
+        ],
+        "Câu 29": "C",
+        "19f2476f-8782-4915-9bc5-580d0e635e89": "X",
+        "Câu 30": [
+            {
+                "1.": [
+                    "điện năng"
+                ]
+            },
+            {
+                "2.": [
+                    "nhiệt năng"
+                ]
+            }
+        ],
+        "Câu 31": [
+            5
+        ],
+        "Câu 32": "A",
+        "Câu 33": "D",
+        "Câu 34": "A",
+        "Câu 35": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            },
+            {}
+        ],
+        "54c667f1-ef33-46d7-8e8d-3508e4c3ba42": "X",
+        "Câu 36": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 37": [
+            {
+                "1.": [
+                    "hydrogen"
+                ]
+            },
+            {
+                "2.": [
+                    "hấp thu"
+                ]
+            },
+            {
+                "3.": [
+                    "ruột non"
+                ]
+            },
+            {
+                "4.": [
+                    "đại tràng"
+                ]
+            },
+            {
+                "5.": [
+                    "thẩm thấu"
+                ]
+            }
+        ],
+        "Câu 38": [
+            0.012
+        ],
+        "Câu 39": "C",
+        "Câu 40": [
+            {
+                "slot1": "D>"
+            },
+            {
+                "slot2": "A>"
+            }
+        ]
+    },
+    "startTime": "2025-12-23T14:01:00.000Z",
+    "endTime": "2026-04-29T14:01:00.000Z",
+    "questions": [
+        {
+            "question": "8cf1c7c4-4be1-463c-af89-022f3b1453d5",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>NƯỚC CỨNG [HAE17102539]</strong></div>\nNước trong tự nhi&ecirc;n l&agrave; nước chứa nhiều muối của c&aacute;c kim loại như canxi, magie, sắt,&hellip;. Nước cứng l&agrave; nước chứa nhiều ion ${Ca^{2+}}$ v&agrave; ${Mg^{2+}}$. Nước mềm l&agrave; nước chứa &iacute;t hoặc kh&ocirc;ng chứa c&aacute;c ion tr&ecirc;n. Ngo&agrave;i ra, người ta ph&acirc;n biệt nước cứng c&oacute; t&iacute;nh tạm thời, vĩnh cửu v&agrave; to&agrave;n phần:<br />\n- T&iacute;nh cứng tạm thời l&agrave; t&iacute;nh cứng g&acirc;y n&ecirc;n bởi c&aacute;c muối ${Ca(HCO_3)_2}$ v&agrave; ${Mg(HCO_3)_2}$\n<div style=\"text-align: center;\">${Ca(HCO_3)_2 \\rightarrow Ca^{2+} + 2HCO_3^-}$<br />\n${Mg(HCO_3)_2 \\rightarrow Mg^{2+} + 2HCO_3^-}$</div>\n- T&iacute;nh cứng vĩnh cửu l&agrave; t&iacute;nh cứng g&acirc;y n&ecirc;n bởi c&aacute;c muối sunfat, clorua của canxi v&agrave; magie\n\n<div style=\"text-align: center;\">${CaCl_2 \\rightarrow Ca^{2+} + 2Cl^-}$<br />\n${MgCl_2 \\rightarrow Mg^{2+} + 2Cl^-}$<br />\n${CaSO_4 \\rightarrow Ca^{2+} + SO_4^{2-}}$<br />\n${MgSO_4 \\rightarrow Mg^{2+} + SO_4^{2-}}$</div>\nNước tự nhi&ecirc;n thường c&oacute; cả t&iacute;nh cứng tạm thời v&agrave; vĩnh cửu.<br />\n- T&iacute;nh cứng to&agrave;n phần gồm cả t&iacute;nh cứng tạm thời v&agrave; vĩnh cửu.<br />\nNước cứng g&acirc;y trở ngại rất lớn cho đời sống thường ng&agrave;y. Giặt bằng x&agrave; ph&ograve;ng (natri stearat ${C_{17}H_{35}COONa}$) trong nước cứng sẽ tạo ra muối kh&ocirc;ng canxi stearat ${(C_{17}H_{35}COO)_2Ca}$, chất n&agrave;y b&aacute;m tr&ecirc;n vải sợi l&agrave;m cho quần &aacute;o mau mục n&aacute;t. Mặc kh&aacute;, nước cứng l&agrave;m cho x&agrave; ph&ograve;ng c&oacute; &iacute;t bọt, giảm khả năng tẩy rửa của n&oacute;. Nếu d&ugrave;ng nước cứng để nấu ăn sẽ l&agrave;m cho thực phẩm l&acirc;u ch&iacute;n v&agrave; giảm m&ugrave;i vị.<br />\nNước cứng cũng g&acirc;y t&aacute;c hại cho c&aacute;c ng&agrave;nh sản xuất, như tạo ra c&aacute;c cặn trong nồi hơi, g&acirc;y l&atilde;ng ph&iacute; nhi&ecirc;n liệu v&agrave; kh&ocirc;ng an to&agrave;n. Nước cứng g&acirc;y ra hiện tượng l&agrave;m tắc ống dẫn nước n&oacute;ng trong sản xuất v&agrave; đời sống. Nước cứng cũng l&agrave;m hỏng nhiều dung dịch cần pha chế. Theo TCVN 5502, dựa v&agrave;o độ cứng của nước (được x&aacute;c định bằng tổng h&agrave;m lượng ion ${Ca^{2+}}$ v&agrave; ${Mg^{2+}}$ quy đổi về khối lượng ${CaCO_3}$ c&oacute; trong 1 l&iacute;t nước), người ta c&oacute; thể ph&acirc;n nước th&agrave;nh 4 loại sau:\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Ph&acirc;n loại nước</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Mềm</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Hơi cứng</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Cứng</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Rất cứng</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Độ cứng (mg $CaCO_3$/l&iacute;t)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0 - 50\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>50 - 150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>150 - 300\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&ge; 300\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nV&igrave; vậy việc l&agrave;m mềm nước cứng l&agrave; rất quan trọng.<br />\nNguy&ecirc;n tắc l&agrave;m mềm c&aacute;c loại nước cứng l&agrave; giảm nồng độ c&aacute;c c&aacute;c cation ${Ca^{2+}}$, ${Mg^{2+}}$ trong nước cứng. Thực hiện nguy&ecirc;n tắc n&agrave;y, người ta d&ugrave;ng phương ph&aacute;p chuyển những cation tự do n&agrave;y th&agrave;nh những hợp chất kh&ocirc;ng tan (phương ph&aacute;p kết tủa) hoặc thay thế nhưng cation n&agrave;y bằng những cation kh&aacute;c.<br />\na ) Phương ph&aacute;p kết tủa<br />\n<strong>*Đối với nước c&oacute; t&iacute;nh cứng tạm thời</strong><br />\n- Đun s&ocirc;i nước c&oacute; t&iacute;nh cứng tạm thời trước khi d&ugrave;ng, muối hiđrocacbonat chuyển th&agrave;nh muối cacbonat kh&ocirc;ng tan. Sau đ&oacute; lọc bỏ kết tủa sẽ thu được nước mềm.<br />\n- D&ugrave;ng một khối lượng vừa đủ dung dịch ${Ca(OH)_2}$ để trung ho&agrave; muối hiđrocacbonat th&agrave;nh muối cacbonat kết tủa. Lọc bỏ chất kh&ocirc;ng tan, thu được nước mềm.<br />\n<strong>*Đối với nước c&oacute; t&iacute;nh cứng vĩnh cửu</strong><br />\n- D&ugrave;ng dung dịch ${Na_2CO_3}$, ${Ca(OH)_2}$ v&agrave; dung dịch ${Na_3PO_4}$ để l&agrave;m mềm nước cứng do tạo kết tủa. Dung dịch ${Na_2CO_3}$ cũng c&oacute; thể l&agrave;m mềm nước cứng tạm thời.<br />\nb ) Phương ph&aacute;p trao đổi ion<br />\n- Phương ph&aacute;p trao đổi ion được d&ugrave;ng phổ biến để l&agrave;m mềm nước. Phương ph&aacute;p n&agrave;y dựa tr&ecirc;n khả năng trao đổi ion của c&aacute;c hạt zeolit (c&aacute;c alumino silicat kết tinh, cso trong tự nhi&ecirc;n hoặc được tổng hợp, trong tinh thể c&oacute; những lỗ trống nhỏ) hoặc nhựa trao đổi ion.<br />\nV&iacute; dụ: Cho nước cứng đi qua chất trao đổi ion l&agrave; c&aacute;c hạt zeolit th&igrave; một số ion ${Na^+}$ của zeolit rời khỏi mạng tinh thể, đi v&agrave;o trong nước nhường chỗ cho c&aacute;c ion ${Ca^{2+}}$ v&agrave; ${Mg^{2+}}$ bị giữ lại trong mạng tinh thể silicat.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 5:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Dựa vào đâu để người ta phân loại được nước cứng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Các loại nước cứng đều có chung đặc điểm là phải có ion ${Ca^{2+}}$ và ${Mg^{2+}}$, chính các ion này làm cho nước có tính \"cứng\".<br/>Còn ta thấy sự khác biệt của các loại nước cứng là: nước cứng tạm thời là do có ion ${HCO_3^-}$, nước cứng vĩnh cửu là do có ion ${Cl^-}$, ${SO_4^{2-}}$, còn nước cứng toàn phần là có cả 3 loại ion trên.",
+            "contentAnswerA": "Dựa vào cation nào có trong nước.",
+            "contentAnswerB": "Dựa vào tổng số cation gây nên tính cứng có trong nước.",
+            "contentAnswerC": "Dựa vào anion có trong nước.",
+            "contentAnswerD": "Dựa vào tổng số anion có trong nước."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Một loại nước khi đun sôi thì mất tính cứng của nước. Nước đó là loại nước gì?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Phương pháp đun sôi để loại bỏ tính cứng của nước được áp dụng để loại bỏ tính cứng của nước cứng tạm thời:<br/>${{Ca}}{\\left( {{{HC}}{{{O}}_3}} \\right)_2} \\xrightarrow{t^\\circ} {{CaC}}{{{O}}_3} + {{{H}}_2}{{O}}$<br/>${{Mg}}{\\left( {{{HC}}{{{O}}_3}} \\right)_2}\\xrightarrow{t^\\circ}{{MgC}}{{{O}}_3} + {{{H}}_2}{{O}}$",
+            "contentAnswerA": "Nước tự nhiên.",
+            "contentAnswerB": "Nước cứng toàn phần.",
+            "contentAnswerC": "Nước cứng vĩnh cửu.",
+            "contentAnswerD": "Nước cứng tạm thời."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Dựa vào thông tin về nước cứng đã cho, những nhận định dưới đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>- Nhận định \"${Na_2CO_3}$ có khả năng làm mềm nước cứng toàn phần\" là đúng. Ion ${CO_3^{2-}}$ có khả năng tạo kết tủa với ${Ca^{2+}}$ và ${Mg^{2+}}$ trong nước cứng toàn phần nên có khả năng làm mềm nước cứng.<br/>- Nhận định \"Quần áo giặt bằng nước cứng sẽ nhanh hỏng\" là đúng. Điều này đã được đề cập đến trong bài đọc.<br/>- Nhận định \"Nguyên tắc của việc làm mềm nước cứng là làm giảm nồng độ các anion có trong nước\" là sai. Nguyên tắc làm mềm nước cứng là làm giảm nồng độ cation ${Ca^{2+}}$ và ${Mg^{2+}}$ trong nước.",
+            "contentYA": "${Na_2CO_3}$ có khả năng làm mềm nước cứng toàn phần.",
+            "contentYB": "Quần áo giặt bằng nước cứng sẽ nhanh hỏng.",
+            "contentYC": "Nguyên tắc của việc làm mềm nước cứng là làm giảm nồng độ các anion có trong nước."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Nhận định sau đây đúng hay sai?<br/>Làm mềm nước cứng tạm thời dễ hơn làm mềm nước cứng vĩnh cửu.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta thấy nước cứng tạm thời chỉ cần đun sôi là đã có thể làm mềm.<br/>Còn nước cứng vĩnh cửu cần có sự làm mềm bởi các hoá chất khác.<br/>Vậy nên nước cứng tạm thời dễ làm mềm hơn nước cứng vĩnh cửu.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Kết quả phân tích một mẫu nước ngầm cho thấy trong mẫu nước có chứa ion ${Mg^{2+}}$ và ${Ca^{2+}}$ với nồng độ tương ứng là 14,4 mg/l và 20 mg/l.<br/>Phát biểu nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Trong 1 lít mẫu nước ngầm có:<br/>Nồng độ của ${Mg^{2+}}$ là 14,4 mg/l $\\Rightarrow$ Số mol của ${Mg^{2+}}$ = $\\frac{14,4}{24} = 0,6 {mmol}$.<br/>Nồng độ của ${Ca^{2+}}$ là 20 mg/l $\\Rightarrow$ Số mol của ${Ca^{2+}}$ = $\\frac{20}{40} = 0,5 {mmol}$.<br/>$\\Rightarrow$ Tổng số mol của ${CO_3^{2-}}$ có trong kết tủa = $0,6 + 0,5 = 1,1 {mmol}$.<br/>Do độ cứng của nước được xác định bằng tổng hàm lượng ion ${Ca^{2+}}$ và ${Mg^{2+}}$ quy đổi về khối lượng ${CaCO_3}$ có trong 1 lít nước<br/>$\\Rightarrow$ Độ cứng của mẫu nước là $1,1 \\times 100 = 110 {mg/l}$.<br/>$\\Rightarrow$ Nước thuộc loại hơi cứng (trong khoảng 50 - 150 mg/l).",
+            "contentAnswerA": "Độ cứng của mẫu nước là 50 mg/l. Mẫu nước thuộc loại nước mềm.",
+            "contentAnswerB": "Độ cứng của mẫu nước là 92,4 mg/l. Mẫu nước thuộc loại hơi cứng.",
+            "contentAnswerC": "Độ cứng của mẫu nước là 110 mg/l. Mẫu nước thuộc loại hơi cứng.",
+            "contentAnswerD": "Độ cứng của mẫu nước là 200 mg/l. Mẫu nước thuộc loại nước cứng."
+        },
+        {
+            "question": "d630f6a7-ca4d-42dd-a2d4-0522ae724da6",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>SỰ Đ&Oacute;NG BĂNG V&Agrave; TAN BĂNG CỦA NƯỚC [LAE17102540]</strong></div>\nHai học sinh giải th&iacute;ch tại sao trong hồ nước th&igrave; nước lại bị đ&oacute;ng băng từ bề mặt hồ trở xuống. Họ cũng thảo luận về hiện tượng băng tan dưới lưỡi dao ở r&atilde;nh giữa của đ&aacute;y gi&agrave;y trượt của vận động vi&ecirc;n trượt băng.<br />\n<strong>Học sinh 1</strong><br />\nNước bắt đầu đ&oacute;ng băng từ tr&ecirc;n bề mặt hồ v&igrave; điểm đ&oacute;ng băng của nước giảm khi &aacute;p suất tăng. Dưới bề mặt hồ, &aacute;p suất thủy tĩnh của nước l&agrave;m cho điểm đ&oacute;ng băng của nước thấp hơn một ch&uacute;t so với tr&ecirc;n bề mặt. Do đ&oacute;, khi nhiệt độ kh&ocirc;ng kh&iacute; giảm xuống, nước tr&ecirc;n bề mặt hồ đạt đến điểm đ&oacute;ng băng trước so với nước b&ecirc;n dưới bề mặt hồ. Khi nhiệt độ trở n&ecirc;n lạnh hơn th&igrave; lớp băng tr&ecirc;n bề mặt trở n&ecirc;n d&agrave;y hơn.<br />\n&Aacute;p suất được định nghĩa l&agrave; lực t&aacute;c dụng l&ecirc;n một đơn vị diện t&iacute;ch c&oacute; phương vu&ocirc;ng g&oacute;c với bề mặt của vật thể nhất định. Một vận động vi&ecirc;n trượt băng t&aacute;c dụng to&agrave;n bộ trọng lực cơ thể của m&igrave;nh l&ecirc;n diện t&iacute;ch bề mặt nhỏ x&iacute;u của hai lưỡi dao. Điều n&agrave;y dẫn đến một &aacute;p suất rất lớn, nhanh ch&oacute;ng l&agrave;m tan chảy một lượng băng nhỏ ngay dưới c&aacute;c lưỡi dao gi&agrave;y trượt.<br />\n<strong>Học sinh 2</strong><br />\nNước bắt đầu đ&oacute;ng băng từ tr&ecirc;n bề mặt hồ v&igrave; mật độ khối lượng băng nhỏ hơn mật độ khối lượng nước ở trạng th&aacute;i lỏng. Kh&ocirc;ng giống như hầu hết c&aacute;c chất lỏng, mật độ khối lượng của nước giảm khi đ&oacute;ng băng. Kết quả l&agrave; đối với bất kỳ khối băng n&agrave;o, lực nổi của nước t&aacute;c dụng hướng l&ecirc;n lớn hơn trọng lực t&aacute;c dụng hướng xuống n&ecirc;n tất cả c&aacute;c hạt băng nổi l&ecirc;n bề mặt khi đ&oacute;ng băng. Băng tan dưới lưỡi dao ở r&atilde;nh giữa của đ&aacute;y gi&agrave;y trượt của vận động vi&ecirc;n trượt băng do ma s&aacute;t. Năng lượng do lực ma s&aacute;t cung cấp được chuyển th&agrave;nh nhiệt l&agrave;m tan băng dưới lưỡi dao ở đ&aacute;y gi&agrave;y trượt. Trọng lượng cơ thể của vận động vi&ecirc;n trượt băng c&agrave;ng lớn th&igrave; lực ma s&aacute;t c&agrave;ng lớn v&agrave; băng tan c&agrave;ng nhanh.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 6 - 10:",
+            "range": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Theo quan điểm của học sinh 1, vận động viên tác dụng toàn bộ trọng lực cơ thể của mình lên diện tích bề mặt nhỏ xíu của hai lưỡi dao gây ra",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Theo lập luận của Học sinh 1: Một vận động viên trượt băng tác dụng toàn bộ trọng lực cơ thể của mình lên diện tích bề mặt nhỏ xíu của hai lưỡi dao.<br/>Điều này dẫn đến một áp suất rất lớn, nhanh chóng làm tan chảy một lượng băng nhỏ ngay dưới các lưỡi dao giày trượt.",
+            "contentAnswerA": "áp suất nhỏ.",
+            "contentAnswerB": "áp suất lớn.",
+            "contentAnswerC": "áp lực nhỏ.",
+            "contentAnswerD": "áp lực lớn."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Điền từ thích hợp (không quá 2 tiếng) vào chỗ trống.<br/>Theo quan điểm của học sinh 2, nước đóng băng bắt đầu đóng băng từ bề mặt hồ do mật độ khối lượng băng <span class=\"fill-blank\" data-blank-id=\"Câu 7-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> mật độ khối lượng của nước ở trạng thái lỏng.",
+            "type": "TLN",
+            "correctAnswer": [
+                "nhỏ hơn"
+            ],
+            "explanation": "<br/>Theo Học sinh 2, nước bắt đầu đóng băng từ trên bề mặt hồ vì mật độ khối lượng băng nhỏ hơn mật độ khối lượng nước ở trạng thái lỏng."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Theo quan điểm của Học sinh 1, đại lượng nào sau đây đối với các phân tử nước bên dưới mặt hồ lớn hơn đối với các phân tử nước trên bề mặt?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đại lượng mật độ khối lượng và lực nổi là quan điểm của học sinh 2. Theo Học sinh 1: Dưới bề mặt, áp suất thủy tĩnh của nước làm cho điểm đóng băng của nước thấp hơn một chút so với trên bề mặt.",
+            "contentAnswerA": "Nhiệt độ.",
+            "contentAnswerB": "Áp suất thủy tĩnh.",
+            "contentAnswerC": "Lực nổi.",
+            "contentAnswerD": "Mật độ khối lượng."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Dựa trên lập luận của học sinh 2 có thể giải thích hiện tượng khinh khí cầu bay lên khỏi mặt đất là do không khí bên trong khinh khí cầu có mật độ khối lượng cao hơn không khí bên ngoài khinh khí cầu.<br/>Nội dung trên là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Theo quan điểm của Học sinh 2 thì Nước đóng băng đầu tiên trên bề mặt hồ vì mật độ khối lượng băng nhỏ hơn nước ở trạng thái lỏng.<br/>Không giống như hầu hết các chất lỏng, mật độ khối lượng của một khối lượng nước giảm khi đóng băng.<br/>Kết quả là đối với bất kỳ khối băng nào, lực nổi của nước tác dụng lên trên lớn hơn lực hấp dẫn tác dụng xuống dưới, và tất cả các hạt băng nổi lên bề mặt khi đóng băng.<br/>$\\rightarrow$ Khinh khí cầu có thể bay lên khỏi mặt đất là do không khí bên trong khinh khí cầu có mật độ khối lượng thấp hơn không khí bên ngoài khinh khí cầu.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Người ta thấy một cốc đựng ethanol đóng băng từ đáy lên trên mà không phải từ trên bề mặt trở xuống.<br/>Từ lập luận của học sinh 2 có thể giải thích hiện tượng trên là do khối lượng riêng của ethanol đóng băng",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Khối lượng riêng chính là mật độ khối lượng. Học sinh 2 giải thích nước bắt đầu đóng băng từ trên bề mặt hồ vì mật độ khối lượng băng nhỏ hơn mật độ khối lượng nước ở trạng thái lỏng tức là chất có khối lượng riêng nhỏ hơn sẽ nổi trên các chất có khối lượng riêng lớn hơn.<br/>Như vậy việc ethanol đóng băng từ dưới đáy lên có thể giải thích do ethanol ở trạng thái đóng băng có khối lượng riêng lớn hơn ethanol ở trạng thái lỏng.",
+            "contentAnswerA": "lớn hơn khối lượng riêng của nước.",
+            "contentAnswerB": "nhỏ hơn khối lượng riêng của băng.",
+            "contentAnswerC": "lớn hơn khối lượng riêng của ethanol lỏng.",
+            "contentAnswerD": "nhỏ hơn khối lượng riêng của ethanol lỏng."
+        },
+        {
+            "question": "8dbd7060-0066-4873-ad68-4fca85331384",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>HUY ĐỘNG ĐƯỜNG TRONG CƠ THỂ [SAECK1102532]</strong></div>\nTrong điều kiện ăn uống b&igrave;nh thường, nguồn cung cấp glucose cho cơ thể được lấy từ thức ăn. Sau bữa ăn, qu&aacute; tr&igrave;nh chuyển h&oacute;a thức ăn trong ống ti&ecirc;u h&oacute;a tạo ra đường glucose, cơ thể khởi ph&aacute;t giai đoạn hấp thu đường v&agrave;o m&aacute;u; giai đoạn sau hấp thu: đưa glucose v&agrave;o tế b&agrave;o, gi&uacute;p giảm lượng đường trong m&aacute;u trở lại mức b&igrave;nh thường v&agrave; dự trữ đường lượng đường dư thừa dưới dạng glycogen trong gan; kế tiếp l&agrave; giai đoạn đ&oacute;i. Nếu t&igrave;nh trạng thiếu thức ăn k&eacute;o d&agrave;i, cơ thể sẽ rơi v&agrave;o trạng th&aacute;i thiếu glucose k&eacute;o d&agrave;i, dẫn đến thay đổi h&agrave;m lượng glucose huyết tương, thay đổi c&aacute;c c&aacute;c chỉ số của cơ thể, rối loạn trao đổi chất, c&oacute; thể dẫn đến tử vong.<br />\nTrong mỗi giai đoạn kể tr&ecirc;n, nguồn glucose sẽ được thu nhận th&ocirc;ng qua c&aacute;c nguồn glucose kh&aacute;c nhau: nguồn glucose từ thức ăn; ph&acirc;n giải glycogen để tạo glucose; qu&aacute; tr&igrave;nh t&acirc;n tạo đường (l&agrave; qu&aacute; tr&igrave;nh cơ thể sản xuất glucose từ c&aacute;c tiền chất kh&ocirc;ng phải carbohydrate). Bảng 1 thể hiện lượng glucose sử dụng để cung cấp cho cơ thể từ 3 nguồn kể tr&ecirc;n theo thời gian.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"14\">Bảng 1. Lượng glucose được sử dụng từ c&aacute;c nguồn kh&aacute;c nhau\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Nguồn glucose</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"13\"><strong>Lượng glucose sử dụng (g/h)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>16\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>20\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>24\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>28\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>32\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>36\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>40\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>44\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>48\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Thức ăn</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>40\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Glycogen</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>T&acirc;n tạo đường</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>13\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>13\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>14\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>14\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nCơ thể c&oacute; nhiều cơ quan tạo glucose, h&igrave;nh 1 thể hiện tỷ lệ phần trăm (%) glucose được tạo ra trong c&aacute;c cơ quan tạo glucose X, Y, Z ở hai điều kiện (1) thời điểm mới hấp thụ thức ăn v&agrave; (2) khi nhịn ăn k&eacute;o d&agrave;i.<strong><em> </em></strong>\n\n<div style=\"text-align: center;\"><img alt=\"Image from Word document\" data-uploaded=\"true\" src=\"https://cdn.save.moe/b/szHOnA.png?dl=1\" / style=\"width: 55%; margin: 0 auto; display: block;\"><br />\n<strong><em>H&igrave;nh 1. Tỷ lệ phần trăm glucose được tạo ra từ c&aacute;c cơ quan kh&aacute;c nhau</em></strong></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 11 - 16:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Dựa vào dữ kiện đã cho ở hình 1, hãy cho biết mỗi cơ quan X, Y, Z tương ứng với cơ quan nào bằng cách kéo thả đáp án đã cho vào chỗ trống thích hợp.<br/>X là cơ quan <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-1\">____DRAG_DROP_1____</span><br/>Y là cơ quan <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-2\">____DRAG_DROP_2____</span><br/>Z là cơ quan <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-3\">____DRAG_DROP_3____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "D>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "A>"
+                }
+            ],
+            "explanation": "<br/>Ở điều kiện (1) – khi mới hấp thu thức ăn, glucose được tạo ra nhiều nhất ở ruột $\\Rightarrow$ X là ruột.<br/>Ở điều kiện (2) – khi nhịn ăn kéo dài, nồng độ glucose trong máu thấp -> cơ thể tạo tín hiệu để glucose được huy động từ việc phân giải glycogen trong gan $\\Rightarrow$ Y là Gan.<br/>Còn lại Z là cơ quan tham gia lọc và tái hấp thu glucose từ máu $\\Rightarrow$ Z là thận.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "thận"
+                },
+                {
+                    "id": "B>",
+                    "content": "gan"
+                },
+                {
+                    "id": "C>",
+                    "content": "máu"
+                },
+                {
+                    "id": "D>",
+                    "content": "ruột"
+                },
+                {
+                    "id": "E>",
+                    "content": "tim"
+                }
+            ]
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai?<br/>Sau bữa ăn no, glucose dư thừa trong máu được dự trữ dưới dạng glycogen trong gan.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Thông tin trong bài đọc: “Sau bữa ăn, cơ thể khởi phát giai đoạn hấp thu đường vào máu; giai đoạn sau hấp thu: đưa glucose vào tế bào, giúp giảm lượng đường trong máu trở lại mức bình thường và dự trữ đường lượng đường dư thừa dưới dạng glycogen trong gan”.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Giai đoạn nhịn ăn kéo dài của cơ thể là khoảng thời gian nào dưới đây?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Theo dữ liệu từ bảng 1 cho thấy thời gian từ 24 – 28 h sau bữa ăn, cơ thể đã dần cạn kiệt nguồn cung cấp glucose từ việc phân giải glycogen và đã phải huy động đến nguồn cung cấp glucose là quá trình tân tạo đường.",
+            "contentAnswerA": "0 – 4 h sau bữa ăn.",
+            "contentAnswerB": "4 – 12 h sau bữa ăn.",
+            "contentAnswerC": "4 – 24 h sau bữa ăn.",
+            "contentAnswerD": "24 - 28 h sau bữa ăn."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Khi mới hấp thu thức ăn, glucose được tạo ra nhiều nhất ở:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Khi mới hấp thu thức ăn, cơ quan có chức ăn chuyển hóa và hấp thu đường là ruột $\\rightarrow$ Ruột là nơi glucose được tạo ra nhiều nhất.",
+            "contentAnswerA": "Gan.",
+            "contentAnswerB": "Thận.",
+            "contentAnswerC": "Ruột.",
+            "contentAnswerD": "Máu."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Nếu tình trạng thiếu thức ăn kéo dài, cơ thể sẽ huy động nguồn glucose dự trữ.<br/>Khi cạn kiệt nguồn này, cơ thể cần thúc đẩy quá trình tân tạo đường.<br/>Khi đó, glucose có thể được tổng hợp từ những nhất nào dưới đây?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Quá trình tân tạo đường là quá trình cơ thể sản xuất glucose từ các tiền chất không phải carbohydrate<br/>A, C, D sai (vì tinh bột và cellulose đều là carbohydrate).<br/>B đúng (Vì Protein và Lipid là hai chất không phải carbohydrate).",
+            "contentAnswerA": "Tinh bột, protein.",
+            "contentAnswerB": "Protein, lipid.",
+            "contentAnswerC": "Lipid, tinh bột.",
+            "contentAnswerD": "Cellulose, protein."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Những biến đổi nào của cơ thể xảy ra ngay sau một bữa ăn no?<br/>Chọn các đáp án đúng.",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3"
+            ],
+            "explanation": "<br />\n&Yacute; 1, Đ&uacute;ng (V&igrave; sau bữa ăn no, đường được hấp thụ từ ruột v&agrave;o m&aacute;u l&agrave;m tăng h&agrave;m lượng đường trong m&aacute;u).<br />\n&Yacute; 2, Sai (V&igrave; khi h&agrave;m lượng đường trong m&aacute;u tăng cao sẽ k&iacute;ch th&iacute;ch tuyến tụy tiết hormone insulin k&iacute;ch th&iacute;ch sự vận chuyển glucose v&agrave;o tế b&agrave;o gi&uacute;p giảm lượng đường trong m&aacute;u trở lại mức b&igrave;nh thường).<br />\n&Yacute; 3, Đ&uacute;ng (V&igrave; khi h&agrave;m lượng đường trong m&aacute;u tăng cao sẽ k&iacute;ch th&iacute;ch tế b&agrave;o gan chuyển h&oacute;a glucose th&agrave;nh glycogen).<br />\n&Yacute; 4. Sai (V&igrave; qu&aacute; tr&igrave;nh t&acirc;n tạo đường chỉ tăng khi cơ thể thiếu hụt glucose nghi&ecirc;m trọng, nguồn dự trữ glucose đ&atilde; cạn kiệt).",
+            "contentC1": "Đường huyết tăng cao.",
+            "contentC2": "Tế bào giảm hấp thu đường.",
+            "contentC3": "Tăng dự trữ đường dưới dạng glycogen.",
+            "contentC4": "Tăng quá trình tân tạo đường."
+        },
+        {
+            "question": "0a99a3ff-68c5-4eb7-823c-dfbeaa6a326f",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>L&Ograve; VI S&Oacute;NG [LAE17102541]</strong></div>\nL&ograve; vi s&oacute;ng hiện nay được sử dụng phổ biến trong nh&agrave; bếp để l&agrave;m n&oacute;ng nhanh thực phẩm. N&oacute; bức xạ ra vi s&oacute;ng c&oacute; tần số $2500 {MHz}$ được c&aacute;c ph&acirc;n tử nước hấp thụ. C&aacute;c ph&acirc;n tử nước c&oacute; sự ph&acirc;n bố điện t&iacute;ch kh&ocirc;ng đối xứng n&ecirc;n bị điện trường trong bức xạ vi s&oacute;ng l&agrave;m cho dao động mạnh l&ecirc;n, nhiệt độ thực phẩm tăng l&ecirc;n. Ch&ugrave;m vi s&oacute;ng c&oacute; c&ocirc;ng suất $750 W$ r&atilde; đ&ocirc;ng ho&agrave;n to&agrave;n $0,25 {kg}$ s&uacute;p đ&ocirc;ng lạnh ở $-18^\\circ{C}$. Coi rằng s&uacute;p l&agrave;m ho&agrave;n to&agrave;n bằng nước v&agrave; to&agrave;n bộ năng lượng của ch&ugrave;m vi s&oacute;ng d&ugrave;ng để r&atilde; đ&ocirc;ng s&uacute;p. Nhiệt dung ri&ecirc;ng của nước đ&aacute; l&agrave; $2100 {J/kg.K}$, nhiệt lượng cần thiết để l&agrave;m n&oacute;ng chảy 1 kg nước đ&aacute; ở $0^\\circ{C}$ th&agrave;nh nước ở $0^\\circ{C}$ l&agrave; $334 kJ$. Biết rằng, mỗi khi xuy&ecirc;n qua 3mm thực phẩm th&igrave; c&ocirc;ng suất khả dụng giảm đi $60\\%$.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 17 - 20:",
+            "range": [
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Chọn đúng/sai cho các nhận xét sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai. Vi sóng có bước sóng dài hơn tia hồng ngoại, chứ không ngắn hơn.<br/>b, Đúng. Vi sóng là bức xạ điện từ có khả năng làm các phân tử nước (${H_2O}$) dao động hoặc quay mạnh do chúng là các phân tử có cực.<br/>c, Sai. Đề bài cho biết: mỗi khi xuyên qua $3mm$ thực phẩm thì công suất khả dụng giảm $60\\%$ $\\rightarrow$ nghĩa là hiệu suất thực tế $< 100\\%$.<br/>d, Đúng. Tần số sóng vi ba sử dụng trong lò vi sóng là $2500 MHz$.",
+            "contentYA": "Bước sóng của bức xạ trong lò ngắn hơn tia hồng ngoại.",
+            "contentYB": "Các phân tử nước dao động mạnh khi hấp thụ năng lượng từ vi sóng.",
+            "contentYC": "Hiệu suất thực tế của lò vi sóng là $100\\%$.",
+            "contentYD": "Tần số sóng vi ba sử dụng trong lò vi sóng là $2500 MHz$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Kéo thả các từ thích hợp vào chỗ trống:<br/>Giả sử, cần rã đông một miếng thịt bằng lò vi sóng, khi đó quá trình chuyển thể của nước trong thịt sẽ diễn ra như sau:<br/>Mới đầu, khi cho miếng thịt vào lò, nhiệt độ sẽ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-1\">____DRAG_DROP_1____</span> dần từ $0^\\circ{C}$. Khi đó, miếng thịt ở thể <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-2\">____DRAG_DROP_2____</span>.<br/>Khi nhiệt độ tiếp tục tăng đến điểm nóng chảy, quá trình <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-3\">____DRAG_DROP_3____</span> diễn ra.<br/>Các phân tử nước đá hấp thụ năng lượng để phá vỡ cấu trúc tinh thể và chuyển sang thể <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-4\">____DRAG_DROP_4____</span>, và miếng thịt trở lên mềm hơn.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "F>"
+                },
+                {
+                    "slot4": "D>"
+                }
+            ],
+            "explanation": "<br/>Giả sử, cần rã đông một miếng thịt bằng lò vi sóng, khi đó quá trình chuyển thể của nước trong thịt sẽ diễn ra như sau:<br/>Mới đầu, khi cho miếng thịt vào lò, nhiệt độ sẽ tăng dần từ $0^\\circ{C}$. Khi đó, nhiệt độ của nước đá sẽ tăng từ $0^\\circ{C}$ đến mức cao hơn. Miếng thịt lúc này vẫn ở thể rắn.<br/>Khi nhiệt độ tiếp tục tăng đến điểm nóng chảy, quá trình nóng chảy diễn ra. Các phân tử nước đá hấp thụ năng lượng để phá vỡ cấu trúc tinh thể và chuyển sang thể lỏng.<br/>Cuối cùng, miếng thịt sau khi đã được rã đông và làm mềm sẽ đạt đến mức nhiệt độ cần thiết để sử dụng.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "tăng"
+                },
+                {
+                    "id": "B>",
+                    "content": "giảm"
+                },
+                {
+                    "id": "C>",
+                    "content": "rắn"
+                },
+                {
+                    "id": "D>",
+                    "content": "lỏng"
+                },
+                {
+                    "id": "E>",
+                    "content": "hóa hơi"
+                },
+                {
+                    "id": "F>",
+                    "content": "nóng chảy"
+                },
+                {
+                    "id": "G>",
+                    "content": "nước đá"
+                },
+                {
+                    "id": "H>",
+                    "content": "thịt"
+                }
+            ]
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Nhiệt lượng cần để làm nước đá tăng từ $-18^\\circ{C}$ lên $0^\\circ{C}$ là:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Nhiệt lượng cần cung cấp để nước đá tăng nhiệt độ: $Q = mc\\Delta t = 0,25 \\cdot 2100 \\cdot (0 - (-18)) = 9450 {J}$",
+            "contentAnswerA": "$9450 J$.",
+            "contentAnswerB": "$94500 J$.",
+            "contentAnswerC": "$9295 J$.",
+            "contentAnswerD": "$92950 J$."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Thời gian để rã đông hoàn toàn súp là:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nhiệt lượng cần cung cấp để súp rã đông hết là: $Q = mc\\Delta t + m\\lambda$<br/>$\\Rightarrow Q = 0,25.2100.(0 - ( - 18)) + 0,{25.334.10^3} \\Rightarrow Q = 92950(J)$<br/>Thời gian để rã đông hoàn toàn:<br/>$t = \\frac{Q}{P} = \\frac{92950}{750} \\approx 123,9 {s}$.",
+            "contentAnswerA": "110 s.",
+            "contentAnswerB": "123,9 s.",
+            "contentAnswerC": "120,2 s.",
+            "contentAnswerD": "90,5 s."
+        },
+        {
+            "question": "2d18fe24-2574-4269-92e4-10faf8d49a77",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>NHIỆT LƯỢNG MOL [HAE17102540]</strong></div>\nNhiệt lượng mol của một phản ứng tổng hợp l&agrave; lượng nhiệt cần thiết để l&agrave;m tan chảy (hoặc đ&oacute;ng băng) 1,00 mol chất tại điểm n&oacute;ng chảy của n&oacute; ở &aacute;p suất kh&ocirc;ng đổi. Nhiệt lượng mol của phản ứng tổng hợp nước l&agrave; $6,02 kJ/mol$.<br />\nC&ocirc;ng thức để t&iacute;nh nhiệt lượng mol của phản ứng tổng hợp l&agrave;:\n<div style=\"text-align: center;\">$q = \\Delta H_{fus} \\cdot \\frac{m}{M}$</div>\nTrong đ&oacute;:<br />\n- $q$ l&agrave; tổng lượng nhiệt của phản ứng<br />\n- $\\Delta H_{fus}$ biểu thị nhiệt lượng mol của phản ứng tổng hợp chất đ&oacute; (gi&aacute; trị n&agrave;y l&agrave; hằng số với một chất nhất định)<br />\nBảng dưới đ&acirc;y cho biết nhiệt lượng mol của phản ứng tổng hợp, điểm s&ocirc;i v&agrave; điểm n&oacute;ng chảy của một số nguy&ecirc;n tố:<br />\nBảng 1:\n<table align=\"center\" class=\"TableGrid4\" style=\"border-collapse:collapse; border:none\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Nguy&ecirc;n tố</strong></td>\n\t\t\t<td><strong>Điểm n&oacute;ng chảy ($^\\circ C$)</strong></td>\n\t\t\t<td><strong>Điểm s&ocirc;i ($^\\circ C$)</strong></td>\n\t\t\t<td><strong>$\\Delta H_{fus}$ ($kJ/mol$)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Ca</td>\n\t\t\t<td style=\"text-align: center;\">839</td>\n\t\t\t<td style=\"text-align: center;\">1484</td>\n\t\t\t<td style=\"text-align: center;\">8,54</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Ag</td>\n\t\t\t<td style=\"text-align: center;\">961,92</td>\n\t\t\t<td style=\"text-align: center;\">2212</td>\n\t\t\t<td style=\"text-align: center;\">11,30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Fe</td>\n\t\t\t<td style=\"text-align: center;\">1535</td>\n\t\t\t<td style=\"text-align: center;\">2750</td>\n\t\t\t<td style=\"text-align: center;\">13,80</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Ni</td>\n\t\t\t<td style=\"text-align: center;\">1453</td>\n\t\t\t<td style=\"text-align: center;\">2732</td>\n\t\t\t<td style=\"text-align: center;\">17,46</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\"><em>Lưu &yacute;: C&aacute;c số liệu thu được tại điều kiện &aacute;p suất 1 atm</em></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 21 – 25:",
+            "range": [
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Dựa vào bảng 1, nguyên tố nào có nhiệt lượng mol của phản ứng tổng hợp lớn nhất?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Dựa vào cột $\\Delta H_{fus}$ (nhiệt lượng mol của phản ứng tổng hợp) trong bảng 1, giá trị của ${Ni}$ là 17,46 kJ/mol, cao nhất trong số các nguyên tố được liệt kê.",
+            "contentAnswerA": "${Ca}$",
+            "contentAnswerB": "${Ag}$",
+            "contentAnswerC": "${Fe}$",
+            "contentAnswerD": "${Ni}$"
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Điền số th&iacute;ch hợp v&agrave;o chỗ trống (l&agrave;m tr&ograve;n đến số thập ph&acirc;n thứ 2)<br />\nNhiệt lượng mol của phản ứng tổng hợp 24 gam nước tại &aacute;p suất $1 atm$ l&agrave; <span class=\"fill-blank\" data-blank-id=\"Câu 22-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $kJ$.<br />\n&nbsp;",
+            "type": "TLN",
+            "correctAnswer": [
+                8.03
+            ],
+            "explanation": "<br/>Nhiệt lượng mol của phản ứng tổng hợp 1 mol nước theo đề bài là $6,02 kJ/mol$.<br/>Nhiệt lượng mol của phản ứng tổng hợp 24 gam nước theo đề bài là: $q = 6,02 \\cdot \\frac{24}{18} \\approx 8,03 {kJ}$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Năng lượng cần thiết để nấu chảy 2,00 mol sắt ở $1,535^\\circ{C}$ và áp suất 1 atm là:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nhiệt lượng mol của phản ứng tổng hợp 1 mol sắt theo đề bài là $13,80 kJ/mol$.<br/>Nhiệt lượng mol của phản ứng tổng hợp 2,00 mol sắt theo đề bài là: $q = 13,80 \\cdot 2 = 27,60 {kJ}$.",
+            "contentAnswerA": "$17,08 kJ$.",
+            "contentAnswerB": "$27,60 kJ$.",
+            "contentAnswerC": "$13,80 kJ$.",
+            "contentAnswerD": "$34,92 kJ$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Kéo thả cụm từ thích hợp vào chỗ trống:<br/>Điểm sôi của nguyên tố K là $759,90^\\circ{C}$. Nếu K cũng tuân theo mô hình chung của các nguyên tố khác trong bảng thì nhiệt lượng mol của phản ứng tổng hợp là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 24-1\">____DRAG_DROP_1____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                }
+            ],
+            "explanation": "<br/>Điểm sôi của nguyên tố ${K}$ $(759,90^\\circ{C})$ nhỏ hơn rất nhiều so với điểm sôi của nguyên tố ${Ca}$ $(1484^\\circ{C})$ nên theo quy luật trong bảng thì nhiệt lượng cần cung cấp để làm nóng chảy 1 mol nguyên tố ${K}$ sẽ nhỏ hơn ${Ca}$ ($8,54 kJ/mol$).<br/>Vậy giá trị phù hợp sẽ là nhỏ hơn $8 kJ/mol$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "nằm trong khoảng từ $8 – 11 kJ/mol$"
+                },
+                {
+                    "id": "B>",
+                    "content": "nhỏ hơn $8 kJ/mol$"
+                },
+                {
+                    "id": "C>",
+                    "content": "nằm trong khoảng từ $14 – 18 kJ/mol$"
+                },
+                {
+                    "id": "D>",
+                    "content": "nằm trong khoảng từ $11 – 14 kJ/mol$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Người ta đưa ra giả thuyết rằng nhiệt lượng mol của phản ứng tổng hợp sẽ tăng khi nhiệt độ sôi tăng.<br/>Dựa trên dữ liệu trong bảng, cặp chất nào sau đây hỗ trợ giải thuyết này?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/>Ta thấy ý 2 và ý 3 là hợp lý. Nhiệt độ sôi của ${Ni}$ thấp hơn ${Fe}$ nhưng $\\Delta H_{fus}$ của ${Ni}$ lại lớn hơn ${Fe}$.",
+            "contentC1": "${Ni}$ và ${Fe}$.",
+            "contentC2": "Nước và ${Ca}$.",
+            "contentC3": "${Ag}$ và ${Fe}$."
+        },
+        {
+            "question": "85bcbcfe-5d13-498f-8da6-5c1d631eb1f8",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>H&Igrave;NH THỨC ẨN NẤP CỦA VI KHUẨN [SAECK1102539]</strong></div>\nThời gian gần đ&acirc;y li&ecirc;n tiếp xảy ra c&aacute;c vụ ngộ độc thực phẩm do ăn phải chả lụa của người b&aacute;n dạo v&agrave; một loại mắm ủ l&acirc;u ng&agrave;y. Nạn nh&acirc;n thường c&oacute; c&aacute;c triệu chứng như buồn n&ocirc;n, n&ocirc;n, chướng bụng, đau bụng, liệt theo tr&igrave;nh tự liệt bắt đầu từ v&ugrave;ng đầu mặt cổ lan xuống hai tay, sau đ&oacute; tới hai ch&acirc;n, liệt c&aacute;c cơ h&ocirc; hấp; liệt nặng c&oacute; thể g&acirc;y suy h&ocirc; hấp l&agrave; nguy&ecirc;n nh&acirc;n g&acirc;y tử vong. Qua kiểm tra, cơ quan chức năng ph&aacute;t hiện trong c&aacute;c mẫu thực phẩm từ chả lụa của người b&aacute;n dạo v&agrave; mắm chua ủ l&acirc;u ng&agrave;y c&ugrave;ng nhiễm một loại vi khuẩn c&oacute; t&ecirc;n l&agrave; Clostridium botulinum, l&agrave; một loại vi khuẩn Gram dương. Ti&ecirc;u bản mẫu chứa vi khuẩn Clostridium botulinum như H&igrave;nh 6.<br />\n<img alt=\"Image from Word document\" data-uploaded=\"true\" src=\"https://cdn.save.moe/b/8BdlQZ.png?dl=1\" / style=\"width: 55%; margin: 0 auto; display: block;\"><br />\nTrong đ&oacute;, (1) l&agrave; c&aacute;c tế b&agrave;o sinh dưỡng của vi khuẩn, (2) l&agrave; cấu tr&uacute;c nội b&agrave;o tử.<br />\nKhi ch&uacute;ng ta sử dụng c&aacute;c biện ph&aacute;p ti&ecirc;u diệt vi khuẩn, ch&uacute;ng c&oacute; khả năng h&igrave;nh th&agrave;nh nội b&agrave;o tử. Nội b&agrave;o tử c&oacute; thể sống tiềm sinh trong nhiều điều kiện bất lợi, v&agrave; nảy chồi trở th&agrave;nh vi khuẩn sống b&igrave;nh thường trong điều kiện thuận lợi. Độc tố Botulinum tấn c&ocirc;ng hệ thần kinh, g&acirc;y ra t&igrave;nh trạng liệt mềm đặc trưng, thường diễn ra theo tr&igrave;nh tự nghi&ecirc;m trọng: l&agrave; c&aacute;c triệu chứng được nhắc đến trong c&aacute;c vụ ngộ độc thực phẩm ph&iacute;a tr&ecirc;n.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 26 - 29:",
+            "range": [
+                26,
+                27,
+                28,
+                29
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Để ngăn chặn ngộ độc Botulism, cần đặc biệt chú ý đến một số phương pháp nào sau đây?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/>1, Đúng. Trên 120 độ C là nhiệt độ đủ để tiêu diệt nội bào tử.<br/>2, Đúng. Nhiệt độ cao giúp phá hủy độc tố (dù nội bào tử có thể bền nhiệt, nhưng độc tố botulinum bị phân hủy bởi nhiệt).<br/>3, Đúng. Sản phẩm không rõ nguồn gốc có thể chứa cách chế biến không đảm bảo vệ sinh.<br/>4, Sai. Hệ miễn dịch phản ứng chậm hơn so với tốc độ độc tố ảnh hưởng đến cơ thể.",
+            "contentC1": "Tiệt trùng các loại thực phẩm đóng hộp, ủ kín bằng nhiệt độ và áp suất cao.",
+            "contentC2": "Việc đun sôi lại các thực phẩm nghi ngờ trước khi ăn là một biện pháp giảm thiểu rủi ro.",
+            "contentC3": "Tuyệt đối không sử dụng các sản phẩm chế biến sẵn, đóng gói, hút chân không mà không rõ nguồn gốc hoặc không đảm bảo điều kiện sản xuất.",
+            "contentC4": "Không cần quan tâm vì cơ thể có các cơ chế miễn dịch chống lại độc tố của vi khuẩn."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai?<br/>Tất cả các loại vi khuẩn đều có khả năng hình thành nội bào tử.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Chỉ có một số vi khuẩn Gram dương (như chi Clostridium và Bacillus) mới có khả năng hình thành nội bào tử.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Kéo đáp án thích hợp vào chỗ trống.<br/>Vi khuẩn Gram <span class=\"drag-drop-blank\" data-drop-id=\"Câu 28-1\">____DRAG_DROP_1____</span> có khả năng hình thành cấu trúc nội bào tử, đây là một cơ chế <span class=\"drag-drop-blank\" data-drop-id=\"Câu 28-2\">____DRAG_DROP_2____</span> được kích hoạt khi môi trường thiếu <span class=\"drag-drop-blank\" data-drop-id=\"Câu 28-3\">____DRAG_DROP_3____</span> hoặc gặp các điều kiện bất lợi khác, cho phép vi khuẩn sống tiềm sinh và chống chịu được nhiệt độ cao.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "E>"
+                }
+            ],
+            "explanation": "<br/>Vi khuẩn Gram dương có khả năng hình thành cấu trúc nội bào tử (endospore), đây là một cơ chế sinh tồn được kích hoạt khi môi trường thiếu dinh dưỡng hoặc gặp các điều kiện bất lợi khác, cho phép vi khuẩn sống tiềm sinh và chống chịu được nhiệt độ cao.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "dương"
+                },
+                {
+                    "id": "B>",
+                    "content": "âm"
+                },
+                {
+                    "id": "C>",
+                    "content": "sinh tồn"
+                },
+                {
+                    "id": "D>",
+                    "content": "sinh sản"
+                },
+                {
+                    "id": "E>",
+                    "content": "dinh dưỡng"
+                },
+                {
+                    "id": "F>",
+                    "content": "ánh sáng"
+                }
+            ]
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Đặc điểm nào sau đây là ĐÚNG khi nói về mối quan hệ giữa vi khuẩn và cấu trúc nội bào tử?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>A, Sai: Nội bào tử là cơ chế sinh tồn, không phải sinh sản. Hơn nữa, chỉ vi khuẩn Gram dương mới hình thành nội bào tử.<br/>B, Sai: Chỉ vi khuẩn Gram dương mới hình thành nội bào tử.<br/>C, Đúng: Nội bào tử là cấu trúc ngủ đông, chỉ có ở một số vi khuẩn Gram dương (như Clostridium và Bacillus), và được kích hoạt bởi các điều kiện bất lợi (như thiếu dinh dưỡng).<br/>D, Sai: Nảy chồi là quá trình nội bào tử trở lại thành tế bào sinh dưỡng. Quá trình tạo ra nội bào tử được gọi là bào tử hóa. Nội bào tử không liên quan đến cơ chế di chuyển.",
+            "contentAnswerA": "Nội bào tử là cấu trúc sinh sản chính của hầu hết các loài vi khuẩn Gram âm, được hình thành khi môi trường có đủ dinh dưỡng.",
+            "contentAnswerB": "Vi khuẩn Gram dương và Gram âm đều có khả năng hình thành nội bào tử; nội bào tử là nguồn lây nhiễm chính trong các vụ ngộ độc thực phẩm Botulism.",
+            "contentAnswerC": "Nội bào tử là cấu trúc ngủ đông, cực kỳ bền bỉ, chỉ được hình thành bởi một số chi vi khuẩn Gram dương (như Clostridium và Bacillus) trong điều kiện môi trường bất lợi.",
+            "contentAnswerD": "Quá trình hình thành nội bào tử được gọi là nảy chồi; mục đích của nó là giúp vi khuẩn di chuyển nhanh hơn trong môi trường lỏng."
+        },
+        {
+            "question": "19f2476f-8782-4915-9bc5-580d0e635e89",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>B&Agrave;N ỦI [LAE17102542]</strong></div>\nĐịnh luật Ohm l&agrave; một trong những định luật cơ bản của điện học, biểu thị mối quan hệ giữa hiệu điện thế, cường độ d&ograve;ng điện v&agrave; điện trở trong một mạch điện. Nội dung của định luật n&ecirc;u rằng: Cường độ d&ograve;ng điện chạy qua một d&acirc;y dẫn tỉ lệ thuận với hiệu điện thế đặt v&agrave;o hai đầu d&acirc;y v&agrave; tỉ lệ nghịch với điện trở của d&acirc;y dẫn. C&ocirc;ng thức của định luật Ohm l&agrave;:\n\n<div style=\"text-align: center;\">$I = \\frac{U}{R}$</div>\nTrong đ&oacute;:<br />\n- $I$ l&agrave; cường độ d&ograve;ng điện (đơn vị: ampe, $A$)<br />\n- $U$ l&agrave; hiệu điện thế (đơn vị: v&ocirc;n, $V$)<br />\n- $R$ l&agrave; điện trở (đơn vị: &ocirc;m, $\\Omega$)<br />\nĐịnh luật Ohm gi&uacute;p ta hiểu c&aacute;ch d&ograve;ng điện hoạt động v&agrave; l&agrave; cơ sở cho việc thiết kế, t&iacute;nh to&aacute;n v&agrave; kiểm tra c&aacute;c mạch điện trong thực tế. B&agrave;n ủi (b&agrave;n l&agrave;) l&agrave; một loại thiết bị điện được sử dụng phổ biến trong cuộc sống. Về cơ bản, b&agrave;n l&agrave; c&oacute; cấu tạo đơn giản như h&igrave;nh dưới đ&acirc;y: đ&egrave;n Đ sẽ ch&aacute;y s&aacute;ng khi c&oacute; d&ograve;ng điện chạy qua, d&acirc;y điện trở $R_n$ c&oacute; t&aacute;c dụng l&agrave;m n&oacute;ng đế b&agrave;n ủi, kh&oacute;a K đ&oacute;ng vai tr&ograve; như rơ-le (thiết bị bảo vệ mạch điện cho b&agrave;n ủi).<br />\n<img alt=\"Image from Word document\" data-uploaded=\"true\" src=\"https://cdn.save.moe/b/OmiiBGe.png?dl=1\" style=\"width: 55%; margin: 0 auto; display: block;\" /><br />\nBiết d&acirc;y điện trở $R_n = 42 \\Omega$ v&agrave; đ&egrave;n Đ c&oacute; điện trở l&agrave; $R_đ = 2 \\Omega$. Đế b&agrave;n ủi được l&agrave;m từ kim loại chịu nhiệt c&oacute; nhiệt dung ri&ecirc;ng $c = 600 {J/kgK}$ v&agrave; khối lượng $m = 700 {g}$. Khi kh&oacute;a K (rơ-le) đ&oacute;ng v&agrave; c&oacute; d&ograve;ng điện chạy qua b&agrave;n ủi th&igrave; nhiệt lượng tỏa ra từ $R_n$ truyền ho&agrave;n to&agrave;n cho đế kim loại l&agrave;m tăng nhiệt độ b&agrave;n ủi, cho rằng l&uacute;c n&agrave;y b&agrave;n ủi kh&ocirc;ng tỏa nhiệt ra m&ocirc;i trường b&ecirc;n ngo&agrave;i, c&ograve;n khi K mở th&igrave; b&agrave;n ủi tỏa nhiệt ra m&ocirc;i trường b&ecirc;n ngo&agrave;i.<br />\nBan đầu kh&oacute;a K ở trạng th&aacute;i đ&oacute;ng, khi nối b&agrave;n ủi v&agrave;o nguồn điện c&oacute; hiệu điện thế $220 {V}$, nhiệt độ của b&agrave;n ủi tăng từ $25^\\circ{C}$ đến $170^\\circ{C}$, ở nhiệt độ n&agrave;y kh&oacute;a K tự động mở, b&agrave;n ủi sẽ tỏa nhiệt ra m&ocirc;i trường xung quanh với c&ocirc;ng suất $P = 84 {W}$ l&agrave;m nhiệt độ b&agrave;n ủi giảm. Khi nhiệt độ hạ xuống c&ograve;n $110^\\circ{C}$, kh&oacute;a K tự động đ&oacute;ng, nhiệt độ của b&agrave;n ủi tăng v&agrave; khi tăng đến $170^\\circ{C}$ th&igrave; kh&oacute;a K mở, ... cứ như thế lặp lại cho đến khi ngắt b&agrave;n ủi ra khỏi nguồn. Bỏ qua điện trở của d&acirc;y nối v&agrave; kh&oacute;a K.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 30 - 35:",
+            "range": [
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Điền từ/cụm từ thích hợp vào chỗ trống:<br/>Khi bàn ủi hoạt động sẽ có sự chuyển hóa chủ yếu giữa <em>__</em><span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"7\">____FILL_BLANK_1____</span> thành <span class=\"fill-blank\" data-blank-id=\"Câu 30-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "điện năng"
+                    ]
+                },
+                {
+                    "2.": [
+                        "nhiệt năng"
+                    ]
+                }
+            ],
+            "explanation": "<br/>Trong bàn là, khi hoạt động ta sẽ có sự chuyển hóa từ điện năng sang nhiệt năng."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Điền số thích hợp vào chỗ trống:<br/>Khi hoạt động, thì cường độ dòng điện chạy trong mạch là <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $A$.",
+            "type": "TLN",
+            "correctAnswer": [
+                5
+            ],
+            "explanation": "<br/>Khi mạch hoạt động, đèn nối tiếp với dây có điện trở, ta có điện trở tương đương:<br/>$R = R_n + R_d = 42 + 2 = 44 \\Omega$<br/>Áp dụng định luật Ohm cho mạch ta có: $I = \\frac{U}{R} = \\frac{220}{44} = 5 {A}$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Khi cấp điện cho bàn ủi, khoảng thời gian nhiệt độ của bàn ủi tăng từ $25^\\circ{C}$ đến $170^\\circ{C}$ là:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Nhiệt lượng bàn ủi được cung cấp: $Q = Pt = I^2R_nt$ (1)<br/>Mặt khác ta có: $Q = mc\\Delta t$ (2)<br/>Theo định luật Ohm ta có: $I = \\frac{U}{R} = \\frac{U}{R_n + R_đ}$ (3)<br/>Từ (1)(2)(3) $\\Leftrightarrow (\\frac{U}{R_n + R_đ})^2R_nt = mc\\Delta t$<br/>$(\\frac{220}{42 + 2})^2 \\cdot 42 \\cdot t = 0,7 \\cdot 600 \\cdot (170 - 25) \\Rightarrow t = 58 ({s})$",
+            "contentAnswerA": "58,0s",
+            "contentAnswerB": "57,3s",
+            "contentAnswerC": "54,7s",
+            "contentAnswerD": "90,0s"
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Xác định thời gian bàn ủi hạ nhiệt từ 170 xuống 110 độ C.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Nhiệt lượng tỏa ra được xác định bằng: $Q_1 = P \\cdot t_1$<br/>Mặt khác: $Q_1 = mc\\Delta t_1$<br/>$\\Rightarrow mc\\Delta t_1 = P \\cdot t_1 \\Leftrightarrow 0,7 \\cdot 600 \\cdot (170 - 110) = 84 \\cdot t_1 \\Rightarrow t_1 = 300 ({s})$",
+            "contentAnswerA": "240s",
+            "contentAnswerB": "120s",
+            "contentAnswerC": "360s",
+            "contentAnswerD": "300s"
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Để tăng nhiệt từ 110 lên 170 độ C thì mất thời gian:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Thời gian bàn ủi tăng nhiệt độ từ $110^\\circ{C}$ lên $170^\\circ{C}$ là:<br/>$(\\frac{U}{R_n + R_đ})^2R_nt_2 = mc\\Delta t_2 \\Rightarrow (\\frac{220}{42 + 2})^2 \\cdot 42 \\cdot t_2 = 0,7 \\cdot 600 \\cdot (170 - 110) \\Rightarrow t_2 = 24 ({s})$",
+            "contentAnswerA": "24s",
+            "contentAnswerB": "12s",
+            "contentAnswerC": "36s",
+            "contentAnswerD": "48s"
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Chọn các nhận xét đúng sai cho các ý dưới đây:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                },
+                {}
+            ],
+            "explanation": "<br/>1 – Đúng<br/>Khi khóa K đóng, dòng điện chạy qua điện trở $R_n = 42\\Omega$ — đây là dây nung chính của bàn ủi, có nhiệm vụ tạo ra nhiệt lớn để làm nóng bàn ủi.<br/>Khi khóa K mở, dòng điện đi qua đèn D và điện trở $R_d = 2\\Omega$, tức là dòng điện bị hạn chế lại, bàn ủi vẫn còn tỏa chút nhiệt nhưng rất nhỏ, chủ yếu là để giữ nhiệt.<br/>2 – Đúng<br/>Rõ ràng bàn ủi có bộ phận cảm biến nhiệt, khi đủ nóng (đạt ngưỡng nhiệt an toàn) thì sẽ ngắt mạch điện chính bằng cách mở khóa K, tránh gây quá nhiệt.<br/>3 – Sai<br/>Khi khóa K đóng, dòng điện đi theo nhánh chính qua điện trở Rn, nhưng đồng thời đèn D vẫn sáng vì vẫn có dòng điện qua mạch (dòng chính).<br/>Trong mạch điện, đèn D nằm nối tiếp với điện trở $R_n$, và khi khóa K mở, dòng điện buộc đi qua đèn D và $R$ $\\to$ đèn D càng sáng hơn rõ rệt vì dòng điện chỉ đi qua một nhánh duy nhất lúc đó. Nhưng không có nghĩa là đèn tắt khi khóa K đóng.<br/>4 – Đúng<br/>ở nhiệt độ này khóa K tự động mở, bàn ủi sẽ tỏa nhiệt ra môi trường xung quanh với công suất $P = 84W$ làm nhiệt độ dần giảm.\"<br/>Nhiệt này là do dòng điện nhỏ đi qua đèn D và điện trở $R_n$, nên vẫn còn chút nhiệt để giữ ấm và tránh sụt giảm nhiệt quá nhanh.<br/>5 – sai<br/>Khi khóa K đóng, dòng điện chạy qua $R_n = 42\\Omega$, đây là mạch chính làm nóng bàn ủi mạnh mẽ.<br/>Công suất khi đó lớn hơn $84 W$ nhiều lần. Còn $84 W$ là công suất khi khóa K mở – dòng điện nhỏ hơn, công suất giữ nhiệt.",
+            "contentYA": "Bàn là chỉ tỏa nhiệt khi khóa K (rơ-le) ở trạng thái đóng.",
+            "contentYB": "Khi nhiệt độ của bàn ủi đạt đến 170°C thì khóa K mở ra để ngắt dòng điện.",
+            "contentYC": "Đèn Đ sẽ tắt khi khóa K đóng.",
+            "contentYD": "Khi khóa K mở, bàn ủi vẫn tỏa nhiệt với công suất 84 W do điện trở $R_n$ và đèn Đ.",
+            "contentYE": "Công suất tỏa nhiệt của bàn là khi khóa K đóng và dòng điện chạy qua là 84 W."
+        },
+        {
+            "question": "54c667f1-ef33-46d7-8e8d-3508e4c3ba42",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>SORBITOL [HAE17102541]</strong></div>\nSorbitol (D-glucitol) l&agrave; một polyalcohol c&oacute; 6 nguy&ecirc;n tử carbon v&agrave; 6 nh&oacute;m hydroxyl, c&oacute; vị ngọt bằng một nửa đường m&iacute;a. N&oacute; được sử dụng như chất l&agrave;m ngọt trong thực phẩm cho người đ&aacute;i th&aacute;o đường. Sorbitol th&uacute;c đẩy hydrate h&oacute;a c&aacute;c chất trong ruột, k&iacute;ch th&iacute;ch tiết cholecystokinin-pancreazymin v&agrave; tăng nhu động ruột nhờ t&aacute;c dụng nhuận tr&agrave;ng thẩm thấu. Ngo&agrave;i ra, n&oacute; c&ograve;n được d&ugrave;ng để g&acirc;y lợi niệu thẩm thấu hoặc l&agrave;m chất giữ ẩm trong một số chế phẩm thuốc, mỹ phẩm.<br />\nSorbitol hấp thu k&eacute;m qua đường ti&ecirc;u h&oacute;a. Chuyển h&oacute;a chủ yếu ở gan th&agrave;nh fructose nhờ sorbitol dehydrogenase. Một phần nhỏ chuyển th&agrave;nh glucose nhờ aldose reductase. Một phần rất nhỏ sorbitol kh&ocirc;ng chuyển h&oacute;a được đ&agrave;o thải qua thận v&agrave; dưới dạng ${CO_2}$ qua h&ocirc; hấp.<br />\nSorbitol được chỉ định để điều trị chứng t&aacute;o b&oacute;n v&agrave; kh&oacute; ti&ecirc;u, tưới rửa b&agrave;ng quang trong phẫu thuật tiết niệu. Sorbitol c&oacute; khả năng hấp thụ nước mạnh n&ecirc;n khi v&agrave;o cơ thể, n&oacute; kh&ocirc;ng bị hấp thu ho&agrave;n to&agrave;n tại ruột non m&agrave; di chuyển xuống đại tr&agrave;ng. Tại đ&acirc;y, sorbitol h&uacute;t nước từ ni&ecirc;m mạc ruột v&agrave;o l&ograve;ng ruột nhờ cơ chế thẩm thấu, gi&uacute;p l&agrave;m mềm ph&acirc;n v&agrave; tăng khối lượng ph&acirc;n. Điều n&agrave;y k&iacute;ch th&iacute;ch c&aacute;c thụ thể căng gi&atilde;n ở th&agrave;nh ruột, th&uacute;c đẩy nhu động ruột v&agrave; gi&uacute;p đẩy ph&acirc;n ra ngo&agrave;i dễ d&agrave;ng hơn. Tuy nhi&ecirc;n, sorbitol được khuyến c&aacute;o l&agrave; kh&ocirc;ng sử dụng l&acirc;u d&agrave;i để tr&aacute;nh mất nước, rối loạn điện giải, nhiễm toan lactic, ti&ecirc;u chảy kh&ocirc;ng mong muốn ở những người c&oacute; bệnh &ldquo;đại tr&agrave;ng k&iacute;ch th&iacute;ch&rdquo; hoặc trướng bụng.<br />\nSorbitol được đ&oacute;ng g&oacute;i th&agrave;nh g&oacute;i bột uống c&oacute; khối lượng 5g. Để điều trị chứng kh&oacute; ti&ecirc;u, c&oacute; thể d&ugrave;ng thuốc trước bữa ăn, người lớn 1 &ndash; 3 g&oacute;i/ng&agrave;y. Để điều trị chứng t&aacute;o b&oacute;n: người lớn d&ugrave;ng 1 g&oacute;i v&agrave;o l&uacute;c đ&oacute;i, buổi s&aacute;ng; trẻ em bằng 1/2 liều người lớn; sử dụng dung dịch 70% uống ($D = 1,290 {g/cm^3}$): Người lớn v&agrave; trẻ em từ 12 tuổi trở l&ecirc;n: Uống liều 30 &ndash; 150 mL, trẻ em từ 2 &ndash; 11 tuổi: uống 2 mL/kg.<br />\nNg&agrave;y 4/4, Quang Linh Vlog v&agrave; Hằng Du Mục c&ugrave;ng một số th&agrave;nh vi&ecirc;n trong C&ocirc;ng ty Cổ phần Tập đo&agrave;n Chị Em Rọt - CER bị Cơ quan cảnh s&aacute;t điều tra Bộ C&ocirc;ng an (C01) khởi tố, bắt tạm giam về tội Lừa dối kh&aacute;ch h&agrave;ng. Đ&acirc;y l&agrave; hai t&ecirc;n tuổi nổi tiếng tr&ecirc;n mạng x&atilde; hội v&agrave; thường livestream b&aacute;n h&agrave;ng đạt doanh thu lớn.<br />\nC01 x&aacute;c định thực phẩm bổ sung Kera Super Greens Gummies (kẹo rau củ Kera) l&agrave; &quot;h&agrave;ng giả&quot;, do CER c&ocirc;ng bố, bắt đầu đưa ra thị trường v&agrave;o cuối năm 2024, đ&atilde; b&aacute;n &iacute;t nhất hơn 135.300 hộp. Kẹo do C&ocirc;ng ty Cổ phần ASIA LIFE tại Bu&ocirc;n Ma Thuột, Đăk Lăk, sản xuất theo đặt h&agrave;ng của CER.<br />\nKẹo được Hằng Du Mục, Quang Linh Vlogs khi livestream b&aacute;n h&agrave;ng đ&atilde; quảng c&aacute;o &quot;c&oacute; thể thay cho rau xanh trong bữa ăn&quot;. Thực tế chất lượng kiểm định k&eacute;m xa so với quảng c&aacute;o. Kết quả kiểm nghiệm của Viện Kiểm nghiệm an to&agrave;n vệ sinh thực phẩm Quốc gia cho thấy c&aacute;c chỉ ti&ecirc;u về h&agrave;m lượng đạm, đường, chất b&eacute;o, năng lượng tổng cơ bản ph&ugrave; hợp với bản tự c&ocirc;ng bố của sản phẩm. C&aacute;c chỉ ti&ecirc;u an to&agrave;n về vi sinh vật, nấm, kim loại nặng..., đều kh&ocirc;ng ph&aacute;t hiện bất thường. Tuy nhi&ecirc;n, Viện kiểm nghiệm an to&agrave;n vệ sinh thực phẩm quốc gia đ&atilde; ph&aacute;t hiện sản phẩm c&oacute; chứa Sorbitol - l&agrave; một chất tạo ngọt với h&agrave;m lượng 33,4g/100g, nhưng kh&ocirc;ng ghi tr&ecirc;n nh&atilde;n sản phẩm theo quy định.<br />\n(Nguồn: Sorbitol &ndash; Dược thư quốc gia 2022, https://vnexpress.net/chat-tao-ngot-sorbitol-co-trong-keo-rau-cu-kera-la-gi-4870742.html)",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 36 - 40:",
+            "range": [
+                36,
+                37,
+                38,
+                39,
+                40
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>- Nhận định a: Sai. Sorbitol có vị ngọt bằng một nửa đường mía là đường saccharose.<br/>- Nhận định b: Đúng. Sorbitol có tác dụng tạo ngọt nhưng không bị hấp thu quá nhiều trong cơ thể.<br/>- Nhận định c: Đúng.<br/>- Nhận định d: Sai. Trong cơ thể sorbitol vẫn được hấp thu, được chuyển hóa thành glucose, frutose và ${CO_2}$.",
+            "contentYA": "Sorbitol có vị ngọt bằng một nửa đường glucose.",
+            "contentYB": "Sorbitol được sử dụng như chất làm ngọt của thực phẩm người bị bệnh đái tháo đường do không làm tăng lượng đường huyết của người bệnh.",
+            "contentYC": "Công thức hóa học của sorbitol là ${CH_2OH[CHOH]_4CH_2OH}$.",
+            "contentYD": "Sorbitol không được hấp thu trong cơ thể bị đào thải hoàn toàn theo đường tiêu hóa."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Điền từ thích hợp vào chỗ trống<br/>Nhờ khả năng hút nước mạnh do hình thành liên kết <span class=\"fill-blank\" data-blank-id=\"Câu 37-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> với phân tử nước, khi uống vào, sorbitol không được <span class=\"fill-blank\" data-blank-id=\"Câu 37-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> hoàn toàn ở <span class=\"fill-blank\" data-blank-id=\"Câu 37-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span> mà di chuyển xuống <span class=\"fill-blank\" data-blank-id=\"Câu 37-4\" data-blank-length=\"9\">____FILL_BLANK_4____</span>, kéo nước từ thành ruột vào lòng ruột theo cơ chế <span class=\"fill-blank\" data-blank-id=\"Câu 37-5\" data-blank-length=\"9\">____FILL_BLANK_5____</span>, làm mềm phân và tăng thể tích khối phân, kích thích các thụ thể căng ở thành ruột.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "hydrogen"
+                    ]
+                },
+                {
+                    "2.": [
+                        "hấp thu"
+                    ]
+                },
+                {
+                    "3.": [
+                        "ruột non"
+                    ]
+                },
+                {
+                    "4.": [
+                        "đại tràng"
+                    ]
+                },
+                {
+                    "5.": [
+                        "thẩm thấu"
+                    ]
+                }
+            ],
+            "explanation": "<br/>Nhờ khả năng hút nước mạnh do hình thành liên kết hydrogen với phân tử nước, khi uống vào, sorbitol không được hấp thu hoàn toàn ở ruột non mà di chuyển xuống đại tràng, kéo nước từ thành ruột vào lòng ruột theo cơ chế thẩm thấu.<br/>Vị trí điền (1): hydrogen<br/>Vị trí điền (2): hấp thu<br/>Vị trí điền (3): ruột non<br/>Vị trí điền (4): đại tràng<br/>Vị trí điền (5): thẩm thấu"
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Theo lời quảng cáo của người bán hàng, người tiêu dùng nên sử dụng 2 viên kẹo Kera/ngày để bổ sung chất xơ cho cơ thể. Biết 1 viên kẹo rau củ Kera có khối lượng là 3,2 g và hàm lượng sorbitol là 33,4%. Nếu sử dụng 2 viên một ngày, người tiêu dùng đã nạp vào cơ thể <span class=\"fill-blank\" data-blank-id=\"Câu 38-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> mol sorbitol. (làm tròn kết quả tới chữ số thập phân thứ ba).",
+            "type": "TLN",
+            "correctAnswer": [
+                0.012
+            ],
+            "explanation": "<br/>Khối lượng sorbitol có trong 2 viên kẹo là: $m_{\\text{sorbitol}} = 2 \\times 3,2 \\times 33,4\\% = 2,1376 {gam}$.<br/>Số mol sorbitol một người nạp vào cơ thể một ngày là: $n_{\\text{sorbitol}} = \\frac{2,1376}{182} \\approx 0,012 {mol}$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Chọn đáp án đúng:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Nhận định A: Sai. Một đứa trẻ 2 tuổi nặng 10 kg cần uống: $10 \\times 2 = 20 {mL}$ dung dịch 70%. Khối lượng sorbitol: $20 \\times 1,290 \\times 70\\% = 18,06 {g}$.<br/>Nhận định B: Sai. Để điều trị chứng táo bón, người lớn uống liều 30-150 mL. Lượng tối đa là $150 \\times 1,290 \\times 70\\% = 135,45 {g}$. 15g là quá ít so với liều tối đa.<br/>Nhận định C: Đúng. Tính toán như trên: $150 \\times 1,290 \\times 70\\% = 135,45 {g}$.",
+            "contentAnswerA": "Một đứa trẻ 2 tuổi nặng 10 cân cần uống 25,8 gam sorbitol để điều trị chứng táo bón.",
+            "contentAnswerB": "Người lớn chỉ được uống nhiều nhất 15 g sorbitol một ngày để đề trị chứng táo bón.",
+            "contentAnswerC": "Khối lượng sorbitol tối đa mà một ngày một người có thể uống là 135,45g."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Kéo thả cụm từ thích hợp vào chỗ trống<br/>Trong cơ thể, khi sorbitol <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-1\">____DRAG_DROP_1____</span> bởi enzyme <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-2\">____DRAG_DROP_2____</span> thì sorbitol chuyển hóa thành glucose.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "A>"
+                }
+            ],
+            "explanation": "<br />\nC&ocirc;ng thức ph&acirc;n tử của glucose ${C_6H_{12}O_6}$, c&ocirc;ng thức ph&acirc;n tử của sorbitol l&agrave; ${C_6H_{14}O_6}$. Khi chuyển h&oacute;a từ sorbitol th&agrave;nh glucose, ph&acirc;n tử sorbitol bị mất đi 2 nguy&ecirc;n tử hydrogen, l&agrave;m cho số oxi h&oacute;a của nguy&ecirc;n tử carbon thay đổi từ $-1/3$ trong sorbitol th&agrave;nh $0$ trong glucose, tức l&agrave; số oxi h&oacute;a tăng sau phản ứng.<br />\nVậy sorbitol bị oxi h&oacute;a bởi enzyme aldose reductase để chuyển h&oacute;a th&agrave;nh glucose.<br />\nVị tr&iacute; k&eacute;o thả (1): bị oxi h&oacute;a<br />\nVị tr&iacute; k&eacute;o thả (2): aldose reductase",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "aldose reductase"
+                },
+                {
+                    "id": "B>",
+                    "content": "sorbitol dehydrogenase"
+                },
+                {
+                    "id": "C>",
+                    "content": "bị khử"
+                },
+                {
+                    "id": "D>",
+                    "content": "bị oxi hóa"
+                }
+            ]
+        }
+    ],
+    "subject": "TƯ DUY KHOA HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-01-11T15:21:29.037Z",
+    "updatedAt": "2026-01-20T03:02:01.533Z",
+    "__v": 0
+}

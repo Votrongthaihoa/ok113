@@ -1,0 +1,2306 @@
+{
+    "_id": "69074df188364782ca02d588",
+    "title": "[AECK]-Tư Duy Toán Học-Đề 1",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "C",
+        "Câu 2": "B",
+        "Câu 3": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 4": [
+            233
+        ],
+        "Câu 5": "A",
+        "Câu 6": "D",
+        "Câu 7": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 8": [
+            7
+        ],
+        "Câu 9": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 10": [
+            20
+        ],
+        "Câu 11": "A",
+        "Câu 12": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "G>"
+            },
+            {
+                "slot3": "F>"
+            }
+        ],
+        "Câu 13": "C",
+        "Câu 14": "B",
+        "Câu 15": "A",
+        "Câu 16": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 17": "A",
+        "Câu 18": [
+            46
+        ],
+        "Câu 19": "C",
+        "Câu 20": "B",
+        "Câu 21": "C",
+        "Câu 22": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "C>"
+            }
+        ],
+        "Câu 23": "B",
+        "Câu 24": [
+            27
+        ],
+        "Câu 25": "C",
+        "Câu 26": "B",
+        "Câu 27": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 28": "A",
+        "Câu 29": [
+            100
+        ],
+        "Câu 30": "C",
+        "Câu 31": [
+            19.8
+        ],
+        "Câu 32": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 33": [
+            2.41
+        ],
+        "Câu 34": "B",
+        "Câu 35": "C",
+        "Câu 36": [
+            3
+        ],
+        "Câu 37": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 38": [
+            2
+        ],
+        "Câu 39": "A",
+        "Câu 40": [
+            0.07
+        ]
+    },
+    "startTime": "2025-10-09T06:01:00.000Z",
+    "endTime": "2026-04-15T06:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Lớp 10A1 tổ chức một buổi khen thưởng. Biết tổ 1 có 3 người được khen thưởng; tổ 2 có 2 người; tổ 3 có 4 người và tổ 4 có $x$ người. Xếp những người này vào một bàn tròn và các bạn cùng tổ ngồi liền kề với nhau. Biết có 10368 cách xếp thỏa mãn. Tìm $x$ (biết $x>0$ )?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461064\"></iframe><br />\n- Số c&aacute;ch xếp 4 tổ v&agrave;o 1 b&agrave;n tr&ograve;n l&agrave; 3!.<br />\n- Tổ 1 c&oacute; 3 bạn ngồi liền kề với nhau. Ho&aacute;n đổi vị tr&iacute; của 3 bạn n&agrave;y c&oacute; 3! c&aacute;ch.<br />\n- Tổ 2 c&oacute; 2 bạn ngồi liền kề với nhau. Ho&aacute;n đổi vị tr&iacute; của 2 bạn n&agrave;y c&oacute; 2! c&aacute;ch.<br />\n- Tổ 3 c&oacute; 4 bạn ngồi liền kề với nhau. Ho&aacute;n đổi vị tr&iacute; của 4 người n&agrave;y c&oacute; 4! c&aacute;ch.<br />\n- Tổ 4 c&oacute; $x$ bạn ngồi liền kề với nhau. Ho&aacute;n đổi vị tr&iacute; của $x$ người n&agrave;y c&oacute; $x$! c&aacute;ch.<br />\nTheo quy tắc nh&acirc;n, số c&aacute;ch xếp thỏa m&atilde;n l&agrave;: $3!.3!.2!.4!. x!=10368 \\Leftrightarrow x!=6=3!\\Leftrightarrow x=3$",
+            "contentAnswerA": "1.",
+            "contentAnswerB": "2.",
+            "contentAnswerC": "3.",
+            "contentAnswerD": "4."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho trước ba số thực dương $a, b, c$ lần lượt tạo thành một cấp số cộng với công sai $d$. Biết rằng khi tăng thêm 1 đơn vị cho giá trị $a$ thì ba số thực dương $a, b, c$ lần lượt tạo thành một cấp số nhân. Nếu $a$ là số nguyên dương thì giá trị nhỏ nhất của $d$ bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461065\"></iframe><br />\nTừ giả thiết $a, b, c$ tạo th&agrave;nh cấp số cộng, ta c&oacute;: $a$, $b=a+d$, $c=a+2d$ (1).<br />\nGọi $a^{\\prime}, b, c$ lần lượt ba gi&aacute; trị sau khi khi tăng th&ecirc;m 1 đơn vị cho gi&aacute; trị $a$ v&agrave; lần lượt tạo th&agrave;nh cấp số nh&acirc;n với c&ocirc;ng bội $q$. Khi ấy ta lần lượt c&oacute;: $a^{\\prime}=a+1, b=(a+1) q, c=(a+1) q^{2}$ (2).<br />\nTừ (1) v&agrave; (2) ta c&oacute; hệ phương tr&igrave;nh sau: $\\left\\{\\begin{array}{l}a+d=(a+1) q \\\\ a+2 d=(a+1) q^{2}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}(a+d)^{2}=(a+1)^{2} q^{2} \\\\ a+2 d=(a+1) q^{2}\\end{array}\\right.\\right.$.<br />\nTừ đ&acirc;y ta c&oacute; phương tr&igrave;nh: $\\frac{(a+d)^{2}}{a+2 d}=a+1 \\Leftrightarrow d^{2}=a+2 d \\Leftrightarrow d=1 \\pm \\sqrt{1+a}$.<br />\nDễ thấy $d$ nhỏ nhất khi $a$ nhỏ nhất (chỉ đ&uacute;ng với $d=1 + \\sqrt{1+a}$), m&agrave; $a$ l&agrave; số nguy&ecirc;n dương n&ecirc;n ta suy ra $a_{\\mathrm{min}}=1$.<br />\nSuy ra $d=1 + \\sqrt{1+a_{\\text {min }}}=1 + \\sqrt{2} \\Rightarrow d_{\\text {min }}=1+\\sqrt{2}$.",
+            "contentAnswerA": "$1$.",
+            "contentAnswerB": "$1+\\sqrt{2}$.",
+            "contentAnswerC": "$3$.",
+            "contentAnswerD": "$2+\\sqrt{5}$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho tích phân $I=\\int_{0}^{a} 4 \\cos 2 x d x$. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461066\"></iframe><br />\n- a) Sai: Ta c&oacute; $I=\\int_{0}^{-\\frac{\\pi}{4}} 4 \\cos 2 x d x=\\left.(2 \\sin 2 x)\\right|_{0} ^{-\\frac{\\pi}{4}}=-2-0=-2$.<br />\n- b) Đ&uacute;ng: Ta c&oacute; $I=\\int_{-a}^{a} 4 \\cos 2 x d x=2 \\int_{0}^{a} 4 \\cos 2 x d x$.<br />\nV&igrave; h&agrave;m số $4 \\cos 2 x$ l&agrave; h&agrave;m số chẵn n&ecirc;n ta c&oacute; $\\int_{-a}^{0} 4 \\cos 2 x d x=\\int_{0}^{a} 4 \\cos 2 x d x$.<br />\nVậy $I=\\int_{-a}^{a} 4 \\cos 2 x d x=\\int_{-a}^{0} 4 \\cos 2 x d x+\\int_{0}^{a} 4 \\cos 2 x d x=2 \\int_{0}^{a} 4 \\cos 2 x d x$.",
+            "contentYA": "Khi $a=-\\frac{\\pi}{4}$ thì tích phân $I=1$.",
+            "contentYB": "Ta có $\\int_{-a}^{a} 4 \\cos 2 x d x=2 \\int_{0}^{a} 4 \\cos 2 x d x$"
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Có 12 thanh gỗ chiều dài khác biệt nhau và có số đo nguyên $(\\mathrm{cm})$. Biết rằng nếu lấy ra bất kì 3 thanh thì không thể lập thành một tam giác. Hỏi thanh dài nhất có độ dài ít nhất bao nhiêu cm ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 4-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                233
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461067\"></iframe><br />\nXếp thứ tự tăng dần theo độ d&agrave;i c&aacute;c thanh $a_{1} &lt; a_{2} &lt; \\ldots &lt; a_{11} &lt; a_{12}$.<br />\nKhi ấy ta c&oacute; đ&aacute;nh gi&aacute;: $a_{1} \\geq 1, a_{2} \\geq 2 \\rightarrow a_{i+2} \\geq a_{i}+a_{i+1}$ với mọi $i=\\overline{1,2,3 \\ldots 10}$.<br />\nN&oacute;i c&aacute;ch kh&aacute;c: Tổng độ d&agrave;i 2 thanh gỗ bằng hoặc b&eacute; hơn độ d&agrave;i thanh thứ ba th&igrave; 3 thanh đ&oacute; ko lập th&agrave;nh 1 tam gi&aacute;c. Khi ấy ta c&oacute; 4 bộ gồm 3 cạnh b&eacute; nhất như sau: $(1,2,3)$; $(5,8,13)$; $(21,34,55)$; $(89,144,233)$.<br />\nVậy thanh thứ 12 c&oacute; độ d&agrave;i b&eacute; nhất l&agrave; 233 cm."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Cho hàm số $f(x)=\\frac{x^{2}+a x+b}{x-2}$ có đồ thị $f^{\\prime}(x)$ như hình vẽ<br/><img alt=\"A graph of function and function\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/FwGhMpp.png?dl=1\" data-temp-key=\"temp-image-1765861481868-2m67jxitt\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Biết $f(0)=1$ và $\\min _{[-4 ;-3]} f(x)=\\frac{k}{m}$ với $k \\in \\mathbb{Z}, m \\in \\mathbb{N}, \\frac{k}{m}$ tối giản. Khi đó $k-2 m$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461068\"></iframe><br />\n$f^{\\prime}(x)=\\frac{x^{2}-4 x-2 a-b}{(x-2)^{2}}$. Giải $f^{\\prime}(x)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=3\\end{array}\\right.$ n&ecirc;n $x^{2}-4 x-2 a-b=(x-1)(x-3) \\Rightarrow-2 a-b=3$.<br />\nKhi ấy $f(0)=1 \\Leftrightarrow-\\frac{b}{2}=1 \\Leftrightarrow b=-2$. Suy ra $a=-\\frac{1}{2} \\rightarrow f(x)=\\frac{x^{2}-\\frac{1}{2} x-2}{x-2}$.<br />\nDựa v&agrave;o đồ thị h&agrave;m số $f^{\\prime}(x)$ thấy h&agrave;m số $f(x)$ đồng biến tr&ecirc;n $(-4 ;-3)$ n&ecirc;n $\\min _{[-4 ;-3]} f(x)=f(-4)=-\\frac{8}{3}$ tức ta c&oacute; được $k-2 m=-8-6=-14$.",
+            "contentAnswerA": "-14.",
+            "contentAnswerB": "14.",
+            "contentAnswerC": "22.",
+            "contentAnswerD": "-10."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Hình vẽ bên mô tả 2 trong 4 kỳ hoạt động của 1 động cơ đốt trong. Buồng đốt chứa khí đốt là một khối trụ có đường kính $d=6 \\ (\\mathrm{cm})$ còn thể tích thay đổi bởi sự chuyển động lên xuống của một Pistong trong xi lanh. Biết rằng Pistong đó được tác động bởi một trục khuỷu và thành truyền lực khiến cho Pistong chuyển động tịnh tiến và khoảng cách giữa hai điểm cao nhất và thấp nhất là $4 \\ (\\mathrm{cm})$. Gọi $V_{1}$ và $V_{2}$ lần lượt là thể tích lớn nhất và thể tích nhỏ nhất của buồng đốt khi Pistong chuyển động. Tính $V_{1}-V_{2}$.<br/><img alt=\"Diagram of a piston and cylinder\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/4dz4u.png?dl=1\" data-temp-key=\"temp-image-1765861481869-q1q7t1all\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461070\"></iframe><br />\nBuồng đốt chứ kh&iacute; l&agrave; 1 h&igrave;nh trụ b&aacute;n k&iacute;nh $r=3 \\mathrm{~cm}$. Thể t&iacute;ch của buồng đốt chứa kh&iacute; lớn nhất khi pistong đi xuống dưới. Thể t&iacute;ch của buồng đốt chứa kh&iacute; b&eacute; nhất khi pistong đi l&ecirc;n tr&ecirc;n.<br />\nVậy: $V_{1}-V_{2}=3^{2} . \\pi\\left(l_{1}-l_{2}\\right)=3^{2} . \\pi .4=36 \\pi \\left(\\mathrm{cm}^{3}\\right)$.",
+            "contentAnswerA": "$V_{1}-V_{2}=9 \\pi\\left(\\mathrm{cm^{3}}\\right)$.",
+            "contentAnswerB": "$V_{1}-V_{2}=48 \\pi\\left(\\mathrm{cm^{3}}\\right)$",
+            "contentAnswerC": "$V_{1}-V_{2}=18 \\pi\\left(\\mathrm{cm^{3}}\\right)$",
+            "contentAnswerD": "$V_{1}-V_{2}=36 \\pi\\left(\\mathrm{cm^{3}}\\right)$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Gọi $K$ là diện tích của hình thang theo đơn vị diện tích sao cho độ dài cạnh đáy bé, độ dài đường cao và độ dài cạnh đáy lớn tạo thành một cấp số cộng. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461071\"></iframe><br />\nTa gọi độ d&agrave;i cạnh đ&aacute;y b&eacute;, độ d&agrave;i đường cao v&agrave; độ d&agrave;i cạnh đ&aacute;y lớn lần lượt l&agrave; $a-d, a, a+d$. Suy ra diện t&iacute;ch h&igrave;nh thang l&agrave; $K=\\frac{a(a+d+a-d)}{2}=a^{2}$.<br />\nChọn ba gi&aacute; trị $a$ lần lượt l&agrave; $3 ; 2,7 ; \\pi$ th&igrave; gi&aacute; trị $K=a^{2}$ đều thỏa m&atilde;n ba mệnh đề đ&atilde; n&ecirc;u.",
+            "contentYA": "$K$ có thể là một số nguyên.",
+            "contentYB": "$K$ có thể là một số vô tỉ.",
+            "contentYC": "$K$ có thể là một số nguyên hoặc là một số hữu tỉ."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Có 13 bạn nhỏ ngồi quanh một bàn tròn. Họ thỏa thuận với nhau là hai bạn khác giới sẽ nói dối nhau, còn hai bạn cùng giới sẽ nói thật. Một bạn nói với bạn bên phải mình \"Đa số trong chúng ta là con trai\", bạn này lại nói với bạn bên phải của mình \"Đa số trong chúng ta là con gái\", bạn kế tiếp lại nói với bạn bên phải của mình \"Đa số trong chúng ta là con trai\", bạn này lại nói \"Đa số trong chúng ta là con gái\" ... cho đến bạn cuối cùng nói với bạn đầu tiên \"Đa số trong chúng ta là con trai\". Hỏi có bao nhiêu bạn trai ngồi quanh bàn?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                7
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461072\"></iframe><br />\nC&oacute; 13 bạn ngồi v&ograve;ng tr&ograve;n. Lần lượt c&aacute;c bạn n&oacute;i với người b&ecirc;n phải:<br />\n- Bạn thứ nhất: &quot;Đa số l&agrave; con trai&quot;<br />\n- Bạn kế tiếp: &quot;Đa số l&agrave; con g&aacute;i&quot;<br />\n- rồi lại &quot;Đa số l&agrave; con trai&quot; - v&agrave; cứ thế xen kẽ cho đến bạn cuối c&ugrave;ng n&oacute;i &quot;Đa số l&agrave; con trai&quot;.<br />\nTa gọi $T=$ đ&uacute;ng nếu ph&aacute;t biểu &quot;đa số l&agrave; con trai&quot; l&agrave; đ&uacute;ng (tức số nam $\\geq 7$ ), $T=$ sai nếu ngược lại (số nam $\\leq 6$ ).<br />\nMỗi ph&aacute;t biểu thuộc một cạnh: người $i$ ph&aacute;t biểu với người $i+1$ (v&ograve;ng tr&ograve;n).<br />\n- Nếu hai người kề nhau c&ugrave;ng giới, th&igrave; người $i$ n&oacute;i thật.<br />\n- Nếu kh&aacute;c giới, người $i$ n&oacute;i dối.<br />\nV&igrave; c&aacute;c ph&aacute;t biểu xen kẽ: ở vị tr&iacute; lẻ ph&aacute;t biểu &quot;đa số l&agrave; con trai&quot;, ở vị tr&iacute; chẵn ph&aacute;t biểu &quot;đa số l&agrave; con g&aacute;i&quot;.<br />\nDo đ&oacute;: (1) C&aacute;c cạnh ở vị tr&iacute; lẻ phải phản &aacute;nh kết quả của $T$ theo một kiểu (c&ugrave;ng giới nếu $T$ đ&uacute;ng, kh&aacute;c giới nếu T sai) - (2) Cạnh ở vị tr&iacute; chẵn phản &aacute;nh ngược lại.<br />\nHay n&oacute;i c&aacute;ch kh&aacute;c, khi đếm số cạnh &quot;c&ugrave;ng giới&quot; ta được một con số li&ecirc;n quan đến T - t&iacute;nh ra được l&agrave;: nếu T đ&uacute;ng th&igrave; số cạnh c&ugrave;ng giới $=7$, nếu T sai th&igrave; số cạnh c&ugrave;ng giới $=6$.<br />\nNhận x&eacute;t: khi đi v&ograve;ng quanh, số lần chuyển từ nam $\\rightarrow$ nữ (hoặc ngược lại) phải l&agrave; một số chẵn (v&igrave; để quay về người bắt đầu, số đổi giới phải về trạng th&aacute;i ban đầu). M&agrave; số cạnh &quot;kh&aacute;c giới&quot; ch&iacute;nh l&agrave; số lần đồi ấy<br />\nTức, nếu T sai $\\rightarrow$ số cạnh kh&aacute;c giới $=7$ (lẻ) $\\rightarrow$ kh&ocirc;ng thể, v&igrave; số đổi phải chẵn.<br />\nVậy chỉ c&ograve;n T đ&uacute;ng: tức đa số l&agrave; con trai<br />\nTừ điều kiện &quot;ở cạnh lẻ l&agrave; c&ugrave;ng giới, cạnh chẵn l&agrave; kh&aacute;c giới&quot; ta suy ra quy luật cho chuỗi giới t&iacute;nh: n&oacute; lặp theo khối 4 l&agrave; $(a, a, 1-a, 1-a)$, tức hai c&ugrave;ng, hai đối, lặp lại.<br />\nV&igrave; c&oacute; 13 người, chuỗi 4 sẽ lặp 3 lần ( 12 người) rồi cộng 1 người cuối bằng a.<br />\n- Nếu $a=$ Nam th&igrave; chuỗi l&agrave;: $1,1,0,0,1,1,0,0,1,1,0,0,1 \\rightarrow$ tổng nam $=7$<br />\n- Nếu $a=$ Nữ th&igrave; tổng nam $=6$, nhưng điều n&agrave;y m&acirc;u thuẫn với T đ&uacute;ng (phải $\\geq 7$ ).<br />\nVậy, chỉ c&oacute; khả năng hợp lệ l&agrave; c&oacute; 7 bạn trai quanh b&agrave;n."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Một số tự nhiên $n$ gọi là số Harshad nếu $n$ chia hết cho tổng chữ số của nó. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461073\"></iframe><br />\n- a) Đ&uacute;ng: Số 1 chữ số $a$ c&oacute; tổng chữ số bằng ch&iacute;nh n&oacute;, v&agrave; lu&ocirc;n chia hết cho ch&iacute;nh n&oacute;.<br />\n- b) Sai: V&iacute; dụ: 19998 chia hết cho 9 (tổng chữ số $=36$ ), nhưng $\\frac{19998}{36}=555,5 \\ldots$ kh&ocirc;ng nguy&ecirc;n<br />\n- c) Sai: X&eacute;t 198: tổng chữ số bằng 18 , khi ấy ta c&oacute; ph&eacute;p t&iacute;nh $\\frac{198}{18}=11$.<br />\nSuy ra: 198 l&agrave; số Harshad. Đồng thời 198 chia hết cho 11 . Nhưng 18 kh&ocirc;ng chia hết cho 11. Vậy khẳng định sai.",
+            "contentYA": "Mọi số có đúng một chữ số (1-9) đều là số Harshad.",
+            "contentYB": "Nếu một số chia hết cho 9 thì chắc chắn là số Harshad.",
+            "contentYC": "Nếu một số Harshad đồng thời chia hết cho 11 , thì tổng chữ số của nó cũng phải chia hết cho 11."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Biết rằng giá trị trung bình, số trung vị và mốt của bảng số liệu dưới đây được sắp xếp theo thứ tự tăng dần, chúng tạo thành một cấp số cộng không hằng số. Tổng của tất cả các giá trị thực có thể có của $x$ là bao nhiêu?<br/>$\\begin{array}{|c|c|c|c|c|c|c|c} \\hline 10 & 2 & 5 & 2 & 4 & 2 & x \\\\ \\hline \\end{array}$<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                20
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461074\"></iframe><br />\nTừ đề b&agrave;i ta dễ d&agrave;ng suy ra mốt của bảng số liệu ch&iacute;nh l&agrave; 2 (với mọi $x$ ).<br />\nTrung vị sẽ l&agrave; một số nguy&ecirc;n hoặc một số nguy&ecirc;n cộng với 0,5. D&ugrave; thế n&agrave;o đi nữa, gi&aacute; trị trung b&igrave;nh phải l&agrave; một số nguy&ecirc;n hoặc một số nguy&ecirc;n cộng với 0,25 .<br />\nV&igrave; gi&aacute; trị trung b&igrave;nh l&agrave; $\\frac{25+x}{7}$, n&ecirc;n ta suy ra dạng của gi&aacute; trị $x$ l&agrave; $x=3+7 n$ với $n \\geq 1$.<br />\n- Với $n=0 \\rightarrow x=3$ n&ecirc;n khi ấy trung vị l&agrave; 3 , gi&aacute; trị trung b&igrave;nh l&agrave; 4 . Khi ấy gi&aacute; trị trung b&igrave;nh, số trung vị v&agrave; mốt lần lượt l&agrave; 2,3 v&agrave; 4 . (thỏa)<br />\n- Với $n \\geq 1$ th&igrave; trung vị l&agrave; 4 , khi ấy ta c&oacute; 2 trường hợp nhỏ hơn<br />\n+ Nếu gi&aacute; trị trung b&igrave;nh l&agrave; 6 th&igrave; khi ấy $\\frac{25+x}{7}=6 \\Leftrightarrow x=17 \\rightarrow n=2$ (thỏa $n \\geq 1$ )<br />\n+ Nếu gi&aacute; trị trung b&igrave;nh l&agrave; 0 th&igrave; khi ấy $\\frac{25+x}{7}=0 \\Leftrightarrow x=-25 \\rightarrow n=-4$ (kh&ocirc;ng thỏa)<br />\n- Với $n&lt;0$ th&igrave; trung vị l&agrave; 2 bằng với mốt $\\rightarrow$ điều n&agrave;y vi phạm giả định của b&agrave;i to&aacute;n.<br />\nTừ 3 trường hợp, ta suy ra $x=3$ v&agrave; $x=17$ tức tổng cần t&igrave;m l&agrave; $3+17=20$."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Biết rằng đồ thị hàm số $y=f(x)$ đi qua điểm ( $1 ; 2$ ) và có hệ số góc của tiếp tuyến tại mỗi điểm $(x ; f(x))$ là $\\frac{1-x}{x^{2}}$ với $x>0$. Tìm hàm số $f(x)$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461075\"></iframe><br />\nTa c&oacute; hệ số g&oacute;c của tiếp tuyến tại mỗi điểm $(x ; f(x))$ l&agrave; $\\frac{1-x}{x^{2}}$ vậy $f^{\\prime}(x)=\\frac{1-x}{x^{2}}$ với $x&gt;0$.<br />\nKhi đ&oacute; $f(x)=\\int \\frac{1-x}{x^{2}} \\mathrm{~d} x=\\int\\left(\\frac{1}{x^{2}}-\\frac{1}{x}\\right) \\mathrm{d} x=-\\frac{1}{x}-\\ln |x|+C$. Do $x&gt;0$ n&ecirc;n $f(x)=-\\frac{1}{x}-\\ln x+C$.<br />\nBiết rằng đồ thị h&agrave;m số $y=f(x)$ đi qua điểm ( $1 ; 2$ ) n&ecirc;n $f(1)=2 \\Rightarrow-1-\\ln 1+C=2 \\Leftrightarrow C=3$.<br />\nVậy ta suy ra $f(x)=-\\frac{1}{x}-\\ln x+3$.",
+            "contentAnswerA": "$f(x)=-\\frac{1}{x}-\\ln x+3$.",
+            "contentAnswerB": "$f(x)=\\frac{1}{x}-\\ln x+3$.",
+            "contentAnswerC": "$f(x)=-\\frac{1}{x}+\\ln x+3$.",
+            "contentAnswerD": "$f(x)=-\\frac{1}{x}-\\ln x-3$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Xếp các ngũ giác đều vào đường tròn trên sao cho giữa các đa giác đều có chung một cạnh duy nhât như hình vẽ dưới đây.<br/><img alt=\"A diagram of a hexagon\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/qoGnq.png?dl=1\" data-temp-key=\"temp-image-1765861481872-2oqmy9kg4\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>- Khi cấu trúc này khép kín, có thể xếp được <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-1\">____DRAG_DROP_1____</span> ngũ giác đều.<br/>- Nếu thay bằng lục giác đều thì có thể xếp được <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-2\">____DRAG_DROP_2____</span> lục giác đều.<br/>- Tổng quát với trường hợp đa giác đều $n$ cạnh, ta thu được tất cả <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-3\">____DRAG_DROP_3____</span> giá trị $n$ thỏa mãn.<br/>Kéo thả các biểu thức vào vị trí thích hợp:",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "G>"
+                },
+                {
+                    "slot3": "F>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461079\"></iframe><br />\n<img alt=\"A diagram of a hexagon\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1765861481873-kwttvoad5\" src=\"https://cdn.save.moe/b/D6m00q.png?dl=1\" style=\"\" /><br />\n- Gọi $A, B, C$ lần lượt l&agrave; 3 đỉnh được k&iacute; hiệu như h&igrave;nh vẽ tr&ecirc;n v&agrave; $O$ l&agrave; t&acirc;m đường tr&ograve;n.<br />\n- G&oacute;c trong của h&igrave;nh đa gi&aacute;c đều $n$ cạnh l&agrave;: $\\alpha=\\left(\\frac{n-2}{n}\\right) \\cdot 180$ độ.<br />\nSuy ra $\\widehat{A B C}=360^{\\circ}-2\\left(\\frac{n-2}{n}\\right) \\cdot 180^{\\circ}-\\widehat{O A B}=\\widehat{O C B}=180^{\\circ}-\\left(\\frac{n-2}{n}\\right) \\cdot 180^{\\circ}$ (t&iacute;nh chất kề b&ugrave;)<br />\nSuy ra $\\widehat{A O B}=360^{\\circ}-\\left[360^{\\circ}-2\\left(\\frac{n-2}{n}\\right) \\cdot 180^{\\circ}\\right]-2\\left[180^{\\circ}-\\left(\\frac{n-2}{n}\\right) \\cdot 180^{\\circ}\\right]=720^{\\circ}\\left(\\frac{n-2}{n}\\right)-360^{\\circ}$<br />\nGọi $k$ l&agrave; số h&igrave;nh của đa gi&aacute;c $n$ cạnh thỏa, suy ra $k=\\frac{2.360^{\\circ}}{\\widehat{A O B}}=\\frac{2}{2\\left(\\frac{n-2}{n}\\right)-1}=\\frac{2 n}{n-4}$<br />\nNgũ gi&aacute;c đều v&agrave; lục gi&aacute;c đều lần lượt ứng với $n=5$ v&agrave; $n=6$, thế v&agrave;o biểu thức tr&ecirc;n ta kết luận c&oacute; thể xếp được 10 ngũ gi&aacute;c đều v&agrave; 6 lục gi&aacute;c đều.<br />\n- Giải phương tr&igrave;nh nghiệm nguy&ecirc;n $k=\\frac{2 n}{n-4}$ ta thu được $n=5,6,8,12$ tức 4 gi&aacute; trị $n$ thỏa m&atilde;n.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "10"
+                },
+                {
+                    "id": "B>",
+                    "content": "11"
+                },
+                {
+                    "id": "C>",
+                    "content": "12"
+                },
+                {
+                    "id": "D>",
+                    "content": "3"
+                },
+                {
+                    "id": "E>",
+                    "content": "2"
+                },
+                {
+                    "id": "F>",
+                    "content": "4"
+                },
+                {
+                    "id": "G>",
+                    "content": "6"
+                }
+            ]
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho hình hộp $A B C D \\cdot A_{1} B_{1} C_{1} D_{1}$. Gọi $E$ là giao điểm của $C D_{1}$ và $C_{1} D$. Mệnh đề nào dưới đây đúng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461076\"></iframe><br />\nTa c&oacute;:<br />\n$\\overrightarrow{A E}=\\overrightarrow{A D}+\\overrightarrow{D E}=\\overrightarrow{A D}+\\frac{1}{2} \\overrightarrow{D C_{1}}=\\overrightarrow{A D}+\\frac{1}{2}\\left(\\overrightarrow{D C}+\\overrightarrow{D D_{1}}\\right)=\\frac{1}{2} \\overrightarrow{A B}+\\overrightarrow{A D}+\\frac{1}{2} \\overrightarrow{A A_{1}}$.",
+            "contentAnswerA": "$\\overrightarrow{A E}=\\overrightarrow{A B}+\\frac{1}{2} \\overrightarrow{A D}-\\frac{1}{2} \\overrightarrow{A A_{1}}$.",
+            "contentAnswerB": "$\\overrightarrow{A E}=\\overrightarrow{A B}+\\overrightarrow{A D}-\\frac{1}{2} \\overrightarrow{A A_{1}}$.",
+            "contentAnswerC": "$\\overrightarrow{A E}=\\frac{1}{2} \\overrightarrow{A B}+\\overrightarrow{A D}+\\frac{1}{2} \\overrightarrow{A A_{1}}$.",
+            "contentAnswerD": "$\\overrightarrow{A E}=\\overrightarrow{A B}+\\frac{1}{2} \\overrightarrow{A D}+\\frac{1}{2} \\overrightarrow{A A_{1}}$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Cường độ ánh sáng đi qua môi trường khác không khí (chẳng hạn sương mù, nước, $\\ldots$ ) sẽ giảm dần tùy thuộc độ dày của môi trường và hằng số $\\mu$ gọi là khả năng hấp thu của môi trường, tùy thuộc môi trường thì khả năng hấp thu tính theo công thức $I=I_{0} e^{-\\mu x}$ với $x$ là độ dày của môi trường đó và được tính bằng đơn vị mét. Biết rằng nước biển có $\\mu=1,4$. Cường độ ánh sáng giảm đi bao nhiêu lần khi từ độ sâu 2 m xuống đến 20 m ?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461077\"></iframe><br />\nCường độ &aacute;nh s&aacute;ng thay đổi khi từ độ s&acirc;u $x_{1}$ đến độ s&acirc;u $x_{2}$ l&agrave;: $\\frac{I_{1}}{I_{2}}=\\frac{I_{0} \\cdot e^{-\\mu x_{1}}}{I_{0} \\cdot e^{-\\mu x_{2}}}=e^{\\mu\\left(x_{2}-x_{1}\\right)}$<br />\nThay $x_{1}=2 ; x_{2}=20 ; \\mu=1,4$ ta c&oacute; $\\frac{I_{1}}{I_{2}}=e^{25,2}$",
+            "contentAnswerA": "$e^{52,5}$",
+            "contentAnswerB": "$e^{25,2}$",
+            "contentAnswerC": "$e^{22,5}$",
+            "contentAnswerD": "$e^{32,5}$"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Trong không gian $O x y z$ cho tam giác $A B C$, biết rằng ba điểm $M(1 ; 0 ;-2) ; N(-3 ; 2 ; 0) ; P(0 ; 1 ; 4)$ lần lượt là trung điểm của $A B, B C, A C$. Toạ độ của điểm $A$ là",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461078\"></iframe><br />\nTa c&oacute; tứ gi&aacute;c $A M N P$ l&agrave; h&igrave;nh b&igrave;nh h&agrave;nh n&ecirc;n $\\left\\{\\begin{array}{l}x_{A}+x_{N}=x_{M}+x_{P} \\\\ y_{A}+y_{N}=y_{M}+y_{P} \\\\ z_{A}+z_{N}=z_{M}+z_{P}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{A}=4 \\\\ y_{A}=-1 \\\\ z_{A}=2\\end{array} \\Rightarrow A(4 ;-1 ; 2)\\right.\\right.$",
+            "contentAnswerA": "$A(4 ;-1 ; 2)$.",
+            "contentAnswerB": "$A(4 ; 1 ;-2)$",
+            "contentAnswerC": "$A(4 ;-1 ;-2)$.",
+            "contentAnswerD": "$A(-4 ; 1 ;-2)$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Cho dãy số $\\left(u_{n}\\right)$ có $u_{n}=10^{n}$. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461080\"></iframe><br />\n- a) Đ&uacute;ng: Ta c&oacute;: $S_{2025}=10+10^{2}+\\ldots+10^{2025}=10 \\cdot \\frac{10^{2025}-1}{10-1}=\\frac{10}{9}\\left(10^{2025}-1\\right)$.<br />\n- b) Sai: Ta c&oacute; khai triển sau:<br />\n$\\begin{aligned}<br />\n&amp; 7+77+777+\\ldots+77 \\ldots 77=\\frac{7}{9} \\cdot(9+99+999+\\ldots+99 \\ldots 9)=\\frac{7}{9} \\cdot\\left(10-1+10^{2}-1+10^{3}-1+\\ldots+10^{2025}-1\\right) \\\\<br />\n&amp; =\\frac{7}{9}\\left(10+10^{2}+\\ldots+10^{2025}-2025\\right)=\\frac{7}{9} \\cdot\\left(10 \\cdot \\frac{10^{2025}-1}{9}-2025\\right)=\\frac{70}{81}\\left(10^{2025}-1\\right)-1575<br />\n\\end{aligned}$",
+            "contentYA": "Tổng 2025 số hạng đầu của dãy số là $\\frac{10}{9}\\left(10^{2025}-1\\right)$.",
+            "contentYB": "Giá trị của biểu thức tổng $7+77+777+\\ldots+77 \\ldots 7$ (tổng có chứa 2025 giá trị) bằng $\\frac{70}{81}\\left(10^{2025}-1\\right)$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Cho các tập hợp $\\mathrm{A}=\\{x \\in \\mathbb{R} \\mid x \\leq a\\} ; \\mathrm{B}=\\{x \\in \\mathbb{R} \\mid x \\geq b\\} ; \\mathrm{C}=[-5 ; 5]$. Biết rằng $A \\cap C ; B \\cap C$ là các đoạn có độ dài lần lượt là 7 và 9 . Tìm tập $A \\cap B$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461083\"></iframe><br />\nTa c&oacute; $A \\cap C$ l&agrave; đoạn c&oacute; chiều d&agrave;i bằng 7 n&ecirc;n $a-(-5)=7 \\Leftrightarrow a=2$. Vậy $A=(-\\infty ; 2]$.<br />\nMặt kh&aacute;c $B \\cap C$ l&agrave; đoạn c&oacute; chiều d&agrave;i bằng 9 n&ecirc;n $5-b=9 \\Leftrightarrow b=-4$. Vậy $B=[-4 ;+\\infty)$.<br />\nDo đ&oacute; $A \\cap B=[-4 ; 2]$.",
+            "contentAnswerA": "$A \\cap B=[-4 ; 2]$.",
+            "contentAnswerB": "$A \\cap B=(-4 ; 2)$.",
+            "contentAnswerC": "$A \\cap B=[-4 ;+\\infty)$.",
+            "contentAnswerD": "$A \\cap B=(-\\infty ; 2)$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Cho tứ diện $A B C D$ có hình chiếu từ đỉnh $D$ xuống tam giác đều $A B C$ trùng với trung điểm $B C$. Gọi $M$ là trung điểm $A C$. Nếu góc $\\widehat{D B A}$ bằng 67 độ thì góc $\\widehat{M D C}$ bằng bao nhiêu độ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 18-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                46
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461084\"></iframe><br />\nTừ số liệu g&oacute;c kh&ocirc;ng l&yacute; tưởng đ&atilde; cho, ta c&oacute; &yacute; tưởng giải bằng phương ph&aacute;p tọa độ h&oacute;a. Chọn hệ trục tọa độ $O x y z$ với gốc tọa độ tr&ugrave;ng với trung điểm $B C$ tức h&igrave;nh chiếu từ $D$ Cho tam gi&aacute;c đều $A B C$ cạnh bằng 2 . Từ đ&acirc;y ta c&oacute; c&aacute;c tọa độ như sau:<br />\n$B(0 ;-1 ; 0), C(0 ; 1 ; 0) \\rightarrow A(\\sqrt{3} ; 0 ; 0)$ v&agrave; gọi điểm $D(0 ; 0 ; d)$<br />\nVới $\\overrightarrow{A B}=(\\sqrt{3} ; 1 ; 0)$ v&agrave; $\\overrightarrow{D B}=(0 ; 1 ; d)$, ta c&oacute;: $\\cos \\widehat{D B A}=\\cos 67^{\\circ}=\\frac{1}{2 \\sqrt{1+d^{2}}} \\quad (1)$<br />\nVới $\\overrightarrow{C D}=(0 ; 1 ;-d)$ v&agrave; $\\overrightarrow{D M}=\\left(\\frac{\\sqrt{3}}{2} ; \\frac{1}{2} ;-d\\right)$, ta c&oacute;: $\\cos \\widehat{M D C}=\\frac{0,5+d^{2}}{1+d^{2}}=1-\\frac{1}{2\\left(1+d^{2}\\right)}$<br />\nThế (1): $4 \\cos ^{2} 67^{\\circ}=\\frac{1}{1+d^{2}}$ v&agrave;o (2) ta suy ra:<br />\n$\\cos \\widehat{M D C}=1-2 \\cos ^{2} 67^{\\circ}=-\\cos 134^{\\circ}=\\cos (180-134)^{\\circ}=\\cos 46^{\\circ}$. Vậy $\\widehat{M D C}=46^{\\circ}$"
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Gọi $a, b$ lần lượt là các số tự nhiên có hai chữ số (từ 10 đến 99 ). Kí hiệu $0,(a)$ và $0,(b)$ lần lượt là các số thập phân vô hạn tuần hoàn sao cho thỏa mãn $0,(a)+0,(b)=1$. Khi ấy số cặp $(a, b)$ thỏa mãn đồng thời các điều kiện trên là ?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461081\"></iframe><br />\n&Aacute;p dụng t&iacute;nh chất c&aacute;c số thập ph&acirc;n v&ocirc; hạn tuần ho&agrave;n, ta c&oacute;: $0,(a)=\\frac{a}{99}$ v&agrave; $0,(b)=\\frac{b}{99}$<br />\nKhi ấy ta c&oacute;: $0,(a)+0,(b)=\\frac{a}{99}+\\frac{b}{99}=1 \\Leftrightarrow a+b=99$.<br />\nVới $10 \\leq a \\leq 99$ (1), ta suy ra $10 \\leq b=99-a \\leq 99 \\Rightarrow 0 \\leq a \\leq 89$ (2)<br />\nThực hiện giao hai điều kiện (1) v&agrave; (2), ta thu được $10 \\leq a \\leq 89$.<br />\nKhi ấy c&oacute; tất cả $89-10+1=80$ cặp $(a, b)$ đồng thời thỏa m&atilde;n.",
+            "contentAnswerA": "62.",
+            "contentAnswerB": "78.",
+            "contentAnswerC": "80.",
+            "contentAnswerD": "84."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hàm số $f(x)=\\left\\{\\begin{array}{ll}2 x-2 & \\text { khi } x>2 \\\\ 2 & \\text { khi } x=2 \\\\ -x & \\text { khi } x<2\\end{array}\\right.$. Phát biểu nào sau đây là đúng?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461082\"></iframe><br />\nTa c&oacute;: $\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{+}}(2 x-2)=2$ v&agrave; $\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{-}}(-x)=-2$. Khi ấy $\\lim _{x \\rightarrow 2^{+}} f(x)=f(2)=2$",
+            "contentAnswerA": "$\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{-}} f(x)$.",
+            "contentAnswerB": "$\\lim _{x \\rightarrow 2^{+}} f(x)=f(2)$.",
+            "contentAnswerC": "$\\lim _{x \\rightarrow 2^{-}} f(x)=2$.",
+            "contentAnswerD": "Hàm số liên tục tại $x=2$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Cho $A$ và $\\bar{A}$ là hai biến cố đối của nhau. Khi ấy khẳng định nào dưới đây không thể đúng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461085\"></iframe><br />\nGiải th&iacute;ch: A c&oacute; thể đ&uacute;ng khi biến cố chắc chắn xảy ra v&agrave; biến cố đối kh&ocirc;ng thể xảy ra. B c&oacute; thể đ&uacute;ng v&igrave; nếu x&eacute;t khi tung 1 đồng xu th&igrave; chỉ c&oacute; 2 trường hợp sấp v&agrave; ngửa, khi ấy x&aacute;c suất xảy ra l&agrave; như nhau.",
+            "contentAnswerA": "$P(\\bar{A})=1+P(A)$",
+            "contentAnswerB": "$P(A)=P(\\bar{A})$",
+            "contentAnswerC": "$P(A) \\cdot P(\\bar{A})=1$",
+            "contentAnswerD": "B và C"
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Kéo thả biểu thức vào vị trí thích hợp:<br/>Có hai học sinh (HS1 và HS2) trong một trường trung học. Trường có 5 môn học chính: Toán, Sinh học, Tiếng Anh, Lịch sử, và Tiếng Tây Ban Nha. Môn Sinh học có 5 giáo viên. Môn Toán có 2 giáo viên. Môn Tiếng Anh có 4 giáo viên. Môn Lịch sử có 3 giáo viên. Môn Tiếng Tây Ban Nha có 5 giáo viên. Mỗi học sinh được phân ngẫu nhiên vào một lớp (tức là một giáo viên) cho từng môn. Gọi $A$ là biến cố \"hai học sinh này chỉ học cùng các lớp ở các môn Tiếng Tây Ban Nha, Sinh học, Tiếng Anh và Lịch sử\". Ta có 2 mô hình sau:<br/>(1) Mô hình 1 (phân công độc lập, có thứ tự): Giả sử mỗi học sinh chọn giáo viên một cách độc lập và đồng xác suất trong số các giáo viên của môn học đó.<br/>(2) Mô hình 2 (coi là tập hợp không thứ tự): Giả sử ta chỉ quan tâm đến tập hợp giáo viên mà hai học sinh được phân vào (không phân biệt thứ tự).<br/>Giải thích: Thay vì coi (HS1 $\\rightarrow$ thầy A, HS2 $\\rightarrow$ thầy B) và (HS1 $\\rightarrow$ thầy B, HS2 $\\rightarrow$ thầy A) là 2 kết quả khác nhau, thì mô hình này coi đó là cùng 1 kết quả (vì không quan tâm thứ tự).<br/>- Xác suất để biến cố $A$ xảy ra nếu ở mô hình 1 là: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 22-1\">____DRAG_DROP_1____</span><br/>- Xác suất để biến cố $A$ xảy ra nếu ở mô hình 2 là: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 22-2\">____DRAG_DROP_2____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "C>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461087\"></iframe><br />\n- (1) Tại m&ocirc; h&igrave;nh 1, với 5 gi&aacute;o vi&ecirc;n sinh học, 4 gi&aacute;o vi&ecirc;n tiếng Anh, 2 gi&aacute;o vi&ecirc;n to&aacute;n, 3 gi&aacute;o vi&ecirc;n lịch sử v&agrave; 5 gi&aacute;o vi&ecirc;n tiếng T&acirc;y Ban Nha, ta c&oacute; lần lượt c&oacute; x&aacute;c suất chung lớp Sinh l&agrave; $1 / 5$, x&aacute;c suất chung lớp Anh l&agrave; $1 / 4$, x&aacute;c suất chung lớp Sử l&agrave; $1 / 3$, x&aacute;c suất chung lớp tiếng T&acirc;y Ban Nha l&agrave; $1 / 5$ v&agrave; x&aacute;c suất kh&ocirc;ng chung lớp To&aacute;n l&agrave; $1-1 / 2=1 / 2$ khi ấy theo quy tắc nh&acirc;n ta c&oacute;: $P(A)=\\frac{1}{5} \\cdot \\frac{1}{5} \\cdot \\frac{1}{4} \\cdot \\frac{1}{3}=\\frac{1}{600}$<br />\n- (2) Tại m&ocirc; h&igrave;nh 2 , với $k$ gi&aacute;o vi&ecirc;n cho mỗi m&ocirc;n ta c&oacute; x&aacute;c suất học c&ugrave;ng gi&aacute;o vi&ecirc;n của một m&ocirc;n tương ứng đ&oacute; l&agrave; $\\frac{k}{C_{k}^{2}}$. Khi ấy với 5 gi&aacute;o vi&ecirc;n sinh học, 4 gi&aacute;o vi&ecirc;n tiếng Anh, 2 gi&aacute;o vi&ecirc;n to&aacute;n, 3 gi&aacute;o vi&ecirc;n lịch sử v&agrave; 5 gi&aacute;o vi&ecirc;n tiếng T&acirc;y Ban Nha ta c&oacute; x&aacute;c suất cần t&igrave;m l&agrave;:<br />\n$P(A)=\\frac{5}{C_{5+1}^{2}} \\cdot \\frac{5}{C_{5+1}^{2}} \\cdot \\frac{4}{C_{4+1}^{2}} \\cdot \\frac{3}{C_{3+1}^{2}}=\\frac{1}{135}$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$\\frac{1}{300}$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$\\frac{1}{600}$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$\\frac{1}{135}$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$\\frac{4}{9}$"
+                },
+                {
+                    "id": "E>",
+                    "content": "$\\frac{1}{120}$"
+                },
+                {
+                    "id": "F>",
+                    "content": "$\\frac{1}{720}$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Cho $a$ là số thực khác 0 thỏa mãn $\\int_{a}^{2 a} \\frac{x+2}{x} d x=0$, khi đó $a$ thuộc tập nào trong các tập sau đây?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461088\"></iframe><br />\nTừ giả thiết ta c&oacute;: $\\int_{a}^{2 a} \\frac{x+2}{x} d x=0 \\Leftrightarrow \\int_{a}^{2 a}\\left(1+\\frac{2}{x}\\right) d x=\\left.0 \\Leftrightarrow(x+2 \\ln |x|)\\right|_{a} ^{2 a}=0$<br />\n$\\Leftrightarrow 2 a+2 \\ln |2 a|-a-2 \\ln |a|=0 \\Leftrightarrow a=-2 \\ln 2 \\in(-2 ;-1)$.",
+            "contentAnswerA": "$(-1 ; 1)$.",
+            "contentAnswerB": "$(-2 ;-1)$.",
+            "contentAnswerC": "$(2;3)$.",
+            "contentAnswerD": "$(1;2)$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Cho hai tập hợp $A, B$ là hai tập khác rỗng có số phần tử lần lượt là $x, y$. Biết tập $A \\cup B$ có 12 phần tử và số phần tử của tập $A \\cap B$ bằng một phần tư số phần tử của tập $B$. Khi ấy giá trị lớn nhất của biểu thức $T=x+y$ bằng bao nhiêu?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 24-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                27
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461089\"></iframe><br />\nTa c&oacute; biểu đồ Venn minh họa b&agrave;i to&aacute;n như h&igrave;nh vẽ.<br />\n<img alt=\"A diagram of a venn diagram\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1765861481878-g05oku3eg\" src=\"https://cdn.save.moe/b/HN9eAlJ.png?dl=1\" style=\"\" /><br />\nGiả sử $n(A \\cap B)=b, n(A \\mid B)=a, n(B \\mid A)=c$ với $a, b, c \\in \\mathbb{N}$ v&agrave; $a, b, c \\leq 12$.<br />\nDễ thấy $x=a+b, y=b+c \\Rightarrow T=x+y=a+2 b+c$<br />\nTheo b&agrave;i ra ta c&oacute; $\\left\\{\\begin{array}{l}b=\\frac{1}{4}(b+c) \\\\ a+b+c=12\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}c=3 b \\\\ a+4 b=12\\end{array}\\right.\\right.$.<br />\nVới $a+4 b=12 \\Rightarrow a \\vdots 4 \\Rightarrow a \\in\\{0 ; 4 ; 8 ; 12\\}$.<br />\n+) $a=0 \\Rightarrow b=3 \\Rightarrow c=9 \\Rightarrow T=15$.<br />\n+) $a=4 \\Rightarrow b=2 \\Rightarrow c=6 \\Rightarrow T=14$.<br />\n+) $a=8 \\Rightarrow b=1 \\Rightarrow c=3 \\Rightarrow T=12$.<br />\n+) $a=12 \\Rightarrow b=0 \\Rightarrow c=0 \\Rightarrow y=0$ kh&ocirc;ng thoả m&atilde;n.<br />\nVậy gi&aacute; trị lớn nhất của $T$ l&agrave; 15 ."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Một khối cầu ngoại tiếp khối lập phương. Tỉ số thể tích giữa khối cầu và khối lập phương là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461090\"></iframe><br />\n<img alt=\"A drawing of a sphere\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1765861481879-28wb172pn\" src=\"https://cdn.save.moe/b/6add3qy.png?dl=1\" style=\"\" /><br />\nKh&ocirc;ng mất t&iacute;nh tổng qu&aacute;t, khối lập phương c&oacute; cạnh bằng 1 (đvđd).<br />\nKhi đ&oacute; thể t&iacute;ch khối lập phương bằng 1 (đvtt).<br />\nSuy ra b&aacute;n k&iacute;nh khối cầu bằng $\\frac{\\sqrt{3}}{2}$ (đvđd) n&ecirc;n thể t&iacute;ch khối cầu $\\frac{\\pi \\sqrt{3}}{2}$ (đvtt) do đ&oacute; tỉ số thể t&iacute;ch giữa khối cầu v&agrave; khối lập phương l&agrave; $\\frac{\\pi \\sqrt{3}}{2}$.",
+            "contentAnswerA": "$\\frac{3 \\pi \\sqrt{3}}{8}$.",
+            "contentAnswerB": "$\\frac{3 \\sqrt{3}}{8}$.",
+            "contentAnswerC": "$\\frac{\\pi \\sqrt{3}}{2}$.",
+            "contentAnswerD": "$\\frac{\\sqrt{3}}{2}$."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho hàm số $f(x)=\\log _{2} x-1$ và $g(x)=-x^{2}+x+2$. Tìm tất cả các giá trị nguyên của $4 x$ để hàm số $f(g(f(x)))$ luôn nhận giá trị dương?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461092\"></iframe><br />\nDễ thấy $f(x) &gt; 0$ n&ecirc;n đặt $u=g(f(x))$, khi ấy từ giả thiết ta cần $f(u) &gt; 0$.<br />\nM&agrave; $f(x)=\\log _{2} x-1$ n&ecirc;n ta c&oacute; bất phương tr&igrave;nh $\\log _{2} u-1 &gt; 0 \\Leftrightarrow u &gt; 2$.<br />\nSuy ra $g(f(x))=g(v) &gt; 2 \\Leftrightarrow-v^{2}+v+2 &gt; 2 \\Leftrightarrow 0 &lt; v &lt; 1$ với $v=f(x)$.<br />\nKhi ấy ta c&oacute; $0 &lt; f(x) &lt; 1 \\Leftrightarrow 0 &lt; \\log _{2} x-1 &lt;1 \\Leftrightarrow 1 &lt; \\log _{2} x &lt; 2 \\Leftrightarrow 2 &lt; x &lt; 4 \\Leftrightarrow 8 &lt; 4 x &lt; 16$.<br />\nDo $4 x \\in \\mathbb{Z}$ n&ecirc;n ta c&oacute; $9 \\leq 4 x \\leq 15$ tức c&oacute; $15-9+1=7$ gi&aacute; trị nguy&ecirc;n thỏa m&atilde;n.",
+            "contentAnswerA": "6.",
+            "contentAnswerB": "7.",
+            "contentAnswerC": "8.",
+            "contentAnswerD": "9."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Trong không gian $O x y z$, cho tam giác $A B C$ với $A(-2 ; 3 ; 1), B(2 ; 1 ; 0), C(-3 ;-1 ; 1)$.Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461093\"></iframe><br />\n- a) Đ&uacute;ng: Ta c&oacute; $\\overrightarrow{A B}=(4 ;-2 ;-1) \\Rightarrow A B=\\sqrt{21} ; \\overrightarrow{A C}=(-1 ;-4 ; 0) \\Rightarrow A C=\\sqrt{17}$; $\\overrightarrow{B C}=(-5 ;-2 ; 1) \\Rightarrow B C=\\sqrt{30}$. Khi đ&oacute; $B C&gt;A B&gt;A C$. Suy ra $\\widehat{A}&gt;\\widehat{C}&gt;\\widehat{B}$.<br />\n&Aacute;p dụng định l&yacute; cosin trong $\\triangle A B C$ ta c&oacute; $\\cos A=\\frac{A B^{2}+A C^{2}-B C^{2}}{2 \\cdot A B \\cdot A C}=\\frac{21+17-30}{2 \\cdot \\sqrt{21} \\cdot \\sqrt{17}}=0,2$. Suy ra g&oacute;c $\\widehat{B A C}$ l&agrave; g&oacute;c nhọn<br />\n- b) Sai: Ta c&oacute; $M \\in O x \\Rightarrow M(m ; 0 ; 0)$. Khi đ&oacute; $\\overrightarrow{A M}=(m+2 ;-3 ;-1) ; \\overrightarrow{B M}=(m-2 ;-1 ; 0)$<br />\nDo $M$ c&aacute;ch đều c&aacute;c điểm $A, B$ n&ecirc;n<br />\n$\\begin{aligned}<br />\n&amp; A M=B M \\Rightarrow \\sqrt{(m+2)^{2}+(-3)^{2}+(-1)^{2}}=\\sqrt{(m-2)^{2}+(-1)^{2}+0^{2}} \\\\<br />\n&amp; \\Rightarrow m^{2}+4 m+14=m^{2}-4 m+5 \\Rightarrow 8 m=-9 \\Rightarrow m=-\\frac{9}{8}<br />\n\\end{aligned}$<br />\nKhi đ&oacute; ta c&oacute; $M\\left(-\\frac{9}{8} ; 0 ; 0\\right)$. Suy ra $\\overrightarrow{C M}=\\left(\\frac{15}{8} ; 1 ;-1\\right) \\Rightarrow M C=\\sqrt{\\left(\\frac{15}{8}\\right)^{2}+1^{2}+(-1)^{2}}=\\frac{\\sqrt{353}}{8}$.",
+            "contentYA": "Tam giác $A B C$ có góc $\\widehat{B A C}$ là góc nhọn.",
+            "contentYB": "Gọi $M$ là điểm nằm trên trục hoành sao cho $M$ cách đều các điểm $A, B$. Khi đó $M C=\\frac{3 \\sqrt{39}}{8}$."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$. Gọi $F(x), G(x)$ là hai nguyên hàm của $f(x)$ trên $\\mathbb{R}$ thỏa mãn $F(1)+2 G(1)=-2,3 F(2)-G(2)=4$ và $F(3)-G(3)=-1$. Khi đó $\\int f(x) dx$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461091\"></iframe><br />\nTa c&oacute;: $G(x)=F(x)+C$. Khi ấy ta c&oacute; hệ phương tr&igrave;nh sau:<br />\n$\\left\\{\\begin{array}{l}F(1)+2 G(1)=-2 \\\\ 3 F(2)-G(2)=4 \\\\ F(3)-G(3)=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 F(1)+2 C=-2 \\\\ 2 F(2)-C=4 \\\\ C=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}F(1)=-\\frac{4}{3} \\\\ F(2)=\\frac{5}{2} \\\\ C=1\\end{array}\\right.\\right.\\right.$.<br />\nVậy $\\int f(x) dx = F(2)-F(1)=\\frac{23}{6}$",
+            "contentAnswerA": "$\\frac{23}{6}$.",
+            "contentAnswerB": "$\\frac{17}{3}$.",
+            "contentAnswerC": "$\\frac{25}{3}$.",
+            "contentAnswerD": "$\\frac{17}{6}$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Có tất cả bao nhiêu số tự nhiên $m \\leq 100$ thỏa mãn điều kiện phương trình sau có đúng 2 nghiệm phân biệt: $x^{3}-\\log _{2}\\left[(x+1)^{x^{2}}\\right]=2^{m+\\log _{2} x}-2^{m} \\log _{2}(x+1)$ ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 29-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                100
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461094\"></iframe><br />\nTa c&oacute; điều kiện x&aacute;c định l&agrave; $x&gt;0$.<br />\nPhương tr&igrave;nh $\\Leftrightarrow x^{3}-x^{2} \\log _{2}(x+1)=2^{m}\\left[x-\\log _{2}(x+1)\\right] \\Leftrightarrow\\left[\\begin{array}{l}x=\\log _{2}(x+1) \\\\ x^{2}=2^{m}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=\\sqrt{2}^{m}\\end{array}\\right.\\right.$<br />\nDo vậy điều kiện cần v&agrave; đủ l&agrave; $\\sqrt{2}^{m} \\neq 1 \\Leftrightarrow m \\neq 0$.<br />\nM&agrave; $m \\leq 100$ n&ecirc;n suy ra $1 \\leq m \\leq 100$ tức c&oacute; 100 số tự nhi&ecirc;n $m$ thỏa m&atilde;n đề b&agrave;i."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Cho hàm số $f(x)$ có bảng biến thiên như sau:<br/><img alt=\"A diagram of a mathematical equation\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/1xXqL.png?dl=1\" data-temp-key=\"temp-image-1765861481880-xxfnpuu2o\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461095\"></iframe><br />\nDựa v&agrave;o bảng biến thi&ecirc;n ta c&oacute; c&aacute;c tiệm cận ngang của đồ thị h&agrave;m số l&agrave; $y=1 ; y=3$, tiệm cận đứng của đồ thị h&agrave;m số l&agrave; $x=0$. Do đ&oacute; đồ thị h&agrave;m số c&oacute; 3 tiệm cận.",
+            "contentAnswerA": "4.",
+            "contentAnswerB": "2.",
+            "contentAnswerC": "3.",
+            "contentAnswerD": "1."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Cho hình chóp $S . A B C$ có đáy là tam giác đều và $S M \\perp(A B C)$ với $M$ là điểm nằm trong tam giác $A B C$ sao cho $M A=3, M B=4, M C=5$. Biết rằng $S M=3$, khi ấy thể tích của khối chóp $S . A B C$ bằng bao nhiêu? (làm tròn đến hàng phần mười)<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                19.8
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461096\"></iframe><br />\nĐầu ti&ecirc;n ta cho ba điểm $A, B, C$ lần lượt l&agrave; 3 điểm nằm tr&ecirc;n ba đường tr&ograve;n đồng t&acirc;m $M$ c&oacute; b&aacute;n k&iacute;nh lần lượt l&agrave; $3,4,5$ (viết tắt l&agrave; 3 đường tr&ograve;n $(M ; 3),(M ; 4),(M ; 5)$ ).<br />\nTiếp đến ta dễ thấy rằng ph&eacute;p quay t&acirc;m $A$ g&oacute;c $+60^{\\circ}$ biến điểm $B \\rightarrow C$ v&agrave; $M \\rightarrow M^{\\prime}$ (vẽ th&ecirc;m). Khi đ&oacute; ảnh của đường tr&ograve;n $(M ; 4)$ ch&iacute;nh l&agrave; $\\left(M^{\\prime} ; 4\\right)$ v&agrave; cắt $(M ; 5)$ tại $C$.<br />\nKhi đ&oacute; ta c&oacute; h&igrave;nh vẽ như sau:<br />\n<img alt=\"A diagram of a triangle with lines and triangles\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1765861481881-8pchs41x5\" src=\"https://cdn.save.moe/b/dG6IsrU.png?dl=1\" style=\"\" /><br />\nKế tiếp ta c&oacute;: đường thẳng qua $A$ song song với $M^{\\prime} C$ v&agrave; đường thẳng qua $C$ song song với $M M^{\\prime}$ cắt nhau tại $H$ v&agrave; $A H$ vu&ocirc;ng g&oacute;c với $M M^{\\prime}$ tại $I$ với $I \\in M M^{\\prime}$.<br />\nTa c&oacute;: $A B=A C, \\widehat{B A M}=\\widehat{C A M^{\\prime}}, A M=A M^{\\prime}$, khi đ&oacute; $\\triangle A B M=\\triangle A C M^{\\prime}$ tức $M^{\\prime} C=M B=4$<br />\nTừ đ&oacute; ta suy ra: $H C=M^{\\prime} I=\\frac{M M^{\\prime}}{2}=\\frac{3}{2}$ v&agrave; $A H=A I+I H=A I+M^{\\prime} C=\\frac{3 \\sqrt{3}}{2}+4=\\frac{8+3 \\sqrt{3}}{2}$<br />\nSuy ra: $A C=\\sqrt{A H^{2}+H C^{2}}=\\sqrt{\\left(\\frac{8+3 \\sqrt{3}}{2}\\right)^{2}+\\left(\\frac{3}{2}\\right)^{2}}=\\sqrt{25+12 \\sqrt{3}}$<br />\nVậy $V_{S . A B C}=\\frac{1}{3} S M \\cdot S_{\\triangle A B C}=\\frac{1}{3} S M \\cdot \\frac{A C^{2} \\sqrt{3}}{4}=\\frac{36+25 \\sqrt{3}}{4} \\approx 19,8$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Giả sử hàm số $y=f(x)$ có đạo hàm trên $\\mathbb{R}$ đến cấp $n$ tùy ý và thỏa mãn $f(x)+f(-x)=1$.<br/>Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461097\"></iframe><br />\nTa c&oacute; $f(x)+f(-x)=1 \\Rightarrow f^{\\prime}(x)-f^{\\prime}(-x)=0 \\Leftrightarrow f^{\\prime}(x)=f^{\\prime}(-x)$<br />\nTương tự ta cũng c&oacute; được $f^{\\prime \\prime}(x)=-f^{\\prime \\prime}(-x)$, từ đ&acirc;y dễ thấy $f^{(2 n+1)}(x)=f^{(2 n+1)}(-x), \\forall n \\in \\mathbb{N}$ Ta c&oacute; thể chứng minh được bằng quy nạp nhanh như sau:<br />\n- Với $n=0$, ta c&oacute; $f^{\\prime}(x)=f^{\\prime}(-x)$<br />\n- Giả sử điều cần chứng minh đ&uacute;ng với $n=k&gt;0$, ta c&oacute;: $f^{(2 k+1)}(x)=f^{(2 k+1)}(-x)$<br />\n- Cần chứng minh đ&uacute;ng với $n=k+1$, tức: $f^{(2 k+3)}(x)=f^{(2 k+3)}(-x)$<br />\nV&igrave; $f^{(2 k+1)}(x)=f^{(2 k+1)}(-x) \\Rightarrow\\left[f^{(2 k+1)}(x)\\right]^{\\prime}=\\left[f^{(2 k+1)}(-x)\\right]^{\\prime} \\Rightarrow f^{(2 k+2)}(x)=-f^{(2 k+2)}(-x)$<br />\nN&ecirc;n ta cũng c&oacute;:<br />\n$f^{(2 k+2)}(x)=-f^{(2 k+2)}(-x) \\Rightarrow\\left[f^{(2 k+2)}(x)\\right]^{\\prime}=\\left[-f^{(2 k+2)}(-x)\\right]^{\\prime} \\Rightarrow f^{(2 k+3)}(x)=f^{(2 k+3)}(-x)$<br />\n- a) Đ&uacute;ng:<br />\n- b) Đ&uacute;ng:<br />\n- c) Sai: Ta c&oacute; h&agrave;m số $y=f(x)=\\frac{e^{x}}{e^{x}+1}$ thỏa m&atilde;n điều n&agrave;y.",
+            "contentYA": "$y=f^{(2k)}$ là một hàm số lẻ.",
+            "contentYB": "$y=f^{(2k+1)}$ là một hàm số chẵn.",
+            "contentYC": "Không tồn tại hàm số nào thỏa mãn điều kiện trên."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Cậu bé chăn cừu đang ở cuối đàn cừu dài $1 k m$, đàn cừu đang tiến về phía trước với tốc độ không đổi. Để kiểm tra, bây giờ anh ta chạy với tốc độ không đổi lớn hơn tốc độ đàn cừu - từ phía sau đến phía trước đàn và quay trở lại vị trí của mình ở phía sau đàn. Khi anh ta đến phía sau, đàn cừu đã đi được đúng 1 km , hỏi cậu bé đã chạy được bao xa (làm tròn kết quả đến hàng phần trăm)?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2.41
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461101\"></iframe><br />\nGọi vận tốc cậu b&eacute; l&agrave; $v$, vận tốc cừu l&agrave; $c$ (đều so vs đất)<br />\n$\\rightarrow$ Vận tốc cậu b&eacute; so vs cừu : l&uacute;c đi l&agrave; $v-c$ v&agrave; l&uacute;c về l&agrave; $v+c$.<br />\n$\\rightarrow$ Thời gian l&uacute;c đi v&agrave; về tương ứng l&agrave; $\\frac{1}{v-c}$ v&agrave; $\\frac{1}{v+c}$; v&agrave; tổng thời gian n&agrave;y l&agrave; bằng thời gian cừu đi tức bằng $\\frac{1}{c}$. Từ đ&acirc;y ta c&oacute; phương tr&igrave;nh sau: $\\frac{1}{v-c}+\\frac{1}{v-c}=\\frac{1}{c} \\Leftrightarrow\\left(\\frac{v}{c}\\right)^{2}-2\\left(\\frac{v}{c}\\right)-1=0$<br />\nGiải ra, nhận nghiệm $\\frac{v}{c}=1+\\sqrt{2}$. Do cậu b&eacute; c&oacute; vận tốc l&agrave; v , thời gian đi l&agrave; $=$ thời gian cừu đi $= \\frac{1}{c}$ n&ecirc;n qu&atilde;ng đường cậu b&eacute; phải đi l&agrave; $s=v \\cdot \\frac{1}{c}=1+\\sqrt{2}(k m) \\approx 2.41$"
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Trong không gian $O x y z$, cho điểm $I(2 ; 6 ;-3)$ và các mặt phẳng $(\\alpha): x-2=0,(\\beta): y-6=0$, $(\\gamma): z+3=0$. Mệnh đề nào sau đây sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461099\"></iframe><br />\n- Mặt phẳng $(\\alpha): x-2=0$ c&oacute; vecto ph&aacute;p tuyến $\\overrightarrow{n_{1}}=(1 ; 0 ; 0)$.<br />\n- Mặt phẳng $(\\beta): y-6=0$ c&oacute; vecto ph&aacute;p tuyến $\\overrightarrow{n_{2}}=(0 ; 1 ; 0)$.<br />\n- Mặt phẳng $(\\gamma): z+3=0$ c&oacute; vecto ph&aacute;p tuyến $\\overrightarrow{n_{3}}=(0 ; 0 ; 1)$.<br />\n- Trục $O z$ c&oacute; vecto chỉ phương $\\vec{u}=(0 ; 0 ; 1)$.<br />\n- Mặt phẳng $(x O z)$ c&oacute; vecto ph&aacute;p tuyến $\\vec{v}=(0 ; 1 ; 0)$.<br />\n- Ta c&oacute;: $\\overrightarrow{n_{1}} \\cdot \\overrightarrow{n_{2}}=0 \\Rightarrow(\\alpha) \\perp(\\beta)$.<br />\n- V&igrave; $\\overrightarrow{n_{3}}=\\vec{u}$ n&ecirc;n $(\\gamma) \\perp O z$. Suy ra $(\\gamma) / / O z$ sai.<br />\n- Ta thấy $I(2 ; 6 ;-3) \\in(\\alpha): x-2=0$. Vậy ( $\\alpha$ ) qua $I$.<br />\n- V&igrave; $\\overrightarrow{n_{2}}=\\vec{v}$ v&agrave; $(\\beta): y-6=0$ kh&ocirc;ng đi qua gốc tọa độ n&ecirc;n $(\\beta) / /(x O z)$.",
+            "contentAnswerA": "$(\\alpha) \\perp(\\beta)$",
+            "contentAnswerB": "$(\\gamma) / / O z$",
+            "contentAnswerC": "( $\\alpha$ ) qua $I$.",
+            "contentAnswerD": "$(\\beta) / /(x O z)$"
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Có bao nhiêu số tự nhiên 3 chữ số, khi chia cho 3 thì dư đúng bằng chữ số hàng đơn vị?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461098\"></iframe><br />\nKhi đ&oacute; tổng c&aacute;c nghiệm thuộc khoảng ( $0 ; 2 \\pi$ ) của phương tr&igrave;nh l&agrave; $4 \\pi$.<br />\nTừ đề b&agrave;i ta c&oacute; $\\overline{a b c} \\equiv c(\\bmod 3)$ v&agrave; $\\overline{a b 0} \\equiv 0(\\bmod 3)$, khi ấy $c=\\{0 ; 1 ; 2\\}$ tức 3 c&aacute;ch chọn $c$.<br />\nTừ đ&acirc;y ta nhận thấy $a+b$ phải chia hết cho 3 n&ecirc;n ta c&oacute;:<br />\n<img alt=\"A number symbols in a grid\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1765861481884-h4uddh3e9\" src=\"https://cdn.save.moe/b/YUvDR.png?dl=1\" style=\"\" /><br />\nTừ đ&acirc;y ta c&oacute; số c&aacute;ch chọn l&agrave;: $N=3(3+6+9+7+4+1)=90$ c&aacute;ch.",
+            "contentAnswerA": "72",
+            "contentAnswerB": "80",
+            "contentAnswerC": "90",
+            "contentAnswerD": "85"
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Cho hàm số $f(x)=e^{x}-e^{-x}$. Hỏi có tất cả bao nhiêu giá trị nguyên dương của $y$ để ứng với mỗi $y$ tồn tại hai số thực $x$ thỏa mãn đẳng thức $f\\left(2 x^{2}-8 x+y\\right)+f(y)=0$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461102\"></iframe><br />\nTrước hết ta c&oacute;: $f(-x)=e^{-x}-e^{x}=-\\left(e^{x}-e^{-x}\\right)=-f(x), \\forall x$.<br />\nNgo&agrave;i ra, $f^{\\prime}(x)=e^{x}+e^{-x}&gt;0, \\forall x$ n&ecirc;n h&agrave;m số $f(x)$ đồng biến tr&ecirc;n $\\mathbb{R}$.<br />\nKhi đ&oacute;, $f\\left(2 x^{2}-8 x+y\\right)+f(y)=0 \\Leftrightarrow f\\left(2 x^{2}-8 x+y\\right)=-f(y)=f(-y) \\Rightarrow 2 x^{2}-8 x+y=-y \\Rightarrow 2 x^{2}-8 x+2 y=0,\\left({ }^{*}\\right)$. Điều kiện để phương tr&igrave;nh (*) c&oacute; hai nghiệm thực $x$ ph&acirc;n biệt l&agrave; $64-4.2 .2 y&gt;0 \\Rightarrow y&lt;4$. Vậy $y \\in\\{1,2,3\\}$ tức c&oacute; 3 gi&aacute; trị nguy&ecirc;n dương $y$ thỏa m&atilde;n."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Với các số nguyên tố $p, q$ và số nguyên $x$ thỏa mãn $x^{5}+p x+3 q=0$. Trong các phát biểu sau, phát biểu nào đúng, phát biếu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461103\"></iframe><br />\nTa c&oacute; $x^{5}+p \\mathrm{x}+3 q=0 \\Leftrightarrow x\\left(x^{4}+p\\right)=-3 q$.<br />\nV&igrave; $q$ l&agrave; số nguy&ecirc;n tố v&agrave; $x$ l&agrave; số nguy&ecirc;n n&ecirc;n từ phương tr&igrave;nh tr&ecirc;n ta suy ra $x \\in\\{-1 ;-3 ;-q ;-3 q\\}$ Từ đ&acirc;y ta c&oacute; cơ sở để x&eacute;t được c&aacute;c trường hợp sau:<br />\n+ Nếu $x=-1$, khi đ&oacute; từ phương tr&igrave;nh tr&ecirc;n ta được $1+p=3 q$. Do $q$ l&agrave; số nguy&ecirc;n tố n&ecirc;n:<br />\n- Khi $q=2$ th&igrave; ta được $p=5$.<br />\n- Khi $q&gt;2$ th&igrave; $3 q$ l&agrave; số lẻ n&ecirc;n $p$ l&agrave; số nguy&ecirc;n tố chẵn. Do đ&oacute; $p=2$ n&ecirc;n $q=1$ kh&ocirc;ng phải l&agrave; số nguy&ecirc;n tố.<br />\n+ Nếu $x=-3$, khi đ&oacute; từ phương tr&igrave;nh tr&ecirc;n ta được $p+81=q$. Do đ&oacute; $p$ l&agrave; số nguy&ecirc;n tố chẵn v&agrave; $q$ l&agrave; số nguy&ecirc;n tố lẻ. Từ đ&oacute; ta được $p=2 ; q=83$.<br />\n+ Nếu $x=-q$ khi đ&oacute; từ phương tr&igrave;nh tr&ecirc;n ta được $p+p^{4}=3$. Trường hợp n&agrave;y kh&ocirc;ng xảy ra do $p$ v&agrave; $q$ l&agrave; số nguy&ecirc;n tố n&ecirc;n $p+p^{4}&gt;3$.<br />\n+ Nếu $x=-3 q$, khi đ&oacute; phương tr&igrave;nh tr&ecirc;n ta được $p+81 p^{4}=1$. Trường hợp n&agrave;y kh&ocirc;ng xảy ra do $p$ v&agrave; $q$ l&agrave; số nguy&ecirc;n tố n&ecirc;n $p+81 p^{4}&gt;1$.<br />\nVậy c&aacute;c bộ số $(x ; p ; q)$ thỏa m&atilde;n y&ecirc;u cầu b&agrave;i to&aacute;n l&agrave; $(-1 ; 5 ; 2),(-3 ; 2 ; 83)$.",
+            "contentYA": "Nếu $x=-1$ thì tồn tại duy nhất bộ số $p, q$ thỏa mãn.",
+            "contentYB": "Nếu $x=-q$ thì không tồn tại các số nguyên tố $p, q$.",
+            "contentYC": "Nếu $x=-3 q$ thì không tồn tại các số nguyên tố $p, q$.",
+            "contentYD": "Có tất cả ba bộ số $(x, y, p)$ thỏa mãn điều kiện của S."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Ba đường thẳng lần lượt cắt nhau đội một tại 3 điểm tạo thành 1 tam giác cân có hệ số góc lần lượt là $1, c, 7$ trong đó $c \\in(1 ; 7)$. Khi ấy giá trị của $c$ bằng bao nhiêu?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 38-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461104\"></iframe><br />\nC&aacute;ch 1: Gọi $d_{1}, d_{2}, d_{3}$ lần lượt l&agrave; c&aacute;c đường thẳng với hệ số g&oacute;c lần lượt l&agrave; $1, c, 7$.<br />\nKhi ấy lần lượt c&oacute;: $d_{1}: y=x+a_{1} ; d_{2}: y=c x+a_{2} ; d_{3}: y=7 x+a_{3}$ với $a_{1}, a_{2}, a_{3}$ kh&ocirc;ng đồng thời bằng kh&ocirc;ng (điều kiện cần)<br />\nHo&agrave;n to&agrave;n c&oacute; thể chuẩn h&oacute;a hai đường $d_{1}, d_{3}$ v&igrave; khi đ&oacute; ta thu được 1 giao điểm cố định. Như vậy ta đưa về b&agrave;i to&aacute;n biện luận nghiệm của phương tr&igrave;nh ho&agrave;nh độ giao điểm của $d_{1}, d_{2}$ với $d_{2}, d_{3}$ sao cho hai giao điểm đ&oacute; tạo th&agrave;nh tam gi&aacute;c c&acirc;n với điểm ban đầu.<br />\nChọn $\\left(a_{1}, a_{2}, a_{3}\\right)=(2 ; 0 ; 0)$, khi ấy ta c&oacute;: $d_{1}: y=x+2 ; d_{2}: y=c x ; d_{3}: y=7 x$<br />\nDễ d&agrave;ng t&igrave;m được $d_{1} \\cap d_{3}=A\\left(\\frac{1}{3} ; \\frac{7}{3}\\right) ; d_{1} \\cap d_{2}=B\\left(\\frac{2}{c-1} ; \\frac{2 c}{c-1}\\right) ; d_{2} \\cap d_{3}=O(0 ; 0)$<br />\nĐiều kiện đủ: $O A=A B \\Leftrightarrow O A^{2}=A B^{2} \\Leftrightarrow\\left(\\frac{2}{c-1}-\\frac{1}{3}\\right)^{2}+\\left(\\frac{2 c}{c-1}-\\frac{7}{3}\\right)^{2}=\\frac{50}{9} \\Leftrightarrow c=2$<br />\nC&aacute;ch 2: Do $c \\in(1 ; 7)$, cạnh d&agrave;i nhất của tam gi&aacute;c phải nằm đối diện g&oacute;c c&oacute; số đo lớn nhất. Ta m&ocirc; h&igrave;nh h&oacute;a hệ trục $O x y$ v&agrave; tam gi&aacute;c đ&atilde; n&ecirc;u trong đề c&oacute; 3 điểm với 1 trong 3 điểm n&agrave;y tr&ugrave;ng với gốc tọa độ $O$ của hệ trục n&agrave;y, 2 điểm c&ograve;n lại l&agrave; $(a ; a)$ v&agrave; $(a+b ; a+7 b)$ với $a, b&gt;0$.<br />\nVới tam gi&aacute;c c&acirc;n tại $(a ; a)$, ta c&oacute; phương tr&igrave;nh: $a^{2}+a^{2}=(a+b-a)^{2}+(a+7 b-a)^{2}$<br />\nPhương tr&igrave;nh tương đương với $a=5 b$, suy ra $c=\\frac{a+7 b-0}{a+b-0}=\\frac{5 b+7 b-0}{5 b+b-0}=2$"
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Cho đồ thị h&agrave;m số $y=f(x)=x^{3}$ v&agrave; $y=g(x)=-x$. Gọi $S_{1}$ v&agrave; $S_{2}$ l&agrave; diện t&iacute;ch h&igrave;nh phẳng được giới hạn như h&igrave;nh vẽ sau:<br />\n<img alt=\"A graph of a function\n\nAI-generated content may be incorrect.\" data-temp-key=\"temp-image-1765861481886-s8wcn7oda\" src=\"https://cdn.save.moe/b/AxzJzh.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /><br />\nGọi $V_{1}$ v&agrave; $V_{2}$ l&agrave; thể t&iacute;ch khối tr&ograve;n xoay khi lần lượt cho h&igrave;nh phẳng $S_{1}$ v&agrave; $S_{2}$ quay quanh trục $O x$. Khi đ&oacute; tỉ số $\\frac{V_{2}}{V_{1}}$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461105\"></iframe><br />\nTa dễ thấy rằng do phần diện t&iacute;ch h&igrave;nh phẳng giới hạn ứng với t&iacute;ch ph&acirc;n $\\int_{0}^{1}|-x| d x$ lớn hơn phần diện t&iacute;ch h&igrave;nh phẳng giới hạn ứng với t&iacute;ch ph&acirc;n $\\int_{0}^{1}\\left|x^{3}\\right| d x$ n&ecirc;n ta suy ra khi quay diện t&iacute;ch h&igrave;nh phẳng $S_{2}$ quanh trục $O x$ th&igrave; khối tr&ograve;n xoay đ&oacute; sẽ c&oacute; thể t&iacute;ch bằng với khối tr&ograve;n xoay khi quay $S_{1}$ v&agrave; đối xứng với nhau qua trục tung. Từ đ&oacute; suy ra $V_{1}=V_{2}$ tức $\\frac{V_{2}}{V_{1}}=1$",
+            "contentAnswerA": "1",
+            "contentAnswerB": "$\\frac{4}{7}$",
+            "contentAnswerC": "$\\frac{7}{4}$",
+            "contentAnswerD": "0,5"
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Khai triển nhị thức Newton đối với lần lượt 2 nhị thức tương ứng là $(1+2 x)^{6}$ và $\\left(x^{2}-2\\right)^{5}$ ta lần lượt thu được tổng số hạng là 7 và 6. Thực hiện nhân phân phối $f(x)=(1+2 x)^{6}\\left(x^{2}-2\\right)^{5}$ và khi chưa rút gọn các số hạng có cùng bậc của $x$, thu được tổng số hạng là 42 . Chọn ngẫu nhiên 1 số hạng từ 42 số hạng trên, khi ấy xác suất để số hạng được chọn chứa $x^{12}$ bằng bao nhiêu (Làm tròn đến hàng phần trăm)?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 40-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.07
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/461106\"></iframe><br />\nĐầu ti&ecirc;n ta c&oacute; tổng số c&aacute;c phần tử của kh&ocirc;ng gian mẫu l&agrave;: $n(\\Omega)=42$ (c&aacute;ch).<br />\nTiếp đến, ta gọi $A$ l&agrave; biến cố &quot;chọn được số hạng chứa $x^{12}$ &quot;.<br />\nDo nhị thức $(1+2 x)^{6}$ c&oacute; 6 số hạng n&ecirc;n $k: 0 \\rightarrow 6$ tức $(1+2 x)^{6}=\\sum_{k=0}^{6} C_{6}^{k}(2 x)^{k}$, tương tự với nhị thức $\\left(x^{2}-2\\right)^{5}$ ta suy ra $m: 0 \\rightarrow 5$ tức $\\left(x^{2}-2\\right)^{5}=\\sum_{m=0}^{5} C_{5}^{m}\\left(x^{2}\\right)^{5-m}(-2)^{m}$.<br />\nKhi đ&oacute; ta suy ra:<br />\n$f(x)=(1+2 x)^{6}\\left(x^{2}-2\\right)^{5}=\\sum_{k=0}^{6} C_{6}^{k}(2 x)^{k} \\sum_{m=0}^{5} C_{5}^{m}\\left(x^{2}\\right)^{5-m}(-2)^{m}=\\sum_{k=0}^{6} \\sum_{m=0}^{5} C_{6}^{k} C_{5}^{m} 2^{k}(-2)^{m} x^{10-2 m+k}$.<br />\nDo số hạng được chọn chứa $x^{12}$ n&ecirc;n suy ra: $10-2 m+k=12 \\Leftrightarrow k=2+2 m \\Leftrightarrow\\left[\\begin{array}{l}m=0 \\rightarrow k=2 \\\\ m=1 \\rightarrow k=4 \\\\ m=2 \\rightarrow k=6\\end{array}\\right.$<br />\nVới 3 số hạng chứa $x^{12}$, ta suy ra x&aacute;c suất cần t&igrave;m l&agrave;: $P=\\frac{n(A)}{n(\\Omega)}=\\frac{3}{42}=\\frac{1}{14} \\approx 0.07$."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-11-02T12:26:25.579Z",
+    "updatedAt": "2025-12-30T07:36:27.026Z",
+    "__v": 0
+}
+
+{
+    "_id": "6907709f88364782ca031468",
+    "title": "[AECK]-Tư Duy Đọc Hiểu-Đề 1",
+    "numberOfQuestions": 20,
+    "time": 30,
+    "answer": {
+        "7d06cb33-9b99-48f6-8549-c69559b358e7": "X",
+        "Câu 1": "A",
+        "Câu 2": "B",
+        "Câu 3": [
+            {
+                "slot1": "F>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "Câu 4": "B",
+        "Câu 5": "A",
+        "Câu 6": [
+            {
+                "1.": [
+                    "mô phỏng"
+                ]
+            },
+            {
+                "2.": [
+                    "phát hiện"
+                ]
+            }
+        ],
+        "Câu 7": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 8": "D",
+        "Câu 9": "C",
+        "Câu 10": "B",
+        "24848528-f02b-49d0-8c99-7cd2bdcbb5e8": "X",
+        "Câu 11": "D",
+        "Câu 12": [
+            "mắt"
+        ],
+        "Câu 13": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "C>"
+            },
+            {
+                "slot4": "D>"
+            },
+            {
+                "slot5": "E>"
+            }
+        ],
+        "Câu 14": "B",
+        "Câu 15": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 16": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "G>"
+            },
+            {
+                "slot3": "F>"
+            },
+            {
+                "slot4": "C>"
+            },
+            {
+                "slot5": "H>"
+            },
+            {
+                "slot6": "D>"
+            }
+        ],
+        "Câu 17": "D",
+        "Câu 18": [
+            {
+                "slot1": "D>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "F>"
+            },
+            {
+                "slot4": "E>"
+            },
+            {
+                "slot5": "C>"
+            }
+        ],
+        "Câu 19": [
+            "c1",
+            "c3",
+            "c4"
+        ],
+        "Câu 20": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ]
+    },
+    "startTime": "2025-10-22T16:01:00.000Z",
+    "endTime": "2026-04-28T16:01:00.000Z",
+    "questions": [
+        {
+            "question": "7d06cb33-9b99-48f6-8549-c69559b358e7",
+            "contentQuestions": "<br/><strong>Gian lận học tập bằng AI</strong><br/>[0] Trong thời đại công nghệ phát triển vượt bậc, trí tuệ nhân tạo (AI) đã trở thành công cụ hỗ trợ mạnh mẽ trong nhiều lĩnh vực, bao gồm giáo dục. Tuy nhiên, bên cạnh những lợi ích, việc lạm dụng AI trong học tập và thi cử đang gây ra nhiều lo ngại, đặc biệt là tình trạng gian lận. Việc này không chỉ tác động tiêu cực đến chất lượng giáo dục mà còn làm suy giảm kỹ năng tư duy và sáng tạo của học sinh, sinh viên.<br/>[1] Một câu chuyện điển hình về tình trạng lạm dụng AI trong học tập là trào lưu \"sự phản nội của người lửa\" trên mạng xã hội Việt Nam gần đây. Trào lưu này không chỉ gây tranh cãi về cách xử lý đầy mâu thuẫn của trường Phổ thông Cao đẳng FPT Polytechnic mà còn gióng lên hồi chuông cảnh báo về vấn nạn sử dụng AI để gian lận trong thi cử và học tập. Việc học sinh sinh viên sử dụng các ứng dụng AI để hoàn thành bài tập, nộp bài mà không cần thực sự viết đã trở nên ngày càng phổ biến.<br/>[2] Tuy nhiên, vấn đề không chỉ dừng lại ở một trường hợp cụ thể mà đang lan rộng khắp thế giới. Sự phát triển của AI, đặc biệt là các công cụ tạo văn bản tự động như ChatGPT, đã khiến cho việc gian lận trở nên dễ dàng hơn bao giờ hết. Theo một khảo sát gần đây tại Hoa Kỳ, khoảng một phần ba sinh viên đại học đã thừa nhận sử dụng chatbot AI để hoàn thành các bài luận. Các công cụ như ChatGPT có thể tạo ra những bài luận hoàn chỉnh chỉ trong một vài từ khóa hoặc đoạn văn ý đơn giản. Những công cụ này, được gọi là \"essay mills\" (nhà máy sản xuất bài luận), giúp học sinh, sinh viên tiết kiệm thời gian nhưng đồng thời làm mất đi giá trị của quá trình học tập thực sự. Ngoài ra, nhiều ứng dụng khác như EasySoft, Articoloo hay Dr Assignment Auto Writer cũng đang được học sinh sử dụng để gian lận.<br/>[3] Không chỉ dừng lại ở việc viết luận, AI còn hỗ trợ trong các môn học khác. Với toán học, các ứng dụng như Wolfram Alpha, Microsoft Math Solver và Photomath có khả năng giải các bài toán từ đại số đến vật lý phức tạp một cách nhanh chóng. Thậm chí, trong các kỳ thi trực tuyến, một số công cụ AI có thể giúp học sinh trả lời câu hỏi theo thời gian thực hoặc can thiệp vào chia sẻ màn hình, làm cho giám thị khó phát hiện hành vi gian lận.<br/>[4] Những công cụ AI hiện đại thậm chí còn mô phỏng hành vi của học sinh, chẳng hạn như cách đánh máy hay di chuyển chuột, khiến việc phát hiện gian lận trong các kỳ thi trực tuyến trở nên phức tạp hơn. Giáo sư Steve Fuller từ Đại học Warwick (Anh) đã nhiều lần phát hiện những dấu hiệu gian lận trong bài viết của sinh viên khi các cụm từ lặp lại một cách máy móc, thiếu sáng tạo, và không liên quan trực tiếp đến tài liệu khóa học.<br/>[5] Việc sử dụng AI để gian lận đang tạo ra những \"cỗ máy sản xuất nội dung kém chất lượng\", theo lời của giáo sư Des Fitzgerald từ Đại học Cork (Anh). Ông lo ngại rằng các công cụ này không chỉ làm suy giảm kỹ năng viết mà còn ảnh hưởng nghiêm trọng đến khả năng tư duy phản biện của sinh viên. Điều này dẫn đến các sinh viên ngày càng trở nên phụ thuộc vào công nghệ, thay vì rèn luyện khả năng tự nghiên cứu và sáng tạo.<br/>[6] Một vấn đề khác đáng lo ngại là việc phát hiện gian lận thông qua AI vẫn gặp nhiều khó khăn. Hiện nay, các phần mềm phát hiện AI chưa thực sự đáng tin cậy và nhiều trường đại học chưa áp dụng các biện pháp kiểm soát chặt chẽ. Điều này khiến các giải pháp đối phó với những tình huống khó xử, khi họ nghi ngờ học sinh sử dụng AI để gian lận nhưng không có đủ bằng chứng để xử lý. Giáo sư Fuller cho biết, ông thường phải phân ánh sự nghi ngờ của mình thông qua điểm số và nhận xét thay vì trực tiếp tố cáo học sinh. Một nghiên cứu cho thấy, số lượng các trường hợp vi phạm học thuật đã tăng gấp đôi, thậm chí gấp ba kể từ khi AI xuất hiện trong giáo dục. Tuy nhiên, việc phát hiện và xử lý những vi phạm này vẫn là một thách thức lớn đối với các giáo viên và nhà quản lý giáo dục.<br/>[7] Dù vậy, một số chuyên gia cho rằng, AI không phải là nguyên nhân chính gây ra vấn đề mà là cách sử dụng AI thiếu kiểm soát và đạo đức. Nếu được sử dụng đúng cách, AI có thể trở thành công cụ hỗ trợ đắc lực cho quá trình học tập và phát triển tư duy. Vấn đề đặt ra là cần xây dựng những quy tắc rõ ràng và áp dụng các biện pháp giám sát chặt chẽ để ngăn chặn học sinh, sinh viên lạm dụng AI cho mục đích không chính đáng.<br/>[8] Tóm lại, việc lạm dụng AI để gian lận trong trường học đang là một vấn đề nghiêm trọng cần được quan tâm. Việc phát triển các công cụ phát hiện AI hiệu quả hơn, cùng với việc nâng cao nhận thức về đạo đức học tập, sẽ là giải pháp cần thiết để đảm bảo rằng trí tuệ nhân tạo không trở thành công cụ phá hoại nền giáo dục. Giáo dục không chỉ là việc truyền đạt kiến thức mà còn là quá trình rèn luyện phẩm chất và đạo đức, điều mà không công nghệ nào có thể thay thế.",
+            "title": " Đọc thông tin sau đây và trả lời các câu hỏi từ 1 - 10:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Nội dung chính của bài viết là gì?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>- A. Nội dung chính của bài viết xoay quanh mối lo ngại rằng \"việc lạm dụng AI trong học tập và thi cử đang gây ra nhiều lo ngại, đặc biệt là tình trạng gian lận\" , và việc này \"tác động tiêu cực đến chất lượng giáo dục mà còn làm suy giảm kỹ năng tư duy và sáng tạo của học sinh, sinh viên\".<br/>- B. Mặc dù bài viết công nhận AI \"trở thành công cụ hỗ trợ mạnh mẽ\", nhưng vấn đề chính được tập trung là sự lạm dụng và tác động tiêu cực của nó, chứ không phải là sự hữu ích.<br/>- C. Bài viết chỉ ra rằng các phần mềm phát hiện AI \"chưa thực sự đáng tin cậy\" và việc phát hiện vi phạm là một \"thách thức lớn\" (Đoạn [6]).<br/>- D. Trào lưu này được nêu ra như một \"câu chuyện điển hình về tình trạng lạm dụng AI trong học tập\" và \"gióng lên hồi chuông cảnh báo về vấn nạn sử dụng AI để gian lận\"",
+            "contentAnswerA": "Sự phát triển của AI đang làm gia tăng tình trạng gina lận trong học tập và thi cử, ảnh hưởng tiêu cực đến chất lượng giáo dục và kỹ năng tư duy của sinh viên.",
+            "contentAnswerB": "AI là công cụ hỗ trợ học tập hữu ích và không có tác động tiêu cực khi được sử dụng đúng cách.",
+            "contentAnswerC": "Các phần mềm phát hiện gian lận truyền thống hiệu quả hơn các công cụ AI trong việc xử lý các hành vi gian lận.",
+            "contentAnswerD": "Trào lưu mạng xã hội như “sự phẫn nộ của người lửa” không liên quan đến việc sử dụng AI trong học tập."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Theo văn bản, trào lưu “Sự phẫn nộ của người lửa” trên mạng xã hội của Việt Nam, được nhắc tới trong đoạn [1], đã nhận được sự đồng tình và ủng hộ từ cộng đồng giáo viên là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đoạn [1] chỉ đề cập rằng trào lưu này \"không chỉ gây tranh cãi về cách xử lý đầy mâu thuẫn của trường Phổ thông Cao đẳng FPT Polytechnic mà còn gióng lên hồi chuông cảnh báo về vấn nạn sử dụng AI để gian lận\". Văn bản không cung cấp thông tin về sự đồng tình hay ủng hộ từ cộng đồng giáo viên. Ngược lại, việc nó \"gióng lên hồi chuông cảnh báo\" ngụ ý sự lo ngại trong lĩnh vực giáo dục.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Từ nội dung đoạn [2], hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí<br/>Theo tác giả, sự phát triển của AI đã làm cho tình trạng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-1\">____DRAG_DROP_1____</span> trong các bài luận và bài tập ngày càng trở nên phổ biến hơn. Công cụ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-2\">____DRAG_DROP_2____</span> phần mềm mới có thể tạo ra nội dung hoàn chỉnh chỉ từ một vài <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-3\">____DRAG_DROP_3____</span> đơn giản.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "F>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<br/>Theo đoạn [2]<br/>- 1) Sự phát triển của AI đã khiến cho việc \"gian lận trở nên dễ dàng hơn bao giờ hết\"<br/>- 2) Các công cụ tạo văn bản tự động như ChatGPT là những công cụ phần mềm giúp học sinh, sinh viên gian lận<br/>- 3) Các công cụ này \"có thể tạo ra những bài luận hoàn chỉnh chỉ trong một vài từ khóa hoặc đoạn văn ý đơn giản\"",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Sửa chữa"
+                },
+                {
+                    "id": "B>",
+                    "content": "Từ khóa"
+                },
+                {
+                    "id": "C>",
+                    "content": "Phần mềm"
+                },
+                {
+                    "id": "D>",
+                    "content": "Vi phạm"
+                },
+                {
+                    "id": "E>",
+                    "content": "Công thức"
+                },
+                {
+                    "id": "F>",
+                    "content": "Gian lận"
+                }
+            ]
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Trong đoạn  [3], ví dụ về việc sử dụng các công cụ Wolfram Alpha, Microsoft Math Solver và Photomath có khả năng giải các bài toán từ đại số đến vật lý phức tạp cho thấy việc sử dụng AI để gian lận chủ yếu xảy ra trong lĩnh vực  Toán và Khoa học tự nhiên. Đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đoạn [3] đưa ra ví dụ về các công cụ giải toán để chứng minh AI \"không chỉ dừng lại ở việc viết luận, AI còn hỗ trợ trong các môn học khác\". Gian lận trong việc viết luận (các môn xã hội) cũng được đề cập rất rộng rãi và cụ thể ở Đoạn [2] thông qua việc sử dụng ChatGPT và các công cụ \"essay mills\". Do đó, nhận định việc gian lận chủ yếu xảy ra trong Toán và Khoa học tự nhiên là không chính xác.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Trong đoạn  [3], giáo sư Steve Fuller dựa vào dấu hiệu nào để nhận biết sự gian lận của sinh viên?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>- A: Đoạn [4] nêu rõ Giáo sư Steve Fuller phát hiện dấu hiệu gian lận khi các \"cụm từ lặp lại một cách máy móc, thiếu sáng tạo\" trong bài viết của sinh viên.<br/>- B: Dấu hiệu được nhắc đến là sự lặp lại, không phải là \"sai sót\" nói chung.<br/>- C: Gian lận được nhận biết khi các cụm từ \"không liên quan trực tiếp đến tài liệu khóa học\".<br/>- D: Dấu hiệu được tìm thấy trong bài viết (văn bản), không phải là hành vi hay biểu hiện tâm lý.",
+            "contentAnswerA": "Các cụm từ lặp đi lặp lại trong bài viết.",
+            "contentAnswerB": "Những sai sót trong bài làm của sinh viên.",
+            "contentAnswerC": "Sự lặp lại thông tin trong các tài liệu gốc.",
+            "contentAnswerD": "Các hành vi và biểu hiện bất thường trong tâm lý của sinh viên."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Hãy điền một cụm từ không quá hai tiếng trong văn bản để hoàn thành nhận định sau:<br/>Tình rạng lạm dụng AI liên quan đến việc sử dụng công cụ không chỉ trong việc viết luận mà còn trong các kỳ thi trực tuyến. Trong đó, AI thậm chí có thể <span class=\"fill-blank\" data-blank-id=\"Câu 6-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> cả thao tác sử dụng chuột và bán phím của học sinh, khiến cho hành vi gian lận trở nên cực kỳ khó <span class=\"fill-blank\" data-blank-id=\"Câu 6-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "mô phỏng"
+                    ]
+                },
+                {
+                    "2.": [
+                        "phát hiện"
+                    ]
+                }
+            ],
+            "explanation": "<br/>- 1) Đoạn [4] cho biết \"Những công cụ AI hiện đại thậm chí còn mô phỏng hành vi của học sinh, chẳng hạn như cách đánh máy hay di chuyển chuột\".<br/>- 2) Việc mô phỏng này khiến việc \"phát hiện gian lận trong các kỳ thi trực tuyến trở nên phức tạp hơn\"."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Các phát biểu sau là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>- a) Trào lưu này \"không chỉ gây tranh cãi... mà còn gióng lên hồi chuông cảnh báo về vấn nạn sử dụng AI để gian lận\" (Đoạn [1]). Mục đích không phải chủ yếu để làm nổi bật cách xử lý.<br/>- b) Khảo sát tại Hoa Kỳ cho thấy sinh viên thừa nhận sử dụng chatbot AI để hoàn thành các \"bài luận\" (Đoạn [2]), không phải bài kiểm tra trực tuyến.<br/>- c) Bài viết cho biết phần mềm phát hiện AI \"chưa thực sự đáng tin cậy\" và số lượng vi phạm học thuật đã \"tăng gấp đôi, thậm chí gấp ba kể từ khi AI xuất hiện\".<br/>- d) Giáo sư Fitzgerald lo ngại rằng các công cụ này không chỉ \"làm suy giảm kỹ năng viết mà còn ảnh hưởng nghiêm trọng đến khả năng tư duy phản biện của sinh viên\" (Đoạn [5]).",
+            "contentYA": "Trào lưu “sự phẫn nộ của người lửa” được nhắc đến trong bài viết chủ yếu để làm nổi bật cách xử lý mâu thuẫn của trường Cao đẳng FPT Polytechnic",
+            "contentYB": "Khoảng một phần ba sinh viên đại học ở Hoa Kỳ thừa nhận sử dụng AI để gian lận trong bài kiểm tra trực tuyến, đặc biệt là qua chatbot AI như ChatGPT",
+            "contentYC": "Theo bài viết, sự phát triển của các công cụ phát hiện AI đã khiến số lượng vi phạm học thuật liên quan đến AI giảm xuống",
+            "contentYD": "Giáo sư Des Fitzgerald cho rằng AI đang làm giảm chất lượng nội dung mà sinh viên tạo ra, mất kỹ năng viết, khả năng sáng tạo và tư duy phản biện"
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Điều này dưới đây không được đề cập trong đoạn [6] liên quan đến những khó khăn mà các giáo sự gặp phải khi phát hiện sinh viên gian lận bằng AI?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>- A (Được đề cập): Đoạn [6] nói về các giải pháp đối phó với tình huống khó xử khi \"nghi ngờ học sinh sử dụng AI để gian lận nhưng không có đủ bằng chứng để xử lý\".<br/>- B (Được đề cập): Đoạn [6] nêu rằng \"nhiều trường đại học chưa áp dụng các biện pháp kiểm soát chặt chẽ\".<br/>- C (Được đề cập): Giáo sư Fuller cho biết ông \"thường phải phân ánh sự nghi ngờ của mình thông qua điểm số và nhận xét thay vì trực tiếp tố cáo học sinh\".<br/>- D (Không được đề cập): Khó khăn về việc thiếu thời gian để điều tra không được nhắc đến trong đoạn [6].",
+            "contentAnswerA": "Các giáo sư thường ngại tố cáo gian lận nếu không có bằng chứng xác thực.",
+            "contentAnswerB": "Nhiều trường đại học chưa áp dụng các biện pháp kiểm soát chặt chẽ với AI.",
+            "contentAnswerC": "Một số giáo sư chỉ phản ánh nghi ngờ gian lận qua điểm số và nhận xét thay vì xử lý trực tiếp.",
+            "contentAnswerD": "Các giao sư thường không có đủ thời gian để điều tra các trường hợp gian lận."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Trong đoạn [7], quan điểm của tác giả về vai trò của AI trong giáo dục là gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>- A: Bài viết không ủng hộ việc loại bỏ. Ngược lại, \"Nếu được sử dụng đúng cách, AI có thể trở thành công cụ hỗ trợ đắc lực\".<br/>- B: Bài viết chỉ coi AI là công cụ \"hỗ trợ đắc lực\", không khẳng định nó là \"môt phần không thể thiếu\".<br/>- C: Bài viết cho rằng \"AI có thể trở thành công cụ hỗ trợ đắc lực\" , nhưng cần \"xây dựng những quy tắc rõ ràng và áp dụng các biện pháp giám sát chặt chẽ\".<br/>- D: Quan điểm là cần \"xây dựng những quy tắc rõ ràng và áp dụng các biện pháp giám sát chặt chẽ\", trái ngược với việc phát triển tự do.",
+            "contentAnswerA": "AI nên bị loại bỏ hoàn toàn khỏi các chương trình giảng dạy.",
+            "contentAnswerB": "AI là môt phần không thể thiếu trong việc cải thiện chất lượng giáo dục.",
+            "contentAnswerC": "AI có thể hữu ích nếu được sử dụng đúng cách và có giám sát.",
+            "contentAnswerD": "AI cần được tự do phát triển mà không cần quy tắc kiểm soát chặt chẽ."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Tại sao trong đoạn [8], tác giả cho rằng giáo dục cần chí trọng rèn luyện phẩm chất và đạo đức, như một giải pháp ứng phó  với các rủi ro trong học tập từ AI?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>- A: Ý này không được đề cập trong đoạn [8].<br/>- B: Đoạn [8] kết luận: \"Giáo dục không chỉ là việc truyền đạt kiến thức mà còn là quá trình rèn luyện phẩm chất và đạo đức, điều mà không công nghệ nào có thể thay thế\".<br/>- C: Văn bản nhấn mạnh vào tính không thể thay thế của đạo đức, không chỉ là sự thích nghi.<br/>- D: Không được đề cập. Bài viết ngụ ý việc lạm dụng AI đang làm suy giảm đạo đức học tập.",
+            "contentAnswerA": "Phẩm chất và đạo đức giúp sinh viên nhận ra vai trò của công nghệ trong cuộc sống.",
+            "contentAnswerB": "Những phẩm chất và đạo đức này không thể thay thế bởi bất kỳ công nghệ nào, kể cả AI.",
+            "contentAnswerC": "Giáo dục phẩm chất và đạo đức sẽ giúp sinh viên thích nghi với môi trường sử dụng AI.",
+            "contentAnswerD": "Phẩm chất và đạo đức của sinh viên có thể được phát triển thông qua việc sử dụng AI."
+        },
+        {
+            "question": "24848528-f02b-49d0-8c99-7cd2bdcbb5e8",
+            "contentQuestions": "<br/><strong>Buổi sáng biến mất</strong><br/>[1] […] Chú Khiêu ung thư gan thời kỳ chót ! Bà Mển ung thư phổi thời kỳ chót ! Chờ chết !<br/>Tổng quát, tình hình là như vậy, bi thảm là vậy. Đó là lý do sáng nay, Thuỳ đưa hai túi ny lông đựng cam sành và sữa hộp cho Thuấn :<br/>– Anh đi thăm họ nhanh lên… Chần chừ sẽ không kịp thăm !<br/>– Họ ăn được gì mà cam với sữa. Tiền tốt hơn.<br/>– Họ ăn bằng mắt.<br/>Thuấn nín lặng trước câu nói của vợ. Phải ! Người sắp chết không ăn gì, nhưng phải có đồ ăn để thấy !<br/>[2] Thuấn xách hai túi cam, sữa, vội vàng ra khỏi nhà, quyết định đến chú Khiêu trước. Anh bước nhanh, tâm trạng bồng bềnh…<br/>Vừa bước chân lên thềm nhà, Thuấn đằng hắng mấy cái… Thấy Thuấn, thím Xanh lật đật bỏ cái thúng đan dở, đứng dậy thoăn thoắt ra cửa, xìa tay đỡ cả hai túi cam và sữa, đặt lên chiếc bàn gỗ tạp xiêu vẹo nơi hiên, miệng phát tía lia như súng liên thanh khạc đạn :<br/>– Chú mày cứ đòi chết, đòi chết, đòi chết… ăn được gì mà mua nhiều thế này, thế này… Cứ đòi chết, đòi chết… không thèm sống, không muốn sống… Cứ đòi chết…<br/>Xổ xong tràng âm thanh khoẻ mạnh ấy, thím nhanh nhẹn chuyển hai túi quà vào đặt trên bàn thờ tổ tiên, đoạn trở lại nơi góc phòng, đan tiếp cái thúng dở dang, dường như Thuấn không có mặt ở đấy, bình thản đến lạnh lùng. Thuấn chưa kịp mở miệng nói gì được. Gặp thím là anh câm luôn !<br/>Chú Khiêu được đặt nằm trên chiếc chõng tre sát cửa sổ không cánh, trông thật hoang vu. Da chú màu vàng pha xanh như màu trái bưởi non. Có mấy chiếc lá vàng bị gió quật bay vào đậu trên ngực chú. Anh kéo chiếc ghế đẩu vuông nhỏ, ngồi cạnh giường. Vừa nhặt mấy chiếc lá trên ngực chú quăng ra ngoài, vừa nói động viên :<br/>– Chú lạc quan lên, coi nào ! Cứ đòi chết, đòi chết… chết thật đấy ! Cái chết mà bực lên nó không tha ai đâu!<br/>Chú Khiêu nhăn nhó, miệng móm riết, nói đứt quãng :<br/>– Sống mà đòi chết là… người ngu ! Sắp chết mà đòi sống… lại càng ngu hơn ! Chú không phải người ngu !<br/>Thuấn sững sờ nhìn chăm chú chú Khiêu. Dường như đằng sau lưng câu nói của chú là một khoảng mênh mông cay đắng. Mà cũng dường như câu nói ấy không phải nói với anh, nó dường như một tảng băng trôi về hướng thím Xanh đang ngồi thản nhiên đan thúng. Khuôn mặt vàng pha xanh hốc hác, đôi mắt lõm sâu không nhìn ai cả của chú Khiêu khiến anh nao lòng. Đôi mắt nhìn vào bên trong, thấy sự tan tành một kiếp người một cách kiên cường tuyệt vọng. Nó ráo hoảnh đến se sắt ! Đột ngột, chú Khiêu oằn người, mặt nhăn riết, mồm méo xệch, mắt nhắm nghiền, tay ôm bụng. Có lẽ có một cơn đau vừa dạy lên nơi bụng, từ gan[…]<br/>[3] Lúc này, có chú y tá bước vào nhà. Đã tới giờ chích moọc phin giảm đau. Thuấn hỏi vu vơ, không nhìn chú ta :<br/>– Không có ánh sáng à ?<br/>– Tối thui ! Gan trầm trọng !<br/>Nghe thế, Thuấn quay lại, xua tay… Nhưng chú y tá đã cười :<br/>– Chú ấy rõ rồi ! Vợ con chú ấy đã nói vào tai : “ Gan ông đã nát rồi ! ”.<br/>Nghe thế, Thuấn hụt hẫng, đột ngột chơi vơi vào một vùng mênh mông im lặng[…]<br/>[4] […] Ngay lúc này, vang tiếng chân nặng nhọc bước vào nhà. Đó là anh Nam, con trai chú Khiêu. Anh đang vác một bao lúa trên vai, mồ hôi chảy như suối. Có lẽ, anh ta đã đi vay mượn từ khá xa đem về. Trông anh rất mệt. Anh không chào Thuấn, nhưng Thuấn lại vụt đứng dậy, hỏi một câu ngớ ngẩn đến lợm giọng :<br/>– Sao ? Bác sĩ bảo sao ?<br/>Thuấn biết câu hỏi của mình là câu hỏi thừa thãi, chức năng của nó chỉ là biểu hiện sự luống cuống để thay lời chào vô duyên. Nếu chẳng có ai trả lời, nó sẽ rơi vào lại chính anh, để không biết ném đi chỗ nào ! Anh Nam quăng bịch bao lúa xuống nền nhà, bụi lúa bay vất vưởng. Giọng anh khô khốc :<br/>– Bảo sao à ? Như chiếc xe trành ! Chế chút xăng vào, lại rống lên ! Chờ ra bãi thải !",
+            "title": " Đọc thông tin sau đây và trả lời các câu hỏi từ 11 - 20:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Mục đích chuyến đi thăm của Thuấn vào buổi sáng là gì?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Đi thăm chú Khiêu và bà Mển. Đúng. Ngay ở mở đầu văn bản tác giả liệt kê “Chú Khiêu ung thư gan…! Bà Mển ung thư phổi…!” và văn bản viết: “Đó là lý do sáng nay, Thùy đưa hai túi... cho Thuấn: — Anh đi thăm họ nhanh lên…”. Câu “anh đi thăm họ” ở đoạn [1] rõ ràng ám chỉ cả hai người ốm nên D là lựa chọn đúng nhất.",
+            "contentAnswerA": "Đi thắp hương cho người thân.",
+            "contentAnswerB": "Đi đến gặp y tá của chú Khiêu.",
+            "contentAnswerC": "Đi thăm gia đình chú Khiêu.",
+            "contentAnswerD": "Đi thăm chú Khiêu và bà Mển"
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Hãy điền một cụm từ không quá hai tiếng trong văn bản để hoàn thành nhận định sau:<br/>Trong đoạn [1], theo nhân vật Thùy, người sắp chết ăn bằng <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "mắt"
+            ],
+            "explanation": "<br/>Đoạn [1] có câu: “Họ ăn bằng mắt.” và tiếp theo: “Người sắp chết không ăn gì, nhưng phải có đồ ăn để thấy!” Ý Thùy là người sắp chết không ăn thật nhưng cần nhìn thấy đồ ăn — họ “ăn bằng mắt”."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Chọn kéo từ ngữ phù hợp vào mỗi chỗ trống để hoàn thành nhận xét về thái độ của thím Xanh qua các hành động sau:<br/>- Hành động đặt hai túi quà lên bàn thờ tổ tiên sau khi nhận: Thái độ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-1\">____DRAG_DROP_1____</span> chấp nhận cái chết của những người thân.<br/>- Hành động kể việc chú Khiêu đòi chết: Thái độ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-2\">____DRAG_DROP_2____</span>, bất lực, thiếu <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-3\">____DRAG_DROP_3____</span> bởi sự mệt mỏi, kiệt quệ về tinh thần.<br/>- Hành động trở lại công việc đan thúng sau khi đặt quà lên bàn thờ tổ tiên: Thái độ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-4\">____DRAG_DROP_4____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-5\">____DRAG_DROP_5____</span> đến người chồng",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "C>"
+                },
+                {
+                    "slot4": "D>"
+                },
+                {
+                    "slot5": "E>"
+                }
+            ],
+            "explanation": "<br/>Hành động 1 — Thái độ: Bình thản.<br/>Giải thích: Văn bản mô tả: “thím nhanh nhẹn chuyển hai túi quà vào đặt trên bàn thờ tổ tiên, đoạn trở lại nơi góc phòng, đan tiếp cái thúng dở dang, dường như Thuấn không có mặt ở đấy, bình thản đến lạnh lùng.” Tức hành động đặt quà diễn ra trong thái độ bình thản, như một việc hệ thống, thể hiện chấp nhận hiện trạng.<br/>Hành động 2 — Thái độ: Bực bội, thiếu kiên nhẫn.<br/>Giải thích: Khi thím Xanh liên tục nói “Chú mày cứ đòi chết, đòi chết…”, giọng bà “phát tía lia như súng liên thanh khạc đạn” — đó là thái độ chua chát, cáu bực, không kiên nhẫn; thái độ này mang sắc tố của bất lực (cùng cực của mệt mỏi tinh thần) chứ không phải biểu hiện sợ hãi hay động viên. Hành vi lặp lời la mắng cho thấy bực bội / thiếu kiên nhẫn<br/>Hành động 3 — Thái độ: Dửng dưng, không quan tâm đến người chồng.<br/>Giải thích: Sau khi đặt quà bà quay về đan thúng như thể Thuấn “không có mặt”, hành động này thể hiện thái độ dửng dưng, lạnh lùng và phần nào không quan tâm đến cảm xúc người khác (Thuấn). Mặc dù từ văn bản có cụm “bình thản đến lạnh lùng”, nếu chọn từ từ danh sách thì dửng dưng / không quan tâm mô tả đúng tinh thần hành vi trở lại công việc",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Bình thản"
+                },
+                {
+                    "id": "B>",
+                    "content": "Bực bội"
+                },
+                {
+                    "id": "C>",
+                    "content": "Kiên nhẫn"
+                },
+                {
+                    "id": "D>",
+                    "content": "Dửng dưng"
+                },
+                {
+                    "id": "E>",
+                    "content": "Không quan tâm"
+                },
+                {
+                    "id": "F>",
+                    "content": "Sợ hãi"
+                },
+                {
+                    "id": "H>",
+                    "content": "Giận hờn"
+                }
+            ]
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Theo văn bản, chú Khiêu tự cho rằng mình là người ngu là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Vì văn bản không cho thấy chú tự nhận mình “là người ngu”. Trái lại, chú phát biểu các câu phân tích: “Sống mà đòi chết là… người ngu ! Sắp chết mà đòi sống… lại càng ngu hơn ! Chú không phải người ngu !” — câu kết rõ ràng là chú tự khẳng định không phải người ngu.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Những nhận xét sau về đặc điểm nhân vật chú Khiêu đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>1 – Dựa vào đoạn [2], Chú không biểu lộ thái độ “coi thường” mạng sống; ngược lại, khi nói “Sống mà đòi chết là người ngu… Chú không phải người ngu!”, chú thể hiện rằng thà chịu đựng chứ không muốn bị coi là kẻ “đòi chết”. Hành vi cắn răng, ôm bụng chịu đau cũng cho thấy chú giữ tự trọng chứ không khinh thường mạng sống.<br/>2 - Dựa vào đoạn [2], Văn bản miêu tả chú “khuôn mặt vàng pha xanh… đôi mắt lõm sâu… nhìn vào bên trong, thấy sự tan tành… kiên cường tuyệt vọng”, chú “cắn chặt hai hàm răng… cuộn người như cái lò xo” — những hình ảnh này bộc lộ tính kiên cường, tự trọng trước đau đớn. Câu nói trực tiếp “Chú không phải người ngu!” cũng là khẳng định phẩm giá của chính chú.<br/>3 - Dựa vào đoạn [2],[4]. Không có bằng chứng chú hành xử ích kỉ hay vô tâm với người thân; ngược lại, nỗi đau của chú là trung tâm khiến người thân mệt mỏi. Việc người thân (thím Xanh, con Nam) bộc lộ hành vi lạnh lùng/khô khốc không thể quy cho chú là ích kỉ. Văn bản làm nổi bật nỗi đau của chú và sự chịu đựng của ông, chứ không chỉ cho ông là vô cảm với gia đình.<br/>4 - Dựa vào đoạn [2], Câu nói phân tích “Sống mà đòi chết… Sắp chết mà đòi sống…”, cùng hình ảnh “đằng sau lưng câu nói của chú là một khoảng mênh mông cay đắng”, cho thấy chú không chỉ đau thể xác mà còn tư duy sâu về giá trị sống/chết — một suy ngẫm giàu nội tâm.",
+            "contentYA": "Chú phản ứng tiêu cực, coi thường mạng sống của mình",
+            "contentYB": "Chú tự trọng và kiên cường chống chọi với bệnh tật",
+            "contentYC": "Chú ích kỉ, không quan tâm đến cảm xúc và nỗi vất vả của người thân",
+            "contentYD": "Chú có những suy ngẫm sâu sắc về ý nghĩa của sự sống và cái chết"
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Chọn kéo từ ngữ phù hợp vào mỗi chỗ trống để hoàn thành nhận xét về những câu nói của người con trai. Câu trả lời <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-1\">____DRAG_DROP_1____</span> của anh Nam cho thấy anh ta vô cùng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-2\">____DRAG_DROP_2____</span> trước tình trạng bệnh tật kéo dài của cha mình. Cách <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-3\">____DRAG_DROP_3____</span> trạng thái lay lắt chờ chết của người cha với chiếc xe trành “chờ ra bãi thải” là cách nói <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-4\">____DRAG_DROP_4____</span>, gây tổn thương tâm lí cho người bệnh. Áp lực bệnh tật của cha và kinh tế khó khăn đã khiến cho anh ta đánh mất <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-5\">____DRAG_DROP_5____</span> và khả năng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-6\">____DRAG_DROP_6____</span> trước nỗi đau của người thân.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "G>"
+                },
+                {
+                    "slot3": "F>"
+                },
+                {
+                    "slot4": "C>"
+                },
+                {
+                    "slot5": "H>"
+                },
+                {
+                    "slot6": "D>"
+                }
+            ],
+            "explanation": "<br/>Đoạn [4] trích lời anh Nam: “Bảo sao à ? Như chiếc xe trành ! Chế chút xăng vào, lại rống lên ! Chờ ra bãi thải !” — đó là câu trả lời ngắn, khô khốc, thiếu dịu dàng → cộc cằn.  Giọng nói và hình ảnh so sánh cho thấy anh đã chán nản với tình huống (mệt mỏi, thất vọng trước bệnh tật và hoàn cảnh). Việc so sánh cha như “chiếc xe trành” là một so sánh và thái độ này có tính tàn nhẫn — gây tổn thương cho người bệnh. Cuối cùng, hoàn cảnh đè nặng (bệnh + thiếu tiền; anh vác bao lúa, mệt) dẫn tới việc anh mất dần tình yêu thương hay ít nhất là mất thể hiện tình cảm, và khả năng đồng cảm (vì vừa mệt vừa căng thẳng).",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Rào đón"
+                },
+                {
+                    "id": "B>",
+                    "content": "Cộc cằn"
+                },
+                {
+                    "id": "C>",
+                    "content": "Tàn nhẫn"
+                },
+                {
+                    "id": "D>",
+                    "content": "Đồng cảm"
+                },
+                {
+                    "id": "E>",
+                    "content": "Tình phụ tử"
+                },
+                {
+                    "id": "F>",
+                    "content": "So sánh"
+                },
+                {
+                    "id": "H>",
+                    "content": "Chán nản"
+                },
+                {
+                    "id": "I>",
+                    "content": "Tình yêu thương"
+                }
+            ]
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Trong đoạn [4], nhân vật Thuấn đã quên việc gì?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Kết đoạn [4] có câu: “Anh loay hoay với lòng thương kỳ lạ ấy, buổi sáng đã biến mất, quên cả thăm bà Mển như chương trình...” — rõ ràng Thuấn đã quên đi thăm bà Mển.",
+            "contentAnswerA": "Quên hỏi thăm y tá về chú Khiêu.",
+            "contentAnswerB": "Quên trả lọ dầu cho thím Xanh.",
+            "contentAnswerC": "Quên nhìn chú Khiêu trước khi về.",
+            "contentAnswerD": "Quên đi thăm bà Mển như dự định."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Kéo thả từ ngữ phù hợp vào mỗi chỗ trống để hoàn thành nhận định sau:<br/>Ban đầu, Thuấn đến thăm chú Khiêu với mong muốn chia sẻ và <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-1\">____DRAG_DROP_1____</span> chú. Chứng kiến cách hành xử của thím Xanh, người y tá và anh con trai. Thuấn cảm thấy <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-2\">____DRAG_DROP_2____</span> và vô cùng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-3\">____DRAG_DROP_3____</span> chú. Cảm xúc ấy đẩy đến tột cùng trước cảnh chú Khiêu gồng mình chống chọi với bệnh tật trong nỗi đâu đớn và <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-4\">____DRAG_DROP_4____</span>. Cuối cùng, anh mong chú được <span class=\"drag-drop-blank\" data-drop-id=\"Câu 18-5\">____DRAG_DROP_5____</span> khỏi nỗi đau về cả thể xác và tinh thần.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "D>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "F>"
+                },
+                {
+                    "slot4": "E>"
+                },
+                {
+                    "slot5": "C>"
+                }
+            ],
+            "explanation": "<br/>Ở đầu truyện, khi Thùy giao cho Thuấn “hai túi cam và sữa” và bảo “anh đi thăm họ nhanh lên”, mục đích của Thuấn khi ra đi là chia sẻ và động viên những người bệnh (chú Khiêu, bà Mển). Anh xuất phát từ lòng thương, thiện chí, muốn san sẻ phần nào nỗi đau của họ, nên từ động viên diễn tả chính xác mong muốn ban đầu này.<br/>Khi đến nơi, anh bất ngờ vì không khí gia đình chú Khiêu: thím Xanh nói năng lạnh lùng, “phát tía lia như súng liên thanh”, y tá thì thờ ơ, anh con trai Nam đáp lại cha bằng giọng “cộc cằn” và so sánh cha với “chiếc xe trành chờ ra bãi thải”. Thái độ vô cảm ấy khiến Thuấn bất ngờ và sốc nặng vì khác xa sự đồng cảm anh nghĩ ban đầu<br/>Chính sự tương phản ấy khiến anh thương xót chú Khiêu vô cùng. Văn bản mô tả: “Khuôn mặt vàng pha xanh... thấy sự tan tành của một kiếp người”, “chú cắn chặt hai hàm răng, cuộn người như cái lò xo”. Những hình ảnh ấy cho thấy Thuấn nhìn thấy ở chú không chỉ là đau thể xác mà còn là nỗi cô độc tinh thần. Cảm xúc “thương xót” là phù hợp và sâu sắc nhất. (đoạn [2])<br/>Nỗi đau của chú Khiêu được đẩy đến tuyệt vọng, thể hiện qua lời chú: “Sống mà đòi chết là người ngu! Sắp chết mà đòi sống lại càng ngu hơn!” Câu nói vừa chua chát, vừa cay đắng, là sự chống chọi cuối cùng giữa ý chí và sự bất lực trước cái chết. Vì thế, từ tuyệt vọng mô tả đúng trạng thái tinh thần bao trùm cảnh này.<br/>Cuối cùng, khi rời đi, Thuấn mang theo “một lòng thương kỳ lạ đến ác độc, là thương... tại sao chú không chết đi cho hết khổ”. Dòng văn này thể hiện tâm lý giằng xé: thương đến mức muốn người kia giải thoát khỏi đau đớn, nghĩa là được chết thanh thản. Vì thế từ giải thoát là kết tinh hợp lý cho tâm trạng cuối của Thuấn.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Phức tạp"
+                },
+                {
+                    "id": "B>",
+                    "content": "Bất ngờ"
+                },
+                {
+                    "id": "C>",
+                    "content": "Giải thoát"
+                },
+                {
+                    "id": "D>",
+                    "content": "Động viên"
+                },
+                {
+                    "id": "E>",
+                    "content": "Tuyệt vọng"
+                },
+                {
+                    "id": "F>",
+                    "content": "Thương xót"
+                },
+                {
+                    "id": "H>",
+                    "content": "Tức giận"
+                }
+            ]
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Những nhận định nào sau đây về nội dung của truyện “Buổi sáng biên mất” dưới đây là đúng?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3",
+                "c4"
+            ],
+            "explanation": "<br/>- A: Văn bản tập trung miêu tả cảnh bệnh nhân (chú Khiêu, bà Mển) đau đớn, thân xác hao mòn, và nỗi xót xa của người tới thăm (Thuấn). Hình ảnh và ngôn từ (mắt lõm sâu, răng cắn chặt, “sự tan tành một kiếp người”) đều gợi lòng đồng cảm với nỗi đau và bầu không khí u uất/tuyệt vọng.<br/>- B: Truyện không khuyến khích người bệnh tìm “giải thoát” bằng cách chết. Thậm chí chú Khiêu phản đối thái độ “đòi chết” (“Sống mà đòi chết… Chú không phải người ngu!”). Văn bản phê phán thái độ buông xuôi và nêu lên bi kịch khi xã hội/gia đình mất giá trị nhân văn. Vì thế không thể hiểu truyện là cổ vũ cho cái chết như một lối thoát.<br/>- C: Truyện rõ ràng cảnh báo sự băng hoại giá trị nhân văn: con (Nam) nói cộc cằn, vợ (thím Xanh) dửng dưng/khô khan, hoàn cảnh kinh tế bào mòn, khiến con người bị giảm giá trị — “Tại vì những thứ đẹp đẽ đã cháy rồi!” — đó là tiếng cảnh tỉnh về tha hóa nhân văn khi đối diện bệnh tật và nghèo đói.<br/>- D: Mặc dù văn bản không kết thúc bằng một lời răn trực tiếp, nhưng qua việc miêu tả sự lãnh đạm và hậu quả đau lòng, truyện ngầm nhắc rằng người thân lẽ ra nên chia sẻ, quan tâm hơn — văn bản tố cáo sự thiếu quan tâm ấy. Vì vậy kết luận “khuyên người thân cần chia sẻ yêu thương” là một ý nghĩa hợp lý, được gợi ra qua phê phán thái độ hiện tại của các nhân vật.",
+            "contentC1": "Truyện đồng cảm với nỗi đâu đớn, tuyệt vọng của những người mắc bệnh nan y.",
+            "contentC2": "Truyện khuyến khích người bệnh tìm cách giải thoát khỏi nỗi đâu thể xác.",
+            "contentC3": "Truyện cảnh báo sự tha hóa giá trị nhân văn trước áp lực bệnh tật và kinh tế.",
+            "contentC4": "Truyện khuyên người thân cần chia sẻ yêu thương quan tâm đến người bệnh."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Mỗi nhận định về ý nghĩa của kết thúc truyện dưới đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>1 - Kết thúc truyện làm nổi bật mâu thuẫn giữa cảm xúc, mong muốn nhân đạo của cá nhân (Thuấn — muốn an ủi, chia sẻ, cảm thấy thương, thậm chí mong muốn “giải thoát” cho chú) và thái độ, quan điểm lạnh lùng, thực dụng (thím Xanh bình thản/khô khan; con trai Nam cộc cằn; y tá thờ ơ). Văn bản đã tạo ra cái đối lập rõ rệt ấy — thuần tính cá nhân (đau xót, mong muốn cứu rỗi, thương xót) đối chọi với phản ứng xã hội/gia đình (dửng dưng, vội vã, thực dụng). Những chi tiết miêu tả thái độ của các nhân vật ở đoạn [2] và đoạn kết (đoạn [4]) thể hiện chính xác sự đối lập này.<br/>2 - Phát biểu này nói rằng truyện “khuyến nghị người thân giữ thái độ bình tĩnh khi đối mặt với cái chết” — nhưng văn bản không khen ngợi thái độ bình tĩnh/chấp nhận theo nghĩa vô cảm. Ngược lại, thái độ “bình thản” hoặc “lạnh lùng” của thím Xanh và sự cộc cằn của con trai được mô tả với giọng phê phán (làm hiện lên hậu quả đau lòng của sự vô cảm). Tác giả không khuyên thân nhân nên giữ bình tĩnh bằng cách vô cảm; thay vào đó truyện phê phán sự chai lì, thiếu cảm thông. Vì vậy phát biểu này sai. (xem đoạn [2]).<br/>Buổi sáng biến mất<br/>3 - Ở đoạn kết, tâm trạng của Thuấn được miêu tả rất rõ là anh mong muốn chú “được khỏi khổ” — lòng thương của anh thậm chí đưa tới mong ước giải thoát cho chú khỏi nỗi đau thể xác và tinh thần. Văn bản có những câu biểu hiện trực tiếp ý niệm này (vì xúc động và thương xót, Thuấn tự hỏi/ước “giá chú chết cho hết khổ” / mong chú được giải thoát).<br/>4 - Mặc dù truyện phơi bày hậu quả khốn khó do bệnh tật kết hợp nghèo đói (các chi tiết về túi cam/sữa nhỏ, anh Nam vác bao lúa, sự bào mòn giá trị con người), nhưng văn bản không trực tiếp bày tỏ một tuyên bố rõ ràng rằng “cộng đồng nên hỗ trợ vật chất cho bệnh nhân” như một đề nghị/khuyến nghị phi tranh cãi. Thay vào đó, truyện thể hiện hậu quả của sự thiếu hỗ trợ (một cách gián tiếp, tố cáo), tức là gợi ra bài học/ẩn ý rằng cần quan tâm hơn — nhưng không phải là một phát ngôn công khai, trực tiếp “hãy hỗ trợ vật chất”. Vì thế nếu câu hỏi đòi xét tính “bày tỏ quan điểm” rõ ràng, thì phát biểu là sai.",
+            "contentYA": "Thể hiện sự đối lập giữa mong muốn cá nhân và quan điểm xã hội và cái chết",
+            "contentYB": "Khuyến nghị người thân giữ thái độ bình tĩnh khi đối mắt với cái chết của người bệnh",
+            "contentYC": "Đề xuất quan niệm cái chết là sự giải thoát nhân đạo trong tình trạng bệnh tật đau đớn",
+            "contentYD": "Bày tỏ quan điểm cộng đồng nên hỗ trợ vật chất cho bệnh nhân mắc bệnh hiểm nghèo"
+        }
+    ],
+    "subject": "TƯ DUY ĐỌC HIỂU",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-11-02T14:54:23.983Z",
+    "updatedAt": "2025-11-14T15:47:00.551Z",
+    "__v": 0
+}
+
+{
+    "_id": "6907573988364782ca02dba9",
+    "title": "[AECK]-Tư Duy Khoa Học-Đề 1",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "eeee4e11-9a60-4704-b3fb-1eb683cdc1b5": "X",
+        "Câu 1": [
+            3.33
+        ],
+        "Câu 2": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "B>"
+            }
+        ],
+        "Câu 3": [
+            "c1",
+            "c3"
+        ],
+        "Câu 4": "B",
+        "Câu 5": "B",
+        "9ce7a63f-df52-4a4c-9fb7-42bb9635b4ce": "X",
+        "Câu 6": [
+            "Bombay",
+            "nhóm máu O giả"
+        ],
+        "Câu 7": "C",
+        "Câu 8": [
+            "c3",
+            "c4",
+            "c5"
+        ],
+        "Câu 9": [
+            {
+                "slot1": "B>"
+            }
+        ],
+        "Câu 10": "A",
+        "Câu 11": "A",
+        "9210770d-8339-4d14-87a0-bb0d6835860b": "X",
+        "Câu 12": [
+            {
+                "1.": [
+                    "glucose"
+                ]
+            },
+            {
+                "2.": [
+                    "A3"
+                ]
+            },
+            {
+                "3.": [
+                    "maltose"
+                ]
+            },
+            {
+                "4.": [
+                    "A2"
+                ]
+            },
+            {
+                "5.": [
+                    "saccharose."
+                ]
+            }
+        ],
+        "Câu 13": [
+            "c1",
+            "c2",
+            "c4"
+        ],
+        "Câu 14": "C",
+        "Câu 15": "B",
+        "Câu 16": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            },
+            {}
+        ],
+        "34a557cd-945c-4cf6-863e-28140c4fee50": "X",
+        "Câu 17": "B",
+        "Câu 18": "B",
+        "Câu 19": [
+            1.1,
+            1.1
+        ],
+        "Câu 20": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "A>"
+            }
+        ],
+        "Câu 21": [
+            "c2",
+            "c4"
+        ],
+        "7c06ad69-19bf-433b-acc4-5315b769f3bb": "X",
+        "Câu 22": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 23": [
+            {
+                "slot1": "A>"
+            }
+        ],
+        "Câu 24": "C",
+        "Câu 25": [
+            "c1",
+            "c2",
+            "c3",
+            "c4"
+        ],
+        "Câu 26": "B",
+        "2808e901-c221-4099-abb3-84b715a27b42": "X",
+        "Câu 27": "D",
+        "Câu 28": [
+            "c1",
+            "c2",
+            "c3",
+            "c5"
+        ],
+        "Câu 29": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 30": [
+            23.4
+        ],
+        "Câu 31": [
+            11.2
+        ],
+        "7a3a28e9-9746-4b8b-956f-f47b6945d0fe": "X",
+        "Câu 32": "B",
+        "Câu 33": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 34": [
+            {
+                "1.": [
+                    "B"
+                ]
+            },
+            {
+                "2.": [
+                    "A"
+                ]
+            },
+            {
+                "3.": [
+                    "C"
+                ]
+            }
+        ],
+        "Câu 35": "B",
+        "90afb3c7-0b84-4489-8fec-0ddb5893267a": "X",
+        "Câu 36": [
+            "hữu cơ"
+        ],
+        "Câu 37": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 38": [
+            "c4",
+            "c5"
+        ],
+        "Câu 39": "C",
+        "Câu 40": [
+            0.64
+        ]
+    },
+    "startTime": "2025-10-17T03:01:00.000Z",
+    "endTime": "2026-04-23T03:01:00.000Z",
+    "questions": [
+        {
+            "question": "eeee4e11-9a60-4704-b3fb-1eb683cdc1b5",
+            "contentQuestions": "<br/><strong>CÁNH BUỒM MẶT TRỜI [LAE17102583]</strong><br/>Cánh buồm Mặt Trời là một công nghệ đẩy tàu vũ trụ không cần nhiên liệu, hoạt động dựa trên một nguyên lý vật lý tinh tế: ánh sáng có thể tạo ra áp suất. Mặc dù photon không có khối lượng nghỉ, chúng lại mang động lượng.<br/>Nguyên lý Vật lý: Động lượng của một photon có năng lượng $E$ là $p = \\frac{E}{c}$. Khi một photon đập vào một bề mặt phản xạ hoàn hảo (như cánh buồm) và bị bật ngược lại, nó truyền cho bề mặt một động lượng là ${\\rm{\\Delta }}p = 2p = 2\\frac{E}{c}$. Lực tác dụng lên cánh buồm chính là tổng động lượng mà các photon truyền cho buồm trong một đơn vị thời gian.<br/>Cường độ bức xạ Mặt Trời ($I$) là năng lượng ánh sáng Mặt Trời truyền qua một đơn vị diện tích trong một giây (đơn vị $W/{m^2}$). Với một cánh buồm diện tích $A$ đặt vuông góc với ánh sáng, tổng năng lượng nó nhận được trong thời gian ${\\rm{\\Delta }}t$ là $E = I \\cdot A \\cdot {\\rm{\\Delta }}t$. Từ đó, người ta suy ra công thức tính lực đẩy của ánh sáng lên một cánh buồm phản xạ hoàn hảo:<br/>$F = \\frac{{2IA}}{c}$<br/>Tuy lực này rất nhỏ, nhưng trong môi trường chân không không ma sát của vũ trụ, nó tác dụng liên tục và có thể giúp tàu vũ trụ đạt đến những tốc độ cực lớn sau một thời gian dài.<br/><a id=\"bảng_số_liệu_cho_một_sứ_mệnh_giả_định\"></a>Bảng số liệu cho một sứ mệnh giả định<br/><table class=\"word-table\"><tbody><tr><td>Đại lượng<br/></td><td>Ký hiệu<br/></td><td colspan=\"2\">Giá trị<br/></td></tr><tr><td>Cường độ bức xạ Mặt Trời tại quỹ đạo Trái Đất<br/></td><td>I<br/></td><td>1360<br/></td><td>W/m<sup>2</sup><br/></td></tr><tr><td>Tốc độ ánh sáng trong chân không<br/></td><td>C<br/></td><td>3<br/></td><td>×10<sup>8</sup> m\\s<br/></td></tr><tr><td>Khối lượng tàu vũ trụ<br/></td><td>m<br/></td><td>500<br/></td><td>kg<br/></td></tr><tr><td>Cạnh của cánh buồm (hình vuông)<br/></td><td>L<br/></td><td>40<br/></td><td>m",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 5:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "type": "MQ",
+            "id": "LAE17102583",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Một photon có năng lượng $E = 5 \\times {10^{ - 19}}{\\rm{\\;}}J$. Tính động lượng mà nó truyền cho một cánh buồm phản xạ hoàn hảo.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 1-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $ \\times {10^{ - 27}}$$kg.m/s$",
+            "type": "TLN",
+            "correctAnswer": [
+                3.33
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459439\"></iframe><br />\nĐộng lượng photon ban đầu l&agrave; $p = \\frac{E}{c}$. Khi phản xạ, độ biến thi&ecirc;n động lượng của photon l&agrave; $2p$ hướng ngược lại, do đ&oacute; động lượng n&oacute; truyền cho buồm l&agrave; ${\\rm{\\Delta }}p = 2p$.<br />\n${\\rm{\\Delta }}p = \\frac{{2E}}{c} = \\frac{{2 \\times \\left( {5 \\times {{10}^{ - 19}}{\\rm{\\;}}J} \\right)}}{{3 \\times {{10}^8}\\,m/s{\\rm{\\;}}}} = \\frac{{10 \\times {{10}^{ - 19}}}}{{3 \\times {{10}^8}}} \\approx 3,33 \\times {10^{ - 27}}{\\rm{\\;}}kg.{\\rm{\\;}}m/s$"
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Kéo thả ảnh hưởng của mỗi yếu tố lên lực đẩy của cánh buồm Mặt Trời.<br/><table class=\"word-table\"><tbody><tr><td>Yếu tố<br/></td><td>Ảnh hưởng lên Lực đẩy (F)<br/></td></tr><tr><td>Tăng diện tích cánh buồm (A)<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 2-1\">____DRAG_DROP_1____</span><br/></td></tr><tr><td>Di chuyển ra xa Mặt Trời<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 2-2\">____DRAG_DROP_2____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "B>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459439\"></iframe><br />\nTheo c&ocirc;ng thức $F = \\frac{{2IA}}{c}$, lực $F$ tỉ lệ thuận với diện t&iacute;ch $A$.<br />\nDo đ&oacute;, tăng $A$ sẽ tăng $F$.<br />\nKhi di chuyển ra xa Mặt Trời, cường độ s&aacute;ng $I$ giảm mạnh, do đ&oacute; lực đẩy $F$ sẽ giảm.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Tăng lực đẩy"
+                },
+                {
+                    "id": "B>",
+                    "content": "Giảm lực đẩy"
+                },
+                {
+                    "id": "C>",
+                    "content": "Lực đẩy không đổi"
+                }
+            ]
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "(Chọn nhiều phương án đúng) Để thiết kế một tàu vũ trụ dùng cánh buồm Mặt Trời có gia tốc lớn, các kỹ sư cần:",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459439\"></iframe><br />\nGia tốc $a = \\frac{F}{m} = \\frac{{2IA}}{{mc}}$.<br />\nĐể $a$ lớn, ta cần tăng $A$ (A đ&uacute;ng), giảm $m$ (A đ&uacute;ng, B sai).<br />\nVật liệu phản xạ tốt sẽ tối đa h&oacute;a lực đẩy (C đ&uacute;ng).<br />\nLực từ của h&agrave;nh tinh kh&ocirc;ng phải l&agrave; nguy&ecirc;n l&yacute; hoạt động của c&aacute;nh buồm (D sai).",
+            "contentC1": "Chế tạo cánh buồm bằng vật liệu nhẹ và có diện tích lớn.",
+            "contentC2": "Tăng khối lượng của tàu vũ trụ để tăng quán tính.",
+            "contentC3": "Sử dụng vật liệu có khả năng phản xạ ánh sáng gần như tuyệt đối.",
+            "contentC4": "Bay gần các hành tinh khí khổng lồ để lợi dụng từ trường."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Dựa vào bảng số liệu, hãy tính gia tốc ban đầu của tàu vũ trụ.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459439\"></iframe><br />\nTa c&oacute;:<br />\n$A = L \\times L = 40{\\rm{\\;}}m \\times 40{\\rm{\\;}}m = 1600{\\rm{\\;}}{m^2}$.<br />\n$F = \\frac{{2IA}}{c} = \\frac{{2 \\times 1360{\\rm{\\;}}W/{m^2} \\times 1600{\\rm{\\;}}{m^2}}}{{3 \\times {{10}^8}{\\rm{\\;}}m/s}} = \\frac{{4.352.000}}{{3 \\times {{10}^8}}} \\approx 0,0145{\\rm{\\;}}N$.<br />\n$a = \\frac{F}{m} = \\frac{{0,0145{\\rm{\\;}}N}}{{500{\\rm{\\;}}kg}} \\approx 0.000029{\\rm{\\;}}m/{s^2} = 2.9 \\times {10^{ - 5}}{\\rm{\\;}}m/{s^2}$.",
+            "contentAnswerA": "$1.45 \\times {10^{ - 5}}{\\rm{\\;}}m/{s^2}$.",
+            "contentAnswerB": "$2.90 \\times {10^{ - 5}}{\\rm{\\;}}m/{s^2}$.",
+            "contentAnswerC": "$5.80 \\times {10^{ - 5}}{\\rm{\\;}}m/{s^2}$.",
+            "contentAnswerD": "$9.10 \\times {10^{ - 5}}{\\rm{\\;}}m/{s^2}$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Phát biểu: \"Cánh buồm Mặt Trời hoạt động bằng cách hứng các dòng hạt vật chất (proton, electron) từ Mặt Trời, gọi là gió Mặt Trời.\"",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459439\"></iframe><br />\nĐ&acirc;y l&agrave; một hiểu lầm phổ biến. Gi&oacute; Mặt Trời (d&ograve;ng hạt) cũng tạo ra một lực đẩy nhưng rất nhỏ so với &aacute;p suất &aacute;nh s&aacute;ng. Nguy&ecirc;n l&yacute; hoạt động ch&iacute;nh của c&aacute;nh buồm Mặt Trời l&agrave; dựa v&agrave;o &aacute;p suất bức xạ do c&aacute;c photon &aacute;nh s&aacute;ng g&acirc;y ra.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai",
+            "id": "SAECK1102547"
+        },
+        {
+            "question": "9ce7a63f-df52-4a4c-9fb7-42bb9635b4ce",
+            "contentQuestions": "<br />\n<strong>NH&Oacute;M M&Aacute;U BOMBAY [SAECK1102547]</strong><br />\nHiện tượng nh&oacute;m m&aacute;u $O$ giả (kiểu h&igrave;nh Bombay) l&agrave; một trường hợp hiếm gặp trong di truyền học. Người mang kiểu gen hh kh&ocirc;ng tổng hợp được kh&aacute;ng nguy&ecirc;n $H$ &ndash; tiền chất cần thiết để h&igrave;nh th&agrave;nh kh&aacute;ng nguy&ecirc;n $A$ hoặc $B$. Do đ&oacute;, d&ugrave; c&oacute; mang alen $I^A$ hoặc $I^B$, họ vẫn biểu hiện nh&oacute;m m&aacute;u $O$ trong c&aacute;c x&eacute;t nghiệm th&ocirc;ng thường. Cơ chế biểu hiện nh&oacute;m m&aacute;u $ABO$ do hoạt động phối hợp của 2 gen $H$ v&agrave; $I$ được thể hiện như sơ đồ trong h&igrave;nh b&ecirc;n.<br />\n<img alt=\"A diagram of a diagram with red arrows\n\nAI-generated content may be incorrect.\" data-temp-key=\"temp-image-1765864987240-0cnw77b1m\" src=\"https://cdn.save.moe/b/IhfM8d.png?dl=1\" / style=\"width: 60%; margin: 0 auto; display: block;\"><br />\nBiết rằng kh&ocirc;ng c&oacute; ph&aacute;t sinh đột biến v&agrave; gen $H$, gen $I$ kh&ocirc;ng c&ugrave;ng nh&oacute;m li&ecirc;n kết.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 6 - 11:",
+            "range": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "type": "MQ",
+            "id": "SAECK1102547",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Điền từ vào ô trống.<br/>Kiểu hình <span class=\"fill-blank\" data-blank-id=\"Câu 6-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> là một trường hợp hiếm gặp trong di truyền học.",
+            "type": "TLN",
+            "correctAnswer": [
+                "Bombay",
+                "nhóm máu O giả"
+            ],
+            "explanation": "<br/>Từ dữ liệu đề bài “Hiện tượng nhóm máu $O$ giả (kiểu hình Bombay) là một trường hợp hiếm gặp trong di truyền học.” ta rút ra từ cần điền."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Người mang kiểu gene $hhI^{A}I^{B}$ sẽ biểu hiện nhóm máu gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta thấy người này có $hh \\ \\rightarrow$ kết luận luôn là nhóm máu $O$. Vì nếu không có $H \\ \\rightarrow$ không có kháng nguyên $H$ để tiếp tục chuỗi chuyển hoá trên $\\rightarrow$ không tạo kháng nguyên.",
+            "contentAnswerA": "Nhóm máu $A$",
+            "contentAnswerB": "Nhóm máu $B$",
+            "contentAnswerC": "Nhóm máu $O$",
+            "contentAnswerD": "Nhóm máu $AB$"
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Những kiểu gene nào dưới đây biểu hiện nhóm máu $O$.",
+            "type": "MA",
+            "correctAnswer": [
+                "c3",
+                "c4",
+                "c5"
+            ],
+            "explanation": "<br/>Ta thấy với kiểu gene có $hh \\ \\rightarrow$ kết luận luôn là nhóm máu $O$. Vì nếu không có $H \\rightarrow$ không có kháng nguyên $H$ để tiếp tục chuỗi chuyển hoá trên $\\rightarrow$ không tạo kháng nguyên.<br/>Với kiểu gene $HhI^{O}I^{O}$ tuy có $H$ nhưng khi chuyển hoá không có $A$ hay $B$ nên cũng biểu hiện nhóm máu $O$.",
+            "contentC1": "$HHI^{A}I^{O}$",
+            "contentC2": "$HhI^{A}I^{B}$",
+            "contentC3": "$hhI^{A}I^{B}$",
+            "contentC4": "$HhI^{O}I^{O}$",
+            "contentC5": "$hhI^{B}I^{B}$"
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Kéo thả vào ô trống.<br/>Hiện tượng nhóm máu Bombay là ví dụ của dạng tương tác <span class=\"drag-drop-blank\" data-drop-id=\"Câu 9-1\">____DRAG_DROP_1____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                }
+            ],
+            "explanation": "<br/>Gen $H$ quy định sự hình thành enzyme $H$ – là tiền chất để gene $I^{A}$, $I^{B}$ (thuộc hệ nhóm máu $ABO$) có thể biểu hiện kháng nguyên $A$ hoặc $B$ trên màng hồng cầu.<br/>Khi một người có kiểu gen $hh$ (lặn đồng hợp), enzyme $H$ không được tạo ra, nên dù mang gen $I^{A}$ hoặc $I^{B}$, kháng nguyên $A$ hay $B$ cũng không thể xuất hiện $\\rightarrow$ biểu hiện kiểu hình nhóm máu $O$ giả (Bombay).<br/>Như vậy, gen lặn $h$ đã át chế sự biểu hiện của gen trội $I^{A}$ hoặc $I^{B}$, thể hiện tương tác át chế lặn (một gen lặn át chế sự biểu hiện của gen trội ở locus khác).",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Bổ"
+                },
+                {
+                    "id": "B>",
+                    "content": "Át chế"
+                },
+                {
+                    "id": "C>",
+                    "content": "Cộng"
+                },
+                {
+                    "id": "D>",
+                    "content": "Đa"
+                }
+            ]
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai.<br/>Khi người bố có kiểu gene $hhI^{A}I^{B}$ kết hôn với người mẹ có kiểu gene $HhI^{B}I^{O}$ thì đời con có thể có nhóm máu $O$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Bố có kiểu gene $hhI^{A}I^{B}$  nên luôn cho alen $h$; mẹ có kiểu gene $HhI^{B}I^{O}$ cho $h$ với xác suất $1/2$. Vậy con có khả năng nhận $h$ từ cả hai $(hh)$ với xác suất $1 × 1/2 = 1/2 \\ (50%)$, khi đó dù mang bất kỳ tổ hợp alen $ABO$ nào ($I^{A}I^{B}$, $I^{A}I^{O}$, $I^{B}I^{B}$, $I^{B}I^{O}$, $I^{A}I^{A}$) cũng biểu hiện nhóm máu $O$ giả (Bombay)",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Anh X có nhóm máu $A$ và chị Y có nhóm máu $AB$ nhưng con gái đầu lòng của họ có nhóm máu $O$ và đứa con trai thứ hai có nhóm máu $AB$. Dự đoán kiểu gene của cặp vợ chồng trên?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Anh X nhóm máu $A \\ \\rightarrow$ kiểu gen $I{A}I{A}$ hoặc $I{A}I{O}$<br/>Chị Y nhóm máu $AB \\ \\rightarrow$ kiểu gen $I{A}I{B}$<br/>Con gái đầu nhóm máu $O \\rightarrow$ chỉ có thể biểu hiện khi không có enzyme $H$ (tức là kiểu gen $hh$) vì xét theo hệ nhóm máu $ABO$ thì không thể sinh con có kiểu gene $$I{O}I{O}$$<br/>Con trai thứ hai nhóm máu $AB \\ \\rightarrow$ biểu hiện bình thường $\\rightarrow$ phải có ít nhất một alen $H$ ($HH$ hoặc $Hh$).<br/>Suy ra:<br/>Cả bố và mẹ đều phải mang allele $h$ và cũng đều phải mang allele $H$ để có thể sinh ra con $hh \\ \\rightarrow$ kiểu gene bố mẹ đều là $Hh$.<br/>Để con gái đầu biểu hiện nhóm $O$ (Bombay) $\\rightarrow$ con phải $hh$, vì hệ gene $ABO$ có mẹ nhóm máu $AB$ tức là sẽ mang cả $I^{A}$ và $I^{B}$ nên không thể cho $I^{O}$ để tạo đời con có $I^{O}I^{O}$.",
+            "contentAnswerA": "Kiểu gene của X là $HhI^{A}I^{O}$, kiểu gene của Y là $HhI^{A}I^{B}$",
+            "contentAnswerB": "Kiểu gene của X là $HhI^{A}I^{A}$, kiểu gene của Y là $HHI^{A}I^{B}$",
+            "contentAnswerC": "Kiểu gene của X là $hhI^{A}I^{A}$, kiểu gene của Y là $HhI^{A}I^{B}$",
+            "contentAnswerD": "Kiểu gene của X là $HHI^{A}I^{O}$, kiểu gene của Y là $HHI^{A}I^{B}$",
+            "id": "HAE17102569"
+        },
+        {
+            "question": "9210770d-8339-4d14-87a0-bb0d6835860b",
+            "contentQuestions": "<br />\n<strong>CHẤT TẠO NGỌT [HAE17102569]</strong><br />\nVị ngọt l&agrave; một trong những vị cơ bản m&agrave; con người cảm nhận được, đem lại cảm gi&aacute;c dễ chịu v&agrave; th&egrave;m ăn. Trong tự nhi&ecirc;n, vị ngọt chủ yếu đến từ c&aacute;c loại đường như đường nho (glucose-cấu tạo gồm 1 v&ograve;ng 6 cạnh), đường m&iacute;a (saccharose-cấu tạo gồm 1 v&ograve;ng 6 cạnh của glucose v&agrave; 1 v&ograve;ng 5 cạnh của fructose), đường mạch nha ( maltose-cấu tạo gồm 2 v&ograve;ng 6 cạnh của glucose, c&oacute; khả năng tham gia phản ứng tr&aacute;ng gương ) v&agrave; c&aacute;c loại tr&aacute;i c&acirc;y, rau củ. Tuy nhi&ecirc;n, đối với những người ăn ki&ecirc;ng, nhược điểm của ch&uacute;ng l&agrave; sinh ra qu&aacute; nhiều năng lượng. Kh&ocirc;ng những thế, ch&uacute;ng c&ograve;n c&oacute; thể g&acirc;y b&eacute;o ph&igrave;, c&aacute;c bệnh về đường huyết như đ&aacute;i th&aacute;o đường,... nếu qu&aacute; lạm dụng.<br />\nNhằm mục đ&iacute;ch sử dụng đường &iacute;t năng lượng, cũng như giảm chi ph&iacute; cho chất ngọt, c&aacute;c chất tạo ngọt tổng hợp được ra đời. Đ&acirc;y l&agrave; những chất tạo ngọt được con người tổng hợp ra nhằm thay thế đường tự nhi&ecirc;n, với đặc điểm nổi bật l&agrave; độ ngọt cao gấp nhiều lần đường m&iacute;a, n&ecirc;n chỉ một lượng rất nhỏ đ&atilde; đủ để tạo ra độ ngọt cần thiết m&agrave; tạo ra lượng năng lượng kh&ocirc;ng đ&aacute;ng kể hoặc kh&ocirc;ng sinh năng lượng. Một số chất tạo ngọt tổng hợp phổ biến gồm saccharin, aspartame, sucralose, acesulfame K&hellip; Saccharin l&agrave; chất tạo ngọt đầu ti&ecirc;n được ph&aacute;t hiện v&agrave;o cuối thế kỷ XIX, c&oacute; độ ngọt gấp khoảng 300 lần sucrose nhưng để lại vị hơi đắng ở hậu vị. Aspartame được d&ugrave;ng rộng r&atilde;i trong nước ngọt c&oacute; gas v&agrave; kẹo cao su, ngọt gấp 200 lần sucrose nhưng kh&ocirc;ng bền ở nhiệt độ cao. Sucralose th&igrave; c&oacute; độ ngọt gấp 600 lần đường, bền nhiệt, n&ecirc;n ph&ugrave; hợp trong c&aacute;c sản phẩm nướng hoặc chế biến ở nhiệt độ cao.<br />\nVề mặt sức khỏe, đa số chất tạo ngọt tổng hợp đ&atilde; được c&aacute;c tổ chức quốc tế như FDA (Mỹ) hay EFSA (ch&acirc;u &Acirc;u) thẩm định l&agrave; an to&agrave;n trong giới hạn cho ph&eacute;p. Tuy nhi&ecirc;n, việc lạm dụng c&oacute; thể g&acirc;y ra một số lo ngại, chẳng hạn ảnh hưởng đến hệ vi sinh đường ruột hoặc l&agrave;m thay đổi cảm gi&aacute;c th&egrave;m ngọt tự nhi&ecirc;n. Do đ&oacute;, việc sử dụng chất tạo ngọt tổng hợp cần tu&acirc;n thủ liều lượng khuyến c&aacute;o, đồng thời kết hợp chế độ ăn uống c&acirc;n bằng để bảo đảm sức khỏe l&acirc;u d&agrave;i.<br />\nMột số loại chất tạo ngọt tự nhi&ecirc;n v&agrave; tổng hợp được liệt k&ecirc; ở bảng dưới đ&acirc;y:\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>STT</td>\n\t\t\t<td>T&ecirc;n gọi</td>\n\t\t\t<td>Thuộc loại</td>\n\t\t\t<td>C&ocirc;ng thức cấu tạo</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>A1</td>\n\t\t\t<td>Tự nhi&ecirc;n</td>\n\t\t\t<td><br />\n\t\t\t<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987243-fldexan93\" src=\"https://cdn.save.moe/b/PoupKx.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>A2</td>\n\t\t\t<td>Tự nhi&ecirc;n</td>\n\t\t\t<td><br />\n\t\t\t<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987243-7wy76o2qr\" src=\"https://cdn.save.moe/b/eQXwlq.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>A3</td>\n\t\t\t<td>Tự nhi&ecirc;n</td>\n\t\t\t<td><br />\n\t\t\t<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987243-541bi1t57\" src=\"https://cdn.save.moe/b/qSGGr6.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>Saccharin</td>\n\t\t\t<td>Tổng hợp</td>\n\t\t\t<td><br />\n\t\t\t<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987243-nq49fhkvg\" src=\"https://cdn.save.moe/b/LFEkd4R.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>Sucralose</td>\n\t\t\t<td>Tổng hợp</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6</td>\n\t\t\t<td>Aspartame</td>\n\t\t\t<td>Tổng hợp</td>\n\t\t\t<td><br />\n\t\t\t<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987243-7is25fne2\" src=\"https://cdn.save.moe/b/7F7BmAN.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7</td>\n\t\t\t<td>Acesulfame K</td>\n\t\t\t<td>Tổng hợp</td>\n\t\t\t<td><br />\n\t\t\t<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987243-l4krkdnha\" src=\"https://cdn.save.moe/b/bs8I6.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 12 - 16:",
+            "range": [
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "type": "MQ",
+            "id": "HAE17102569",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Ghép các từ glucose, saccharose, maltose, A2 và A3 vào các ô trống sau cho thích hợp:<br/>- Chất tạo ngọt A1 là <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/>- Chất tạo ngọt <span class=\"fill-blank\" data-blank-id=\"Câu 12-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> có kí hiệu trong bảng là <span class=\"fill-blank\" data-blank-id=\"Câu 12-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span> và có phản ứng với thuốc thử Tollens, là đồng phân của chất tạo ngọt mang kí hiệu trong bảng là <span class=\"fill-blank\" data-blank-id=\"Câu 12-4\" data-blank-length=\"9\">____FILL_BLANK_4____</span> : <span class=\"fill-blank\" data-blank-id=\"Câu 12-5\" data-blank-length=\"9\">____FILL_BLANK_5____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "glucose"
+                    ]
+                },
+                {
+                    "2.": [
+                        "A3"
+                    ]
+                },
+                {
+                    "3.": [
+                        "maltose"
+                    ]
+                },
+                {
+                    "4.": [
+                        "A2"
+                    ]
+                },
+                {
+                    "5.": [
+                        "saccharose."
+                    ]
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459309\"></iframe><br />\n- Glucose l&agrave; monosaccharide, ứng với A1.<br />\n- Saccharose được tạo th&agrave;nh từ một v&ograve;ng 6 cạnh của glucose v&agrave; 1 v&ograve;ng 5 cạnh của fructose, ph&ugrave; hợp với chất A2.<br />\n- Maltose được tạo th&agrave;nh từ 2 gốc glucose v&ograve;ng 6 cạnh,c&oacute; phản ứng với thuốc thử Tollens, ph&ugrave; hợp với A3."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Thủy phân liên kết amide và ester của Aspartame trong môi trường $\\mathrm{NaOH}$ dư, có thể thu được các chất nào trong các chất sau đây?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c4"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459309\"></iframe><br />\nAspartame tạo th&agrave;nh từ việc ester h&oacute;a dipeptide Asp-Phe ở gốc acid của phenylalanine. Thủy ph&acirc;n chất n&agrave;y bằng $\\mathrm{NaOH}$ dư, thu được alcohol tương ứng(methanol) v&agrave; muối của c&aacute;c amino acid. Trong trường hợp n&agrave;y, đ&oacute; l&agrave; muối disodium của aspartic acid v&agrave; muối sodium của phenylalanine.",
+            "contentC1": "Methanol",
+            "contentC2": "<img src=\"https://cdn.save.moe/b/BTQYvV.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987243-qciiaecga\" class=\"mx-auto\" style=\"\">",
+            "contentC3": "<img src=\"https://cdn.save.moe/b/cumrX1.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987244-mj92xvfuv\" class=\"mx-auto\" style=\"\">",
+            "contentC4": "<img src=\"https://cdn.save.moe/b/naGQj.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987244-o2a203uo8\" class=\"mx-auto\" style=\"\">",
+            "contentC5": "<img src=\"https://cdn.save.moe/b/P0uUD.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987245-8u6cxhafe\" class=\"mx-auto\" style=\"\">"
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Các loại chất tạo ngọt tổng hợp đều có ưu nhược điểm riêng. Ví dụ như acesulfam K, tuy độ ngọt cao và ổn định trong cả nhiệt độ cao, nhưng sẽ để lại hậu vị đắng. Hoặc như aspartame, vị ngọt giống đường tự nhiên nhưng lại có giá thành cao. Cách nào phù hợp để áp dụng với các sản phẩm ăn kiêng để vẫn tạo ra độ ngọt ổn định mà hạn chế được những nhược điểm trên?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459309\"></iframe><br />\n- Phương &aacute;n A l&agrave;m tăng độ ngọt, nhưng đồng thời cũng l&agrave;m tăng nhược điểm của chất tạo ngọt ấy l&ecirc;n.<br />\n- Phương &aacute;n B đi ngược với tinh thần thực phẩm ăn ki&ecirc;ng.<br />\n- Phương &aacute;n C hợp l&yacute;, mỗi chất đ&oacute;ng g&oacute;p một phần vị ngọt cho đủ độ ngọt, đồng thời b&ugrave; trừ v&agrave; l&agrave;m giảm những nhược điểm của nhau.<br />\n- Phương &aacute;n D kh&ocirc;ng hợp l&yacute; do chất bảo quản kh&ocirc;ng ảnh hưởng đến hương vị m&agrave; chỉ c&oacute; t&aacute;c dụng bảo quản sản phẩm.",
+            "contentAnswerA": "Tăng liều lượng một chất tạo ngọt duy nhất cho đến khi đạt độ ngọt mong muốn.",
+            "contentAnswerB": "Thay thế toàn bộ bằng đường tự nhiên (sucrose hoặc fructose).",
+            "contentAnswerC": "Phối hợp nhiều loại chất tạo ngọt tổng hợp khác nhau.",
+            "contentAnswerD": "Sử dụng thêm chất bảo quản để che giấu vị đắng."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Sucralose là một loại đường hóa học được coi là “dẫn xuất của saccharose”.Có thể nói như vậy bởi vì sucralose được tạo ra bằng cách chlorine hóa có chọn lọc các nhóm -OH của saccharose.Để điều chế ra sucralose, người ta chuyển đổi các nhóm -OH tại vị trí số 4 của vòng glucose(đảo chiều nhánh từ dưới lên trên khi chuyển đổi xong) và vị trí số 1 và 6 của vòng fructose thành gốc -Cl.Công thức cấu tạo nào sau đây là phù hợp nhất với sucralose?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459309\"></iframe><br />\nDựa v&agrave;o c&ocirc;ng thức ph&acirc;n tử của Saccharose v&agrave; c&aacute;ch chlor h&oacute;a chọn lọc saccharose trong đề b&agrave;i.",
+            "contentAnswerA": "<img src=\"https://cdn.save.moe/b/L09IXX.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987245-wtl79c9q3\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerB": "<img src=\"https://cdn.save.moe/b/VyO0SLL.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987245-d4t915fq1\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerC": "<img src=\"https://cdn.save.moe/b/MZEyRi.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987246-ik8sfo11z\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerD": "<img src=\"https://cdn.save.moe/b/Vx7bX1.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987246-kif2mnudv\" class=\"mx-auto\" style=\"\">"
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Chọn đúng hoặc sai cho các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                },
+                {}
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459309\"></iframe>",
+            "contentYA": "Acesulfame K là hợp chất ion, có sự hiện diện của cation K+ và anion acesulfame liên kết với nhau.",
+            "contentYB": "Saccharin được điều chế từ methyl anthranilate như sau(sơ đồ theo đúng tỉ lệ số mol):<br/><img alt=\"Maumee_synthesis_of_saccharin\" src=\"https://cdn.save.moe/b/t9llP.png?dl=1\" data-temp-key=\"temp-image-1765864987247-eqblolczy\" class=\"mx-auto\" style=\"\"><br/>Từ 100 g methyl anthranilate, với hiệu suất của cả quá trình là 86%, sẽ điều chế được 147 g saccharin(không làm tròn các phép tính trung gian, làm tròn kết quả cuối cùng đến hàng phần nguyên).",
+            "contentYC": "Lạm dụng chất tạo ngọt tổng hợp có thể gây nên 1 số lo ngại, nên cần cần tuân thủ liều lượng khuyến cáo, đồng thời kết hợp chế độ ăn uống cân bằng để bảo đảm sức khỏe lâu dài.",
+            "contentYD": "Các hợp chất chứa nguyên tố Lưu huỳnh thường độc, nên không chất tạo ngọt nào chứa lưu huỳnh trong thành phần nguyên tố của nó.",
+            "contentYE": "Chất tạo ngọt tổng hợp ra đời với mục đích thay thế các chất tạo ngọt tự nhiên bằng những chất không sinh năng lượng những vẫn có vị ngọt, phù hợp hơn với những người ăn kiêng.",
+            "id": "LAE17102584"
+        },
+        {
+            "question": "34a557cd-945c-4cf6-863e-28140c4fee50",
+            "contentQuestions": "<br/><strong>DÃY BALMER [LAE17102584]</strong><br/>Cuối thế kỷ 19, các nhà vật lý phát hiện ra rằng khi khí hydro loãng bị kích thích bởi dòng điện, nó phát ra ánh sáng gồm một tập hợp các vạch sáng rời rạc thay vì một dải màu liên tục. Điều này cho thấy nguyên tử hydro chỉ phát ra ánh sáng ở những bước sóng ($\\lambda $) xác định.<br/>Giả thuyết & Công thức thực nghiệm: Năm 1885, Johann Balmer đã tìm ra một công thức toán học mô tả chính xác bước sóng của 4 vạch sáng trong vùng nhìn thấy (dãy Balmer):<br/>$\\frac{1}{\\lambda } = {R_H}\\left( {\\frac{1}{{{2^2}}} - \\frac{1}{{{n^2}}}} \\right)$<br/>Trong đó $n$ là các số nguyên lớn hơn $2\\left( {n = 3,4,5, \\ldots } \\right)$ và ${R_H}$ là hằng số Rydberg.<br/>Thí nghiệm: Một nhóm học sinh lặp lại thí nghiệm và ghi lại bước sóng của 4 vạch trong vùng nhìn thấy. Để kiểm chứng công thức Balmer, họ quyết định sẽ vẽ đồ thị của $1/\\lambda $ theo $1/{n^2}$. Nếu công thức đúng, đồ thị này phải là một đường thẳng.<br/><table class=\"word-table\"><tbody><tr><td>Tên vạch<br/></td><td>Chuyển mức (n → 2)<br/></td><td>Bước sóng (λ) (nm)<br/></td></tr><tr><td>H-alpha (Hα)<br/></td><td>\tn = 3 → 2<br/></td><td>656.3<br/></td></tr><tr><td>H-beta (Hβ)<br/></td><td>\tn = 4 → 2<br/></td><td>486.1<br/></td></tr><tr><td>H-gamma (Hγ)<br/></td><td>\tn = 5 → 2<br/></td><td>434.0<br/></td></tr><tr><td>H-delta (Hδ)<br/></td><td>\tn = 6 → 2<br/></td><td>410.2<br/></td></tr></tbody></table>Bảng 1. Dữ liệu thực nghiệm về quang phổ vạch của Hydro (Dãy Balmer)<br/>(Công thức của Balmer sau này đã được Niels Bohr giải thích thành công bằng mô hình hành tinh nguyên tử, trong đó ông giả định rằng năng lượng của electron bị lượng tử hóa).",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 17 - 21:",
+            "range": [
+                17,
+                18,
+                19,
+                20,
+                21
+            ],
+            "type": "MQ",
+            "id": "LAE17102584",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Theo mô hình nguyên tử Bohr, vạch quang phổ màu đỏ (H-alpha), là vạch có bước sóng dài nhất và năng lượng thấp nhất trong dãy Balmer, ứng với sự chuyển dịch của electron từ mức năng lượng nào về mức năng lượng nào?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459440\"></iframe><br />\nD&atilde;y Balmer l&agrave; c&aacute;c vạch ứng với electron nhảy về mức $n = 2$. Vạch H-alpha c&oacute; năng lượng thấp nhất, tương ứng với bước nhảy ngắn nhất từ mức ngay tr&ecirc;n n&oacute; l&agrave; $n = 3$.",
+            "contentAnswerA": "Từ mức $n = 2$ về mức $n = 1$.",
+            "contentAnswerB": "Từ mức $n = 3$ về mức $n = 2$.",
+            "contentAnswerC": "Từ mức $n = 4$ về mức $n = 2$.",
+            "contentAnswerD": "Từ vô cực $\\left( {n = \\infty } \\right)$ về mức $n = 2$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "“Việc quang phổ của hydro chỉ có các vạch rời rạc thay vì một dải liên tục chứng tỏ năng lượng của electron trong nguyên tử chỉ có thể nhận các giá trị gián đoạn (được lượng tử hóa).\"",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459440\"></iframe><br />\nQuang phổ vạch rời rạc l&agrave; bằng chứng thực nghiệm trực tiếp cho thấy c&aacute;c mức năng lượng của electron trong nguy&ecirc;n tử bị lượng tử h&oacute;a. Mỗi vạch ứng với một bước nhảy năng lượng x&aacute;c định.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Sử dụng dữ liệu của vạch quang phổ H -alpha ($n = 3;\\lambda  = 656,3\\,nm$) và công thức Balmer, hãy tính giá trị của hằng số Rydberg ${R_H}$. (Làm tròn 3 chữ số có nghĩa, đơn vị là $ \\times {10^7}{\\rm{\\;}}{m^1}$ ).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 19-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $ \\times {10^7}{\\rm{\\;}}{m^1}$.",
+            "type": "TLN",
+            "correctAnswer": [
+                1.1,
+                1.1
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459440\"></iframe><br />\nTừ c&ocirc;ng thức $\\frac{1}{\\lambda } = {R_H}\\left( {\\frac{1}{{{2^2}}} - \\frac{1}{{{n^2}}}} \\right)$, ta c&oacute;:\\[\\frac{1}{{656,3 \\times {{10}^{ - 9}}{\\rm{\\;}}m}} = {R_H}\\left( {\\frac{1}{4} - \\frac{1}{9}} \\right) = {R_H}.\\frac{5}{{36}}\\].<br />\nSuy ra: \\[{R_H} = \\frac{{\\frac{{36}}{5}}}{{656,3 \\times {{10}^{ - 9}}{\\rm{\\;m}}}} \\approx 1,097 \\times {10^7}{\\rm{\\;}}{m^{ - 1}}\\]. L&agrave;m tr&ograve;n l&agrave; $1,10 \\times {10^7}{\\rm{\\;}}{m^1}$."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Ngoài dãy Balmer, hydro còn có các dãy quang phổ khác. Hãy kéo thả các dãy với vùng quang phổ mà chúng thường xuất hiện.<br/><table class=\"word-table\"><tbody><tr><td>Dãy quang phổ<br/></td><td>Vùng quang phổ chính<br/></td></tr><tr><td>1. Dãy Lyman n → 1<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-1\">____DRAG_DROP_1____</span><br/></td></tr><tr><td>2. Dãy Balmer n → 2<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-2\">____DRAG_DROP_2____</span><br/></td></tr><tr><td>3. Dãy Paschen n → 3<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-3\">____DRAG_DROP_3____</span><br/></td></tr></tbody></table><a id=\"đáp_án_giải_thích_chi_tiết_119\"></a>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "A>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459440\"></iframe><br />\nD&atilde;y Lyman (về $n = 1$) c&oacute; bước nhảy năng lượng lớn nhất (tử ngoại). D&atilde;y Balmer (về $n = 2$) c&oacute; bước nhảy trung b&igrave;nh (nh&igrave;n thấy). D&atilde;y Paschen (về $n = 3$) c&oacute; bước nhảy nhỏ nhất (hồng ngoại).",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Vùng hồng ngoại (Infrared)"
+                },
+                {
+                    "id": "B>",
+                    "content": "Vùng nhìn thẫy (Visible)"
+                },
+                {
+                    "id": "C>",
+                    "content": "Vùng tử ngoại (Ultraviolet)"
+                }
+            ]
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "(Chọn nhiều phương án đúng) Những suy luận hoặc phát biểu nào sau đây là đúng về mặt vật lý?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c4"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459440\"></iframe><br />\nNăng lượng nguy&ecirc;n tử phụ thuộc điện t&iacute;ch hạt nh&acirc;n n&ecirc;n phổ của He kh&aacute;c H.<br />\nBước s&oacute;ng ngắn nhất ứng với năng lượng lớn nhất ($n = \\infty \\to 2$).<br />\nLịch sử vật l&yacute; x&aacute;c nhận Balmer t&igrave;m ra c&ocirc;ng thức thực nghiệm trước khi Bohr giải th&iacute;ch bằng l&yacute; thuyết.<br />\nBước nhảy năng lượng từ $n = 4$ về $n = 2$ lớn hơn từ $n = 3$ về $n = 2$.",
+            "contentC1": "Nếu thay nguyên tử hydro bằng nguyên tử heli (He), các vạch quang phổ quan sát được sẽ có cùng bước sóng.",
+            "contentC2": "Bước sóng ngắn nhất trong dãy Balmer tương ứng với sự chuyển dịch của electron từ vô cực $n = \\infty $về mức n = 2.",
+            "contentC3": "Công thức của Balmer là một công thức thực nghiệm, sau này đã được giải thích thành công bởi mô hình nguyên tử Bohr.",
+            "contentC4": "Năng lượng của photon ứng với vạch H-beta (n = 4 $\\rightarrow$ 2 ) lớn hơn năng lượng của photon ứng với vạch H -alpha (n = 3 $\\rightarrow$ 2 ).",
+            "id": "SAECK1102548"
+        },
+        {
+            "question": "7c06ad69-19bf-433b-acc4-5315b769f3bb",
+            "contentQuestions": "<br/><strong>THÍ NGHIỆM SINH LÝ Ở CHUỘT [SAECK1102548]</strong><br/>Thực hiện một thí nghiệm như Hình 1: Cho một con chuột thí nghiệm còn sống vào một bình thủy tinh có nút đậy, trên miệng bình thủy tinh có ống mao dẫn dài 20cm chia các vạch và có một giọt nước màu hồng trong ống, thí nghiệm được thiết kế trong điều kiện nhiệt độ bình thường, thành phần không khí ban đầu trong bình và các yếu tố môi trường khác đảm bảo cho các hoạt động sinh lý trong cơ thể chuột diễn ra bình thường.<br/><img src=\"https://cdn.save.moe/b/qjD4nR.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987248-6dmof7im8\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/><strong>Hình 1.</strong><br/>Biết rằng, với thể tích khí tính từ bình tới vị trí giọt nước ban đầu, lượng O₂ chỉ đủ cho chuột sống 7 giờ nếu không có trao đổi khí với môi trường ngoài. Khi giọt nước màu hồng không còn chắn ống, bình được thông với không khí ngoài và chuột sẽ thông khí bình thường.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 22 - 26:",
+            "range": [
+                22,
+                23,
+                24,
+                25,
+                26
+            ],
+            "type": "MQ",
+            "id": "SAECK1102548",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Các nhận định sau đúng hay sai.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>- (1) Sai. Vì hạt đậu đã luộc nên enzyme đã bị biến tính và không thể xảy ra quá trình hô hấp; sẽ không tiêu thụ $O_2$ thải $CO_2$ như chuột sống $\\rightarrow$ kết quả thay đổi.<br/>- (2) Sai. Thực tế $O_2$ giảm vì chuột hô hấp lấy $O_2$; $CO_2$ do chuột thải ra có thể bị hấp thụ bởi chất hấp thụ $CO_2$ nên $CO_2$ giảm.<br/>- (3) Đúng. Vì nhiệt độ ảnh hưởng đến áp suất khí và tốc độ trao đổi chất/hô hấp của chuột; giữ nhiệt độ ổn định để kết quả chính xác hơn.",
+            "contentYA": "Nếu thay con chuột trong thí nghiệm này bằng một lượng hạt đậu đang nảy mầm đã luộc chín (khối lượng tương đương) thì kết quả thí nghiệm không thay đổi.",
+            "contentYB": "Nồng độ khí $O_2$ trong bình thí nghiệm tăng nhanh còn nồng độ khí $CO_2$ trong bình giảm.",
+            "contentYC": "Nên dựng thí nghiệm để ở nơi có nhiệt độ trong bình thí nghiệm không thay đổi."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Kéo thả đáp án vào ô trống<br/>Giọt nước màu hồng trong ống mao dẫn <span class=\"drag-drop-blank\" data-drop-id=\"Câu 23-1\">____DRAG_DROP_1____</span> dần sang các vị trí khác.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                }
+            ],
+            "explanation": "<br/>Trong thí nghiệm, chuột sống hô hấp tiêu thụ khí $O_2$ và thải ra khí $CO_2$, nhưng khí $CO_2$ lại bị chất hấp thụ trong bình giữ lại, làm cho tổng thể tích khí trong bình giảm xuống. Khi thể tích khí giảm, áp suất trong bình cũng giảm theo, tạo ra sự chênh lệch áp suất giữa bên trong và bên ngoài. Do đó, giọt nước màu hồng trong ống mao dẫn bị hút dần vào trong ống, di chuyển dần sang các vị trí khác.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "bị hút"
+                },
+                {
+                    "id": "B>",
+                    "content": "bị đẩy"
+                },
+                {
+                    "id": "C>",
+                    "content": "không"
+                }
+            ]
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Mục đích của thí nghiệm này là gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Mục đích của thí nghiệm này là chứng minh chuột tiêu thụ $O_2$ trong quá trình hô hấp. Trong thí nghiệm, khi chuột hô hấp, lượng $O_2$ trong bình giảm dần do chuột sử dụng để tạo năng lượng, còn $CO_2$ sinh ra thì bị chất hấp thụ giữ lại, dẫn đến thể tích khí trong bình giảm và giọt nước màu hồng bị hút vào trong. Hiện tượng này chứng tỏ $O_2$ đã bị chuột tiêu thụ, nên đáp án đúng là C.",
+            "contentAnswerA": "Chứng minh ảnh hưởng của nhiệt độ đến tốc độ hô hấp của chuột.",
+            "contentAnswerB": "Xác định vai trò của $CO_2$ trong quá trình hô hấp của chuột.",
+            "contentAnswerC": "Chứng minh chuột tiêu thụ $O_2$ trong quá trình hô hấp.",
+            "contentAnswerD": "Kiểm tra khả năng chịu đựng thiếu khí oxy của chuột."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Những yếu tố nào sẽ ảnh hưởng nhiều đến kết quả thí nghiệm.",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c3",
+                "c4"
+            ],
+            "explanation": "<br/>Cụ thể, kích thước và khối lượng chuột ảnh hưởng đến mức tiêu thụ $\\mathrm{O_2}$; nhiệt độ tác động đến tốc độ trao đổi chất và hô hấp; lượng thức ăn ảnh hưởng đến năng lượng và cường độ hô hấp; còn kích thước bình thủy tinh quyết định thể tích không khí sẵn có cho chuột. Các yếu tố như ánh sáng và lồng chuột không ảnh hưởng đáng kể đến kết quả của thí nghiệm này.",
+            "contentC1": "Kích thước của chuột.",
+            "contentC2": "Nhiệt độ.",
+            "contentC3": "Thức ăn.",
+            "contentC4": "Kích thước bình thuỷ tinh.",
+            "contentC5": "Ánh sáng.",
+            "contentC6": "Lồng chuột."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Nhận định sau đúng hay sai.<br/>Nếu để chuột vào trong thí nghiệm này 8 giờ thì chuột sẽ chết",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Dù theo giả thiết ban đầu lượng $O_2$ trong bình chỉ đủ cho chuột sống 7 giờ nếu bình kín hoàn toàn, nhưng trong thí nghiệm thực tế, giọt nước màu hồng di chuyển dần và không còn chặn kín ống mao dẫn, khiến không khí bên ngoài có thể lọt vào bình. Khi đó, chuột được thông khí với môi trường bên ngoài, tiếp tục nhận đủ $O_2$ cho hô hấp và thải $CO_2$ ra ngoài. Vì vậy, trong điều kiện thực tế của thí nghiệm, chuột sẽ không chết mà vẫn sống bình thường nhờ quá trình trao đổi khí được duy trì.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai",
+            "id": "HAE17102580"
+        },
+        {
+            "question": "2808e901-c221-4099-abb3-84b715a27b42",
+            "contentQuestions": "<br />\n<strong>PHENOL [HAE17102580]</strong><br />\nPhenol l&agrave; loại hợp chất c&oacute; chứa nh&oacute;m $\\mathrm{-OH}$ được gắn trực tiếp v&agrave;o v&ograve;ng benzene. Hợp chất đơn giản nhất của loại chất n&agrave;y(chỉ gồm 1 nh&oacute;m $\\mathrm{-OH}$) gắn v&agrave;o v&ograve;ng benzene) cũng c&oacute; t&ecirc;n gọi l&agrave; phenol. C&ocirc;ng thức của phenol đơn giản nhất được biểu diễn ở h&igrave;nh dưới đ&acirc;y:<br />\n<img alt=\"Phenol2\" data-temp-key=\"temp-image-1765864987250-nzd8lgazx\" src=\"https://cdn.save.moe/b/NAP7d.png?dl=1\" style=\"width: 10%; margin: 0 auto; display: block;\" /><br />\nPhenol l&agrave; hợp chất k&eacute;m tan trong nước ở nhiệt độ thường, tan nhiều hơn khi đun n&oacute;ng v&agrave; tan v&ocirc; hạn ở khoảng $66^{\\circ}C$. Nhờ hiệu ứng cộng hưởng của v&ograve;ng benzene, nh&oacute;m $\\mathrm{-OH}$ của phenol ph&acirc;n cực hơn so với alcohol, do đ&oacute; phenol thể hiện t&iacute;nh acid nhưng rất yếu. Tuy nhi&ecirc;n, phenol c&oacute; t&iacute;nh acid mạnh hơn nấc 2 của carbonic acid, n&ecirc;n c&oacute; khả năng phản ứng với c&aacute;c muối carbonate như $\\mathrm{Na_2CO_3}$. Th&ecirc;m v&agrave;o đ&oacute;, ảnh hưởng của nh&oacute;m $\\mathrm{-OH}$ cũng l&agrave;m phenol dễ tham gia phản ứng thế hydrogen ở v&ograve;ng benzene. Phản ứng n&agrave;y ưu ti&ecirc;n c&aacute;c vị tr&iacute; ortho v&agrave; para của v&ograve;ng t&iacute;nh từ nh&oacute;m $\\mathrm{-OH}$.<br />\nPhenol t&aacute;c dụng với kim loại kiềm v&agrave; base mạnh sinh ra muối phenolate, phản ứng với nước bromine để sinh ra kết tủa trắng 2,4,6-tribromophenol.<br />\n<img alt=\"IMG_256\" data-temp-key=\"temp-image-1765864987250-cmnn5p20v\" src=\"https://cdn.save.moe/b/1F3OkGl.png?dl=1\" style=\"width: 60%; margin: 0 auto; display: block;\" /><br />\nTrong c&ocirc;ng nghiệp, phenol l&agrave; nguy&ecirc;n liệu quan trọng để sản xuất nhựa phenol&ndash;formaldehyde (bakelit), nhựa epoxy, bisphenol A, thuốc trừ s&acirc;u v&agrave; dược phẩm. Tuy nhi&ecirc;n, phenol c&oacute; độc t&iacute;nh mạnh, c&oacute; thể g&acirc;y bỏng da v&agrave; ảnh hưởng nghi&ecirc;m trọng đến sức khỏe nếu h&iacute;t hoặc nuốt phải. V&igrave; vậy, việc sử dụng phenol lu&ocirc;n cần c&oacute; c&aacute;c biện ph&aacute;p bảo hộ an to&agrave;n.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 27 - 31:",
+            "range": [
+                27,
+                28,
+                29,
+                30,
+                31
+            ],
+            "type": "MQ",
+            "id": "HAE17102580",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Hợp chất nào sau đây không chứa chức phenol?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459310\"></iframe><br />\nHợp chất n&agrave;y kh&ocirc;ng xuất hiện nh&oacute;m $\\mathrm{-OH}$ gắn v&agrave;o v&ograve;ng benzene.",
+            "contentAnswerA": "<img alt=\"Capsaicin\" src=\"https://cdn.save.moe/b/2pqPW6.png?dl=1\" data-temp-key=\"temp-image-1765864987250-gfadlwy45\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerB": "<img alt=\"CurcuminKeto\" src=\"https://cdn.save.moe/b/lqpC2.png?dl=1\" data-temp-key=\"temp-image-1765864987251-y9aqpyoky\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerC": "<img alt=\"Catechin_structure\" src=\"https://cdn.save.moe/b/1TPb6xE.png?dl=1\" data-temp-key=\"temp-image-1765864987251-i35xfk0rh\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerD": "<img alt=\"Bradykinin_structure\" src=\"https://cdn.save.moe/b/LUMPL3R.png?dl=1\" data-temp-key=\"temp-image-1765864987251-4opzhmw7a\" class=\"mx-auto\" style=\"\">"
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Phenol có khả năng phản ứng với các chất nào dưới đây:",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c3",
+                "c5"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459310\"></iframe><br />\nDựa v&agrave;o ngữ liệu, phenol c&oacute; t&iacute;nh acid nhẹ, v&agrave; ảnh hưởng của nh&oacute;m $\\mathrm{-OH}$ l&agrave; v&ograve;ng benzene dễ tham gia phản ứng thế, cho n&ecirc;n phenol c&oacute; khả năng t&aacute;c dụng với c&aacute;c chất tr&ecirc;n.",
+            "contentC1": "Potassium.",
+            "contentC2": "Nước bromine.",
+            "contentC3": "Dung dịch $\\mathrm{KOH}$.",
+            "contentC4": "$\\mathrm{H_2SO_4}$.",
+            "contentC5": "$\\mathrm{Na_2CO_3}$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Chọn đúng hoặc sai cho các nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459310\"></iframe><br />\n- &Yacute; a) Đ&uacute;ng, theo ngữ liệu : Trong c&ocirc;ng nghiệp, phenol l&agrave; nguy&ecirc;n liệu quan trọng để sản xuất nhựa phenol&ndash;formaldehyde (bakelit), nhựa epoxy, bisphenol A, thuốc trừ s&acirc;u v&agrave; dược phẩm<br />\n- &Yacute; b) Đ&uacute;ng, phenol phản ứng với dung dịch kiềm tạo ra muối tan tốt trong nước<br />\n- &Yacute; c) Đ&uacute;ng, theo ngữ liệu : &ldquo;Tuy nhi&ecirc;n, phenol c&oacute; độc t&iacute;nh mạnh, c&oacute; thể g&acirc;y bỏng da v&agrave; ảnh hưởng nghi&ecirc;m trọng đến sức khỏe nếu h&iacute;t hoặc nuốt phải&rdquo;.<br />\n- &Yacute; d) Đ&uacute;ng, $\\mathrm{HCl}$ l&agrave; 1 acid mạnh, n&ecirc;n c&oacute; khả năng proton h&oacute;a lại ion phenolate để trả lại một acid yếu l&agrave; phenol",
+            "contentYA": "Phenol là nguyên liệu quan trọng trong sản xuất chất dẻo, nhựa bakelite,...",
+            "contentYB": "Phenol tan tốt trong dung dịch kiềm ở nhiệt độ thường.",
+            "contentYC": "Phenol có độc tính mạnh, gây bỏng da tay khi tiếp xúc.",
+            "contentYD": "Cho HCl tác dụng với muối sodium phenolate, ta tái tạo lại được phenol."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Điền một giá trị thích hợp vào ô trống (làm tròn đến 1 chữ số thập phân) :<br/>Phenol được điều chế bằng cách oxi hóa cumene như sau :<br/><img alt=\"A diagram of a chemical formula\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/U0aIhi.png?dl=1\" data-temp-key=\"temp-image-1765864987251-k943069lq\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Trong năm 2010, nhu cầu acetone của thế giới vào khoảng 6,7 triệu tấn, và quy trình này sản xuất ra 83% lượng acetone thỏa mãn nhu cầu này. Tổng khối lượng cumene tham gia và phenol sản xuất được từ quá trình này trong năm 2010 là <span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> triệu tấn, biết hiệu suất của quy trình này vào khoảng 80%.",
+            "type": "TLN",
+            "correctAnswer": [
+                23.4
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459310\"></iframe><br />\nTừ 120g cumene, c&oacute; thể tạo ra được 94g phenol v&agrave; 58g acetone.<br />\nTừ 83% của 6,7 triệu tấn acetone sản xuất được, đi k&egrave;m với đ&oacute; l&agrave;:<br />\n- Khối lượng phenol sản xuất được c&ugrave;ng với acetone l&agrave; = (6,7*83%/58)*94 (triệu tấn)<br />\n- Khối lượng cumene cần d&ugrave;ng l&agrave;(c&oacute; t&iacute;nh hiệu suất): (6,7*83%/58)*120/80%(triệu tấn)<br />\nTổng khối lượng của 2 chất tr&ecirc;n l&agrave;: 23,4 triệu tấn."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Điền một gi&aacute; trị th&iacute;ch hợp v&agrave;o &ocirc; trống (l&agrave;m tr&ograve;n đến 1 chữ số thập ph&acirc;n) :<br />\nMột trong những ứng dụng của phenol ch&iacute;nh l&agrave; sản xuất chất chỉ thị pH phenolphthalein, được sản xuất qua phản ứng sau:<br />\n<img alt=\"Phenolphthalein_Synthesis\" data-temp-key=\"temp-image-1765864987252-44l3xdti8\" src=\"https://cdn.save.moe/b/39Uha3.png?dl=1\" style=\"width: 60%; margin: 0 auto; display: block;\" /><br />\nTừ lượng phenol sản xuất được ở c&acirc;u 4, với hiệu suất phản ứng l&agrave; 77%, sẽ sản xuất được <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> triệu tấn phenolphthalein.",
+            "type": "TLN",
+            "correctAnswer": [
+                11.2
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459310\"></iframe><br />\nTừ 198 g phenol, c&oacute; thể sản xuất được 318 g phenolphthalein.<br />\n- Khối lượng phenol sản xuất được ở c&acirc;u 1 l&agrave; = (6,7*83%/58)*94 (triệu tấn).<br />\n- Khối lượng phenolphthalein sản xuất được tr&ecirc;n thực tế l&agrave;:<br />\n$\\frac{{\\left( {6,7{\\rm{*}}83{\\rm{\\% }}/58} \\right){\\rm{*}}94}}{{198}}\\;*\\;318\\;*\\;77\\;\\% \\;$= 11,2 triệu tấn.",
+            "id": "LAE17102581"
+        },
+        {
+            "question": "7a3a28e9-9746-4b8b-956f-f47b6945d0fe",
+            "contentQuestions": "<br/><strong>NHẬT THỰC [LAE17102581]</strong><br/>Nhật thực là một hiện tượng thiên văn xảy ra khi Mặt Trăng đi qua giữa Trái Đất và Mặt Trời trên cùng một đường thẳng, lúc đó tùy vào vị trí của người quan sát, Mặt Trăng có thể che khuất một phần hoặc toàn bộ Mặt Trời. Về hiện tượng này, có 2 dạng phổ biến như sau:<br/>- Nhật thực một phần: Mặt Trăng chỉ che khuất một phần Mặt Trời.<br/>- Nhật thực toàn phần: Mặt Trăng che khuất hoàn toàn Mặt Trời, và chỉ một vùng nhỏ trên Trái Đất quan sát được hiện tượng này.<br/>Vì sao mà tùy từng vị trí đứng trên Trái Đất, ta lại quan sát được nhật thực 1 phần hoặc toàn phần?<br/>Hãy xét một trường hợp đơn giản: Một miếng bìa được đặt trước một nguồn sáng rộng như đèn pin, ...<br/><img src=\"https://cdn.save.moe/b/ZuS9kmO.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987252-pgwwbmipx\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Khi này, trên màn quan sát bóng của tấm bìa , ta quan sát được những vùng hoàn toàn là bóng tối (vùng 1) và những vùng bóng nửa tối (vùng 2) nhận được một phần ánh sáng từ nguồn sáng. Liên hệ tình huống này với nhật thực, với Mặt Trời là nguồn sáng và miếng bìa là Mặt Trăng, khi hiện tượng nhật thực xảy ra, trên Trái Đất sẽ xuất hiện những vùng bóng tối và bóng nửa tối. Người đúng ở vùng bóng tối sẽ thấy Mặt Trời bị che khuất hoàn toàn và không có ánh sáng - sẽ nhìn thấy nhật thực toàn phần, còn người đứng ở vùng nửa bóng tối thì sẽ thấy Mặt Trời bị che khuất một phần - nhìn thấy nhật thực một phần.<br/>Hiện tượng nhật thực là một hiện tượng thiên văn quan trọng, dù tần suất xuất hiện không nhiều. Nó đóng vai trò quan trọng trong nhiều nghiên cứu khoa học, đặc biệt là phương pháp quá cảnh - phương pháp dùng để quan sát và phát hiện các ngoại hành tinh trong không gian.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 32 - 35:",
+            "range": [
+                32,
+                33,
+                34,
+                35
+            ],
+            "type": "MQ",
+            "id": "LAE17102581",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Ở thí nghiệm đặt miếng bìa trước nguồn sáng rộng, liên hệ với hiện tượng nhật thực, nguồn sáng được coi tương ứng với:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459437\"></iframe><br />\nLi&ecirc;n hệ với hiện tương Nhật thực, Mặt Trời l&agrave; nguồn ph&aacute;t ra &aacute;nh s&aacute;ng, n&ecirc;n nguồn s&aacute;ng được coi tương ứng với Mặt Trời.",
+            "contentAnswerA": "Mặt Trăng.",
+            "contentAnswerB": "Mặt Trời.",
+            "contentAnswerC": "Trái Đất.",
+            "contentAnswerD": "Người quan sát."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Chọn đúng hoặc sai cho mỗi nhận định dưới đây :",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459437\"></iframe><br />\n&Yacute; a) Đ&uacute;ng, ph&aacute;t biểu n&agrave;y đ&uacute;ng về hiện tượng nhật thực.<br />\n&Yacute; b) Sai, đ&aacute;p &aacute;n l&agrave; Mặt Trăng, bởi đ&acirc;y mới l&agrave; t&aacute;c nh&acirc;n che khuất &aacute;nh s&aacute;ng.<br />\n&Yacute; c) Sai, những người ở v&ugrave;ng b&oacute;ng nửa tối vẫn c&oacute; thể quan s&aacute;t được hiện tượng nhật thực.<br />\n&Yacute; d) Đ&uacute;ng, theo ngữ liệu : &ldquo;Hiện tượng nhật thực l&agrave; một hiện tượng thi&ecirc;n văn quan trọng, d&ugrave; tần suất xuất hiện kh&ocirc;ng nhiều. N&oacute; đ&oacute;ng vai tr&ograve; quan trọng trong nhiều nghi&ecirc;n cứu khoa học, đặc biệt l&agrave; phương ph&aacute;p qu&aacute; cảnh - phương ph&aacute;p d&ugrave;ng để quan s&aacute;t v&agrave; ph&aacute;t hiện c&aacute;c ngoại h&agrave;nh tinh trong kh&ocirc;ng gian&rdquo;).",
+            "contentYA": "Nhật thực là hiện tượng xảy ra khi Mặt Trăng nằm giữa Trái Đất và Mặt Trời, che khuất ánh sáng của Mặt Trời đến Trái Đất.",
+            "contentYB": "Ở thí nghiệm giữa nguồn sáng rộng và miếng bìa, liên hệ với hiện tượng nhật thực, miếng bìa tượng trưng cho Trái Đất.",
+            "contentYC": "Chỉ những người đứng ở vùng bóng tối trên Trái Đất mới quan sát được nhật thực.",
+            "contentYD": "Cơ chế của hiện tượng này đóng vai trò quan trọng trong việc hình thành các phương pháp nghiên cứu thiên văn."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Cho hình ảnh minh họa hiện tượng Nhật thực dưới đây :<br/><img src=\"https://cdn.save.moe/b/h0ByL.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1765864987254-0vdiecf54\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Vùng mang chữ cái nào sẽ quan sát được các hiện tượng dưới đây?<br/><table class=\"word-table\"><tbody><tr><td>Nhật thực một phần.<br/></td><td> <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span><br/></td></tr><tr><td>Nhật thực toàn phần.<br/></td><td> <span class=\"fill-blank\" data-blank-id=\"Câu 34-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span><br/></td></tr><tr><td>Không quan sát được nhật thực.<br/></td><td> <span class=\"fill-blank\" data-blank-id=\"Câu 34-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "B"
+                    ]
+                },
+                {
+                    "2.": [
+                        "A"
+                    ]
+                },
+                {
+                    "3.": [
+                        "C"
+                    ]
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459437\"></iframe><br />\nDựa v&agrave;o th&ocirc;ng tin ngữ liệu : &ldquo;Người đ&uacute;ng ở v&ugrave;ng b&oacute;ng tối sẽ thấy Mặt Trời bị che khuất ho&agrave;n to&agrave;n v&agrave; kh&ocirc;ng c&oacute; &aacute;nh s&aacute;ng - sẽ nh&igrave;n thấy nhật thực to&agrave;n phần, c&ograve;n người đứng ở v&ugrave;ng nửa b&oacute;ng tối th&igrave; sẽ thấy Mặt Trời bị che khuất một phần - nh&igrave;n thấy nhật thực một phần&rdquo;."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Dựa vào hiện tượng nhật thực, phương án nào sau đây là hợp lý nhất khi mô tả về phương pháp quá cảnh?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459437\"></iframe><br />\nBản chất của hiện tương Nhật thực l&agrave; sự giảm ảnh s&aacute;ng của ng&ocirc;i sao chủ khi Mặt Trăng đi qua v&agrave; che khuất Mặt Trời. Ứng dụng hiện tương n&agrave;y, ở một hệ sao c&oacute; h&agrave;nh tinh xoay quanh n&oacute;, ho&agrave;n to&agrave;n c&oacute; thể ph&aacute;t hiện ra h&agrave;nh tinh khi n&oacute; di chuyển trước ng&ocirc;i sao mẹ v&agrave; l&agrave;m giảm độ s&aacute;ng của ng&ocirc;i sao ấy.",
+            "contentAnswerA": "Dùng kính thiên văn quan sát bóng của Mặt Trăng trên Trái Đất để xác định quỹ đạo hành tinh.",
+            "contentAnswerB": "Quan sát sự giảm độ sáng của một ngôi sao khi có một hành tinh đi qua trước nó.",
+            "contentAnswerC": "Sử dụng sóng vô tuyến để quét bề mặt của các hành tinh ngoài hệ Mặt Trời.",
+            "contentAnswerD": "Đo vận tốc quay của sao mẹ để suy ra sự tồn tại của hành tinh xung quanh.",
+            "id": "HAE17102582"
+        },
+        {
+            "question": "90afb3c7-0b84-4489-8fec-0ddb5893267a",
+            "contentQuestions": "<br/><strong>QUY TRÌNH SẢN XUẤT AMMONIA [HAE17102582]</strong><br/>Trước đây, trong nông nghiệp, nguồn đạm sử dụng cho cây trồng khá là khan hiếm. Người ta chỉ có thể phụ thuộc vào những nguồn hữu cơ như phân chuồng, phân xanh,... với nguồn cung cấp cực kì khiêm tốn nhưng nhu cầu lại cực kì cao. Chính vì thế, từ cuối thế kỉ 19, nhân loại đối diện với nguy cơ thiếu hụt lương thực trầm trọng. Chính lúc này, Frits Haber cùng với Carl Bosch đã phát triển thành công tiến trình Haber-Bosch-một quy trình cho phép sản xuất ammonia ($\\mathrm{NH_3}$) với số lượng lớn. Quy trình này có thể được mô tả bởi phương trình sau:<br/>$\\mathrm{N_2(k) + 3H_2(k) \\rightleftharpoons 2NH_3(k)}\\;;\\;(\\Delta H<0)$<br/>Từ ammoniac, người ta sản xuất được phân urea, ammonium sulfate,...và các loại phân đạm khác để cung cấp cho cây trồng, gia tăng năng suất và giúp cứu đói hàng triệu người trên thế giới. Haber được mệnh danh là “ người làm ra bánh mì từ không khí “ từ đó.<br/>Một phần Ammonia tạo ra được dùng để sản xuất nitric acid ($\\mathrm{HNO_3}$) - nguyên liệu tổng hợp nên nhiều loại chất cháy nổ như TNT, cellulose trinitrate, picric acid, ammonium nitrate,... Frits Haber nhận ra được điều đó, nhưng chính ông lại là người khởi xướng việc sử dụng nhiều loại khí độc khác như khí mù tạt, chlorine cũng như các chất cháy nổ trên vào chiến tranh. Vì thế, ông vừa được tôn vinh như một ân nhân nhân loại, vừa bị xem là “cha đẻ của chiến tranh hóa học”.",
+            "title": " Đọc đoạn văn sau và trả lời các câu hỏi từ 36 đến 40:",
+            "range": [
+                36,
+                37,
+                38,
+                39,
+                40
+            ],
+            "type": "MQ",
+            "id": "HAE17102582",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Điền một từ còn thiếu vào ô trống sau :<br/>Trước khi quy trình Haber-Bosch ra đời, nguồn đạm chủ yếu được lấy từ các nguồn <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> như phân chuồng, phân xanh, ...",
+            "type": "TLN",
+            "correctAnswer": [
+                "hữu cơ"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459311\"></iframe><br />\nDựa v&agrave;o ngữ liệu : &ldquo;Trước đ&acirc;y, trong n&ocirc;ng nghiệp, nguồn đạm sử dụng cho c&acirc;y trồng kh&aacute; l&agrave; khan hiếm. Người ta chỉ c&oacute; thể phụ thuộc v&agrave;o những nguồn hữu cơ như ph&acirc;n chuồng, ph&acirc;n xanh,...,với nguồn cung cấp cực k&igrave; khi&ecirc;m tốn nhưng nhu cầu lại cực k&igrave; cao&rdquo;."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Chọn đúng hoặc sai cho những nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459311\"></iframe><br />\n&Yacute; a) Sai, Haber đ&atilde; t&igrave;m ra c&aacute;ch c&oacute; thể sản xuất ph&acirc;n đạm từ kh&iacute; nitrogen trong kh&ocirc;ng kh&iacute;.<br />\n&Yacute; b) Sai, phải l&agrave; cellulose trinitrate.<br />\n&Yacute; c) Đ&uacute;ng, ammonia l&agrave; một chất kh&iacute; tan tốt trong nước.<br />\n&Yacute; d) Đ&uacute;ng, đ&uacute;ng dựa v&agrave;o ngữ liệu, &ocirc;ng vừa l&agrave; người cứu đ&oacute;i cho h&agrave;ng tỉ người, nhưng lại ứng dụng h&oacute;a học v&agrave;o chiến tranh, l&agrave;m mất đi mạng sống của h&agrave;ng triệu người.",
+            "contentYA": "“Người làm ra bánh mì từ không khí” là muốn nói đến việc Haber đã tách được NH3 trong không khí để sản xuất phân đạm.",
+            "contentYB": "Từ $\\mathrm{NH_3}$, con người sản xuất ra nhiều chất cháy nổ như TNT, cellulose, picric acid,...",
+            "contentYC": "$\\mathrm{NH_3}$ là một chất khí tan tốt trong nước ở điều kiện chuẩn.",
+            "contentYD": "Haber là một người có 2 vai trò mâu thuẫn trong lịch sử: vừa là người cứu đói nhân loại, vừa là kẻ diệt chủng nhờ vũ khí hóa học."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Xét phản ứng sản xuất ammonia từ quy trình Haber - Bosch. Cần những điều kiện như thế nào để cân bằng chuyển dịch về phía tạo ra nhiều ammonia hơn?",
+            "type": "MA",
+            "correctAnswer": [
+                "c4",
+                "c5"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459311\"></iframe><br />\nPhản ứng tr&ecirc;n l&agrave; phản ứng tỏa nhiệt, c&oacute; số mol kh&iacute; trước phản ứng nhiều hơn sau phản ứng. Theo nguy&ecirc;n l&yacute; chuyển dịch c&acirc;n bằng Le Chatelier, cần giảm nhiệt độ v&agrave; tăng &aacute;p suất để c&acirc;n bằng chuyển dịch theo chiều thuận.",
+            "contentC1": "Tăng nhiệt độ.",
+            "contentC2": "Giảm áp suất.",
+            "contentC3": "Thêm bột Fe xúc tác.",
+            "contentC4": "Giảm nhiệt độ",
+            "contentC5": "Tăng áp suất"
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Từ câu chuyện của Frits Haber, có thể rút ra bài học rằng :",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459311\"></iframe><br />\nH&oacute;a học vừa c&oacute; thể cứu đ&oacute;i nh&acirc;n loại nhưng cũng c&oacute; thể hủy diệt nh&acirc;n loại. Ch&iacute;nh v&igrave; thế, những kiến thức chỉ n&ecirc;n được sử dụng v&igrave; h&ograve;a b&igrave;nh v&agrave; hạnh ph&uacute;c của con người.",
+            "contentAnswerA": "Khoa học luôn đi lùi so với sự phát triển của nhân loại.",
+            "contentAnswerB": "Khoa học chỉ mang đến lợi ích cho nhân loại.",
+            "contentAnswerC": "Khoa học vừa có thể cứu sống cũng như hủy diệt nhân loại.",
+            "contentAnswerD": "Khoa học kìm hãm sự phát triển của ngành công nghiệp hữu cơ."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Điền một số thích hợp vào ô trống (làm tròn đến 2 chữ số thập phân) :<br/>Từ ammonia, nitric acid được tổng hợp theo quy trình (1) dưới đây:<br/>$\\mathrm{NH_3}\\xrightarrow{+\\mathrm{O_2},\\, t^\\circ,\\, \\text{xt}\\ (1)}\\mathrm{NO}<br/>\\xrightarrow{+\\mathrm{O_2}\\ (2)}\\mathrm{NO_2}<br/>\\xrightarrow{+\\mathrm{O_2}+\\mathrm{H_2O}\\ (3)}\\mathrm{HNO_3}$<br/>Từ nitric acid, người ta tổng hợp được ammonium nitrate (quy trình 2):<br/>$\\mathrm{HNO_3}+\\mathrm{NH_3}\\rightarrow\\mathrm{NH_4NO_3}$<br/>Giả sử hiệu suất của phản ứng (1), (2), (3) và phản ứng tổng hợp ammonium nitrate là 70%, 80%, 90% và 99%. Cần tối thiểu <span class=\"fill-blank\" data-blank-id=\"Câu 40-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> tấn $\\mathrm{NH_3}$ để tạo ra 1 tấn ammonium nitrate.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.64
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/459311\"></iframe><br />\nX&eacute;t qu&aacute; tr&igrave;nh (2):<br />\nĐể tạo ra 80g ammonium nitrate, cần 63g nitric acid v&agrave; 17g ammonia(chưa kể hiệu suất).<br />\n- Khối lượng nitric acid cần l&agrave; : 1/80*63/99% (tấn)<br />\n- Khối lượng ammonia cần cho qu&aacute; tr&igrave;nh 2 l&agrave; : 1/80*17/99%(tấn)<br />\nX&eacute;t qu&aacute; tr&igrave;nh (1):<br />\nĐể tạo ra 63 g nitric acid, cần tối thiểu 17g ammonia.<br />\nHiệu suất của cả qu&aacute; tr&igrave;nh 1 l&agrave;: 70%.80%.90%=50,4%.<br />\nĐể sản xuất được lượng nitric acid cần thiết, cần lượng ammonia l&agrave;:<br />\n(1/80*63/99%)/63*17/50,4% (tấn)<br />\nGom lại lượng ammonia của cả 2 qu&aacute; tr&igrave;nh, ta t&iacute;nh được khối lượng cần thiết l&agrave; 0,64 tấn."
+        }
+    ],
+    "subject": "TƯ DUY KHOA HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-11-02T13:06:01.586Z",
+    "updatedAt": "2026-02-21T15:35:10.629Z",
+    "__v": 0
+}

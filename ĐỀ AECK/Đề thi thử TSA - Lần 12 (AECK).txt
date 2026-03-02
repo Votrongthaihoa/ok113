@@ -1,0 +1,2020 @@
+{
+    "_id": "6958e05d535aa47f9b878a47",
+    "title": "[AECK]-Tư Duy Toán Học-Đề 12",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "C",
+        "Câu 2": "D",
+        "Câu 3": "D",
+        "Câu 4": "C",
+        "Câu 5": "D",
+        "Câu 6": [
+            10
+        ],
+        "Câu 7": "D",
+        "Câu 8": [
+            65
+        ],
+        "Câu 9": "A",
+        "Câu 10": "A",
+        "Câu 11": "B",
+        "Câu 12": "C",
+        "Câu 13": "A",
+        "Câu 14": "D",
+        "Câu 15": "B",
+        "Câu 16": [
+            -0.87
+        ],
+        "Câu 17": "D",
+        "Câu 18": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 19": "D",
+        "Câu 20": "D",
+        "Câu 21": "B",
+        "Câu 22": [
+            24
+        ],
+        "Câu 23": [
+            1
+        ],
+        "Câu 24": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 25": [
+            0.44
+        ],
+        "Câu 26": [
+            0.71
+        ],
+        "Câu 27": [
+            6666
+        ],
+        "Câu 28": "D",
+        "Câu 29": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 30": "C",
+        "Câu 31": [
+            86.4
+        ],
+        "Câu 32": "B",
+        "Câu 33": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 34": "D",
+        "Câu 35": [
+            26
+        ],
+        "Câu 36": "B",
+        "Câu 37": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 38": [
+            3
+        ],
+        "Câu 39": [
+            10
+        ],
+        "Câu 40": [
+            {
+                "slot1": "F>"
+            },
+            {
+                "slot2": "G>"
+            },
+            {
+                "slot3": "J>"
+            },
+            {
+                "slot4": "A>"
+            }
+        ]
+    },
+    "startTime": "2025-12-23T21:01:00.000Z",
+    "endTime": "2026-04-29T21:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Xét tính chẵn lẻ của hàm số $f(x)=\\sin ^{2007} x+\\cos n x$, với $n \\in \\mathbb{Z}$. Hàm số $y=f(x)$ là:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br />\nH&agrave;m số c&oacute; tập x&aacute;c định $D=\\mathbb{R}$.<br />\nTa c&oacute; $f(-x)=\\sin ^{2007}(-x)+\\cos (-n x)=-\\sin ^{2007} x+\\cos n x \\neq \\pm f(x)$.<br />\nVậy h&agrave;m số đ&atilde; cho kh&ocirc;ng chẵn kh&ocirc;ng lẻ.",
+            "contentAnswerA": "Hàm số chẵn.",
+            "contentAnswerB": "Hàm số lẻ.",
+            "contentAnswerC": "Không chẵn không lẻ.",
+            "contentAnswerD": "Vừa chẵn vừa lẻ."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Với mọi $n \\in \\mathbb{N}^{*}$, cho dãy số $\\left(u_{n}\\right)$ gồm tất cả các số tự nhiên chia hết cho 7 theo thứ tự tăng dần. Số hạng tổng quát của dãy số này là",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br />\nC&aacute;c số tự nhi&ecirc;n chia hết cho 7 theo thứ tự tăng dần l&agrave; $0,7,14,21, \\ldots$<br />\nTa c&oacute; $0=7.1-7,7=7.2-7,14=7.3-7,121=7.4-7, \\ldots$ Vậy $u_{n}=7 n-7$.",
+            "contentAnswerA": "$u_{n}=7^{n}$.",
+            "contentAnswerB": "$u_{n}=7 n+7$.",
+            "contentAnswerC": "$u_{n}=7 n$.",
+            "contentAnswerD": "$u_{n}=7 n-7$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho hàm số $y=f(x)$ là hàm đa thức, có bảng biến thiên $f^{\\prime}(x)$ như sau:<br/><img alt=\"A graph with numbers and arrows\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/g8pP7.png?dl=1\" data-temp-key=\"temp-image-1767432065451-puk3ihim2\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Hàm số đồng biến trên khoảng?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br />\nDựa v&agrave;o bảng biến thi&ecirc;n của $f^{\\prime}(x)$ ta c&oacute;: $f^{\\prime}(x) \\geq 0, \\forall x \\in(1 ;+\\infty)$.<br />\nSuy ra: H&agrave;m số đồng biến tr&ecirc;n ( $1 ;+\\infty$ ).<br />\nChọn đ&aacute;p &aacute;n D. $(1; 26)$ v&igrave; khoảng n&agrave;y l&agrave; con của khoảng đồng biến $(1; +\\infty)$.",
+            "contentAnswerA": "$(-\\infty ; 1)$.",
+            "contentAnswerB": "$(-\\infty ; 26)$.",
+            "contentAnswerC": "$(-\\infty ; 8)$.",
+            "contentAnswerD": "$(1 ; 26)$."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Gọi $V$ là thể tích của khối tròn xoay thu được khi quay hình thang cong, giới hạn bởi đồ thị hàm số $y=\\sin x$, trục $O x$, trục $O y$ và đường thẳng $x=\\frac{\\pi}{2}$, xung quanh trục $O x$. Mệnh đề nào dưới đây đúng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Công thức tính: $V=\\pi \\int_{a}^{b} f^{2}(x) d x$.",
+            "contentAnswerA": "$V=\\int_{0}^{\\frac{\\pi}{2}} \\sin ^{2} x d x$.",
+            "contentAnswerB": "$V=\\int_{0}^{\\frac{\\pi}{2}} \\sin x d x$.",
+            "contentAnswerC": "$V=\\pi \\int_{0}^{\\frac{\\pi}{2}} \\sin ^{2} x d x$.",
+            "contentAnswerD": "$V=\\pi \\int_{0}^{\\frac{\\pi}{2}} \\sin x d x$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Tìm tập nghiệm của bất phương trình $2^{x}+2^{x+1} \\leq 3^{x}+3^{x-1}$.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có $2^{x}+2^{x+1} \\leq 3^{x}+3^{x-1} \\Leftrightarrow 3.2^{x} \\leq 4.3^{x-1} \\Leftrightarrow 2^{x-2} \\leq 3^{x-2}$<br/>$\\Leftrightarrow\\left(\\frac{2}{3}\\right)^{x-2} \\leq 1 \\Leftrightarrow x-2 \\geq 0 \\Leftrightarrow x \\geq 2$.",
+            "contentAnswerA": "$(2 ;+\\infty)$.",
+            "contentAnswerB": "$(-\\infty ; 2)$.",
+            "contentAnswerC": "$(-\\infty ; 2]$.",
+            "contentAnswerD": "$[2 ;+\\infty)$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Một cốc nước hình trụ được đặt trên bàn, lượng nước trong cốc có độ cao bằng $\\frac{2}{3}$ chiều cao của cốc. Bạn An đặt một ống hút có chiều dài 15 cm vào trong cốc sao cho một đầu ống hút chạm đáy cốc và đầu còn lại chạm vào miệng cốc. Tính chiều dài phần ống hút bị ướt trong cốc.<br/><img alt=\"A glass of water on a table\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/qWflO.png?dl=1\" data-temp-key=\"temp-image-1767432065452-d4663f2ne\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 6-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                10
+            ],
+            "explanation": "<br/>Theo định lí Thales trong không gian, chiều dài phần ống hút bị ướt trong cốc bằng $\\frac{2}{3}$ chiều dài ống hút. Vậy chiều dài phần ống hút bị ướt bằng $\\frac{2}{3} \\cdot 15=10 cm$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Cho hình chữ nhật $A B C D$ có cạnh $A B=4, B C=6, M$ là trung điểm $B C, N$ là điểm trên cạnh $C D$ sao cho $N D=3 N C$. Khi đó bán kính của đường tròn ngoại tiếp tam giác $A M N$ bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có $S_{A M N}=S_{A B C D}-\\left(S_{A B M}+S_{C M N}+S_{A D N}\\right)=\\frac{15}{2}$.<br/>Suy ra: $A M=\\sqrt{16+9}=5 ; M N=\\sqrt{10} ; A N=3 \\sqrt{5} ; S_{A M N}=\\frac{A M \\cdot M N \\cdot A N}{4 R}=\\frac{75 \\sqrt{2}}{4 R} \\Rightarrow R=\\frac{5 \\sqrt{2}}{2}$.",
+            "contentAnswerA": "$3 \\sqrt{5}$.",
+            "contentAnswerB": "$5 \\sqrt{2}$.",
+            "contentAnswerC": "$\\frac{3 \\sqrt{5}}{2}$.",
+            "contentAnswerD": "$\\frac{5 \\sqrt{2}}{2}$."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Cho tam giác $A B C$ có $A(0 ; 3) ; B(-1 ; 2) ; C(2 ; 1)$. Điều kiện của tham số $m$ để điểm $M\\left(m ; \\frac{2 m-1}{2}\\right)$ nằm bên trong tam giác $A B C$ có dạng $\\frac{a}{8}<m<\\frac{7}{b}$ với $a ; b$ là các số tự nhiên. Tính giá trị $S=a b+a$<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                65
+            ],
+            "explanation": "<br/>Đường thẳng $A B: \\frac{x-0}{-1-0}=\\frac{y-3}{2-3} \\Leftrightarrow x-y+3=0$.<br/>Đường thẳng $A C: \\frac{x-0}{2-0}=\\frac{y-3}{1-3} \\Leftrightarrow x+y-3=0$.<br/>Đường thẳng $B C: \\frac{x-2}{2-(-1)}=\\frac{y-1}{1-2} \\Leftrightarrow x+3 y-5=0$.<br/>Điều kiện cần và đủ để điểm $M$ nằm bên trong tam giác $A B C$ là điểm $M$ cùng với mỗi đỉnh $A, B, C$ lần lượt cùng phía với nhau đối với cạnh $A B, A C, B C$<br/>$\\Leftrightarrow\\left\\{\\begin{array} { l }<br/>{ ( 1 \\cdot 0 + 3 \\cdot 3 - 5 ) \\cdot ( 1 \\cdot m + 3 \\cdot \\frac { 2 m - 1 } { 2 } - 5 ) > 0 } \\\\<br/>{ ( 1 \\cdot ( - 1 ) + 1 \\cdot 2 - 3 ) \\cdot ( 1 \\cdot m + 1 \\cdot \\frac { 2 m - 1 } { 2 } - 3 ) > 0 \\Leftrightarrow } \\\\<br/>{ ( 1. 2 - 1. 1 + 3 ) \\cdot ( 1 \\cdot m - 1 \\cdot \\frac { 2 m - 1 } { 2 } + 3 ) > 0 }<br/>\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}<br/>m>\\frac{13}{8} \\\\<br/>m<\\frac{7}{4} \\\\<br/>14>0(t m)<br/>\\end{array} \\Leftrightarrow \\frac{13}{8}<m<\\frac{7}{4}\\right.\\right.$<br/>Khi đó $a=13 ; b=4 \\Rightarrow S=a b+a=65$."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Cho hàm số $y=f(x)$ thỏa mãn $\\lim _{x \\rightarrow-\\infty} f(x)=m$ và $\\lim _{x \\rightarrow+\\infty} f(x)=m^{3}-2 m-2$ với $m$ là tham số thực. Gọi $S$ là tập hợp tất cả các giá trị của $m$ để đồ thị hàm số $y=f(x)$ có duy nhất một tiệm cận ngang. Khi ấy tổng tất cả các phần tử của $S$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Đồ thị hàm số có duy nhất một tiệm cận ngang khi và chỉ khi $\\lim _{x \\rightarrow-\\infty} f(x)=\\lim _{x \\rightarrow+\\infty} f(x)$<br/>Khi ấy ta có phương trình $m=m^{3}-2 m-2 \\Leftrightarrow(m-2)(m+1)^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}m=2 \\\\ m=-1\\end{array} \\rightarrow|S|=1\\right.$.",
+            "contentAnswerA": "$1$.",
+            "contentAnswerB": "$-1$.",
+            "contentAnswerC": "$0$.",
+            "contentAnswerD": "$-2$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Cho hình chóp $S. A B C D$ có đáy $A B C D$ là hình chữ nhật với $A B=a$, cạnh bên $S A$ vuông góc với đáy và $S A=a$. Gọi $S x$ là giao tuyến của hai mặt phẳng $(S A D)$ và $(S B C)$. Số đo của góc nhị diện $[A, S x, B]$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><img alt=\"A triangle with lines and points\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/9e7r69W.png?dl=1\" data-temp-key=\"temp-image-1767432065453-gxvvegcjx\" class=\"mx-auto\" style=\"\"><br/>Ta có: $(S B C) \\cap(S A D)=S x / / B C / / A D$.<br/>Ta chứng minh được $B C \\perp(S A B) \\Rightarrow B C \\perp S B \\Rightarrow S x \\perp S B$.<br/>Lại có: $S A \\perp(A B C D) \\Rightarrow S A \\perp A D \\Rightarrow S A \\perp S x$.<br/>Vậy số đo của góc nhị diện $[A, S x, B]$ bằng số đo góc $B S A=45^{\\circ}$ (do $\\triangle S A B$ vuông cân tại $A$ ).",
+            "contentAnswerA": "$45^{\\circ}$.",
+            "contentAnswerB": "$30^{\\circ}$.",
+            "contentAnswerC": "$60^{\\circ}$.",
+            "contentAnswerD": "$90^{\\circ}$."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Cho biết hàm số $y=f(x)=x^{3}+a x^{2}+b x+c$ đạt cực trị tại điểm $x=1, f(3)=29$ và đồ thị hàm số cắt trục tung tại điểm có tung độ là 2. Tính giá trị của hàm số tại $x=-2$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có: $f^{\\prime}(x)=3 x^{2}+2 a x+b$.<br/>Theo đề bài ta có: $\\left\\{\\begin{array}{l}f^{\\prime}(1)=0 \\\\ f(3)=29 \\\\ f(0)=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 a+b=-3 \\\\ 9 a+3 b+c=2 \\\\ c=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=3 \\\\ b=-9 \\\\ c=2\\end{array}\\right.\\right.\\right.$.<br/>$\\Rightarrow f(x)=x^{3}+3 x^{2}-9 x+2 \\Rightarrow f(-2)=24$.",
+            "contentAnswerA": "$f(-2)=4$.",
+            "contentAnswerB": "$f(-2)=24$.",
+            "contentAnswerC": "$f(-2)=2$.",
+            "contentAnswerD": "$f(-2)=16$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Trong không gian $O x y z$, cho bốn điểm $A(1 ; 2 ; 1), B(2 ;-1 ;-3), C(-2 ; 0 ; 3), D(0 ; 3 ; 4)$. Nếu tứ diện $M N P Q$ thỏa mãn $\\overrightarrow{A M}+\\overrightarrow{B N}+\\overrightarrow{C P}+\\overrightarrow{D Q}=\\overrightarrow{0}$ thì toạ độ trọng tâm tứ diện $M N P Q$ là:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Gọi $G, G^{\\prime}$ lần lượt là trọng tâm các tứ diện $A B C D, M N P Q$.<br/>Khi ấy ta có: $G=\\frac{A+B+C+D}{4} \\rightarrow G\\left(-\\frac{1}{4} ; 1 ; \\frac{5}{4}\\right)$.<br/>Mặt khác ta có: $\\overrightarrow{O M}+\\overrightarrow{O N}+\\overrightarrow{O P}+\\overrightarrow{O Q}=4 \\overrightarrow{O G^{\\prime}}$ và $\\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C}+\\overrightarrow{O D}=4 \\overrightarrow{O G}$.<br/>Nên suy ra: $4\\left(\\overrightarrow{O G}+\\overrightarrow{O G^{\\prime}}\\right)=4 \\overrightarrow{G G^{\\prime}}=\\overrightarrow{A M}+\\overrightarrow{B N}+\\overrightarrow{C P}+\\overrightarrow{D Q}=\\overrightarrow{0}$ tức $G^{\\prime} \\equiv G\\left(-\\frac{1}{4} ; 1 ; \\frac{5}{4}\\right)$.",
+            "contentAnswerA": "$\\left(-\\frac{1}{4} ; \\frac{5}{4} ; 1\\right)$.",
+            "contentAnswerB": "$\\left(\\frac{1}{4} ;-1 ; \\frac{5}{4}\\right)$.",
+            "contentAnswerC": "$\\left(-\\frac{1}{4} ; 1 ; \\frac{5}{4}\\right)$.",
+            "contentAnswerD": "$\\left(-\\frac{1}{4} ;-\\frac{5}{4} ;-1\\right)$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Thời gian chạy tập luyện cự li $100 m$ của bốn vận động viên được cho trong bảng sau:<br/><table class=\"word-table\"><tbody><tr><td>Thời gian (giây)</p></td><td>[10;10,3)</p></td><td>[10,3;10,6)</p></td><td>[10,6;10,9)</p></td><td>[10,9;11, 2)</p></td></tr><tr><td>Số lần chạy của A</p></td><td>2</p></td><td>10</p></td><td>5</p></td><td>3</p></td></tr><tr><td>Số lần chạy của B</p></td><td>3</p></td><td>7</p></td><td>9</p></td><td>6</p></td></tr><tr><td>Số lần chạy của C</p></td><td>2</p></td><td>8</p></td><td>6</p></td><td>4</p></td></tr><tr><td>Số lần chạy của D</p></td><td>4</p></td><td>6</p></td><td>8</p></td><td>7</p></td></tr></tbody></table>Dựa trên độ lệch chuẩn của các mẫu số liệu ghép nhóm, hãy cho biết vận động viên nào có thành tích luyện tập ổn định nhất.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\nTừ giả thiết ta c&oacute; bảng gi&aacute; trị đại diện như sau:\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Gi&aacute; trị đại diện\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10,15\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10,45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10,75\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>11,05\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Số lần chạy của A\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Số lần chạy của B\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>9\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Số lần chạy của C\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Số lần chạy của D\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nSử dụng MTCT t&iacute;nh được: $s_{A} \\approx 0,259374247 ; s_{B} \\approx 0,288 ; s_{C} \\approx 0,2749545417 ; s_{D} \\approx 0,312$.<br />\nV&igrave; $s_{A}$ nhỏ nhất n&ecirc;n vận động vi&ecirc;n A c&oacute; th&agrave;nh t&iacute;ch luyện tập ổn định nhất.",
+            "contentAnswerA": "Vận động viên A",
+            "contentAnswerB": "Vận động viên B",
+            "contentAnswerC": "Vận động viên C",
+            "contentAnswerD": "Vận động viên D"
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Có bao nhiêu cách sắp xếp 6 chữ cái từ bộ chữ cái MAYMAN thành một hàng sao cho mỗi cách sắp xếp 2 chữ cái giống nhau không đứng cạnh nhau.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Nếu không có điều kiện gì số cách sắp xếp là $\\frac{6!}{2!2!}-s=180-s$.<br/>Trong đó $s$ là số các sắp xếp mà hai chữ cái giống nhau đứng cạnh nhau. Bây giờ ta tính $s$.<br/>B1: Số cách sắp xếp để 2 chữ AA đứng cạnh nhau. Ta có $A A$ là một chữ cái, vậy ta còn 5 chữ cái. Số cách sắp xếp là $\\frac{5!}{2!}=60$.<br/>B2: Số cách sắp xếp để 2 chữ MM đứng cạnh nhau cũng là $\\frac{5!}{2!}=60$.<br/>B3: Số cách sắp xếp để 2 chữ MM đứng cạnh nhau và 2 chữ AA cũng đứng cạnh nhau là: $4!=24$.<br/>Suy ra $s=60+60-24=96$.<br/>Đáp số $180-96=84$.",
+            "contentAnswerA": "$696$.",
+            "contentAnswerB": "$180$.",
+            "contentAnswerC": "$80$.",
+            "contentAnswerD": "$84$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Cho $\\sin \\alpha=\\frac{4}{5}$, với $\\alpha$ là góc tù. Biết kết quả $\\frac{\\sin \\alpha+\\cos \\alpha}{\\cos ^{3} \\alpha}=\\frac{a}{b}$ tối giản ( $a<0$ ). Khi ấy giá trị của biểu thức $2 a-3 b$ bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có $\\cos ^{2} \\alpha=1-\\sin ^{2} \\alpha=1-\\left(\\frac{4}{5}\\right)^{2}=\\frac{9}{25}$.<br/>Do $\\alpha$ là góc tù nên $90^{\\circ} \\leq \\alpha \\leq 180^{\\circ} \\Rightarrow \\cos \\alpha<0 \\Rightarrow \\cos \\alpha=-\\frac{3}{5}$.<br/>Từ đó $\\frac{\\sin \\alpha+\\cos \\alpha}{\\cos ^{3} \\alpha}=\\frac{-25}{27}=\\frac{a}{b} \\Rightarrow\\left\\{\\begin{array}{l}a=-25 \\\\ b=27\\end{array}\\right.$. Vậy $2 a-3 b=2.(-25)-3.27=-131$.",
+            "contentAnswerA": "$-112$.",
+            "contentAnswerB": "$-131$.",
+            "contentAnswerC": "$-144$.",
+            "contentAnswerD": "$-129$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Trong hình vẽ, xe $A$ kéo xe $B$ bằng một sợi dây dài $39 m$ qua một ròng rọc ở độ cao $12 m$. Xe $A$ xuất phát từ $N$ và chạy với vận tốc không đổi $2 m / s$ theo chiều mũi tên.<br/><img alt=\"A diagram of a triangle with a triangle and a cart\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/DR7kMMu.png?dl=1\" data-temp-key=\"temp-image-1767432065454-dkzjtkhnw\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Tính vận tốc (đơn vị: mét/giây) của xe $B$ khi xe $A$ cách $N$ một khoảng bằng $5 m$ (làm tròn kết quả đến hàng phần trăm).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 16-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                -0.87
+            ],
+            "explanation": "<br/>Ta có sau $t$ giây kể từ lúc $A$ bắt đầu chuyển động từ $N$ thì $N A=v_{A} \\cdot t=2 t$<br/>Suy ra: $A M=\\sqrt{M N^{2}+N A^{2}}=\\sqrt{4 t^{2}+12^{2}}$<br/>Và $N B(t)=\\sqrt{B M^{2}-M N^{2}}=\\sqrt{(l-A M)^{2}-M N^{2}}=\\sqrt{\\left(39-\\sqrt{4 t^{2}+144}\\right)^{2}-144}$<br/>Khi $N A=5$ thì ta có $2 t=5 \\Leftrightarrow t=2,5$ giây<br/>Suy ra $N B^{\\prime}(2,5)=\\frac{d}{d t}\\left(\\sqrt{\\left(39-\\sqrt{4 t^{2}+144}\\right)^{2}-144}\\right)_{t=2,5 s}=-\\frac{10}{\\sqrt{133}} \\approx-0,87 m / s$"
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Trong không gian, cho mặt phẳng $(P): 6 x-2 y+z-35=0$ và điểm $A(-1 ; 3 ; 6)$. Gọi $A^{\\prime}$ là điểm đối xứng của $A$ qua $(P)$. Tính độ dài đoạn thẳng $O A^{\\prime}$.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Phương trình đường thẳng qua $A$, vuông góc với $(P)$ là: $\\frac{x+1}{6}=\\frac{y-3}{-2}=\\frac{z-6}{1}$<br/>Toạ độ điểm $A^{\\prime}$ là nghiệm của hệ phương trình sau:<br/>$\\left\\{\\begin{array}{l}\\frac{x+1}{6}=\\frac{y-3}{-2}=\\frac{z-6}{1} \\\\ 6\\left(\\frac{x-1}{2}\\right)-2\\left(\\frac{y+3}{2}\\right)+\\left(\\frac{z+6}{2}\\right)-35=0\\end{array} \\Leftrightarrow(x ; y ; z)=(11 ;-1 ; 8) \\rightarrow O A^{\\prime}=\\sqrt{186}\\right.$.",
+            "contentAnswerA": "$O A^{\\prime}=\\sqrt{98}$.",
+            "contentAnswerB": "$O A^{\\prime}=\\sqrt{123}$.",
+            "contentAnswerC": "$O A^{\\prime}=\\sqrt{117}$.",
+            "contentAnswerD": "$O A^{\\prime}=\\sqrt{186}$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Biết giới hạn $\\lim \\left(-2 n^{3}-5 n+9\\right)=a$ và $\\lim \\frac{4^{n}+3}{1+3 \\cdot 4^{n+1}}=b$. Khi đó:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>Ta có: $\\lim \\left(-2 n^{3}-5 n+9\\right)=\\lim n^{3}\\left(-2-\\frac{5}{n^{2}}+\\frac{9}{n^{3}}\\right)=-\\infty$, do $\\left\\{\\begin{array}{l}\\lim n^{3}=+\\infty \\\\ \\lim \\left(-2-\\frac{5}{n^{2}}+\\frac{9}{n^{3}}\\right)=-2\\end{array}\\right.$<br/>$\\lim \\frac{4^{n}+3}{1+3 \\cdot 4^{n+1}}=\\lim \\frac{4^{n}+3}{1+12 \\cdot 4^{n}}=\\lim \\frac{4^{n}\\left(1+\\frac{3}{4^{n}}\\right)}{4^{n}\\left(\\frac{1}{4^{n}}+12\\right)}=\\lim \\frac{1+\\frac{3}{4^{n}}}{\\frac{1}{4^{n}}+12}=\\frac{1}{12}$<br/>a, Sai. Tích a.b $=-\\infty$<br/>b, Đúng.Hàm số $y=\\sqrt{1-x}$ có tập xác định là $D(-\\infty ; 1]$<br/>c, Đúng. Giá trị $\\frac{1}{12}$ là số lớn hơn 0<br/>d, Sai. Phương trình lượng giác $\\cos x=\\frac{1}{12}$ có nghiệm",
+            "contentYA": "Tích $a. b=3$.",
+            "contentYB": "Hàm số $y=\\sqrt{1-x}$ có tập xác định là $D(a ; 1]$.",
+            "contentYC": "Giá trị $b$ là số lớn hơn 0.",
+            "contentYD": "Phương trình lượng giác $\\cos x=b$ vô nghiệm."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Tìm nguyên hàm của hàm số $f(x)=\\frac{\\sin x}{1+3 \\cos x}$.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có: $\\int \\frac{\\sin x}{1+3 \\cos x} d x=-\\frac{1}{3} \\int \\frac{1}{1+3 \\cos x} d(1+3 \\cos x)=-\\frac{1}{3} \\ln |1+3 \\cos x|+C$.",
+            "contentAnswerA": "$\\int f(x) d x=\\frac{1}{3} \\ln |1+3 \\cos x|+C$.",
+            "contentAnswerB": "$\\int f(x) d x=\\ln |1+3 \\cos x|+C$.",
+            "contentAnswerC": "$\\int f(x) d x=3 \\ln |1+3 \\cos x|+C$.",
+            "contentAnswerD": "$\\int f(x) dx=-\\frac{1}{3} \\ln |1+3 \\cos x|+C$."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Một tập hợp $S$ hữu hạn các số thực có các tính chất sau: trung bình của $S \\cup\\{1\\}$ nhỏ hơn trung bình của $S$ là 13 và trung bình của $S \\cup\\{2001\\}$ lớn hơn trung bình của $S$ là 27. Khi ấy giá trị trung bình của tập hợp $S$ là",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta gọi $x$ là giá trị trung bình của $S$. Gọi $a$ là số phần tử trong $S$. Khi ấy ta có:<br/>$\\frac{a x+1}{a+1}=x-13 \\quad (1)$ và $\\frac{a x+2001}{a+1}=x+27 \\quad (2)$<br/>Trừ (2) và (1) theo vế, ta có: $\\frac{a x+2001}{a+1}-\\frac{a x+1}{a+1}=40 \\Leftrightarrow \\frac{2000}{a+1}=40 \\Leftrightarrow a=49$.<br/>Thay vào công thức đầu tiên: $\\frac{49 x+1}{50}=x-13 \\Leftrightarrow 49 x+1=50 x-650 \\Leftrightarrow x=651$.",
+            "contentAnswerA": "$650$.",
+            "contentAnswerB": "$50$.",
+            "contentAnswerC": "$49$.",
+            "contentAnswerD": "$651$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Trong hình dưới đây, điểm $B$ là trung điểm của đoạn thẳng $A C$. Khẳng định nào sau đây là đúng?<br/><img alt=\"A diagram of a curve\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/Fz5ND.png?dl=1\" data-temp-key=\"temp-image-1767432065456-5c1rrrs1r\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Điểm $A, B, C$ lần lượt là tung độ của các điểm có hoành độ $a, b, c$.<br/>Suy ra tung độ của $A, B, C$ lần lượt là: $\\ln a ; \\ln b ; \\ln c$.<br/>Theo giả thiết $B$ là trung điểm đoạn thẳng $A C \\Rightarrow \\ln b=\\frac{\\ln a+\\ln c}{2}$<br/>$\\Leftrightarrow 2 \\ln b=\\ln a+\\ln c \\Leftrightarrow \\ln b^{2}=\\ln (a. c)$<br/>$\\Leftrightarrow b^{2}=a c$. Vậy $a c=b^{2}$.",
+            "contentAnswerA": "$a+c=2 b$.",
+            "contentAnswerB": "$a c=b^{2}$.",
+            "contentAnswerC": "$a c=2 b^{2}$.",
+            "contentAnswerD": "$a c=b$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Trong một hệ thống chiếu laser, góc quét $\\theta$ có liên hệ với khoảng cách chiếu $D$ từ máy quét đến màn hình và chiều rộng ảnh chiếu $W$ qua công thức: $W=2 D\\left(\\frac{1}{\\sin \\theta}-\\frac{\\cos \\theta}{\\sin \\theta}\\right)$.<br/><img alt=\"A diagram of a triangle\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/UKSVZNo.png?dl=1\" data-temp-key=\"temp-image-1767432065457-b85d5x5rz\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Tìm góc quét $\\theta$ bằng bao nhiêu độ nếu khoảng cách chiếu là $D=15 m$ và chiều rộng ảnh chiếu là $W=6,5 m$ (làm tròn kết quả đến hàng đơn vị).<br/>Nguồn: Pangolin Laser Systems, Inc.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 22-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                24
+            ],
+            "explanation": "<br/>Ta có: $W=2 D\\left(\\frac{1}{\\sin \\theta}-\\frac{\\cos \\theta}{\\sin \\theta}\\right)=2 D \\frac{1-\\cos \\theta}{\\sin \\theta}=2 D \\tan \\frac{\\theta}{2}$<br/>Vậy $W=2 D \\tan \\frac{\\theta}{2} \\Rightarrow \\tan \\frac{\\theta}{2}=\\frac{W}{2 D}=\\frac{6,5}{2.15}=\\frac{6,5}{30} \\approx 0,21667 \\ldots$<br/>Do đó $\\frac{\\theta}{2}=\\arctan (0,21667) \\approx 12^{\\circ} \\Rightarrow \\theta \\approx 24^{\\circ}$<br/>Kết quả: $\\theta \\approx 24^{\\circ}$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Cho hàm số $y=\\frac{x^{2}+(2 m+3) x+m+1}{x+2}$. Gọi $S$ là tập hợp các giá trị của tham số $m$ để khoảng cách từ $A(1 ; 3)$ đến tiệm cận xiên của đồ thị hàm số bằng $\\sqrt{2}$. Tính tổng các phần tử của $S$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 23-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br/>Ta có: $y=x+2 m+1+\\frac{-3 m-1}{x+2}$. Và $\\lim _{x \\rightarrow \\pm \\infty}(y-(x+2 m+1))=\\lim _{x \\rightarrow \\pm \\infty} \\frac{-3 m-1}{x+2}=0$ suy ra tiệm cận xiên của đồ thị hàm số là đường thẳng $\\Delta: y=x+2 m+1$.<br/>Ta có: $d(A, \\Delta)=\\sqrt{2} \\Rightarrow \\frac{|1-3+2 m+1|}{\\sqrt{2}}=\\sqrt{2} \\Rightarrow|2 m-1|=2 \\Rightarrow\\left[\\begin{array}{l}m=\\frac{3}{2} \\\\ m=\\frac{-1}{2}\\end{array}\\right.$.<br/>Vậy tổng các phần tử của $S$ bằng 1."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Trong không gian $O x y z$, cho các điểm $A(1 ; 1 ; 0), B(5 ;-3 ; 2)$ và $C(0 ; 4 ;-1)$. Xét các điểm $M$ thay đổi trong không gian sao cho diện tích tam giác $A B M$ bằng $6 \\sqrt{2}$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>Ta có $A B=\\sqrt{(5-1)^{2}+(-3-1)^{2}+(2-0)^{2}}=6$. Do đó ý a Sai.<br/>$\\overrightarrow{A B}=(4 ;-4 ; 2)=2(2 ;-2 ; 1)$<br/>Đường thẳng $A B$ đi qua điểm $A(1 ; 1 ; 0)$ và nhận $\\vec{u}=(2 ;-2 ; 1)$ làm vectơ chỉ phương.<br/>Vậy phương trình của $A B$ là $\\frac{x-1}{2}=\\frac{y-1}{-2}=\\frac{z}{1}$. Do đó ý b Đúng.<br/>Đường thẳng $A B$ đi qua điểm $A(1 ; 1 ; 0)$ và nhận $\\vec{u}=(2 ;-2 ; 1)$ làm vectơ chỉ phương.<br/>Ta có $[\\overrightarrow{C A}, \\vec{u}]=(-1 ; 1 ; 4)$.<br/>$d(C, A B)=\\frac{\\|[\\overrightarrow{C A}, \\vec{u}] \\mid}{|\\vec{u}|}=\\frac{\\sqrt{1^{2}+1^{2}+4^{2}}}{\\sqrt{2^{2}+(-2)^{2}+1^{2}}}=\\sqrt{2}$. Do đó ý c Sai.<br/>$S_{\\triangle M A B}=6 \\sqrt{2} \\Rightarrow \\frac{1}{2} \\cdot d(M, A B) \\cdot A B=6 \\sqrt{2} \\Rightarrow d(M, A B)=2 \\sqrt{2}$<br/>Gọi $I$ là hình chiếu của $C$ lên $A B$. Ta có $d(C, A B)=C I=\\sqrt{2}$.<br/>Để $M C$ nhỏ nhất thì điểm $M$ nằm giữa hai đểm $C$ và $I$.<br/>Suy ra $M C_{\\min }=2 \\sqrt{2}-\\sqrt{2}=\\sqrt{2}$. Do đó ý d Đúng.",
+            "contentYA": "Đoạn thẳng $A B$ có độ dài bằng 3.",
+            "contentYB": "Đường thẳng $A B$ có phương trình là $\\frac{x-1}{2}=\\frac{y-1}{-2}=\\frac{z}{1}$.",
+            "contentYC": "Khoảng cách từ điểm $C$ tới đường thẳng $A B$ bằng $2 \\sqrt{2}$.",
+            "contentYD": "Đoạn thẳng $M C$ có độ dài nhỏ nhất bằng $\\sqrt{2}$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Cho số thực $t$ thỏa mãn $0<t<3$. Xét đồ thị hàm số $y=\\left|\\frac{2}{x}-3\\right|$ và đường thẳng $y=t$. Gọi $f(t)$ là khoảng cách giữa hai giao điểm của đường thẳng $y=t$ với đồ thị hàm số. Hỏi: $\\lim _{t \\rightarrow 0^{+}} \\frac{f(t)}{t}$ bằng bao nhiêu? (làm tròn kết quả đến hàng phần trăm)<br/><img src=\"https://cdn.save.moe/b/Ml4MqH.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1767432065458-k7ytgx1oa\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 25-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.44
+            ],
+            "explanation": "<br/><img alt=\"A diagram of a mathematical equation\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/6OVoOfk.png?dl=1\" data-temp-key=\"temp-image-1767432065458-9mswmveh8\" class=\"mx-auto\" style=\"\"><br/>Gọi đường thẳng $y=t$ cắt đồ thị $y=\\left|\\frac{2}{x}-3\\right|$ tại hai điểm $G, H$<br/>Khi đó: $\\left\\{\\begin{array}{l}t=\\frac{2}{x_{G}}-3 \\\\ t=3-\\frac{2}{x_{H}}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}t+3=\\frac{2}{x_{G}} \\\\ 3-t=\\frac{2}{x_{H}}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{G}=\\frac{2}{t+3} \\Rightarrow G\\left(\\frac{2}{t+3} ; t\\right) \\\\ x_{H}=\\frac{2}{3-t} \\Rightarrow H\\left(\\frac{2}{3-t} ; t\\right)\\end{array}\\right.\\right.\\right.$<br/>Ta có $f(t)=\\frac{2}{3-t}-\\frac{2}{t+3}=\\frac{4 t}{(3-t)(3+t)}$<br/>Vậy $\\lim _{t \\rightarrow 0^{+}} \\frac{f(t)}{t}=\\frac{4}{9} \\approx 0,44$"
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho hình lăng trụ tứ giác đều $A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$ có cạnh đáy bằng 2. Gọi $M, N, P$ lần lượt là trung điểm của $A D, D C, A^{\\prime} D^{\\prime}$. Tính $d\\left((M N P),\\left(A C C^{\\prime}\\right)\\right)$ (làm tròn kết quả đến hàng phần trăm).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 26-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.71
+            ],
+            "explanation": "<br/><img alt=\"A drawing of a cube\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/9q7oni.png?dl=1\" data-temp-key=\"temp-image-1767432065458-3yyabqel8\" class=\"mx-auto\" style=\"\"><br/>Vì $M N$ là đường trung bình của tam giác $D A C$ nên $M N / / A C \\quad (1)$<br/>$M P$ là đường trung bình của $D A A^{\\prime} D^{\\prime}$ nên $M P / / C C^{\\prime} \\quad (2)$<br/>Từ (1),(2) suy ra $( M N P )//(A C C^{\\prime} )$.<br/>Gọi $O=A C \\cap B D, I=M N \\cap B D$,<br/>Khi đó $\\left\\{\\begin{array}{l}O I \\perp A C \\\\ O I \\perp C C^{\\prime}\\end{array} \\Rightarrow O I \\perp\\left(A C C^{\\prime}\\right)\\right.$.<br/>Vậy $d\\left((M N P),\\left(A C C^{\\prime}\\right)\\right)=d\\left(I,\\left(A C C^{\\prime}\\right)\\right)=O I=\\frac{1}{2} D O=\\frac{1}{2} \\cdot \\frac{2 \\sqrt{2}}{2}=\\frac{\\sqrt{2}}{2} \\approx 0,71$."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Bốn số khác nhau được chọn từ chín chữ số từ 1 đến 9. Bây giờ có rất nhiều cách khác nhau để tạo thành số có bốn chữ số từ bốn số này. Tất cả các số có bốn chữ số khác nhau này được cộng lại với nhau để tạo thành tổng $S$. Vì có nhiều cách khác nhau để chọn bốn trong chín chữ số nên $S$ cũng có thể có nhiều giá trị khác nhau. Hỏi ước chung lớn nhất của tất cả các giá trị này của $S$ là bao nhiêu?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 27-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6666
+            ],
+            "explanation": "<br/>Gọi bốn chữ số được chọn là $a, b, c, d$. Để tạo thành một số có bốn chữ số, có bốn cách chọn chữ số hàng đơn vị. Khi đó còn lại 3 chữ số để chọn cho hàng chục và chỉ còn lại 2 chữ số cho hàng trăm. Cuối cùng, chỉ có 1 chữ số ở hàng nghìn. Do đó, có thể lập được $4 \\times 3 \\times 2 \\times 1=24$ số có bốn chữ số khác nhau.<br/>Trong 24 số này, số $a$ xuất hiện 6 lần ở hàng đơn vị, hàng chục, hàng trăm và hàng nghìn. Do đó, nó đóng góp $6(a+10 a+100 a+1000 a)=6666 a$ vào tổng $S$ của 24 số. Các số $b, c, d$ thể hiện sự đóng góp tương ứng. Điều này tạo thành S với $6666(a+b+c+d)$.<br/>Hệ số $(a+b+c+d)$ có thể nhận bất kỳ giá trị nào từ 10 đến 30. Hai giá trị đầu tiên 10 và 11 là nguyên tố cùng nhau và quy ước ước chung lớn nhất của tất cả các thừa số $(a+b+c+d)$ xuống 1. Do đó, ước chung lớn nhất của tất cả các giá trị có thể có của $S$ là số 6666."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Trong các dãy số sau, dãy số nào là dãy số tăng?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>+) Ta có $u_{n}=(-1)^{n}, \\forall n \\in \\mathbb{N}^{*}$ nên: $\\left\\{\\begin{array}{l}u_{1}=(-1)^{1}=-1 \\\\ u_{2}=(-1)^{2}=1 \\\\ u_{3}=(-1)^{3}=-1\\end{array}\\right.$ tức dãy số không tăng, không giảm.<br/>+) Dãy số $\\left(u_{n}\\right)$ có $u_{n}=3 n^{2}-18 n, \\forall n \\in \\mathbb{N}^{*}$ nên $\\left\\{\\begin{array}{l}u_{2}=-24 \\\\ u_{2}=-27 \\\\ u_{3}=-24\\end{array}\\right.$ tức dãy số không tăng, không giảm.<br/>+) Dãy số $\\left(u_{n}\\right)$ có $u_{n}=-2023 n+2024, \\forall n \\in \\mathbb{N}^{*}$ nên $\\left\\{\\begin{array}{l}u_{2}=1 \\\\ u_{2}=-2022\\end{array}\\right.$ tức dãy số không tăng.<br/>+) Dãy số $\\left(u_{n}\\right)$ có $u_{n}=\\frac{n}{n+5}, \\forall n \\in \\mathbb{N}^{*}$<br/>$\\Rightarrow u_{n+1}=\\frac{n+1}{n+6} \\Rightarrow u_{n+1}-u_{n}=\\frac{n+1}{n+6}-\\frac{n}{n+5}=\\frac{5}{(n+6) \\cdot(n+5)}>0, \\forall n \\in \\mathbb{N}^{*} \\Rightarrow u_{n+1}>u_{n}, \\forall n \\in \\mathbb{N}^{*}$.<br/>Suy ra dãy đã cho tăng.",
+            "contentAnswerA": "Dãy số $\\left(u_{n}\\right)$ có $u_{n}=(-1)^{n}, \\forall n \\in \\mathbb{N}^{*}$.",
+            "contentAnswerB": "Dãy số $\\left(u_{n}\\right)$ có $u_{n}=3 n^{2}-18 n, \\forall n \\in \\mathbb{N}^{*}$.",
+            "contentAnswerC": "Dãy số $\\left(u_{n}\\right)$ có $u_{n}=-2023 n+2024, \\forall n \\in \\mathbb{N}^{*}$.",
+            "contentAnswerD": "Dãy số $\\left(u_{n}\\right)$ có $u_{n}=\\frac{n}{n+5}, \\forall n \\in \\mathbb{N}^{*}$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Trong một kỳ thi tuyển dụng của một công ty, sau khi xem xét hồ sơ đăng ký của các ứng viên, việc tuyển dụng được tiến hành theo hai cách: $10 \\%$ ứng viên được chọn dựa trên hồ sơ đăng ký. Những ứng viên này sau đó phải vượt qua kỳ thi vấn đáp, $60 \\%$ trong số họ được nhận vào làm việc. Những ứng viên không được chọn dựa trên hồ sơ đăng ký sẽ phải làm bài kiểm tra viết, $20 \\%$ trong số họ được nhận vào làm việc. Chọn ngẫu nhiên một ứng viên tham gia kỳ thi tuyển dụng này. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<br/>a, Sai: Ta gọi các biến cố sau: $A$: \"ứng viên được chọn dựa trên hồ sơ đăng ký\" và $B$: \"ứng viên được nhận vào làm việc\".<br/>Khi ấy ta được $P(A)=0,1 \\rightarrow P(\\bar{A})=0,9$ và $P(B \\mid A)=0,6 ; P(B \\mid \\bar{A})=0,2$<br/>Theo công thức xác suất toàn phần, ta có:<br/>$P(B)=P(B \\mid A) \\cdot P(A)+P(B \\mid \\bar{A}) \\cdot P(\\bar{A})=0,24$<br/>Áp dụng định lí Bayes, suy ra xác suất hồ sơ đăng ký của ứng viên đó không được chọn là:<br/>$P(\\bar{A} \\mid B)=\\frac{P(\\bar{A} B)}{P(B)}=\\frac{P(B \\mid \\bar{A}) \\cdot P(\\bar{A})}{P(B)}=\\frac{0,9 \\cdot 0,2}{0,24}=0,75$<br/>b, Sai: Xác suất không có sinh viên nào được nhận vào làm việc là $(1-0,24)^{n}=0,76^{n}$ Xác suất ít nhất một sinh viên được nhận vào làm việc là<br/>$1-0,76^{n} \\geq 0,99 \\Leftrightarrow 0,76^{n} \\leq 0,01 \\Leftrightarrow n \\geq \\log _{0,76} 0,01 \\approx 16,78 \\rightarrow n_{\\min }=17$",
+            "contentYA": "Nếu ứng viên đó được nhận vào làm việc thì xác suất hồ sơ đăng ký của ứng viên đó không được chọn là 0,25.",
+            "contentYB": "Một trường đại học giới thiệu một số sinh viên tham gia kỳ thi tuyê̂n dụng này, khi đó cần giới thiệu ít nhất 18 sinh viên để xác suất có ít nhất một sinh viên từ trường đại học này được nhận vào làm việc không nhỏ hơn 99%."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Cho hai số thực $x, y$ thỏa mãn $x \\geq 0, y \\geq 1, x+y=3$. Giá trị lớn nhất và giá trị nhỏ nhất của biểu thức $P=x^{3}+2 y^{2}+3 x^{2}+4 x y-5 x$ lần lượt bằng",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Từ $x+y=3 \\Leftrightarrow y=3-x$, do $y \\geq 1$ nên $3-x \\geq 1 \\Leftrightarrow x \\leq 2$. Vậy $x \\in[0 ; 2]$.<br/>Ta có $P=x^{3}+2(3-x)^{2}+3 x^{2}+4 x(3-x)-5 x=x^{3}+x^{2}-5 x+18=f(x)$.<br/>$f^{\\prime}(x)=3 x^{2}+2 x-5 ; f^{\\prime}(x)=0 \\Leftrightarrow\\left[\\begin{array}{l}<br/>x=1 \\\\<br/>x=-\\frac{5}{3}(L)<br/>\\end{array}\\right.$<br/>$f(0)=18 ; f(1)=15 ; f(2)=20$<br/>Vậy $P_{\\text {max }}=20$ và $P_{\\text {min }}=15$.",
+            "contentAnswerA": "$P_{\\text {max }}=15$ và $P_{\\text {min }}=13$.",
+            "contentAnswerB": "$P_{\\text {max }}=20$ và $P_{\\text {min }}=18$.",
+            "contentAnswerC": "$P_{\\text {max }}=20$ và $P_{\\text {min }}=15$.",
+            "contentAnswerD": "$P_{\\text {max }}=18$ và $P_{\\text {min }}=15$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Một chiếc ô tô đang đi trên đường thì bất ngờ gặp vật cản phía trước. Người lái xe đạp phanh giảm tốc với gia tốc không đổi $-4,8 m / s^{2}$ và gây ra va chạm với một xe phía trước. Một tổ cảnh sát giao thông điều tra vụ tai nạn đã đo vệt bánh xe in trên đường và kết luận ô tô đi được một quãng đường $60 m$ kể từ thời điểm đạp phanh cho đến khi dừng hẳn. Vận tốc của ô tô ngay tại thời điểm người lái xe đạp phanh là bao nhiêu $k m / h$ ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                86.4
+            ],
+            "explanation": "<br/>Ta có $v(t)=\\int a(t) d t=\\int-4,8 d t=-4,8 t+v(0)(m / s)$<br/>Khi ấy ô tô dừng lại khi $v(t)=0 \\Leftrightarrow t=t{0}=\\frac{v(0)}{4,8}$. Suy ra quãng đường ô tô đi được kể từ lúc đạp phanh đến lúc dừng lại là $s=\\int{0}^{t}|v(t)| d t=\\int{0}^{t{0}}(-4,8 t+v(0)) d t=\\left(-2,4 t^{2}+v(0) t\\right){0}^{t{0}}=60$.<br/>Suy ra ta có phương trình $-2,4.\\left(\\frac{v(0)}{4,8}\\right)^{2}+\\frac{v^{2}(0)}{4,8}=60 \\Rightarrow v(0)=24 m / s(\\times 3,6)=86,4 km / h$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Trong không gian $O x y z$ cho năm điểm $S(5 ; 1 ; 3), A(1 ; 0 ; 2), B(2 ; 1 ;-2), C(1 ; 1 ; 6), D(3 ; 3 ;-2)$. Có bao nhiêu mặt phẳng cách đều năm điểm đó?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>$\\overrightarrow{A B}=(1 ; 1 ;-4), \\overrightarrow{A C}=(0 ; 1 ; 4), \\overrightarrow{A D}=(2 ; 3 ;-4) \\Rightarrow[\\overrightarrow{A B}, \\overrightarrow{A C}]. \\overrightarrow{A D}=0 \\Rightarrow A, B, C, D$ đồng phẳng.<br/>$\\overrightarrow{A B}=(1 ; 1 ;-4), \\overrightarrow{C D}=(2 ; 2 ;-8)$ là hai vectơ cùng hướng.<br/>Lại có: $\\overrightarrow{A S}=(4 ; 1 ; 1) \\Rightarrow[\\overrightarrow{A B}, \\overrightarrow{A C}] \\cdot \\overrightarrow{A S}=29 \\Rightarrow A, B, C, S$ không đồng phẳng nên $S. A B D C$ là một hình chóp có đáy là $A B D C$.<br/>Vậy ta có:<br/>Mặt phẳng trung trực của đường cao hạ từ đỉnh xuống đáy là một mặt<br/>Mặt phẳng chứa đường nối trung điểm hai cạnh đối diện $A C$ và $B D$ của đáy và song song với mặt bên $( S A B )$ là hai mặt.<br/>Mặt phẳng chứa đường nối trung điểm hai cạnh đối diện $A C$ và $B D$ của đáy và song song với mặt bên $( S C D )$ là ba mặt.<br/>Mặt phẳng chứa đường nối trung điểm hai cạnh đối diện $A B$ và $D C$ của đáy và song song với mặt bên $( S A C )$ là bốn mặt.<br/>Mặt phẳng chứa đường nối trung điểm hai cạnh đối diện $A B$ và $D C$ của đáy và song song với mặt bên $(S B D)$ là năm mặt.",
+            "contentAnswerA": "7.",
+            "contentAnswerB": "5.",
+            "contentAnswerC": "3.",
+            "contentAnswerD": "Vô số."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Trong c&aacute;c ph&aacute;t biểu sau, x&eacute;t t&iacute;nh đ&uacute;ng sai của c&aacute;c ph&aacute;t biểu:<br />\n<img alt=\"comment-img\" src=\"https://cdn.save.moe/b/5Pz2J.png?dl=1\" / style=\"width: 80%; margin: 0 auto; display: block;\">",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br />\n<img alt=\"A drawing of a pyramid\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1767432065472-q8yg6jgr4\" src=\"https://cdn.save.moe/b/dfj3tLL.png?dl=1\" style=\"\" /><br />\na, Đ&uacute;ng. Định nghĩa.<br />\nb, Sai. Thiếu điều kiện hai mặt phẳng $(\\beta),(P)$ ph&acirc;n biệt.<br />\nc, Đ&uacute;ng. Ta c&oacute;: $M, N$ lần lượt l&agrave; trung điểm của $S A, S B$ n&ecirc;n $M N$ l&agrave; đường trung b&igrave;nh của tam gi&aacute;c $S A B \\Rightarrow M N / / A B ; A B \\subset(A B C) \\Rightarrow M N / /(A B C)$.<br />\nChứng minh tương tự ta c&oacute; $N P / /(A B C)$ kết hợp điều kiện $M N, N P \\subset(M N P), M N \\cap N P=N \\Rightarrow(M N P) / /(A B C)$.<br />\nd, Đ&uacute;ng. Từ đỉnh $A$ của cuốn s&aacute;ch ngăn tr&ecirc;n kẻ đường thằng dọc theo m&eacute;p cuốn s&aacute;ch cắt c&aacute;c mặt gi&aacute; tại $H, F$.<br />\nKẻ đường thẳng song song với th&agrave;nh của gi&aacute; s&aacute;ch (như h&igrave;nh vẽ) cắt c&aacute;c m&eacute;p mặt gi&aacute; tại $G, H$ theo định l&yacute; Talet ta được $\\frac{A G}{G E}=\\frac{A H}{H F}$<br />\nM&agrave; ta thấy $H F$ l&agrave; chiều cao của cuốn s&aacute;ch ngăn dưới n&ecirc;n t&iacute;nh chất đ&uacute;ng.",
+            "contentYA": "Nếu $(\\alpha) / /(\\beta)$ và $b \\subset(\\alpha)$ thì $b / /(\\beta)$.",
+            "contentYB": "Nếu $(\\alpha) / /(\\beta)$ và $(\\beta) / /(P)$ thì $(\\alpha) / /(P)$.",
+            "contentYC": "Cho hình chóp $S. A B C$. Gọi $M, N, P$ lần lượt là trung điểm của $S A, S B, S C$ thì ( $M N P$ ) / / ( $A B C$ ).",
+            "contentYD": "Trên một giá sách (tham khảo hình bên dưới), các mặt của giá sách dược thiết kế sao cho chúng nằm trên các mặt phẳng song song và khoảng cách giữa các mặt là khác nhau. Có 2 cuốn sách được đặt vào hai ngăn của giá sao cho mặt của các cuốn sách này song song và được đặt sao cho mép trên và dưới của chúng đều tiếp xúc với mặt trên và mặt dưới của mặt kệ sách (tham khảo hình số 2 ). Khi đó chiều cao của 2 ngăn của giá sách tỉ lệ với chiều cao của hai cuốn sách."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Cho $a, b, c$ là ba số thực dương, khác 1 và $a b c \\neq 1$. Biết $\\log _{a} 3=2, \\log _{b} 3=\\frac{1}{4}$ và $\\log _{a b c} 3=\\frac{2}{15}$. Khi đó, giá trị của $\\log _{c} 3$ bằng bao nhiêu?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có $\\log _{a} 3=2 \\Rightarrow \\log _{3} a=\\frac{1}{2}, \\log _{b} 3=\\frac{1}{4} \\Rightarrow \\log _{3} b=4$.<br/>Khi đó ta có $\\log _{a b c} 3=\\frac{2}{15} \\Leftrightarrow \\frac{1}{\\log _{3} a+\\log _{3} b+\\log _{3} c}=\\frac{2}{15}$.<br/>$\\Leftrightarrow \\frac{2}{9+2 \\log _{3} c}=\\frac{2}{15} \\Leftrightarrow 4 \\log _{3} c+18=30 \\Leftrightarrow \\log _{3} c=3 \\Leftrightarrow \\log _{c} 3=\\frac{1}{3}$.<br/>Vậy $\\log _{c} 3=\\frac{1}{3}$.",
+            "contentAnswerA": "$\\log _{c} 3=\\frac{1}{2}$.",
+            "contentAnswerB": "$\\log _{c} 3=2$.",
+            "contentAnswerC": "$\\log _{c} 3=3$.",
+            "contentAnswerD": "$\\log _{c} 3=\\frac{1}{3}$."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Ở một thành phố biển $Q$ có một hòn đảo, trên đảo có điểm $O$ cố định. Người ta cần xây dựng các con đường nối hai ga xe $X$ và $Y$ trên đất liền tới một điểm $T$ cách điểm $O$ một khoảng $r=6 km$. Cho biết $O X=12 km, O Y=15 km, x O y=\\varphi$ với $\\cos \\varphi=\\frac{13}{18},\\left(0<\\varphi<90^{\\circ}\\right)$. Dự kiến đường đi từ $X$ tới $T$ là đường thẳng hai làn xe, đường đi từ $Y$ tới $T$ là đường thẳng bốn làn xe. Chi phí xây dựng cho một km đường hai làn xe và bốn làn xe lần lượt là 1 triệu đô và 2 triệu đô. Tổng chi phí xây dựng cả hai con đường trên nhỏ nhất là bao nhiêu triệu đô?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"8\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                26
+            ],
+            "explanation": "<br/>Tổng chi phí xây dựng hai con đường là $F=X T+2 Y T$ (triệu đô).<br/>Lấy điểm $Z$ sao cho $\\overrightarrow{O Z}=\\frac{1}{4} \\overrightarrow{O X} \\rightarrow T X=2 T Z$.<br/>Giải thích: $\\frac{O T}{O X}=\\frac{O Z}{O T}=\\frac{1}{2} \\rightarrow \\triangle O T Z \\sim \\triangle O X T \\rightarrow T Z=\\frac{T X}{2}$.<br/>Khi đó: $F=X T+2 Y T=2(Z T+Y T) \\geq 2 Y Z$ với dấu bằng xảy ra khi $\\overline{X, Y, Z}$ (thẳng hàng).<br/>Suy ra $F{\\min }=2 \\sqrt{O Z^{2}+O Y^{2}-2 \\cdot O Z \\cdot O Y \\cdot \\cos \\varphi}=2 \\sqrt{15^{2}+3^{2}-2 \\cdot 15 \\cdot 3 \\cdot \\frac{13}{18}}=26$ triệu đô."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Gọi $S$ là diện tích hình phẳng giới hạn bởi đồ thị của các hàm số $y=x^{3}-6 x^{2}+12 x-8, y=x^{3} y=a$ và $y=b$ với $a, b$ là các hằng số. Nếu $3 b=2+3 a$ thì $S$ là một giá trị nằm trong khoảng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Phương trình hoành độ giao điểm của hai đồ thị hàm số $y=x^{3}-6 x^{2}+12 x-8=(x-2)^{3}$ và $y=x^{3}$. Do: $-3 x^{2}+6 x-4=0$ (phương trình vô nghiệm, hai đồ thị này không cắt nhau) nên ta hướng cách khác như sau<br/>Ta có: $\\left\\{\\begin{array}{l}y=(x-2)^{3} \\\\ y=x^{3}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x=f_{2}(y)=2+\\sqrt[3]{y} \\\\ x=f_{1}(y)=\\sqrt[3]{y}\\end{array}\\right.\\right.$. Do $3 b=2+3 a \\rightarrow\\left\\{\\begin{array}{l}b>a \\\\ b-a=\\frac{2}{3}\\end{array}\\right.$ nên với tung độ chạy từ $y=a$ đến $y=b$, ta suy ra<br/>$S=\\int_{a}^{b}\\left(f_{2}(y)-f_{1}(y)\\right) d y=\\int_{a}^{b}(2+\\sqrt[3]{y}-\\sqrt[3]{y}) d y=\\left.(2 y)\\right|_{a} ^{b}=2(b-a)=\\frac{4}{3} \\in(1 ; 2]$",
+            "contentAnswerA": "$(0 ; 1]$.",
+            "contentAnswerB": "$(1;2]$.",
+            "contentAnswerC": "$(2 ; 3]$.",
+            "contentAnswerD": "$(3 ; 4]$."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Cho hàm số $f(x)=\\frac{x(x+4)}{14}-5 \\ln |x|$ có đồ thị ( $C$ ).<br/>Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Đúng: Ta có với mọi $x \\in(0 ;+\\infty)$ thì $f(x)=\\frac{x(x+4)}{14}-5 \\ln x \\rightarrow f^{\\prime}(x)=\\frac{(x-7)(x-5)}{x^{2}}$<br/>Giải phương trình $f^{\\prime}(x)=0 \\Leftrightarrow x=5$ (nhận) hoặc $x=-7$ (loại).<br/>Khi ấy ta có $f(5)=\\frac{45}{14}-5 \\ln 5 ; f(1)=\\frac{5}{14} ; f(12)=\\frac{96}{7}-5 \\ln 12$.<br/>Suy ra giá trị nhỏ nhất trên đoạn $[1 ; 12]$ tại $x=5$.<br/>b, Sai: Với $\\lim _{x \\rightarrow 0^{-}} f(x)=\\lim _{x \\rightarrow 0^{+}} f(x)=+\\infty$ thì $x=0$ là tiệm cận đứng của đồ thị $(C)$.<br/>c, Đúng: Dựa vào mệnh đề a), ta có $f(1)>0, f(12)>0, f(5)<0$.<br/>Xét $f(2)=\\frac{6}{7}-5 \\ln 2<0$ và $f(11)=\\frac{165}{14}-5 \\ln 11<0$, suy ra $f(n)<0, \\forall n \\in[2 ; 11]$<br/>Vậy có tất cả $11-2+1=10$ giá trị nguyên dương $n$ thỏa mãn yêu cầu.",
+            "contentYA": "Hàm số $f(x)$ đạt giá trị nhỏ nhất trên đoạn [1;12] tại $x=5$.",
+            "contentYB": "Đồ thị ( $C$ ) không có đường tiệm cận.",
+            "contentYC": "Tồn tại đúng 9 giá trị nguyên dương $n$ để $f(n)<0$."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Trong không gian $O x y z$, cho biết có hai mặt cầu có tâm nằm trên đường thẳng $d: \\frac{x}{2}=\\frac{y-1}{1}=\\frac{z+2}{-1}$, tiếp xúc đồng thời với hai mặt phẳng $(\\alpha): x+2 y-2 z+1=0$ và $(\\beta): 2 x-3 y-6 z-2=0$. Gọi $R_{1}, R_{2}\\left(R_{1}>R_{2}\\right)$ là bán kính của hai mặt cầu đó. Tỉ số $\\frac{R_{1}}{R_{2}}$ bằng:<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 38-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>+) Gọi $I$ và $R$ lần lượt là tâm và bán kính mặt cầu thỏa mãn đề.<br/>+) $I \\in d \\Leftrightarrow I(2 t ; 1+t ;-2-t)$.<br/>+) Mặt cầu tiếp xúc đồng thời với hai mặt phẳng $(\\alpha)$ và $(\\beta) \\Leftrightarrow d(I,(\\alpha))=d(I,(\\beta))=R$.<br/>+) Ta có $d(I,(\\alpha))=d(I,(\\beta)) \\Leftrightarrow \\frac{|2 t+2(1+t)-2(-2-t)+1|}{\\sqrt{1+4+4}}=\\frac{|2 \\cdot 2 t-3(t+1)-6(-2-t)-2|}{\\sqrt{4+9+36}}$.<br/>$\\Leftrightarrow \\frac{|6 t+7|}{3}=\\frac{|7 t+7|}{7} \\Leftrightarrow \\frac{|6 t+7|}{3}=|t+1| \\Leftrightarrow|6 t+7|=3|t+1| \\Leftrightarrow\\left[\\begin{array}{l}6 t+7=3 t+3 \\\\ 6 t+7=-3 t-3\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}3 t=-4 \\\\ 9 t=-10\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}t=-\\frac{4}{3} \\\\ t=-\\frac{10}{9}\\end{array}\\right.\\right.\\right.$<br/>+) Với $t=-\\frac{4}{3} \\Rightarrow\\left\\{\\begin{array}{l}I\\left(\\frac{-8}{3} ; \\frac{-1}{3} ; \\frac{-2}{3}\\right) \\ R=|t+1|=\\left|-\\frac{4}{3}+1\\right|=\\frac{1}{3}\\end{array} \\Rightarrow\\left(S_{1}\\right):\\left(x+\\frac{8}{3}\\right)^{2}+\\left(y+\\frac{1}{3}\\right)^{2}+\\left(z+\\frac{2}{3}\\right)^{2}=\\frac{1}{9}\\right.$<br/>+) Với $t=-\\frac{10}{9} \\Rightarrow\\left\\{\\begin{array}{l}I\\left(\\frac{-20}{9} ; \\frac{-1}{9} ; \\frac{-8}{9}\\right) \\ R=|t+1|=\\left|-\\frac{10}{9}+1\\right|=\\frac{1}{9}\\end{array} \\Rightarrow\\left(S_{2}\\right):\\left(x+\\frac{20}{9}\\right)^{2}+\\left(y+\\frac{1}{9}\\right)^{2}+\\left(z+\\frac{8}{9}\\right)^{2}=\\frac{1}{81}\\right.$<br/>Ta có $R_{1}=\\frac{1}{3} ; R_{2}=\\frac{1}{9} \\Rightarrow \\frac{R_{1}}{R_{2}}=3$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "X&eacute;t một bảng vu&ocirc;ng $7 \\times 7$, gồm 49 &ocirc; vu&ocirc;ng đơn vị, sắp xếp th&agrave;nh 7 h&agrave;ng v&agrave; 7 cột. Đường ch&eacute;o ch&iacute;nh l&agrave; tập c&aacute;c &ocirc; c&oacute; chỉ số h&agrave;ng bằng chỉ số cột, tức c&aacute;c &ocirc;:<br />\n$(1 ; 1),(2 ; 2),(3 ; 3),(4 ; 4),(5 ; 5),(6 ; 6),(7 ; 7)$.<br />\n<img alt=\"A grid with red squares\n\nAI-generated content may be incorrect.\" data-temp-key=\"temp-image-1767432065475-5eoyj28wp\" src=\"https://cdn.save.moe/b/ayjNS.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /><br />\nX&eacute;t tất cả c&aacute;c h&igrave;nh vu&ocirc;ng con (c&aacute;c h&igrave;nh vu&ocirc;ng c&oacute; cạnh song song với cạnh bảng, gồm nhiều &ocirc; liền nhau). Một h&igrave;nh vu&ocirc;ng con được gọi l&agrave; đặc biệt nếu n&oacute; chứa ch&iacute;nh x&aacute;c 3 &ocirc; thuộc đường ch&eacute;o ch&iacute;nh. Hỏi c&oacute; bao nhi&ecirc;u h&igrave;nh vu&ocirc;ng con đặc biệt trong bảng $7 \\times 7$ ?<br />\nĐiền đ&aacute;p &aacute;n: <span class=\"fill-blank\" data-blank-id=\"Câu 39-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                10
+            ],
+            "explanation": "<br/>Ta có các nhận xét sau:<br/>- Đường chéo chính có 7 ô.<br/>- Nếu hình vuông con có cạnh nhỏ hơn 3 thì không thể chứa đủ 3 ô chéo.<br/>- Nếu hình vuông con có cạnh lớn hơn hoặc bằng 6 thì sẽ luôn chứa ít nhất 6 ô chéo.<br/>- Do đó, chỉ cần xét các hình vuông con có cạnh 3,4 hoặc 5.<br/>Trước hết với hình vuông có cạnh 3, ta có:<br/>- Trên đường chéo chính, có 5 đoạn liên tiếp mà mỗi đoạn chứa 3 ô thuộc đường chéo chính.<br/>-Để hình vuông cỡ $3 \\times 3$ có chứa 3 ô thoả mãn bài toán thì 3 ô này phải nằm trên đường chéo chính của hình vuông cỡ $3 \\times 3$.<br/>- Vì có 5 đoạn liên tiếp thoã mãn nên sẽ có 5 hình vuông thoả mãn bài toán.<br/>Tiếp đến với hình vuông có cạnh 4. Vì các ô vuông $4 \\times 4$ phải chứa chính xác 3 ô vuông thuộc đường chéo chính nên 3 ô này không thể nằm trên đường chéo chính.<br/>Do đó, ta có 2 trường hợp (như hình vẽ dưới):<br/><img alt=\"A white and red squares\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/n1MB1.png?dl=1\" data-temp-key=\"temp-image-1767432065475-iyzy6fvdu\" class=\"mx-auto\" style=\"\"><br/>Như 2 hình trên, để thoả mãn bài toán là có 3 ô nằm trên đường chéo chính thì 1 trong 3 ô này không thể chứa 1 trong 2 ô ngoài biên. Do đó 3 ô này là thuộc đoạn nằm ở giữa<br/>Mà đường chéo chính có 7 ô, trừ 2 ô ngoài biên thì có thể chia thành 3 đoạn nằm giữa có 3 ô tô màu liên tiếp nằm trên đường chéo chính. Suy ra, mỗi trường hợp có 3 ô vuông $4 \\times 4$ thoả mãn. Do đó, có tổng 6 ô vuông $4 \\times 4$ thoả mãn. (2)<br/>Cuối cùng với hình vuông có cạnh 5. Vì các ô vuông $5 \\times 5$ phải chứa chính xác 3 ô thuộc đường chéo chính nên các ô này chỉ có 2 dạng như sau:<br/><img alt=\"A screenshot of a computer\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/40263r.png?dl=1\" data-temp-key=\"temp-image-1767432065479-h5etnozrd\" class=\"mx-auto\" style=\"\"><br/>Đặt lần lượt 2 dạng này lên ô vuông cỡ $7 \\times 7$, ta thấy mỗi dạng chỉ có 1 hình thoả mãn. Do đó, có tổng 2 hình $5 \\times 5$ thoả mãn bài toán (3)<br/>Từ (1), (2) và (3) ta kết luận có tất cả 10 hình vuông đặc biệt trong bảng $7 \\times 7$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "K&eacute;o biểu thức ở c&aacute;c &ocirc; vu&ocirc;ng thả v&agrave;o vị tr&iacute; th&iacute;ch hợp trong bốn &ocirc; trống theo thứ tự từ nhỏ đến lớn ở dưới.<br />\nCho ba khối lập phương c&oacute; độ d&agrave;i c&aacute;c cạnh l&agrave; ba số nguy&ecirc;n li&ecirc;n tiếp, nằm cạnh nhau tr&ecirc;n b&agrave;n sao cho một mặt của ch&uacute;ng tiếp x&uacute;c với nhau (xem h&igrave;nh). Tổng thể t&iacute;ch của ba khối lập phương chia hết cho 18. H&igrave;nh khối lớn nhất v&agrave; nhỏ nhất tạo th&agrave;nh hai cạnh của h&igrave;nh chữ nhật m&agrave;u xanh. Nếu chia diện t&iacute;ch h&igrave;nh chữ nhật n&agrave;y cho 18 th&igrave; số dư c&oacute; thể c&oacute; l&agrave;:<span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-1\">____DRAG_DROP_1____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-2\">____DRAG_DROP_2____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-3\">____DRAG_DROP_3____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-4\">____DRAG_DROP_4____</span>.<br />\n<img alt=\"A group of cubes with different colors\n\nAI-generated content may be incorrect.\" data-temp-key=\"temp-image-1767432065483-1rew30nmp\" src=\"https://cdn.save.moe/b/Fr3LkF.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" />",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "F>"
+                },
+                {
+                    "slot2": "G>"
+                },
+                {
+                    "slot3": "J>"
+                },
+                {
+                    "slot4": "A>"
+                }
+            ],
+            "explanation": "<br/>Nếu a là độ dài cạnh của hình lập phương nhỏ nhất thì điều sau đây áp dụng cho tổng thể tích của ba hình lập phương $a^{3}+(a+1)^{3}+(a+2)^{3}=18 k$. Trong đó $k$ là số nguyên.<br/>Điều này có thể được chuyển đổi thành $(a+1)\\left((a+1)^{2}+2\\right)=6 k$. Tuy nhiên, đối với diện tích của hình chữ nhật màu xanh, ta có: $a(a+2)=18 m+R$ với $m \\in \\mathbb{Z}$ và $R$ là số dư từ 0 đến 17.<br/>Phương trình cũng có thể được viết dưới dạng $(a+1)^{2}=18 m+R+1$. Vì vế phải của phương trình thể tích chia hết cho 6 nên vế trái cũng vậy. Có bốn khả năng để làm điều này:<br/>- TH1: $(a+1) \\vdots$. Sau đó áp dụng cho phương trình diện tích $\\left[\\begin{array}{l}(6 n)^{2}=18 m+R+1 \\\\ R+1=18\\left(2 n^{2}-m\\right)\\end{array}, n \\in \\mathbb{Z}\\right.$<br/>Điều này có nghĩa là số dư $R$ chỉ có thể nằm trong khoảng từ 0 đến 17, phải là 17.<br/>- TH2: $(a+1)^{2}+2 \\vdots$. Khi ấy ta có $\\left[\\begin{array}{l}6 n=18 m+R+3 \\\\ R+3=6(n-3 m)\\end{array}, n \\in \\mathbb{Z}\\right.$. Ta áp dụng cho phương trình diện tích $\\rightarrow$ Do đó, $R$ chỉ có thể là 3,9 hoặc 15.<br/>- TH3: $(a+1) \\vdots 2$ và $(a+1)^{2}+2 \\vdots 3$. Khi ấy ta có $\\left[\\begin{array}{l}(2 n)^{2}=18 m+R+1 \\\\ 3 p=18 m+R+3\\end{array}, n \\in \\mathbb{Z}\\right.$<br/>Có thể viết lại thành $\\left[\\begin{array}{ll}R+1=2\\left(2 n^{2}-9 m\\right) & (1) \\\\ R+3=3(p-6 m) & (2)\\end{array}, n \\in \\mathbb{Z}\\right.$<br/>Từ (1) ta có $R$ là các số lẻ từ 1 đến 17 và từ (2) ta có $R \\in\\{0 ; 3 ; 6 ; 9 ; 12 ; 15\\}$<br/>Từ (1) và (2) ta suy ra $R \\in\\{3 ; 9 ; 15\\}$.<br/>- TH4: $(a+1) \\vdots 3$ và $(a+1)^{2}+2 \\vdots 2$.<br/>$\\to$ Tương tự với TH3, theo đó, xem xét cả hai phương trình cùng nhau ta suy ra $R=17$.<br/>Kết luận: Số dư của phép chia chỉ có thể là $3,9,15$ hoặc 17.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "17"
+                },
+                {
+                    "id": "B>",
+                    "content": "4"
+                },
+                {
+                    "id": "C>",
+                    "content": "10"
+                },
+                {
+                    "id": "D>",
+                    "content": "16"
+                },
+                {
+                    "id": "E>",
+                    "content": "5"
+                },
+                {
+                    "id": "F>",
+                    "content": "3"
+                },
+                {
+                    "id": "G>",
+                    "content": "9"
+                },
+                {
+                    "id": "H>",
+                    "content": "1"
+                },
+                {
+                    "id": "I>",
+                    "content": "13"
+                },
+                {
+                    "id": "J>",
+                    "content": "15"
+                },
+                {}
+            ]
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-01-03T09:24:45.531Z",
+    "updatedAt": "2026-01-15T14:40:15.381Z",
+    "__v": 0
+}
+
+{
+    "_id": "695955c7535aa47f9b888d86",
+    "title": "[AECK]-Tư Duy Đọc Hiểu-Đề 12",
+    "numberOfQuestions": 20,
+    "time": 30,
+    "answer": {
+        "e094e8c0-674f-4527-88e1-196158ef3093": "X",
+        "Câu 1": "B",
+        "Câu 2": "B",
+        "Câu 3": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "B>"
+            }
+        ],
+        "Câu 4": [
+            "tính linh hoạt"
+        ],
+        "Câu 5": "C",
+        "Câu 6": [
+            "c1",
+            "c3"
+        ],
+        "Câu 7": [
+            "c2",
+            "c3"
+        ],
+        "Câu 8": [
+            "tái phạm"
+        ],
+        "Câu 9": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 10": [
+            "thách thức"
+        ],
+        "836af750-e218-4579-a96e-eefc13ae6bbd": "X",
+        "Câu 11": "A",
+        "Câu 12": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "E>"
+            },
+            {
+                "slot3": "D>"
+            }
+        ],
+        "Câu 13": "B",
+        "Câu 14": [
+            "c1",
+            "c4"
+        ],
+        "Câu 15": "D",
+        "Câu 16": [
+            "thông tin"
+        ],
+        "Câu 17": "B",
+        "Câu 18": "C",
+        "Câu 19": "A",
+        "Câu 20": "A"
+    },
+    "startTime": "2025-12-24T18:01:00.000Z",
+    "endTime": "2026-04-30T18:01:00.000Z",
+    "questions": [
+        {
+            "question": "e094e8c0-674f-4527-88e1-196158ef3093",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>VẤN ĐỀ BẢN QUYỀN TR&Ecirc;N M&Ocirc;I TRƯỜNG SỐ</strong></div>\n<strong>[1]</strong> Qu&aacute; tr&igrave;nh ph&aacute;t hiện ra đối tượng x&acirc;m phạm bản quyền cho đến khi &aacute;p dụng th&agrave;nh c&ocirc;ng biện ph&aacute;p trừng phạt lu&ocirc;n l&agrave; một qu&atilde;ng đường d&agrave;i. Chẳng hạn như trường hợp của C&ocirc;ng ty Văn h&oacute;a s&aacute;ng tạo T.V &ndash; F.N, trong giai đoạn 2011-2014, họ li&ecirc;n tục kiện cơ sở gia c&ocirc;ng sau in H.T v&igrave; đ&atilde; in lậu nhiều đầu s&aacute;ch nổi tiếng của họ. Cơ quan chức năng đ&atilde; kh&aacute;m x&eacute;t v&agrave; thu giữ gần 10.000 cuốn s&aacute;ch lậu tại cơ sở n&agrave;y, nhưng kết quả l&agrave; T.V &ndash; F.N vẫn bị thua kiện. Nhiều người bất ngờ khi thấy bằng chứng r&otilde; r&agrave;ng m&agrave; phần thắng lại nghi&ecirc;ng về kẻ vi phạm. &ldquo;Do cơ sở vi phạm cho rằng m&igrave;nh chỉ l&agrave; cơ sở gia c&ocirc;ng nhận đơn h&agrave;ng qua điện thoại, b&acirc;y giờ kh&ocirc;ng biết chủ đơn h&agrave;ng l&agrave; ai. Một khi cơ quan điều tra chưa x&aacute;c định được ai l&agrave; chủ th&igrave; chưa thể luận tội được. Thứ hai l&agrave; l&ocirc; h&agrave;ng tr&ecirc;n mới chỉ ở dạng gia c&ocirc;ng, chưa được đưa ra thị trường n&ecirc;n kh&oacute; x&aacute;c định được thiệt hại về mặt thương mại&rdquo;, luật sư L&ecirc; Quang Vinh giải th&iacute;ch.<br />\n<strong>[2]</strong> Tr&ecirc;n m&ocirc;i trường số, con đường trở n&ecirc;n gập ghềnh hơn rất nhiều, ngay từ những bước đầu ti&ecirc;n như lập vi bằng. Th&ocirc;ng thường, nếu một người ph&aacute;t hiện ra c&oacute; đối tượng đang thực hiện c&aacute;c h&agrave;nh vi x&acirc;m phạm quyền đối với t&aacute;c phẩm của m&igrave;nh, bước đầu ti&ecirc;n họ cần l&agrave;m l&agrave; thu thập c&aacute;c t&agrave;i liệu, chứng cứ cần thiết, sau đ&oacute; nộp đơn y&ecirc;u cầu xử l&iacute; l&ecirc;n c&aacute;c cơ quan c&oacute; thẩm quyền (bao gồm t&ograve;a &aacute;n, thanh tra, quản l&iacute; thị trường, hải quan, c&ocirc;ng an, ủy ban nh&acirc;n d&acirc;n c&aacute;c cấp c&oacute; thẩm quyền xử l&iacute; h&agrave;nh vi x&acirc;m phạm quyền sở hữu tr&iacute; tuệ). C&aacute;c t&agrave;i liệu n&agrave;y sẽ d&ugrave;ng để lập vi bằng, l&agrave;m căn cứ để giải quyết tranh chấp, y&ecirc;u cầu chấm dứt h&agrave;nh vi vi phạm hoặc bồi thường thiệt hại... T&iacute;nh linh hoạt của internet khiến việc thu thập chứng cứ trở th&agrave;nh một b&agrave;i to&aacute;n kh&oacute;. &ldquo;Qu&aacute; tr&igrave;nh lập vi bằng rất tốn k&eacute;m thời gian v&agrave; nguồn lực, đặc biệt l&agrave; tr&ecirc;n m&ocirc;i trường số, c&aacute;c b&ecirc;n vi phạm c&oacute; thể nhanh ch&oacute;ng x&oacute;a dấu vết v&agrave; lẩn trốn&rdquo;, &ocirc;ng Ho&agrave;ng Đ&igrave;nh Chung. Gi&aacute;m đốc Trung t&acirc;m Bản quyền số nhận định.<br />\n<strong>[3]</strong> Chẳng hạn để khởi tố h&igrave;nh sự trang web phim lậu nổi tiếng PM.net v&agrave;o năm 2021, Văn ph&ograve;ng Luật Phan Law phải thu thập chứng cứ từ năm 2014 dưới sự ủy quyền từ c&aacute;c b&ecirc;n sở hữu quyền ph&acirc;n phối phim. Đến năm năm sau, họ mới ho&agrave;n thiện v&agrave; gửi to&agrave;n bộ t&agrave;i liệu chứng cứ vi phạm của PM.net, đề nghị cơ quan điều tra v&agrave;o cuộc. Đ&atilde; hai năm tr&ocirc;i qua kể từ khi c&oacute; quyết định khởi tố, nhưng PM.net vẫn tồn tại. &ldquo;Ch&uacute;ng t&ocirc;i sử dụng đủ kiểu ngăn chặn tấn c&ocirc;ng, thậm ch&iacute; Cục Điều tra Li&ecirc;n bang Mỹ FBI, ICANN v&agrave; nhiều tổ chức quốc tế kh&aacute;c cũng v&agrave;o cuộc, nhưng PM.net vẫn &ldquo;lẩn trốn&rdquo; rất nhanh, d&ugrave; khi họ đổi t&ecirc;n miền mới, gần như tất cả mọi người đều biết&rdquo;, luật sư Phan Vũ Tuấn cho biết.<br />\n[4] Ngo&agrave;i thay đổi t&ecirc;n miền thường xuy&ecirc;n, c&aacute;c đối tượng x&acirc;m phạm c&ograve;n ứng dụng nhiều kĩ thuật &ldquo;lẩn trốn&rdquo; kh&aacute;c như đường dẫn gi&aacute;n tiếp (redirect), thay đổi m&aacute;y chủ hoặc sử dụng m&aacute;y chủ ảo c&oacute; cơ chế thay đổi địa chỉ IP (Cloudflare), chặn IP truy cập đối với quốc gia Việt Nam để tr&aacute;nh sự theo d&otilde;i của c&aacute;c cơ quan chức năng. &ldquo;Do vậy, nhiều đối tượng tại Việt Nam đ&atilde; từng bị cơ quan chức năng xử l&iacute; vi phạm h&agrave;nh ch&iacute;nh li&ecirc;n quan đến h&agrave;nh vi x&acirc;m phạm quyền t&aacute;c giả, quyền li&ecirc;n quan n&oacute;i ri&ecirc;ng v&agrave; quyền sở hữu tr&iacute; tuệ n&oacute;i chung vẫn c&oacute; xu hướng t&aacute;i phạm tr&ecirc;n c&aacute;c website, ứng dụng di động tại thị trường quốc tế nhưng chủ động chặn IP truy cập từ người d&ugrave;ng Việt Nam&rdquo;, Thiếu t&aacute; L&ecirc; Hồng Giang cho biết.<br />\n<strong>[5]</strong> Một trong những yếu tố quan trọng nhất để hạn chế được x&acirc;m phạm tr&ecirc;n m&ocirc;i trường số l&agrave; truy dấu (tracking) được h&agrave;nh vi x&acirc;m phạm. Hiểu một c&aacute;ch đơn giản l&agrave; &ldquo;phải t&igrave;m ra h&agrave;nh vi x&acirc;m phạm bắt nguồn từ đ&acirc;u th&igrave; tắt ở đ&oacute;. Để l&agrave;m được điều đ&oacute; th&igrave; ch&uacute;ng ta phải c&aacute; nh&acirc;n h&oacute;a bất cứ nội dung n&agrave;o đưa l&ecirc;n internet, như ch&uacute;ng t&ocirc;i đang d&ugrave;ng c&ocirc;ng nghệ finger printing chống việc đăng tải tr&aacute;i ph&eacute;p c&aacute;c trận b&oacute;ng đ&aacute;. Khi c&aacute;c bạn xem b&oacute;ng đ&aacute; sẽ thấy c&oacute; d&ograve;ng chữ nhỏ chạy tr&ecirc;n m&agrave;n h&igrave;nh, gi&uacute;p ch&uacute;ng t&ocirc;i truy vết nếu c&oacute; người quay l&eacute;n&rdquo;, theo luật sư Phan Vũ Tuấn.<br />\n<strong>[6]</strong> Tuy nhi&ecirc;n, những c&ocirc;ng nghệ bảo vệ bản quyền như tr&ecirc;n đang bị bỏ lại đằng sau trong cuộc đua với m&aacute;nh lới x&acirc;m phạm. &ldquo;Mỗi lần ch&uacute;ng ta chế ra một giải ph&aacute;p g&igrave; đ&oacute; chống x&acirc;m phạm th&igrave; ngay lập tức, họ sẽ chế ra một thứ ngược lại&rdquo;, luật sư Phan Vũ Tuấn n&oacute;i. &ldquo;Để chống lại c&ocirc;ng nghệ finger printing, những người x&acirc;m phạm lại &aacute;p dụng c&ocirc;ng nghệ AI để nhận diện k&iacute; tự v&agrave; che khuất d&ograve;ng chữ đ&oacute;. Hoặc khi ch&uacute;ng t&ocirc;i &aacute;p dụng c&ocirc;ng nghệ so s&aacute;nh c&aacute;c m&agrave;n h&igrave;nh với nhau để ph&aacute;t hiện ra đối tượng x&acirc;m phạm, họ t&igrave;m c&aacute;ch cắt bớt m&agrave;n h&igrave;nh lại, hoặc ch&egrave;n h&igrave;nh v&agrave;o để bớt giống, nhưng ch&uacute;ng t&ocirc;i vẫn so được. Vậy n&ecirc;n họ t&igrave;m c&aacute;ch lật ngược h&igrave;nh từ tr&aacute;i qua phải, v&agrave; chế ra một c&aacute;i hộp c&oacute; gương để xem qua đ&oacute; cho xu&ocirc;i lại&rdquo;.<br />\n<strong>[7]</strong> X&acirc;m phạm bản quyền l&agrave; chuyện kh&ocirc;ng mới nhưng chưa bao giờ mất đi t&iacute;nh thời sự ở Việt Nam. M&ocirc;i trường kĩ thuật số ng&agrave;y c&agrave;ng ph&aacute;t triển, mở ra nhiều th&aacute;ch thức trong vấn đề bảo vệ bản quyền, đ&ograve;i hỏi c&aacute;c nh&agrave; ph&aacute;t triển c&ocirc;ng nghệ phải li&ecirc;n tục nghi&ecirc;n cứu c&aacute;c giải ph&aacute;p bảo vệ bản quyền mới.\n\n<div style=\"text-align: right;\"><em><strong>(Theo Thanh An, B&aacute;o Khoa học v&agrave; Ph&aacute;t Triển, #1237, số 17/2023)</strong></em></div>\n",
+            "title": " Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 10",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Mục đích chính của bài biết là gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Để làm câu hỏi về ý chính, học sinh cần xác định các từ khóa xuất hiện xuyên suốt bài (ở đây như “khó khăn”, “thách thức”, “xâm phạm bản quyền”, “môi trường số”…). Đặc biệt chú ý phần mở đầu và kết luận của bài: đoạn [7] kết luận “môi trường kĩ thuật số... mở ra nhiều thách thức...” chính là chìa khóa để nhận biết đáp án. Sau đó, so sánh các lựa chọn và loại bỏ những đáp án chỉ nói về chi tiết nhỏ hoặc một mặt của vấn đề thay vì bao quát toàn bài.<br/><strong>Giải thích: </strong>Nội dung toàn bài tập trung làm nổi bật những trở ngại, thách thức trong việc phát hiện và xử lý hành vi vi phạm bản quyền, đặc biệt trong môi trường kỹ thuật số. Ngay đoạn mở đầu [1] đã đưa ví dụ về một vụ kiện bản quyền kéo dài nhưng cuối cùng công ty bị xâm phạm (T.V – F.N) vẫn “bị thua kiện” (đoạn [1]), cho thấy việc xử lý vi phạm gặp rất nhiều khó khăn. Đến đoạn kết [7], tác giả nhấn mạnh: “Môi trường kĩ thuật số ngày càng phát triển, mở ra nhiều <strong>thách thức</strong> trong vấn đề bảo vệ bản quyền...” (đoạn [7]), khẳng định vấn đề chính bài viết nêu ra là những khó khăn, thách thức trong bảo vệ bản quyền thời đại số. Như vậy, đáp án B phản ánh đúng nội dung trọng tâm của bài.<br/>Các lựa chọn khác không phù hợp: Lựa chọn A (các kỹ thuật xâm phạm bản quyền) chỉ đề cập một phần nhỏ trong đoạn [4] và [6], không phải ý chính toàn bài. Lựa chọn C (quy trình pháp lý...) và D (tầm quan trọng của thu thập chứng cứ) cũng không phải trọng tâm; bài viết không trình bày chi tiết quy trình pháp lý, mà chủ yếu nói về những khó khăn thực tiễn trong việc phát hiện, xử lý vi phạm, còn việc thu thập chứng cứ chỉ là một khía cạnh được đề cập.",
+            "contentAnswerA": "Các kỹ thuật xâm phạm bản quyền phổ biến trong thời đại số.",
+            "contentAnswerB": "Những khó khăn trong việc phát hiện và xử lý xâm phạm bản quyền",
+            "contentAnswerC": "Quy trình pháp lý để xác định quyền sở hữu và xử lý xâm phạm bản quyền.",
+            "contentAnswerD": "Tầm quan trọng của việc thu thập bằng chứng khi xử lý xâm phạm bản quyền."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Theo đoạn [1], cơ sở gia công H.T bị kết tội vi phạm bản quyền và phải bồi thường thiệt hại cho công ty T.V – F.N. Đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Với câu hỏi Đúng/Sai dựa trên đoạn văn, cần đọc kỹ đoạn liên quan (ở đây là đoạn [1]) để xác minh từng chi tiết trong phát biểu. Từ khóa quan trọng là “bị kết tội” và “bồi thường thiệt hại”. Đoạn [1] cho biết kết cục vụ kiện là <strong>T.V – F.N thua kiện</strong>, tức bên vi phạm <strong>không bị kết tội</strong> – chi tiết này trái ngược hoàn toàn với phát biểu đề bài. Học sinh nên tập thói quen đối chiếu nội dung phát biểu với từng sự kiện, chi tiết thực tế trong bài đọc để xác định tính đúng/sai chính xác.<br/><strong>Giải thích: </strong>Thông tin trong đoạn [1] cho thấy thực tế ngược lại với phát biểu trên. Mặc dù công ty T.V – F.N đã kiện và cơ quan chức năng <strong>khám xét, thu giữ gần 10.000 cuốn sách lậu</strong>, nhưng kết quả cuối cùng là “T.V – F.N vẫn bị thua kiện” (đoạn [1]). Nghĩa là phía cơ sở H.T <strong>không bị kết tội</strong> và <strong>không phải bồi thường</strong> thiệt hại nào. Luật sư Lê Quang Vinh còn giải thích lý do T.V – F.N thua kiện: do chưa xác định được ai là chủ đơn hàng in lậu và lô sách lậu chưa đưa ra thị trường nên chưa thể luận tội hay đòi bồi thường (đoạn [1]). Vì vậy, khẳng định trong câu hỏi là sai so với nội dung bài đọc.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Kéo thả cụm từ phù hợp vào chỗ trống để hoàn thành thông tin về đoạn [1]:<br/>Vụ kiện giữa công ty T.V – F.N và một số cơ sở gia công in ấn cho thấy việc  <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-1\">____DRAG_DROP_1____</span>  và xử lý xâm phạm bản quyền là một quá trình dài và phức tạp, đặt biệt là khi cơ quan chức năng chưa  <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-2\">____DRAG_DROP_2____</span> được chủ sở hữu và thiệt hại thương mại.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "B>"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Với dạng bài điền từ dựa trên đoạn văn, học sinh nên đọc kĩ đoạn tương ứng (đề bài đã chỉ rõ “đoạn [1]”). Xác định ngữ cảnh quanh chỗ trống để đoán loại từ thích hợp (động từ, danh từ, …), sau đó tìm trong đoạn văn xem từ nào được dùng. Ở đây, đoạn [1] có sẵn cụm “việc phát hiện… là một quá trình dài” và cụm “chưa xác định được ai là chủ…”, do đó việc đối chiếu sẽ giúp chọn đúng “phát hiện” cho vị trí (1) và “xác định” cho vị trí (2).<br/><strong>Giải thích: </strong>Đoạn [1] nói về vụ kiện giữa công ty T.V – F.N và cơ sở H.T, qua đó cho thấy việc “<strong>phát hiện</strong>” đối tượng vi phạm và xử lý vi phạm bản quyền là một quá trình dài và phức tạp, đặc biệt khi cơ quan chức năng chưa “<strong>xác định</strong>” được chủ mưu và thiệt hại thương mại (đoạn [1]). Thật vậy, câu mở đầu đoạn [1] có cụm: “Quá trình <strong>phát hiện</strong> ra đối tượng xâm phạm bản quyền... luôn là một quãng đường dài”, và luật sư Lê Quang Vinh cũng nhấn mạnh rằng chưa thể kết tội khi “chưa xác định được ai là chủ” đơn hàng vi phạm (đoạn [1]). Như vậy, hai từ cần điền chính là “phát hiện” và “xác định” – chúng xuất hiện trực tiếp trong đoạn văn và phản ánh đúng ý nghĩa cần diễn đạt.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "khám xét"
+                },
+                {
+                    "id": "B>",
+                    "content": "xác định"
+                },
+                {
+                    "id": "C>",
+                    "content": "phát hiện"
+                },
+                {
+                    "id": "D>",
+                    "content": "bắt giữ"
+                }
+            ]
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Điền một cụm từ không quá ba tiếng trong đoạn [2] vào chỗ trống:<br/>Quá trình phát hiện và xử lý các vụ việc xâm phạm bản quyền hiện nay gặp nhiều khó khăn do <span class=\"fill-blank\" data-blank-id=\"Câu 4-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> của môi trường số.",
+            "type": "TLN",
+            "correctAnswer": [
+                "tính linh hoạt"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Đề bài đã chỉ định thông tin nằm ở đoạn [2], do đó cần đọc kĩ đoạn [2] để tìm cụm từ thích hợp. Học sinh nên tập trung vào phần nói về nguyên nhân gây khó khăn. Từ khóa “khó khăn” và “môi trường số” giúp ta nhận ra câu: “Tính linh hoạt của internet khiến việc thu thập chứng cứ trở thành một bài toán khó.” Từ <strong>“tính linh hoạt”</strong> chính là cụm cần điền (vì nó giải thích nguyên nhân khó khăn). Việc nhận biết và trích đúng cụm từ trong bài sẽ đảm bảo trả lời chính xác.<br/><strong>Giải thích: </strong>Trong đoạn [2], tác giả chỉ rõ nguyên nhân khiến việc phát hiện và xử lý vi phạm bản quyền gặp nhiều khó khăn là do “<strong>tính linh hoạt của internet</strong> khiến việc thu thập chứng cứ trở thành một bài toán khó” (đoạn [2]). “Tính linh hoạt” của môi trường số (tức sự linh hoạt, biến đổi khôn lường của internet) làm cho các đối tượng vi phạm dễ xóa dấu vết, lẩn trốn, vì vậy quá trình điều tra trở nên gian nan. Cụm từ <strong>“tính linh hoạt”</strong> xuất hiện nổi bật trong đoạn [2] và phù hợp nghĩa cần điền, nên đáp án chính là cụm này."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Theo đoạn [2], nhận định nào sau đây là KHÔNG chính xác về việc thu thập chứng cứ xâm phạm bản quyền?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/><strong>Phương pháp: </strong>Với dạng câu hỏi xác định <strong>phát biểu sai</strong>, học sinh nên lần lượt đối chiếu từng lựa chọn với bài đọc:<br/>Tìm trong đoạn [2] các chi tiết về thời gian, nhân lực thu thập chứng cứ (để kiểm chứng A), về mức độ khó khăn trong môi trường số (B), về mục đích sử dụng chứng cứ (D).<br/>Nếu thấy các ý A, B, D đều được đoạn văn đề cập và khẳng định, thì ý còn lại (C) chính là ý không đúng. Đặc biệt, chú ý các từ ngữ mang tính khẳng định mạnh như “dễ dàng hơn” trong C, vì đoạn [2] lại nói điều ngược lại (“bài toán khó”). Nhận ra sự trái ngược này sẽ giúp chọn đáp án C.<br/>Giải thích: Đoạn [2] nêu rõ thực tế ngược lại với nhận định C. Cụ thể, tác giả nhấn mạnh “Tính linh hoạt của internet khiến việc thu thập chứng cứ trở thành một bài toán khó” (đoạn [2]). Điều đó có nghĩa internet làm cho việc truy vết và phát hiện vi phạm khó khăn hơn, chứ không hề “dễ dàng hơn” như ý C. Ngoài ra, các ý khác đều phù hợp với thông tin trong đoạn [2]: quá trình thu thập chứng cứ “rất tốn kém thời gian và nguồn lực” (phù hợp ý A); trong môi trường số, việc thu thập chứng cứ càng trở nên phức tạp, khó khăn (phù hợp ý B); và chứng cứ thu thập được dùng “làm căn cứ để giải quyết tranh chấp..., yêu cầu… bồi thường thiệt hại” (phù hợp ý D). Chỉ duy nhất ý C mâu thuẫn với nội dung bài, do đó đây là lựa chọn không chính xác cần tìm.",
+            "contentAnswerA": "Quá trình thu thập chứng cứ tốn nhiều thời gian và nhân lực.",
+            "contentAnswerB": "Trong môi trường kỹ thuật số, việc thu thập chứng cứ khó khăn hơn.",
+            "contentAnswerC": "Internet giúp cho việc truy vết và phát hiện vi phạm dễ dàng hơn.",
+            "contentAnswerD": "Chứng cứ thu thập dùng để giải quyết tranh chấp, yêu cầu bồi thường."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Theo đoạn [3], Văn phòng luật Phan Law đã tiến hành hoạt động nào sau đây để khởi tố trang web PM.net?<br/><strong>Chọn hai đáp án đúng.</strong>",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Đối với câu hỏi nhiều đáp án đúng, học sinh nên đọc kỹ đoạn liên quan (đoạn [3]) và gạch chân các hành động được mô tả:<br/>Tìm chi tiết có cụm “gửi toàn bộ tài liệu chứng cứ… cơ quan điều tra” để xác nhận đáp án A.<br/>Tìm chi tiết “thu thập chứng cứ… dưới sự ủy quyền…” để xác nhận đáp án C.<br/>Loại bỏ những phương án không thấy thông tin (B) hoặc suy diễn không chính xác từ bài (D). Việc so sánh trực tiếp ngôn từ của đoạn văn với từng đáp án sẽ giúp chọn đúng hai ý được đề cập rõ ràng.<br/><strong>Giải thích: </strong>Đoạn [3] thuật lại hai hoạt động chính của Phan Law trong vụ khởi tố PM.net:<br/>Thứ nhất, Phan Law đã “hoàn thiện và gửi toàn bộ tài liệu chứng cứ vi phạm của PM.net, đề nghị cơ quan điều tra vào cuộc” (đoạn [3]). Điều này nghĩa là họ gửi các bằng chứng thu thập được cho cơ quan điều tra – đúng với đáp án A.<br/>Thứ hai, Văn phòng này “thu thập chứng cứ từ năm 2014 dưới sự ủy quyền từ các bên sở hữu quyền phân phối phim” (đoạn [3]). Tức là họ thu thập bằng chứng dưới sự ủy quyền của chủ sở hữu bản quyền – phù hợp với đáp án C.<br/>Ngược lại, đáp án B không được nhắc đến: không có chi tiết nào trong đoạn [3] nói về việc Phan Law thu thập chứng cứ từ dữ liệu người dùng của trang web. Đáp án D cũng không chính xác trong ngữ cảnh đoạn [3]: bài có đề cập rằng FBI, ICANN và nhiều tổ chức quốc tế “cũng vào cuộc” để hỗ trợ ngăn chặn PM.net, nhưng đó là những nỗ lực phối hợp chung sau khi đã khởi tố. Đoạn [3] không nói Phan Law đề nghị các tổ chức quốc tế hỗ trợ quá trình khởi tố, nên không thể chọn D.",
+            "contentC1": "Gửi các tài liệu chứng cứ vi phạm cho cơ quan điều tra.",
+            "contentC2": "Thu thập bằng chứng từ dữ liệu người sử dụng của trang web.",
+            "contentC3": "Thu thập bằng chứng dưới sự ủy quyền của chủ sở hữu.",
+            "contentC4": "Đề nghị các tổ chức quốc tế hỗ trợ quá trình khởi tố các vi phạm."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Theo thiếu tá Lê Hồng Giang, nhận định nào sau đây về hoạt động né tránh phát hiện và xử lý xâm phạm bản quyền là chính xác?<br/><strong>Chọn hai đáp án đúng.</strong>",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Để tìm đáp án, cần tập trung vào đoạn [4] – nơi có phát biểu của thiếu tá Lê Hồng Giang. Gạch chân các ý chính mà ông đề cập:<br/>Việc chặn IP người dùng Việt Nam (liên quan đáp án B).<br/>Việc sử dụng nhiều kỹ thuật lẩn trốn (liên quan đáp án C).<br/>Sau đó so sánh với các lựa chọn: chọn những ý tương ứng nội dung gạch chân (B, C); loại bỏ ý không được nhắc đến (A) và ý sai lệch hoàn toàn (D). Chú ý rằng đôi khi đáp án A có thể “nghe hợp lý” nhưng nếu bài không nói rõ thì không nên suy diễn thêm.<br/><strong>Giải thích: </strong>Trong đoạn [4], thiếu tá Lê Hồng Giang cho biết:<br/>Nhiều đối tượng vi phạm tại Việt Nam (đã từng bị xử lý) vẫn <strong>tái phạm trên các website, ứng dụng di động ở thị trường quốc tế và chủ động chặn IP truy cập từ người dùng Việt Nam</strong> (đoạn [4]). Điều này tương ứng với ý B: họ đăng tải nội dung vi phạm bản quyền trên các nền tảng quốc tế nhưng chặn người dùng từ Việt Nam để tránh sự giám sát của cơ quan chức năng.<br/>Ông cũng mô tả hàng loạt <strong>kĩ thuật “lẩn trốn”</strong> mà các đối tượng áp dụng, như đổi tên miền liên tục, dùng đường dẫn gián tiếp (redirect), thay đổi hoặc ẩn địa chỉ IP bằng máy chủ ảo, chặn IP Việt Nam, v.v. (đoạn [4]). Điều này khẳng định ý C: các đối tượng vi phạm sử dụng <strong>nhiều kỹ thuật</strong> để trốn tránh sự giám sát của cơ quan chức năng.<br/>Ngược lại, ý A không được ông Giang nêu ra trực tiếp. Ông không nói “website và ứng dụng quốc tế ít được giám sát” (dù có thể hiểu rằng họ lợi dụng phạm vi quốc tế khó kiểm soát, nhưng bài không nhắc câu này rõ ràng). Ý D thì hoàn toàn sai với nội dung bài: không phải <strong>Việt Nam chặn IP</strong> các trang vi phạm, mà chính các đối tượng vi phạm <strong>chặn IP của Việt Nam</strong>. Vì vậy, chỉ B và C là đúng theo phát biểu của thiếu tá Lê Hồng Giang.",
+            "contentC1": "Website và ứng dụng quốc tế ít được giám soát và kiểm duyệt, nên nội dung xâm phạm có thể được đăng tải dễ dàng.",
+            "contentC2": "Nhiều đối tượng đăng tải nội dung xâm phạm bản quyền trên website, ứng dụng quốc tế nhưng chặn truy cập từ Việt Nam.",
+            "contentC3": "Các đối tượng xâm phạm bản quyền sử dụng nhiều kỹ thuật để trốn tránh sự giám sát của cơ quan chức năng.",
+            "contentC4": "Việt Nam chặn IP truy cập các trang website, ứng dụng trong nước chứa nội dung xâm phạm bản quyền."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Điền một cụm từ không quá hai tiếng trong đoạn [4] vào chỗ trống:<br/>Mặc dù cơ quan chức năng ở Việt Nam đã có biện pháp xử lý các hành vi xâm phạm quyền tác giả, nhiều đối tượng vẫn <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> trên các nền tảng số ở nước ngoài.",
+            "type": "TLN",
+            "correctAnswer": [
+                "tái phạm"
+            ],
+            "explanation": "<br/>Phương pháp: Đề bài đã chỉ rõ thông tin nằm ở đoạn [4]. Học sinh nên đọc lướt đoạn [4] để tìm cụm từ thích hợp. Khi thấy câu “vẫn có xu hướng tái phạm…” thì có thể xác định “tái phạm” là từ cần điền (vì nó nằm ngay sau “vẫn” và diễn đạt đúng ý câu hỏi). Việc nắm nghĩa từ “tái phạm” (một thuật ngữ pháp lý, nghĩa là phạm lỗi lần nữa) cũng giúp nhận ra đây là từ điền chính xác.<br/><strong>Giải thích: </strong>Đoạn [4] có câu: “nhiều đối tượng… vẫn có xu hướng <strong>tái phạm</strong> trên các website, ứng dụng di động tại thị trường quốc tế…”. Từ <strong>“tái phạm”</strong> nghĩa là <strong>phạm lại lần nữa</strong>, hoàn toàn phù hợp để điền vào chỗ trống, diễn tả việc các đối tượng vẫn <strong>tiếp tục vi phạm</strong> bản quyền trên nền tảng số nước ngoài dù đã bị cơ quan chức năng xử lý trong nước. Cụm từ này vừa đúng nguyên văn đoạn [4], vừa đúng ngữ pháp của câu (sau “vẫn” cần một động từ hoặc cụm động từ, “tái phạm” là động từ)."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Theo đoạn [5] và [6], quá trình ngăn chặn vi phạm bản quyền đang được áp dụng có những đặc điểm nào?<br/><strong>Các nhận định sau ĐÚNG hay SAI?</strong>",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>ới dạng Đúng/Sai cho nhiều phát biểu, nên phân tích từng ý một:<br/>Đối chiếu mệnh đề (1) với câu tương ứng trong bài: đoạn [5] có cụm <strong>“yếu tố quan trọng nhất... là truy dấu”</strong>, xác nhận (1) đúng.<br/>Mệnh đề (2) chứa từ tuyệt đối “duy nhất” – cần kiểm tra bài có khẳng định duy nhất hay không. Đoạn [5] chỉ nói đó là một cách quan trọng, không phải duy nhất, nên (2) sai.<br/>Mệnh đề (3) kiểm tra đoạn [6]: có cụm <strong>“bị bỏ lại đằng sau”</strong> trong cuộc đua với vi phạm, nghĩa là gặp khó khăn, nên (3) đúng.<br/>Mệnh đề (4) lại có từ “Chỉ có...”, ta xem đoạn [5] và [6] có đề cập phương pháp khác ngoài fingerprinting không – có đề cập, nên (4) sai.<br/>Khi làm, cần đặc biệt lưu ý các từ hạn định như “duy nhất”, “chỉ có”, “tất cả”,... vì chúng thường khiến phát biểu trở nên sai nếu bài viết không nhấn mạnh tương tự.<br/><strong>Giải thích: </strong><br/><strong>1, “Truy dấu hành vi xâm phạm là yếu tố quan trọng để hạn chế xâm phạm trên môi trường số.”</strong> – <strong>ĐÚNG.</strong> Đoạn [5] khẳng định rõ: “Một trong những yếu tố quan trọng nhất để hạn chế được xâm phạm trên môi trường số là truy dấu (tracking) được hành vi xâm phạm.” Điều này có nghĩa việc lần theo dấu vết của hành vi vi phạm là yếu tố then chốt giúp ngăn chặn vi phạm trong môi trường số, hoàn toàn đúng với nhận định (1).<br/><strong>2, “Cá nhân hóa nội dung đưa lên internet là phương tiện duy nhất để truy dấu hành vi xâm phạm.”</strong> – <strong>SAI.</strong> Đúng là đoạn [5] có đề cập việc “cá nhân hóa... nội dung” trên internet (ví dụ sử dụng công nghệ <strong>fingerprinting</strong> – gắn mã nhận dạng vào nội dung số) là cách để truy vết hành vi vi phạm. Tuy nhiên, bài không hề nói đây là phương tiện <strong>“duy nhất”</strong>. Thực tế, đoạn [6] cho thấy còn có các biện pháp kỹ thuật khác trong cuộc chiến chống vi phạm (ví dụ: so sánh hình ảnh video để phát hiện vi phạm...). Hơn nữa, cụm “một trong những yếu tố quan trọng nhất” ở ý (1) cũng ngầm hiểu rằng ngoài cá nhân hóa còn có những yếu tố quan trọng khác. Do đó, nhận định (2) sai vì từ “duy nhất” khiến ý này trở nên quá tuyệt đối, không đúng với nội dung bài.<br/>3, “Các công nghệ bảo vệ bản quyền đang gặp khó khăn trong việc chống lại các mánh lới xâm phạm.” – ĐÚNG. Đoạn [6] hoàn toàn ủng hộ nhận định này: “những công nghệ bảo vệ bản quyền như trên đang bị bỏ lại đằng sau trong cuộc đua với mánh lới xâm phạm.” Câu này cho thấy các biện pháp kỹ thuật bảo vệ bản quyền hiện tại đang thua kém, gặp nhiều khó khăn trước thủ đoạn tinh vi của những người xâm phạm. Vì vậy nhận định (3) là đúng.<br/><strong>4, “Chỉ có công nghệ fingerprinting được sử dụng để ngăn chặn đăng tải trái phép các trận bóng đá.”</strong> – <strong>SAI.</strong> Đoạn [5] nêu ví dụ rằng các nhà cung cấp đã dùng công nghệ <strong>fingerprinting</strong> (gắn dấu hiệu nhận biết vào video) để truy vết và ngăn chặn việc phát tán lậu các trận bóng đá. Tuy nhiên, bài không nói <strong>fingerprinting là cách duy nhất</strong>. Từ “chỉ có... được sử dụng” là không đúng, bởi ngoài fingerprinting, đoạn [6] còn đề cập các biện pháp khác (như so sánh hình ảnh, dùng AI bóp méo ký tự để đối phó...). Nhận định (4) quá cứng nhắc nên sai.",
+            "contentYA": "Truy dấu hành vi xâm phạm là yếu tố quan trọng để hạn chế xâm phạm trên môi trường số.",
+            "contentYB": "Cá nhân hóa nội dung đưa lên internet là phương tiện duy nhất để truy dấu hành vi xâm phạm.",
+            "contentYC": "Các công nghệ bảo vệ bản quyền đang gặp khó khăn trong việc chống lại các mánh lới xâm phạm",
+            "contentYD": "Chỉ có công nghệ finger printing được sử dụng để ngăn chặn đăng tải trái phép các trận bóng đá"
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Điền một cụm từ không quá hai tiếng trong đoạn [7] vào chỗ trống:<br/>Việc bảo vệ bản quyền trong sự phát triển của môi trường kỹ thuật số là <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> cho các nhà phát triển công nghệ tiếp tục nghiên cứu.",
+            "type": "TLN",
+            "correctAnswer": [
+                "thách thức"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Cụm “môi trường kỹ thuật số… thách thức… đòi hỏi… nghiên cứu” xuất hiện ở phần kết (đoạn [7]) cho thấy “thách thức” là từ trọng tâm. Khi làm bài, học sinh nên chú ý câu kết luận của bài đọc, vì thường chứa thông điệp chính. Ở đây, việc bảo vệ bản quyền được gọi là một <strong>“thách thức”</strong>, do đó điền “thách thức” vừa khớp nguyên văn vừa hoàn chỉnh ý nghĩa câu.<br/><strong>Giải thích: </strong>Đoạn [7] kết luận: “Môi trường kĩ thuật số ngày càng phát triển, mở ra nhiều <strong>thách thức</strong> trong vấn đề bảo vệ bản quyền, đòi hỏi các nhà phát triển công nghệ phải liên tục nghiên cứu các giải pháp...”. Do đó, việc bảo vệ bản quyền trong bối cảnh kỹ thuật số được xem là một <strong>“thách thức”</strong> đối với các nhà phát triển công nghệ. Từ <strong>“thách thức”</strong> (nghĩa là <strong>challenge/thử thách</strong>) điền vào chỗ trống sẽ phù hợp về ngữ nghĩa, nhấn mạnh rằng đây là vấn đề khó khăn cần tiếp tục tìm giải pháp."
+        },
+        {
+            "question": "836af750-e218-4579-a96e-eefc13ae6bbd",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>TẬN DỤNG ƯU ĐIỂM CỦA C&Ocirc;NG NGHỆ AI</strong></div>\n<strong>[0] </strong>Trong thời đại c&ocirc;ng nghệ 4.0 ph&aacute;t triển mạnh mẽ, nhiều ứng dụng c&ocirc;ng nghệ mới được thử nghiệm, cập nhật li&ecirc;n tục v&agrave; được nhiều người sử dụng nhằm hỗ trợ trong c&ocirc;ng việc v&agrave; cuộc sống. Tuy nhi&ecirc;n, cần c&oacute; những cơ chế, ch&iacute;nh s&aacute;ch kịp thời hướng dẫn v&agrave; bảo đảm an to&agrave;n cho người sử dụng.<br />\n<strong>[1]</strong> C&ocirc;ng nghệ Artificial Intelligence - AI (tr&iacute; tuệ nh&acirc;n tạo) được xem l&agrave; một trong những ng&agrave;nh c&ocirc;ng nghệ h&agrave;ng đầu, gi&uacute;p giải quyết được nhiều vấn đề trong cuộc sống, c&oacute; thể giao tiếp, học v&agrave; tự th&iacute;ch nghi với m&ocirc;i trường chung quanh. Gần đ&acirc;y nhất, ứng dụng ChatGPT ra mắt, l&agrave; một c&ocirc;ng cụ tương t&aacute;c th&ocirc;ng minh với con người do C&ocirc;ng ty Open Al (Mỹ) ph&aacute;t triển.<br />\n<strong>[2]</strong> Theo thống k&ecirc; của ng&acirc;n h&agrave;ng đầu tư UBS, t&iacute;nh đến 31/1, ChatGPT đ&atilde; đạt 100 triệu người d&ugrave;ng. Trung b&igrave;nh mỗi ng&agrave;y trong th&aacute;ng 1, c&oacute; 13 triệu người truy cập. Cho đến nay, h&agrave;ng chục triệu người được trải nghiệm miễn ph&iacute; ChatGPT, với nhiều lời khen, ngạc nhi&ecirc;n, v&agrave; cả lo lắng trước những g&igrave; m&agrave; c&ocirc;ng cụ tr&iacute; tuệ nh&acirc;n tạo n&agrave;y thể hiện. C&aacute;c chuy&ecirc;n gia c&ocirc;ng nghệ bước đầu nhận định về ưu, nhược điểm của ứng dụng mới n&agrave;y. Theo đ&oacute;, ChatGPT c&oacute; thể tạo ra c&aacute;c nội dung văn bản giống với c&aacute;c nội dung được viết bởi con người; đưa ra c&acirc;u trả lời nhanh, kh&aacute; ch&iacute;nh x&aacute;c v&agrave; được c&aacute; nh&acirc;n h&oacute;a. Nếu người d&ugrave;ng kh&ocirc;ng thỏa m&atilde;n với c&acirc;u trả lời, họ c&oacute; thể chia sẻ c&aacute;c phản hồi, từ đ&oacute; cập nhật dữ liệu cho ChatGPT.<br />\n<strong>[3]</strong> Tuy l&agrave; c&ocirc;ng cụ mạnh nhưng ChatGPT cũng c&oacute; những nhược điểm cần c&acirc;n nhắc khi sử dụng. ChatGPT vẫn c&ograve;n nhiều hạn chế như: chất lượng c&acirc;u trả lời c&ograve;n phụ thuộc nguồn dữ liệu đ&atilde; được học; chưa cung cấp c&aacute;c nguồn tham chiếu của c&acirc;u trả lời; chưa đ&aacute;p ứng được tốt c&aacute;c c&acirc;u hỏi y&ecirc;u cầu ch&iacute;nh x&aacute;c v&agrave; li&ecirc;n quan đến tương lai; mức độ cảm x&uacute;c, s&aacute;ng tạo c&ograve;n hạn chế. Một trong những hạn chế lớn nhất của ChatGPT l&agrave; n&oacute; c&oacute; xu hướng tạo ra c&aacute;c nội dung văn bản nghe c&oacute; vẻ hợp l&yacute; v&agrave; c&oacute; t&iacute;nh thuyết phục nhưng thực tế lại kh&ocirc;ng ch&iacute;nh x&aacute;c hoặc v&ocirc; nghĩa. Tri thức của ChatGPT bị hạn chế đối với c&aacute;c sự kiện gần đ&acirc;y do việc huấn luyện trước c&aacute;c m&ocirc; h&igrave;nh tr&iacute; tuệ nh&acirc;n tạo mất kh&aacute; nhiều thời gian.<br />\n<strong>[4]</strong> &ETH;ối với phi&ecirc;n bản ph&aacute;t h&agrave;nh th&aacute;ng 11/2022, ChatGPT chỉ c&oacute; thể cung cấp th&ocirc;ng tin về c&aacute;c sự kiện xảy ra từ năm 2021 trở về trước. C&aacute;c chuy&ecirc;n gia cũng cảnh b&aacute;o ChatGPT c&oacute; thể được sử dụng trong c&aacute;c hoạt động tội phạm tr&ecirc;n kh&ocirc;ng gian mạng. Một số chuy&ecirc;n gia nhận định, việc sử dụng ChatGPT sẽ dẫn đến một số c&ocirc;ng việc bị ảnh hưởng như nghề viết quảng c&aacute;o, nh&acirc;n vi&ecirc;n tổng đ&agrave;i chăm s&oacute;c kh&aacute;ch h&agrave;ng... Sử dụng ChatGPT c&oacute; thể l&agrave;m giảm sự s&aacute;ng tạo v&agrave; khả năng tư duy của con người, ảnh hưởng ti&ecirc;u cực đến qu&aacute; tr&igrave;nh học tập. ChatGPT c&oacute; thể tạo ra c&acirc;u trả lời nhanh nhưng kh&ocirc;ng gi&uacute;p &iacute;ch cho x&acirc;y dựng c&aacute;c kỹ năng giải quyết vấn đề v&agrave; tư duy phản biện.<br />\n<strong>[5]</strong> Một số trường học ở một số nước đ&atilde; chặn sử dụng ChatGPT tr&ecirc;n c&aacute;c thiết bị v&agrave; mạng của trường. Một số hội thảo khoa học y&ecirc;u cầu kh&ocirc;ng sử dụng c&aacute;c nội dung do ChatGPT tạo ra. Sẽ ra sao nếu ChatGPT cho ph&eacute;p người d&ugrave;ng sử dụng tại Việt Nam? Nhiều &yacute; kiến cho rằng, khi ch&uacute;ng ta chưa c&oacute; nhiều cơ hội tiếp cận với việc sử dụng tr&iacute; tuệ nh&acirc;n tạo, mọi thứ chỉ dừng ở mức thỏa m&atilde;n sự t&ograve; m&ograve; v&agrave; mang t&iacute;nh giải tr&iacute; nhiều hơn l&agrave; tận dụng n&oacute; để l&agrave;m việc. Học sinh, sinh vi&ecirc;n c&oacute; thể gian lận trong việc sử dụng những th&ocirc;ng tin do tr&iacute; tuệ nh&acirc;n tạo tạo ra. Sự thiếu ch&iacute;nh x&aacute;c trong th&ocirc;ng tin do tr&iacute; tuệ nh&acirc;n tạo cung cấp c&oacute; thể g&acirc;y ra hệ quả nghi&ecirc;m trọng trong việc học hỏi v&agrave; tiếp cận nguồn tri thức mới.<br />\n<strong>[6]</strong> PGS, TS H&agrave; Hải Nam, Ph&oacute; Viện trưởng Viện C&ocirc;ng nghiệp phần mềm v&agrave; Nội dung số Việt Nam (Bộ Th&ocirc;ng tin v&agrave; Truyền th&ocirc;ng) cho rằng: C&aacute;c tổ chức cần c&oacute; đ&aacute;nh gi&aacute; to&agrave;n diện về nghiệp vụ c&oacute; thể ảnh hưởng bởi việc sử dụng ChatGPT để c&oacute; thể tận dụng ưu điểm, hạn chế nhược điểm khi sử dụng. &ETH;ối với nghiệp vụ cần c&aacute;c kết quả nhanh v&agrave; tương đối ch&iacute;nh x&aacute;c, sử dụng ChatGPT sẽ gi&uacute;p tăng hiệu quả c&ocirc;ng việc. Th&iacute; dụ, khi ứng dụng cho dịch vụ chăm s&oacute;c kh&aacute;ch h&agrave;ng, ChatGPT c&oacute; thể tạo ra c&aacute;c nội dung văn bản nhanh v&agrave; kh&aacute; ch&iacute;nh x&aacute;c. ChatGPT c&oacute; thể tạo ra &yacute; tưởng ban đầu cũng như c&aacute;c bản dự thảo cho rất nhiều chủ đề kh&aacute;c nhau gi&uacute;p tiết kiệm thời gian. &ETH;ối với c&aacute;c nghiệp vụ phức tạp, cần c&acirc;n nhắc khi sử dụng. C&aacute;c tổ chức, c&aacute; nh&acirc;n cần c&oacute; ph&acirc;n t&iacute;ch, nhận diện rủi ro của việc lạm dụng ChatGPT cho mục đ&iacute;ch xấu. Th&iacute; dụ, c&aacute;c cơ sở đ&agrave;o tạo cần nhận diện rủi ro li&ecirc;n quan đến vấn đề đạo văn từ c&aacute;c nội dung do ChatGPT tạo ra để thay đổi phương ph&aacute;p đ&aacute;nh gi&aacute; đối với người học. Hiện, Viện C&ocirc;ng nghiệp phần mềm v&agrave; Nội dung số Việt Nam đang thực hiện nghi&ecirc;n cứu li&ecirc;n quan đến khung ph&aacute;p l&yacute; về nguy&ecirc;n tắc đạo đức cho ứng dụng tr&iacute; tuệ nh&acirc;n tạo.\n\n<div style=\"text-align: right;\"><em><strong>(Theo Ninh Cơ, Tận dụng ưu điểm của c&ocirc;ng nghệ AI, đăng tr&ecirc;n https://nhandan.vn/ ng&agrave;y 05/02/2023)</strong></em></div>\n",
+            "title": " Đọc văn bản sau và trả lời các câu hỏi từ 11 đến 20.",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Theo vài viết, trong thời đại công nghệ 4.0, việc phát triển và sử dụng các ứng dụng công nghệ mới đang nhằm mục đích gì?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Phương pháp: Câu hỏi về mục đích chung thường được trả lời bằng ý chính ở phần mở bài. Học sinh nên đọc câu đầu tiên của bài đọc thứ hai (đoạn [0]) để nắm mục đích được nêu. Từ khóa “hỗ trợ trong công việc và cuộc sống” xuất hiện rõ ràng, rồi so sánh với các lựa chọn: chỉ có A diễn đạt đúng ý đó. Các phương án B, C, D nếu không thấy xuất hiện trong đoạn mở bài thì có thể loại bỏ.<br/><strong>Giải thích: </strong>Ngay câu mở đầu đoạn [0] đã nêu rõ: “nhiều ứng dụng công nghệ mới được… sử dụng nhằm <strong>hỗ trợ trong công việc và cuộc sống</strong>.” Điều này trùng khớp với nội dung lựa chọn A (<strong>hỗ trợ nhiều vấn đề trong cuộc sống và công việc ở nhiều lĩnh vực khác nhau</strong>). Các lựa chọn khác không phù hợp với thông tin bài:<br/>B đề cập “tạo ra cộng đồng người sử dụng công nghệ mới, thay thế lao động thủ công” – bài không nhắc đến mục tiêu này.<br/>C nói về “giải trí đa phương tiện” – đoạn [0] không đề cập giải trí, chỉ nói chung chung hỗ trợ cuộc sống, công việc.<br/>D nói về “hỗ trợ giáo dục, hướng tới giáo dục từ xa” – cũng không có trong đoạn [0].<br/>Vì thế, đáp án A là chính xác, phản ánh đúng mục đích chính của việc ứng dụng công nghệ mới thời 4.0 theo bài viết.",
+            "contentAnswerA": "Hỗ trợ nhiều vấn đề trong cuộc sống và công việc ở nhiều lĩnh vực khác nhau.",
+            "contentAnswerB": "Tạo ra cộng đồng những người sử dụng công nghệ mới, thay thế lao động thủ công.",
+            "contentAnswerC": "Phục vụ cho cuộc sống hiện đại, đáp ứng yêu cầu trong việc giải trí đa phương tiện.",
+            "contentAnswerD": "Hỗ trợ các hoạt động liên quan tới giáo dục, hướng tới giải pháo giáo dục từ xa."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Hoàn thành các câu sau bằng cách kéo thả các từ vào đúng vị trí:<br/>Cho tới thời điểm hiện tại, Artificial Intelligence – AI( trí tuệ nhân tạo ) được xem là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-1\">____DRAG_DROP_1____</span> hàng đầu, nhờ khả năng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-2\">____DRAG_DROP_2____</span> với người dùng, học hỏi và tự thích nghi với môi trường xung quanh. Sau một thời gian <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-3\">____DRAG_DROP_3____</span> ChatGPT, đa số người dùng đều có phản hồi tích cực về sản phẩm này.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "E>"
+                },
+                {
+                    "slot3": "D>"
+                }
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Đọc kỹ đoạn [1] và [2] để tìm từ chính xác cho từng chỗ trống:<br/>(1) cần một danh từ chỉ lĩnh vực của AI: đoạn [1] có cụm “ngành công nghệ hàng đầu” ⇒ điền “công nghệ”.<br/>(2) cần động từ chỉ khả năng của AI với người dùng: đoạn [1] có “có thể giao tiếp với người dùng” ⇒ điền “giao tiếp”.<br/>(3) ngữ cảnh nói về việc dùng ChatGPT một thời gian: đoạn [2] có nói người dùng được “trải nghiệm” ChatGPT ⇒ điền “trải nghiệm”.<br/>Khi làm dạng này, nên chú ý sự ăn khớp ngữ pháp và ý nghĩa sau khi điền, đồng thời loại các từ nghe không tự nhiên trong ngữ cảnh câu.<br/><strong>Giải thích: </strong><br/>Ở vị trí (1): Đoạn [1] viết “AI… được xem là một trong những ngành <strong>công nghệ</strong> hàng đầu”. Do đó, chỗ trống (1) phải điền từ <strong>“công nghệ”</strong> để nói <strong>AI là công nghệ hàng đầu</strong>.<br/>Vị trí (2): Cũng trong đoạn [1], AI “có thể <strong>giao tiếp</strong>… với môi trường xung quanh”, nghĩa là AI có khả năng <strong>giao tiếp</strong> với con người. Vì vậy, chỗ (2) điền <strong>“giao tiếp”</strong> là phù hợp (khả năng giao tiếp với người dùng).<br/>Vị trí (3): Đoạn [2] cho biết “hàng chục triệu người được trải nghiệm miễn phí ChatGPT, với nhiều lời khen…”. Câu cần điền mô tả việc người dùng đã dùng thử ChatGPT một thời gian và có phản hồi tích cực, nên từ thích hợp là “trải nghiệm” (trải nghiệm ChatGPT). Điền “trải nghiệm” vào (3) tạo thành cụm “Sau một thời gian trải nghiệm ChatGPT, đa số người dùng đều có phản hồi tích cực…”, hoàn toàn logic và khớp với ý bài.<br/>Các từ còn lại: “hỗ trợ” và “sản phẩm” không phù hợp để điền:<br/>Điền “hỗ trợ” vào (1) thành “AI… được xem là hỗ trợ hàng đầu” là sai ngữ pháp và không đúng nghĩa.<br/>Điền “sản phẩm” vào (3) thành “trải nghiệm <strong>sản phẩm</strong> ChatGPT” nghe không tự nhiên bằng “trải nghiệm ChatGPT” (vì ChatGPT đã được nhắc tên trực tiếp, không cần gọi là “sản phẩm”).<strong> </strong>",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "hỗ trợ"
+                },
+                {
+                    "id": "B>",
+                    "content": "công nghệ"
+                },
+                {
+                    "id": "C>",
+                    "content": "sản phẩm"
+                },
+                {
+                    "id": "D>",
+                    "content": "trải nghiệm"
+                },
+                {
+                    "id": "E>",
+                    "content": "giao tiếp"
+                }
+            ]
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Theo thống kê của ngân hàng đầu tư UBS, tính đến ngày 31/1, trên toàn thế giới đã có khoảng 100 triệu người sử dụng ứng dụng ChatGPT và trung bình, mỗi ngày có khoảng 13 triệu người truy cập. Đúng hai sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Khi kiểm tra Đúng/Sai cho những câu chứa số liệu, cần đối chiếu cẩn thận với bài đọc, đặc biệt chú ý các chi tiết về <strong>mốc thời gian</strong> và <strong>phạm vi</strong>. Học sinh nên nhận ra cụm “trung bình mỗi ngày <strong>trong tháng 1</strong>” trong bài và so sánh với câu hỏi. Nếu câu hỏi bỏ qua yếu tố thời gian đó, thì câu trả lời phải là Sai do thông tin chưa đầy đủ hoặc không còn chính xác trong ngữ cảnh gốc.<br/><strong>Giải thích: </strong>Mặc dù các con số 100 triệu người dùng và 13 triệu lượt truy cập mỗi ngày đều có trong bài (đoạn [2]), nhưng phát biểu trên thiếu thông tin về bối cảnh thời gian của số liệu, làm sai lệch ý nghĩa. Cụ thể, bài viết nói: “tính đến 31/1, ChatGPT đã đạt 100 triệu người dùng. <strong>Trung bình mỗi ngày trong tháng 1</strong>, có 13 triệu người truy cập.” (đoạn [2]). Như vậy, con số 13 triệu/ngày chỉ đúng <strong>trong phạm vi tháng 1/2023</strong>, chứ không phải trung bình mọi ngày trên toàn thế giới một cách chung chung. Phát biểu đề bài không nhắc “trong tháng 1”, khiến người đọc hiểu nhầm rằng 13 triệu là trung bình mỗi ngày nói chung. Do thiếu cụm thời gian quan trọng này nên nhận định được coi là <strong>chưa chính xác hoàn toàn</strong> so với thông tin bài – đáp án phải là <strong>Sai</strong>.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Theo thông tin trong bài viết, ứng dụng ChatGPT có những ưu điểm nào sau đây?<br/>(chọn hai đáp án đúng )",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c4"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Để làm câu về <strong>ưu điểm</strong>, học sinh nên tìm đoạn văn nơi tác giả nói về ưu, nhược điểm của ChatGPT (đoạn [2] và [3]). Gạch chân các ưu điểm trong bài (ví dụ: “câu trả lời nhanh, khá chính xác”, “được cá nhân hóa”). Sau đó đối chiếu với các lựa chọn:<br/>A và D rõ ràng tương ứng với những điểm đã gạch chân.<br/>B không thấy trong bài ⇒ loại.<br/>C trái ngược nội dung (bài nói <strong>không</strong> có nguồn tham chiếu) ⇒ loại.<br/>Chọn chính xác hai đáp án phản ánh ưu điểm đã nêu.<br/><strong>Giải thích: </strong>Đoạn [2] liệt kê các ưu điểm nổi bật của ChatGPT mà chuyên gia đã nhận định:<br/>ChatGPT có thể tạo ra các nội dung văn bản <strong>giống với nội dung con người viết</strong>; đưa ra câu trả lời <strong>nhanh, khá chính xác</strong> (đoạn [2]). Điều này nghĩa là nội dung ChatGPT tạo ra có độ <strong>chính xác tương đối cao</strong> và đáp ứng tốt nhu cầu người dùng (nhiều người khen ngợi). Lựa chọn A mô tả “nội dung có tính chính xác và phần nào thỏa mãn người dùng” chính là ý này.<br/>ChatGPT có khả năng cá nhân hóa câu trả lời: đoạn [2] nhấn mạnh câu trả lời của ChatGPT “được cá nhân hóa”, tức tùy biến theo từng người hỏi. Đáp án D (“đưa ra câu trả lời có tính cá nhân hóa”) trùng khớp với ưu điểm đó.<br/>Ngược lại:<br/>B (<strong>“đưa ra dự đoán dựa trên thông tin cung cấp”</strong>) không được nêu là ưu điểm trong bài. Bài không đề cập ChatGPT có khả năng dự đoán tương lai hay dự đoán kết quả, mà chỉ nói nó trả lời dựa trên dữ liệu đã học.<br/>C (<strong>“thống kê các nguồn tham chiếu cho nội dung hỏi”</strong>) trái với thực tế nêu trong bài: đoạn [3] liệt kê việc ChatGPT “chưa cung cấp các nguồn tham chiếu của câu trả lời” – đây là hạn chế, không phải ưu điểm.",
+            "contentC1": "Tạo ra nội dung có tính chính xác và phần nào thỏa mãn người dùng",
+            "contentC2": "Có khả năng đưa ra các dự đoán dựa trên thông tin được cung cấp.",
+            "contentC3": "Thống kê các nguồn tham chiếu cho nội dung hỏi của người dùng.",
+            "contentC4": "Đưa ra các câu trả lời có tính cá nhân hóa cho nội dung được hỏi."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Theo bài viết, vấn đề đáng lo ngại nhất của những người sử dụng ứng dụng ChatGPT là gì?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/><strong>Phương pháp: </strong>Để xác định <strong>vấn đề đáng lo ngại nhất</strong>, học sinh nên chú ý những cụm từ nhấn mạnh mức độ trong bài, ví dụ như “hạn chế lớn nhất” (đoạn [3]). Cụm này báo hiệu đây là nhược điểm nghiêm trọng nhất. So sánh các đáp án, lựa chọn nào diễn đạt đúng ý hạn chế lớn nhất đó sẽ là đáp án đúng (ở đây là D). Ngoài ra, cần phân biệt giữa các hạn chế thông thường và hạn chế được tác giả đặc biệt nhấn mạnh làm người dùng lo lắng nhất.<br/>Giải thích: Đoạn [3] liệt kê nhiều nhược điểm của ChatGPT, trong đó nhấn mạnh: “Một trong những hạn chế lớn nhất của ChatGPT là nó có xu hướng tạo ra các nội dung văn bản nghe có vẻ hợp lý và có tính thuyết phục nhưng thực tế lại không chính xác hoặc vô nghĩa. Đây chính là điều khiến người dùng lo ngại nhất – nội dung ChatGPT đưa ra rất thuyết phục nhưng có thể sai lệch, không đáng tin cậy. Đáp án D diễn đạt lại ý này: câu trả lời của ChatGPT tuy có vẻ thuyết phục nhưng không thực sự chính xác hoặc đầy đủ.<br/>Các đáp án khác đều đề cập đến hạn chế của ChatGPT nhưng không phải điểm “đáng lo nhất”:<br/>A nói ChatGPT thiếu tính sáng tạo (bài có nhắc “mức độ… sáng tạo còn hạn chế” – đoạn [3]), nhưng đây không được xem là vấn đề nghiêm trọng nhất đối với người dùng phổ thông.<br/>B nói ChatGPT không trả lời được các vấn đề tương lai (bài có nêu “chưa đáp ứng tốt các câu hỏi… liên quan đến tương lai” – đoạn [3]), nhưng đây chỉ là một hạn chế kỹ thuật cụ thể, không phải mối lo hàng đầu.<br/>C nói nguồn tham chiếu hạn chế làm câu trả lời thiếu chính xác (đoạn [3] có “chưa cung cấp các nguồn tham chiếu”), tuy nhiên chính việc thiếu nguồn dẫn đến hệ quả lớn hơn là thông tin sai mà có vẻ đúng – tức là vẫn quay lại ý D. Vì vậy, D mới là ý tổng hợp quan trọng nhất.",
+            "contentAnswerA": "Các câu trả lời thiếu tính sáng tạo, đặc biệt trong lĩnh vực văn hóa, lịch sử.",
+            "contentAnswerB": "Không đưa ra được các câu trả lời liên quan tới những vấn đề trong tương lai.",
+            "contentAnswerC": "Nguồn tham chiến còn hạn chế nên câu trả lời không có thông tin chính xác.",
+            "contentAnswerD": "Nội dung trình bày thuyết phục nhưng không thực sự chính xác và đầy đủ."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Điền từ thích hợp ( không quá hai tiếng ) để hoàn thành câu sau:<br/>“Câu trả lời của ChatGPT phụ thuộc vào việc huấn luyện mô hình trí tuệ nhân tạo nên cho tới thời điểm hiện tại, ứng dụng này chỉ có thể cung cấp <span class=\"fill-blank\" data-blank-id=\"Câu 16-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> về sự kiện trước năm 2021”",
+            "type": "TLN",
+            "correctAnswer": [
+                "thông tin"
+            ],
+            "explanation": "<br/><strong>Phương pháp: </strong>Chỗ trống cần một danh từ chung (cung cấp cái gì). Đọc đoạn [4] thấy ngay câu tương tự với cấu trúc “cung cấp <strong>thông tin</strong> về các sự kiện…”. Do đó, suy ra từ “thông tin” là đáp án chính xác. Khi làm bài, nên tìm trong bài câu chứa phần đầu của câu cần điền (ở đây “chỉ có thể cung cấp...”) để lấy đúng từ còn thiếu. Tránh điền các từ không có trong bài hoặc sai về ngữ nghĩa (ví dụ “dữ liệu” hay “kiến thức” có thể gần nghĩa nhưng bài dùng từ “thông tin” nên ta ưu tiên dùng đúng từ đó).<strong> </strong><br/><strong>Giải thích: </strong>Theo bài, do giới hạn về dữ liệu huấn luyện, phiên bản ChatGPT hiện tại chỉ có kiến thức đến năm 2021. Đoạn [4] viết: “ChatGPT chỉ có thể cung cấp <strong>thông tin</strong> về các sự kiện xảy ra từ năm 2021 trở về trước.” Như vậy, từ cần điền chính là <strong>“thông tin”</strong>. Điền “thông tin” giúp câu hoàn chỉnh nghĩa: ChatGPT chỉ có thể cung cấp <strong>thông tin</strong> (về các sự kiện cũ trước 2021), chứ không thể cung cấp nhận định hay dự đoán về sự kiện sau đó.<strong> </strong>"
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Theo bài viết, sự ra đời của ChatGPT sẽ tác động như thế nào tới thị trường lao động?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm đoạn bài nói về <strong>thị trường lao động</strong> hoặc các <strong>công việc</strong>. Đoạn [4] có từ khóa “một số công việc bị ảnh hưởng…”. Ghi nhận những công việc được liệt kê (viết quảng cáo, chăm sóc khách hàng), và hiểu rằng đây là <strong>một số nhóm ngành cụ thể</strong> bị tác động. So sánh với các đáp án:<br/>B bao quát đúng ý “một số nhóm ngành bị ảnh hưởng do tốc độ xử lý thông tin ưu việt của ChatGPT” (ngụ ý ChatGPT làm nhanh những việc đó hơn con người).<br/>Các đáp án còn lại nói đến sự thay thế toàn bộ hoặc những lĩnh vực không được nhắc trong bài ⇒ loại bỏ.<br/>Lưu ý những lựa chọn có từ ngữ tuyệt đối (“thay thế con người”, “loại bỏ…”) thường không đúng nếu bài không nhắc rõ như vậy.<br/><strong>Giải thích: </strong>Đoạn [4] cung cấp thông tin về tác động của ChatGPT đến một số công việc: “việc sử dụng ChatGPT sẽ dẫn đến một số công việc bị ảnh hưởng như nghề viết quảng cáo, nhân viên tổng đài chăm sóc khách hàng...”. Điều này tương ứng với đáp án B: <strong>tác động đến một số nhóm ngành do ưu thế về tốc độ xử lý thông tin của ChatGPT</strong> (ChatGPT có thể thực hiện nhanh những nhiệm vụ như soạn nội dung quảng cáo, trả lời khách hàng, nên các công việc đó sẽ chịu ảnh hưởng).<br/>Ngược lại, các đáp án khác không đúng hoặc không được đề cập:<br/>A: “ChatGPT dần thay thế con người trong các lĩnh vực đòi hỏi sáng tạo liên tục” – bài không nói ChatGPT sẽ <strong>thay thế</strong> con người trong lĩnh vực sáng tạo, hơn nữa ChatGPT bị đánh giá là còn hạn chế về sáng tạo (đoạn [3]).<br/>C: “Thay thế dần các hoạt động giảng dạy truyền thống” – không có thông tin này, ChatGPT không được nhắc đến trong bối cảnh giảng dạy ở trường phổ thông.<br/>D: “Loại bỏ việc đào tạo kỹ năng cho lao động văn phòng truyền thống” – bài không đề cập ý này.<br/>Vì vậy, chỉ có đáp án B phản ánh đúng ý bài: ChatGPT tạo ra tác động lên <strong>một số nhóm ngành nghề cụ thể</strong> nhờ khả năng làm việc hiệu quả.",
+            "contentAnswerA": "ChatGPT dần thay thế con người trong các lĩnh vực đòi hỏi sự sáng tạo liên tục.",
+            "contentAnswerB": "Tác động đến một số nhóm ngành do tính ưu việt trong tốc độ xử lý thông tin.",
+            "contentAnswerC": "Thay thế dần các hoạt động giảng dạy truyền thống trong nhà trường phổ thông.",
+            "contentAnswerD": "Loại bỏ việc đào tạo kĩ năng cho lao động trong môi trường công sở truyền thống."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Ở Việt Nam, nếu không thể kiểm soát việc sử dụng ChatGPT sẽ dẫn tới hậu quả gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/><strong>Phương pháp: </strong>Để tìm hậu quả, tập trung vào đoạn [5] – đoạn đặt vấn đề “Sẽ ra sao nếu… tại Việt Nam?”. Ở đó, chú ý các câu nói về <strong>hệ quả nghiêm trọng</strong>: bài nhấn mạnh hai điểm chính là <strong>gian lận của HS-SV</strong> và <strong>thông tin sai gây hại cho việc học hỏi, tri thức</strong>. So với các đáp án, C chính là ý “gây hại cho việc học hỏi, tiếp thu tri thức” phù hợp với lời văn “hệ quả nghiêm trọng trong việc học hỏi và tiếp cận tri thức”. Các đáp án còn lại hoặc không được đề cập hoặc suy diễn không chính xác, nên bị loại.<br/><strong>Giải thích: </strong>Đoạn [5] nêu ra lo ngại về việc sử dụng ChatGPT ở Việt Nam: “Học sinh, sinh viên có thể gian lận... Sự thiếu chính xác trong thông tin do trí tuệ nhân tạo cung cấp có thể gây ra <strong>hệ quả nghiêm trọng trong việc học hỏi và tiếp cận nguồn tri thức mới</strong>.” Điều này có nghĩa là <strong>chất lượng học tập và việc tiếp thu tri thức của học sinh, sinh viên sẽ bị ảnh hưởng tiêu cực</strong> nếu ChatGPT bị lạm dụng mà không được kiểm soát. Lựa chọn C diễn đạt đúng ý đó: “Ảnh hưởng tiêu cực tới quá trình học hỏi, tiếp cận tri thức của các thế hệ học sinh, sinh viên.”<br/>Xét các đáp án khác:<br/>A: “Không thể ngăn chặn gian lận trong thi cử, đặc biệt hệ đại học” – Bài có nói học sinh, sinh viên <strong>có thể gian lận</strong> khi dùng ChatGPT, nhưng không khẳng định mức độ “không thể ngăn chặn” hay nhấn mạnh riêng bậc đại học. Cách diễn đạt của A mạnh hơn và cụ thể hơn những gì bài đề cập.<br/>B: “Các công trình khoa học thiếu thực tiễn, không có đóng góp thực sự” – Không được nhắc đến trong bài.<br/>D: “Gây khó khăn trong đánh giá chất lượng bài làm của học sinh” – Bài không nêu ý này.<br/>Tóm lại, đáp án C bao trùm đúng hậu quả lớn nhất được nêu trong bài: ảnh hưởng xấu đến việc học và tiếp thu kiến thức của học sinh, sinh viên.",
+            "contentAnswerA": "Không thể ngăn chặn hoạt động gian lận trong thi cử, đặc biệt là hệ đại học.",
+            "contentAnswerB": "Các công trình khoa học thiếu tính thực tiễn, không có đóng góp thực sự.",
+            "contentAnswerC": "Ảnh hưởng tiêu cực tới quá trình học hỏi, tiếp cận tri thức của các thế hệ học sinh, sinh viên.",
+            "contentAnswerD": "Gây khó khăn trong quá trình đánh giá chất lượng bài làm của học sinh."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Viện Công nghiệp phần mềm và Nội dung số Việt Nam đang thực hiện nghiên cứu liên quan đến  điều gì?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Phương pháp: Xác định từ khóa “Viện Công nghiệp phần mềm…” trong bài (đoạn [6]). Câu văn sau đó sẽ chứa nội dung nghiên cứu. Chỉ cần trích đúng ý câu đó và so sánh với các đáp án: đáp án nào có ý nghĩa tương tự sẽ là đáp án đúng (ở đây A tương ứng hoàn toàn). Những đáp án nào không thấy xuất hiện trong nội dung lân cận từ khóa đó thì loại bỏ.<br/>Giải thích: Cuối đoạn [6], bài viết cho biết rõ: “Hiện, Viện Công nghiệp phần mềm và Nội dung số Việt Nam đang thực hiện nghiên cứu liên quan đến khung pháp lý về nguyên tắc đạo đức cho ứng dụng trí tuệ nhân tạo.” Cụm này trùng khớp gần như nguyên văn với đáp án A. Các lựa chọn khác đều sai hoặc không có trong bài:<br/>B: “hướng dẫn sử dụng ChatGPT để giảm thiểu rủi ro an ninh” – bài không đề cập.<br/>C: “phát triển mô hình AI sử dụng hiệu quả tiếng Việt” – không nhắc đến.<br/>D: “tạo cơ hội cho phép người dùng sử dụng ChatGPT an toàn trên mạng” – không được nêu.<br/>Do đó, đáp án đúng phải là A, vì phản ánh đúng hướng nghiên cứu mà Viện đang tiến hành theo bài báo.",
+            "contentAnswerA": "Khung pháp lý về nguyên tắc đạo đức cho các ứng dụng trí tuệ nhân tạo.",
+            "contentAnswerB": "Hướng dẫn sử dụng ChatGPT để giảm thiểu rủi ro trong vấn đề an ninh.",
+            "contentAnswerC": "Phát triển mô hình trí tuệ nhân tạo sử dụng hiệu quả ngôn ngữ tiếng Việt.",
+            "contentAnswerD": "Tạo cơ hội cho phép người dùng sử dụng ChatGPT an toàn trên mạng."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Theo bài viết, vì sao cần có đánh giá toàn diện về việc sử dụng ChatGPT tại Việt Nam?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><strong>Phương pháp: </strong>Tìm trong đoạn [6] câu có cụm từ “đánh giá toàn diện”. Quả nhiên câu đó chứa mục đích sau từ “để”: “để có thể tận dụng ưu điểm, hạn chế nhược điểm…”. Khi làm bài, nhận biết cấu trúc câu <strong>mục đích</strong> (thường bắt đầu bằng “để” hoặc “nhằm”) sẽ giúp xác định lý do. Đối chiếu các đáp án với phần sau của từ “để” trong bài, ta thấy đáp án A trùng khớp. Các đáp án B, C, D không được đề cập trong câu mục đích đó thì loại bỏ.<br/>Giải thích: PGS, TS. Hà Hải Nam ở đoạn [6] đã nhấn mạnh lý do: Các tổ chức cần đánh giá toàn diện việc sử dụng ChatGPT “để có thể tận dụng ưu điểm, hạn chế nhược điểm khi sử dụng.” Nói cách khác, mục đích của việc đánh giá toàn diện là phát huy những lợi ích của ChatGPT đồng thời giảm thiểu những mặt hạn chế/tác hại của nó. Đáp án A chính là sự diễn đạt lại ý này.<br/>Các đáp án khác:<br/>B: “Thay đổi cơ cấu thị trường lao động, đảm bảo hiệu quả kinh tế” – không phải lý do được nêu ra; bài không nói đánh giá ChatGPT nhằm tác động thị trường lao động.<br/>C: “Phát triển nhóm ngành nghề mới nhờ ưu điểm của ứng dụng” – bài không đề cập mục tiêu này.<br/>D: “Vận dụng vào các quy trình làm việc yêu cầu thông tin chính xác” – không đúng trọng tâm; bài có nói ChatGPT hữu ích cho nghiệp vụ cần kết quả nhanh, nhưng lý do đánh giá toàn diện không phải để áp dụng ngay vào quy trình, mà là để cân nhắc lợi/hại nói chung.<br/>Chỉ có đáp án A bao quát đúng tinh thần mà bài viết nêu: đánh giá toàn diện để <strong>tận dụng ưu điểm và hạn chế nhược điểm</strong> của ChatGPT.",
+            "contentAnswerA": "Tận dụng các ưu điểm và hạn chế nhược điểm của ứng dụng này.",
+            "contentAnswerB": "Thay đổi cơ cấu thị trường lao động, đảm bảo hiệu quả kinh tế.",
+            "contentAnswerC": "Phát triển nhóm ngành nghề mới nhờ ưu điểm của ứng dụng này.",
+            "contentAnswerD": "Vận dụng vào các quy trình làm việc yêu cầu thông tin chính xác."
+        }
+    ],
+    "subject": "TƯ DUY ĐỌC HIỂU",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-01-03T17:45:43.708Z",
+    "updatedAt": "2026-01-03T17:45:43.708Z",
+    "__v": 0
+}
+
+{
+    "_id": "695a0fef535aa47f9b892e92",
+    "title": "[AECK]-Tư Duy Khoa Học-Đề 12",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "4aca0951-4787-44e3-9dd4-7fd42fee9475": "X",
+        "Câu 1": [
+            "sóng"
+        ],
+        "Câu 2": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 3": [
+            "c1",
+            "c2",
+            "c4"
+        ],
+        "Câu 4": [
+            15
+        ],
+        "Câu 5": [
+            0.006
+        ],
+        "cb6cee38-2710-4549-8a7c-d1ebff051b0f": "X",
+        "Câu 6": "C",
+        "Câu 7": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 8": [
+            "c1",
+            "c2",
+            "c5"
+        ],
+        "Câu 9": [
+            2.49
+        ],
+        "Câu 10": [
+            "c1",
+            "c2",
+            "c4"
+        ],
+        "a0c7027f-2080-4809-85a4-c8634fbf7331": "X",
+        "Câu 11": "C",
+        "Câu 12": "D",
+        "Câu 13": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            }
+        ],
+        "Câu 14": "A",
+        "Câu 15": "B",
+        "b2488d16-bced-4a4d-a4ce-cbb4b23055f1": "X",
+        "Câu 16": "C",
+        "Câu 17": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "A>"
+            }
+        ],
+        "Câu 18": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 19": "C",
+        "Câu 20": [
+            30.49
+        ],
+        "93a0ddfc-b719-4fad-9888-94d0d2cd455e": "X",
+        "Câu 21": [
+            "hormone"
+        ],
+        "Câu 22": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 23": [
+            {
+                "1.": [
+                    "đái tháo đường"
+                ]
+            },
+            {
+                "2.": [
+                    "hạ đường huyết"
+                ]
+            }
+        ],
+        "Câu 24": [
+            {
+                "1.": [
+                    4
+                ]
+            },
+            {
+                "2.": [
+                    12
+                ]
+            }
+        ],
+        "Câu 25": [
+            "c1",
+            "c2",
+            "c3"
+        ],
+        "8aa95e82-ef0d-4dad-9bc5-f5d6c0bc563d": "X",
+        "Câu 26": "A",
+        "Câu 27": "A",
+        "Câu 28": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 29": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "B>"
+            }
+        ],
+        "Câu 30": [
+            "Huyết thanh"
+        ],
+        "7ddbe496-1aad-46af-8fe3-4158fb6bcd12": "X",
+        "Câu 31": [
+            "điện trở"
+        ],
+        "Câu 32": "C",
+        "Câu 33": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 34": [
+            2.95
+        ],
+        "Câu 35": [
+            4.33
+        ],
+        "1ba89b48-1ca9-4fe2-9f9e-0769fa51bc17": "X",
+        "Câu 36": "C",
+        "Câu 37": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 38": "C",
+        "Câu 39": [
+            "c1",
+            "c2",
+            "c4",
+            "c5"
+        ],
+        "Câu 40": [
+            1
+        ]
+    },
+    "startTime": "2025-12-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "4aca0951-4787-44e3-9dd4-7fd42fee9475",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>&Aacute;NH S&Aacute;NG [LAE17102562]</strong></div>\nTrong vật l&yacute;, &aacute;nh s&aacute;ng kh&ocirc;ng chỉ được coi l&agrave; d&ograve;ng hạt photon, m&agrave; c&ograve;n thể hiện t&iacute;nh chất s&oacute;ng. Điều n&agrave;y nghĩa l&agrave; &aacute;nh s&aacute;ng c&oacute; thể lan truyền như s&oacute;ng điện từ, mang theo dao động của điện trường v&agrave; từ trường vu&ocirc;ng g&oacute;c với nhau v&agrave; vu&ocirc;ng g&oacute;c với phương truyền. T&iacute;nh chất n&agrave;y được thể hiện th&ocirc;ng qua th&iacute; nghiệm giao thoa &aacute;nh s&aacute;ng của Young:\n\n<div style=\"text-align: center;\"><img alt=\"A red triangle with lines and arrows\n\nAI-generated content may be incorrect.\" data-temp-key=\"temp-image-1767509881426-j2jgku5l6\" src=\"https://cdn.save.moe/b/byWNT.png?dl=1\" / style=\"width: 50%; margin: 0 auto; display: block;\"></div>\nMỗi loại &aacute;nh s&aacute;ng đơn sắc đều c&oacute; gi&aacute; trị tần số $f = \\frac1T$ đặc trưng. Trong th&iacute; nghiệm n&agrave;y, &aacute;nh s&aacute;ng đơn sắc được chiếu qua hai khe hẹp song song $S_1$ v&agrave; $S_2$ c&aacute;ch nhau một khoảng $a$. M&agrave;n quan s&aacute;t đặt c&aacute;ch hai khe một khoảng $D$. Tr&ecirc;n m&agrave;n xuất hiện c&aacute;c vạch s&aacute;ng &ndash; tối gọi l&agrave; v&acirc;n giao thoa. Khoảng c&aacute;ch giữa hai v&acirc;n s&aacute;ng (hay tối) li&ecirc;n tiếp gọi l&agrave; khoảng v&acirc;n $i$ v&agrave; được t&iacute;nh bằng c&ocirc;ng thức:\n\n<div style=\"text-align: center;\">$i = \\frac{\\lambda D}{a}$</div>\nTrong đ&oacute;:<br />\n$\\lambda$: bước s&oacute;ng &aacute;nh s&aacute;ng d&ugrave;ng - khoảng c&aacute;ch &aacute;nh s&aacute;ng truyền đi được trong 1 chu k&igrave; $T$ $(m)$<br />\n$D$: khoảng c&aacute;ch từ hai khe đến m&agrave;n $(m)$<br />\n$a$: khoảng c&aacute;ch giữa hai khe $(m)$<br />\n$i$: khoảng c&aacute;ch giữa hai v&acirc;n s&aacute;ng $(m)$<br />\nC&ocirc;ng thức n&agrave;y cho ph&eacute;p dự đo&aacute;n v&agrave; t&iacute;nh to&aacute;n ch&iacute;nh x&aacute;c vị tr&iacute; c&aacute;c v&acirc;n s&aacute;ng &ndash; tối. Nhờ đ&oacute;, th&iacute; nghiệm khe Young kh&ocirc;ng chỉ khẳng định &aacute;nh s&aacute;ng c&oacute; t&iacute;nh chất s&oacute;ng m&agrave; c&ograve;n gi&uacute;p x&aacute;c định bước s&oacute;ng của &aacute;nh s&aacute;ng một c&aacute;ch thực nghiệm.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 5:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Điền một từ thích hợp vào ô trống dưới đây:<br/>Thí nghiệm giao thoa ánh sáng của Young đã chứng minh được rằng ánh sáng có tính chất <span class=\"fill-blank\" data-blank-id=\"Câu 1-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "sóng"
+            ],
+            "explanation": "<br/>Dựa vào ngữ liệu: “Trong vật lý, ánh sáng không chỉ được coi là dòng hạt photon, mà còn thể hiện tính chất sóng. Điều này nghĩa là ánh sáng có thể lan truyền như sóng điện từ, mang theo dao động của điện trường và từ trường vuông góc với nhau và vuông góc với phương truyền. Tính chất này được thể hiện thông qua thí nghiệm giao thoa ánh sáng của Young”."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các nhận định dưới đây:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>Đúng, theo ngữ liệu: ”Mỗi loại ánh sáng đơn sắc đều có giá trị tần số $f$ đặc trưng”.<br/>Sai, khoảng vân là khoảng cách giữa 2 vân sáng hoặc 2 vân tối liên tiếp.<br/>Sai, ánh sáng là sóng điện từ nói chung, chúng có tốc độ lan truyền như nhau.",
+            "contentYA": "Mỗi ánh sáng đơn sắc đều có giá trị tần số đặc trưng.",
+            "contentYB": "Khoảng cách giữa 1 vân sáng và 1 vân tối liên tiếp nhau chính bằng khoảng vân.",
+            "contentYC": "Mỗi ánh sáng đơn sắc đều có giá trị vận tốc lan truyền đặc trưng."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Trong thí nghiệm giao thoa ánh sáng, để làm tăng giá trị khoảng vân trong khi giữ nguyên nguồn sáng, có thể làm gì trong các cách dưới đây?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c4"
+            ],
+            "explanation": "<br/>Theo công thức tính giá trị khoảng vân: $i = \\frac{\\lambda D}{a}$<br/>Để làm tăng $i$, hoặc tăng $D$, hoặc giảm $a \\Rightarrow$ 3 phương án 1, 2, 4 là hợp lí.",
+            "contentC1": "Tăng khoảng cách từ 2 khe đến màn.",
+            "contentC2": "Giảm khoảng cách giữa 2 khe.",
+            "contentC3": "Giảm khoảng cách từ 2 khe đến màn, đồng thời tăng khoảng cách giữa 2 khe.",
+            "contentC4": "Tăng khoảng cách từ 2 khe đến màn, đồng thời giảm khoảng cách giữa 2 khe."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Sử dụng thông tin sau cho câu 4 và 5: Thực hiện thí nghiệm giao thoa ánh sáng với nguồn sáng có bước sóng $\\lambda = 0,3 \\mu m$. Khoảng cách giữa 2 khe $S_1, S_2$ là 5 cm, và màn quan sát đặt cách 2 khe một khoảng là 1 m.<br/>Điền một giá trị thích hợp vào ô trống (làm tròn đến 2 chữ số thập phân):<br/>Biết ánh sáng có $v = 3 \\cdot 10^8 m/s$. Tần số của ánh sáng trên là $k Hz$. Vậy $\\log(k) = $ <span class=\"fill-blank\" data-blank-id=\"Câu 4-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                15
+            ],
+            "explanation": "<br/>Từ ngữ liệu, bước sóng là khoảng cách sóng truyền được trong 1 chu kì.<br/>Ta có $v = \\lambda \\cdot f \\Rightarrow f = \\frac{v}{\\lambda} = \\frac{3 \\cdot 10^8}{0,3 \\cdot 10^{-6}} = 10^{15} Hz \\Rightarrow \\log f = 15$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Điền một giá trị thích hợp vào ô trống:<br/>Khoảng vân trong thí nghiệm trên có giá trị là <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $mm$.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.006
+            ],
+            "explanation": "<br/>Khoảng vân trong thí nghiệm trên có giá trị là: $i = \\frac{\\lambda D}{a}$.<br/>Ta có $\\lambda = 0,3 \\mu m$, $D = 1 m$, $a = 5 cm = 0,05 m$.<br/>$\\Rightarrow i = \\frac{0,3 \\cdot 10^{-6} \\cdot 1}{0,05} = 6 \\cdot 10^{-6} m = 0,006 mm$."
+        },
+        {
+            "question": "cb6cee38-2710-4549-8a7c-d1ebff051b0f",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>NƯỚC [HAE17102572]</strong></div>\nTrong cuộc sống, chắc chắn ch&uacute;ng ta kh&ocirc;ng c&ograve;n xa lạ g&igrave; với nước, bởi nước l&agrave; điều kiện thiết yếu để mọi sự sống c&oacute; thể sinh tồn. Nước được xem l&agrave; c&aacute;i n&ocirc;i của sự sống nguy&ecirc;n thủy: c&aacute;c sinh vật đơn giản đầu ti&ecirc;n xuất hiện v&agrave; ph&aacute;t triển trong nước, rồi dần dần th&iacute;ch nghi để mở rộng phạm vi sống tr&ecirc;n đất liền.<br />\nVề mặt h&oacute;a học, nước c&oacute; c&ocirc;ng thức h&oacute;a học l&agrave; $H_2O$, l&agrave; hợp chất phổ biến v&agrave; quan trọng nhất tr&ecirc;n Tr&aacute;i Đất. Trong ph&acirc;n tử nước, c&aacute;c nguy&ecirc;n tử hydrogen li&ecirc;n kết với nguy&ecirc;n tử oxygen bằng li&ecirc;n kết cộng h&oacute;a trị ph&acirc;n cực, với g&oacute;c $HOH = 104,45^\\circ$. Ch&iacute;nh nhờ t&iacute;nh ph&acirc;n cực n&agrave;y, m&agrave; nước tạo được li&ecirc;n kết hydrogen với c&aacute;c ph&acirc;n tử nước kh&aacute;c, gi&uacute;p nước c&oacute; nhiệt dung ri&ecirc;ng lớn v&agrave; khả năng h&ograve;a tan nhiều chất, đặc biệt h&ograve;a tan tốt c&aacute;c hợp chất ph&acirc;n cực v&agrave; hợp chất ion.<br />\nTuy nhi&ecirc;n, trong tự nhi&ecirc;n, ta kh&ocirc;ng thể t&igrave;m được nước tinh khiết tuyệt đối, m&agrave; nước tự nhi&ecirc;n lu&ocirc;n chứa c&aacute;c chất tan hoặc c&aacute;c ion h&ograve;a tan. Nước mưa thường c&oacute; h&ograve;a tan $CO_2$, cũng như l&agrave; lẫn ch&uacute;t bụi bẩn từ kh&ocirc;ng kh&iacute;. Nước sinh hoạt c&oacute; thể chứa c&aacute;c ion như $Ca^{2+}, Mg^{2+}$, g&acirc;y n&ecirc;n hiện tượng nước cứng. Nước từ c&aacute;c ao hồ, s&ocirc;ng ng&ograve;i thường lẫn c&aacute;c vi sinh vật, c&aacute;c chất hữu cơ hoặc kim loại nặng.<br />\nTrong đời sống v&agrave; c&ocirc;ng nghiệp, việc xử l&yacute; v&agrave; đảm bảo chất lượng nước c&oacute; vai tr&ograve; quan trọng.<br />\nNước sạch kh&ocirc;ng chỉ cần trong ăn uống m&agrave; c&ograve;n trong sản xuất dược phẩm, điện tử v&agrave; năng lượng.<br />\nC&aacute;c phương ph&aacute;p xử l&yacute; nước phổ biến bao gồm lọc, lắng, khử tr&ugrave;ng bằng clo hoặc ozone, v&agrave; c&ocirc;ng nghệ thẩm thấu ngược (RO).<br />\nNghi&ecirc;n cứu về nước kh&ocirc;ng chỉ gi&uacute;p bảo vệ sức khỏe cộng đồng m&agrave; c&ograve;n li&ecirc;n quan chặt chẽ đến ph&aacute;t triển bền vững v&agrave; bảo vệ m&ocirc;i trường.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 6 - 10:",
+            "range": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Chất nào sau đây có khả năng oxi hóa được nước ở nhiệt độ thường?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Fluorine oxi hóa được nước, sinh ra khí oxygen:<br/>$2F_2 + 2H_2O \\rightarrow 4HF + O_2\\uparrow$<br/>Các kim loại kiềm có khả năng khử được nước, sinh ra khí hydrogen. Ví dụ:<br/>$2Na + 2H_2O \\rightarrow 2NaOH + H_2$<br/>Chlorine phản ứng tự oxi hóa-khử khi phản ứng với nước:<br/>$Cl_2 + H_2O \\rightleftharpoons HCl + HClO$",
+            "contentAnswerA": "Sodium",
+            "contentAnswerB": "Chlorine",
+            "contentAnswerC": "Fluorine",
+            "contentAnswerD": "Potassium"
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>Ý a Đúng, vì nước có công thức hóa học là $H_2O$. Như vậy, phần trăm khối lượng nguyên tố oxygen trong nước là: $16/18=88,89\\%$.<br/>Ý bĐúng dựa theo ngữ liệu: “Chính nhờ tính phân cực này, mà nước tạo được liên kết hydrogen với các phân tử nước khác, giúp nước có nhiệt dung riêng lớn và khả năng hòa tan nhiều chất, đặc biệt hòa tan tốt các hợp chất phân cực và hợp chất ion”.<br/>Ý c Đúng, vì nước mưa thường có hòa tan $CO_2$, tạo ra môi trường carbonic acid có tính acid yếu.<br/>Ý d Sai, vì theo ngữ liệu: ”Nước được xem là cái nôi của sự sống nguyên thủy: các sinh vật đơn giản đầu tiên xuất hiện và phát triển trong nước, rồi dần dần thích nghi để mở rộng phạm vi sống trên đất liền”.",
+            "contentYA": "Trong phân tử nước, tỉ lệ phần trăm khối lượng nguyên tố oxygen vào khoảng 88,89%.",
+            "contentYB": "Nhờ tính phân cực mà nước có khả năng hòa tan được nhiều hợp chất, đặc biệt là các hợp chất phân cực và các hợp chất ion.",
+            "contentYC": "Nước mưa thường có tính acid nhẹ.",
+            "contentYD": "Sự sống đầu tiên khởi nguồn từ môi trường trên cạn, sau đó sinh vật thích nghi dần để xuất hiện sự sống dưới môi trường nước."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Chọn tất cả các đáp án đúng:<br/>Nước từ các giếng nước hay ao hồ có thể bị nhiễm kim loại nặng. Để loại bỏ các ion kim loại nặng này và cải thiện chất lượng nước, những cách làm nào sau đây là hợp lý khi sử dụng cho một quy mô lớn như toàn bộ nước giếng/ao?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c5"
+            ],
+            "explanation": "<br/>Phương án 3 và 4 từ trên xuống tỏ ra không khả thi. Các ion kim loại hòa tan trong nước chứ không phải các tạp chất không tan, phương pháp làm lắng không thể loại bỏ các ion. Phương án thứ 4 không hợp lý với quy mô to lớn như ao hồ.",
+            "contentC1": "Sử dụng thưc vật/ vi sinh vật có khả năng hấp thụ kim loại nặng.",
+            "contentC2": "Sử dụng các tác nhân kết tủa ion kim loại nặng.",
+            "contentC3": "Làm lắng các ion kim loại, sau đó vớt được phần nước không nhiễm kim loại nặng.",
+            "contentC4": "Cô cạn lượng nước, sau đó chưng cất để thu được nước không nhiễm ion kim loại.",
+            "contentC5": "Hấp phụ các ion bằng vật liệu chuyên dụng."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Điền một số thích hợp vào ô trống (làm tròn kết quả cuối cùng đến 2 chữ số thập phân, không làm tròn các bước trung gian):<br/>Nước cứng tuy không gây hại trực tiếp đến sức khỏe, nhưng lại gây nhiều bất tiện trong đời sống và sản xuất. Để làm mềm nước, một trong những cách thường sử dụng là dùng bộ trao đổi ion. Các bộ trao đổi ion này nhận các ion $Ca^{2+}, Mg^{2+}$ và thay vào trong nước các ion như $Na^+, K^+$. Sử dụng một zeolite có công thức hóa học là $Na_{12}[(AlO_2)_{12}(SiO_2)_{12}] \\cdot 24H_2O$ để làm mềm $1 m^3$ nước có nồng độ các ion $Ca^{2+}, Mg^{2+}$ lần lượt là $5 \\cdot 10^{-3} M$ và $6 \\cdot 10^{-4} M$. Coi hiệu suất trao đổi là 80%. Cần ít nhất <span class=\"fill-blank\" data-blank-id=\"Câu 9-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> kg zeolite để loại bỏ hết các ion $Ca^{2+}, Mg^{2+}$ trong lượng nước trên.",
+            "type": "TLN",
+            "correctAnswer": [
+                2.49
+            ],
+            "explanation": "<br/>Zeolite trên có phân tử khối là 2136, mỗi phân tử zeolite trao đổi được 12 ion $Na^+$.<br/>Tổng lượng ion $Ca^{2+}, Mg^{2+}$ trong $1 m^3$ nước trên là: $(5 \\cdot 10^{-3} + 6 \\cdot 10^{-4}) \\cdot 1000 = 5,6 mol$.<br/>Theo nguyên tắc bảo toàn điện tích, cứ 2 ion $Na^+$ có thể trao đổi với 1 ion $Ca^{2+}/Mg^{2+}$.<br/>Số mol zeolite cần dùng theo lý thuyết là: $(\\frac{5,6}{12}) \\cdot 2 = \\frac{14}{15} mol$.<br/>Khối lượng zeolite cần dùng thực tế là: $\\frac{14}{15} \\cdot \\frac{2136}{80\\%} = 2492 g = 2,49 kg$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Chọn tất cả các đáp án đúng:<br/>Trong số các chất dưới đây, những chất nào được hòa tan tốt bởi nước?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c4"
+            ],
+            "explanation": "<br/>Như ngữ liệu: nước có khả năng hòa tan các chất có tính phân cực và các hợp chất ion. Như vậy, các đáp án 1, 2, 4 là hợp lý.",
+            "contentC1": "Ethanol",
+            "contentC2": "$KOH$",
+            "contentC3": "Các alkane",
+            "contentC4": "$NaCl$",
+            "contentC5": "Ethylene"
+        },
+        {
+            "question": "a0c7027f-2080-4809-85a4-c8634fbf7331",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>ỐC BƯƠU V&Agrave;NG TẠI VIỆT NAM [SAECK1102566]</strong></div>\nỐc bươu v&agrave;ng l&agrave; t&ecirc;n gọi chung để chỉ c&aacute;c lo&agrave;i ốc nước ngọt thuộc chi Pomacea, thuộc họ Ốc t&aacute;o, lớp Ch&acirc;n bụng, ng&agrave;nh Th&acirc;n mềm. Tốc độ tự di chuyển của ốc bươu v&agrave;ng trong nước tương đối chậm, c&oacute; xu hướng di chuyển từ nơi c&oacute; mực nước cạn đến nơi c&oacute; mực nước s&acirc;u hơn, nhưng kh&ocirc;ng qu&aacute; 15 &ndash; 20 v&agrave; ngừng di chuyển khi trời mưa lớn. Ch&uacute;ng ph&aacute;t t&aacute;n đi xa được chủ yếu nhờ d&ograve;ng chảy khi trời mưa hoặc theo c&aacute;c s&ocirc;ng v&agrave; k&ecirc;nh rạch. Ốc bươu v&agrave;ng thuộc nh&oacute;m thụ tinh trong, đẻ trứng đẻ th&agrave;nh từng ổ khoảng từ 25 &ndash; 500 quả tr&ecirc;n c&aacute;c loại thực vật thủy sinh nối hay c&aacute;c bề mặt cứng như đ&aacute; c&aacute;ch mặt nước v&agrave;i centimet. Trứng nở sau khoảng 12 &ndash; 15 ng&agrave;y. Ch&uacute;ng c&oacute; phổ thức ăn tương đối rộng, chủ yếu gồm thức ăn mềm, từ c&aacute;c lo&agrave;i tảo b&aacute;m, vi khuẩn lam đến c&aacute;c lo&agrave;i thực vật c&oacute; mạch cho đến x&aacute;c b&atilde; thực vật như vỏ dừa, xơ m&iacute;t. Kh&ocirc;ng chỉ vậy, ch&uacute;ng c&ograve;n ăn li&ecirc;n tục, đặc biệt l&agrave; ốc non cỡ lớn v&agrave; ốc trưởng th&agrave;nh chưa ph&aacute;t dục.<br />\nDo nhu cầu l&agrave;m thức ăn cho chăn nu&ocirc;i, ốc bươu v&agrave;ng được di nhập về Việt Nam v&agrave; đ&atilde; g&acirc;y ra những ảnh hưởng ti&ecirc;u cực đến c&aacute;c lo&agrave;i bản địa. Với tập t&iacute;nh ăn kh&ocirc;ng ngừng v&agrave; phổ thức ăn tương đối rộng, ch&uacute;ng ti&ecirc;u h&oacute;a v&agrave; thải ph&acirc;n li&ecirc;n tục ra m&ocirc;i trường, g&acirc;y ph&uacute; dưỡng v&agrave; l&agrave;m xuất hiện hiện tượng tảo nở hoa trong khu vực. Sự xuất hiện của ốc bươu v&agrave;ng được ghi nhận l&agrave;m giảm đi số lượng c&aacute;c lo&agrave;i ốc bản địa như c&aacute;c lo&agrave;i thuộc chi Pila, do cạnh tranh nguồn thức ăn hoặc chịu ảnh hưởng của thuốc diệt ốc bươu v&agrave;ng. Xu hướng x&acirc;m lấn của ốc bươu v&agrave;ng chịu ảnh hưởng của nhiều yếu tố tự nhi&ecirc;n lẫn x&atilde; hội. Lũ lụt, mưa lớn v&agrave; gi&oacute; b&atilde;o c&oacute; xu hướng gi&uacute;p ốc bươu v&agrave;ng mở rộng quy m&ocirc; ph&acirc;n bố.<br />\nDưới đ&acirc;y l&agrave; đồ thị thể hiện ảnh hưởng của ốc bươu v&agrave;ng tới c&aacute;c lo&agrave;i kh&aacute;c:\n<div style=\"text-align: center;\"><img alt=\"Image from Word document\" data-temp-key=\"temp-image-1767509881430-3c6qpyfzq\" src=\"https://cdn.save.moe/b/CeJP9tf.png?dl=1\" / style=\"width: 50%; margin: 0 auto; display: block;\"></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 11 - 15:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Tại sao ốc bươu vàng là mối đe dọa tới sự cân bằng hệ sinh thái bản địa?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>A, Sai: Biến dị (thay đổi di truyền) là quá trình lâu dài và không phải là nguyên nhân chính khiến một loài ngoại lai xâm hại thành công ngay lập tức. Khả năng thích nghi ban đầu của chúng đã đủ mạnh.<br/>B, Sai: Mặc dù chúng có thể có sức đề kháng tốt, nhưng đây không phải là yếu tố cơ bản nhất. Sức kháng chịu vượt trội không đảm bảo sự bùng nổ số lượng.<br/>C, Đúng: Đây là lý thuyết cơ bản giải thích sự thành công của hầu hết các loài xâm hại (loài ngoại lai). Trong môi trường bản địa, ốc bươu vàng có các thiên địch (kẻ thù tự nhiên), ký sinh trùng, và các yếu tố cạnh tranh khác khống chế số lượng chúng. Khi du nhập vào môi trường mới (Việt Nam), chúng thường thoát khỏi các cơ chế khống chế này, cho phép chúng sinh sản và phát triển số lượng không kiểm soát, từ đó cạnh tranh và phá hoại hệ sinh thái bản địa.<br/>D, Sai: Không phải lúc nào chúng cũng phát triển vượt trội hơn tất cả các loài bản địa. Vấn đề là ở tốc độ sinh sản, khả năng ăn tạp, và việc thiếu thiên địch dẫn đến mất kiểm soát số lượng, chứ không phải tốc độ sinh trưởng cá thể.",
+            "contentAnswerA": "Trong môi trường mới, ốc bươu vàng xuất hiện các biến dị giúp chúng thích nghi hơn ban đầu.",
+            "contentAnswerB": "Vì chúng có sức đề kháng và khả năng chống chịu vượt trội so với các sinh vật bản địa.",
+            "contentAnswerC": "Vì trong môi trường mới, chúng có thể không bị khống chế như trong môi trường ban đầu.",
+            "contentAnswerD": "Chúng luôn sinh trưởng và phát triển vượt trội so với những loài sinh vật bản địa."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Chọn đáp án đúng.<br/>“Các loài du nhập làm <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> sự đa dạng của quần xã, từ đó <span class=\"fill-blank\" data-blank-id=\"Câu 12-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> cân bằng hệ sinh thái.\"<br/>Hai từ cần điền vào chỗ trống lần lượt là:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>\"Các loài du nhập làm giảm sự đa dạng của quần xã, từ đó mất cân bằng hệ sinh thái.\"",
+            "contentAnswerA": "tăng, mất.",
+            "contentAnswerB": "giảm, ổn định.",
+            "contentAnswerC": "tăng, duy trì.",
+            "contentAnswerD": "giảm, mất."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Kéo thả các từ/ cụm từ vào đúng vị trí.<br/>Ốc bươu vàng là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-1\">____DRAG_DROP_1____</span> được di nhập về Việt Nam với mục đích làm thức ăn cho chăn nuôi rồi đã gây ra những ảnh hưởng tiêu cực đến các <span class=\"drag-drop-blank\" data-drop-id=\"Câu 13-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                }
+            ],
+            "explanation": "<br/>Ốc bươu vàng là loài ngoại lai được di nhập về Việt Nam với mục đích làm thức ăn cho chăn nuôi rồi đã gây ra những ảnh hưởng tiêu cực đến các loài bản địa.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "loài ngoại lai"
+                },
+                {
+                    "id": "B>",
+                    "content": "loài chủ chốt"
+                },
+                {
+                    "id": "C>",
+                    "content": "loài bản địa"
+                },
+                {
+                    "id": "D>",
+                    "content": "loài đặc trưng"
+                }
+            ]
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Phát biểu sau là đúng hay sai?<br/>Theo hình 1, mặc dù là loài du nhập vào nhưng ốc bươu vàng nhanh chóng trở thành loài ưu thế trong quần xã này.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Do ốc bươu vàng thiếu thiên địch, khả năng sinh sản nhanh, và phổ thức ăn rộng, chúng cạnh tranh và làm giảm số lượng loài bản địa, từ đó nhanh chóng trở thành loài ưu thế (hoặc loài xâm hại) trong quần xã mới.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Biện pháp nào sau đây là phù hợp nhất nhằm hạn chế tác động tiêu cực của ốc bươu vàng đến sinh cảnh và các sinh vật bản địa?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Các biện pháp hóa học (C) và thủ công (A) chỉ mang tính tạm thời và tốn kém.<br/>Loại bỏ thức ăn (D) là bất khả thi (thức ăn của ốc là thực vật, tảo).<br/>Kiểm soát sinh học (B) (bổ sung thiên địch) là biện pháp bền vững và hiệu quả nhất trong quản lý loài xâm hại, vì nó tái tạo cơ chế khống chế tự nhiên bị mất đi.",
+            "contentAnswerA": "Đánh bắt ốc thường xuyên.",
+            "contentAnswerB": "Bổ sung vật ăn thịt vào quần xã.",
+            "contentAnswerC": "Phun thuốc tiêu diệt ốc.",
+            "contentAnswerD": "Loại bỏ các loài là thức ăn của ốc."
+        },
+        {
+            "question": "b2488d16-bced-4a4d-a4ce-cbb4b23055f1",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>NH&Agrave; M&Aacute;Y ĐIỆN HẠT NH&Acirc;N [LAE17102568]</strong></div>\nBạn c&oacute; từng nghĩ thứ nguy hiểm như ph&oacute;ng xạ c&oacute; thể được sử dụng để l&agrave;m ra điện kh&ocirc;ng? H&atilde;y x&eacute;t một phản ứng hạt nh&acirc;n đơn giản như sau:\n\n<div style=\"text-align: center;\">$^1_0n + ^{235}_{92}U \\rightarrow ^{236}_{92}U^* \\rightarrow ^{95}_{39}Y + ^{138}_{53}I + 3^1_0n$</div>\nPhản ứng tr&ecirc;n sinh ra năng lượng v&agrave;o khoảng $200 MeV$ cho mỗi hạt nh&acirc;n ph&acirc;n hạch. Khi biết $1 MeV = 1,6 \\cdot 10^{-13} J$, con số năng lượng sinh ra tr&ecirc;n thoạt nh&igrave;n c&oacute; vẻ rất khi&ecirc;m tốn. Tuy nhi&ecirc;n, khi x&eacute;t đến $235 gam$ $^{235}_{92}U$, tức l&agrave; 1 mol chất n&agrave;y, năng lượng sinh ra sẽ l&agrave;:\n\n<div style=\"text-align: center;\">$200 \\cdot 1,6 \\cdot 10^{-13} \\cdot 6,022 \\cdot 10^{23} = 1,92704 \\cdot 10^{13} J$.</div>\nMột lượng năng lượng khổng lồ phải kh&ocirc;ng? Để so s&aacute;nh, năng suất tỏa nhiệt của than đ&aacute; l&agrave; v&agrave;o khoảng $1,4 \\cdot 10^7 J/kg$. Như vậy, $235 g$ uranium sẽ sinh ra được năng lượng bằng với việc đốt ch&aacute;y hơn 1376 tấn than!<br />\nCh&iacute;nh nhờ năng lượng khổng lồ như vậy, n&ecirc;n c&aacute;c phản ứng hạt nh&acirc;n n&agrave;y được ứng dụng trong những nh&agrave; m&aacute;y điện hạt nh&acirc;n. Sơ đồ của một nh&agrave; m&aacute;y điện hạt nh&acirc;n đơn giản như sau:\n<div style=\"text-align: center;\"><img alt=\"Image from Word document\" data-temp-key=\"temp-image-1767509881431-fm1xda4qy\" src=\"https://cdn.save.moe/b/oYaQ2.png?dl=1\" / style=\"width: 65%; margin: 0 auto; display: block;\"></div>\nHiểu một c&aacute;ch đơn giản, nhi&ecirc;n liệu ph&oacute;ng xạ ch&iacute;nh l&agrave; nguồn cung cấp năng lượng nhiệt để đun s&ocirc;i nước, tạo ra hơi nước để quay turbine v&agrave; tạo ra điện. Do khi ph&acirc;n hạch, một nguy&ecirc;n tử U-235 sinh ra 2-3 neutron, v&agrave; c&aacute;c neutron n&agrave;y c&oacute; thể tiếp tục t&aacute;c động đến c&aacute;c hạt nh&acirc;n U kh&aacute;c để tạo ra phản ứng hạt nh&acirc;n d&acirc;y chuyền v&agrave; sinh ra một lượng năng lượng khổng lồ, n&ecirc;n trong l&ograve; phản ứng, c&oacute; c&aacute;c thanh điều khiển được l&agrave;m từ c&aacute;c vật liệu hấp thụ neutron như boron hay cadimium để hấp thụ lượng neutron thừa, qua đ&oacute; người ta điều khiển được cường độ của phản ứng trong l&ograve;, giữ cho phản ứng lu&ocirc;n ở mức ổn định.<br />\nTuy rằng đ&acirc;y l&agrave; nguồn năng lượng cực k&igrave; lớn, những thảm họa về nh&agrave; m&aacute;y điện hạt nh&acirc;n như ở Chernobyl (Ukraine), Fukushima (Nhật Bản),... đ&atilde; cho thấy sự nguy hiểm v&agrave; rủi ro rất lớn của nhi&ecirc;n liệu ph&oacute;ng xạ nếu kh&ocirc;ng được sử dụng đ&uacute;ng c&aacute;ch.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 16 - 20:",
+            "range": [
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Khi nói rằng uranium-235 được sử dụng làm nhiên liệu để làm nóng nước và quay turbine điện, ý nào sau đây là đúng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Phản ứng sinh ra năng lượng được nói ở trên chính là phản ứng hạt nhân, chính xác hơn là phản ứng phân hạch của Uranium.",
+            "contentAnswerA": "Nhiệt được sinh ra do đốt cháy uranium với oxy.",
+            "contentAnswerB": "Nhiệt được sinh ra do phản ứng hóa học giữa uranium và nước.",
+            "contentAnswerC": "Nhiệt được sinh ra do quá trình phân hạch hạt nhân của uranium.",
+            "contentAnswerD": "Nhiệt được sinh ra do phóng xạ alpha từ uranium."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Ghép các cụm từ dưới đây vào ô trống thích hợp với chúng:<br/>Nhà máy điện hạt nhân trong sơ đồ trên hoạt động theo 2 chu trình chính:<br/><span class=\"drag-drop-blank\" data-drop-id=\"Câu 17-1\">____DRAG_DROP_1____</span>: Hơi nước được ngưng tụ, sau đó được chuyển qua bình cấp hơi.<br/><span class=\"drag-drop-blank\" data-drop-id=\"Câu 17-2\">____DRAG_DROP_2____</span>: Nhiên liệu hạt nhân cung cấp năng lượng nhiệt, truyền cho chất tải nhiệt để đun sôi nước tạo thành hơi nước.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "A>"
+                }
+            ],
+            "explanation": "<br/>Từ hình vẽ, ta thấy chu trình thứ nhất có sự tham gia của lò phản ứng. Đây là nguồn sinh ra năng lượng nhiệt để chuyển nước thành hơi để quay turbine. Còn chu trình thứ 2 có sự tham gia của nước làm mát để ngưng tụ hơi.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Chu trình thứ nhất"
+                },
+                {
+                    "id": "B>",
+                    "content": "Chu trình thứ hai"
+                },
+                {
+                    "id": "C>",
+                    "content": "Chu trình làm mát"
+                }
+            ]
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho mỗi nhận định dưới đây:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Đúng, theo ngữ liệu: “Như vậy, 235 g uranium sẽ sinh ra được năng lượng bằng với việc đốt cháy hơn 1376 tấn than”.<br/>b, Sai, thanh điều khiển được làm bằng các vật hấp thụ neutron như boron để kiểm soát phản ứng phân hạch.<br/>c, Sai, ngày nay nhân loại vẫn sử dụng điện hạt nhân vì những lợi ích nó đem lại.<br/>d, Đúng, phản ứng phân hạch không sinh ra sản phẩm là các khí nhà kính.",
+            "contentYA": "Một khối lượng nhỏ Uranium phân hạch có thể sinh ra lượng năng lượng lớn bằng hàng nghìn tấn than.",
+            "contentYB": "Để giữ mức năng lượng sinh ra trong lò phản ứng ở vùng an toàn, người ta sử dụng các thanh điều khiển được mạ chì để chống lại phóng xạ.",
+            "contentYC": "Những thảm họa lớn về hạt nhân đã làm nền công nghiệp điện hạt nhân bị ngừng lại hoàn toàn hiện nay.",
+            "contentYD": "Nhà máy điện hạt nhân có mang lại lợi ích cho môi trường do không phát thải các khí gây hiệu ứng nhà kính."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Cho hình ảnh về khả năng đâm xuyên của các tia phóng xạ như sau:<br/><img src=\"https://cdn.save.moe/b/gyFbao2.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1767509881437-7fl2zwe1v\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Như vậy, để che chắn phóng xạ ở các nhà máy điện hạt nhân, vật liệu nào dưới đây là lý tưởng nhất:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Chì có khả năng chặn được tất cả các loại tia phóng xạ.",
+            "contentAnswerA": "Giấy.",
+            "contentAnswerB": "Nhôm.",
+            "contentAnswerC": "Chì."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Điền một giá trị thích hợp vào ô trống sau (không làm tròn các phép tính trung gian, làm tròn kết quả cuối cùng đến 2 chữ số thập phân):<br/>Nhu cầu sử dụng điện ở Việt Nam mỗi năm vào khoảng $10^{18} J$. Coi toàn bộ lượng năng lượng này được lấy từ phản ứng phân hạch của $^{235}_{92}U$, hiệu suất phản ứng vào khoảng 40% và số Avogadro lấy bằng $6,022 \\cdot 10^{23}$. Để cung cấp đủ điện cho Việt Nam trong một năm, cần <span class=\"fill-blank\" data-blank-id=\"Câu 20-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> tấn uranium.",
+            "type": "TLN",
+            "correctAnswer": [
+                30.49
+            ],
+            "explanation": "<br/>Một hạt nhân $^{235}_{92}U$ (gọi tắt là $U$ trong bài toán này) phân hạch sinh ra năng lượng $200MeV$.<br/>Quy đổi năng lượng điện cần dùng mỗi năm ra MeV, với $1 MeV = 1,6 \\cdot 10^{-13} J$, ta được: $6,25 \\cdot 10^{30} MeV$.<br/>Số hạt nhân $U$ cần phân hạch theo lý thuyết là: $6,25 \\cdot 10^{30} / 200 = 3,125 \\cdot 10^{28}$.<br/>Số mol $U$ cần dùng trên thực tế là: $n_U = \\frac{3,125 \\cdot 10^{28}}{6,022 \\cdot 10^{23}} : 40\\%$.<br/>Khối lượng $U$ cần dùng là $m_U = n_U \\cdot 235 \\approx 30,49 \\cdot 10^6 g = 30,49$ tấn."
+        },
+        {
+            "question": "93a0ddfc-b719-4fad-9888-94d0d2cd455e",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>ĐƯỜNG HUYẾT [HAE17102581]</strong></div>\nN&oacute;i về đường huyết, ch&uacute;ng ta thường hay nhớ đến insulin, một hormone từ tuyến tụy gi&uacute;p điều h&ograve;a đường huyết, cụ thể l&agrave; l&agrave;m giảm đường huyết trong m&aacute;u về mức an to&agrave;n. Tuy nhi&ecirc;n, &iacute;t người biết rằng vẫn c&ograve;n một loại hormone kh&aacute;c từ tuyến tụy nữa cũng rất quan trọng với con người, đ&oacute; l&agrave; glucagon. Tr&aacute;i ngược với vai tr&ograve; của insulin l&agrave; chuyển h&oacute;a glucose trong m&aacute;u th&agrave;nh glycogen dự trữ ở gan để điều h&ograve;a đường huyết, glucagon lại c&oacute; chức năng chuyển h&oacute;a glycogen trong gan th&agrave;nh glucose để cơ thể sử dụng, điều h&ograve;a đường huyết về ngưỡng b&igrave;nh thường trong trường hợp con người bị hạ đường huyết. Đ&acirc;y c&oacute; thể được coi l&agrave; 2 loại hormones đối kh&aacute;ng nhau về vai tr&ograve;, nhưng thực chất ch&uacute;ng phối hợp nhịp nh&agrave;ng với nhau để ổn định đường huyết trong m&aacute;u. Glucagon c&oacute; c&ocirc;ng thức cấu tạo dưới đ&acirc;y:\n\n<div style=\"text-align: center;\"><img alt=\"Image from Word document\" data-temp-key=\"temp-image-1767509881438-84eh37fh9\" src=\"https://cdn.save.moe/b/PhGPza.png?dl=1\" / style=\"width: 50%; margin: 0 auto; display: block;\"></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 21 - 25:",
+            "range": [
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Điền một từ thích hợp vào ô trống sau:<br/>Glucagon và insulin là 2 <span class=\"fill-blank\" data-blank-id=\"Câu 21-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> được tiết ra từ tuyến tụy, có vai trò điều hòa đường huyết.",
+            "type": "TLN",
+            "correctAnswer": [
+                "hormone"
+            ],
+            "explanation": "<br/>Dựa vào ngữ liệu."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Sai, glucagon là một chuỗi polypeptide chứa 29 gốc amino acid.<br/>b, Sai, glucagon phân giải đường glycogen thành glucose để sử dụng nên làm tăng đường huyết.<br/>c, Đúng, glucagon gồm 16 loại amino acid khác nhau cấu thành: Tryptophan (Trp), Histidine (His), Serine (Ser), Glutamine (Gln), Glycine (Gly), Theronine (Thr), Phenylalanine (Phe), Aspartic acic (Asp), Tyrosine (Tyr), Lysine (Lys), Leucine (Leu), Arginine (Arg), Alanine (Ala), Valine (Val), Methionine (Met) và Asparagine (Asn).<br/>d, Sai, amino acid đầu C của glucagon là Theronine (Thr).",
+            "contentYA": "Glucagon là một hormone được hình thành từ 31 gốc amino acid.",
+            "contentYB": "Glucagon phân giải đường glycogen, làm hạ đường huyết và điều hòa đường huyết.",
+            "contentYC": "Thủy phân hoàn toàn glucagon bằng dung dịch NaOH dư, thu được 16 muối khác nhau.",
+            "contentYD": "Amino acid đầu C của glucagon là Tyrosine (Tyr)."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Điền 2 cụm từ đái tháo đường/hạ đường huyết vào 2 ô trống sau đây cho thích hợp.<br/>Thiếu insulin dễ dẫn đến bệnh <span class=\"fill-blank\" data-blank-id=\"Câu 23-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>, còn thiếu glucagon dễ gây <span class=\"fill-blank\" data-blank-id=\"Câu 23-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>, làm người bệnh hôn mê, co giật.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "đái tháo đường"
+                    ]
+                },
+                {
+                    "2.": [
+                        "hạ đường huyết"
+                    ]
+                }
+            ],
+            "explanation": "<br/>Dựa vào tác dụng của 2 hormone được nhắc đến trong ngữ liệu:<br/>Insulin có vai trò hạ đường huyết về mức an toàn khi đường huyết lên quá cao $\\Rightarrow$ Thiếu hormone này dẫn đến đường huyết cao mất kiểm soát, dẫn đến đái tháo đường.<br/>Glucagon có vai trò làm tăng đường huyết khi đường huyết xuống thấp hơn ngưỡng an toàn $\\Rightarrow$ Thiếu glucagon dẫn đến hạ đường huyết."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Điền một số thích hợp vào ô trống:<br/>Enzyme trypsin có khả năng thủy phân các polypeptide, đặc hiệu ở vị trí có kiên kết peptide được tạo thành từ nhóm carboxyl của các amino acid có tính kiềm như Lysine (Lys) hoặc Arginine (Arg). Thực hiện thủy phân Glucagon bằng enzyme trypsin:<br/>Enzyme cắt hormone này thành <span class=\"fill-blank\" data-blank-id=\"Câu 24-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> phần.<br/>Mạch peptide dài nhất sau khi thủy phân chứa <span class=\"fill-blank\" data-blank-id=\"Câu 24-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> nhóm amino acid.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        4
+                    ]
+                },
+                {
+                    "2.": [
+                        12
+                    ]
+                }
+            ],
+            "explanation": "<br/>Ta nhận thấy trong mạch polypeptide của glucagon có 1 nhóm Lys và 2 nhóm Arg $\\Rightarrow$ Enzyme này cắt hormone này thành 4 phần với mỗi phần như sau:<br/>+ Arg.<br/>+ Tyr-Leu-Asp-Ser-Arg.<br/>+ Ala-Gln-Asp-Phe-Val-Gln-Trp-Leu-Met-Asn-Thr.<br/>+ His-Ser-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Lys.<br/>Như vậy, mạch dài nhất gồm có 12 đơn vị amino acid."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Xét mạch peptide dài nhất $(T)$ vừa được cắt ra ở câu 24. Những nhận định nào sau đây là đúng:",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/>Mạch dài nhất được cắt ra vừa rồi là T có cấu trúc như sau: His-Ser-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Lys.<br/>Mạch này có từ 3 đơn vị aminoacid trở lên nên có thể tạo phức tím với $Cu(OH)_2/NaOH$, còn khả năng bị thủy phân trong dung dịch $HCl$.<br/>Mạch này có chứa 1 gốc Glycine (Gly).<br/>Amino acid đầu $N$ của $T$ là Histidine, không phải Alanine.<br/>T chứa 1 gốc Phenylalanine (Phe), 1 gốc Tyrosine (Tyr). Tổng cộng T chứa 2 vòng benzene trong công thức cấu tạo.",
+            "contentC1": "$T$ có khả năng phản ứng tạo phức tím với $Cu(OH)_2/NaOH$.",
+            "contentC2": "$T$ còn khả năng phản ứng với dung dịch $HCl$.",
+            "contentC3": "$T$ chứa 1 gốc Glycine (Gly).",
+            "contentC4": "Amino acid đầu $N$ của $T$ là Alanine (Ala).",
+            "contentC5": "Biết Tyrosine (Tyr), tryptophan (Trp) và phenylalanine (Phe) đều có chứa 1 vòng benzene trong công thức phân tử. T có tổng cộng 3 vòng benzene trong cấu tạo."
+        },
+        {
+            "question": "8aa95e82-ef0d-4dad-9bc5-f5d6c0bc563d",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>NGUY&Ecirc;N TẮC TRUYỀN M&Aacute;U [SAECK1102567]</strong></div>\nM&aacute;u gồm hai th&agrave;nh phần ch&iacute;nh l&agrave; c&aacute;c tế b&agrave;o m&aacute;u v&agrave; huyết tương. Sự c&oacute; mặt của những th&agrave;nh phần kh&aacute;ng nguy&ecirc;n tr&ecirc;n bề mặt hồng cầu v&agrave; kh&aacute;ng thể trong huyết tương sẽ quyết định sự kh&aacute;c nhau hay giống nhau giữa c&aacute;c c&aacute; thể, v&agrave; sẽ quy định c&aacute;c loại nh&oacute;m m&aacute;u tương ứng: A, B, O, AB.\n\n<div style=\"text-align: center;\"><img alt=\"Image from Word document\" data-temp-key=\"temp-image-1767509881441-odszmz7ok\" src=\"https://cdn.save.moe/b/FKdKfd.png?dl=1\" / style=\"width: 65%; margin: 0 auto; display: block;\"></div>\nNguy&ecirc;n tắc truyền m&aacute;u cơ bản phải dựa tr&ecirc;n những đặc trưng ri&ecirc;ng cũng như kết cấu mạch m&aacute;u của mỗi nh&oacute;m m&aacute;u, kh&ocirc;ng được để kh&aacute;ng nguy&ecirc;n v&agrave; kh&aacute;ng thể tương ứng gặp nhau trong cơ thể. Do vậy, việc x&aacute;c định nh&oacute;m m&aacute;u ch&iacute;nh x&aacute;c trước khi truyền l&agrave; rất quan trọng. B&ecirc;n cạnh đ&oacute;, cần thực hiện th&ecirc;m phản ứng trộn ch&eacute;o tức l&agrave; trộn huyết thanh của người nhận với hồng cầu của người hiến v&agrave; trộn huyết thanh của người hiến với hồng cầu của người nhận. M&aacute;u chỉ được truyền cho người nhận khi kh&ocirc;ng xảy ra hiện tượng hồng cầu ngưng kết.<br />\nNh&oacute;m m&aacute;u O được gọi l&agrave; nh&oacute;m m&aacute;u &ldquo;cho phổ th&ocirc;ng&rdquo; trong khi nh&oacute;m m&aacute;u AB được gọi l&agrave; nh&oacute;m m&aacute;u &ldquo;nhận phổ th&ocirc;ng&rdquo;.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 26 - 30:",
+            "range": [
+                26,
+                27,
+                28,
+                29,
+                30
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Máu gồm hai thành phần chính là:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Máu gồm hai thành phần chính là các tế bào máu và huyết tương.",
+            "contentAnswerA": "Các tế bào máu và huyết tương.",
+            "contentAnswerB": "Hồng cầu và tiểu cầu.",
+            "contentAnswerC": "Huyết tương và hồng cầu.",
+            "contentAnswerD": "Bạch cầu và tiểu cầu."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Phát biểu sau là đúng hay sai?<br/>Phản ứng trộn chéo là một bước kiểm tra cần thiết, bởi vì nếu xảy ra hiện tượng hồng cầu ngưng kết sau khi trộn, điều đó chứng tỏ kháng nguyên trên bề mặt hồng cầu và kháng thể trong huyết tương tương ứng đã gặp nhau, vi phạm nguyên tắc truyền máu cơ bản.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Nguyên tắc cơ bản: \"không được để kháng nguyên và kháng thể tương ứng gặp nhau trong cơ thể.\"<br/>Mục đích của trộn chéo: Đảm bảo máu chỉ được truyền khi \"không xảy ra hiện tượng hồng cầu ngưng kết.\"<br/>Hậu quả: Hiện tượng hồng cầu ngưng kết chính là dấu hiệu trực quan cho thấy nguyên tắc truyền máu đã bị vi phạm (kháng nguyên của hồng cầu người hiến đã gặp kháng thể tương ứng của người nhận, hoặc ngược lại).",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Những nhận định sau đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai. Tế bào máu gồm hồng cầu, bạch cầu và tiểu cầu. Huyết tương mới có kháng thể.<br/>b, Đúng. Ví dụ người nhóm máu A truyền cho nhóm máu AB thì huyết thanh của người nhóm máu A có chứa kháng thể B, trong khi hồng cầu người nhóm máu AB có chứa kháng nguyên B, vẫn xảy ra sự ngưng kết, truyền ở mức < 250ml sẽ đảm bảo được an toàn, lưu ý truyền máu với tốc độ chậm.<br/>c, Sai. Người có nhóm máu O cho được tất cả các nhóm máu khác, người có nhóm máu AB nhận được tất cả các nhóm máu khác.<br/>d, Đúng. Quan sát hình 1, ta thấy người có nhóm máu AB không có kháng thể nào trong huyết thanh, chính vì vậy mà người có nhóm máu AB có khả năng nhận máu từ tất cả mọi người.",
+            "contentYA": "Tế bào máu gồm có hồng cầu, bạch cầu, tiểu cầu và kháng thể.",
+            "contentYB": "Nên thực hiện truyền máu giữa những người cùng nhóm máu, trong trường hợp khác nhóm máu nhưng vẫn đủ điều kiện truyền máu thì nên truyền với số lượng ít (<250ml).",
+            "contentYC": "Người có nhóm máu O nhận được tất cả các nhóm máu khác, người có nhóm máu AB cho được tất cả các nhóm máu khác.",
+            "contentYD": "Nhóm máu AB có khả năng “nhận phổ thông” vì không có kháng thể trong huyết thanh."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Kéo thả các từ/cụm từ vào đúng vị trí.<br/>Người có <span class=\"drag-drop-blank\" data-drop-id=\"Câu 29-1\">____DRAG_DROP_1____</span> thì truyền được cho người có nhóm máu A.<br/>Người có <span class=\"drag-drop-blank\" data-drop-id=\"Câu 29-2\">____DRAG_DROP_2____</span> thì nhận được từ người có nhóm máu B.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "B>"
+                }
+            ],
+            "explanation": "<br/>Người có nhóm máu A thì truyền được cho người có nhóm máu A.<br/>Người có nhóm máu AB thì nhận được từ người có nhóm máu B.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Nhóm máu B"
+                },
+                {
+                    "id": "B>",
+                    "content": "Nhóm máu AB"
+                },
+                {
+                    "id": "C>",
+                    "content": "Nhóm máu A"
+                }
+            ]
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Điền từ/ cụm từ thích hợp vào chỗ trống.<br/><span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> là huyết tương được loại bỏ các chất chống đông máu và để lại các chất điện giải.",
+            "type": "TLN",
+            "correctAnswer": [
+                "Huyết thanh"
+            ],
+            "explanation": "<br/>Huyết thanh là huyết tương được loại bỏ các chất chống đông máu và để lại các chất điện giải."
+        },
+        {
+            "question": "7ddbe496-1aad-46af-8fe3-4158fb6bcd12",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>SỤC ĐIỆN [LAE17102572]</strong></div>\nV&agrave;o những năm cuối thế kỉ XX v&agrave; đầu thế kỉ XXI, khi kinh tế đất nước c&ograve;n kh&oacute; khăn, việc sở hữu một chiếc ấm điện đun nước kh&ocirc;ng phải điều dễ d&agrave;ng. Thời ấy, &ldquo;sục điện&rdquo; &ndash; thiết bị đun nước bằng điện trở nh&uacute;ng trực tiếp &ndash; trở th&agrave;nh lựa chọn rẻ tiền, tiện lợi v&agrave; nhanh ch&oacute;ng.<br />\nThiết bị n&agrave;y gồm một d&acirc;y điện trở (mayso) đặt trong ống kim loại dẫn nhiệt, b&ecirc;n ngo&agrave;i c&oacute; lớp c&aacute;ch điện v&agrave; tay cầm c&aacute;ch nhiệt. Theo định luật Joule&ndash;Lenz, khi d&ograve;ng điện chạy qua d&acirc;y điện trở, n&oacute; sẽ tỏa ra một lượng nhiệt lớn, truyền trực tiếp sang nước xung quanh, gi&uacute;p nước nhanh ch&oacute;ng s&ocirc;i.\n<div style=\"text-align: center;\"><img alt=\"Image from Word document\" data-temp-key=\"temp-image-1767509881445-a8qbcudu8\" src=\"https://cdn.save.moe/b/r5iE3Z.png?dl=1\" / style=\"width: 50%; margin: 0 auto; display: block;\"></div>\nNhờ nguy&ecirc;n l&yacute; truyền nhiệt trực tiếp, sục điện trở th&agrave;nh phương tiện đun nước gọn nhẹ, ph&ugrave; hợp t&uacute;i tiền của nhiều gia đ&igrave;nh, đặc biệt l&agrave; sinh vi&ecirc;n thời bấy giờ. Tuy nhi&ecirc;n, thiết bị n&agrave;y cũng bộc lộ nhiều nhược điểm, nhất l&agrave; về an to&agrave;n điện: r&ograve; rỉ điện, qu&aacute; tải hay chập mạch c&oacute; thể g&acirc;y nguy hiểm cho người d&ugrave;ng. Ch&iacute;nh v&igrave; vậy, ng&agrave;y nay sục điện đ&atilde; dần &iacute;t được sử dụng, nhường chỗ cho c&aacute;c thiết bị đun nước an to&agrave;n v&agrave; hiện đại hơn.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 31 - 35:",
+            "range": [
+                31,
+                32,
+                33,
+                34,
+                35
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Điền một từ thích hợp có trong ngữ liệu vào ô trống sau:<br/>Sục điện là một thiết bị đun nước bằng <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> nhúng trực tiếp vào nước.",
+            "type": "TLN",
+            "correctAnswer": [
+                "điện trở"
+            ],
+            "explanation": "<br/>Theo ngữ liệu: “Thời ấy, “sục điện” – thiết bị đun nước bằng điện trở nhúng trực tiếp – trở thành lựa chọn rẻ tiền, tiện lợi và nhanh chóng.”"
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Việc đun nóng nước bằng sục điện chứng tỏ rằng dòng điện có:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Khi cho dòng điện chạy qua dây điện trở hoặc dây sục điện trong nước, năng lượng điện được chuyển hóa thành nhiệt năng theo hiệu ứng Joule - Lenz. Chính nhiệt lượng này làm nước nóng lên hoặc sôi $\\rightarrow$ chứng minh tác dụng nhiệt của dòng điện.",
+            "contentAnswerA": "Tác dụng từ.",
+            "contentAnswerB": "Tác dụng sinh lý.",
+            "contentAnswerC": "Tác dụng nhiệt.",
+            "contentAnswerD": "Tác dụng hóa học."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các nhận định dưới đây:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>Đúng.<br/>Đúng.<br/>Đúng.<br/>Sai. Ngày nay sục điện đã dần ít được sử dụng do vấn đề an toàn.",
+            "contentYA": "Sục điện là một phương pháp làm nóng nước phổ biến vì tiện lợi và giá cả hợp lý ở những năm cuối thế kỉ trước.",
+            "contentYB": "Sục điện là thiết bị có thể chuyển hóa trực tiếp điện năng thành nhiệt năng.",
+            "contentYC": "Sục điện bộc lộ nhiều nhược điểm, đặc biệt về mặt an toàn điện cho người sử dụng.",
+            "contentYD": "Ngày nay, thiết bị này vẫn còn được sử dụng rộng rãi vì tính tiện lợi của nó."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Sử dụng các thông tin sau cho câu 34-35: Một sinh viên sử dụng chiếc sục điện có ghi $2000W-220V$ để đun nóng nước. Biết nước có nhiệt dung riêng là $4200J/kg.K$. Coi nước nhận được $95\\%$ lượng nhiệt mà sục điện cung cấp.<br/>Điền một giá trị thích hợp vào ô trống (làm tròn đến 2 chữ số thập phân):<br/>Để đun sôi 1 kg nước có nhiệt độ $20^\\circ C$ trong nhiệt lượng kế (nhiệt dung riêng không đáng kể), cần thời gian là <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> phút.",
+            "type": "TLN",
+            "correctAnswer": [
+                2.95
+            ],
+            "explanation": "<br/>Công suất hữu ích của sục là: $P_{i} = 2000 \\cdot 95\\% = 1900 W$.<br/>Nhiệt lượng cần cung cấp cho nước:<br/>$Q = mc\\Delta T = 1 \\cdot 4200 \\cdot (100 - 20) = 336000 J$.<br/>Thời gian cần thiết:<br/>$t = \\frac{Q}{P_{i}} = \\frac{336000}{1900} \\approx 176,84 s \\approx 2,95$ phút."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Điền một giá trị thích hợp vào ô trống (làm tròn đến 2 chữ số thập phân):<br/>Sinh viên này muốn sử dụng nước có nhiệt độ $35^\\circ C$ để tắm. Từ $1kg$ nước sôi, cần pha thêm với <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $kg$ nước ở nhiệt độ $20^\\circ C$ để có nhiệt độ nước tắm như mong muốn.",
+            "type": "TLN",
+            "correctAnswer": [
+                4.33
+            ],
+            "explanation": "<br/>Phương trình cân bằng nhiệt:<br/>$m_{\\text{nóng}} \\cdot c \\cdot (100 - 35) = m_{\\text{lạnh}} \\cdot c \\cdot (35 - 20)$.<br/>Thay $m_{\\text{nóng}} = 1$:<br/>$1 \\cdot 65 = m_{\\text{lạnh}} \\cdot 15 \\Rightarrow m_{\\text{lạnh}} = \\frac{65}{15} \\approx 4,33 kg$."
+        },
+        {
+            "question": "1ba89b48-1ca9-4fe2-9f9e-0769fa51bc17",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>PHỨC CHẤT [HAE17102587]</strong></div>\nPhức chất l&agrave; những hợp chất chứa nguy&ecirc;n tử trung t&acirc;m (k&iacute; hiệu l&agrave; M) v&agrave; c&aacute;c phối tử (k&iacute; hiệu l&agrave; L). Trong đ&oacute;, nguy&ecirc;n tử trung t&acirc;m l&agrave; c&aacute;c cation hoặc nguy&ecirc;n tử kim loại, phối tử l&agrave; c&aacute;c anion hoặc c&aacute;c ph&acirc;n tử. Ch&uacute;ng li&ecirc;n kết với nhau bằng việc điền cặp electron trống của phối tử v&agrave;o orbital trống của nguy&ecirc;n tử trung t&acirc;m. Trong phức chất, c&aacute;c phối tử sắp xếp quanh nguy&ecirc;n tử trung t&acirc;m theo một dạng h&igrave;nh th&ugrave; nhất định, phổ biến l&agrave; dạng vu&ocirc;ng phẳng, tứ diện v&agrave; b&aacute;t diện. Khi phức chất mang điện t&iacute;ch (cầu nội), ch&uacute;ng thường chứa th&ecirc;m ion cầu ngoại ở ngo&agrave;i để trung h&ograve;a điện t&iacute;ch với cầu nội.<br />\n<img alt=\"A diagram of a molecule\n\nAI-generated content may be incorrect.\" data-temp-key=\"temp-image-1767509881446-hcl2hxmy2\" src=\"https://cdn.save.moe/b/7cfk55.png?dl=1\" / style=\"width: 85%; margin: 0 auto; display: block;\"><br />\nTrong dung dịch, c&aacute;c ion kim loại chuyển tiếp thường nhận cặp electron chưa li&ecirc;n kết của ph&acirc;n tử nước, tạo th&agrave;nh phức chất aqua với li&ecirc;n kết cộng h&oacute;a trị cho-nhận. V&iacute; dụ: $[Cu(H_2O)_6]^{2+}$, $[Co(H_2O)_6]^{3+}$,... Sự xuất hiện của phức chất được thể hiện qua nhiều hiện tượng, như thay đổi m&agrave;u sắc, xuất hiện kết tủa hoặc h&ograve;a tan kết tủa,...<br />\nC&aacute;c phức chất c&oacute; thể tham gia nhiều phản ứng, trong đ&oacute; c&oacute; phản ứng thế phối tử trong dung dịch:<br />\n-V&iacute; dụ:<br />\n$[Fe(H_2O)_6]^{2+}(aq) + 6CN^-(aq) \\rightarrow [Fe(CN)_6]^{4-}(aq) + 6H_2O(l)$<br />\n$[Cu(H_2O)_6]^{2+}(aq) + 4Cl^-(aq) \\rightarrow [CuCl_4]^{2-}(aq) + 6H_2O(l)$<br />\n(Xanh lam) $\\rightarrow$ (V&agrave;ng nhạt)<br />\nPhức chất c&oacute; nhiều ứng dụng trong đời sống hiện nay. Trong y học, phức chất c&oacute; ứng dụng trong việc chữa trị v&agrave; kiểm so&aacute;t bệnh. C&ograve;n trong c&ocirc;ng nghiệp v&agrave; h&oacute;a học, phức chất lại l&agrave; x&uacute;c t&aacute;c cho nhiều phản ứng tổng hợp quan trọng, định lượng v&agrave; nhận biết c&aacute;c ion kim loại chuyển tiếp.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 36 - 40:",
+            "range": [
+                36,
+                37,
+                38,
+                39,
+                40
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Theo hình mô tả, phức chất hình dạng bát diện có bao nhiêu phối tử?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Có thể thấy, phức chất dạng bát diện có 6 phối tử L.",
+            "contentAnswerA": "4.",
+            "contentAnswerB": "5.",
+            "contentAnswerC": "6.",
+            "contentAnswerD": "7."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Sai, M và L liên kết với nhau bằng liên kết cộng hóa trị cho-nhận.<br/>b, Sai, vẫn tồn tại các phức chất từ nhôm (không phải kim loại chuyển tiếp), ví dụ $[Al(OH)_4]^-$.<br/>c, Sai, phối tử có thể là các phân tử trung hòa (như $H_2O, NH_3$) hoặc nguyên tử trung tâm có thể là nguyên tử kim loại (ví dụ trong phức chất carbonyl).<br/>d, Sai, chúng có nhiều ứng dụng trong y học và công nghiệp.",
+            "contentYA": "Phức chất là hợp chất có nguyên tử trung tâm liên kết với phối tử bằng liên kết ion.",
+            "contentYB": "Các phức chất có nguyên tử trung tâm luôn là kim loại chuyển tiếp.",
+            "contentYC": "Các nguyên tử trung tâm và phối tử trong phức chất luôn mang điện tích.",
+            "contentYD": "Phức chất có vai trò to lớn trong nghiên cứu hóa học, tuy nhiên chúng hầu như không có ứng dụng đến đời sống."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Bạn A tiến hành làm thí nghiệm với dung dịch $CuSO_4$. Tuy nhiên, trong một phút sơ sảy, bạn A đã làm rơi một giọt dung dịch xuống lọ đựng muối ăn. Giọt nước đó sẽ chuyển màu từ màu gì sang màu gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Nhỏ dung dịch muối đồng (có chứa phức $[Cu(H_2O)_6]^{2+}$ màu xanh lam) vào muối ăn (chứa ion $Cl^-$), xảy ra phản ứng hoá học tạo phức $[CuCl_4]^{2-}$ (màu vàng):<br/>$[Cu(H_2O)_6]^{2+}(aq) + 4Cl^-(aq) \\rightarrow [CuCl_4]^{2-}(aq) + 6H_2O(l)$<br/>Nồng độ ion $Cl^-$ tăng đột biến, dẫn đến cân bằng chuyển dịch theo chiều thuận, chuyển từ màu xanh lam sang màu vàng.",
+            "contentAnswerA": "Không đổi màu.",
+            "contentAnswerB": "Từ màu xanh lá sang màu xanh lam.",
+            "contentAnswerC": "Từ màu xanh lam sang màu vàng.",
+            "contentAnswerD": "Từ màu vàng sang màu xanh lam."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Trong các hiện tượng dưới đây, hiện tượng nào có sự tạo thành phức chất?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c4",
+                "c5"
+            ],
+            "explanation": "<br/>Nhỏ dung dịch $NH_3$ vào muối $AgCl$ (Muối bạc tan, tạo phức diamine $[Ag(NH_3)_2]^+$).<br/>Nhỏ dung dịch $NaOH$ đến dư vào dung dịch $AlCl_3$ (Phản ứng này sinh ra kết tủa, sau đó kết tủa lại bị hòa tan tạo phức $[Al(OH)_4]^-$).<br/>Hòa tan muối $NaCl$ vào nước (Chỉ có sự điện li, do Na không phải một kim loại chuyển tiếp có nhiều orbital trống để tạo phức bền vững).<br/>Hòa tan muối $CuSO_4$ khan vào nước (Ion $Cu^{2+}$ tạo phức chất aqua với nước $[Cu(H_2O)_6]^{2+}$).<br/>Nhỏ dung dịch $NH_3$ vào muối $CuSO_4$ (Phản ứng ban đầu sinh ra kết tủa, sau đó kết tủa lại bị hòa tan tạo phức $[Cu(NH_3)_4]^{2+}$).",
+            "contentC1": "Nhỏ dung dịch $NH_3$ vào muối $AgCl$.",
+            "contentC2": "Nhỏ dung dịch $NaOH$ đến dư vào dung dịch $AlCl_3$.",
+            "contentC3": "Hòa tan muối $NaCl$ vào nước.",
+            "contentC4": "Hòa tan muối $CuSO_4$ khan vào nước.",
+            "contentC5": "Nhỏ dung dịch $NH_3$ vào muối $CuSO_4$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Điền một số thích hợp vào ô trống:<br/>Cho một phức chất có công thức là $Pt(NH_3)_3Cl_2$. Biết platinum thường hình thành các phức chất với số phối tử là 4, và các phối tử rất khó phân ly tạo ion trong phức chất. Vậy 1 mol phức chất này phản ứng tối đa với <span class=\"fill-blank\" data-blank-id=\"Câu 40-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> mol $AgNO_3$ trong dung dịch.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br/>Xét thấy $NH_3$ là một phân tử, nên chúng bắt buộc phải là phối tử của phức chất. Vì số phối tử là 4, nên trong cầu nội có 3 phân tử $NH_3$ và 1 ion $Cl^-$. Còn 1 ion $Cl^-$ nằm ở cầu ngoại.<br/>Như vậy, tổng thể công thức của phức chất như sau: $[Pt(NH_3)_3Cl]^+Cl^-$.<br/>$\\Rightarrow$ Mỗi phân tử phức chất này phân li ra được 1 ion $Cl^-$ tự do, qua đó phản ứng được với 1 phân tử $AgNO_3$.<br/>$\\Rightarrow$ Đáp án cần điền là 1."
+        }
+    ],
+    "subject": "TƯ DUY KHOA HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-01-04T06:59:59.411Z",
+    "updatedAt": "2026-01-04T07:01:27.933Z",
+    "__v": 0
+}

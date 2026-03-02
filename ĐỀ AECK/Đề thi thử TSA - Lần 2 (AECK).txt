@@ -1,0 +1,2062 @@
+{
+    "_id": "690d94fd88364782ca04ad1d",
+    "title": "[AECK]-Tư Duy Toán Học-Đề 2",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "A",
+        "Câu 2": "A",
+        "Câu 3": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 4": [
+            7
+        ],
+        "Câu 5": "C",
+        "Câu 6": "B",
+        "Câu 7": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 8": [
+            100
+        ],
+        "Câu 9": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 10": [
+            0.5
+        ],
+        "Câu 11": "A",
+        "Câu 12": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "E>"
+            }
+        ],
+        "Câu 13": "B",
+        "Câu 14": [
+            8
+        ],
+        "Câu 15": "C",
+        "Câu 16": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 17": [
+            "c1",
+            "c2"
+        ],
+        "Câu 18": [
+            42.3
+        ],
+        "Câu 19": "B",
+        "Câu 20": [
+            537
+        ],
+        "Câu 21": "D",
+        "Câu 22": "D",
+        "Câu 23": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "D>"
+            },
+            {
+                "slot3": "F>"
+            }
+        ],
+        "Câu 24": [
+            27
+        ],
+        "Câu 25": [
+            6
+        ],
+        "Câu 26": "B",
+        "Câu 27": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 28": "C",
+        "Câu 29": [
+            486
+        ],
+        "Câu 30": "A",
+        "Câu 31": [
+            5
+        ],
+        "Câu 32": [
+            553
+        ],
+        "Câu 33": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 34": "D",
+        "Câu 35": [
+            10
+        ],
+        "Câu 36": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "C>"
+            }
+        ],
+        "Câu 37": [
+            324
+        ],
+        "Câu 38": "B",
+        "Câu 39": [
+            6
+        ],
+        "Câu 40": [
+            1.42
+        ]
+    },
+    "startTime": "2025-10-22T02:01:00.000Z",
+    "endTime": "2026-04-28T02:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Hàm số nào sau đây vừa có khoảng đồng biến và vừa có khoảng nghịch biến ?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470852\"></iframe>",
+            "contentAnswerA": "$y = {x^3} - x$.",
+            "contentAnswerB": "$y = \\frac{{ - 6x + 2}}{{x + 1}}$.",
+            "contentAnswerC": "$y = \\tan x$.",
+            "contentAnswerD": "$y = \\cot x$."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho dãy số $(u_n)$ có số hạng tổng quát là $u_n = \\frac{2n + a}{4n + 1}$.<br/>Tìm tất cả các giá trị của tham số $a$ để $(u_n)$ là dãy tăng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470879\"></iframe><br />\nTa c&oacute;: $u_n = \\frac{2n + a}{4n + 1} \\Rightarrow u_{n + 1} = \\frac{2(n + 1) + a}{4(n + 1) + 1} = \\frac{2n + 2 + a}{4n + 5}$<br />\nX&eacute;t: $u_{n + 1} - u_n = \\frac{2n + 2 + a}{4n + 5} - \\frac{2n + a}{4n + 1} = \\frac{2 - 4a}{(4n + 5)(4n + 1)}$.<br />\n$(u_n)$ l&agrave; d&atilde;y tăng $\\Leftrightarrow u_{n+1}-u_n&gt;0,\\forall n\\in\\mathbb{N}^*\\Leftrightarrow2-4a&gt;0\\Leftrightarrow a&lt;\\frac{1}{2}$",
+            "contentAnswerA": "$a < \\frac{1}{2}$.",
+            "contentAnswerB": "$a > \\frac{1}{2}$.",
+            "contentAnswerC": "$a \\ge \\frac{1}{2}$.",
+            "contentAnswerD": "$a \\le \\frac{1}{2}$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho biết hàm số $y = f(x)$ có đạo hàm trên $\\mathbb{R}$ và $f'(2) = 5$.<br/>Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai ?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470880\"></iframe><br />\n- a) Đ&uacute;ng: V&igrave; $\\lim _{x \\to 2} \\frac{f(x) - f(2)}{x - 2} = 5 \\Rightarrow \\lim _{x \\to 2} f(x) = \\lim _{x \\to 2} \\left[\\frac{f(x) - f(2)}{x - 2}(x - 2) + f(2)\\right] = f(2)$ n&ecirc;n h&agrave;m số li&ecirc;n tục tại điểm $x = 2$<br />\n- b) Sai: Theo tr&ecirc;n ta c&oacute; $\\lim _{x \\to 2} f(x) = f(2) = 3$.<br />\nKhi đ&oacute;: $\\lim _{x \\to 2} \\frac{\\sqrt {2f(x) + 3} - 3}{x^2 - 3x + 2} = \\lim _{x \\to 2} \\frac{2f(x) - 6}{(x - 2)(x - 1)(\\sqrt {2f(x) + 3} + 3)}$<br />\n$ = \\lim _{x \\to 2} \\left[\\frac{f(x) - f(2)}{x - 2} \\cdot \\frac{2}{(x - 1)(\\sqrt {2f(x) + 3} + 3)}\\right] = \\frac{5}{3}$.",
+            "contentYA": "Hàm số liên tục tại điểm $x = 2$.",
+            "contentYB": "Nếu $f(2) = 3$ thì $\\lim _{x \\to 2} \\frac{\\sqrt {2f(x) + 3} - 3}{x^2 - 3x + 2} = \\frac{5}{9}$."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Cho hai đường thẳng $d_1$, $d_2$ vuông góc với nhau tại $O$, $A$ là một điểm thuộc $d_1$ sao cho $OA = 4,$ đường tròn $(C)$ có tâm là $O$ và qua $A$. Hai điểm $M$, $N$ xuất phát cùng lúc từ $A$ và chuyển động cùng chiều với nhau trên $(C)$ sao cho vận tốc của $N$ gấp hai lần vận tốc của $M$. Gọi $P, Q$ lần lượt là hình chiếu vuông góc của $M$ trên $d_1$, của $N$ trên $d_2$. Khi $MP$ và $NQ$ khác $0$, dựng hai hình vuông lần lượt nhận $MP, NQ$ làm cạnh (tham khảo hình vẽ kèm theo bên dưới). Tổng diện tích của hai hình vuông nêu trên có thể đạt giá trị nhỏ nhất là bao nhiêu?<br/><img alt=\"A circle with red lines and letters\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/5f6m1f.png?dl=1\" data-temp-key=\"temp-image-1766046012494-2xfqgs30u\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 4-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                7
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470891\"></iframe><br />\nX&eacute;t c&aacute;c cung lượng gi&aacute;c c&ugrave;ng gốc $A$.<br />\nGọi $\\alpha$ l&agrave; số đo của cung lượng gi&aacute;c $AM$, ta được $2\\alpha$ l&agrave; số đo của cung lượng gi&aacute;c $AN$.<br />\nDo $\\left\\{\\begin{array}{l}<br />\n\\overline {PM} = OM.\\sin \\alpha \\\\<br />\n\\overline {QN} = ON.\\cos 2\\alpha<br />\n\\end{array}\\right.$ n&ecirc;n tổng diện t&iacute;ch m&agrave; đề b&agrave;i n&ecirc;u l&agrave; $S = 16(\\sin^2\\alpha + \\cos^2 2\\alpha)$.<br />\nTa c&oacute; $S = 16(\\sin^2\\alpha + \\cos^2 2\\alpha) = 16[\\sin^2\\alpha + (1 - 2\\sin^2\\alpha)^2] = 16[(2\\sin^2\\alpha - \\frac{3}{4})^2 + \\frac{7}{16}] \\ge 7$<br />\n$S = 7$ khi v&agrave; chỉ khi $2\\sin^2\\alpha - \\frac{3}{4} = 0 \\Leftrightarrow |\\sin \\alpha | = \\sqrt {\\frac{3}{8}}$.<br />\nVậy gi&aacute; trị nhỏ nhất m&agrave; ta cần t&igrave;m l&agrave; $7$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Cho hàm số $y = f(x)$ có đồ thị là đường cong xác định trên $\\mathbb{R}$ như hình bên dưới<br/><img alt=\"A graph of a function\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/ahGn1.png?dl=1\" data-temp-key=\"temp-image-1766046012494-rfdj7vqcz\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Đường cong trên không thể là đồ thị của hàm số nào sau đây ?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470851\"></iframe>",
+            "contentAnswerA": "$y = {x^4} - 2{x^2} - 3$.",
+            "contentAnswerB": "$y = - 2{x^3} - 3{x^2} - 3$.",
+            "contentAnswerC": "$y = 5{x^4} + 8{x^3} + 2{x^2} - 3$.",
+            "contentAnswerD": "$y = 2{x^4} + 2{x^3} - {x^2} - 3$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Với $a > b \\ge 1$, phát biểu nào sau đây luôn đúng?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470853\"></iframe>",
+            "contentAnswerA": "${\\log _{{a^m}}}{b^n} = \\frac{n}{{m{{\\log }_b}a}}$.",
+            "contentAnswerB": "${\\log _a}(bc) = {\\log _a}b + {\\log _a}c,\\forall c > 0$.",
+            "contentAnswerC": "$\\log b - \\log a = \\log(b - a)$.",
+            "contentAnswerD": "Phát biểu A và B đều có thể đúng."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Cho số nguyên dương $N$ có 4 chữ số sao cho: ${N^2}$ kết thúc bằng chính các chữ số của $N$. Nói cách khác, ${N^2}$ có dạng: $...N$. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai ?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470855\"></iframe><br />\n- a) Sai: Từ giả thiết, suy ra ta cần: $N^2 \\equiv N(\\bmod 10^4)$<br />\nGiả sử chữ số cuối l&agrave; $d$, khi đ&oacute;: ${d^2} \\equiv d(\\bmod 10) \\Rightarrow d \\in \\{0;1;5;6\\}$<br />\nV&igrave; $N$ c&oacute; 4 chữ số n&ecirc;n ta chỉ x&eacute;t $d = 5$ hoặc $d = 6$<br />\n- Với $d = 5$ th&igrave; b&igrave;nh phương lu&ocirc;n tận c&ugrave;ng 25 $\\Rightarrow$ phải tận c&ugrave;ng 0625 $\\Rightarrow$ kh&ocirc;ng đủ 4 chữ số $\\Rightarrow$ loại.<br />\n- Với $d = 6$ th&igrave; ta thấy khả thi $\\Rightarrow$ đặt $N = 10a + 6$. Khi đ&oacute; ${N^2} \\equiv 20a + 36(\\bmod 100)$,<br />\nTừ đ&acirc;y cần: $20a + 36 \\equiv 10a + 6(\\bmod 100) \\Rightarrow 10a \\equiv 70(\\bmod 100) \\Rightarrow a \\equiv 7(\\bmod 10)$<br />\nSuy ra hai chữ số cuối của $N$ l&agrave; 76.<br />\nĐặt $N = 100b + 76$. Khi đ&oacute; ${N^2} \\equiv 200b + 776(\\bmod 1000)$,<br />\nTừ đ&acirc;y cần: $200b + 776 \\equiv 100b + 76(\\bmod 1000) \\Rightarrow 100b \\equiv 300(\\bmod 1000) \\Rightarrow b \\equiv 3(\\bmod 10)$<br />\nSuy ra ba chữ số cuối của $N$ l&agrave; 376.<br />\n- b) Sai: Đặt $N = 1000c + 376$.<br />\nKhi đ&oacute; ${N^2} \\equiv 2000c + 1376(\\bmod 10000)$.<br />\nTừ đ&acirc;y ta cần: $2000c + 1376 \\equiv 1000c + 376(\\bmod 10000) \\Rightarrow 1000c \\equiv 9000(\\bmod 10000) \\Rightarrow c \\equiv 9(\\bmod 10)$<br />\nSuy ra bốn chữ số cuối của $N$ l&agrave; 9376. Thử: $9376^2 = 87909376$, quả thật tận c&ugrave;ng l&agrave; 9376<br />\nSố nguy&ecirc;n dương 4 chữ số duy nhất thỏa m&atilde;n l&agrave;: 9376 tức ta kết luận $N = 9376$.",
+            "contentYA": "Ba số cuối của $N$ là 375.",
+            "contentYB": "$N$ có thể là số 9375 hoặc 4376."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Có 6 con kiến \"diễu hành\" trên một cây thước dài 1 mét, chia làm hai nhóm: kiến đen và kiến trắng. Bốn con kiến đen (A, B, D, E) đi từ trái sang phải còn hai con kiến trắng (C, F) thì đi từ phải sang trái. Tốc độ di chuyển của mỗi con là bằng nhau: mỗi giây \"nhích\" được 1 cm. Bất cứ khi nào hai con chạm mặt nhau thì chúng lập tức quay đầu lại và đổi hướng. Khi đi đến một trong hai đầu của cây thước, chúng sẽ rơi xuống. Vị trí xuất phát của chúng được xác định theo số đo trên thước, lần lượt từ trái sang phải như sau: - kiến A: 0 cm, kiến B: 20 cm, kiến D: 38,5 cm, kiến E: 65,4 cm, kiến F: 90,8 cm.<br/><img alt=\"A diagram of a line with black and red lines\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/OMW672C.png?dl=1\" data-temp-key=\"temp-image-1766046012494-xfk1bgpch\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Xem như vị trí của kiến C là ẩn số, cho biết trước rằng kiến C \"khởi hành\" ở đâu đó giữa kiến B và kiến D. Hỏi con kiến cuối cùng rơi khỏi cây thước có tổng thời gian \"bám trụ\" là bao lâu (đơn vị tính: giây và làm tròn đến hàng phần mười nếu kết quả không phải số nguyên)<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                100
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470884\"></iframe><br />\nCho mỗi con kiến đội mũ, khi hai con kiến gặp nhau th&igrave; sẽ đổi mũ cho nhau.<br />\nVậy l&agrave; coi như c&oacute; 6 chiếc mũ. Chiếc mũ A sẽ rơi cuối c&ugrave;ng, ở đầu b&ecirc;n phải, sau 100 gi&acirc;y.<br />\nGiải th&iacute;ch:<br />\nC&oacute; 4 chiếc mũ đi về b&ecirc;n phải n&ecirc;n sau c&ugrave;ng sẽ c&oacute; 4 chiếc mũ rơi ở b&ecirc;n phải, nghĩa l&agrave; c&oacute; 4 con kiến rơi ở đầu b&ecirc;n phải.<br />\nThứ tự của 6 con kiến kh&ocirc;ng thể thay đổi v&igrave; ch&uacute;ng kh&ocirc;ng thể đi xuy&ecirc;n qua nhau con kiến rơi cuối c&ugrave;ng l&agrave; con thứ 4 từ b&ecirc;n phải sang.<br />\nSuy ra kiến A, B sẽ rơi ở đầu b&ecirc;n tr&aacute;i, theo đ&uacute;ng thứ tự.<br />\nC&ograve;n c&aacute;c kiến F, E, D, C sẽ rơi ở đầu b&ecirc;n phải, theo đ&uacute;ng thứ tự.<br />\nT&oacute;m lại con kiến C sẽ l&agrave; con kiến rơi cuối c&ugrave;ng sau 100 gi&acirc;y."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Cho hai đường thẳng $d_1, d_2$ song song với nhau và khoảng cách giữa $d_1, d_2$ bằng $2cm$.<br/>Trên $d_1$ lấy 7 điểm phân biệt $A_1, A_2, ..., A_7$ sao cho $A_1 A_2 = A_2 A_3 = ... = A_6 A_7 = 1cm$, trên $d_2$ lấy 6 điểm $B_1, B_2, ..., B_6$ sao cho $B_1 B_2 = B_2 B_3 = ... = B_5 B_6 = 1cm$.<br/>Chọn ngẫu nhiên 3 điểm từ các điểm trên. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai ?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470854\"></iframe><br />\n- a) Đ&uacute;ng: $\\Omega$: chọn 3 điểm bất k&igrave; từ 13 điểm nằm tr&ecirc;n $d_1, d_2$ n&ecirc;n c&oacute; $n(\\Omega) = C_{13}^3$<br />\n- b) Sai: $A$: Chọn 3 điểm để tạo th&agrave;nh tam gi&aacute;c:<br />\nTrường hợp 1: Chọn 2 điểm nằm tr&ecirc;n $d_1$, 1 điểm nằm tr&ecirc;n $d_2$ n&ecirc;n c&oacute; $C_7^2 \\cdot C_6^1 = 126$.<br />\nTrường hợp 2: Chọn 2 điểm nằm tr&ecirc;n $d_2$, 1 điểm nằm tr&ecirc;n $d_1$ n&ecirc;n c&oacute; $C_7^1 \\cdot C_6^2 = 105$.<br />\nKhi đ&oacute; $n(A) = 126 + 105 = 231$. Ta thu được $p(A) = \\frac{n(A)}{n(\\Omega)} = \\frac{21}{26}$.<br />\n- c) Đ&uacute;ng: $B$: Trong 3 điểm được chọn c&oacute; 1 điểm l&agrave; trung điểm của đoạn thẳng c&oacute; 2 đầu m&uacute;t l&agrave; hai điểm c&ograve;n lại.<br />\nTrường hợp 1: 3 điểm được chọn nằm tr&ecirc;n đường thẳng $d_1$ lần lượt l&agrave; $A_m, A_n, A_k \\ (1 \\le m &lt; n &lt; k \\le 7)$.<br />\nKhi đ&oacute; $m, k$ phải c&ugrave;ng t&iacute;nh chất chẵn lẽ n&ecirc;n c&oacute; $C_4^2 + C_3^2 = 9$.<br />\nTrường hợp 2: 3 điểm được chọn nằm tr&ecirc;n đường thẳng $d_2$ lần lượt l&agrave; $B_m, B_n, B_k \\ (1 \\le m &lt; n &lt; k \\le 6)$.<br />\nKhi đ&oacute; $m, k$ phải c&ugrave;ng t&iacute;nh chất chẵn lẽ n&ecirc;n c&oacute; $C_3^2 + C_3^2 = 6$.<br />\nKhi đ&oacute; $n(B) = 9 + 6 = 15$. Ta thu được $p(B) = \\frac{n(B)}{n(\\Omega)} = \\frac{15}{286}$.",
+            "contentYA": "Số phần tử của không gian mẫu bằng $C_{13}^3$.",
+            "contentYB": "Xác suất để ba điểm được chọn tạo thành tam giác là $\\frac{49}{286}$.",
+            "contentYC": "Xác suất để 3 điểm được chọn có 1 điểm là trung điểm của đoạn thẳng có 2 đầu mút là hai điểm còn lại bằng $\\frac{15}{286}$"
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Trong 1 cuộc chiến sinh tử có 2 người chơi A và B. Và có 1 cây súng gồm 5 ô đạn nhưng chỉ có duy nhất 1 viên đạn. Trò chơi như sau: A là người chơi trước và sau khi xoay băng đạn ngẫu nhiên sau đó không xoay lại nữa, A được quyền chọn 2 lựa chọn<br/>- Người chơi bắn vào đầu đối phương, nếu trúng người chơi đó thắng, nếu hụt quyền chơi lượt tiếp theo thuộc về đối phương.<br/>- Người chơi ngắm vào đầu mình, nếu bắn ra có đạn (chết), nếu không có đạn thì người chơi đó được quyền chơi tiếp và tiếp tục chọn 1 trong 2 lựa chọn trên.<br/>Trò chơi sẽ kết thúc sau khi viên đạn được bắn ra. Khi ấy xác suất A chiến thắng biết rằng lượt đầu tiên A lựa chọn bắn B nhưng B vẫn còn sống là bao nhiêu (kết quả dưới dạng số thập phân)<br/><img alt=\"Two men holding guns and pointing at each other\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/J0IbR3i.png?dl=1\" data-temp-key=\"temp-image-1766046012494-vijmk3nxq\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                0.5
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470857\"></iframe><br />\nTrong đ&acirc;y kh&ocirc;ng n&oacute;i r&otilde; người chơi sẽ chơi chiến thuật n&agrave;o cả. Căn bản lựa chọn 1 th&igrave; lu&ocirc;n c&oacute; lợi, lựa chọn 2 th&igrave; lu&ocirc;n c&oacute; hại cho bản th&acirc;n. Nếu xem như cả hai đều chơi theo hướng tối ưu (lu&ocirc;n chọn 1) th&igrave; x&aacute;c suất l&agrave; $0,5$. Thật vậy, những vi&ecirc;n đạn c&ograve;n lại ở vị tr&iacute; $\\{2,3,4,5\\}$<br />\nTrường hợp 1: đạn ở vị tr&iacute; 2. A thua do B bắn<br />\nTrường hợp 2: đạn ở vị tr&iacute; 3. A thắng khi bắn B<br />\nTrường hợp 3: đạn ở vị tr&iacute; 4. A thua do B bắn<br />\nTrường hợp 4: đạn ở vị tr&iacute; 5. A thắng khi bắn B<br />\nTổng lại $\\Rightarrow P(\\mathrm{A_{win}}) = \\frac{2}{4} = 0,5$<br />\nNếu người chơi mất n&atilde;o kh&ocirc;ng theo chiến thuật n&agrave;o, th&igrave; tức lựa chọn của họ l&agrave; ngẫu nhi&ecirc;n."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Cho mẫu số liệu như sau:<br/><table class=\"word-table\"><tbody><tr><td>Giá trị<br/></td><td>x<sub>1</sub><br/></td><td>x<sub>2</sub><br/></td><td>x<sub>3</sub><br/></td><td>x<sub>4</sub><br/></td><td>x<sub>5</sub><br/></td><td>x<sub>6</sub><br/></td><td>x<sub>7</sub><br/></td><td>x<sub>8</sub><br/></td></tr><tr><td>Tần số<br/></td><td>10<br/></td><td>n<sup>2</sup>+7<br/></td><td>12<br/></td><td>9n-1<br/></td><td>15<br/></td><td>9<br/></td><td>9n-11<br/></td><td>17<br/></td></tr></tbody></table>Tìm tất cả giá trị của $n$ để $M_O^{(1)} = {x_2}$; $M_O^{(2)} = {x_4}$ là hai mốt của mẫu số liệu trên.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470882\"></iframe><br />\nĐể $M_O^{(1)} = {x_2}$; $M_O^{(2)} = {x_4}$ l&agrave; hai mốt của mẫu số liệu tr&ecirc;n th&igrave;:<br />\n$\\begin{cases} n^2+7 = 9n-1 \\\\ n^2+7 = 9n-1 &gt; 17 \\\\ n \\in \\mathbb{N} \\end{cases} \\Rightarrow \\begin{cases} n^2-9n+8=0 \\\\ n &gt; 2 \\\\ n^2 &gt; 10 \\end{cases} \\Rightarrow n = 8$",
+            "contentAnswerA": "$n = 8$.",
+            "contentAnswerB": "$n = 1; n = 8$.",
+            "contentAnswerC": "$n = 9$.",
+            "contentAnswerD": "$n = 3; n = 6$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Kéo biểu thức ở các đáp án sau vào vị trí thích hợp:<br/>Điểm số trung bình của một vận động viên bắn súng sau rất nhiều lần bắn là 8,69 điểm.<br/>Kết quả cụ thể được ghi trong bảng sau, trong đó có hai ô bị mờ không đọc được:<br/><table class=\"word-table\"><tbody><tr><td>Điểm số của mỗi lần bắn:<br/></td><td>10<br/></td><td>9<br/></td><td>8<br/></td><td>7<br/></td><td>6<br/></td></tr><tr><td>Số lần bắn:<br/></td><td>25<br/></td><td>42<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-1\">____DRAG_DROP_1____</span><br/></td><td>15<br/></td><td><span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-2\">____DRAG_DROP_2____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "E>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470856\"></iframe><br />\nGọi $x,y$ lần lượt l&agrave; số lần bắn 8 điểm v&agrave; 6 điểm.<br />\nTừ giả thiết ta x&acirc;y dựng được phương tr&igrave;nh như sau: $10 \\cdot 25 + 9 \\cdot 42 + 8x + 15 \\cdot 7 + 6y = 8,69(25 + 42 + x + 15 + y)$<br />\nPhương tr&igrave;nh tương đương với: $733 + 8x + 6y = 712,58 + 8,69(x + y) \\Leftrightarrow y = \\frac{2042 - 69x}{269}$.<br />\nTa thấy $x,y$ l&agrave; c&aacute;c số nguy&ecirc;n dương, n&ecirc;n $x \\ge 1$, lấy phần nguy&ecirc;n của kết quả $\\frac{2042 - 69}{269}$ ta được gi&aacute; trị l&agrave; 7.<br />\nKhi ấy ta nhận $y$ c&aacute;c gi&aacute; trị từ 1 đến 7, ta thử lần lượt tương ứng, nếu $x$ nguy&ecirc;n ta nhận cặp $(x;y)$.<br />\nTa c&oacute; $y = \\frac{2042 - 69x}{269} \\Rightarrow x = \\frac{2042 - 269y}{69}$.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012495-vqbgxzddb\" src=\"https://cdn.save.moe/b/Gh5yP.png?dl=1\" style=\"\" /><br />\nVậy ta kết luận $x = 14,y = 4$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "14"
+                },
+                {
+                    "id": "B>",
+                    "content": "7"
+                },
+                {
+                    "id": "C>",
+                    "content": "4"
+                },
+                {
+                    "id": "D>",
+                    "content": "12"
+                },
+                {
+                    "id": "E>",
+                    "content": "5"
+                }
+            ]
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Với mỗi số nguyên dương $n$, lấy $n + 6$ điểm cách đều nhau trên đường tròn. Nối mỗi điểm với các điểm cách nó hai điểm trên đường tròn để tạo ra ngôi sao như hình vẽ dưới đây.<br/><img alt=\"A group of red stars\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/1T6Lvt.png?dl=1\" data-temp-key=\"temp-image-1766046012495-whar6eiqe\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Số đo (đơn vị độ) của góc ở đỉnh ngôi sao khi $n = 94$ bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470883\"></iframe><br />\nSố đo của mỗi cung tr&ograve;n do $n + 6$ điểm chia đều tr&ecirc;n đường tr&ograve;n l&agrave; $\\frac{1}{n + 6} \\cdot 360^\\circ$.<br />\nKhi $n = 94$, mỗi g&oacute;c ở đỉnh ng&ocirc;i sao chắn bởi $n$ cung tr&ograve;n, số đo ${\\alpha _n} = \\frac{1}{2}\\frac{n}{n + 6} \\cdot 360^\\circ = 169,2^\\circ$.",
+            "contentAnswerA": "$1,8^\\circ$.",
+            "contentAnswerB": "$169,2^\\circ$.",
+            "contentAnswerC": "$138,4^\\circ$.",
+            "contentAnswerD": "$172,8^\\circ$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Cho hàm số $y = \\frac{5x - 11}{x + 5}$ có đồ thị $(H)$. Có bao nhiêu điểm $M(x_0;y_0) \\in (H)$ có tọa độ nguyên sao cho tiếp tuyến với $(H)$ tại $M$ cũng có hệ số góc nguyên?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 14-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                8
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470881\"></iframe><br />\nTa c&oacute;: $y = \\frac{5x - 11}{x + 5} = 5 - \\frac{36}{x + 5} \\Rightarrow k = y&#39; = \\frac{36}{(x + 5)^2}$<br />\nSuy ra: $(x + 5)^2$ l&agrave; ước của 36 hay n&oacute;i c&aacute;ch kh&aacute;c $(x + 5)$ l&agrave; ước của 36.<br />\nSuy ra: $(x + 5) \\in \\{ \\pm 1; \\pm 2; \\pm 3; \\pm 6\\} \\Rightarrow x \\in \\{ - 11; - 8; - 7; - 6; - 4; - 3; - 2;1\\}$ tức c&oacute; 8 điểm $M$ thỏa m&atilde;n"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Cho khối nón có đường cao bằng $h$ và đường kính bằng $r$. Thể tích khối nón là:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470859\"></iframe><br />\nTa c&oacute; đường cao $h$ v&agrave; b&aacute;n k&iacute;nh $\\frac{r}{2}$ n&ecirc;n thể t&iacute;ch $V = \\frac{\\pi }{3}{\\left( {\\frac{r}{2}} \\right)^2}h = \\frac{\\pi {r^2}h}{12}$.",
+            "contentAnswerA": "$V = \\frac{\\pi {r^2}h}{3}$.",
+            "contentAnswerB": "$V = \\frac{\\pi {r^2}h}{18}$.",
+            "contentAnswerC": "$V = \\frac{\\pi {r^2}h}{12}$.",
+            "contentAnswerD": "$V = \\frac{\\pi {r^2}h}{20}$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Cho hình lăng trụ xiên $ABCD.{A_1}{B_1}{C_1}{D_1}$ được tạo thành bởi hai hình bình hành $ABCD$ và ${A_1}{B_1}{C_1}{D_1}$ nằm lần lượt trên hai mặt phẳng song song và không trùng nhau. Biết rằng $AB = a$, $A{A_1} = b$ và $AD = c$ cùng với 3 góc $\\widehat {{A_1}AD} = {\\alpha _1}$, $\\widehat {BAD} = {\\alpha _2}$ và $\\widehat {{A_1}AB} = {\\alpha _3}$. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai ?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470860\"></iframe><br />\n- a) Sai: Do $ABCD.{A_1}{B_1}{C_1}{D_1}$ l&agrave; lăng trụ xi&ecirc;n n&ecirc;n tứ gi&aacute;c $AD{C_1}{B_1}$ v&agrave; $AB{B_1}{A_1}$ l&agrave; c&aacute;c h&igrave;nh b&igrave;nh h&agrave;nh.<br />\nKhi ấy ta lần lượt suy ra: $\\overrightarrow {D{C_1}} = \\overrightarrow {A{B_1}}$ v&agrave; $\\overrightarrow {D{B_1}} = \\overrightarrow {DA} + \\overrightarrow {A{B_1}} ;\\overrightarrow {A{B_1}} = \\overrightarrow {AB} + \\overrightarrow {A{A_1}}$<br />\nSuy ra: $\\overrightarrow {D{B_1}} = \\overrightarrow {AB} + \\overrightarrow {A{A_1}} - \\overrightarrow {AD} \\Rightarrow D{B_1}^2 = (\\overrightarrow {D{B_1}})^2 = (\\overrightarrow {AB} + \\overrightarrow {A{A_1}} - \\overrightarrow {AD})^2$<br />\n$ = A{B^2} + A{D^2} + A{A_1}^2 + 2\\overrightarrow {AB} \\cdot \\overrightarrow {A{A_1}} - 2\\overrightarrow {AB} \\cdot \\overrightarrow {AD} - 2\\overrightarrow {A{A_1}} \\cdot \\overrightarrow {AD}$<br />\n$ = {a^2} + {b^2} + {c^2} + 2AB \\cdot A{A_1}\\cos (\\overrightarrow {AB} ,\\overrightarrow {A{A_1}}) - 2AB \\cdot AD\\cos (\\overrightarrow {AB} ,\\overrightarrow {AD}) - 2A{A_1} \\cdot AD(\\overrightarrow {A{A_1}} ,\\overrightarrow {AD})$<br />\n- b) Đ&uacute;ng: Do $AB{C_1}{D_1}$ l&agrave; h&igrave;nh b&igrave;nh h&agrave;nh n&ecirc;n $\\overrightarrow {AB} = \\overrightarrow {{D_1}{C_1}}$, từ đ&acirc;y dễ d&agrave;ng giải ra tọa độ $D(- 1;10;4)$.<br />\nSuy ra: $\\overrightarrow {O{D_1}} = - \\overrightarrow i + 10\\overrightarrow j + 4\\overrightarrow k $ tức ta c&oacute; $\\overrightarrow {{D_1}O} = - 10\\overrightarrow j + \\overrightarrow i - 4\\overrightarrow k $<br />\n- c) Sai: H&igrave;nh lăng trụ xi&ecirc;n $ABCD.{A_1}{B_1}{C_1}{D_1}$ phải l&agrave; h&igrave;nh hộp chữ nhật.",
+            "contentYA": "$D{B_1}^2 = {a^2} + {b^2} + {c^2} - 2ab\\cos {\\alpha _3} - 2bc\\cos {\\alpha _1} - 2ca\\cos {\\alpha _2}$.",
+            "contentYB": "Nếu $A(1;2; - 1),B(3;1;2),{C_1}(1;9;7)$ thì $\\overrightarrow{{D_1}O} = - 10 \\overrightarrow j + \\overrightarrow i - 4 \\overrightarrow k$.",
+            "contentYC": "Nếu ba góc tam diện tại đỉnh $A$ đều là góc vuông thì $ABCD.{A_1}{B_1}{C_1}{D_1}$ là khối lập phương."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "(Chọn nhiều phương án) Trong không gian $Oxyz$, mặt cầu $(S)$ đi qua điểm $A(a^2;3;4)$ (với $a \\in \\mathbb{R}$) tiếp xúc với các mặt phẳng $(Oxz)$ và $(Oyz)$ có phương trình là",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470858\"></iframe><br />\nTa thấy rằng do mặt cầu tiếp x&uacute;c với c&aacute;c mặt phẳng $\\left( {Oxz} \\right)$ v&agrave; $\\left( {Oyz} \\right)$ n&ecirc;n độ lớn ho&agrave;nh độ v&agrave; tung độ của t&acirc;m mặt cầu phải bằng độ d&agrave;i b&aacute;n k&iacute;nh, từ đ&acirc;y ta loại C3 v&igrave; $\\sqrt 6 \\ne \\left| { \\pm 3} \\right|$. Tương tự th&igrave; &yacute; C4 cũng loại<br />\nĐể chọn 1 trong 2 đ&aacute;p &aacute;n A hoặc C, ta x&eacute;t 1 trong 2 phương tr&igrave;nh sau: $\\left[ \\begin{array}{l}<br />\n{\\left( {{a^2} + 3} \\right)^2} = 9\\\\<br />\n{\\left( {{a^2} - 3} \\right)^2} = 9<br />\n\\end{array} \\right.$.<br />\nDo ho&agrave;nh độ l&agrave; ${a^2}$ (tức số thực kh&ocirc;ng &acirc;m) n&ecirc;n đặt $b = {a^2} \\ge 0$, khi đ&oacute; hệ phương tr&igrave;nh th&agrave;nh:<br />\n$\\left[ \\begin{array}{l}<br />\n{\\left( {b + 3} \\right)^2} = 9\\\\<br />\n{\\left( {b - 3} \\right)^2} = 9<br />\n\\end{array} \\right. \\Leftrightarrow \\left[ \\begin{array}{l}<br />\nb + 3 = \\pm 3\\\\<br />\nb - 3 = \\pm 3<br />\n\\end{array} \\right. \\Leftrightarrow b = 0;b = 3\\left( N \\right)$ n&ecirc;n cả C1 v&agrave; C2 đều đ&uacute;ng.",
+            "contentC1": "$\\left(x+3\\right)^2+\\left(y-3\\right)^2+\\left(z-4\\right)^2=9$",
+            "contentC2": "$\\left(x-3\\right)^2+\\left(y-3\\right)^2+\\left(z-4\\right)^2=9$",
+            "contentC3": "$\\left(x-3\\right)^2+\\left(y-3\\right)^2+\\left(z-4\\right)^2=6$",
+            "contentC4": "$\\left(x-3\\right)^2+\\left(y-3\\right)^2+\\left(z-4\\right)^2=25$"
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Một bình chứa nước có hình lăng trụ đứng có đáy là tam giác đều, chiều cao bằng một cạnh đáy, được đổ vào một phần nước (có thể bỏ qua độ dày của thành bình). Biết rằng nếu ta nghiêng lăng trụ 45 độ qua một trong các cạnh của tam giác, thì mặt nước chạm vào góc đối diện của tam giác. Hỏi nước chiếm bao nhiêu phần trăm thể tích của lăng trụ? (làm tròn đến hàng phần mười, đơn vị phần trăm)<br/><img alt=\"A diagram of a triangle with a red liquid\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/yJ0os.png?dl=1\" data-temp-key=\"temp-image-1766046012497-ifb1oei5l\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 18-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                42.3
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470861\"></iframe><br />\nTa c&oacute; h&igrave;nh vẽ như sau: Từ điểm $B$ ta vẽ một mặt phẳng cắt h&igrave;nh lăng trụ 1 g&oacute;c 45 độ so với mặt phẳng $(ABC)$.<br />\nGọi $H$ l&agrave; trung điểm $AC$, từ $H$ ta vẽ đường thẳng $d$ song song cạnh b&ecirc;n $AA&#39;$.<br />\nTiếp đến ta cần x&aacute;c định $H&#39; \\in d$ sao cho $HB = HH&#39;$ v&agrave; từ $H&#39;$ vẽ đường thẳng song song với $AC$ cắt c&aacute;c cạnh $AA&#39;,CC&#39;$ lần lượt tại $E,D$.<br />\n<img alt=\"A red triangle with lines and letters\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012498-7wcox3p7y\" src=\"https://cdn.save.moe/b/D5o90KX.png?dl=1\" style=\"\" /><br />\nKhi đ&oacute; h&igrave;nh ch&oacute;p $BACDE$ ch&iacute;nh l&agrave; khối nước sau khi l&agrave;m nghi&ecirc;ng.<br />\nTa c&oacute; cạnh b&ecirc;n của h&igrave;nh lăng trụ l&agrave; $h = 2a$, khi đ&oacute; cạnh của đ&aacute;y tam gi&aacute;c đều cũng bằng $2a$.<br />\nDo $H$ l&agrave; trung điểm $AC$ n&ecirc;n $BH \\bot AC$ v&agrave; độ d&agrave;i $BH = a\\sqrt 3$.<br />\nSuy ra ${V_{BACDE}} = \\frac{1}{3} \\cdot BH \\cdot S_{ACDE} = \\frac{1}{3} \\cdot BH \\cdot HH&#39; \\cdot AC = 2{a^3}$.<br />\nC&ugrave;ng với thể t&iacute;ch lăng trụ $V = AA&#39; \\cdot S_{ABC} = 2a \\cdot \\frac{1}{2} \\cdot 2a \\cdot a\\sqrt 3 = 2{a^3}\\sqrt 3$.<br />\nTa suy ra tỉ số: $\\frac{V_{BACDE}}{V} = \\frac{1}{\\sqrt 3} = 0,577 \\approx 57,7% $<br />\n$\\Rightarrow$ Khi nghi&ecirc;ng lăng trụ 1 g&oacute;c 45 độ th&igrave; nước chiếm: $1 - 57,7% = 42,3% $"
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Một kỹ sư được nhận lương khởi điểm là $8000000$ đồng/tháng. Cứ sau hai năm lương mỗi tháng của kỹ sư đó được tăng thêm $10\\%$ so với mức lương hiện tại. Tổng số tiền kỹ sư đó nhận được sau $6$ năm làm việc là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470862\"></iframe><br />\nTổng tiền lương 2 năm đầu ti&ecirc;n: ${T_1} = {8 \\cdot 10^6} \\cdot 24 = {192 \\cdot 10^6}$ đồng.<br />\nTheo c&ocirc;ng thức t&iacute;nh l&atilde;i k&eacute;p, tổng tiền lương 2 năm tiếp theo c&ocirc;ng nh&acirc;n đ&oacute; nhận được l&agrave;:<br />\n${T_2} = {8 \\cdot 10^6} \\cdot 24 \\cdot (1 + 10\\% )^1 = 211,2 \\cdot 10^6$ đồng.<br />\nTổng tiền lương 2 năm cuối c&ugrave;ng: ${T_3} = {8 \\cdot 10^6} \\cdot 24(1 + 10\\%)^2 = 232,32 \\cdot 10^6$ đồng.<br />\nVậy tổng số tiền lương kỹ sư đ&oacute; nhận được sau 6 năm l&agrave;m việc l&agrave;<br />\n$T = T_1 + T_2 + T_3 = 635.520.000$ đồng.",
+            "contentAnswerA": "$633.600.000$ đồng.",
+            "contentAnswerB": "$635.520.000$ đồng.",
+            "contentAnswerC": "$696.960.000$ đồng.",
+            "contentAnswerD": "$766.656.000$ đồng."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Bản vẽ thiết kế bề mặt trong của một chiếc bồn tắm nằm cỡ lớn trên hệ trục tọa độ $Oxyz$ (đơn vị trên mỗi trục tọa độ là decimét) là tập hợp tất cả các điểm $M(x;y;z)$ thỏa mãn $ - 1 \\le z \\le 4$ và $z = \\frac{16{x^2}}{81} + \\frac{64{y^2}}{81} - 12$.<br/><img alt=\"A pink cylinder with a white background\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/s7stj18.png?dl=1\" data-temp-key=\"temp-image-1766046012498-0y0sh8s42\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Hỏi chiếc bồn tắm này chứa tối đa bao nhiêu lít nước? Kết quả làm tròn đến hàng đơn vị.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 20-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                537
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470863\"></iframe><br />\nR&uacute;t ra $\\frac{x^2}{\\frac{81}{16}} + \\frac{y^2}{\\frac{81}{64}} = z + 12 \\Leftrightarrow \\frac{x^2}{\\frac{81}{16}(z + 12)} + \\frac{y^2}{\\frac{81}{64}(z + 12)} = 1$ n&ecirc;n thiết diện vu&ocirc;ng g&oacute;c với trục $Oz$ tại điểm c&oacute; cao độ $z( - 1 \\le z \\le 4)$ l&agrave; một h&igrave;nh elip c&oacute; diện t&iacute;ch l&agrave; $\\pi ab = \\pi \\sqrt {\\frac{81}{16}(z + 12)} \\sqrt {\\frac{81}{64}(z + 12)} = \\frac{81\\pi (z + 12)}{32}$.<br />\nThể t&iacute;ch nước tối đa bồn tắm n&agrave;y chứa được l&agrave;:<br />\n${V_{Oz}} = \\int_{ - 1}^4 {\\frac{81\\pi (z + 12)}{32}} dz = \\frac{10935\\pi }{64} \\approx 536,77{\\rm{d}}{{\\rm{m}}^3} \\approx 537{\\rm{d}}{{\\rm{m}}^3} = 537$ l&iacute;t."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Có hai người A và B thực hiện mua bán như sau: lần 1 A dùng 10 triệu để mua 10k của B, lần 2 A dùng 10 triệu mua 20k của B, lần 3 A cũng dùng 10 triệu mua 40k của B và cứ lặp lại như thế với thỏa thuận số tiền của B bỏ ra lần sau gấp đôi lần kề trước đó. Hỏi sau ít nhất mấy lần mua bán (kể cả lần đầu) thì A bắt đầu có lời.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470886\"></iframe><br />\nTa c&oacute; bất phương tr&igrave;nh: $2^n - 1 \\ge 1000n$ với $n$ l&agrave; số lần thực hiện mua b&aacute;n. Biện luận theo h&agrave;m số th&igrave; &iacute;t nhất l&agrave; 14 lần th&igrave; A mới sinh lời.<br />\nLưu &yacute; : &ldquo;lời&rdquo; ở đ&acirc;y l&agrave; t&iacute;nh lu&ocirc;n những lần lỗ trước đ&oacute;.",
+            "contentAnswerA": "12 lần.",
+            "contentAnswerB": "13 lần.",
+            "contentAnswerC": "10 lần.",
+            "contentAnswerD": "14 lần."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Trong không gian $Oxyz,$ đường thẳng nào dưới đây không đi qua điểm $A(3; - 3;\\,2)$",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470864\"></iframe><br />\nThay toạ độ điểm $A$ v&agrave;o phương tr&igrave;nh c&aacute;c đường thẳng ta c&oacute;<br />\n$\\left\\{ \\begin{array}{l}<br />\n3 = 5 + t\\\\<br />\n-3 = 3 + 3t\\\\<br />\n2 = - 2 - 2t<br />\n\\end{array} \\right. \\Leftrightarrow t = - 2 \\Rightarrow A \\in {d_3}$.<br />\n$\\left\\{ \\begin{array}{l}<br />\n3 = 3 + t\\\\<br />\n-3 = - 3 + 2t\\\\<br />\n2 = 2 + 2t<br />\n\\end{array} \\right. \\Leftrightarrow t = 0 \\Rightarrow A \\in {d_1}$.<br />\n$\\left\\{ \\begin{array}{l}<br />\n3 = - 3 + 3t\\\\<br />\n-3 = - 5 + t\\\\<br />\n2 = - 2 + 2t<br />\n\\end{array} \\right. \\Leftrightarrow t = 2 \\Rightarrow A \\in {d_2}$.<br />\n$\\left\\{\\begin{array}{l}<br />\n3 = - 1 + 3t\\\\<br />\n-3 = 3 - 3t\\\\<br />\n2 = - 5 + 2t<br />\n\\end{array}\\right.$ v&ocirc; nghiệm $ \\Rightarrow A \\notin {d_4}$.",
+            "contentAnswerA": "${d_3}:\\left\\{ \\begin{array}{l}<br/>x = 5 + t\\\\<br/>y = 3 + 3t\\\\<br/>z = - 2 - 2t<br/>\\end{array} \\right.$.",
+            "contentAnswerB": "${d_1}:\\left\\{ \\begin{array}{l}<br/>x = 3 + t\\\\<br/>y = - 3 + 2t\\\\<br/>z = 2 + 2t<br/>\\end{array} \\right.$.",
+            "contentAnswerC": "${d_2}:\\left\\{ \\begin{array}{l}<br/>x = - 3 + 3t\\\\<br/>y = - 5 + t\\\\<br/>z = - 2 + 2t<br/>\\end{array} \\right.$.",
+            "contentAnswerD": "${d_4}:\\left\\{ \\begin{array}{l}<br/>x = - 1 + 3t\\\\<br/>y = 3 - 3t\\\\<br/>z = - 5 + 2t<br/>\\end{array} \\right.$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Kéo biểu thức ở các ô vuông thả vào vị trí thích hợp:<br/>Hình dưới thể hiện một phép chia.<br/><img alt=\"A white board with black text and black letters\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/ComcSrb.png?dl=1\" data-temp-key=\"temp-image-1766046012499-5iywgjld1\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Số bị chia (6 chữ số) là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 23-1\">____DRAG_DROP_1____</span>, số chia (4 chữ số) là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 23-2\">____DRAG_DROP_2____</span> và thương số (số thập phân) là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 23-3\">____DRAG_DROP_3____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "D>"
+                },
+                {
+                    "slot3": "F>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470887\"></iframe><br />\nBước 1: Trước ti&ecirc;n ta h&atilde;y nh&igrave;n v&agrave;o vị tr&iacute; của số 0, từ đ&acirc;y ta điền được như sau:<br />\n<img alt=\"A white paper with black text and numbers\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012500-y3ay5f6xf\" src=\"https://cdn.save.moe/b/L1pFd.png?dl=1\" style=\"\" /><br />\nBước 2: B&acirc;y giờ đến phần cốt l&otilde;i của giải ph&aacute;p. Bước chia cuối c&ugrave;ng cho thấy số chia phải l&agrave; ước số của $\\overline {x000}$, ch&iacute;nh x&aacute;c hơn l&agrave; (ph&acirc;n t&iacute;ch thừa SNT):<br />\nSố chia $= 1000 \\times \\frac{x}{z} = {10^3} \\times \\frac{x}{z} = {2^3}{.5^3} \\times \\frac{x}{z}$<br />\nỞ đ&acirc;y $x &lt; 10$ v&agrave; $z &lt; 10$ l&agrave; c&aacute;c số tự nhi&ecirc;n.<br />\nDo đ&oacute;, số chia chia hết cho 5 n&ecirc;n tận c&ugrave;ng l&agrave; 0 hoặc 5. Nhưng mũi t&ecirc;n chỉ v&agrave;o vị tr&iacute; loại trừ 0. Như vậy ta nhận được:<br />\n<img alt=\"A white paper with black text\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012500-6t7xtp6vg\" src=\"https://cdn.save.moe/b/ncxH3oK.png?dl=1\" style=\"\" /><br />\nBước 3: Chỉ c&oacute; một ước số c&oacute; 3 chữ số của 5000 lớn hơn 500, đ&oacute; l&agrave; 625. Ta thay thế v&agrave;o:<br />\n<img alt=\"A white paper with black numbers and a red border\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012500-azg0qqeh2\" src=\"https://cdn.save.moe/b/gfI3va.png?dl=1\" style=\"\" /><br />\nBước 4: Việc ho&agrave;n th&agrave;nh b&acirc;y giờ thật dễ d&agrave;ng: Trước ti&ecirc;n, ta c&oacute; thể đọc kết quả 1011,1008 từ bước trước. Nh&acirc;n số n&agrave;y với 625 để c&oacute; số bị chia l&agrave; 631938. Cuối c&ugrave;ng, cộng c&aacute;c số c&ograve;n thiếu v&agrave;o.<br />\n<img alt=\"A white background with black numbers and red lines\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012500-3f8kf4qi3\" src=\"https://cdn.save.moe/b/yQRMLD.png?dl=1\" style=\"\" />",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "425"
+                },
+                {
+                    "id": "B>",
+                    "content": "631938"
+                },
+                {
+                    "id": "C>",
+                    "content": "631992"
+                },
+                {
+                    "id": "D>",
+                    "content": "625"
+                },
+                {
+                    "id": "E>",
+                    "content": "1011,1008"
+                },
+                {
+                    "id": "F>",
+                    "content": "1001,1008"
+                },
+                {
+                    "id": "G>",
+                    "content": "1001,1003"
+                }
+            ]
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Cho một số nguyên dương có 4 chữ số (có thể bắt đầu bằng 0 khi cần) mà không phải tất cả 4 chữ số đều bằng nhau. Thực hiện quá trình sau lặp đi lặp lại:<br/>$\\rightarrow$ Sắp các chữ số theo thứ tự giảm dần được số A $\\rightarrow$ Sắp các chữ số theo thứ tự tăng dần được số B $\\rightarrow$ Lấy hiệu A – B $\\rightarrow$ Lập lại quy trình với kết quả mới.<br/>Biết số ban đầu là 2025 cũng tức là năm sinh của A, sau 3 vòng ta thu được là năm sinh của bố A. Khi ấy bố A cách A bao nhiêu tuổi?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 24-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                27
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470888\"></iframe><br />\n2025 $\\rightarrow$ 5220 - 0225 = 4995 $\\rightarrow$ 9954 - 4599 = 5355 $\\rightarrow$ 5553 - 3555 = 1998<br />\nVậy bố A sinh năm 1998 $\\rightarrow$ Bố A c&aacute;ch A 27 tuổi"
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Một cái xích đu dao động điều hoà xung quanh vị trí cân bằng theo phương trình $s(t) = - 2\\cos (2\\pi t - \\frac{\\pi }{3}),$ trong đó thời gian $t$ tính bằng giây và $s$ tính bằng mét.<br/>Gia tốc của xích đu tại thời điểm $t = 3$ giây là $a(3) = x{\\pi ^y}({m/s^2})$. Tính tổng $x + y.$<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 25-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470865\"></iframe><br />\nTa c&oacute; vận tốc tại thời điểm $t$ l&agrave; $v(t) = s&#39;(t) = 4\\pi \\sin (2\\pi t - \\frac{\\pi }{3})$.<br />\nGia tốc tại thời điểm $t$ l&agrave; $a(t) = v&#39;(t) = 8{\\pi ^2}\\cos (2\\pi t - \\frac{\\pi }{3})$.<br />\nVậy gia tốc tại thời điểm $t = 3$ gi&acirc;y l&agrave; $a(3) = 8{\\pi ^2}\\cos (2\\pi \\cdot 3 - \\frac{\\pi }{3}) = 4{\\pi ^2}({m/s^2})$.<br />\nSuy ra $x = 4, y = 2 \\Rightarrow x + y = 6.$"
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Nếu tổng đường chéo các mặt bên của khối lập phương có thể tích ${V_1}$ tăng thêm 2 lần thì tạo thành một khối mới có thể tích là ${V_2}$. Tìm $\\frac{{{V_2}}}{{{V_1}}}$ ?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470867\"></iframe><br />\nGọi cạnh khối lập phương l&agrave; $x$, khi đ&oacute; đường ch&eacute;o mặt b&ecirc;n l&agrave; $x\\sqrt 2$<br />\nVới 6 mặt b&ecirc;n v&agrave; mỗi mặt c&oacute; 2 đường ch&eacute;o, suy ra tổng số đường l&agrave; $12x\\sqrt 2$<br />\nDo tổng tăng th&ecirc;m 2 lần tức tổng l&uacute;c sau gấp 3 lần n&ecirc;n đường ch&eacute;o l&uacute;c n&agrave;y l&agrave; $3x\\sqrt 2$<br />\nSuy ra cạnh bằng $3x$ v&agrave; thể t&iacute;ch l&uacute;c sau bằng $27{x^3}$ tức tăng 27 lần.",
+            "contentAnswerA": "$16$",
+            "contentAnswerB": "$27$",
+            "contentAnswerC": "$8$",
+            "contentAnswerD": "$9$"
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai ?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470868\"></iframe><br />\n- a) Sai: gọi số đ&oacute; l&agrave; $x$ th&igrave; căn bậc hai của số đ&oacute; ch&iacute;nh l&agrave; $\\sqrt x$.<br />\nX&eacute;t hiệu: $\\sqrt x - x = \\frac{1}{4} - \\frac{1}{4} + \\sqrt x - x = \\frac{1}{4} - {(\\sqrt x - \\frac{1}{2})^2} \\le \\frac{1}{4} = \\sqrt {\\frac{1}{4}} - \\frac{1}{4},\\forall x \\in [0; + \\infty)$.<br />\nVậy căn bậc hai của một số c&oacute; thể lớn hơn số đ&oacute; tối đa l&agrave; $\\frac{1}{4}$.<br />\n- b) Sai: Một số 0.<br />\nGiải th&iacute;ch: Để một số c&oacute; tận c&ugrave;ng bằng $n$ số 0 th&igrave; số đ&oacute; phải chứa c&aacute;c thừa số nguy&ecirc;n tố $2n$ v&agrave; $5n$ lần.<br />\nTuy nhi&ecirc;n, trong số c&aacute;c số nguy&ecirc;n tố đầu ti&ecirc;n của 2025 số th&igrave; số 2 v&agrave; số 5 chỉ xuất hiện một lần.<br />\nV&igrave; vậy, t&iacute;ch của 2025 số nguy&ecirc;n tố chỉ kết th&uacute;c bằng một số 0.<br />\n- c) Đ&uacute;ng: Ta x&eacute;t 3 trường hợp sau:<br />\nTH1: 2024xx. Khi ấy xx chạy từ 00 $\\rightarrow$ 99: tức l&agrave; 100 số<br />\nTH2: x2024x. Khi ấy xx chạy từ 00 $\\rightarrow$ 99: nhưng số đầu kh&ocirc;ng được l&agrave; số 0 n&ecirc;n c&ograve;n 90 số<br />\nTH3: xx2024. Khi ấy xx chạy từ 00 $\\rightarrow$ 99: giống trường hợp tr&ecirc;n n&ecirc;n chỉ c&oacute; 90 số<br />\nVậy ta kết luận tổng cộng c&oacute; 280 số.",
+            "contentYA": "Căn bậc hai của một số có thể lớn hơn số đó tối đa là $\\frac{1}{2}$.",
+            "contentYB": "Cho biết tích của 2025 số nguyên tố đầu tiên là một số có 7589 chữ số. Khi ấy con số khổng lồ này kết thúc bằng hai số 0.",
+            "contentYC": "Một số tự nhiên số 6 chữ số gọi là số “chứa 2024” nếu như nó được biểu diễn như ví dụ sau: 342024, 520240, 920245,.....Thì khi ấy có tất cả 280 số tự nhiên thỏa mãn yêu cầu này."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Cho hàm số $f(x) = a{x^3} + b{x^2} + cx + 5$ với $a,\\,\\,b,\\,\\,c$ là các hằng số thức thoả mãn điều kiện ${b^2} < 2ac$.<br/>Tính $f(2)$, biết rằng hàm số $g(x) = f({x^3} + f(x))$ có bảng biến thiên như sau:<br/><img alt=\"A red line with numbers and a red arrow\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/rMjlAiN.png?dl=1\" data-temp-key=\"temp-image-1766046012501-crl4efd9s\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470869\"></iframe><br />\nTa c&oacute; $f(x) = a{x^3} + b{x^2} + cx + 5$, suy ra $f&#39;(x) = 3a{x^2} + 2bx + c$.<br />\nV&igrave; điều kiện ${b^2} &lt; 2ac$, n&ecirc;n phương tr&igrave;nh $f&#39;(x) = 0$ v&ocirc; nghiệm.<br />\nX&eacute;t h&agrave;m số $g(x) = f({x^3} + f(x))$, suy ra: $g&#39;(x) = (3{x^2} + f&#39;(x)) \\cdot [f&#39;({x^3} + f(x))]$.<br />\nDựa v&agrave;o bảng biến thi&ecirc;n, ta thấy phương tr&igrave;nh $g&#39;(x) = 0$ c&oacute; duy nhất một nghiệm bội lẻ l&agrave; $x = 1$ $\\Leftrightarrow 3{x^2} + 3a{x^2} + 2bx + c = 0$ c&oacute; duy nhất một nghiệm bội lẻ l&agrave; $x = 1$ $\\Leftrightarrow \\left\\{ \\begin{array}{l}<br />\n3 + 3a = 0\\\\<br />\n2b + c = 0<br />\n\\end{array} \\right.$.<br />\nKhi đ&oacute;, ta c&oacute; $f(2) = 8a + 4b + 2c + 5 = - 8 + 5 + 2(2b + c) = - 3$. Vậy $f(2) = - 3$.",
+            "contentAnswerA": "$f(2) = - 5$.",
+            "contentAnswerB": "$f(2) = - 7$.",
+            "contentAnswerC": "$f(2) = - 3$.",
+            "contentAnswerD": "$f(2) = - 1$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Có bao nhiêu số nguyên dương $y$ sao cho ứng với mỗi $y$ có đúng $5$ số nguyên $x$ thỏa mãn $(3^{x + 1} - \\sqrt 3 ){(3^x - 81)^2} \\cdot \\sqrt {y - 3^x} > 0$ ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 29-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                486
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470870\"></iframe><br />\n&Aacute;p dụng kỹ thuật bất phương tr&igrave;nh tương đương ($y &gt; 0$):<br />\n$(3^{x + 1} - 3^{\\frac{1}{2}})(3^x - 3^4)^2 \\cdot \\sqrt {3^{{{\\log }_3}y} - 3^x} &gt; 0 \\Leftrightarrow (x + \\frac{1}{2})(x - 4)^2\\sqrt {{{\\log }_3}y - x} &gt; 0 \\Leftrightarrow \\left\\{\\begin{array}{l}<br />\n-\\frac{1}{2} &lt; x &lt; {\\log_3}y \\\\<br />\nx \\ne 4<br />\n\\end{array} \\right.$<br />\nKhi ấy 5 số nguy&ecirc;n cần t&igrave;m l&agrave; $x \\in \\{0;1;2;3;5\\}$ do đ&oacute; điều kiện cần v&agrave; đủ l&agrave; $5 &lt; {\\log _3}y \\le 6 \\Leftrightarrow 243 &lt; y \\le 729$.<br />\nTừ đ&acirc;y ta kết luận c&oacute; tất cả 486 số nguy&ecirc;n dương $y$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $A'B$ và $AC'$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470866\"></iframe><br />\n<img alt=\"A black background with a black square\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012501-k3f1eeev0\" src=\"https://cdn.save.moe/b/nErfp.png?dl=1\" style=\"\" /><br />\nV&igrave; $AD // BC // B&#39;C&#39; \\Rightarrow A,D,C&#39;,B&#39;$ đồng phẳng<br />\nTa c&oacute;: $A&#39;B \\bot AB&#39;$, $A&#39;B \\bot AD$ do $AD \\bot (ABB&#39;A&#39;)$ $ \\Rightarrow A&#39;B \\bot (ADC&#39;B&#39;) \\Rightarrow A&#39;B \\bot AC&#39;$.<br />\nVậy g&oacute;c giữa hai đường thẳng $A&#39;B$ v&agrave; $AC&#39;$ bằng $90^\\circ$.",
+            "contentAnswerA": "$90^\\circ$.",
+            "contentAnswerB": "$60^\\circ$.",
+            "contentAnswerC": "$30^\\circ$.",
+            "contentAnswerD": "$45^\\circ$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Cho hình chữ nhật $ABCD$ cố định có $AD = a,AB = \\frac{2a}{\\sqrt 5 }$. Điểm $S$ thay đổi trong không gian sao cho hai tam giác $\\Delta SDA$ và $\\Delta SCB$ đều vuông ở $S.$ Khi $a = 1$ thì giá trị nhỏ nhất của bán kính mặt cầu ngoại tiếp hình chóp $S.ABCD$ là $T$. Vậy $4{T^2}$ có kết quả là:<br/><img alt=\"Chart, radar chart\n\nDescription automatically generated\" src=\"https://cdn.save.moe/b/lGtsjCW.png?dl=1\" data-temp-key=\"temp-image-1766046012501-ltbvsu66g\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                5
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470909\"></iframe><br />\nDo $S \\in (Oyz)$ n&ecirc;n suy ra tọa độ l&agrave; $S(0;\\frac{1}{2\\sqrt 5 }\\cos t;\\frac{1}{2\\sqrt 5 }\\sin t)$, c&ugrave;ng với $C(\\frac{1}{\\sqrt 5 };\\frac{1}{2};0)$<br />\nDo $J$ thuộc trục $Oz$ n&ecirc;n suy ra $J(0;0;c) \\Rightarrow \\overrightarrow {JC} = (\\frac{1}{\\sqrt 5 };\\frac{1}{2}; - c)$.<br />\n$J{S^2} = J{C^2} \\Leftrightarrow \\frac{{{{\\cos }^2}t}}{{20}} + {(\\frac{{\\sin t}}{{2\\sqrt 5 }} - c)^2} = {c^2} + \\frac{1}{4} + \\frac{1}{5} = {c^2} + \\frac{9}{{20}} \\Rightarrow c = \\frac{{ - 2}}{{\\sqrt 5 \\sin t}}$<br />\nThế v&agrave;o t&iacute;nh ra: $J{C^2} = {c^2} + \\frac{9}{{20}} = \\frac{4}{{5{{\\sin }^2}t}} + \\frac{9}{{20}} \\ge \\frac{4}{5} + \\frac{9}{{20}} = \\frac{5}{4} \\Rightarrow {R_{\\mathrm{S.ABCD \\ {min}}}} = J{C_{\\min }} = \\frac{{\\sqrt 5 }}{2}$"
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Cho một số thực $x$, gọi $\\left[ x \\right]$ là số nguyên lớn nhất nhỏ hơn hoặc bằng $x$. Với một số nguyên $k$ nào đó, có đúng 70 số nguyên dương ${n_1},{n_2}, \\ldots ,{n_{70}}$ sao cho $k = \\left[ {\\sqrt[3]{{{n_1}}}} \\right] = \\left[ {\\sqrt[3]{{{n_2}}}} \\right] =  \\cdots  = \\left[ {\\sqrt[3]{{{n_{70}}}}} \\right]$ và $k$ là ước của ${n_i}$ với mọi $i$ thỏa mãn $1 \\le i \\le 70$. Tìm giá trị lớn nhất của $\\frac{{{n_i}}}{k}$ với $1 \\le i \\le 70$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 32-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                553
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470872\"></iframe><br />\nĐiều kiện $\\left[ {\\sqrt[3]{n}} \\right] = k$ tương đương với $k \\le \\sqrt[3]{n} &lt; k + 1$, hay ${k^3} \\le n \\le {(k + 1)^3} - 1$.<br />\nC&aacute;c số ${n_i}$ l&agrave; c&aacute;c bội của $k$ nằm trong khoảng $\\left[ {{k^3},{{(k + 1)}^3} - 1} \\right]$. Số lượng c&aacute;c số ${n_i}$ như vậy l&agrave;:<br />\n$\\left[ {\\frac{{{{(k + 1)}^3} - 1}}{k}} \\right] - \\left[ {\\frac{{{k^3}}}{k}} \\right] + 1 = \\left[ {\\frac{{{k^3} + 3{k^2} + 3k}}{k}} \\right] - {k^2} + 1 = \\left( {{k^2} + 3k + 3} \\right) - {k^2} + 1 = 3k + 4$<br />\nTheo đề b&agrave;i, số lượng n&agrave;y l&agrave; 70 , do đ&oacute;:<br />\n$3k + 4 = 70 \\Rightarrow 3k = 66 \\Rightarrow k = 22.$<br />\nC&aacute;c gi&aacute; trị ${n_i}$ l&agrave; c&aacute;c bội số của 22 trong khoảng $\\left[ {{{22}^3},{{23}^3} - 1} \\right]$. Gi&aacute; trị lớn nhất của ${n_i}$ l&agrave; bội số lớn nhất của 22 kh&ocirc;ng vượt qu&aacute; ${23^3} - 1 = 12166$. Ta c&oacute; $\\left[ {\\frac{{12166}}{{22}}} \\right] = 553$. Vậy, gi&aacute; trị lớn nhất của ${n_i}$ l&agrave; $22 \\times 553 = 12166$. Gi&aacute; trị lớn nhất của $\\frac{{{n_i}}}{k}$ l&agrave; $\\frac{{12166}}{{22}} = 553$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Một nguồn âm phát ra sóng âm là sóng cầu (mặt đầu sóng là mặt cầu).<br/>Khi gắn trên hệ trục tọa độ $Oxyz$ với đơn vị trên mỗi trục tọa độ là mét, vị trí nguồn âm có tọa độ $(2;3;1)$ và cường độ âm chuẩn phát ra có bán kính 10m.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470889\"></iframe><br />\n- a) Sai: Khoảng c&aacute;ch từ vị tr&iacute; tọa độ $E(5;0;2)$ đến nguồn &acirc;m l&agrave; $d = IE = \\sqrt {{(5 - 2)^2} + {{(0 - 3)}^2} + {{(2 - 1)}^2}} = \\sqrt {19} &lt; R.$<br />\nVậy tại vị tr&iacute; tọa độ $(5;0;2)$ c&oacute; thể nhận được cường độ &acirc;m chuẩn.<br />\n- b) Đ&uacute;ng: Tại vị tr&iacute; $B$ nhận được cường độ &acirc;m chuẩn từ nguồn tr&ecirc;n th&igrave; $IB \\le 10$.<br />\nSử dụng BĐT tam gi&aacute;c ta c&oacute; $AB \\le IA + IB = 13m$. Dấu bằng xảy ra theo thứ tự $A,I,B$ theo thứ tự thẳng h&agrave;ng.",
+            "contentYA": "Vị trí tọa độ $(5;0;2)$ không nhận được cường độ âm chuẩn từ nguồn âm trên.",
+            "contentYB": "Khoảng cách lớn nhất giữa hai vị trí $A(1;1; - 1)$ và $B$ sao cho tại vị trí $B$ nhận được cường độ âm chuẩn từ nguồn âm trên là 13 m."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Tổng tất cả các nghiệm thuộc khoảng $(0;\\,2\\pi )$ của phương trình ${\\sin ^4}\\frac{x}{2} + {\\cos ^4}\\frac{x}{2} = \\frac{5}{8}$ bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470890\"></iframe><br />\nTa c&oacute;: ${\\sin ^4}\\frac{x}{2} + {\\cos ^4}\\frac{x}{2} = \\frac{5}{8}$ $\\Leftrightarrow {(\\sin^2 \\frac{x}{2} + \\cos^2 \\frac{x}{2})^2} - 2\\sin^2 \\frac{x}{2} \\cdot \\cos^2 \\frac{x}{2} = \\frac{5}{8}$$ \\Leftrightarrow 1 - \\frac{1}{2}\\sin^2 x = \\frac{5}{8}$ $\\Leftrightarrow 1 - \\frac{1}{4}(1 - \\cos 2x) = \\frac{5}{8}$$ \\Leftrightarrow \\cos 2x = \\frac{ - 1}{2}$ $\\Leftrightarrow x = \\pm \\frac{\\pi }{3} + k\\pi$.<br />\nM&agrave; $x \\in (0;\\,2\\pi )$ n&ecirc;n $x \\in \\{\\frac{\\pi }{3};\\,\\frac{2\\pi }{3};\\,\\frac{4\\pi }{3};\\,\\frac{5\\pi }{3}\\}$.<br />\nKhi đ&oacute; tổng c&aacute;c nghiệm thuộc khoảng $(0;\\,2\\pi )$ của phương tr&igrave;nh l&agrave; $4\\pi$.",
+            "contentAnswerA": "$ - \\frac{2\\pi }{3}$.",
+            "contentAnswerB": "$0$.",
+            "contentAnswerC": "$\\frac{2\\pi }{3}$.",
+            "contentAnswerD": "$4\\pi$."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Cho một cái hộp hình hộp chữ nhật có kích thước ba cạnh lần lượt là $3cm$, $5cm$, $6cm$ như hình vẽ dưới đây.<br/><img alt=\"A red cube with black lines and numbers\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/JwgwDJ.png?dl=1\" data-temp-key=\"temp-image-1766046012503-urauxpirn\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Một con kiến ở vị trí $A$ muốn đến vị trí $B$. Biết rằng con kiến chỉ có thể bò trên cạnh hay bề mặt của hình hộp đã cho. Quãng đường ngắn nhất của con kiến đi từ $A$ đến $B$ bằng bao nhiêu centimet?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                10
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470873\"></iframe><br />\nV&igrave; $A$, $B$ l&agrave; hai đỉnh đối nhau của h&igrave;nh hộp chữ nhật n&ecirc;n kh&ocirc;ng ảnh hưởng tới kết quả b&agrave;i to&aacute;n, ta giả sử $ST = 3cm; SB = 5cm; CP = 6cm$.<br />\nQu&atilde;ng đường ngắn nhất để con kiến đi $A$ đến $B$ khi chỉ đi qua 2 mặt phẳng.<br />\nTrường hợp 1: Con kiến đi tr&ecirc;n mặt phẳng $(AMRT) \\to (MNBR)$ hoặc $(APST) \\to (PNBS)$.<br />\n<img alt=\"A red rectangles with black text\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012503-x9lghu124\" src=\"https://cdn.save.moe/b/6dQw3Z.png?dl=1\" style=\"\" /><br />\nKhi đ&oacute;, qu&atilde;ng đường ngắn nhất để con kiến đi $A$ đến $B$ l&agrave; $AB = \\sqrt {6^2 + (3 + 5)^2} = 10cm$.<br />\nTrường hợp 2: Con kiến đi tr&ecirc;n mặt phẳng $(APNM) \\to (MNBR)$ hoặc $(APST) \\to (SBRT)$ th&igrave; độ d&agrave;i ngắn nhất từ $A$ đến $B$ l&agrave; đoạn $AB$.<br />\n<img alt=\"A red lines with black text\n\nAI-generated content may be incorrect.\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012503-kdwhp2mcb\" src=\"https://cdn.save.moe/b/sZQlP.png?dl=1\" style=\"\" /><br />\nKhi đ&oacute;: $AB = \\sqrt {3^2 + (6 + 5)^2} = \\sqrt {130} \\approx 11,4cm$.<br />\nTrường hợp 3: Con kiến đi tr&ecirc;n mặt phẳng $(APNM) \\to (SPNB)$.<br />\nTương tự ta c&oacute; $AB = \\sqrt {5^2 + (6 + 3)^2} = \\sqrt {106} \\approx 10,3cm$<br />\nVậy qu&atilde;ng đường ngắn nhất của con kiến đi từ $A$ đến $B$ l&agrave; $10cm$."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Cho một tứ diện đều có cạnh bằng $a$. Kéo biểu thức ở các ô vuông thả vào vị trí thích hợp trong các câu sau:<br/>- Khối tứ diện đều có thể tích bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 36-1\">____DRAG_DROP_1____</span>.<br/>- Hình chiếu của một tứ diện đều cạnh $a$ lên các mặt phẳng khác nhau có diện tích lớn nhất bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 36-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "C>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470874\"></iframe><br />\n- Khối tứ diện đều c&oacute; thể t&iacute;ch bằng $\\frac{{{a^3}\\sqrt 2 }}{{12}}$ (&aacute;p dụng c&ocirc;ng thức)<br />\n- H&igrave;nh chiếu của một tứ diện đều l&ecirc;n một mặt phẳng c&oacute; thể l&agrave; tam gi&aacute;c hoặc tứ gi&aacute;c.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1766046012503-3o0ig5v8q\" src=\"https://cdn.save.moe/b/ZCTJ1cV.png?dl=1\" style=\"\" /><br />\n+ Nếu h&igrave;nh chiếu l&agrave; tam gi&aacute;c (giả sử l&agrave; $\\Delta B&#39;C&#39;D&#39;$) th&igrave; ${S_{\\Delta B&#39;C&#39;D&#39;}} \\le {S_{\\Delta BCD}} = \\frac{{{a^2}\\sqrt 3 }}{4}.$<br />\n+ Nếu h&igrave;nh chiếu l&agrave; tứ gi&aacute;c (giả sử l&agrave; tứ gi&aacute;c $A&#39;B&#39;C&#39;D&#39;$). Gọi $M,N,P,Q$ l&agrave; trung điểm c&aacute;c cạnh $AB,BC,CD,DA$ v&agrave; $M&#39;,N&#39;,P&#39;,Q&#39;$ l&agrave; trung điểm của $A&#39;B&#39;,B&#39;C&#39;,C&#39;D&#39;,D&#39;A&#39;$.L&uacute;c đ&oacute; ${S_{A&#39;B&#39;C&#39;D&#39;}} = 2{S_{M&#39;N&#39;P&#39;Q&#39;}} \\le 2{S_{MNPQ}}$.<br />\nMặt kh&aacute;c ${S_{MNPQ}} = \\frac{{{a^2}}}{4}$ $ \\Rightarrow {S_{A&#39;B&#39;C&#39;D&#39;}} \\le 2{S_{MNPQ}} = \\frac{{{a^2}}}{2}$. Khi đ&oacute; mặt phẳng chiếu song song với mặt phẳng $MNPQ.$<br />\nTa thấy $\\frac{{{a^2}\\sqrt 3 }}{4} &lt; \\frac{{{a^2}}}{2}$ n&ecirc;n h&igrave;nh chiếu l&ecirc;n c&aacute;c mặt phẳng kh&aacute;c nhau c&oacute; diện t&iacute;ch lớn nhất l&agrave; $\\frac{{{a^2}}}{2}$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$\\frac{{{a^2}\\sqrt 2 }}{{12}}$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$\\frac{{{a^3}\\sqrt 2 }}{{12}}$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$\\frac{{{a^2}}}{2}$"
+                },
+                {
+                    "id": "D>",
+                    "content": "${a^2}$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Một hiệu sách Đom đóm có một tựa sách tên Hồng nhan bạc phận được người đọc tìm mua rất nhiều. Trung bình mỗi ngày bán được 27 cuốn. Chi phi mỗi lẩn đặt hàng là 500 nghìn đồng chi phí lưu kho một cuốn sách mỗi ngày là 270 đồng. Hiệu sách Đom đóm nên đặt hàng bao nhiêu cuốn sách trên một đơn hàng từ nhà sản xuất để chi phí trung bình hằng ngày (bao gồm chi phí đặt hàng và chi phí lưu kho) là nhỏ nhất?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 37-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                324
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470875\"></iframe><br />\nGiả sử s&aacute;ch được giao sau mỗi $n$ ng&agrave;y ($n \\in \\mathbb{N^*}$).<br />\nMỗi ng&agrave;y b&aacute;n được $27$ cuốn n&ecirc;n cần đặt h&agrave;ng $27n$ cuốn mỗi lần v&agrave; chi ph&iacute; lưu kho trung b&igrave;nh mỗi ng&agrave;y l&agrave; $\\frac{27n}{2} \\times 270$ đồng.<br />\nChi ph&iacute; đặt h&agrave;ng trung b&igrave;nh mỗi ng&agrave;y l&agrave;: $\\frac{500000}{n}$ đồng.<br />\nChi ph&iacute; trung b&igrave;nh mỗi ng&agrave;y l&agrave;: $c(n) = \\frac{500000}{n} + \\frac{27n}{2} \\times 270$ đồng.<br />\nTa c&oacute;: $c&#39;(n) = - \\frac{500000}{n^2} + \\frac{27}{2} \\times 270 \\Rightarrow c&#39;(n) = 0 \\Leftrightarrow n^2 = \\frac{500000}{\\frac{27}{2} \\times 270} \\Rightarrow n = \\frac{100\\sqrt {10} }{27} \\approx 11,712$.<br />\nKhi đ&oacute; $c(n)$ đạt gi&aacute; trị nhỏ nhất tại $n = \\frac{100\\sqrt {10} }{27} \\approx 11,712$ nhưng do $n$ l&agrave; số nguy&ecirc;n dương v&agrave; $c(11) \\approx 85549,5 &gt; c(12) = 85406,7$ n&ecirc;n với $n = 12$ th&igrave; $c(n)$ đạt gi&aacute; trị nhỏ nhất v&agrave; số cuốn s&aacute;ch mỗi lần đặt h&agrave;ng l&agrave; $27 \\times 12 = 324$ cuốn."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Cho tam giác $ABC$ biết độ dài ba cạnh $BC, CA, AB$ lần lượt là $a, b, c$ và thỏa mãn hệ thức $b({b^2} - {a^2}) = c({c^2} - {a^2})$ với $b \\ne c$. Khi đó, góc $\\widehat {BAC}$ bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470876\"></iframe><br />\nTa c&oacute; phương tr&igrave;nh: $b({b^2} - {a^2}) = c({c^2} - {a^2}) \\Leftrightarrow {b^3} - b{a^2} = {c^3} - c{a^2} \\Leftrightarrow {b^3} - {c^3} - {a^2}(b - c) = 0$<br />\n$ \\Leftrightarrow (b - c)({b^2} + bc + {c^2} - {a^2}) = 0 \\Leftrightarrow {b^2} + {c^2} - {a^2} = - bc$.<br />\nMặt kh&aacute;c, $\\cos \\widehat {BAC} = \\frac{{{b^2} + {c^2} - {a^2}}}{{2bc}} = \\frac{{ - bc}}{{2bc}} = - \\frac{1}{2} \\Rightarrow \\widehat {BAC} = 120^\\circ$.",
+            "contentAnswerA": "$90^\\circ$.",
+            "contentAnswerB": "$120^\\circ$.",
+            "contentAnswerC": "$60^\\circ$.",
+            "contentAnswerD": "$45^\\circ$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Có bao nhiêu số nguyên của $n$ để giá trị $5556600{(\\frac{21}{10})^n}$ là một số nguyên ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 39-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470877\"></iframe><br />\nĐặt $P = 5556600{(\\frac{21}{10})^n}$. Bằng phương ph&aacute;p ph&acirc;n t&iacute;ch thừa số nguy&ecirc;n tố, ta viết lại $P$ như sau:<br />\n$P = 5556600{(\\frac{21}{10})^n} = {2^3}{.3^4}{.5^2}{.7^3} \\cdot \\frac{{{3^n}{{.7}^n}}}{{{2^n}{{.5}^n}}} = {2^{3 - n}}{.3^{n + 4}}{.5^{2 - n}}{.7^{n + 3}}$<br />\nĐể $P$ l&agrave; một số nguy&ecirc;n th&igrave; ta c&oacute; c&aacute;c bất phương tr&igrave;nh sau:<br />\n$\\left\\{ \\begin{array}{l}<br />\n3 - n \\ge 0;n + 4 \\ge 0\\\\<br />\n2 - n \\ge 0;n + 3 \\ge 0<br />\n\\end{array} \\right. \\Leftrightarrow - 3 \\le n \\le 2$ tức c&oacute; 6 gi&aacute; trị nguy&ecirc;n $n$ thỏa m&atilde;n"
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Trong một dự án lắp đặt đường ống, một trạm bơm chính $A$ nằm trên tuyến đường thẳng $d:y = \\frac{1}{2}x + 2$. Đường ống cần nối tới hai điểm: điểm lấy nước $B$ từ một con sông có dạng $(P_1):y = \\sqrt {2x}$ và điểm xả $C$ trên sườn đồi có dạng $(P_2):y = \\sqrt {x - 2}$. Theo một yêu cầu kỹ thuật, điểm $B$ phải là trung điểm của đoạn thẳng $AC$. Để tiết kiệm chi phí xây dựng đường hầm dịch vụ, hãy tìm chiều dài ngắn nhất của đường hầm nối thẳng từ $B$ đến $C$ (Kết quả làm tròn tới hàng phần trăm).<br/><img alt=\"A diagram of a graph\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/7qaNpk.png?dl=1\" data-temp-key=\"temp-image-1766046012504-kt579jyqj\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 40-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                1.42
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/470878\"></iframe><br />\nGọi $A, B, C$ lần lượt l&agrave; 3 điểm thuộc $d,f(x),g(x)$ theo đề b&agrave;i ta c&oacute; $\\left\\{ \\begin{array}{l} A(a;\\frac{1}{2}a + 2) \\\\ B(b;\\sqrt {2b} ) \\\\ C(c;\\sqrt {c - 2} ) \\end{array} \\right.$<br />\nX&eacute;t : $\\left\\{ \\begin{array}{l} \\overrightarrow {AB} = (b - a;\\sqrt {2b} - \\frac{1}{2}a - 2) \\\\ \\overrightarrow {BC} = (c - b;\\sqrt {c - 2} - \\sqrt {2b} ) \\end{array} \\right. \\to \\overrightarrow {AB} = \\overrightarrow {BC} \\Leftrightarrow \\left\\{ \\begin{array}{l} b - a = c - b \\Leftrightarrow 2b = a + c \\ (1) \\\\ \\sqrt {2b} - \\frac{1}{2}a - 2 = \\sqrt {c - 2} - \\sqrt {2b} \\ (2) \\end{array} \\right.$.<br />\nX&eacute;t (2) ta c&oacute;: $b - 2\\sqrt {2b} - \\frac{c}{2} + \\sqrt {c - 2} + 2 = 0$ c&oacute; $\\Delta &#39; = 2 + \\frac{c}{2} - \\sqrt {c - 2} - 2 = \\frac{c}{2} - \\sqrt {c - 2}$<br />\nSuy ra ta c&oacute; $\\left[ \\begin{array}{l} \\sqrt {{b_1}} = \\sqrt 2 + \\sqrt {{\\Delta &#39;}} \\ (TH1) \\\\ \\sqrt {{b_2}} = \\sqrt 2 - \\sqrt {{\\Delta &#39;}} \\ (TH2) \\end{array} \\right.$<br />\nX&eacute;t (TH1) ta c&oacute; :<br />\n${f^2}(x) = B{C^2} = {(b - c)^2} + {(\\sqrt {2b} - \\sqrt {c - 2} )^2} \\Leftrightarrow {f^2}(x) = {((\\sqrt 2 + \\sqrt {\\Delta &#39;} )^2 - c)^2} + {(\\sqrt 2 (\\sqrt 2 + \\sqrt {\\Delta &#39;}) - \\sqrt {c - 2} )^2}$<br />\nNhập v&agrave;o TABLE (Hoặc sử dụng chức năng $\\frac{dy}{dx}$ của casio) với $\\Delta &#39; = \\frac{c}{2} - \\sqrt {c - 2}$ ta thấy: $f(x)_{\\min} = 1,42$ tại $x = 6,18$<br />\nX&eacute;t (TH2) ta c&oacute;:<br />\n${f^2}(x) = B{C^2} = {(b - c)^2} + {(\\sqrt {2b} - \\sqrt {c - 2} )^2} \\Leftrightarrow {f^2}(x) = {((\\sqrt 2 - \\sqrt {\\Delta &#39;} )^2 - c)^2} + {(\\sqrt 2 (\\sqrt 2 - \\sqrt {\\Delta &#39;}) - \\sqrt {c - 2} )^2}$<br />\nNhập v&agrave;o TABLE(Hoặc sử dụng chức năng $\\frac{dy}{dx}$ của casio) với $\\Delta &#39; = \\frac{c}{2} - \\sqrt {c - 2}$ ta thấy $f(x)_{\\min} = 1,84$ tại $x = 3,42$."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-11-07T06:43:09.169Z",
+    "updatedAt": "2026-01-02T16:21:16.684Z",
+    "__v": 0
+}
+
+{
+    "_id": "690cda2e88364782ca049321",
+    "title": "[AECK]-Tư Duy Đọc Hiểu-Đề 2",
+    "numberOfQuestions": 20,
+    "time": 30,
+    "answer": {
+        "569ca943-5367-4965-9bf9-d51e97b5d1c1": "X",
+        "Câu 1": "D",
+        "Câu 2": [
+            "thoát hơi nước",
+            "thoat hoi nuoc"
+        ],
+        "Câu 3": "B",
+        "Câu 4": [
+            {
+                "slot1": "D>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "Câu 5": [
+            "c1",
+            "c4"
+        ],
+        "Câu 6": "D",
+        "Câu 7": "B",
+        "Câu 8": [
+            "cải tiến liên lạc",
+            "cai tien lien lac"
+        ],
+        "Câu 9": "B",
+        "Câu 10": "D",
+        "d32a9274-79ec-46c9-9625-4c6d647bcd28": "X",
+        "Câu 11": "A",
+        "Câu 12": [
+            "xuất khẩu giảm",
+            "xuat khau giam"
+        ],
+        "Câu 13": [
+            "c1",
+            "c2"
+        ],
+        "Câu 14": "B",
+        "Câu 15": "C",
+        "Câu 16": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "A>"
+            },
+            {
+                "slot3": "E>"
+            }
+        ],
+        "Câu 17": "B",
+        "Câu 18": "A",
+        "Câu 19": "B",
+        "Câu 20": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ]
+    },
+    "startTime": "2025-10-22T23:01:00.000Z",
+    "endTime": "2026-04-28T23:01:00.000Z",
+    "questions": [
+        {
+            "question": "569ca943-5367-4965-9bf9-d51e97b5d1c1",
+            "contentQuestions": "<br/><strong>TRUNG QUỐC TẠO RA ĐIỆN TỪ LÁ SEN</strong><br/><strong>[0]</strong> Máy phát điện khai thác sự thoát hơi nước của thực vật để tạo ra điện, có thể biến đổi gần như mọi loại lá trên Trái Đất thành nguồn năng lượng bền vững và liên tục.<br/><strong>[1]</strong> Nhóm nghiên cứu cho biết máy phát điện dựa trên sự thoát hơi nước từ lá của họ, cụ thể là lá sen, có thể cung cấp cho thiết bị điện tử nhỏ và tạo ra mạng lưới điện giúp nhà máy hoạt động. \"Nghiên cứu này không chỉ khám phá hiệu ứng thủy năng của quá trình thoát hơi nước từ lá mà còn mang đến góc nhìn mới mẻ để nâng cấp công nghệ năng lượng xanh\", nhóm nghiên cứu chia sẻ trong bài báo đăng trên tạp chí Nature Water.<br/><strong>[2]</strong> Điện thủy năng dựa vào chuyển động và tương tác của nước với bề mặt cứng. Những thiết bị hiện nay thường đòi hỏi cung cấp nước đều đặn, dẫn tới hạn chế về mặt địa lý do thiết bị phải đặt gần vùng nước như sông ngòi hoặc đập. Tuy nhiên, sự thoát hơi nước tự nhiên của lá cây hầu như chưa được thu thập trực tiếp, theo nhóm nghiên cứu ở Đại học Nông lâm Phúc Kiến. Do đó, họ tiên phong phát triển nguyên mẫu máy phát điện dựa trên sự thoát hơi nước ở lá sen (LTG) để chứng minh cách sản xuất điện này khả thi.<br/><strong>[3]</strong> Thoát hơi nước là quá trình nước di chuyển từ rễ tới ngọn cây và bay hơi qua lá hoặc hoa. Các nhà nghiên cứu ước tính sản xuất điện qua sự thoát hơi nước từ thực vật trên toàn cầu có thể sản xuất 67,5 terawatt giờ điện một năm. Theo Hu Qichang, giáo sư ở Đại học Nông lâm Phúc Kiến kiêm trưởng nhóm nghiên cứu, sản xuất điện qua sự thoát hơi nước từ lá có tiềm năng trở thành công nghệ được sử dụng rộng rãi và khả thi về mặt thương mại. Những lợi thế cốt lõi của phương pháp là tính bền vững, thân thiện với môi trường và chi phí thấp. Máy phát điện dựa trên sự thoát hơi nước có nhiều lợi thế khác biệt với máy phát điện truyền thống như thiết bị đơn giản và không đòi hỏi nguồn nước lớn. Nó có thể đóng vai trò như nguồn điện ở các khu vực phân tán như trang trại mà không cần cơ sở hạ tầng quy mô.<br/><strong>[4]</strong> Nhóm nghiên cứu tạo ra LTG bằng cách đặt một điện cực lưới titan lên mặt trên của lá sen, đóng vai trò như cực âm trong khi điện cực bằng kim titan đặt ở cuống lá đóng vai trò cực dương. Khi sự thoát hơi nước xảy ra, nước giữa những lỗ khí trên bề mặt lá và rễ cây có sự chênh lệch độ cao. Hoạt động mao dẫn theo chiều hướng lên của nước tạo ra chênh lệch điện thế giữa hai điện cực. \"Cây cối tiếp tục trao đổi nước với môi trường thông qua sự thoát hơi nước, vì vậy quá trình sản xuất điện có thể tiếp diễn cả ngày, đặc biệt khi có đủ ánh sáng Mặt Trời\", Hu giải thích.<br/><strong>[5]</strong> Nhóm nghiên cứu nhận thấy một số yếu tố ảnh hưởng tới sự thoát hơi nước và hiệu suất của thiết bị. Cuống càng dày cho phép tốc độ vận chuyển nước càng cao, giúp cải thiện hiệu suất. Nhiệt độ môi trường cao hơn giúp tăng cường sản xuất điện trong khi độ ẩm tương đối tăng, làm giảm hiệu suất.<br/><strong>[6]</strong> \"Để có thể ứng dụng thương mại rộng rãi, chúng tôi cần vượt qua một số thách thức như nâng cao hiệu suất sản xuất điện của một chiếc lá, tối ưu hóa hệ thống thu thập năng lượng và lưu trữ, mở rộng tình huống ứng dụng\", Hu chia sẻ. \"Hiện nay, lượng điện sản xuất của một chiếc lá tương đối nhỏ. Nghiên cứu của chúng tôi cho thấy thông qua nối nhiều cây và lá, một mạng lưới phân phối điện có thể hình thành, nhờ đó cải thiện công suất năng lượng nói chung. Trong tương lai, công nghệ này có tiềm năng ứng dụng rộng rãi trong lĩnh vực như lưới điện thông minh, Internet vạn vật và cảm biến.<br/><strong>[7]</strong> Dù LTG vẫn đang ở giai đoạn phát triển ban đầu, nhóm của Hu sẽ tiếp tục khám phá những phương pháp khác nhau để thúc đẩy công nghệ, bao gồm cải tiến liên lạc giữa cây cối và điện cực, khám phá tác động sinh lý của sự thoát nước ở thực vật lên sản xuất điện, kết hợp LTG với nhiều dạng năng lượng xanh như điện gió và điện mặt trời để tạo ra hệ thống sản xuất đa nguồn. Để chứng minh độ thông dụng của thiết bị, họ sử dụng nhiều loài thực vật và nhận thấy tất cả chúng đều có khả năng sản xuất điện.<br/>(Theo Nature Water, dịch đăng trên <a href=\"https://vnexpress.net/trung-quoc-tao-ra-dien-tu-la-sen-4796692.html\"><u>https://vnexpress.net/trung-quoc-tao-ra-dien-tu-la-sen-4796692.html</u></a>)",
+            "title": " Đọc văn bản và trả lời câu hỏi từ 1 đến 10:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Xác định nội dung chính của văn bản trên.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Đọc và phân tích nội dung của nhan đề, sapo và đoạn [1], tổng hợp thông tin và tiến hành loại trừ.<br/>- Nhan đề bài viết: Trung Quốc tạo ra điện từ lá sen.<br/>- Sapo có nhắc tới: máy phát điện khai thác sự thoát hơi nước của thực vật để tạo ra điện.<br/>Đoạn [1] nhấn mạnh thông tin: nhóm nghiên cứu cho biết máy phát điện dựa trên sự thoát hơi nước từ lá của họ, cụ thể là lá sen…<br/>Từ đó cho thấy, nội dung bài viết sẽ tập trung vào làm rõ kết quả nghiên cứu tạo ra nguồn điện từ sự thoát hơi nước trên lá sen, kết quả này có thể làm tiền đề cho những nghiên cứu tiếp theo chứ không phải là tất cả các loại lá.",
+            "contentAnswerA": "Giới thiệu công nghệ sản xuất điện từ lá cây dựa trên sự thoát hơi nước.",
+            "contentAnswerB": "Trình bày phương án thiết kế, thi công máy phát điện được làm từ lá sen.",
+            "contentAnswerC": "Sự khác biệt trong việc tạo ra điện từ cơ chế thoát hơi nước ở trên lá cây.",
+            "contentAnswerD": "Công bố kết quả nghiên cứu tạo ra máy phát điện từ nguyên liệu lá sen."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Tìm từ/cụm từ thích hợp (không quá ba tiếng) để hoàn thành nhận định sau:<br/>Những thiết bị thủy điện hiện nay đều phải đặt gần khu vực sông ngòi hoặc đập, điều này dẫn tới sự hạn chế về mặt địa lý trong ứng dụng, vì vậy, nếu phương án sản xuất điện từ sự <span class=\"fill-blank\" data-blank-id=\"Câu 2-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> tự nhiên của lá cây khả thi sẽ tạo ra một góc nhìn mới, nâng cấp công nghệ năng lượng xanh.",
+            "type": "TLN",
+            "correctAnswer": [
+                "thoát hơi nước",
+                "thoat hoi nuoc"
+            ],
+            "explanation": "<br/>Đọc nhanh đề bài, căn cứ vào cụm từ khu vực sông ngòi hoặc đập, xác định thông tin cần tìm nằm trong đoạn<br/>[2] của văn bản. Đọc lướt nội dung và xác định thông tin cần tìm: Tuy nhiên, sự thoát hơi nước tự nhiên của lá cây hầu như chưa được thu thập trực tiếp, theo nhóm nghiên cứu ở Đại học Nông lâm Phúc Kiến. Do đó, họ tiên phong phát triển nguyên mẫu máy phát điện dựa trên sự thoát hơi nước ở lá sen (LTG) để chứng minh cách sản xuất điện này khả thi."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Theo thông tin trong đoạn [2], sự khác biệt lớn nhất của công nghệ sản xuất điện từ lá cây và thủy điện truyền thống chính là không phụ thuộc vào các nguồn nước tự nhiên là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đọc và phân tích thông tin trong đoạn [2] của văn bản: Những thiết bị hiện nay thường đòi hỏi cung cấp nước đều đặn, dẫn tới hạn chế về mặt địa lý do thiết bị phải đặt gần vùng nước như sông ngòi hoặc đập. Tuy nhiên, sự thoát hơi nước tự nhiên của lá cây hầu như chưa được thu thập trực tiếp… Từ đó có thể thấy, thủy điện truyền thống bắt buộc phải đặt cạnh sông ngòi, cần cung cấp lượng nước lớn thường xuyên, liên tục, còn nghiên cứu tạo ra máy phát điện từ lá sen sẽ chỉ cần một nguồn nước nhỏ chứ không phải không cần nguồn nước tự nhiên.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Các nhà nghiên cứu dự đoán rằng phương pháp này có thể tạo ra <span class=\"drag-drop-blank\" data-drop-id=\"Câu 4-1\">____DRAG_DROP_1____</span> giờ điện trên toàn cầu mỗi năm, ngoài ra, chi phí thấp, thân thiện với môi trường, có thể sử dụng ở các khu vực <span class=\"drag-drop-blank\" data-drop-id=\"Câu 4-2\">____DRAG_DROP_2____</span>, không cần cơ sở hạ tầng quy mô chính là những lợi thế <span class=\"drag-drop-blank\" data-drop-id=\"Câu 4-3\">____DRAG_DROP_3____</span> có tính cạnh tranh trong tương lai.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "D>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<br/>Căn cứ vào từ khóa chi phí thấp, cơ sở hạ tầng… xác định thông tin cần tìm nằm trong đoạn [3] của bài viết: Các nhà nghiên cứu ước tính sản xuất điện qua sự thoát hơi nước từ thực vật trên toàn cầu có thể sản xuất 67,5 terawatt giờ điện một năm và Những lợi thế cốt lõi của phương pháp là tính bền vững, thân thiện với môi trường và chi phí thấp. Máy phát điện dựa trên sự thoát hơi nước có nhiều lợi thế khác biệt với máy phát điện truyền thống như thiết bị đơn giản và không đòi hỏi nguồn nước lớn. Nó có thể đóng vai trò như nguồn điện ở các khu vực phân tán như trang trại mà không cần cơ sở hạ tầng quy mô.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "67Wh"
+                },
+                {
+                    "id": "B>",
+                    "content": "cốt lõi"
+                },
+                {
+                    "id": "C>",
+                    "content": "phân tán"
+                },
+                {
+                    "id": "D>",
+                    "content": "67,5TWh"
+                },
+                {
+                    "id": "E>",
+                    "content": "trang trại"
+                },
+                {
+                    "id": "F>",
+                    "content": "quan trọng"
+                }
+            ]
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Theo bài viết, những yếu tố nào ảnh hưởng đến hiệu suất sản xuất điện trong công nghệ LTG? (Chọn nhiều đáp án)",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c4"
+            ],
+            "explanation": "<br/>Xác định thông tin trong đoạn [5] của bài viết: Cuống càng dày cho phép tốc độ vận chuyển nước càng cao, giúp cải thiện hiệu suất. Nhiệt độ môi trường cao hơn giúp tăng cường sản xuất điện trong khi độ ẩm tương đối tăng, làm giảm hiệu suất.",
+            "contentC1": "Độ dày của cuống lá.",
+            "contentC2": "Cường độ ánh sáng.",
+            "contentC3": "Diện tích bề mặt lá",
+            "contentC4": "Độ ẩm của môi trường."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Theo tác giả, để ứng dụng kết quả nghiên cứu này vào cuộc sống, các nhà nghiên cứu cần thực hiện điều gì?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Xác định thông tin cần tìm nằm trong đoạn [6] của bài viết: Để có thể ứng dụng thương mại rộng rãi, chúng tôi cần vượt qua một số thách thức như nâng cao hiệu suất sản xuất điện của một chiếc lá, tối ưu hóa hệ thống thu thập năng lượng và lưu trữ, mở rộng tình huống ứng dụng.",
+            "contentAnswerA": "Nâng cao hiệu suất sản xuất điện ở những khu vực phân tán, thiếu nguồn nước.",
+            "contentAnswerB": "Thử nghiệm trên nhiều tình huống khác nhau để hoàn thiện kịch bản phát triển.",
+            "contentAnswerC": "Giảm thiểu chi phí sản xuất xuống mức thấp nhất để tạo lợi thế cạnh tranh.",
+            "contentAnswerD": "Tăng lượng điện sản xuất của một chiếc lá, tối ưu hê ̣ thống thu thập năng lượng."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "“Theo đoạn trích, công nghệ sản xuất điện từ lá sen sẽ tạo nên bước đột phá trong việc phát triển các thiết bị cảm biến và ứng dụng IoT”, đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Căn cứ vào từ khóa cảm biến, xác định thông tin nằm trong đoạn [6] của bài viết: Trong tương lai, công nghệ này có tiềm năng ứng dụng rộng rãi trong lĩnh vực như lưới điện thông minh, Internet vạn vật và cảm biến. Từ đó có thể thấy công nghệ này được ứng dụng vào IoT chứ không phải đột phá trong việc phát triển cảm biến và IoT.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Tìm từ/cụm từ thích hợp (không quá bốn tiếng) để hoàn thành nhận định sau:<br/>Trong giai đoạn phát triển tiếp theo, các nhà nghiên cứu đặt ra mục tiêu tìm ra những phương pháp thúc đẩy công nghệ nhằm <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> giữa cây cối và điện cực, khám phá tác động sinh lý của sự thoát hơi nước ở thực vật lên sản xuất điện.",
+            "type": "TLN",
+            "correctAnswer": [
+                "cải tiến liên lạc",
+                "cai tien lien lac"
+            ],
+            "explanation": "<br/>Xác định thông tin nằm trong đoạn [7] của bài viết: Dù LTG vẫn đang ở giai đoạn phát triển ban đầu, nhóm của Hu sẽ tiếp tục khám phá những phương pháp khác nhau để thúc đẩy công nghệ, bao gồm cải tiến liên lạc giữa cây cối và điện cực, khám phá tác động sinh lý của sự thoát nước ở thực vật lên sản xuất điện."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Với những thách thức hiện tại, để công nghệ LTG có thể được ứng dụng thương mại rộng rãi, điều nào sau đây là một trong những giải pháp khả thi?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Xác định thông tin trong đoạn [6] và [7]: Nghiên cứu của chúng tôi cho thấy thông qua nối nhiều cây và lá, một mạng lưới phân phối điện có thể hình thành, nhờ đó cải thiện công suất năng lượng nói chung và để chứng minh độ thông dụng của thiết bị, họ sử dụng nhiều loài thực vật và nhận thấy tất cả chúng đều có khả năng sản xuất điện.",
+            "contentAnswerA": "Tăng kích thước lá để tối đa hóa sản lượng điện.",
+            "contentAnswerB": "Kết hợp nhiều loại cây để cải thiện mạng lưới điện.",
+            "contentAnswerC": "Tăng cường độ dày của điện cực gắn trên lá cây.",
+            "contentAnswerD": "Sử dụng các phương pháp tăng cường quang hợp."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Nhận định nào sau đây tương ứng với nội dung của bài viết?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Kết hợp việc đọc nội dung văn bản, các câu hỏi đã trả lời và phương pháp loại trừ nhanh:<br/>- Bài viết khẳng định nhiều loại lá có khả năng sản xuất điện, lá sen chỉ là trường hợp thử nghiệm ban đầu à Loại phương án A.<br/>- Bài viết không nhắc tới chi phí nghiên cứu → Loại phương án B.<br/>- Đây là công trình nghiên cứu của một nhóm tác giả người Trung Quốc, không khẳng định đất nước này tiên phong ứng dụng công nghệ xanh à Loại phương án C.",
+            "contentAnswerA": "Lá sen rất phổ biến nên ứng dụng LTG sẽ có chi phí thấp hơn thủy điện truyền thống.",
+            "contentAnswerB": "LTG đòi hỏi chi phí và thời gian nghiên cứu dài nhưng hiệu quả thực tiễn vô cùng lớn.",
+            "contentAnswerC": "Trung Quốc là đất nước phát triển, tiên phong ứng dụng công nghệ năng lượng xanh.",
+            "contentAnswerD": "Phát triển công nghê ̣năng lượng xanh là bài toán khó nhưng tạo ra tính bền vững."
+        },
+        {
+            "question": "d32a9274-79ec-46c9-9625-4c6d647bcd28",
+            "contentQuestions": "<br/><strong>DOANH NGHIỆP DỆT MAY, DA GIÀY CHUYỂN HƯỚNG SẢN XUẤT XANH</strong><br/><strong>[0]</strong> Để đáp ứng các tiêu chuẩn xanh trong sản xuất của EU, các doanh nghiệp dệt may, da giày của Việt Nam đang phải chuyển hướng sản xuất thân thiện với môi trường dù rất khó khăn…<br/><strong>[1]</strong> Trong bối cảnh kinh tế mới, tác động của dịch Covid-19 kéo dài dẫn tới sự suy thoái của nhiều nền kinh tế trên thế giới, ngành dệt may - da giày của nước ta đang đối mặt với nhiều khó khăn, như: các thị trường nhập khẩu lớn tiếp tục giảm đơn hàng, chưa đáp ứng các tiêu chuẩn xanh về nguyên vật liệu và điều kiện sản xuất…<br/><strong>[2]</strong> Chia sẻ về tình trạng giảm đơn hàng xuất khẩu hiện nay, ông Phạm Văn Việt, Phó Chủ tịch Hội Dệt<br/>- may – thêu - đan TP.HCM (AGTEK), cho biết các doanh nghiệp đang khổ sở vì đơn hàng xuất khẩu giảm những tháng cuối năm, đặc biệt hàng xuất sang Châu Âu. Theo ông Nguyễn Văn Khánh, Phó Chủ tịch Hội Da giày TP.HCM (SLA), nhiều doanh nghiệp da giày đang cố gắng duy trì hoạt động sản xuất, có doanh nghiệp đã phải cắt giảm giờ làm, cho lao động nghỉ việc tạm thời vì thiếu đơn hàng xuất khẩu. Việc này khiến công nhân ngậm ngùi phải về quê ăn tết sớm. Thời gian tới với “Chiến lược dệt may bền vững và tuần hoàn” tầm nhìn đến năm 2030 do EU đề xuất, các tiêu chuẩn xanh về lao động, nguyên vật liệu và điều kiện sản xuất càng nghiêm ngặt hơn. Điều này sẽ khó khăn đối với các doanh nghiệp dệt may và da giày, vì nhiều doanh nghiệp là vừa và nhỏ.<br/><strong>[3]</strong> Ông Trần Phú Lữ, Phó Giám đốc phụ trách ITPC, cho rằng dệt may da giày là một trong những ngành sản xuất gia công chủ lực của Việt Nam, đang sử dụng rất nhiều nguồn lực lao động, tài nguyên. Vì thế, việc chuyển đổi sang mô hình sản xuất xanh là thách thức lớn. Các nhãn hàng thời trang thế giới đánh giá sự phát triển đồng hành của các doanh nghiệp gia công trên cơ sở tuân thủ các quy định về môi trường, xã hội, và trách nhiệm đối với người lao động, người tiêu dùng toàn cầu. Đây vừa là thách thức vừa là cơ hội để doanh nghiệp tập trung đầu tư công nghệ sản xuất hiện đại, tăng tính cạnh tranh của sản phẩm khi xuất khẩu, tăng uy tín thương hiệu với người tiêu dùng.<br/><strong>[4]</strong> Mặc dù còn đối diện với rất nhiều khó khăn, các doanh nghiệp vẫn đang nỗ lực tìm đầu ra cho sản phẩm để tăng giá trị xuất khẩu. Số liệu thống kê của ITPC cho thấy, trong 10 tháng năm 2022 ngành dệt may xuất khẩu vào 66 nước, vùng lãnh thổ đạt gần 38 tỷ USD, tăng 17,2% so với cùng kỳ 2021. Chỉ riêng TP.HCM, kim ngạch xuất khẩu ngành dệt may 9 tháng đầu năm 2022 của thành phố ước đạt 3,4 tỷ USD, tăng gần 44% so với cùng kỳ 2021.<br/>[5] Đối với ngành da giày, hiện đang đứng hàng thứ 5 trong tốp các ngành xuất khẩu chủ lực của Việt Nam, tuy nhiên vẫn là một ngành chưa được công nghiệp hóa, hiện đại hóa. Kim ngạch xuất khẩu ngành da giày cả nước 9 tháng năm 2022, đạt được 21 tỷ USD. Riêng TP.HCM, kim ngạch xuất khẩu ngành da giày 9 tháng đầu năm 2022 của thành phố ước đạt 1,8 tỷ USD, tăng 46% so với cùng kỳ 2021.<br/><strong>[6]</strong> Để dệt may Việt Nam phát triển hơn nữa, theo bà Trần Hoàng Phú Xuân, Tổng giám đốc Công ty cổ phần Kết nối thời trang Faslink, cần phải đầu tư mạnh vào R&D (nghiên cứu và phát triển), chủ động nguồn cung ứng nguyên liệu cũng như kết nối chuỗi cung ứng. Khi làm được điều này, các sản phẩm dệt may Việt Nam mới thực sự đa dạng, đáp ứng nhu cầu của người dùng.<br/><strong>[7]</strong> Nhằm thích ứng với yêu cầu của các nước xuất khẩu, các doanh nghiệp ngành dệt may đã chuyển hướng tìm ra đối sách đa dạng hoá thị trường, chuyển đổi từ gia công sang phát triển mẫu, quản trị số, thúc đẩy giải pháp chuỗi cung ứng tự chủ… Một sự kiện đáng chú ý mới đây tại TP.HCM, đó là “Tuần lễ triển lãm sản phẩm ngành dệt may và da giày năm 2022” (diễn ra từ ngày 29/11-5/12/2022), trưng bày và trình diễn bộ sưu tập thời trang xanh của hơn 40 doanh nghiệp tiêu biểu của ngành dệt may, da giày của thành phố. Các sản phẩm trưng bày tại tuần lễ triển lãm lần này ứng dụng công nghệ sản phẩm là nguyên vật liệu mới, thân thiện với môi trường, như: sợi vải xanh từ bã cà phê, lá và thân sen, vỏ sò, than vỏ dừa, cellulose bạc hà, chai nhựa PET…. Bà Trần Hoàng Phú Xuân cho biết thời trang xanh đang là xu thế chung của ngành dệt may thế giới hiện nay. Những loại nguyên liệu thân thuộc và gần gũi với người Việt được sử dụng để sản xuất áo sơ mi, khăn và mũ nón rất thời trang với chất vải mịn, mát, phù hợp với khí hậu và thời tiết Việt Nam.<br/>(Theo Mộc Minh, Doanh nghiệp dệt may, da giày chuyển hướng sản xuất xanh, đăng trên <a href=\"http://vneconomy.vn/\">http://vneconomy.vn)</a>",
+            "title": " Đọc văn bản và trả lời câu hỏi từ 11 đến 20:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Đoạn trích trên chủ yếu đề cập đến vấn đề nào dưới đây?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Kết hợp nội dung của nhan đề, sapo và thông tin trong đoạn [1] của bài viết: các doanh nghiệp dệt may, da giày của Việt Nam đang phải chuyển hướng sản xuất thân thiện với môi trường và ngành dệt may - da giày của nước ta đang đối mặt với nhiều khó khăn… Từ đó có thể thấy, bài viết mới dừng lại ở việc nói lên những khó khăn mà các doanh nghiệp đang phải đối mặt, chưa cung cấp các giải pháp đáp ứng yêu cầu của thị trường EU.",
+            "contentAnswerA": "Khó khăn trong việc đáp ứng tiêu chuẩn xanh của ngành dệt may và da giày Việt Nam.",
+            "contentAnswerB": "Các biện pháp để đáp ứng tiêu chuẩn về sản phẩm xuất khẩu dệt may sang thị trường EU.",
+            "contentAnswerC": "Xu hướng sử dụng nguyên vật liệu xanh trong sản xuất dệt may và da giày tại Việt Nam.",
+            "contentAnswerD": "Tăng trưởng kinh tế của ngành dệt may và da giày Việt Nam khi mở rộng thị trường EU."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Tìm từ thích hợp (không quá ba tiếng) để hoàn thành nhận định sau:<br/>Trong bối cảnh suy thoái kinh tế toàn cầu, ngành dệt may phải đối diện với rất nhiều khó khăn, các đơn hàng <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> khiến doanh nghiệp phải cho lao động nghỉ việc tạm thời, ảnh hưởng không nhỏ tới cuộc sống của công nhân.",
+            "type": "TLN",
+            "correctAnswer": [
+                "xuất khẩu giảm",
+                "xuat khau giam"
+            ],
+            "explanation": "<br/>Đọc và xác định thông tin trong đoạn [2] của văn bản: các doanh nghiệp đang khổ sở vì đơn hàng xuất khẩu giảm những tháng cuối năm, đặc biệt hàng xuất sang Châu Âu. Theo ông Nguyễn Văn Khánh, Phó Chủ tịch Hội Da giày TP.HCM (SLA), nhiều doanh nghiệp da giày đang cố gắng duy trì hoạt động sản xuất, có doanh nghiệp đã phải cắt giảm giờ làm, cho lao động nghỉ việc tạm thời vì thiếu đơn hàng xuất khẩu"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Theo đoạn trích, khó khăn mà ngành dệt may và da giày Việt Nam đang phải đối mặt là gì? (chọn nhiều đáp án).",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2"
+            ],
+            "explanation": "<br/>Kết hợp thông tin trong đoạn [1], [2], [3] và tiến hành loại trừ, chú ý các từ khóa: các thị trường nhập khẩu lớn tiếp tục giảm đơn hàng, cho lao động nghỉ việc tạm thời vì thiếu đơn hàng xuất khẩu, các tiêu chuẩn xanh về lao động, nguyên vật liệu và điều kiện sản xuất càng nghiêm ngặt hơn.",
+            "contentC1": "Thiếu đơn hàng từ các thị trường xuất khẩu lớn.",
+            "contentC2": "Yêu cầu ngày càng khắt khe về tiêu chuẩn xanh.",
+            "contentC3": "Thiếu nguồn nhân lực đảm bảo tiêu chuẩn xanh.",
+            "contentC4": "Cạnh tranh với các doanh nghiệp Trung Quốc."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "“Ngành dệt may và da giày Việt Nam chủ yếu là các doanh nghiệp vừa và nhỏ, sử dụng nhiều nguồn lực lao động và tài nguyên vì vậy, với yêu cầu chuyển đổi mô hình sản xuất xanh, tuân thủ những quy định nghiêm ngặt về môi trường là điều không thể, chi phí quá lớn sẽ lấy đi cơ hội đầu tư vào các thiết bị sản xuất”, là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đọc và tổng hợp thông tin trong đoạn [2] và [3], chú ý các nội dung: điều này sẽ khó khăn đối với các doanh nghiệp, chuyển đổi sang mô hình sản xuất xanh là thách thức lớn, đây vừa là thách thức vừa là cơ hội để doanh nghiệp tập trung đầu tư công nghệ sản xuất hiện đại.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "“Chiến lược dệt may bền vững và tuần hoàn” sẽ tác động tới các doanh nghiệp Việt Nam như thế nào?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Đọc và tổng hợp thông tin trong đoạn [2] và [3] của văn bản: “Chiến lược dệt may bền vững và tuần hoàn” tầm nhìn đến năm 2030 do EU đề xuất, các tiêu chuẩn xanh về lao động, nguyên vật liệu và điều kiện sản xuất càng nghiêm ngặt hơn. Điều này sẽ khó khăn đối với các doanh nghiệp dệt may và da giày, vì nhiều doanh nghiệp là vừa và nhỏ. Và việc chuyển đổi sang mô hình sản xuất xanh là thách thức lớn.",
+            "contentAnswerA": "Tạo ra cơ hội để các doanh nghiệp thay đổi công nghệ sản xuất hiện đại hơn.",
+            "contentAnswerB": "Thúc đẩy động lực phát triển sản phẩm, tăng uy tín về mặt thương hiệu.",
+            "contentAnswerC": "Đặt ra những thách thức về chuyển đổi công nghê ̣và nguồn lực sản xuất.",
+            "contentAnswerD": "Mở rộng thị trường khi sản phẩm thủ công ngày càng được ưu chuộng."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Đối diện với rất nhiều khó khăn nhưng các doanh nghiệp vẫn nỗ lực tìm đầu ra cho sản phẩm, theo thống kê, trong 9 tháng đầu năm 2022, TP.HCM có kim ngạch xuất khẩu hàng dệt may tăng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-1\">____DRAG_DROP_1____</span> so với cùng kì; ngành da giày đạt <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-2\">____DRAG_DROP_2____</span>, tăng 46% so với cùng kì <span class=\"drag-drop-blank\" data-drop-id=\"Câu 16-3\">____DRAG_DROP_3____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "A>"
+                },
+                {
+                    "slot3": "E>"
+                }
+            ],
+            "explanation": "<br/>Đọc lướt nội dung câu văn, thông qua cụm từ theo thống kế trong 9 tháng đầu năm, xác định thông tin trong đoạn [4] và [5] của bài viết: Chỉ riêng TP.HCM, kim ngạch xuất khẩu ngành dệt may 9 tháng đầu năm 2022 của thành phố ước đạt 3,4 tỷ USD, tăng gần 44% so với cùng kỳ 2021 và riêng TP.HCM, kim ngạch xuất khẩu ngành da giày 9 tháng đầu năm 2022 của thành phố ước đạt 1,8 tỷ USD, tăng 46% so với cùng kỳ 2021.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "1,8 tỷ USD"
+                },
+                {
+                    "id": "B>",
+                    "content": "46%"
+                },
+                {
+                    "id": "C>",
+                    "content": "44%"
+                },
+                {
+                    "id": "D>",
+                    "content": "3,4 tỷ USD"
+                },
+                {
+                    "id": "E>",
+                    "content": "năm 2021"
+                }
+            ]
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Theo bà Trần Hoàng Phú Xuân, chiến lược để doanh nghiệp Việt Nam phát triển trong thời gian tới là gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Căn cứ vào thông tin bà Trần Hoàng Phú Xuân, xác định thông tin trong đoạn [6]: cần phải đầu tư mạnh vào R&D (nghiên cứu và phát triển), chủ động nguồn cung ứng nguyên liệu cũng như kết nối chuỗi cung ứng. Khi làm được điều này, các sản phẩm dệt may Việt Nam mới thực sự đa dạng, đáp ứng nhu cầu của người dùng.",
+            "contentAnswerA": "Tập trung vào các sản phẩm chiến lược, tạo lợi thế cạnh tranh từ mặt hàng thủ công.",
+            "contentAnswerB": "Nghiên cứu và phát triển thị trường, chủ động nguyên liệu, kết nối chuỗi cung ứng.",
+            "contentAnswerC": "Chuyển đổi mô hình sản xuất từ gia công sản phẩm sang phát triển mặt hàng mẫu.",
+            "contentAnswerD": "Tìm kiếm những thị trường mới trong khu vực thông qua các hoạt động quảng bá."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "“Xu hướng mới trong việc lựa chọn các sản phẩm thời trang chính là nguyên liệu thân thiện với môi trường, sử dụng vật liệu tái chế, hướng tới tính bền vững”, đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Đọc và xác định thông tin trong đoạn [7] của văn bản: thời trang xanh đang là xu thế chung của ngành dệt may thế giới hiện nay. Những loại nguyên liệu thân thuộc và gần gũi với người Việt được sử dụng để sản xuất áo sơ mi, khăn và mũ nón rất thời trang với chất vải mịn, mát, phù hợp với khí hậu và thời tiết Việt Nam.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Mục tiêu của hoạt động “Tuần lễ triển lãm sản phẩm ngành dệt may và da giày năm 2022” là gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đọc và tổng hợp thông tin trong đoạn [7] của văn bản, chú ý nội dung: Các sản phẩm trưng bày tại tuần lễ triển lãm lần này ứng dụng công nghệ sản phẩm là nguyên vật liệu mới, thân thiện với môi trường, như: sợi vải xanh từ bã cà phê, lá và thân sen, vỏ sò, than vỏ dừa, cellulose bạc hà, chai nhựa PET….",
+            "contentAnswerA": "Chứng minh sự thích ứng của các doanh nghiệp với yêu cầu chuyển đổi sản phẩm xanh.",
+            "contentAnswerB": "Công bố một số sản phẩm thời trang được làm từ những vật liệu thân thiện với môi trường.",
+            "contentAnswerC": "Giới thiệu những nguyên liệu mới của Việt Nam có thể ứng dụng trong sản xuất thời trang.",
+            "contentAnswerD": "Khẳng định tính khả thi của việc thay đổi nguyên liệu trong sản xuất thời gian của Việt Nam."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Xét tính đúng/sai của các nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>Đọc và tổng hợp thông tin trong bài viết:<br/>- Các doanh nghiệp gặp khó khăn khi không đáp ứng được yêu cầu của thị trường xuất khẩu không có nghĩa là phải đóng cửa.<br/>- Đối với ngành da giày, hiện đang đứng hàng thứ 5 trong tốp các ngành xuất khẩu chủ lực của Việt Nam.<br/>- Bài viết chỉ nhắc tới sợi vải làm từ bã cà phê và thân sen được công bố, không nhắc tới phản ứng của thị trường.",
+            "contentYA": "Các doanh nghiệp dệt may nếu không thể thay đổi mô hình có thể bị đóng cửa do không còn đơn hàng xuất khẩu sang Châu Âu.",
+            "contentYB": "Ngành da giày đang là một trong những ngành xuất khẩu chủ lực của Việt Nam.",
+            "contentYC": "Các sản phẩm thời trang được làm từ bã cà phê và thân sen đang rất được ưa chuộng."
+        }
+    ],
+    "subject": "TƯ DUY ĐỌC HIỂU",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-11-06T17:26:06.636Z",
+    "updatedAt": "2025-11-07T02:22:43.249Z",
+    "__v": 0
+}
+
+{
+    "_id": "690cdc1588364782ca04934d",
+    "title": "[AECK]-Tư Duy Khoa Học-Đề 2",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "8a5d765a-39dc-4d53-82a8-f0f5b8d60dfe": "X",
+        "Câu 1": [
+            {
+                "1.": [
+                    "Insulin"
+                ]
+            },
+            {
+                "2.": [
+                    "beta"
+                ]
+            }
+        ],
+        "Câu 2": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "Câu 3": "B",
+        "Câu 4": "A",
+        "Câu 5": "A",
+        "1fe2d282-487c-4af5-9154-6de96b4f5f3c": "X",
+        "Câu 6": "C",
+        "Câu 7": [
+            71
+        ],
+        "Câu 8": "A",
+        "Câu 9": [
+            "c1",
+            "c3"
+        ],
+        "Câu 10": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "A>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "1852c8bf-af7f-4a5b-9099-e47b46bab7d0": "X",
+        "Câu 11": "C",
+        "Câu 12": "B",
+        "Câu 13": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 14": [
+            598.3
+        ],
+        "Câu 15": "B",
+        "6fa1fac9-55e9-4948-874b-630d1d6fb457": "X",
+        "Câu 16": "B",
+        "Câu 17": "B",
+        "Câu 18": [
+            "c1",
+            "c2",
+            "c3"
+        ],
+        "Câu 19": [
+            2
+        ],
+        "Câu 20": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "C>"
+            },
+            {
+                "slot4": "D>"
+            },
+            {
+                "slot5": "E>"
+            }
+        ],
+        "ac54cf6c-cc2d-4455-8433-4e04f42d8fa6": "X",
+        "Câu 21": [
+            "quang hợp"
+        ],
+        "Câu 22": "B",
+        "Câu 23": "B",
+        "Câu 24": [
+            "c1"
+        ],
+        "Câu 25": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "97dcacaa-8b3b-4ad0-868b-e1877b3d0b17": "X",
+        "Câu 26": [
+            "hưng phấn"
+        ],
+        "Câu 27": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 28": "A",
+        "Câu 29": [
+            "c1",
+            "c3",
+            "c5"
+        ],
+        "Câu 30": [
+            {
+                "1.": [
+                    122
+                ]
+            },
+            {
+                "2.": [
+                    32
+                ]
+            },
+            {
+                "3.": [
+                    185
+                ]
+            }
+        ],
+        "a6a83ef4-3dd7-4367-8831-b9374b5f2621": "X",
+        "Câu 31": "C",
+        "Câu 32": [
+            2.6
+        ],
+        "Câu 33": "B",
+        "Câu 34": [
+            "c2",
+            "c3"
+        ],
+        "Câu 35": "C",
+        "0314b7d6-360f-4895-96ce-ee7433068528": "X",
+        "Câu 36": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 37": "C",
+        "Câu 38": [
+            342
+        ],
+        "Câu 39": "C",
+        "Câu 40": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "D>"
+            },
+            {
+                "slot4": "B>"
+            }
+        ]
+    },
+    "startTime": "2025-10-20T22:01:00.000Z",
+    "endTime": "2026-04-26T22:01:00.000Z",
+    "questions": [
+        {
+            "question": "8a5d765a-39dc-4d53-82a8-f0f5b8d60dfe",
+            "contentQuestions": "<br/><strong>“QUY TRÌNH SẢN XUẤT SẢN PHẨM” Ở TẾ BÀO [SAECK1102549]</strong><br/>Insulin là một loại protein xuất bào của các tế bào beta ở vùng tiểu đảo Langerhans của tuyến tuỵ. Trong một nghiên cứu để tìm hiểu về hoạt động sinh tổng hợp insulin trong tế bào, các tế bào beta được xử lý với amino acid leucine đánh dấu phóng xạ (3H – leucine) trong 30 phút, sau đó rửa sạch rồi tiếp tục ủ tế bào trong điều kiện hứa leucine không đánh dấu phóng xạ. Hoạt độ phóng xạ ở các vị trí I, II và III trong tế bào beta được đo liên tục trong suốt thí nghiệm, kết quả được mô tả trong Hình I.<br/><img alt=\"A diagram of a number of numbers\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/HQE7L.png?dl=1\" data-temp-key=\"temp-image-1765865538916-3988x0mmo\" class=\"mx-auto\" style=\"\"><br/>Hình 1. Hoạt độ phóng xạ ở các vị trí I, II, III ở từng thời điểm.<br/>Biết rằng, trong cấu trúc của protein insulin có acid amin leucine. Quan sát hoạt độ phóng xạ của amino acid leucine cũng sẽ biết được insulin đang được tổng hợp phân bố nhiều ở vị trí nào.<br/>Mỗi vị trí I, II và III tương ứng với những cấu trúc sau: lưới nội chất, các túi nội bào tử bộ máy Golgi, bộ máy Golgi, ty thể.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 5:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "type": "MQ",
+            "id": "SAECK1102549",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Điền từ vào ô trống dưới đây.<br/><span class=\"fill-blank\" data-blank-id=\"Câu 1-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> là một loại protein xuất bào của các tế bào <span class=\"fill-blank\" data-blank-id=\"Câu 1-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> ở vùng tiểu đảo Langerhans của tuyến tuỵ.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "Insulin"
+                    ]
+                },
+                {
+                    "2.": [
+                        "beta"
+                    ]
+                }
+            ],
+            "explanation": "<br/>Dựa vào trích dẫn."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Kéo thả vào ô trống phù hợp.<br/>Vị trí I <span class=\"drag-drop-blank\" data-drop-id=\"Câu 2-1\">____DRAG_DROP_1____</span>.<br/>Vị trị II <span class=\"drag-drop-blank\" data-drop-id=\"Câu 2-2\">____DRAG_DROP_2____</span>.<br/>Vị trí III <span class=\"drag-drop-blank\" data-drop-id=\"Câu 2-3\">____DRAG_DROP_3____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<br/>Khi leucine được đánh dấu phóng xạ vào trong tế bào, nó được sử dụng cho quá trình tổng hợp protein ở lưới nội chất; sau đó sẽ được vận chuyển đến các cấu trúc tiếp theo $\\rightarrow$ hoạt độ phóng xạ giảm dần theo thời gian $\\rightarrow$ tương ứng với đồ thị I.<br/>Protein tiết (insulin) được tổng hợp tại lưới nội chất, biến đổi và hoàn thiện trong bộ máy Golgi, nên lúc đầu hoạt độ phóng xạ thấp, sau đó tăng dần rồi lại giảm khi insulin đã được chuyển vào trong các túi xuất bào vận chuyển đến màng sinh chất $\\rightarrow$ tương ứng với đồ thị II.<br/>Các túi xuất bào ở bộ máy Golgi di chuyển và hòa nhập với màng sinh chất để xuất insulin ra ngoài tế bào $\\rightarrow$ hoạt độ phóng xạ lúc đầu thấp, sau đó tăng dần theo thời gian $\\rightarrow$ tương ứng với đồ thị III.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "lưới nội chất"
+                },
+                {
+                    "id": "B>",
+                    "content": "các túi nội bào từ bộ máy Golgi"
+                },
+                {
+                    "id": "C>",
+                    "content": "bộ máy Golgi"
+                },
+                {
+                    "id": "D>",
+                    "content": "ty thể"
+                }
+            ]
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Tại sao ở khoảng thời gian 180 phút hoạt độ phóng xạ ở vị trí I (khoảng 5%) và II (khoảng 10%) thấp còn vị trí III lại cao (khoảng 80%). Chọn đáp án đúng nhất.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>- A. Vì leucine chỉ bổ sung vào 30 phút nên hoạt độ phóng xạ ở 180 phút ở vị trí I và II đã giảm xuống, vị trí III vẫn còn cao là do phóng xạ dồn về vị trí đó $\\rightarrow$ Sai ở chỗ leucine, phải là leucine phóng xạ.<br/>- C. Vì vị trí III là cấu trúc các túi nội bào ở bộ máy Golgi mà cấu trúc này có nhiều trong tế bào nên hoạt độ cao hơn, 2 vị trí còn lại là cấu trúc có mật độ ít trong tế bào nên hoạt độ thấp. $\\rightarrow$ Không hợp lý.<br/>- D. Vì vị trí III là nơi tập kết của các amino acid leucine có đánh dấu phóng xạ ở thời điểm 180 phút nên hoạt độ phóng xạ xuất hiện nhiều, vị trí I và II luôn là nơi nhận amino acid leucine không đánh dấu phóng xạ nên hoạt độ phóng xạ thấp. $\\rightarrow$ Vị trí I và II cũng sẽ nhận amino acid leucine đánh dấu phóng xạ vào 30 phút đầu nên nói luôn không nhận là sai.",
+            "contentAnswerA": "Vì leucine chỉ bổ sung vào 30 phút nên hoạt độ phóng xạ ở 180 phút ở vị trí I và II đã giảm xuống, vị trí III vẫn còn cao là do phóng xạ dồn về vị trí đó.",
+            "contentAnswerB": "Vì ở thời điểm 180 phút, tại vị trí I và II “protein insulin sơ khai” đã chuyển sang vị trí III để hoàn thiện nên hoạt độ phóng xạ ở đó thấp, còn vị trí III protein insuline tập trung ở đó nên cao.",
+            "contentAnswerC": "Vì vị trí III là cấu trúc các túi nội bào ở bộ máy Golgi mà cấu trúc này có nhiều trong tế bào nên hoạt độ cao hơn, 2 vị trí còn lại là cấu trúc có mật độ ít trong tế bào nên hoạt độ thấp.",
+            "contentAnswerD": "Vì vị trí III là nơi tập kết của các amino acid leucine có đánh dấu phóng xạ ở thời điểm 180 phút nên hoạt độ phóng xạ xuất hiện nhiều, vị trí I và II luôn là nơi nhận amino acid leucine không đánh dấu phóng xạ nên hoạt độ phóng xạ thấp."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai.<br/>Ở thời điểm 0 phút, ở vị trí I hoạt độ phóng xạ cao nhất là vì đây là bào quan đầu tiên dùng amino acid leucine mang dấu phóng xạ.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Vì đây là bào quan đầu tiên dùng amino acid leucine nên ta thấy hoạt độ phóng xạ ở đó cao nhất thời điểm 0",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Hình vẽ nào dưới đây mô tả chính xác “quy trình sản xuất sản phẩm” insulin trong Hình 1.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Từ giải thích ở câu 3 ta rút ra được sơ đồ hình vẽ.",
+            "contentAnswerA": "<img alt=\"A diagram of a number of numbers\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/TwYGq9G.png?dl=1\" data-temp-key=\"temp-image-1765865538924-ixg13rmra\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerB": "<img alt=\"A diagram of a number\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/8Olxu.png?dl=1\" data-temp-key=\"temp-image-1765865538925-m9kkai7eu\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerC": "<img alt=\"A diagram of a number of numbers\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/MP1f3.png?dl=1\" data-temp-key=\"temp-image-1765865538925-e4wtsdadh\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerD": "<img alt=\"A diagram of a number of numbers\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/C9Paa.png?dl=1\" data-temp-key=\"temp-image-1765865538926-k8aeuous8\" class=\"mx-auto\" style=\"\">",
+            "id": "LAE17102585"
+        },
+        {
+            "question": "1fe2d282-487c-4af5-9154-6de96b4f5f3c",
+            "contentQuestions": "<br />\n<strong>ĐỊNH LUẬT HUBBLE [LAE17102585]</strong><br />\nNăm 1929, nh&agrave; thi&ecirc;n văn học Edwin Hubble đ&atilde; c&ocirc;ng bố một kh&aacute;m ph&aacute; chấn động: vũ trụ của ch&uacute;ng ta kh&ocirc;ng tĩnh tại m&agrave; đang gi&atilde;n nở. &Ocirc;ng nhận thấy rằng, c&aacute;c thi&ecirc;n h&agrave; c&agrave;ng ở xa ch&uacute;ng ta th&igrave; dường như ch&uacute;ng đang di chuyển ra xa ch&uacute;ng ta c&agrave;ng nhanh. Ph&acirc;n t&iacute;ch Vật l&yacute;: Hubble đo khoảng c&aacute;ch (d) tới c&aacute;c thi&ecirc;n h&agrave; v&agrave; tốc độ l&ugrave;i ra xa (v) của ch&uacute;ng (th&ocirc;ng qua hiện tượng dịch chuyển đỏ). &Ocirc;ng ph&aacute;t hiện ra một mối quan hệ tuyến t&iacute;nh đơn giản, ng&agrave;y nay gọi l&agrave; Định luật Hubble:<br />\n$v=H_{0} \\cdot d$<br />\nTrong đ&oacute;, $H_{0}$ l&agrave; hằng số Hubble, đặc trưng cho tốc độ gi&atilde;n nở của vũ trụ. Định luật n&agrave;y l&agrave; bằng chứng quan s&aacute;t nền tảng cho l&yacute; thuyết Vụ nổ Lớn (Big Bang). Bảng 2. Dữ liệu của một số cụm thi&ecirc;n h&agrave;:\n<table align=\"center\" class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\"><strong>Cụm thi&ecirc;n h&agrave;</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>Khoảng c&aacute;ch (d) (Mpc)</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>Tốc độ l&ugrave;i ra xa (v) (km/s)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Cụm Virgo</td>\n\t\t\t<td style=\"text-align: center;\">16</td>\n\t\t\t<td style=\"text-align: center;\">1,150</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Cụm Ursa Major</td>\n\t\t\t<td style=\"text-align: center;\">100</td>\n\t\t\t<td style=\"text-align: center;\">7,100</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Cụm Coma</td>\n\t\t\t<td style=\"text-align: center;\">105</td>\n\t\t\t<td style=\"text-align: center;\">7,450</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Cụm Hercules</td>\n\t\t\t<td style=\"text-align: center;\">150</td>\n\t\t\t<td style=\"text-align: center;\">10,400</td>\n\t\t</tr>\n\t</tbody>\n</table>\n(1 Mpc $\\approx 3.26$ triệu năm &aacute;nh s&aacute;ng. Nguồn: NASA/IPAC Extragalactic Database.)",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 6 - 10:",
+            "range": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ",
+            "id": "LAE17102585",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Kết luận quan trọng nhất được rút ra trực tiếp từ Định luật Hubble là gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464658\"></iframe><br />\nĐ&acirc;y ch&iacute;nh l&agrave; ph&aacute;t biểu của Định luật Hubble ($v=H_{0} \\cdot d$), cho thấy tốc độ (v) tỉ lệ thuận với khoảng c&aacute;ch (d).",
+            "contentAnswerA": "Các thiên hà đang va chạm vào nhau.",
+            "contentAnswerB": "Vũ trụ đang co lại.",
+            "contentAnswerC": "Các thiên hà càng ở xa thì di chuyển ra xa chúng ta càng nhanh.",
+            "contentAnswerD": "Tuổi của vũ trụ là vô hạn."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Dựa vào dữ liệu của Cụm thiên hà Coma, hãy tính giá trị của hằng số Hubble $H_{0}$. (Làm tròn đến số nguyên, đơn vị $(\\mathrm{km} / \\mathrm{s}) / \\mathrm{Mpc}$).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 7-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $(\\mathrm{km} / \\mathrm{s}) / \\mathrm{Mpc}$.",
+            "type": "TLN",
+            "correctAnswer": [
+                71
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464658\"></iframe><br />\nTừ $v=H_{0} \\cdot d$, suy ra $H_{0}=v / d=7450 / 105 \\approx 70.95$. L&agrave;m tr&ograve;n l&agrave; 71."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "\"Việc các thiên hà di chuyển ra xa không có nghĩa là Trái Đất là trung tâm của vũ trụ.\" là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464658\"></iframe><br />\nSự gi&atilde;n nở của vũ trụ giống như c&aacute;c chấm tr&ecirc;n bề mặt một quả b&oacute;ng bay đang được thổi phồng. Từ bất kỳ chấm n&agrave;o, ta cũng thấy c&aacute;c chấm kh&aacute;c di chuyển ra xa. Kh&ocirc;ng c&oacute; một trung t&acirc;m n&agrave;o cả.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Những suy luận nào sau đây là đúng?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464658\"></iframe><br />\n- Vũ trụ gi&atilde;n nở ngụ &yacute; n&oacute; từng nhỏ hơn trong qu&aacute; khứ (Big Bang).<br />\n- Tốc độ l&ugrave;i ra xa được đo bằng dịch chuyển đỏ.<br />\n- $1/H_{0}$ c&oacute; thứ nguy&ecirc;n l&agrave; thời gian (Thời gian Hubble).<br />\n- Đơn vị của $H_{0}$ l&agrave; (vận tốc)/(khoảng c&aacute;ch).",
+            "contentC1": "Định luật Hubble là bằng chứng quan trọng ủng hộ cho Thuyết Vụ nổ Lớn (Big Bang).",
+            "contentC2": "Các nhà thiên văn xác định tốc độ của thiên hà bằng cách đo sự dịch chuyển xanh (blueshift).",
+            "contentC3": "Nghịch đảo của hằng số Hubble ($1 / H_{0}$) cho một ước tính về tuổi của vũ trụ.",
+            "contentC4": "Hằng số Hubble ($H_{0}$) có đơn vị là $(\\mathrm{km} / \\mathrm{s})$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "(Kéo thả các phương án) Hãy ghép mỗi khái niệm với mô tả đúng nhất về nó.<br/>Các khái niệm:<br/>- 1. Dịch chuyển Đỏ: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-1\">____DRAG_DROP_1____</span><br/>- 2. Hằng số Hubble ($H_0$): <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-2\">____DRAG_DROP_2____</span><br/>- 3. Vụ nổ Lớn (Big Bang): <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-3\">____DRAG_DROP_3____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "A>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464658\"></iframe><br />\nGh&eacute;p đ&uacute;ng c&aacute;c định nghĩa cơ bản trong vũ trụ học hiện đại.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Tỉ lệ giữa tốc độ lùi ra xa và khoảng cách của một thiên hà"
+                },
+                {
+                    "id": "B>",
+                    "content": "Giả thuyết cho rằng vũ trụ bắt đầu từ một trạng thái cực kỳ nóng và đặc"
+                },
+                {
+                    "id": "C>",
+                    "content": "Hiện tượng bước sóng của ánh sáng từ một vật thể đang di chuyển ra xa bị kéo dài ra"
+                }
+            ],
+            "id": "HAE17102570"
+        },
+        {
+            "question": "1852c8bf-af7f-4a5b-9099-e47b46bab7d0",
+            "contentQuestions": "<br/><strong>Ô NHIỄM KIM LOẠI NẶNG [HAE17102570]</strong><br/>Trong những thập kỷ gần đây, vấn đề ô nhiễm kim loại nặng trong nước thải công nghiệp đang trở thành mối quan tâm hàng đầu về môi trường.<br/>Các kim loại như chì ($\\mathrm{Pb}$), cadimi ($\\mathrm{Cd}$), thủy ngân ($\\mathrm{Hg}$) khi xâm nhập vào nguồn nước có thể tích lũy trong cơ thể sinh vật qua chuỗi thức ăn, gây nên hiện tượng tích tụ sinh học.<br/>Nước thải chứa kim loại nặng gây ra nhiều hệ lụy về môi trường và sức khỏe con người:<br/>- Ô nhiễm môi trường: Các ion kim loại nặng có tính độc hại cao và không bị phân hủy tự nhiên. Khi xả thải vào môi trường, các ion này sẽ tích tụ và gây ô nhiễm cho môi trường nước, đất và không khí, làm suy giảm chất lượng môi trường sống và gây ảnh hưởng đến đời sống của các sinh vật trong môi trường.<br/>- Ảnh hưởng đến sức khỏe con người: Các ion kim loại nặng có thể gây hại cho sức khỏe con người khi tiếp xúc trực tiếp hoặc thông qua thực phẩm từ môi trường ô nhiễm.<br/>Những tác động này có thể là ung thư, các vấn đề về hệ tiêu hóa, hệ miễn dịch và hệ thần kinh. Đặc biệt, ion thủy ngân có khả năng xâm nhập vào hệ thần kinh, dẫn đến rối loạn trí nhớ, run tay hoặc suy giảm trí tuệ.<br/>- Suy giảm chất lượng nước: Khi nước bị ô nhiễm bởi các ion kim loại nặng thì sẽ không còn an toàn để sử dụng trong các hoạt động như tưới tiêu, nuôi trồng thủy sản hay cung cấp cho nhu cầu sinh hoạt của con người, gây ra nhiều bất tiện và ảnh hưởng đến đời sống.<br/>Trong xử lý nước thải, có nhiều biện pháp loại bỏ kim loại nặng, phổ biến nhất là dùng tác nhân kết tủa (như $\\mathrm{NaOH}$, $\\mathrm{Na}_{2} \\mathrm{S}$) để tạo muối hoặc sulfide không tan, sau đó tách ra khỏi nước.<br/>Ngoài ra, phương pháp trao đổi ion, phương pháp oxi hóa hóa học hoặc hấp phụ trên than hoạt tính cũng được áp dụng nhằm giảm nồng độ ion kim loại đến mức an toàn.<br/>Tuy vậy, việc kiểm soát ngay từ nguồn phát thải vẫn là biện pháp căn cơ nhất để bảo vệ môi trường và sức khỏe con người.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 11 - 15:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "type": "MQ",
+            "id": "HAE17102570",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Một mẫu nước được phát hiện là có nồng độ ion $\\mathrm{Pb}^{2+}$ vượt ngưỡng cho phép. Để xử lí loại nước thải này, có thể sử dụng dung dịch $\\mathrm{Na}_{2} \\mathrm{S}$. Phương trình hóa học của phản ứng diễn ra là:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460140\"></iframe><br />\n$\\mathrm{PbS}$ l&agrave; một kết tủa đen, tạo th&agrave;nh khi ion $\\mathrm{Pb}^{2+}$ gặp ion $\\mathrm{S}^{2-}$.",
+            "contentAnswerA": "$\\mathrm{Pb}^{2+} + 2\\mathrm{Na}^{+} \\rightarrow \\mathrm{PbNa}_{2}$",
+            "contentAnswerB": "$\\mathrm{Pb}^{2+} + \\mathrm{SO}_{4}^{2-} \\rightarrow \\mathrm{PbSO}_{4} \\downarrow$",
+            "contentAnswerC": "$\\mathrm{Pb}^{2+} + \\mathrm{S}^{2-} \\rightarrow \\mathrm{PbS} \\downarrow$",
+            "contentAnswerD": "$\\mathrm{Pb}^{2+} + 2\\mathrm{OH}^{-} \\rightarrow \\mathrm{Pb(OH)}_{2}$"
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Tác hại lớn nhất của ion $\\mathrm{Hg}^{2+}$ khi tích lũy trong cơ thể người là gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460140\"></iframe><br />\nDựa v&agrave;o ngữ liệu : &ldquo;Đặc biệt, ion thủy ng&acirc;n c&oacute; khả năng x&acirc;m nhập v&agrave;o hệ thần kinh, dẫn đến rối loạn tr&iacute; nhớ, run tay hoặc suy giảm tr&iacute; tuệ&rdquo;.",
+            "contentAnswerA": "Gây loãng xương do cạnh tranh hấp thu với $\\mathrm{Ca}^{2+}$",
+            "contentAnswerB": "Tích tụ trong mô thần kinh, gây rối loạn thần kinh và suy giảm trí nhớ",
+            "contentAnswerC": "Làm máu không thể vận chuyển oxy",
+            "contentAnswerD": "Gây thiếu máu do ức chế tạo hồng cầu"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460140\"></iframe>- C&acirc;u 1 sai, sodium kh&ocirc;ng phải l&agrave; một kim loại nặng.<br />\n- C&acirc;u 2, 3 đ&uacute;ng dựa theo th&ocirc;ng tin ngữ liệu :<br />\n-&rdquo;Nước thải chứa kim loại nặng g&acirc;y ra nhiều hệ lụy về m&ocirc;i trường v&agrave; sức khỏe con người&rdquo;.<br />\n-&rdquo; Trong xử l&yacute; nước thải, c&oacute; nhiều biện ph&aacute;p loại bỏ kim loại nặng, phổ biến nhất l&agrave; d&ugrave;ng t&aacute;c nh&acirc;n kết tủa (như NaOH, $\\mathrm{Na}_{2} \\mathrm{S}$) để tạo muối hoặc sulfide kh&ocirc;ng tan, sau đ&oacute; t&aacute;ch ra khỏi nước&rdquo;.<br />\n- C&acirc;u 4 sai, theo ngữ liệu : &ldquo;C&aacute;c ion kim loại nặng c&oacute; t&iacute;nh độc hại cao v&agrave; kh&ocirc;ng bị ph&acirc;n hủy tự nhi&ecirc;n.&rdquo;",
+            "contentYA": "Các kim loại nặng như chì, thủy ngân, sodium,... khi xâm nhập vào nguồn nước sẽ gây nhiều hệ lụy đến môi trường và con người.",
+            "contentYB": "Nước bị nhiễm kim loại nặng không thể sử dụng cho nhu cầu sinh hoạt của con người.",
+            "contentYC": "Sử dụng tác nhân kết tủa là một trong những phương pháp phổ biến nhất để xử lí kim loại nặng trong nước thải.",
+            "contentYD": "Các ion kim loại nặng nhanh chóng bị phân hủy thành các chất độc hại."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Điền một số thích hợp vào ô trống (làm tròn đến 1 chữ số thập phân):<br/>Một trong các phương pháp dùng để loại bỏ sắt trong nguồn nước nhiễm sắt là sử dụng lượng vôi tôi vừa đủ để tăng pH của nước nhằm kết tủa ion sắt khi có mặt oxygen theo sơ đồ phản ứng:<br/>(1) $\\mathrm{Fe}^{3+} + \\mathrm{OH}^{-} \\rightarrow \\mathrm{Fe(OH)}_{3}$<br/>(2) $\\mathrm{Fe}^{2+} + \\mathrm{OH}^{-} + \\mathrm{O}_{2} + \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Fe(OH)}_{3}$<br/>Một mẫu nước có hàm lượng sắt cao gấp 49 lần so với ngưỡng cho phép quy định là $0,30 mg/l$ (theo QCVN01-1:2018/BYT).<br/>Giả thiết sắt trong mẫu nước trên chỉ tồn tại ở hai dạng là $\\mathrm{Fe}^{3+}$ và $\\mathrm{Fe}^{2+}$ với tỉ lệ mol $\\mathrm{Fe}^{3+}:\\mathrm{Fe}^{2+} = 1 : 4$. Cần tối thiểu <span class=\"fill-blank\" data-blank-id=\"Câu 14-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> gam $\\mathrm{Ca(OH)}_{2}$ để kết tủa hoàn toàn lượng sắt trong $28 m^3$ mẫu nước trên.",
+            "type": "TLN",
+            "correctAnswer": [
+                598.3
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460140\"></iframe><br />\n-Quy đổi $0,3 \\ mg/l$ th&agrave;nh $0,3 \\ g/m^3$.<br />\n-Khối lượng ion sắt trong nước l&agrave;: $0,3 \\cdot 28 \\cdot 49=411,6 \\mathrm{~g}$.<br />\n-Số mol ion sắt : $\\frac{411,6}{56}=7,35 \\mathrm{~mol}$.<br />\n-Lại c&oacute; tỉ lệ mol $\\mathrm{Fe}^{3+} : \\mathrm{Fe}^{2+} = 1 : 4 \\Rightarrow n_{\\mathrm{Fe}^{3+}} = 1,47 \\mathrm{~mol}; n_{\\mathrm{Fe}^{2+}} = 5,88 \\mathrm{~mol}$.<br />\n\\-C&acirc;n bằng c&aacute;c phương tr&igrave;nh tr&ecirc;n(bảo to&agrave;n cả nguy&ecirc;n tố v&agrave; điện t&iacute;ch), ta thấy 1 ion $\\mathrm{Fe}^{3+}$ cần 3 mol ion $\\mathrm{OH}^{-}$, 1 ion $\\mathrm{Fe}^{2+}$ cần 2 mol $\\mathrm{OH}^{-}$ để kết tủa.<br />\n-Số mol $\\mathrm{OH}^{-}$ cần d&ugrave;ng : $1,47 \\cdot 3 + 5,88 \\cdot 2 = 16,17 \\mathrm{~mol}$.<br />\n-Số mol $\\mathrm{Ca(OH)}_{2}$ cần d&ugrave;ng l&agrave; : $\\frac{16,17}{2}=8,085 \\mathrm{~mol}$.<br />\n-Khối lượng $\\mathrm{Ca(OH)}_{2}$ cần d&ugrave;ng l&agrave; : $8,085 \\cdot 74=598,29 \\mathrm{~g} \\approx 598,3$"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Một trong những cách phổ biến nhất đối với các hộ gia đình khi muốn kiểm tra chất lượng nước giếng chính là sử dụng nước trà. Nếu nồng độ ion sắt quá cao, nước chè sẽ chuyển màu đen khi được rót vào cốc nước giếng. Lời giải thích nào sau đây là hợp lý nhất cho hiện tượng trên?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460140\"></iframe><br />\n(Ph&ugrave; hợp với bản chất của hiện tượng n&ecirc;u l&ecirc;n trong đề b&agrave;i).<br />\nPhương &aacute;n A kh&ocirc;ng ch&iacute;nh x&aacute;c do $\\mathrm{Fe(OH)}_{3}$ c&oacute; m&agrave;u n&acirc;u đỏ, kh&ocirc;ng phải m&agrave;u đen.<br />\nPhương &aacute;n C kh&ocirc;ng ch&iacute;nh x&aacute;c, ion sắt kh&ocirc;ng t&aacute;c dụng với acid để sinh ra kh&iacute;.",
+            "contentAnswerA": "Nước trà oxi hóa ion sắt và đứa chúng về dạng kết tủa $\\mathrm{Fe(OH)}_{3}$ màu đen.",
+            "contentAnswerB": "Các polyphenol trong trà có khả năng tạo phức chất với ion sắt, tạo ra các hợp chất màu đen.",
+            "contentAnswerC": "Nước trà có tính acid nhẹ, khi tác dụng với ion sắt tạo ra khí màu đen.",
+            "id": "LAE17102586"
+        },
+        {
+            "question": "6fa1fac9-55e9-4948-874b-630d1d6fb457",
+            "contentQuestions": "<br />\n<strong>TH&Iacute; NGHIỆM THẢ VI&Ecirc;N NAM CH&Acirc;M [LAE17102586]</strong><br />\nTh&iacute; nghiệm: Một học sinh thả một vi&ecirc;n nam ch&acirc;m đất hiếm h&igrave;nh trụ qua hai chiếc ống c&oacute; k&iacute;ch thước hệt nhau: một l&agrave;m bằng nhựa v&agrave; một l&agrave;m bằng đồng. Quan s&aacute;t: Vi&ecirc;n nam ch&acirc;m rơi xuy&ecirc;n qua ống nhựa gần như rơi tự do. Nhưng khi thả qua ống đồng, n&oacute; lại &quot;tr&ocirc;i&quot; xuống một c&aacute;ch chậm r&atilde;i đến kinh ngạc. Giả thuyết ph&acirc;n t&iacute;ch: &quot;Sự rơi chậm n&agrave;y l&agrave; do một lực h&atilde;m từ g&acirc;y ra bởi d&ograve;ng điện cảm ứng (d&ograve;ng Foucault) trong th&agrave;nh ống đồng&quot;. Theo Định luật Cảm ứng Faraday, khi nam ch&acirc;m rơi, từ th&ocirc;ng qua c&aacute;c tiết diện của ống đồng thay đổi, sinh ra d&ograve;ng điện cảm ứng. Theo Định luật Lenz, d&ograve;ng điện n&agrave;y lại sinh ra một từ trường ri&ecirc;ng c&oacute; chiều chống lại sự thay đổi từ th&ocirc;ng đ&atilde; sinh ra n&oacute;, g&acirc;y ra lực h&atilde;m. Lực h&atilde;m n&agrave;y tăng theo tốc độ, do đ&oacute; nam ch&acirc;m nhanh ch&oacute;ng đạt vận tốc tới hạn rất nhỏ. Bảng 3. Vận tốc tới hạn của nam ch&acirc;m theo độ d&agrave;y th&agrave;nh ống đồng\n<table align=\"center\" border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Độ d&agrave;y th&agrave;nh ống (d) (mm)</strong></td>\n\t\t\t<td><strong>Vận tốc tới hạn (v<sub>t</sub>) (cm/s)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1.0</td>\n\t\t\t<td>45.2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2.0</td>\n\t\t\t<td>22.5</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3.0</td>\n\t\t\t<td>15.1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4.0</td>\n\t\t\t<td>11.3</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 16 - 20:",
+            "range": [
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ",
+            "id": "LAE17102586",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Nguyên lý vật lý nào trực tiếp giải thích cho chiều của lực hãm từ?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464659\"></iframe><br />\nĐịnh luật Lenz quy định chiều của d&ograve;ng điện cảm ứng v&agrave; từ trường do n&oacute; sinh ra lu&ocirc;n c&oacute; xu hướng chống lại nguy&ecirc;n nh&acirc;n g&acirc;y ra n&oacute;.",
+            "contentAnswerA": "Định luật Cảm ứng Faraday.",
+            "contentAnswerB": "Định luật Lenz.",
+            "contentAnswerC": "Định luật Ôm.",
+            "contentAnswerD": "Lực Lorentz."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "\"Trong quá trình nam châm rơi trong ống đồng, thế năng hấp dẫn được chuyển hóa hoàn toàn thành động năng\" là đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464659\"></iframe><br />\nV&igrave; nam ch&acirc;m rơi với vận tốc kh&ocirc;ng đổi (tới hạn), động năng kh&ocirc;ng tăng. Thế năng hấp dẫn được chuyển h&oacute;a th&agrave;nh nhiệt năng (do hiệu ứng Joule-Lenz) l&agrave;m n&oacute;ng ống đồng.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Những suy luận nào sau đây là đúng về thí nghiệm này?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c3"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464659\"></iframe><br />\n- Nhựa l&agrave; chất c&aacute;ch điện, kh&ocirc;ng c&oacute; d&ograve;ng cảm ứng.<br />\n- R&atilde;nh hở l&agrave;m gi&aacute;n đoạn đường đi của d&ograve;ng Foucault.<br />\n- Nam ch&acirc;m mạnh hơn g&acirc;y ra từ th&ocirc;ng biến thi&ecirc;n lớn hơn, tạo lực h&atilde;m mạnh hơn.<br />\n- Đồng l&agrave; chất nghịch từ, hiện tượng n&agrave;y dựa v&agrave;o t&iacute;nh dẫn điện của n&oacute;.",
+            "contentC1": "Nếu ống làm bằng nhựa, nam châm sẽ rơi với gia tốc xấp xỉ bằng gia tốc trọng trường.",
+            "contentC2": "Cắt một rãnh hở dọc theo chiều dài của ống đồng sẽ làm nam châm rơi nhanh hơn.",
+            "contentC3": "Sử dụng một nam châm mạnh hơn sẽ làm nam châm rơi chậm hơn.",
+            "contentC4": "Hiện tượng này chứng tỏ đồng ($\\mathrm{Cu}$) là một vật liệu sắt từ mạnh."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Dựa vào bảng số liệu, khi độ dày thành ống tăng gấp đôi từ 2.0 mm lên 4.0 mm, vận tốc tới hạn giảm đi xấp xỉ bao nhiêu lần? (Làm tròn đến số nguyên).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 19-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> lần.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464659\"></iframe><br />\nTỉ lệ = (Vận tốc ở 2.0 mm) / (Vận tốc ở 4.0 mm) = 22.5 / 11.3 $\\approx$ 1.99.<br />\nL&agrave;m tr&ograve;n l&agrave; 2."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Hãy ghép mỗi mô tả vật lý chính xác với hiện tượng hoặc hiệu ứng cảm ứng điện từ sau.<br/>Các hiện tượng/hiệu ứng:<br/>- 1. Dòng điện Foucault: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-1\">____DRAG_DROP_1____</span><br/>- 2. Hiện tượng tự cảm: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-2\">____DRAG_DROP_2____</span><br/>- 3. Hiện tượng cảm ứng điện từ: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-3\">____DRAG_DROP_3____</span><br/>- 4. Cảm ứng điện từ động học: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-4\">____DRAG_DROP_4____</span><br/>- 5. Hiệu ứng hãm từ (magnetic braking): <span class=\"drag-drop-blank\" data-drop-id=\"Câu 20-5\">____DRAG_DROP_5____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "C>"
+                },
+                {
+                    "slot4": "D>"
+                },
+                {
+                    "slot5": "E>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464659\"></iframe><br />\n- Foucault: G&acirc;y ra c&aacute;c d&ograve;ng xo&aacute;y trong kim loại, sinh nhiệt v&agrave; lực cản.<br />\n- Tự cảm: Biểu hiện trong cuộn d&acirc;y khi d&ograve;ng điện thay đổi, tạo $E = -L \\frac{dI}{dt}$.<br />\n- Cảm ứng điện từ: L&agrave; hiện tượng tổng qu&aacute;t do từ th&ocirc;ng biến thi&ecirc;n.<br />\n- Cảm ứng động học: Li&ecirc;n quan đến chuyển động cơ học của d&acirc;y dẫn trong từ trường, $E = Blv \\sin \\theta$.<br />\n- Hiệu ứng h&atilde;m từ: L&agrave; hệ quả cơ học của d&ograve;ng Foucault - lực từ cảm ứng h&atilde;m chuyển động, ứng dụng trong phanh từ v&agrave; con lắc kim loại.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Các dòng cảm ứng khép kín trong khối kim loại gây toả nhiệt và lực hãm chuyển động trong từ trường biến thiên"
+                },
+                {
+                    "id": "B>",
+                    "content": "Suất điện động cảm ứng xuất hiện trong chính mạch khi cường độ dòng điện của nó biến đổi theo thời gian"
+                },
+                {
+                    "id": "C>",
+                    "content": "Dòng điện cảm ứng xuất hiện trong mạch kín khi từ thông qua mạch biến thiên"
+                },
+                {
+                    "id": "D>",
+                    "content": "Suất điện động cảm ứng xuất hiện do chuyển dộng của dây dẫn trong từ trường"
+                },
+                {
+                    "id": "E>",
+                    "content": "Lực cảm ứng sinh ra do dòng Foucault làm giảm tốc dộ của vật dẫn chuyển động trong từ trường"
+                }
+            ],
+            "id": "SAECK1102550"
+        },
+        {
+            "question": "ac54cf6c-cc2d-4455-8433-4e04f42d8fa6",
+            "contentQuestions": "<br/><strong>THÍ NGHIỆM QUANG HỢP [SAECK1102550]</strong><br/>Để thực hiện thí nghiệm về quá trình quang hợp ở thực vật cần chuẩn bị như sau: cành rong đuôi chó, nước, ống nghiệm, phễu thuỷ tinh, diêm. Học sinh đã tiến hành thí nghiệm được mô tả ở hình bên: đặt cốc 1 ở ngoài sáng và cốc 2 ở trong tối, với điều kiện nhiệt độ phòng ($25^{\\circ}\\mathrm{C} – 30^{\\circ}\\mathrm{C}$); quan sát bọt khí, sự thay đổi mực nước ở 2 ống nghiệm.<br/>Sau 60 phút, ống nghiệm được lấy ra khỏi phễu (đảm bảo nước và khí không bị thoát ra khỏi ống nghiệm) để kiểm tra thành phần bọt khí bằng cách đưa vào miệng mỗi ống nghiệm một que diêm còn tàn lửa và quan sát.<br/><img alt=\"A diagram of a plant in a beaker\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/ZDy1pO.png?dl=1\" data-temp-key=\"temp-image-1765865538927-p414x2ps0\" class=\"mx-auto\" style=\"\">",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 21 - 25:",
+            "range": [
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "type": "MQ",
+            "id": "SAECK1102550",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Điền từ vào ô trống.<br/>Thí nghiệm trên nhằm mục đích quan sát quá trình <span class=\"fill-blank\" data-blank-id=\"Câu 21-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> của rong đuôi chó.",
+            "type": "TLN",
+            "correctAnswer": [
+                "quang hợp"
+            ],
+            "explanation": "<br/>Dựa vào trích dẫn “Để thực hiện thí nghiệm về quá trình quang hợp ở thực vật cần chuẩn bị như sau:…” $\\rightarrow$ đây là thí nghiệm quan sát quá trình quang hợp của rong đuôi chó."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai?<br/>Khi cho que diêm vào miệng ống nghiệm ở cốc 2 thì tàn lửa sẽ bùng lên.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ở cốc 2, cây rong đuôi chó được đặt vào trong bóng tối $\\rightarrow$ cây rong không có ánh sáng để tiến hành quá trình quang hợp $\\rightarrow$ không tạo ra khí $\\mathrm{O_2} \\rightarrow$ tàn lửa sẽ không bùng lên.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Khi đưa que diêm vào miệng ống nghiệm ở cốc 1 thì tàn lửa sẽ như thế nào và tại sao?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ở ống nghiệm từ cốc 1 cây rong được đặt ngoài ánh sáng $\\rightarrow$ cây rong tiến hành quá trình quang hợp $\\rightarrow$ tạo ra khí $\\mathrm{O_2}$ -> khi cho tàn lửa vào sẽ bùng lên.<br/>\"Ở ý D, không có quá trình quang hợp sáng xảy ra ở lục lạp, ty thể và peroxisome $\\rightarrow$ sai\"",
+            "contentAnswerA": "Que diêm sẽ tắt. Vì rong ở cốc 1 xảy ra quang hợp tạo ra 1 lượng lớn khí $\\mathrm{CO_2}$ trong ống nghiệm, khi cho que diêm vào sẽ tắt ngay.",
+            "contentAnswerB": "Que diêm sẽ bùng lên. Vì rong ở cốc 1 xảy ra quang hợp tạo ra 1 lượng lớn khí $\\mathrm{O_2}$ trong ống nghiệm, khi cho que diêm vào sẽ bùng lên.",
+            "contentAnswerC": "Que diêm sẽ giữ nguyên. Vì ống nghiệm 1 ta thấy có bọt khí chứa hỗn hợp của $\\mathrm{O_2}$ và $\\mathrm{CO_2}$ nên chúng sẽ không biểu hiện rõ nét.",
+            "contentAnswerD": "Que diêm sẽ bùng lên. Vì khi có ánh sáng, cây rong sẽ tiến hành quá trình quang hợp sáng ở lục lạp, ty thể và peroxisome để tạo ra $\\mathrm{O_2}$, lượng $\\mathrm{O_2}$ này sẽ khiến que diêm bùng lửa."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Thành phần của bọt khí bay lên đó chủ yếu bao gồm các loại khí nào sau đây.",
+            "type": "MA",
+            "correctAnswer": [
+                "c1"
+            ],
+            "explanation": "<br/>Cây rong đuôi chó thực hiện quang hợp, lấy $\\mathrm{CO}_{2}$ và giải phóng $\\mathrm{O}_{2}$ dưới dạng bọt khí. Trong thí nghiệm, khi đưa que diêm còn tàn vào miệng ống, que diêm bùng lên - đó là dấu hiệu của oxy. Các đáp án khác ($\\mathrm{CO}_{2}$, $\\mathrm{H}_{2}\\mathrm{O}$ hơi, $\\mathrm{H}_{2}\\mathrm{S}$, $\\mathrm{CO}$) không phù hợp với hiện tượng quan sát được.",
+            "contentC1": "$\\mathrm{O_2}$",
+            "contentC2": "$\\mathrm{CO_2}$",
+            "contentC3": "$\\mathrm{H_2O}$",
+            "contentC4": "$\\mathrm{H_2S}$",
+            "contentC5": "$\\mathrm{CO}$"
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Nhận định dưới đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>- (1) Ở cốc ngoài sáng, rong quang hợp tạo ra bọt khí $\\mathrm{O}_{2}$; ở cốc trong tối thì không $\\rightarrow$ kết quả khác nhau.<br/>- (2) Cây trong tối không có ánh sáng nên không thể quang hợp.<br/>- (3) Nếu kéo dài thời gian, cây ở cốc có ánh sáng sống tốt hơn vì có quang hợp để tạo chất dinh dưỡng.",
+            "contentYA": "Kết quả thí nghiệm là giống nhau ở cả 2 điều kiện ánh sáng.",
+            "contentYB": "Cây đặt trong tối không xảy ra quá trình quang hợp.",
+            "contentYC": "Nếu giữ nguyên thí nghiệm và kéo dài thời gian thì sự sống sót của cây ở cốc 1 sẽ cao hơn cây ở cốc 2",
+            "id": "HAE17102575"
+        },
+        {
+            "question": "97dcacaa-8b3b-4ad0-868b-e1877b3d0b17",
+            "contentQuestions": "<br/><strong>COCAINE [HAE17102575]</strong><br/>Cocaine là một alkaloid tự nhiên được chiết xuất chủ yếu từ lá cây coca (Erythroxylum coca), vốn được trồng nhiều ở khu vực Nam Mỹ. Về mặt hóa học, cocaine là một chất có cấu trúc phức tạp, tồn tại ở dạng bột màu trắng sau khi được tinh chế. Trong lịch sử, lá coca đã được người bản địa Andes sử dụng từ hàng nghìn năm trước để nhai hoặc pha trong đồ uống, giúp giảm cảm giác mệt mỏi và đói. Tuy nhiên, khi được tinh chế thành cocaine hydrochloride, chất này trở thành một loại ma túy mạnh với khả năng tác động trực tiếp lên hệ thần kinh trung ương. Cocaine có công thức cấu tạo như sau:<br/><img alt=\"Kokain_-_Cocaine\" src=\"https://cdn.save.moe/b/P6v8KQ.png?dl=1\" data-temp-key=\"temp-image-1765865538934-40mwfib58\" class=\"mx-auto\" style=\"\"><br/>Cocaine ức chế quá trình tái hấp thu dopamine, norepinephrine và serotonin tại các synapse thần kinh, khiến nồng độ các chất dẫn truyền này trong khe synapse tăng cao. Điều này tạo ra cảm giác hưng phấn, tăng sự tỉnh táo và năng lượng. Tuy nhiên, các tác động này chỉ diễn ra trong thời gian ngắn, sau đó người sử dụng thường rơi vào trạng thái lo âu, mệt mỏi hoặc trầm cảm.<br/>Việc lạm dụng cocaine lâu dài có thể dẫn tới tổn thương tim mạch, rối loạn thần kinh và nguy cơ nghiện rất cao.<br/>Ngoài dạng bột để hít, cocaine còn có thể được chuyển thành dạng “crack” – một tinh thể có thể hút bằng cách đốt cháy. Crack có tác động nhanh và mạnh hơn, đồng thời nguy cơ gây nghiện và tổn hại sức khỏe cũng cao hơn nhiều. Tổ chức Y tế Thế giới (WHO) và Liên Hợp Quốc xếp cocaine vào nhóm chất gây nghiện nguy hiểm, bị kiểm soát nghiêm ngặt trên toàn cầu. Dù vậy, thị trường bất hợp pháp của cocaine vẫn tồn tại và mang lại lợi nhuận khổng lồ cho các tổ chức tội phạm xuyên quốc gia, trở thành một trong những thách thức lớn về y tế và an ninh.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 26 - 30:",
+            "range": [
+                26,
+                27,
+                28,
+                29,
+                30
+            ],
+            "type": "MQ",
+            "id": "HAE17102575",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Điền một từ còn thiếu vào ô trống sau:<br/>Cocaine tạo cảm giác <span class=\"fill-blank\" data-blank-id=\"Câu 26-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> do nó ức chế quá trình tái hấp thu dopamine tại các synapse thần kinh, khiến nồng độ chất này trong khe synapse tăng cao.",
+            "type": "TLN",
+            "correctAnswer": [
+                "hưng phấn"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460145\"></iframe><br />\nDựa v&agrave;o ngữ liệu: &ldquo;Cocaine ức chế qu&aacute; tr&igrave;nh t&aacute;i hấp thu dopamine, norepinephrine v&agrave; serotonin tại c&aacute;c synapse thần kinh, khiến nồng độ c&aacute;c chất dẫn truyền n&agrave;y trong khe synapse tăng cao. Điều n&agrave;y tạo ra cảm gi&aacute;c hưng phấn, tăng sự tỉnh t&aacute;o v&agrave; năng lượng&rdquo;."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các nhận định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460145\"></iframe><br />\n- C&acirc;u 1 đ&uacute;ng, theo ngữ liệu : Cocaine l&agrave; một alkaloid tự nhi&ecirc;n được chiết xuất chủ yếu từ l&aacute; c&acirc;y coca (Erythroxylum coca), vốn được trồng nhiều ở khu vực Nam Mỹ.<br />\n- C&acirc;u 2 sai, theo ngữ liệu : &ldquo;cocaine l&agrave; một chất c&oacute; cấu tr&uacute;c phức tạp, tồn tại ở dạng bột m&agrave;u trắng sau khi được tinh chế&rdquo;.<br />\n- C&acirc;u 3 sai, Cocaine c&oacute; c&ocirc;ng thức h&oacute;a học l&agrave; $\\mathrm{C}_{17} \\mathrm{H}_{21} \\mathrm{NO}_{4}$.<br />\n- C&acirc;u 4 đ&uacute;ng dựa v&agrave;o ngữ liệu : &ldquo;Tổ chức Y tế Thế giới (WHO) v&agrave; Li&ecirc;n Hợp Quốc xếp cocaine v&agrave;o nh&oacute;m chất g&acirc;y nghiện nguy hiểm, bị kiểm so&aacute;t nghi&ecirc;m ngặt tr&ecirc;n to&agrave;n cầu. D&ugrave; vậy, thị trường bất hợp ph&aacute;p của cocaine vẫn tồn tại v&agrave; mang lại lợi nhuận khổng lồ cho c&aacute;c tổ chức tội phạm xuy&ecirc;n quốc gia, trở th&agrave;nh một trong những th&aacute;ch thức lớn về y tế v&agrave; an ninh&rdquo;.",
+            "contentYA": "Cocaine là một alkaloid tự nhiên có nguồn gốc từ thực vật.",
+            "contentYB": "Sau khi tinh chế, cocaine tồn tại ở dạng chất lỏng nhớt màu trắng đục, không có vị và mùi thơm nồng.",
+            "contentYC": "Cocaine có công thức hóa học là $\\mathrm{C}_{17} \\mathrm{H}_{23} \\mathrm{NO}_{4}$.",
+            "contentYD": "Cocaine được xếp vào loại nhóm chất gây nghiện nguy hiểm, tuy nhiên thị trường bất hợp pháp của nó vẫn hoành hành, đòi hỏi mỗi người phải cảnh giác cao độ để bảo vệ bản thân."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Vì sao dạng cocaine hydrochloride lại có khả năng tác động mạnh đến hệ thần kinh trung ương hơn cocaine?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460145\"></iframe><br />\nDạng muối của cocaine dễ tan trong nước hơn, qua đ&oacute; ổn định hơn v&agrave; dễ được cơ thể hấp thụ.",
+            "contentAnswerA": "Vì khi ở dạng muối hydrochloride, cocaine tan tốt trong nước, dễ hấp thu vào máu và nhanh chóng qua hàng rào máu–não.",
+            "contentAnswerB": "Vì cocaine hydrochloride không thể hòa tan trong máu, nên tích tụ ở các mô thần kinh, làm tăng khả năng ức chế dopamine tại các synapse.",
+            "contentAnswerC": "Vì nó cắt đứt hoàn toàn hoạt động của các chất dẫn truyền thần kinh, làm não ngừng hoạt động và ta có cảm giác hưng phấn."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Chọn tất cả các phương án đúng: Cocaine có khả năng phản ứng với các chất nào dưới đây?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c3",
+                "c5"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460145\"></iframe><br />\n- Dung dịch NaOH(thủy ph&acirc;n chức ester)<br />\n- Dung dịch $\\mathrm{H}_{2} \\mathrm{SO}_{4}$(t&aacute;c dụng với nh&oacute;m amine, thủy ph&acirc;n chức ester)<br />\n- $\\mathrm{H}_{2} / \\mathrm{Ni} / \\mathrm{t}^{\\circ}$(cộng hydrogen v&agrave;o v&ograve;ng benzene)",
+            "contentC1": "Dung dịch $\\mathrm{NaOH}$",
+            "contentC2": "$\\mathrm{Br}_{2} / \\mathrm{H}_{2} \\mathrm{O}$",
+            "contentC3": "Dung dịch $\\mathrm{H}_{2} \\mathrm{SO}_{4}$",
+            "contentC4": "$\\mathrm{AgNO}_{3} / \\mathrm{NH}_{3}$",
+            "contentC5": "$\\mathrm{H}_{2} / \\mathrm{Ni} / \\mathrm{t}^{\\circ}$"
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Điền một số thích hợp vào ô trống sau:<br/>Thủy phân cocaine trong môi trường acid, thu được một acid thơm, một alcohol đơn giản nhất và một muối của một hợp chất phức tạp A.<br/>- Acid thơm tạo ra có phân tử khối là <span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/>- Alcohol tạo ra có phân tử khối là <span class=\"fill-blank\" data-blank-id=\"Câu 30-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.<br/>- Hợp chất A có phân tử khối là <span class=\"fill-blank\" data-blank-id=\"Câu 30-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        122
+                    ]
+                },
+                {
+                    "2.": [
+                        32
+                    ]
+                },
+                {
+                    "3.": [
+                        185
+                    ]
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460145\"></iframe><br />\nThủy ph&acirc;n cocaine, thu được methyl alcohol, benzoic acid v&agrave; ecgonine( chất A, c&ocirc;ng thức ph&acirc;n tử $\\mathrm{C}_{9} \\mathrm{H}_{15} \\mathrm{NO}_{3}$).<br />\nC&aacute;c số cần điền v&agrave;o &ocirc; trống l&agrave;: 122/32/185.",
+            "id": "LAE17102587"
+        },
+        {
+            "question": "a6a83ef4-3dd7-4367-8831-b9374b5f2621",
+            "contentQuestions": "<br />\n<strong>TH&Iacute; NGHIỆM GIAO THOA QUA HAI KHE CỦA YOUNG [LAE17102587]</strong><br />\nTh&iacute; nghiệm giao thoa qua hai khe của Young l&agrave; một bằng chứng kinh điển cho bản chất s&oacute;ng của &aacute;nh s&aacute;ng. Th&iacute; nghiệm: Một ch&ugrave;m s&aacute;ng đơn sắc (laser) c&oacute; bước s&oacute;ng $\\lambda$ được chiếu tới một m&agrave;n chắn c&oacute; hai khe hẹp song song, c&aacute;ch nhau một khoảng $a$. Tr&ecirc;n m&agrave;n quan s&aacute;t đặt c&aacute;ch hai khe một khoảng $D$, người ta thu được một hệ c&aacute;c vạch s&aacute;ng v&agrave; tối xen kẽ. Giả thuyết C&ocirc;ng thức: &quot;C&aacute;c v&acirc;n s&aacute;ng xuất hiện tại những điểm m&agrave; hai s&oacute;ng &aacute;nh s&aacute;ng tăng cường lẫn nhau. Khoảng c&aacute;ch giữa hai v&acirc;n s&aacute;ng li&ecirc;n tiếp, gọi l&agrave; khoảng v&acirc;n ($i$), được t&iacute;nh bằng c&ocirc;ng thức: $i=\\frac{\\lambda D}{a}$.&quot;\n<table align=\"center\" class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\"><strong>Th&ocirc;ng số</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>Gi&aacute; trị</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Khoảng c&aacute;ch giữa hai khe (a)</td>\n\t\t\t<td style=\"text-align: center;\">0.5 mm</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Khoảng c&aacute;ch từ khe đến m&agrave;n (D)</td>\n\t\t\t<td style=\"text-align: center;\">2.0 m</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Khoảng c&aacute;ch giữa 5 v&acirc;n s&aacute;ng li&ecirc;n tiếp</td>\n\t\t\t<td style=\"text-align: center;\">10.4 mm</td>\n\t\t</tr>\n\t</tbody>\n</table>\n(Nguồn: Dựa tr&ecirc;n th&iacute; nghiệm chuẩn trong chương tr&igrave;nh Vật l&yacute; THPT.)",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 31 - 35:",
+            "range": [
+                31,
+                32,
+                33,
+                34,
+                35
+            ],
+            "type": "MQ",
+            "id": "LAE17102587",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Vân sáng trung tâm xuất hiện tại vị trí chính giữa màn quan sát là do tại đó:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464660\"></iframe><br />\nV&acirc;n s&aacute;ng trung t&acirc;m l&agrave; nơi hai s&oacute;ng &aacute;nh s&aacute;ng tăng cường cực đại.<br />\nĐiều n&agrave;y xảy ra khi khoảng c&aacute;ch từ hai khe tới điểm đ&oacute; bằng nhau, tức hiệu đường đi bằng 0.",
+            "contentAnswerA": "Hiệu đường đi của hai sóng bằng một nửa bước sóng.",
+            "contentAnswerB": "Hai sóng ánh sáng tới hoàn toàn ngược pha.",
+            "contentAnswerC": "Hiệu đường đi của hai sóng từ hai khe tới đó bằng không.",
+            "contentAnswerD": "Hai sóng ánh sáng bị triệt tiêu lẫn nhau."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Dựa vào dữ liệu thí nghiệm, hãy tính khoảng vân i. (Đơn vị mm, làm tròn 1 chữ số thập phân).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 32-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> mm.",
+            "type": "TLN",
+            "correctAnswer": [
+                2.6
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464660\"></iframe><br />\nKhoảng c&aacute;ch giữa 5 v&acirc;n s&aacute;ng li&ecirc;n tiếp l&agrave; 4 khoảng v&acirc;n ($4i$).<br />\nVậy $i = 10.4 \\mathrm{~mm} / 4 = 2.6 \\mathrm{~mm}$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "\"Thí nghiệm này chứng tỏ ánh sáng có bản chất hạt (photon).\"",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464660\"></iframe><br />\nHiện tượng giao thoa l&agrave; một đặc t&iacute;nh điển h&igrave;nh của s&oacute;ng. Th&iacute; nghiệm n&agrave;y l&agrave; bằng chứng mạnh mẽ cho bản chất s&oacute;ng của &aacute;nh s&aacute;ng.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Những thay đổi nào sau đây sẽ làm tăng khoảng vân $i$?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c3"
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464660\"></iframe><br />\n- Theo c&ocirc;ng thức $i=\\frac{\\lambda D}{a}$, khoảng v&acirc;n $i$ tỉ lệ thuận với $D$ v&agrave; $\\lambda$, tỉ lệ nghịch với $a$.<br />\n- Khi v&agrave;o nước, bước s&oacute;ng giảm ($\\lambda&#39; = \\frac{\\lambda}{n}$), n&ecirc;n khoảng v&acirc;n giảm.",
+            "contentC1": "Tăng khoảng cách giữa hai khe ($a$).",
+            "contentC2": "Tăng khoảng cách từ khe đến màn ($D$).",
+            "contentC3": "Sử dụng ánh sáng có bước sóng ($\\lambda$) lớn hơn (ví dụ: thay màu tím bằng màu đỏ).",
+            "contentC4": "Thực hiện thí nghiệm trong nước (có chiết suất lớn hơn không khí)."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Trong thí nghiệm giao thoa ánh sáng với hai khe Young, khi tăng đồng thời bước sóng của ánh sáng và khoảng cách giữa hai khe lên gấp đôi, còn khoảng cách đến màn D giữ nguyên, thì khoảng vân giao thoa $i$ sẽ thay đổi như thế nào?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/464660\"></iframe><br />\nPh&acirc;n t&iacute;ch: C&ocirc;ng thức khoảng v&acirc;n giao thoa: $i=\\frac{\\lambda D}{a}$.<br />\nKhi $\\lambda&#39; = 2\\lambda$ v&agrave; $a&#39; = 2a$, ta c&oacute;: $i&#39; = \\frac{(2\\lambda) D}{(2a)} = \\frac{\\lambda D}{a} = i$<br />\nV&igrave; $\\lambda$ v&agrave; $a$ c&ugrave;ng tăng theo c&ugrave;ng tỉ lệ, n&ecirc;n khoảng v&acirc;n kh&ocirc;ng đổi. Tuy nhi&ecirc;n, m&agrave;u sắc v&agrave; vị tr&iacute; c&aacute;c v&acirc;n s&aacute;ng c&oacute; thể thay đổi nếu &aacute;nh s&aacute;ng kh&ocirc;ng đơn sắc.",
+            "contentAnswerA": "Tăng gấp đôi.",
+            "contentAnswerB": "Giảm một nửa.",
+            "contentAnswerC": "Không đổi.",
+            "contentAnswerD": "Giữ nguyên giá trị $\\frac{\\lambda}{a}$ nhưng thay đổi vị trí vân sáng trung tâm.",
+            "id": "HAE17102576"
+        },
+        {
+            "question": "0314b7d6-360f-4895-96ce-ee7433068528",
+            "contentQuestions": "<br/><strong>SỮA CHUA [HAE17102576]</strong><br/>Sữa chua là một sản phẩm lên men từ sữa, có lịch sử hàng nghìn năm và phổ biến trên toàn thế giới. Quá trình sản xuất sữa chua dựa trên hoạt động của các vi khuẩn lactic, tiêu biểu là Lactobacillus bulgaricus và Streptococcus thermophilus. Khi được bổ sung vào sữa, các vi khuẩn này chuyển hóa lactose (đường sữa) thành acid lactic có vị chua. Protein sữa sẽ bị đông tụ lại và vị chua sẽ xuất hiện nhờ lactic acid.<br/><img alt=\"A chemical formula of a molecule\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/gfyNX1j.png?dl=1\" data-temp-key=\"temp-image-1765865538945-2s84ymps0\" class=\"mx-auto\" style=\"\"><br/>Không chỉ là thực phẩm giàu dinh dưỡng với hàm lượng protein, canxi, vitamin B2 và B12, sữa chua còn được xem là một nguồn probiotic quan trọng. Các vi khuẩn có lợi trong sữa chua giúp cân bằng hệ vi sinh đường ruột, hỗ trợ tiêu hóa, tăng cường miễn dịch và có thể làm giảm nguy cơ mắc một số bệnh về đường ruột. Một số nghiên cứu còn cho thấy việc tiêu thụ sữa chua đều đặn có liên quan đến việc giảm nguy cơ thừa cân và cải thiện sức khỏe tim mạch.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 36 - 40:",
+            "range": [
+                36,
+                37,
+                38,
+                39,
+                40
+            ],
+            "type": "MQ",
+            "id": "HAE17102576",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Chọn ĐÚNG hoặc SAI cho các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460146\"></iframe><br />\n- C&acirc;u 1 sai, sữa chua được l&agrave;m bằng c&aacute;c bổ sung c&aacute;c vi khuẩn lactic v&agrave;o sữa.<br />\n- C&acirc;u 2 sai, lactose được cấu tạo bởi 2 th&agrave;nh phần đường đơn l&agrave; glucose v&agrave; galactose, n&ecirc;n n&oacute; thuộc loại disaccharide.<br />\n- C&acirc;u 3 đ&uacute;ng, trong m&ocirc;i trường acid, protein trong sữa bị đ&ocirc;ng tụ lại v&agrave; tạo ra kết cấu đặc s&aacute;nh của sữa chua.<br />\n- C&acirc;u 4 đ&uacute;ng dựa v&agrave;o ngữ liệu : &ldquo;Kh&ocirc;ng chỉ l&agrave; thực phẩm gi&agrave;u dinh dưỡng với h&agrave;m lượng protein, canxi, vitamin B2 v&agrave; B12, sữa chua c&ograve;n được xem l&agrave; một nguồn probiotic quan trọng. C&aacute;c vi khuẩn c&oacute; lợi trong sữa chua gi&uacute;p c&acirc;n bằng hệ vi sinh đường ruột, hỗ trợ ti&ecirc;u h&oacute;a, tăng cường miễn dịch v&agrave; c&oacute; thể l&agrave;m giảm nguy cơ mắc một số bệnh về đường ruột&rdquo;.",
+            "contentYA": "Sữa chua được sản xuất bằng cách bổ sung lactic acid vào sữa.",
+            "contentYB": "Lactose là một polysaccharide.",
+            "contentYC": "Do sự hiện diện của lactic acid, protein trong sữa đông tụ lại và tạo ra kết cấu sánh mịn của sữa chua.",
+            "contentYD": "Sữa chua là một nguồn lợi khuẩn quan trọng và là loại thực phẩm giàu dinh dưỡng."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Ủ sữa chua là quá trình tạo nhiệt độ và môi trường thích hợp để các vi khuẩn chuyển đổi đường sữa thành lactic acid. Phát biểu nào dưới đây là đúng về cách ủ sữa chua?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460146\"></iframe><br />\nCần hiểu rằng qu&aacute; tr&igrave;nh ủ sữa chua li&ecirc;n quan đến hoạt động của c&aacute;c vi khuẩn. Nhiệt độ qu&aacute; cao l&agrave;m c&aacute;c vi khuẩn chết, c&ograve;n qu&aacute; thấp sẽ l&agrave;m ch&uacute;ng kh&ocirc;ng thể hoạt động được.<br />\nCần ủ trong thời gian vừa phải, nếu ủ qu&aacute; l&acirc;u sẽ tạo ra nhiều lactic acid, g&acirc;y vị chua mạnh, kh&ocirc;ng những l&agrave;m mất vị ngon của sữa chua m&agrave; c&ograve;n g&acirc;y hai đến đường ruột do pH thấp.",
+            "contentAnswerA": "Cần ủ ở nhiệt độ thật cao và trong thời gian thật dài để tạo ra nhiều lactic acid.",
+            "contentAnswerB": "Cần ủ ở nhiệt độ ấm và trong thời gian thật dài để các vi khuẩn hoạt động tốt nhất, tạo ra nhiều lactic acid.",
+            "contentAnswerC": "Cần ủ ở nhiệt độ ấm và trong thời gian vừa phải, để chuyển đổi đủ lactic acid cũng như giữ được vị ngọt của đường.",
+            "contentAnswerD": "Cần ủ sữa chua trong ngăn đá tủ lạnh để tạo điều kiện tốt cho sữa chua đông tụ lại."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Điền một số thích hợp vào ô trống sau:<br/>Phân tử khối của Lactose là <span class=\"fill-blank\" data-blank-id=\"Câu 38-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                342
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460146\"></iframe><br />\n-Lactose c&oacute; c&ocirc;ng thức ph&acirc;n tử l&agrave; $\\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11} \\Rightarrow M=342$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Khi nghiên cứu về Lactic acid, một nhóm sinh viên đã tìm ra được những thông tin sau đây:<br/>- 1 mol lactic acid tác dụng tối đa với 2 mol $\\mathrm{Na}$, 1 mol $\\mathrm{NaHCO_3}$.<br/>- Định lượng nguyên tố trong lactic acid, thu được công thức phân tử của chất này là $\\mathrm{C_3H_6O_3}$, phân tử chứa một nhóm methyl qua phân tích phổ $^\\mathrm{1}\\!{\\mathrm{H-NMR}}$.<br/>Công thức cấu tạo nào sau đây phù hợp nhất với lactic acid?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460146\"></iframe><br />\nX&eacute;t c&aacute;c cấu tr&uacute;c tr&ecirc;n ta thấy:<br />\n- Cấu tr&uacute;c A v&agrave; C thỏa m&atilde;n điều kiện 1.<br />\n- Cấu tr&uacute;c B, C, D thỏa m&atilde;n điều kiện 2.<br />\n$\\Rightarrow$ Cấu tr&uacute;c C thỏa m&atilde;n cả 2 điều kiện.",
+            "contentAnswerA": "<img alt=\"3-Hydroxypropionic-acid-2D-skeletal\" src=\"https://cdn.save.moe/b/wYXXaZ.png?dl=1\" data-temp-key=\"temp-image-1765865538946-dupngupcx\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerB": "<img alt=\"A structure of a chemical compound\n\nAI-generated content may be incorrect.\" src=\"https://cdn.save.moe/b/uaas7lx.png?dl=1\" data-temp-key=\"temp-image-1765865538946-lx4waahup\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerC": "<img alt=\"Lactic-acid-skeletal\" src=\"https://cdn.save.moe/b/CFDr4Lq.png?dl=1\" data-temp-key=\"temp-image-1765865538946-98jlfma8j\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerD": "<img alt=\"Brenztraubensäure\" src=\"https://cdn.save.moe/b/jXe6K.png?dl=1\" data-temp-key=\"temp-image-1765865538947-htjrarhy6\" class=\"mx-auto\" style=\"\">"
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Kéo thả các từ sau vào ô trống thích hợp:<br/>Những người mắc hội chứng bất dung nạp lactose có thể tiêu hóa sữa chua tốt hơn sữa tươi do khác với sữa tươi, phần lớn lượng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-1\">____DRAG_DROP_1____</span> đã được các <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-2\">____DRAG_DROP_2____</span> biến đổi thành <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-3\">____DRAG_DROP_3____</span> cùng với các đường đơn như glucose hay galactose. Hơn nữa, sữa chua còn giúp bổ sung các <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-4\">____DRAG_DROP_4____</span> có lợi cho đường ruột và tiêu hóa.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "D>"
+                },
+                {
+                    "slot4": "B>"
+                }
+            ],
+            "explanation": "<iframe frameborder=\"0\" scrolling=\"no\" src=\"https://file.edubit.vn/embed/460146\"></iframe><br />\nSự tạo th&agrave;nh lactic acid l&agrave; do c&aacute;c vi khuẩn lactic biến đổi lactose. Sữa chua cũng cung cấp lợi khuẩn cho cơ thể, gi&uacute;p &iacute;ch cho ti&ecirc;u h&oacute;a. Ch&iacute;nh v&igrave; vậy, sữa chua gi&uacute;p những người bất dung nạp lactose ti&ecirc;u h&oacute;a tốt hơn do lactose đ&atilde; được ph&acirc;n giải bớt.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Lactose"
+                },
+                {
+                    "id": "B>",
+                    "content": "Lợi khuẩn"
+                },
+                {
+                    "id": "C>",
+                    "content": "Vi khuẩn lactic"
+                },
+                {
+                    "id": "D>",
+                    "content": "Lactic acid"
+                }
+            ]
+        }
+    ],
+    "subject": "TƯ DUY KHOA HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2025-11-06T17:34:13.392Z",
+    "updatedAt": "2026-02-22T17:03:16.690Z",
+    "__v": 0
+}

@@ -1,0 +1,1893 @@
+{
+    "_id": "698eedae122c65b6a4c7ad7c",
+    "title": "[AECK]-Tư Duy Toán Học-Đề 18",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "D",
+        "Câu 2": "B",
+        "Câu 3": "B",
+        "Câu 4": "B",
+        "Câu 5": "D",
+        "Câu 6": "C",
+        "Câu 7": "A",
+        "Câu 8": "D",
+        "Câu 9": [
+            10
+        ],
+        "Câu 10": [
+            25.2
+        ],
+        "Câu 11": [
+            -1
+        ],
+        "Câu 12": [
+            18
+        ],
+        "Câu 13": "A",
+        "Câu 14": [
+            2024
+        ],
+        "Câu 15": "C",
+        "Câu 16": "A",
+        "Câu 17": "A",
+        "Câu 18": "B",
+        "Câu 19": "A",
+        "Câu 20": "B",
+        "Câu 21": [
+            4
+        ],
+        "Câu 22": "C",
+        "Câu 23": "B",
+        "Câu 24": "D",
+        "Câu 25": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 26": "C",
+        "Câu 27": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 28": "C",
+        "Câu 29": [
+            6
+        ],
+        "Câu 30": [
+            67
+        ],
+        "Câu 31": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 32": [
+            527
+        ],
+        "Câu 33": [
+            12.6
+        ],
+        "Câu 34": [
+            60
+        ],
+        "Câu 35": "A",
+        "Câu 36": [
+            2100112
+        ],
+        "Câu 37": [
+            119
+        ],
+        "Câu 38": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 39": "D",
+        "Câu 40": [
+            3737
+        ]
+    },
+    "startTime": "2026-01-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "T&igrave;m chu k&igrave; $T$ của h&agrave;m số $y=\\tan 3 \\pi x$.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br />\nH&agrave;m số $y=\\tan (a x+b)$ tuần ho&agrave;n với chu k&igrave; $T=\\frac{\\pi}{|a|}$.<br />\n&Aacute;p dụng: H&agrave;m số $y=\\tan 3 \\pi x$ tuần ho&agrave;n với chu k&igrave; $T=\\frac{1}{3}$.",
+            "contentAnswerA": "$T=\\frac{\\pi}{3}$.",
+            "contentAnswerB": "$T=\\frac{4}{3}$.",
+            "contentAnswerC": "$T=\\frac{2 \\pi}{3}$.",
+            "contentAnswerD": "$T=\\frac{1}{3}$."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho cấp số cộng $\\left(u_{n}\\right)$ thỏa mãn $\\left\\{\\begin{array}{l}u_{4}=10 \\\\ u_{4}+u_{6}=26\\end{array}\\right.$ có công sai là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Gọi $d$ là công sai.<br/>Ta có: $\\left\\{\\begin{array}{l}u_{4}=10 \\\\ u_{4}+u_{6}=26\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}+3 d=10 \\\\ 2 u_{1}+8 d=26\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}=1 \\\\ d=3\\end{array}\\right.\\right.\\right.$.<br/>Vậy công sai $d=3$.",
+            "contentAnswerA": "$d=-3$.",
+            "contentAnswerB": "$d=3$.",
+            "contentAnswerC": "$d=5$.",
+            "contentAnswerD": "$d=6$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho $\\log _{2} a=5, \\log _{2} b=7 ; a, b>0$. Giá trị của $\\log _{2}\\left(a^{2} b^{3}\\right)$ bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có: $\\log _{2}\\left(a^{2} b^{3}\\right)=\\log _{2} a^{2}+\\log _{2} b^{3}=2 \\log _{2} a+3 \\log _{2} b=2.5+3.7=31$.",
+            "contentAnswerA": "12.",
+            "contentAnswerB": "31.",
+            "contentAnswerC": "35.",
+            "contentAnswerD": "13."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Cho hai biến cố $A$ và $B$ độc lập với nhau. Biết $P(A)=0,45$ và $P(A \\cup B)=0,725$. Tính xác suất của biến cố $B$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>$P(A \\cup B)=P(A)+P(B)-P(A B) \\Leftrightarrow 0,725=0,45+P(B)-0,45 P(B) \\Rightarrow P(B) = 0,5$.",
+            "contentAnswerA": "0,6.",
+            "contentAnswerB": "0,5.",
+            "contentAnswerC": "0,45.",
+            "contentAnswerD": "0,65."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Cho h&agrave;m số $y=f(x)$ l&agrave; h&agrave;m đa thức, c&oacute; bảng biến thi&ecirc;n $f^{\\prime}(x)$ như sau:<br />\n<img alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302433-rs16xodqq\" src=\"https://cdn.save.moe/b/KWTzX1g.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /><br />\nSố điểm cực trị của h&agrave;m số đ&atilde; cho l&agrave;:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br />\nDựa v&agrave;o bảng biến thi&ecirc;n của $f^{\\prime}(x)$ ta c&oacute;: $f^{\\prime}(x)=0$ c&oacute; hai nghiệm ph&acirc;n biệt.<br />\nH&agrave;m số đ&atilde; cho c&oacute; 2 điểm cực trị.",
+            "contentAnswerA": "1.",
+            "contentAnswerB": "0.",
+            "contentAnswerC": "3.",
+            "contentAnswerD": "2."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Nguyên hàm của $f(x)=\\sin 2 x \\cdot e^{\\sin ^{2} x}$ là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có $\\int \\sin 2 x . e^{\\sin ^{2} x} d x=\\int e^{\\sin ^{2} x} d\\left(\\sin ^{2} x\\right)=e^{\\sin ^{2} x}+C$.",
+            "contentAnswerA": "$\\sin ^{2} x \\cdot e^{\\sin ^{2} x-1}+C$.",
+            "contentAnswerB": "$\\frac{e^{\\sin ^{2} x+1}}{\\sin ^{2} x+1}+C$.",
+            "contentAnswerC": "$e^{\\sin ^{2} x}+C$.",
+            "contentAnswerD": "$\\frac{e^{\\sin ^{2} x-1}}{\\sin ^{2} x-1}+C$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Trong không gian với hệ trục tọa độ $O x y z$ cho $M(4 ; 5 ; 6)$. Hình chiếu của $M$ xuống mặt phẳng $(O x y)$ là $M^{\\prime}$. Xác định tọa độ $M^{\\prime}$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Hình chiếu của $M(4 ; 5 ; 6)$ xuống mặt phẳng $(O x y)$ là $M^{\\prime}(4 ; 5 ; 0)$.",
+            "contentAnswerA": "$M^{\\prime}(4 ; 5 ; 0)$.",
+            "contentAnswerB": "$M^{\\prime}(4 ; 0 ; 6)$.",
+            "contentAnswerC": "$M^{\\prime}(4 ; 0 ; 0)$.",
+            "contentAnswerD": "$M^{\\prime}(0 ; 5 ; 6)$."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Thể tích khối chóp cụt đều có diện tích đáy lớn là $S$, diện tích đáy nhỏ là $S^{\\prime}$ và chiều cao $h$ là",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Thể tích khối chóp cụt đều có diện tích đáy lớn là $S$, diện tích đáy nhỏ là $S^{\\prime}$ và chiều cao $h$ có công thức tính là: $V=\\frac{1}{3} h\\left(S+S^{\\prime}+\\sqrt{S . S^{\\prime}}\\right)$.",
+            "contentAnswerA": "$V=\\frac{1}{2} h\\left(S+S^{\\prime}+\\sqrt{S \\cdot S^{\\prime}}\\right)$.",
+            "contentAnswerB": "$V=3 h\\left(S+S^{\\prime}+\\sqrt{S . S^{\\prime}}\\right)$.",
+            "contentAnswerC": "$V=h\\left(S+S^{\\prime}+\\sqrt{S . S^{\\prime}}\\right)$.",
+            "contentAnswerD": "$V=\\frac{1}{3} h\\left(S+S^{\\prime}+\\sqrt{S . S^{\\prime}}\\right)$."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Để làm một khung lồng đèn kéo quân hình lăng trụ lục giác $A B C D E F A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime} E^{\\prime} F^{\\prime}$, Bình gắn hai thanh tre $A_{1} D_{1}, F_{1} C_{1}$ song song với mặt phẳng đáy và cắt nhau tại $O_{1}$. Cho biết $A^{\\prime} A_{1}=6 A A_{1}$ và $A A^{\\prime}=70({cm})$. Độ dài của $C C_{1}$ là?<br/><img src=\"https://cdn.save.moe/b/ZkDk5.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302436-mv9p1biv0\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 9-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                10
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/0ABaxf.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302441-k9oudg3au\" class=\"mx-auto\" style=\"\"><br/>Do mặt phẳng $( A_{1} C_{1} D_{1} F_{1} )$ chứa hai đường thẳng cắt nhau $A_{1} D_{1}$ và $C_{1} F_{1}$ và cùng song song với mặt phẳng $( A B C D E F )$.<br/>Nên $(A{1} C_{1} D_{1} F_{1}) / /(A B C D E F)$.<br/>Ta có: $A^{\\prime} A_{1}=6 A A_{1} ; A A^{\\prime}=70$ nên $7 A A_{1} = 70 \\Rightarrow A A_{1}=10$.<br/>Do $(A C C^{\\prime} A^{\\prime})$ cắt hai mặt phẳng $(A_{1} C_{1} D_{1} F_{1}) / /(A B C D E F)$ lần lượt tại $A_{1} C_{1}$ và $A C$ nên $A_{1} C_{1} / / A C$.<br/>Mà $A A_{1} / / C C_{1}$ nên tứ giác $A A_{1} C_{1} C$ là hình bình hành.<br/>Suy ra $C C_{1}=A A_{1}=10$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Một tài xế đang lái xe ô tô trên đoạn đường có giới hạn tốc độ tối đa cho phép là $80 {km} / {h}$, ngay khi phát hiện có vật cản phía trước đã phanh gấp lại nhưng vẫn xảy ra va chạm (do lái xe chạy quá tốc độ cho phép). Chiếc ô tô để lại vết trượt dài $30,1 {m}$ (được tính từ lúc bắt đầu đạp phanh đến khi xảy ra va chạm). Trong quá trình đạp phanh, ô tô chuyển động theo phương trình $s(t)=25 t-\\frac{5}{2} t^{2}, s(t)$ có đơn vị mét là độ dài quãng đường đi được tại thời điểm $t$ giây sau khi phanh $(0 \\leq t \\leq 5)$. Gọi $v_{0}({km} / {h})$ là vận tốc tức thời của ô tô ngay khi đạp phanh và $v_{1}({km} / {h})$ là vận tốc tức thời của ô tô ngay khi xảy ra va chạm. Giá trị $\\left(v_{0}-v_{1}\\right)({km} / {h})$ bằng bao nhiêu?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                25.2
+            ],
+            "explanation": "<br/>Vận tốc tức thời của ô tô tại thời điểm $t(s): v(t)=s^{\\prime}(t)=25-5 t, 0 \\leq t \\leq 5$.<br/>Vận tốc tức thời của ô tô tại thời điểm ngay khi đạp phanh là: $v_{0}=s^{\\prime}(0)=25 {m} / {s}=90 {km} / {h}$.<br/>Khi xảy ra va chạm, ô tô đi được quãng đường $30,1 {m}$ kể từ khi đạp phanh nên ta có: $25 t-\\frac{5}{2} t^{2}=30,1 \\Leftrightarrow \\frac{5}{2} t^{2}-25 t+30,1=0 \\Leftrightarrow t_{1}=1,4(s) ; t_{2}=8,6(s)$ (loại $t_2$ vì $t \\le 5$).<br/>Vận tốc tức thời ô tô ngay khi xảy ra va chạm (ứng với $t=1,4(s)$ ) là: $v_{1}=v_{(1,4)}=18 {m} / {s}=64,8 {km} / {h}$.<br/>Vậy $v_{0}-v_{1}=90 - 64,8 = 25,2$."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Cho hình bình hành $A B C D$ có $A(0 ; 1) ; B(3 ; 4)$ tâm $I$ nằm trên parabol có phương trình $y=(x-1)^{2}, 0 \\leq x_{I} \\leq 3$. Khi diện tích hình bình hành $A B C D$ đạt giá trị lớn nhất thì tọa độ $C(a ; b)$, tọa độ $D(c ; d)$. Tính $a+b+c+d$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 11-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                -1
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/dSwI9.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302442-nilv2byw4\" class=\"mx-auto\" style=\"\"><br/>$S_{A B C D}=4 S_{I A B}=2 \\cdot d(I, A B) \\cdot A B$.<br/>Vì $A B$ không đổi nên $S_{A B C D}$ lớn nhất khi khoảng cách từ $I$ đến $A B$ lớn nhất.<br/>Phương trình đường thẳng $A B$ là $x-y+1=0$.<br/>Gọi $I\\left(x ;(x-1)^{2}\\right)$, $d(I, A B)=\\frac{\\left|x-(x-1)^{2}+1\\right|}{\\sqrt{2}}=\\frac{\\left|-x^{2}+3 x\\right|}{\\sqrt{2}}=\\frac{-x^{2}+3 x}{\\sqrt{2}}$ vì $0 \\leq x_{I} \\leq 3$.<br/>$\\max d(I, A B)=\\frac{9}{4}$ đạt được khi $x=\\frac{3}{2}$ vậy $I\\left(\\frac{3}{2} ; \\frac{1}{4}\\right)$.<br/>$I$ là trung điểm $AC$ và $BD$.<br/>$C = 2I - A \\Rightarrow C\\left(3 ; -\\frac{1}{2}\\right) \\Rightarrow a=3, b=-\\frac{1}{2}$.<br/>$D = 2I - B \\Rightarrow D\\left(0 ; -\\frac{7}{2}\\right) \\Rightarrow c=0, d=-\\frac{7}{2}$.<br/>$\\Rightarrow a+b+c+d = 3 - \\frac{1}{2} + 0 - \\frac{7}{2} = 3 - 4 = -1$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Cho hai hàm số $f(x)$ và $g(x)$ thỏa mãn $\\lim _{x \\rightarrow 1} \\frac{f(x)}{x-1}=9, \\lim _{x \\rightarrow 1} \\frac{g(x)}{x^{2}-1}=\\frac{1}{2}$. Tính giới hạn $L=\\lim _{x \\rightarrow 1} \\frac{(x+1) f(x)}{g(x)}$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                18
+            ],
+            "explanation": "<br/>Ta có $\\lim _{x \\rightarrow 1} \\frac{(x+1) f(x)}{g(x)}=\\lim _{x \\rightarrow 1} \\frac{(x+1) \\frac{f(x)}{x^{2}-1}}{\\frac{g(x)}{x^{2}-1}}=\\lim _{x \\rightarrow 1} \\frac{\\frac{f(x)}{x-1}}{\\frac{g(x)}{x^{2}-1}}=\\frac{9}{1/2}=18$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Xét hàm số $y=f(x)$ với $x \\in[-1 ; 5]$ có bảng biến thiên như sau:<br/><img src=\"https://cdn.save.moe/b/XbWX668.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302443-jskcgz4se\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Khẳng định nào sau đây là đúng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>A, Đúng. Vì $\\lim _{x \\rightarrow 5^{-}} y=+\\infty$ nên hàm số không có GTLN trên đoạn $[-1 ; 5]$.<br/>B, Sai. Hàm số đã cho chỉ đạt GTNN tại $x=2$ trên đoạn $[-1 ; 5]$.<br/>C, Sai. Hàm số đã cho chỉ đạt GTNN tại $x=2$ trên đoạn $[-1 ; 5]$ và $\\lim _{x \\rightarrow 5} y=+\\infty$.<br/>D, Sai. Hàm số đã cho chỉ đạt GTNN tại $x=2$ trên đoạn $[-1; 5]$..",
+            "contentAnswerA": "Hàm số đã cho không tồn tại GTLN trên đoạn $[-1 ; 5]$.",
+            "contentAnswerB": "Hàm số đã cho đạt GTNN tại $x=-1$ và $x=2$ trên đoạn $[-1 ; 5]$.",
+            "contentAnswerC": "Hàm số đã cho đạt GTNN tại $x=-1$ và đạt GTLN tại $x=5$ trên đoạn $[-1 ; 5]$.",
+            "contentAnswerD": "Hàm số đã cho đạt GTNN tại $x=0$ trên đoạn $[-1 ; 5]$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Cho hàm số $f(x)=\\ln \\left[x(x+1)^{2}(x+2)^{3} \\ldots(x+2022)^{2023}(x+2023)^{2024}\\right], x>0$. Tính $f^{\\prime}(1)$?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 14-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2024
+            ],
+            "explanation": "<br/>Áp dụng công thức: Nếu $a, b>0 ; a \\neq 1$ thì: $\\ln (a \\cdot b)=\\ln a+\\ln b ; \\log _{a} b^{\\alpha}=\\alpha \\cdot \\log _{a} b$.<br/>Ta có:<br/>$f(x)=\\ln \\left[x(x+1)^{2}(x+2)^{3} \\ldots(x+2022)^{2023}(x+2023)^{2024}\\right], x>0$<br/>$f(x)=\\ln x+\\ln (x+1)^{2}+\\ln (x+2)^{3}+\\ldots+\\ln (x+2023)^{2024}$<br/>$f(x)=\\ln x+2 \\ln (x+1)+3 \\ln (x+2)+\\ldots+2024 \\ln (x+2023)$<br/>$\\Rightarrow f^{\\prime}(x)=\\frac{1}{x}+\\frac{2}{x+1}+\\frac{3}{x+2}+\\ldots+\\frac{2024}{x+2023}$.<br/>Vậy $f^{\\prime}(1)=\\frac{1}{1}+\\frac{2}{2}+\\frac{3}{3}+\\ldots+\\frac{2024}{2024}=1+1+\\ldots+1$ (có 2024 số hạng 1) $= 2024$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Có bao nhiêu giá trị nguyên dương của $a$ để $\\int_{0}^{a}(2 x-3) {d} x \\leq 4$?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Chọn C<br/>Ta có: $\\int_{0}^{a}(2 x-3) {d} x=\\left.\\left(x^{2}-3 x\\right)\\right|_{0} ^{a}=a^{2}-3 a$.<br/>Khi đó: $\\int_{0}^{a}(2 x-3) {d} x \\leq 4 \\Leftrightarrow a^{2}-3 a \\leq 4 \\Leftrightarrow a^2 - 3a - 4 \\le 0 \\Leftrightarrow -1 \\leq a \\leq 4$.<br/>Mà $a \\in \\mathbb{N}^{*}$ nên $a \\in\\{1 ; 2 ; 3 ; 4\\}$.<br/>Vậy có 4 giá trị của $a$ thỏa đề bài.",
+            "contentAnswerA": "5.",
+            "contentAnswerB": "6.",
+            "contentAnswerC": "4.",
+            "contentAnswerD": "3."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Trong không gian với hệ tọa độ $O x y z$, cho mặt phẳng $(\\alpha): x-y+2 z=1$. Trong các đường thẳng sau, đường thẳng nào vuông góc với $(\\alpha)$?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Chọn A<br/>Gọi VTCP của đường thẳng cần tìm là $\\vec{a}=\\left(a_{1} ; a_{2} ; a_{3}\\right)$ với $a_{1}^{2}+a_{2}^{2}+a_{3}^{2}>0$.<br/>Đường thẳng vuông góc với $(\\alpha) \\Leftrightarrow \\vec{a}$ cùng phương $\\vec{n} \\Leftrightarrow \\frac{a_{1}}{1}=\\frac{a_{2}}{-1}=\\frac{a_{3}}{2}$<br/>Chọn $a_{1}=1$ thì $a_{2}=-1$ và $a_{3}=2$.",
+            "contentAnswerA": "$d_{1}: \\frac{x}{1}=\\frac{y-1}{-1}=\\frac{z}{2}$.",
+            "contentAnswerB": "$d_{2}: \\frac{x}{1}=\\frac{y+1}{-1}=\\frac{z}{-1}$.",
+            "contentAnswerC": "$d_{3}: \\frac{x}{1}=\\frac{y-1}{-1}=\\frac{z}{-1}$.",
+            "contentAnswerD": "$d_{4}:\\left\\{\\begin{array}{l}x=2 t \\\\ y=0 \\\\ z=-t\\end{array}\\right.$"
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Cho h&igrave;nh lăng trụ đều $A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ c&oacute; $A B=a$. Gọi $M, N$ lần lượt l&agrave; trung điểm của $A B$ v&agrave; $B C$. Khoảng c&aacute;ch giữa $M N$ v&agrave; mặt phẳng $(A C C^{\\prime} A^{\\prime})$ bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1770974302445-qtkdkrhlo\" src=\"https://cdn.save.moe/b/OhoOn.png?dl=1\" style=\"\" /><br />\nKẻ $B K \\perp A C$. M&agrave; tam gi&aacute;c $A B C$ đều cạnh $a$ n&ecirc;n $B K=\\frac{a \\sqrt{3}}{2}$.<br />\nKẻ $M H \\perp A C$, m&agrave; $M H \\perp A A^{\\prime}$ (do $A A^{\\prime} \\perp(A B C)$ ), suy ra $M H \\perp\\left(A C C^{\\prime} A^{\\prime}\\right)$.<br />\nTa c&oacute; $M, N$ l&agrave; trung điểm của $A B, A C$ n&ecirc;n $M N / / A C \\Rightarrow M N / /\\left(A C C^{\\prime} A^{\\prime}\\right)$.<br />\nDo d&oacute; $d\\left(M N,\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)=d\\left(M ;\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)=M H=\\frac{1}{2} B K=\\frac{1}{2} \\cdot \\frac{a \\sqrt{3}}{2}=\\frac{a \\sqrt{3}}{4}$.",
+            "contentAnswerA": "$\\frac{a \\sqrt{3}}{4}$.",
+            "contentAnswerB": "$\\frac{a \\sqrt{3}}{2}$.",
+            "contentAnswerC": "$\\frac{a \\sqrt{2}}{4}$.",
+            "contentAnswerD": "$\\frac{a \\sqrt{2}}{2}$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Có 8 quyển sách Địa lí, 12 quyển sách Lịch sử, 10 quyển sách Giáo dục công dân (các quyển sách cùng một môn thì giống nhau) được chia thành 15 phần quà, mỗi phần quà gồm 2 quyển khác loại. Lấy ngẫu nhiên 2 phần quà từ 15 phần quà đó. Xác suất để để hai phần quà lấy được khác nhau là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Chọn B<br/>Gọi $x, y, z(x, y, z \\in \\mathbb{N})$ lần lượt là số phần quà sách Địa lí và Lịch sử, sách Lịch sử và Giáo dục công dân, sách Giáo dục công dân và Địa lí.<br/>Theo bài ra, ta có hệ phương trình $\\left\\{\\begin{array}{l}x+z=8 \\\\ x+y=12 \\\\ y+z=10 \\\\ x+y+z=15\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=5 \\\\ y=7 \\\\ z=3\\end{array}\\right.\\right.$<br/>Lấy 2 phần quà từ 15 phần quà có $C_{15}^{2}$ cách $\\Rightarrow n(\\Omega)=C_{15}^{2}$.<br/>Gọi $A$ là biến cố: \"Hai phần quà lấy được khác nhau\".<br/>Suy ra $n(A)=C_{3}^{1} \\cdot C_{5}^{1}+C_{5}^{1} \\cdot C_{7}^{1}+C_{7}^{1} \\cdot C_{3}^{1}$.<br/>Vậy xác suất cần tính là $P(A)=\\frac{C_{3}^{1} \\cdot C_{5}^{1}+C_{5}^{1} \\cdot C_{7}^{1}+C_{7}^{1} \\cdot C_{3}^{1}}{C_{15}^{2}}=\\frac{71}{105}$.",
+            "contentAnswerA": "$\\frac{131}{190}$.",
+            "contentAnswerB": "$\\frac{71}{105}$.",
+            "contentAnswerC": "$\\frac{7}{45}$.",
+            "contentAnswerD": "$\\frac{59}{190}$."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Hàm số $y=f(x)=\\frac{x^{3}}{3}+a x^{2}+b x+c$ có bảng biến thiên được cho như hình vẽ.<br/><img src=\"https://cdn.save.moe/b/re2WXJ.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302446-tz33au5lq\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Hỏi có bao nhiêu số âm trong các hệ số $a, b, c$?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Chọn A<br/>Dựa vào bảng biến thiên, ta suy ra $f(0)>f(-1) \\Leftrightarrow c>\\sqrt{3} \\Rightarrow c>0$.<br/>Ta có $y^{\\prime}=f^{\\prime}(x)=x^{2}+2 a x+b, \\Delta_{y^{\\prime}}^{\\prime}=a^{2}-b$.<br/>Vì $f^{\\prime}(x)>0, \\forall x \\in \\mathbb{R}$ nên phương trình $f^{\\prime}(x)=0$ vô nghiệm, suy ra: $\\Delta_{y^{\\prime}}^{\\prime}<0 \\Leftrightarrow a^{2}-b<0 \\Leftrightarrow a^{2}<b \\Rightarrow b>0$.<br/>Mặt khác $f^{\\prime}(-1)=1 \\Leftrightarrow (-1)^2 + 2a(-1) + b = 1 \\Leftrightarrow 1-2 a+b=1 \\Leftrightarrow b=2 a \\Rightarrow a>0$ (do $b>0$).<br/>Vậy $a>0, b>0, c>0$. Số các số âm là 0.",
+            "contentAnswerA": "0.",
+            "contentAnswerB": "1.",
+            "contentAnswerC": "2.",
+            "contentAnswerD": "3."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Trong không gian $O x y z$, viết phương trình mặt cầu đi qua điểm $A(1 ;-1 ; 4)$ và tiếp xúc với các mặt phẳng tọa độ.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nGọi $I(a ; b ; c)$ l&agrave; t&acirc;m của mặt cầu ( $S$ ). Mặt cầu ( $S$ ) tiếp x&uacute;c với c&aacute;c mặt phẳng tọa độ<br />\n$d(I,(O x y))=d(I,(O y z))=d(I,(O x z)) \\Leftrightarrow|a|=|b|=|c|=R $ $(1)$<br />\nMặt cầu $(S)$ đi qua $A(1 ;-1 ; 4)$<br />\n$\\Rightarrow \\left\\{\\begin{array}{l}<br />\n{ I A = R } \\\\<br />\n{ a &gt; 0 ; c &gt; 0 ; b &lt; 0 }<br />\n\\end{array} \\right.$ $\\Leftrightarrow \\left\\{\\begin{array}{l}<br />\n{ I A ^ { 2 } = R ^ { 2 } } \\\\<br />\n{ a &gt; 0 ; c &gt; 0 ; b &lt; 0 }<br />\n\\end{array}\\right.$&nbsp;$\\Leftrightarrow \\left\\{\\begin{array}{l}<br />\n(a-1)^{2}+(b+1)^{2}+(c-4)^{2}=R^{2} \\\\<br />\na=c=-b=R &gt; 0 \\ (\\text{do (1)})<br />\n\\end{array}\\right.$<br />\n$\\Leftrightarrow\\left\\{\\begin{array} { l }<br />\n{ ( a - 1 ) ^ { 2 } + ( - a + 1 ) ^ { 2 } + ( a - 4 ) ^ { 2 } = a ^ { 2 } } \\\\<br />\n{ a = c = - b = R &gt; 0 }<br />\n\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l }<br />\n{ 2 a ^ { 2 } - 1 2 a + 1 8 = 0 } \\\\<br />\n{ a = c = - b = R &gt; 0 }<br />\n\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}<br />\na^{2}-6 a+9=0 \\\\<br />\na=c=-b=R&gt;0<br />\n\\end{array}\\right.\\right.\\right.$<br />\n$\\Leftrightarrow\\left\\{\\begin{array}{l}<br />\na=c=3 \\\\<br />\nb=-3 \\\\<br />\nR=3<br />\n\\end{array} \\Rightarrow(S):(x-3)^{2}+(y+3)^{2}+(z-3)^{2}=9 \\right.$.",
+            "contentAnswerA": "$(x-3)^{2}+(y+3)^{2}+(z+3)^{2}=16$.",
+            "contentAnswerB": "$(x-3)^{2}+(y+3)^{2}+(z-3)^{2}=9$.",
+            "contentAnswerC": "$(x+3)^{2}+(y-3)^{2}+(z+3)^{2}=36$.",
+            "contentAnswerD": "$(x+3)^{2}+(y-3)^{2}+(z-3)^{2}=49$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Cho $\\log _{12} 3=a$ khi đó $\\log _{24} 18=\\frac{m a+n}{m-n a}$ với $(m, n)=1$. Hãy tính $m+n$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 21-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                4
+            ],
+            "explanation": "<br/>Điền đáp án: 4<br/>Ta có: $a=\\log _{12} 3=\\frac{\\log _{2} 3}{\\log _{2} 12}=\\frac{\\log _{2} 3}{2+\\log _{2} 3} \\Rightarrow \\log _{2} 3=\\frac{2 a}{1-a}$.<br/>$\\log _{24} 18=\\frac{\\log _{2} 18}{\\log _{2} 24}=\\frac{\\log _{2}\\left(2 \\cdot 3^{2}\\right)}{\\log _{2}\\left(2^{3} \\cdot 3\\right)}=\\frac{1+2 \\log _{2} 3}{3+\\log _{2} 3}=\\frac{1+2 \\cdot \\frac{2 a}{1-a}}{3+\\frac{2 a}{1-a}}=\\frac{1-a+4a}{3(1-a)+2a} = \\frac{3 a+1}{3-a}$.<br/>Vậy $m=3, n=1 \\Rightarrow m+n=4$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Hai bạn Phương và Anh, mỗi bạn gieo đồng thời hai đồng xu cân đối. Xét hai biến cố sau:<br/>$E$: \"Cả hai đồng xu bạn Phương gieo đều ra mặt sấp\"<br/>$F$: \"Hai đồng xu bạn Anh gieo có một ngửa, một sấp\"<br/>Khẳng định nào sau đây sai?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Nếu $F$ xảy ra thì $P(E)=\\frac{1}{4}$; Nếu $F$ không xảy ra thì $P(E)=\\frac{1}{4}$.<br/>Nếu $E$ xảy ra thì $P(F)=\\frac{1}{2}$; Nếu $E$ không xảy ra thì $P(F)=\\frac{1}{2}$.<br/>Vậy $E$ và $F$ độc lập.",
+            "contentAnswerA": "$P(E)=\\frac{1}{4}$.",
+            "contentAnswerB": "$P(F)=\\frac{1}{2}$.",
+            "contentAnswerC": "$E, F$ không độc lập.",
+            "contentAnswerD": "$P(E)<P(F)$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Cho một bảng gồm 9 ô vuông đơn vị như hình vẽ.<br/><img src=\"https://cdn.save.moe/b/H6ia4uB.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302447-0a7bec3id\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Một em bé cầm 4 hạt đậu đặt ngẫu nhiên vào 4 ô vuông đơn vị trong bảng. Xác suất để bất kì hàng nào và cột nào của bảng cũng có hạt đậu bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Chọn 4 ô vuông trong 9 ô vuông có $C_{9}^{4}$ cách chọn nên $n(\\Omega)=C_{9}^{4}$.<br/>Gọi $A$ là biến cố \"Bất kì hàng nào và cột nào của bảng cũng có hạt đậu\", $B$ là biến cố \"Có ít nhất một hàng hoặc một cột không có hạt đậu nào\". Suy ra $B=\\bar{A}$.<br/>Gọi $B_{h}, B_{c}$ lần lượt là biến cố có ít nhất một hàng, một cột không chứa đậu. Suy ra $B=B_{h} \\cup B_{c}$.<br/>Vì mỗi hàng chỉ có 3 ô nên biến cố $B_{h}$ có số phần tử bằng với biến cố có 1 một hàng không chứa đậu. Suy ra $n\\left(B_{h}\\right)=C_{3}^{1} \\cdot C_{6}^{4}$.<br/>Tương tự $n\\left(B_{c}\\right)=C_{3}^{1} . C_{6}^{4}$.<br/>Có $B_{h} \\cap B_{c}$ là biến cố có 1 hàng và 1 cột không chứa đậu nên $n\\left(B_{h} \\cap B_{c}\\right)=3.3$.<br/>Do vậy $n(B)=n\\left(B_{h}\\right)+n\\left(B_{c}\\right)-n\\left(B_{h} \\cap B_{c}\\right)=81$.<br/>Vậy $p(A)=\\frac{n(A)}{n(\\Omega)}=1-\\frac{n(B)}{n(\\Omega)}=\\frac{5}{14}$.",
+            "contentAnswerA": "$\\frac{3}{14}$.",
+            "contentAnswerB": "$\\frac{5}{14}$.",
+            "contentAnswerC": "$\\frac{3}{7}$.",
+            "contentAnswerD": "$\\frac{2}{7}$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Gọi $F(x)$ là nguyên hàm của hàm số $f(x)=\\frac{x}{\\sqrt{8-x^{2}}}$ thỏa mãn $F(2)=0$. Khi đó phương trình $F(x)=x$ có nghiệm là:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Chọn D.<br/>Ta có: $\\int \\frac{x}{\\sqrt{8-x^{2}}} {~d} x=-\\frac{1}{2} \\int\\left(8-x^{2}\\right)^{-\\frac{1}{2}} {~d}\\left(8-x^{2}\\right)=-\\sqrt{8-x^{2}}+C$.<br/>Mặt khác: $F(2)=0 \\Leftrightarrow-\\sqrt{8-2^{2}}+C=0 \\Leftrightarrow C=2$.<br/>Nên $F(x)=-\\sqrt{8-x^{2}}+2$.<br/>$F(x)=x \\Leftrightarrow-\\sqrt{8-x^{2}}+2=x \\Leftrightarrow \\sqrt{8-x^{2}}=2-x \\\\<br/>\\Leftrightarrow\\left\\{\\begin{array} { l }<br/>{ 2 - x \\geq 0 } \\\\<br/>{ 8 - x ^ { 2 } = ( 2 - x ) ^ { 2 } }<br/>\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l }<br/>{ x \\leq 2 } \\\\<br/>{ - 2 x ^ { 2 } + 4 x + 4 = 0 }<br/>\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}<br/>x \\leq 2 \\\\<br/>{\\left[\\begin{array}{l}<br/>x=1+\\sqrt{3} \\\\<br/>x=1-\\sqrt{3}<br/>\\end{array} \\Leftrightarrow x=1-\\sqrt{3} .\\right.}<br/>\\end{array}\\right.\\right.\\right.$",
+            "contentAnswerA": "$x=0$.",
+            "contentAnswerB": "$x=1$.",
+            "contentAnswerC": "$x=-1$.",
+            "contentAnswerD": "$x=1-\\sqrt{3}$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Cho hàm số $y=\\frac{2 x-1}{x+2}$ có đồ thị $( C )$. Mỗi phát biểu sau đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đúng. Ta có $\\lim _{x \\rightarrow+\\infty} y=\\lim _{x \\rightarrow+\\infty} \\frac{2 x-1}{x+2}=\\lim _{x \\rightarrow+\\infty} \\frac{2-\\frac{1}{x}}{1+\\frac{2}{x}}=2 ; \\lim _{x \\rightarrow-\\infty} y=\\lim _{x \\rightarrow-\\infty} \\frac{2-\\frac{1}{x}}{1+\\frac{2}{x}}=2$<br/>Vậy đồ thị hàm số $y=\\frac{2 x-1}{x+2}$ có tiệm cận ngang $y=2$.<br/>b, Sai. Hoành độ giao điểm của đường thẳng $y=x+1$ và đồ thị $(C)$ là nghiệm của phương trình $\\frac{2 x-1}{x+2}=x+1 \\Leftrightarrow\\left\\{\\begin{array}{l}2 x-1=(x+1)(x+2) \\\\ x \\neq-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+x+3=0 \\\\ x \\neq-2\\end{array}\\right.\\right.$<br/>Phương trình $x^{2}+x+3=0$ vô nghiệm ⇒ đường thẳng $y=x+1$ không cắt đồ thị $(C)$<br/>c, Sai.<br/>$+y=0 \\Rightarrow 2 x-1=0 \\Leftrightarrow x=\\frac{1}{2}$.<br/>$+x=0 \\Rightarrow y=-\\frac{1}{2}$.<br/>Vậy đồ thị $(C)$ cắt các trục $O x, O y$ lần lượt tại $A\\left(\\frac{1}{2} ; 0\\right)$ và $B\\left(0 ;-\\frac{1}{2}\\right)$.<br/>Diện tích tam giác $O A B$ là $S_{O A B}=\\frac{1}{2} O A \\cdot O B=\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}=\\frac{1}{8}$.",
+            "contentYA": "Đồ thị hàm số $y=\\frac{2 x-1}{x+2}$ có tiệm cận ngang $y=2$.",
+            "contentYB": "Đường thẳng $y=x+1$ cắt đồ thị $(C)$ tại hai điểm phân biệt.",
+            "contentYC": "Gọi $A, B$ lần lượt là giao điểm của $(C)$ với trục $O x$ và $O y$. Tam giác $O A B$ có diện tích bằng 8."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho dãy số $\\left(u_{n}\\right)$, với $u_{n}=\\frac{1}{1.4}+\\frac{1}{2.5}+\\ldots+\\frac{1}{n(n+3)}, \\forall n=1 ; 2 ; 3 \\cdots$. Mệnh đề nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có $u_{n}>0 \\longrightarrow\\left(u_{n}\\right)$ bị chặn dưới bởi 0.<br/>Mặt khác $\\frac{1}{k(k+3)}<\\frac{1}{k(k+1)}=\\frac{1}{k}-\\frac{1}{k+1}\\left(k \\in \\mathbb{N}^{*}\\right)$ nên suy ra:<br/>$u_{n}<\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\cdots+\\frac{1}{n(n+1)}=1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{2}-\\frac{1}{4}+\\cdots+\\frac{1}{n}-\\frac{1}{n+1}=1-\\frac{1}{n+1}<1$<br/>nên dãy $\\left(u_{n}\\right)$ bị chặn trên, do đó dãy $\\left(u_{n}\\right)$ bị chặn.<br/>Chọn C.",
+            "contentAnswerA": "Dãy số $\\left(u_{n}\\right)$ bị chặn trên và không bị chặn dưới.",
+            "contentAnswerB": "Dãy số $\\left(u_{n}\\right)$ bị chặn dưới và không bị chặn trên.",
+            "contentAnswerC": "Dãy số $\\left(u_{n}\\right)$ bị chặn.",
+            "contentAnswerD": "Dãy số $\\left(u_{n}\\right)$ không bị chặn."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Một bảng giá cước taxi được cho như sau:<br/><table class=\"word-table\"><tbody><tr><td>Giá mở cửa (1 km)</p></td><td>Giá cước các km tiếp theo đến 25 km</p></td><td>Giá cước từ km thứ 26</p></td></tr><tr><td>20000 đồng</p></td><td>14000 đồng</p></td><td>11000 đồng</p></td></tr></tbody></table>Công thức hàm số mô tả số tiền khách phải trả theo quãng đường di chuyển $x(k m)$ là $f(x)$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br />\na, Đ&uacute;ng.<br />\nb, Sai. Kh&aacute;ch h&agrave;ng đi 15 km th&igrave; phải trả số tiền l&agrave; $20000+14000 \\cdot(15-1)=396000$ đồng.<br />\nc, Đ&uacute;ng. Kh&aacute;ch h&agrave;ng đi $30 k m$ th&igrave; phải trả số tiền l&agrave; $356000+11000(30-25)=411000$ đồng.<br />\nd, Đ&uacute;ng. Với $x&lt;1$ th&igrave; $f(x)$ li&ecirc;n tục tr&ecirc;n $(-\\infty ; 1)$<br />\nVới $1<x<25$ th=\"\">Với $x&gt;25$ th&igrave; $f(x)=356000+11000(x-25)$ l&agrave; h&agrave;m đa thức n&ecirc;n li&ecirc;n tục tr&ecirc;n ( $25 ;+\\infty$ )<br />\nTại $x=1$ th&igrave; $f(x)=20000$<br />\nTại $x=25$ th&igrave; $f(x)=356000$ n&ecirc;n h&agrave;m số li&ecirc;n tục tại $x=1$; $x=25$<br />\nDo đ&oacute; h&agrave;m số li&ecirc;n tục tr&ecirc;n $\\mathbb{R}$.</x<25$>",
+            "contentYA": "$f(x)=\\left\\{\\begin{array}{l}20000 ; x \\leq 1 \\\\ 20000+14000(x-1) ; 1 \\lt x \\leq 25 \\\\ 356000+11000(x-25) ; x \\gt 25\\end{array}\\right.$",
+            "contentYB": "Khách hàng đi 15 km thì phải trả số tiền là 369000 đồng.",
+            "contentYC": "Khách hàng đi 30 km thì phải trả số tiền là 411000 đồng.",
+            "contentYD": "Hàm số $f(x)$ liên tục trên $\\mathbb{R}$."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Cho tứ diện $A B C D$. Gọi $I$ và $J$ theo thứ tự là trung điểm của $A D$ và $A C, G$ là trọng tâm tam giác $B C D$. Giao tuyến của hai mặt phẳng $(G I J)$ và $(B C D)$ là đường thẳng:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/mRJiZUI.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302447-wjm2fmd9l\" class=\"mx-auto\" style=\"\"><br/>Ta có $\\left\\{\\begin{array}{l}(G I J) \\cap(B C D)=G \\\\ I J \\subset(G I J), C D \\subset(B C D) \\longrightarrow(G I J) \\cap(B C D)=G x / / I J / / C D \\\\ I J / / C D\\end{array}\\right.$<br/>Chọn C.",
+            "contentAnswerA": "qua $I$ và song song với $A B$.",
+            "contentAnswerB": "qua $J$ và song song với $B D$.",
+            "contentAnswerC": "qua $G$ và song song với $C D$.",
+            "contentAnswerD": "qua $G$ và song song với $B C$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Cho đồ thị hàm số $f(x)=\\frac{x^{2}+4 x+2}{x+2}$ có trục đối xứng là đường thẳng $y=a x+b$. Tính tổng tất cả các giá trị của $T$ biết $T=a+b$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 29-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>Điền đáp án: 6<br/>Ta có: $f(x)=x+2-\\frac{2}{x+2}, \\forall x \\in(-\\infty ;-2) \\cup(-2 ;+\\infty)$.<br/>Nên đồ thị hàm số có tiệm cận đứng và tiệm cận xiên lần lượt là đường $x=-2$ hay $x+2=0$ và đường $y=x+2$ hay $x-y+2=0$.<br/>Đồ thị hàm số đã cho có các trục đối xứng là hai đường phân giác của các góc tạo bởi tiệm cận đứng và tiệm cận xiên nên phương trình có dạng là:<br/>$\\frac{x+2}{1} \\pm \\frac{x-y+2}{\\sqrt{2}}=0 \\text { hay } y=(\\sqrt{2}+1) x+2+2 \\sqrt{2} \\text { và } y=(1-\\sqrt{2}) x+2-2 \\sqrt{2}$.<br/>Khi đó $T=a+b$ thì $T_{1}=3+3 \\sqrt{2}$ và $T_{2}=3-3 \\sqrt{2}$.<br/>Do đó tổng tất cả các giá trị của $T$ là $T_{1}+T_{2}=(3+3 \\sqrt{2})+(3-3 \\sqrt{2})=6$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Trong không gian $O x y z$, cho hai véctơ $\\vec{a}=(1 ; m ; n), \\vec{b}=(3 ;-2 ; 2)$ thỏa mãn $\\vec{a} \\cdot \\vec{b}=17$ và $(\\vec{a}, \\vec{b})=60^{\\circ}$. Tính giá trị của biểu thức $S=m^{2}+n^{2}$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                67
+            ],
+            "explanation": "<br/>Ta có $\\vec{a} \\cdot \\vec{b}=|\\vec{a}| \\cdot|\\vec{b}| \\cdot \\cos (\\vec{a}, \\vec{b}) \\Rightarrow|\\vec{a}|=\\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}| \\cdot \\cos (\\vec{a}, \\vec{b})}=\\frac{17}{\\sqrt{17} \\cdot \\frac{1}{2}}=2 \\sqrt{17}$<br/>$\\Rightarrow 1+m^{2}+n^{2}=68 \\Rightarrow m^{2}+n^{2}=67$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Trong không gian $O x y z$, cho phương trình đường thẳng $d: \\frac{x+1}{2}=\\frac{y-1}{1}=\\frac{z}{2}$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai.<br/>b, Đúng. Đường thẳng $\\Delta / / d \\Rightarrow \\vec{u}_{d}=\\vec{u}_{\\Delta}=(2 ; 1 ; 2)$. Thay tọa độ điểm $B$ vào phương trình đường thẳng $\\Delta$ thỏa mãn.<br/>c, Đúng. Xét $C \\in d \\Rightarrow C(-1+2 t ; 1+t ; 2 t) ; C \\in(O x z): y=0 \\Rightarrow t=-1 \\Rightarrow C(-3 ; 0 ;-2)$.<br/>d, Đúng. Ta có: $M \\in d \\Rightarrow M(-1+2 t ; 1+t ; 2 t)$ và $N \\in O y \\Rightarrow N(0 ; y ; 0)$.<br/>$\\Rightarrow \\overrightarrow{N M}(-1+2 t ; 1+t-y ; 2 t)$.<br/>Độ dài $M N_{\\text {min }}$ khi và chỉ khi $M N$ là đoạn vuông góc chung của $d$ và $O y$.<br/>Khi đó $\\left\\{\\begin{array}{l}M N \\perp d \\\\ M N \\perp O y\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\overrightarrow{N M} \\cdot \\vec{u}_{d}=0 \\\\ \\overrightarrow{N M} \\cdot \\vec{j}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2(2 t-1)+t+1-y+4 t=0 \\\\ t+1-y=0\\end{array}\\right.\\right.\\right.$<br/>$\\Leftrightarrow\\left\\{\\begin{array}{l}t=\\frac{1}{4} \\\\ y=\\frac{5}{4}\\end{array} \\Rightarrow M\\left(-\\frac{1}{2} ; \\frac{5}{4} ; \\frac{1}{2}\\right)\\right.$ và $N \\left(0 ; \\frac{5}{4} ; 0\\right)$.",
+            "contentYA": "Điểm $A(1 ;-1 ; 0)$ thuộc đường thẳng $d$.",
+            "contentYB": "Đường thẳng $\\Delta$ đi qua $B(2 ;-3 ; 1)$ và song song với đường thẳng $d$ có phương trình là $\\Delta:\\left\\{\\begin{array}{l}x=4+2 t \\\\ y=-2+t \\\\ z=3+2 t\\end{array},(t \\in \\mathbb{R})\\right.$.",
+            "contentYC": "Giao điểm của đường thẳng $d$ và mặt phẳng $(O x z)$ có toạ độ là $(-3 ; 0 ;-2)$.",
+            "contentYD": "Gọi điểm $M \\in d$ và $N \\in O y$. Nếu độ dài đoạn thẳng $M N$ ngắn nhất thì tọa độ trung điểm của đoạn thẳng $M N$ là $\\left(-\\frac{1}{4} ; \\frac{5}{4} ; \\frac{1}{4}\\right)$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Áp suất không khí $P$ (đo bằng milimet thuỷ ngân, ký hiệu mmHg) theo công thức $P=P_{0} \\cdot {e}^{k x} ({mmHg})$, trong đó $x$ là độ cao (đo bằng mét), $P_{0}=760({mmHg})$ là áp suất không khí ở mức nước biển $(x=0), k$ là hệ số suy giảm. Biết rằng ở độ cao 1000 m thì áp suất không khí là $672,71({mmHg})$. Tính áp suất của không khí ở độ cao 3000 m (làm tròn kết quả đến hàng đơn vị).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 32-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                527
+            ],
+            "explanation": "<br/>Ở độ cao 1000 m thì áp suất không khí là $672,71({mmHg})$.<br/>Nên ta có $672,71=760 {e}^{1000 k}$. Khi đó<br/>${e}^{1000 k}=\\frac{672,71}{760} \\Leftrightarrow k=\\frac{1}{1000} \\ln \\frac{672,71}{760}$.<br/>Áp suất ở độ cao 3000 m là $P=760 {e}^{3000 k}=760 {e}^{3000 \\cdot \\frac{1}{1000} \\ln \\frac{672,71}{760}} \\approx 527({mmHg})$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Một bồn hình trụ đang chứa dầu, được đặt nằm ngang, có chiều dài bồn là 5 m, có bán kính đáy 1 m. Người ta đã rút dầu trong bồn tương ứng với $0,5 {m}$ của đường kính đáy. Tính thể tích của lượng dầu còn lại trong bồn theo đơn vị ${m}^{3}$. (Làm tròn đến hàng phần chục)<br/><img src=\"https://cdn.save.moe/b/ntxV1Ls.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302449-95ey6zd4m\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                12.6
+            ],
+            "explanation": "<br/>Chọn hệ trục tọa độ như hình vẽ:<br/><img src=\"https://cdn.save.moe/b/mEKPCPq.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302451-iyy19ivla\" class=\"mx-auto\" style=\"\"><br/>Thiết diện cắt trục $O x$ tại điểm có hoành độ là $x$.<br/>Khi đó, ta có $A B=2 \\sqrt{1-x^{2}}$.<br/>Suy ra diện tích hìn chữ nhật $A B C D$ bằng $5 \\cdot 2 \\sqrt{1-x^{2}}=10 \\sqrt{1-x^{2}}$.<br/>Vậy thể tích lượng dầu còn lại trong bồn là<br/>$V=10 \\int_{-1}^{0,5} \\sqrt{1-x^{2}} {~d} x=12,6\\left({~m}^{3}\\right)$."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Một kiến trúc sư thiết kế một tháp trang trí cho công viên dưới dạng hình chóp tam giác $S \\cdot A B C$. Tháp có ba cạnh bên bằng nhau $S A=S B=S C=1$ dam tạo thành các đường dốc từ đỉnh đến các góc của tam giác đáy. Đáy của tháp là tam giác vuông với $A B=A C=1$ dam. Để xác định góc ghép nối các thanh thép, đảm bảo cấu trúc chịu lực tốt và cân đối về mặt thẩm mỹ, tính góc giữa hai thanh $A B$ và $S C$ (tính theo đơn vị độ).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                60
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/sRU6DrU.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302453-4tp6xapnr\" class=\"mx-auto\" style=\"\"><br/>Gọi $M, N, P$ lần lượt là trung điểm của $S A, S B, A C$, khi đó $M N \\| A B$ nên $(A B, S C)=(M N, M P)$.<br/>Đặt $\\varphi=N M P$, trong tam giác $M N P$ có $\\cos \\varphi=\\frac{M N^{2}+M P^{2}-N P^{2}}{2 M N \\cdot M P}$<br/>Ta có $M N=M P=\\frac{1}{2}, P B^{2}=A P^{2}+A C^{2}=\\frac{5}{4}, P S^{2}=\\frac{3}{4}$.<br/>Trong tam giác $P B S$ theo công thứ tính đường trung tuyến ta có<br/>$P N^{2}=\\frac{P B^{2}+P S^{2}}{2}-\\frac{S B^{2}}{4}=\\frac{\\frac{5}{4}+\\frac{3}{4}}{2}-\\frac{1}{4}=\\frac{3}{4}$.<br/>Thay $M N, M P, N P$ vào (*) ta được $\\cos \\varphi=-\\frac{1}{2} \\Rightarrow \\varphi=120^{\\circ}$.<br/>Vậy $(A B, S C)=(M N, M P)=60^{\\circ}$."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Cho $A=\\frac{1}{A_{2}^{2}}+\\frac{1}{A_{3}^{2}}+\\ldots+\\frac{1}{A_{n}^{2}}$. Nhận xét nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có:<br/>Chọn A.<br/>$\\frac{1}{A_{2}^{2}}=\\frac{1}{2.1}=1-\\frac{1}{2}$<br/>$\\frac{1}{A_{3}^{2}}=\\frac{1}{3.2}=\\frac{1}{2}-\\frac{1}{3}$<br/>$\\frac{1}{A_{4}^{2}}=\\frac{1}{4.3}=\\frac{1}{3}-\\frac{1}{4}$<br/>⋯<br/>$\\frac{1}{A_{n}^{2}}=\\frac{1}{n \\cdot(n-1)}=\\frac{1}{n-1}-\\frac{1}{n}$",
+            "contentAnswerA": "$0<A<1$.",
+            "contentAnswerB": "$1<A<2$.",
+            "contentAnswerC": "$2<A<3$.",
+            "contentAnswerD": "$3<A<4$."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Đa thức $p(x)$ là đa thức có bậc nhỏ nhất thỏa mãn các điều kiện sau:<br/>- Các hệ số của $p$ là số nguyên.<br/>- Tất cả các nghiệm của $p$ là số nguyên.<br/>- $p(0)=-1$.<br/>- $p(3)=128$.<br/>Hãy viết giá trị của $p(6)$ trong hệ cơ số 3.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2100112
+            ],
+            "explanation": ""
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Một \"bộ ba Pythagore tuyệt vời\" là một bộ ba Pythagore có dạng $a^{2}+(a+1)^{2}=b^{2}$, với $a$ và $b$ là các số nguyên dương. Biết rằng $a, a+1$, và $b$ tạo thành bộ ba Pythagore tuyệt vời dương thứ ba, tìm $a$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 37-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                119
+            ],
+            "explanation": "<br/>Phương trình $a^{2}+(a+1)^{2}=b^{2}$ tương đương với $2 a^{2}+2 a+1=b^{2}$. Ta biến đổi phương trình này về dạng phương trình Pell:<br/>$4 a^{2}+4 a+2=2 b^{2}$<br/>$(2 a+1)^{2}+1=2 b^{2}$<br/>$(2 a+1)^{2}-2 b^{2}=-1$<br/>Đây là phương trình Pell có dạng $x^{2}-2 y^{2}=-1$ với $x=2 a+1$ và $y=b$. Các nghiệm ( $x_{n}, y_{n}$ ) của phương trình này được tạo ra bởi $x_{n}+y_{n} \\sqrt{2}=(1+\\sqrt{2})(3+2 \\sqrt{2})^{n}$ với $n \\geq 0$.<br/>- $n=0 \\Longrightarrow x_{0}+y_{0} \\sqrt{2}=1+\\sqrt{2} \\Longrightarrow x_{0}=1 \\Longrightarrow 2 a+1=1 \\Longrightarrow a=0$ (loại).<br/>- $n=1 \\Longrightarrow x_{1}+y_{1} \\sqrt{2}=(1+\\sqrt{2})(3+2 \\sqrt{2})=7+5 \\sqrt{2} \\Longrightarrow x_{1}=7 \\Longrightarrow 2 a+1=7 \\Longrightarrow a=3$.<br/>- $n=2 \\Longrightarrow x_{2}+y_{2} \\sqrt{2}=(7+5 \\sqrt{2})(3+2 \\sqrt{2})=41+29 \\sqrt{2} \\Longrightarrow x_{2}=41 \\Longrightarrow 2 a+1=41 \\Longrightarrow a=20$.<br/>- $n=3 \\Longrightarrow x_{3}+y_{3} \\sqrt{2}=(41+29 \\sqrt{2})(3+2 \\sqrt{2})=239+169 \\sqrt{2} \\Longrightarrow x_{3}=239 \\Longrightarrow 2 a+1=239 \\Longrightarrow a=119$.<br/>Các giá trị nguyên dương của $a$ theo thứ tự là $3,20,119$. Giá trị cần tìm là nghiệm dương thứ ba, tức là $a=119$."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Một loại xét nghiệm nhanh SARS-CoV-2 cho kết quả dương tính với $76,2 \\%$ các ca thực sự nhiễm virus và kết quả âm tính với $99,1 \\%$ các ca thực sự không nhiễm virus. Giả sử tỉ lệ người nhiễm virus SARS-CoV-2 trong một cộng đồng là $1 \\%$. Xét tính đúng sai của các khẳng định sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>Gọi $A$ là biến cố \"Người làm xét nghiệm có kết quả dương tính\" và $B$ là biến cố \"Người nhiễm virus\".<br/>a, Sai: Do xét nghiệm cho kết quả dương tính với $76,2 \\%$ các ca thực sự nhiễm virus nên Xác suất xét nghiệm cho kết quả âm tính của các ca thực sự nhiễm virus là: $P(\\bar{A} \\mid B)=0,238$.<br/>b, Đúng: Do xét nghiệm cho kết quả âm tính với $99,1 \\%$ các ca thực sự không nhiễm virus nên $P(\\bar{A} \\mid \\bar{B})=0,991$. Suy ra $P(A \\mid \\bar{B})=1-0,991=0,009$.<br/>Xác suất xét nghiệm cho kết quả dương tính của các ca thực sự không nhiễm virus là: 0,009 .<br/>c, Đúng: Do tỉ lệ người nhiễm virus trong cộng đồng là $1 \\%$ nên $P(B)=0,01$ và $P(\\bar{B})=0,99$.<br/>Áp dụng công thức xác suất toàn phần, ta có xác suất người làm xét nghiệm có kết quả dương tính là: $P(A)=P(B) P(A \\mid B)+P(\\bar{B}) P(A \\mid \\bar{B})=0,01.0,762+0,99.0,009=0,01653 \\approx 0,017$.",
+            "contentYA": "Xác suất xét nghiệm cho kết quả âm tính của các ca thực sự nhiễm virus là 0,23.",
+            "contentYB": "Xác suất xét nghiệm cho kết quả dương tính của các ca thực sự không nhiễm virus là: 0,009.",
+            "contentYC": "Xác suất người làm xét nghiệm có kết quả dương tính là: 0,017."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Trong không gian xét $\\vec{m}, \\vec{n}, \\vec{p}, \\vec{q}$ là các véctơ đơn vị (có độ dài bằng 1). Gọi $M$ là giá trị lớn nhất của biểu thức $|\\vec{m}-\\vec{n}|^{2}+|\\vec{m}-\\vec{p}|^{2}+|\\vec{m}-\\vec{q}|^{2}+|\\vec{n}-\\vec{p}|^{2}+|\\vec{n}-\\vec{q}|^{2}+|\\vec{p}-\\vec{q}|^{2}$. Khi đó $M-\\sqrt{M}$ thuộc khoảng nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Đặt $S=|\\vec{m}-\\vec{n}|^{2}+|\\vec{m}-\\vec{p}|^{2}+|\\vec{m}-\\vec{q}|^{2}+|\\vec{n}-\\vec{p}|^{2}+|\\vec{n}-\\vec{q}|^{2}+|\\vec{p}-\\vec{q}|^{2}$<br/>Ta có $0 \\leq|\\vec{m}+\\vec{n}+\\vec{p}+\\vec{q}|^{2}=4+2(\\vec{m} \\cdot \\vec{n}+\\vec{m} \\cdot \\vec{p}+\\vec{m} \\cdot \\vec{q}+\\vec{n} \\cdot \\vec{p}+\\vec{n} \\cdot \\vec{q}+\\vec{p} \\cdot \\vec{q})$.<br/>Từ đó suy ra $\\vec{m} \\cdot \\vec{n}+\\vec{m} \\cdot \\vec{p}+\\vec{m} \\cdot \\vec{q}+\\vec{n} \\cdot \\vec{p}+\\vec{n} \\cdot \\vec{q}+\\vec{p} \\cdot \\vec{q} \\geq-2$.<br/>Mặt khác, ta có $|\\vec{m}-\\vec{n}|^{2}+|\\vec{m}-\\vec{p}|^{2}+|\\vec{m}-\\vec{q}|^{2}+|\\vec{n}-\\vec{p}|^{2}+|\\vec{n}-\\vec{q}|^{2}+|\\vec{p}-\\vec{q}|^{2}$<br/>$=12-2(\\vec{m} \\cdot \\vec{n}+\\vec{m} \\cdot \\vec{p}+\\vec{m} \\cdot \\vec{q}+\\vec{n} \\cdot \\vec{p}+\\vec{n} \\cdot \\vec{q}+\\vec{p} \\cdot \\vec{q})$<br/>Vậy $|\\vec{m}-\\vec{n}|^{2}+|\\vec{m}-\\vec{p}|^{2}+|\\vec{m}-\\vec{q}|^{2}+|\\vec{n}-\\vec{p}|^{2}+|\\vec{n}-\\vec{q}|^{2}+|\\vec{p}-\\vec{q}|^{2} \\leq 12-2 \\cdot(-2)=16$.<br/>Dấu bằng xảy ra chẳng hạn khi $\\vec{m}=\\vec{n}=(1 ; 0 ; 0)$ và $\\vec{p}=\\vec{q}=(-1 ; 0 ; 0)$.<br/>Vậy $M-\\sqrt{M}=16-4=12 \\in(10 ; 15)$.",
+            "contentAnswerA": "$\\left(4 ; \\frac{13}{2}\\right)$.",
+            "contentAnswerB": "$\\left(7 ; \\frac{19}{2}\\right)$.",
+            "contentAnswerC": "$(17 ; 22)$.",
+            "contentAnswerD": "$(10 ; 15)$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Một công ty thiết kế tròng kính sao cho mỗi phần đường viền của tròng kính là một phần đồ thị của hàm số bậc hai hoặc một phần đồ thị của hàm số bậc bốn rồi ghép chúng lại với nhau như hình vẽ.<br/><img src=\"https://cdn.save.moe/b/5XRN7.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770974302460-7h0hufdla\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Biết $A(-2,0), B(0 ;-4), C(7 ; 0)$ và $D(1 ; k)$ với $k>0$. Đường cong $(C_2)$ qua A, B là $y=x^2-4$. Đường cong $(C_1)$ qua A, D, C là parabol $y=a_1x^2+b_1x+c_1$. Đường cong $(C_3)$ qua $B$, $C$ là $y=mx^4+n$. Diện tích tròng kính bằng $836/25$. Tính $k_1+k_2$ với $k=k_1/k_2$ tối giản.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 40-1\" data-blank-length=\"7\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3737
+            ],
+            "explanation": "<br/>Ta có: $A B:\\left(C_{2}\\right): y=b x^{2}+c$<br/>Qua $A(-2,0) \\Rightarrow 4 b+c=0$, qua $B(0,-4) \\Rightarrow c=-4 \\Rightarrow b=1 \\Rightarrow A B:\\left(C_{2}\\right): y=x^{2}-4$<br/>Ta có: $A C:\\left(C_{1}\\right): y=a_{1} x^{2}+b_{1} x+c_{1}$<br/>Qua $A(-2,0) \\Rightarrow c_{1}=-2,$ qua $C(7,0) \\Rightarrow 49 a_{1}+7 b_{1}+c_{1}=0 \\Rightarrow 49 a_{1}+7 b_{1}=2 \\quad (1)$<br/>$\\Rightarrow\\left(C_{1}\\right): y=a_{1} x^{2}+b_{1} x-2$<br/>Ta có: $B C:\\left(C_{3}\\right): y=m x^{4}+n$<br/>Qua $B(0,-4) \\Rightarrow n=-4$, qua $C(7,0) \\Rightarrow 2401 m+n=0 \\Rightarrow m=\\frac{4}{2401} \\Rightarrow B C:\\left(C_{3}\\right): y=\\frac{4}{2401} x^{4}-4$<br/>$S_{\\text {trong kinh }}=S_{1}+S_{2}=33.44=\\frac{836}{25}$<br/>Ta có $S_{1}=\\int_{-2}^{0}\\left[\\left(C_{1}\\right)-\\left(C_{2}\\right)\\right] d x=\\int_{-2}^{0}\\left[\\left(a_{1}-1\\right) x^{2}+b_{1} x+2\\right] d x=\\frac{\\left(a_{1}-1\\right) x^{3}}{3}+\\frac{b_{1} x^{2}}{2}+\\left.2 x\\right|_{-2} ^{0}=\\frac{8}{3}\\left(a_{1}-1\\right)-2 b_{1}+4$<br/>Mặc khác: $S_{2}=\\int_{0}^{7}\\left[\\left(C_{1}\\right)-\\left(C_{3}\\right)\\right] d x=\\int_{0}^{7}\\left[-\\frac{4}{2401} x^{4}+a_{1} x^{2}+b_{1} x+2\\right] d x =\\frac{42}{5}+\\frac{a_{1} x^{3}}{3}+\\left.\\frac{b_{1} x^{2}}{2}\\right|_{0} ^{7}=\\frac{42}{5}+\\frac{343 a_{1}}{3}+\\frac{49 b_{1}}{2}$<br/>Khi đó: $S_{\\text {trong kinh }}=\\left[\\frac{8}{3}\\left(a_{1}-1\\right)-2 b_{1}+4\\right]+\\left[\\frac{42}{5}+\\frac{343 a_{1}}{3}+\\frac{49 b_{1}}{2}\\right]=\\frac{836}{25} \\Leftrightarrow 117 a_{1}+\\frac{45}{2} b_{1}=\\frac{1778}{75} \\quad (2)$<br/>Từ (1), (2) $\\Rightarrow\\left\\{\\begin{array}{l}49 a_{1}+7 b_{1}=2 \\\\ 117 a_{1}+\\frac{45}{2} b_{1}=\\frac{1778}{75}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a_{1}=-\\frac{18142}{42525} \\\\ b_{1}=\\frac{139144}{42525}\\end{array} \\Rightarrow A C:\\left(C_{1}\\right): y=-\\frac{18142}{42525} x^{2}+\\frac{139144}{42525} x-2\\right.\\right.$<br/>Ta có $D(1 ; k) \\in\\left(C_{1}\\right) \\Rightarrow k=-\\frac{18142}{42525}+\\frac{139144}{42525}-2=\\frac{1712}{2025} \\Rightarrow k_{1}+k_{2}=1712+2025=3737$."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-02-13T09:23:58.162Z",
+    "updatedAt": "2026-02-25T15:11:40.467Z",
+    "__v": 0
+}
+
+{
+    "_id": "698a8a65122c65b6a4be5f0e",
+    "title": "[AECK]-Tư Duy Đọc Hiểu-Đề 18",
+    "numberOfQuestions": 20,
+    "time": 30,
+    "answer": {
+        "b2b30851-76db-44c6-85d5-c39ee970840b": "X",
+        "Câu 1": "C",
+        "Câu 2": "A",
+        "Câu 3": [
+            {
+                "slot1": "D>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "C"
+            }
+        ],
+        "Câu 4": [
+            "c2",
+            "c4"
+        ],
+        "Câu 5": [
+            "năng suất"
+        ],
+        "Câu 6": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "A>"
+            },
+            {
+                "slot3": "C>"
+            }
+        ],
+        "Câu 7": "B",
+        "Câu 8": [
+            "mạng lưới"
+        ],
+        "Câu 9": "A",
+        "Câu 10": "B",
+        "fd9bbb4b-320b-4b6c-992c-6d5025d9d162": "X",
+        "Câu 11": "C",
+        "Câu 12": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "B>"
+            },
+            {
+                "slot3": "E>"
+            }
+        ],
+        "Câu 13": [
+            "ấm hơn"
+        ],
+        "Câu 14": [
+            "c2",
+            "c4"
+        ],
+        "Câu 15": "B",
+        "Câu 16": "A",
+        "Câu 17": [
+            "c3",
+            "c4"
+        ],
+        "Câu 18": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 19": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "D>"
+            },
+            {
+                "slot3": "B>"
+            }
+        ],
+        "Câu 20": [
+            "khoa học liên ngành."
+        ]
+    },
+    "startTime": "2026-01-24T18:01:00.000Z",
+    "endTime": "2026-04-30T18:01:00.000Z",
+    "questions": [
+        {
+            "question": "b2b30851-76db-44c6-85d5-c39ee970840b",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>ỨNG DỤNG KHOA HỌC C&Ocirc;NG NGHỆ TRONG BẢO TỒN V&Agrave; PH&Aacute;T TRIỂN NGUỒN GEN</strong></div>\n<strong>[0] </strong>Theo b&aacute;o c&aacute;o Bộ Khoa học v&agrave; C&ocirc;ng nghệ, t&iacute;nh đến hết th&aacute;ng 6/2022, nhiều đề t&agrave;i khai th&aacute;c, ph&aacute;t triển nguồn gen đ&atilde; v&agrave; đang được thực hiện nhờ ứng dụng khoa học c&ocirc;ng nghệ hiện đại kết hợp h&agrave;i h&ograve;a với tri thức truyền thống, g&oacute;p phần bảo tồn đa dạng sinh học, bảo vệ thi&ecirc;n nhi&ecirc;n, m&ocirc;i trường.<br />\n<strong>[1]</strong> Trong 5 năm trở lại đ&acirc;y, c&ocirc;ng t&aacute;c cấp ph&aacute;t nguồn gen đ&atilde; c&oacute; những bước ph&aacute;t triển mạnh về số lượng v&agrave; chất lượng. Trung b&igrave;nh mỗi năm, Trung t&acirc;m T&agrave;i nguy&ecirc;n Thực vật (Viện Khoa học N&ocirc;ng nghiệp Việt Nam) cấp khoảng 1.000 mẫu giống. C&aacute;c mẫu giống được sử dụng c&oacute; hiệu quả trong nghi&ecirc;n cứu v&agrave; khai th&aacute;c nguồn gen.<br />\n<strong>[2]</strong> &Ocirc;ng Nguyễn Đ&igrave;nh Hậu, Vụ trưởng Vụ Khoa học v&agrave; C&ocirc;ng nghệ c&aacute;c ng&agrave;nh kinh tế kĩ thuật (Bộ Khoa học v&agrave; C&ocirc;ng nghệ) cho biết: C&ocirc;ng t&aacute;c khai th&aacute;c nguồn gen đ&atilde; được c&aacute;c đơn vị tập trung triển khai, đạt được kết quả như: chọn tạo/phục tr&aacute;ng, ph&aacute;t triển được 30 giống l&uacute;a tại c&aacute;c tỉnh B&igrave;nh Thuận, Ph&uacute; Y&ecirc;n, Cần Thơ; phục tr&aacute;ng/chọn tạo được c&aacute;c giống dứa Cayen kh&ocirc;ng gai Ch&acirc;n Mộng; vải H&ugrave;ng Long - VPH10; chuối Ti&ecirc;u vừa Ph&uacute; Thọ - VN1064; xo&agrave;i V&acirc;n Du - XPH11; giống Lạc ti&ecirc;n - LPH04; giống c&agrave; ph&ecirc; ch&egrave; - TN1 v&agrave; TN2; qu&yacute;t - PQ1... C&aacute;c giống tr&ecirc;n cho năng suất cao, chất lượng, khả năng chống chịu tốt. Nhiều nguồn gen c&acirc;y cải tạo v&agrave; bảo vệ đất đ&atilde; được sử dụng để phục hồi, cải tạo, chống x&oacute;i m&ograve;n đất tại huyện Sơn Dương (tỉnh Tuy&ecirc;n Quang) v&agrave; th&agrave;nh phố Cẩm Phả (tỉnh Quảng Ninh); chống x&oacute;i lở đất đường Hồ Ch&iacute; Minh ở H&agrave; Tĩnh, H&ograve;a B&igrave;nh, Quảng B&igrave;nh v&agrave; một số nơi kh&aacute;c.<br />\n<strong>[3]</strong> C&oacute; thể kể đến như Ban Quản l&iacute; Khu bảo tồn thi&ecirc;n nhi&ecirc;n Xu&acirc;n Li&ecirc;n, huyện Thường Xu&acirc;n, Thanh H&oacute;a, đ&atilde; thực hiện th&agrave;nh c&ocirc;ng đề t&agrave;i khoa học &ldquo;Bảo tồn, khai th&aacute;c v&agrave; ph&aacute;t triển nguồn gen lan H&agrave;i V&acirc;n Bắc, lan H&agrave;i L&ocirc;ng v&agrave; lan Thủy Ti&ecirc;n Hường v&ugrave;ng Bắc Trung Bộ (giai đoạn 2017-2022)&rdquo;. Qua đ&oacute;, ph&aacute;t hiện được 210 c&aacute; thể lan H&agrave;i V&acirc;n Bắc, 1.175 c&aacute; thể lan H&agrave;i L&ocirc;ng, 1.265 c&aacute; thế lan Thủy Ti&ecirc;n Hường tại khu vực Bắc Trung Bộ.<br />\n<strong>[4]</strong> Thời gian tới, Ban Quản l&iacute; Khu bảo tồn thi&ecirc;n nhi&ecirc;n Xu&acirc;n Li&ecirc;n sẽ đề nghị UBND tỉnh Thanh H&oacute;a v&agrave; Bộ Khoa học C&ocirc;ng nghệ tạo điều kiện để đơn vị tiếp tục đăng k&yacute; thực hiện Dự &aacute;n &ldquo;Ho&agrave;n thiện quy tr&igrave;nh v&agrave; sản xuất giống c&aacute;c lo&agrave;i lan H&agrave;i V&acirc;n Bắc, lan H&agrave;i L&ocirc;ng v&agrave; lan Thủy Ti&ecirc;n Hường cho v&ugrave;ng Bắc Trung Bộ&rdquo;, phục vụ c&ocirc;ng t&aacute;c bảo tồn, khai th&aacute;c v&agrave; ph&aacute;t triển nguồn gen c&aacute;c lo&agrave;i n&agrave;y một c&aacute;ch bền vững v&agrave; hiệu quả, g&oacute;p phần bảo tồn đa dạng sinh học của tự nhi&ecirc;n.<br />\n<strong>[5]</strong> Hay như Trung t&acirc;m Nghi&ecirc;n cứu ứng dụng đậu n&agrave;nh Vinasoy (VSAC - thuộc C&ocirc;ng ty Sữa đậu n&agrave;nh Việt Nam) vừa thực hiện đợt trồng khảo nghiệm, đ&aacute;nh gi&aacute; 1.533 nguồn gen đậu n&agrave;nh qu&yacute; tại Trạm Khảo nghiệm đậu n&agrave;nh T&acirc;y Nguy&ecirc;n sau 10 năm thu thập, nghi&ecirc;n cứu. Đ&acirc;y l&agrave; đợt trồng đ&aacute;nh gi&aacute; to&agrave;n bộ tập đo&agrave;n nguồn gen đậu n&agrave;nh hiện c&oacute; để l&agrave;m vật liệu lai tạo giống, nhằm ph&aacute;t triển c&aacute;c giống đậu n&agrave;nh mới c&oacute; chất lượng dinh dưỡng v&agrave; năng suất cao, ph&ugrave; hợp với c&aacute;c v&ugrave;ng nguy&ecirc;n liệu khắp cả nước.<br />\n<strong>[6]</strong> &Ocirc;ng Huỳnh Sơn Hải, Gi&aacute;m đốc Trung t&acirc;m Nghi&ecirc;n cứu ứng dụng đậu n&agrave;nh Vinasoy cho biết: Vinasoy đ&atilde; quyết t&acirc;m đầu tư đến c&ugrave;ng cho v&ugrave;ng nguy&ecirc;n liệu để chủ động được nguồn đậu n&agrave;nh thơm ngon, gi&agrave;u dinh dưỡng. V&igrave; vậy, Vinasoy đ&atilde; đầu tư ph&aacute;t triển đội ngũ kĩ sư, nh&agrave; khoa học giỏi nhất v&agrave; c&ocirc;ng nghệ nghi&ecirc;n cứu ti&ecirc;n tiến nhất trong lĩnh vực đậu n&agrave;nh. Qua đ&oacute;, chọn tạo th&agrave;nh c&ocirc;ng giống đậu n&agrave;nh kh&ocirc;ng biến đổi gen VINASOY 02 - NS, c&oacute; năng suất cao, ph&ugrave; hợp với c&aacute;c d&ograve;ng sản phẩm v&agrave; chuyển giao cho n&ocirc;ng d&acirc;n ở c&aacute;c v&ugrave;ng nguy&ecirc;n liệu cải thiện năng suất chỉ từ 1 - 1,5 tấn l&ecirc;n 2,5 - 3 tấn/ha.<br />\n[7] Cũng nhằm bảo tồn v&agrave; nh&acirc;n rộng m&ocirc; h&igrave;nh trồng c&aacute;c lo&agrave;i c&acirc;y dược liệu qu&yacute;, g&oacute;p phần ph&aacute;t triển kinh tế cho người d&acirc;n, Hạt kiểm l&acirc;m huyện Thạch Th&agrave;nh (Chi cục Kiểm l&acirc;m, Sở N&ocirc;ng nghiệp v&agrave; Ph&aacute;t triển n&ocirc;ng th&ocirc;n tỉnh Thanh H&oacute;a) đang triển khai đề t&agrave;i khoa học c&ocirc;ng nghệ &ldquo;Nghi&ecirc;n cứu bảo tồn v&agrave; ph&aacute;t triển một số lo&agrave;i dược liệu qu&yacute; hiếm, c&oacute; gi&aacute; trị kinh tế cao như tr&agrave; hoa v&agrave;ng H&agrave;m Y&ecirc;n, tr&agrave; hoa v&agrave;ng C&uacute;c Phương tại c&aacute;c huyện miền n&uacute;i tỉnh Thanh H&oacute;a (giai đoạn 2021-2023)&rdquo;. Được biết, tr&agrave; hoa v&agrave;ng H&agrave;m Y&ecirc;n, tr&agrave; hoa v&agrave;ng C&uacute;c Phương chứa c&aacute;c chất c&oacute; t&aacute;c dụng bảo vệ sức khỏe, củng cố t&iacute;nh đ&agrave;n hồi của th&agrave;nh mạch, điều h&ograve;a c&aacute;c enzyme hoạt ho&aacute; cholesterol...<br />\n<strong>[8]</strong> C&oacute; thể nhận thấy, c&aacute;c nhiệm vụ khai th&aacute;c v&agrave; ph&aacute;t triển nguồn gen vật nu&ocirc;i đều cho kết quả tốt, được ứng dụng hiệu quả v&agrave;o đời sống. Đ&aacute;ng ch&uacute; &yacute;, sau một thời gian thực hiện, c&aacute;c đề t&agrave;i nghi&ecirc;n cứu kh&ocirc;ng những đ&atilde; chọn lọc được đ&agrave;n hạt nh&acirc;n mang c&aacute;c đặc trưng của giống dựa tr&ecirc;n c&aacute;c ti&ecirc;u chuẩn cơ sở m&agrave; c&ograve;n x&acirc;y dựng được một số quy tr&igrave;nh chăn nu&ocirc;i ph&ugrave; hợp với từng đối tượng vật nu&ocirc;i.<br />\n<strong>[9]</strong> Hiện nay, cơ sở dữ liệu nguồn gen bước đầu đ&atilde; được x&acirc;y dựng, tuy nhi&ecirc;n chưa x&acirc;y dựng được mạng lưới nguồn gen trong cả nước tham gia v&agrave;o mạng lưới nguồn gen n&oacute;i chung, nguồn gen n&ocirc;ng nghiệp trong khu vực v&agrave; tr&ecirc;n thế giới n&ecirc;n việc giới thiệu, quảng b&aacute;, khai th&aacute;c sử dụng nguồn gen c&ograve;n hạn chế.<br />\n<strong>[10]</strong> V&igrave; vậy, cần tăng cường cơ sở vật chất, trang thiết bị, n&acirc;ng cấp trang thiết bị bảo tồn, đ&aacute;nh gi&aacute; nguồn gen, hệ thống bảo quản, nh&agrave; lưới; gia tăng nguồn lực khoa học - c&ocirc;ng nghệ trong lĩnh vực bảo tồn, khai th&aacute;c, ph&aacute;t triển nguồn gen, tạo điều kiện để c&aacute;n bộ thực hiện nhiệm vụ tiếp cận c&aacute;c nguồn th&ocirc;ng tin, chia sẻ th&ocirc;ng tin, kinh nghiệm, phương ph&aacute;p, kỹ thuật trong bảo tồn, đ&aacute;nh gi&aacute; tuyển chọn v&agrave; khai th&aacute;c nguồn gen tại Việt Nam cũng như tr&ecirc;n thế giới.&rdquo;\n\n<div style=\"text-align: right;\"><strong><em>(Thuận An, </em>B&aacute;o điện tử Đảng cộng sản Việt Nam<em>)</em></strong></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 10:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Mục đích chính của bài viết là gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> X&aacute;c định <strong>từ kh&oacute;a</strong> trong nhan đề v&agrave; đoạn mở đầu (như &ldquo;khai th&aacute;c, ph&aacute;t triển nguồn gen&rdquo; , &ldquo;ứng dụng khoa học c&ocirc;ng nghệ&rdquo; , &ldquo;bảo vệ tồn tại đa dạng sinh học&rdquo; ) để nắm bắt nội dung ch&iacute;nh, sau đ&oacute; <strong>loại trừ</strong> c&aacute;c giải ph&aacute;p kh&ocirc;ng bảo quản hết nội dung b&agrave;i.<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[0]</strong> giới thiệu việc thực hiện nhiều đề t&agrave;i khai th&aacute;c, ph&aacute;t triển nguồn gen nhờ khoa học c&ocirc;ng nghệ để <strong>&ldquo;g&oacute;p phần bảo tồn đa dạng sinh học&rdquo;</strong>, t&igrave;m thấy văn bản xoay quanh vấn đề bảo tồn v&agrave; ph&aacute;t triển nguồn gen qu&yacute;. B&agrave;i viết chủ yếu tr&igrave;nh b&agrave;y những vấn đề trong việc bảo tồn c&aacute;c nguồn gen qu&yacute; hiếm v&agrave; đề xuất giải ph&aacute;p ph&aacute;t triển nguồn gen. Ti&ecirc;u đề v&agrave; mở đầu văn bản nhấn mạnh việc <strong>khai th&aacute;c, ph&aacute;t triển nguồn gen gi&uacute;p ứng dụng khoa học c&ocirc;ng nghệ</strong> khuyến <strong>kh&iacute;ch tồn tại đa dạng sinh học</strong>. B&agrave;i kh&ocirc;ng tập trung liệt k&ecirc; th&agrave;nh phần c&ocirc;ng nghệ nổi bật (loại B), cũng kh&ocirc;ng n&ecirc;u r&otilde; kết quả hiệu quả của khoa học c&ocirc;ng nghệ (loại A), v&agrave; kh&ocirc;ng đề cập đến nguy&ecirc;n nh&acirc;n hay mục ti&ecirc;u bảo tồn gen qu&yacute; hiếm (loại D). V&igrave; vậy, đ&aacute;p &aacute;n <strong>C</strong> ph&ugrave; hợp nhất.",
+            "contentAnswerA": "Nêu hiệu quả vượt trội của ứng dụng khoa học công nghệ trong bảo tồn và phát triển nguồn gen.",
+            "contentAnswerB": "Giới thiệu những ứng dụng khoa học nổi bật và đạt được nhiều thành tựu trong quá trình bảo tồn và phát triển các nguồn gen.",
+            "contentAnswerC": "Trình bày một số vấn đề trong việc bảo tồn các nguồn gen quý và giải pháp về phát triển gen.",
+            "contentAnswerD": "Đề cập đến nguyên nhân và mục tiêu bảo vệ các nguồn gen quý hiếm bằng việc ứng dụng nghiên cứu khoa học."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Hoàn thành câu sau bằng cách chọn đáp án Đúng hoặc Sai.<br/>Theo đoạn <strong>[1]</strong>, các mẫu giống được cung cấp tại Việt Nam trong thời gian gần đây ngày một gia tăng và đem lại hiệu quả nhất định cho công tác nghiên cứu và khai thác nguồn gen.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> X&aacute;c định <strong>từ kh&oacute;a</strong> &ldquo;mẫu tương tự được cung cấp&rdquo; rồi t&igrave;m trong văn bản. Đoạn <strong>[1]</strong> cung cấp th&ocirc;ng tin về việc <strong>cung cấp nguồn gen</strong> những năm gần đ&acirc;y, đối chiếu với nhận định để kết luận t&iacute;nh đ&uacute;ng/sai.<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[1]</strong>, c&acirc;u 2-3: &ldquo;Trung b&igrave;nh mỗi năm, Trung t&acirc;m&hellip; cấp khoảng 1.000 mẫu giống nhau. C&aacute;c mẫu tương tự được sử dụng c&oacute; kết quả hiệu quả trong nghi&ecirc;n cứu v&agrave; khai th&aacute;c nguồn gen.&rdquo;&rarr; chứng minh mẫu tương tự ph&aacute;t ng&agrave;y c&agrave;ng nhiều v&agrave; hữu &iacute;ch, khẳng định biểu thức ph&aacute;t biểu l&agrave; đ&uacute;ng. Nhận định &ldquo;c&aacute;c mẫu tương tự được cung cấp ng&agrave;y tăng v&agrave; mang lại hiệu quả cho nghi&ecirc;n cứu, khai th&aacute;c nguồn gen&rdquo; l&agrave; <strong>đ&uacute;ng</strong> . Đoạn <strong>[1]</strong> n&ecirc;u r&otilde; trong 5 năm trở lại đ&acirc;y, mỗi năm <strong>cấp khoảng 1.000 mẫu giống</strong> v&agrave; <strong>&ldquo;c&aacute;c mẫu tương tự được sử dụng c&oacute; kết quả hiệu quả trong nghi&ecirc;n cứu nghi&ecirc;n cứu v&agrave; khai th&aacute;c nguồn gen.&rdquo;</strong>",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Dựa vào đoạn [2], hãy hoàn thành câu sau bằng cách kéo thả các từ vào vị trí thích hợp:<br/>Với những yêu cầu đặt ra trong quá trình <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-1\">____DRAG_DROP_1____</span> nguồn gen quý hiếm để đảm bảo tính đa dạng sinh học, các đơn vị cần <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-2\">____DRAG_DROP_2____</span> những giống có năng suất cao trước để tiến hành <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-3\">____DRAG_DROP_3____</span> các ứng dụng khoa học mới, vượt qua nhiều lần kiểm duyệt.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "D>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "C"
+                }
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> X&aacute;c định &yacute; nghĩa tổng qu&aacute;t của c&acirc;u hỏi cần ho&agrave;n th&agrave;nh (quy tr&igrave;nh bảo tồn nguồn gen). <strong>D&ograve; t&igrave;m đoạn [2]</strong> với c&aacute;c cụm từ li&ecirc;n quan (&ldquo;chọn tạo&hellip; giống&rdquo;, &ldquo;phục tr&aacute;ng&hellip; giống c&oacute; năng suất cao&rdquo;) để suy luận ra tr&igrave;nh tự hợp l&yacute; v&agrave; chọn c&aacute;c từ ph&ugrave; hợp điền v&agrave;o chỗ trống.<br />\nGiải th&iacute;ch: Đoạn [2] liệt k&ecirc; c&aacute;c kết quả được tạo ra, lớp tr&aacute;ng mới c&oacute; năng suất cao , khả năng chịu đựng tốt.... Từ đ&oacute; suy ra: để bảo tồn nguồn gen hiệu quả qu&yacute; gi&aacute; cần chọn lọc tương tự rồi tiến h&agrave;nh thử nghiệm c&aacute;c ứng dụng khoa học mới. C&acirc;u cần điền diễn đạt quy tr&igrave;nh trong c&ocirc;ng t&aacute;c bảo tồn nguồn gen qu&yacute;: trước hết phải bảo tồn nguồn gen, sau đ&oacute; chọn lọc những thứ tương tự trước khi thử nghiệm c&aacute;c ứng dụng khoa học mới. Từ văn cảnh đoạn [2], mục ti&ecirc;u đặt ra l&agrave; bảo vệ nguồn qu&yacute; hiếm bằng c&aacute;ch chọn lọc v&agrave; ph&aacute;t triển giống năng suất cao, chất lượng tốt v&agrave; thử nghiệm ứng dụng khoa học. Do đ&oacute;, c&aacute;c từ điền ph&ugrave; hợp lần như l&agrave; &ldquo;bảo tồn&rdquo;, &ldquo;chọn lọc&rdquo;, &ldquo;thử nghiệm&rdquo;.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Khai thác"
+                },
+                {
+                    "id": "B>",
+                    "content": "Chọn lọc"
+                },
+                {
+                    "id": "C>",
+                    "content": "Thử nghiệm"
+                },
+                {
+                    "id": "D>",
+                    "content": "Bảo tồn"
+                }
+            ]
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Đâu KHÔNG phải mục tiêu của dự án sản xuất các giống lan tại Bắc Trung Bộ?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c4"
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> <strong>Đọc kỹ y&ecirc;u cầu</strong> (t&igrave;m &yacute; kh&ocirc;ng phải mục ti&ecirc;u) v&agrave; <strong>t&igrave;m từ kh&oacute;a</strong> &ldquo;như lan&rdquo;, &ldquo;Bắc Trung Bộ&rdquo; trong văn bản. Đối chiếu th&ocirc;ng tin đoạn <strong>[4]</strong> về mục ti&ecirc;u dự &aacute;n với từng c&acirc;u trả lời: chọn những c&acirc;u trả lời kh&ocirc;ng xuất hiện hoặc kh&ocirc;ng ph&ugrave; hợp với th&ocirc;ng tin mục ti&ecirc;u để loại bỏ, kết luận c&acirc;u trả lời đ&uacute;ng.<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[4]</strong> n&ecirc;u r&otilde; mục ti&ecirc;u dự &aacute;n: &ldquo;...phục vụ c&ocirc;ng t&aacute;c bảo tồn, khai th&aacute;c v&agrave; ph&aacute;t triển nguồn gen c&aacute;c lo&agrave;i n&agrave;y một c&aacute;ch bền vững v&agrave; hiệu quả, g&oacute;p phần bảo tồn đa dạng sinh học&hellip;&rdquo;. Điều n&agrave;y tương ứng với &yacute; <strong>A</strong> v&agrave; <strong>C</strong> . &Yacute; <strong>B</strong> v&agrave; <strong>D</strong> kh&ocirc;ng được đề cập trong đoạn n&agrave;y n&ecirc;n ch&uacute;ng kh&ocirc;ng phải l&agrave; mục ti&ecirc;u của dự &aacute;n. Dự &aacute;n sản xuất c&aacute;c giống lan tại Bắc Trung Bộ đặt mục ti&ecirc;u <strong>bảo tồn, khai th&aacute;c v&agrave; ph&aacute;t triển bền vững nguồn gen</strong> những lo&agrave;i lan qu&yacute;, g&oacute;p phần <strong>bảo tồn đa dạng sinh học</strong>. Do đ&oacute;:<br />\nL&agrave; mục ti&ecirc;u đ&uacute;ng (n&acirc;ng cao hiệu quả bảo tồn nguồn gen qu&yacute; hiếm ph&ugrave; hợp với việc bảo tồn vững chắc).B kh&ocirc;ng phải mục ti&ecirc;u &ndash; văn bản kh&ocirc;ng nhắc đến c&ocirc;ng việc &ldquo;kiểm tra đề t&agrave;i khoa học để tạo giống lan mới&rdquo; .C l&agrave; mục ti&ecirc;u đ&uacute;ng (đảm bảo đa dạng sinh học trong khu vực, v&igrave; dự &aacute;n hướng dẫn bảo tồn đa dạng sinh học thi&ecirc;n nhi&ecirc;n).D kh&ocirc;ng phải mục ti&ecirc;u &ndash; kh&ocirc;ng c&oacute; chi tiết n&agrave;o n&oacute;i về &ldquo;t&igrave;m kiếm đột biến&rdquo; trong dự &aacute;n.",
+            "contentC1": "Nâng cao hiệu quả trong việc bảo tồn các nguồn gen quý hiếm.",
+            "contentC2": "Thử nghiệm đề tài khoa học trong việc tạo ra giống cây lan mới.",
+            "contentC3": "Đảm bảo sự đa dạng sinh học trong khu vực Bắc Trung Bộ.",
+            "contentC4": "Tìm kiếm và phát hiện những cá thể lan đột biến trong vùng."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Dựa theo đoạn [6], điền từ KHÔNG QUÁ HAI TIẾNG vào chỗ trống:<br/>Nhận thức được vai trò của Vinasoy đã đầu tư phát triển nguồn nhân lực, Vinasoy đã sử dụng nhiều cách thức khác nhau hướng tới mục tiêu thu hút nhân tài chất lượng cao, phát triển kĩ thuật, xây dựng đội ngũ nghiên cứu nhằm tìm ra chọn tạo một giống đậu nành có khả năng cải thiện về <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> nhưng không gây hậu quả về việc biến đổi gen.",
+            "type": "TLN",
+            "correctAnswer": [
+                "năng suất"
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> X&aacute;c định <strong>mối quan hệ</strong> trong c&acirc;u hỏi: Vinasoy t&igrave;m c&aacute;ch tạo giống đậu n&agrave;nh cải thiện thiện về điều g&igrave; m&agrave; kh&ocirc;ng biến đổi gen? T&igrave;m theo c&aacute;c từ kh&oacute;a &ldquo;Vinasoy&rdquo;, &ldquo;như đậu n&agrave;nh&rdquo; trong đoạn <strong>[6]</strong> sẽ t&igrave;m thấy ngay th&ocirc;ng tin về <strong>năng suất cao</strong> . Điền từ th&iacute;ch hợp v&agrave;o chỗ trống.<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[6]</strong> (c&acirc;u 3-4) n&ecirc;u: &ldquo;...chọn tạo th&agrave;nh c&ocirc;ng tương đậu n&agrave;nh kh&ocirc;ng biến đổi gen VINASOY 02-NS, <strong><em>c&oacute; năng suất cao</em></strong> , ph&ugrave; hợp với c&aacute;c d&ograve;ng sản phẩm&hellip;&rdquo;. Từ &ldquo;năng suất cao&rdquo; cho thấy mục ti&ecirc;u cải thiện <strong>năng suất</strong> của đậu n&agrave;nh. Khoảng trống y&ecirc;u cầu yếu tố m&agrave; Vinasoy muốn cải thiện ở c&ugrave;ng đậu mới, &ldquo;nhưng kh&ocirc;ng g&acirc;y hậu quả về biến đổi gen&rdquo; . Đoạn <strong>[6]</strong> cho biết Vinasoy đ&atilde; nghi&ecirc;n cứu th&agrave;nh c&ocirc;ng <strong>tương đậu n&agrave;nh kh&ocirc;ng biến đổi gen VINASOY 02-NS, c&oacute; năng suất cao</strong>. Tức l&agrave; tương tự mới <strong>cải tiến về hiệu suất</strong> m&agrave; vẫn kh&ocirc;ng c&oacute; biến đổi gen. Do đ&oacute;, từ cần điền l&agrave; <strong>&ldquo;năng suất&rdquo;</strong>"
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí:<br/>Việc <span class=\"drag-drop-blank\" data-drop-id=\"Câu 6-1\">____DRAG_DROP_1____</span> công nghệ trong <span class=\"drag-drop-blank\" data-drop-id=\"Câu 6-2\">____DRAG_DROP_2____</span> nguồn gen quý của vật nuôi không chỉ tạo ra những hiệu quả về <span class=\"drag-drop-blank\" data-drop-id=\"Câu 6-3\">____DRAG_DROP_3____</span> gen mà còn xây dựng được những tiêu chuẩn, quy trình trong việc chăm sóc động, thực vật.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "A>"
+                },
+                {
+                    "slot3": "C>"
+                }
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> Dựa v&agrave;o <strong>ngữ cảnh</strong> của c&acirc;u (li&ecirc;n quan đến c&ocirc;ng nghệ, bảo tồn, ph&aacute;t triển gen) để x&aacute;c định trường từ ph&ugrave; hợp. Sau đ&oacute; <strong>t&igrave;m đoạn [8]</strong> với từ kh&oacute;a &ldquo;vật nu&ocirc;i&rdquo; v&agrave; &ldquo;quy tr&igrave;nh&rdquo; để khớp th&ocirc;ng tin, từ đ&oacute; lựa chọn c&aacute;c từ th&iacute;ch hợp điền v&agrave;o chỗ trống.<br />\nGiải th&iacute;ch: Đoạn [8] cho biết: &ldquo;...c&aacute;c nhiệm vụ khai th&aacute;c v&agrave; ph&aacute;t triển nguồn gen vật nu&ocirc;i đều cho kết quả tốt, được ứng dụng hiệu quả v&agrave;o đời sống... lựa chọn lọc đ&agrave;n hạt nh&acirc;n...x&acirc;y dựng được một số quy tr&igrave;nh chăn nu&ocirc;i&hellip;&rdquo;. Nội dung n&agrave;y h&agrave;m &yacute; việc ứng dụng c&ocirc;ng nghệ trong việc bảo tồn nguồn gen vật nu&ocirc;i đ&atilde; gi&uacute;p ph&aacute;t triển nguồn gen (chọn bộ lọc để đạt được mục đ&iacute;ch tốt). C&acirc;u n&agrave;y n&oacute;i về việc ứng dụng c&ocirc;ng nghệ trong bảo tồn nguồn gen qu&yacute; của vật nu&ocirc;i, mang lại hiệu quả về ph&aacute;t triển gen v&agrave; tạo ra quy tr&igrave;nh chăm s&oacute;c ti&ecirc;u chuẩn. Đối chiếu với nội dung đoạn [8]: c&aacute;c đề t&agrave;i nghi&ecirc;n cứu đ&atilde; ứng dụng c&ocirc;ng nghệ v&agrave;o bảo tồn nguồn gen vật nu&ocirc;i, mang lại kết quả ph&aacute;t triển nguồn gen (chọn lọc để c&oacute; được đ&agrave;n hạt nh&acirc;n v&agrave; c&aacute;c đặc sản tốt). V&igrave; vậy, h&atilde;y điền thời gian như: &ldquo;ứng dụng&rdquo; (c&ocirc;ng nghệ) , &ldquo;bảo tồn&rdquo; ( nguồn gen) , &ldquo;ph&aacute;t triển&rdquo; (gen) .",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Bảo tồn"
+                },
+                {
+                    "id": "B>",
+                    "content": "Ứng dụng"
+                },
+                {
+                    "id": "C>",
+                    "content": "Phát triển"
+                },
+                {
+                    "id": "D>",
+                    "content": "Nghiên cứu"
+                }
+            ]
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Cụm từ “đàn hạt nhân” trong văn bản dùng để nhắc tới:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nPhương ph&aacute;p: X&aacute;c định cụm từ kh&oacute;a đặc biệt &ldquo;đ&agrave;n hạt nh&acirc;n&rdquo; v&agrave; t&igrave;m trong văn bản (đoạn [8]). Dựa v&agrave;o ngữ cảnh giải th&iacute;ch xung quanh cụm từ để suy luận định nghĩa: từ nội dung &ldquo;chọn lọc... theo ti&ecirc;u chuẩn&rdquo; suy ra đối tượng n&agrave;y ch&iacute;nh l&agrave; nh&oacute;m vật nu&ocirc;i đ&atilde; chọn lọc đạt chuẩn &ndash; khớp với đ&aacute;p &aacute;n B.<br />\nGiải th&iacute;ch: Đoạn [8] (c&acirc;u 2) c&oacute; c&acirc;u: &ldquo;...đ&atilde; chọn lọc được c&aacute;c hạt nh&acirc;n mang c&aacute;c đặc t&iacute;nh tương tự dựa tr&ecirc;n cơ sở ti&ecirc;u chuẩn&hellip;&rdquo;. Cụm từ n&agrave;y cho thấy đ&agrave;n hạt nh&acirc;n l&agrave; tập hợp c&aacute;c c&aacute; vật nu&ocirc;i đ&atilde; được lọc kỹ năng c&agrave;ng theo ti&ecirc;u chuẩn tương tự , ph&ugrave; hợp với &yacute; B. &ldquo;Đ&agrave;n hạt nh&acirc;n&rdquo; trong văn bản được hiểu l&agrave; những vật nu&ocirc;i đ&atilde; qua qu&aacute; tr&igrave;nh lọc kỹ thuật lưỡng, mang đặc t&iacute;nh của giống v&agrave; đảm bảo ti&ecirc;u chuẩn để nh&acirc;n giống. Đoạn [8] viết rằng c&aacute;c t&agrave;i liệu đ&atilde; được lọc đ&atilde; được lọc &ldquo;đ&agrave;n nh&acirc;n mang c&aacute;c đặc điểm ri&ecirc;ng dựa tr&ecirc;n cơ sở ti&ecirc;u chuẩn&rdquo;. Điều n&agrave;y ph&ugrave; hợp với đ&aacute;p &aacute;n B &ndash; những vật nu&ocirc;i đ&atilde; qua thử nghiệm, đảm bảo đủ ti&ecirc;u chuẩn về tương tự . C&aacute;c giải ph&aacute;p kh&aacute;c kh&ocirc;ng đ&uacute;ng: A m&ocirc; tả chung, C n&oacute;i về quy tr&igrave;nh chăm s&oacute;c (kh&ocirc;ng phải &ldquo;đ&agrave;n&rdquo;), D nhắc đến &ldquo;nguồn gen&rdquo; kh&ocirc;ng ph&ugrave; hợp ngữ cảnh &ldquo;đ&agrave;n hạt nh&acirc;n&rdquo;.",
+            "contentAnswerA": "Những con vật mang đặc trưng của loài và có thể tiến hành nhân giống diện rộng.",
+            "contentAnswerB": "Những vật nuôi đã qua quá trình thử nghiệm và đảm bảo đủ các tiêu chuẩn về giống.",
+            "contentAnswerC": "Bộ quy trình chăm sóc đảm bảo việc bảo tồn và phát triển nguồn gen quý hiếm.",
+            "contentAnswerD": "Nguồn gen được phát hiện, tổng hợp lại sau quá trình thử nghiệm trên vật nuôi đặc trưng."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Dựa vào đoạn [9], hãy điền một cụm từ KHÔNG QUÁ HAI TIẾNG để hoàn thành câu văn sau.<br/>Bên cạnh những thành quả đã đạt được thì công tác bảo tồn và phát triển nguồn gen còn gặp một số khó khăn trong việc xây dựng và khai thác <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> nguồn gen.",
+            "type": "TLN",
+            "correctAnswer": [
+                "mạng lưới"
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> <strong>Đọc kỹ c&acirc;u văn</strong> trước v&agrave; sau chỗ trống để x&aacute;c định chủ đề (kh&oacute; khăn tồn tại). Sau đ&oacute; <strong>t&igrave;m đoạn [9]</strong> với dấu hiệu từ nối &ldquo;tuy nhi&ecirc;n&rdquo; &ndash; đoạn n&agrave;y n&ecirc;u giới hạn chế độ do <strong>chưa c&oacute; nguồn gen mạng mạng</strong> . Điền cụm từ &ldquo;mạng lưới (nguồn gen)&rdquo; ph&ugrave; hợp với bối cảnh.<br />\nGiải th&iacute;ch: Đoạn [9] (c&acirc;u 1) viết: &ldquo;...tuy nhi&ecirc;n chưa x&acirc;y dựng được mạng lưới nguồn gen trong cả nước... n&ecirc;n... khai th&aacute;c th&aacute;c sử dụng nguồn gen c&ograve;n hạn chế.&quot;. C&acirc;u n&agrave;y phản &aacute;nh &aacute;nh trực tiếp kh&oacute; khăn về việc x&acirc;y dựng nguồn gen mạng lưới , tr&ugrave;ng lặp với chỗ trống cần điền.C&acirc;u ho&agrave;n chỉnh phải n&ecirc;u kh&oacute; khăn trong việc x&acirc;y dựng v&agrave; khai th&aacute;c nguồn gen mạng lưới . Đoạn [9] chỉ r&otilde;: &ldquo;tuy nhi&ecirc;n chưa x&acirc;y dựng được mạng nguồn gen trong cả nước... n&ecirc;n việc... khai th&aacute;c th&aacute;c sử dụng nguồn gen c&ograve;n hạn chế&rdquo;. Do đ&oacute;, cụm cần điền l&agrave; &ldquo;mạng lưới ( nguồn gen)&rdquo; ."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Nguyên nhân chính của việc hạn chế khai thác nguồn gen tại Việt Nam là gì?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> Tập trung cụm từ kh&oacute;a <strong>&ldquo;hạn chế&rdquo;</strong> hoặc <strong>&ldquo;nguy&ecirc;n nh&acirc;n&rdquo;</strong> v&agrave; nội dung xung quanh trong văn bản. Đoạn <strong>[9]</strong> trực tiếp n&oacute;i về giới hạn n&ecirc;n đọc kỹ thuật n&agrave;y để x&aacute;c định nguy&ecirc;n nh&acirc;n. Sau đ&oacute; <strong>so s&aacute;nh c&aacute;c phương &aacute;n lựa chọn</strong> : chọn phương &aacute;n tr&ugrave;ng lặp th&ocirc;ng tin đoạn <strong>[9]</strong> v&agrave; loại bỏ những phương &aacute;n kh&ocirc;ng gặp vấn đề.<br />\nGiải th&iacute;ch: Đoạn [9] (to&agrave;n đoạn) n&ecirc;u r&otilde; vấn đề: chưa c&oacute; mạng lưới nguồn gen quốc gia kết nối với khu vực v&agrave; thế giới, dẫn đến giới hạn trong khai th&aacute;c nguồn gen. Đ&acirc;y l&agrave; nguy&ecirc;n nh&acirc;n r&uacute;t ra từ b&agrave;i viết, đ&uacute;ng với c&acirc;u trả lời A. Nguy&ecirc;n nh&acirc;n ch&iacute;nh tạo việc khai th&aacute;c nguồn gen ở Việt Nam c&ograve;n hạn chế l&agrave; chưa c&oacute; mạng lưới nguồn gen trong nước kết nối với mạng lưới chung . Đoạn [9] khẳng định: &ldquo;...chưa x&acirc;y dựng được nguồn gen mạng trong cả nước tham gia v&agrave;o nguồn gen mạng mạng n&oacute;i chung... n&ecirc;n... khai th&aacute;c th&aacute;c sử dụng nguồn gen c&ograve;n hạn chế.&quot;. Đ&acirc;y ch&iacute;nh l&agrave; &yacute; của c&acirc;u trả lời A. C&aacute;c c&acirc;u trả lời kh&aacute;c đều kh&ocirc;ng đ&uacute;ng hoặc kh&ocirc;ng được n&ecirc;u: B n&oacute;i về &ldquo;kh&aacute;c biệt sinh học&rdquo; (văn bản kh&ocirc;ng đề cập), C v&agrave; D n&ecirc;u l&yacute; do sai lệch (kh&ocirc;ng c&oacute; trong b&agrave;i). V&igrave; lựa chọn c&acirc;u trả lời A.",
+            "contentAnswerA": "Mạng lưới nguồn gen của Quốc gia chưa được đồng bộ và khai thác trong mạng lưới phát triển gen của khu vực.",
+            "contentAnswerB": "Sự khác biệt về sinh học dẫn tới nguồn gen trong nước không đồng bộ với cơ sở dữ liệu chung của thế giới.",
+            "contentAnswerC": "Mạng lưới nguồn gen của Việt Nam không có yếu tố đa dạng, không phải nguồn gen quý hiếm.",
+            "contentAnswerD": "Hạn chế về khoa học công nghệ khiến Việt Nam không thể tham gia vào việc bảo tồn các nguồn gen quý."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Theo bài viết, yếu tố quan trọng để khai thác và phát triển nguồn gen tại Việt Nam là:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> Nhận biết đ&acirc;y l&agrave; c&acirc;u hỏi suy luận <strong>t&igrave;m yếu tố quan trọng</strong> n&ecirc;n tập trung đọc <strong>phần kết luận/giải ph&aacute;p</strong> của b&agrave;i. Đoạn [10] tổng kết c&aacute;c giải ph&aacute;p, trong đ&oacute; nổi bật l&agrave; <strong>tăng cường trang thiết bị khoa học c&ocirc;ng nghệ</strong> . Đối chiếu c&aacute;c lựa chọn với nội dung n&agrave;y để chọn c&acirc;u trả lời đ&uacute;ng.<br />\nGiải th&iacute;ch: Đoạn [10] (c&acirc;u 1) n&ecirc;u: &ldquo;V&igrave; vậy, cần tăng cường cơ sở vật chất, trang thiết bị , ... gia tăng nguồn lực khoa học &ndash; c&ocirc;ng nghệ&hellip;&rdquo;. Từ &ldquo;trang thiết bị&rdquo; l&agrave; manh mối chỉ yếu tố quan trọng về vật chất/kỹ thuật, ho&agrave;n to&agrave;n ph&ugrave; hợp với đ&aacute;p &aacute;n B. Yếu tố quan trọng để khai th&aacute;c th&aacute;c v&agrave; ph&aacute;t triển nguồn gen hiệu quả tại Việt Nam l&agrave; trang thiết bị khoa học, c&ocirc;ng nghệ cao . Đoạn [10] đưa ra giải ph&aacute;p: &ldquo;cần tăng cường cơ sở vật chất, trang thiết bị , ... gia tăng nguồn lực khoa học &ndash; c&ocirc;ng nghệ&hellip;&rdquo;. Điều n&agrave;y nhấn mạnh vai tr&ograve; của c&ocirc;ng việc đầu tư trang thiết bị khoa học c&ocirc;ng nghệ hiện đại . C&aacute;c c&acirc;u trả lời kh&aacute;c: A (nh&acirc;n lực khoa học) v&agrave; D (ch&iacute;nh s&aacute;ch) kh&ocirc;ng được nhấn mạnh bằng trang thiết bị; C (chi nghi&ecirc;n cứu) kh&ocirc;ng được nhắc đến. V&igrave; c&acirc;u trả lời B l&agrave; ch&iacute;nh x&aacute;c.",
+            "contentAnswerA": "Các nhà khoa học, kĩ thuật viên nghiên cứu.",
+            "contentAnswerB": "Trang thiết bị khoa học, công nghệ cao.",
+            "contentAnswerC": "Chi phí tổ chức hoạt động nghiên cứu gen.",
+            "contentAnswerD": "Các chính sách được ban hành của chính phủ."
+        },
+        {
+            "question": "fd9bbb4b-320b-4b6c-992c-6d5025d9d162",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>DNA BẠCH TUỘC N&Oacute;I G&Igrave; VỀ SỰ SỤP ĐỔ CỦA PHIẾN BĂNG NAM CỰC</strong></div>\n<strong>[1] </strong>Nếu ch&uacute;ng ta muốn hiểu về tương lai, ch&uacute;ng ta thường quay về qu&aacute; khứ. V&agrave; thậm ch&iacute; c&ograve;n hữu dụng hơn nếu sử dụng DNA bạch tuộc để nh&igrave;n v&agrave;o những thế giới đ&atilde; qua.<br />\n<strong>[2]</strong> Khoảng 125.000 năm trước, tr&aacute;i đất trong thời kỳ ấm cuối c&ugrave;ng giữa những thời kỳ băng h&agrave;. Nhiệt độ to&agrave;n cầu trong suốt thời kỳ gian băng ấm hơn khoảng 0,5 đến 1,5&deg; C hơn c&aacute;c mức nhiệt độ ở thời kỳ tiền c&ocirc;ng nghiệp. Điều n&agrave;y hết sức tương đồng với thời đại ch&uacute;ng ta. Bởi khoảng một phần ba của năm 2023, nhiệt độ tr&aacute;i đất ấm hơn 1,5&deg; C so với thời kỳ tiền c&ocirc;ng nghiệp, do biến đổi kh&iacute; hậu.<br />\n<strong>[3]</strong> V&agrave; hầu như trong suốt 50 năm, c&aacute;c nh&agrave; khoa học đ&atilde; t&igrave;m c&acirc;u trả lời cho việc liệu c&oacute; hay kh&ocirc;ng Phiến băng T&acirc;y Nam cực khổng lồ sụp đổ do mức nhiệt độ to&agrave;n cầu ở mức cao như vậy? Từ mẫu địa h&igrave;nh, ch&uacute;ng t&ocirc;i đ&atilde; ph&aacute;t hiện ra DNA của một lo&agrave;i bạch tuộc Nam cực nhỏ c&oacute; thể c&oacute; manh mối cho qu&aacute; khứ s&acirc;u thẳm đ&oacute;. DNA c&oacute; một c&acirc;u trả lời. Nghi&ecirc;n cứu của ch&uacute;ng t&ocirc;i cho thấy, hầu như n&oacute; đ&atilde; sụp đổ. Phiến băng T&acirc;y Nam cực rất dễ bị ảnh hưởng bởi nhiệt độ. Nếu tan chảy, nước từ phiến băng đ&oacute; để l&agrave;m mực nước biển d&acirc;ng tr&ecirc;n to&agrave;n cầu tăng từ 3,3 đến 5 m&eacute;t.<br />\n<strong>[4] </strong>C&aacute;c hồ sơ trầm t&iacute;ch v&agrave; những l&otilde;i băng kh&aacute;c cho ch&uacute;ng ta thấy phi&ecirc;n băng bị t&aacute;ch khỏi nơi n&oacute; tồn tại ở qu&atilde;ng thời gian c&aacute;ch đ&acirc;y khoảng một triệu năm v&agrave;o thời kỳ Pleistocene muộn nhưng ch&iacute;nh x&aacute;c thời gian v&agrave; mức độ đổ sụp vẫn c&ograve;n chưa được r&otilde;. Để c&oacute; được c&acirc;u trả lời ch&iacute;nh x&aacute;c hơn, ch&uacute;ng t&ocirc;i nh&igrave;n v&agrave;o t&iacute;nh di truyền của động vật ch&acirc;n đầu (cephalopod). Mỗi DNA của c&aacute;c sinh vật l&agrave; một cuốn s&aacute;ch lịch sử v&agrave; giờ ch&uacute;ng ta c&oacute; c&ocirc;ng nghệ để đọc được n&oacute;. Ch&uacute;ng t&ocirc;i c&oacute; thể sử dụng DNA để nh&igrave;n lại v&agrave; điểm ra sự kh&aacute;c biệt của c&aacute;c quần thể động vật được lai giống. Bạch tuộc Turquet (Pareledone turqueti) rất nhỏ, mỗi con nặng khoảng 600 gram. Ch&uacute;ng sống ở thềm biển, khắp mọi chốn ở quanh Nam Cực nhưng kh&ocirc;ng c&oacute; con n&agrave;o di chuyển xa khỏi khu nh&agrave; m&igrave;nh. Nam cực qu&aacute; rộng v&igrave; vậy c&aacute;c quần thể ở những v&ugrave;ng kh&aacute;c nhau thường kh&ocirc;ng lai giống với nhau. S&acirc;u dưới T&acirc;y Nam cực c&oacute; những khoảng trống trong đ&aacute;. Hiện tại, n&oacute; được nhồi đầy bằng tấm băng biển, tạo th&agrave;nh c&aacute;c biển Weddell, Amundsen v&agrave; Ross.<br />\n<strong>[5] </strong>Nếu băng tan chảy, c&aacute;c hải lưu c&oacute; thể mở rộng v&agrave; kết nối những vũng vịnh với nhau. Bạch tuộc c&oacute; thể di chuyển trực tiếp sang c&aacute;c bvungf đ&oacute; v&agrave; bằng chứng của sự sản sinh c&oacute; thể c&oacute; trong DNA. Nhưng nếu phiến băng kh&ocirc;ng tan chảy, ch&uacute;ng ta chỉ c&oacute; thể thấy bằng chứng của sự lai giống giữa c&aacute;c quần thể bạch tuộc theo chu vi của lục địa n&agrave;y. Ch&uacute;ng t&ocirc;i so s&aacute;nh c&aacute;c mẫu h&igrave;nh DNA ở hệ gene bạch tuộc Turquet khắp Nam Cực để xem l&agrave; liệu c&oacute; những kết nối trực tiếp v&agrave; gi&aacute;n tiếp giữa c&aacute;c quần thể bạch tuộc ở Weddell, Amundsen v&agrave; Ross kh&ocirc;ng. Ch&uacute;ng t&ocirc;i sử dụng c&aacute;c m&ocirc; h&igrave;nh thống k&ecirc; để x&aacute;c định liệu những kết nối đ&oacute; c&oacute; thể giải th&iacute;ch những kết nối trong hiện tại quanh bờ biển Nam cực kh&ocirc;ng. C&acirc;u chuyện như vậy thể hiện rất r&otilde; r&agrave;ng trong DNA: đ&uacute;ng, c&oacute; những kết nối trực tiếp giữa ba quần thể bạch tuộc đ&oacute;. Những kết nối của ch&uacute;ng c&oacute; thể kh&ocirc;ng được giải th&iacute;ch về mặt thống k&ecirc; bằng sự lai giống quanh bờ biển Nam cực. Những quần thể đ&oacute; c&oacute; thể chỉ đến từ li&ecirc;n hệ qua những d&ograve;ng hải lưu m&agrave; giờ bị khối băng T&acirc;y Nam cực ngăn cản.<br />\n<strong>[6]</strong> Điều n&agrave;y thậm ch&iacute; c&ograve;n th&uacute; vị hơn nhiều, đầu ti&ecirc;n ch&uacute;ng t&ocirc;i t&igrave;m thấy những kết nối trực tiếp giữa ba quần thể trong suốt thời kỳ Pliocene giữa, v&agrave;o khoảng 3 triệu đến 3,6 triệu năm trước, khi nhiệt độ n&oacute;ng hơn 2 đến 3&deg; C v&agrave; mực nước hiển cao hơn hiện nay 25 m&eacute;t. Điều n&agrave;y ủng hộ bằng chứng địa chất hiện c&oacute; l&agrave; phiến băng T&acirc;y Nam cực sụp đổ trong kỷ nguy&ecirc;n n&agrave;y.<br />\nNhững dấu hiệu về kết nối trực tiếp trong DNA được t&igrave;m thấy gần đ&acirc;y giữa bạch tuộc ở ba v&ugrave;ng biển đ&atilde; xảy ra trong thời kỳ gian băng cuối c&ugrave;ng khoảng 125.000 năm trước. N&oacute; cho thấy tấm băng n&agrave;y bị suy sụp khi nhiệt độ trung b&igrave;nh to&agrave;n cầu ấm hơn khoảng 1,5&deg;C so với mức tiền c&ocirc;ng nghiệp.<br />\nC&ocirc;ng tr&igrave;nh nghi&ecirc;n cứu của ch&uacute;ng t&ocirc;i đem lại bằng chứng thực nghiệm đầu ti&ecirc;n về phiến băng T&acirc;y Nam cực c&oacute; thể bắt đầu suy sụp nếu ch&uacute;ng ta vượt qu&aacute; mục ti&ecirc;u giới hạn cảnh b&aacute;o từ 1,5&deg; C hoặc thậm ch&iacute; l&agrave; 2&deg;C của Thỏa thuận Paris.<br />\n<strong>[7]</strong> Để sử dụng DNA động vật như một đại diện/bằng chứng cho những thay đổi của phiến băng, ch&uacute;ng t&ocirc;i đ&atilde; phải kết hợp nhiều ng&agrave;nh v&agrave; nhiều quốc gia. Kết hợp nhiều nh&agrave; khoa học vật l&yacute; v&agrave; sinh học lại với nhau đem lại những c&aacute;ch thức mới để trả lời những c&acirc;u hỏi tồn tại đ&atilde; l&acirc;u v&agrave; c&oacute; tầm quan trọng sống c&ograve;n với tất cả ch&uacute;ng ta. Ch&uacute;ng t&ocirc;i đ&atilde; &ldquo;lục lọi&rdquo; c&aacute;c bộ sưu tập trong c&aacute;c bảo t&agrave;ng để lấy m&acirc;y. Một số đ&atilde; tồn tại ba thập kỷ &ndash; trước khi tồn tại giải tr&igrave;nh tự gene v&agrave; c&aacute;c kỹ thuật ph&acirc;n t&iacute;ch m&agrave; ch&uacute;ng ta vẫn sử dụng. N&oacute; chứng tỏ tầm quan trọng sống c&ograve;n của việc bảo quản mẫu cẩn thận, sự gắn kết với si&ecirc;u dữ liệu, với việc bảo vệ c&aacute;c lo&agrave;i để đảm bảo cho khả năng tiếp cận trong tương lai.<br />\nNhưng thật kh&oacute; để đảm bảo cho khoa học li&ecirc;n ng&agrave;nh bởi n&oacute; đ&ograve;i hỏi thời gian, nỗ lực v&agrave; tư duy mở để đ&aacute;nh gi&aacute; cao về thuật ngữ mới, c&aacute;c quy m&ocirc; v&agrave; c&aacute;c c&aacute;ch tiếp cận mới. C&aacute;c tạp ch&iacute; cũng miễn cưỡng b&igrave;nh duyệt c&aacute;c b&agrave;i b&aacute;o v&igrave; một số kh&iacute;a cạnh của nghi&ecirc;n cứu nằm ngo&agrave;i chuy&ecirc;n m&ocirc;n của họ. Nhưng ch&uacute;ng t&ocirc;i hy vọng kết quả của ch&uacute;ng t&ocirc;i chứng tỏ gi&aacute; trị của c&aacute;ch tiếp cận n&agrave;y.<br />\n<strong>[8]</strong> Ch&uacute;ng t&ocirc;i hy vọng sẽ tiếp tục sử dụng DNA như một đại diện để kh&aacute;m ph&aacute; những phần kh&aacute;c nhau của Nam Cực với lịch sử kh&iacute; hậu vẫn c&ograve;n được &iacute;t hiểu biết. C&oacute; nhiều th&ocirc;ng tin về qu&aacute; khứ xa x&ocirc;i v&agrave; qu&aacute; khứ gần của Nam Cực vẫn c&ograve;n ẩn k&iacute;n trong c&aacute;c dạng dữ liệu sinh học kh&aacute;c trong c&aacute;c lớp r&ecirc;u v&agrave; hồ sơ b&ugrave;n, c&aacute;c tập đo&agrave;n động vật c&oacute; xương sống v&agrave; những lo&agrave;i động vật kh&ocirc;ng xương sống ở biển v&agrave; sống tr&ecirc;n mặt đất. Một số kho t&agrave;ng sinh học đ&atilde; đem đến cho ch&uacute;ng ta hiểu biết về kh&iacute; hậu Nam cực trong qu&aacute; khứ. Khi tr&aacute;i đất n&agrave;y n&oacute;ng l&ecirc;n với một tốc độ chưa từng c&oacute;, ch&uacute;ng ta cần sử dụng những c&aacute;ch tiếp cận đ&oacute; để hiểu những g&igrave; xảy ra khi băng tan.\n\n<div style=\"text-align: right;\"><strong><em>(Anh Vũ tổng hợp, tạp ch&iacute; Tia s&aacute;ng)</em></strong></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 11 - 20:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Mục đích chỉnh của văn bản là gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> Dựa v&agrave;o <strong>ti&ecirc;u đề v&agrave; summ tắt nội dung ch&iacute;nh</strong> : ti&ecirc;u đề đề or <strong>bạch huyết</strong> v&agrave; <strong>bảo vệ Nam Cực</strong> , đọc văn bản t&igrave;m thấy chủ đề tập trung v&agrave;o c&ocirc;ng việc <strong>nghi&ecirc;n cứu DNA bạch huyết để dự đo&aacute;n sự lắng đọng của băng băng</strong> . Sau đ&oacute; <strong>loại trừ</strong> c&aacute;c phương &aacute;n kh&ocirc;ng khớp ho&agrave;n to&agrave;n (A, B, D) để chọn phương &aacute;n ph&ugrave; hợp nhất.<br />\nGiải th&iacute;ch: Đoạn [7] n&ecirc;u r&otilde;: &ldquo;Để sử dụng DNA động vật như một bằng chứng đại diện/bằng chứng cho những thay đổi của băng băng, ch&uacute;ng t&ocirc;i đ&atilde; phải kết hợp nhiều chuy&ecirc;n ng&agrave;nh&hellip;&rdquo;. Nội dung n&agrave;y được t&igrave;m thấy mục ti&ecirc;u nghi&ecirc;n cứu l&agrave; sử dụng DNA bạch huyết l&agrave;m bằng chứng để hiểu sự thay đổi của băng băng , đ&uacute;ng với đ&aacute;p &aacute;n C. Mục đ&iacute;ch ch&iacute;nh của bản văn l&agrave; l&agrave;m r&otilde; khả năng DNA của bạch huyết cầu cung cấp th&ocirc;ng tin về sự biến đổi của băng Nam Cực . Nh&acirc;n đề v&agrave; nội dung đều xoay quanh việc c&aacute;c nh&agrave; khoa học sử dụng DNA bạch huyết như một mối mối để dự b&aacute;o tương lai băng T&acirc;y Nam Cực. B&agrave;i viết kh&ocirc;ng đơn thuần cung cấp th&ocirc;ng tin về băng (loại A) hay kiến ​​thức về DNA bạch huyết n&oacute;i chung (loại B), m&agrave; nhấn mạnh mối li&ecirc;n hệ giữa DNA bạch huyết v&agrave; băng băng . C&acirc;u trả lời D sai v&igrave; văn bản kh&ocirc;ng n&oacute;i DNA bạch huyết t&aacute;c đến băng, m&agrave; chỉ d&ugrave;ng để nghi&ecirc;n cứu băng . Do đ&oacute;, đ&aacute;p &aacute;n C l&agrave; ph&ugrave; hợp.",
+            "contentAnswerA": "Cung cấp thông tin về phiến băng Nam cực.",
+            "contentAnswerB": "Giúp người đọc hiểu rõ hơn về DNA bạch tuộc.",
+            "contentAnswerC": "Làm rõ khả năng của DNA bạch tuộc trong việc cung cấp thông tin về phiến băng Nam cực.",
+            "contentAnswerD": "Chứng mình DNA bạch tuộc ảnh hưởng tới phiến băng Nam cực."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Hãy hoàn thành câu sau bằng cách kéo thả các cụm từ vào đúng vị trí.<br/>Nếu băng tan chảy, bạch tuộc ở các vùng khác nhau có thể di chuyển và gặp gỡ nhau, bằng chứng của điều này là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-1\">____DRAG_DROP_1____</span> có thể có trong DNA. Nhưng nếu phiến băng không tan chảy, sự lai giống sẽ chỉ xảy ra trong phạm vi các quần thể bạch tuộc thuộc cùng một <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-2\">____DRAG_DROP_2____</span> .Và bằng kết quả nghiên cứu DNA đã cho thấy, thực sự đã có những kết nối trực tiếp giữa ba quần thể bạch tuộc khác nhau trong quá trình băng tan. Điều này đã chứng minh DNA <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-3\">____DRAG_DROP_3____</span> như một đại diện/bằng chứng cho những thay đổi của phiển băng.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "B>"
+                },
+                {
+                    "slot3": "E>"
+                }
+            ],
+            "explanation": "<br />\nPhương ph&aacute;p: X&aacute;c định nội dung từng phần của c&acirc;u gh&eacute;p: phần đầu n&oacute;i về kịch bản băng tan, phần sau n&oacute;i về băng kh&ocirc;ng tan, v&agrave; kết luận về nghi&ecirc;n cứu DNA. T&igrave;m trong văn bản c&aacute;c đoạn tương ứng : đoạn [5] chứa th&ocirc;ng tin về băng tan/kh&ocirc;ng tan v&agrave; lai tương tự , đoạn [7] đề cập đến c&ocirc;ng việc sử dụng bằng chứng động vật DNA . Dựa v&agrave;o đ&oacute;, chọn c&aacute;c cụm từ th&iacute;ch hợp (c&oacute; trong danh s&aacute;ch cho trước) điền v&agrave;o vị tr&iacute; tương ứng.<br />\n<strong>Giải th&iacute;ch:</strong><br />\nĐoạn [5] (c&acirc;u 1) c&oacute;: &ldquo;Nếu băng tan kinh&hellip; bằng chứng của sự sinh sản c&oacute; thể c&oacute; trong DNA.&rdquo; v&agrave; (c&acirc;u 2) &ldquo;...sự lai giống&hellip; theo chu vi của lục địa n&agrave;y.&rdquo;khoahoc.vietjack.com.<br />\nĐoạn <strong>[7]</strong> (c&acirc;u 1) n&ecirc;u: <em>&ldquo;Để sử dụng DNA </em><strong><em>động vật</em></strong><em> như một bằng chứng đại diện/bằng chứng cho những thay đổi của băng băng, ch&uacute;ng t&ocirc;i đ&atilde; phải kết hợp nhiều chuy&ecirc;n ng&agrave;nh&hellip;&rdquo;</em><a href=\"https://khoahoc.vietjack.com/question/1456565/muc-dich-chinh-cua-van-ban-la-gi-a-cung-cap-thong-tin-ve-phien-bang-nam-cuc-b-giup-nguoi-doc-hieu-ro#:~:text=,ng%C3%A0nh%20v%C3%A0%20li%C3%AAn%20qu%E1%BB%91c%20gia\" target=\"_blank\"><u>khoahoc.vietjack.com</u></a>.<br />\n&rArr; C&aacute;c cụm từ <strong>&ldquo;sự sinh sản&rdquo;</strong> , <strong>&ldquo;lục địa&rdquo;</strong> , <strong>&ldquo;động vật&rdquo;</strong> đều xuất hiện r&otilde; r&agrave;ng trong những đoạn tr&ecirc;n, ph&ugrave; hợp để điền v&agrave;o chỗ trống.<br />\n- Ba chỗ trống tương ứng với c&aacute;c &yacute;: (1) Bằng chứng của sinh sản (lai giống) xuất hiện trong DNA khi băng tan chuyển, (2) khi băng kh&ocirc;ng tan th&igrave; sự lai giống chỉ xảy ra trong c&ugrave;ng một lục địa , (3) Động vật DNA (DNA bạch tuộc) được sử dụng bằng chứng cho thay đổi băng băng. Đối chiếu văn bản: Đoạn [5] n&oacute;i &ldquo;bằng chứng của sự sinh sản c&oacute; thể c&oacute; trong DNA&rdquo; khi băng tan, v&agrave; &ldquo;lai giữa c&aacute;c quần thể... theo chu vi của lục địa n&agrave;y&rdquo; if băng kh&ocirc;ng tan. Đoạn [7] mở đầu: &ldquo;Để sử dụng DNA động vật như một đại diện/bằng chứng cho&hellip; chắn băng&hellip;&rdquo;. Do đ&oacute;, c&aacute;c cụm cần điền ch&iacute;nh x&aacute;c l&agrave; &ldquo;ph&acirc;n sinh sản&rdquo; , &ldquo;lục địa&rdquo; , &ldquo;động vật&rdquo; .",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Thực vật"
+                },
+                {
+                    "id": "B>",
+                    "content": "Lục địa"
+                },
+                {
+                    "id": "C>",
+                    "content": "Sự sinh sản"
+                },
+                {
+                    "id": "D>",
+                    "content": "Sự di truyền"
+                },
+                {
+                    "id": "E>",
+                    "content": "Động vật"
+                },
+                {
+                    "id": "F>",
+                    "content": "Chu vi"
+                }
+            ]
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Dựa vào đoạn số [2], điền một cụm từ không quá hai tiếng có trong bài đọc vào chỗ trống.<br/>Điểm giống nhau giữa thời đại của chúng ta và khoảng thời gian 125.000 năm trước chính là nhiệt độ Trái đất đang dần <span class=\"fill-blank\" data-blank-id=\"Câu 13-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "ấm hơn"
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> <strong>Đọc đoạn [2]</strong> t&igrave;m sự kiện về nhiệt độ ở hai thời kỳ. X&aacute;c định từ kh&oacute;a &ldquo;125.000 năm trước&rdquo; v&agrave; so s&aacute;nh với dữ liệu &ldquo;2023&rdquo; trong c&ugrave;ng đoạn để r&uacute;t ra điểm chung. Sau đ&oacute; chọn cụm ngắn gọn (kh&ocirc;ng qu&aacute; hai tiếng) diễn tả &yacute; đ&oacute; &ndash; ở đ&acirc;y l&agrave; &ldquo;ấm hơn&rdquo;.<br />\nGiải th&iacute;ch: Đoạn [2] n&ecirc;u: &ldquo;Nhiệt độ to&agrave;n cầu&hellip; ấm hơn khoảng 0,5 đến 1,5&deg;C&hellip; Điều n&agrave;y tương đồng với thời đại ch&uacute;ng ta&hellip; năm 2023, nhiệt độ Tr&aacute;i đất ấm hơn 1,5&deg;C so với thời kỳ tiền c&ocirc;ng nghiệp&hellip;&rdquo;. Cả hai đ&egrave;n thời gian đều c&oacute; nhiệt độ ấm hơn so với trước, n&ecirc;n &ldquo;ấm hơn&rdquo; l&agrave; đ&aacute;p &aacute;n ch&iacute;nh x&aacute;c. C&acirc;u hỏi y&ecirc;u cầu n&ecirc;u điểm giống nhau về nhiệt độ Tr&aacute;i đất giữa hiện tại v&agrave; 125.000 năm trước. Đoạn [2] cho biết 125.000 năm trước Tr&aacute;i đất &ldquo;ấm hơn khoảng 0,5 đến 1,5&deg;C so với thời kỳ tiền c&ocirc;ng nghiệp&rdquo; , v&agrave; hiện nay (năm 2023) nhiệt độ Tr&aacute;i đất cũng &ldquo;ấm hơn 1,5&deg;C so với thời kỳ tiền c&ocirc;ng nghiệp&rdquo;. Điểm chung l&agrave; Tr&aacute;i đất đang ấm l&ecirc;n (nhiệt độ cao hơn trước). Cụm từ cần điền l&agrave; &ldquo;ấm hơn&rdquo; ."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Theo đoạn số [4], lí do nào đã khiến các nhà khoa học chọn nghiên cứu DNA của bạch tuộc Turquet? (Chọn 2 đáp án đúng)",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c4"
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> <strong>Đọc kỹ đoạn [4]</strong> để t&igrave;m c&aacute;c đặc t&iacute;nh của bạch lộc Turquet. T&igrave;m kiếm những chi tiết li&ecirc;n quan đến việc chọn DNA đối tượng nghi&ecirc;n cứu (phạm vi ph&acirc;n bố, đặc biệt lập di truyền). Đối chiếu c&aacute;c c&acirc;u trả lời: lựa chọn <strong>B, D</strong> v&igrave; ch&uacute;ng ph&ugrave; hợp với th&ocirc;ng tin v&agrave; l&yacute; do tại sao lo&agrave;i n&agrave;y ph&ugrave; hợp để nghi&ecirc;n cứu DNA; loại <strong>A</strong> (đặc điểm kh&ocirc;ng quan trọng cho nghi&ecirc;n cứu) v&agrave; <strong>C</strong> (kh&ocirc;ng c&oacute; trong b&agrave;i, thậm ch&iacute; tr&aacute;i ngược nội dung b&agrave;i).<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[4]</strong> m&ocirc; tả lo&agrave;i bạch bạch huyết Turquet: &ldquo;... mỗi con nặng ~600 gram. Ch&uacute;ng sống ở thềm biển, <strong><em>khắp mọi nơi xung quanh Nam Cực</em></strong> nhưng <strong><em>kh&ocirc;ng c&oacute; con n&agrave;o chuyển xa khỏi khu nh&agrave; m&igrave;nh</em></strong> . Nam Cực qu&aacute; rộng v&igrave; vậy <strong><em>c&aacute;c quần thể ở những v&ugrave;ng kh&aacute;c nhau thường kh&ocirc;ng lai giống nhau</em></strong> .&rdquo;. Từ đoạn n&agrave;y: &yacute; <strong>B</strong> v&agrave; <strong>D</strong> được x&aacute;c định r&otilde; r&agrave;ng; &yacute; <strong>A</strong> (600 gram) c&oacute; đề cập nhưng kh&ocirc;ng phải l&yacute; do nghi&ecirc;n cứu; &yacute; <strong>C</strong> kh&ocirc;ng được nhắc đến (tr&aacute;i với th&ocirc;ng tin &ldquo;kh&ocirc;ng chuyển xa&rdquo;). Theo đoạn <strong>[4]</strong>, c&aacute;c nh&agrave; khoa học chọn nghi&ecirc;n cứu DNA của bạch huyết Turquet v&igrave;:\n<ul>\n\t<li><strong>B</strong> : <strong>Ch&uacute;ng t&ocirc;i sống ở c&aacute;c b&atilde;i biển xung quanh Nam Cực</strong> &ndash; điều n&agrave;y quan trọng v&igrave; bạch huyết ph&acirc;n bố rộng khắp v&ugrave;ng nghi&ecirc;n cứu, thuận lợi thu thập mẫu tr&ecirc;n to&agrave;n khu vực.</li>\n\t<li><strong>D</strong> : <strong>C&aacute;c quần thể ở c&aacute;c v&ugrave;ng kh&aacute;c nhau thường kh&ocirc;ng lai giống nhau</strong> &ndash; c&oacute; nghĩa l&agrave; mỗi quần thể bạch m&atilde; t&aacute;ch rời di chuyển, nếu ph&aacute;t hiện c&oacute; lai giống nhau th&igrave; sẽ được chứng minh bằng chứng r&otilde; r&agrave;ng về sự kết nối do băng tan.</li>\n</ul>\n",
+            "contentC1": "Chúng rất nhỏ, mỗi con nặng khoảng 600 gram.",
+            "contentC2": "Chúng sống ở thềm biển, khắp mọi chốn ở quanh Nam Cực.",
+            "contentC3": "Chúng thường bị sóng biển đánh ra xa bờ.",
+            "contentC4": "Các quần thể ở những vùng khác nhau thường không lai giống với nhau."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Hoàn thành câu hỏi bằng cách chọn đáp án đúng hoặc sai.<br/>Theo đoạn <strong>[6]</strong>, nếu nhiệt độ trái đất ẩm lên vượt mức cảnh báo từ 1,5° C hoặc thậm chí là 2°C của Thỏa thuận Paris thì phiến băng Tây Nam cực sẽ sụp đổ hết.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nPhương ph&aacute;p: X&aacute;c định đ&acirc;y l&agrave; c&acirc;u hỏi Đ&uacute;ng/Sai. Tập trung t&igrave;m c&acirc;u trong bản văn tương ứng. Đọc đoạn [6] để t&igrave;m th&ocirc;ng tin về nhiệt độ 1,5&deg;C/2&deg;C. Hiểu ch&iacute;nh x&aacute;c c&aacute;ch diễn đạt (&ldquo;bắt đầu suy lắng&rdquo;) rồi đối chiếu với mệnh đề đề b&agrave;i (n&oacute;i &ldquo;sụp đổ hết&rdquo;) để đ&aacute;nh gi&aacute; t&iacute;nh đ&uacute;ng/sai.<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[6]</strong> (c&acirc;u 3-4) viết: &ldquo;...phiến băng T&acirc;y Nam Cực <strong><em>c&oacute; thể bắt đầu suy giảm</em></strong> nếu ch&uacute;ng ta vượt qu&aacute; mục ti&ecirc;u 1,5&deg;C hoặc 2&deg;C&hellip;&rdquo;. Từ ngữ <strong>&ldquo;bắt đầu suy lắng&rdquo;</strong> cho thấy băng chỉ mới c&oacute; dấu hiệu tan r&atilde;, <strong>kh&ocirc;ng phải trầm ho&agrave;n to&agrave;n</strong> , v&igrave; vậy mệnh đề khẳng định băng &ldquo;sụp đổ hết&rdquo; l&agrave; sai. Mệnh đề cho rằng &ldquo;nếu nhiệt độ Tr&aacute;i đất vượt ngưỡng 1,5&deg;C hoặc 2&deg;C th&igrave; B&atilde;o T&acirc;y Nam Cực sẽ ch&igrave;m ho&agrave;n to&agrave;n&rdquo; l&agrave; <strong>sai</strong> . Đoạn <strong>[6]</strong> chỉ ra: &ldquo;phiến băng T&acirc;y Nam Cực <strong><em>c&oacute; thể bắt đầu suy giảm</em></strong> nếu&hellip; vượt qu&aacute; 1,5&deg;C hoặc 2&deg;C&rdquo;. Cụm từ <strong>&ldquo;c&oacute; thể bắt đầu suy trầm&rdquo;</strong> h&agrave;m &yacute; băng <strong>mới bắt đầu suy yếu dần</strong> , chứ kh&ocirc;ng khẳng định sẽ <strong>tan ho&agrave;n to&agrave;n ngay lập tức</strong> . Do đ&oacute;, việc ph&aacute;t biểu &ldquo;sẽ đổ hết&rdquo; l&agrave; kh&ocirc;ng ch&iacute;nh x&aacute;c.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Theo đoạn [8], để hiểu những gì xảy ra khi băng tan do trái đất nóng lên, chúng ta nên sử dụng phương pháp nghiên cứu nào?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> <strong>Đọc đoạn cuối (đoạn [8])</strong> thường chứa định hướng, đề xuất nghi&ecirc;n cứu tiếp theo. X&aacute;c định từ kh&oacute;a &ldquo;tiếp tục sử dụng DNA&rdquo; &ndash; đ&acirc;y ch&iacute;nh l&agrave; phương ph&aacute;p nghi&ecirc;n cứu được nhấn mạnh. Sau đ&oacute;, so s&aacute;nh c&aacute;c phương &aacute;n để chọn phương &aacute;n tr&ugrave;ng lặp (phương ph&aacute;p sử dụng động vật DNA), loại bỏ những phương &aacute;n kh&ocirc;ng được n&ecirc;u.<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[8]</strong> (c&acirc;u 1) n&ecirc;u: &ldquo; Ch&uacute;ng t&ocirc;i hy vọng sẽ <strong><em>tiếp tục sử dụng DNA</em></strong> như một đại diện để kh&aacute;m ph&aacute;... những phần kh&aacute;c nhau của Nam Cực với lịch sử kh&iacute; hậu vẫn &iacute;t được hiểu biết.&rdquo;. Nội dung n&agrave;y cho thấy <strong>DNA</strong> (cụ thể DNA sinh vật như bạch bạch) ch&iacute;nh l&agrave; phương ph&aacute;p nghi&ecirc;n cứu m&agrave; họ sẽ sử dụng để t&igrave;m hiểu hiện tượng băng tan. Đoạn <strong>[8]</strong> mẹo &yacute; rằng để hiểu hiện tượng xảy ra khi băng tan do Tr&aacute;i đất n&oacute;ng l&ecirc;n, c&aacute;c nh&agrave; khoa học <strong>hy vọng tiếp tục sử dụng phương ph&aacute;p nghi&ecirc;n cứu động vật DNA</strong> . Cụ thể, đoạn n&agrave;y viết: &ldquo; Ch&uacute;ng t&ocirc;i hy vọng sẽ tiếp tục sử dụng DNA như một đại diện để kh&aacute;m ph&aacute;... hiểu những g&igrave; xảy ra khi băng tan.&rdquo;. Điều đ&oacute; tương ứng với <strong>c&aacute;ch tiếp cận sử dụng DNA của lo&agrave;i</strong> (đ&aacute; &aacute;n A). C&aacute;c giải ph&aacute;p kh&aacute;c kh&ocirc;ng được giải quyết: <strong>B</strong> (theo d&otilde;i nhiệt độ) v&agrave; <strong>D</strong> (theo d&otilde;i tốc độ băng tần) kh&ocirc;ng phải l&agrave; phương ph&aacute;p n&ecirc;u r&otilde;; <strong>C</strong> (nghi&ecirc;n cứu đa dạng sinh học n&oacute;i chung) cũng kh&ocirc;ng phải trực tiếp tiếp từ b&agrave;i.",
+            "contentAnswerA": "Cách tiếp cận sử dụng DNA của loài vật.",
+            "contentAnswerB": "Theo dõi nhiệt độ của trái đất.",
+            "contentAnswerC": "Nghiên cứu đa dạng sinh học.",
+            "contentAnswerD": "Theo dõi tốc độ băng tan trong một thời gian cụ thể."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Theo thông tin đoạn [6], các nhà khoa học đã tìm thấy những kết nối trực tiếp giữa ba quần thể bạch tuộc ở Weddell, Amundsen và Ross trong những thời điểm nào?",
+            "type": "MA",
+            "correctAnswer": [
+                "c3",
+                "c4"
+            ],
+            "explanation": "<br />\nPhương ph&aacute;p: T&igrave;m kiếm c&aacute;c đ&egrave;n thời gian trong văn bản ở đoạn [6]. Ghi nhận những thời điểm k&egrave;m theo th&ocirc;ng tin &ldquo;kết nối trực tiếp... được t&igrave;m thấy&rdquo;. Đối chiếu c&aacute;c c&acirc;u trả lời: chọn những b&oacute;ng đ&egrave;n c&oacute; trong b&agrave;i (125.000 năm trước; 3&ndash;3,6 triệu năm trước), loại b&oacute;ng đ&egrave;n kh&ocirc;ng được nhắc đến (hiện tại, tương lai giả định).<br />\n<strong>Giải th&iacute;ch:</strong> Đoạn <strong>[6]</strong> cho biết:\n<ul>\n\t<li><em>&ldquo;...những kết nối trực tiếp giữa ba quần thể... trong suốt thời kỳ </em><strong><em>Pliocene giữa</em></strong><em> , v&agrave;o khoảng 3 triệu đến 3,6 triệu năm trước&hellip;&rdquo;</em> ứng với <strong>D</strong> .</li>\n\t<li><em>&ldquo;...kết nối trực tiếp... đ&atilde; xảy ra trong </em><strong><em>thời gian băng cuối c&ugrave;ng</em></strong><em> khoảng 125.000 năm trước.&rdquo;</em>&ndash; ứng với <strong>C</strong> .</li>\n</ul>\nVăn bản cho biết c&aacute;c nh&agrave; khoa học đ&atilde; t&igrave;m thấy những kết nối trực tiếp giữa quần thể bạch huyết (Weddell, Amundsen, Ross) v&agrave;o thời điểm trong qu&aacute; khứ:<br />\nThời kỳ Pliocene giữa (khoảng 3 &ndash; 3,6 triệu năm trước) &ndash; đ&aacute;p &aacute;n D.Thời kỳ băng gi&aacute; cuối c&ugrave;ng (khoảng 125.000 năm trước) &ndash; đ&aacute;p &aacute;n C.",
+            "contentC1": "Trong thời đại chúng ta đang sống hiện nay.",
+            "contentC2": "Trong tương lai khi nhiệt độ vượt quá mục tiêu giới hạn cảnh báo từ 1,5° C hoặc thậm chí là 2°C của Thỏa thuận Paris.",
+            "contentC3": "Trong thời kỳ băng cuối cùng khoảng 125.000 năm trước.",
+            "contentC4": "Trong suốt thời kỳ Pliocene giữa, vào khoảng 3 triệu đến 3,6 triệu năm trước."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Dựa vào thông tin bài đọc, hoàn thành câu hỏi bằng cách chọn đáp án đúng hoặc sai.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> Đọc kỹ thuật <strong>đoạn [5]</strong> v&agrave; <strong>[6]</strong> để hiểu giả thiết bị v&agrave; kết quả nghi&ecirc;n cứu: đoạn <strong>[5]</strong> n&ecirc;u điều kiện <strong>nếu băng tan</strong> dẫn đến lai tương tự (nhưng l&agrave; giả thiết), đoạn <strong>[6]</strong> x&aacute;c nhận đ&atilde; t&igrave;m thấy kết nối (thực tế). Đ&aacute;nh gi&aacute; từng mệnh đề: (1) ph&ugrave; hợp với giả thiết v&agrave; kết quả &rArr; Đ&uacute;ng; (2) tr&aacute;i với kết quả nghi&ecirc;n cứu &rArr; Sai; (3) sai th&ocirc;ng tin (chỉ <strong>một c&aacute;ch</strong> li&ecirc;n hệ qua băng tan) &rArr; Sai.<br />\n<strong>Giải th&iacute;ch:</strong><br />\n<strong>&Yacute; (1): </strong><em>&ldquo;Băng tan đ&atilde; tạo n&ecirc;n sự nằm giữa c&aacute;c quần thể bạch tuộc kh&ocirc;ng c&ugrave;ng thuộc một khu vực.&rdquo;</em> &ndash; <strong>Đ&uacute;ng</strong> . Đoạn <strong>[5]</strong> n&ecirc;u giả thiết: if băng tan, c&aacute;c hải lưu mở kết nối, <strong>bạch bạch từ c&aacute;c v&ugrave;ng kh&aacute;c nhau c&oacute; thể gặp gỡ v&agrave; lai giống nhau</strong>. Thực tế nghi&ecirc;n cứu (đoạn <strong>[6]</strong>) cũng x&aacute;c nhận <strong>&ldquo;đ&uacute;ng, c&oacute; những kết nối trực tiếp&rdquo;</strong> giữa c&aacute;c quần thể n&agrave;y khi băng tan. =&gt; Băng tan thực sự dẫn đến sự tương đồng giữa quần thể ở c&aacute;c khu vực kh&aacute;c nhau.<br />\n<strong>&Yacute; (2): </strong><em>&ldquo;Chưa t&igrave;m thấy sự kết nối giữa quần thể bạch huyết ở Weddell, Amundsen v&agrave; Ross.&rdquo;</em> &ndash; <strong>S&agrave;i</strong> . Văn bản đ&atilde; <strong>t&igrave;m ra kết nối trực tiếp</strong> giữa ba quần thể bạch huyết n&oacute;i tr&ecirc;n (đoạn <strong>[6]</strong> khẳng định <em>&ldquo;đ&uacute;ng, c&oacute; những kết nối trực tiếp giữa ba quần bạch huyết đ&oacute;&rdquo;</em>). Do đ&oacute; n&oacute;i &ldquo;chưa t&igrave;m ra&rdquo; l&agrave; tr&aacute;i với kết quả nghi&ecirc;n cứu.<br />\n<strong>&Yacute; (3): </strong><em>&ldquo;C&aacute;c quần thể bạch tuộc ở Weddell, Amundsen v&agrave; Ross c&oacute; nhiều c&aacute;ch để li&ecirc;n hệ với nhau v&agrave; tạo ra sự lai giống.&rdquo;</em> &ndash; <strong>S&agrave;i</strong> . Thực tế, <strong>chỉ khi băng tan tạo d&ograve;ng hải lưu th&ocirc;ng thương</strong> th&igrave; c&aacute;c quần thể n&agrave;y mới c&oacute; thể li&ecirc;n hệ v&agrave; lai giống. Đoạn <strong>[5]</strong> nhấn mạnh b&igrave;nh thường quần thể bạch bạch <strong>bị ph&aacute; c&aacute;ch bởi băng băng</strong> , kh&ocirc;ng di chuyển sang nhau được, <em>&ldquo;ch&uacute;ng ta chỉ c&oacute; thể t&igrave;m thấy lai giống&hellip; theo chu vi lục địa&rdquo;</em> (khi băng kh&ocirc;ng tan). V&igrave; vậy, kh&ocirc;ng c&oacute; &ldquo;nhiều c&aacute;ch&rdquo; để ch&uacute;ng ta giống nhau &ndash; nhận định (3) l&agrave; sai.",
+            "contentYA": "Băng tan chảy đã tạo nên sự lai giống giữa các quần thể bạch tuộc không cùng thuộc một khu vực.",
+            "contentYB": "Chưa tìm ra sự kết nối giữa các quần thể bạch tuộc ở Weddell, Amundsen và Ross.",
+            "contentYC": "Các quần thể bạch tuộc ở Weddell, Amundsen và Ross có nhiều cách để liên hệ với nhau và tạo ra sự lai giống."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Hãy hoàn thành câu sau bằng cách kéo thả các cụm từ vào đúng vị trí.<br/>Để có được câu trả lời chính xác hơn về thời gian phiến băng bị tách khỏi nơi nó tồn tại, các nhà khoa học nghiên cứu <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-1\">____DRAG_DROP_1____</span> của động vật chân đầu (cephalopod). Các nhà khoa học cho rằng họ có thể sử dụng DNA của <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-2\">____DRAG_DROP_2____</span> để nhìn lại và điểm ra sự khác biệt của các quần thể động vật được lai giống. Bởi vì mỗi DNA của chúng là một <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-3\">____DRAG_DROP_3____</span> và giờ chúng ta có công nghệ để đọc được nó.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "D>"
+                },
+                {
+                    "slot3": "B>"
+                }
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> X&aacute;c định nội dung c&acirc;u n&oacute;i về <strong>phương ph&aacute;p nghi&ecirc;n cứu di truyền</strong> . <strong>D&ograve; đoạn [4]</strong> &ndash; đoạn n&agrave;y đề cập đến c&ocirc;ng việc nghi&ecirc;n cứu di truyền học để trả lời c&acirc;u hỏi về băng. T&igrave;m c&aacute;c cụm ph&ugrave; hợp trong danh s&aacute;ch đ&atilde; cho: &ldquo;t&iacute;nh di truyền&rdquo;, &ldquo;c&aacute;c sinh vật&rdquo;, &ldquo;cuốn s&aacute;ch lịch sử&rdquo; đều được t&igrave;m thấy trực tiếp trong đoạn <strong>[4]</strong>, n&ecirc;n chọn v&agrave; điền v&agrave;o chỗ trống tương ứng.<br />\nGiải th&iacute;ch: C&acirc;u n&agrave;y n&oacute;i về phương ph&aacute;p nghi&ecirc;n cứu: để biết ch&iacute;nh x&aacute;c thời gian băng tan ra, c&aacute;c nh&agrave; khoa học nghi&ecirc;n cứu t&iacute;nh di truyền của động vật ch&acirc;n đầu. Họ cho rằng c&oacute; thể sử dụng DNA của c&aacute;c sinh vật để xem lại lịch sử lai giống nhau, bởi v&igrave; mỗi DNA của ch&uacute;ng giống như một cuốn s&aacute;ch lịch sử . Đoạn [4] cung cấp đầy đủ cụm từ cần thiết: &ldquo;...nh&igrave;n v&agrave;o t&iacute;nh di truyền của động vật ch&acirc;n đầu&hellip;&rdquo; ; &ldquo;...sử dụng DNA của c&aacute;c sinh vật để nh&igrave;n lại v&agrave; t&igrave;m ra sự kh&aacute;c biệt&hellip;&rdquo; ; &ldquo;Mỗi DNA của họ l&agrave; một cuốn s&aacute;ch lịch sử &hellip;&rdquo; Do đ&oacute; điền lần như: &ldquo;t&iacute;nh di truyền&rdquo; , &ldquo;c&aacute;c sinh vật&rdquo; , &ldquo;cuốn s&aacute;ch lịch sử&rdquo; .",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Mọi loài vật"
+                },
+                {
+                    "id": "B>",
+                    "content": "Cuốn sách lịch sử"
+                },
+                {
+                    "id": "C>",
+                    "content": "Tính di truyền"
+                },
+                {
+                    "id": "D>",
+                    "content": "Các sinh vật"
+                },
+                {
+                    "id": "E>",
+                    "content": "Tính sinh sản"
+                },
+                {
+                    "id": "F>",
+                    "content": "Bách khoa toàn thư"
+                }
+            ]
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Dựa vào đoạn [7]. Điền một cụm từ không quá bốn tiếng có trong bài đọc vào chỗ trống.<br/>Sử dụng DNA động vật như một đại diện bằng chứng cho những thay đổi của phiến băng là một nghiên cứu <span class=\"fill-blank\" data-blank-id=\"Câu 20-1\" data-blank-length=\"8\">____FILL_BLANK_1____</span>. Bởi vì điều này đòi hỏi kết hợp nhiều nhà khoa học vật lý và sinh học lại với nhau đem lại những cách thức mới để trả lời những câu hỏi tồn tại đã lâu và có tầm quan trọng sống còn với tất cả chúng ta.",
+            "type": "TLN",
+            "correctAnswer": [
+                "khoa học liên ngành."
+            ],
+            "explanation": "<br />\n<strong>Phương ph&aacute;p:</strong> Nhận biết cụm từ cần điền mi&ecirc;u tả một loại nghi&ecirc;n cứu Y&ecirc;u cầu nhiều lĩnh vực. <strong>Tra đoạn [7]</strong> &ndash; đoạn n&agrave;y n&oacute;i về việc phải kết hợp nhiều ng&agrave;nh khoa học v&agrave; c&oacute; d&ugrave;ng thuật ngữ <strong>&ldquo;khoa học li&ecirc;n ng&agrave;nh&rdquo;</strong> . Nhận ra đ&acirc;y l&agrave; thuật ngữ ph&ugrave; hợp (kh&ocirc;ng qu&aacute; 4 tiếng) để điền v&agrave;o chỗ trống, gi&uacute;p c&acirc;u ho&agrave;n chỉnh về nghĩa.<br />\nGiải th&iacute;ch: C&acirc;u cần điền m&ocirc; tả t&iacute;nh chất của nghi&ecirc;n cứu sử dụng DNA động vật l&agrave;m đại diện cho biến đổi chắn băng. Đoạn [7] cho biết nghi&ecirc;n cứu n&agrave;y Y&ecirc;u cầu kết hợp nhiều lĩnh vực: &ldquo;...kết hợp nhiều nh&agrave; khoa học vật l&yacute; v&agrave; sinh học... kh&oacute; để đảm bảo cho khoa học li&ecirc;n ng&agrave;nh ...&quot;. Một nghi&ecirc;n cứu kết hợp nhiều ng&agrave;nh học ch&iacute;nh l&agrave; nghi&ecirc;n cứu li&ecirc;n ng&agrave;nh . Cụm &ldquo;khoa học li&ecirc;n ng&agrave;nh&rdquo; cũng được nhanh ch&oacute;ng chuyển tiếp trong đoạn [7], ph&ugrave; hợp để điền v&agrave;o chỗ trống."
+        }
+    ],
+    "subject": "TƯ DUY ĐỌC HIỂU",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-02-10T01:31:17.006Z",
+    "updatedAt": "2026-02-10T01:31:17.006Z",
+    "__v": 0
+}
+
+{
+    "_id": "698ef43f122c65b6a4c7c29c",
+    "title": "[AECK]-Tư Duy Khoa Học-Đề 18",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "b2f920c0-da4a-4e20-a3ae-7a5369ac7d98": "X",
+        "Câu 1": "D",
+        "Câu 2": [
+            "c1",
+            "c2"
+        ],
+        "Câu 3": [
+            "đối lưu"
+        ],
+        "Câu 4": "A",
+        "Câu 5": "B",
+        "Câu 6": "A",
+        "37f72811-330e-47aa-b91c-27314ef31c0b": "X",
+        "Câu 7": "B",
+        "Câu 8": "A",
+        "Câu 9": "A",
+        "Câu 10": "C",
+        "Câu 11": [
+            0.25
+        ],
+        "Câu 12": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "E>"
+            },
+            {
+                "slot4": "D>"
+            },
+            {
+                "slot5": "A>"
+            }
+        ],
+        "0a29def2-46f3-427f-a48d-96f10fe70cf7": "X",
+        "Câu 13": "B",
+        "Câu 14": "B",
+        "Câu 15": [
+            2
+        ],
+        "Câu 16": [
+            2
+        ],
+        "Câu 17": "B",
+        "Câu 18": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "6af1b048-35d1-4ee6-ad25-3c461981b240": "X",
+        "Câu 19": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 20": [
+            {
+                "1.": [
+                    "nối tiếp"
+                ]
+            },
+            {
+                "2.": [
+                    "song song"
+                ]
+            }
+        ],
+        "Câu 21": "B",
+        "Câu 22": "D",
+        "Câu 23": "A",
+        "Câu 24": "D",
+        "Câu 25": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 26": "B",
+        "1f43f7d0-cb40-4512-b97b-dad2d51164b4": "X",
+        "Câu 27": [
+            "loài"
+        ],
+        "Câu 28": "B",
+        "Câu 29": "B",
+        "Câu 30": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 31": [
+            {
+                "slot1": "B>"
+            }
+        ],
+        "Câu 32": "C",
+        "58b2e0a6-d5a6-44a7-b895-7c462a2fe119": "X",
+        "Câu 33": "C",
+        "Câu 34": "C",
+        "Câu 35": "A",
+        "Câu 36": "D",
+        "Câu 37": [
+            "c2",
+            "c4"
+        ],
+        "Câu 38": "D",
+        "Câu 39": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 40": [
+            {
+                "slot1": "B>"
+            },
+            {
+                "slot2": "D>"
+            },
+            {
+                "slot3": "A>"
+            },
+            {
+                "slot4": "C>"
+            }
+        ]
+    },
+    "startTime": "2026-01-24T18:01:00.000Z",
+    "endTime": "2026-04-30T18:01:00.000Z",
+    "questions": [
+        {
+            "question": "b2f920c0-da4a-4e20-a3ae-7a5369ac7d98",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>TRUYỀN NHIỆT [LAE18102501]</strong></div>\nTruyền nhiệt l&agrave; một qu&aacute; tr&igrave;nh phức tạp xảy ra đồng thời bởi nhiều phương thức kh&aacute;c nhau: dẫn nhiệt, đối lưu nhiệt v&agrave; bức xạ nhiệt. Dưới đ&acirc;y l&agrave; một số th&ocirc;ng tin được cung cấp về 3 phương ph&aacute;p truyền nhiệt:<br />\n- Dẫn nhiệt: l&agrave; qu&aacute; tr&igrave;nh truyền nhiệt năng khi c&oacute; sự tiếp x&uacute;c trực tiếp giữa c&aacute;c vật (hoặc c&aacute;c phần của vật) c&oacute; nhiệt độ kh&aacute;c nhau. C&aacute;c ph&acirc;n tử c&oacute; nhiệt độ cao hơn c&oacute; chuyển động dao động mạnh hơn, va chạm với c&aacute;c ph&acirc;n tử l&acirc;n cận, truyền cho ch&uacute;ng một phần động năng của m&igrave;nh v&agrave; cứ như thế năng lượng nhiệt được truyền đi mọi ph&iacute;a của vật thể. Chất rắn dẫn nhiệt tốt. Chất lỏng dẫn nhiệt k&eacute;m chất rắn. Chất kh&iacute; dẫn nhiệt k&eacute;m chất lỏng. Trong c&aacute;c chất rắn, kim loại dẫn nhiệt tốt hơn cả.<br />\n- Đối lưu nhiệt: l&agrave; qu&aacute; tr&igrave;nh trao đổi nhiệt xảy ra khi c&oacute; sự dịch chuyển của khối chất lỏng hoặc chất kh&iacute; trong kh&ocirc;ng gian từ v&ugrave;ng c&oacute; nhiệt độ n&agrave;y đến v&ugrave;ng c&oacute; nhiệt độ kh&aacute;c. Qu&aacute; tr&igrave;nh đối lưu c&oacute; thể diễn ra theo 2 c&aacute;ch:\n<div style=\"margin-left: 40px;\">+ Đối lưu nhiệt tự nhi&ecirc;n: Xảy ra khi giữa c&aacute;c phần tử c&oacute; nhiệt độ kh&aacute;c nhau v&agrave; c&oacute; khối lượng ri&ecirc;ng kh&aacute;c nhau.</div>\n\n<div style=\"margin-left: 40px;\">+ Đối lưu nhiệt cưỡng bức: D&ugrave;ng c&ocirc;ng b&ecirc;n ngo&agrave;i như bơm, quạt, khuấy trộn,... để tạo đối lưu. Vận tốc của qu&aacute; tr&igrave;nh đối lưu cưỡng bức lớn hơn rất nhiều lần so với đối lưu tự nhi&ecirc;n.</div>\n- Bức xạ nhiệt: l&agrave; kiểu truyền nhiệt đặc biệt bằng tia, tia đ&oacute; mang năng lượng v&agrave; vật hấp thụ tia đ&oacute; chuyển năng lượng th&agrave;nh dạng nhiệt. Khả năng hấp thụ tia nhiệt của một vật phụ thuộc v&agrave;o t&iacute;nh chất bề mặt. Vật c&oacute; bề mặt c&agrave;ng x&ugrave; x&igrave; v&agrave; m&agrave;u c&agrave;ng sẫm th&igrave; hấp thụ tia nhiệt c&agrave;ng nhiều.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 6:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Dẫn nhiệt có thể xảy ra trong môi trường nào:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Dù tốc độ khác nhau (chất rắn tốt nhất, chất khí kém nhất), nhưng cả ba môi trường đều có thể xảy ra dẫn nhiệt.<br/>Chọn D.",
+            "contentAnswerA": "Chỉ rắn và lỏng, vì có mật độ phân tử dày đặc.",
+            "contentAnswerB": "Chỉ lỏng và khí, vì có mật độ phân tử loãng.",
+            "contentAnswerC": "Chỉ rắn và khí.",
+            "contentAnswerD": "Cả rắn, lỏng và khí."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Chọn tất cả những đáp án đúng:",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2"
+            ],
+            "explanation": "<br/>Dẫn nhiệt thường xảy ra tốt nhất trong vật rắn $\\rightarrow$ đúng.<br/>Đối lưu chỉ có thể xảy ra trong môi trường chất lỏng và chất khí $\\rightarrow$ đúng.<br/>Mọi vật có nhiệt độ lớn hơn nhiệt độ môi trường đều có thể bức xạ nhiệt độ ra ngoài môi trường $\\rightarrow$ sai (câu đề bài thiếu điều kiện nhiệt độ).<br/>Vật màu đen sẽ hấp thụ bức xạ nhiệt tốt nhất $\\rightarrow$ sai.",
+            "contentC1": "Dẫn nhiệt thường xảy ra tốt nhất trong vật rắn",
+            "contentC2": "Đối lưu chỉ có thể xảy ra trong môi trường chất lỏng và chất khí",
+            "contentC3": "Mọi vật đều có thể bức xạ nhiệt độ ra ngoài môi trường",
+            "contentC4": "Vật màu đen sẽ hấp thụ bức xạ nhiệt kém nhất"
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Quan sát hình ảnh dưới đây:<br/><img src=\"https://cdn.save.moe/b/Og4a1.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770975718562-hof6sgmhq\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Phương pháp truyền nhiệt được thể hiện là <span class=\"fill-blank\" data-blank-id=\"Câu 3-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "đối lưu"
+            ],
+            "explanation": "<br/>Hình ảnh thường mô tả sự chuyển động dòng của chất lỏng hoặc khí (ví dụ: nước đang sôi hoặc dòng khí nóng bốc lên). Sự dịch chuyển khối chất trong không gian từ vùng này sang vùng khác là đặc trưng của đối lưu."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Nhận xét sau đúng hay sai?<br/>Có thể xảy ra đồng thời cả ba cách truyền nhiệt.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Truyền nhiệt là quá trình phức tạp xảy ra đồng thời bởi nhiều phương thức khác nhau: dẫn nhiệt, đối lưu và bức xạ nhiệt.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Ở những nơi có mùa đông giá lạnh, khi làm cửa sổ người ta thường làm cửa sổ có hai hay ba lớp kính? Lý do là vì:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ở những nơi có mùa đông giá lạnh, khi làm cửa sổ người ta thường làm cửa sổ có hai hay ba lớp kính là vì không khí giữa hai tấm kính cách nhiệt tốt làm giảm sự mất nhiệt trong nhà.<br/>Chọn B.",
+            "contentAnswerA": "Đề phòng lớp này vỡ thì còn có lớp khác.",
+            "contentAnswerB": "Không khí giữa hai tấm kính cách nhiệt tốt làm giảm sự mất nhiệt trong nhà.",
+            "contentAnswerC": "Để tăng thêm bề dày của kính.",
+            "contentAnswerD": "Để tránh gió lạnh thổi vào nhà."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Cho các vật liệu sau đây: gỗ, nước biển, thép, bạc, nhôm. Thứ tự sắp xếp nào sau đây là đúng với khả năng dẫn nhiệt theo quy luật tăng dần?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Gỗ: Chất rắn nhưng là vật liệu cách nhiệt (dẫn nhiệt kém hơn chất lỏng như nước biển).<br/>Nước biển: Chất lỏng, dẫn nhiệt tốt hơn gỗ nhưng kém hơn kim loại.<br/>Thép: Kim loại, dẫn nhiệt tốt nhất trong nhóm.<br/>Chọn A.",
+            "contentAnswerA": "Gỗ, nước biển, thép.",
+            "contentAnswerB": "Thép, gỗ, nước biển.",
+            "contentAnswerC": "Thép, nước biển, gỗ.",
+            "contentAnswerD": "Nước biển, thép, gỗ."
+        },
+        {
+            "question": "37f72811-330e-47aa-b91c-27314ef31c0b",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>TH&Agrave;NH PHẦN CỦA ĐẤT [HAE18102501]</strong></div>\nHọc sinh trong lớp khoa học thu thập mẫu đất từ c&aacute;c vị tr&iacute; kh&aacute;c nhau để ph&acirc;n t&iacute;ch th&agrave;nh phần của đất. Họ đo tỷ lệ phần trăm của ba loại kho&aacute;ng chất trong đất bao c&aacute;t, b&ugrave;n v&agrave; đất s&eacute;t trong mỗi mẫu. Dữ liệu đo được của họ được tr&igrave;nh b&agrave;y trong bảng 1.\n\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"text-align: center;\"><strong>Bảng 1</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Mẫu đất</strong></td>\n\t\t\t<td><strong>% c&aacute;t</strong></td>\n\t\t\t<td><strong>% đất s&eacute;t</strong></td>\n\t\t\t<td><strong>% b&ugrave;n</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>65</td>\n\t\t\t<td>10</td>\n\t\t\t<td>25</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>10</td>\n\t\t\t<td>75</td>\n\t\t\t<td>15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>25</td>\n\t\t\t<td>35</td>\n\t\t\t<td>40</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>60</td>\n\t\t\t<td>20</td>\n\t\t\t<td>20</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>55</td>\n\t\t\t<td>30</td>\n\t\t\t<td>15</td>\n\t\t</tr>\n\t</tbody>\n</table>\nNh&oacute;m sinh vi&ecirc;n cũng đo k&iacute;ch thước của c&aacute;c hạt kho&aacute;ng được t&igrave;m thấy trong c&aacute;c mẫu đất. C&aacute;c phạm vi k&iacute;ch thước hạt kho&aacute;ng được liệt k&ecirc; trong bảng 2 dưới đ&acirc;y.<br />\nBảng 2:\n<table align=\"center\" class=\"TableGrid2\" style=\"border-collapse:collapse; border:none\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Loại kho&aacute;ng</strong></td>\n\t\t\t<td>C&aacute;t</td>\n\t\t\t<td>Đất s&eacute;t</td>\n\t\t\t<td>B&ugrave;n</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>K&iacute;ch thước (mm)</strong></td>\n\t\t\t<td>2,0 - 0,06</td>\n\t\t\t<td>0,06 - 0,002</td>\n\t\t\t<td>&lt; 0,002</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 7 - 12:",
+            "range": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Theo bảng 1, mẫu 3 có thành phần chủ yếu là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Theo bảng 1, mẫu 3 có thành phần là cát $25\\%$; đất sét $35\\%$; bùn $40\\%$. Vậy thành phần chủ yếu là bùn và đất sét.<br/>Chọn B.",
+            "contentAnswerA": "cát và đất sét.",
+            "contentAnswerB": "đất sét và bùn.",
+            "contentAnswerC": "đất sét và cát.",
+            "contentAnswerD": "chỉ có cát."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Dựa trên dữ liệu trong bảng 1, mẫu 5 có",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Theo bảng 1, mẫu 5 có thành phần là cát $55\\%$; đất sét $30\\%$; bùn $15\\%$.<br/>Ta có: $\\% {Cát} > \\% {Đất sét} > \\% {Bùn}$. Suy ra cát nhiều hơn đất sét.<br/>Chọn A.",
+            "contentAnswerA": "nhiều cát hơn đất sét.",
+            "contentAnswerB": "nhiều đất sét hơn cát.",
+            "contentAnswerC": "ít đất sét hơn phù sa.",
+            "contentAnswerD": "ít cát hơn đất sét."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Xác định tính đúng/sai của mệnh đề dưới đây:<br/>Mẫu đất 4 khả năng có trung bình kích thước hạt khoáng lớn nhất khoảng $1,2$ mm.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Mẫu đất 4 có kích thước cát trung bình $= 2,0 \\cdot 0,6 + 0,06 \\cdot 0,2 + 0,002 \\cdot 0,2 = 1,21$ mm.<br/>Nhận định đúng.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Nhóm học sinh thu thập mẫu đất thứ sáu từ một vị trí gần vị trí mà họ đã thu thập mẫu 4. Dựa trên thông tin trong đoạn ngữ liệu, mẫu thứ sáu sẽ chứa các hạt khoáng chất có kích thước chủ yếu là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Mẫu 4 có thành phần cát (kích thước $2,0 - 0,06$ mm) chiếm tỉ lệ cao nhất ($60\\%$). Do đó, mẫu thứ sáu (gần mẫu 4) sẽ chứa các hạt khoáng chất có kích thước chủ yếu là lớn hơn $0,06$ mm.",
+            "contentAnswerA": "nhỏ hơn $0,002$ mm.",
+            "contentAnswerB": "nhỏ hơn $0,06$ mm.",
+            "contentAnswerC": "lớn hơn $0,06$ mm.",
+            "contentAnswerD": "lớn hơn $2,0$ mm."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Mẫu 2 rất có thể nếu được đo, có kích thước hạt khoáng trung bình lớn nhất là bao nhiêu mm (kết quả làm tròn đến hàng phần trăm)?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 11-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>",
+            "type": "TLN",
+            "correctAnswer": [
+                0.25
+            ],
+            "explanation": "<br/>Mẫu đất 2 có kích thước cát trung bình $= 2,0 \\cdot 10\\% + 0,06 \\cdot 75\\% + 0,002 \\cdot 15\\% = 0,2453 { mm} \\approx 0,25 { mm}$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Sắp xếp các mẫu đất theo chiều tăng dần của kích thước lớn nhất trung bình các hạt khoáng.<br/><span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-1\">____DRAG_DROP_1____</span> < <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-2\">____DRAG_DROP_2____</span> < <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-3\">____DRAG_DROP_3____</span> < <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-4\">____DRAG_DROP_4____</span> < <span class=\"drag-drop-blank\" data-drop-id=\"Câu 12-5\">____DRAG_DROP_5____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "E>"
+                },
+                {
+                    "slot4": "D>"
+                },
+                {
+                    "slot5": "A>"
+                }
+            ],
+            "explanation": "<br/>Tính toán kích thước trung bình:<br/>Mẫu 1: $65\\% \\cdot 2 + 10\\% \\cdot 0,06 + 25\\% \\cdot 0,002 = 1,323$ mm.<br/>Mẫu 2: $\\approx 0,25$ mm.<br/>Mẫu 3: $25\\% \\cdot 2 + 35\\% \\cdot 0,06 + 40\\% \\cdot 0,002 = 0,529$ mm.<br/>Mẫu 4: $60\\% \\cdot 2 + 20\\% \\cdot 0,06 + 20\\% \\cdot 0,002 = 1,216$ mm.<br/>Mẫu 5: $55\\% \\cdot 2 + 30\\% \\cdot 0,06 + 15\\% \\cdot 0,002 = 1,121$ mm.<br/>Thứ tự tăng dần: Mẫu 2 < Mẫu 3 < Mẫu 5 < Mẫu 4 < Mẫu 1.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Mẫu 1"
+                },
+                {
+                    "id": "B>",
+                    "content": "Mẫu 2"
+                },
+                {
+                    "id": "C>",
+                    "content": "Mẫu 3"
+                },
+                {
+                    "id": "D>",
+                    "content": "Mẫu 4"
+                },
+                {
+                    "id": "E>",
+                    "content": "Mẫu 5"
+                }
+            ]
+        },
+        {
+            "question": "0a29def2-46f3-427f-a48d-96f10fe70cf7",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>TƯƠNG T&Aacute;C GENE Ở LO&Agrave;I VỪNG [SAECK1102579]</strong></div>\nBảng 1 dưới đ&acirc;y liệt k&ecirc; hai gene được t&igrave;m thấy trong một loại vừng (Sesamum indicum), c&aacute;c allele v&agrave; c&aacute;c kiểu gene c&oacute; thể c&oacute; của mỗi gene.\n\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"3\" style=\"text-align: center;\"><strong>Bảng 1</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Gene</strong></td>\n\t\t\t<td><strong>Allele</strong></td>\n\t\t\t<td><strong>Kiểu gene</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>P, p\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>PP, Pp, pp\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>L\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>L, l\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>LL, Ll, ll\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nBảng 2 liệt k&ecirc; c&aacute;c kiểu gene kh&aacute;c nhau v&agrave; kiểu h&igrave;nh li&ecirc;n quan tới từng kiểu gene.\n\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">\n\t\t\t<div style=\"text-align: center;\"><strong>Bảng 2</strong></div>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Kiểu gene</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"2\"><strong>Kiểu h&igrave;nh</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Số lượng quả</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Trạng th&aacute;i l&aacute;</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P_L_\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Trơn\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>ppL_\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Trơn\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P_ll\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Nhăn\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>ppll\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Nhăn\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nBảng 3 liệt k&ecirc; bốn ph&eacute;p lai, kiểu gene của bố mẹ v&agrave; tỉ lệ kiểu h&igrave;nh đời con, biết c&aacute;c t&iacute;nh trạng di truyền theo quy luật ph&acirc;n ly độc lập của Mendel.\n\n<table align=\"center\" class=\"Table\" style=\"border-collapse:collapse; border:none\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>Bảng 3</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Ph&eacute;p lai</strong></td>\n\t\t\t<td colspan=\"2\"><strong>Kiểu gene</strong></td>\n\t\t\t<td colspan=\"2\"><strong>Kiểu h&igrave;nh đời con</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>C&acirc;y mẹ</strong></td>\n\t\t\t<td><strong>C&acirc;y bố</strong></td>\n\t\t\t<td><strong>Số lượng quả</strong></td>\n\t\t\t<td><strong>Trạng th&aacute;i l&aacute;</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>PpLL</td>\n\t\t\t<td>ppll</td>\n\t\t\t<td>50% 1 quả</td>\n\t\t\t<td>100% trơn</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>PpLl</td>\n\t\t\t<td>Ppll</td>\n\t\t\t<td>75% 1 quả</td>\n\t\t\t<td>50% nhăn</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>ppLl</td>\n\t\t\t<td>ppLl</td>\n\t\t\t<td>100% 3 quả</td>\n\t\t\t<td>75% trơn</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>PPLL</td>\n\t\t\t<td>PPLL</td>\n\t\t\t<td>100% 1 quả</td>\n\t\t\t<td>100% trơn</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 13 - 18:",
+            "range": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho biết gene nào quy định kiểu hình của lá?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nhìn vào bảng 2, ta thấy đối với kiểu gene $P\\_L\\_$ và $ppL\\_$ đều quy định kiểu hình lá trơn, còn đối với kiểu gene $P\\_ll$ và $ppll$ thì đều quy định kiểu hình lá nhăn. Vì vậy gene quy định tính trạng lá là gene $L$.",
+            "contentAnswerA": "Gene $P$.",
+            "contentAnswerB": "Gene $L$.",
+            "contentAnswerC": "Cả gene $P$ và gene $L$.",
+            "contentAnswerD": "Không có gene nào."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Một cây vừng có 3 quả với lá trơn có thể có kiểu gene nào dưới đây?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nhìn vào bảng 2:<br/>Gene $P$: allele $P$ (1 quả) >< allele $p$ (3 quả).<br/>Gene $L$: allele $L$ (trơn) >< allele $l$ (nhăn).<br/>Vậy một cây vừng có 3 quả với lá trơn thì kiểu gene sẽ là: $ppLL$ hoặc $ppLl$.<br/>Chọn B.",
+            "contentAnswerA": "$PPll$.",
+            "contentAnswerB": "$ppLl$.",
+            "contentAnswerC": "$ppLL$.",
+            "contentAnswerD": "$PpLl$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Điền số thích hợp vào chỗ trống dưới đây:<br/>Dựa vào bảng 3, có <span class=\"fill-blank\" data-blank-id=\"Câu 15-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> phép lai đời con xuất hiện 2 kiểu hình.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<br/>Phép lai số 1 và phép lai số 3 đời con xuất hiện 2 kiểu hình.<br/>Ta dựa vào bố mẹ và đời con tạo ra để xem số kiểu hình:<br/>Ở phép lai 1:<br/>Xét tính trạng số lượng quả: Ta có bố x mẹ: $pp \\times Pp$ $\\rightarrow$ cho đời con có 2 loại kiểu hình.<br/>Xét tính trạng trạng thái lá: Ta thấy đời con xuất hiện 100% $\\rightarrow$ cho đời con 1 loại kiểu hình<br/>$\\Rightarrow$ Số loại kiểu hình đời con là: $2 \\times 1 = 2$<br/>Ở phép lai 3:<br/>Xét tính trạng số lượng quả: Ta thấy có 100% $\\rightarrow$ cho đời con có 1 loại kiểu hình<br/>Xét tính trạng trạng thái lá: Ta thấy bố x mẹ: $Ll \\times Ll$ $\\rightarrow$ cho $75 \\% L\\_$: $25\\%ll$ $\\rightarrow$ cho đời con<br/>2 loại kiểu hình<br/>$\\Rightarrow$ Số loại kiểu hình đời con là: $1 \\times 2 = 2$"
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Điền số thích hợp vào chỗ trống dưới đây:<br/>Gene $P$ và gene $L$ đều là những gene có <span class=\"fill-blank\" data-blank-id=\"Câu 16-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> allele.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<br/>Nhìn vào bảng 1, ta thấy gene $P$ có 2 allele là $P$ và $p$; tương tự gene $L$ cũng có 2 allele là $L$ và $l$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Xét phép lai số 2, cây con có 3 quả, lá trơn chiếm tỉ lệ.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nhìn vào bảng 3, phép lai số 2, ta có:<br/>Tỉ lệ kiểu hình 3 quả chiếm: $1 – 0,75 = 0,25$<br/>Tỉ lệ kiểu hình lá trơn chiếm: $1 – 0,5 = 0,5$<br/>Tổ hợp lại, ta có tỉ lệ cây con có kiểu hình 3 quả, lá trơn chiếm: $0,25 \\times 0,5 = 0,125$",
+            "contentAnswerA": "0,25.",
+            "contentAnswerB": "0,125.",
+            "contentAnswerC": "0,375.",
+            "contentAnswerD": "0,5."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Các phát biểu sau đây đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai. Phép lai 2 tạo ra đời con có 4 kiểu hình: (1 quả, trơn); (1 quả, nhăn); (3 quả, trơn); (3 quả, nhăn).<br/>b, Sai. Theo bài thì 2 tính trạng này di truyền theo quy luật phân li độc lập của Mendel.<br/>c, Đúng. Phép lai số 4 ($PPLL \\times PPLL$) tạo ra đời con có một kiểu gene là $PPLL$, có kiểu hình 1 quả, lá trơn.<br/>d, Đúng.",
+            "contentYA": "Phép lai số 2 sẽ tạo ra đời con có 2 kiểu hình.",
+            "contentYB": "Tính trạng số lượng quả và dạng lá di truyền theo quy luật tương tác gene.",
+            "contentYC": "Phép lai số 4 tạo ra đời con duy nhất một kiểu gene và một kiểu hình.",
+            "contentYD": "Quy luật phân li độc lập là cơ sở giải thích tính đa dạng ở những loài sinh sản hữu tính."
+        },
+        {
+            "question": "6af1b048-35d1-4ee6-ad25-3c461981b240",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>TH&Iacute; NGHIỆM ĐO CƯỜNG ĐỘ D&Ograve;NG ĐIỆN V&Agrave; HIỆU ĐIỆN THẾ [LAE18102502]</strong></div>\nMột nh&oacute;m học sinh thực hiện đo cường độ d&ograve;ng điện v&agrave; hiệu điện thế ứng với c&aacute;c vật dẫn kh&aacute;c nhau với c&aacute;c dụng cụ: 1 ampe kế, 1 v&ocirc;n kế, 1 nguồn c&oacute; thể điều chỉnh được hiệu điện thế (điện trở kh&ocirc;ng đ&aacute;ng kể), hai vật dẫn $R_{1}$ v&agrave; $R_{2}$ kh&aacute;c nhau, d&acirc;y dẫn v&agrave; kh&oacute;a $K$.<br />\nTh&iacute; nghiệm được tiến h&agrave;nh như sau:<br />\nMạch được mắc như H&igrave;nh 1.<br />\n<img alt=\"Image from Word document\" data-temp-key=\"temp-image-1770975718568-ri8u7vduy\" src=\"https://cdn.save.moe/b/tu8XI4I.png?dl=1\" style=\"width: 50%; margin: 0 auto; display: block;\" /><br />\nĐ&oacute;ng kh&oacute;a K, điều chỉnh hiệu điện thế của nguồn ta thu được c&aacute;c gi&aacute; trị của cường độ d&ograve;ng điện I, chạy qua vật dẫn $R_{1}$, kết quả được ghi trong Bảng 1. Thay vật dẫn $R_{2}$ v&agrave;o vị tr&iacute; của vật dẫn $R_{1}$ v&agrave; lặp lại th&iacute; nghiệm tương tự, ghi kết quả của I v&agrave; $R_{2}$ v&agrave;o bảng 1.\n<table align=\"center\" class=\"TableGrid11\" style=\"width:364px; border-collapse:collapse; border:none\" width=\"364\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"3\"><strong>Bảng 1</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Điện &aacute;p <em>U</em> (<em>V</em>)</strong></td>\n\t\t\t<td><strong>Điện trở $R_1$</strong></td>\n\t\t\t<td><strong>Điện trở $R_2$</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>$I_1$ (mA)</strong></td>\n\t\t\t<td><strong>$I_2$ (mA)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0,43</td>\n\t\t\t<td>0,21</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>0,86</td>\n\t\t\t<td>0,43</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>1,30</td>\n\t\t\t<td>0,65</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>1,73</td>\n\t\t\t<td>0,87</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>2,17</td>\n\t\t\t<td>1,09</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6</td>\n\t\t\t<td>2,60</td>\n\t\t\t<td>1,31</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7</td>\n\t\t\t<td>3,03</td>\n\t\t\t<td>1,53</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>8</td>\n\t\t\t<td>3,45</td>\n\t\t\t<td>1,75</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<div style=\"text-align: right;\"><em>*Tr&iacute;ch s&aacute;ch gi&aacute;o khoa Vật l&iacute; 11 - Kết nối tri thức với cuộc sống</em></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 19 - 26:",
+            "range": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Khi đặt cùng một hiệu điện thế vào hai đầu $R_{1}, R_{2}$ thì cường độ dòng điện chạy qua hai vật dẫn là:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<br/>Phân tích Bảng 1, ví dụ tại $U = 4$ V:<br/>$I_{R1} = 1,73$ mA $\\Rightarrow R_{1} = \\frac{4}{1,73} \\approx 2,31 \\Omega$.<br/>$I_{R2} = 0,87$ mA $\\Rightarrow R_{2} = \\frac{4}{0,87} \\approx 4,6 \\Omega$.<br/>Suy ra $I_{1} \\neq I_{2}$. Khi đặt cùng một hiệu điện thế vào hai đầu $R_1$, $R_2$ thì cường độ dòng điện chạy qua hai vật dẫn khác nhau.",
+            "contentYA": "bằng nhau.",
+            "contentYB": "khác nhau."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Điền từ th&iacute;ch hợp v&agrave;o chỗ trống:<br />\nTrong h&igrave;nh 1, ampe kế được mắc <span class=\"fill-blank\" data-blank-id=\"Câu 20-1\" data-blank-length=\"7\">____FILL_BLANK_1____</span> với vật dẫn để đo cường độ d&ograve;ng điện, v&ocirc;n kế được mắc <span class=\"fill-blank\" data-blank-id=\"Câu 20-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> với vật để đo hiệu điện thế giữa hai đầu vật dẫn.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        "nối tiếp"
+                    ]
+                },
+                {
+                    "2.": [
+                        "song song"
+                    ]
+                }
+            ],
+            "explanation": "<br/>Ampe kế: Dùng để đo cường độ dòng điện, phải được mắc nối tiếp trong mạch để tất cả dòng điện chạy qua nó.<br/>Vôn kế: Dùng để đo hiệu điện thế, phải được mắc song song với đoạn mạch cần đo.<br/>$\\rightarrow$ Trong hình 1, ampe kế được mắc nối tiếp với vật dẫn để đo cường độ dòng điện, vôn kế được mắc song song với vật để đo hiệu điện thế giữa hai đầu vật dẫn．"
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Hiệu điện thế của nguồn đo được qua vôn kế là 6 V, khi đó cường độ dòng điện qua $R_{2}$ là bao nhiêu?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Dựa vào bảng 1, tại dòng $U = 6$ V, cột $I_{2}$ (cường độ qua $R_{2}$) có giá trị là $1,31$ mA.",
+            "contentAnswerA": "2,6 mA",
+            "contentAnswerB": "1,31 mA",
+            "contentAnswerC": "2,06 mA",
+            "contentAnswerD": "1,13 mA"
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Khi cường độ dòng điện qua vật 1 có giá trị xấp xỉ bằng $4,58$ mA thì hiệu điện thế của nguồn khi đó có thể là:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Hiệu điện thế giữa hai đầu vật dẫn tỉ lệ với cường độ dòng điện qua vật dẫn, ta có:<br/>$\\frac{{{U_1}}}{{{I_1}}} = \\frac{{{U_2}}}{{{I_2}}} \\Rightarrow \\frac{{{U_2}}}{{{U_1}}} = \\frac{{{I_2}}}{{{I_1}}} \\Rightarrow \\frac{{{U_2}}}{5} = \\frac{{4,58}}{{2,17}} \\Rightarrow {U_2} \\approx 10,55\\left( {{{\\;V}}} \\right)$",
+            "contentAnswerA": "7 V.",
+            "contentAnswerB": "8 V.",
+            "contentAnswerC": "9 V.",
+            "contentAnswerD": "10 V."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Khi mắc nối tiếp hai vật dẫn, khi đó điện trở của mạch điện được xác định bằng biểu thức nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Đối với đoạn mạch mắc nối tiếp, điện trở tương đương bằng tổng các điện trở thành phần: $R = R_{1} + R_{2}$.<br/>Chọn A.",
+            "contentAnswerA": "$R_{1} + R_{2}$.",
+            "contentAnswerB": "$R_{1} - R_{2}$.",
+            "contentAnswerC": "$R_{1} \\cdot R_{2}$.",
+            "contentAnswerD": "$\\frac{R_{1}}{R_{2}}$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Khi ghép song song hai vật dẫn rồi thay vào vị trí $R_{1}$ và lặp lại các bước thí nghiệm. Khi vôn kế chỉ 8 V thì ampe kế sẽ chỉ:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Khi mắc song song, hiệu điện thế qua mỗi vật dẫn bằng nhau và bằng hiệu điện thế nguồn: $U = U_1 = U_2 = 8V$.<br/>Từ đồ thị ta thấy khi vôn kế chỉ 8 V , cường độ dòng điện qua hai vật dẫn tương ứng là:<br/>${I_1} = 3,45mA$<br/>${I_2} = 1,65mA$<br/>Cường độ dòng điện qua đoạn mạch là:<br/>$I = {I_1} + {I_2} = 3,45 + 1,65 = 5,1\\left( {mA} \\right)$",
+            "contentAnswerA": "0,83 mA",
+            "contentAnswerB": "1,16 mA",
+            "contentAnswerC": "0,38 mA",
+            "contentAnswerD": "5,2 mA"
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Đồ thị thể hiện mối quan hệ thể hiện đường đặc trưng U-I của vật rắn có nhiệt độ không đổi là:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<br/>Theo Định luật Ohm, với vật dẫn có nhiệt độ không đổi (điện trở $R$ là hằng số):<br/>$U = R.I$<br/>Ta thấy $U$ tỉ lệ với $I$ $\\rightarrow$ đồ thị đường đặc trưng $U-I$ là đương thẳng đi qua gốc tọa độ dạng $y = kx$, với $y = U$, $x = I$ và hệ số góc $k = R$.",
+            "contentYA": "đường parabol.",
+            "contentYB": "đường thẳng đi qua gốc toạ độ."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho 2 vật dẫn $R_{1}, R_{2}$ và một hiệu điện thế U không đổi. Mắc $R_{1}$ vào U thì công suất tỏa nhiệt trên $R_{1}$ là 100 W. Mắc nối tiếp $R_{1}$ và $R_{2}$ rồi mắc vào U thì công suất tỏa nhiệt trên $R_{1}$ là 64 W. Tìm tỉ số $\\frac{R_{1}}{R_{2}}$?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Công suất tỏa nhiệt trên điện trờ ${R_1}$ khi mắc vào hiệu điện thế U là:<br/>${P_1} = \\frac{{{U^2}}}{{{R_1}}} = 100\\left( W \\right) \\Rightarrow {U^2} = 100{R_1}$<br/>Khi mắc nối tiếp hai điện trờ, điện trờ tương đương của mạch điện là:<br/>$R = {R_1} + {R_2}$<br/>Cường độ dòng điện trong đoạn mạch là:<br/>$I = \\frac{U}{R} = \\frac{U}{{{R_1} + {R_2}}}$<br/>Công suất tỏa nhiệt trên điện trở ${R_1}$ là:<br/>$P = {I^2}{R_1} = \\frac{{{U^2}{R_1}}}{{{{\\left( {{R_1} + {R_2}} \\right)}^2}}} \\Rightarrow 64 = \\frac{{100{R_1}{\\;^2}}}{{{{\\left( {{R_1} + {R_2}} \\right)}^2}}}$<br/>$ \\Rightarrow 8\\left( {{R_1} + {R_2}} \\right) = 10{R_1} \\Rightarrow 2{R_1} = 8{R_2}$<br/>$ \\Rightarrow \\frac{{{R_1}}}{{{R_2}}} = 4$",
+            "contentAnswerA": "0,25.",
+            "contentAnswerB": "4.",
+            "contentAnswerC": "2.",
+            "contentAnswerD": "0,5."
+        },
+        {
+            "question": "1f43f7d0-cb40-4512-b97b-dad2d51164b4",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>C&Acirc;Y PH&Aacute;T SINH CHỦNG LOẠI [SAECK1102584]</strong></div>\nHệ thống ph&acirc;n loại sinh vật cung cấp th&ocirc;ng tin về mức độ tương đối về mối quan hệ giữa c&aacute;c lo&agrave;i. C&aacute;c nh&oacute;m sinh vật được sắp xếp v&agrave; ph&acirc;n chia v&agrave;o c&aacute;c bậc kh&aacute;c nhau dựa tr&ecirc;n những nguy&ecirc;n tắc nhất định. Căn cứ v&agrave;o mối quan hệ giữa c&aacute;c nh&oacute;m, người ta c&oacute; thể gộp ch&uacute;ng th&agrave;nh những cấp ph&acirc;n loại cao hơn.\n\n<table class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none\" width=\"699\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>C&aacute; c&oacute;c ngọc linh</strong></td>\n\t\t\t<td><strong>C&aacute; c&oacute;c tam đảo</strong></td>\n\t\t\t<td><strong>Ếch c&acirc;y kio</strong></td>\n\t\t\t<td><strong>Ếch c&acirc;y đốm xanh</strong></td>\n\t\t\t<td><strong>Ếch giun đ&ocirc;ng dương</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Giới</strong></td>\n\t\t\t<td>Động vật (Animalia)</td>\n\t\t\t<td>Động vật (Animalia)</td>\n\t\t\t<td>Động vật (Animalia)</td>\n\t\t\t<td>Động vật (Animalia)</td>\n\t\t\t<td>Động vật (Animalia)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Ng&agrave;nh</strong></td>\n\t\t\t<td>Động vật c&oacute; d&acirc;y (Chordata)</td>\n\t\t\t<td>Động vật c&oacute; d&acirc;y (Chordata)</td>\n\t\t\t<td>Động vật c&oacute; d&acirc;y (Chordata)</td>\n\t\t\t<td>Động vật c&oacute; d&acirc;y (Chordata)</td>\n\t\t\t<td>Động vật c&oacute; d&acirc;y (Chordata)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width: 80px;\"><strong>Lớp</strong></td>\n\t\t\t<td>Lưỡng cư (Amphibian)</td>\n\t\t\t<td>Lưỡng cư (Amphibian)</td>\n\t\t\t<td>Lưỡng cư (Amphibian)</td>\n\t\t\t<td>Lưỡng cư (Amphibian)</td>\n\t\t\t<td>Lưỡng cư (Amphibian)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Bộ</strong></td>\n\t\t\t<td>C&oacute; đu&ocirc;i (Caudata)</td>\n\t\t\t<td>C&oacute; đu&ocirc;i (Caudata)</td>\n\t\t\t<td>Kh&ocirc;ng đu&ocirc;i (Anura)</td>\n\t\t\t<td>Kh&ocirc;ng đu&ocirc;i (Anura)</td>\n\t\t\t<td>Kh&ocirc;ng đu&ocirc;i (Anura)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Họ</strong></td>\n\t\t\t<td>C&aacute; c&oacute;c (Salamandridae)</td>\n\t\t\t<td>C&aacute; c&oacute;c (Salamandridae)</td>\n\t\t\t<td>Chẫu c&acirc;y (Rhacophoridae)</td>\n\t\t\t<td>Chẫu c&acirc;y (Rhacophoridae)</td>\n\t\t\t<td>Ếch giun (Coeciliidae)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Chi</strong></td>\n\t\t\t<td>Tylototriton</td>\n\t\t\t<td>Paramesotriton</td>\n\t\t\t<td>Rhacophorus</td>\n\t\t\t<td>Rhacophorus</td>\n\t\t\t<td>Ichthyophis</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Lo&agrave;i</strong></td>\n\t\t\t<td>Ngoclinhensis</td>\n\t\t\t<td>Deloustali</td>\n\t\t\t<td>kio</td>\n\t\t\t<td>denny</td>\n\t\t\t<td>Kohtaoensis</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<br />\nNgo&agrave;i ra, c&aacute;c nh&agrave; khoa học c&ograve;n sử dụng c&acirc;y ph&aacute;t sinh chủng loại để minh họa lịch sử tiến h&oacute;a của một nh&oacute;m c&aacute;c lo&agrave;i c&oacute; mối quan hệ mật thiết với nhau, c&ugrave;ng h&igrave;nh th&agrave;nh từ một tổ ti&ecirc;n chung trong qu&aacute; khứ. Trong một c&acirc;y ph&aacute;t sinh loại, c&aacute;c lo&agrave;i hiện đang sống được gọi l&agrave; ph&acirc;n loại c&ograve;n tồn tại.",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 27 - 32:",
+            "range": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Điền từ/cụm từ thích hợp vào chỗ trống:<br/>Đơn vị nhỏ nhất của hệ thống phân loại sinh vật là <span class=\"fill-blank\" data-blank-id=\"Câu 27-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "loài"
+            ],
+            "explanation": "<br/>Loài: Là đơn vị cơ bản và nhỏ nhất của hệ thống các đơn vị phân loại kể trên. Nó tập hợp các cá thể sinh sống trong một khoảng không gian xác định, giống nhau về các dấu hiệu hình thái, sinh học và sinh thái. Các cá thể của loài này cách biệt về phương diện sinh sản với các cá thể của loài khác."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Đặc điểm chung của 5 loài sinh vật ở trong bảng 1 là gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Dựa vào bảng 1, ta dễ dàng nhận thấy đặc điểm chung của 5 loài sinh vật được nhắc đến là chúng đề thuộc giới Động vật (Animalia), ngành Động vật có dây sống (Chordata) và lớp Lưỡng cư (Amphibian).",
+            "contentAnswerA": "Đều thuộc bộ có đuôi (Caudata).",
+            "contentAnswerB": "Đều thuộc lớp Lưỡng cư (Amphibian).",
+            "contentAnswerC": "Đều thuộc họ Chẫu cây (Rhacophoridae).",
+            "contentAnswerD": "Đều thuộc bộ không đuôi (Anura)."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Tên khoa học của loài cá cóc Tam Đảo là?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Tên khoa học sẽ được ghép từ tên chi và tên loài, được viết nghiêng, chữ cái đầu tiên của chi sẽ viết hoa, còn lại viết thường.<br/>$\\Rightarrow$ Như vậy, đối chiếu vào bảng 1 ta được tên khoa học của loài cá cóc Tam Đảo là Paramesotriton deloustali.",
+            "contentAnswerA": "Tylototriton ngoclinhensis.",
+            "contentAnswerB": "Paramesotriton deloustali.",
+            "contentAnswerC": "Rhacophorus dennysi.",
+            "contentAnswerD": "Ichthyophis kohtaoensis."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Phát biểu sau đây đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>a sai. Theo đoạn thông tin: “ ... Trong một cây phân loại, các loài hiện đang sống được gọi là phân loại còn tồn tại”.<br/>b sai. Nhìn vào bảng 1 ta thấy chỉ có 3 loài thuộc bộ không đuôi Anura.<br/>c sai. Con người thuộc giới Động vật, ngành Động vật có xương sống, lớp Động vật có vú, bộ Linh trưởng, họ Người, chi Người. Tên khoa học là Homo sapiens.<br/>$\\Rightarrow$ Cả 3 phát biểu đều sai.",
+            "contentYA": "Trong một cây phát sinh loại, loài đã tuyệt chủng được gọi là đơn vị phân loại còn tồn tại.",
+            "contentYB": "Tổ tiên chung gần gũi nhất với cả năm loài kể trên sẽ thuộc bộ Anura.",
+            "contentYC": "Con người không được sắp xếp vào bất kì hệ thống phân loại sinh vật nào do là động vật bậc cao."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ/cụm từ vào đúng vị trí:<br/>Loài <span class=\"drag-drop-blank\" data-drop-id=\"Câu 31-1\">____DRAG_DROP_1____</span> có họ hàng gần nhất với loài ếch giun đông dương Ichthyophis kohtaoensis.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                }
+            ],
+            "explanation": "<br/>Loài ếch giun đông dương Ichthyophis kohtaoensis là sinh vật thuộc bộ không đuôi (Anura).<br/>Xét các loài trên thì chỉ có loài Rhacophorus dennysi thuộc bộ không đuôi (Anura), 2 loài còn lại thuộc bộ có đuôi (Caudata).",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Tylototriton ngoclinhensis"
+                },
+                {
+                    "id": "B>",
+                    "content": "Rhacophorus dennysi"
+                },
+                {
+                    "id": "C>",
+                    "content": "Paramesotriton deloustali"
+                }
+            ]
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Các nhà khoa học phát hiện ra một loài thuộc lớp Lưỡng cư có tên khoa học là Tylototriton vietnamemsis, loài ếch này có họ hàng gần nhất với loài nào dưới đây?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>- Loài được xét thuộc lớp Lưỡng cư có tên khoa học là Tylototriton vietnamemsis<br/>$\\Rightarrow$ Loài này thuộc chi Tylototriton<br/>- Xét các loài sinh vật trên, ta thấy chỉ có loài cá cóc ngọc linh thuộc chi Tylototriton<br/>$\\Rightarrow$ Loài Tylototriton vietnamemsis có họ hàng gần nhất với loài cá cóc ngọc linh",
+            "contentAnswerA": "Ếch giun đông dương.",
+            "contentAnswerB": "Cá cóc tam đảo.",
+            "contentAnswerC": "Cá cóc ngọc linh.",
+            "contentAnswerD": "Ếch cây kio."
+        },
+        {
+            "question": "58b2e0a6-d5a6-44a7-b895-7c462a2fe119",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>SỰ PH&Acirc;N HUỶ CỦA Đ&Aacute; V&Ocirc;I [HAE18102502]</strong></div>\nC&aacute;c nh&agrave; nghi&ecirc;n cứu nhận thấy sự ph&acirc;n hủy đột ngột của đ&aacute; v&ocirc;i tại c&aacute;c điểm đ&aacute;nh dấu của ng&ocirc;i mộ trong một nghĩa trang theo hướng gi&oacute; từ một l&ograve; đốt than của nh&agrave; m&aacute;y điện. Hai nghi&ecirc;n cứu đ&atilde; được thực hiện để kiểm tra qu&aacute; tr&igrave;nh ph&acirc;n hủy.<br />\n<strong>Nghi&ecirc;n cứu 1: </strong><br />\nTh&agrave;nh phần kho&aacute;ng chất quan trọng của đ&aacute; v&ocirc;i l&agrave; kho&aacute;ng tr&agrave;ng thạch (nh&oacute;m đ&aacute; cấu tạo n&ecirc;n khoảng $60\\%$ vỏ tr&aacute;i đất), cũng c&oacute; nhiều trong đất nền. Kho&aacute;ng tr&agrave;ng thạch, khi trời mưa sẽ ph&acirc;n hủy th&agrave;nh một kho&aacute;ng chất kh&aacute;c gọi l&agrave; cao lanh. Qu&aacute; tr&igrave;nh phong h&oacute;a thường được đẩy nhanh bởi độ ẩm từ mưa v&agrave; độ ẩm. C&aacute;c nh&agrave; nghi&ecirc;n cứu đ&atilde; đo mức độ kho&aacute;ng tr&agrave;ng thạch v&agrave; cao lanh trong đất tại nghĩa trang tại c&aacute;c vị tr&iacute; kh&aacute;c nhau ở khoảng c&aacute;ch cụ thể c&oacute; thể x&aacute;c định được trước v&agrave; sau những cơn mưa r&agrave;o.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>Bảng 1</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Khoảng c&aacute;ch từ nghĩa trang (m)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"2\"><strong>Trước cơn mưa</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"2\"><strong>Sau cơn mưa</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Kho&aacute;ng tr&agrave;ng thạch trong đ&aacute; (g/feet<sup>3</sup>)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Cao lanh trong đ&aacute; (g/feet<sup>3</sup>)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Kho&aacute;ng tr&agrave;ng thạch trong đ&aacute; (g/feet<sup>3</sup>)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Cao lanh trong đ&aacute; (g/feet<sup>3</sup>)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>26,3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>13,7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>25,2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>14,6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>125\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>29,1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12,9\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>28,5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>13,7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>225\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>29,9\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12,4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>29,6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12,6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>325\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>30,8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12,1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>30,7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12,2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>425\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>32,4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>11,5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>32,3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>11,6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<strong>Nghi&ecirc;n cứu 2: </strong><br />\nC&aacute;c nh&agrave; nghi&ecirc;n cứu tin rằng lượng kh&iacute; thải từ nh&agrave; m&aacute;y điện gần đ&oacute; bằng c&aacute;ch n&agrave;o đang ảnh hưởng đến việc ph&acirc;n hủy của đ&aacute; v&ocirc;i. Mức độ của c&aacute;c loại kh&iacute; th&ocirc;ng thường - carbon dioxide $(CO_{2})$, oxygen $(O_{2})$, nitrogen dioxide $(NO_{2})$ v&agrave; sulfur $(S)$ - trong bầu kh&ocirc;ng kh&iacute; đ&atilde; được thử nghiệm tại nghĩa trang v&agrave; c&aacute;c địa điểm kh&aacute;c ở những khoảng c&aacute;ch cụ thể từ nghĩa trang v&agrave; nh&agrave; m&aacute;y điện.\n<table class=\"TableGrid1\" style=\"border-collapse:collapse; border:none\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Khoảng c&aacute;ch từ nh&agrave; m&aacute;y điện (m)</strong></td>\n\t\t\t<td rowspan=\"2\"><strong>Khoảng c&aacute;ch từ nghĩa trang (m)</strong></td>\n\t\t\t<td colspan=\"4\"><strong>Mức độ của c&aacute;c loại kh&iacute; (ppm)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>$CO_2$</strong></td>\n\t\t\t<td><strong>$O_2$</strong></td>\n\t\t\t<td><strong>$NO_2$</strong></td>\n\t\t\t<td><strong>$S$</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>125</td>\n\t\t\t<td>7</td>\n\t\t\t<td>3</td>\n\t\t\t<td>13</td>\n\t\t\t<td>26</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>100</td>\n\t\t\t<td>225</td>\n\t\t\t<td>8</td>\n\t\t\t<td>5</td>\n\t\t\t<td>10</td>\n\t\t\t<td>22</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>200</td>\n\t\t\t<td>325</td>\n\t\t\t<td>10</td>\n\t\t\t<td>12</td>\n\t\t\t<td>9</td>\n\t\t\t<td>17</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>300</td>\n\t\t\t<td>425</td>\n\t\t\t<td>11</td>\n\t\t\t<td>14</td>\n\t\t\t<td>5</td>\n\t\t\t<td>10</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>400</td>\n\t\t\t<td>525</td>\n\t\t\t<td>13</td>\n\t\t\t<td>17</td>\n\t\t\t<td>3</td>\n\t\t\t<td>5</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 33 - 40:",
+            "range": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Yếu tố nào sau đây đã thay đổi trong nghiên cứu 1?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Yếu tố thay đổi trong thí nghiệm 1 là khoảng cách từ nghĩa trang.",
+            "contentAnswerA": "Khoảng cách từ nhà máy điện.",
+            "contentAnswerB": "Cỡ mẫu đất.",
+            "contentAnswerC": "Khoảng cách từ nghĩa trang.",
+            "contentAnswerD": "Mức khí thông thường."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Carbon monoxide ($CO$) là một sản phẩm phụ dạng khí khác được phát thải từ các nhà máy điện đốt than. Nếu carbon monoxide có mức độ hoạt động giống như mức khí lưu huỳnh trong nghiên cứu 2 thì mức carbon monoxide",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Nếu carbon monoxide có mức độ hoạt động giống như mức khí lưu huỳnh trong nghiên cứu 2 thì mức carbon monoxide sẽ giảm dần theo khoảng cách từ nhà máy điện tăng.",
+            "contentAnswerA": "Sẽ tăng theo khoảng cách từ nhà máy điện tăng.",
+            "contentAnswerB": "Sẽ cao hơn khi nồng độ $O_{2}$ cao hơn.",
+            "contentAnswerC": "Sẽ giảm dần theo khoảng cách từ nhà máy điện tăng.",
+            "contentAnswerD": "Sẽ thấp hơn khi nồng độ $NO_{2}$ cao hơn."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Mệnh đề dưới đây đúng hay sai?<br/>\"Khả năng phân hủy của cao lanh đều giảm trước và sau cơn mưa khi điểm khảo sát cách càng xa nghĩa trang\"",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Dựa vào ngữ liệu bảng 1:<br/>- Trước cơn mưa: Cao lanh giảm từ $13.7 \\rightarrow 11.5 g/feet^3$.<br/>- Sau cơn mưa: Cao lanh giảm từ $14.6 \\rightarrow 11.6  g/feet^3$.<br/>Từ bảng 1, ta thấy, trước và sau cơn mưa khả năng phân huỷ cao lanh đều giảm khi điểm khảo sát cách càng xa nghĩa trang.<br/>$\\Rightarrow$ phát biểu đúng.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Theo nghiên cứu 1, hàm lượng cao lanh cao nhất ở mức cách nghĩa trang bao xa?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Theo nghiên cứu 1, hàm lượng cao lanh cao nhất ở mức cách nghĩa trang bao xa < 100 mét.",
+            "contentAnswerA": "> 400 mét.",
+            "contentAnswerB": "Từ 200 đến 400 mét.",
+            "contentAnswerC": "Từ 100 đến 300 mét.",
+            "contentAnswerD": "< 100 mét."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Theo kết quả của nghiên cứu 2, những khoảng cách từ điểm nghiên cứu đến nhà máy điện giảm thì:",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c4"
+            ],
+            "explanation": "<br/>Theo kết quả của nghiên cứu 2, khoảng cách từ điểm nghiên cứu đến nhà máy điện giảm thì nồng độ ${{C}}{{{O}}_2}$ và ${{{O}}_2}$ giảm xuống đồng thời nồng độ lưu huỳnh và ${{N}}{{{O}}_2}$ tăng lên.",
+            "contentC1": "Mức lưu huỳnh giảm.",
+            "contentC2": "Nồng độ lưu huỳnh và $NO_{2}$ tăng lên.",
+            "contentC3": "Nồng độ $NO_{2}$ và $O_{2}$ giảm.",
+            "contentC4": "Nồng độ $CO_{2}$ và $O_{2}$ giảm lên."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Theo kết quả của nghiên cứu 1, khoảng cách từ nghĩa trang tăng lên, khả năng khoáng tràng thạch phân hủy",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Khả năng phân hủy được thể hiện qua sự sụt giảm lượng khoáng tràng thạch sau mưa so với trước mưa.<br/>- Tại 0 m: Giảm $26.3 - 25.2 = 1.1 g$<br/>- Tại 425 m: Giảm $32.4 - 32.3 = 0.1 g$<br/>Theo kết quả của nghiên cứu 1, khoảng cách từ nghĩa trang tăng lên, khả năng khoáng tràng thạch phân hủy chỉ giảm.",
+            "contentAnswerA": "Chỉ tăng.",
+            "contentAnswerB": "Không bị ảnh hưởng.",
+            "contentAnswerC": "Bị đảo ngược.",
+            "contentAnswerD": "Chỉ giảm."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Xác định tính đúng/sai của những nhận định sau đây?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, sai, vì khả năng phân hủy của khoáng tràng thạch giảm và của cao lanh là tăng sau cơn mưa ở cùng một địa điểm khảo sát.<br/>b, sai, vì vị trí ở thí nghiệm 2 không được chọn ngẫu nhiên và được chọn ở những khoảng cách cố định.<br/>c, sai, vì nồng độ CO sẽ giảm khi càng ở xa nhà máy điện<br/>d, đúng, khoáng tràng thạch là thành phần chính và là nguồn bị phân hủy để tạo ra cao lanh.",
+            "contentYA": "Khả năng phân hủy của khoáng tràng thạch và cao lanh bị phân hủy tăng lên sau cơn mưa ở cùng một địa điểm khảo sát.",
+            "contentYB": "Vị trí khảo sát ở nghiên cứu 2 được lựa chọn ngẫu nhiên so với nghĩa trang.",
+            "contentYC": "Nồng độ $CO_{2}$ và $CO$ tăng lên khi càng ở xa nhà máy điện.",
+            "contentYD": "Khả năng khoáng tràng thạch bị phân hủy cao hơn cao lanh."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Dựa theo bảng 2 và đồ thị, cho biết ứng với mỗi đường biểu diễn A, B, C, D là chất nào?<br/><img src=\"https://cdn.save.moe/b/f7LX3.jpeg?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1770975718568-qk0yygkko\" style=\"width: 50%; margin: 0 auto; display: block;\"><br/>Thứ tự các chất tương ứng ${{A}},{{B}},{{C}},{{D}}$ lần lượt là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-1\">____DRAG_DROP_1____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-2\">____DRAG_DROP_2____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-3\">____DRAG_DROP_3____</span>, <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-4\">____DRAG_DROP_4____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                },
+                {
+                    "slot2": "D>"
+                },
+                {
+                    "slot3": "A>"
+                },
+                {
+                    "slot4": "C>"
+                }
+            ],
+            "explanation": "<br/>Khi khoảng cách nhà máy tăng thì<br/>Hàm lượng ${{C}}{{{O}}_2}$, ${{{O}}_2}$ tăng<br/>Hàm lượng ${{N}}{{{O}}_2}$, S giảm<br/>Từ giá trị khởi đầu, khoảng cách nhà máy điện thì<br/>$S$ có giá trị khởi đầu là $26{{ppm}} \\Rightarrow B$ là $S$<br/>${{N}}{{{O}}_2}$ có giá trị khởi đầu là $13{{ppm}} \\Rightarrow {{D}}$ là ${{N}}{{{O}}_2}$<br/>${{{O}}_2}$ có giá trị khởi đầu là $3{{ppm}} \\Rightarrow {{A}}$ là ${{{O}}_2}$<br/>${{C}}{{{O}}_2}$ có giá trị khởi đầu là $8{{ppm}} \\Rightarrow {{C}}$ là ${{C}}{{{O}}_2}$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$CO_2$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$O_2$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$NO_2$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$S$"
+                }
+            ]
+        }
+    ],
+    "subject": "TƯ DUY KHOA HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-02-13T09:51:59.922Z",
+    "updatedAt": "2026-02-13T09:51:59.922Z",
+    "__v": 0
+}
