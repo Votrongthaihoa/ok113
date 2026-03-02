@@ -1,0 +1,2040 @@
+{
+    "_id": "69a2474f122c65b6a4fbf9c5",
+    "title": "[Sách Đề]-Tư Duy Toán Học-Đề 17",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "B",
+        "Câu 2": [
+            81
+        ],
+        "Câu 3": [
+            1221
+        ],
+        "Câu 4": "D",
+        "Câu 5": [
+            3
+        ],
+        "Câu 6": "A",
+        "Câu 7": [
+            0.42
+        ],
+        "Câu 8": "D",
+        "Câu 9": "A",
+        "Câu 10": "C",
+        "Câu 11": "C",
+        "Câu 12": "B",
+        "Câu 13": "A",
+        "Câu 14": "C",
+        "Câu 15": [
+            4
+        ],
+        "Câu 16": "B",
+        "Câu 17": [
+            1
+        ],
+        "Câu 18": [
+            420
+        ],
+        "Câu 19": "A",
+        "Câu 20": "B",
+        "Câu 21": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 22": "C",
+        "Câu 23": "C",
+        "Câu 24": "B",
+        "Câu 25": [
+            9
+        ],
+        "Câu 26": "D",
+        "Câu 27": [
+            135
+        ],
+        "Câu 28": [
+            1.2
+        ],
+        "Câu 29": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 30": [
+            2054
+        ],
+        "Câu 31": [
+            65
+        ],
+        "Câu 32": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 33": [
+            13
+        ],
+        "Câu 34": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 35": [
+            65
+        ],
+        "Câu 36": "A",
+        "Câu 37": "D",
+        "Câu 38": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 39": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 40": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "F>"
+            }
+        ]
+    },
+    "startTime": "2026-01-23T21:01:00.000Z",
+    "endTime": "2026-04-29T21:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Hàm số nào sau đây là hàm số chẵn?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nH&agrave;m số $y=\\sin x$ c&oacute; TXĐ: $D=\\mathbb{R}$, n&ecirc;n $\\forall x \\in \\mathbb{R} \\Rightarrow-x \\in \\mathbb{R}$ v&agrave; c&oacute; $y(-x)=\\sin (-x)=-\\sin x=-y(x)$ suy ra h&agrave;m số $y=\\sin x$ l&agrave; h&agrave;m số lẻ.<br />\nH&agrave;m số $y=\\cos x$ l&agrave; h&agrave;m số chẵn v&igrave; ${TXĐ}: D=\\mathbb{R}$, n&ecirc;n $\\forall x \\in \\mathbb{R} \\Rightarrow-x \\in \\mathbb{R}$ v&agrave; $y(-x)=\\cos (-x)=\\cos x=y(x)$.<br />\nX&eacute;t tương tự ta c&oacute; h&agrave;m số $y=\\tan x, y=\\cot x$ l&agrave; h&agrave;m số lẻ.",
+            "contentAnswerA": "$y=\\sin x$.",
+            "contentAnswerB": "$y=\\cos x$.",
+            "contentAnswerC": "$y=\\tan x$.",
+            "contentAnswerD": "$y=\\cot x$."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho cấp số cộng $\\left(u_{n}\\right)$ có $u_{4}=-12, u_{14}=18$. Tính tổng 18 số hạng đầu tiên của cấp số cộng này.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 2-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                72
+            ],
+            "explanation": "<br />\nGọi $d$ l&agrave; c&ocirc;ng sai của cấp số cộng. Theo giả thiết, ta c&oacute; $\\left\\{\\begin{array}{l}u_{4}=-12 \\\\ u_{14}=18\\end{array}\\right. \\Leftrightarrow \\left\\{\\begin{array}{l} u_{1}+3 d=-12 \\\\ u_{1}+13 d=18\\end{array}\\right. \\Leftrightarrow\\left\\{\\begin{array}{l} u_{1}=-21 \\\\ d=3\\end{array}\\right.$.<br />\nKhi đ&oacute;, $S_{18}=\\frac{\\left(2 u_{1}+17 d\\right) \\cdot 18}{2}=9(-42+51)=81$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Dãy số $\\left(u_{n}\\right)$ với $u_{n}=\\frac{2^{n}-5.7^{n+1}}{3.2^{n}+2.7^{n}}$ có giới hạn bằng $-\\frac{a}{b}$ với $a, b=1$. Giá trị của biểu thức $P=a^{2}-b^{2}$ là<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 3-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1221
+            ],
+            "explanation": "<br />\nTa c&oacute;: $u_{n}=\\frac{2^{n}-5.7^{n+1}}{3.2^{n}+2.7^{n}}=\\frac{\\left(\\frac{2}{7}\\right)^{n}-35}{3.\\left(\\frac{2}{7}\\right)^{n}+2} \\Rightarrow \\lim u_{n}=-\\frac{35}{2}$.<br />\nVậy $a=35, b=2 \\Rightarrow P=1221$."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Đồ thị h&igrave;nh b&ecirc;n dưới l&agrave; đồ thị của h&agrave;m số n&agrave;o?<br />\n<img alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596885-c1orf6vk0\" src=\"https://cdn.save.moe/b/4vLoO.png?dl=1\" style=\"width: 55%; margin: 0 auto; display: block;\" />",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br />\nĐồ thị h&agrave;m số &quot;đi l&ecirc;n&quot; (đồng biến) v&agrave; đi qua điểm c&oacute; tọa độ $(1 ; 3)$. Do đ&oacute; h&agrave;m số l&agrave; $y=3^{x}$.",
+            "contentAnswerA": "$y=2^{x}$.",
+            "contentAnswerB": "$y=\\left(\\frac{1}{2}\\right)^{x}$.",
+            "contentAnswerC": "$y=\\left(\\frac{1}{3}\\right)^{x}$.",
+            "contentAnswerD": "$y=3^{x}$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Biết đồ thị hàm số $y=\\frac{x^{2}-2 x+2}{x-3}$ có tiệm cận xiên là đường thẳng $y=a x+b$. Tính $a^{2}+2 b$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>Chia tử thức cho mẫu thức ta được $y=x+1+\\frac{5}{x-3}$ và $\\lim _{x \\rightarrow \\pm \\infty} \\frac{5}{x-3}=0$, suy ra tiệm cận xiên của đồ thị hàm số là đường thẳng có phương trình $y=x+1 \\Rightarrow a=1$ và $b=1$.<br/>Vậy $a^{2}+2 b=3$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Cho $A$ và $B$ là hai biến cố. Biết $P(A)=0,5, P(B)=0,4$ và $P(A \\cap B)=0,2$. Tính $P(A \\cup B)$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)=0,7$.",
+            "contentAnswerA": "$P(A \\cup B)=0,7$.",
+            "contentAnswerB": "$P(A \\cup B)=0,9$.",
+            "contentAnswerC": "$P(A \\cup B)=0,5$.",
+            "contentAnswerD": "$P(A \\cup B)=0,3$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Cho mẫu số liệu ghép nhóm sau về thời gian ngủ trong ngày của các học sinh lớp 12A.<br/><table class=\"word-table\"><tbody><tr><td>Thời gian ngủ (giờ) </p></td><td> $[6,5 ; 7)$ </p></td><td> $[7 ; 7,5)$ </p></td><td> $[7,5 ; 8)$ </p></td><td> $[8 ; 8,5)$</p></td></tr><tr><td>Số học sinh </p></td><td> 5 </p></td><td> 12 </p></td><td> 15 </p></td><td> 3</p></td></tr></tbody></table>Tính độ lệch chuẩn cho mẫu số liệu ghép nhóm trên (kết quả làm tròn đến hàng phần trăm).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 7-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.39
+            ],
+            "explanation": "<br />\nChọn gi&aacute; trị đại diện cho mỗi nh&oacute;m số liệu ta c&oacute; mẫu số liệu sau:\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Gi&aacute; trị đại diện (giờ)\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>6,75\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>7,25\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>7,75\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>8,25\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Số học sinh\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>15\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nSố trung b&igrave;nh l&agrave;: $\\bar{x}=\\frac{1}{35}(5 \\cdot 6,75+12 \\cdot 7,25+15 \\cdot 7,75+3 \\cdot 8,25) \\approx 7,48$<br />\nĐộ lệch chuẩn l&agrave;: $s=\\sqrt{\\frac{1}{35}\\left(5 \\cdot 6,75^{2}+\\ldots+3 \\cdot 8,25^{2}\\right)-7,48^{2}} \\approx 0,42$"
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Trong không gian $O x y z$, cho hình hộp $A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$ có $A(1 ; 0 ; 1)$, $B(2 ; 1 ; 2)$, $D(1 ;-1 ; 1)$, $C^{\\prime}(4 ; 5 ;-5)$. Tìm tọa độ tâm $I$ của hình hộp?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/Gw7hJ2.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596887-7p7jw7r0f\" class=\"mx-auto\" style=\"\"><br/>Gọi $I$ là tâm của hình hộp.<br/>Khi đó $I$ là trung điểm của $A C^{\\prime}$, suy ra $I\\left(\\frac{5}{2} ; \\frac{5}{2} ;-2\\right)$.",
+            "contentAnswerA": "$I\\left(-\\frac{3}{2} ; \\frac{5}{2} ;-3\\right)$.",
+            "contentAnswerB": "$I\\left(\\frac{3}{2} ; \\frac{5}{2} ;-3\\right)$.",
+            "contentAnswerC": "$I\\left(-\\frac{5}{2} ; \\frac{5}{2} ;-2\\right)$.",
+            "contentAnswerD": "$I\\left(\\frac{5}{2} ; \\frac{5}{2} ;-2\\right)$."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Biết các diện tích $S_{1}=\\frac{7}{12}$ và $S_{2}=\\frac{45}{4}$. Tính tích phân $I=\\int_{-1}^{3} f(x) {d} x$.<br/><img src=\"https://cdn.save.moe/b/aWEhKXs.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596887-mwzyobyr4\" style=\"width: 55%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\nTa c&oacute; $I=\\int_{-1}^{3} f(x) {d} x=\\int_{-1}^{0} f(x) {d} x+\\int_{0}^{3} f(x) {d} x=S_{1}-S_{2}=\\frac{7}{12}-\\frac{45}{4}=-\\frac{32}{3}$.",
+            "contentAnswerA": "$I=-\\frac{32}{3}$.",
+            "contentAnswerB": "$I=\\frac{71}{6}$.",
+            "contentAnswerC": "$I=-\\frac{71}{6}$.",
+            "contentAnswerD": "$I=\\frac{32}{3}$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Các yếu tố nào sau đây xác định một mặt phẳng duy nhất?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>- Trong trường hợp 3 điểm phân biệt thẳng hàng thì sẽ có vô số mặt phẳng chứa 3 điểm thẳng hàng đã cho nên ba điểm phân biệt chưa chắc xác định được một mặt phẳng duy nhất.<br/>- Trong trường hợp điểm thuộc đường thẳng đã cho, khi đó ta chỉ có 1 đường thẳng, có vô số mặt phẳng đi qua đường thẳng đó nên một điểm và một đường thẳng chưa chắc xác định được một mặt phẳng duy nhất.<br/>- Trong trường hợp 4 điểm phân biệt thẳng hàng thì có vô số mặt phẳng đi qua 4 điểm đó hoặc trong trường hợp 4 điểm không đồng phẳng thì sẽ không tạo được mặt phẳng nào đi qua cả 4 điểm nên bốn điểm phân biệt chưa chắc xác định được một mặt phẳng duy nhất.",
+            "contentAnswerA": "Ba điểm phân biệt.",
+            "contentAnswerB": "Một điểm và một đường thẳng.",
+            "contentAnswerC": "Hai đường thẳng cắt nhau.",
+            "contentAnswerD": "Bốn điểm phân biệt."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Cho hàm số $y=f(x)$ có đạo hàm tại điểm $x_{0}$. Tìm khẳng định đúng trong các khẳng định sau",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Theo định nghĩa đạo hàm tại một điểm $x_{0}$, suy ra C là đáp án đúng.",
+            "contentAnswerA": "$f^{\\prime}\\left(x_{0}\\right)=\\lim _{x \\rightarrow x_{0}} \\frac{f(x)-f\\left(x_{0}\\right)}{x+x_{0}}$.",
+            "contentAnswerB": "$f^{\\prime}\\left(x_{0}\\right)=\\lim _{x \\rightarrow x_{0}} \\frac{f(x)+f\\left(x_{0}\\right)}{x-x_{0}}$.",
+            "contentAnswerC": "$f^{\\prime}\\left(x_{0}\\right)=\\lim _{x \\rightarrow x_{0}} \\frac{f(x)-f\\left(x_{0}\\right)}{x-x_{0}}$.",
+            "contentAnswerD": "$f^{\\prime}\\left(x_{0}\\right)=\\lim _{x \\rightarrow x_{0}} \\frac{f(x)+f\\left(x_{0}\\right)}{x+x_{0}}$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau<br/><img src=\"https://cdn.save.moe/b/Uwg24u.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596888-3z1f8wnw6\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Dựa vào bảng biến thiên ta có hàm số đã cho đồng biến trên các khoảng $(-1 ; 0)$ và $(1 ;+\\infty)$.",
+            "contentAnswerA": "$(-\\infty ; 0)$.",
+            "contentAnswerB": "$(-1 ; 0)$.",
+            "contentAnswerC": "$(-1 ; 1)$.",
+            "contentAnswerD": "$(0 ; 1)$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho $\\int_{1}^{2}\\left[\\left(x^{2}+1\\right)(x-m)\\right] {d} x=1$ với $m$ là tham số. Chọn câu đúng.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $\\int_{1}^{2}\\left[\\left(x^{2}+1\\right)(x-m)\\right] {d} x=1$<br/>$\\Leftrightarrow \\int_{1}^{2}\\left(x^{3}-m x^{2}+x-m\\right) {d} x=\\left.1 \\Leftrightarrow\\left(\\frac{x^{4}}{4}-m \\frac{x^{3}}{3}+\\frac{x^{2}}{2}-m x\\right)\\right|_{1} ^{2}=1$<br/>$\\Leftrightarrow 6-\\frac{14 m}{3}-\\left(\\frac{3}{4}-\\frac{4 m}{3}\\right)=1 \\Leftrightarrow-\\frac{10 m}{3}=-\\frac{17}{4} \\Leftrightarrow m=\\frac{51}{40} \\Rightarrow 1 \\lt m \\lt 2$.",
+            "contentAnswerA": "$1<m<2$.",
+            "contentAnswerB": "$2<m<4$.",
+            "contentAnswerC": "$0<m<1$.",
+            "contentAnswerD": "$m<0$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Trong không gian $O x y z$, cho mặt phẳng $(P)$ đi qua điểm $M(2 ; 2 ; 1)$ và có một vectơ pháp tuyến $\\vec{n}=(5 ; 2 ;-3)$. Phương trình mặt phẳng $(P)$ là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Phương trình mặt phẳng $(P)$ có dạng: $5(x-2)+2(y-2)-3(z-1)=0 \\Leftrightarrow 5 x+2 y-3 z-11=0$<br/>Vậy $(P): 5 x+2 y-3 z-11=0$.",
+            "contentAnswerA": "$5 x+2 y-3 z-17=0$.",
+            "contentAnswerB": "$2 x+2 y+z-11=0$.",
+            "contentAnswerC": "$5 x+2 y-3 z-11=0$.",
+            "contentAnswerD": "$2 x+2 y+z-17=0$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Cho hình lăng trụ đứng $A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ có đáy $A B C$ là tam giác vuông cân tại $B$ và $A B=4$. Khoảng cách từ $C$ đến mặt phẳng $\\left(A B B^{\\prime} A^{\\prime}\\right)$ bằng bao nhiêu?<br/><img src=\"https://cdn.save.moe/b/vcbMV.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596889-5nkeina7z\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 15-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                4
+            ],
+            "explanation": "<br/>Ta có: $A B C$ là tam giác vuông tại $B \\Rightarrow C B \\perp A B$.<br/>$A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ là lăng trụ đứng $B B^{\\prime} \\perp(A B C) \\Rightarrow B B^{\\prime} \\perp C B$.<br/>Do vậy: $C B \\perp\\left(A B B^{\\prime} A^{\\prime}\\right)$ tại $B$. Suy ra $d\\left(C,\\left(A B B^{\\prime} A^{\\prime}\\right)\\right)=C B=A B=4$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Cho đa giác đều $2 n$ đỉnh, lấy ngẫu nhiên một đường chéo của đa giác này thì xác suất để đường chéo được chọn có độ dài lớn nhất là $\\frac{1}{9}$. Tìm hệ số của số hạng chứa $x^{7}$ trong khai triển $\\left(x^{2}-3 x+2\\right)^{n}$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Số đường chéo trong đa giác đều $2 n$ đỉnh là $C_{2 n}^{2}-2 n$.<br/>Đường chéo có độ dài lớn nhất là đường chéo đi qua tâm của đa giác đều, có $n$ đường chéo như vậy.<br/>Theo giả thiết: $\\frac{n}{C_{2 n}^{2}-2 n}=\\frac{1}{9} \\Leftrightarrow n=6$.<br/>Xét khai triển $\\left(x^{2}-3 x+2\\right)^{6}$ có số hạng tổng quát là: $C_{6}^{k} \\cdot C_{k}^{l} \\cdot 2^{6-k} \\cdot\\left(x^{2}\\right)^{k-l} \\cdot(-3 x)^{l}=C_{6}^{k} \\cdot C_{k}^{l} \\cdot 2^{6-k} \\cdot(-3)^{l} \\cdot x^{2 k-l}$<br/>Số hạng chứa $x^{7}$ trong khai triển ứng với $k, l$ thỏa mãn: $\\left\\{\\begin{array}{l}2 k-l=7 \\\\ 0 \\leq l \\leq k \\leq 6 \\\\ k, l \\in \\mathbb{N}\\end{array} \\right.$ $\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}k=4 \\\\ l=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}k=5 \\\\ l=3\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}k=6 \\\\ l=5\\end{array}\\right.\\end{array}\\right.$.<br/>Vậy hệ số của số hạng chứa $x^{7}$ là: $-C_{6}^{4} \\cdot C_{4}^{1} \\cdot 2^{2} \\cdot 3-C_{6}^{5} \\cdot C_{5}^{3} \\cdot 2 \\cdot 3^{3}-C_{6}^{6} \\cdot C_{6}^{5} \\cdot 3^{5}=-5418$.",
+            "contentAnswerA": "-1364.",
+            "contentAnswerB": "-5418.",
+            "contentAnswerC": "-3812.",
+            "contentAnswerD": "-4028."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Có bao nhiêu điểm có hoành độ nguyên âm và tung độ nguyên dương thuộc miền nghiệm của bất phương trình $x-y \\geq-2$ ?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 17-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br/>Xét đường thẳng $d: x-y=-2$ cắt các trục $O x, O y$ lần lượt tại các điểm $(-2 ; 0) ;(0 ; 2)$.<br/>Xét điểm $O(0 ; 0) \\notin d: 0-0 \\geq-2$.<br/>Vậy miền nghiệm của bất phương trình $x-y \\geq-2$ là nửa mặt phẳng bờ $d$ (phần không tô đậm, kể cả đường thẳng $d$) chứa gốc tọa độ $O$.<br/><img src=\"https://cdn.save.moe/b/K7TIW.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596889-bv0x1vh27\" class=\"mx-auto\" style=\"\"><br/>Từ miền nghiệm của BPT ta tìm được 1 điểm có hoành độ nguyên âm và tung độ nguyên dương thỏa mãn là điểm $(-1 ; 1)$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Một chiếc quạt trần đang quay, giả sử chọn chiều quay của quạt là chiều dương. Biết rằng cứ 12 giây thì quạt quay được 35 vòng. Sau 72 giây, cánh quạt quay được một góc có số đo là $a \\pi({rad})$. Tìm giá trị của $a$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 18-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                420
+            ],
+            "explanation": "<br/>Sau 1 giây, cánh quạt quay được $\\frac{35}{12}$ vòng theo chiều dương.<br/>Suy ra sau 1 giây, cánh quạt quay được một góc có số đo $\\frac{35}{12} \\cdot 2 \\pi=\\frac{35 \\pi}{6}$.<br/>Vậy sau 72 giây, cánh quạt quay được một góc có số đo là $\\frac{35 \\pi}{6} \\cdot 72=420 \\pi$. Do đó $a=420$."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Cho dãy số $\\left(u_{n}\\right)$ biết $u_{n}=\\frac{n+7}{n+3}$. Mệnh đề nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $u_{n}=\\frac{n+7}{n+3}=1+\\frac{4}{n+3} \\Rightarrow u_{n+1}=1+\\frac{4}{n+4}$<br/>Xét hiệu $u_{n+1}-u_{n}=\\frac{4}{n+4}-\\frac{4}{n+3}=\\frac{-4}{(n+3)(n+4)}<0 \\ \\forall n \\in \\mathbb{N}^{*}$<br/>Vậy $\\left(u_{n}\\right)$ là dãy số giảm.",
+            "contentAnswerA": "Dãy số giảm.",
+            "contentAnswerB": "Dãy số tăng.",
+            "contentAnswerC": "Dãy số không tăng, không giảm.",
+            "contentAnswerD": "Có số hạng $u_{n+1}=\\frac{n+8}{n+3}$."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hàm số $f(x)=\\left\\{\\begin{array}{ll}x^{2}+1 & \\text{khi } x>0 \\\\ x & \\text{khi } x \\leq 0\\end{array}\\right.$. Mệnh đề nào sau đây sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có $\\left\\{\\begin{array}{l}f(0)=0 \\\\ \\lim _{x \\rightarrow 0^{-}} f(x)=\\lim _{x \\rightarrow 0^{-}} x=0 \\\\ \\lim _{x \\rightarrow 0^{+}} f(x)=\\lim _{x \\rightarrow 0^{+}}\\left(x^{2}+1\\right)=0^{2}+1=1\\end{array} \\Rightarrow\\right.$ hàm số gián đoạn tại $x=0$.<br/>Vậy mệnh đề B sai.",
+            "contentAnswerA": "$f(0)=0$.",
+            "contentAnswerB": "$f(x)$ liên tục tại $x_{0}=0$.",
+            "contentAnswerC": "$\\lim _{x \\rightarrow 0^{-}} f(x)=0$.",
+            "contentAnswerD": "$\\lim _{x \\rightarrow 0^{+}} f(x)=1$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Cho biểu thức $A=\\log _{2} x^{2}+\\log _{\\frac{1}{2}} x^{3}+\\log _{4} x$ và $B=2 \\ln \\sqrt{e x}-\\ln \\frac{e^{2}}{\\sqrt{x}}+\\ln \\left(e x^{2}\\right)$ với $x>0$. Xét tính đúng sai của các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đúng. Ta có:<br/>$A=\\log _{2} x^{2}+\\log _{\\frac{1}{2}} x^{3}+\\log _{4} x$<br/>$=2 \\log _{2} x+3 \\log _{2^{-1}} x+\\log _{2^{2}} x=2 \\log _{2} x-3 \\log _{2} x+\\frac{1}{2} \\log _{2} x=-\\frac{1}{2} \\log _{2} x$<br/>b, Sai. Khi $\\log _{2} x=2$ thì $A=-1$<br/>c, Đúng.<br/>$B=2 \\ln (e x)^{\\frac{1}{2}}-\\left(\\ln e^{2}-\\ln x^{\\frac{1}{2}}\\right)+\\ln \\left(e x^{2}\\right)$<br/>$=\\ln (e x)-\\left(2-\\frac{1}{2} \\ln x\\right)+\\ln \\left(e x^{2}\\right)=(\\ln e+\\ln x)-2+\\frac{1}{2} \\ln x+\\ln e+\\ln x^{2}$<br/>$=1+\\ln x-2+\\frac{1}{2} \\ln x+1+2 \\ln x=\\frac{7}{2} \\ln x$<br/>d, Sai. Cho $\\ln x=6$ thì $B=21$.",
+            "contentYA": "Rút gọn ta được $A=\\frac{-1}{2} \\log _{2} x$.",
+            "contentYB": "Khi $\\log _{2} x=2$ thì $A=1$.",
+            "contentYC": "Rút gọn ta được $B=\\frac{7}{2} \\ln x$.",
+            "contentYD": "Cho $\\ln x=6$ thì $B=18$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Cho hàm số $y=\\frac{x^{2}+3 x+a}{x+b}$ có bảng biến thiên như hình vẽ bên dưới.<br/><img src=\"https://cdn.save.moe/b/AR25M06.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596890-u4feweyng\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Tổng $a+b$ bằng?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Vì đồ thị có tiệm cận đứng $x=2 \\Rightarrow-b=2 \\Rightarrow b=-2$.<br/>Đồ thị hàm số đi qua điểm $(1 ;-3)$ nên $\\frac{1+3+a}{1-2}=-3 \\Rightarrow a=-1$ nên $a+b=-3$.",
+            "contentAnswerA": "-2.",
+            "contentAnswerB": "2.",
+            "contentAnswerC": "-3.",
+            "contentAnswerD": "5."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Tính thể tích $V$ của vật thể nằm giữa hai mặt phẳng $x=0$ và $x=\\pi$, biết thiết diện của vật thể khi cắt bởi mặt phẳng vuông góc với trục $O x$ tại điểm có hoành độ $x(x \\in[0 ; \\pi])$ là tam giác đều có cạnh bằng $2 \\sqrt{\\sin x}$.",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có diện tích thiết diện của vật thể khi cắt bởi mặt phẳng vuông góc với trục $O x$ tại điểm có hoành độ $x$ là $S(x)=\\frac{(2 \\sqrt{\\sin x})^{2} \\sqrt{3}}{4}=\\sqrt{3} \\sin x$.<br/>Suy ra thể tích của vật thể cần tìm là $V=\\int_{0}^{\\pi} S(x) {d} x=\\int_{0}^{\\pi} \\sqrt{3} \\sin x {~d} x=-\\left.\\sqrt{3} \\cos x\\right|_{0} ^{\\pi}=2 \\sqrt{3}$.",
+            "contentAnswerA": "$V=8 \\sqrt{3}$.",
+            "contentAnswerB": "$V=\\sqrt{3}$.",
+            "contentAnswerC": "$V=2 \\sqrt{3}$.",
+            "contentAnswerD": "$V=4 \\sqrt{3}$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Trong kh&ocirc;ng gian với hệ trục tọa độ $O x y z$, cho đường thẳng $\\Delta: \\dfrac{x}{1}=\\dfrac{y}{-1}=\\dfrac{z}{2}$ v&agrave; mặt phẳng $(\\alpha): x+2 y-z=0$. G&oacute;c giữa đường thẳng $\\Delta$ v&agrave; mặt phẳng $(\\alpha)$ bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đường thẳng $\\Delta: \\frac{x}{1}=\\frac{y}{-1}=\\frac{z}{2}$ có véc tơ chỉ phương $\\vec{u}=(1 ;-1 ; 2)$.<br/>Mặt phẳng $(\\alpha)$ có vectơ pháp tuyến $\\vec{n}=(1 ; 2 ;-1)$.<br/>Gọi $\\varphi$ là góc giữa đường thẳng $\\Delta$ và mặt phẳng $(\\alpha)$, khi đó<br/>$\\sin \\varphi=|\\cos (\\vec{u}, \\vec{n})|=\\frac{|\\vec{u} \\cdot \\vec{n}|}{|\\vec{u}| \\cdot|\\vec{n}|}=\\frac{|1-2-2|}{\\sqrt{6} \\cdot \\sqrt{6}}=\\frac{1}{2} \\Rightarrow \\varphi=30^{\\circ}$.",
+            "contentAnswerA": "$60^{\\circ}$.",
+            "contentAnswerB": "$30^{\\circ}$.",
+            "contentAnswerC": "$150^{\\circ}$.",
+            "contentAnswerD": "$120^{\\circ}$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Cho hình chóp $S \\cdot A B C D$ có đáy là hình vuông cạnh bằng 3 và cạnh bên $S A$ vuông góc với mặt phẳng đáy. Biết góc nhị diện $[B, S C, D]$ bằng $120^{\\circ}$. Tính thể tích khối chóp $S. A B C D$ bằng bao nhiêu?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 25-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                9
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/GfJa4Yc.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596890-r0ucvxj8f\" class=\"mx-auto\" style=\"\"><br/>Trong mặt phẳng $(S A C)$ kẻ $O I \\perp S C$ tại $I ; A H \\perp S C$ tại $H$.<br/>Ta có: $\\left\\{\\begin{array}{l}B D \\perp S A \\\\ B D \\perp A C\\end{array} \\Rightarrow B D \\perp(S A C), O I \\subset(S A C) \\Rightarrow O I \\perp B D\\right.$.<br/>Vậy $S C \\perp(B I D) \\Rightarrow S C \\perp B I ; S C \\perp D I$ nên góc phẳng nhị diện $[B, S C, D]$ bằng $\\widehat{B I D} \\Rightarrow \\widehat{B I D}=120^{\\circ}$.<br/>Suy ra $\\widehat{B I O}=60^{\\circ}$.<br/>Khi đó, $\\tan \\widehat{B I O}=\\frac{B O}{O I} \\Rightarrow \\tan 60^{\\circ}=\\frac{\\frac{3 \\sqrt{2}}{2}}{O I} \\Leftrightarrow O I=\\frac{\\sqrt{6}}{2} \\Rightarrow A H=\\sqrt{6}$.<br/>Tam giác vuông $S A C$ có đường cao $A H \\Rightarrow \\frac{1}{S A^{2}}+\\frac{1}{A C^{2}}=\\frac{1}{A H^{2}} \\Rightarrow S A=3$.<br/>Vậy thể tích khối chóp $S. A B C D$ là $V=\\frac{1}{3} S A \\cdot S{A B C D}=\\frac{1}{3} \\cdot 3 \\cdot 9=9$."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Biển số xe máy tỉnh $K$ gồm hai dòng<br/>Dòng thứ nhất là $68 X Y$, trong đó $X$ là một trong 24 chữ cái, $Y$ là một trong 10 chữ số;<br/>Dòng thứ hai là $a b c. d e$, trong đó $a, b, c, d, e$ là các chữ số.<br/>Biển số xe được cho là \"đẹp\" khi dòng thứ hai có tổng các số là số có chữ số tận cùng bằng 8 và có đúng 4 chữ số giống nhau. Hỏi có bao nhiêu cách chọn 2 biển số trong các biển số \"đẹp\" để đem bán đấu giá?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Chọn $X$ từ 24 chữ cái và chọn $Y$ từ 10 chữ số, ta có $24.10=240$ (cách chọn).<br/>Chọn 4 chữ số giống nhau từ các chữ số ta có 10 cách chọn;<br/>Mỗi bộ gồm 4 chữ số giống nhau, ta có một cách chọn duy nhất 1 chữ số còn lại để tổng các số là số có chữ số tận cùng bằng 8 (chẳng hạn: 4 chữ số 0 , chữ số còn lại sẽ là $8 ; 4$ chữ số 1 , chữ số còn lại sẽ là $4 ; \\ldots ; 4$ chữ số 9 , chữ số còn lại sẽ là 2 ).<br/>Sắp xếp 5 chữ số vừa chọn có 5 cách xếp.<br/>Do đó, có tất cả $10.5=50$ (cách chọn số ở dòng thứ hai).<br/>Suy ra có tất cả $240.50=12000$ (biển số đẹp).<br/>Chọn 2 biển số trong các biển số \"đẹp\" ta có $C_{12000}^{2}=71994000$ (cách).",
+            "contentAnswerA": "12000.",
+            "contentAnswerB": "143988000.",
+            "contentAnswerC": "4663440.",
+            "contentAnswerD": "71994000."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Từ hai vị trí $A$ và $B$ của một tòa nhà, người ta quan sát đỉnh $C$ của ngọn núi. Biết rằng độ cao $A B$ bằng $70 {~m}, A$ nằm trên mặt đất, phương nhìn $A C$ tạo với phương nằm ngang góc $30^{\\circ}$. Phương nhìn $B C$ tạo với phương nằm ngang góc $15^{\\circ} 30^{\\prime}$. Khi đó chiều cao của ngọn núi so với mặt đất bằng bao nhiêu? (làm tròn đến hàng đơn vị)<br/><img src=\"https://cdn.save.moe/b/KT0fZ.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596890-jkwjupeil\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 27-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                135
+            ],
+            "explanation": "<br/>Ta có: $\\widehat{CIK}=\\widehat{CAH}=30^{\\circ} ; \\widehat{BAC}=60^{\\circ} ; \\widehat{BIC}=180^{\\circ}-\\widehat{CIK}=150^{\\circ}$.<br/>$\\widehat{BCA}=\\widehat{BCI}=180^{\\circ}-\\widehat{CBK}-\\widehat{BIC}=14^{\\circ} 30^{\\prime}$.<br/>Trong tam giác $A B C$ ta có: $\\frac{A B}{\\sin \\widehat{BCA}}=\\frac{B C}{\\sin \\widehat{BAC}} \\Rightarrow B C=\\frac{A B \\cdot \\sin \\widehat{BAC}}{\\sin \\widehat{BCA}}$.<br/>Trong tam giác $B C K$ ta có: $C K=B C \\sin \\widehat{CBK}=\\frac{A B \\cdot \\sin \\widehat{BAC} \\cdot \\sin \\widehat{CBK}}{\\sin \\widehat{BCA}}$.<br/>Vậy chiều cao ngọn núi là: $C H=C K+K H=C K+A B=\\frac{A B \\cdot \\sin \\widehat{BAC} \\cdot \\sin \\widehat{CBK}}{\\sin \\widehat{BCA}}+A B \\approx 135{~m}$."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Một bồn chứa nước hình trụ bằng bê tông cao 4m, chỉ chừa 1 nắp nhỏ bên ngoài để bơm nước vào thùng, trong thùng có sẵn 1 lượng nước. Để đo chiều cao mực nước trong thùng bác An có cách như sau: lấy 1 cây sào tre dài 5m nhúng vào thùng nước sao cho một đầu chạm đáy và một đầu chạm với mặt trên của bồn nước. Sau khi rút sào tre ra thì đo được phần sào tre bị ướt là $1,5 {~m}$. Hỏi mực nước trong hồ cao bao nhiêu mét?<br/><img src=\"https://cdn.save.moe/b/Q7d8y.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596890-yre3jpukd\" style=\"width: 30%; margin: 0 auto; display: block;\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 28-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1.2
+            ],
+            "explanation": "<br />\nGọi chiều cao mực nước trong hồ l&agrave; $x ({m}), x&gt;0$.<br />\nV&igrave; mặt phẳng mặt nước trong bồn, mặt đ&aacute;y v&agrave; nắp bồn tạo th&agrave;nh 3 mặt phẳng song song n&ecirc;n ta c&oacute;: $\\frac{x}{4}=\\frac{1,5}{5} \\Rightarrow x=\\frac{1,5 \\cdot 4}{5}=1,2{~m}$.<br />\nVậy mực nước trong bồn cao $1,2 {~m}$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Trong hồ c&oacute; chứa 6000 l&iacute;t nước ngọt (c&oacute; nồng độ muối xem như bằng 0). Người ta bơm nước biển c&oacute; nồng độ muối l&agrave; $30 {gam/l&iacute;t}$ v&agrave;o hồ với tốc độ 15 l&iacute;t/ph&uacute;t. Biết rằng, nồng độ muối trong dung dịch được t&iacute;nh bằng c&ocirc;ng thức $C=\\frac{m}{V}$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đúng vì sau thời gian $t$ phút, lượng nước được bơm vào hồ là $V(t)=15 t$ (lít/phút).<br/>b, Đúng vì khối lượng muối được bơm vào hồ sau thời gian $t$ phút là $m=30.15t=450 t({~g})$.<br/>c, Sai vì nồng độ muối trong hồ sau thời gian $t$ phút là $C=\\frac{m}{V}=\\frac{450 t}{6000+15 t}=\\frac{30 t}{400+t}$ (g/lít).<br/>d, Sai vì $\\lim _{t \\rightarrow+\\infty} \\frac{450 t}{6000+15 t}=\\lim _{t \\rightarrow+\\infty} \\frac{30 t}{400+t}=\\lim _{t \\rightarrow+\\infty} \\frac{30}{\\frac{400}{t}+1}=\\frac{30}{0+1}=30$ (g/lít). Vậy khi thời gian $t$ phút càng lớn, nồng độ muối trong hồ sẽ càng cao nhưng không vượt quá $C(t)=30$ (g/lít).",
+            "contentYA": "Sau thời gian $t$ (phút), lượng nước được bơm vào hồ là $V(t)=15 t$ (lít).",
+            "contentYB": "Khối lượng muối được bơm vào hồ sau thời gian $t$ (phút) là $m=450 t({~g})$.",
+            "contentYC": "Nồng độ muối trong hồ sau thời gian $t$ phút là $C(t)=\\frac{15 t}{6000+450 t}$.",
+            "contentYD": "Khi thời gian $t$ phút càng lớn, nồng độ muối trong hồ sẽ càng cao nhưng không vượt quá $C(t)=15$ (g/lít)."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Gọi $N(t)$ là số phần trăm cacbon 14 còn lại trong một bộ phận của một cây sinh trưởng từ $t$ năm trước đây thì ta có công thức $N(t)=100 \\cdot\\left(\\frac{1}{2}\\right)^{\\frac{t}{A}}(\\%)$ với $A$ là hằng số. Biết rằng một mẫu gỗ có tuổi khoảng 3754 năm thì lượng cacbon 14 còn lại là $65 \\%$. Phân tích mẫu gỗ từ một công trình kiến trúc cổ, người ta thấy lượng cacbon 14 còn lại trong mẫu gỗ là $79 \\%$. Hãy xác định tuổi của mẫu gỗ được lấy từ công trình đó.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2054
+            ],
+            "explanation": "<br />\nTheo b&agrave;i ta c&oacute; $65=100 \\cdot\\left(\\frac{1}{2}\\right)^{\\frac{3754}{A}} \\Leftrightarrow 0,65=\\left(\\frac{1}{2}\\right)^{\\frac{3754}{A}} \\Leftrightarrow \\frac{3754}{A}=\\log _{\\frac{1}{2}} 0,65 \\Leftrightarrow A=\\frac{3754}{\\log _{\\frac{1}{2}} 0,65}$<br />\nDo mẫu gỗ c&ograve;n $79 \\%$ lượng Cacbon 14 n&ecirc;n ta c&oacute;: $79=100 \\cdot\\left(\\frac{1}{2}\\right)^{\\frac{t}{A}} \\Leftrightarrow 0,79=\\left(\\frac{1}{2}\\right)^{\\frac{t}{A}}$<br />\n$\\Leftrightarrow \\frac{t}{A}=\\log _{\\frac{1}{2}} 0,79 \\Leftrightarrow t=A \\cdot \\log _{\\frac{1}{2}} 0,79=\\frac{3754}{\\log _{\\frac{1}{2}} 0,65} \\cdot \\log _{\\frac{1}{2}} 0,79 \\approx 2054$.<br />\nVậy tuổi của mẫu gỗ l&agrave; khoảng 2054 năm."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Phương trình $\\log _{3}\\left|x^{2}-5 x\\right|=\\log _{5}\\left(x^{2}-5 x+2\\right)$ có bốn nghiệm $x=\\frac{a \\pm \\sqrt{b}}{c}, x=\\frac{a \\pm \\sqrt{d}}{c}$ trong đó $a, b, c, d$ là các số nguyên dương, $a$ và $c$ là số nguyên tố. Tính giá trị của biểu thức $P=a+b+c+d$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                65
+            ],
+            "explanation": "<br />\nX&eacute;t phương tr&igrave;nh $\\log _{3}\\left|x^{2}-5 x\\right|=\\log _{5}\\left(x^{2}-5 x+2\\right)$<br />\nĐiều kiện: $x^{2}-5 x+2&gt;0$ v&agrave; $x^{2}-5 x \\neq 0$.<br />\nĐặt $\\log _{3}\\left|x^{2}-5 x\\right|=\\log _{5}\\left(x^{2}-5 x+2\\right)=t \\Rightarrow\\left\\{\\begin{array}{l}\\left|x^{2}-5 x\\right|=3^{t} \\quad(1)\\\\ x^{2}-5 x+2=5^{t} \\quad(2)\\end{array}\\right.$<br />\nTừ (2) thay v&agrave;o (1) ta được: $\\left|5^{t}-2\\right|=3^{t}$<br />\nTrường hợp 1: X&eacute;t $5^{t}-2=3^{t} \\Leftrightarrow 5^{t}=3^{t}+2 \\Leftrightarrow 1=\\left(\\frac{3}{5}\\right)^{t}+2\\left(\\frac{1}{5}\\right)^{t}$ (3)<br />\nKhi $t&gt;1$ th&igrave; $\\left(\\frac{3}{5}\\right)^{t}&lt;\\frac{3}{5}$ v&agrave; $\\left(\\frac{1}{5}\\right)^{t}&lt;\\frac{1}{5} \\Rightarrow\\left(\\frac{3}{5}\\right)^{t}+2\\left(\\frac{1}{5}\\right)^{t}&lt;1$.<br />\nKhi $t&lt;1$ th&igrave; $\\left(\\frac{3}{5}\\right)^{t}&gt;\\frac{3}{5}$ v&agrave; $\\left(\\frac{1}{5}\\right)^{t}&gt;\\frac{1}{5} \\Rightarrow\\left(\\frac{3}{5}\\right)^{t}+2\\left(\\frac{1}{5}\\right)^{t}&gt;1$.<br />\nDo đ&oacute; $t=1$ l&agrave; nghiệm duy nhất của (3).<br />\nVới $t=1$, ta c&oacute;: $x^{2}-5 x=3 \\Leftrightarrow x^{2}-5 x-3=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{5+\\sqrt{37}}{2} \\\\ x=\\frac{5-\\sqrt{37}}{2}\\end{array}\\right.$ (thỏa m&atilde;n).<br />\nTrường hợp 2: $\\left|5^{t}-2\\right|=-3^{t} \\Leftrightarrow 5^{t}=2-3^{t} \\Leftrightarrow 5^{t}+3^{t}=2$ (4)<br />\nTương tự như trường hợp 1, ta c&oacute; $t=0$ l&agrave; nghiệm duy nhất của (4)<br />\nVới $t=0$, ta c&oacute;: $x^{2}-5 x=-1 \\Leftrightarrow x^{2}-5 x+1=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{5+\\sqrt{21}}{2} \\\\ x=\\frac{5-\\sqrt{21}}{2}\\end{array}\\right.$ (thỏa m&atilde;n).<br />\nVậy phương tr&igrave;nh c&oacute; bốn nghiệm l&agrave; $x=\\frac{5 \\pm \\sqrt{37}}{2}, x=\\frac{5 \\pm \\sqrt{21}}{2}$.<br />\nSuy ra $a=5, b=37, c=2, d=21$ hoặc $a=5, b=21, c=2, d=37$.<br />\nDo đ&oacute; $P=5+37+2+21=65$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Cho hàm số $y=\\frac{a x+2}{c x+b}$ có đồ thị $(C)$ như hình vẽ bên dưới<br/><img src=\"https://cdn.save.moe/b/2sK09i6.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596891-y3fr2nhp4\" style=\"width: 35%; margin: 0 auto; display: block;\">",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br />\na, Đ&uacute;ng. Dựa v&agrave;o đồ thị ta thấy đường thẳng $x=2$ l&agrave; đường tiệm cận đứng của đồ thị h&agrave;m số.<br />\nb, Đ&uacute;ng. V&igrave; đường thẳng $x=2$ l&agrave; đường tiệm cận đứng của đồ thị h&agrave;m số n&ecirc;n $\\frac{-b}{c}=2 \\Leftrightarrow b=-2 c$.<br />\nV&agrave; đường thẳng $y=1$ l&agrave; đường tiệm cận ngang của đồ thị h&agrave;m số n&ecirc;n $\\frac{a}{c}=1 \\Leftrightarrow a=c$.<br />\nKhi đ&oacute; $y=\\frac{c x+2}{c x-2 c}$. Để đồ thị h&agrave;m số đi qua điểm $(-2 ; 0)$ th&igrave; $c=1$.<br />\nVậy ta c&oacute; $a=1 ; b=-2 ; c=1$.<br />\nc, Đ&uacute;ng. Ta c&oacute; với $a=1 ; b=-2 ; c=1$ h&agrave;m số sẽ l&agrave;: $y=\\frac{x+2}{x-2}$,<br />\nĐồ thị h&agrave;m số c&oacute; đường tiệm cận đứng l&agrave; đường thẳng c&oacute; phương tr&igrave;nh $x=2, (\\Delta_{1})$.<br />\nĐồ thị h&agrave;m số c&oacute; đường tiệm cận ngang l&agrave; đường thẳng c&oacute; phương tr&igrave;nh $y=1, (\\Delta_{2})$.<br />\nGọi khoảng c&aacute;ch từ $M$ đến hai đường tiệm cận l&agrave;<br />\n$d_{1}\\left(M ; \\Delta_{1}\\right)=\\left|x_{0}-2\\right|$;<br />\n$d_{2}\\left(M ; \\Delta_{2}\\right)=\\left|\\frac{x_{0}+2}{x_{0}-2}-1\\right|=\\frac{4}{\\left|x_{0}-2\\right|}$<br />\nTa c&oacute; $d_{1}\\left(M ; \\Delta_{1}\\right)+d_{2}\\left(M ; \\Delta_{2}\\right)=\\left|x_{0}-2\\right|+\\frac{4}{\\left|x_{0}-2\\right|} \\geq 4$ (BĐT Cauchy).<br />\nDấu bằng xảy ra khi $\\left|x_{0}-2\\right|=\\frac{4}{\\left|x_{0}-2\\right|} \\Leftrightarrow\\left|x_{0}-2\\right|^{2}=4 \\Leftrightarrow\\left[\\begin{array}{l}x_{0}=0 \\\\ x_{0}=4\\end{array}\\right.$<br />\nTổng khoảng c&aacute;ch từ $M$ đến hai đường tiệm cận nhỏ nhất bằng 4 khi $M(0 ;-1) ; M(4 ; 3)$.",
+            "contentYA": "Đồ thị hàm số có tiệm cận đứng là đường thẳng có phương trình $x=2$.",
+            "contentYB": "Với đồ thị $(C)$ thì $a=1 ; b=-2 ; c=1$.",
+            "contentYC": "Tổng khoảng cách từ điểm $M$ bất kì thuộc $(C)$ đến hai đường tiệm cận của đồ thị $(C)$ nhỏ nhất bằng 4."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Đồ thị $(C)$ của hàm số $y=\\frac{x^{2}-7 x+12}{x-2}$ cắt trục $O x$ tại hai điểm phân biệt $A, B$ và cắt trục $O y$ tại điểm $C$. Tính $O A+O B+O C$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                13
+            ],
+            "explanation": "<br/>Phương trình hoành độ giao điểm của $(C)$ và trục $O x$ là nghiệm phương trình:<br/>$\\frac{x^{2}-7 x+12}{x-2}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}x-2 \\neq 0 \\\\ x^{2}-7 x+12=0\\end{array}\\right. \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 2 \\\\ {\\left[\\begin{array}{l}x=3 \\\\ x=4\\end{array}\\right.}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\\\ x=4\\end{array}\\right.\\right.$<br/>Khi đó $A(3 ; 0), B(4 ; 0)$.<br/>Giao điểm của đồ thị $(C)$ với trục $O y$ là $C(0 ;-6)$.<br/>Vậy $O A+O B+O C=3+4+|-6|=13$."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Trong không gian $O x y z$, cho mặt cầu $(S):(x-2)^{2}+(y-3)^{2}+(z+1)^{2}=16$ và điểm $A(-1 ;-1 ;-1)$. Xét tính đúng sai của các mệnh đề sau.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai<br/>Với $I(2;3;-1)$ là tâm của mặt cầu $(S)$, ta có: $\\overrightarrow{I A}=(-3 ;-4 ; 0)$<br/>Đường thẳng $I A$ đi qua điểm $I(2 ; 3 ;-1)$ và nhận véctơ $\\overrightarrow{I A}=(-3 ;-4 ; 0)$ làm véctơ chỉ phương. Vậy phương trình của $I A$ là $\\left\\{\\begin{array}{l}x=2-3 t \\\\ y=3-4 t \\\\ z=-1\\end{array}\\right.$. (Trong đáp án a, phương trình có $z=-1+t$ là sai).<br/>b, Đúng<br/>Phương trình mặt phẳng tiếp xúc với mặt cầu $(S)$ tại $B(2 ; 3 ; 3)$ là $z=3$.<br/>Ta có: $\\overrightarrow{I B}=(0 ; 0 ; 4)$.<br/>Mặt phẳng tiếp xúc với mặt cầu $(S)$ tại $B(2 ; 3 ; 3)$ có véctơ pháp tuyến $\\vec{n}=\\overrightarrow{I B}=(0 ; 0 ; 4)$.<br/>Suy ra phương trình mặt phẳng là: $0(x-2)+0(y-3)+4(z-3)=0 \\Leftrightarrow z=3$.<br/>c, Đúng<br/>Xét các điểm $M$ thuộc $(S)$ sao cho đường thẳng $A M$ tiếp xúc với $(S)$. $M$ luôn thuộc một mặt phẳng cố định có phương trình là $3 x+4 y-2=0$.<br/>$(S)$ có tâm $I(2 ; 3 ;-1)$; bán kính $R=4$<br/>$A(-1 ;-1 ;-1) \\Rightarrow \\overrightarrow{I A}=(-3 ;-4 ; 0)$, tính được $I A=5$.<br/><img src=\"https://cdn.save.moe/b/LB1MBC.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596893-1qw1owhr7\" class=\"mx-auto\" style=\"\"><br/>Mặt phẳng cố định đi qua điểm $H$ là hình chiếu của $M$ xuống $I A$ và nhận $\\overrightarrow{I A}=(-3 ;-4 ; 0)$ làm vectơ pháp tuyến.<br/>Do hai tam giác $M H I$ và $A M I$ đồng dạng nên tính được $I M^{2}=I H \\cdot I A \\Rightarrow I H=\\frac{I M^{2}}{I A}=\\frac{16}{5}$, từ đó tính được $\\overrightarrow{I H}=\\frac{16}{25} \\overrightarrow{I A}$ tìm được $H\\left(\\frac{2}{25} ; \\frac{11}{25} ;-1\\right)$.<br/>Mặt phẳng cần tìm có phương trình là: $-3\\left(x-\\frac{2}{25}\\right)-4\\left(y-\\frac{11}{25}\\right)+0(z+1)=0 \\Leftrightarrow 3 x+4 y-2=0$.",
+            "contentYA": "Với $I$ là tâm của mặt cầu $(S)$, phương trình đường thẳng $I A$ là $\\left\\{\\begin{array}{l}x=2+3 t \\\\ y=3+4 t \\\\ z=-1+t\\end{array}\\right.$.",
+            "contentYB": "Phương trình mặt phẳng tiếp xúc với mặt cầu $(S)$ tại $B(2 ; 3 ; 3)$ là $z=3$.",
+            "contentYC": "Xét các điểm $M$ thuộc $(S)$ sao cho đường thẳng $A M$ tiếp xúc với $(S)$, $M$ luôn thuộc một mặt phẳng cố định có phương trình là $3 x+4 y-2=0$."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Cho hình lăng trụ đứng $A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}$ có đáy $A B C$ là tam giác vuông tại $A$. Gọi $E, F$ lần lượt là trung điểm của $A B$ và $A A^{\\prime}$. Cho biết $A B=2, B C=\\sqrt{13}, C C^{\\prime}=4$. Tính số đo độ của góc nhị diện $[A, C E, F]$ (làm tròn đến hàng đơn vị)<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                65
+            ],
+            "explanation": "<br/><img src=\"https://cdn.save.moe/b/p7sfSl.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596893-u8ljp1cwk\" class=\"mx-auto\" style=\"\"><br/>Từ điểm $A$ kẻ đường $A H \\perp C E$, ta có $C E \\perp A H, C E \\perp A F$ suy ra $C E \\perp(A H F)$ nên góc nhị diện $[A, C E, F]$ có số đo bằng góc $\\widehat{AHF}$.<br/>Ta có $A C=\\sqrt{B C^{2}-A B^{2}}=\\sqrt{13-4}=3, A E=1$ nên $A H=\\frac{A E \\cdot A C}{\\sqrt{A E^{2}+A C^{2}}}=\\frac{3.1}{\\sqrt{10}}=\\frac{3}{\\sqrt{10}}, A F=2$.<br/>Xét tam giác $A F H$ vuông tại $A$ ta có $\\tan \\widehat{AHF}=\\frac{A F}{A H}=\\frac{2 \\sqrt{10}}{3} \\Rightarrow \\widehat{AHF} \\approx 65^{\\circ}$."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Cho tam giác đều $H$ có cạnh bằng 8. Chia tam giác này đều thành 64 tam giác đều có cạnh bằng 1 bởi các đường thẳng song song với các cạnh của tam giác đều đã cho. Gọi $S$ là tập hợp các đỉnh của 64 tam giác đều có cạnh bằng 1. Chọn ngẫu nhiên 4 đỉnh của tập $S$. Tính xác suất để 4 đỉnh chọn được là bốn đỉnh của một hình bình hành nằm trong miền trong tam giác đều $H$.<br/><img src=\"https://cdn.save.moe/b/ZN0Ep8I.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596893-gksepjyhv\" style=\"width: 55%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Cách 1:<br/>Ta thấy có 3 loại hình bình hành dựa vào cách chọn phương của hai cạnh của hình bình hành. Số hình bình hành của mỗi loại là bằng nhau nên chỉ cần tính một loại rồi nhân với 3.<br/><img src=\"https://cdn.save.moe/b/nOmKEYr.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596896-k8sy4iq7p\" class=\"mx-auto\" style=\"\"><br/>Dựng thêm một đường thẳng song song với cạnh đáy và cách cạnh đáy một khoảng bằng khoảng cách giữa hai đường thẳng song song kề nhau, tạo thành một tam giác đều mở rộng như hình vẽ. Ta chia cạnh mới thành 9 phần bằng nhau bởi 8, cộng thêm 2 đầu mút nữa thành 10 điểm. Các điểm được đánh số từ trái sang phải từ 1 đến 10.<br/>Khi đó, với 1 hình bình hành có hai cạnh song song với hai cạnh bên tương ứng với bốn số $1 \\leq a<b<c<d \\leq 10$ theo quy tắc sau: Nối dài các cạnh của hình bình hành, cắt các cạnh mới tại 4 điểm có số thứ tự là $a, b, c, d$. Nối dài các cạnh của hình bình hành, cắt các cạnh mới tại 4 điểm có số thứ tự là $a , b , c , d $. Ví dụ với hình bình hành màu đỏ trên ta có bộ (2,5,7,9). Ngược lại nếu có một bộ số $1 \\le a \\lt b \\lt c \\lt d \\le 10$ ta sẽ kẻ các đường thẳng từ điểm $a , b$ song song với cạnh bên trái và từ $c , d$ song song với cạnh bên phải giao nhau ra một hình bình hành.<br/>Vậy số hình bình hành loại này là số cách lấy ra bốn số phân biệt $(a ; b ; c ; d)$ từ 10 số tự nhiên $\\{1,2,3, \\ldots, 10\\}$ và ta được $C_{10}^{4}=210$.<br/>Vậy kết quả là $3. C_{10}^{4}=630$ hình bình hành.<br/>Ta thấy có $1+2+3+\\ldots+9=45$ giao điểm giữa các đường thẳng nên số phần tử của không gian mẫu là $n(\\Omega)=C_{45}^{4}$.<br/>Vậy xác suất cần tính là $P(A)=\\frac{3 C_{10}^{4}}{C_{45}^{4}}=\\frac{2}{473}$.<br/>Cách 2: Để chọn được một hình bình hành mà 4 đỉnh chọn được là bốn đỉnh của một hình bình hành nằm trong miền trong tam giác đều $H$ ta làm như sau:<br/>Chọn 2 trong 7 điểm trên một cạnh ( trừ hai điểm đầu mút của cạnh), cùng với hai điểm trong 5 điểm nằm tương ứng trên một cạnh trong hai cạnh còn lại của tam giác ( trừ mỗi đầu cạnh đi 2 điểm). Qua 4 điểm này có 4 đường thẳng tương ứng của đầu bài sẽ cắt nhau tạo thành một hình bình hành thỏa mãn bài toán.<br/>Vì vài trò các cạnh như nhau nên số hình bình hành thu được là: $C_{7}^{2} \\cdot C_{5}^{2} \\cdot 3=630$ (hình).<br/>Ta thấy có $1+2+3+\\ldots+9=45$ giao điểm giữa các đường thẳng nên số phần tử của không gian mẫu là $n(\\Omega)=C_{45}^{4}$.<br/>Vậy xác suất cần tính là $P(A)=\\frac{3 C_{10}^{4}}{C_{45}^{4}}=\\frac{2}{473}$.",
+            "contentAnswerA": "$\\frac{2}{473}$.",
+            "contentAnswerB": "$\\frac{6}{935}$.",
+            "contentAnswerC": "$\\frac{2}{1419}$.",
+            "contentAnswerD": "$\\frac{2}{935}$."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Bốn quả bóng giống nhau được đánh số 1, 2, 3 và 4 rồi cho vào hộp. Một quả bóng được rút ngẫu nhiên ra khỏi hộp và không được trả lại vào hộp. Quả bóng thứ hai sau đó được rút ngẫu nhiên từ chiếc hộp. Xác suất để số đầu tiên được rút ra là số 2 nếu biết tổng số ghi trên 2 quả lấy ra ít nhất là 4 bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Gọi A là biến cố quả thứ 2 rút ra mang số 2 .<br/>Gọi B là biến cố để tổng các số trên 2 quả lấy ra ít nhất là 4 .<br/>Ta có: $P(A \\mid B)=\\frac{P(A \\cap B)}{P(B)}$.<br/>Lại có: các cặp số có tổng ít nhất bằng 4 là $(1,3) ;(1,4) ;(2,3) ;(2,4) ;(3,4) ;(3,2) ;(3,1) ;(4,1) ;(4,2) ;(4,3)$<br/>Các cặp số có tổng ít nhất bằng 4 nhưng quả thứ 2 mang số 2 là $(3,2) ;(4,2)$<br/>Do đó: $P(B)=\\frac{1}{4} \\cdot \\frac{1}{3} \\cdot 10=\\frac{5}{6} ; P(A \\cap B)=\\frac{1}{4} \\cdot \\frac{1}{3} \\cdot 2=\\frac{1}{6}$.<br/>Vậy $P(A \\mid B)=\\frac{P(A \\cap B)}{P(B)}=\\frac{1}{5}$.",
+            "contentAnswerA": "$\\frac{1}{4}$.",
+            "contentAnswerB": "$\\frac{1}{3}$.",
+            "contentAnswerC": "$\\frac{1}{12}$.",
+            "contentAnswerD": "$\\frac{1}{5}$."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Cho hàm số $y=x^{3}+3 x^{2}$ có đồ thị $(C)$. Xét tính đúng sai của các mệnh đề sau?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai. Phương trình hoành độ giao điểm đồ thị ( $C$ ) và trục hoành là: $x^{3}+3 x^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=-3\\end{array}\\right.$<br/>Trên $[-2 ; 0]$ thì $x^{3}+3 x^{2}$ không đổi dấu.<br/>Khi đó diện tích hình phẳng giới hạn bởi đồ thị $(C)$, trục hoành, trục tung và đường thẳng $x=-2$ là: $\\left.\\int_{-2}^{0}\\left|x^{3}+3 x^{2}\\right| d x=\\left|\\int_{-2}^{0}\\left(x^{3}+3 x^{2}\\right) d x\\right|=\\left|\\left(\\frac{x^{4}}{4}+x^{3}\\right)\\right|_{-2}^{0} \\right\\rvert\\,=4$.<br/>b, Đúng. Phương trình hoành độ giao điểm: $x^{3}+3 x^{2}=x+3 \\Leftrightarrow x^{3}+3 x^{2}-x-3=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\notin(-3 ; 0) \\\\ x=-1 \\\\ x=-3\\end{array}\\right.$<br/>Với $x \\in(-3 ;-1)$ thì $x^{3}+3 x^{2}-x-3>0$; với $x \\in(-1 ; 0)$ thì $x^{3}+3 x^{2}-x-3<0$;<br/>Diện tích cần tìm được xác định bởi công thức $S=\\int_{-3}^{0}\\left|x^{3}+3 x^{2}-x-3\\right| d x=\\int_{-3}^{-1}\\left(x^{3}+3 x^{2}-x-3\\right) d x+\\int_{-1}^{0}\\left(-x^{3}-3 x^{2}+x+3\\right) d x$<br/>c, Sai. Thể tích $V$ của khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số $y=x^{3}+3 x^{2}$ , trục hoành xung quanh trục $O x$ là $V=\\pi \\int_{-3}^{0}\\left(x^{3}+3 x^{2}\\right)^{2} d x=\\frac{729}{35} \\pi$.<br/>d, Đúng. Phương trình hoành độ giao điểm: $x^{3}+3 x^{2}=m^{2} x+5 \\Leftrightarrow x^{3}+3 x^{2}-m^{2} x-5=0$<br/>Xét hàm số $y=x^{3}+3 x^{2}-m^{2} x-5$ trên $[0 ; 1]$.<br/>Ta có $y^{\\prime}=3 x^{2}+6 x-m^{2}$<br/>$y^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=\\frac{-3-\\sqrt{3 m^{2}+9}}{3}=-1-\\frac{\\sqrt{3 m^{2}+9}}{3} \\\\ x_{2}=\\frac{-3+\\sqrt{3 m^{2}+9}}{3}=-1+\\frac{\\sqrt{3 m^{2}+9}}{3}\\end{array}\\right.$.<br/>Vì $m \\in(-1 ; 1)$ nên $\\quad 3<\\sqrt{3 m^{2}+9}<\\sqrt{12}$. Suy ra $\\quad x_{1}=-1-\\frac{\\sqrt{3 m^{2}+9}}{3}<-2 \\quad$ và $0<x_{2}=-1+\\frac{\\sqrt{3 m^{2}+9}}{3}<\\frac{\\sqrt{12}}{3}-1$<br/>Ta có: $y(0)=-5<0, y(1)=-m^{2}-1<0$<br/>Ta có bảng biến thiên trong $[0 ; 1]$<br/><img src=\"https://cdn.save.moe/b/1dUxwgM.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596899-06b6ma6pv\" class=\"mx-auto\" style=\"\"><br/>Dựa vào BBT suy ra $y<0, \\forall x \\in[0 ; 1]$<br/>Hình phẳng giới hạn bởi đồ thị của hai hàm số $y=x^{3}+3 x^{2}, y=m^{2} x+5$ và 2 đường thẳng $x=0, x=1$ có diện tích bằng 4 nên ta có: $\\int_{0}^{1}\\left|x^{3}+3 x^{2}-m^{2} x-5\\right| d x=4$<br/>$\\Leftrightarrow-\\int_{0}^{1}\\left(x^{3}+3 x^{2}-m^{2} x-5\\right) d x=4 \\Leftrightarrow \\frac{m^{2}}{2}+\\frac{15}{4}=4 \\Leftrightarrow m= \\pm \\frac{\\sqrt{2}}{2}$.<br/>Vậy có hai giá trị $m \\in(-1 ; 1)$ thỏa yêu cầu bài toán.",
+            "contentYA": "Diện tích hình phẳng giới hạn bởi đồ thị $(C)$, trục hoành và hai đường thẳng $x=-2$, trục tung là 5.",
+            "contentYB": "Diện tích hình phẳng giới hạn bởi đồ thị của hai hàm số $y=x^{3}+3 x^{2}, y=x+3$ và hai đường thẳng $x=-3, x=0$ được xác định bởi công thức $S=\\int_{-3}^{-1}\\left(x^{3}+3 x^{2}-x-3\\right) {d} x+\\int_{-1}^{0}\\left(-x^{3}-3 x^{2}+x+3\\right) {d} x$.",
+            "contentYC": "Thể tích $V$ của khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số $y=x^{3}+3 x^{2}$, trục hoành xung quanh trục $O x$ là $V=\\frac{792}{35} \\pi$.",
+            "contentYD": "Có hai giá trị $m \\in(-1 ; 1)$ sao cho hình phẳng giới hạn bởi đồ thị của hai hàm số $y=x^{3}+3 x^{2}, y=m^{2} x+5$ và 2 đường thẳng $x=0, x=1$ có diện tích bằng 4."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Gọi $u_{n}$ là số cách tô màu $n$ đỉnh của một đa giác đều $n$ cạnh ($n \\geq 3$) bằng 3 màu sao cho hai đỉnh kề nhau khác màu. Trong các phát biểu sau, phát biểu nào đúng, phát biểu nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br />\nGiả sử ta cắt v&ograve;ng tr&ograve;n tại giữa đỉnh $n$ v&agrave; đỉnh 1 để trải ra th&agrave;nh một đường thẳng gồm $n$ đỉnh: $v_{1}, v_{2}, \\ldots, v_{n}$<br />\nĐỉnh $v_{1}$ c&oacute; 3 c&aacute;ch chọn m&agrave;u.<br />\nC&aacute;c đỉnh $v_{2}, v_{3}, \\ldots, v_{n}$ mỗi đỉnh c&oacute; 2 c&aacute;ch chọn (kh&aacute;c đỉnh liền trước).<br />\nTổng số c&aacute;ch t&ocirc; m&agrave;u cho d&atilde;y thẳng l&agrave;: $S_{\\text {thang }}=3 \\cdot 2^{n-1}$.<br />\nTrong $3 \\cdot 2^{n-1}$ c&aacute;ch t&ocirc; m&agrave;u d&atilde;y thẳng, x&eacute;t mối quan hệ giữa đỉnh đầu $v_{1}$ v&agrave; đỉnh cuối $v_{n}$ :<br />\nTrường hợp 1: M&agrave;u $v_{n} \\neq$ M&agrave;u $v_{1}$. Khi nối lại, điều kiện &quot;hai đỉnh kề nhau kh&aacute;c m&agrave;u&quot; được thỏa m&atilde;n ho&agrave;n to&agrave;n.<br />\nĐ&acirc;y ch&iacute;nh l&agrave; số c&aacute;ch t&ocirc; m&agrave;u hợp lệ cho đa gi&aacute;c $n$ đỉnh. &rArr; Số c&aacute;ch l&agrave; $u_{n}$.<br />\nTrường hợp 2: M&agrave;u $v_{n} \\equiv$ M&agrave;u $v_{1}$ (Tr&ugrave;ng m&agrave;u). Khi nối lại, trường hợp n&agrave;y vi phạm điều kiện. Ta thấy: Nếu $v_{n}$ c&ugrave;ng m&agrave;u $v_{1}$, ta c&oacute; thể coi như chập $v_{n}$ v&agrave;o $v_{1}$. Khi đ&oacute;, đỉnh $v_{n-1}$ (vốn kề $v_{n}$ ) nay trở th&agrave;nh kề $v_{1}$ v&agrave; phải kh&aacute;c m&agrave;u $v_{1}$.<br />\nB&agrave;i to&aacute;n trở th&agrave;nh t&ocirc; m&agrave;u cho đa gi&aacute;c c&oacute; $n-1$ đỉnh $\\left(v_{1}, v_{2}, \\ldots, v_{n-1}\\right) \\Rightarrow$ Số c&aacute;ch l&agrave; $u_{n-1}$.<br />\nTổng số c&aacute;ch tr&ecirc;n đường thẳng bằng tổng số c&aacute;ch của hai trường hợp tr&ecirc;n:<br />\n$3 \\cdot 2^{n-1}=u_{n}+u_{n-1} \\Leftrightarrow u_{n}=3 \\cdot 2^{n-1}-u_{n-1}(\\mathrm{dpcm})$.<br />\na, Sai: Giải th&iacute;ch: $u_{2}$ (t&ocirc; đoạn thẳng 2 đỉnh) $=3 \\times 2=6$ c&aacute;ch. $u_{3}=3 \\cdot 2^{3-1}-u_{2}=3 \\cdot 4-6=6$.<br />\nVới $n=4$, số c&aacute;ch l&agrave; 24 . Giải th&iacute;ch: $u_{4}=3 \\cdot 2^{4-1}-u_{3}=3 \\cdot 8-6=24-6=18$.<br />\nSố c&aacute;ch t&ocirc; m&agrave;u cho h&igrave;nh vu&ocirc;ng nhiều hơn số c&aacute;ch t&ocirc; m&agrave;u cho tam gi&aacute;c l&agrave; $18-6=12$.<br />\nb, Đ&uacute;ng: Giải th&iacute;ch: Thử lại: $n=3: 2^{3}+(-1)^{3} \\cdot 2=8-2=6$ (Khớp). $n=4: 2^{4}+(-1)^{4} \\cdot 2=16+2=18$ (Khớp). &rarr; C&ocirc;ng thức tổng qu&aacute;t đ&uacute;ng.<br />\nc, Đ&uacute;ng: Giải th&iacute;ch: $\\lim \\frac{u_{n}}{2^{n}}=\\lim \\frac{2^{n}+(-1)^{n} \\cdot 2}{2^{n}}=\\lim \\left(1+\\frac{ \\pm 2}{2^{n}}\\right)=1$.",
+            "contentYA": "Số cách tô màu cho hình vuông nhiều hơn số cách tô màu cho tam giác là 8.",
+            "contentYB": "Công thức tổng quát của dãy số là $u_{n}=2^{n}+(-1)^{n} \\cdot 2$.",
+            "contentYC": "Giới hạn $\\lim _{n \\rightarrow+\\infty} \\frac{u_{n}}{2^{n}}=1$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Cho tấm bìa như hình vẽ bên dưới. Người ta gấp tấm bìa này để tạo thành một khối lập phương (trong đó các số nằm ở các mặt ngoài của khối). Có 3 khối lập phương giống hệt nhau như vậy.<br/><img src=\"https://cdn.save.moe/b/PMbfX74.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772242596900-fxjt6afyo\" style=\"width: 55%; margin: 0 auto; display: block;\"><br/>- Nếu xếp chồng 3 khối lập phương này thẳng đứng lên mặt bàn sao cho tổng giá trị của các mặt nhìn thấy là lớn nhất, thì tổng đó bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-1\">____DRAG_DROP_1____</span>.<br/>- Nếu gieo 3 khối lập phương này một cách ngẫu nhiên, xác suất để tổng các số ở mặt trên cùng của 3 khối chia hết cho 3 là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-2\">____DRAG_DROP_2____</span>.<br/>Kéo biểu thức ở các ô vuông thả vào vị trí thích hợp trong bốn ô trống (1) và (2) ở dưới.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "F>"
+                }
+            ],
+            "explanation": "<br />\n(1): Từ h&igrave;nh triển khai, ta x&aacute;c định c&aacute;c cặp mặt đối diện nhau khi gấp lại:<br />\nMặt số 32 (t&acirc;m) đối diện với mặt số 1 . T&ocirc;̂ng $=32+1=33$.<br />\nMặt số 2 (c&aacute;nh tr&aacute;i) đối diện với mặt số 16 (c&aacute;nh phải). Tổng $=2+16=18$.<br />\nMặt số 4 (tr&ecirc;n) đối diện với mặt số 8 (dưới). Tổng $=4+8=12$.<br />\nTổng tất cả c&aacute;c mặt của một khối lập phương l&agrave;: $S_{1}=1+2+32+16+4+8=63$.<br />\nMệnh đề: Tổng lớn nhất của c&aacute;c mặt nh&igrave;n thấy l&agrave; 164 .<br />\nT&ocirc;̂ng c&aacute;c mặt của 3 khối lập phương l&agrave;: $3 \\times 63=189$.<br />\nKhi xếp chồng 3 khối l&ecirc;n nhau, số mặt bị che khuất (kh&ocirc;ng nh&igrave;n thấy) bao gồm:<br />\nMặt đ&aacute;y của khối dưới c&ugrave;ng (tiếp x&uacute;c với b&agrave;n): 1 mặt.<br />\nMặt tiếp x&uacute;c giữa khối dưới v&agrave; khối giữa: 2 mặt (đ&aacute;y khối giữa + nắp khối dưới).<br />\nMặt tiếp x&uacute;c giữa khối giữa v&agrave; khối tr&ecirc;n: 2 mặt (đ&aacute;y khối tr&ecirc;n + nắp khối giữa).<br />\nTổng cộng c&oacute; 5 mặt bị che khuất.<br />\nĐể tổng c&aacute;c mặt nh&igrave;n thấy l&agrave; lớn nhất, ta cần tổng c&aacute;c mặt bị che khuất l&agrave; nhỏ nhất.<br />\nX&eacute;t c&aacute;c vị tr&iacute; tiếp x&uacute;c (mục 2 v&agrave; 3 ở tr&ecirc;n): Tại mỗi vị tr&iacute; tiếp x&uacute;c, 2 mặt bị che khuất thuộc về c&ugrave;ng một khối (v&iacute; dụ: đ&aacute;y v&agrave; nắp của khối giữa). Do đ&oacute;, tổng gi&aacute; trị bị che khuất tại c&aacute;c khớp nối ch&iacute;nh l&agrave; tổng của một cặp mặt đối diện.<br />\nTa c&oacute; c&aacute;c tổng đối diện: $33,18,12$. Cặp c&oacute; tổng nhỏ nhất l&agrave; cặp $(4,8)$ với tổng l&agrave; 12 . &rArr; Ta xếp khối giữa v&agrave; khối dưới c&ugrave;ng sao cho trục thẳng đứng l&agrave; trục đi qua cặp mặt $(4,8)$.<br />\nKhi đ&oacute;, tổng c&aacute;c mặt bị che khuất do tiếp x&uacute;c giữa c&aacute;c khối v&agrave; mặt đ&aacute;y của khối giữa l&agrave; $12+12=24$.<br />\nC&ograve;n lại mặt đ&aacute;y của khối tr&ecirc;n c&ugrave;ng (tiếp x&uacute;c với nắp khối giữa): Để tổng che khuất nhỏ nhất, ta chọn mặt c&oacute; gi&aacute; trị nhỏ nhất trong c&aacute;c mặt của khối. Gi&aacute; trị nhỏ nhất l&agrave; 1 .<br />\nVậy tổng nhỏ nhất của c&aacute;c mặt bị che khuất l&agrave;:<br />\n$S_{\\text {chekhuat }}=12($ khoiduoi $)+12($ khoigiua $)+1($ daykhoitren $)=25$.<br />\nTổng lớn nhất nh&igrave;n thấy được: $S_{\\max }=189-25=164$.<br />\n(2): Kh&ocirc;ng gian mẫu: Mỗi khối c&oacute; 6 mặt, gieo 3 khối $\\Rightarrow n(\\Omega)=6 \\times 6 \\times 6=216$.<br />\nX&eacute;t số dư của c&aacute;c mặt khi chia cho 3 :<br />\nNh&oacute;m A (chia 3 dư 1): $\\{1,4,16\\}$. Gồm 3 số. Nh&oacute;m B (chia 3 dư 2): $\\{2,8,32\\}$. Gồm 3 số.<br />\nNhư vậy, khi gieo 1 khối, x&aacute;c suất nhận được số chia 3 dư 1 l&agrave; $\\frac{3}{6}=\\frac{1}{2}$, x&aacute;c suất nhận được số chia 3 dư 2 cũng l&agrave; $\\frac{1}{2}$.<br />\nGọi số tr&ecirc;n mặt tr&ecirc;n của 3 khối l&agrave; $a, b, c$. Để tổng $S=a+b+c$ chia hết cho 3 , ta c&oacute; c&aacute;c trường hợp sau đối với số dư ( $r$ ):<br />\nTH1: Cả 3 số đều chia 3 dư $1\\left(r_{a}=1, r_{b}=1, r_{c}=1 \\Rightarrow S \\equiv 3 \\equiv 0\\right)$. Số c&aacute;ch chọn: Mỗi khối phải ra mặt thuộc Nh&oacute;m A ( 3 c&aacute;ch) do đ&oacute; c&oacute; $3 \\times 3 \\times 3=27$ c&aacute;ch.<br />\nTH2: Cả 3 số đều chia 3 dư $2\\left(r_{a}=2, r_{b}=2, r_{c}=2 \\Rightarrow S \\equiv 6 \\equiv 0\\right)$. Số c&aacute;ch chọn: Mỗi khối phải ra mặt thuộc Nh&oacute;m B ( 3 c&aacute;ch) do đ&oacute; c&oacute; $3 \\times 3 \\times 3=27$ c&aacute;ch.<br />\nLưu &yacute;: C&aacute;c trường hợp hỗn hợp như $(1,1,2)$ tổng dư 4 (dư 1 ) hoặc $(1,2,2)$ tổng dư 5 (dư 2 ) đều kh&ocirc;ng chia hết cho 3 .<br />\nTổng số kết quả thuận lợi: $27+27=54$. X&aacute;c suất cần t&igrave;m l&agrave;: $P=\\frac{54}{216}=\\frac{1}{4}$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "164"
+                },
+                {
+                    "id": "B>",
+                    "content": "150"
+                },
+                {
+                    "id": "C>",
+                    "content": "189"
+                },
+                {
+                    "id": "D>",
+                    "content": "$\\frac{2}{3}$"
+                },
+                {
+                    "id": "E>",
+                    "content": "$\\frac{2}{15}$"
+                },
+                {
+                    "id": "F>",
+                    "content": "$\\frac{1}{4}$"
+                },
+                {
+                    "id": "G>",
+                    "content": "$\\frac{3}{4}$"
+                },
+                {
+                    "id": "H>",
+                    "content": "169"
+                }
+            ]
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-02-28T01:39:27.947Z",
+    "updatedAt": "2026-02-28T08:45:46.788Z",
+    "__v": 0
+}
+
+{
+    "_id": "69a1ca1b122c65b6a4fb498b",
+    "title": "[Sách Đề]-Tư Duy Đọc Hiểu-Đề 17",
+    "numberOfQuestions": 20,
+    "time": 30,
+    "answer": {
+        "c6eaf492-107b-4488-b4b6-c97b13f15403": "X",
+        "Câu 1": [
+            "c2",
+            "c3",
+            "c4"
+        ],
+        "Câu 2": "A",
+        "Câu 3": [
+            {
+                "slot1": "E>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "F>"
+            },
+            {
+                "slot4": "G>"
+            }
+        ],
+        "Câu 4": "B",
+        "Câu 5": [
+            "giải pháp"
+        ],
+        "Câu 6": "B",
+        "Câu 7": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "D>"
+            },
+            {
+                "slot3": "F>"
+            },
+            {
+                "slot4": "B>"
+            }
+        ],
+        "Câu 8": "B",
+        "Câu 9": [
+            "c3",
+            "c4"
+        ],
+        "Câu 10": [
+            "chính sách"
+        ],
+        "565781e7-3d58-435c-a9ad-1c9d81749457": "X",
+        "Câu 11": "A",
+        "Câu 12": [
+            "thứ nhất"
+        ],
+        "Câu 13": "A",
+        "Câu 14": [
+            {
+                "slot1": "F>"
+            },
+            {
+                "slot2": "G>"
+            },
+            {
+                "slot3": "A>"
+            },
+            {
+                "slot4": "E>"
+            }
+        ],
+        "Câu 15": [
+            "c2",
+            "c3"
+        ],
+        "Câu 16": [
+            "tản cư"
+        ],
+        "Câu 17": "A",
+        "Câu 18": "B",
+        "Câu 19": [
+            {
+                "slot1": "E>"
+            },
+            {
+                "slot2": "C>"
+            },
+            {
+                "slot3": "A>"
+            }
+        ],
+        "Câu 20": [
+            "c1",
+            "c2",
+            "c4"
+        ]
+    },
+    "startTime": "2026-01-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "c6eaf492-107b-4488-b4b6-c97b13f15403",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>DỮ LIỆU SỐ L&Agrave; T&Agrave;I NGUY&Ecirc;N ĐỂ X&Acirc;Y DỰNG TH&Agrave;NH PHỐ TH&Ocirc;NG MINH</strong></div>\n<strong>[0]</strong> Dữ liệu l&agrave; tải sản c&ocirc;ng của to&agrave;n d&acirc;n do vậy phải được sử dụng c&ocirc;ng khai, sử dụng chung trong cả nước v&agrave; như vậy việc hướng đến th&agrave;nh phố th&ocirc;ng minh mới thực sự bền vững.<br />\n<strong>[1]</strong> <strong><em>Cơ sở dữ liệu l&agrave; vấn đề rất quan trọng</em></strong><br />\nTrong khu&ocirc;n khổ Hội nghị Th&agrave;nh phố th&ocirc;ng minh Việt Nam - Ch&acirc;u &Aacute; 2023, s&aacute;ng 29/11 đ&atilde; diễn ra cuộc tọa đ&agrave;m với chủ đề &quot;Khai th&aacute;c dữ liệu - x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh ph&aacute;t triển bền vững&quot;. Tại tọa đ&agrave;m, c&aacute;c chuy&ecirc;n gia đ&atilde; b&agrave;n giải ph&aacute;p để khai th&aacute;c tối đa tiềm năng của dữ liệu số để x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh.<br />\nPh&aacute;t biểu tại tọa đ&agrave;m, Ph&oacute; Chủ tịch TP. H&agrave; Nội H&agrave; Minh Hải cho biết, th&agrave;nh phố x&aacute;c định chuyển đổi số l&agrave; kh&acirc;u rất quan trọng, mang t&iacute;nh đột ph&aacute;, th&ocirc;ng minh v&agrave; hiệu quả.<br />\n<strong>[2]</strong> Trong qu&aacute; tr&igrave;nh triển khai hội nghị, TP. H&agrave; Nội thống nhất rất cao chủ đề &ldquo;Khai th&aacute;c dữ liệu - x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh ph&aacute;t triển bền vững&rdquo; bởi tất cả mọi vấn đề đều xoay quanh dữ liệu số, l&agrave; nguồn t&agrave;i nguy&ecirc;n mới quyết định những vấn đề li&ecirc;n quan đến chuyển đổi số. Hơn nữa, việc x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh, ph&aacute;t triển Thủ đ&ocirc; cũng mục ti&ecirc;u xuy&ecirc;n suốt l&agrave; để lấy người d&acirc;n l&agrave;m trung t&acirc;m. Do đ&oacute; để c&oacute; sản phẩm chuyển đổi số ph&aacute;t triển kinh tế th&igrave; đời sống người d&acirc;n phải được n&acirc;ng cao cả về chất lượng v&agrave; tinh thần.<br />\n<strong>[3]</strong> Theo &ocirc;ng Nguyễn Nhật Quang - Viện trưởng Viện Khoa học C&ocirc;ng nghệ VINASA, yếu tố quan trọng để tạo n&ecirc;n đ&ocirc; thị th&ocirc;ng minh l&agrave; phải quan t&acirc;m đến đ&ocirc; thị xanh v&agrave; đ&ocirc; thị số. Trong đ&oacute;, chuyển đổi số đ&ocirc; thị kh&ocirc;ng chỉ l&agrave; ứng dụng c&ocirc;ng nghệ th&ocirc;ng tin trong c&aacute;c b&agrave;i to&aacute;n đ&ocirc; thị m&agrave; l&agrave; qu&aacute; tr&igrave;nh chuyển đổi của c&aacute;c m&ocirc;i trường nh&acirc;n tạo v&agrave; x&atilde; hội để th&iacute;ch ứng với m&ocirc;i trường số.<br />\nKhi H&agrave; Nội triển khai nhiệm vụ n&agrave;y, to&agrave;n bộ về mặt chủ trương đ&atilde; được nhận thức r&otilde;. Trong đ&oacute; nhấn mạnh về tầm quan trọng của chuyển đổi số, sự cần thiết x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh, c&aacute;c đơn vị triển khai rất quyết liệt&hellip;<br />\n<strong>[4]</strong> &ldquo;Th&agrave;nh phố x&aacute;c định cơ sở dữ liệu l&agrave; vấn đề rất quan trọng, H&agrave; Nội đ&atilde; ban h&agrave;nh c&aacute;c danh mục, kế hoạch dữ liệu v&agrave; đang giao c&aacute;c đơn vị triển khai nội dung n&agrave;y. Qu&aacute; tr&igrave;nh triển khai đến giai đoạn n&agrave;y vẫn c&ograve;n một số kh&oacute; khăn bất cập li&ecirc;n quan đến thu thập v&agrave; chia sẻ dữ liệu&rdquo; - &ocirc;ng H&agrave; Minh Hải n&oacute;i.<br />\n&Ocirc;ng H&agrave; Minh Hải cũng cho biết th&ecirc;m, từng bước thực hiện th&agrave;nh phố th&ocirc;ng minh, H&agrave; Nội đ&atilde; giao cho Sở Th&ocirc;ng tin v&agrave; Truyền th&ocirc;ng x&acirc;y dựng đề &aacute;n để lựa chọn m&ocirc; h&igrave;nh th&ocirc;ng minh nhất, hiệu quả nhất v&agrave; mọi kết nối kh&ocirc;ng chờ&hellip; Th&agrave;nh phố đ&atilde; lựa chọn kh&acirc;u quy hoạch v&agrave; yếu tố th&ocirc;ng minh l&agrave; nguy&ecirc;n tắc. Trong Quy hoạch Thủ đ&ocirc;, mọi lĩnh vực phải thể hiện được sự chuyển đổi số v&agrave; thẩm thấu văn h&oacute;a con người của H&agrave; Nội.<br />\n<strong>[5] <em>H&agrave; Nội l&agrave; h&igrave;nh mẫu trong x&acirc;y dựng kho dữ liệu d&ugrave;ng chung</em></strong><br />\nTại cuộc tọa đ&agrave;m, b&agrave;n về giải ph&aacute;p để khai th&aacute;c tối đa tiềm năng của dữ liệu số, c&aacute;c chuy&ecirc;n gia cũng cho rằng, trung ương n&ecirc;n đưa ra chủ trương chung v&agrave; c&aacute;c địa phương sẽ l&agrave; đầu mối triển khai thực hiện; c&aacute;c địa phương cần kết nối điều phối t&iacute;ch cực với nhau&hellip;<br />\n<strong>[6]</strong> &Ocirc;ng Nguyễn Nhật Quang - Th&agrave;nh vi&ecirc;n Hội đồng s&aacute;ng lập VINASA - Viện trưởng Viện Khoa học C&ocirc;ng nghệ VINASA cho biết, việc khai th&aacute;c dữ liệu, x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh vẫn c&ograve;n nhiều th&aacute;ch thức. Hiện nay, kiến tr&uacute;c dữ liệu mỗi địa phương l&agrave; kh&aacute;c nhau, đ&acirc;y cũng l&agrave; th&aacute;ch thức khi sau n&agrave;y thực hiện dữ liệu chung quốc gia. &ldquo;Ch&uacute;ng ta hướng đến đ&ocirc; thị th&ocirc;ng minh nhưng việc trao đổi dữ liệu với nhau lại kh&ocirc;ng được. Ch&uacute;ng ta coi dữ liệu l&agrave; t&agrave;i sản nhưng ch&uacute;ng ta chưa c&oacute; &yacute; thức để giữ t&agrave;i sản đ&oacute;&rdquo; - &ocirc;ng Quang b&agrave;y tỏ.<br />\nTr&ecirc;n cơ sở đ&oacute;, &ocirc;ng Nguyễn Nhật Quang cho rằng, dữ liệu l&agrave; tải sản c&ocirc;ng của to&agrave;n d&acirc;n do vậy phải được sử dụng c&ocirc;ng khai, sử dụng chung trong cả nước, c&oacute; như vậy việc hướng đến th&agrave;nh phố th&ocirc;ng minh mới thực sự bền vững.<br />\n<strong>[7]</strong> &Ocirc;ng Nguyễn C&ocirc;ng Thị - Gi&aacute;m đốc khối Giải ph&aacute;p ch&iacute;nh quyền điện tử, Tập đo&agrave;n VNPT đề xuất, cần x&acirc;y dựng m&ocirc; h&igrave;nh tham chiếu dữ liệu chuẩn để định hướng chiến lược ph&aacute;t triển dữ liệu phục vụ ph&aacute;t triển kinh tế số v&agrave; đảm bảo thống nhất từ trung ương xuống địa phương; x&acirc;y dựng nền tảng ph&acirc;n t&iacute;ch dữ liệu lớn phục vụ dữ liệu v&agrave; ph&acirc;n t&iacute;ch lượng lớn dữ liệu đ&aacute;p ứng phục vụ chuyển đổi số v&agrave; ph&aacute;t triển kinh tế - x&atilde; hội; ph&aacute;t triển dữ liệu số cần c&oacute; trọng t&acirc;m, trọng điểm; chia sẻ dữ liệu v&agrave; x&acirc;y dựng cổng dữ liệu mở&hellip;<br />\n<strong>[8]</strong> Đặc biệt, tại H&agrave; Nội, l&agrave; một trong những địa phương t&iacute;ch cực triển khai x&acirc;y dựng c&aacute;c cơ sở dữ liệu quan trọng. Hiện nay, dữ liệu từ c&aacute;c nền tảng số v&agrave; ứng dụng chuy&ecirc;n ng&agrave;nh tr&ecirc;n địa b&agrave;n th&agrave;nh phố đang dần h&igrave;nh th&agrave;nh v&agrave; được ưu ti&ecirc;n ph&aacute;t triển.<br />\n&quot;T&ocirc;i xin đề xuất, TP. H&agrave; Nội tập trung x&acirc;y dựng như l&agrave; m&ocirc; h&igrave;nh mẫu điển h&igrave;nh trong x&acirc;y dựng kho dữ liệu d&ugrave;ng chung v&agrave; nền tảng tổng hợp, ph&acirc;n t&iacute;ch xử l&yacute; dữ liệu. C&aacute;c bộ, ng&agrave;nh th&iacute; điểm m&ocirc; h&igrave;nh kết nối, chia sẻ dữ liệu cho th&agrave;nh phố H&agrave; Nội để l&agrave;m điểm v&agrave; nh&acirc;n rộng cho c&aacute;c địa phương&rdquo; - &ocirc;ng Nguyễn C&ocirc;ng Thị nhấn mạnh.<br />\n<strong>[9]</strong> Tại Việt Nam, đ&atilde; c&oacute; rất nhiều ch&iacute;nh s&aacute;ch, văn bản để thực hiện việc x&acirc;y dựng v&agrave; ph&aacute;t triển đ&ocirc; thị th&ocirc;ng minh. Cụ thể, Văn kiện Đại hội Đảng XIII đ&atilde; x&aacute;c định: &ldquo;Ph&aacute;t triển mạnh hạ tầng số, x&acirc;y dựng v&agrave; ph&aacute;t triển đồng bộ hạ tầng dữ liệu quốc gia, v&ugrave;ng, địa phương kết nối đồng bộ, thống nhất, tạo nền tảng ph&aacute;t triển kinh tế số, x&atilde; hội số&rdquo;. Nghị quyết số 06-NQ/TW ng&agrave;y 24/01/2022 của Bộ Ch&iacute;nh trị về Quy hoạch, x&acirc;y dựng, quản l&yacute; v&agrave; ph&aacute;t triển bền vững đ&ocirc; thị Việt Nam đến năm 2030, tầm nh&igrave;n đến năm 2045 cũng đ&atilde; x&aacute;c định quan điểm chỉ đạo &ldquo;Quy hoạch đ&ocirc; thị v&agrave; ph&aacute;t triển kết cấu hạ tầng c&aacute;c đ&ocirc; thị phải đi trước một bước v&agrave; tạo ra nguồn lực chủ yếu cho ph&aacute;t triển đ&ocirc; thị&rdquo;.\n\n<div style=\"text-align: right;\"><strong><em>(Diệu Hoa, Dữ liệu số l&agrave; t&agrave;i nguy&ecirc;n để x&acirc;y dựng th&agrave;nh phố th&ocirc;ng minh, thoibaotaichinhvietnam.vn, 30/11/2023)</em></strong></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 - 10:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "(Chọn nhiều đáp án) Tại sao tác giả đề cập đến việc chia sẻ dữ liệu trong quá trình xây dựng thành phố thông minh?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c3",
+                "c4"
+            ],
+            "explanation": "<br/>Từ khóa chính là “<strong>chia sẻ dữ liệu</strong>”.<br/>- A <strong>sai </strong>- nội dung không được nhắc đến trong bài.<br/>- B <strong>đúng</strong> - căn cứ đoạn [0]: “Dữ liệu là tải sản công của toàn dân do vậy phải được sử dụng công khai, sử dụng chung trong cả nước”.<br/>- C <strong>đúng</strong> - căn cứ đoạn [6]: “Vì thành phố có kiến trúc dữ liệu là khác nhau, đây cũng là thách thức khi sau này thực hiện dữ liệu chung quốc gia.”<br/>- D <strong>đúng</strong> - căn cứ đoạn [8]: “Các bộ, ngành thí điểm mô hình kết nối, chia sẻ dữ liệu cho thành phố Hà Nội để làm điểm và nhân rộng cho các địa phương”<br/>=> Đáp án cần chọn là B, C, D.",
+            "contentC1": "Để làm căn cứ thay đổi các chính sách, luật pháp.",
+            "contentC2": "Để giữ tài sản công khai và sử dụng chung trong cả nước.",
+            "contentC3": "Nêu lên thách thức với sự khác nhau trong kiến trúc dữ liệu các địa phương.",
+            "contentC4": "Để xây dựng mô hình tham chiếu dữ liệu chuẩn."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Hoàn thành câu hỏi bằng cách chọn đáp án Đúng hoặc Sai.<br/>Việc chuyển đổi số của thành phố Hà Nội không chỉ là ứng dụng công nghệ thông tin trong các bài toán đô thị mà là quá trình chuyển đổi của các môi trường nhân tạo và xã hội.<br/><strong><em>Đúng hay sai?</em></strong>",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Căn cứ nội dung đoạn [3], chuyển đổi số đô thị không chỉ là ứng dụng công nghệ thông tin mà còn là quá trình chuyển đổi của các môi trường nhân tạo và xã hội để thích ứng với môi trường số.<br/>=> Thông tin <strong>Đúng</strong>.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Từ thông tin của bài đọc, hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí.<br/>Bài viết <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-1\">____DRAG_DROP_1____</span> vào tầm quan trọng của việc chia sẻ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-2\">____DRAG_DROP_2____</span> và chuyển đổi số trong xây dựng thành phố thông minh, đồng thời làm nổi bật <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-3\">____DRAG_DROP_3____</span> của TP. Hà Nội trong việc đối mặt với thách thức đa dạng của kiến trúc dữ liệu giữa các địa phương, tạo ra một hướng đi hứa hẹn đối với phát triển <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-4\">____DRAG_DROP_4____</span> và hiệu quả của đô thị trong tương lai.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "E>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "F>"
+                },
+                {
+                    "slot4": "G>"
+                }
+            ],
+            "explanation": "<br/>- [Vị trí thả 1]: <strong><em>nhấn mạnh</em></strong> -> làm cho ý nghĩa trở nên rõ ràng và quan trọng hơn -> tầm quan trọng của xây dựng thành phố thông minh.<br/>- [Vị trí thả 2]: <strong><em>dữ liệu</em></strong> -> tập hợp các thông tin, sự kiện được thu thập xử lý ->  “chia sẻ dữ liệu” phù hợp với vế sau “chuyển đổi số”.<br/>- [Vị trí thả 3]: <strong><em>nỗ lực</em></strong> -> sự cố gắng, đồng lòng, liên quan đến sự cam kết và kiên trì -> TP. Hà Nội cần vượt qua thách thức.<br/>- [Vị trí thả 4]: <strong><em>bền vững</em></strong> -> khả năng duy trì và phát triển một hệ thống, không gây tổn hại đến thế hệ tương lai -> phát triển bền vững là mục tiêu của TP. Hà Nội.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "mã hóa"
+                },
+                {
+                    "id": "B>",
+                    "content": "kí hiệu"
+                },
+                {
+                    "id": "C>",
+                    "content": "dữ liệu"
+                },
+                {
+                    "id": "D>",
+                    "content": "giải thích"
+                },
+                {
+                    "id": "E>",
+                    "content": "nhấn mạnh"
+                },
+                {
+                    "id": "F>",
+                    "content": "nỗ lực"
+                },
+                {
+                    "id": "G>",
+                    "content": "bền vững"
+                }
+            ]
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Tại sao việc chuyển đổi số của thành phố Hà Nội được coi là khâu quan trọng và mang tính đột phá? Chọn đáp án đúng nhất:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Đoạn [2]: “việc xây dựng thành phố thông minh, phát triển Thủ đô cũng mục tiêu xuyên suốt là để lấy người dân làm trung tâm. Do đó để có sản phẩm chuyển đổi số phát triển kinh tế thì đời sống người dân phải được nâng cao cả về chất lượng và tinh thần”. Đây chính là lý do gắn chuyển đổi số với tính đột phá và quan trọng.<br/>=> Đáp án cần chọn là B.<br/>A – Đoạn [4] có nhắc đến “quá trình triển khai đến giai đoạn này vẫn còn một số khó khăn bất cập liên quan đến thu thập và chia sẻ dữ liệu”, nhưng đó chỉ là một trở ngại kỹ thuật chứ không phải là lý do mà thành phố Hà Nội coi chuyển đổi số là “khâu rất quan trọng, mang tính đột phá” như phát biểu của ông Hà Minh Hải trong đoạn [1].<br/>C – Đáp án này sai vì toàn bộ văn bản không hề đề cập đến mục tiêu “theo kịp các nước phát triển trong khu vực”, mà chỉ tập trung vào lợi ích nội tại cho Hà Nội và Việt Nam khi khai thác dữ liệu để xây dựng thành phố thông minh.<br/>D – Đáp án này sai vì “xây dựng thành phố thông minh phát triển bền vững” là mục tiêu tổng thể của hội nghị (đoạn [1], [2]), chứ không phải là lý do cụ thể khiến chuyển đổi số được coi là “khâu rất quan trọng, mang tính đột phá”. Lý do trực tiếp đã được xác định ở đoạn [2] là nâng cao đời sống người dân.",
+            "contentAnswerA": "Để khắc phục khó khăn liên quan đến thu thập và chia sẻ dữ liệu.",
+            "contentAnswerB": "Để nâng cao chất lượng và tinh thần đời sống người dân.",
+            "contentAnswerC": "Để theo kịp các nước phát triển trong khu vực.",
+            "contentAnswerD": "Để xây dựng thành phố thông minh phát triển bền vững."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Điền một từ không quá hai tiếng có trong bài đọc vào chỗ trống:<br/>Việc chia sẻ thông tin và xây dựng cơ sở dữ liệu dùng chung không chỉ giúp tối ưu hóa quá trình ra quyết định mà còn tạo ra cơ hội cho các nhóm nghiên cứu và doanh nghiệp tận dụng dữ liệu một cách hiệu quả để tìm kiếm <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span> cho các vấn đề phức tạp và đưa ra dự đoán chính xác.",
+            "type": "TLN",
+            "correctAnswer": [
+                "giải pháp"
+            ],
+            "explanation": "<br/>Theo đoạn [7], ông Nguyễn Công Thị nhấn mạnh: “cần xây dựng mô hình tham chiếu dữ liệu chuẩn để định hướng chiến lược phát triển dữ liệu phục vụ phát triển kinh tế số…; xây dựng nền tảng phân tích dữ liệu lớn phục vụ dữ liệu và phân tích lượng lớn dữ liệu đáp ứng phục vụ chuyển đổi số và phát triển kinh tế - xã hội”. Việc này cho thấy mục tiêu là tận dụng dữ liệu để <strong>tìm kiếm giải pháp</strong> cho các vấn đề phức tạp."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Hoàn thành câu hỏi bằng cách chọn đáp án Đúng hoặc Sai.<br/>Tại cuộc tọa đàm, Phó Chủ tịch TP. Hà Nội Hà Minh Hải không đề cập đến những khó khăn trong việc triển khai chuyển đổi số của thành phố.<br/><strong><em>Đúng hay sai?</em></strong>",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Từ khóa chính là “<strong>không đề cập</strong>”. Căn cứ nội dung đoạn [4], ông Hà Minh Hải cho biết, thành phố xác định cơ sở dữ liệu là vấn đề rất quan trọng và đã gặp một số khó khăn bất cập liên quan đến thu thập và chia sẻ dữ liệu.<br/>=> Thông tin<strong> Sai</strong>.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Từ thông tin của bài đọc, hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí.<br/>Trong việc phát triển đô thị, bền vững không chỉ là việc <span class=\"drag-drop-blank\" data-drop-id=\"Câu 7-1\">____DRAG_DROP_1____</span> công nghệ, mà còn là việc xây dựng cộng đồng linh hoạt và đảm bảo sự <span class=\"drag-drop-blank\" data-drop-id=\"Câu 7-2\">____DRAG_DROP_2____</span> của cả cộng đồng trong quá trình quyết định. Bằng cách tận dụng dữ liệu thông minh, thành phố có thể phát triển các giải pháp <span class=\"drag-drop-blank\" data-drop-id=\"Câu 7-3\">____DRAG_DROP_3____</span> cho việc quản lý năng lượng, giao thông, và đồng thời tạo ra môi trường sống <span class=\"drag-drop-blank\" data-drop-id=\"Câu 7-4\">____DRAG_DROP_4____</span> và tương tác cho cư dân.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "D>"
+                },
+                {
+                    "slot3": "F>"
+                },
+                {
+                    "slot4": "B>"
+                }
+            ],
+            "explanation": "<br/><strong>- </strong>[Vị trí thả 1]:<strong><em> tích hợp</em></strong> -> liên kết, hợp nhất công nghệ thông tin liên quan đến các ứng dụng, hệ thống, cơ sở dữ liệu trong phát triển đô thị.<br/><strong>- </strong>[Vị trí thả 2]: <strong><em>tham gia</em></strong> -> đảm bảo sự có mặt, minh bạch, ổn định của toàn thể cộng đồng dân cư.<br/><strong>- </strong>[Vị trí thả 3]: <strong><em>sáng tạo</em></strong> -> những giải pháp mới, độc đáo, hiệu quả để giải quyết các vấn đề của phát triển đô thị được đề cập ở vế sau câu.<br/><strong>- </strong>[Vị trí thả 4]: <strong><em>tích cực</em></strong> -> môi trường sống tích cực là một không gian cộng đồng có đủ những điều kiện thuật lợi để người dân yên tâm phát triển trên cả môi trường vật chất và yếu tố tinh thần, xã hội -> phát triển bền vững.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "linh hoạt"
+                },
+                {
+                    "id": "B>",
+                    "content": "tích cực"
+                },
+                {
+                    "id": "C>",
+                    "content": "tích hợp"
+                },
+                {
+                    "id": "D>",
+                    "content": "tham gia"
+                },
+                {
+                    "id": "E>",
+                    "content": "vui vẻ"
+                },
+                {
+                    "id": "F>",
+                    "content": "sáng tạo"
+                },
+                {
+                    "id": "G>",
+                    "content": "phức tạp"
+                }
+            ]
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Nội dung chính của đoạn [6] là gì?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nội dung chính của đoạn [6] là B. Việc khai thác dữ liệu và xây dựng thành phố thông minh vẫn đang đối mặt với nhiều khó khăn, vì đoạn này viết rõ: “việc khai thác dữ liệu, xây dựng thành phố thông minh vẫn còn nhiều thách thức. Hiện nay, kiến trúc dữ liệu mỗi địa phương là khác nhau, đây cũng là thách thức khi sau này thực hiện dữ liệu chung quốc gia.” Điều này cho thấy trọng tâm là những khó khăn, thách thức, chứ không phải quan điểm tổng quát (D) hay tình hình riêng Hà Nội (C). A chỉ nêu người phát biểu, không phản ánh ý chính",
+            "contentAnswerA": "Ông Nguyễn Nhật Quang chia sẻ về thách thức trong việc khai thác dữ liệu và xây dựng thành phố thông minh.",
+            "contentAnswerB": "Việc khai thác dữ liệu và xây dựng thành phố thông minh vẫn đang đối mặt với nhiều khó khăn.",
+            "contentAnswerC": "Thành phố Hà Nội là một trong những địa phương tích cực triển khai xây dựng cơ sở dữ liệu quan trọng",
+            "contentAnswerD": "Đô thị thông minh đòi hỏi sự quan tâm đặc biệt đến cả đô thị xanh và đô thị số."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Trong ngữ cảnh của bài văn, việc Tổ chức Thành phố Hà Nội được đề cử làm mô hình mẫu điển hình là vì điều gì?",
+            "type": "MA",
+            "correctAnswer": [
+                "c3",
+                "c4"
+            ],
+            "explanation": "<br/>- A và B <strong>s</strong>ai - căn cứ nội dung đoạn [8]: “TP. Hà Nội tập trung xây dựng như là mô hình mẫu điển hình trong xây dựng kho dữ liệu dùng chung và nền tảng tổng hợp, phân tích xử lý dữ liệu” -> kiến trúc dữ liệu và hạ tầng số của TP. Hà Nội <strong>chưa</strong> hoàn thiện, <strong>đang</strong> được tập trung xây dựng.<br/>- C đúng - căn cứ nội dung đoạn [8]: “TP. Hà Nội tập trung xây dựng như là mô hình mẫu điển hình trong xây dựng kho dữ liệu dùng chung” -> tập trung xây dựng = ưu tiên phát triển.<br/>- D đúng, căn cứ đoạn [8]: “Các bộ, ngành thí điểm mô hình kết nối, chia sẻ dữ liệu cho thành phố Hà Nội để làm điểm và nhân rộng cho các địa phương.”=> Đáp án cần chọn là C,D.",
+            "contentC1": "Vì thành phố đã có kiến trúc dữ liệu đồng bộ.",
+            "contentC2": "Vì thành phố hoàn tất phát triển hạ tầng số.",
+            "contentC3": "Vì thành phố đang ưu tiên quá trình chuyển đổi số.",
+            "contentC4": "Vì thành phố có mô hình kết nối và chia sẻ dữ liệu hiệu quả."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Điền một từ không quá hai tiếng có trong bài văn vào chỗ trống.<br/>Nhà nước ban hành <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span> mới đề xuất tạo lập một chương trình hỗ trợ sáng tạo, khuyến khích mọi người tham gia vào quá trình tạo ra các giải pháp mới cho cộng đồng.",
+            "type": "TLN",
+            "correctAnswer": [
+                "chính sách"
+            ],
+            "explanation": "<br/>Chính sách là một tập hợp các nguyên tắc, quy tắc, và hướng dẫn được thiết lập để hướng dẫn và quản lý hành vi, quyết định, và các vấn đề khác trong một tổ chức, quốc gia, hay cộng đồng. Chính sách thường được nhà nước ban hành để định hướng tiếp cận các vấn đề cụ thể, trên nhiều lĩnh vực.<br/>=> Từ cần điền là<strong><em> chính sách</em></strong>."
+        },
+        {
+            "question": "565781e7-3d58-435c-a9ad-1c9d81749457",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>ĐẤT RỪNG PHƯƠNG NAM</strong></div>\n<strong>[0]</strong> C&oacute; lẽ từ h&ocirc;m bước l&ecirc;n x&oacute;m chợ n&agrave;y, m&igrave;nh đ&atilde; bắt đầu cuộc sống lưu lạc rồi chăng. Những đ&ecirc;m giật m&igrave;nh thức giấc nằm nghe tiếng gi&oacute; r&iacute;t th&ecirc; lương từ c&aacute;c c&aacute;nh đồng xa m&ocirc;ng quạnh v&agrave; lắng nghe tiếng nước chảy &agrave;o &agrave;o dưới ch&acirc;n cầu nước bắc ra con k&ecirc;nh thẳng tắp chạy d&agrave;i v&ocirc; tận trước ng&ocirc;i chợ n&agrave;y, t&ocirc;i vẫn thường vơ vẩn nghĩ như vậy. T&ocirc;i lạc tới x&oacute;m chợ n&agrave;y, t&iacute;nh ra đ&atilde; c&oacute; hơn nửa th&aacute;ng.<br />\n<strong>[1]</strong> Một buổi tối, đo&agrave;n thuyền vận tải qu&acirc;n lương của Ủy ban kh&aacute;ng chiến Nam Bộ đỗ lại đ&acirc;y. Anh học sinh trường c&ocirc;le người trong ban tiếp tế đ&atilde; cho t&ocirc;i theo thuyền từ Hậu Giang đến đ&acirc;y bảo t&ocirc;i: &quot;Chỉ gh&eacute; lại độ nửa giờ cho c&aacute;c ch&uacute; l&ecirc;n chợ mua thức ăn. C&oacute; muốn l&ecirc;n bờ kh&ocirc;ng?<br />\nT&ocirc;i lắc đầu. Anh b&egrave;n vỗ vai t&ocirc;i cười lớn: &quot;Vậy th&igrave; tốt qu&aacute;, ngồi l&ecirc;n mui ng&oacute; l&ecirc;n bờ chơi cũng được. Tr&ocirc;ng chừng đồ đạc em nh&eacute;!&quot; Anh lần theo c&acirc;y đ&ograve;n d&agrave;i bắc sang một chiếc thuyền kh&aacute;c, v&agrave; lẹ l&agrave;ng như con s&oacute;c, co người tr&egrave;o qua be mấy chiếc tam bản, mấy chiếc xuồng nhỏ của những người đi chợ đậu ken dọc theo bến rồi nhảy ph&oacute;c l&ecirc;n bờ. [...]<br />\n<strong>[2]</strong> Bấy giờ đ&aacute;m h&aacute;t cũng vừa tan. T&ocirc;i sực nhớ ra l&agrave; m&igrave;nh đ&atilde; đi l&acirc;u qu&aacute;. T&ocirc;i liền chạy v&agrave;o qu&aacute;n c&agrave;-ph&ecirc;. Kh&ocirc;ng thấy anh học sinh c&ocirc;le d&acirc;u. T&ocirc;i nhằm hướng đầu ngọn c&acirc;y b&agrave;ng kh&ocirc;, chạy một mạch về. Đo&agrave;n thuyền vận tải qu&acirc;n lương kh&ocirc;ng c&ograve;n chiếc n&agrave;o đậu ở đ&oacute; nữa. T&ocirc;i chạy dọc theo bến chợ một qu&atilde;ng, hi vọng họ vừa rời đi, m&igrave;nh c&ograve;n c&oacute; thể đuổi theo kịp.<br />\n<strong>[3]</strong> Trời tối qu&aacute;. Lửa đ&egrave;n tr&ecirc;n s&ocirc;ng dần dần thưa thớt. Chợ cũng đ&atilde; tan rồi. T&ocirc;i tr&egrave;o l&ecirc;n một đống gạch, đứng ng&oacute;ng theo l&agrave;n nước lấp lo&aacute;ng &aacute;nh sao xu&ocirc;i xu&ocirc;i tr&ecirc;n d&ograve;ng k&ecirc;nh kh&ocirc;ng biết chảy về đ&acirc;u. Một người đ&agrave;n b&agrave; quảy đ&ocirc;i th&ugrave;ng xuống bến lấy nước, đứng lại nh&igrave;n t&ocirc;i hồi l&acirc;u rồi hỏi:<br />\n- C&oacute; phải m&agrave;y ở trong đo&agrave;n thuyền vận tải kh&ocirc;ng?<br />\n- Dạ phải! - T&ocirc;i vội đ&aacute;p, bụng hơi mừng &ndash; Họ đi đ&acirc;u rồi d&igrave;?<br />\n- Trời ơi? M&agrave;y đi đ&acirc;u m&agrave; họ t&igrave;m m&agrave;y khắp cả chợ? Họ đi rồi. Đi từ t&aacute;m ho&aacute;nh n&agrave;o rồi! Nhổ s&agrave;o từ hồi nước mới r&ograve;ng. V&agrave; người đ&agrave;n b&agrave; ch&eacute;p miệng: - Ch&agrave;, chừng như họ được lệnh đi ngay hay sao ấy. Gấp lắm th&igrave; phải!<br />\n- D&igrave; c&oacute; nghe họ n&oacute;i đi đ&acirc;u kh&ocirc;ng - t&ocirc;i hỏi lại.<br />\n- Chuyện qu&acirc;n sự m&agrave;, biết sao lọt! Thế m&agrave;y cũng kh&ocirc;ng biết &agrave;? Họ kh&ocirc;ng n&oacute;i với m&agrave;y &agrave;?<br />\n- Kh&ocirc;ng, d&igrave; ạ!<br />\n- M&agrave;y c&oacute; ba m&aacute;, anh em g&igrave; tr&ecirc;n thuyền kh&ocirc;ng?<br />\n- Kh&ocirc;ng. Ch&aacute;u đi qu&aacute; giang th&ocirc;i.<br />\nNgười đ&agrave;n b&agrave; ch&agrave;nh m&ocirc;i ra d&agrave;i giọng:<br />\n- Thảo n&agrave;o?... Người ta c&oacute; việc của người ta chứ. Ai bảo cứ ham chơi, đi những đ&acirc;u?<br />\nNgười đ&agrave;n b&agrave; kh&ocirc;ng n&oacute;i g&igrave; nữa, lẳng lặng xuống s&ocirc;ng g&aacute;nh nước l&ecirc;n chợ. Tự nhi&ecirc;n t&ocirc;i thấy trong l&ograve;ng m&igrave;nh rưng muốn kh&oacute;c...<br />\n<strong>[4]</strong> Ban ng&agrave;y t&ocirc;i thẩn tha đi dọc theo bến, mong c&oacute; gặp người n&agrave;o quen trong đo&agrave;n thuyền vận tải qu&acirc;n lương trở lại đ&acirc;y kh&ocirc;ng. Ban đ&ecirc;m tối, t&ocirc;i v&agrave;o ngủ trong chợ, chui dưới gầm một thớt b&aacute;n thịt lợn của người Hoa kiều.<br />\nNhững người đ&agrave;n b&agrave; trong chợ gọi t&ocirc;i l&agrave; thằng b&eacute; tản cư. Nghe đ&acirc;u hồi th&aacute;ng trước, chợ n&agrave;y chỉ họp buổi s&aacute;ng. Hơn th&aacute;ng nay, chợ nh&oacute;m suốt ng&agrave;y, c&oacute; đ&ecirc;m m&atilde;i ch&iacute;n mười giờ khuya mới tan. Người tản cư ở c&aacute;c v&ugrave;ng tr&ecirc;n đổ xuống &ugrave;n &ugrave;n như nước. Mặt nước d&ograve;ng k&ecirc;nh kh&ocirc;ng mấy l&uacute;c ngớt tiếng khua động m&aacute;i ch&egrave;o. C&aacute;i chợ con nằm tr&ecirc;n ng&atilde; ba k&ecirc;nh của xứ l&agrave;ng qu&ecirc; hẻo l&aacute;nh n&agrave;y trở n&ecirc;n đ&ocirc;ng vui nhộn nhịp như một trấn nhỏ. Người từ S&agrave;i G&ograve;n chạy xuống tới đ&acirc;y cũng c&oacute;. Người v&ugrave;ng Tiền Giang, Hậu Giang cũng c&oacute;. Nhiều con mụ đ&agrave;n b&agrave; mặc &aacute;o lụa trắng r&ocirc;-d&ecirc; (tiếng ph&aacute;p c&oacute; nghĩa l&agrave; th&ecirc;u), che d&ugrave; đầm, n&uacute;ng na n&uacute;ng n&iacute;nh r&eacute;n bước đi l&ecirc;n chợ, mắt cứ ng&oacute; xuống ch&acirc;n d&eacute;p xăng-đan, sợ b&ugrave;n đất vấy gấu quần. Tiền bạc đựng nứt v&iacute;, nhưng mua g&igrave; cũng ch&ecirc; ỏng ch&ecirc; eo, trả gi&aacute; rẻ mạt. T&ocirc;i chỉ nghe họ than phiền với nhau rằng: C&aacute;nh m&igrave;nh dở qu&aacute;, kh&ocirc;ng chặn nổi T&acirc;y&quot;, rằng &quot;chạy v&agrave;o đ&acirc;y kh&ocirc;ng c&oacute; nước đ&aacute; uống, kh&ocirc;ng c&oacute; nước ngọt tắm&quot;. Thấy t&ocirc;i lảng vảng đến gần chỗ thuyền họ, họ nh&igrave;n ch&ograve;ng chọc v&agrave;o t&ocirc;i, bộ như muốn ăn thịt: &ecirc; đi đi, thằng nhỏ. M&ograve; mẫm toan ăn cắp hả?&quot; T&ocirc;i ức đến muốn kh&oacute;c. C&oacute; ai quen, gặp t&ocirc;i b&acirc;y giờ cũng kh&ocirc;ng nhận ra t&ocirc;i nữa đ&acirc;u. Ngồi b&oacute; gối tr&ecirc;n cầu nh&igrave;n xuống nước, ch&iacute;nh t&ocirc;i cũng kh&oacute; nhận ra m&igrave;nh trong c&aacute;i h&igrave;nh th&ugrave; qu&aacute;i dị n&agrave;y. T&oacute;c t&ocirc;i mọc d&agrave;i gần phủ g&aacute;y, hai quầng mắt h&otilde;m s&acirc;u, cổ gầy nhom như cổ c&ograve; ma. Chiếc &aacute;o v&eacute;t t&ocirc;ng bằng ka ki trắng của anh học sinh c&ocirc;le cho t&ocirc;i, giờ đ&acirc;y đ&atilde; biến th&agrave;nh m&agrave;u ch&aacute;o l&ograve;ng, vạt &aacute;o phủ xuống tận gối, cứ k&ecirc;u loạt xoạt theo mỗi bước đi. C&ograve;n chiếc quần đ&ugrave;i bằng vải len của t&ocirc;i th&igrave; bạc phếch ra, hai ống r&aacute;ch te tua như bị c&aacute; chốt rỉa.<br />\n<strong>[5]</strong> Ai nhờ việc g&igrave;, t&ocirc;i cũng gi&uacute;p. Mấy th&iacute;m b&aacute;n c&aacute; nhờ t&ocirc;i khi&ecirc;ng th&uacute;ng mủng, x&aacute;ch nước cho họ thay nước rộng c&aacute;.<br />\n- Em b&eacute;? V&aacute;c cho qua (tiếng xưng t&ocirc;i th&acirc;n mật của người c&oacute; tuổi) b&oacute; m&iacute;a đi!<br />\n- Em b&eacute;? Đội th&uacute;ng t&ocirc;m l&ecirc;n chợ gi&uacute;p d&igrave; đi.<br />\n- Nhỏ? Nhỏ! Chạy xuống m&eacute; k&ecirc;nh cắm lại c&acirc;y s&agrave;o của d&igrave; sắp tr&ocirc;i kia!<br />\nKẻ cho t&ocirc;i nắm x&ocirc;i, người cho t&ocirc;i g&oacute;i bắp. Kh&ocirc;ng ai biết t&ocirc;i từ đ&acirc;u tr&ocirc;i dạt tới.<br />\nNg&agrave;y n&agrave;o t&ocirc;i cũng tạt qua trước ng&ocirc;i qu&aacute;n rượu một lần. Biết đ&acirc;u b&aacute;c t&agrave;i c&ocirc;ng gi&agrave; h&ocirc;m nọ chẳng qua ngang m&agrave; gh&eacute; lại đ&acirc;y?<br />\n<strong>[6]</strong> Những ng&agrave;y đầu m&ugrave;a mưa năm 1946 cứ &igrave; ạch nặng nề l&ecirc; đi từng bước kh&oacute; khăn như người đ&agrave;n b&agrave; sắp ở cữ cứ trở dạ m&atilde;i m&agrave; vẫn chưa đẻ được. Ở c&aacute;i v&ugrave;ng nước mặn miền t&acirc;y Nam bộ n&agrave;y, người ta mong mưa như bọn trẻ con ch&uacute;ng t&ocirc;i mong mẹ về chợ. Mưa c&oacute; nước ngọt uống, c&oacute; nước cầy bừa, nhưng điều quan trọng nhất trước mắt, l&agrave; mưa c&oacute; thể l&agrave;m chậm bước của địch trong c&aacute;c cuộc tiến c&ocirc;ng, g&acirc;y trở ngại cho ch&uacute;ng tr&ecirc;n c&aacute;c nẻo đường h&agrave;nh qu&acirc;n v&igrave; trơn tuột, s&igrave;nh lầy.<br />\n<strong>[7]</strong> Trời c&agrave;ng sắp mưa th&igrave; c&agrave;ng oi bức kh&oacute; chịu, ban ng&agrave;y mặt trời đổ nắng chang chang, n&oacute;ng như giội lửa. Chỉ khi đ&ecirc;m đến mới c&oacute; đ&ocirc;i ch&uacute;t gi&oacute; lao xao từ v&ugrave;ng vịnh Th&aacute;i Lan thổi tới. Thường thường, đ&ecirc;m n&agrave;o người trong chợ cũng x&aacute;ch chiếu ra ngồi dọc bờ k&ecirc;nh h&oacute;ng m&aacute;t, coi thuyền tản cư v&agrave; thuyền chở Cộng h&ograve;a vệ binh (tổ chức ch&iacute;nh quy của qu&acirc;n đội sau ng&agrave;y nam bộ cướp ch&iacute;nh quyền một trong bốn sư đo&agrave;n d&acirc;n qu&acirc;n c&aacute;ch mạng Nam Bộ) từ mạn tr&ecirc;n trẩy xuống. Qu&aacute;n rượu của d&igrave; Tư B&eacute;o l&agrave; nơi tụ họp của những người thức khuya nhất, c&oacute; khi đến một hai giờ s&aacute;ng h&atilde;y c&ograve;n đỏ đ&egrave;n v&agrave; ran tiếng n&oacute;i cười.\n\n<div style=\"text-align: right;\"><strong><em>(Tr&iacute;ch Chương 1, Đất rừng phương Nam - Đo&agrave;n Giỏi, NXB Văn học, 2020)</em></strong></div>\n",
+            "title": " Dựa vào thông tin dưới đây và trả lời các câu hỏi sau từ câu 11 - 20:",
+            "range": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Nội dung chính của đoạn trích trên là gì?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Toàn bộ đoạn [0]–[7] đều xoay quanh việc nhân vật “tôi” lạc mất đoàn thuyền vận tải quân lương và phải bắt đầu <strong>cuộc sống bơ vơ, tạm bợ</strong>: “Có lẽ từ hôm bước lên xóm chợ này, mình đã bắt đầu cuộc sống lưu lạc rồi chăng” ([0]); “Đoàn thuyền vận tải quân lương không còn chiếc nào đậu ở đó nữa” ([2]); “Ban đêm tối, tôi vào ngủ trong chợ, chui dưới gầm một thớt bán thịt lợn…” ([4]); “Ai nhờ việc gì, tôi cũng giúp” ([5]). Đoạn cuối [6]–[7] mở rộng ra bối cảnh chiến tranh và đời sống người dân, nhưng vẫn đặt trong trải nghiệm của “tôi” khi lưu lạc.<br/>=> Đáp án cần chọn là A<br/><strong>B</strong> Chỉ nêu một sự kiện (đoàn thuyền đến rồi đi) – đây là khởi đầu cho cuộc lưu lạc, nhưng chưa phải nội dung chính.<br/><strong>C</strong> Nói về mối quan hệ với dân chợ, nhưng đó chỉ là một phần nhỏ ([4], [5]), không phải toàn văn bản.<br/><strong>D</strong> Thiên về bối cảnh thiên nhiên và thời tiết ([6], [7]), nhưng không phải trọng tâm cốt truyện.",
+            "contentAnswerA": "Cuộc sống lưu lạc của nhân vật chính ở xóm chợ mới.",
+            "contentAnswerB": "Sự kiện đoàn thuyền vận tải quân lương đến và rời khỏi xóm chợ.",
+            "contentAnswerC": "Mối quan hệ giữa nhân vật chính và người dân xóm chợ.",
+            "contentAnswerD": "Tình hình thời tiết và môi trường xung quanh xóm chợ."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Truyện được kể theo ngôi thứ nhất hay thứ ba?<br/>Ngôi kể <span class=\"fill-blank\" data-blank-id=\"Câu 12-1\" data-blank-length=\"10\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "thứ nhất"
+            ],
+            "explanation": "<br/>Chuyện được kể theo ngôi thứ nhất, người kể chuyện xưng \"mình,\" \"tôi\" để diễn đạt trực tiếp trải nghiệm và suy nghĩ của chính mình. Điều này tạo ra sự gần gũi và trực tiếp, giúp độc giả cảm nhận được cảm xúc và trạng thái tâm lý của nhân vật chính.<br/>=> Từ cần điền là <strong><em>thứ nhất</em></strong>."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Hoàn thành câu hỏi bằng cách chọn đáp án Đúng hoặc Sai.<br/>Nhân vật chính không có gia đình trên thuyền vận tải quân lương.<br/><strong><em>Đúng hay sai?</em></strong>",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Căn cứ nội dung đoạn [3], khi được hỏi về gia đình trên thuyền, nhân vật chính trả lời, \"Không. Cháu đi quá giang thôi.\" Điều này xác nhận rằng nhân vật chính không có gia đình trên thuyền.<br/>=> Thông tin <strong>Đúng</strong>.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Từ thông tin của bài đọc, hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí.<br/>Trong bức tranh về đời sống <span class=\"drag-drop-blank\" data-drop-id=\"Câu 14-1\">____DRAG_DROP_1____</span>, người kể chia sẻ về hành trình của mình tới xóm chợ mới. Đêm đến, những âm thanh của gió rít và nước chảy dưới cầu gợi sự lạc lõng, khiến nhân vật vừa tò mò và vừa <span class=\"drag-drop-blank\" data-drop-id=\"Câu 14-2\">____DRAG_DROP_2____</span>. Hành trình của anh bắt đầu từ khi đoàn thuyền vận tải quân lương dừng chân tại xóm chợ, và anh trở thành một phần trong cuộc sống <span class=\"drag-drop-blank\" data-drop-id=\"Câu 14-3\">____DRAG_DROP_3____</span> của những người tản cư. Ở vùng đất xa lạ, cái ăn cái mặc hàng ngày cũng là vấn đề lớn với nhân vật chính, nhưng anh vẫn giữ tinh thần lạc quan và luôn sẵn sàng giúp đỡ mọi người trong <span class=\"drag-drop-blank\" data-drop-id=\"Câu 14-4\">____DRAG_DROP_4____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "F>"
+                },
+                {
+                    "slot2": "G>"
+                },
+                {
+                    "slot3": "A>"
+                },
+                {
+                    "slot4": "E>"
+                }
+            ],
+            "explanation": "<br/>- [Vị trí thả 1]: <strong><em>lưu lạc</em></strong> -> không có nơi định cư, khó khăn trong việc tái lập cuộc sống mới -> Căn cứ nội dung toàn bài, hành trình tới xóm chợ mới của nhân vật chính là đời sống lưu lạc tới vùng đất khác.<br/>- [Vị trí thả 2]: <strong><em>cô đơn</em></strong> -> phù hợp với logic câu, vế trước “lạc lõng” khiến nhân vật “cô đơn”.<br/>- [Vị trí thả 3]: <strong><em>tạm bợ</em></strong> -> phù hợp với logic câu, vế sau “người tản cư” có đặc điểm là “cuộc sống tạm bợ”.<br/>- [Vị trí thả 4]: <strong><em>cộng đồng</em></strong> -> phù hợp với ngữ cảnh câu văn.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "tạm bợ"
+                },
+                {
+                    "id": "B>",
+                    "content": "hàng ngày"
+                },
+                {
+                    "id": "C>",
+                    "content": "tìm kiếm"
+                },
+                {
+                    "id": "D>",
+                    "content": "sôi động"
+                },
+                {
+                    "id": "E>",
+                    "content": "cộng đồng"
+                },
+                {
+                    "id": "F>",
+                    "content": "lưu lạc"
+                },
+                {
+                    "id": "G>",
+                    "content": "cô đơn"
+                }
+            ]
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "(Chọn nhiều đáp án) Tại sao người đàn bà hỏi nhân vật về gia đình trên thuyền?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/>B, Trong đoạn [3], người đàn bà hỏi: “Mày có ba má, anh em gì trên thuyền không?” Điều này cho thấy bà muốn biết cậu bé có người thân trong đoàn thuyền hay chỉ đi quá giang.<br/>C, Khi biết cậu “không” có người thân, bà mới chép miệng: “Thảo nào?... Người ta có việc của người ta chứ. Ai bảo cứ ham chơi, đi những đâu?” Nghĩa là bà đánh giá mức độ quan trọng để quan tâm hay giúp đỡ.<br/>=> Đáp án cần chọn là B và C<br/><strong>A</strong> Sai, vì bà không nghi ngờ cậu “có bí mật” gì, mà chỉ hỏi thẳng về gia đình.<br/><strong>D</strong> Sai, vì bà hỏi không phải để quan tâm sâu sắc mà chỉ để xác minh tình huống và lý do cậu bị bỏ lại.",
+            "contentC1": "Để kiểm tra anh ta có bí mật gì không.",
+            "contentC2": "Để biết liệu anh ta có thân thuộc với đoàn thuyền không.",
+            "contentC3": "Để xem xét mức độ cần thiết mà giúp đỡ anh.",
+            "contentC4": "Để thể hiện sự quan tâm đến cuộc sống của anh ta trên thuyền."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Điền một từ không quá hai tiếng có trong bài đọc vào chỗ trống.<br/>Cuộc sống lưu lạc của nhân vật chính ở xóm chợ mới không chỉ là một cuộc <span class=\"fill-blank\" data-blank-id=\"Câu 16-1\" data-blank-length=\"7\">____FILL_BLANK_1____</span> mà còn là cuộc đấu tranh tìm kiếm sự tự do và khám phá những khía cạnh ẩn sau bức màn của xã hội.",
+            "type": "TLN",
+            "correctAnswer": [
+                "tản cư"
+            ],
+            "explanation": "<br/>Căn cứ nội dung toàn bài, tản cư là hành động hoặc trạng thái di chuyển từ nơi cư trú hiện tại đến một nơi mới, thường do những nguyên nhân như chiến tranh buộc người dân phải rời bỏ nơi cư trú truyền thống để tìm kiếm môi trường sống mới hoặc nơi an toàn hơn. Cuộc tản cư trong câu chuyện là một hành trình đầy thách thức và khám phá, nơi nhân vật chính đối mặt với cuộc sống lưu lạc tại xóm chợ mới.<br/>=> Từ cần điền là <strong><em>tản cư</em></strong>."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Tác giả đã sử dụng phương thức nghệ thuật nào để tác phẩm trở nên chân thực, gần gũi với độc giả?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Tác giả đã sử dụng thủ pháp mô tả hình ảnh sống động để tạo nên một không gian và tâm trạng chân thực trong tác phẩm, giúp độc giả hình dung và cảm nhận trải nghiệm của nhân vật một cách rõ ràng và sinh động. Ví dụ về sự chi tiết trong mô tả tâm trạng nhân vật: trong đoạn [1], tác giả sử dụng ngôn ngữ mô tả tình cảm và tâm trạng của nhân vật, ví dụ như \"đêm giật mình,\" \"tiếng gió rít thê lương,\" và \"tiếng nước chảy ào ào,\" để truyền đạt sự cô đơn, bất an và tò mò trong tâm hồn nhân vật.<br/>=> Đáp án cần chọn là A.",
+            "contentAnswerA": "Mô tả chi tiết, sử dụng hình ảnh sống động.",
+            "contentAnswerB": "Tạo hình nhân vật đa chiều.",
+            "contentAnswerC": "Tăng cường sự phức tạp của ngôn ngữ chuyện kể.",
+            "contentAnswerD": "Sử dụng kỹ thuật chơi chữ và tả cảm xúc."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Hoàn thành câu hỏi bằng cách chọn đáp án Đúng hoặc Sai.<br/>Đoàn thuyền vận tải quân lương đã dừng lại ở xóm chợ để mọi người có cơ hội mua thức ăn và nghỉ ngơi.<br/><strong><em>Đúng hay sai?</em></strong>",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Căn cứ nội dung đoạn [1], đoàn thuyền vận tải quân lương chỉ ghé lại xóm chợ để mọi người có thời gian mua thức ăn, <strong>nhưng không </strong>dừng lại để nghỉ ngơi. Anh học sinh cô lê chỉ nói, \"Chỉ ghé lại độ nửa giờ cho các chú lên chợ mua thức ăn.\"<br/>=> Thông tin <strong>Sai</strong>.",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Từ thông tin của bài đọc, hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí.<br/>1, Thái độ của nhân vật khi biết đoàn thuyền quân lương đã đi xa: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-1\">____DRAG_DROP_1____</span>.<br/>2, Thái độ của nhân vật khi đối mặt với những khó khăn ở xóm chợ mới: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-2\">____DRAG_DROP_2____</span>.<br/>3, Tâm trạng nhân vật khi bị nghi ngờ ăn cắp: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 19-3\">____DRAG_DROP_3____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "E>"
+                },
+                {
+                    "slot2": "C>"
+                },
+                {
+                    "slot3": "A>"
+                }
+            ],
+            "explanation": "<br />\n<strong>- </strong>[Vị tr&iacute; thả 1]: <strong><em>thất vọng</em></strong>&nbsp;- căn cứ nội dung đoạn [3]: nh&acirc;n vật tr&agrave;n đầy hi vọng khi người đ&agrave;n b&agrave; nhắc về đo&agrave;n thuyền, nhưng khi biết đ&atilde; bị bỏ lại th&igrave; thất vọng: &ldquo;Tự nhi&ecirc;n t&ocirc;i thấy trong l&ograve;ng m&igrave;nh rưng muốn kh&oacute;c&hellip;&rdquo;<br />\n<strong>- </strong>[Vị tr&iacute; thả 2]: <strong><em>lạc quan</em></strong> - căn cứ nội dung đoạn [5]: &ldquo;Ai nhờ việc g&igrave;, t&ocirc;i cũng gi&uacute;p.&rdquo; &ldquo;Ng&agrave;y n&agrave;o t&ocirc;i cũng tạt qua trước ng&ocirc;i qu&aacute;n rượu một lần. Biết đ&acirc;u b&aacute;c t&agrave;i c&ocirc;ng gi&agrave; h&ocirc;m nọ chẳng qua ngang m&agrave; gh&eacute; lại đ&acirc;y?&rdquo; -&gt; tr&agrave;n đầy hi vọng, kh&ocirc;ng chịu bỏ cuộc, l&agrave;m mọi việc để sống.<br />\n<strong>- </strong>[Vị tr&iacute; thả 3]: <strong><em>tủi th&acirc;n </em></strong>- căn cứ nội dung đoạn [4]: &ldquo;họ nh&igrave;n ch&ograve;ng chọc v&agrave;o t&ocirc;i, bộ như muốn ăn thịt: &ecirc; đi đi, thằng nhỏ. M&ograve; mẫm toan ăn cắp hả?&quot; T&ocirc;i ức đến muốn kh&oacute;c.&rdquo; -&gt; nh&acirc;n vật cảm thấy oan ức, tức tưởi khi bị ngờ oan.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "tủi thân"
+                },
+                {
+                    "id": "B>",
+                    "content": "xúc động"
+                },
+                {
+                    "id": "C>",
+                    "content": "lạc quan"
+                },
+                {
+                    "id": "D>",
+                    "content": "dửng dưng"
+                },
+                {
+                    "id": "E>",
+                    "content": "thất vọng"
+                }
+            ]
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "(Chọn nhiều đáp án) Tại sao nhân vật thích mưa vào những ngày đầu mùa mưa?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2",
+                "c4"
+            ],
+            "explanation": "<br/><strong>- </strong>A <strong>đúng - </strong>Đoạn [6]: “Mưa có nước ngọt uống, có nước cầy bừa”, cho thấy mưa cần thiết cho sinh hoạt và sản xuất.<br/>- B <strong>đúng</strong> - Căn cứ nội dung đoạn [6]: “điều quan trọng nhất trước mắt, là mưa có thể làm chậm bước của địch trong các cuộc tiến công”.<br/><strong>- </strong>D <strong>đúng</strong> - Căn cứ nội dung đoạn [6] và [7]:  “Ở cái vùng nước mặn miền tây Nam bộ này, người ta mong mưa như bọn trẻ con chúng tôi mong mẹ về chợ.” “Trời càng sắp mưa thì càng oi bức khó chịu, ban ngày mặt trời đổ nắng chang chang, nóng như giội lửa.” ->  người trong vùng mong mưa vì miền Tây oi nóng.<br/>C <strong>sai</strong> - không được nhắc đến trong bài.<br/>=> Đáp án cần chọn là A, B và D",
+            "contentC1": "Để tạo điều kiện thuận lợi cho cuộc sống sinh hoạt hàng ngày.",
+            "contentC2": "Để giúp địch trơn tuột và sình lầy trên các nẻo đường.",
+            "contentC3": "Để cảm nhận được sự tươi mới và khám phá vùng đất mới.",
+            "contentC4": "Để tránh cảm giác oi bức và khó chịu trong ngày nắng nóng."
+        }
+    ],
+    "subject": "TƯ DUY ĐỌC HIỂU",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-02-27T16:45:15.194Z",
+    "updatedAt": "2026-03-01T04:30:01.948Z",
+    "__v": 0
+}
+
+{
+    "_id": "69a2553d122c65b6a4fc37a9",
+    "title": "[Sách Đề]-Tư Duy Khoa Học-Đề 17",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "1991319d-5063-4572-8e60-01da8c9292f9": "X",
+        "Câu 1": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 2": "C",
+        "Câu 3": "C",
+        "Câu 4": [
+            "c2",
+            "c3"
+        ],
+        "Câu 5": "A",
+        "Câu 6": "D",
+        "Câu 7": "A",
+        "e60605e3-64b9-484a-9205-3bba318730e9": "X",
+        "Câu 8": "B",
+        "Câu 9": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 10": [
+            {
+                "slot1": "B>"
+            }
+        ],
+        "Câu 11": [
+            {
+                "slot1": "C>"
+            },
+            {
+                "slot2": "A>"
+            },
+            {
+                "slot3": "D>"
+            },
+            {
+                "slot4": "B>"
+            }
+        ],
+        "Câu 12": "B",
+        "Câu 13": "D",
+        "Câu 14": "A",
+        "c07cfc62-038d-4c0d-bfda-9f18be28df6f": "X",
+        "Câu 15": "C",
+        "Câu 16": [
+            "c1",
+            "c4"
+        ],
+        "Câu 17": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 18": "B",
+        "Câu 19": [
+            "đa tầng"
+        ],
+        "Câu 20": "A",
+        "d589dc0d-405a-41ca-9227-a532fa03196f": "X",
+        "Câu 21": "A",
+        "Câu 22": "D",
+        "Câu 23": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "S"
+            }
+        ],
+        "Câu 24": "C",
+        "Câu 25": "B",
+        "Câu 26": [
+            3
+        ],
+        "39bbd021-ce0a-4c06-9b85-9f31cf02a7b5": "X",
+        "Câu 27": "B",
+        "Câu 28": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 29": [
+            {
+                "slot1": "D>"
+            }
+        ],
+        "Câu 30": "A",
+        "Câu 31": "A",
+        "Câu 32": "C",
+        "Câu 33": [
+            {
+                "1.": [
+                    35
+                ]
+            },
+            {
+                "2.": [
+                    0
+                ]
+            },
+            {
+                "3.": [
+                    15
+                ]
+            }
+        ],
+        "a5040aa8-fc0e-4c5f-84a8-5c47d0277e11": "X",
+        "Câu 34": [
+            6
+        ],
+        "Câu 35": "B",
+        "Câu 36": "A",
+        "Câu 37": [
+            "c1",
+            "c4"
+        ],
+        "Câu 38": "C",
+        "e51ab572-0041-498b-bb5b-b20a1e5cb278": "X",
+        "Câu 39": [
+            {
+                "slot1": "C>"
+            }
+        ],
+        "Câu 40": "B"
+    },
+    "startTime": "2026-01-23T21:01:00.000Z",
+    "endTime": "2026-04-29T21:01:00.000Z",
+    "questions": [
+        {
+            "question": "1991319d-5063-4572-8e60-01da8c9292f9",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>BỀ MẶT CHỐNG D&Iacute;NH [LAE16112501]</strong></div>\nMột nh&oacute;m sinh vi&ecirc;n đ&atilde; tiến h&agrave;nh một số th&iacute; nghiệm bằng c&aacute;ch sử dụng nhiều dụng cụ nấu chống d&iacute;nh, c&acirc;n l&ograve; xo v&agrave; một số vật c&oacute; trọng lượng kh&aacute;c nhau. Mục ti&ecirc;u của họ l&agrave; x&aacute;c định nh&atilde;n hiệu sản phẩm dụng cụ nấu nướng n&agrave;o c&oacute; bề mặt chống d&iacute;nh tốt nhất bằng c&aacute;ch đo hệ số ma s&aacute;t nghỉ, đ&acirc;y l&agrave; thước đo khả năng chống chuyển động của một vật đứng y&ecirc;n.<br />\n<strong>Th&iacute; nghiệm 1</strong><br />\nMột học sinh nối một c&acirc;n l&ograve; xo với một quả nặng đặt b&ecirc;n trong một dụng cụ nấu chống d&iacute;nh như trong H&igrave;nh 1.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1772246172934-xg5hoenzf\" src=\"https://cdn.save.moe/b/HMVlt.png?dl=1\" style=\"\" /><br />\nC&aacute;c sinh vi&ecirc;n đ&atilde; l&ecirc;n kế hoạch t&iacute;nh to&aacute;n hệ số ma s&aacute;t nghỉ bằng c&aacute;ch x&aacute;c định lực cần thiết để l&agrave;m một vật chuyển động từ trạng th&aacute;i nghỉ. Trong qu&aacute; tr&igrave;nh th&iacute; nghiệm, một sinh vi&ecirc;n cố định dụng cụ nấu chống d&iacute;nh, trong khi sinh vi&ecirc;n kia gắn một vật bằng th&eacute;p nhẵn, c&oacute; trọng lượng v&agrave;o c&acirc;n l&ograve; xo v&agrave; đặt tr&ecirc;n bề mặt chống d&iacute;nh. Học sinh k&eacute;o l&ograve; xo cho đến khi vật bắt đầu chuyển động. Học sinh thứ ba ghi lại lực t&iacute;nh bằng niutơn, $N$, được biểu thị tr&ecirc;n thang l&ograve; xo tại thời điểm vật bắt đầu chuyển động tr&ecirc;n bề mặt kh&ocirc;ng d&iacute;nh.<br />\nQuy tr&igrave;nh n&agrave;y được lặp lại cho 3 nh&atilde;n hiệu dụng cụ nấu nướng kh&aacute;c nhau; mỗi nh&atilde;n hiệu dụng cụ nấu nướng đ&atilde; được thử nghiệm với c&aacute;c vật c&oacute; trọng lượng kh&aacute;c nhau. Hệ số ma s&aacute;t nghỉ được t&iacute;nh bằng c&aacute;ch chia lực trung b&igrave;nh cần thiết để di chuyển vật thể cho trọng lượng của n&oacute; (khối lượng - $g$, hằng số hấp dẫn). C&aacute;c kết quả được thể hiện trong Bảng 1.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"8\"><strong>Bảng 1</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Nh&atilde;n hiệu chảo</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\"><strong>Khối lượng vật (g)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\"><strong>Trọng lượng vật (N)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"4\"><strong>Lực k&eacute;o (N) vật chuyển động</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\"><strong>Hệ số ma s&aacute;t trượt</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Lần 1</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Lần 2</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Lần 3</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Trung b&igrave;nh</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">A\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>50\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,49\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,026\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,031\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,027\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,028\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,057\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,47\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,074\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,085\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,081\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,08\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,054\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>250\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,139\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,137\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,129\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,135\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,055\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">B\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>50\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,49\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,027\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,031\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,029\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,029\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,059\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,47\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,087\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,091\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,092\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,09\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,061\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>250\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,149\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,144\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,147\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,060\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">C\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>50\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,49\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,025\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,023\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,024\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,024\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,048\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,47\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,074\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,070\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,072\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,072\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,049\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>250\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,128\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,126\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,121\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,125\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,051\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<strong>Th&iacute; nghiệm 2</strong><br />\nC&aacute;c sinh vi&ecirc;n đ&atilde; thực hiện một th&iacute; nghiệm tương tự như Th&iacute; nghiệm 1, tuy nhi&ecirc;n, lần n&agrave;y c&aacute;c bạn sẽ xịt một lớp dầu n&ecirc;n bề mặt chiếc chảo trước khi đặt vật nặng l&ecirc;n đ&oacute;.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"8\"><strong>Bảng 2</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Nh&atilde;n hiệu dầu</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\"><strong>Khối lượng vật (g)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\"><strong>Trọng lượng vật (N)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"4\"><strong>Lực k&eacute;o (N) vật chuyển động</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\"><strong>Hệ số ma s&aacute;t trượt</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Lực k&eacute;o Lần 1 (N)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Lực k&eacute;o Lần 2 (N)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Lực k&eacute;o Lần 3 (N)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Lực k&eacute;o Trung b&igrave;nh (N)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">X\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>50\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.49\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.019\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.021\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.023\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.021\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.043\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1.47\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.064\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.064\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.061\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.063\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.043\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>250\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2.45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.111\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.107\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.106\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.108\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.044\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">Y\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>50\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.49\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.019\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.015\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.02\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.018\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.037\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1.47\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.057\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.056\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.055\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.056\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.038\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>250\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2.45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.087\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.089\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.088\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.088\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.036\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\">Z\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>150\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1.47\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.064\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.069\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.071\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.068\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.046\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>250\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2.45\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.118\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.116\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.120\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.118\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0.048\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nC&aacute;c kết quả được thể hiện trong Bảng 2.",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 1 đến câu 7:",
+            "range": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Kết quả của 2 thí nghiệm ủng hộ kết luận rằng khi trọng lượng của một vật tăng lên, thì lực trung bình cần thiết để di chuyển vật khỏi trạng thái nghỉ sẽ:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>Từ bảng 1 thì khi trọng lượng của vật tăng lên thì lực trung bình cần thiết để di chuyển vật khỏi trạng thái nghỉ sẽ tăng lên",
+            "contentYA": "giảm.",
+            "contentYB": "tăng lên.",
+            "contentYC": "không đổi."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Nếu Thí nghiệm 1 được lặp lại cho dụng cụ nấu ăn nhãn hiệu B với vật có khối lượng 200 gam, thì lực trung bình cần thiết để vật chuyển động sẽ gần nhất với:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Với nhãn hiệu B ta có:<br/>nếu vật có khối lượng $150g$ thì lực kéo vật chuyển động sẽ là $0,09N$<br/>nếu vật có khối lượng $250g$ thì lực kéo vật chuyển động sẽ là $0,147N$<br/>$\\Rightarrow$ khi khối lượng vật là $200g$ thì lực để làm vật chuyển động sẽ ở khoảng $0,09 (N) < F < 0,147 (N)$<br/>$\\Rightarrow$ lực kéo để vật chuyển động sẽ gần nhất với giá trị là $0,12N$",
+            "contentAnswerA": "$0,03N$.",
+            "contentAnswerB": "$0,06N$.",
+            "contentAnswerC": "$0,12N$.",
+            "contentAnswerD": "$0,18N$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Dựa vào kết quả của thí nghiệm 1 và 2, hãy cho biết sự kết hợp nào sau đây sẽ tạo ra bề mặt có hệ số ma sát nghỉ nhỏ nhất?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Kết quả bảng 1 cho thấy dụng cụ nấu bếp hiệu C có hệ số ma sát nghỉ nhỏ nhất.<br/>Kết quả từ bảng 2 cho thấy bình xịt nấu ăn nhãn hiệu Y có hệ số ma sát nghỉ nhỏ nhất.<br/>Kết hợp dụng cụ nhãn C và bình xịt dầu Y sẽ tạo ra hệ số ma sát nghỉ lớn nhỏ nhất",
+            "contentAnswerA": "Dụng cụ nấu ăn nhãn hiệu A và nhãn hiệu bình xịt dầu X.",
+            "contentAnswerB": "Dụng cụ nấu nướng nhãn hiệu B và nhãn hiệu bình xịt dầu Y.",
+            "contentAnswerC": "Dụng cụ nấu ăn hiệu C và bình xịt dầu Y.",
+            "contentAnswerD": "Dụng cụ nấu nướng nhãn hiệu C và bình xịt dầu Z."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Các nhận xét sau đây về thí nghiệm 2 là chính xác?",
+            "type": "MA",
+            "correctAnswer": [
+                "c2",
+                "c3"
+            ],
+            "explanation": "<br/>Trong bảng 2 ta thấy rằng:<br/>Nhãn hiệu dầu Y tạo ra hệ số ma sát lớn nhất<br/>Nhãn hiệu dầu Z được thực hiện thí nghiệm với 2 vật nặng khác nhau",
+            "contentC1": "Nhãn hiệu dầu X sẽ tạo ra hệ số ma sát lớn nhất",
+            "contentC2": "Nhãn hiệu dầu Z được thực hiện thí nghiệm với 2 vật nặng khác nhau",
+            "contentC3": "Nhãn hiệu dầu Y tạo ra hệ số ma sát lớn nhất"
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Người hướng dẫn sinh viên đưa cho họ một dụng cụ nấu chống dính và yêu cầu họ xác định thương hiệu. Các học sinh lặp lại quy trình trong Thí nghiệm 1 và thu được lực trung bình là $0,088 N$ đối với vật 150 gam và $0,149 N$ đối với vật 250 gam. Thương hiệu nào sau đây rất có thể đã tạo ra những kết quả này?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Theo Bảng 1, dụng cụ nấu nướng nhãn hiệu B có lực trung bình là $0,090 N$ đối với khối lượng 150 g và $0,147 N$ đối với khối lượng 250 g.<br/>Những kết quả này gần nhất với kết quả mà các sinh viên thu được khi người hướng dẫn đưa cho họ dụng cụ nấu chống dính mới.<br/>Đối chiếu với bảng 1 ta có với nhãn hiệu B khi:<br/>$\\bar F = 0,09N \\leftrightarrow m = 150g$<br/>$\\bar F = 0,147N \\leftrightarrow m = 250g$<br/>Vậy thương hiệu xác định ở đây là B",
+            "contentAnswerA": "Nhãn hiệu B",
+            "contentAnswerB": "Nhãn hiệu C",
+            "contentAnswerC": "Chỉ có nhãn hiệu A và C",
+            "contentAnswerD": "Chỉ có nhãn hiệu B và C"
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Theo đoạn văn, để học sinh đo chính xác hệ số ma sát tĩnh thì lực cần xác định đó là:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Đề bài cho “Các sinh viên dự định tính hệ số ma sát nghỉ bằng cách xác định lực cần thiết để làm cho một vật chuyển động từ vị trí nghỉ.”",
+            "contentAnswerA": "Trọng lượng của vật.",
+            "contentAnswerB": "Lực giữa cân lò xo và vật.",
+            "contentAnswerC": "Lực tác dụng của bình xịt nấu ăn lên bề mặt.",
+            "contentAnswerD": "Lực cần thiết để làm vật di chuyển khỏi vị trí nghỉ"
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Trong thí nghiệm 1 học sinh dùng thêm chảo D, lực trung bình để kéo một vật nặng $200g$ trên chảo D là $0,02N$. Khi đó ta có thể xác định được hệ số ma sát của chảo là bao nhiêu? Lấy $g = 9,8m/s^{2}$",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có công thức xác định lực ma sát giữa bề mặt chảo vào vật như sau $F_{ms} = \\mu N$ (1)<br/>Phân tích quá trình chuyển động của vật và áp dụng định luật II và III Newton ta có:<br/>$N = P = mg = 0,2 \\cdot 9,8 = 1,96N$ (2)<br/>Và $F_{ms} = F = 0,02N$ (3)<br/>Từ (1) (2) và (3) ta có: $\\mu = \\frac{F_{ms}}{N} = \\frac{1,96}{0,02} \\approx 0,01$",
+            "contentAnswerA": "0,01",
+            "contentAnswerB": "0,02",
+            "contentAnswerC": "0,03",
+            "contentAnswerD": "0,04"
+        },
+        {
+            "question": "e60605e3-64b9-484a-9205-3bba318730e9",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>AMMONIAC [HAE16112501]</strong></div>\nAmoniac ($NH_{3}$) c&oacute; thể được sản xuất theo phương tr&igrave;nh h&oacute;a học:\n\n<div style=\"text-align: center;\">$N_{2} + 3H_{2} \\rightleftharpoons 2NH_{3}$</div>\nMũi t&ecirc;n c&acirc;n bằng ($\\rightleftharpoons$) chỉ ra rằng phản ứng n&agrave;y tiến h&agrave;nh theo cả hai hướng cho đến khi n&oacute; ở trạng th&aacute;i c&acirc;n bằng, do đ&oacute; cả phản ứng thuận (sản xuất $NH_{3}$) v&agrave; phản ứng nghịch (sản xuất $N_{2}$ v&agrave; $H_{2}$) xảy ra ở c&ugrave;ng một tốc độ. Trạng th&aacute;i c&acirc;n bằng c&oacute; thể được dịch chuyển về ph&iacute;a phản ứng thuận hoặc ph&iacute;a phản ứng nghịch bằng c&aacute;ch thay đổi nhiệt độ, &aacute;p suất hoặc nồng độ của c&aacute;c chất phản ứng hoặc sản phẩm.<br />\nHai th&iacute; nghiệm đ&atilde; được thực hiện bằng c&aacute;ch sử dụng thiết bị sau để sản xuất $NH_{3}$.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1772246172940-p7scpuqdk\" src=\"https://cdn.save.moe/b/lbjBM8.png?dl=1\" style=\"\" />\n<div style=\"text-align: center;\"><strong>H&igrave;nh 1. Sơ đồ thiết bị</strong></div>\nTrong mỗi th&iacute; nghiệm, c&aacute;c bước tiến h&agrave;nh như sau:<br />\n- Bước 1: Một chất x&uacute;c t&aacute;c mới (chất x&uacute;c t&aacute;c W, X, Y hoặc Z), 160 kg $H_{2}$ v&agrave; 745 kg $N_{2}$ được đưa v&agrave;o l&ograve; phản ứng.<br />\n- Bước 2: $H_{2}$ v&agrave; $N_{2}$ phản ứng ở nhiệt độ v&agrave; &aacute;p suất kh&ocirc;ng đổi cho đến khi c&acirc;n bằng được thiết lập.<br />\n- Bước 3: Một hỗn hợp gồm $NH_{3}$ v&agrave; $H_{2}, N_{2}$ chưa phản ứng đi qua ống A đến b&igrave;nh ngưng tụ ở $-50^{\\circ}C, 1{\\;atm}$.<br />\n- Bước 4: Kh&iacute; $NH_{3}$ ngưng tụ v&agrave; tho&aacute;t ra khỏi thiết bị. (c&ograve;n $H_{2}$ v&agrave; $N_{2}$ kh&ocirc;ng ngưng tụ ở $-50^{\\circ}C$.) $H_{2}$ v&agrave; $N_{2}$ chưa phản ứng đi v&agrave;o ống B, quay trở lại l&ograve; phản ứng. C&aacute;c bước 2, 3 v&agrave; 4 lặp lại theo chu kỳ cho đến khi kh&ocirc;ng c&ograve;n $H_{2}$ v&agrave; $N_{2}$ quay trở lại l&ograve; phản ứng từ thiết bị ngưng tụ.<br />\n<strong>Th&iacute; nghiệm 1</strong><br />\nMột bộ gồm 9 thử nghiệm đ&atilde; được tiến h&agrave;nh với mỗi chất x&uacute;c t&aacute;c trong số 4 chất x&uacute;c t&aacute;c. C&aacute;c thử nghiệm được thực hiện ở &aacute;p suất $150{\\;atm}$ v&agrave; trong mỗi bộ, nhiệt độ cho mỗi thử nghiệm l&agrave; kh&aacute;c nhau. H&igrave;nh 2 cho thấy số chu k&igrave; của mỗi thử nghiệm.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1772246172949-jejg136s5\" src=\"https://cdn.save.moe/b/aQaNnQ.png?dl=1\" style=\"\" />\n<div style=\"text-align: center;\"><strong>H&igrave;nh 2. Số chu k&igrave; của mỗi thử nghiệm</strong></div>\n<strong>Th&iacute; nghiệm 2</strong><br />\nMột bộ gồm 9 thử nghiệm đ&atilde; được tiến h&agrave;nh với chất x&uacute;c t&aacute;c Z. Mỗi thử nghiệm được thực hiện ở c&aacute;c nhiệt độ v&agrave; &aacute;p suất kh&aacute;c nhau. H&igrave;nh 3 cho thấy lượng $NH_{3}$ được sản xuất trong chu kỳ đầu ti&ecirc;n.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1772246172951-guyqubjs7\" src=\"https://cdn.save.moe/b/O1EcAzU.png?dl=1\" style=\"\" />\n<div style=\"text-align: center;\"><strong>H&igrave;nh 3. Lượng $NH_3$ được sản xuất trong chu kỳ đầu ti&ecirc;n</strong></div>\n",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 8 đến câu 14:",
+            "range": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Phát biểu sau đúng hay sai?<br/>Theo kết quả của Thí nghiệm 1, đối với bất kỳ chất xúc tác nào, khi nhiệt độ tăng lên thì số chu kỳ để hoàn thành phản ứng tăng sau đó giảm.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Dựa vào Hình 2, ta thấy đối với bất kì chất xúc tác nào, khi nhiệt độ tăng lên thì số chu kỳ để hoàn thành phản ứng cũng tăng.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Các phát biểu sau đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đúng, vì: Dựa vào Hình 3, ta thấy thử nghiệm được thực hiện ở $400^{\\circ}C$ và $225{\\;atm}$ thì khối lượng $NH_{3}$ được sản xuất có giá trị khoảng 340 kg. Thử nghiệm được thực hiện ở $450^{\\circ}C$ và $225{\\;atm}$ thì khối lượng $NH_{3}$ được sản xuất có giá trị khoảng 230 kg. Do đó, thử nghiệm được thực hiện ở $425^{\\circ}C$ và $225{\\;atm}$ sẽ thu được khối lượng $NH_{3}$ nằm giữa 2 giá trị 230 kg và 340 kg.<br/>b, Sai, vì: Dựa vào Hình 2, ở giá trị 15 chu kì ở trục tung, ta tìm được nhiệt độ tương ứng là $500^{\\circ}C$ và chất xúc tác được sử dụng là chất xúc tác Z. Dựa vào Hình 2, ở giá trị 10 chu kì ở trục tung, ta tìm được nhiệt độ tương ứng là $400^{\\circ}C$ và chất xúc tác được sử dụng là chất xúc tác Y.<br/>c, Sai, vì: Dựa vào Hình 3, thử nghiệm sản xuất được 270 kg $NH_{3}$ được tiến hành với chất xúc tác Z, ở $400^{\\circ}C$ và $150{\\;atm}$. Theo đó, dựa vào Hình 2, ta tìm thử nghiệm tương ứng đối với chất xúc tác Z, ở $400^{\\circ}C$ và $150{\\;atm}$ sẽ ra số chu kì cần thiết xấp xỉ 7.",
+            "contentYA": "Nếu một thử nghiệm khác trong Thí nghiệm 2 được thực hiện ở $425^{\\circ}C$ và $225{\\;atm}$ thì khối lượng $NH_{3}$ được sản xuất có giá trị nằm trong khoảng 230 kg đến 340 kg.",
+            "contentYB": "Trong Thí nghiệm 1, cần 15 chu kì để hoàn thành phản ứng ở $500^{\\circ}C$, sử dụng chất xúc tác Y và cần 10 chu kì để hoàn thành phản ứng ở $400^{\\circ}C$, sử dụng chất xúc tác Z.",
+            "contentYC": "Để sản xuất được 270 kg $NH_{3}$, số chu kì cần thiết để hoàn thành phản ứng có giá trị xấp xỉ 12."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả ô vuông vào đúng vị trí:<br/>Xem xét kết quả của Thí nghiệm 1, ở $375^{\\circ}C$, tất cả $H_{2}$ và $N_{2}$ phản ứng hết trong chưa đầy 20 chu kỳ khi chất xúc tác <span class=\"drag-drop-blank\" data-drop-id=\"Câu 10-1\">____DRAG_DROP_1____</span> được sử dụng.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "B>"
+                }
+            ],
+            "explanation": "<br/>Dựa vào Hình 2, ở giá trị $375^{\\circ}C$ trên trục hoành, ta thấy khi sử dụng chất xúc tác W, X, Y và Z thì số chu kì cần thiết để hoàn thành phản ứng lần lượt là: 22, 11, 8 và 5. Do đó, ở $375^{\\circ}C$, tất cả $H_{2}$ và $N_{2}$ phản ứng hết trong chưa đầy 20 chu kỳ khi chất xúc tác X, Y và Z được sử dụng.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "Y, Z, W"
+                },
+                {
+                    "id": "B>",
+                    "content": "X, Y, Z"
+                },
+                {
+                    "id": "C>",
+                    "content": "X, Z, W"
+                },
+                {
+                    "id": "D>",
+                    "content": "X, Y, W"
+                }
+            ]
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Kéo thả ô vuông vào đúng vị trí:<br/>Dựa vào hình 1, quá trình di chuyển của các chất khí $H_{2}$ và $N_{2}$ trong thiết bị được thể hiện rõ nhất qua quá trình sau: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-1\">____DRAG_DROP_1____</span> $\\rightarrow$ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-2\">____DRAG_DROP_2____</span> $\\rightarrow$ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-3\">____DRAG_DROP_3____</span> $\\rightarrow$ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 11-4\">____DRAG_DROP_4____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                },
+                {
+                    "slot2": "A>"
+                },
+                {
+                    "slot3": "D>"
+                },
+                {
+                    "slot4": "B>"
+                }
+            ],
+            "explanation": "<br/>Dựa vào các bước tiến hành từ bước 1 đến bước 4, dễ dàng thấy được quá trình di chuyển của các chất khí $H_{2}$ và $N_{2}$ trong thiết bị theo thứ tự: lò phản ứng $\\rightarrow$ ống a $\\rightarrow$ thiết bị ngưng tụ $\\rightarrow$ ống b.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "ống a"
+                },
+                {
+                    "id": "B>",
+                    "content": "ống b"
+                },
+                {
+                    "id": "C>",
+                    "content": "lò phản ứng"
+                },
+                {
+                    "id": "D>",
+                    "content": "thiết bị ngưng tụ"
+                }
+            ]
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Trong Thí nghiệm 1, cần 26 chu kì để hoàn thành phản ứng ở nhiệt độ nào và sử dụng chất xúc tác nào?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Dựa vào Hình 2, ở giá trị 26 chu kì ở trục tung, ta tìm được nhiệt độ tương ứng là $450^{\\circ}C$ và chất xúc tác được sử dụng là chất xúc tác X.",
+            "contentAnswerA": "$400^{\\circ}C$ và chất xúc tác Y.",
+            "contentAnswerB": "$450^{\\circ}C$ và chất xúc tác X.",
+            "contentAnswerC": "$400^{\\circ}C$ và chất xúc tác W.",
+            "contentAnswerD": "$450^{\\circ}C$ và chất xúc tác Z."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Ở áp suất $1{\\;atm}$, nhiệt độ nóng chảy của $NH_{3}$ là $-77^{\\circ}C$ và nhiệt độ sôi của $NH_{3}$ là $-33^{\\circ}C$. Dựa trên thông tin này và mô tả của sơ đồ thiết bị, khi $NH_{3}$ thoát ra khỏi thiết bị ngưng tụ thì $NH_{3}$ ở trạng thái",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Nhiệt độ của thiết bị ngưng tụ là $-50^{\\circ}C$, khi $NH_{3}$ thoát ra từ thiết bị ngưng tụ thì $NH_{3}$ tồn tại ở thể lỏng, vì nhiệt độ của thiết bị ngưng tụ nằm giữa nhiệt độ nóng chảy và nhiệt độ sôi của $NH_{3}$.",
+            "contentAnswerA": "rắn, vì nhiệt độ của thiết bị ngưng tụ thấp hơn nhiệt độ nóng chảy và nhiệt độ sôi của $NH_{3}$.",
+            "contentAnswerB": "rắn, vì nhiệt độ của thiết bị ngưng tụ nằm giữa nhiệt độ nóng chảy và nhiệt độ sôi của $NH_{3}$.",
+            "contentAnswerC": "lỏng, vì nhiệt độ của thiết bị ngưng tụ cao hơn nhiệt độ nóng chảy và nhiệt độ sôi của $NH_{3}$.",
+            "contentAnswerD": "lỏng, vì nhiệt độ của thiết bị ngưng tụ nằm giữa nhiệt độ nóng chảy và nhiệt độ sôi của $NH_{3}$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Xem xét một thử nghiệm trong Thí nghiệm 2 sản xuất được 550 kg $NH_{3}$. Số chu kì cần thiết để hoàn thành phản ứng trong thử nghiệm này có giá trị",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Dựa vào Hình 3, thử nghiệm sản xuất được 550 kg $NH_{3}$ được tiến hành với chất xúc tác Z, ở $300^{\\circ}C$ và $150{\\;atm}$. Theo đó, dựa vào Hình 2, ta tìm thử nghiệm tương ứng đối với chất xúc tác Z, ở $300^{\\circ}C$ và $150{\\;atm}$ sẽ ra số chu kì cần thiết để hoàn thành phản ứng là 2 (nhỏ hơn 5).",
+            "contentAnswerA": "nhỏ hơn 5.",
+            "contentAnswerB": "từ 5 đến 10.",
+            "contentAnswerC": "từ 10 đến 15.",
+            "contentAnswerD": "lớn hơn 15."
+        },
+        {
+            "question": "c07cfc62-038d-4c0d-bfda-9f18be28df6f",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>CƯỜNG ĐỘ QUANG HỢP V&Agrave; H&Ocirc; HẤP [SAE16112501]</strong></div>\nCường độ &aacute;nh s&aacute;ng tối thiểu để c&acirc;y bắt đầu quang hợp l&agrave; rất thấp (c&acirc;y c&oacute; thể quang hợp ở &aacute;nh s&aacute;ng buổi ho&agrave;ng h&ocirc;n, đ&egrave;n điện yếu...), nhưng l&uacute;c n&agrave;y cường độ quang hợp ($I_{qh}$) rất thấp v&agrave; lu&ocirc;n nhỏ hơn cường độ h&ocirc; hấp ($I_{hh}$) v&agrave; c&oacute; sự thải $CO_{2}$ ra kh&ocirc;ng kh&iacute;. Khi cường độ &aacute;nh s&aacute;ng tăng dần th&igrave; $I_{qh}$ cũng tăng theo nhưng cường độ h&ocirc; hấp tối kh&ocirc;ng phụ thuộc v&agrave;o &aacute;nh s&aacute;ng n&ecirc;n kh&ocirc;ng tăng. Đến một l&uacute;c n&agrave;o đấy th&igrave; ta c&oacute; $I_{qh}=I_{hh}$. Cường độ &aacute;nh s&aacute;ng m&agrave; tại đ&oacute; $I_{qh}=I_{hh}$ gọi l&agrave; điểm b&ugrave; &aacute;nh s&aacute;ng của quang hợp. Cường độ &aacute;nh s&aacute;ng lớn hơn điểm b&ugrave; th&igrave; $I_{qh}&gt;I_{hh}$ v&agrave; c&acirc;y c&oacute; t&iacute;ch luỹ; v&agrave; ngược lại.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1772246172955-ijuyp7lkp\" src=\"https://cdn.save.moe/b/9j5u5TL.png?dl=1\" style=\"\" />\n<div style=\"text-align: center;\"><strong>H&igrave;nh 1. Sự ảnh hưởng của cường độ &aacute;nh s&aacute;ng đối với quang hợp phụ thuộc v&agrave;o nồng độ $CO_2$</strong></div>\nDựa v&agrave;o điểm b&ugrave; &aacute;nh s&aacute;ng, người ta chia thực vật th&agrave;nh c&acirc;y ưa s&aacute;ng v&agrave; c&acirc;y ưa b&oacute;ng. C&acirc;y ưa s&aacute;ng lu&ocirc;n c&oacute; điểm b&ugrave; &aacute;nh s&aacute;ng cao hơn c&acirc;y ưa b&oacute;ng. C&acirc;y ưa b&oacute;ng c&oacute; điểm b&ugrave; &aacute;nh s&aacute;ng khoảng 0,2-0,5 klux. c&ograve;n c&acirc;y ưa s&aacute;ng c&oacute; điểm b&ugrave; &aacute;nh s&aacute;ng l&agrave; 1-3 klux. Do đ&oacute;, nguy&ecirc;n tắc của chọn một tổ hợp c&acirc;y trồng để trồng xen l&agrave; chọn c&acirc;y c&oacute; điểm b&ugrave; thấp trồng xen với c&acirc;y c&oacute; điểm b&ugrave; cao. Chẳng hạn như người ta thường trồng xen giữa ng&ocirc; c&oacute; điểm b&ugrave; cao với đậu đỗ c&oacute; điểm b&ugrave; thấp. Trong kĩ thuật canh t&aacute;c đa tầng th&igrave; c&aacute;c c&acirc;y trồng tầng tr&ecirc;n lu&ocirc;n c&oacute; điểm b&ugrave; cao hơn c&acirc;y trồng dưới. Khi &aacute;nh s&aacute;ng xuy&ecirc;n qua c&aacute;c tầng l&aacute; tr&ecirc;n th&igrave; c&aacute;c tầng l&aacute; ở dưới vẫn nhận được &aacute;nh s&aacute;ng tr&ecirc;n điểm b&ugrave; v&agrave; vẫn c&oacute; t&iacute;ch luỹ cho quần thể.<br />\nTrong một quần thể c&oacute; diện t&iacute;ch l&aacute; qu&aacute; cao (lốp) th&igrave; c&aacute;c tầng l&aacute; tr&ecirc;n che khuất s&aacute;ng c&aacute;c tầng l&aacute; dưới n&ecirc;n c&oacute; thể ch&uacute;ng nhận được cường độ &aacute;nh s&aacute;ng dưới điểm b&ugrave;. Như vậy c&aacute;c tầng l&aacute; tr&ecirc;n l&agrave;m nhiệm vụ sản xuất chất hữu cơ, c&ograve;n c&aacute;c tầng l&aacute; ở dưới chỉ c&oacute; ti&ecirc;u thụ sản phẩm quang hợp. Nếu c&aacute;c tầng l&aacute; nhận &aacute;nh s&aacute;ng dưới điểm b&ugrave; m&agrave; lớn hơn c&aacute;c tầng l&aacute; nhận &aacute;nh s&aacute;ng trền điểm b&ugrave; th&igrave; quần thể đ&oacute; kh&ocirc;ng c&oacute; t&iacute;ch luỹ v&agrave; kh&ocirc;ng tồn tại. Do đ&oacute; khi tăng diện t&iacute;ch l&aacute; để tăng năng suất c&acirc;y trồng ta phải lu&ocirc;n quan t&acirc;m đến mối quan hệ n&agrave;y trong một quần thể c&acirc;y trồng.\n<div style=\"text-align: right;\"><strong><em>(Theo Ho&agrave;ng Minh Tấn, Gi&aacute;o tr&igrave;nh Sinh l&yacute; học thực vật, NXB Đại học Sư phạm, 2006)</em></strong></div>\n",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 15 đến câu 20:",
+            "range": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Đoạn thông tin trên trình bày về nội dung gì?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Toàn bộ văn bản tập trung vào định nghĩa, cơ chế và ứng dụng của Điểm bù ánh sáng ($I_{qh} = I_{hh}$), sự khác biệt giữa cây ưa sáng và cây ưa bóng dựa trên điểm bù, và ảnh hưởng của nó đến sự tích lũy/hiệu suất chất hữu cơ của quần thể cây trồng.",
+            "contentAnswerA": "Mối quan hệ giữa điểm bão hoà ánh sáng và cường độ quang hợp",
+            "contentAnswerB": "Thực vật ưa sáng và thực vật ưa bóng.",
+            "contentAnswerC": "Điểm bù ánh sáng ở thực vật và hiệu suất quang hợp ở thực vật.",
+            "contentAnswerD": "Cường độ hô hấp ở thực vật phụ thuộc vào cường độ quang hợp."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Thông ưu nào dưới đây phù hợp với đặc điểm quang hợp ở thực vật?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c4"
+            ],
+            "explanation": "<br />\n&Yacute; 1, Đ&uacute;ng: Khi cường độ &aacute;nh s&aacute;ng tăng l&ecirc;n (bắt đầu từ điểm b&ugrave; &aacute;nh s&aacute;ng), cường độ quang hợp cũng sẽ tăng theo tỷ lệ thuận. Qu&aacute; tr&igrave;nh tăng n&agrave;y diễn ra li&ecirc;n tục cho đến khi &aacute;nh s&aacute;ng đạt đến mức b&atilde;o h&ograve;a.<br />\n&Yacute; 2, Sai: Nếu cường độ quang hợp $(I_{qh})$ lu&ocirc;n nhỏ hơn cường độ h&ocirc; hấp $(I_{hh})$, c&acirc;y sẽ ti&ecirc;u hao nhiều chất hữu cơ hơn mức n&oacute; tạo ra, dẫn đến kh&ocirc;ng thể sinh trưởng v&agrave; sẽ chết. Tr&ecirc;n thực tế, v&agrave;o ban ng&agrave;y ở điều kiện b&igrave;nh thường, cường độ quang hợp lớn hơn h&ocirc; hấp rất nhiều.<br />\n&Yacute; 3, Sai: &quot;H&ocirc; hấp tối&quot; (qu&aacute; tr&igrave;nh h&ocirc; hấp tế b&agrave;o th&ocirc;ng thường) diễn ra ở mọi l&uacute;c (cả ngo&agrave;i s&aacute;ng v&agrave; trong tối). Qu&aacute; tr&igrave;nh n&agrave;y kh&ocirc;ng phụ thuộc trực tiếp v&agrave;o &aacute;nh s&aacute;ng m&agrave; phụ thuộc v&agrave;o c&aacute;c yếu tố kh&aacute;c như nhiệt độ, độ ẩm, v&agrave; nồng độ $O_2$. (Chỉ c&oacute; hiện tượng &quot;h&ocirc; hấp s&aacute;ng&quot; ở thực vật C3 mới phụ thuộc v&agrave;o &aacute;nh s&aacute;ng).<br />\n&Yacute; 4, Đ&uacute;ng: Theo định nghĩa, điểm b&atilde;o ho&agrave; &aacute;nh s&aacute;ng ch&iacute;nh l&agrave; mốc cường độ &aacute;nh s&aacute;ng m&agrave; tại đ&oacute; cường độ quang hợp đạt mức tối đa. Nếu cường độ &aacute;nh s&aacute;ng tiếp tục tăng vượt qua điểm n&agrave;y, cường độ quang hợp cũng kh&ocirc;ng tăng th&ecirc;m nữa.",
+            "contentC1": "Khi cường độ ánh sáng tăng dần thì cường độ quang hợp cũng tăng theo.",
+            "contentC2": "Cường độ quang hợp $(I_{qh})$ rất thấp và luôn nhỏ hơn cường độ hô hấp $( l_{hh} )$.",
+            "contentC3": "Cường độ hô hấp tối phụ thuộc vào ánh sáng.",
+            "contentC4": "Tại điểm bão hoà ánh sáng thì cường độ quang hợp đạt tối đa."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Xét tính Đúng/ Sai của các nhận định dưới đây:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Sai: Cường độ hô hấp tối không phụ thuộc vào ánh sáng nên không tăng. Hô hấp tiêu thụ $O_{2}$ và thải $CO_{2}$.<br/>b, Sai<br/>c, Sai. Chỉ khi cường độ ánh sáng lớn hơn điểm bù thì $I_{qh} > I_{hh}$.<br/>d, Đúng.",
+            "contentYA": "Cường độ hô hấp tăng cao khi được chiếu sáng, cây thải nhiều $CO_{2}$.",
+            "contentYB": "Cường độ quang hợp tăng khi được chiếu sáng nhiều, cây thải nhiều $O_{2}$.",
+            "contentYC": "Trong trường hợp có ánh sáng, cường độ quang hợp luôn cao hơn cường độ hô hấp.",
+            "contentYD": "Cường độ ánh sáng cao hơn điểm bù ánh sáng, cây tích luỹ được năng lượng, có sự phát triển."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Có thể trồng xen canh các loại cây trồng khác nhau trong điều kiện nào?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Khai thác thông tin trong đoạn thứ 2.",
+            "contentAnswerA": "Trồng xen canh giữa các cây có chung điểm bù ánh sáng cao.",
+            "contentAnswerB": "Trồng xen canh giữa các cây có điểm bù ánh sáng cao với cây có điểm bù ánh sáng thấp.",
+            "contentAnswerC": "Trồng xen canh giữa các cây có chung điểm bù ánh sáng thấp.",
+            "contentAnswerD": "Các cây tầng trên phải có điểm bù ánh sáng thấp hơn các cây tầng dưới."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Hãy nghiên cứu đoạn thông tin trên, chọn từ phù hợp với kỹ thuật nông nghiệp dưới đây? (2 tiếng)<br/>Kỹ thuật canh tác <span class=\"fill-blank\" data-blank-id=\"Câu 19-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                "đa tầng"
+            ],
+            "explanation": "<br/>Kỹ thuật canh tác đa tầng<br/>Trong kĩ thuật canh tác đa tầng thì các cây trồng tầng trên luôn có điểm bù cao hơn cây trồng dưới. Khi ánh sáng xuyên qua các tầng lá trên thì các tầng lá ở dưới vẫn nhận được ánh sáng trên điểm bù và vẫn có tích luỹ cho quần thể.<br/>Điền đáp án: đa tầng"
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Từ nội dung của đoạn 3, hoàn thành câu hỏi bằng cách chọn đáp án Đúng hoặc Sai.<br/>Nếu các tầng lá nhận ánh sáng dưới điểm bù mà nhỏ hơn các tầng lá nhận ánh sáng trên điểm bù thì quần thể đó có tích luỹ và có phát triển.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ý trên đúng vì, Các tầng lá nhận ánh sáng trên điểm bù nhiều hơn sẽ giúp tích luỹ nhiều, giúp quần thể tồn tại và phát triển.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        },
+        {
+            "question": "d589dc0d-405a-41ca-9227-a532fa03196f",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>NGHI&Ecirc;N CỨU CHIẾU S&Aacute;NG [LAE16112502]</strong></div>\nMột sinh vi&ecirc;n đ&atilde; nghi&ecirc;n cứu chiếu s&aacute;ng bằng c&aacute;ch sử dụng thiết bị như sau:<br />\n- 6 b&oacute;ng đ&egrave;n giống nhau (A-F)<br />\n- Mạch 1, nguồn ph&aacute;t s&aacute;ng cho b&oacute;ng đ&egrave;n A - E<br />\n- Mạch 2, nguồn ph&aacute;t s&aacute;ng cho b&oacute;ng đ&egrave;n F<br />\n- 2 khối parafin giống nhau<br />\n- Một l&aacute; nh&ocirc;m c&oacute; c&ugrave;ng chiều d&agrave;i v&agrave; chiều rộng như một khối parafin<br />\n- Một thước đo<br />\n&Aacute;nh s&aacute;ng c&oacute; thể xuy&ecirc;n qua từng khối paraffin v&agrave; mỗi khối ph&aacute;t s&aacute;ng khi &aacute;nh s&aacute;ng xuy&ecirc;n qua n&oacute;. L&aacute; nh&ocirc;m được đặt giữa 2 khối. C&aacute;c thiết bị chiếu s&aacute;ng, b&oacute;ng đ&egrave;n, khối, l&aacute; nh&ocirc;m v&agrave; thước đo được sắp xếp như trong H&igrave;nh 1.<br />\n<img alt=\"Image from Word document\" class=\"mx-auto\" data-temp-key=\"temp-image-1772246172959-v3dvo1d6k\" src=\"https://cdn.save.moe/b/PDy68fI.png?dl=1\" style=\"\" /><br />\nTrong c&aacute;c th&iacute; nghiệm sau, đế của mạch 2 lu&ocirc;n c&aacute;ch l&aacute; nh&ocirc;m $0,200{\\;m}$ v&agrave; $L$ l&agrave; khoảng c&aacute;ch từ đế của mạch 1 đến l&aacute; nh&ocirc;m. Khoảng c&aacute;ch giữa c&aacute;c b&oacute;ng đ&egrave;n liền kề mạch 1 l&agrave; như nhau đối với tất cả c&aacute;c b&oacute;ng đ&egrave;n. B&oacute;ng đ&egrave;n F lu&ocirc;n s&aacute;ng.<br />\n<strong>Th&iacute; nghiệm 1</strong><br />\nHọc sinh đ&oacute; tắt đ&egrave;n trong ph&ograve;ng, thắp s&aacute;ng B&oacute;ng đ&egrave;n A v&agrave; thay đổi $L$ cho đến khi 2 khối parafin tr&ocirc;ng s&aacute;ng như nhau. Qu&aacute; tr&igrave;nh n&agrave;y được lặp lại với b&oacute;ng đ&egrave;n B-E.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"2\"><strong>Bảng 1</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Đ&egrave;n s&aacute;ng (trừ b&oacute;ng đ&egrave;n F)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>L (m) - khi 2 khối s&aacute;ng như nhau</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,198\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,203\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,205\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,195\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>E\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,199\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nC&aacute;c kết quả được thể hiện trong Bảng 1.<br />\n<strong>Th&iacute; nghiệm 2</strong><br />\nQuy tr&igrave;nh từ Th&iacute; nghiệm 1 được lặp lại bằng c&aacute;ch sử dụng c&aacute;c kết hợp c&aacute;c b&oacute;ng đ&egrave;n A đến E.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Đ&egrave;n s&aacute;ng (trừ b&oacute;ng đ&egrave;n F)</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>L(m) - khi 2 khối s&aacute;ng như nhau</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A v&agrave; B\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,281\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A, B v&agrave; C\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,347\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A, B, C v&agrave; D\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A, B, C, D v&agrave; E\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,446\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nKết quả được thể hiện trong Bảng 2.",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 21 đến câu 26:",
+            "range": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Điều nào sau đây giải thích đúng nhất tại sao học sinh tắt đèn trong phòng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Học sinh làm thí nghiệm để so sánh độ sáng của ánh sáng do Đèn 1 và 2 trong nhiều điều kiện khác nhau. Ánh sáng từ các nguồn khác ngoài mạch 1 và 2 có thể đã đưa sai số vào phép đo $L$. Đèn trong phòng tắt để tất cả ánh sáng trên các khối phát ra từ các bóng đèn trong Mạch 1 và 2. Vì vậy, A là câu trả lời đúng nhất.",
+            "contentAnswerA": "Để đảm bảo chỉ có ánh sáng từ Bóng đèn A-F chiếu sáng 2 khối parafin",
+            "contentAnswerB": "Đảm bảo ánh sáng từ ngoài phòng rọi vào 2 khối parafin không bằng nhau",
+            "contentAnswerC": "Để giữ cho 2 khối paraffin không bị bóng, vì bóng sẽ làm cho thước đo khó đọc hơn",
+            "contentAnswerD": "Để giữ cho 2 thiết bị chiếu sáng không đổ bóng, vì bóng sẽ làm cho đồng hồ đo khó đọc hơn"
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Trong Thí nghiệm 2, giả sử học sinh thay thế Vật cố định 1 bằng một vật cố định mới. Thiết bị cố định mới chứa 6 bóng đèn, mỗi bóng giống hệt với Bóng đèn F. Khi tất cả 6 bóng đèn trong thiết bị mới được thắp sáng và các khối parafin trông sáng như nhau, $L$ có thể gần với:",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Theo Bảng 2, khi số lượng bóng đèn thắp sáng trong Vật cố định 1 tăng từ 2 lên 5 thì $L$ tăng lên.<br/>$\\Rightarrow$ nếu sử dụng thiết bị cố định mới, tăng số lượng bóng đèn thắp sáng từ 5 lên 6, thì $L$ sẽ lớn hơn giá trị của $L$ cho trong Bảng 2 đối với 5 bóng đèn thắp sáng là $0,446{\\;m}$.<br/>$\\Rightarrow$ Giá trị $L > 0,446{\\;m}$ là $0,490{\\;m}$ hay D là đáp án chính xác.",
+            "contentAnswerA": "$0,262{\\;m}$.",
+            "contentAnswerB": "$0,331{\\;m}$.",
+            "contentAnswerC": "$0,415{\\;m}$.",
+            "contentAnswerD": "$0,490{\\;m}$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Cho các nhận xét về mục đích chính của Thí nghiệm 1, nhận xét nào đúng, nhận xét nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "S"
+                }
+            ],
+            "explanation": "<br/>Trong Thí nghiệm 1 ta thấy mỗi lần một bóng đèn được thắp sáng trong Vật cố định 1, nhưng vị trí của bóng đèn sáng trong Vật cố định 1 đã thay đổi.<br/>$\\Rightarrow$ Do đó, mục đích chính của Thí nghiệm 1 phải là xác định ảnh hưởng, nếu có, của vị trí của bóng đèn đối với giá trị của $L$. Hay xác định xem $L$ có phụ thuộc vào vị trí của bóng đèn trong Vật cố định 1 hay không.",
+            "contentYA": "Hiệu chỉnh đồng hồ đo.",
+            "contentYB": "Xác định mối quan hệ giữa $L$ và số bóng đèn thắp sáng.",
+            "contentYC": "Xác định xem $L$ có phụ thuộc vào vị trí của bóng đèn trong Vật cố định 1 hay không.",
+            "contentYD": "Tìm độ sáng của bóng đèn F."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Giả sử rằng tất cả các bóng đèn trong Vật cố định 1 đã được thay thế bằng một bóng đèn duy nhất. Dựa vào thí nghiệm 1 và 2, nếu 2 khối parafin sáng như nhau khi vật 2 cách lá nhôm $0,200{\\;m}$ và $L= 0,446{\\;m}$ thì độ sáng của bóng đèn mới rất có thể là:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Theo Bảng 2, 2 khối parafin phát sáng như nhau khi cả 5 bóng đèn trong Vật cố định 1 đều sáng và $L$ là $0,446{\\;m}$ , giống như $L$ thu được với bóng đèn mới.<br/>Như vậy, độ sáng của bóng đèn mới sẽ phải bằng tổng độ sáng của 5 bóng đèn ban đầu.<br/>Vì mỗi bóng đèn trong số 5 bóng đèn ban đầu có cùng độ sáng nên bóng đèn mới sẽ phải sáng gấp 5 lần bóng đèn ban đầu.<br/>$\\Rightarrow$ đáp án C là đáp án phù hợp với kết luận trên.",
+            "contentAnswerA": "$\\frac{1}{6}$ độ sáng của một trong các bóng đèn ban đầu",
+            "contentAnswerB": "$\\frac{1}{5}$ độ sáng của một trong các bóng đèn ban đầu.",
+            "contentAnswerC": "Độ sáng gấp 5 lần độ sáng của một trong các bóng đèn ban đầu.",
+            "contentAnswerD": "Độ sáng gấp 6 lần độ sáng của một trong các bóng đèn ban đầu."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Trong Thí nghiệm 2, giả sử học sinh đã thay Bóng đèn F bằng một bóng đèn sáng hơn nhiều, Bóng đèn G. So với $L$ khi sử dụng Bóng đèn F, $L$ khi sử dụng Bóng đèn G sẽ là:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Bởi vì Bóng đèn G sáng hơn Bóng đèn F và cách lá nhôm một khoảng ($0,200{\\;m}$) giống như Bóng đèn F<br/>$\\Rightarrow$ khối parafin ở gần Bóng đèn G sẽ phát sáng hơn so với khi sử dụng Bóng đèn F.<br/>Do đó, đối với mỗi sự kết hợp của các bóng đèn trong Vật cố định 1, để làm cho 2 khối phát sáng với độ sáng bằng nhau, thì Vật cố định 1 sẽ phải ở gần các khối hơn so với khi sử dụng Bóng đèn F. Nghĩa là, khi sử dụng Bóng đèn G, $L$ cho mỗi tổ hợp bóng đèn sáng trong Vật cố định 1 sẽ phải nhỏ hơn so với khi sử dụng Bóng đèn F để 2 khối phát sáng với độ sáng bằng nhau.",
+            "contentAnswerA": "Càng lớn đối với mọi tổ hợp các bóng đèn được thắp sáng.",
+            "contentAnswerB": "Nhỏ hơn đối với mọi tổ hợp bóng đèn thắp sáng.",
+            "contentAnswerC": "Nhỏ hơn khi Bóng đèn A-E được thắp sáng đồng thời và lớn hơn khi các bóng đèn kết hợp khác được thắp sáng.",
+            "contentAnswerD": "Lớn hơn khi cả hai bóng đèn A và B được thắp sáng đồng thời và nhỏ hơn khi các bóng đèn kết hợp khác được thắp sáng."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Điền số thích hợp vào chỗ trống:<br/>Khi hai khối parafin phát sáng như nhau và khoảng cách $L$ khoảng $0,3{\\;m}$ thì khi đó có <span class=\"fill-blank\" data-blank-id=\"Câu 26-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> bóng đèn bật sáng, trừ bóng đèn F",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>Từ bảng kết quả thí nghiệm ta có khi hai khối parafin phát sáng như nhau và khoảng cách $L$ khoảng $0,3{\\;m}$ thì sẽ có 3 bóng đèn bật sáng."
+        },
+        {
+            "question": "39bbd021-ce0a-4c06-9b85-9f31cf02a7b5",
+            "contentQuestions": "<div style=\"text-align: center;\"><strong>DOPAMINE [HAE16112502]</strong></div>\nDopamine c&oacute; c&ocirc;ng thức ph&acirc;n tử l&agrave; $C_{8}H_{11}NO_{2}$ (3,4-dihydroxyphenethylamine). N&oacute; l&agrave; một h&oacute;a chất hữu cơ được tạo ra từ chất tyrosine, c&oacute; chức năng vừa l&agrave; hormone vừa l&agrave; chất dẫn truyền thần kinh v&agrave; đ&oacute;ng vai tr&ograve; quan trọng trong n&atilde;o v&agrave; cơ thể. Nhiều người gọi dopamine l&agrave; &ldquo;hormone hạnh ph&uacute;c&rdquo; bởi ch&uacute;ng c&oacute; nhiều t&aacute;c dụng tốt đối với tinh thần v&agrave; thể chất của con người. Thuốc ti&ecirc;m dopamine (intropin) được sử dụng để điều trị c&aacute;c bệnh nhất định, chẳng hạn như huyết &aacute;p thấp, xảy ra khi bạn đang bị sốc, g&acirc;y ra bởi cơn đau tim, chấn thương, phẫu thuật, suy tim, suy thận, v&agrave; c&aacute;c bệnh nghi&ecirc;m trọng kh&aacute;c. Một sinh vi&ecirc;n đ&atilde; điều tra t&aacute;c động của intropin đối với một chất dẫn truyền thần kinh cụ thể.<br />\n<strong>Th&iacute; nghiệm 1</strong><br />\nLấy 10 ống nghiệm v&agrave; đ&aacute;nh số thứ tự từ 1 đến 10, mỗi ống nghiệm chứa 7 ml dung dịch peptide (chất dẫn truyền thần kinh). Tiến h&agrave;nh th&ecirc;m 2 ml dung dịch intropin v&agrave;o c&aacute;c ống nghiệm từ 1 đến 9, ri&ecirc;ng ống nghiệm 10 được th&ecirc;m 2 ml nước kh&ocirc;ng c&oacute; intropin. Sau đ&oacute;, c&aacute;c ống nghiệm được khuấy với tốc độ kh&ocirc;ng đổi trong bể nước ở c&aacute;c nhiệt độ kh&aacute;c nhau v&agrave; được ủ nhiệt ở c&aacute;c khoảng thời gian kh&aacute;c nhau từ 0 đến 15 ph&uacute;t. V&agrave;o cuối giai đoạn ủ, th&ecirc;m v&agrave;o mỗi ống nghiệm 0,3 ml dung dịch NaCl. Dung dịch NaCl c&oacute; t&aacute;c dụng dừng phản ứng giữa intropin v&agrave; peptide. Kết tủa thu được sau phản ứng được lấy ra v&agrave; đem đi sấy kh&ocirc;. C&acirc;n khối lượng của kết tủa (mg) để x&aacute;c định lượng chất dopamine c&ograve;n lại trong ống nghiệm. C&aacute;c kết quả được thể hiện trong Bảng 1.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>Bảng 1</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Ống nghiệm</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Nhiệt độ của nước trong bể ($^\\circ C$)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Thể t&iacute;ch intropin th&ecirc;m v&agrave;o (ml)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Thời gian ủ (ph&uacute;t)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Khối lượng kết tủa (mg)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>25\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4,3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>25\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3,9\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>25\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>25\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>15\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>30\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3,6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>30\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>30\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>15\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,4\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>35\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>9\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>35\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>1,3\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>10\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>35\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>15\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>0,2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<strong>Th&iacute; nghiệm 2</strong><br />\nLấy 8 ống nghiệm v&agrave; đ&aacute;nh số thứ tự từ 11 đến 18, mỗi ống nghiệm được th&ecirc;m v&agrave;o 8 ml dung dịch peptide, sau đ&oacute; th&ecirc;m 2 ml dung dịch intropin. C&aacute;c ống nghiệm được khuấy với tốc độ kh&ocirc;ng đổi trong bể nước ở $10^{\\circ}C$ v&agrave; được ủ nhiệt trong 15 ph&uacute;t. Ảnh hưởng của t&iacute;nh acid đối với chất dẫn truyền thần kinh được quan s&aacute;t bằng c&aacute;ch thay đổi nồng độ acid (sử dụng thang đo pH). Lượng chất dẫn truyền thần kinh tương đối c&oacute; trong mỗi ống được x&aacute;c định tương tự như Th&iacute; nghiệm 1, bằng c&aacute;ch th&ecirc;m dung dịch NaCl v&agrave;o mỗi ống nghiệm.\n<table class=\"word-table\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"3\"><strong>Bảng 2</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Ống nghiệm</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>pH</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Khối lượng kết tủa (mg)</strong>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>11\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,5\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>12\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>5,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,7\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>13\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>6,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>2,9\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>14\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>7,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>15\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>8,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>6,2\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>16\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>9,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>4,1\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>17\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>12,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3,8\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>18\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>13,0\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>3,6\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\nKết quả được thể hiện trong Bảng 2.",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 27 đến câu 33:",
+            "range": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+            ],
+            "type": "MQ"
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Phát biểu sau đúng hay sai?<br/>Dopamine có tên thay thế là 4-(2-aminoethyl)benzene-1,4-diol có công thức cấu tạo như sau:<br/><img src=\"https://cdn.save.moe/b/b85YDwF.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772246172961-qxv7csqnm\" class=\"mx-auto\" style=\"\">",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Theo đoạn văn: “Dopamine có công thức phân tử là $C_{8}H_{11}NO_{2}$ (3,4-dihydroxyphenethylamine)” nên dopamine còn có tên gọi là 4-(2-aminoethyl)benzene-1,2-diol và có công thức cấu tạo:<br/><img src=\"https://cdn.save.moe/b/b85YDwF.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772246172961-4pupxgo5o\" class=\"mx-auto\" style=\"\">",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Các phát biểu sau đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>a, Đúng, vì: Theo đoạn văn: “Nhiều người gọi dopamine là “hormone hạnh phúc” bởi chúng có nhiều tác dụng tốt đối với tinh thần và thể chất của con người” nên mức độ dopamine lớn, bạn sẽ có cảm giác thích thú, hưng phấn, tràn đầy cảm hứng. Ngược lại, mức độ dopamine thấp sẽ làm giảm động lực, giảm sự nhiệt tình, giảm khả năng tập trung và hạn chế điều chỉnh các chuyển động của cơ thể.<br/>b, Sai, vì: Theo Bảng 2, khi độ pH tăng, khối lượng kết tủa tăng từ 2,5 mg đến 6,2 mg (tương ứng với pH từ từ 2,0 đến 8,0), sau đó giảm dần.<br/>c, Sai, vì: Theo Bảng 1, ống nghiệm 1 thu được lượng kết tủa lớn nhất (4,3 mg) ở nhiệt độ $25^{\\circ}C$ sau 0 phút ủ, với thể tích intropin được thêm vào là 2,0 ml.",
+            "contentYA": "Khi hormone hạnh phúc dopamine trong cơ thể được giải phóng với số lượng lớn, bạn sẽ có cảm giác thích thú, hưng phấn, tràn đầy cảm hứng. Ngược lại, mức độ dopamine thấp sẽ làm giảm động lực, giảm sự nhiệt tình, giảm khả năng tập trung và hạn chế điều chỉnh các chuyển động của cơ thể.",
+            "contentYB": "Từ kết quả của thí nghiệm 2 ta thấy pH có ảnh hưởng đến hoạt động của intropin, cụ thể khi độ pH của các dung dịch tăng từ 2 đến 13, hiệu quả của intropin tăng.",
+            "contentYC": "Theo Bảng 1, để tạo ra lượng kết tủa lớn nhất, ống nghiệm cần được đặt trong bể nước có nhiệt độ là $25^{\\circ}C$, thể tích intropin là 2 ml và thời gian ủ là 5 phút."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí.<br/>Trong Thí nghiệm 1, ở điều kiện <span class=\"drag-drop-blank\" data-drop-id=\"Câu 29-1\">____DRAG_DROP_1____</span> sẽ thu được lượng lớn kết tủa trong ống nghiệm 1.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "D>"
+                }
+            ],
+            "explanation": "<br/>Theo Bảng 1, khối lượng kết tủa trong ống nghiệm 1 là 4,3 mg, cao hơn so với các ống nghiệm khác ở cùng một nhiệt độ.<br/>Sự khác biệt này là do nó không được ủ nhiệt (thời gian ủ nhiệt là 0 phút).",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "thiếu intropin"
+                },
+                {
+                    "id": "B>",
+                    "content": "nhiệt độ cao"
+                },
+                {
+                    "id": "C>",
+                    "content": "thiếu nước"
+                },
+                {
+                    "id": "D>",
+                    "content": "không ủ nhiệt"
+                }
+            ]
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Thiết kế của Thí nghiệm 1 và Thí nghiệm 2 khác nhau ở điểm nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Trong Thí nghiệm 1, “mỗi ống nghiệm chứa 7 ml dung dịch peptide (chất dẫn truyền thần kinh)”. Trong Thí nghiệm 2, “mỗi ống nghiệm được thêm vào 8 ml dung dịch peptide”.<br/>Do đó, điểm khác biệt giữa hai thí nghiệm là lượng dung dịch peptide được sử dụng, trong đó, thể tích dung dịch peptide được sử dụng trong Thí nghiệm 2 cao hơn so với Thí nghiệm 1.<br/>Các phương án còn lại sai, vì:<br/>Nhiệt độ được giữ không đổi trong Thí nghiệm 2 ($10^{\\circ}C$) và thay đổi trong Thí nghiệm 2.<br/>$NaCl$ đều được thêm vào các ống nghiệm ở cả 2 thí nghiệm.<br/>Thể tích chất lỏng còn lại đều không được đo trong cả 2 thí nghiệm.",
+            "contentAnswerA": "Thể tích dung dịch peptide được sử dụng trong Thí nghiệm 2 cao hơn so với Thí nghiệm 1.",
+            "contentAnswerB": "Nhiệt độ được giữ không đổi trong Thí nghiệm 1 và thay đổi trong Thí nghiệm 2.",
+            "contentAnswerC": "$NaCl$ không được thêm vào các ống nghiệm sau khi ủ ở Thí nghiệm 2, nhưng được thêm vào ở Thí nghiệm 1.",
+            "contentAnswerD": "Thể tích chất lỏng còn lại trong các ống nghiệm được đo trong Thí nghiệm 1 nhưng không được đo trong Thí nghiệm 2."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Dựa trên kết quả của Thí nghiệm 1, nếu dung dịch $NaCl$ được thêm vào ống nghiệm 5 mà không có thời gian ủ thì dự đoán đúng nhất về khối lượng kết tủa thu được là",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Theo Bảng 1, khi ủ ở $25^{\\circ}C$, khối lượng kết tủa của ống nghiệm 1 (thời gian ủ 0 phút) và ống nghiệm 2 (thời gian ủ 5 phút) lần lượt là 4,3 mg và 3,9 mg.<br/>Khi ủ ở $30^{\\circ}C$, ống nghiệm 5 (thời gian ủ 5 phút) có khối lượng kết tủa là 3,6 mg (thấp hơn khối lượng của ống nghiệm 2 trong cùng thời gian ủ).<br/>Do đó, có thể dự đoán rằng nếu ống nghiệm 5 không được ủ (thời gian ủ 0 phút), khối lượng kết tủa thu được sẽ có giá trị cao hơn 3,6 mg và thấp hơn khối lượng của ống nghiệm 1 có cùng thời gian ủ.<br/>$\\rightarrow$ Dự đoán đúng nhất về khối lượng kết tủa thu được là 4,1 mg.",
+            "contentAnswerA": "4,1 mg.",
+            "contentAnswerB": "3,5 mg.",
+            "contentAnswerC": "2,1 mg.",
+            "contentAnswerD": "1,4 mg."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Theo kết quả của cả hai thí nghiệm, người ta có thể dự đoán rằng: khi thêm intropin thì lượng kết tủa thu được là ít nhất nếu các ống nghiệm được ủ trong 15 phút ở điều kiện nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Theo Bảng 1, xét các ống nghiệm được thêm intropin có thời gian ủ 15 phút, khối lượng kết tủa nhỏ nhất đối với ống nghiệm 7 (ở nhiệt độ ủ $30^{\\circ}C$).<br/>Theo Bảng 2, khối lượng kết tủa nhỏ nhất đối với ống nghiệm 11 (có pH = 2,0).<br/>Do đó, kết hợp hai điều kiện này, khối lượng kết tủa thu được là ít nhất nếu các ống nghiệm được thêm intropin ủ ở $30^{\\circ}C$ trong 15 phút và môi trường có pH = 2,0.",
+            "contentAnswerA": "$20^{\\circ}C$ ở pH 2,0.",
+            "contentAnswerB": "$20^{\\circ}C$ ở pH 6,0.",
+            "contentAnswerC": "$30^{\\circ}C$ ở pH 2,0.",
+            "contentAnswerD": "$30^{\\circ}C$ ở pH 6,0."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Điền số thích hợp vào chỗ trống<br/>Theo Bảng 1, để tạo ra lượng kết tủa ít nhất, ống nghiệm cần được đặt trong bể nước có nhiệt độ là <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> $^{\\circ}C$, thể tích intropin là <span class=\"fill-blank\" data-blank-id=\"Câu 33-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> ml và thời gian ủ là <span class=\"fill-blank\" data-blank-id=\"Câu 33-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span> phút.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        35
+                    ]
+                },
+                {
+                    "2.": [
+                        0
+                    ]
+                },
+                {
+                    "3.": [
+                        15
+                    ]
+                }
+            ],
+            "explanation": "<br/>Theo Bảng 1, ống nghiệm 10 thu được lượng kết tủa ít nhất (0,2 mg) ở nhiệt độ $35^{\\circ}C$ sau 15 phút ủ, với thể tích intropin được thêm vào là 0 ml."
+        },
+        {
+            "question": "a5040aa8-fc0e-4c5f-84a8-5c47d0277e11",
+            "contentQuestions": "<br/>Máu khó đông là bệnh do gene nằm trên NST giới tính X, và không có allele tương ứng trên Y. Cho sơ đồ phả hệ sau:<br/><img src=\"https://cdn.save.moe/b/PpAwog.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772246172961-j3o5060n6\" class=\"mx-auto\" style=\"\"><br/>Một cặp vợ chồng có mong muốn xác định khả năng truyền bệnh cho những đứa con tương lai của họ vì bệnh máu khó đông đã di truyền trong gia đình người phụ nữ.",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 34 đến câu 38:",
+            "range": [
+                34,
+                35,
+                36,
+                37,
+                38
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "C&oacute; thể x&aacute;c định ch&iacute;nh x&aacute;c kiểu gene của <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> người trong phả hệ tr&ecirc;n.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>- Có thể xác định được tất cả người con trai trong sơ đồ phả hệ (do gene trên NSY X nên người XY chỉ mang 1 allele --> biểu hiện ra kiểu hình vuông)<br/>- Bố mẹ 1,2 bình thường sinh con trai 1 bệnh nên người mẹ mang gene bệnh (XAXa)"
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Giả sử người phụ nữ trong cặp vợ chồng 6,7 này là người mang gene bệnh, xác suất con trai đầu lòng của cặp vợ chồng này bị bệnh máu khó đông là bao nhiêu?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>- Kiểu gene của cặp vợ chồng 6,7: $X^A X^a \\times X^A Y$<br/>$\\rightarrow$ Xác suất sinh con trai bị bệnh $=25\\%$",
+            "contentAnswerA": "0%.",
+            "contentAnswerB": "25%.",
+            "contentAnswerC": "50%",
+            "contentAnswerD": "100%."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Cả hai người phụ nữ trong phả hệ ở trên đều không mắc bệnh vì họ có ít nhất một NST bình thường (không bị ảnh hưởng) trong kiểu gene.<br/>Nhận định trên đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Cả 2 người phụ nữ đều mang allele bệnh nhưng biểu hiện tính trạng bình thường do họ có 1 allen trội trên NST $X$<br/>$\\rightarrow$ Kiểu gene $X^A X^A$",
+            "contentAnswerA": "Đúng",
+            "contentAnswerB": "Sai"
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Hội chứng Turner một hội chứng đột biến NST giới t&iacute;nh, trong đ&oacute; đứa trẻ được sinh ra chỉ với một nhiễm sắc thể $X$ ($XO$). Giả sử một gia đ&igrave;nh b&igrave;nh thường mang mầm bệnh m&aacute;u kh&oacute; đ&ocirc;ng v&agrave; c&oacute; một đứa con mắc hội chứng Turner. Trong những nhận định dưới đ&acirc;y, c&aacute;c nhận định đ&uacute;ng l&agrave;?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c4"
+            ],
+            "explanation": "<br/>- Người con mắc hội chứng Turner có thể mắc cả bệnh máu khó đông.<br/>- Đã xảy ra rối loạn phân li NST trong giảm phân của người bố hoặc người mẹ tạo ra giao tử thiếu NST giới tính.",
+            "contentC1": "Người con mắc hội chứng Turner có thể mắc cả bệnh máu khó đông.",
+            "contentC2": "Người bố đã di truvền NST $X$ bình thường cho người con trên.",
+            "contentC3": "Có thể trong quá trình giảm phân của người mẹ, cặp NST giới tính trong giảm phân 2 không phân li tạo ra 2 loại giao tử $X$ và $O$.",
+            "contentC4": "Đã xảy ra rối loạn phân li NST trong giảm phân của người bố hoặc người mẹ tạo ra giao tử thiếu NST giới tính."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Ở người, đặc điểm của tính trạng do gene lặn nằm trên NST giới tính $X$ không có allele tương ứng trên $Y$ là",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ở người, đặc điểm của tính trạng do gene lặn nằm trên NST giới tính $X$ không có allele tương ứng trên $Y$ là tính trạng lặn gặp nhiều ở giới tính nam.",
+            "contentAnswerA": "Di truyền như NST thường.",
+            "contentAnswerB": "Tính trạng lặn gặp nhiều ở giới tính nữ.",
+            "contentAnswerC": "Di truyền như NST thường.",
+            "contentAnswerD": "Tỉ lệ phân li kiểu hình giống nhau ở cả nam và nữ."
+        },
+        {
+            "question": "e51ab572-0041-498b-bb5b-b20a1e5cb278",
+            "contentQuestions": "<br />\nTh&iacute; nghiệm ảnh hưởng của nhiệt độ ở v&ugrave;ng rễ đến khả năng hấp thụ kho&aacute;ng của c&acirc;y dưa chuột (Cucumis sativus L.) được tiến h&agrave;nh v&agrave; kết quả th&iacute; nghiệm n&agrave;y được tr&igrave;nh b&agrave;y ở bảng dưới đ&acirc;y.\n<table class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\"><strong>Nhiệt độ</strong></td>\n\t\t\t<td colspan=\"3\"><strong>Tổng lượng chất kho&aacute;ng hấp thụ được (mg/kg chất kh&ocirc;)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>$N$</strong></td>\n\t\t\t<td><strong>$P$</strong></td>\n\t\t\t<td><strong>$K$</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>$10 ^\\circ C$</td>\n\t\t\t<td>13,48</td>\n\t\t\t<td>18,98</td>\n\t\t\t<td>7,45</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>$20 ^\\circ C$</td>\n\t\t\t<td>21,47</td>\n\t\t\t<td>20,97</td>\n\t\t\t<td>15,23</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "title": " Dựa theo thông tin dưới đây và trả lời các câu hỏi sau từ câu 39 đến câu 40:",
+            "range": [
+                39,
+                40
+            ],
+            "type": "MQ",
+            "explanation": ""
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Kéo thả/điền các cụm từ thích hợp vào chỗ trống:<br/>Từ kết quả của thí nghiệm trên cho thấy nhiệt độ thấp ảnh hưởng nhiều nhất tới khả năng hấp thụ <span class=\"drag-drop-blank\" data-drop-id=\"Câu 39-1\">____DRAG_DROP_1____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "C>"
+                }
+            ],
+            "explanation": "<br/>Phương pháp giải<br/>So sánh số liệu đã được cung cấp trong bảng 'Tổng lượng chất hấp thụ được (mg/kg chất khô)<br/>Giải chi tiết",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$N$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$P$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$K$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Nếu tiếp tục tăng nhiệt độ ở vùng rễ thì khả năng hấp thụ khoảng càng tăng.<br/>Nhận định trên đúng hay sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Phương pháp giải<br/>Dựa vào thông tin được cung cấp trong bài đọc và số liệu được cung cấp trong bảng.<br/>Quan tâm đến giới hạn sinh thái (nhiệt) ở thực vật.<br/>Giới hạn sinh thái là khoảng giá trị xác định của một nhân tố sinh thái mà trong khoảng đó sinh vật có thể tồn tại và phát triển ổn định.<br/>Giải chi tiết<br/>Nếu nhiệt độ tăng quá cao vượt qua giới hạn nhiệt độ của cây có thể gây rối loạn quá trình sinh lí trong cây, gây giảm hấp thụ hoặc chết cây.",
+            "contentAnswerA": "Đúng.",
+            "contentAnswerB": "Sai."
+        }
+    ],
+    "subject": "TƯ DUY KHOA HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-02-28T02:38:53.678Z",
+    "updatedAt": "2026-03-01T12:27:33.316Z",
+    "__v": 0
+}
