@@ -1,0 +1,906 @@
+{
+    "_id": "69b2d345122c65b6a4870856",
+    "title": "[AECK]-Tư Duy Toán Học-Đề Dự đoán TSA Số 3-Đợt 2",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 2": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 3": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "B>"
+            }
+        ],
+        "Câu 4": [
+            4
+        ],
+        "Câu 5": [
+            {
+                "1.": [
+                    45000
+                ]
+            },
+            {
+                "2.": [
+                    3
+                ]
+            }
+        ],
+        "Câu 6": [
+            5
+        ],
+        "Câu 7": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 8": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "B>"
+            }
+        ],
+        "Câu 9": [
+            1
+        ],
+        "Câu 10": [
+            {
+                "1.": [
+                    0.21
+                ]
+            },
+            {
+                "2.": [
+                    0.45
+                ]
+            }
+        ],
+        "Câu 11": "A",
+        "Câu 12": "A",
+        "Câu 13": [
+            1
+        ],
+        "Câu 14": "A",
+        "Câu 15": [
+            50
+        ],
+        "Câu 16": [
+            13
+        ],
+        "Câu 17": [
+            60
+        ],
+        "Câu 18": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 19": [
+            136
+        ],
+        "Câu 20": [
+            {
+                "1.": [
+                    1
+                ]
+            },
+            {
+                "2.": [
+                    2
+                ]
+            },
+            {
+                "3.": [
+                    3
+                ]
+            }
+        ],
+        "Câu 21": [
+            3
+        ],
+        "Câu 22": [
+            8
+        ],
+        "Câu 23": [
+            7
+        ],
+        "Câu 24": [
+            -9
+        ],
+        "Câu 25": [
+            88
+        ],
+        "Câu 26": "B",
+        "Câu 27": [
+            "c1",
+            "c2"
+        ],
+        "Câu 28": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 29": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 30": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            }
+        ],
+        "Câu 31": [
+            {
+                "1.": [
+                    40
+                ]
+            },
+            {
+                "2.": [
+                    13
+                ]
+            },
+            {
+                "3.": [
+                    6
+                ]
+            }
+        ],
+        "Câu 32": [
+            9.42
+        ],
+        "Câu 33": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            }
+        ],
+        "Câu 34": [
+            495
+        ],
+        "Câu 35": [
+            17
+        ],
+        "Câu 36": [
+            99
+        ],
+        "Câu 37": [
+            {
+                "1.": [
+                    0
+                ]
+            },
+            {
+                "2.": [
+                    4
+                ]
+            },
+            {
+                "3.": [
+                    0
+                ]
+            },
+            {
+                "4.": [
+                    0
+                ]
+            },
+            {
+                "5.": [
+                    4
+                ]
+            },
+            {
+                "6.": [
+                    8
+                ]
+            }
+        ],
+        "Câu 38": "D",
+        "Câu 39": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 40": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "S"
+            }
+        ]
+    },
+    "startTime": "2026-02-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Cho $a,b$ là các số dương thỏa mãn $\\log_9 a = \\log_{16} b = \\log_{10} \\dfrac{4b-a}{2}$. Trong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>Đặt $\\log_9 a = \\log_{16} b = \\log_{10} \\dfrac{4b-a}{2} = t$. Ta có: $\\begin{cases} a = 9^t \\\\ b = 16^t \\\\ \\dfrac{4b-a}{2} = 10^t \\Rightarrow 4b - a = 2 \\cdot 10^t \\end{cases}$<br/>Thay $a, b$ vào phương trình cuối: $4 \\cdot 16^t - 9^t = 2 \\cdot 10^t \\Leftrightarrow 4 \\cdot 16^t - 2 \\cdot 10^t - 9^t = 0 \\quad (1)$<br/>Nên ta thấy phát biểu a) có dấu $+2 \\cdot 10^t$ là sai. $\\rightarrow$ Mệnh đề a) Sai.<br/>Chia hai vế của (1) cho $9^t > 0$, ta được:<br/>$4 \\cdot \\left(\\dfrac{16}{9}\\right)^t - 2 \\cdot \\left(\\dfrac{10}{9}\\right)^t - 1 = 0 \\Leftrightarrow 4 \\cdot \\left(\\dfrac{4}{3}\\right)^{2t} - 2 \\cdot \\left(\\dfrac{4}{3}\\right)^t - 1 = 0$<br/>Đặt $x = \\left(\\dfrac{4}{3}\\right)^t$ ($x > 0$), phương trình trở thành $4x^2 - 2x - 1 = 0$.<br/>Giải ra ta được: $x = \\dfrac{1+\\sqrt{5}}{4}$ (nhận) hoặc $x = \\dfrac{1-\\sqrt{5}}{4}$ (loại).<br/>Suy ra: $\\left(\\dfrac{4}{3}\\right)^t = \\dfrac{1+\\sqrt{5}}{4}$.<br/>Vì $\\dfrac{1+\\sqrt{5}}{4}  1$, do đó $t < 0$.$\\rightarrow$ Mệnh đề b) Đúng.<br/>Ta có: $\\dfrac{a}{b} = \\dfrac{9^t}{16^t} = \\left(\\dfrac{3}{4}\\right)^{2t} = \\dfrac{1}{x^2}$.<br/>$x^2 = \\left(\\dfrac{1+\\sqrt{5}}{4}\\right)^2 = \\dfrac{6+2\\sqrt{5}}{16} = \\dfrac{3+\\sqrt{5}}{8}$<br/>Suy ra: $\\dfrac{a}{b} = \\dfrac{8}{3+\\sqrt{5}} = \\dfrac{8(3-\\sqrt{5})}{9-5} = 2(3-\\sqrt{5}) = 6 - 2\\sqrt{5} = (\\sqrt{5}-1)^2$<br/>Khác với $\\left(\\dfrac{1+\\sqrt{6}}{4}\\right)^2$. $\\rightarrow$ Mệnh đề c) Sai.",
+            "contentYA": "Đặt $\\log_9 a = \\log_{16} b = \\log_{10} \\dfrac{4b-a}{2} = t$. Khi đó ta có: $4 \\cdot 16^t - 9^t + 2 \\cdot 10^t = 0$.",
+            "contentYB": "$t < 0$.",
+            "contentYC": "$\\dfrac{a}{b} = \\left(\\dfrac{1+\\sqrt{6}}{4}\\right)^2$."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho hàm số $y=f(x)$ và $y=g(x)$ xác định và có đạo hàm trên khoảng $(a; b)$ và $(c; d)$. Trong các khẳng định sau, khẳng định nào đúng, khẳng định nào sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>- Tính đơn điệu không được kết luận trên một tập hợp là hợp của các khoảng, mà chỉ kết luận trên từng khoảng rời nhau. (Ví dụ $y=\\dfrac{2x+1}{x-1}$ nghịch biến trên từng khoảng xác định, nhưng không nghịch biến trên $\\mathbb{R} \\setminus \\{1\\}$). $\\rightarrow$ Mệnh đề a) Sai.<br/>- Hàm số $f(x)$ có thể đổi dấu qua trục hoành, khi đó hàm số $\\dfrac{1}{f(x)}$ sẽ không liên tục và không đồng biến hoặc nghịch biến trên toàn khoản đó (Ví dụ $f(x) = x$ trên khoảng $(-1;1)$). Hoặc kể cả khi $f(x) > 0$ thì đạo hàm là $-\\dfrac{f'(x)}{f^2(x)} < 0$ (nghịch biến chứ không đồng biến). $\\rightarrow$ Mệnh đề b) Sai.<br/>- Ta có: $[f(x) - g(x)]' = f'(x) - g'(x)$.<br/>Vì $f(x)$ đồng biến trên $(a;b)$ nên $f'(x) \\ge 0$.<br/>Vì $g(x)$ nghịch biến trên $(a;b)$ nên $g'(x) \\le 0 \\Rightarrow -g'(x) \\ge 0$.<br/>Do đó $f'(x) - g'(x) \\ge 0, \\forall x \\in (a;b)$, và nếu có bằng $0$ cũng chỉ tại một số điểm hữu hạn. Vậy hàm số $f(x) - g(x)$ đồng biến trên $(a;b)$. $\\rightarrow$ Mệnh đề c) Đúng.",
+            "contentYA": "Nếu hàm số $f(x)$ đồng biến trên các khoảng $(a;b)$ và $(c;d)$ thì hàm số $f(x)$ đồng biến trên khoảng $(a;b) \\cup (c;d)$.",
+            "contentYB": "Nếu hàm số $f(x)$ đồng biến trên khoảng $(a;b)$ thì hàm số $\\dfrac{1}{f(x)}$ đồng biến trên khoảng $(a;b)$.",
+            "contentYC": "Nếu hàm số $y=f(x)$ đồng biến trên khoảng $(a;b)$ và hàm số $y=g(x)$ nghịch biến trên khoảng $(a;b)$ thì hàm số $f(x)-g(x)$ đồng biến trên khoảng $(a;b)$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Kéo thả các đáp án sau vào chỗ trống:<br/>Cho hàm số $f(x) = -2\\sin x - 6\\cos x + 6$ xác định trên $\\mathbb{R}$.<br/>- Giá trị lớn nhất của $f(x)$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-1\">____DRAG_DROP_1____</span>.<br/>- Cho $x \\in (0; 20)$, số nghiệm của phương trình $f(x) = 0$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 3-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "B>"
+                }
+            ],
+            "explanation": "<br/>1) Ta có $-2\\sin x - 6\\cos x = \\sqrt{(-2)^2+(-6)^2}\\sin(x+\\alpha) = \\sqrt{40}\\sin(x+\\alpha) = 2\\sqrt{10}\\sin(x+\\alpha)$, với $\\cos\\alpha = \\dfrac{-2}{2\\sqrt{10}}, \\sin\\alpha = \\dfrac{-6}{2\\sqrt{10}}$.<br/>Vì $-1 \\le \\sin(x+\\alpha) \\le 1$ nên bổ sung số hạng tự do $6$: $6 - 2\\sqrt{10} \\le -2\\sin x - 6\\cos x + 6 \\le 6 + 2\\sqrt{10}$<br/>Vậy giá trị lớn nhất của $f(x)$ là $6+2\\sqrt{10}$.<br/>2) Phương trình: $f(x) = 0 \\Leftrightarrow -2\\sin x - 6\\cos x + 6 = 0 \\Leftrightarrow \\sin x + 3\\cos x = 3$.<br/>Chia cả 2 vế cho $\\sqrt{1^2+3^2}=\\sqrt{10}$: $\\dfrac{1}{\\sqrt{10}}\\sin x + \\dfrac{3}{\\sqrt{10}}\\cos x = \\dfrac{3}{\\sqrt{10}}$<br/>Gọi góc $\\beta \\in \\left(0; \\dfrac{\\pi}{2}\\right)$ thỏa mãn $\\sin \\beta = \\dfrac{1}{\\sqrt{10}}$ và $\\cos \\beta = \\dfrac{3}{\\sqrt{10}}$.<br/>Ta được: $\\cos(x - \\beta) = \\cos \\beta \\Leftrightarrow \\left[ \\begin{aligned} & x - \\beta = \\beta + k2\\pi \\\\ & x - \\beta = -\\beta + k2\\pi \\end{aligned} \\right. \\Leftrightarrow \\left[ \\begin{aligned} & x = 2\\beta + k2\\pi \\\\ & x = k2\\pi \\end{aligned} \\right. \\quad (k \\in \\mathbb{Z})$.<br/>Dùng máy tính, $\\beta \\approx 0,3217$ rad.<br/>Do $x \\in (0; 20)$:<br/>- Với họ $x = k2\\pi$: $0 < 6,28k < 20 \\Rightarrow k \\in \\{1, 2, 3\\}$. (có $3$ nghiệm).<br/>- Với họ $x = 2\\beta + k2\\pi$: $0 < 0,643 + 6,28k < 20 \\Rightarrow -0,102 < k < 3,08 \\Rightarrow k \\in \\{0, 1, 2, 3\\}$. (có $4$ nghiệm).<br/>Vậy phương trình có tổng cộng 7 nghiệm.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$6 + 2\\sqrt{10}$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$7$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$6 - 2\\sqrt{10}$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$14$"
+                },
+                {
+                    "id": "E>",
+                    "content": "$6$"
+                },
+                {
+                    "id": "F>",
+                    "content": "$8$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Cho phương trình: $4^x - m \\cdot 2^{x+1} + 2m = 0$ có hai nghiệm $x_1, x_2$ phân biệt. Biết $x_1 + x_2 = 3$. Giá trị của $m$ là <span class=\"fill-blank\" data-blank-id=\"Câu 4-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                4
+            ],
+            "explanation": "<br/>Phương trình viết lại dạng: $(2^x)^2 - 2m \\cdot 2^x + 2m = 0$<br/>Đặt $t = 2^x \\quad (t > 0)$. Phương trình trở thành: $t^2 - 2mt + 2m = 0 \\quad (1)$<br/>Để phương trình ban đầu có hai nghiệm phân biệt $x_1, x_2$ thì phương trình (1) phải có hai nghiệm dương phân biệt $t_1, t_2$.<br/>Khi đó, ta có các điều kiện: $\\begin{cases} \\Delta' = m^2 - 2m > 0 \\\\ S = t_1 + t_2 = 2m > 0 \\\\ P = t_1 \\cdot t_2 = 2m > 0 \\end{cases} \\Leftrightarrow \\begin{cases} \\left[ \\begin{aligned} & m < 0 \\\\ & m > 2 \\end{aligned} \\right. \\\\ m > 0 \\end{cases} \\Leftrightarrow m > 2$<br/>Theo định lý Vi-et ta có $t_1 t_2 = 2m$.<br/>Mặt khác: $t_1 t_2 = 2^{x_1} \\cdot 2^{x_2} = 2^{x_1+x_2} = 2^3 = 8$.<br/>Vậy $2m = 8 \\Leftrightarrow m = 4$ (thoả mãn điều kiện $m > 2$).<br/>Kết luận $m = 4$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Bạn An đi chợ và muốn mua một món đồ có giá 39 000 đồng, biết rằng An có một sấp các tờ 5 000 đồng và người bán có một sấp các tờ 2 000 đồng.<br/>- An phải trả tối thiểu số tiền là <span class=\"fill-blank\" data-blank-id=\"Câu 5-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> đồng.<br/>- Số tờ tối thiểu mà người bán trả lại An là <span class=\"fill-blank\" data-blank-id=\"Câu 5-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        45000
+                    ]
+                },
+                {
+                    "2.": [
+                        3
+                    ]
+                }
+            ],
+            "explanation": "<br/>Gọi số tờ 5.000 đồng An phải trả là $x$ ($x \\in \\mathbb{N}^*$).<br/>Gọi số tờ 2.000 đồng người bán phải trả lại là $y$ ($y \\in \\mathbb{N}^*$).<br/>Theo đề bài, ta có phương trình: $5000x - 2000y = 39000 \\Leftrightarrow 5x - 2y = 39$<br/>Để số tiền An phải trả ($5000x$) là tối thiểu, thì $x$ phải là số nguyên dương nhỏ nhất thỏa mãn phương trình.<br/>Ta có: $2y = 5x - 39$.<br/>Vì $y > 0 \\Rightarrow 5x > 39 \\Rightarrow x \\ge \\dfrac{39}{5} = 7,8 \\Rightarrow x \\ge 8$.<br/>Mặt khác $2y$ là số chẵn nguyên dương, nên $5x - 39$ cũng phải là số chẵn, suy ra $x$ phải là số lẻ.<br/>Số lẻ nhỏ nhất thỏa mãn $x \\ge 8$ là $x = 9$.<br/>Thay $x = 9$ vào phương trình rút thế: $2y = 5 \\cdot 9 - 39 = 6 \\Rightarrow y = 3$.<br/>Vậy số tiền An phải trả tối thiểu là $9 \\times 5000 = 45000$ (đồng).<br/>Số tờ tối thiểu mà người bán trả lại An là 3 tờ."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Cho dãy số sau thỏa mãn $u_1 = 1; u_2 = 3; u_3 = 7; u_4 = 15; u_5 = 31; \\dots$. Chữ số tận cùng của $u_{2000}$ là <span class=\"fill-blank\" data-blank-id=\"Câu 6-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                5
+            ],
+            "explanation": "<br/>Ta nhận thấy quy luật của dãy số:<br/>$u_1 = 1 = 2^1 - 1$<br/>$u_2 = 3 = 2^2 - 1$<br/>$u_3 = 7 = 2^3 - 1$<br/>$u_4 = 15 = 2^4 - 1$<br/>$u_5 = 31 = 2^5 - 1$<br/>Tổng quát: $u_n = 2^n - 1$.<br/>Vậy $u_{2000} = 2^{2000} - 1$.<br/>Ta tìm chữ số tận cùng của $u_{2000}$, tức là số dư của nó khi chia cho 10.<br/>Chữ số tận cùng của các luỹ thừa cơ số 2 có chu kỳ vòng lặp 4 là: $2, 4, 8, 6$.<br/>Vì $2000 \\vdots 4$ nên chữ số tận cùng của $2^{2000}$ giống chữ số tận cùng của $2^4$, tức là số $6$.<br/>Vậy chữ số tận cùng của $u_{2000} = 2^{2000} - 1$ là $6 - 1 = 5$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Trong không gian $Oxyz$ cho ba điểm $A(1;2;4), B(4;2;4), C(1;-2;4)$. Các phát biểu sau là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>- Điểm đối xứng của $A(1;2;4)$ qua mặt phẳng $(Oxy)$ (mặt phẳng $z=0$) có toạ độ là $A'(1; 2; -4)$. Điểm $C(1; -2; 4) \\ne A'$. Vậy $C$ không phải là điểm đối xứng của $A$ qua mặt phẳng $Oxy$. (Thực tế $C$ đối xứng với $A$ qua mặt phẳng $(Oxz)$ vì tung độ đối nhau, hoành độ và cao độ giữ nguyên). $\\rightarrow$ Mệnh đề 1 Sai.<br/>- Vectơ $\\overrightarrow{BA} = (x_A - x_B; y_A - y_B; z_A - z_B) = (1 - 4; 2 - 2; 4 - 4) = (-3; 0; 0)$. Vectơ $\\overrightarrow{BA}$ không phải là $(3;0;-4)$. $\\rightarrow$ Mệnh đề 2 Sai.<br/>- Ta thấy điểm $A(1;2;4)$ và $B(4;2;4)$ nằm cùng phía so với mặt phẳng $(Oxz)$ (mặt phẳng $y=0$) vì có cùng tung độ dương $y_A = y_B = 2 > 0$.<br/>Gọi $A'$ là điểm đối xứng của $A$ qua $(Oxz)$, ta có $A'(1; -2; 4)$.<br/>Vì $M \\in (Oxz)$, ta có $MA = MA'$ nên $MA + MB = MA' + MB \\ge A'B$.<br/>Dấu bằng xảy ra khi $M$, $A'$, $B$ thẳng hàng.<br/>Mặt khác, điểm $C(1; -2; 4)$ chính là điểm $A'$, nên $\\min(MA + MB) = A'B = CB$.<br/>$\\rightarrow$ Mệnh đề 3 đúng",
+            "contentYA": "$C$ là điểm đối xứng của $A$ qua mặt phẳng $Oxy$.",
+            "contentYB": "$\\overrightarrow{BA} = (3;0;-4)$.",
+            "contentYC": "Điểm $M \\in (Oxz)$. Giá trị nhỏ nhất của $MA + MB$ là bằng $BC$."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Cho tứ diện đều có cạnh bằng 1. $M$ là trung điểm của $CD$. Kéo số ở các ô vuông thả vào vị trí thích hợp trong các câu sau:<br/>- $\\overrightarrow{AD} \\cdot \\overrightarrow{BM}$ = <span class=\"drag-drop-blank\" data-drop-id=\"Câu 8-1\">____DRAG_DROP_1____</span><br/>- Góc giữa $\\overrightarrow{AD}$ và $\\overrightarrow{BM}$ bằng <span class=\"drag-drop-blank\" data-drop-id=\"Câu 8-2\">____DRAG_DROP_2____</span>",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "B>"
+                }
+            ],
+            "explanation": "<br />\nGọi tứ diện đều l&agrave; $ABCD$ c&aacute;c cạnh bằng 1. $M$ l&agrave; trung điểm của $CD$.<br />\n$ \\overrightarrow{AD} \\cdot \\overrightarrow{BM} = \\overrightarrow{AD} \\cdot (\\overrightarrow{AM} - \\overrightarrow{AB}) = \\overrightarrow{AD} \\cdot \\overrightarrow{AM} - \\overrightarrow{AD} \\cdot \\overrightarrow{AB} $<br />\nMặt kh&aacute;c, $\\overrightarrow{AD} \\cdot \\overrightarrow{CD} = \\overrightarrow{AD} \\cdot (\\overrightarrow{AD} - \\overrightarrow{AC}) = AD^2 - \\overrightarrow{AD} \\cdot \\overrightarrow{AC} = 1 - 1 \\cdot 1 \\cdot \\cos 60^\\circ = 1 - \\dfrac{1}{2} = \\dfrac{1}{2}$.<br />\n$ \\overrightarrow{AD} \\cdot \\overrightarrow{BM} = \\overrightarrow{AD} \\cdot \\left( \\overrightarrow{BD} + \\overrightarrow{DM} \\right) = \\overrightarrow{AD} \\cdot \\overrightarrow{BD} + \\overrightarrow{AD} \\cdot \\dfrac{1}{2}\\overrightarrow{DC} $<br />\n$ = \\overrightarrow{AD} \\cdot (\\overrightarrow{AD} - \\overrightarrow{AB}) - \\dfrac{1}{2} \\overrightarrow{AD} \\cdot \\overrightarrow{CD} $<br />\n$ = AD^2 - \\overrightarrow{AD} \\cdot \\overrightarrow{AB} - \\dfrac{1}{2} \\cdot \\dfrac{1}{2} = 1 - \\dfrac{1}{2} - \\dfrac{1}{4} = \\dfrac{1}{4} $<br />\nVậy $\\overrightarrow{AD} \\cdot \\overrightarrow{BM} = \\dfrac{1}{4}$.<br />\n$\\overrightarrow{BM}$ l&agrave; độ d&agrave;i đoạn $BM$. X&eacute;t tam gi&aacute;c đều $BCD$ cạnh bằng $1$, $BM$ l&agrave; đường trung tuyến (đồng thời l&agrave; đường cao) n&ecirc;n: $|\\overrightarrow{BM}| = BM = \\dfrac{\\sqrt{3}}{2}$<br />\nG&oacute;c giữa $\\overrightarrow{AD}$ v&agrave; $\\overrightarrow{BM}$ c&oacute;: $\\cos(\\overrightarrow{AD}, \\overrightarrow{BM}) = \\dfrac{\\overrightarrow{AD} \\cdot \\overrightarrow{BM}}{AD \\cdot BM} = \\dfrac{1/4}{1 \\cdot \\dfrac{\\sqrt{3}}{2}} = \\dfrac{1}{2\\sqrt{3}} = \\dfrac{\\sqrt{3}}{6}$.<br />\nVậy g&oacute;c giữa $\\overrightarrow{AD}$ v&agrave; $\\overrightarrow{BM}$ l&agrave;: $\\arccos\\left(\\dfrac{\\sqrt{3}}{6}\\right)$",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$0,25$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$\\arccos(\\frac{\\sqrt{3}}{6})$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$0$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$90^\\circ$"
+                },
+                {
+                    "id": "E>",
+                    "content": "$0,5$"
+                },
+                {
+                    "id": "F>",
+                    "content": "$30^\\circ$"
+                },
+                {
+                    "id": "G>",
+                    "content": "$60^\\circ$"
+                }
+            ]
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Cho hàm số $y = m x^3 - 3x^2 + 3x + 2$. Giá trị nguyên dương nhỏ nhất của $m$ để hàm số đồng biến trên $\\mathbb{R}$ <span class=\"fill-blank\" data-blank-id=\"Câu 9-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br/>Tập xác định: $D = \\mathbb{R}$.<br/>Đạo hàm: $y' = 3mx^2 - 6x + 3$.<br/>Để hàm số đồng biến trên $\\mathbb{R}$ thì $y' \\ge 0, \\forall x \\in \\mathbb{R}$.<br/>Tức là: $3mx^2 - 6x + 3 \\ge 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow mx^2 - 2x + 1 \\ge 0, \\forall x \\in \\mathbb{R} \\quad (*)$<br/>- Nếu $m = 0$: Bất phương trình $(*)$ trở thành $-2x + 1 \\ge 0 \\Leftrightarrow x \\le \\dfrac{1}{2}$ (không thỏa mãn $\\forall x \\in \\mathbb{R}$).<br/>Vậy $m = 0$ loại.<br/>- Nếu $m \\ne 0$: Yêu cầu bài toán thỏa mãn khi và chỉ khi: $\\begin{cases} a > 0 \\\\ \\Delta' \\le 0 \\end{cases} \\Leftrightarrow \\begin{cases} m > 0 \\\\ (-1)^2 - m \\cdot 1 \\le 0 \\end{cases} \\Leftrightarrow \\begin{cases} m > 0 \\\\ 1 - m \\le 0 \\end{cases} \\Leftrightarrow \\begin{cases} m > 0 \\\\ m \\ge 1 \\end{cases} \\Leftrightarrow m \\ge 1$. Vậy $m \\ge 1$.<br/>Vậy giá trị nguyên dương nhỏ nhất là $m = 1$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Cho hai hộp đựng bi: Hộp 1 có 4 đỏ, 6 xanh. Hộp 2 có 2 đỏ, 8 xanh. Chọn ngẫu nhiên ở mỗi hộp hai viên bi.<br/>- Xác suất để chọn được 4 viên màu xanh là <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/>- Xác suất để chọn được 1 đỏ, 3 xanh là <span class=\"fill-blank\" data-blank-id=\"Câu 10-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>.<br/>(Tất cả kết quả làm tròn đến hàng phần trăm)",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        0.21
+                    ]
+                },
+                {
+                    "2.": [
+                        0.45
+                    ]
+                }
+            ],
+            "explanation": "<br/>Số cách chọn 2 viên bi từ hộp 1 (có $4+6=10$ viên) là: $n(\\Omega_1) = C{10}^2 = 45$. Số cách chọn 2 viên bi từ hộp 2 (có $2+8=10$ viên) là: $n(\\Omega_2) = C{10}^2 = 45$.<br/>Tổng số cách chọn ngẫu nhiên ở mỗi hộp 2 viên bi là: $n(\\Omega) = n(\\Omega_1) \\cdot n(\\Omega_2) = 45 \\times 45 = 2025$.<br/>a, Biến cố A: \"Chọn được 4 viên màu xanh\". Tức là chọn 2 viên xanh từ hộp 1 và 2 viên xanh từ hộp 2.<br/>Số cách chọn 2 xanh từ hộp 1 (có 6 xanh): $C_6^2 = 15$.<br/>Số cách chọn 2 xanh từ hộp 2 (có 8 xanh): $C_8^2 = 28$.<br/>$n(A) = 15 \\times 28 = 420$.<br/>$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{420}{2025} \\approx 0,21$.<br/>b, Biến cố B: \"Chọn được 1 đỏ, 3 xanh\".<br/>Có 2 trường hợp:<br/>TH1: 1 đỏ, 1 xanh từ hộp 1; 2 xanh từ hộp 2.<br/>Số cách: $(C_4^1 \\cdot C_6^1) \\cdot C_8^2 = (4 \\cdot 6) \\cdot 28 = 24 \\cdot 28 = 672$.<br/>TH2: 2 xanh từ hộp 1; 1 đỏ, 1 xanh từ hộp 2.<br/>Số cách: $C_6^2 \\cdot (C_2^1 \\cdot C_8^1) = 15 \\cdot (2 \\cdot 8) = 15 \\cdot 16 = 240$.<br/>$n(B) = 672 + 240 = 912$.<br/>$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{912}{2025} \\approx 0,45$."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Một quả dưa hấu có mặt cắt qua trục có dạng như hình elip. Chiều dài của quả dưa là 30 cm, khi bổ theo phương vuông góc với trục quả dưa ta được thiết diện lớn nhất là hình tròn có diện tích là $254,769 cm^2$. Biết vỏ quả dưa dày $1 cm$. Hỏi nếu đem toàn bộ phần ruột dưa đi ép nước (giả sử $1 cm^3$ ruột dưa ép được $1 ml$ nước) thì thu được khoảng bao nhiêu cốc nước dưa hấu, biết mỗi cốc có dung tích $350 ml$?<br/><img src=\"https://zpi.cx/b/V9yDGTu.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318981-l3xy4ssjh\" style=\"width: 50%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\nQuả dưa hấu l&agrave; một khối elipsoid tr&ograve;n xoay tạo th&agrave;nh khi quay elip quanh trục lớn của n&oacute;.<br />\nChiều d&agrave;i quả dưa l&agrave; $2a = 30 \\Rightarrow a = 15$ cm.<br />\nKhi bổ theo phương vu&ocirc;ng g&oacute;c với trục quả dưa (trục lớn) ta được thiết diện lớn nhất l&agrave; h&igrave;nh tr&ograve;n (đường x&iacute;ch đạo) c&oacute; b&aacute;n k&iacute;nh l&agrave; $b$ (nửa trục b&eacute;).<br />\nDiện t&iacute;ch $S = \\pi b^2 = 254,769 \\Rightarrow b^2 = \\dfrac{254,769}{\\pi} \\approx 81,09 \\Rightarrow b \\approx 9 cm$.<br />\nQuả dưa c&oacute; vỏ d&agrave;y $1 cm$, n&ecirc;n phần ruột b&ecirc;n trong cũng l&agrave; khối elipsoid c&oacute; c&aacute;c b&aacute;n trục bị thu hẹp đi $1 cm$ (dọc theo c&aacute;c phương):<br />\nB&aacute;n trục lớn phần ruột: $a&#39; = a - 1 = 15 - 1 = 14 cm$.<br />\nB&aacute;n k&iacute;nh phần ruột ngang: $b&#39; = b - 1 = 9 - 1 = 8 cm$.<br />\nThể t&iacute;ch phần ruột dưa d&ugrave;ng để &eacute;p l&agrave;:<br />\n$V = \\dfrac{4}{3}\\pi a&#39; (b&#39;)^2 = \\dfrac{4}{3}\\pi \\cdot 14 \\cdot 8^2 = \\dfrac{3584\\pi}{3} \\approx 3753,16 { cm}^3$<br />\nV&igrave; 1 ${cm}^3$ ruột dưa &eacute;p được 1 ml nước n&ecirc;n lượng nước thu được l&agrave; khoảng $3753$ ml.<br />\nSố cốc nước thu được l&agrave;:<br />\n$n = \\dfrac{3753}{350} \\approx 10,72$ (cốc)<br />\nVậy c&oacute; thể thu được khoảng 10 cốc nước dưa hấu. Chọn A.",
+            "contentAnswerA": "10",
+            "contentAnswerB": "11",
+            "contentAnswerC": "14",
+            "contentAnswerD": "15"
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Tính $\\displaystyle \\int \\sin 5x \\mathrm{d}x$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Sử dụng công thức nguyên hàm cơ bản: $\\displaystyle\\int \\sin(ax+b) \\mathrm{d}x = -\\dfrac{1}{a} \\cos(ax+b) + C$.<br/>Với $a = 5, b = 0$, ta có: $\\displaystyle\\int \\sin 5x \\mathrm{d}x = -\\dfrac{\\cos 5x}{5} + C$",
+            "contentAnswerA": "$-\\dfrac{\\cos 5x}{5} + C$",
+            "contentAnswerB": "$\\dfrac{\\cos 5x}{5} + C$",
+            "contentAnswerC": "$5\\cos 5x + C$",
+            "contentAnswerD": "$-5\\cos 5x + C$"
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho phương trình $x^2 + 3 = 2(x + \\cos^2(ax+b))$ với $a,b \\in \\left(0; \\dfrac{\\pi}{2}\\right]$. Để phương trình có nghiệm, giá trị của biểu thức $\\dfrac{a+b}{\\pi}$ là <span class=\"fill-blank\" data-blank-id=\"Câu 13-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                1
+            ],
+            "explanation": "<br/>Phương trình tương đương với:<br/>$x^2 - 2x + 3 = 2\\cos^2(ax+b)$<br/>$\\Leftrightarrow (x-1)^2 + 2 = 2\\cos^2(ax+b)$<br/>Ta có $VT = (x-1)^2 + 2 \\ge 2$, và $VP = 2\\cos^2(ax+b) \\le 2$.<br/>Để phương trình có nghiệm thì $VT = VP = 2$.<br/>Dấu bằng xảy ra khi và chỉ khi: $\\begin{cases} x - 1 = 0 \\\\ \\cos^2(ax+b) = 1 \\end{cases} \\Leftrightarrow \\begin{cases} x = 1 \\\\ \\sin(ax+b) = 0 \\end{cases}$<br/>Với $x = 1$, ta có $\\sin(a+b) = 0 \\Leftrightarrow a+b = k\\pi$.<br/>Vì $a, b \\in \\left(0; \\dfrac{\\pi}{2}\\right]$ nên $0 < a \\le \\dfrac{\\pi}{2}$ và $0 < b \\le \\dfrac{\\pi}{2}$, suy ra $0 < a+b \\le \\pi$.<br/>Nên $k=1 \\Rightarrow a+b = \\pi$.<br/>Mặt khác giá trị lớn nhất của $a+b$ là $\\dfrac{\\pi}{2} + \\dfrac{\\pi}{2} = \\pi$.<br/>Do đó dấu bằng xảy ra khi $a = \\dfrac{\\pi}{2}$ và $b = \\dfrac{\\pi}{2}$.<br/>Khi đó, giá trị của biểu thức $\\dfrac{a+b}{\\pi} = \\dfrac{\\pi}{\\pi} = 1$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Cho hình tứ diện có đỉnh $S$ đáy là tam giác $ABC$ đều cạnh bằng $4$. $SA \\perp (ABC)$ và $SA = 4\\sqrt{3}$. Biết khoảng cách giữa $AS$ và $BC$ là $d$. Giá trị của $d^2$ là:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Gọi $M$ là trung điểm của $BC$.<br/>Vì tam giác $ABC$ đều cạnh $4$ nên $AM \\perp BC$.<br/>Độ dài đường cao $AM$ là: $AM = \\dfrac{4\\sqrt{3}}{2} = 2\\sqrt{3}$.<br/>Ta có $SA \\perp (ABC) \\Rightarrow SA \\perp AM$ và $SA \\perp BC$.<br/>Đường thẳng $AM$ vuông góc với cả $SA$ và $BC$, nên $AM$ chính là đoạn vuông góc chung của hai đường thẳng chéo nhau $SA$ và $BC$.<br/>Vậy khoảng cách giữa $SA$ và $BC$ là: $d = d(SA, BC) = AM = 2\\sqrt{3}$<br/>Suy ra giá trị của $d^2 = (2\\sqrt{3})^2 = 4 \\times 3 = 12$.",
+            "contentAnswerA": "$12$",
+            "contentAnswerB": "$2\\sqrt{3}$",
+            "contentAnswerC": "$48$",
+            "contentAnswerD": "$4\\sqrt{3}$"
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Biết hệ số của $x^k$ khi khai triển $(1 + x)^{100}$ là $a_k$. Khi $k$ đạt giá trị là <span class=\"fill-blank\" data-blank-id=\"Câu 15-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> thì $a_k$ đạt giá trị lớn nhất.",
+            "type": "TLN",
+            "correctAnswer": [
+                50
+            ],
+            "explanation": "<br/>Hệ số của $x^k$ trong khai triển $(1+x)^{100}$ là $a_k = C{100}^k$.<br/>Ta có $a_k$ đạt giá trị lớn nhất khi $k = \\dfrac{100}{2} = 50$.<br/>Vậy $k = 50$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Có <span class=\"fill-blank\" data-blank-id=\"Câu 16-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> giá trị nguyên dương của $y$ để phương trình $2^{x^2+y^2} = 2023^{x+y}$ có nghiệm",
+            "type": "TLN",
+            "correctAnswer": [
+                13
+            ],
+            "explanation": "<br/>Lấy logarit cơ số 2 hai vế của phương trình $2^{x^2+y^2} = 2023^{x+y}$, ta được: $x^2 + y^2 = (x+y)\\log_2 2023$<br/>Đặt $m = \\log_2 2023$. Khi đó: $x^2 - mx + y^2 - my = 0 \\Leftrightarrow x^2 - mx + (y^2 - my) = 0 \\quad (1)$<br/>Để phương trình $(1)$ có nghiệm $x$ thì: $\\Delta_x = m^2 - 4(y^2 - my) \\ge 0$ $\\Leftrightarrow -4y^2 + 4my + m^2 \\ge 0$<br/>Giải bất phương trình bậc hai đối với $y$, ta xét $\\Delta_y = (4m)^2 - 4(-4)(m^2) = 16m^2 + 16m^2 = 32m^2$.<br/>Nghiệm của tam thức là $y = \\dfrac{-4m \\pm 4m\\sqrt{2}}{-8} = \\dfrac{m \\pm m\\sqrt{2}}{2} = \\dfrac{m(1 \\pm \\sqrt{2})}{2}$.<br/>Vậy điều kiện có nghiệm là: $\\dfrac{m(1 - \\sqrt{2})}{2} \\le y \\le \\dfrac{m(1 + \\sqrt{2})}{2}$<br/>Thay $m = \\log_2 2023 \\approx 10,98$:<br/>$y_{min} = \\dfrac{10,98 \\cdot (1 - 1,414)}{2} \\approx -2,27$<br/>$y_{max} = \\dfrac{10,98 \\cdot (1 + 1,414)}{2} \\approx 13,25$<br/>Suy ra: $-2,27 \\le y \\le 13,25$.<br/>Vì $y$ là số nguyên dương ($y \\in \\mathbb{Z}^+$) nên $y \\in \\{1, 2, \\dots, 13\\}$. Có 13 giá trị nguyên dương của $y$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Trong tam giác $ABC$ có các góc là $A, B, C$ lần lượt tạo thành cấp số cộng và $\\sin A, \\sin B, \\sin C$ lần lượt tạo thành cấp số nhân. Giá trị của góc $A$ (độ) là <span class=\"fill-blank\" data-blank-id=\"Câu 17-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                60
+            ],
+            "explanation": "<br/>Vì các góc $A, B, C$ lập thành cấp số cộng nên ta có:<br/>$A + C = 2B$<br/>Mặt khác, tổng 3 góc trong tam giác là $A + B + C = 180^\\circ$.<br/>Thay $A + C = 2B$ vào ta được $3B = 180^\\circ \\Rightarrow B = 60^\\circ$.<br/>Vì $\\sin A, \\sin B, \\sin C$ lập thành cấp số nhân nên:<br/>$\\sin A \\cdot \\sin C = \\sin^2 B$<br/>Thay $B = 60^\\circ$ vào, ta có $\\sin B = \\dfrac{\\sqrt{3}}{2} \\Rightarrow \\sin^2 B = \\dfrac{3}{4}$.<br/>Nên $\\sin A \\cdot \\sin C = \\dfrac{3}{4}$.<br/>Biến đổi tích thành tổng:<br/>$\\dfrac{1}{2}[\\cos(A-C) - \\cos(A+C)] = \\dfrac{3}{4}$<br/>$\\Leftrightarrow \\cos(A-C) - \\cos(180^\\circ - B) = \\dfrac{3}{2}$<br/>$\\Leftrightarrow \\cos(A-C) - \\cos(120^\\circ) = \\dfrac{3}{2}$<br/>$\\Leftrightarrow \\cos(A-C) - \\left(-\\dfrac{1}{2}\\right) = \\dfrac{3}{2}$<br/>$\\Leftrightarrow \\cos(A-C) + \\dfrac{1}{2} = \\dfrac{3}{2} \\Leftrightarrow \\cos(A-C) = 1$<br/>Suy ra $A - C = 0 \\Leftrightarrow A = C$.<br/>Do đó tam giác $ABC$ đều (vì $B = 60^\\circ$ và $A=C$), suy ra $A = 60^\\circ$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Cho hàm số $f(x) = (x-3) \\log(2-x)$. Mỗi phát biểu sau đây là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>a, Điều kiện xác định: $2-x > 0 \\Leftrightarrow x < 2$.<br/>Vậy tập xác định là $D = (-\\infty; 2)$. Phát biểu a Sai.<br/>b, Phương trình hoành độ giao điểm của đồ thị và trục hoành: $f(x) = 0$.<br/>$(x-3)\\log(2-x) = 0 \\Leftrightarrow \\left[ \\begin{aligned} & x - 3 = 0 \\\\ & \\log(2-x) = 0 \\end{aligned} \\right. \\Leftrightarrow \\left[ \\begin{aligned} & x = 3 \\text{ (loại vì không thuộc } D) \\\\ & 2 - x = 1 \\end{aligned} \\right. \\Leftrightarrow x = 1 $ (thỏa mãn).<br/>Vậy đồ thị chỉ cắt trục hoành tại duy nhất một điểm. Phát biểu b Sai.<br/>c, Thay $x=0 \\in D$, ta có $f(0) = (0-3)\\log(2-0) = -3\\log 2 \\ne 0$.<br/>Giá trị xác định, vậy đồ thị hàm số có cắt trục tung tại điểm có tung độ là $-3\\log 2$. Phát biểu c Sai.",
+            "contentYA": "Tập xác định của hàm số là $D = (2; +\\infty)$.",
+            "contentYB": "Đồ thị hàm số cắt trục hoành tại hai điểm phân biệt.",
+            "contentYC": "Đồ thị hàm số không cắt trục tung."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Số lần để một người thực hiện thí nghiệm so sánh sự khác nhau của 17 loại tế bào là <span class=\"fill-blank\" data-blank-id=\"Câu 19-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                136
+            ],
+            "explanation": "<br/>Thí nghiệm so sánh sự khác nhau tức là phải chọn ra 2 loại tế bào để phân tích so sánh.<br/>Số lần để một người thực hiện việc so sánh từng cặp từ $n$ loại tế bào chính là số tổ hợp chập 2 của $n$ phần tử, ký hiệu là $C_n^2$.<br/>Với $n = 17$, số lần thực hiện là: $C_{17}^2 = \\dfrac{17!}{2! \\cdot (17-2)!} = \\dfrac{17 \\times 16}{2} = 136$"
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng xét dấu đạo hàm $f'(x)$ như sau:<br/><img src=\"https://zpi.cx/b/p4Vf1.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318982-6634uupk4\" style=\"width: 60%; margin: 0 auto; display: block;\"><br/>Hàm số $g(x) = f\\left(\\sqrt{x^2 - 4x + 12} - 2\\right)$ đồng biến trên khoảng (<span class=\"fill-blank\" data-blank-id=\"Câu 20-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>; <span class=\"fill-blank\" data-blank-id=\"Câu 20-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>) và (<span class=\"fill-blank\" data-blank-id=\"Câu 20-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>; $+\\infty$).",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        1
+                    ]
+                },
+                {
+                    "2.": [
+                        2
+                    ]
+                },
+                {
+                    "3.": [
+                        3
+                    ]
+                }
+            ],
+            "explanation": "<br/>Đặt $u(x) = \\sqrt{x^2 - 4x + 12} - 2$.<br/>Vì $x^2 - 4x + 12 = (x - 2)^2 + 8 \\ge 8 > 0$ với mọi $x \\in \\mathbb{R}$, nên tập xác định là $D = \\mathbb{R}$.<br/>Đạo hàm $u'(x) = \\dfrac{2x - 4}{2\\sqrt{x^2 - 4x + 12}} = \\dfrac{x - 2}{\\sqrt{x^2 - 4x + 12}}$.<br/>Ta có $u'(x) = 0 \\Leftrightarrow x = 2$.<br/>Giá trị nhỏ nhất của $u(x)$ đạt tại $x = 2$, suy ra $u(x) \\ge u(2) = \\sqrt{8} - 2 = 2\\sqrt{2} - 2 \\approx 0,828$.<br/>Do đó, $u(x) > -1$ với mọi $x \\in \\mathbb{R}$.<br/>Ta có $g'(x) = u'(x) \\cdot f'(u(x))$.<br/>Hàm số $g(x)$ đồng biến khi $g'(x) > 0$. Xảy ra 2 trường hợp:<br/>- Trường hợp 1: $\\begin{cases} u'(x) > 0 \\\\ f'(u) > 0 \\end{cases}$<br/>$\\Leftrightarrow \\begin{cases} x > 2 \\\\ \\left[ \\begin{aligned} & u(x) < -1 \\\\ & u(x) > 1 \\end{aligned} \\right. \\end{cases}$<br/>Vì $u(x) > -1$ với mọi $x$ nên điều kiện $u(x) < -1$ là vô nghiệm.<br/>Từ đó đòi hỏi $u(x) > 1 \\Leftrightarrow \\sqrt{x^2-4x+12} - 2 > 1 \\Leftrightarrow \\sqrt{x^2-4x+12} > 3$<br/>$\\Leftrightarrow x^2-4x+12 > 9 \\Leftrightarrow x^2-4x+3 > 0 \\Leftrightarrow \\left[ \\begin{aligned} & x < 1 \\\\ & x > 3 \\end{aligned} \\right.$<br/>Kết hợp điều kiện $x > 2$, ta được $x > 3$. Do đó hàm số đồng biến trên khoảng $(3; +\\infty)$.<br/>- Trường hợp 2: $\\begin{cases} u'(x) < 0 \\\\ f'(u) < 0 \\end{cases}$<br/>$\\Leftrightarrow \\begin{cases} x < 2 \\\\ -1 < u(x) < 1 \\end{cases}$<br/>Như đã chứng minh $u(x) > -1 \\ \\forall x$. Ta chỉ cần giải bất phương trình $u(x) < 1$.<br/>$\\Leftrightarrow \\sqrt{x^2-4x+12} - 2 < 1 \\Leftrightarrow x^2-4x+3 < 0 \\Leftrightarrow 1 < x < 3$.<br/>Kết hợp điều kiện $x < 2$, ta được $1 < x < 2$. Do đó hàm số đồng biến trên khoảng $(1; 2)$.<br/>Vậy hàm số $g(x)$ đồng biến trên $(1; 2)$ và $(3; +\\infty)$.<br/>Các số điện vào ô trống lần lượt là $1, 2, 3$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Trong không gian $Oxyz$, cho điểm $M$ thỏa mãn: $\\overrightarrow{MO} = (2a-6)\\vec{i} + (a-b)\\vec{j} + (b+1)\\vec{k}$. Biết $M \\in Oy$, giá trị của biểu thức $T = 2a + 3b$ là <span class=\"fill-blank\" data-blank-id=\"Câu 21-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>Ta có $\\overrightarrow{MO} = (2a-6; a-b; b+1) \\Rightarrow M(6-2a; b-a; -1-b)$.<br/>Vì $M \\in Oy$ nên hoành độ và cao độ bằng 0: $\\begin{cases} 6-2a = 0 \\\\ -1-b = 0 \\end{cases} \\Leftrightarrow \\begin{cases} a = 3 \\\\ b = -1 \\end{cases}$<br/>Vậy $T = 2a + 3b = 2(3) + 3(-1) = 3$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Cho hình lăng trụ $ABC.A'B'C'$ có tất cả các cạnh bằng 4. Mặt bên $(BCC'B')$ là hình thoi và nằm trong mặt phẳng vuông góc với đáy, $\\widehat{B'BC} = 60^\\circ$. Giá trị thể tích $V_{ACB'C'}$ là <span class=\"fill-blank\" data-blank-id=\"Câu 22-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                8
+            ],
+            "explanation": "<br/>Diện tích đáy là tam giác đều cạnh 4: $S_{ABC} = \\dfrac{4^2\\sqrt{3}}{4} = 4\\sqrt{3}$.<br/>Gọi $H$ là hình chiếu vuông góc của $B'$ lên $BC$. Vì mặt bên $(BCC'B')$ là hình thoi có cạnh bằng 4 và góc $\\widehat{B'BC} = 60^\\circ$, tam giác $B'BC$ là tam giác đều cạnh 4.<br/>Do đó đường cao $B'H$ có độ dài: $B'H = 4 \\cdot \\dfrac{\\sqrt{3}}{2} = 2\\sqrt{3}$<br/>Vì mặt phẳng $(BCC'B')$ vuông góc với đáy $(ABC)$ nên $B'H \\perp (ABC)$. $B'H$ chính là chiều cao của hình lăng trụ.<br/>Thể tích khối lăng trụ $ABC.A'B'C'$: $V_{lt} = S_{ABC} \\cdot B'H = 4\\sqrt{3} \\cdot 2\\sqrt{3} = 24$<br/>Ta phân chia khối lăng trụ thành các khối chóp. Thể tích khối chóp tứ giác $V_{A.BCC'B'} = \\dfrac{2}{3}V_{lt}$.<br/>Thể tích khối tứ diện cần tìm: $V_{ACB'C'} = V_{A.CC'B'}$.<br/>Do diện tích tam giác $CC'B'$ bằng một nửa diện tích hình thoi $BCC'B'$ nên:<br/>$V_{A.CC'B'} = \\dfrac{1}{2} V_{A.BCC'B'} = \\dfrac{1}{2} \\cdot \\left(\\dfrac{2}{3} V_{lt}\\right) = \\dfrac{1}{3} V_{lt} = \\dfrac{1}{3} \\cdot 24 = 8$"
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Trong 1 hộp có 4 viên bi vàng và 6 viên bi xanh. An và Bình lấy ngẫu nhiên mỗi bạn 1 viên và không hoàn lại. An là người lấy trước. Biết xác suất để Bình lấy được viên bi vàng là $\\dfrac{a}{b}$ (phân số tối giản). Giá trị biểu thức $a+b$ là <span class=\"fill-blank\" data-blank-id=\"Câu 23-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                7
+            ],
+            "explanation": "<br/>Xác suất lấy bi của Bình phụ thuộc vào kết quả của An. Ta có hai trường hợp Bình lấy được bi vàng:<br/>- Trường hợp 1: An lấy được bi vàng, Bình lấy được bi vàng.<br/>Xác suất là: $\\dfrac{4}{10} \\cdot \\dfrac{3}{9} = \\dfrac{12}{90}$.<br/>Trường hợp 2: An lấy được bi xanh, Bình lấy được bi vàng.<br/>Xác suất là: $\\dfrac{6}{10} \\cdot \\dfrac{4}{9} = \\dfrac{24}{90}$.<br/>Xác suất để Bình lấy được bi vàng là: $P = \\dfrac{12}{90} + \\dfrac{24}{90} = \\dfrac{36}{90} = \\dfrac{2}{5} = \\dfrac{a}{b}$<br/>Vì $\\dfrac{2}{5}$ là phân số tối giản nên $a = 2, b = 5$.<br/>Vậy $a + b = 2 + 5 = 7$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Cho hàm số $y=mx^4 - (2m+1)x^2 + 2$ có đồ thị cắt trục tung tại $A$ và cắt trục hoành tại lần lượt 4 điểm $B, C, D, E$ như hình vẽ. Cho biết tam giác $ACE$ vuông tại $A$, gọi $M$ là giá trị nhỏ nhất của $y$. Giá trị của $8M$ là <span class=\"fill-blank\" data-blank-id=\"Câu 24-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.<br/><img src=\"https://zpi.cx/b/eg3MSPS.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318982-g41q3tc3k\" style=\"width: 60%; margin: 0 auto; display: block;\">",
+            "type": "TLN",
+            "correctAnswer": [
+                -9
+            ],
+            "explanation": "<br/>Đồ thị hàm số cắt trục tung tại $A(0; 2)$.<br/>Phương trình hoành độ giao điểm của đồ thị và trục hoành: $mx^4 - (2m+1)x^2 + 2 = 0 \\quad (1)$.<br/>Đặt $t = x^2 \\ge 0$, phương trình trở thành $mt^2 - (2m+1)t + 2 = 0 \\quad (2)$.<br/>Để đồ thị cắt trục hoành tại 4 điểm phân biệt thì $(2)$ phải có 2 nghiệm dương phân biệt $t_1, t_2$ ($0 < t_1 < t_2$).<br/>Theo hệ thức Vi-ét ta có: $\\begin{cases} t_1 + t_2 = \\dfrac{2m+1}{m} \\\\ t_1 t_2 = \\dfrac{2}{m} \\end{cases}$.<br/>Khi đó 4 điểm giao điểm có hoành độ lần lượt tiếp là $-\\sqrt{t_2}$, $-\\sqrt{t_1}$, $\\sqrt{t_1}$, $\\sqrt{t_2}$.<br/>Từ hình vẽ và giả thiết $B, C, D, E$ theo thứ tự từ trái sang phải, ta suy ra: $C(-\\sqrt{t_1}; 0)$ và $E(\\sqrt{t_2}; 0)$.<br/>Ta có $\\overrightarrow{AC} = (-\\sqrt{t_1}; -2)$ và $\\overrightarrow{AE} = (\\sqrt{t_2}; -2)$.<br/>Vì tam giác $ACE$ vuông tại $A$ nên $\\overrightarrow{AC} \\cdot \\overrightarrow{AE} = 0$<br/>$\\Leftrightarrow (-\\sqrt{t_1}) \\cdot \\sqrt{t_2} + (-2)(-2) = 0 \\Leftrightarrow -\\sqrt{t_1 t_2} + 4 = 0 \\Leftrightarrow \\sqrt{t_1 t_2} = 4 \\Leftrightarrow t_1 t_2 = 16$<br/>Thay vào hệ thức Vi-ét, ta được: $\\dfrac{2}{m} = 16 \\Leftrightarrow m = \\dfrac{1}{8}$.<br/>Thử lại với $m = \\dfrac{1}{8}$, phương trình (2) là $\\dfrac{1}{8}t^2 - \\dfrac{5}{4}t + 2 = 0 \\Leftrightarrow t^2 - 10t + 16 = 0$, có 2 nghiệm $t_1 = 2, t_2 = 8$ (thỏa mãn).<br/>Với $m = \\dfrac{1}{8}$, hàm số trở thành $y = \\dfrac{1}{8}x^4 - \\dfrac{5}{4}x^2 + 2$.<br/>Đạo hàm $y' = \\dfrac{1}{2}x^3 - \\dfrac{5}{2}x = 0 \\Leftrightarrow x = 0$ hoặc $x^2 = 5$.<br/>Vì $y$ là hàm bậc 4 có hệ số $a > 0$ và 3 điểm cực trị nên giá trị nhỏ nhất đạt tại $x^2 = 5$:<br/>$M = y_{min} = \\dfrac{1}{8}(5)^2 - \\dfrac{5}{4}(5) + 2 = \\dfrac{25}{8} - \\dfrac{50}{8} + \\dfrac{16}{8} = -\\dfrac{9}{8}$<br/>Vậy $8M = 8 \\left( -\\dfrac{9}{8} \\right) = -9$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Biết $xf'(x) - f(x) = 3x^3 + 2x^2$ và $f(1) = \\dfrac{7}{2}$. Giá trị của $f'(4)$ là <span class=\"fill-blank\" data-blank-id=\"Câu 25-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                88
+            ],
+            "explanation": "<br/>Chia hai vế của phương trình bài cho $x^2$ (với $x > 0$), ta thu được: $\\dfrac{xf'(x) - f(x)}{x^2} = 3x + 2$<br/>Nhận thấy vế trái là đạo hàm của phân thức $\\dfrac{f(x)}{x}$, ta viết lại thành: $\\left[ \\dfrac{f(x)}{x} \\right]' = 3x + 2$<br/>Lấy nguyên hàm hai vế, ta có: $\\dfrac{f(x)}{x} = \\displaystyle\\int (3x+2) \\mathrm{d}x = \\dfrac{3}{2}x^2 + 2x + C$<br/>Thay dữ kiện $f(1) = \\dfrac{7}{2}$ vào phương trình lúc $x = 1$: $\\dfrac{7/2}{1} = \\dfrac{3}{2}(1)^2 + 2(1) + C \\Leftrightarrow \\dfrac{7}{2} = \\dfrac{7}{2} + C \\Rightarrow C = 0$<br/>Do đó $\\dfrac{f(x)}{x} = \\dfrac{3}{2}x^2 + 2x \\Rightarrow f(x) = \\dfrac{3}{2}x^3 + 2x^2$.<br/>Tính đạo hàm $f'(x)$: $f'(x) = \\dfrac{9}{2}x^2 + 4x$<br/>Từ đó tính giá trị tại $x = 4$: $f'(4) = \\dfrac{9}{2} \\cdot 4^2 + 4 \\cdot 4 = \\dfrac{9}{2} \\cdot 16 + 16 = 72 + 16 = 88$"
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Cho cấp số cộng có $u_1 + u_7 = 24$. Giá trị của biểu thức $u_2 + u_3 + u_4 + u_5 + u_6$ là:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Sử dụng tính chất của cấp số cộng: $u_{k-m} + u_{k+m} = 2u_k$. Ta thấy các chỉ số: $1 + 7 = 8$ nên có trung bình cộng của chỉ số là $4$.<br/>$u_1 + u_7 = 2u_4 \\Rightarrow 24 = 2u_4 \\Rightarrow u_4 = 12$<br/>Nhận thấy các cặp chỉ số có tổng bằng 8 đều có tổng giá trị bằng nhau:<br/>$u_2 + u_6 = u_1 + u_7 = 24$<br/>$u_3 + u_5 = u_1 + u_7 = 24$<br/>Do đó tổng cần tính là: $S = (u_2 + u_6) + (u_3 + u_5) + u_4 = 24 + 24 + 12 = 60$",
+            "contentAnswerA": "48",
+            "contentAnswerB": "60",
+            "contentAnswerC": "84",
+            "contentAnswerD": "120"
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$, $M$ là trung điểm của cạnh $C'D'$. Trong các phân tích vectơ sau đây, những mệnh đề nào là ĐÚNG?",
+            "type": "MA",
+            "correctAnswer": [
+                "c1",
+                "c2"
+            ],
+            "explanation": "<br/>Sử dụng các quy tắc cộng vectơ trong không gian.<br/>$\\overrightarrow{BM} = \\overrightarrow{BC'} + \\overrightarrow{C'M}$<br/>Theo quy tắc hình bình hành ở mặt bên $(BCC'B')$, ta có: $\\overrightarrow{BC'} = \\overrightarrow{BC} + \\overrightarrow{BB'}$<br/>Do $M$ là trung điểm của cạnh $C'D'$ nên $\\overrightarrow{C'M} = \\dfrac{1}{2} \\overrightarrow{C'D'}$.<br/>Trong hình hộp chữ nhật $ABCD.A'B'C'D'$, ta có $\\overrightarrow{C'D'} = \\overrightarrow{CD} = \\overrightarrow{BA}$.<br/>$\\Rightarrow \\overrightarrow{C'M} = \\dfrac{1}{2} \\overrightarrow{BA}$<br/>Thay trở lại vào phương trình đầu, ta có biểu diễn sau: $\\overrightarrow{BM} = \\overrightarrow{BC} + \\overrightarrow{BB'} + \\dfrac{1}{2} \\overrightarrow{BA} \\Leftrightarrow \\overrightarrow{BM} = \\dfrac{1}{2} \\overrightarrow{BA} + 1\\overrightarrow{BC} + 1\\overrightarrow{BB'}$<br/>Tương tự tính tiếp các phân tích khác, ta thấy phương án A và B đúng.",
+            "contentC1": "$\\overrightarrow{BM} = \\dfrac{1}{2}\\overrightarrow{BA} + \\overrightarrow{BC} + \\overrightarrow{BB'}$",
+            "contentC2": "$\\overrightarrow{B'M} = \\dfrac{1}{2}\\overrightarrow{BA} + \\overrightarrow{BC}$",
+            "contentC3": "$\\overrightarrow{AM} = \\dfrac{1}{2}\\overrightarrow{BA} + \\overrightarrow{BC} + \\overrightarrow{BB'}$",
+            "contentC4": "$\\overrightarrow{BM} = \\overrightarrow{BC'} + \\dfrac{1}{2}\\overrightarrow{AB}$"
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Cho các mệnh đề sau:",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>Ta có $1 < \\sqrt{3} < 2 \\Rightarrow 0 < \\sqrt{3} - 1 < 1$. Đặt $a = \\sqrt{3} - 1 \\in (0, 1)$.<br/>a, Với $a \\in (0, 1)$, khi nâng số mũ $m > 0$ thì $0 < a^m < 1^m = 1$. Suy ra mệnh đề ĐÚNG.<br/>b, Hàm số mũ $y = a^x$ với $0 < a < 1$ là hàm nghịch biến. Do đó $m \\le n \\Leftrightarrow a^m \\ge a^n$. Mệnh đề đề bài cho dấu $\\le$ là SAI.<br/>c, Bất phương trình $a^{x+2} \\ge a^{2x+3}$. Vì cơ số $a \\in (0,1)$ nên ta đổi chiều bất phương trình trên số mũ: $x + 2 \\le 2x + 3 \\Leftrightarrow -1 \\le x$<br/>Tức là $x \\ge -1$. Mệnh đề khẳng định \"khi và chỉ khi $x \\le -1$\" là SAI.",
+            "contentYA": "$(\\sqrt{3} - 1)^m \\in (0, 1), \\forall m > 0$.",
+            "contentYB": "$(\\sqrt{3} - 1)^m \\le (\\sqrt{3} - 1)^n$ nếu $m \\le n$.",
+            "contentYC": "$(\\sqrt{3} - 1)^{x+2} \\ge (\\sqrt{3} - 1)^{2x+3}$ khi và chỉ khi $x \\le -1$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Một vật chuyển động với li độ theo thời gian được tính theo phương trình: $x = 3\\cos\\left(2\\pi t + \\dfrac{\\pi}{4}\\right)$. Mỗi phát biểu sau là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Vận tốc là đạo hàm bậc nhất của li độ theo thời gian: $v = x'(t) = -3 \\cdot (2\\pi) \\sin\\left(2\\pi t + \\dfrac{\\pi}{4}\\right) = -6\\pi \\sin\\left(2\\pi t + \\dfrac{\\pi}{4}\\right)$<br/>Phát biểu bị thiếu $\\pi$, tức là sai.<br/>b, Gia tốc là đạo hàm bậc nhất của vận tốc theo thời gian (đạo hàm bậc hai của li độ): $a = v'(t) = -6\\pi \\cdot (2\\pi) \\cos\\left(2\\pi t + \\dfrac{\\pi}{4}\\right) = -12\\pi^2 \\cos\\left(2\\pi t + \\dfrac{\\pi}{4}\\right)$<br/>Phát biểu ghi là hàm $\\sin$, tức là sai.<br/>Hoặc dùng đẳng thức $a = -\\omega^2 x = -4\\pi^2 \\cdot 3\\cos(2\\pi t + \\dfrac{\\pi}{4}) = -12\\pi^2 \\cos(2\\pi t + \\dfrac{\\pi}{4})$.<br/>c, Từ hệ thức độc lập với thời gian liên hệ gia tốc và li độ: $a = -\\omega^2 x$.<br/>Tại vị trí cân bằng, $x = 0 \\Rightarrow a = -\\omega^2 \\cdot 0 = 0$.<br/>Phát biểu gia tốc tại vị trí cân bằng bằng $0$ là ĐÚNG.",
+            "contentYA": "Vận tốc của vật tại thời điểm $t$ là: $v = -6\\sin\\left(2\\pi t + \\dfrac{\\pi}{4}\\right)$.",
+            "contentYB": "Gia tốc của vật tại thời điểm $t$ là: $a = -12\\pi^2 \\sin\\left(2\\pi t + \\dfrac{\\pi}{4}\\right)$.",
+            "contentYC": "Khi vật ở vị trí cân bằng ($x = 0$) thì gia tốc của vật bằng $0$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Cho hàm số $f(x) = \\cos x - 2$. Mỗi phát biểu sau là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                }
+            ],
+            "explanation": "<br/>a, Hàm số $y = \\cos x$ là hàm số tuần hoàn với chu kì $T = 2\\pi$. Do vậy $f(x) = \\cos x - 2$ cũng là hàm số tuần hoàn với chu kì $2\\pi$. Phát biểu ĐÚNG.<br/>b, Ta luôn có tập giá trị của $\\cos x$: $-1 \\le \\cos x \\le 1$. Suy ra $-1 - 2 \\le \\cos x - 2 \\le 1 - 2 \\Leftrightarrow -3 \\le f(x) \\le -1$. Vậy tập giá trị của hàm số là $[-3; -1]$, không phải $\\mathbb{R}$. Phát biểu SAI.",
+            "contentYA": "Hàm số $f(x)$ là hàm số tuần hoàn.",
+            "contentYB": "Tập giá trị của hàm số $f(x)$ là $\\mathbb{R}$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Vào 6h sáng ngày 01 tháng 06 năm 2023, một chú ốc sên bắt đầu leo lên một cây cột cao 5m. Biết từ 6h sáng đến 18h, ốc sên leo được 50cm, từ 18h đến 6h sáng hôm sau, ốc sên tụt xuống 10cm. Đến 6h sáng hôm sau, ốc sên đã leo được <span class=\"fill-blank\" data-blank-id=\"Câu 31-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> cm và ốc sên leo đến đỉnh cây cột vào ngày <span class=\"fill-blank\" data-blank-id=\"Câu 31-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span> tháng <span class=\"fill-blank\" data-blank-id=\"Câu 31-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>.",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        40
+                    ]
+                },
+                {
+                    "2.": [
+                        13
+                    ]
+                },
+                {
+                    "3.": [
+                        6
+                    ]
+                }
+            ],
+            "explanation": "<br/>Đổi chiểu cao cột: $5\\text{m} = 500\\text{cm}$.<br/>Quãng đường ròng mỗi ngày đêm (trong vòng 24 giờ tính từ 6h sáng hôm trước tới 6h sáng hôm sau) con ốc sên leo lên được là:<br/>$50 - 10 = 40\\text{ (cm)}$<br/>Do đó, đến 6h sáng hôm sau, ốc sên đã leo được 40 cm ở trên thân cây so với mốc xuất phát.<br/>Gọi $n$ (ngày) là số ngày đêm hoàn chỉnh trôi qua. Ở đầu ngày thứ $k+1$ (tức tại mốc 6h sáng), ốc sên đang ở vị trí $40k$ cm so với mặt đất.<br/>Vào ban ngày của ngày thứ $k+1$ (từ 6h đến 18h), ốc sên có thể leo thêm tối đa 50cm.<br/>Nó sẽ tới đích trong ban ngày của ngày thứ $k+1$ nếu độ cao lớn nhất đạt được lớn hơn hoặc bằng 500cm:<br/>$40k + 50 \\ge 500 \\Leftrightarrow 40k \\ge 450 \\Leftrightarrow k \\ge 11,25$<br/>Vì $k$ là số nguyên, ta chọn $k$ nhỏ nhất là $12$.<br/>Nghĩa là sau ngày n thứ 12 đã qua trọn vẹn (ốc sên ở vị trí $40 \\cdot 12$ = 480cm), ngày ban ngày của thứ $k+1=13$, ốc sên sẽ chạm mốc 500cm.<br/>- Tại thời điểm 6h sáng ngày 12/06: Ốc sên ở độ cao $40 \\times 11 = 440\\text{cm}$.<br/>- Ban ngày 12/06: leo lên 50cm, đạt đỉnh trong ngày 490cm. Trọng đêm tụt lại nằm ở 480cm lúc 6h sáng 13/06.<br/>- Tại thời điểm 6h sáng ngày 13/06: Ốc sên ở độ cao $480\\text{cm}$.<br/>- Từ 6h sáng trở đi và tới trưa ngày 13/06: leo lên tiếp tối đa 50cm. $480 + 50 = 530 > 500\\text{cm}$.<br/>Như vậy, ốc sên chạm đỉnh đầu tiên vào ngày 13.<br/>Kết luận, ốc sên leo đến đỉnh vào ngày 13 tháng 06."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Biết $\\displaystyle\\int_0^1 \\dfrac{dx}{x^2+1} = A$; $\\displaystyle\\int_0^{b\\pi} 2 dx = B$. Lấy $\\pi \\approx 3,14$, tính $16A - \\dfrac{B}{2b}$. (số thập phân)<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 32-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                9.42
+            ],
+            "explanation": "<br/>Tính tích phân $A$: $A = \\displaystyle\\int_0^1 \\dfrac{\\mathrm{d}x}{x^2+1} = \\arctan x \\Big|_0^1 = \\arctan(1) - \\arctan(0) = \\dfrac{\\pi}{4}$<br/>Tính tích phân $B$: $B = \\displaystyle\\int_0^{b\\pi} 2 \\, \\mathrm{d}x = 2x \\Big|_0^{b\\pi} = 2b\\pi$<br/>Từ đó, ta có biểu thức cần tính là: $16A - \\dfrac{B}{2b} = 16\\left(\\dfrac{\\pi}{4}\\right) - \\dfrac{2b\\pi}{2b} = 4\\pi - \\pi = 3\\pi$<br/>Sử dụng xấp xỉ $\\pi \\approx 3,14$: $3\\pi \\approx 3 \\times 3,14 = 9,42$"
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Trong một dự &aacute;n trang tr&iacute;, c&ocirc; gi&aacute;o chủ nhiệm lớp muốn thiết kế một đồ chơi h&igrave;nh trụ được bọc trong một lớp vỏ h&igrave;nh cầu, c&oacute; đường k&iacute;nh bằng 8 cm, sao cho lớp vỏ lu&ocirc;n ngoại tiếp m&oacute;n đồ chơi. Biết rằng độ d&agrave;y của lớp vỏ kh&ocirc;ng đ&aacute;ng kể v&agrave; c&ocirc; gi&aacute;o muốn thiết kế m&oacute;n đồ chơi sao cho diện t&iacute;ch xung quanh l&agrave; lớn nhất.<br />\n<img alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318983-yuz9p2lih\" src=\"https://zpi.cx/b/czP9E.png?dl=1\" style=\"width: 40%; margin: 0 auto; display: block;\" />",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                }
+            ],
+            "explanation": "<br />\nĐường k&iacute;nh mặt cầu $D = 8\\text{ cm} \\Rightarrow$ B&aacute;n k&iacute;nh mặt cầu $R = 4\\text{ cm}$.<br />\nH&igrave;nh trụ nội tiếp mặt cầu c&oacute; b&aacute;n k&iacute;nh đ&aacute;y l&agrave; $r$ v&agrave; chiều cao l&agrave; $h$.<br />\nKhoảng c&aacute;ch từ t&acirc;m mặt cầu đến mặt phẳng chứa đường tr&ograve;n đ&aacute;y của h&igrave;nh trụ l&agrave; $\\dfrac{h}{2}$.<br />\nMối li&ecirc;n hệ giữa b&aacute;n k&iacute;nh mặt cầu ngoại tiếp $R$, b&aacute;n k&iacute;nh đ&aacute;y h&igrave;nh trụ $r$ v&agrave; chiều cao h&igrave;nh trụ $h$ theo định l&yacute; Pytago l&agrave;: $r^2 + \\left(\\dfrac{h}{2}\\right)^2 = R^2 \\Leftrightarrow r^2 + \\dfrac{h^2}{4} = 16 \\Leftrightarrow 4r^2 + h^2 = 64$<br />\nPh&aacute;t biểu mệnh đề a cho rằng $2r^2 + h^2 = 128 \\text{ cm}^2$ l&agrave; SAI.<br />\nDiện t&iacute;ch xung quanh của h&igrave;nh trụ l&agrave;: $S_{xq} = 2\\pi r h$<br />\nC&aacute;ch 1 (Sử dụng BĐT Cauchy): $S_{xq}^2 = 4\\pi^2 r^2 h^2 = \\pi^2 \\cdot (4r^2) \\cdot h^2 \\le \\pi^2 \\left( \\dfrac{4r^2 + h^2}{2} \\right)^2 = \\pi^2 \\left( \\dfrac{64}{2} \\right)^2 = 1024\\pi^2$<br />\nDấu &quot;=&quot; xảy ra khi v&agrave; chỉ khi: $\\begin{cases} 4r^2 = h^2 \\\\ 4r^2 + h^2 = 64 \\end{cases} \\Leftrightarrow \\begin{cases} 2h^2 = 64 \\\\ 8r^2 = 64 \\end{cases} \\Leftrightarrow \\begin{cases} h^2 = 32 \\\\ r^2 = 8 \\end{cases} \\Rightarrow \\begin{cases} h = 4\\sqrt{2}\\text{ cm} \\\\ r = 2\\sqrt{2}\\text{ cm} \\end{cases}$<br />\nNghĩa l&agrave; diện t&iacute;ch xung quanh lớn nhất khi $r = 2\\sqrt{2}\\text{ cm}$ v&agrave; $h = 4\\sqrt{2}\\text{ cm}$.<br />\nPh&aacute;t biểu mệnh đề b l&agrave; Đ&Uacute;NG.",
+            "contentYA": "Gọi $r$ và $h$ lần lượt là bán kính đáy và chiều cao của món đồ chơi. Khi đó: $2r^2 + h^2 = 128 \\text{ cm}^2$.",
+            "contentYB": "$r = 2\\sqrt{2}\\text{ cm}$."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Một số tự nhiên $N$ được gọi là kì diệu'' khi ta lấy số được tạo bởi khi viết các chữ số của $N$ từ lớn đến bé rồi trừ đi số được tạo bởi khi viết các chữ số của $N$ từ bé đến lớn mà thu được $N$. Chẳng hạn: 6174 là một số kì diệu'' vì $7641 - 1467 = 6174$. Biết rằng tồn tại duy nhất một số “kì diệu” có 3 chữ số. Số đó là <span class=\"fill-blank\" data-blank-id=\"Câu 34-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                495
+            ],
+            "explanation": "<br />\nGọi số cần t&igrave;m c&oacute; 3 chữ số l&agrave; $N = \\overline{abc}$ (với $a &gt; b &gt; c$).<br />\nSố được tạo bởi c&aacute;c chữ số từ lớn đến b&eacute; l&agrave; $\\overline{abc} = 100a + 10b + c$.<br />\nSố được tạo bởi c&aacute;c chữ số từ b&eacute; đến lớn l&agrave; $\\overline{cba} = 100c + 10b + a$.<br />\nTheo b&agrave;i ra ta c&oacute;: $(100a + 10b + c) - (100c + 10b + a) = N$<br />\n$\\Leftrightarrow 99(a - c) = N$.<br />\nV&igrave; $N$ l&agrave; số c&oacute; 3 chữ số n&ecirc;n n&oacute; phải l&agrave; bội của 99. Thử c&aacute;c bội của 99 c&oacute; 3 chữ số: 198, 297, 396, 495, 594, 693, 792, 891.<br />\nChỉ c&oacute; số $495$ thoả m&atilde;n t&iacute;nh chất v&igrave; lấy c&aacute;c chữ số xếp từ lớn đến b&eacute; (954) trừ đi từ b&eacute; đến lớn (459), ta được: $954 - 459 = 495$."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Biết $\\displaystyle\\dfrac{a}{b(\\cos x)^2} = \\dfrac{1 + (\\sin x)^4 - (\\cos x)^4}{1 + (\\sin x \\cos x)^2 - (\\sin x)^4 - (\\cos x)^4}$ (với $\\dfrac{a}{b}$ là phân số tối giản). Tính $10a - b$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                17
+            ],
+            "explanation": "<br />\nBiến đổi tử số:<br />\n$1 + \\sin^4 x - \\cos^4 x = 1 - \\cos^4 x + \\sin^4 x = (1 - \\cos^2 x)(1 + \\cos^2 x) + \\sin^4 x$<br />\n$= \\sin^2 x(1 + \\cos^2 x) + \\sin^4 x = \\sin^2 x + \\sin^2 x \\cos^2 x + \\sin^4 x$<br />\n$= \\sin^2 x(1 + \\sin^2 x) + \\sin^2 x \\cos^2 x = \\sin^2 x + \\sin^4 x + \\sin^2 x \\cos^2 x$<br />\n$= \\sin^2 x(1 + \\sin^2 x + \\cos^2 x) = 2\\sin^2 x$<br />\nBiến đổi mẫu số:<br />\n$1 + \\sin^2 x \\cos^2 x - \\sin^4 x - \\cos^4 x = 1 + \\sin^2 x \\cos^2 x - (\\sin^4 x + \\cos^4 x)$<br />\n$= 1 + \\sin^2 x \\cos^2 x - [(\\sin^2 x + \\cos^2 x)^2 - 2\\sin^2 x \\cos^2 x]$<br />\n$= 1 + \\sin^2 x \\cos^2 x - (1 - 2\\sin^2 x \\cos^2 x) = 3\\sin^2 x \\cos^2 x$<br />\nThay v&agrave;o biểu thức đề b&agrave;i, ta c&oacute;: $\\dfrac{a}{b\\cos^2 x} = \\dfrac{2\\sin^2 x}{3\\sin^2 x \\cos^2 x} = \\dfrac{2}{3\\cos^2 x}$<br />\nSuy ra $\\dfrac{a}{b} = \\dfrac{2}{3}$.<br />\nV&igrave; $\\dfrac{a}{b}$ l&agrave; ph&acirc;n số tối giản n&ecirc;n $a = 2, b = 3$.<br />\nVậy $10a - b = 10(2) - 3 = 20 - 3 = 17$."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Anh Tú mang cam ra chợ đổi. Biết 9 quả cam thì đổi được 2 quả táo và 1 quả lê, còn 5 quả táo thì đổi được 2 quả lê. Đổi hết số cam đã mang đi thì anh Tú cầm về được 17 quả táo và 13 quả lê. Ban đầu anh Tú mang <span class=\"fill-blank\" data-blank-id=\"Câu 36-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span> quả cam ra chợ.",
+            "type": "TLN",
+            "correctAnswer": [
+                99
+            ],
+            "explanation": "<br />\nGọi $C, T, L$ lần lượt l&agrave; gi&aacute; trị quy đổi của 1 quả cam, 1 quả t&aacute;o v&agrave; 1 quả l&ecirc;.<br />\nTheo đề b&agrave;i ta c&oacute; hệ phương tr&igrave;nh: $\\begin{cases} 9C = 2T + 1L \\\\ 5T = 2L \\end{cases}$<br />\nTừ phương tr&igrave;nh thứ hai ta r&uacute;t $L$ theo $T$: $L = \\dfrac{5}{2}T = 2,5T$.<br />\nThế v&agrave;o phương tr&igrave;nh thứ nhất: $9C = 2T + 2,5T = 4,5T \\Rightarrow T = 2C$<br />\nVậy 1 quả t&aacute;o đổi được 2 quả cam.<br />\nThay ngược lại ta được: $L = 2,5 \\times 2C = 5C$<br />\nVậy 1 quả l&ecirc; đổi được 5 quả cam.<br />\nSau khi đổi hết số cam, anh T&uacute; cầm về được 17 quả t&aacute;o v&agrave; 13 quả l&ecirc;.<br />\nSố cam ban đầu anh T&uacute; mang đi tương đương với: $17T + 13L = 17 \\times (2C) + 13 \\times (5C) = 34C + 65C = 99C$<br />\nVậy ban đầu anh T&uacute; mang 99 quả cam ra chợ."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Cho hình chóp tam giác $S.ABC$ có đáy là tam giác vuông tại $A$, $SB$ vuông góc với mặt phẳng đáy, $AB = 4$, $AC = 3$. Gọi $\\alpha$ là góc giữa hai mặt phẳng $(SAC)$ và mặt phẳng đáy, biết $\\tan \\alpha = 2$. Chọn hệ trục tọa độ $Oxyz$ như hình vẽ.<br/><img src=\"https://zpi.cx/b/UKJFO.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318984-kudxumsmi\" style=\"width: 60%; margin: 0 auto; display: block;\"><br/>- Tọa độ của điểm B là (<span class=\"fill-blank\" data-blank-id=\"Câu 37-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>, <span class=\"fill-blank\" data-blank-id=\"Câu 37-2\" data-blank-length=\"9\">____FILL_BLANK_2____</span>, <span class=\"fill-blank\" data-blank-id=\"Câu 37-3\" data-blank-length=\"9\">____FILL_BLANK_3____</span>)<br/>- Tọa độ của điểm S là (<span class=\"fill-blank\" data-blank-id=\"Câu 37-4\" data-blank-length=\"9\">____FILL_BLANK_4____</span>, <span class=\"fill-blank\" data-blank-id=\"Câu 37-5\" data-blank-length=\"9\">____FILL_BLANK_5____</span>, <span class=\"fill-blank\" data-blank-id=\"Câu 37-6\" data-blank-length=\"9\">____FILL_BLANK_6____</span>)",
+            "type": "TLN_M",
+            "correctAnswer": [
+                {
+                    "1.": [
+                        0
+                    ]
+                },
+                {
+                    "2.": [
+                        4
+                    ]
+                },
+                {
+                    "3.": [
+                        0
+                    ]
+                },
+                {
+                    "4.": [
+                        0
+                    ]
+                },
+                {
+                    "5.": [
+                        4
+                    ]
+                },
+                {
+                    "6.": [
+                        8
+                    ]
+                }
+            ],
+            "explanation": "<br />\nDựa v&agrave;o h&igrave;nh vẽ Hệ trục tọa độ $Oxyz$: Gốc tọa độ l&agrave; điểm $A(0,0,0)$.<br />\nTrục $Oy$ tr&ugrave;ng với tia $AB$, do đ&oacute; $B \\in Oy$.<br />\nV&igrave; $AB = 4$ n&ecirc;n tọa độ của điểm $B$ l&agrave; $(0,4,0)$.<br />\nTrục $Ox$ tr&ugrave;ng với tia $AC$, do đ&oacute; $C \\in Ox$. V&igrave; $AC = 3$ n&ecirc;n $C(3,0,0)$.<br />\nTia $Az // BS$ (v&igrave; $SB \\perp (ABC)$ n&ecirc;n $SB // Az$).<br />\nDo đ&oacute; điểm $S$ c&oacute; c&ugrave;ng tọa độ $x, y$ với điểm $B$, v&agrave; tọa độ $z$ của $S$ bằng độ d&agrave;i $SB$.<br />\nSuy ra $S(0,4,SB)$.<br />\nX&aacute;c định g&oacute;c $\\alpha$ giữa hai mặt phẳng $(SAC)$ v&agrave; $(ABC)$:<br />\nGiao tuyến của $(SAC)$ v&agrave; $(ABC)$ l&agrave; $AC$.<br />\nTa c&oacute; $BA \\perp AC$ (do tam gi&aacute;c $ABC$ vu&ocirc;ng tại $A$) v&agrave; $SB \\perp AC$ (do $SB \\perp (ABC)$).<br />\nSuy ra $AC \\perp (SAB) \\Rightarrow AC \\perp SA$.<br />\nG&oacute;c giữa $(SAC)$ v&agrave; $(ABC)$ ch&iacute;nh l&agrave; g&oacute;c giữa $SA$ v&agrave; $BA$, tức l&agrave; g&oacute;c $\\widehat{SAB}$.<br />\nVậy $\\alpha = \\widehat{SAB}$.<br />\nX&eacute;t tam gi&aacute;c vu&ocirc;ng $SAB$ vu&ocirc;ng tại $B$, ta c&oacute;: $\\tan \\alpha = \\tan \\widehat{SAB} = \\dfrac{SB}{AB} \\Rightarrow 2 = \\dfrac{SB}{4} \\Rightarrow SB = 8$<br />\nVậy tọa độ của điểm $S$ l&agrave; $(0,4,8)$."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Một bánh xe có bán kính $r = 23$ (dm) được dựng thẳng đứng sao cho logo BMW nằm song song với mặt đất như hình vẽ bên. Khi bánh xe lăn được một đoạn dài $80,5\\pi$ (dm), từ $A$ đến $B$, thì logo BMW nằm ở vị trí nào sau đây?<br/><img src=\"https://zpi.cx/b/uy5KB.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318987-dqrw2tijl\" style=\"width: 60%; margin: 0 auto; display: block;\">",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br />\nChu vi của b&aacute;nh xe l&agrave; $C = 2\\pi r = 2\\pi \\cdot 23 = 46\\pi$ (dm).<br />\nQu&atilde;ng đường b&aacute;nh xe lăn được từ $A$ đến $B$ l&agrave; $S = 80,5\\pi$ (dm).<br />\nSố v&ograve;ng b&aacute;nh xe đ&atilde; lăn l&agrave;:<br />\n$N = \\dfrac{S}{C} = \\dfrac{80,5\\pi}{46\\pi} = 1,75 = 1 + \\dfrac{3}{4} \\text{ (v&ograve;ng)}$<br />\nB&aacute;nh xe lăn được 1 v&ograve;ng trọn vẹn th&igrave; logo trở về vị tr&iacute; ban đầu (song song với mặt đất).<br />\nTiếp tục lăn th&ecirc;m $\\dfrac{3}{4}$ v&ograve;ng nữa, tức l&agrave; b&aacute;nh xe quay th&ecirc;m một g&oacute;c $\\dfrac{3}{4} \\times 360^\\circ = 270^\\circ$.<br />\nV&igrave; b&aacute;nh xe lăn tiến tới, chuyển động quay theo chiều kim đồng hồ, logo nằm tr&ecirc;n b&aacute;nh xe cũng quay theo b&aacute;nh xe $270^\\circ$ quanh t&acirc;m (hoặc g&oacute;c $-90^\\circ$).<br />\nNh&igrave;n tr&ecirc;n h&igrave;nh vẽ, quay một g&oacute;c $270^\\circ$ theo chiều kim đồng hồ tương đương với quay ngược chiều kim đồng hồ $90^\\circ$.<br />\nDo đ&oacute;, so với vị tr&iacute; ban đầu nằm ngang, logo BMW sẽ quay $90^\\circ$ ngược lại v&agrave; nằm nghi&ecirc;ng sang b&ecirc;n phải $90^\\circ$ theo chiều kim đồng hồ so với ban đầu.<br />\nH&igrave;nh vẽ ở đ&aacute;p &aacute;n D phản &aacute;nh ch&iacute;nh x&aacute;c trạng th&aacute;i điểm n&agrave;y.",
+            "contentAnswerA": "<img src=\"https://zpi.cx/b/P3MwXem.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318988-0f1oum6ar\" class=\"mx-auto\" style=\"width:200px;\">",
+            "contentAnswerB": "<img src=\"https://zpi.cx/b/wriXySO.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318988-sco9be2jg\" class=\"mx-auto\" style=\"width:200px;\">",
+            "contentAnswerC": "<img src=\"https://zpi.cx/b/LoanY.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318989-p7z0w7163\" class=\"mx-auto\" style=\"width:200px;\">",
+            "contentAnswerD": "<img src=\"https://zpi.cx/b/OGvRz.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318990-sng84p43c\" class=\"mx-auto\" style=\"width:200px;\">"
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Một chiếc guồng nước có dạng hình tròn bán kính 2,5 $m$, trục của nó đặt cách mặt nước 2 $m$. Khi guồng quay đều, khoảng cách $h (m)$ tính từ một chiếc gầu gắn tại điểm $A$ trên guồng nước đến mặt nước là $h = |y|$, trong đó $y = 2,5\\sin\\left(2\\pi t - \\dfrac{\\pi}{2}\\right) + 2$ với $t$ là thời gian quay của guồng ($t \\ge 0$), $t$ tính bằng phút. Ta quy ước rằng gầu ở trên mặt nước khi $y > 0$ và gầu ở dưới mặt nước khi $y < 0$. Mỗi phát biểu sau là đúng hay sai?<br/><img src=\"https://zpi.cx/b/K3GtP.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1773327318990-ypol4gbn1\" style=\"width: 35%; margin: 0 auto; display: block;\">",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br />\nPhương tr&igrave;nh dao động: $y = 2,5\\sin\\left(2\\pi t - \\dfrac{\\pi}{2}\\right) + 2 = -2,5\\cos(2\\pi t) + 2$.<br />\na, Thay $t = \\dfrac{1}{4}$ (ph&uacute;t) v&agrave;o phương tr&igrave;nh:<br />\n$y = -2,5\\cos\\left(2\\pi \\cdot \\dfrac{1}{4}\\right) + 2 = -2,5\\cos\\left(\\dfrac{\\pi}{2}\\right) + 2 = -2,5 \\times 0 + 2 = 2 \\text{ (m)}$<br />\nKhoảng c&aacute;ch từ gầu đến mặt nước l&agrave; $h = |y| = |2| = 2 \\text{ (m)}$. Ph&aacute;t biểu đ&uacute;ng.<br />\nb, Độ cao của gầu nước so với mặt nước đạt cực đại khi $y$ đạt gi&aacute; trị lớn nhất (v&igrave; gầu c&oacute; thể nổi l&ecirc;n tr&ecirc;n cao nhất).<br />\nTa c&oacute; $\\cos(2\\pi t) \\ge -1$, suy ra $y = -2,5\\cos(2\\pi t) + 2 \\le -2,5(-1) + 2 = 4,5 \\text{ (m)}$.<br />\nVậy độ cao cực đại l&agrave; 4,5 m chứ kh&ocirc;ng phải 5 m. Ph&aacute;t biểu sai.<br />\nc, Vị tr&iacute; cao nhất tương ứng với $\\cos(2\\pi t) = -1 \\Leftrightarrow 2\\pi t = \\pi + k2\\pi \\Leftrightarrow t = \\dfrac{1}{2} + k \\ (k \\in \\mathbb{Z})$.<br />\nĐổi 100 gi&acirc;y th&agrave;nh ph&uacute;t: $T = \\dfrac{100}{60} = \\dfrac{5}{3}$ ph&uacute;t.<br />\nTa cần số nghiệm $t$ trong khoảng $\\left[0; \\dfrac{5}{3}\\right]$:<br />\n$0 \\le \\dfrac{1}{2} + k \\le \\dfrac{5}{3} \\Leftrightarrow -\\dfrac{1}{2} \\le k \\le \\dfrac{5}{3} - \\dfrac{1}{2} \\Leftrightarrow -0,5 \\le k \\le 1,16$<br />\nV&igrave; $k \\in \\mathbb{Z}$ n&ecirc;n $k \\in \\{0; 1\\}$. Suy ra c&oacute; 2 gi&aacute; trị của $t$ thỏa m&atilde;n.<br />\nVậy gầu đi qua vị tr&iacute; cao nhất 2 lần trong 100 gi&acirc;y đầu ti&ecirc;n. Ph&aacute;t biểu sai.",
+            "contentYA": "Tại thời điểm $t = \\dfrac{1}{4}$ thì gầu cách mặt nước 2 $m$.",
+            "contentYB": "Độ cao cực đại của gầu nước so với mặt nước là 5 $m$.",
+            "contentYC": "Trong 100 giây đầu tiên, gầu nước đi qua vị trí cao nhất 3 lần."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Cho hình chóp $S.ABCD$, $SA$ vuông góc với $(ABCD)$, đáy $ABCD$ là hình chữ nhật, $M$ là trung điểm $AD$, $G$ là trọng tâm tam giác $SBC$, biết $(ADG)$ vuông góc với $(SBC)$. Mỗi phát biểu sau là đúng hay sai?",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>Chọn hệ trục tọa độ $Oxyz$ với gốc tại $A(0,0,0)$.<br/>Các tia $Ox, Oy, Oz$ lần lượt trùng với các tia $AB, AD, AS$.<br/>Giả sử $AB = c$, $AD = b$, $SA = a$ ($a,b,c > 0$).<br/>Khi đó tọa độ các đỉnh là: $A(0,0,0)$, $B(c,0,0)$, $D(0,b,0)$, $S(0,0,a)$, $C(c,b,0)$.<br/>Tọa độ $M$ là trung điểm $AD$: $M\\left(0, \\dfrac{b}{2}, 0\\right)$.<br/>Tọa độ trọng tâm $G$ của $\\triangle SBC$:<br/>$G\\left(\\dfrac{0+c+c}{3}, \\dfrac{0+0+b}{3}, \\dfrac{a+0+0}{3}\\right) = \\left(\\dfrac{2c}{3}, \\dfrac{b}{3}, \\dfrac{a}{3}\\right)$<br/>a, Ta có $BC \\perp AB$ (do $ABCD$ là hình chữ nhật) và $BC \\perp SA$ (do $SA \\perp (ABCD)$).<br/>Suy ra $BC \\perp (SAB)$.<br/>Vì $BC \\subset (SBC)$ nên $(SBC) \\perp (SAB)$. Phát biểu đúng.<br/>Khai thác giả thiết $(ADG) \\perp (SBC)$:<br/>Mặt phẳng $(SBC)$ có cặp vectơ chỉ phương là $\\overrightarrow{BC} = (0,b,0)$ và $\\overrightarrow{SB} = (c,0,-a)$.<br/>Vectơ pháp tuyến của $(SBC)$: $\\vec{n}_1 = \\left[\\overrightarrow{BC}, \\overrightarrow{SB}\\right] = (-ab, 0, -bc)$. Chọn $\\vec{n}_1 = (a, 0, c)$.<br/>Mặt phẳng $(ADG)$ có cặp vectơ chỉ phương là $\\overrightarrow{AD} = (0,b,0)$ và $\\overrightarrow{AG} = \\left(\\dfrac{2c}{3}, \\dfrac{b}{3}, \\dfrac{a}{3}\\right)$.<br/>Vectơ pháp tuyến của $(ADG)$: $\\vec{n}_2 = \\left[\\overrightarrow{AD}, \\overrightarrow{AG}\\right] = \\left(\\dfrac{ab}{3}, 0, -\\dfrac{2bc}{3}\\right)$. Chọn $\\vec{n}_2 = (a, 0, -2c)$.<br/>Vì $(ADG) \\perp (SBC)$ nên $\\vec{n}_1 \\cdot \\vec{n}_2 = 0 \\Leftrightarrow a^2 - 2c^2 = 0 \\Rightarrow a = c\\sqrt{2}$.<br/>b, Vectơ $\\overrightarrow{MG} = \\left(\\dfrac{2c}{3}, -\\dfrac{b}{6}, \\dfrac{a}{3}\\right)$.<br/>Để $MG \\perp (SBC)$, $\\overrightarrow{MG}$ phải cùng phương với $\\vec{n}_1 = (a, 0, c)$.<br/>Nhưng thành phần tung độ của $\\vec{n}_1$ bằng $0$, trong khi của $\\overrightarrow{MG}$ là $-\\dfrac{b}{6} \\neq 0$ (vì $b = AD > 0$).<br/>Do đó $MG$ không vuông góc với $(SBC)$. Phát biểu sai.<br/>c, Ta có $SA = a = c\\sqrt{2}$.<br/>Tam giác $SAB$ vuông tại A nội tiếp $(SAB)$, cạnh huyền $SB = \\sqrt{SA^2 + AB^2} = \\sqrt{2c^2 + c^2} = c\\sqrt{3}$.<br/>Lập tỉ số $\\dfrac{SA}{SB} = \\dfrac{c\\sqrt{2}}{c\\sqrt{3}} = \\sqrt{\\dfrac{2}{3}} \\neq 2$.<br/>Do vậy $SA \\neq 2SB$. Phát biểu sai.",
+            "contentYA": "$(SBC) \\perp (SAB)$.",
+            "contentYB": "$MG \\perp (SBC)$.",
+            "contentYC": "$SA = 2SB$."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-03-12T14:52:53.008Z",
+    "updatedAt": "2026-03-12T14:57:58.567Z",
+    "__v": 0
+}
