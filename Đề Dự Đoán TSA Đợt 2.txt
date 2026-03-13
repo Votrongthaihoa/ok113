@@ -1,17 +1,28 @@
 {
-    "data": {
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
         "id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
         "title": "Đề Dự Đoán TSA Đợt 2 - Tư Duy Toán Học",
-        "ids": null,
-        "titles": null,
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
         "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "â",
         "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-03-07T14:07:32.453091+07:00",
+        "updated_at": "2026-03-10T09:04:33.124208+07:00",
         "questions": [
             {
                 "id": "3a1bf6f6-d437-4450-9db7-744d98239650",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 0,
-                "content": " Con lăn sơn là hình trụ tròn đứng bán kính 3 cm; mỗi vòng lăn phủ một diện tích 150π cm² và tiêu tốn 10π cm³ sơn. Chiều dài con lăn bằng chiều cao của thùng sơn dạng hình trụ; sau 1000 vòng lăn thì thùng đầy sơn cạn.\nBán kính đáy thùng sơn r bằng bao nhiêu cm? \n$/image_{https://zpi.cx/b/3d5gof.png?dl=1}_{left}_{30}_{block}$",
+                "content": " Con lăn sơn là hình trụ tròn đứng bán kính 3 cm; mỗi vòng lăn phủ một diện tích 150π cm² và tiêu tốn 10π cm³ sơn. Chiều dài con lăn bằng chiều cao của thùng sơn dạng hình trụ; sau 1000 vòng lăn thì thùng đầy sơn cạn.\nBán kính đáy thùng sơn r bằng bao nhiêu cm? \n$/image_{https://zpi.cx/b/TIln439.png?dl=1}_{left}_{30}_{block}$",
                 "difficulty": "M2",
                 "type": "single_choice",
                 "topic": "tsa_toan",
@@ -32,7 +43,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$S_{xq} = 2\\pi r_{\\text{Lăn}}h = 150\\pi$\n\n$2\\pi (3)h = 150\\pi \\Rightarrow 6\\pi h = 150\\pi \\Rightarrow h = 25 \\text{ cm.}$\n\nThùng sơn cạn sau 1000 vòng, mỗi vòng tiêu tốn $10\\pi \\text{ cm}^3$ sơn.\n\n$V = 1000 \\times 10\\pi = 10000\\pi \\text{ cm}^3.$\n\n$V = \\pi r^2 h$\n\n$\\Rightarrow 10000\\pi = \\pi r^2 (25)$\n\n$r^2 = \\frac{10000}{25} = 400$\n\n$r = 20$",
                 "option_columns": 4,
+                "status": "active",
+                "access_code": "2d0bf02d",
                 "created_at": "2025-11-22T13:49:34.42042+07:00",
                 "updated_at": "2026-03-10T00:00:30.084887+07:00"
             },
@@ -55,7 +74,16 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "***Sai***, ví dụ hai mặt phẳng cắt nhau chứa hai đường thẳng song song với giao tuyến.\n\n ***Sai***, $d$ và $d'$ có thể chéo nhau.\n",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-01-08T23:07:11.12587+07:00",
                 "updated_at": "2026-03-07T16:32:53.127806+07:00"
             },
@@ -81,7 +109,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "a) Đúng theo quy tắc phủ định mệnh đề phổ quát.\nb) Sai, phủ định của $\u003e$ phải là $\\le$. \r\nc) Đúng, vì 5 số liên tiếp sẽ quét qua toàn bộ các số dư khi chia cho 5 ($0, 1, 2, 3, 4$).",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-06T15:20:34.480607+07:00",
                 "updated_at": "2026-03-07T16:32:53.127806+07:00"
             },
@@ -103,7 +141,20 @@
                         "Thứ Bảy"
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        [
+                            4
+                        ],
+                        [
+                            2
+                        ]
+                    ]
+                },
+                "answer_detail": "Từ 01/02/2024 đến 01/02/2025 có 366 ngày (do đi qua ngày 29/02/2024). $366 \\pmod 7 = 2$, vậy 01/02/2025 là thứ Bảy.\n\nTừ 01/02/2025 đến 01/05/2025 có: tháng 2 (28 ngày) + tháng 3 (31) + tháng 4 (30) = 89 ngày. $89 \\pmod 7 = 5$. Thứ 7 cộng 5 ngày là thứ Năm.",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-06T15:20:34.480607+07:00",
                 "updated_at": "2026-03-10T22:45:51.786144+07:00"
             },
@@ -132,7 +183,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Ta có:\r\n\r\n\r\n$5 \u003c 3^x \u003c 100$\r\n\r\n$x \\in \\mathbb{N}$\r\n\r\n\r\n$\\implies x \\in \\{2; 3; 4\\}$\r\n\r\nTổng: $2 + 3 + 4 = 9$",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-06T23:13:12.427518+07:00",
                 "updated_at": "2026-03-07T16:32:53.127806+07:00"
             },
@@ -161,7 +220,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Biến đổi:\nTa có:\n\n\n$D_A - D_B = 66\\log\\left(\\dfrac{R_A}{R_B} \\sqrt{\\dfrac{S_B}{S_A}}\\right)$\n\n\n$\\implies D_A - 65 = 66\\log\\left(1.5 \\dfrac{1}{\\sqrt{1.44}}\\right)$\n\n\n$\\iff D_A - 65 = 66\\log(1.25)$\n\n\n\n$\\iff D_A = 71.4$",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-06T23:13:12.427518+07:00",
                 "updated_at": "2026-03-09T23:43:35.249557+07:00"
             },
@@ -175,7 +242,15 @@
                 "topic": "tsa_toan",
                 "chapter": 64,
                 "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "25"
+                    ]
+                },
+                "answer_detail": "\n\nTính thể tích:\n\n\n$V = \\pi \\int_0^5 x dx$\n\n\n$\\iff V = \\pi \\left[ \\dfrac{x^2}{2} ]_0^5 $\n\n\n$\\iff V = \\pi \\left( \\dfrac{25}{2}  \\right)$\n\n\n\n$\\implies 2a = 25$",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-06T23:19:11.028744+07:00",
                 "updated_at": "2026-03-09T23:42:03.57382+07:00"
             },
@@ -204,7 +279,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Gọi $P$ là số tiền ban đầu. Theo công thức lãi kép, số tiền sau 10 năm là $A = P(1+0,06)^{10}$.\r\nTa có: $A - P = 100.000.000 \\Rightarrow P(1,06^{10} - 1) = 100.000.000 \\Rightarrow P \\approx 126.446.598$ đồng. Chọn D.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-07T13:06:33.734473+07:00",
                 "updated_at": "2026-03-07T16:32:53.127806+07:00"
             },
@@ -230,7 +313,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Ta biến đổi hệ thức truy hồi: $u_{n+1} - \\dfrac{3}{4} = 2u_n - \\dfrac{6}{4} = 2\\left(u_n - \\dfrac{3}{4}\\right)$.\n\nDo đó, dãy số $(v_n)$ với $v_n = u_n - \\dfrac{3}{4}$ là cấp số nhân có $v_1 = u_1 - \\dfrac{3}{4} = \\dfrac{5}{4} - \\dfrac{3}{4} = \\dfrac{1}{2}$ và công bội $q = 2$.\n\nCông thức tổng quát của $v_n = v_1 \\cdot q^{n-1} = \\dfrac{1}{2} \\cdot 2^{n-1} = 2^{n-2} = \\dfrac{2^n}{4}$.\n\nSuy ra $u_n = v_n + \\dfrac{3}{4} = \\dfrac{2^n}{4} + \\dfrac{3}{4}$. Đồng nhất với biểu thức đề bài, ta được $a = 2, b = 4, c = 3, d = 4$.\n\na) $u_5 = \\dfrac{2^5}{4} + \\dfrac{3}{4} = \\dfrac{32}{4} + \\dfrac{3}{4} = \\dfrac{35}{4}$. Phát biểu a sai.\n\nb) $a + b + c + d = 2 + 4 + 3 + 4 = 13$. Phát biểu b đúng.\n\nc) $(4u_{2025} - 3) = 4 \\left( \\dfrac{2^{2025}}{4} + \\dfrac{3}{4} \\right) - 3 = 2^{2025}$. Ta có $2^{2025} = 2 \\cdot (2^4)^{506} = 2 \\cdot 16^{506}$. Vì $16 \\equiv 1 \\pmod 5$ nên $16^{506} \\equiv 1 \\pmod 5 \\Rightarrow 2 \\cdot 16^{506} \\equiv 2 \\pmod 5$. Số này chia 5 dư 2. Phát biểu c sai.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-07T13:08:18.103516+07:00",
                 "updated_at": "2026-03-10T09:07:04.544311+07:00"
             },
@@ -238,7 +331,7 @@
                 "id": "a330cc29-9ea9-4747-b519-def21bb85182",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 0,
-                "content": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau:\n$/image_{https://zpi.cx/b/1Ro6W.png?dl=1}_{center}_{60}_{block}$\n\nHàm số đã cho có ____ điểm cực trị.\n\nHàm số đã cho đạt cực đại tại điểm có hoành độ bằng ____.\n\nĐồ thị hàm số đã cho có tổng cộng ____ đường tiệm cận đứng và ngang.",
+                "content": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau:\n$/image_{https://zpi.cx/b/kQIGkbf.png?dl=1}_{center}_{60}_{block}$\n\nHàm số đã cho có ____ điểm cực trị.\n\nHàm số đã cho đạt cực đại tại điểm có hoành độ bằng ____.\n\nĐồ thị hàm số đã cho có tổng cộng ____ đường tiệm cận đứng và ngang.",
                 "difficulty": "M1",
                 "type": "drag_and_drop",
                 "topic": "tsa_toan",
@@ -267,7 +360,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Quan sát đồ thị ta thấy\n\n\n1. Hàm số đã cho có 1 điểm cực trị là $x=0$ \n\n2. Hàm số đã cho đạt cực đại tại điểm có hoành độ bằng $0$.\n\n3. Đồ thị hàm số đã cho có tổng cộng 2 đường tiệm cận đứng (không có) và ngang là: $y=0$ và $y=10$ ",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T00:14:43.016206+07:00",
                 "updated_at": "2026-03-10T00:16:28.294284+07:00"
             },
@@ -301,7 +404,16 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        2,
+                        0
+                    ]
+                },
+                "answer_detail": " Ta có $f(x) = \\sin x$, $f'(x) = \\cos x$, và $f''(x) = -\\sin x$.\n \nGiá trị biểu thức: $f(\\dfrac{\\pi}{2}) + f'(0) + f''(-\\dfrac{\\pi}{2}) = \\sin(\\dfrac{\\pi}{2}) + \\cos(0) - \\sin(-\\dfrac{\\pi}{2}) = 1 + 1 - (-1) = {3}$.\n\n $f(x) = \\sin x$ là hàm lẻ, $f'(x) = \\cos x$ là hàm chẵn, $f''(x) = -\\sin x$ là hàm lẻ. \nVậy có 1 hàm chẵn.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T00:15:51.052517+07:00",
                 "updated_at": "2026-03-10T00:16:28.294284+07:00"
             },
@@ -330,7 +442,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2025-11-07T15:12:41.027443+07:00",
                 "updated_at": "2026-03-10T00:09:02.505799+07:00"
             },
@@ -356,7 +478,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "$(P): \\dfrac{x^2}{9} - \\dfrac{y^2}{16} = 1 \\Rightarrow \\begin{cases} a=3 \\\\ b=4 \\end{cases} \\Rightarrow c = \\sqrt{a^2+b^2} = 5$.\r\n\r\na) $A_1(-3;0), A_2(3;0) \\neq (\\pm 4; 0) \\Rightarrow$ Sai.\r\n\r\nb) $2c = 2.5 = 10 \\Rightarrow$ Đúng.\r\n\r\nc) $2a = 2.3 = 6 \\Rightarrow$ Đúng.\r\n\r\nĐiền đáp án: Sai/Đúng/Đúng",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-02-11T10:24:16.171699+07:00",
                 "updated_at": "2026-03-07T16:32:53.127806+07:00"
             },
@@ -364,7 +496,7 @@
                 "id": "5c4dcd73-fa37-49fc-b087-566dc3237c00",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 1,
-                "content": "Bây giờ là 9 giờ sáng, kim giờ và kim phút vuông góc với nhau. Sau ít nhất $\\dfrac{a}{b}$ (giờ) thì kim phút và kim giờ lại vuông góc với nhau, ở đó $\\dfrac{a}{b}$ là một phân số tối giản với $a, b \\in \\mathbb{N}^*$. Khi đó, $a + b $ bằng ____\n$/image_{https://zpi.cx/b/V8U2hb2.png?dl=1}_{left}_{30}_{block}$\n",
+                "content": "Bây giờ là 9 giờ sáng, kim giờ và kim phút vuông góc với nhau. Sau ít nhất $\\dfrac{a}{b}$ (giờ) thì kim phút và kim giờ lại vuông góc với nhau, ở đó $\\dfrac{a}{b}$ là một phân số tối giản với $a, b \\in \\mathbb{N}^*$. Khi đó, $a + b $ bằng ____\n$/image_{https://zpi.cx/b/jTDx5s.png?dl=1}_{left}_{30}_{block}$\n",
                 "difficulty": "M1",
                 "type": "fill_in_blank",
                 "topic": "tsa_toan",
@@ -372,7 +504,17 @@
                 "data_questions": {
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        [
+                            "17"
+                        ]
+                    ]
+                },
+                "answer_detail": "\"*Ta có:*\n\r\n\r\n$v_{phút} = 1$\r\n\r\n$v_{giờ} = \\dfrac{1}{12}$\r\n\r\n$\\implies \\Delta v = \\dfrac{11}{12}$\r\n\r\n\r\n*Xét:*\r\nLúc 9h cách $\\dfrac{1}{4}$ vòng\r\nĐể vuông góc tiếp:\r\n$\\implies$ Đuổi thêm $\\dfrac{1}{2}$ vòng\r\n\r\n\r\n$\\implies t = \\dfrac{1/2}{11/12} = \\dfrac{6}{11}$\r\n\r\n$\\implies \\begin{cases} a=6 \\\\ b=11 \\end{cases}$\r\n\r\n\r\n*Vậy:*\r\n\r\n\r\n$a+b = 17$\r\n\r\n\"",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-09T23:37:06.873813+07:00",
                 "updated_at": "2026-03-09T23:37:06.873813+07:00"
             },
@@ -380,7 +522,7 @@
                 "id": "aebfa662-081a-49aa-9632-833983fa10e0",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 1,
-                "content": "Cho đồ thị hàm số $y = a_1x^2 - a_3x + a_2$. Biết $a_1, a_2, a_3$ lập thành cấp số nhân. Các mệnh đề sau đúng hay sai:\n$/image_{https://zpi.cx/b/uHhRW.png?dl=1}_{left}_{30}_{block}$\r",
+                "content": "Cho đồ thị hàm số $y = a_1x^2 - a_3x + a_2$. Biết $a_1, a_2, a_3$ lập thành cấp số nhân. Các mệnh đề sau đúng hay sai:\n$/image_{https://zpi.cx/b/C36Vy.png?dl=1}_{left}_{30}_{block}$\r",
                 "difficulty": "M1",
                 "type": "true_false",
                 "topic": "tsa_toan",
@@ -398,7 +540,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "\"*Ta có:*\nBề lõm hướng lên\r\n\r\n\r\n$\\implies a_1 \u003e 0$\r\n\r\n\r\nHoành độ đỉnh $x_I = 2$\r\n\r\n\r\n$\\implies \\dfrac{a_3}{2a_1} = 2 \\implies a_3 = 4a_1$\r\n\r\n\r\n*Xét $a_1, a_2, a_3$ là CSN:*\r\n\r\n\r\n$\\implies a_3 = a_1 \\cdot q^2$\r\n\r\n$\\implies a_1 \\cdot q^2 = 4a_1 \\implies q^2 = 4$\r\n\r\n\r\nCắt $Oy$ phần dương\r\n\r\n\r\n$\\implies a_2 \u003e 0 \\implies a_1 \\cdot q \u003e 0 \\implies q \u003e 0$\r\n\r\n$\\implies q = 2$\r\n\r\n*Mệnh đề a:*\r\n\r\n\r\n$a_1 \u003e 0 \\implies \\text{Đúng}$\r\n\r\n\r\n*Mệnh đề b:*\r\n\r\n\r\n$x_1 + x_2 = \\dfrac{a_3}{a_1} = 4 \\implies \\text{Sai}$\r\n\r\n\r\n*Mệnh đề c:*\r\n\r\n\r\n$q = 2 \\implies \\text{Đúng}$\r\n\r\n\"",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-09T23:37:06.873813+07:00",
                 "updated_at": "2026-03-10T00:01:22.808686+07:00"
             },
@@ -427,7 +579,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Thiết diện qua trục hình trụ là hình vuông diện tích $4R^2 \\implies (2R)^2 = 4R^2$, suy ra chiều cao hình trụ $h = 2R$.\nDiện tích xung quanh hình trụ:\n$S_{xq\\_trụ} = 2\\pi Rh = 2\\pi R(2R) = 4\\pi R^2$.\n\nHình nón có cùng đáy (bán kính $R$) và cùng chiều cao $h = 2R$.\nĐường sinh của hình nón:\n$l = \\sqrt{R^2 + h^2} = \\sqrt{R^2 + (2R)^2} = \\sqrt{5R^2} = R\\sqrt{5}$.\n\nDiện tích xung quanh hình nón:\n$S_{xq\\_nón} = \\pi Rl = \\pi R(R\\sqrt{5}) = \\pi R^2\\sqrt{5}$.\n\nTỉ số cần tìm: $\\dfrac{S_{xq\\_trụ}}{S_{xq\\_nón}} = \\dfrac{4\\pi R^2}{\\pi R^2\\sqrt{5}} = \\dfrac{4}{\\sqrt{5}}$.\n",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T00:08:38.966666+07:00",
                 "updated_at": "2026-03-10T00:09:40.890744+07:00"
             },
@@ -441,7 +601,17 @@
                 "topic": "tsa_toan",
                 "chapter": 21,
                 "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "271,4"
+                        ]
+                    ]
+                },
+                "answer_detail": "\"Bán kính đáy của phần lõi bên trong là $R_1 = \\frac{10}{2} = 5\\text{m}$.\nBán kính đáy của toàn bộ cột (bao gồm lớp vỏ bê tông) là $R_2 = 5 + 0,8 = 5,8\\text{m}$.\r\nThể tích lớp bê tông bao bọc xung quanh chính là thể tích của hình trụ lớn trừ đi thể tích hình trụ nhỏ bên trong:\r\n$V = \\pi R_2^2 h - \\pi R_1^2 h = \\pi h (R_2^2 - R_1^2) = \\pi \\cdot 10 \\cdot (5,8^2 - 5^2) = 10\\pi(33,64 - 25) = 86,4\\pi \\text{ (m}^3\\text{)}$.\"",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-10T08:45:37.248234+07:00",
                 "updated_at": "2026-03-10T08:45:37.248234+07:00"
             },
@@ -467,7 +637,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "a) Ta có $\\cos(\\vec{a}, \\vec{b}) = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|} = \\dfrac{-3}{3 \\cdot 2} = -\\dfrac{1}{2}$. Suy ra $(\\vec{a}, \\vec{b}) = 120^\\circ$. Phát biểu đúng.\n\nb) Ta có $|\\vec{a} + 2\\vec{b}|^2 = |\\vec{a}|^2 + 4\\vec{a} \\cdot \\vec{b} + 4|\\vec{b}|^2 = 3^2 + 4(-3) + 4(2^2) = 9 - 12 + 16 = 13$. Do đó $|\\vec{a} + 2\\vec{b}| = \\sqrt{13} \\neq 7$. Phát biểu sai.\n\nc) Ta có $|\\vec{a} - \\vec{b}|^2 = |\\vec{a}|^2 - 2\\vec{a} \\cdot \\vec{b} + |\\vec{b}|^2 = 3^2 - 2(-3) + 2^2 = 9 + 6 + 4 = 19$. Do đó $|\\vec{a} - \\vec{b}| = \\sqrt{19}$. Phát biểu đúng.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T09:01:16.373917+07:00",
                 "updated_at": "2026-03-10T09:01:16.373917+07:00"
             },
@@ -496,7 +676,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2025-11-07T15:12:41.027443+07:00",
                 "updated_at": "2026-03-10T00:00:48.066108+07:00"
             },
@@ -525,7 +713,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Để chọn được 3 sản phẩm cùng loại, ta xét 2 trường hợp:\r\n\r\n Trường hợp 1 (Chọn được 3 sản phẩm loại A): Cần chọn 2 sản phẩm loại A từ lô I (có $C_2^2$ cách) và 1 sản phẩm loại A từ lô II (có $C_4^1$ cách).\r\nSố cách thực hiện: $C_2^2 \\times C_4^1 = 1 \\times 4 = 4$ (cách).\r\n Trường hợp 2 (Chọn được 3 sản phẩm loại B): Cần chọn 2 sản phẩm loại B từ lô I (có $C_3^2$ cách) và 1 sản phẩm loại B từ lô II (có $C_1^1$ cách).\r\nSố cách thực hiện: $C_3^2 \\times C_1^1 = 3 \\times 1 = 3$ (cách).\r\n\r\nTheo quy tắc cộng, tổng số cách chọn thỏa mãn là: $4 + 3 = 7$ (cách).",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T00:08:38.966666+07:00",
                 "updated_at": "2026-03-10T00:09:08.876078+07:00"
             },
@@ -533,13 +729,23 @@
                 "id": "92fbc902-dd5a-4eb6-b6a1-68cda7947d3b",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 2,
-                "content": "Cho hàm số $f(x)$ có đồ thị hàm số như hình vẽ.\n$/image_{https://zpi.cx/b/l8pzi.png?dl=1}_{center}_{40}_{block}$\r\nTrong đoạn $[-3; 3]$ có bao nhiêu số nguyên $a$ sao cho $\\lim\\limits_{x \\to a} f(x)$ là 1 giới hạn hữu hạn.\r\nĐáp án: (1) ____.\r",
+                "content": "Cho hàm số $f(x)$ có đồ thị hàm số như hình vẽ.\n$/image_{https://zpi.cx/b/PAMzb.png?dl=1}_{center}_{40}_{block}$\r\nTrong đoạn $[-3; 3]$ có bao nhiêu số nguyên $a$ sao cho $\\lim\\limits_{x \\to a} f(x)$ là 1 giới hạn hữu hạn.\r\nĐáp án: (1) ____.\r",
                 "difficulty": "M1",
                 "type": "fill_in_blank",
                 "topic": "tsa_toan",
                 "chapter": 8,
                 "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "5"
+                        ]
+                    ]
+                },
+                "answer_detail": "\"Các số nguyên trong đoạn $[-3; 3]$ là $\\{-3; -2; -1; 0; 1; 2; 3\\}$.\nDựa vào đồ thị, ta xét giới hạn hai phía tại các điểm này:\r\n\r\n Tại $x = -2$,$x = -3$,$x = -1$,$x = 2$ và $x = 3$, hàm số liên tục nên có giới hạn hữu hạn. (Có 5 giá trị thỏa mãn).\r\n Tại các điểm $x \\in \\{1,0\\}$, đồ thị bị đứt gãy hoặc là điểm mút nên không tồn tại giới hạn hai phía (theo định nghĩa giới hạn thông thường).\r\nVậy có 5 số nguyên $a$ thỏa mãn yêu cầu bài toán.\"",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-10T08:45:37.248234+07:00",
                 "updated_at": "2026-03-10T08:45:37.248234+07:00"
             },
@@ -547,7 +753,7 @@
                 "id": "33458a89-3ecb-4f2f-869e-f4fb9bb804f1",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 2,
-                "content": "Một trường THPT khảo sát số cuốn sách học sinh khối 10 đã mượn tại thư viện trong học kỳ 1 và thu được bảng số liệu sau đây:\n$/image_{https://zpi.cx/b/26HZ7.png?dl=1}_{center}_{90}_{block}$\nPhương sai của mẫu số liệu trên bằng  ____ .\n",
+                "content": "Một trường THPT khảo sát số cuốn sách học sinh khối 10 đã mượn tại thư viện trong học kỳ 1 và thu được bảng số liệu sau đây:\n$/image_{https://zpi.cx/b/bj60s.png?dl=1}_{center}_{90}_{block}$\nPhương sai của mẫu số liệu trên bằng  ____ .\n",
                 "difficulty": "M1",
                 "type": "fill_in_blank",
                 "topic": "tsa_toan",
@@ -555,7 +761,17 @@
                 "data_questions": {
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        [
+                            "1,36"
+                        ]
+                    ]
+                },
+                "answer_detail": "\"Cỡ mẫu $n = 8 + 12 + 16 + 10 + 4 = 50$.\n\nSố trung bình của mẫu số liệu là:\n\n$\\bar{x} = \\dfrac{0 \\cdot 8 + 1 \\cdot 12 + 2 \\cdot 16 + 3 \\cdot 10 + 4 \\cdot 4}{50} = \\dfrac{90}{50} = 1,8$.\n\nPhương sai của mẫu số liệu là:\n\n$s^2 = \\dfrac{0^2 \\cdot 8 + 1^2 \\cdot 12 + 2^2 \\cdot 16 + 3^2 \\cdot 10 + 4^2 \\cdot 4}{50} - (\\bar{x})^2 = \\dfrac{230}{50} - (1,8)^2 = 4,6 - 3,24 = 1,36$.\"",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T09:01:16.373917+07:00",
                 "updated_at": "2026-03-10T09:08:17.523738+07:00"
             },
@@ -563,13 +779,21 @@
                 "id": "c1edc280-1226-4acf-8dad-c907e834ad54",
                 "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
                 "position": 3,
-                "content": " Một tấm bìa hình lục giác đều cạnh 6 đơn vị được cắt bỏ ở các đỉnh 6 hình diều giống nhau, ta thu được hình 2. Sau đó, các hình chữ nhật ở hình 2 được gấp theo đường đỏ, tạo thành lăng trụ đứng có đáy là lục giác đều.\n$/image_{https://zpi.cx/b/8JJkY.png?dl=1}_{left}_{40}_{block}$\nThể tích lớn nhất của lăng trụ thu được là ____\n",
+                "content": " Một tấm bìa hình lục giác đều cạnh 6 đơn vị được cắt bỏ ở các đỉnh 6 hình diều giống nhau, ta thu được hình 2. Sau đó, các hình chữ nhật ở hình 2 được gấp theo đường đỏ, tạo thành lăng trụ đứng có đáy là lục giác đều.\n$/image_{https://zpi.cx/b/eGV7U.png?dl=1}_{left}_{40}_{block}$\nThể tích lớn nhất của lăng trụ thu được là ____\n",
                 "difficulty": "M2",
                 "type": "fill_in_blank",
                 "topic": "tsa_toan",
                 "chapter": 27,
                 "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "72"
+                    ]
+                },
+                "answer_detail": "\nĐặt cạnh của $\\Delta$ đều cắt là $x$\n$\\rightarrow$ chiều cao hình lăng trụ là\n$h = x \\tan 60° = \\sqrt{3} x$\n\nVậy $V_{\\text{lăng trụ}} = \\frac{6 \\cdot \\sqrt{3}}{4} (6-2x)^2 \\cdot \\sqrt{3} x$\n\n$V' = 0 \\Leftrightarrow x = 3$\n\n$V = \\frac{9}{2} (6-2x)^2 x$\n\n$V = \\frac{9}{2} (36 - 24x + 4x^2) x$\n\n$V' = 0 \\Leftrightarrow 162 - 216x + 54x^2 = 0$\n\n$\\Leftrightarrow \\left[ \\begin{array}{l} x = 3 \\text{ (loại)} \\\\ x = 1 \\end{array} \\right.$\n\nVậy $V_{\\text{max}} = 72$",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": "5391ad47",
                 "created_at": "2025-11-06T23:56:57.15109+07:00",
                 "updated_at": "2026-03-10T09:08:52.76874+07:00"
             },
@@ -597,7 +821,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        "15"
+                    ]
+                },
+                "answer_detail": "Gọi tổng số câu đúng dự kiến của toàn bài thi là $E$. Tổng số câu đúng này đến từ 2 phần:\r\n\r\n Phần làm chắc chắn: Bạn đó làm đúng chắc chắn $N$ câu.\r\n Phần làm lụi: Trong số $30 - N$ câu còn lại, vì là câu hỏi Đúng/Sai (xác suất lụi trúng là $0,5$), nên số câu lụi đúng trung bình sẽ là: $0,5 \\cdot (30 - N)$.\r\n\r\nTa có tổng số câu đúng dự kiến của bài thi là:\r\n$E = N + 0,5 \\cdot (30 - N) = 0,5N + 15$\r\n\r\nTheo đề bài, xác suất chọn đúng của toàn bài là $0,75$, tức là tổng số câu đúng chiếm $75\\%$ trên tổng số 30 câu:\r\n$E = 30 \\cdot 0,75 = 22,5$ (câu)\r\n\r\nTừ đó ta có phương trình:\r\n$0,5N + 15 = 22,5$\r\n$\\iff 0,5N = 7,5$\r\n$\\iff N = 15 \\in \\mathbb{N}$ (thỏa mãn)\r\n\r\nVậy: $N = 15$.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-09T23:37:06.873813+07:00",
                 "updated_at": "2026-03-10T00:09:14.649248+07:00"
             },
@@ -626,7 +858,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "$AB \\parallel (SCD)$: Đúng. Vì $ABCD$ là hình bình hành nên $AB \\parallel CD$. Mà $CD \\subset (SCD) \\Rightarrow AB \\parallel (SCD)$.$MN \\parallel (SAC)$: Đúng. \n\n$M, N$ là trung điểm $AB, BC \\Rightarrow MN$ là đường trung bình $\\triangle ABC \\Rightarrow MN \\parallel AC$. Mà $AC \\subset (SAC) \\Rightarrow MN \\parallel (SAC)$.$SB \\parallel (MNP)$: Đúng. \n\n$N, P$ là trung điểm $BC, SC \\Rightarrow NP$ là đường trung bình $\\triangle SBC \\Rightarrow NP \\parallel SB$. Mà $NP \\subset (MNP) \\Rightarrow SB \\parallel (MNP)$.\n\n***Các phương án đúng là 1, 2 và 3.***",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2025-11-07T15:12:41.027443+07:00",
                 "updated_at": "2026-03-12T19:25:32.144118+07:00"
             },
@@ -652,7 +894,17 @@
                     ],
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        3,
+                        5
+                    ]
+                },
+                "answer_detail": " Tìm $\\overrightarrow{AB}$: $\\overrightarrow{AB} = (x_B - x_A; y_B - y_A; z_B - z_A) = (4-2; 2-1; 1-(-3)) = (2; 1; 4)$\n\n\nTìm trung điểm $E$ của $BC$: $E = \\left( \\frac{x_B + x_C}{2}; \\frac{y_B + y_C}{2}; \\frac{z_B + z_C}{2} \\right) = \\left( \\frac{4+3}{2}; \\frac{2+0}{2}; \\frac{1+5}{2} \\right) = (\\frac{7}{2}; 1; 3)$\n\n\nTìm trọng tâm $G$ của $\\Delta ABC$: $G = \\left( \\frac{x_A + x_B + x_C}{3}; \\frac{y_A + y_B + y_C}{3}; \\frac{z_A + z_B + z_C}{3} \\right) = \\left( \\frac{2+4+3}{3}; \\frac{1+2+0}{3}; \\frac{-3+1+5}{3} \\right) = (3; 1; 1)$",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-02-11T10:19:31.7182+07:00",
                 "updated_at": "2026-03-10T08:46:14.425474+07:00"
             },
@@ -667,7 +919,17 @@
                 "data_questions": {
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        [
+                            "291"
+                        ]
+                    ]
+                },
+                "answer_detail": "\"*ĐK:*\n\r\n\r\n$m \\in [2; 300], m \\in \\mathbb{Z}$\r\n\r\n$x \\in (0,1; 1)$\r\n\r\n\r\n*Đặt:*\r\n\r\n\r\n$u = \\log_m x \\implies u \u003c 0$\r\n\r\n\r\n*Ta có:*\r\n\r\n\r\n$u \u003e \\dfrac{1}{u}$\r\n\r\n$\\iff \\dfrac{u^2 - 1}{u} \u003e 0$\r\n\r\n$\\iff u^2 - 1 \u003c 0$\r\n\r\n$\\iff -1 \u003c u \u003c 0$\r\n\r\n\r\n*Xét:*\r\n\r\n\r\n$\\log_m x \u003e -1$\r\n\r\n$\\iff x \u003e m^{-1} = \\dfrac{1}{m}$\r\n\r\n$\\implies \\dfrac{1}{m} \u003c x \u003c 1$\r\n\r\n\r\nĐể đúng $\\forall x \\in (0,1; 1)$:\r\n\r\n\r\n$\\implies (0,1; 1) \\subset \\left(\\dfrac{1}{m}; 1\\right)$\r\n\r\n$\\implies \\dfrac{1}{m} \\le 0,1 \\implies m \\ge 10$\r\n\r\n\r\n*Vậy:*\r\n\r\n\r\n$m \\in [10; 300] \\implies 291 \\text{ giá trị.}$\r\n\r\n\"",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-09T23:37:06.873813+07:00",
                 "updated_at": "2026-03-09T23:37:06.873813+07:00"
             },
@@ -696,7 +958,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Bước 1: Do các ghế quanh bàn tròn không phân biệt, ta cố định vị trí của Trang (có $1$ cách).\r\n Bước 2: Để Trang ngồi cách Vân đúng một người, Vân chỉ có thể ngồi ở $2$ vị trí (cách Trang 1 ghế về bên trái hoặc cách 1 ghế về bên phải). Có $2$ cách xếp chỗ cho Vân.\r\n Bước 3: Còn lại 4 bạn (Hoa, Anh, Thái, Trung) xếp vào 4 ghế trống còn lại. Số cách hoán vị 4 người này là $4!$ cách.\r\n\r\nTheo quy tắc nhân, tổng số cách xếp chỗ là: $1 \\times 2 \\times 4! = 2 \\times 4!$ (cách).",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-10T00:08:38.966666+07:00",
                 "updated_at": "2026-03-10T00:08:38.966666+07:00"
             },
@@ -709,7 +979,17 @@
                 "type": "fill_in_blank",
                 "topic": "tsa_toan",
                 "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "0"
+                        ]
+                    ]
+                },
+                "answer_detail": "\"*Ta có:*\n\n\n$\\displaystyle \\left( \\int_0^x t f(t) dt \\right)' = x f(x)$\n\n$\\implies x f(x) = e^{f(x)} - 1$\n\n\nXét tại $x = 0,5$:\nĐặt $y = f(0,5)$\n\n\n$\\implies 0,5y = e^y - 1$\n\n$\\iff e^y - 0,5y - 1 = 0$\n\n$\\implies y = 0$\n\n$\\implies f(0,5) = 0$\n\n\n*Xét đạo hàm:*\n\n\n$f(x) + x f'(x) = f'(x) e^{f(x)}$\n\n$\\implies f'(x) [e^{f(x)} - x] = f(x)$\n\n\n*Xét tại $x = 0,5$:*\n\n\n$f'(0,5) [e^0 - 0,5] = 0$\n\n$\\implies f'(0,5) = 0$\n\n\n*Vậy:*\n\n\n$f'(0,5) = 0$\n\n\"",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-03-09T23:37:06.873813+07:00",
                 "updated_at": "2026-03-09T23:37:06.873813+07:00"
             },
@@ -735,7 +1015,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Ta có hệ phương trình: $\\begin{cases} u_1 + 4d = -15 \\\\ u_1 + 19d = 60 \\end{cases}$.\r\nTrừ vế theo vế ta được: $15d = 75 \\Rightarrow d = 5$. Phát biểu b đúng.\r\nThay $d = 5$ vào phương trình đầu: $u_1 + 20 = -15 \\Rightarrow u_1 = -35$. Phát biểu a sai.\r\nTổng 20 số hạng đầu là: $S_{20} = \\dfrac{20(2u_1 + 19d)}{2} = 10(2(-35) + 19(5)) = 10(-70 + 95) = 10(25) = 250$. Phát biểu c đúng.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-07T13:09:34.031297+07:00",
                 "updated_at": "2026-03-09T23:49:32.770212+07:00"
             },
@@ -764,7 +1054,15 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$\\int(2+\\cos x)dx=2x+\\sin x+C$",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-02-07T16:03:12.376408+07:00",
                 "updated_at": "2026-03-07T16:32:53.127806+07:00"
             },
@@ -787,7 +1085,16 @@
                         "9"
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Ta có $u_1 = u_2 - d = 5 - 4 = 1$.\n\nSố hạng thứ năm là $u_5 = u_1 + 4d = 1 + 4 \\cdot 4 = 17$ (Tương ứng đáp án vị trí số 1).\n\nTa xét biểu thức $\\dfrac{u_2 + u*{10}}{2} = \\dfrac{(u_1 + d) + (u_1 + 9d)}{2} = \\dfrac{2u_1 + 10d}{2} = u_1 + 5d = u_6$ (Tương ứng đáp án vị trí số 2).\n",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-07T13:08:18.103516+07:00",
                 "updated_at": "2026-03-10T09:02:10.386243+07:00"
             },
@@ -803,7 +1110,15 @@
                 "data_questions": {
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        "21"
+                    ]
+                },
+                "answer_detail": "Gắn hệ trục tọa độ $A(0; 0; 0), B(3; 0; 0), D(0; 4; 0), A'(0; 0; 5)$.\n\nSuy ra $C'(3; 4; 5)$.\n\nCác điểm $M(1; 0; 0), N(0; 2; 0), P(0; 0; 4)$.\n\nPhương trình $(MNP)$ đoạn chắn: $\\dfrac{x}{1} + \\dfrac{y}{2} + \\dfrac{z}{4} = 1 \\Leftrightarrow 4x + 2y + z - 4 = 0$.\n\nKhoảng cách $d(C', MNP) = \\dfrac{|4(3) + 2(4) + 5 - 4|}{\\sqrt{4^2 + 2^2 + 1^2}} = \\dfrac{|12 + 8 + 1|}{\\sqrt{21}} = \\dfrac{21}{\\sqrt{21}} = \\sqrt{21}$.\n\nVậy $\\sqrt{k} = \\sqrt{21} \\Rightarrow k = 21$.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-01-09T16:30:09.308018+07:00",
                 "updated_at": "2026-03-10T00:01:06.50527+07:00"
             },
@@ -832,7 +1147,16 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": "Đường thẳng $\\Delta$ qua $A(-2; 2; 0)$, VTCP $(2; -1; 3)$.\nĐáp án A có điểm qua là $(-2; 2; 0)$ và VTCP $(-2; 1; -3) = -1(2; -1; 3)$ nên đúng.\nĐáp án B sai điểm (phải là $x+2$).\nĐáp án C viết PT đường thẳng AB (VTCP $\\vec{AB} = (2; -1; 1)$) và đi qua điểm A đúng \nĐáp án D viết PT đường thẳng AB (VTCP $-\\vec{AB} = (-2; 1; -1)$) và đi qua điểm B Sai (  $\\dfrac{-x }{2} $",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-01-09T16:30:09.308018+07:00",
                 "updated_at": "2026-03-09T23:48:52.330837+07:00"
             },
@@ -848,7 +1172,15 @@
                 "data_questions": {
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        "6"
+                    ]
+                },
+                "answer_detail": "Nhận xét: 35! là tích từ 1 đến 35 (chứa số 9) nên kết quả bắt buộc phải chia hết cho 9.\n\n(Dấu hiệu: Một số chia hết cho 9 khi tổng các chữ số của nó chia hết cho 9)\n\nTổng các chữ số đang hiển thị là: 138.\n\nThử tính tiếp: $1+3+8=12$ Số 12 chia 9 dư 3.\n\nSuy ra: Để chia hết cho 9, số bị che phải bù vào phần dư đó $(9-3=6)$.\n\nVậy số cần tìm là 6",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-02-07T16:03:12.376408+07:00",
                 "updated_at": "2026-03-12T19:28:43.581723+07:00"
             },
@@ -874,7 +1206,17 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "a) $AB = \\sqrt{AC^2+BC^2} = \\sqrt{1+2} = \\sqrt{3}$. (***Sai***)\n\nb) Do $SA \\perp (ABC)$. (***Đúng***)\n\nc) Góc là $\\widehat{SBA}$. $\\tan = \\dfrac{SA}{AB} = \\dfrac{1}{\\sqrt{3}} \\Rightarrow 30^\\circ$. (***Đúng***)",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-01-08T23:07:11.12587+07:00",
                 "updated_at": "2026-03-10T22:46:35.282046+07:00"
             },
@@ -888,7 +1230,15 @@
                 "topic": "tsa_toan",
                 "chapter": 5,
                 "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "20"
+                    ]
+                },
+                "answer_detail": "Độ cao $h(t) = 50 + 40\\sin(\\omega t + \\varphi)$.\nYêu cầu $50 + 40\\sin \u003e 70 \\Rightarrow \\sin \u003e 1/2$.\nTrong một chu kỳ, sin lớn hơn $\\dfrac12$ trong khoảng góc $\\dfrac{5\\pi}{6} - \\dfrac{\\pi}{6} = \\dfrac{2\\pi}{3}$ (tương ứng 1/3 chu kỳ).\nThời gian = $\\dfrac{1}{3} \\times 60s = 20s$.\n",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2025-12-21T14:13:32.764831+07:00",
                 "updated_at": "2026-03-10T09:07:45.613025+07:00"
             },
@@ -925,7 +1275,16 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "1. Mệnh đề 1 là Đúng. Đây là một tính chất cơ bản: Tích của hai hàm số cùng liên tục tại $x_0$ cũng liên tục tại $x_0$.\n\n2. Mệnh đề 2 là Sai. \n\nPhản ví dụ: Cho $f(x) = g(x) = \\begin{cases} 1, \u0026 x \\ge 0 \\\\ -1, \u0026 x \u003c 0 \\end{cases}$. \n\nCả hai đều không liên tục tại $x_0 = 0$, nhưng $f(x)g(x) = (f(x))^2 = 1$ (là hàm hằng) liên tục tại $x_0 = 0$.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": "79d397e1",
                 "created_at": "2025-11-12T23:53:53.973521+07:00",
                 "updated_at": "2026-03-10T09:07:37.068904+07:00"
             },
@@ -941,7 +1300,15 @@
                 "data_questions": {
                     "answers": []
                 },
+                "data_answers": {
+                    "answer": [
+                        "199"
+                    ]
+                },
+                "answer_detail": "Ta có $u_n$ là cấp số cộng nên $u*{k+1} - u_k = d = 4$.\n\nXét một số hạng tổng quát của tổng $P$: $\\dfrac{1}{u_k u*{k+1}} = \\dfrac{1}{4} \\cdot \\dfrac{u_{k+1} - u_k}{u_k u_{k+1}} = \\dfrac{1}{4} \\left( \\dfrac{1}{u_k} - \\dfrac{1}{u_{k+1}} \\right)$.\n\nDo đó, $P = \\dfrac{1}{4} \\left( \\dfrac{1}{u_1} - \\dfrac{1}{u_2} + \\dfrac{1}{u_2} - \\dfrac{1}{u_3} + \\dots + \\dfrac{1}{u_{199}} - \\dfrac{1}{u_{200}} \\right) = \\dfrac{1}{4} \\left( \\dfrac{1}{u_1} - \\dfrac{1}{u_{200}} \\right)$.\n\nBiết $u_1 = 3$ và $u_{200} = u_1 + 199d = 3 + 199 \\cdot 4 = 799$.\n\nThay vào biểu thức ta được $P = \\dfrac{1}{4} \\left( \\dfrac{1}{3} - \\dfrac{1}{799} \\right) = \\dfrac{1}{4} \\left( \\dfrac{796}{2397} \\right) = \\dfrac{199}{2397}$.\n\nVậy giá trị của $2397P = 2397 \\cdot \\dfrac{199}{2397} = 199$.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-07T13:08:18.103516+07:00",
                 "updated_at": "2026-03-09T23:49:22.9824+07:00"
             },
@@ -970,24 +1337,51 @@
                         }
                     ]
                 },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Việc chọn và xếp thứ tự đá luân lưu gồm 5 cầu thủ thỏa mãn yêu cầu có thể chia làm 2 bước:\r\n\r\n Bước 1: Xếp vị trí đá luân lưu cho 3 cầu thủ tiền đạo vào 5 lượt sút. Số cách chọn vị trí và xếp thứ tự sút cho 3 người này là $A_5^3$.\r\n Bước 2: Chọn 2 cầu thủ trong số 8 cầu thủ còn lại (không phải tiền đạo) và xếp vào 2 vị trí sút luân lưu còn trống. Số cách chọn và xếp thứ tự là $A_8^2$.\r\n\r\nTheo quy tắc nhân, tổng số cách chọn và xếp danh sách là: $A_5^3 \\times A_8^2$.",
                 "option_columns": 1,
+                "status": "active",
+                "access_code": null,
                 "created_at": "2026-03-10T00:08:38.966666+07:00",
                 "updated_at": "2026-03-10T00:09:20.560718+07:00"
             }
         ]
     },
-    "message": "Get next part successfully",
-    "status": true
+    "attempt": {
+        "id": "244f8970-6499-4e07-9fb5-aaa50d914ef9",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "21bc1a03-ebd7-4341-8b93-cefd04b201fb",
+        "status": "in_progress",
+        "created_at": "2026-03-13T22:30:10.262914+07:00",
+        "updated_at": "2026-03-13T22:30:10.262914+07:00",
+        "submited_at": "2026-03-13T22:30:10.262914+07:00"
+    }
 }
 
 {
-    "data": {
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
         "id": "eae55861-88ed-4b8c-88ef-031fee4bd246",
         "title": "Đề Dự Đoán TSA Đợt 2 - Tư Duy Đọc Hiểu",
-        "ids": null,
-        "titles": null,
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_van",
         "time_take": 30,
+        "max_point": 20,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
         "question_quality": 20,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-20T22:13:07.17772+07:00",
+        "updated_at": "2026-03-11T21:24:33.572449+07:00",
         "questions": [
             {
                 "id": "6761b08b-d4e9-460f-8b3a-cee2254d56e8",
@@ -998,7 +1392,11 @@
                 "type": "reading_comprehension",
                 "topic": "tsa_van",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
                 "created_at": "2026-02-20T23:37:58.019463+07:00",
                 "updated_at": "2026-03-12T19:03:23.142723+07:00",
                 "questions": [
@@ -1027,7 +1425,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] nêu formaldehyde phát tán từ đồ nội thất trong không gian sống (nhà ở). Đoạn [2] chỉ ra nhược điểm của vật liệu truyền thống (như zeolit) là 'suy giảm nghiêm trọng trong môi trường có độ ẩm cao', và than hoạt tính thương mại thì 'tốn kém và tiêu tốn rất nhiều năng lượng'. Suy ra B là đáp án chính xác duy nhất.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:07:13.567728+07:00"
                     },
@@ -1041,7 +1447,18 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_van",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "phụ phẩm nông nghiệp",
+                                    "tro trấu"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ vào đoạn [3], bài toán đã 'thôi thúc các nhà nghiên cứu... tìm cách biến phụ phẩm nông nghiệp thành một loại vật liệu lọc công nghệ cao'. Sang đoạn [4] làm rõ phụ phẩm đó chính là 'tro trấu'. Do giới hạn không quá ba tiếng, bạn có thể điền 'phụ phẩm nông nghiệp' hoặc 'tro trấu'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:07:24.583085+07:00"
                     },
@@ -1064,7 +1481,17 @@
                                 "polymer sinh học"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [2] và [4]:\n\r\n\r\n- 'Than hoạt tính thương mại' (0) có quy trình tổng hợp phức tạp, tốn kém.\r\n- 'Zeolit' (1) là vật liệu truyền thống bị suy giảm hiệu suất khi độ ẩm cao.\r\n- 'Than sinh học biến tính PEI' (2) là vật liệu mới được nhóm nghiên cứu tạo ra để hấp phụ mạnh formaldehyde.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:07:35.588275+07:00"
                     },
@@ -1087,7 +1514,16 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ đoạn [4]: Nhận định (a) sai vì PEI giúp 'tăng cường đáng kể mật độ các nhóm chức amin', không phải làm giảm. Nhận định (b) đúng vì các móc hóa học 'giúp vật liệu mới tăng gấp đôi khả năng hấp phụ'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:03:38.212115+07:00"
                     },
@@ -1116,7 +1552,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [5] nêu rõ phương pháp mới 'kết hợp hoạt hóa hóa học với xử lý siêu âm', do đó nói 'Không đòi hỏi bất kỳ sự tác động hóa học nào' là sai sự thật. Các ý A, B, C đều được tác giả nhắc đến rõ ràng như là ưu điểm vượt trội của quy trình chế tạo này.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:07:49.594242+07:00"
                     },
@@ -1130,7 +1574,17 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_van",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "xốp"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [6], 'than sinh học biến tính PEI sở hữu một cấu trúc xốp đặc biệt. Cấu trúc này đan xen phức tạp giống như một mê cung siêu nhỏ...'. Từ cần điền là 'xốp'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:08:28.566813+07:00"
                     },
@@ -1158,7 +1612,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [7] bắt đầu bằng 'Hướng tới những bước tiến xa hơn trong thời gian tới' và liệt kê các hoạt động nhóm 'sẽ tiếp tục tập trung', 'sẽ thiết kế', 'sẽ được mở rộng'. Rõ ràng nội dung cốt lõi của đoạn là trình bày về các định hướng nghiên cứu tiếp theo.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-02-20T23:37:58.019463+07:00"
                     },
@@ -1181,7 +1643,17 @@
                                 "công nghệ sinh học"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào đoạn [8]: Thành công của nghiên cứu chứng tỏ vai trò của 'hóa học tuần hoàn' (0), nơi chất thải có thể nâng cấp thành 'nguyên liệu đầu vào' (1) cho ngành khác. Từ đó đem lại giải pháp khả thi với 'chi phí cực kỳ hợp lý' (tương đương 'chi phí hợp lý' - 2).\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:07:01.527787+07:00"
                     },
@@ -1209,7 +1681,16 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [6] khẳng định: 'nghiên cứu động học và đẳng nhiệt đều cho thấy quá trình hấp phụ formaldehyde diễn ra vô cùng ổn định' (c1 đúng) và 'thể hiện tiềm năng to lớn trong việc ứng dụng vật liệu này vào các thiết bị lọc không khí thương mại' (c3 đúng). Nhận định c4 sai vì kết quả 'hoàn toàn phù hợp với các mô hình khoa học lý thuyết'. Nhận định c2 không có thông tin được nhắc tới trong bài.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-02-20T23:37:58.019463+07:00"
                     },
@@ -1237,7 +1718,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Bài viết tập trung trình bày toàn bộ quá trình nghiên cứu, từ động lực khởi điểm đến phương pháp chế tạo và kết quả của việc dùng tro trấu (phụ phẩm nông nghiệp) biến thành vật liệu lọc ('lá chắn') giúp loại bỏ formaldehyde (chống ô nhiễm không khí trong nhà). Các tiêu đề A, B, C chỉ phản ánh được một khía cạnh hoặc chi tiết rất nhỏ, chỉ có tiêu đề D mới thâu tóm toàn vẹn chủ đề cốt lõi của bài đọc.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-02-20T23:37:58.019463+07:00"
                     }
@@ -1252,7 +1741,11 @@
                 "type": "reading_comprehension",
                 "topic": "tsa_van",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": null,
+                "access_code": null,
                 "created_at": "2026-02-20T23:37:58.019463+07:00",
                 "updated_at": "2026-02-20T23:37:58.019463+07:00",
                 "questions": [
@@ -1280,7 +1773,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] nêu rõ hai mặt của sự mong cầu: vừa là 'động lực sống, giúp mỗi người gánh vác số phận mình', nhưng đồng thời cũng 'chiếm lĩnh, chi phối tâm trí... trở thành giới hạn vô hình trong nội tâm'. Đáp án B tóm lược chính xác nhất ý nghĩa này.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-02-20T23:37:58.019463+07:00"
                     },
@@ -1294,7 +1795,17 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_van",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "lắng đọng"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [2], tác giả viết: 'Đó là hành trình trở về, không chỉ theo nghĩa sum vầy với người thân trong gia đình, mà là sự lắng đọng những gì căn bản và thân thuộc nhất'. Cụm từ cần điền là 'lắng đọng'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:08:13.533823+07:00"
                     },
@@ -1319,7 +1830,18 @@
                                 "giới hạn vô hình"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Quét thông tin qua các đoạn:\n\r\n\r\n- Sắc thái 1 (đoạn 3): 'khẽ hít vào, đó là sắc thái hơi thở đầu tiên - một hơi thở hướng thượng' (0).\r\n- Sắc thái 2 (đoạn 4): 'Khi hơi thở được trì giữ lại và ngưng tụ (1), sắc thái thứ hai xuất hiện'.\r\n- Sắc thái 3 (đoạn 5): 'sắc thái hơi thở thứ ba xuất hiện trong sự buông xả (2)'.\r\n- Sắc thái 4 (đoạn 6): 'Sắc thái thứ tư xuất hiện trong sự trống rỗng đầy đủ (3)'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:08:44.630425+07:00"
                     },
@@ -1345,7 +1867,17 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai. Tác giả khuyên: 'Ở điểm chạm ấy, hãy đừng vội thở ra'.\n\r\n\r\n- b) Sai. Tác giả đính chính rõ ràng: 'tính Không - không phải là hư vô mà là trạng thái tự do'.\r\n- c) Đúng. 'Hơi thở ngưng tụ không phải là dừng lại, mà là mở ra' và 'thoát khỏi những ràng buộc kiên cố của cái tôi'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:09:23.533809+07:00"
                     },
@@ -1374,7 +1906,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [5] viết: 'chỉ là một dòng chảy êm đềm đưa tâm trở về với những gì dung dị nhất. Ta nghe rõ hơn tiếng gió... thấu tỏ hơn ánh mắt... Hơi thở ra đồng hành cùng sự lắng dịu — một sự trở về thầm lặng nhưng trọn vẹn'. Đáp án C miêu tả chính xác trạng thái này.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:09:05.091244+07:00"
                     },
@@ -1388,7 +1928,20 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_van",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "tích lũy"
+                                ],
+                                [
+                                    "sức sống mới"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [6]:\n\r\n\r\n- 'niềm rộn ràng của mùa xuân được nuôi dưỡng và tích lũy' -\u003e (1) tích lũy.\r\n- 'Chính từ khoảng lặng tưởng như trống rỗng này, khởi phát sức sống mới được chuẩn bị cho vòng tuần hoàn tiếp theo' -\u003e (2) sức sống mới.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:09:42.083794+07:00"
                     },
@@ -1416,7 +1969,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Tại đoạn [4], tác giả viết rất rõ ràng: 'Sự ngưng tụ của hơi thở hít vào giống như một khoảng lặng giữa hai làn sóng...'. Biện pháp so sánh này dùng để ví von sự ngưng tụ khi ta trì giữ hơi thở. Đáp án B đúng.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-02-20T23:37:58.019463+07:00"
                     },
@@ -1439,7 +2000,17 @@
                                 "nhịp điệu"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào đoạn [7]: 'Nó nhắc ta rằng mọi khởi đầu (0) tinh khôi đều được sinh ra từ một kết thúc... mọi hy vọng đều trở nên bền vững hơn khi đi qua sự buông bỏ (1). Bốn sắc thái hơi thở giúp ta cảm nhận đầy đủ nhất những rung động (2) sâu xa của mỗi một lần giao thừa'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:10:04.576469+07:00"
                     },
@@ -1468,7 +2039,16 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"- c1 và c3 sai vì tác giả khẳng định: 'Giao thừa không thực sự bắt đầu khi đồng hồ điểm mười hai giờ' và 'điều còn lại không phải là những lời khấn nguyện đã nói'.\n\r\n\r\n- c2 và c4 đúng vì văn bản ghi rõ: 'khi con người kịp nhận ra nhịp điệu nội tâm trong chính hơi thở mình' (c2) và 'Chiều sâu của Tết vì thế không chỉ là một ngày lễ, mà là một bài học về sự sống-nhẹ nhàng, sâu xa...' (c4).\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-03-12T19:10:33.527651+07:00"
                     },
@@ -1496,7 +2076,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Bài viết mượn hình ảnh đêm giao thừa để nói về thiền định và sự thức tỉnh nội tâm qua bốn nhịp của hơi thở. Tác giả kết luận ở đoạn [8]: 'mỗi chu kỳ hơi thở đều có thể là một lần giao thừa mới... điều còn lại không phải là những lời khấn nguyện đã nói, mà là sự tròn đầy được chạm tới trong từng hơi thở'. Lời khuyên lớn nhất là sự trở về với tĩnh tại nội tâm. Các đáp án A, B, D đều phiến diện hoặc diễn giải sai lệch. Đáp án C là thông điệp chuẩn xác nhất.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-02-20T23:37:58.019463+07:00",
                         "updated_at": "2026-02-20T23:37:58.019463+07:00"
                     }
@@ -1504,29 +2092,52 @@
             }
         ]
     },
-    "message": "Get next part successfully",
-    "status": true
+    "attempt": {
+        "id": "5bfd01a9-50e3-4883-a148-72b5d4d499bb",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "eae55861-88ed-4b8c-88ef-031fee4bd246",
+        "status": "in_progress",
+        "created_at": "2026-03-13T22:31:13.039815+07:00",
+        "updated_at": "2026-03-13T22:31:13.039815+07:00",
+        "submited_at": "2026-03-13T22:31:13.039816+07:00"
+    }
 }
 
 {
-    "data": {
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
         "id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
         "title": "Đề Dự Đoán TSA Đợt 2 - Tư Duy Khoa Học ",
-        "ids": null,
-        "titles": null,
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
         "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "q",
         "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-03-10T14:21:16.113375+07:00",
+        "updated_at": "2026-03-10T14:21:17.744135+07:00",
         "questions": [
             {
                 "id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 1,
-                "content": "**HIỆN TƯỢNG THỦY TRIỀU VÀ TRƯỜNG HẤP DẪN**\nThủy triều là sự dâng hạ mực nước biển có chu kỳ. Nguyên nhân chủ yếu do sự chênh lệch gia tốc rơi tự do do Mặt Trăng (và Mặt Trời) tác dụng lên các điểm khác nhau trên Trái Đất, hay còn gọi là lực tạo triều.\nTheo định luật vạn vật hấp dẫn, gia tốc rơi tự do do một thiên thể khối lượng $M$ gây ra tại điểm cách tâm của nó một khoảng $d$ được tính bằng công thức: $g = G\\dfrac{M}{d^2}$.\n* Bảng dữ kiện thiên văn :*\n$/image_{https://zpi.cx/b/4t78cHL.png?dl=1}_{center}_{100}_{block}$\nHình 16.2 và Hình 16.3 dưới đây mô tả sự tương quan vị trí của các thiên thể trong hai pha thủy triều đặc trưng:\n$/image_{https://zpi.cx/b/L0SZsFu.png?dl=1}_{center}_{100}_{block}$",
+                "content": "**HIỆN TƯỢNG THỦY TRIỀU VÀ TRƯỜNG HẤP DẪN**\nThủy triều là sự dâng hạ mực nước biển có chu kỳ. Nguyên nhân chủ yếu do sự chênh lệch gia tốc rơi tự do do Mặt Trăng (và Mặt Trời) tác dụng lên các điểm khác nhau trên Trái Đất, hay còn gọi là lực tạo triều.\nTheo định luật vạn vật hấp dẫn, gia tốc rơi tự do do một thiên thể khối lượng $M$ gây ra tại điểm cách tâm của nó một khoảng $d$ được tính bằng công thức: $g = G\\dfrac{M}{d^2}$.\n* Bảng dữ kiện thiên văn :*\n$/image_{https://zpi.cx/b/zOPOo.png?dl=1}_{center}_{100}_{block}$\nHình 16.2 và Hình 16.3 dưới đây mô tả sự tương quan vị trí của các thiên thể trong hai pha thủy triều đặc trưng:\n$/image_{https://zpi.cx/b/Ybi2op.png?dl=1}_{center}_{100}_{block}$",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": null,
+                "access_code": "I6OTSEHZ",
                 "created_at": "2026-03-10T16:36:47.971222+07:00",
                 "updated_at": "2026-03-11T11:37:02.935175+07:00",
                 "questions": [
@@ -1551,7 +2162,17 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 2.\r\nVới câu a: Trái Đất có dạng hình cầu bán kính $r$, nên $d$ thay đổi liên tục từ $(R_m - r)$ đến $(R_m + r)$. $\\implies$ Phát biểu sai.\r\n Với câu b: Dựa vào cấu trúc hàm số, $g$ tỉ lệ nghịch với **bình phương** khoảng cách ($d^2$), không phải $d$. $\\implies$ Phát biểu sai.\r\nVới câu c: Mẫu số $d^2$ đạt giá trị nhỏ nhất tại khoảng cách $(R_m - r)$, phân số đạt cực đại. $\\implies$ Phát biểu đúng.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": "M1659CS2",
                         "created_at": "2026-03-10T16:36:47.971222+07:00",
                         "updated_at": "2026-03-11T11:37:07.775796+07:00"
                     },
@@ -1571,7 +2192,26 @@
                                 "$0^\\circ \\text{ hoặc } 180^\\circ$"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    2
+                                ],
+                                [
+                                    1
+                                ],
+                                [
+                                    3
+                                ],
+                                [
+                                    0
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 2.\r\n Thí sinh quan sát Hình 16.3, nhận thấy trục Trái Đất - Mặt Trăng và Trái Đất - Mặt Trời tạo thành góc vuông $\\implies$ Vị trí (1) điền $90^\\circ$ và (2) điền triều kém.\r\nThí sinh đối chiếu Hình 16.2, nhận thấy sự thẳng hàng tương ứng với góc $0^\\circ$ hoặc $180^\\circ$ $\\implies$ Vị trí (3) điền $0^\\circ \\text{ hoặc } 180^\\circ$ và (4) điền triều cường.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T16:36:47.971222+07:00",
                         "updated_at": "2026-03-10T16:36:47.971222+07:00"
                     },
@@ -1599,7 +2239,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 2.\r\n Thí sinh biến đổi công thức lực hấp dẫn để cô lập $G$:\r\n\r\n$\\begin{aligned} G = \\dfrac{F \\cdot d^2}{m_1 m_2} \\end{aligned}$\r\n\r\n\r\n*Thay thứ nguyên tương ứng của lực $F$ là $M \\cdot L \\cdot T^{-2}$:\r\n\r\n$\\begin{aligned} [G] = \\dfrac{(M \\cdot L \\cdot T^{-2}) \\cdot L^2}{M^2} = M^{-1} \\cdot L^3 \\cdot T^{-2} \\end{aligned}$\r\n\r\n\r\n $\\implies$ Chọn đáp án A.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T16:36:47.971222+07:00",
                         "updated_at": "2026-03-10T16:36:47.971222+07:00"
                     },
@@ -1612,7 +2260,20 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_ly",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "3,44"
+                                ],
+                                [
+                                    "3,22"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 3.\r\n Thí sinh thay số liệu từ bảng vào hai phương trình chuẩn:\r\n\r\n$\\begin{aligned} g_A \u0026= 6,67 \\cdot 10^{-11} \\cdot \\dfrac{7,35 \\cdot 10^{22}}{(3,84 \\cdot 10^8 - 0,064 \\cdot 10^8)^2} \\\\ \u0026= \\dfrac{49,02 \\cdot 10^{11}}{(3,776 \\cdot 10^8)^2} \\approx 3,44 \\cdot 10^{-5} \\text{ m/s}^2 \\end{aligned}$\r\n\r\n\r\n$\\begin{aligned} g_B \u0026= 6,67 \\cdot 10^{-11} \\cdot \\dfrac{7,35 \\cdot 10^{22}}{(3,84 \\cdot 10^8 + 0,064 \\cdot 10^8)^2} \\\\ \u0026= \\dfrac{49,02 \\cdot 10^{11}}{(3,904 \\cdot 10^8)^2} \\approx 3,22 \\cdot 10^{-5} \\text{ m/s}^2 \\end{aligned}$",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T16:36:47.971222+07:00",
                         "updated_at": "2026-03-10T16:36:47.971222+07:00"
                     },
@@ -1640,7 +2301,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 3.\r\n Thí sinh áp dụng trực tiếp hệ quả tỉ lệ thuận $\\Delta g \\sim \\dfrac{M}{R^3}$ được cung cấp ở đề bài để thiết lập tỷ số $\\dfrac{\\Delta g_m}{\\Delta g_s}$:\r\n\r\n$\\begin{aligned} \\dfrac{\\Delta g_m}{\\Delta g_s} \u0026= \\dfrac{M_m}{R_m^3} \\cdot \\dfrac{R_s^3}{M_s} \\\\ \u0026= \\dfrac{7,35 \\cdot 10^{22}}{(3,84 \\cdot 10^8)^3} \\cdot \\dfrac{(1,5 \\cdot 10^{11})^3}{2,0 \\cdot 10^{30}} \\\\ \u0026\\approx (1,298 \\cdot 10^{-3}) \\cdot (1687,5) \\approx 2,19 \\end{aligned}$\r\n\r\n $\\implies$ Chọn đáp án B.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T16:36:47.971222+07:00",
                         "updated_at": "2026-03-10T16:36:47.971222+07:00"
                     }
@@ -1650,12 +2319,16 @@
                 "id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 1,
-                "content": "**PHÂN HỦY SINH HỌC NHỰA BỞI VI SINH VẬT**\n\n         Sự gia tăng ồ ạt của việc sử dụng nhựa trong các sản phẩm tiêu dùng đã dẫn đến hàng triệu tấn nhựa bị thải ra môi trường. Vi sinh vật đóng vai trò quan trọng trong quá trình phân hủy này. Hơn 90 chi vi khuẩn và nấm có khả năng phân hủy nhựa đã được phát hiện. Tuy nhiên, quá trình này diễn ra rất chậm. Các nghiên cứu trước đây chủ yếu tập trung phân lập và đánh giá khả năng phân hủy của từng chủng riêng lẻ mà chưa chú ý nhiều đến hiệu quả phân hủy khi các chủng được trộn cùng nhau.\n\n        Các nhà khoa học tại đại học Lagos đã thu thập mẫu đất từ bãi rác gần trường (nơi chứa nhiều loại nhựa trong thời gian dài). Chủng vi khuẩn *Pseudomonas* sp. và nấm *Aspergillus niger* được chọn lọc. Khả năng phân hủy nhựa Polyethylene mật độ thấp (LDPE) ở dạng nuôi cấy riêng lẻ và phối hợp được thử nghiệm trong ống nghiệm chứa môi trường nuôi cấy và một dải nhựa LDPE có trọng lượng ban đầu $0,1\\text{ g}$. Trọng lượng của dải nhựa và độ tăng trưởng sinh khối của vi sinh vật được kiểm tra định kì. Kết quả thí nghiệm được biểu diễn trong các đồ thị sau:\n$/image_{https://zpi.cx/b/6Y3yC.png?dl=1}_{center}_{100}_{block}$",
+                "content": "**PHÂN HỦY SINH HỌC NHỰA BỞI VI SINH VẬT**\n\n         Sự gia tăng ồ ạt của việc sử dụng nhựa trong các sản phẩm tiêu dùng đã dẫn đến hàng triệu tấn nhựa bị thải ra môi trường. Vi sinh vật đóng vai trò quan trọng trong quá trình phân hủy này. Hơn 90 chi vi khuẩn và nấm có khả năng phân hủy nhựa đã được phát hiện. Tuy nhiên, quá trình này diễn ra rất chậm. Các nghiên cứu trước đây chủ yếu tập trung phân lập và đánh giá khả năng phân hủy của từng chủng riêng lẻ mà chưa chú ý nhiều đến hiệu quả phân hủy khi các chủng được trộn cùng nhau.\n\n        Các nhà khoa học tại đại học Lagos đã thu thập mẫu đất từ bãi rác gần trường (nơi chứa nhiều loại nhựa trong thời gian dài). Chủng vi khuẩn *Pseudomonas* sp. và nấm *Aspergillus niger* được chọn lọc. Khả năng phân hủy nhựa Polyethylene mật độ thấp (LDPE) ở dạng nuôi cấy riêng lẻ và phối hợp được thử nghiệm trong ống nghiệm chứa môi trường nuôi cấy và một dải nhựa LDPE có trọng lượng ban đầu $0,1\\text{ g}$. Trọng lượng của dải nhựa và độ tăng trưởng sinh khối của vi sinh vật được kiểm tra định kì. Kết quả thí nghiệm được biểu diễn trong các đồ thị sau:\n$/image_{https://zpi.cx/b/S6MinSY.png?dl=1}_{center}_{100}_{block}$",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_sinh",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": "YY984XK4",
                 "created_at": "2026-03-10T21:36:12.224367+07:00",
                 "updated_at": "2026-03-11T11:37:17.662581+07:00",
                 "questions": [
@@ -1683,7 +2356,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] xác định rõ lỗ hổng nghiên cứu là 'chưa chú ý nhiều đến hiệu quả phân hủy khi các chủng được trộn cùng nhau'. Đoạn [2] trực tiếp lấp lỗ hổng này bằng cách thiết kế thí nghiệm 'ở dạng nuôi cấy riêng lẻ và phối hợp'. Chọn C.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T21:36:12.224367+07:00",
                         "updated_at": "2026-03-10T21:36:12.224367+07:00"
                     },
@@ -1711,7 +2392,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [2] nhấn mạnh việc chọn mẫu đất bãi rác vì nơi đây 'chứa nhiều loại nhựa trong thời gian dài'. Sự tồn tại lâu dài của rác thải nhựa tạo áp lực chọn lọc tự nhiên, ép hệ vi sinh vật tại đây phải tiến hóa và tiết ra enzyme phân hủy nhựa để sinh tồn. Nhờ đó, xác suất thu thập được chủng vi sinh vật mục tiêu sẽ cao hơn. Chọn C.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T21:36:12.224367+07:00",
                         "updated_at": "2026-03-10T21:36:12.224367+07:00"
                     },
@@ -1739,7 +2428,16 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"- A và D sai: Phân tích Hình 2, đường màu xanh (*A. niger*) tiến xa nhất trên trục hoành (đạt mức sinh khối $\\approx 2,4 \\times 10^8\\text{ tế bào/ml}$), cao hơn so với đường màu đen của hỗn hợp (chỉ đạt $\\approx 2,2 \\times 10^8\\text{ tế bào/ml}$). Tuy nhiên, trên trục tung, lượng nhựa của mẫu hỗn hợp lại giảm sâu nhất (phân hủy tốt nhất). Đồ thị chứng minh sinh khối lớn hơn không có nghĩa là phân hủy tốt hơn hay nhanh hơn. Các khẳng định tương quan thuận tuyệt đối ('càng... càng...') là sai thực tế. Chọn A và D.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T21:36:12.224367+07:00",
                         "updated_at": "2026-03-10T21:36:12.224367+07:00"
                     },
@@ -1764,7 +2462,17 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai: Thí nghiệm chỉ khảo sát khả năng phân hủy ở một điều kiện nuôi cấy cố định, không hề có các bước thay đổi thông số (pH, nhiệt độ) để đối chứng và kết luận đây là môi trường 'phù hợp nhất'.\n\r\n\r\n- b) Đúng: Trên cả Hình 1 và 2, đường màu đỏ (*Pseudomonas* sp.) luôn nằm cao nhất trên trục tung, tương ứng với lượng nhựa còn lại nhiều nhất $\\rightarrow$ hiệu suất phân hủy kém nhất.\r\n- c) Đúng: Đường màu đen (hỗn hợp) duy trì xu hướng giảm ổn định và kết thúc ở vị trí thấp nhất trên trục tung, chứng minh hiệu quả phối hợp vượt trội hơn hẳn.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T21:36:12.224367+07:00",
                         "updated_at": "2026-03-10T21:36:12.224367+07:00"
                     },
@@ -1792,7 +2500,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- Trọng lượng nhựa ban đầu là $10,0\\text{ g/l}$. Để phân hủy 'một nửa', lượng nhựa cần mất đi là $5,0\\text{ g/l}$.\n\n\n- Đọc Hình 1 đối với hỗn hợp (đường màu đen): Tại $t = 60\\text{ ngày}$, trọng lượng nhựa còn lại khoảng $8,5\\text{ g/l}$.\n\n- Khối lượng nhựa đã bị phân hủy sau 60 ngày là: $10,0 - 8,5 = 1,5\\text{ g/l}$.\n\n- Tốc độ phân hủy trung bình của hỗn hợp: $v = \\dfrac{1,5}{60} = 0,025\\text{ g/l/ngày}$.\n\n- Thời gian cần thiết để phân hủy $5,0\\text{ g/l}$ nhựa: $t = \\dfrac{5,0}{0,025} = 200\\text{ ngày}$.\n\nChọn B.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T21:36:12.224367+07:00",
                         "updated_at": "2026-03-10T21:36:12.224367+07:00"
                     }
@@ -1802,12 +2518,16 @@
                 "id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 1,
-                "content": "** CƠ CHẾ XÂM NHẬP VÀ LÂY NHIỄM CỦA VIRUS NIPAH**\nVirus Nipah (NiV) là một loại paramyxovirus (thuộc chi Henipavirus, phân họ Paramyxovirinae, họ Paramyxoviridae, bộ Mononegavirales), một loại virus mới nổi có thể gây bệnh hô hấp nặng và viêm não gây tử vong ở người. Virus này vốn đã xuất hiện từ lâu và hiện nay bùng phát tại Ấn Độ. Cục Phòng bệnh – Bộ Y tế nhận định, không loại trừ khả năng có thể ghi nhận trường hợp bệnh xâm nhập về từ vùng có dịch (đặc biệt trong thời gian tới vào dịp Tết Nguyên đán, mùa Lễ hội đầu năm $2026$) hoặc mầm bệnh lây truyền từ sự di cư của động vật hoang dã.\nQuá trình xâm nhập của virus được khởi đầu bằng sự liên kết có ái lực cao giữa miền cấu trúc cánh quạt beta ($\\beta$-propeller) sáu cánh của protein G với các thụ thể ephrin-B2 hoặc ephrin-B3 của tế bào vật chủ. Tương tác này kích hoạt quá trình gấp lại của glycoprotein F. Protein F hình thành một bó sáu xoắn, tạo điều kiện cho sự dung hợp màng tế bào virus để xâm nhập vào tế bào.\n$/image_{https://zpi.cx/b/jO3IXz.png?dl=1}_{center}_{100}_{block}$\nDơi ăn quả đóng vai trò là vật chủ chứa tự nhiên của virus Nipah. Từ dơi, virus đã vượt qua rào cản loài thường xuyên sang một số loài khác, bao gồm cả con người, thông qua lây truyền gián tiếp, nhưng sau đó lây truyền từ người sang người lại hạn chế. Sự lây truyền virus Nipah (NiV) sang người chủ yếu xảy ra ở những nơi người, lợn và dơi tiếp xúc gần nhau. Người dân nuôi lợn để kinh tế và trồng cây ăn quả trong và xung quanh trang trại để tạo bóng mát. Dơi thuộc loài Pteropus spp., là vật chủ chứa virus NiV, bị thu hút bởi trái cây, do đó virus NiV lây lan sang lợn/động vật và cả người. Thịt lợn nhiễm bệnh được vận chuyển khắp các châu lục, dẫn đến sự lây truyền virus từ động vật ở một nơi trên thế giới sang người ở nơi khác.\nVirus Nipah (NiV) lây truyền qua việc tiêu thụ thực phẩm bị nhiễm virus và tiếp xúc với động vật bị nhiễm bệnh hoặc dịch cơ thể người. Các yếu tố nguy cơ bao gồm tiếp xúc gần, ví dụ như chạm vào, cho ăn hoặc chăm sóc người bị nhiễm virus, do đó tạo điều kiện thuận lợi cho việc lây nhiễm NiV qua giọt bắn.\n*(Dẫn theo: Singh RK, Dhama K, Chakraborty S, Tiwari R, Natesan S, Khandia R, Munjal A, Vora KS, Latheef SK, Karthik K, Singh Malik Y, Singh R, Chaicumpa W, Mourya DT. Nipah virus: epidemiology, pathology, immunobiology and advances in diagnosis, vaccine designing and control strategies - a comprehensive review. Vet Q. 2019)*",
+                "content": "** CƠ CHẾ XÂM NHẬP VÀ LÂY NHIỄM CỦA VIRUS NIPAH**\nVirus Nipah (NiV) là một loại paramyxovirus (thuộc chi Henipavirus, phân họ Paramyxovirinae, họ Paramyxoviridae, bộ Mononegavirales), một loại virus mới nổi có thể gây bệnh hô hấp nặng và viêm não gây tử vong ở người. Virus này vốn đã xuất hiện từ lâu và hiện nay bùng phát tại Ấn Độ. Cục Phòng bệnh – Bộ Y tế nhận định, không loại trừ khả năng có thể ghi nhận trường hợp bệnh xâm nhập về từ vùng có dịch (đặc biệt trong thời gian tới vào dịp Tết Nguyên đán, mùa Lễ hội đầu năm $2026$) hoặc mầm bệnh lây truyền từ sự di cư của động vật hoang dã.\nQuá trình xâm nhập của virus được khởi đầu bằng sự liên kết có ái lực cao giữa miền cấu trúc cánh quạt beta ($\\beta$-propeller) sáu cánh của protein G với các thụ thể ephrin-B2 hoặc ephrin-B3 của tế bào vật chủ. Tương tác này kích hoạt quá trình gấp lại của glycoprotein F. Protein F hình thành một bó sáu xoắn, tạo điều kiện cho sự dung hợp màng tế bào virus để xâm nhập vào tế bào.\n$/image_{https://zpi.cx/b/VElNaXQ.png?dl=1}_{center}_{100}_{block}$\nDơi ăn quả đóng vai trò là vật chủ chứa tự nhiên của virus Nipah. Từ dơi, virus đã vượt qua rào cản loài thường xuyên sang một số loài khác, bao gồm cả con người, thông qua lây truyền gián tiếp, nhưng sau đó lây truyền từ người sang người lại hạn chế. Sự lây truyền virus Nipah (NiV) sang người chủ yếu xảy ra ở những nơi người, lợn và dơi tiếp xúc gần nhau. Người dân nuôi lợn để kinh tế và trồng cây ăn quả trong và xung quanh trang trại để tạo bóng mát. Dơi thuộc loài Pteropus spp., là vật chủ chứa virus NiV, bị thu hút bởi trái cây, do đó virus NiV lây lan sang lợn/động vật và cả người. Thịt lợn nhiễm bệnh được vận chuyển khắp các châu lục, dẫn đến sự lây truyền virus từ động vật ở một nơi trên thế giới sang người ở nơi khác.\nVirus Nipah (NiV) lây truyền qua việc tiêu thụ thực phẩm bị nhiễm virus và tiếp xúc với động vật bị nhiễm bệnh hoặc dịch cơ thể người. Các yếu tố nguy cơ bao gồm tiếp xúc gần, ví dụ như chạm vào, cho ăn hoặc chăm sóc người bị nhiễm virus, do đó tạo điều kiện thuận lợi cho việc lây nhiễm NiV qua giọt bắn.\n*(Dẫn theo: Singh RK, Dhama K, Chakraborty S, Tiwari R, Natesan S, Khandia R, Munjal A, Vora KS, Latheef SK, Karthik K, Singh Malik Y, Singh R, Chaicumpa W, Mourya DT. Nipah virus: epidemiology, pathology, immunobiology and advances in diagnosis, vaccine designing and control strategies - a comprehensive review. Vet Q. 2019)*",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": null,
+                "access_code": "2EKEFIUP",
                 "created_at": "2026-03-10T22:11:06.750284+07:00",
                 "updated_at": "2026-03-11T11:37:29.432334+07:00",
                 "questions": [
@@ -1835,7 +2555,18 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh trích xuất dữ kiện từ văn bản để kiểm chứng từng nhận định.\n\r\n* Với câu a: Đoạn 1 nêu rõ 'không loại trừ khả năng có thể ghi nhận trường hợp bệnh xâm nhập về từ vùng có dịch... Ấn Độ' $\\implies$ phát biểu là đúng.\r\n* Với câu b: Đoạn 2 giải thích cơ chế 'khởi đầu bằng sự liên kết... của protein G với các thụ thể... kích hoạt quá trình gấp lại của glycoprotein F' $\\implies$ phát biểu là đúng.\r\n* Với câu c: Từ sơ đồ và đoạn 2, protein G và F tương tác trực tiếp với màng tế bào vật chủ để bám dính và dung hợp màng $\\implies$ phát biểu là đúng.\r\n* Với câu d: Đoạn cuối khẳng định 'Các yếu tố nguy cơ bao gồm tiếp xúc gần, ví dụ như chạm vào, cho ăn hoặc chăm sóc người bị nhiễm' $\\implies$ phát biểu là đúng.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -1858,7 +2589,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh quan sát sơ đồ vòng đời lây nhiễm để rút ra cơ chế di truyền của virus.\nSơ đồ ghi rõ ở bước 5 là 'Sao chép RNA', đồng thời toàn bộ quá trình phiên mã, dịch mã và sao chép đều diễn ra ở bào tương (lưới nội chất), không xâm nhập vào nhân tế bào của vật chủ. Do đó, virus Nipah là virus RNA và không phụ thuộc vào enzyme sao chép DNA trong nhân.\n ",
                         "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-11T10:30:53.252522+07:00"
                     },
@@ -1878,7 +2617,18 @@
                                 "4"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh xâu chuỗi logic lây nhiễm dựa vào đoạn văn số 3.\nVật chủ tự nhiên khởi phát là dơi (B), sau đó dơi đến các vùng trồng cây và làm rơi vãi mầm bệnh (D). Lợn nuôi gần đó ăn phải và trở thành vật chủ trung gian (A). Cuối cùng, con người buôn bán thịt lợn nhiễm bệnh đi nơi khác làm phát tán virus (C). Vậy thứ tự chuỗi lây nhiễm đúng là B-D-A-C.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -1907,7 +2657,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh đánh giá các biện pháp dựa trên nguồn gốc lây lan chính được mô tả trong bài.\nVăn bản nhấn mạnh: 'Sự lây truyền virus Nipah (NiV) sang người chủ yếu xảy ra ở những nơi người, lợn và dơi tiếp xúc gần nhau. Người dân nuôi lợn... và trồng cây ăn quả trong và xung quanh... Dơi bị thu hút bởi trái cây, do đó virus NiV lây lan sang lợn'.\nDo đó, việc cắt đứt trung gian truyền lây từ dơi sang lợn bằng cách che chắn chuồng trại và không trồng cây thu hút dơi sát chuồng lợn là biện pháp xử lý tận gốc hiệu quả nhất dựa trên cơ sở dữ liệu bài cho. Các biện pháp C và D là biện pháp ngọn, trong khi A chưa được nhắc đến là có khả năng thực thi.\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-11T21:03:33.250276+07:00"
                     },
@@ -1928,7 +2686,23 @@
                                 "bộ sáu xoắn"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    3
+                                ],
+                                [
+                                    2
+                                ],
+                                [
+                                    0
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 3. Thí sinh cần phân tích sơ đồ cơ chế lây nhiễm và ghép nối chức năng của các protein bề mặt với cơ chế tác dụng của thuốc.\n\n* Tại vị trí (1): Theo đoạn văn và bước 1 trong hình, sự 'bám dính' được thực hiện bởi protein G. Vậy cần ức chế protein G.\n* Tại vị trí (2): Đoạn văn mô tả protein G kích hoạt 'sự gấp lại của glycoprotein F', hình thành 'bó sáu xoắn' để dung hợp màng (giúp virus chui vào). Vậy khóa chặt protein F sẽ ngăn nó thay đổi cấu hình.\n* Tại vị trí (3): Bước 8 trong sơ đồ có ghi chú 'Cô lập NiV-M' nằm ngay trước quá trình 'Nảy chồi' (bước 9) và tạo hình virus mới. Suy ra protein M là nhân tố cần nhắm tới để ngăn chặn lắp ráp.\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     }
@@ -1943,7 +2717,11 @@
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": null,
+                "access_code": "G8DKMSH5",
                 "created_at": "2026-03-10T22:11:06.750284+07:00",
                 "updated_at": "2026-03-11T11:37:39.691045+07:00",
                 "questions": [
@@ -1971,7 +2749,16 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phân tích các yếu tố động học hóa học dựa trên văn bản.\n\n* Nhiệt độ ($T$) tăng làm $e^{\\dfrac{-E_a}{RT}}$ tăng $\\implies$ hằng số $k$ tăng $\\implies$ tốc độ phản ứng tăng (phát biểu A đúng).\n* Chất xúc tác làm giảm năng lượng hoạt hóa ($E_a$), không phải làm tăng (phát biểu B sai).\n* Nồng độ ($C_A$, $C_B$) giảm làm cho tích số $C_A^p.C_B^q$ giảm $\\implies$ tốc độ phản ứng giảm (phát biểu C đúng).\n* Giảm áp suất đối với hệ khí thường đồng nghĩa với giảm nồng độ, khiến phản ứng chậm lại, không phải nhanh hơn (phát biểu D sai).\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2000,7 +2787,18 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh cần nắm vững định nghĩa quy ước về tốc độ phản ứng.\n\nTốc độ có thể âm hoặc dương   SAI    Tốc độ phản ứng ($v$) luôn là đại lượng không âm ($v \\ge 0$).\n\nTốc độ tạo thành mọi sản phẩm là như nhau    SAI   Phụ thuộc vào hệ số tỉ lượng trong phương trình hóa học.\n\nTốc độ thể hiện mức độ nhanh/chậm      ĐÚNG     Đây là định nghĩa cơ bản của tốc độ phản ứng.\n\nTốc độ tức thời: $v = \\lim_{\\Delta t \\to 0} \\dfrac{|\\Delta C|}{\\Delta t}$     Đúng     Tốc độ tại một thời điểm chính là giới hạn khi $|\\Delta t|$ tiến về 0.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-12T19:52:21.57989+07:00"
                     },
@@ -2028,7 +2826,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh nhận diện phương pháp thực nghiệm trong động học.\nPhương án 1 là phương pháp tốc độ ban đầu, giữ cố định các yếu tố khác để xét sự phụ thuộc của vận tốc vào một chất duy nhất. Phương án 2 là phương pháp cô lập (pseudofirst-order hoặc tương đương), khi một chất lấy dư rất lớn thì nồng độ của nó coi như không đổi trong suốt phản ứng, giúp cô lập bậc phản ứng của chất đang khảo sát. Do đó, cả hai phương án đều hợp lý để xác định bậc phản ứng riêng.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2044,20 +2850,28 @@
                         "data_questions": {
                             "answers": [
                                 {
-                                    "content": "$/image_{https://zpi.cx/b/oxTdL.png?dl=1}_{center}_{100}_{block}$"
+                                    "content": "$/image_{https://zpi.cx/b/7mXf07h.png?dl=1}_{center}_{100}_{block}$"
                                 },
                                 {
-                                    "content": "$/image_{https://zpi.cx/b/lJm3L.png?dl=1}_{center}_{100}_{block}$"
+                                    "content": "$/image_{https://zpi.cx/b/v7Co7.png?dl=1}_{center}_{100}_{block}$"
                                 },
                                 {
-                                    "content": "$/image_{https://zpi.cx/b/a0EexF.png?dl=1}_{center}_{100}_{block}$"
+                                    "content": "$/image_{https://zpi.cx/b/lkJA4n.png?dl=1}_{center}_{100}_{block}$"
                                 },
                                 {
-                                    "content": "$/image_{https://zpi.cx/b/yRz2MoI.png?dl=1}_{center}_{100}_{block}$"
+                                    "content": "$/image_{https://zpi.cx/b/16KWH.png?dl=1}_{center}_{100}_{block}$"
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh biến đổi phương trình Arrhenius để tìm mối quan hệ tuyến tính.\nLấy logarit tự nhiên hai vế của phương trình $k = A.e^{\\dfrac{-E_a}{RT}}$, ta có:\n\n\n$\\begin{aligned} \\ln k = \\ln A - \\dfrac{E_a}{R} \\cdot \\dfrac{1}{T} \\end{aligned}$\n\n\nĐặt $y = \\ln k$ và $x = \\dfrac{1}{T}$, phương trình có dạng bậc nhất $y = - \\dfrac{E_a}{R} \\cdot x + \\ln A$.\nVì $E_a$ và $R$ luôn dương nên hệ số góc $-\\dfrac{E_a}{R}$ là một số âm. Suy ra đồ thị là một đường thẳng nghịch biến (đi xuống). Đồ thị D biểu diễn chính xác nhất mối quan hệ này.\n",
                         "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:12:43.119723+07:00"
                     },
@@ -2066,12 +2880,25 @@
                         "parent_id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
                         "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                         "position": 5,
-                        "content": "Khảo sát phản ứng $2\\text{ClO}_2 + 2\\text{OH}^- \\rightarrow \\text{ClO}_3^- + \\text{ClO}_2^- + \\text{H}_2\\text{O}$, người ta làm ba thí nghiệm độc lập và thu được các dữ liệu sau:\n$/image_{https://zpi.cx/b/OoexiE.png?dl=1}_{center}_{100}_{block}$\nTốc độ phản ứng của phản ứng trên là $v = k.[\\text{ClO}_2]^a.[\\text{OH}^-]^b$ với $a =$ (1) ____ và $b =$ (2) ____.",
+                        "content": "Khảo sát phản ứng $2\\text{ClO}_2 + 2\\text{OH}^- \\rightarrow \\text{ClO}_3^- + \\text{ClO}_2^- + \\text{H}_2\\text{O}$, người ta làm ba thí nghiệm độc lập và thu được các dữ liệu sau:\n$/image_{https://zpi.cx/b/p56VgsB.png?dl=1}_{center}_{100}_{block}$\nTốc độ phản ứng của phản ứng trên là $v = k.[\\text{ClO}_2]^a.[\\text{OH}^-]^b$ với $a =$ (1) ____ và $b =$ (2) ____.",
                         "difficulty": "M1",
                         "type": "fill_in_blank",
                         "topic": "tsa_ly",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "2"
+                                ],
+                                [
+                                    "1"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 3. Thí sinh xử lý số liệu thực nghiệm để tìm bậc phản ứng.\nDựa vào phương pháp tính tốc độ trung bình ($\\Delta C / \\Delta t$) và lập tỉ lệ giữa các thử nghiệm:\n\n* Khi giữ nguyên $[\\text{OH}^-]$ và tăng nồng độ $[\\text{ClO}_2]$ lên gấp đôi, tốc độ phản ứng tính toán được tăng lên xấp xỉ 4 lần ($2^2 = 4$). Suy ra bậc phản ứng theo $\\text{ClO}_2$ là $a = 2$.\n* Khi giữ nguyên $[\\text{ClO}_2]$ và tăng nồng độ $[\\text{OH}^-]$ lên gấp đôi, tốc độ phản ứng tăng lên xấp xỉ 2 lần ($2^1 = 2$). Suy ra bậc phản ứng theo $\\text{OH}^-$ là $b = 1$.\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-11T21:07:48.914689+07:00"
                     }
@@ -2081,12 +2908,16 @@
                 "id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 4,
-                "content": "**ẨN NHIỆT VÀ QUÁ TRÌNH CHUYỂN PHA**\nẨn nhiệt (latent heat) là năng lượng được cung cấp hay bị lấy đi để chuyển trạng thái (pha) của một chất mà không thay đổi nhiệt độ của nó. Thuật ngữ chuyển pha (hoặc thay đổi pha) được sử dụng phổ biến để mô tả sự chuyển tiếp giữa các trạng thái rắn, lỏng và khí của vật chất và đôi khi là trạng thái plasma (trường hợp ít gặp) (Hình 1). Ẩn nhiệt nóng chảy, ẩn nhiệt hóa hơi, ẩn nhiệt thăng hoa tương ứng liên quan đến các quá trình chuyển pha rắn - lỏng, lỏng - khí, rắn - khí ở một nhiệt độ và áp suất nhất định.\nXét sự chuyển pha lỏng - khí của nước. Để đun nước đến nhiệt độ sôi, ta cần cung cấp nhiệt lượng. Đến nhiệt độ sôi nếu cấp thêm nhiệt lượng, nước không trở nên nóng hơn, mà hóa hơi với thể tích tăng đáng kể. Dưới dạng hơi, nước chứa nhiều năng lượng hơn ở dạng lỏng, mặc dù hơi nước không nóng hơn. Khi hơi nước ngưng tụ thành nước thể lỏng, năng lượng được giải phóng, trong khi nhiệt độ vẫn không đổi (quá trình đẳng nhiệt) và thể tích giảm đi. Trong hai quá trình bay hơi và ngưng tụ, năng lượng là bằng nhau và chỉ khác nhau về dấu liên quan đến quá trình nhận hay giải phóng năng lượng.\nỞ một pha xác định (rắn, lỏng, khí...) có thể coi nhiệt dung hoặc nhiệt dung riêng của vật là không đổi. Nhiệt dung là nhiệt lượng cần thiết nâng nhiệt độ của vật tăng thêm 1°C trong khi nhiệt dung riêng (của một chất) là nhiệt lượng cần thiết để tăng nhiệt độ của một ki-lô-gram (kg) khối lượng chất đó thêm 1°C.\n*(Hình 1: Sơ đồ sự chuyển thể giữa các pha (rắn, lỏng, khí, plasma).)*\n$/image_{https://zpi.cx/b/6ujGgGD.png?dl=1}_{center}_{50}_{block}$\n*Bảng 1. Nhiệt độ thay đổi theo nhiệt nhận.*\n$/image_{https://zpi.cx/b/qFCTb.png?dl=1}_{center}_{100}_{block}$",
+                "content": "**ẨN NHIỆT VÀ QUÁ TRÌNH CHUYỂN PHA**\nẨn nhiệt (latent heat) là năng lượng được cung cấp hay bị lấy đi để chuyển trạng thái (pha) của một chất mà không thay đổi nhiệt độ của nó. Thuật ngữ chuyển pha (hoặc thay đổi pha) được sử dụng phổ biến để mô tả sự chuyển tiếp giữa các trạng thái rắn, lỏng và khí của vật chất và đôi khi là trạng thái plasma (trường hợp ít gặp) (Hình 1). Ẩn nhiệt nóng chảy, ẩn nhiệt hóa hơi, ẩn nhiệt thăng hoa tương ứng liên quan đến các quá trình chuyển pha rắn - lỏng, lỏng - khí, rắn - khí ở một nhiệt độ và áp suất nhất định.\nXét sự chuyển pha lỏng - khí của nước. Để đun nước đến nhiệt độ sôi, ta cần cung cấp nhiệt lượng. Đến nhiệt độ sôi nếu cấp thêm nhiệt lượng, nước không trở nên nóng hơn, mà hóa hơi với thể tích tăng đáng kể. Dưới dạng hơi, nước chứa nhiều năng lượng hơn ở dạng lỏng, mặc dù hơi nước không nóng hơn. Khi hơi nước ngưng tụ thành nước thể lỏng, năng lượng được giải phóng, trong khi nhiệt độ vẫn không đổi (quá trình đẳng nhiệt) và thể tích giảm đi. Trong hai quá trình bay hơi và ngưng tụ, năng lượng là bằng nhau và chỉ khác nhau về dấu liên quan đến quá trình nhận hay giải phóng năng lượng.\nỞ một pha xác định (rắn, lỏng, khí...) có thể coi nhiệt dung hoặc nhiệt dung riêng của vật là không đổi. Nhiệt dung là nhiệt lượng cần thiết nâng nhiệt độ của vật tăng thêm 1°C trong khi nhiệt dung riêng (của một chất) là nhiệt lượng cần thiết để tăng nhiệt độ của một ki-lô-gram (kg) khối lượng chất đó thêm 1°C.\n*(Hình 1: Sơ đồ sự chuyển thể giữa các pha (rắn, lỏng, khí, plasma).)*\n$/image_{https://zpi.cx/b/EU5R3N7.png?dl=1}_{center}_{50}_{block}$\n*Bảng 1. Nhiệt độ thay đổi theo nhiệt nhận.*\n$/image_{https://zpi.cx/b/Uc0SOb.png?dl=1}_{center}_{100}_{block}$",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": "active",
+                "access_code": "QWW7KH0I",
                 "created_at": "2026-03-10T14:27:18.712384+07:00",
                 "updated_at": "2026-03-11T11:37:48.736723+07:00",
                 "questions": [
@@ -2111,7 +2942,17 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "\"- a) Đúng. Đoạn [2] chỉ rõ: 'Đến nhiệt độ sôi nếu cấp thêm nhiệt lượng, nước không trở nên nóng hơn' (nhiệt độ giữ nguyên ở quá trình đẳng nhiệt).\n\r\n\r\n- b) Đúng. Theo đoạn [2]: 'Trong hai quá trình bay hơi và ngưng tụ, năng lượng là bằng nhau và chỉ khác nhau về dấu'. Do đó giá trị độ lớn ẩn nhiệt là như nhau.\r\n- c) Sai. Quá trình đông đặc là quá trình ngược lại với nóng chảy (nhận nhiệt). Khi đông đặc, chất lỏng phải tỏa (giải phóng) nhiệt lượng ra môi trường chứ không phải nhận thêm.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:27:18.712384+07:00",
                         "updated_at": "2026-03-10T14:27:18.712384+07:00"
                     },
@@ -2132,7 +2973,17 @@
                                 "nhiệt dung"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                4,
+                                2,
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"- (1): Theo định nghĩa ở đoạn [3], 'Nhiệt dung là nhiệt lượng cần thiết nâng nhiệt độ của vật tăng thêm 1°C'. Do đó điền 'nhiệt dung'.\n\r\n\r\n- (2): Đồ thị Hình 2 và Bảng 1 cung cấp dữ liệu cho 1 kg nước. Từ lượng nhiệt cần thiết để nâng nhiệt độ 1 kg nước (ở thể đá, lỏng, khí) lên 1°C, ta xác định được 'nhiệt dung riêng' ($c$).\r\n- (3): Quá trình đá tan chảy thành nước (rắn sang lỏng) được gọi là sự nóng chảy. Nhiệt lượng tương ứng để chuyển pha này gọi là 'ẩn nhiệt nóng chảy'.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:27:18.712384+07:00",
                         "updated_at": "2026-03-10T14:27:18.712384+07:00"
                     },
@@ -2160,7 +3011,16 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- Phân tích A (Đúng): Nhìn vào Bảng 1, quá trình bắt đầu cấp nhiệt (Q=0) là ở -100°C. Điểm mà nước sôi hóa hơi hoàn toàn kết thúc tại mức năng lượng nhận lũy kế là Q = 3229 kJ (nhiệt độ vẫn đang ở 100°C trước khi tăng lên tiếp).\n\r\n\r\n- Phân tích B (Đúng): Tại 0°C (nước lỏng bắt đầu tăng nhiệt), Q đã nhận lũy kế là 544 kJ. Khi đến 100°C (vừa bắt đầu sôi), Q = 964 kJ. Nhiệt lượng cần riêng cho đoạn này: $\\Delta Q = 964 - 544 = 420$ kJ.\r\n- Phân tích C (Sai): Nước còn có thể tồn tại ở thể khí (hơi nước).\r\n- Phân tích D (Sai): Quá trình nóng chảy của 1kg đá (ở 0°C) xảy ra từ mốc Q = 210 kJ đến mốc Q = 544 kJ. Ẩn nhiệt nóng chảy = $544 - 210 = 334$ kJ/kg.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:27:18.712384+07:00",
                         "updated_at": "2026-03-10T14:27:18.712384+07:00"
                     },
@@ -2173,7 +3033,17 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_ly",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "6248"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Bài toán yêu cầu tính tổng nhiệt lượng cho 2kg. Bước 1: Phân tích các thông số nhiệt của 1kg nước từ Bảng 1.\n\r\n\r\n- Nhiệt dung riêng của đá ($c_{đá}$): Để tăng 1kg đá từ $-100^\\circ C$ lên $0^\\circ C$, cần 210 kJ. Vậy $c_{đá} = \\dfrac{210}{100} = 2,1$ kJ/(kg.K).\r\n- Nhiệt lượng cần để đưa 1kg đá từ $-50^\\circ C$ lên $0^\\circ C$: $Q_1 = 1 \\times 2,1 \\times 50 = 105$ kJ.\r\n- Ẩn nhiệt nóng chảy của 1kg đá: $Q_2 = 544 - 210 = 334$ kJ.\r\n- Nhiệt lượng để đun 1kg nước lỏng từ $0^\\circ C$ lên $100^\\circ C$: $Q_3 = 964 - 544 = 420$ kJ.\r\n- Ẩn nhiệt hóa hơi của 1kg nước sôi: $Q_4 = 3229 - 964 = 2265$ kJ.\r\nTổng nhiệt lượng cần cho 1kg: $Q_{tổng(1kg)} = 105 + 334 + 420 + 2265 = 3124$ kJ.\r\nBước 2: Tính cho 2kg.\r\n$Q_{tổng(2kg)} = 3124 \\times 2 = 6248$ kJ. (Điền số 6248).\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:27:18.712384+07:00",
                         "updated_at": "2026-03-10T14:27:18.712384+07:00"
                     },
@@ -2201,7 +3071,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào dữ liệu tính được từ Bảng 1 ở câu trước: $c_{nước} = 4,2$ kJ/(kg.K); $c_{đá} = 2,1$ kJ/(kg.K); Ẩn nhiệt nóng chảy của đá $\\lambda = 334$ kJ/kg.\n\r\n\r\n- Giả sử toàn bộ 1,2kg nước hạ nhiệt độ từ $30^\\circ C$ xuống $0^\\circ C$, nhiệt lượng tỏa ra tối đa là:\r\n$Q_{tỏa} = m_1 \\cdot c_{nước} \\cdot \\Delta t = 1,2 \\times 4,2 \\times 30 = 151,2$ kJ.\r\n- Nhiệt lượng cần thiết để làm khối đá 2kg tăng từ $-20^\\circ C$ lên $0^\\circ C$ là:\r\n$Q_{thu1} = m_2 \\cdot c_{đá} \\cdot \\Delta t = 2 \\times 2,1 \\times 20 = 84$ kJ.\r\n- Nhận thấy $Q_{tỏa} \u003e Q_{thu1}$ ($151,2 \u003e 84$), nên toàn bộ lượng đá sẽ đạt tới $0^\\circ C$. Hệ thống còn dư ra một lượng nhiệt năng để làm tan đá: $\\Delta Q = 151,2 - 84 = 67,2$ kJ.\r\n- Khối lượng đá có thể bị làm nóng chảy bởi phần nhiệt dư này là: $m_{tan} = \\dfrac{\\Delta Q}{\\lambda} = \\dfrac{67,2}{334} \\approx 0,2$ kg.\r\nVì $0,2$ kg \u003c $2$ kg, lượng đá không bị tan hết. Hệ thống đạt trạng thái cân bằng nhiệt có sự tồn tại song song của cả nước và đá. Quá trình chuyển pha đang diễn ra dở dang, nên nhiệt độ cân bằng dừng lại ở $0^\\circ C$. Đáp án C.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:27:18.712384+07:00",
                         "updated_at": "2026-03-10T14:27:18.712384+07:00"
                     }
@@ -2211,12 +3089,16 @@
                 "id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 4,
-                "content": "** LOA ĐIỆN ĐỘNG**\nLoa là một thiết bị điện thanh, dùng để biến đổi năng lượng điện thành năng lượng cơ học. Nhờ vào cấu tạo đặc biệt của loa có màng bức xạ dao động theo dạng sóng của âm thanh làm cho các phần tử khí xung quanh màng bức xạ cũng dao động tín hiệu đầu vào và phát ra của âm thanh.\n$/image_{https://zpi.cx/b/ltV87RP.png?dl=1}_{center}_{90}_{block}$\nHình ảnh trên là cấu tạo đơn giản của loa điện động. Dòng điện từ amply đến cuộn dây đồng trong loa biến đổi sinh ra một từ trường, từ trường này hút và đẩy với nam châm. Vì nam châm đã được cố định nên cuộn dây đồng sẽ được di chuyển làm rung màng loa và tạo sóng âm. Dòng điện sẽ đổi chiều liên tục với tần số thay đổi sẽ tạo ra âm trầm, âm bổng khác nhau.\nCuộn dây động của loa nằm trong từ trường của nam châm có cực bắc (N) ở trong lòng cuộn dây, cực nam (S) ở vòng chung quanh cuộn dây. Khi dòng điện âm tần chạy qua cuộn dây động của loa thì nó sinh ra một từ trường biến đổi. Cuộn dây động nằm trong từ trường biến đổi thì sẽ di chuyển dọc theo khe từ, theo quy luật bàn tay trái. Do đó, khi dòng điện âm tần chạy qua cuộn dây động thì cuộn dây sẽ rung theo nhịp điệu đó. Rung động này truyền sang màng loa, làm cho màng loa rung động, nên tai nghe được âm thanh.\nÂm thanh hình thành dựa trên sự chuyển động nên kích thước của loa cũng bị ảnh hưởng bởi tần số âm thanh mà nó có thể tái tạo tốt nhất. Màng loa lớn làm chuyển động nhiều không khí nhưng không thể chuyển động nhanh được, vì thế dùng để tạo âm trầm. Còn với màng loa nhỏ chuyển ít không khí nhưng làm chuyển động nhanh dùng tạo âm bổng.",
+                "content": "** LOA ĐIỆN ĐỘNG**\nLoa là một thiết bị điện thanh, dùng để biến đổi năng lượng điện thành năng lượng cơ học. Nhờ vào cấu tạo đặc biệt của loa có màng bức xạ dao động theo dạng sóng của âm thanh làm cho các phần tử khí xung quanh màng bức xạ cũng dao động tín hiệu đầu vào và phát ra của âm thanh.\n$/image_{https://zpi.cx/b/e10fO.png?dl=1}_{center}_{90}_{block}$\nHình ảnh trên là cấu tạo đơn giản của loa điện động. Dòng điện từ amply đến cuộn dây đồng trong loa biến đổi sinh ra một từ trường, từ trường này hút và đẩy với nam châm. Vì nam châm đã được cố định nên cuộn dây đồng sẽ được di chuyển làm rung màng loa và tạo sóng âm. Dòng điện sẽ đổi chiều liên tục với tần số thay đổi sẽ tạo ra âm trầm, âm bổng khác nhau.\nCuộn dây động của loa nằm trong từ trường của nam châm có cực bắc (N) ở trong lòng cuộn dây, cực nam (S) ở vòng chung quanh cuộn dây. Khi dòng điện âm tần chạy qua cuộn dây động của loa thì nó sinh ra một từ trường biến đổi. Cuộn dây động nằm trong từ trường biến đổi thì sẽ di chuyển dọc theo khe từ, theo quy luật bàn tay trái. Do đó, khi dòng điện âm tần chạy qua cuộn dây động thì cuộn dây sẽ rung theo nhịp điệu đó. Rung động này truyền sang màng loa, làm cho màng loa rung động, nên tai nghe được âm thanh.\nÂm thanh hình thành dựa trên sự chuyển động nên kích thước của loa cũng bị ảnh hưởng bởi tần số âm thanh mà nó có thể tái tạo tốt nhất. Màng loa lớn làm chuyển động nhiều không khí nhưng không thể chuyển động nhanh được, vì thế dùng để tạo âm trầm. Còn với màng loa nhỏ chuyển ít không khí nhưng làm chuyển động nhanh dùng tạo âm bổng.",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": null,
+                "access_code": "AJ93AFNN",
                 "created_at": "2026-03-10T22:11:06.750284+07:00",
                 "updated_at": "2026-03-11T11:38:18.761812+07:00",
                 "questions": [
@@ -2244,7 +3126,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh quan sát sơ đồ cấu tạo và trích xuất thông tin.\nDựa vào sơ đồ và mô tả, loa điện động gồm màng loa (nón loa), cuộn dây đồng dẫn điện và nam châm. Bộ phận dao động chuyển động tịnh tiến dọc theo khe từ chứ không quay, do đó 'Khung dây quay' không nằm trong cấu tạo của loa (đây thường là chi tiết của động cơ điện hoặc điện kế).\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2266,7 +3156,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phân biệt cơ chế vật lý nền tảng.\nĐoạn 1 nêu rõ: 'Loa là một thiết bị... dùng để biến đổi năng lượng điện thành năng lượng cơ học'. Sự chuyển động của màng loa là do lực từ tác dụng lên dòng điện âm tần chạy qua cuộn dây đặt trong từ trường của nam châm (tác dụng của lực từ - quy tắc bàn tay trái). Ngược lại, hiện tượng cảm ứng điện từ là biến năng lượng cơ học thành năng lượng điện (ứng dụng làm micro điện động). Do đó kết luận này là sai.\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2294,7 +3192,18 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh đánh giá sự tương quan giữa các đại lượng vật lý đặc trưng.\n\r\n* Với câu a: Quá trình chuyển hóa phải thông qua năng lượng cơ học trung gian (dòng điện $\\rightarrow$ lực từ $\\rightarrow$ màng loa rung cơ học $\\rightarrow$ sóng âm). Không có sự chuyển hóa trực tiếp $\\implies$ phát biểu sai.\r\n* Với câu b: Âm lượng (độ to) phụ thuộc vào biên độ dao động của màng loa. Tần số quyết định độ cao (âm trầm, âm bổng) $\\implies$ phát biểu sai.\r\n* Với câu c: Dòng điện không đổi (DC) sẽ tạo ra lực từ không đổi, đẩy màng loa lệch đi một vị trí cố định và đứng im tại đó. Sóng âm chỉ sinh ra khi có sự rung động liên tục (dòng xoay chiều) $\\implies$ phát biểu sai.\r\n* Với câu d: Tần số của dòng điện âm tần quyết định trực tiếp tần số rung của cuộn dây và màng loa $\\implies$ phát biểu đúng.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2315,7 +3224,23 @@
                                 "kéo xuống"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    1
+                                ],
+                                [
+                                    0
+                                ],
+                                [
+                                    3
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh áp dụng lý thuyết lực Lorentz/Ampe.\nTrong loa điện động, bộ phận dịch chuyển do chịu lực từ là (1) cuộn dây động.\nÁp dụng quy tắc bàn tay trái vào hình ảnh mặt cắt, với đường sức từ hướng xuyên tâm ra ngoài và giả sử dòng điện đang chạy theo chiều tạo lực đẩy vào trong, cuộn dây sẽ bị (2) kéo xuống.\nKhi dòng điện đổi chiều, lực từ lập tức đổi chiều ngược lại, làm cuộn dây bị (3) kéo lên, tạo thành dao động nhịp nhàng.\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-12T19:39:19.18833+07:00"
                     },
@@ -2328,7 +3253,17 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_ly",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "0,7"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 3. Thí sinh kết hợp công thức từ trường, hình học và định luật Ohm để giải.\nBước 1: Tính chiều dài tổng cộng của cuộn dây ($l$).\r\nĐường kính $d = 7,2\\ \\text{cm} = 0,072\\ \\text{m}$.\r\nChu vi một vòng dây $= \\pi \\times d = 3,14 \\times 0,072\\ \\text{m}$.\r\nVới $N = 20$ vòng dây, tổng chiều dài là:\r\n\r\n\r\n$\\begin{aligned} l \u0026= N \\times \\pi \\times d \\\\ \u0026= 20 \\times 3,14 \\times 0,072 = 4,5216\\ \\text{m} \\end{aligned}$\r\n\r\n\r\nBước 2: Tính cường độ dòng điện ($I$).\r\n\r\n\r\n$\\begin{aligned} I \u0026= \\dfrac{U}{R} = \\dfrac{12}{5,8} \\approx 2,06896\\ \\text{A} \\end{aligned}$\r\n\r\n\r\nBước 3: Tính lực từ ($F$).\r\nVì đường sức từ hướng xuyên tâm vuông góc với vòng dây quấn $\\implies \\alpha = 90^\\circ, \\sin 90^\\circ = 1$.\r\n\r\n\r\n$\\begin{aligned} F \u0026= B \\times I \\times l \\times \\sin\\alpha \\\\ \u0026= 0,075 \\times \\dfrac{12}{5,8} \\times 4,5216 \\times 1 \\\\ \u0026\\approx 0,7016\\ \\text{N} \\end{aligned}$\r\n\r\n\r\nLàm tròn đến một chữ số thập phân, ta có kết quả là $0,7\\ \\text{N}$.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     }
@@ -2338,12 +3273,16 @@
                 "id": "d15a0e78-8014-4b81-8027-688143ffdac3",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 6,
-                "content": "**GIẢI PHÁP ĐIỆN MẶT TRỜI HYBRID CHO QUY MÔ GIA ĐÌNH**\nTrước xu hướng chuyển dịch sang năng lượng tái tạo, các hệ thống điện mặt trời tích hợp bộ lưu trữ pin lithium-ion cùng khối điều khiển thông minh đang dần trở thành lựa chọn ưu tiên của nhiều hộ gia đình và tổ chức. Cấu tạo của mỗi tấm pin năng lượng bao gồm rất nhiều tế bào quang điện, được chế tạo từ vật liệu silic tinh khiết có pha thêm một lượng nhỏ tạp chất. Cơ chế sinh điện của hệ thống này tuân theo hiện tượng quang điện: khi bị các photon ánh sáng mặt trời mang mức năng lượng đủ lớn tác động, các electron sẽ dứt khỏi mạng tinh thể và di chuyển tạo ra dòng điện một chiều (DC). Khả năng chuyển đổi năng lượng của tấm pin chịu ảnh hưởng bởi nhiều thông số như: mức bức xạ mặt trời (đơn vị $W/m^2$), góc đặt tấm pin, nhiệt độ làm việc, tình trạng vệ sinh mặt kính và độ tốt của lớp phủ chống lóa.\nDòng điện sinh ra sẽ được nạp thẳng vào hệ thống pin lưu trữ lithium-ion (có mức dung lượng thiết kế là 8 kWh, với hiệu suất quá trình sạc đạt 90% và xả đạt 92%). Cụm pin này được hình thành từ nhiều cell ghép nối tiếp và song song với nhau, mỗi cell mang thông số điện áp 3,6 V và dung lượng 3 Ah. Toàn bộ mảng pin mặt trời sở hữu mức công suất cực đại là 4 kW, tuy nhiên hiệu năng phát điện thực tế vào giữa trưa thường đạt khoảng 80%. Để đảm bảo an toàn, khối lưu trữ được bảo vệ bằng lớp vỏ hợp kim nhôm cách nhiệt, giúp ngăn ngừa tình trạng quá nhiệt và hạn chế tối đa rủi ro cháy nổ. Trung tâm của hệ thống là bộ điều khiển thông minh bao gồm một thiết bị biến tần (chuyển đổi dòng DC thành AC) đạt hiệu suất 95%, đi kèm module kết nối Wifi và hệ thống quản lý BMS. BMS có vai trò liên tục theo dõi điện áp, dòng điện, nhiệt độ và sẽ chủ động ngắt mạch nếu có sự cố. Thêm vào đó, hệ thống còn được tích hợp các cảm biến đo lường bức xạ, nhiệt độ xung quanh và ứng dụng công nghệ truyền dữ liệu không dây để tối ưu hóa quá trình vận hành, gia tăng tuổi thọ thiết bị cũng như kiểm soát tốt lượng điện tiêu thụ trong nhà.\n$/image_{https://zpi.cx/b/6uxxA.png?dl=1}_{center}_{100}_{block}$\n**Sơ đồ cấu tạo hệ thống điện mặt trời Hybrid **",
+                "content": "**GIẢI PHÁP ĐIỆN MẶT TRỜI HYBRID CHO QUY MÔ GIA ĐÌNH**\nTrước xu hướng chuyển dịch sang năng lượng tái tạo, các hệ thống điện mặt trời tích hợp bộ lưu trữ pin lithium-ion cùng khối điều khiển thông minh đang dần trở thành lựa chọn ưu tiên của nhiều hộ gia đình và tổ chức. Cấu tạo của mỗi tấm pin năng lượng bao gồm rất nhiều tế bào quang điện, được chế tạo từ vật liệu silic tinh khiết có pha thêm một lượng nhỏ tạp chất. Cơ chế sinh điện của hệ thống này tuân theo hiện tượng quang điện: khi bị các photon ánh sáng mặt trời mang mức năng lượng đủ lớn tác động, các electron sẽ dứt khỏi mạng tinh thể và di chuyển tạo ra dòng điện một chiều (DC). Khả năng chuyển đổi năng lượng của tấm pin chịu ảnh hưởng bởi nhiều thông số như: mức bức xạ mặt trời (đơn vị $W/m^2$), góc đặt tấm pin, nhiệt độ làm việc, tình trạng vệ sinh mặt kính và độ tốt của lớp phủ chống lóa.\nDòng điện sinh ra sẽ được nạp thẳng vào hệ thống pin lưu trữ lithium-ion (có mức dung lượng thiết kế là 8 kWh, với hiệu suất quá trình sạc đạt 90% và xả đạt 92%). Cụm pin này được hình thành từ nhiều cell ghép nối tiếp và song song với nhau, mỗi cell mang thông số điện áp 3,6 V và dung lượng 3 Ah. Toàn bộ mảng pin mặt trời sở hữu mức công suất cực đại là 4 kW, tuy nhiên hiệu năng phát điện thực tế vào giữa trưa thường đạt khoảng 80%. Để đảm bảo an toàn, khối lưu trữ được bảo vệ bằng lớp vỏ hợp kim nhôm cách nhiệt, giúp ngăn ngừa tình trạng quá nhiệt và hạn chế tối đa rủi ro cháy nổ. Trung tâm của hệ thống là bộ điều khiển thông minh bao gồm một thiết bị biến tần (chuyển đổi dòng DC thành AC) đạt hiệu suất 95%, đi kèm module kết nối Wifi và hệ thống quản lý BMS. BMS có vai trò liên tục theo dõi điện áp, dòng điện, nhiệt độ và sẽ chủ động ngắt mạch nếu có sự cố. Thêm vào đó, hệ thống còn được tích hợp các cảm biến đo lường bức xạ, nhiệt độ xung quanh và ứng dụng công nghệ truyền dữ liệu không dây để tối ưu hóa quá trình vận hành, gia tăng tuổi thọ thiết bị cũng như kiểm soát tốt lượng điện tiêu thụ trong nhà.\n$/image_{https://zpi.cx/b/1cju6h.png?dl=1}_{center}_{100}_{block}$\n**Sơ đồ cấu tạo hệ thống điện mặt trời Hybrid **",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
                 "option_columns": 1,
+                "status": null,
+                "access_code": "U9K7JJPM",
                 "created_at": "2026-03-10T14:57:52.190878+07:00",
                 "updated_at": "2026-03-11T11:38:40.77667+07:00",
                 "questions": [
@@ -2371,7 +3310,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Dựa trên thuyết lượng tử ánh sáng, hiện tượng quang điện chỉ xảy ra khi năng lượng của photon ánh sáng kích thích lớn hơn hoặc bằng công thoát (mức năng lượng liên kết) của electron trong vật liệu cấu tạo nên tấm pin.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:57:52.190878+07:00",
                         "updated_at": "2026-03-10T14:57:52.190878+07:00"
                     },
@@ -2393,7 +3340,23 @@
                                 "Lưới điện quốc gia"
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    3
+                                ],
+                                [
+                                    1
+                                ],
+                                [
+                                    2
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Quan sát sơ đồ mô hình ta thấy: Bộ phận A nằm ngoài cùng để đón ánh sáng là Tấm pin năng lượng mặt trời; Bộ phận B làm nhiệm vụ xử lý dòng điện DC từ tấm pin là Bộ chuyển đổi dòng điện; Bộ phận E có hình dáng tủ chứa khối lượng lớn là Pin lưu trữ điện.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:57:52.190878+07:00",
                         "updated_at": "2026-03-10T14:57:52.190878+07:00"
                     },
@@ -2418,7 +3381,17 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"a) Đúng: Tấm pin thu được nhiều năng lượng (do nắng gắt) kết hợp với pin lưu trữ, qua biến tần đảm bảo nguồn cung cho phụ tải. \\n b) Sai: Dù mất điện lưới, hệ thống Hybrid vẫn tự động cung cấp năng lượng cho thiết bị G thông qua bộ chuyển đổi DC sang AC. \\n c) Đúng: Các thành phần điều khiển thông minh như Wifi được cấp nguồn nội bộ liên tục để duy trì giám sát hệ thống độc lập.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:57:52.190878+07:00",
                         "updated_at": "2026-03-10T14:57:52.190878+07:00"
                     },
@@ -2431,7 +3404,20 @@
                         "type": "fill_in_blank",
                         "topic": "tsa_ly",
                         "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "12,8"
+                                ],
+                                [
+                                    "4,32"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Mức công suất vận hành thực tế của mảng pin: $4 \\times 0,8 = 3,2$ kW. \\n Tổng điện năng tạo ra trong thời gian 4 giờ: $W = 3,2 \\times 4 = 12,8$ kWh. \n\nĐiện năng cấp trực tiếp cho các thiết bị sinh hoạt: $W_{\\text{phụ tải}} = 2 \\times 4 = 8$ kWh. \n\n Năng lượng dôi dư đem đi sạc: $12,8 - 8 = 4,8$ kWh. \n\nNăng lượng thực tế lưu lại trong pin (tính theo hiệu suất sạc 90%): $W_{\\text{sạc}} = 4,8 \\times 0,9 = 4,32$ kWh.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:57:52.190878+07:00",
                         "updated_at": "2026-03-10T14:57:52.190878+07:00"
                     },
@@ -2459,7 +3445,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Năng lượng dòng DC thực tế được rút ra từ khối pin (tính theo hiệu suất xả 92%): $5 \\times 0,92 = 4,6$ kWh. \n\n Năng lượng dòng xoay chiều AC thu được sau khi qua bộ biến tần (hiệu suất chuyển đổi 95%): $4,6 \\times 0,95 = 4,37$ kWh.\n\n Đây là mức điện năng thực tế cần bù đắp từ lưới điện mỗi ngày nếu không có hệ thống lưu trữ. \n\nTổng điện năng sử dụng trong 30 ngày: $4,37 \\times 30 = 131,1$ kWh. \n\nChi phí tiền điện ước tính phải trả: $131,1 \\times 2025 = 265477,5 \\approx 265480$ đồng. ",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T14:57:52.190878+07:00",
                         "updated_at": "2026-03-10T14:57:52.190878+07:00"
                     }
@@ -2469,12 +3463,16 @@
                 "id": "825803c1-e061-4445-b474-b056f003f819",
                 "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
                 "position": 46,
-                "content": "** PHƯƠNG PHÁP LOẠI BỎ ION $Ni^{2+}$ TRONG NƯỚC THẢI**\n\n       Ở dạng nguyên tố, kim loại nặng trong nước không gây hại nhiều cho sức khỏe con người. Tuy nhiên, khi tồn tại ở dạng ion thì đây là những chất kịch độc, gây nên những ảnh hưởng bất thường, dẫn tới nhiều bệnh và tật nguy hiểm. Theo quy chuẩn kỹ thuật quốc gia về chất lượng nước sạch sử dụng cho mục đích sinh hoạt (QCVN 01-1:2018/BYT), hàm lượng $\\text{Ni}^{2+}$ trong nước phải nhỏ hơn $0,07\\ \\text{mg/L}$. Vượt qua con số này sẽ gây ngộ độc cho con người và là nguyên nhân tiềm ẩn các bệnh tim mạch, huyết áp,...\n\n      Học sinh nghiên cứu quá trình loại bỏ $\\text{Ni}^{2+}$ khỏi nước thải bằng phương pháp kết tủa hóa học. Sản phẩm thu được là chất rắn nên có thể loại bỏ ra khỏi dung dịch bằng phương pháp lọc. Trong nước, hydroxide ($\\text{OH}^-$) phản ứng với $\\text{Ni}^{2+}$ tạo thành nickel hydroxide monohydrate [$\\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}$] theo phương trình phản ứng:\n                           $Ni^{2+} + 2OH^- + H_2O \\rightarrow Ni(OH)_2 \\cdot H_2O$\nHọc sinh tiến hành $2$ thí nghiệm để nghiên cứu ảnh hưởng của thời gian phản ứng và phương pháp lọc đến quá trình loại bỏ $\\text{Ni}^{2+}$ ra khỏi dung dịch.\n\n(*) Thí nghiệm 1: Gồm $3$ thử nghiệm $1$, $2$ và $3$, mỗi thử nghiệm được tiến hành theo $4$ bước sau đây:\n\n      * Bước 1: Cho $32\\ \\text{mL}$ dung dịch $\\text{OH}^-\\ 1,0\\ \\text{mol/L}$ và $260\\ \\text{mL}$ dung dịch $\\text{Ni}^{2+}\\ 0,06\\ \\text{mol/L}$ vào cốc thủy tinh dung tích $500\\ \\text{mL}$.\n      * Bước 2: Khuấy đều hỗn hợp ở $22\\ ^\\circ\\text{C}$ trong các khoảng thời gian $10\\ \\text{phút}$, $3\\ \\text{ngày}$ và $7\\ \\text{ngày}$.\n      * Bước 3: Thu hồi kết tủa rắn bằng phễu lọc thông thường (Hình 1).\n      * Bước 4: Xác định nồng độ của $\\text{Ni}^{2+}$ trong dịch lọc (kí hiệu là $\\text{CNF}$ (mg/kg)).\n$/image_{https://zpi.cx/b/3QJWdNk.png?dl=1}_{left}_{60}_{block}$\n(*) Thí nghiệm 2: Gồm $3$ thử nghiệm $4$, $5$ và $6$. Tiến hành tương tự như thí nghiệm 1, riêng bước 3, chất rắn được thu hồi bằng phương pháp lọc chân không (Hình 2).\nKết quả của thí nghiệm 1 và 2 như sau:\n*bảng 1*\n$/image_{https://zpi.cx/b/rTAke4q.png?dl=1}_{center}_{100}_{block}$\nPhần tư khối của $Ni$ là $59$\n",
+                "content": "** PHƯƠNG PHÁP LOẠI BỎ ION $Ni^{2+}$ TRONG NƯỚC THẢI**\n\n       Ở dạng nguyên tố, kim loại nặng trong nước không gây hại nhiều cho sức khỏe con người. Tuy nhiên, khi tồn tại ở dạng ion thì đây là những chất kịch độc, gây nên những ảnh hưởng bất thường, dẫn tới nhiều bệnh và tật nguy hiểm. Theo quy chuẩn kỹ thuật quốc gia về chất lượng nước sạch sử dụng cho mục đích sinh hoạt (QCVN 01-1:2018/BYT), hàm lượng $\\text{Ni}^{2+}$ trong nước phải nhỏ hơn $0,07\\ \\text{mg/L}$. Vượt qua con số này sẽ gây ngộ độc cho con người và là nguyên nhân tiềm ẩn các bệnh tim mạch, huyết áp,...\n\n      Học sinh nghiên cứu quá trình loại bỏ $\\text{Ni}^{2+}$ khỏi nước thải bằng phương pháp kết tủa hóa học. Sản phẩm thu được là chất rắn nên có thể loại bỏ ra khỏi dung dịch bằng phương pháp lọc. Trong nước, hydroxide ($\\text{OH}^-$) phản ứng với $\\text{Ni}^{2+}$ tạo thành nickel hydroxide monohydrate [$\\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}$] theo phương trình phản ứng:\n                           $Ni^{2+} + 2OH^- + H_2O \\rightarrow Ni(OH)_2 \\cdot H_2O$\nHọc sinh tiến hành $2$ thí nghiệm để nghiên cứu ảnh hưởng của thời gian phản ứng và phương pháp lọc đến quá trình loại bỏ $\\text{Ni}^{2+}$ ra khỏi dung dịch.\n\n(*) Thí nghiệm 1: Gồm $3$ thử nghiệm $1$, $2$ và $3$, mỗi thử nghiệm được tiến hành theo $4$ bước sau đây:\n\n      * Bước 1: Cho $32\\ \\text{mL}$ dung dịch $\\text{OH}^-\\ 1,0\\ \\text{mol/L}$ và $260\\ \\text{mL}$ dung dịch $\\text{Ni}^{2+}\\ 0,06\\ \\text{mol/L}$ vào cốc thủy tinh dung tích $500\\ \\text{mL}$.\n      * Bước 2: Khuấy đều hỗn hợp ở $22\\ ^\\circ\\text{C}$ trong các khoảng thời gian $10\\ \\text{phút}$, $3\\ \\text{ngày}$ và $7\\ \\text{ngày}$.\n      * Bước 3: Thu hồi kết tủa rắn bằng phễu lọc thông thường (Hình 1).\n      * Bước 4: Xác định nồng độ của $\\text{Ni}^{2+}$ trong dịch lọc (kí hiệu là $\\text{CNF}$ (mg/kg)).\n$/image_{https://zpi.cx/b/ELVNOtb.png?dl=1}_{left}_{60}_{block}$\n(*) Thí nghiệm 2: Gồm $3$ thử nghiệm $4$, $5$ và $6$. Tiến hành tương tự như thí nghiệm 1, riêng bước 3, chất rắn được thu hồi bằng phương pháp lọc chân không (Hình 2).\nKết quả của thí nghiệm 1 và 2 như sau:\n*bảng 1*\n$/image_{https://zpi.cx/b/NhhtnW.png?dl=1}_{center}_{100}_{block}$\nPhần tư khối của $Ni$ là $59$\n",
                 "difficulty": "M1",
                 "type": "reading_comprehension",
                 "topic": "tsa_ly",
                 "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
                 "option_columns": 1,
+                "status": "inactive",
+                "access_code": "7HZEWDAU",
                 "created_at": "2026-03-10T22:11:06.750284+07:00",
                 "updated_at": "2026-03-11T11:38:04.657307+07:00",
                 "questions": [
@@ -2503,7 +3501,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phân tích định nghĩa biến số trong quy trình thực nghiệm.\nÝ 1: Sai. Vì $mg/kg$ là nồng độ theo khối lượng, không thể tương đương với nồng độ mol ($mol/L$).\n\nÝ 2: Sai. Nếu là lượng ion còn lại, chỉ số phải giảm theo thời gian. Trong bảng, CNF tăng dần (từ 6 lên 42), chứng tỏ đây là lượng sản phẩm sinh ra.\n\nÝ 3: Đúng. Phù hợp với đơn vị $mg/kg$ (khối lượng chất rắn/khối lượng mẫu) và xu hướng tăng dần của số liệu trong bảng khi thời gian phản ứng kéo dài.\n\nÝ 4: Sai. Đây là cách gọi tên cụ thể một chất, trong khi CNF trong ngữ cảnh thực nghiệm thường dùng để chỉ tổng lượng chất rắn (kết tủa) thu hồi được nói chung.",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-11T21:12:35.433537+07:00"
                     },
@@ -2531,7 +3537,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh đối chiếu dữ liệu định lượng trên Bảng 1 để đưa ra kết luận.\nHiệu quả loại bỏ càng tốt thì nồng độ $\\text{Ni}^{2+}$ tồn dư trong dịch lọc (giá trị CNF) phải càng thấp.\r\nDựa vào bảng số liệu: Thử nghiệm 1 ($10\\ \\text{phút}$, lọc thường) có CNF thấp nhất là $6\\ \\text{mg/kg}$. Các thử nghiệm lọc chân không (4, 5, 6) đều có CNF rất cao ($58$ đến $73\\ \\text{mg/kg}$), chứng tỏ loại bỏ kém hơn. Ngoài ra, khi thời gian kéo dài lên $3\\ \\text{ngày}$ và $7\\ \\text{ngày}$, nồng độ CNF đều tăng lên ở cả hai phương pháp.\r\nDo đó, phương án C phản ánh đúng thực tế dữ liệu nhất. Các phương án A, B, D đều nêu xu hướng ngược lại với số liệu trong Bảng 1.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2559,7 +3573,15 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phải liên kết thông tin tiêu chuẩn từ đoạn đầu với kết quả thực nghiệm.\nTheo đoạn 1, quy chuẩn kỹ thuật quốc gia yêu cầu hàm lượng $\\text{Ni}^{2+}$ phải nhỏ hơn $0,07\\ \\text{mg/L}$.\nVới dung dịch nước loãng, khối lượng riêng $\\text{D} \\approx 1\\ \\text{kg/L}$, nên $1\\ \\text{mg/kg} \\approx 1\\ \\text{mg/L}$.\nNhìn vào Bảng 1, mức nồng độ thấp nhất đạt được là $6\\ \\text{mg/kg}$ (ở thử nghiệm 1), giá trị này lớn hơn rất nhiều so với ngưỡng an toàn là $0,07\\ \\text{mg/L}$.\nVậy không có bất kỳ thử nghiệm nào xử lý nước đạt tiêu chuẩn sinh hoạt.\n",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2587,7 +3609,18 @@
                                 }
                             ]
                         },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 3. Thí sinh cần vận dụng kỹ năng tính toán hóa học để tìm lượng chất giới hạn và phân tích điều kiện thí nghiệm.\n\n* Với câu a: Số mol các chất ban đầu là:\n\n$\\begin{aligned} n_{\\text{OH}^-} \u0026= 0,032 \\times 1,0 = 0,032\\ \\text{mol} \\\\ n_{\\text{Ni}^{2+}} \u0026= 0,260 \\times 0,06 = 0,0156\\ \\text{mol} \\end{aligned}$\n\n\n\nTheo phương trình: $\\text{Ni}^{2+} + 2\\text{OH}^- \\rightarrow \\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}$, ta có tỉ lệ phản ứng là $1 : 2$. Cần $0,0156 \\times 2 = 0,0312\\ \\text{mol}\\ \\text{OH}^-$ để phản ứng hết với $\\text{Ni}^{2+}$. Vì $0,032 \u003e 0,0312 \\implies \\text{OH}^-$ dư, $\\text{Ni}^{2+}$ là chất phản ứng hết. $\\implies$ phát biểu sai. \n* Với câu b: Khối lượng kết tủa lý thuyết $m_{\\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}}$ tính theo $\\text{Ni}^{2+}$:\n\n$\\begin{aligned} m \u0026= n_{\\text{Ni}^{2+}} \\times \\text{M} \\\\ \u0026= 0,0156 \\times (59 + 17 \\times 2 + 18) \\\\ \u0026= 0,0156 \\times 111 = 1,7316\\ \\text{g} \\approx 1,73\\ \\text{g} \\end{aligned}$\n\n\n\n$\\implies$ phát biểu đúng.\n* Với câu c: Ở bước 2 có ghi 'Khuấy đều hỗn hợp ở $22\\ ^\\circ\\text{C}$', nghĩa là nhiệt độ được giữ cố định, các yếu tố được khảo sát thay đổi ở đây là thời gian ($10$ phút, $3$ ngày, $7$ ngày) và phương pháp lọc. $\\implies$ phát biểu sai.\n* Với câu d: Tổng thể tích $V = 32 + 260 = 292\\ \\text{mL}$. $\\implies$ phát biểu đúng.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:11:06.750284+07:00"
                     },
@@ -2603,7 +3636,17 @@
                         "data_questions": {
                             "answers": []
                         },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "67"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh đọc và xử lý số liệu đơn giản từ bảng.\nMẫu xử lý tốt nhất (nồng độ $\\text{Ni}^{2+}$ dư thấp nhất) là thử nghiệm 1, $\\text{CNF} = 6\\ \\text{mg/kg}$.\r\nMẫu xử lý kém nhất (nồng độ $\\text{Ni}^{2+}$ dư cao nhất) là thử nghiệm 6, $\\text{CNF} = 73\\ \\text{mg/kg}$.\r\nĐộ chênh lệch nồng độ là:\r\n\r\n\r\n$73 - 6 = 67\\ \\text{mg/kg}$\r\n\r\n\r\nVậy giá trị cần điền là $67$.\"",
                         "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
                         "created_at": "2026-03-10T22:11:06.750284+07:00",
                         "updated_at": "2026-03-10T22:13:53.95688+07:00"
                     }
@@ -2611,6 +3654,14 @@
             }
         ]
     },
-    "message": "Get next part successfully",
-    "status": true
+    "attempt": {
+        "id": "6ea955f6-a1a6-48e6-8117-42beaf32f270",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+        "status": "in_progress",
+        "created_at": "2026-03-13T22:18:26.262527+07:00",
+        "updated_at": "2026-03-13T22:18:26.262527+07:00",
+        "submited_at": "2026-03-13T22:18:26.262527+07:00"
+    }
 }
