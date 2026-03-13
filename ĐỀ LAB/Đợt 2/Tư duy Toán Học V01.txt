@@ -1,0 +1,1344 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+        "title": "Tư duy Toán Học V01",
+        "description": "abc",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 100,
+        "slug": "abc",
+        "is_free": true,
+        "image_url": "ad",
+        "question_quality": 40,
+        "is_published": true,
+        "created_at": "2026-02-07T17:43:13.78619+07:00",
+        "updated_at": "2026-02-15T14:07:11.356117+07:00",
+        "questions": [
+            {
+                "id": "03f5a3ff-37d8-4437-8644-0ae4ec15a6e3",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 0,
+                "content": " Trong hình đã cho có bao nhiêu hình tam giác khác nhau?\n$/image_{https://zpi.cx/b/9g3Dc.png?dl=1}_{left}_{30}_{block}$\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 32,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "20"
+                        },
+                        {
+                            "content": "24"
+                        },
+                        {
+                            "content": "30"
+                        },
+                        {
+                            "content": "48"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$/image_{https://zpi.cx/b/PpKRvTi.png?dl=1}_{left}_{30}_{block}$\n\n$\\bullet$ Phân tích hình thành các nhóm dựa trên các đỉnh thẳng hàng (theo lời giải gợi ý từ hình ảnh):\n  - Nhóm 1: Chọn 2 đỉnh từ 4 đỉnh thẳng hàng  Kết hợp với đỉnh chóp $\\Rightarrow C_4^2 = 6$ tam giác.\n  - Nhóm 2: Phần hình riêng biệt  $\\Rightarrow$ Có 4 tam giác.\n  - Nhóm 3: Chọn 2 đỉnh từ 5 đỉnh thẳng hàng  $\\Rightarrow C_5^2 = 10$ tam giác.\n$\\bullet$ Tổng cộng:\n  $6 + 4 + 10 = 20$\n\nKết luận:\n$\\Rightarrow$ Đáp án: 20.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "8517f4bb",
+                "created_at": "2025-11-22T11:54:59.672952+07:00",
+                "updated_at": "2026-02-14T16:36:47.84572+07:00"
+            },
+            {
+                "id": "12c50eff-502a-40b4-9403-bc6ec7f8ef47",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 0,
+                "content": "Ngày 14/3/2020 đánh dấu năm đầu tiên kỉ niệm \"Ngày Số Pi Quốc tế\". Trong lịch sử, có nhiều phương pháp để tìm giá trị gần đúng của $\\pi$ tương tự như phương pháp của Tổ Xung Chi trong toán học cổ đại Trung Quốc. Phương pháp của nhà toán học Archimedes là: khi số nguyên dương $n$ đủ lớn, chu vi của đa giác đều $6n$ cạnh nội tiếp và ngoại tiếp một đường tròn đơn vị đều có thể dùng làm giá trị gần đúng của $2\\pi$.\r\nTheo phương pháp của Archimedes, giá trị gần đúng của $\\pi$ được biểu diễn là:\r",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$3n \\left( \\sin \\dfrac{30^\\circ}{n} + \\tan \\dfrac{30^\\circ}{n} \\right)$"
+                        },
+                        {
+                            "content": "$6n \\left( \\sin \\dfrac{30^\\circ}{n} + \\tan \\dfrac{30^\\circ}{n} \\right)$"
+                        },
+                        {
+                            "content": "$3n \\left( \\sin \\dfrac{60^\\circ}{n} + \\tan \\dfrac{60^\\circ}{n} \\right)$"
+                        },
+                        {
+                            "content": "$6n \\left( \\sin \\dfrac{60^\\circ}{n} + \\tan \\dfrac{60^\\circ}{n} \\right)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "- Chu vi đa giác nội tiếp ($L_i$):\r\nĐa giác $6n$ cạnh nội tiếp đường tròn. Ta có: $R=1$, cạnh $s_i = 2R \\sin \\dfrac{180^\\circ}{6n} = 2 \\sin \\dfrac{30^\\circ}{n}$.\r\n$\\Rightarrow L_i = 6n \\cdot s_i = 12n \\sin \\dfrac{30^\\circ}{n}$.\r\n- Chu vi đa giác ngoại tiếp ($L_e$):\r\nCạnh đa giác ngoại tiếp: $s_e = 2R \\tan \\dfrac{180^\\circ}{6n} = 2 \\tan \\dfrac{30^\\circ}{n}$.\r\n$\\Rightarrow L_e = 6n \\cdot s_e = 12n \\tan \\dfrac{30^\\circ}{n}$.\r\n\r\nTheo đề bài:\r\n\r\n\r\n$2\\pi \\approx \\dfrac{L_i + L_e}{2} = \\dfrac{12n \\sin \\dfrac{30^\\circ}{n} + 12n \\tan \\dfrac{30^\\circ}{n}}{2} = 6n \\left( \\sin \\dfrac{30^\\circ}{n} + \\tan \\dfrac{30^\\circ}{n} \\right)$\r\n\r\n$\\Rightarrow \\pi \\approx 3n \\left( \\sin \\dfrac{30^\\circ}{n} + \\tan \\dfrac{30^\\circ}{n} \\right)$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-11T13:23:31.782958+07:00",
+                "updated_at": "2026-02-14T16:26:38.73607+07:00"
+            },
+            {
+                "id": "9a193c3c-c6c9-4be2-be4d-1499a9929493",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 1,
+                "content": "Giá trị của tích phân $\\displaystyle I=\\int_0^m [x]\\cdot (x-1)\\,dx$ là $\\displaystyle I$, với $\\displaystyle [x]$ là hàm phần nguyên của $\\displaystyle x$.",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Thay thế $\\displaystyle x=k$: Trên mỗi đoạn $\\displaystyle [k,k+1)$, giá trị $\\displaystyle x=k$. Thì khi đó $\\displaystyle I=\\sum_{k=0}^{m} A(k)=\\sum_{k=0}^{m}\\int_k^{k+1}k(x-1)\\,dx$"
+                        },
+                        {
+                            "content": "Tính giá trị của tích phân trong mỗi khoảng: $\\displaystyle A(k)=k^2-\\frac{k}{2}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "\n\na)\nCho tích phân $I = \\int_0^m [x] \\cdot (x-1) dx$.\nGiả sử $m \\in \\mathbb{Z}^+$ (để phù hợp với cận lấy tổng).\n\nTa tách miền tích phân $[0, m]$ thành các đoạn con có độ dài bằng 1: $[0, 1), [1, 2), \\dots, [m-1, m)$.\nTrên mỗi đoạn $[k, k+1)$ với $k \\in \\mathbb{Z}$, ta có: $[x] = k$.\n\nKhi đó:\n\n\n$\\displaystyle I = \\sum_{k=0}^{m-1} \\int_{k}^{k+1} [x](x-1) dx = \\sum_{k=0}^{m-1} \\int_{k}^{k+1} k(x-1) dx$\n$\\Rightarrow$ Sai\n\n\n\nb)  Tính toán:\nTa có $\\displaystyle A(k) = \\int_k^{k+1} k(x-1) dx = k \\cdot \\int_k^{k+1} (x-1) dx$.\n\nXét tích phân con $\\displaystyle J = \\int_k^{k+1} (x-1) dx$:\n\n\n$\\displaystyle J = [\\dfrac{(x-1)^2}{2}]_{k}^{k+1}$  hoặc   $\\displaystyle [\\dfrac{x^2}{2} - x]_{k}^{k+1}$\n\nSử dụng nguyên hàm $\\dfrac{x^2}{2} - x$:\n\n$J = \\left( \\dfrac{(k+1)^2}{2} - (k+1) \\right) - \\left( \\dfrac{k^2}{2} - k \\right)$\n\n$J = \\dfrac{k^2 + 2k + 1}{2} - k - 1 - \\dfrac{k^2}{2} + k$\n\n$J = \\left( \\dfrac{k^2}{2} + k + \\dfrac{1}{2} \\right) - 1 - \\dfrac{k^2}{2}$\n\n$J = k - \\dfrac{1}{2}$\n\nThay ngược lại vào $A(k)$:\n$A(k) = k \\cdot J = k \\left( k - \\dfrac{1}{2} \\right) = k^2 - \\dfrac{k}{2}$\nSo sánh với mệnh đề: $k^2 - \\dfrac{k}{2}$.\n$\\Rightarrow$ ĐÚNG\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:35:49.041075+07:00"
+            },
+            {
+                "id": "12f017d8-cca7-4885-a8bf-2bb1e68c0a2c",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 2,
+                "content": "Cho phương trình $\\displaystyle {e^x} = m\\left( {x + 1} \\right)$. Xét các khẳng định sau:",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Khi $\\displaystyle m = 1$, phương trình có một nghiệm duy nhất $\\displaystyle x = 0$."
+                        },
+                        {
+                            "content": "Phương trình có hai nghiệm phân biệt khi và chỉ khi $\\displaystyle m \u003e e$."
+                        },
+                        {
+                            "content": "Đồ thị hàm số $\\displaystyle y = \\frac{{{e^x}}}{{x + 1}}$ có tiệm cận đứng là $\\displaystyle x =  - 1$ và không có tiệm cận ngang."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "$e^x = m(x+1) \\Leftrightarrow m = \\dfrac{e^x}{x+1} = f(x)$.\n\n$f'(x) = \\dfrac{xe^x}{(x+1)^2}$. $f'(x)=0 \\Leftrightarrow x=0$.\n\nBBT: $x \\in (-\\infty; -1) \\Rightarrow f(x) \u003c 0$; $x \\in (-1; +\\infty) \\Rightarrow \\min f(x) = f(0) = 1$.\n\n a) $m=1 \\Rightarrow x=0$. $\\Rightarrow$ Đúng.\n\n b) $f(x)=m$ có 2 nghiệm $\\Leftrightarrow m \u003e 1$. (Mệnh đề: $m\u003ee$). $\\Rightarrow$ Sai.\n\n c) $\\lim_{x \\to \\infty} f(x) = \\infty; \\lim_{x \\to -\\infty} f(x) = 0 \\Rightarrow$ TCN $y=0$. $\\Rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:36:08.356381+07:00"
+            },
+            {
+                "id": "dbd1fdbe-61d6-4ebc-8ec5-3297b53fa1fc",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 3,
+                "content": "Trong không gian $\\displaystyle Oxyz$, cho hai điểm $\\displaystyle A\\left( {1,0,2} \\right),B\\left( { - 1,2,4} \\right)$. Tập hợp các điểm $\\displaystyle M$ cách đều hai điểm $\\displaystyle A,B$ là một mặt phẳng $\\displaystyle \\left( P \\right)$.\n1. Khoảng cách từ gốc tọa độ $\\displaystyle O$ đến mặt phẳng $\\displaystyle \\left( P \\right)$ là ____. ( làm tròn đến chữ số thập phân thứ nhát)\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "2.3",
+                            "2,3"
+                        ]
+                    ]
+                },
+                "answer_detail": "$(P)$ trung trực $AB$: $\\vec{n} = \\vec{BA} = (2; -2; -2) \\sim (1; -1; -1)$. $I(0; 1; 3)$.\n\n$\\Rightarrow (P): x - (y-1) - (z-3) = 0 \\Leftrightarrow x - y - z + 4 = 0$.\n\n 1. $d(O, P) = \\dfrac{|4|}{\\sqrt{1^2+1^2+1^2}} = \\dfrac{4}{\\sqrt{3}} \\approx 2.3$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:36:21.315875+07:00"
+            },
+            {
+                "id": "3703703b-2372-43cd-8622-8f6ea5dea383",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 4,
+                "content": "Cho hàm số $\\displaystyle f\\left( x \\right) = \\frac{{{x^3}}}{3} - \\frac{{m{x^2}}}{2} + \\left( {{m^2} - 3} \\right)x$.\n*Chọn các phương án đúng:*",
+                "difficulty": "M2",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hàm số có hai điểm cực trị khi và chỉ khi $\\displaystyle {m^2} - 4\\left( {{m^2} - 3} \\right) \u003e 0$."
+                        },
+                        {
+                            "content": "Điều kiện để hàm số có hai điểm cực trị là $ - 2 \u003c m \u003c 2$."
+                        },
+                        {
+                            "content": "Khi $\\displaystyle m = 1$, hàm số đạt cực tiểu tại $\\displaystyle x = 2$."
+                        },
+                        {
+                            "content": "Để hai điểm cực trị có hoành độ dương, $\\displaystyle m$ phải thỏa mãn $\\displaystyle \\sqrt 3  \u003c m \u003c 2$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                "answer_detail": "$f'(x) = x^2 - mx + m^2 - 3$. $\\Delta = m^2 - 4(m^2-3) = 12 - 3m^2$.\n\n c1) 2 cực trị $\\Leftrightarrow \\Delta \u003e 0 \\Leftrightarrow 12 - 3m^2 \u003e 0$. $\\Rightarrow$ Đúng.\n\n c2) $\\Leftrightarrow m^2 \u003c 4 \\Leftrightarrow -2 \u003c m \u003c 2$. $\\Rightarrow$ Đúng.\n\n c3) $m=1 \\Rightarrow f'(x) = x^2 - x - 2$. Nghiệm $x=-1, x=2$. $a=1\u003e0 \\Rightarrow$ CT tại $x=2$. $\\Rightarrow$ Đúng.\n\n c4) $x_1, x_2 \u003e 0 \\Leftrightarrow \\begin{cases} \\Delta \u003e 0 \\\\ S=m \u003e 0 \\\\ P=m^2-3 \u003e 0 \\end{cases} \\Leftrightarrow \\begin{cases} -2 \u003c m \u003c 2 \\\\ m \u003e 0 \\\\ m \u003e \\sqrt{3} \\end{cases} \\Rightarrow \\sqrt{3} \u003c m \u003c 2$. $\\Rightarrow$ Đúng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-15T16:52:11.840773+07:00"
+            },
+            {
+                "id": "a1023ae3-40a2-48df-a7f1-af3e336c57c3",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 5,
+                "content": "Cho khối chóp $\\displaystyle S.ABC$ có $\\displaystyle SA$ vuông góc với mặt đáy, $\\displaystyle SA = 4$, $\\displaystyle AB = 3$, $\\displaystyle BC = 4$, $\\displaystyle CA = 5$.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Tam giác $\\displaystyle ABC$ là tam giác vuông."
+                        },
+                        {
+                            "content": "Thể tích khối chóp $\\displaystyle S.ABC$ bằng 8."
+                        },
+                        {
+                            "content": "Khoảng cách từ điểm $\\displaystyle A$ đến mặt phẳng $\\displaystyle \\left( {SBC} \\right)$ bằng $\\displaystyle \\frac{{12}}{{\\sqrt 5 }}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "a) $3^2 + 4^2 = 5^2 \\Leftrightarrow AB^2 + BC^2 = AC^2 \\Rightarrow \\triangle ABC \\perp B$. $\\Rightarrow$ Đúng.\n\n b) $V = \\dfrac{1}{3} SA \\cdot S_{ABC} = \\dfrac{1}{3} \\cdot 4 \\cdot \\dfrac{1}{2} \\cdot 3 \\cdot 4 = 8$. $\\Rightarrow$ Đúng.\n\n c) $d(A, (SBC)) = AH$ ($AH \\perp SB$). $\\dfrac{1}{AH^2} = \\dfrac{1}{SA^2} + \\dfrac{1}{AB^2} = \\dfrac{1}{16} + \\dfrac{1}{9} = \\dfrac{25}{144} \\Rightarrow AH = \\dfrac{12}{5} \\neq \\dfrac{12}{\\sqrt{5}}$. $\\Rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:36:50.39471+07:00"
+            },
+            {
+                "id": "c9a73b6e-c05c-4f66-aa2c-04116dad7ed9",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 6,
+                "content": "Cho hình chóp $\\displaystyle S.ABCD$ có đáy là hình vuông, các cạnh bên bằng nhau.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hình chiếu của $\\displaystyle S$ xuống đáy là tâm của hình vuông."
+                        },
+                        {
+                            "content": "Các mặt bên là các tam giác cân bằng nhau."
+                        },
+                        {
+                            "content": "Góc giữa cạnh bên và mặt đáy là bằng nhau cho tất cả các cạnh bên."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "a) Chóp đều $\\Rightarrow$ chân đường cao trùng tâm đáy. $\\Rightarrow$ Đúng.\r\n b) Tính chất chóp đều. $\\Rightarrow$ Đúng.\r\n c) Tính chất chóp đều. $\\Rightarrow$ Đúng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:37:01.405175+07:00"
+            },
+            {
+                "id": "4060aed6-ee87-4e28-8034-349b5167203d",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 7,
+                "content": "Một hộp chứa 5 quả bóng được đánh số 1, 2, 3, 4, 5. Chọn ngẫu nhiên đồng thời 3 quả bóng không hoàn lại.",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Số phần tử không gian mẫu là $\\displaystyle A_5^3 = 60$."
+                        },
+                        {
+                            "content": "Xác suất để 3 quả bóng được chọn theo thứ tự tạo thành một cấp số cộng là $\\displaystyle 1/10$."
+                        },
+                        {
+                            "content": "Xác suất để 3 quả bóng được chọn có tổng là một số chẵn là $\\displaystyle 1/2$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "a) \"Đồng thời\" $\\Rightarrow \\Omega = C_5^3 = 10 \\neq A_5^3$. $\\Rightarrow$ Sai.\n\n b) Cấp số Cộng: $\\{1,2,3\\}, \\{2,3,4\\}, \\{3,4,5\\}, \\{1,3,5\\}$. $n(A) = 4$. $P = \\dfrac{4}{10} \\neq \\dfrac{1}{10}$. $\\Rightarrow$ Sai.\n\n c) Tổng chẵn $\\Leftrightarrow$ (1 chẵn, 2 lẻ). $n(B) = C_2^1 \\cdot C_3^2 = 2 \\cdot 3 = 6$. $P = \\dfrac{6}{10} \\neq \\dfrac{1}{2}$. $\\Rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:37:21.329596+07:00"
+            },
+            {
+                "id": "55657eca-0359-4972-9fe9-ffdb5ed0afde",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 8,
+                "content": "Cho đồ thị của một phần hàm số $\\displaystyle f\\left( x \\right)$ và tiếp tuyến của nó tại điểm $\\displaystyle T\\left( { - 3,c} \\right)$ như hình vẽ.\nBiết rằng $\\displaystyle k\\left( x \\right) = {\\rm{ln}}\\left( {f\\left( x \\right)} \\right)$, giá trị của đạo hàm $\\displaystyle k'\\left( x \\right)$ tại điểm $\\displaystyle x =  - 3$ là bao nhiêu?\r\n$/image_{https://zpi.cx/b/UHO36f.png?dl=1}_{left}_{30}_{block}$\r",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$ - \\dfrac{1}{2}$"
+                        },
+                        {
+                            "content": "$ - \\dfrac{1}{5}$"
+                        },
+                        {
+                            "content": "$ - \\dfrac{2}{5}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{2}{3}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Tiếp tuyến đi qua $(0; 1)$ và $(2; 0) \\Rightarrow y = -\\dfrac{1}{2}x + 1$.\n\n Tại $x=-3 \\Rightarrow f(-3) = \\dfrac{5}{2}$. $f'(-3) = k_{tt} = -\\dfrac{1}{2}$.\n\n $k'(x) = [\\ln(f(x))]' = \\dfrac{f'(x)}{f(x)}$.\n\n$\\Rightarrow k'(-3) = \\dfrac{-1/2}{5/2} = -\\dfrac{1}{5}$.",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:38:04.224668+07:00"
+            },
+            {
+                "id": "faa756eb-fc25-4d6d-98e7-450eb3b04fab",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 9,
+                "content": "Một bể chứa nước hình nón có bán kính đáy 1 mét và chiều cao 2 mét như hình vẽ. Người ta bơm nước vào bể từ một vòi nước.\r\n$/image_{https://zpi.cx/b/dYWl3k2.png?dl=1}_{left}_{30}_{block}$\r\nKhi mực nước trong bể cao $\\displaystyle x$ mét, thể tích của nước trong bể (tính theo mét khối) bằng bao nhiêu?\r",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\frac{{\\pi {x^3}}}{{12}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{\\pi {x^3}}}{9}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{\\pi {x^3}}}{6}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{\\pi {x^3}}}{4}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có $\\dfrac{r}{R} = \\dfrac{x}{h} \\Rightarrow \\dfrac{r}{1} = \\dfrac{x}{2} \\Rightarrow r = \\dfrac{x}{2}$.\n\n $V = \\dfrac{1}{3}\\pi r^2 x = \\dfrac{1}{3}\\pi \\left(\\dfrac{x}{2}\\right)^2 x = \\dfrac{\\pi x^3}{12}$.",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:38:30.806382+07:00"
+            },
+            {
+                "id": "c7db519c-994d-4fb3-adb1-5252bc0d15cf",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 10,
+                "content": "Cho hàm số $\\displaystyle y = {x^3} - 3{x^2} + 2$. Độ dài đoạn thẳng nối hai điểm cực trị của hàm số là ____ . (làm tròn đến hàng đơn vị )\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "4"
+                    ]
+                },
+                "answer_detail": "$y' = 3x^2 - 6x = 0 \\Leftrightarrow \\left[ \\begin{matrix} x=0 \\Rightarrow y=2 \\Rightarrow A(0;2) \\\\ x=2 \\Rightarrow y=-2 \\Rightarrow B(2;-2) \\end{matrix} \\right.$\n\n $AB = \\sqrt{(2-0)^2 + (-2-2)^2} = \\sqrt{20} \\approx 4.47$.\n$\\Rightarrow$ 4.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:38:49.547784+07:00"
+            },
+            {
+                "id": "2ce8f6c7-8223-4208-98a5-674b7741d6c2",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 11,
+                "content": "Cho hàm số có đồ thị như hình vẽ.\nVới mỗi $\\displaystyle x \\in [1, 2]$, ta có $\\displaystyle f\\left( x \\right) \\in [2, 4]$.\n            Không có hai giá trị khác nhau $\\displaystyle {x_1},{x_2} \\in [1, 2]$ sao cho $\\displaystyle f\\left( {{x_1}} \\right) = f\\left( {{x_2}} \\right)$.\n            Đồng thời, với mọi $\\displaystyle y \\in [2, 4]$, tồn tại ít nhất một $\\displaystyle x \\in [1, 2]$ sao cho $\\displaystyle f\\left( x \\right) = y$.\n\n Hàm số ngược của $\\displaystyle f$ là $\\displaystyle {f^{ - 1}}$\n\t$\\displaystyle f\\left( x \\right) = y\\quad ;\\quad {f^{ - 1}}\\left( y \\right) = x$\n\n\nTheo đó, giá trị của tổng sau bằng bao nhiêu?\n\t$\\displaystyle \\int_{1}^{2} f(x)\\,dx + \\int_{2}^{4} f^{-1}(x)\\,dx$\n$/image_{https://zpi.cx/b/LzBpSa8.png?dl=1}_{left}_{30}_{block}$\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2"
+                        },
+                        {
+                            "content": "4"
+                        },
+                        {
+                            "content": "6"
+                        },
+                        {
+                            "content": "8"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Tổng hai tích phân $\\int_{1}^{2} f(x) dx$ (diện tích dưới đồ thị) và $\\int_{2}^{4} f^{-1}(x) dx$ (diện tích bên trái đồ thị) chính là phần diện tích bù nhau tạo thành hình chữ nhật lớn khuyết đi hình chữ nhật nhỏ.\n\nÁp dụng công thức: $\\displaystyle \\int_a^b f(x)dx + \\int_{f(a)}^{f(b)} f^{-1}(x)dx = b \\cdot f(b) - a \\cdot f(a)$.\n Với $a=1, b=2 \\Rightarrow f(1)=2, f(2)=4$.\n $S = 2 \\cdot 4 - 1 \\cdot 2 = 6$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-15T16:55:00.551517+07:00"
+            },
+            {
+                "id": "ff9f483d-de92-484a-80b8-07ebe1ad1b0b",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 12,
+                "content": "Một người gửi 100 triệu đồng vào ngân hàng với lãi suất 5%/năm theo hình thức lãi kép. Sau 3 năm, số tiền cả vốn lẫn lãi người đó nhận được (làm tròn đến triệu đồng) là ____  triệu đồng.\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "116"
+                    ]
+                },
+                "answer_detail": "$T = 100(1 + 5\\%)^3 \\approx 115.7625$.\r\n$\\Rightarrow$ 116.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:40:31.630973+07:00"
+            },
+            {
+                "id": "b7c5384c-e464-452b-8d29-c8fb6a6909ff",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 13,
+                "content": "Cho hình lập phương $\\displaystyle ABCD.A'B'C'D'$ cạnh $\\displaystyle a$.",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Khoảng cách giữa hai đường thẳng $\\displaystyle AB$ và $\\displaystyle C'D'\\;$ là $\\displaystyle a\\sqrt 2 $."
+                        },
+                        {
+                            "content": "Góc giữa hai đường thẳng $\\displaystyle AC\\;$ và $\\displaystyle A'D$ là $\\displaystyle {60^ \\circ }$."
+                        },
+                        {
+                            "content": "Thể tích khối tứ diện $\\displaystyle A'ABD$ là $\\displaystyle {a^3}/6$."
+                        },
+                        {
+                            "content": "Mặt cầu tiếp xúc với các cạnh của lập phương có bán kính $\\displaystyle R = \\frac{{a\\sqrt 3 }}{2}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "c1) $AB \\parallel C'D' \\Rightarrow d(AB, C'D') = AD' = \\sqrt{a^2+a^2} = a\\sqrt{2}$. $\\Rightarrow$ Đúng.\n\n c2) $(AC, A'D) = (AC, B'C) = \\widehat{ACB'} = 60^\\circ$ (do $\\triangle ACB'$ đều cạnh $a\\sqrt{2}$). $\\Rightarrow$ Đúng.\n\n c3) $V_{A'.ABD} = \\dfrac{1}{3} AA' \\cdot S_{ABD} = \\dfrac{1}{3} a \\cdot \\dfrac{a^2}{2} = \\dfrac{a^3}{6}$. $\\Rightarrow$ Đúng.\n\n c4) Mặt cầu tiếp xúc cạnh có bán kính $R = d(O, AB) = \\sqrt{\\left(\\dfrac{a}{2}\\right)^2 + \\left(\\dfrac{a}{2}\\right)^2} = \\dfrac{a\\sqrt{2}}{2}$. $\\Rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:40:59.640127+07:00"
+            },
+            {
+                "id": "9fcebe76-87ac-4186-802c-8d47b47f9b91",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 14,
+                "content": "Từ một tấm bìa cứng hình vuông có cạnh dài $\\displaystyle 16\\;cm$, người ta cắt bỏ ở mỗi góc một hình vuông có cạnh dài $\\displaystyle 3\\;cm$. Sau đó, phần bìa còn lại được gấp lại để tạo thành một chiếc hộp không nắp như hình vẽ.\n$/image_{https://zpi.cx/b/16A6q4S.png?dl=1}_{left}_{30}_{block}$\n1. Thể tích của chiếc hộp này là ____  .\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "300"
+                    ]
+                },
+                "answer_detail": "Cạnh đáy hộp: $16 - 3 \\times 2 = 10$ (cm).\r\n Chiều cao hộp: $3$ (cm).\r\n $V = 10 \\times 10 \\times 3 = 300$ (cm$^3$).\r\n$\\Rightarrow$ 300.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:41:21.578423+07:00"
+            },
+            {
+                "id": "9dd3395c-3b22-45ee-95a4-7ccfc13b7d48",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 15,
+                "content": "Trên một tờ giấy kẻ ô vuông, các điểm $\\displaystyle A,\\;B,\\;C,\\;D,\\;E,\\;K,\\;L$ được đánh dấu như trong hình. Một hệ tọa độ vuông góc được đặt trên tờ giấy này sao cho một trong các điểm $\\displaystyle A,\\;B,\\;C,\\;D,\\;E$ được chọn làm gốc tọa độ.\n$/image_{https://zpi.cx/b/Ruz0UI9.png?dl=1}_{left}_{30}_{block}$\nBiết rằng khoảng cách từ điểm $\\displaystyle K\\;$ và điểm $\\displaystyle L\\;$đến gốc tọa độ là bằng nhau.\n\nĐiểm ____ trong các điểm $\\displaystyle A,B,C,D,E$ sau đây là gốc tọa độ\n\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 23,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "C"
+                    ]
+                },
+                "answer_detail": "Chọn $C$ làm gốc tọa độ $(0;0)$.,   $CL=5$   ,  $CK=\\sqrt{3^2+4^2}=5$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:41:46.106041+07:00"
+            },
+            {
+                "id": "7b7ade81-b863-42ed-bcc2-4e09a4de96b6",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 16,
+                "content": "Cho một phần tư đường tròn tâm $\\displaystyle O$, bán kính $\\displaystyle \\left| {OB} \\right| = 2$. Lấy điểm C trên tia $\\displaystyle Ot$ sao cho $\\displaystyle BC$ vuông góc với $\\displaystyle OB$. Gọi $\\displaystyle K$ là giao điểm của đoạn thẳng $\\displaystyle OC$ với cung tròn. Đặt $\\displaystyle \\angle BOC = \\alpha $, $\\displaystyle \\left| {BC} \\right| = y$ và $\\displaystyle \\left| {DK} \\right| = x$ (với $\\displaystyle D$ là điểm đầu của cung tròn trên trục tung).\n$/image_{https://zpi.cx/b/blsIiEt.png?dl=1}_{left}_{30}_{block}$\n1. Giá trị của giới hạn $\\displaystyle {\\rm{li}}{{\\rm{m}}_{\\alpha  \\to 0}}\\frac{{{\\rm{cos}}\\alpha  + y}}{x}$ là ____ . (làm tròn đến 2 chữ số sau dấu phẩy)\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 8,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "0.35",
+                            "0,35"
+                        ]
+                    ]
+                },
+                "answer_detail": "Khi $\\alpha \\to 0$:\n\n$K \\to B(2;0), D(0;2) \\Rightarrow x = DK \\to \\sqrt{2^2+2^2} = 2\\sqrt{2}$.\n\n$y = BC \\to 0$.\n\n$\\lim = \\dfrac{1 + 0}{2\\sqrt{2}} \\approx 0.35$.\n\n$\\Rightarrow$ 0.35.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:58:23.035604+07:00"
+            },
+            {
+                "id": "09388cb2-44fe-429e-b384-c10ba467690a",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 17,
+                "content": "Cho $\\displaystyle f\\left( x \\right) = {\\rm{si}}{{\\rm{n}}^4}x + {\\rm{co}}{{\\rm{s}}^4}x$. Giá trị nhỏ nhất của $\\displaystyle f\\left( x \\right)$ là ____ .\n\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "0.5",
+                            "0,5"
+                        ]
+                    ]
+                },
+                "answer_detail": "$f(x) = 1 - \\dfrac{1}{2}\\sin^2 2x \\ge 1 - \\dfrac{1}{2} = \\dfrac{1}{2}$.\n$\\Rightarrow$ 0.5.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:44:30.868845+07:00"
+            },
+            {
+                "id": "e1b30f5e-ed53-4a28-82c3-598abaccff5c",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 18,
+                "content": "Trong không gian $\\displaystyle Oxyz$, cho hai vector $\\displaystyle \\vec a = \\left( {1,1,0} \\right),\\vec b = \\left( {1,0,1} \\right)$.\n\nGóc giữa hai vector $\\displaystyle \\vec a,\\vec b$ là ____ . \n\nGóc giữa vector $\\displaystyle \\vec a$ và trục $\\displaystyle Oz$ là ____ .\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 90^\\circ $",
+                        "$\\displaystyle 60^\\circ $",
+                        "$\\displaystyle 45^\\circ $",
+                        "$\\displaystyle 30^\\circ $"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        0
+                    ]
+                },
+                "answer_detail": "\nGóc giữa hai vector $\\vec{a}$ và $\\vec{b}$:\nTa có $\\cos(\\vec{a}, \\vec{b}) = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|} = \\dfrac{1}{2}$.\n$\\Rightarrow$ Góc  $60^\\circ$.\n\nGóc giữa vector $\\vec{a}$ và trục $Oz$:\n\nTrục $Oz$ có vector đơn vị là $\\vec{k}=(0;0;1)$.\n\nXét tích vô hướng: $\\vec{a} \\cdot \\vec{k} =  0$. $\\Rightarrow$  $\\vec{a}$ vuông góc với trục $Oz$ $\\Rightarrow$ Góc là $90^\\circ$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:57:35.131365+07:00"
+            },
+            {
+                "id": "f14cbd28-c2ae-4624-b58e-975a6a966cb1",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 19,
+                "content": "Trong không gian với hệ tọa độ $\\displaystyle \\left( {Oxyz} \\right)$, cho điểm $\\displaystyle S\\left( {4;2;6} \\right)$. Gọi $\\displaystyle A,B,C$ lần lượt là 3 điểm thuộc $\\displaystyle Ox,Oy,Oz$ sao cho $\\displaystyle SA,SB,SC$ đôi một vuông góc với nhau. Hỏi mặt phẳng $\\displaystyle \\left( {ABC} \\right)$ đi qua điểm nào dưới đây?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle Q\\left( {1;3; - 2} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle M\\left( {2;1;3} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle N\\left( {2; - 1;3} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle P\\left( {3;2;1} \\right)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "\n\nGọi $A(a;0;0), B(0;b;0), C(0;0;c)$. \n\nTa có $\\vec{SA}=(a-4;-2;-6)$; $\\vec{SB}=(-4;b-2;-6)$; $\\vec{SC}=(-4;-2;c-6)$.\n\nDo đôi một vuông góc:\n                              $\\vec{SA}.\\vec{SB}=0 \\Rightarrow 2a+b=28$; \n                              $\\vec{SB}.\\vec{SC}=0 \\Rightarrow b+3c=28$; \n                              $\\vec{SC}.\\vec{SA}=0 \\Rightarrow 2a+3c=28$.\n\nCộng vế theo vế và giải hệ ta được: \n\n$a=7; b=14; c=\\dfrac{14}{3} \\Rightarrow (ABC): \\dfrac{x}{7} + \\dfrac{y}{14} + \\dfrac{3z}{14} = 1 \\Leftrightarrow 2x+y+3z-14=0$.\n\nThay tọa độ các đáp án vào phương trình mặt phẳng, chỉ có $M(2;1;3)$ thỏa mãn: $2(2)+1+3(3)-14=0$.\n\n$\\Rightarrow$ **Chọn M**",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T15:53:19.940579+07:00"
+            },
+            {
+                "id": "5ce7168c-74ea-4fa0-af51-4b80177df5c0",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 20,
+                "content": "Trong một dự án trang trí, cô giáo chủ nhiệm của lớp muốn thiết kế một đồ chơi hình trụ được bọc trong một lớp vỏ hình cầu, có đường kính bằng$\\displaystyle \\;8,\\;$ sao cho lớp vỏ ngoại tiếp món đồ chơi. Biết rằng độ dày của lớp vỏ không đáng kể và cô giáo muốn thiết kế món đồ chơi sao cho diện tích xung quanh là lớn nhất. Xét tính đúng/sai của các mệnh đề sau:\n$/image_{https://zpi.cx/b/MsWxB.png?dl=1}_{left}_{30}_{block}$\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Gọi $\\displaystyle r$ và $\\displaystyle h\\;$ lần lượt là bán kính đáy và chiều cao của món đồ chơi, khi đó ta có mối liên hệ $\\displaystyle {r^2} + {h^2} = 256$"
+                        },
+                        {
+                            "content": "Bán kính đáy của món đồ chơi bằng $\\displaystyle 2\\sqrt 2 $"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "$\\textbf{Giả thiết (GT):} \\\\ \\quad \\text{Mặt cầu đường kính } d = 8 \\Rightarrow R = 4 \\\\ \\quad \\text{Hình trụ nội tiếp} \\Rightarrow (2r)^2 + h^2 = 8^2 \\iff \\mathbf{4r^2 + h^2 = 64} \\quad (*) \\\\ \n\\textbf{1. Xét mệnh đề 1:} \\\\ \\quad \\text{Từ } (*) \\Rightarrow r^2 + h^2 = 256 \\text{ là vô lý.} \\\\ \\quad \\Rightarrow \\textbf{SAI} \\\\ \n\\textbf{2. Xét mệnh đề 2:} \\\\ \\quad S_{xq} = 2\\pi rh \\rightarrow \\max \\iff rh \\rightarrow \\max \\\\ \\quad \\text{Áp dụng BĐT Cauchy cho 2 số dương } 4r^2 \\text{ và } h^2: \\\\ \\quad 64 = 4r^2 + h^2 \\geq 2\\sqrt{4r^2 \\cdot h^2} = 4rh \\implies rh \\leq 16 \\\\ \\quad S_{xq} \\text{ max} \\iff 4r^2 = h^2 = \\dfrac{64}{2} = 32 \\\\ \\quad \\Rightarrow r^2 = 8 \\Rightarrow \\mathbf{r = 2\\sqrt{2}} \\\\ \\quad \\Rightarrow\\textbf{ĐÚNG}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T16:22:02.747937+07:00"
+            },
+            {
+                "id": "856b6db6-2353-4743-b99d-53e6f2ba5f8d",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 22,
+                "content": "Trong một hồ sen, số lá sen ngày hôm sau bằng 3 lần số lá sen ngày hôm trước. Biết rằng ngày đầu có 1 lá sen thì tới ngày thứ 10 hồ sẽ đầy lá sen.\n\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Số là sen cần để lấp đầy hồ là $\\displaystyle {3^9}$"
+                        },
+                        {
+                            "content": "Số lá sen lập thành cấp số cộng $\\displaystyle {u_n}$ với $\\displaystyle {u_1} = 1$ và công bội $\\displaystyle q = 3$."
+                        },
+                        {
+                            "content": "Nếu ngày đầu có 9 lá sen thì tới ngày thứ 5 hồ sẽ đầy lá sen."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "\n- **Mệnh đề 1 (Đúng):** Số lá sen là cấp số nhân (CSN) $u_n$ có $u_1=1, q=3$. Hồ đầy vào ngày 10 $\\Rightarrow S_{max} = u_{10} = 1 \\cdot 3^{10-1} = 3^9$.\n\n- **Mệnh đề 2 (Sai):** Vì số lá sen ngày sau gấp 3 lần ngày trước ($u_{n+1} = 3u_n$) nên đây là CSN, không phải cấp số cộng.\n\n- **Mệnh đề 3 (Sai):** Nếu $u_1=9=3^2$, để đầy hồ ($3^9$) ta cần $u_n = 3^2 \\cdot 3^{n-1} = 3^9 \\Leftrightarrow 3^{n+1} = 3^9 \\Leftrightarrow n=8$ (cần 8 ngày).\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T16:35:49.69351+07:00"
+            },
+            {
+                "id": "bf21cdaf-5525-4ecc-b022-516bc66834f0",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 23,
+                "content": "Cho $\\displaystyle a = {\\rm{lo}}{{\\rm{g}}_{24}}5!$ và $\\displaystyle \\frac{1}{b} = {\\rm{lo}}{{\\rm{g}}_6}4!$.\nGiá trị của $\\displaystyle {\\rm{lo}}{{\\rm{g}}_{20}}6$ được biểu diễn theo $\\displaystyle a$ và $\\displaystyle b$ là biểu thức $\\dfrac{kb}{ha-b}$. Giá trị của $k+h$ là ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\frac{a}{6} - 1$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{b}{{a - b}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{a}{b}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{1}{{a \\cdot b}}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "2"
+                    ]
+                },
+                "answer_detail": "$a = \\log_{24}5! = \\log_{24}5 + 1$. $b = \\log_{24}6$.\n\n$\\log_{20}6 = \\dfrac{\\log_{24}6}{\\log_{24}(5!/6)} = \\dfrac{b}{a-b}$.\n\nVậy $h+k=2$",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T16:40:21.459132+07:00"
+            },
+            {
+                "id": "e53e04a9-b6a7-4fa3-a551-a8ec7701f3f9",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 24,
+                "content": "Trong các khẳng định sau, khẳng định nào sai?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Phương sai luôn luôn là số không âm."
+                        },
+                        {
+                            "content": "Phương sai là bình phương của độ lệch chuẩn."
+                        },
+                        {
+                            "content": "Phương sai càng lớn thì độ phân tán của các giá trị quanh số trung bình càng lớn."
+                        },
+                        {
+                            "content": "Phương sai luôn luôn lớn hơn độ lệch chuẩn."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Phương sai ($s^2$) là bình phương của độ lệch chuẩn ($s$).\n\nNếu $0 \u003c s \u003c 1$ (ví dụ $s = 0,5$) thì phương sai sẽ nhỏ hơn độ lệch chuẩn (vì $0,5^2 = 0,25 \u003c 0,5$). \n\nDo đó, khẳng định phương sai **luôn luôn lớn hơn** là sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T16:43:04.636961+07:00"
+            },
+            {
+                "id": "52f542f0-87e9-4d37-9c61-617a84ea8fe1",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 26,
+                "content": "Trong hình vẽ trên, biết rằng $\\displaystyle AB \\bot BC$. Hỏi tọa độ đỉnh của parabol là điểm nào dưới đây?\n$/image_{https://zpi.cx/b/HCwql.png?dl=1}_{left}_{40}_{block}$\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\left( {6; - 25/2} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\left( {6; - 16} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\left( {0; - 8} \\right)$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\left( {6;1/8} \\right)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "- Ta có $A(-4; 0), B(0; -8)$. Gọi $C(x; 0)$.\n\n- $\\vec{BA} = (-4; 8)$ và $\\vec{BC} = (x; 8)$.\n\n- Do $AB \\perp BC \\Rightarrow \\vec{BA} \\cdot \\vec{BC} = 0 \\Leftrightarrow -4x + 8 \\cdot 8 = 0 \\Leftrightarrow x = 16$.\n\n- Vậy $C(16; 0)$.\n\n\n\n- Hoành độ đỉnh là trung điểm của $A$ và $C$: $x = \\dfrac{-4 + 16}{2} = 6$.\n\n- Phương trình parabol có dạng $y = a(x+4)(x-16)$.\n\n- Đi qua $B(0; -8) \\Rightarrow -8 = a(0+4)(0-16) \\Rightarrow -8 = -64a \\Rightarrow a = \\dfrac{1}{8}$.\n\n- Tung độ đỉnh tại $x = 6$: $y = \\dfrac{1}{8}(6+4)(6-16) = -\\dfrac{25}{2}$.\n\nTọa độ đỉnh là **$(6; -25/2)$**.",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T16:47:41.988798+07:00"
+            },
+            {
+                "id": "50d6635d-42d6-47d9-890b-a82f902f5338",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 27,
+                "content": "Xét tính đúng sai của các mệnh đề sau:",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hai đường thẳng cùng song song với đường thẳng thứ ba thì song song với nhau."
+                        },
+                        {
+                            "content": "Hai mặt phẳng cùng song song với mặt phẳng thứ ba thì song song với nhau."
+                        },
+                        {
+                            "content": "Một đường thẳng và một mặt phẳng cùng song song với một đường thẳng thứ hai thì song song với nhau."
+                        },
+                        {
+                            "content": "Hai đường thẳng chéo nhau thì không có điểm chung"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Sai (Hai đường thẳng có thể trùng nhau).\n\nSai (Hai mặt phẳng có thể trùng nhau).\n\nSai (Đường thẳng có thể nằm trong mặt phẳng).\n\nĐúng (Theo định nghĩa đường thẳng chéo nhau).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T16:59:15.282141+07:00"
+            },
+            {
+                "id": "506e6229-1f0e-481a-bda4-ae27f0e8c6db",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 28,
+                "content": "Viết phương trình mặt phẳng qua $\\displaystyle A\\left( {1;1;1} \\right)$, vuông góc với hai mặt phẳng $\\displaystyle \\left( \\alpha  \\right):x + y - z - 2 = 0,\\left( \\beta  \\right):x - y + z - 1 = 0$.",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle y + z - 2 = 0$"
+                        },
+                        {
+                            "content": "$\\displaystyle x + y + z - 3 = 0$"
+                        },
+                        {
+                            "content": "$\\displaystyle x - 2y + z = 0$"
+                        },
+                        {
+                            "content": "$\\displaystyle x + z - 2 = 0$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "$\\vec{n} = [\\vec{n_\\alpha}, \\vec{n_\\beta}] = (0; -2; -2) \\sim (0; 1; 1)$.\r\n$y+z-2=0$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "e8c169aa-9130-4fa0-a743-9ddf272588c3",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 29,
+                "content": "Cho hình chóp $\\displaystyle S.ABCD$ có đáy là hình thang vuông tại $\\displaystyle A$ và $\\displaystyle D$, $\\displaystyle AD = DC = a,AB = 2a$. Cạnh bên $\\displaystyle SA$ vuông góc với đáy. Góc giữa hai mặt phẳng $\\displaystyle \\left( {SBC} \\right)$ và $\\displaystyle \\left( {ABCD} \\right)$ là $\\displaystyle {60^ \\circ }$. Thể tích khối chóp $\\displaystyle S.ABCD$ là:",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\frac{{{a^3}\\sqrt 3 }}{2}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{{a^3}\\sqrt 3 }}{6}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{{a^3}}}{2}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{{a^3}\\sqrt 6 }}{2}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Đáy $ABCD$: $AB \\parallel CD$, $AB=2a, CD=a, AD=a \\Rightarrow AC \\perp BC$.\r\n$BC = (SBC) \\cap (ABCD)$.\r\n$\\begin{cases} BC \\perp AC \\\\ BC \\perp SA \\end{cases} \\Rightarrow BC \\perp (SAC) \\Rightarrow \\widehat{((SBC);(ABCD))} = \\widehat{SCA} = 60^\\circ$.\r\n$SA = AC \\tan 60^\\circ = a\\sqrt{2} \\cdot \\sqrt{3} = a\\sqrt{6}$.\r\n$V = \\dfrac{1}{3} S_{ABCD} \\cdot SA = \\dfrac{1}{3} \\cdot \\dfrac{(a+2a)a}{2} \\cdot a\\sqrt{6} = \\dfrac{a^3\\sqrt{6}}{2}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "8ce647f8-95e1-4450-a924-df239474aa18",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 30,
+                "content": "Cho hàm số $\\displaystyle y = f\\left( x \\right)$ có bảng biến thiên như sau:\n$/image_{https://zpi.cx/b/7TeRg.png?dl=1}_{left}_{30}_{block}$\nSố điểm cực trị tối thiểu của đồ thị hàm số $\\displaystyle y'\\;$đã cho là ____ .\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1"
+                    ]
+                },
+                "answer_detail": "- $y'$ liên tục trên $[0; 2]$.\n- $y'(0) = y'(2) = 0$ và $y'(1) \u003e 0$.\n\n- $\\Rightarrow \\exists x_0 \\in (0; 2)$ sao cho $y'(x_0) = \\max_{[0; 2]} y'(x)$.\n\n- Do $y'(x_0) \\geq y'(1) \u003e 0$ và $y'(0)=y'(2)=0$ nên $x_0 \\neq 0, x_0 \\neq 2$.\n\n- $\\Rightarrow y'$ có ít nhất một điểm cực đại tại $x_0 \\in (0; 2)$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-14T17:17:10.936866+07:00"
+            },
+            {
+                "id": "8ed579d1-d7e6-49c6-8eb9-2b6f0c92a87e",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 31,
+                "content": "Cho dãy số $\\displaystyle \\left( {{u_n}} \\right)$ biết $\\displaystyle {u_n} = \\frac{{2n - 13}}{{3{n^2} - 2}}$. Các mệnh đề sau đúng hay sai?",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Dãy số $\\displaystyle \\left( {{u_n}} \\right)$ có số hạng thứ mười là $\\displaystyle \\frac{1}{4}$."
+                        },
+                        {
+                            "content": "Dãy số $\\displaystyle \\left( {{u_n}} \\right)$ bị chặn dưới bởi $\\displaystyle \\frac{2}{3}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "a) $u_{10} = \\dfrac{2(10)-13}{3(10^2)-2} = \\dfrac{7}{298} \\neq \\dfrac{1}{4}$. $\\Rightarrow$ Sai.\r\nb) $u_1 = -11 \u003c \\dfrac{2}{3}$. $\\Rightarrow$ Sai.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "f337497a-f231-428e-85b4-16a2bcb45dc4",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 32,
+                "content": "Bạn vay 1 tỷ VND để mua nhà. Ngân hàng áp dụng lãi suất 9% mỗi năm, ghép lãi hàng tháng. Bạn muốn trả hết nợ trong 15 năm bằng các khoản thanh toán đều đặn vào cuối mỗi tháng. Khoản thanh toán hàng tháng cố định của bạn là bao nhiêu (làm tròn đến hàng nghìn đồng)?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Khoảng 9 triệu 123 nghìn VND"
+                        },
+                        {
+                            "content": "Khoảng 9 triệu 899 nghìn VND"
+                        },
+                        {
+                            "content": "Khoảng 10 triệu 142 nghìn VND"
+                        },
+                        {
+                            "content": "Khoảng 10 triệu 618 nghìn VND"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$A = M \\dfrac{r(1+r)^n}{(1+r)^n - 1}$ với $M=10^9, r=0.75\\%, n=180$.\r\n$A = 10^9 \\cdot \\dfrac{0.0075(1.0075)^{180}}{(1.0075)^{180}-1} \\approx 10.142.000$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "d0b13478-d63d-4cd3-b3dd-86fd3a591b5f",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 33,
+                "content": "Trong khoảng $[0,2\\pi]$, ta có các đồ thị:\n$/image_{https://zpi.cx/b/JBi4g.png?dl=1}_{left}_{30}_{block}$\nĐường cong màu xanh lá: $\\displaystyle f\\left( x \\right) = {\\rm{sin}}\\left( {mx + a} \\right)$\nĐường cong màu đỏ: $\\displaystyle f\\left( x \\right) = {\\rm{sin}}\\left( {nx + a} \\right)$\nĐường cong màu xanh dương: $\\displaystyle f\\left( x \\right) = {\\rm{sin}}\\left( {px + a} \\right)$\nBiết rằng các đồ thị trên lần lượt là đồ thị của các hàm số đã cho, hãy xác định thứ tự sắp xếp của $\\displaystyle m,n,p$.\n1) ____ \u003c ____ ; ____ ; ____ .\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle \\;m$",
+                        "$\\displaystyle n$",
+                        "$\\displaystyle p\\;$",
+                        "$ = \\;$",
+                        "$ \u003c \\;$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2,
+                        4,
+                        1
+                    ]
+                },
+                "answer_detail": "Tần số dao động: Xanh lá ($m$) \u003c Xanh dương ($p$) \u003c Đỏ ($n$) .\n$\\Rightarrow m \u003c p \u003c n$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-10T17:59:44.91665+07:00"
+            },
+            {
+                "id": "c3ea057e-6ec4-42bd-9267-ac2f69fdbdbc",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 34,
+                "content": "Để đánh giá chất lượng của một loại pin điện thoại mới, người ta ghi lại thời gian nghe nhạc liên tục của điện thoại được sạc đầy pin cho đến khi hết pin cho kết quả sau:\n$/image_{https://zpi.cx/b/kGGvKj.png?dl=1}_{left}_{50}_{block}$\nTính độ lệch chuẩn của mẫu số liệu ghép nhóm trên (làm tròn đến 4 chữ số thập phân).\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle 0,4252.$"
+                        },
+                        {
+                            "content": "$\\displaystyle 0,5314.\\;$"
+                        },
+                        {
+                            "content": "$\\displaystyle 0,6214.\\;$"
+                        },
+                        {
+                            "content": "$\\displaystyle 0,5268.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Cỡ mẫu $N=40$. $\\bar{x} = \\dfrac{2(5.25)+8(5.75)+15(6.25)+10(6.75)+5(7.25)}{40} = 6.35$.\r\n$s^2 = \\dfrac{1}{40} [2(5.25-6.35)^2 + \\dots + 5(7.25-6.35)^2] = 0.2775$.\r\n$s = \\sqrt{0.2775} \\approx 0.5268$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "64d3edaa-ceb0-4203-91b1-2d70aa3e6e90",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 35,
+                "content": "LAB có các quả cân $\\displaystyle 1\\;kg,\\;2\\;kg,\\;3\\;kg,\\;4\\;kg$ và $\\displaystyle 5\\;kg,$ mỗi loại một quả. LAB lấy bốn trong số các quả cân này và đặt chúng lên hai chiếc cân đòn bằng nhau. Hỏi có bao nhiêu trường hợp khác nhau để tạo ra hình ảnh như trong hình? (Lưu ý: $\\displaystyle \\alpha \\; \u003e \\;\\beta $ có nghĩa là độ chênh lệch khối lượng ở cân thứ nhất lớn hơn độ chênh lệch khối lượng ở cân thứ hai).\n$/image_{https://zpi.cx/b/5MBZsjU.png?dl=1}_{left}_{30}_{block}$\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "6"
+                        },
+                        {
+                            "content": "9"
+                        },
+                        {
+                            "content": "12"
+                        },
+                        {
+                            "content": "14"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Gọi 4 quả cân được chọn là $a, b, c, d$ và quả còn lại là $e$.\r\nGiả sử cân 1 có cặp $(a, b)$ với $a \u003e b$, cân 2 có cặp $(c, d)$ với $c \u003e d$.\r\nĐiều kiện hình vẽ: Cân 1 lệch trái $\\Rightarrow$ bên trái nặng hơn. Cân 2 lệch trái $\\Rightarrow$ bên trái nặng hơn. Góc lệch $\\alpha \u003e \\beta \\Rightarrow (a-b) \u003e (c-d)$.\r\nXét các trường hợp bỏ lại quả cân $e \\in \\{1, 2, 3, 4, 5\\}$:\r\n\r\n\r\n1. Bỏ 5: $\\{1, 2, 3, 4\\}$. Cặp hiệu lớn nhất: $(4, 1)$ hiệu 3. Cặp còn lại $(3, 2)$ hiệu 1. $3 \u003e 1 \\Rightarrow$ 1 cách.\r\n2. Bỏ 4: $\\{1, 2, 3, 5\\}$. $(5, 1)$ hiệu 4 ($\u003e (3,2)$ hiệu 1); $(5, 2)$ hiệu 3 ($\u003e (3,1)$ hiệu 2); $(5, 3)$ hiệu 2 ($\u003e (2,1)$ hiệu 1) $\\Rightarrow$ 3 cách.\r\n3. Bỏ 3: $\\{1, 2, 4, 5\\}$. $(5, 1)$ hiệu 4 ($\u003e (4,2)$ hiệu 2). Các cặp khác hiệu bằng nhau $\\Rightarrow$ 1 cách.\r\n4. Bỏ 2: $\\{1, 3, 4, 5\\}$. $(5, 1)$ hiệu 4 ($\u003e (4,3)$ hiệu 1); $(4, 1)$ hiệu 3 và $(5, 3)$ hiệu 2 (Xếp Bal 1 cặp $(4,1)$); $(3, 1)$ hiệu 2 và $(5, 4)$ hiệu 1 (Xếp Bal 1 cặp $(3,1)$) $\\Rightarrow$ 3 cách.\r\n5. Bỏ 1: $\\{2, 3, 4, 5\\}$. $(5, 2)$ hiệu 3 ($\u003e (4,3)$ hiệu 1) $\\Rightarrow$ 1 cách.\r\nTổng: $1 + 3 + 1 + 3 + 1 = 9$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "21b9c8b1-51cf-416b-b9d2-e674cfba3e51",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 36,
+                "content": "Các số hạng trong khai triển của biểu thức $\\displaystyle {(2x + 1)^7}$ được viết lần lượt lên các quả bóng màu cam theo thứ tự lũy thừa giảm dần của x, sau đó được thả theo chiều mũi tên.\n1. Khi quá trình viết các số hạng lên tất cả các quả bóng hoàn tất, hỏi hệ số của số hạng được viết trên quả bóng thứ 3 từ trái sang là ____ .\n$/image_{https://zpi.cx/b/WSw72.png?dl=1}_{left}_{30}_{block}$\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "84"
+                    ]
+                },
+                "answer_detail": "Khai triển $(2x+1)^7 = \\sum_{k=0}^7 C_7^k (2x)^{7-k}$.\r\nCác bóng thả vào ống theo thứ tự lũy thừa giảm dần ($x^7 \\to x^0$). Bóng vào trước lăn xuống đáy (bên phải).\r\nThứ tự bóng trong ống từ trái sang phải: $x^0, x^1, x^2, x^3, \\dots, x^7$.\r\nBóng thứ 3 từ trái sang ứng với số hạng chứa $x^2$ (tương ứng $7-k=2 \\Rightarrow k=5$).\r\nHệ số: $C_7^5 \\cdot 2^2 = 21 \\cdot 4 = 84$.\r\n$\\Rightarrow$ 84.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-10T18:00:43.806931+07:00"
+            },
+            {
+                "id": "8f025f68-d4ba-48e7-9189-0803a56700de",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 37,
+                "content": "Đồ thị của hàm số $\\displaystyle y\\; = \\;f\\left( x \\right)$ được cho như hình trên.\n$/image_{https://zpi.cx/b/85IEvRA.png?dl=1}_{center}_{30}_{block}$\nBiết $\\displaystyle \\int_{-1}^{4} f(x)\\,dx = A$, hỏi giá trị của $\\displaystyle A$ có thể là bao nhiêu?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "9"
+                        },
+                        {
+                            "content": "10"
+                        },
+                        {
+                            "content": "12"
+                        },
+                        {
+                            "content": "14"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "$/image_{https://zpi.cx/b/fPI6M.png?dl=1}_{center}_{40}_{block}$\n$/image_{https://zpi.cx/b/gv1z7BG.png?dl=1}_{center}_{40}_{block}$\nDo S ở giữa nên $10\u003cS\u003c14$ vậy S có thể là 12",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-15T14:13:36.65889+07:00"
+            },
+            {
+                "id": "c36318b9-6c1e-40e0-b1f6-755540f7274a",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 38,
+                "content": "Ba cái cây nằm ở ba góc $\\displaystyle A,\\;B,\\;C$ của một mảnh đất hình tam giác đều. Các cây có chiều cao bằng nhau và bằng một nửa chiều dài cạnh của mảnh đất.\nVào một ngày thu giông bão, xác suất để các cây ở các góc $\\displaystyle A,\\;B$ và $\\displaystyle C$ đổ thẳng vào nhau được cho trong bảng dưới đây:\n$/image_{https://zpi.cx/b/QM5A8.png?dl=1}_{left}_{30}_{block}$\n$/image_{https://zpi.cx/b/MBO3W90.png?dl=1}_{left}_{50}_{block}$\nVí dụ: Xác suất cây ở A đổ về phía B (dọc theo cạnh [AB]) là 10%.\nDựa vào đó, khi hai cây đổ thẳng vào nhau, xác suất để ngọn của chúng chạm vào nhau là bao nhiêu?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\frac{1}{5}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{1}{8}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{23}}{{100}}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{37}}{{200}}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Hai cây chạm nhau khi chúng đổ ngược chiều nhau dọc theo cạnh nối.\r\n$P(A \\leftrightarrow B) = P(A \\to B) \\cdot P(B \\to A) = 10\\% \\cdot 5\\% = 0.005$.\r\n$P(B \\leftrightarrow C) = P(B \\to C) \\cdot P(C \\to B) = 30\\% \\cdot 40\\% = 0.12$.\r\n$P(C \\leftrightarrow A) = P(C \\to A) \\cdot P(A \\to C) = 20\\% \\cdot 30\\% = 0.06$.\r\nTổng xác suất: $0.005 + 0.12 + 0.06 = 0.185 = \\dfrac{37}{200}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-07T18:07:04.203526+07:00"
+            },
+            {
+                "id": "7e1b8808-9006-47cf-8eec-a36647d05027",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 39,
+                "content": "\n$/image_{https://zpi.cx/b/llBki2.png?dl=1}_{left}_{30}_{block}$\nĐồ Thị Hàm số $\\displaystyle y$ đã cho có tổng số đường tiệm cận ngang  và đường tiệm cận đứng là ____ và số đường tiệm cận đứng của đồ thị hàm số $\\displaystyle y\\;$ là ____ .\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2,
+                        1
+                    ]
+                },
+                "answer_detail": "Hàm số $y=f(x)$:\n\n- $\\lim_{x \\to 0^+} y = +\\infty \\Rightarrow$ TCĐ $x=0$.\n\n- $\\lim_{x \\to -\\infty} y = 2 \\Rightarrow$ TCN $y=2$.\n\n$\\Rightarrow$ Tổng số tiệm cận: 2 và có 1 tiệm cận đứng.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-15T14:15:05.098566+07:00"
+            },
+            {
+                "id": "4d184a7f-ec24-4f71-9798-9931cd840732",
+                "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+                "position": 40,
+                "content": "Cho hình trụ có hai đáy là hai hình tròn tâm $\\displaystyle O\\;$ và $\\displaystyle O'$. Bán kính đáy bằng $\\displaystyle a$. Trên hai đường tròn đáy lần lượt lấy hai điểm A và B sao cho $\\displaystyle AB = 2a$. Góc giữa đường thẳng $\\displaystyle AB$ và trục của hình trụ là $\\displaystyle {30^ \\circ }$. Thể tích của khối trụ là:",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\pi {a^3}\\sqrt 3 $"
+                        },
+                        {
+                            "content": "$\\displaystyle \\frac{{\\pi {a^3}\\sqrt 3 }}{3}$"
+                        },
+                        {
+                            "content": "$\\displaystyle 3\\pi {a^3}$"
+                        },
+                        {
+                            "content": "$\\displaystyle \\pi {a^3}$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Gọi $A'$ là hình chiếu của $A$ trên đáy chứa $B$.\r\n$\\Rightarrow AA' \\parallel OO' \\Rightarrow \\widehat{(AB, OO')} = \\widehat{(AB, AA')} = \\widehat{A'AB} = 30^\\circ$.\r\nTrong $\\triangle AA'B$ vuông tại $A'$:\r\n$h = AA' = AB \\cdot \\cos 30^\\circ = 2a \\cdot \\dfrac{\\sqrt{3}}{2} = a\\sqrt{3}$.\r\n$V = \\pi r^2 h = \\pi \\cdot a^2 \\cdot a\\sqrt{3} = \\pi a^3\\sqrt{3}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-07T18:07:04.203526+07:00",
+                "updated_at": "2026-02-15T16:55:21.392288+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "ef7ac336-b042-4269-9cea-e76dd39c12a7",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "bcc0eb15-ecb3-4ae2-a762-58951c75cf4c",
+        "status": "in_progress",
+        "created_at": "2026-02-20T08:43:34.622741+07:00",
+        "updated_at": "2026-02-20T08:43:34.622741+07:00",
+        "submited_at": "2026-02-20T08:43:34.622741+07:00"
+    }
+}

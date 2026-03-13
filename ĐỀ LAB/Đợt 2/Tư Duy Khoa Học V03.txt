@@ -1,0 +1,1550 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+        "title": "Tư Duy Khoa Học V03",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-21T14:00:52.713521+07:00",
+        "updated_at": "2026-02-21T22:54:03.11385+07:00",
+        "questions": [
+            {
+                "id": "dbb7edb2-585e-4b94-a557-a25ed65b3b38",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 1,
+                "content": "**MẠCH ĐIỆN MỘT CHIỀU VÀ ĐẶC TRƯNG LINH KIỆN**\n       Xét mạch điện như Hình 1 nhằm khảo sát đặc trưng vôn-ampe của linh kiện.\n$/image_{https://zpi.cx/b/W1OCWs.png?dl=1}_{center}_{70}_{block}$\n*(Hình 1: Sơ đồ mạch điện gồm Nguồn điện, Vôn kế (V), Ampe kế (A) và một linh kiện R mắc nối tiếp. K là khóa đóng mở mạch. Vôn kế được mắc song song với linh kiện R).*\n       Đầu tiên, mắc điện trở thuần R vào vị trí như trong Hình 1. Thay đổi giá trị điện áp của nguồn điện để số chỉ của vôn kế trong khoảng từ **0,0 V** đến **1,1 V** ta thu được đặc trưng vôn-ampe (đặc trưng I-V) của điện trở thuần R.\n       Tiếp theo, thay lần lượt một bóng đèn dây tóc X, một điốt bán dẫn Đ vào vị trí của điện trở thuần R trong Hình 1. Lặp lại thí nghiệm như trên để thu được kết quả là đường đặc trưng I-V của các linh kiện này. Kết quả tổng hợp được mô tả trong Hình 2.\n$/image_{https://zpi.cx/b/YQUWfh5.png?dl=1}_{center}_{90}_{block}$\n*(Hình 2: Đồ thị đặc trưng I-V của 3 linh kiện U, I , R)*.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:18:02.900364+07:00",
+                "questions": [
+                    {
+                        "id": "5ed93405-2e5a-46c2-a7c5-32366cd94c42",
+                        "parent_id": "dbb7edb2-585e-4b94-a557-a25ed65b3b38",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 1,
+                        "content": "Dựa vào đồ thị Hình 2, điện trở của Điốt khi vôn kế chỉ **0,7 V** có giá trị gần nhất với giá trị nào sau đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$70 \\Omega$"
+                                },
+                                {
+                                    "content": "$0,07 \\Omega$"
+                                },
+                                {
+                                    "content": "$15 \\Omega$"
+                                },
+                                {
+                                    "content": "$150 \\Omega$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Trên đồ thị Hình 2, xét đường biểu diễn của Điốt bán dẫn Đ (đường màu đen có các điểm hình tam giác).\nTại vị trí hoành độ $U = 0,7 \\text{ V}$, dóng lên cắt đường đặc trưng của Điốt, ta thấy tung độ tương ứng là $I = 10 \\text{ mA} = 0,01 \\text{ A}$.\r\nÁp dụng định luật Ohm, điện trở của Điốt tại thời điểm này là: $R = \\dfrac{U}{I} = \\dfrac{0,7}{0,01} = 70 \\Omega$. Đáp án A.\"",
+                        "option_columns": 4,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-22T14:44:44.634043+07:00"
+                    },
+                    {
+                        "id": "0c13531a-5a46-4326-bde4-bcbb6397b49b",
+                        "parent_id": "dbb7edb2-585e-4b94-a557-a25ed65b3b38",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 2,
+                        "content": "Kéo thả các hình ảnh đồ thị biểu diễn sự phụ thuộc của điện trở ($R$) vào hiệu điện thế ($U$) cho phù hợp với từng linh kiện:\n$/image_{https://zpi.cx/b/P6XzLkX.png?dl=1}_{center}_{100}_{block}$\nĐường phụ thuộc của điện trở vào hiệu điện thế của các linh kiện trong nghiên cứu trên sẽ có dạng nào ở miền điện áp được khảo sát?\n\n- Đường điện trở của điện trở thuần R: (1) ____\n\n- Đường điện trở của bóng đèn dây tóc X: (2) ____\n\n- Đường điện trở của điốt bán dẫn Đ: (3) ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    3,
+                                    4,
+                                    5,
+                                    6
+                                ],
+                                [
+                                    3,
+                                    4,
+                                    5,
+                                    6
+                                ],
+                                [
+                                    1
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Từ công thức $R = \\dfrac{U}{I}$, ta phân tích Hình 2:\n\n- **Điện trở R:** Đặc trưng I-V là đường thẳng đi qua gốc tọa độ, tức $I$ tỉ lệ thuận với $U$. Do đó $R$ là một hằng số. Đồ thị $R-U$ là đường thẳng nằm ngang.\n- **Bóng đèn X:** $R$ là một hằng số. Đồ thị $R-U$ là đường thẳng nằm ngang.\n- **Điốt Đ:** Từ 0 đến 0,6 V, dòng điện $I \\approx 0$ nên $R$ vô cùng lớn. Sau 0,6 V, dòng điện $I$ tăng vọt, làm $R$ giảm đột ngột xuống mức rất nhỏ. Đồ thị $R-U$ là đường cong đi xuống sâu.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-22T17:26:10.599264+07:00"
+                    },
+                    {
+                        "id": "8c520da6-4380-4689-a197-0011b65eed2b",
+                        "parent_id": "dbb7edb2-585e-4b94-a557-a25ed65b3b38",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 3,
+                        "content": "Một linh kiện được gọi là tuân theo định luật Ohm khi tỷ số giữa hiệu điện thế trên linh kiện và cường độ dòng điện qua linh kiện là một hằng số. Sử dụng kết quả Hình 2, hãy rút ra kết luận (những) linh kiện nào sau đây  tuân theo định luật Ohm trong miền điện áp làm việc từ **0,0 V** đến **1,1 V**?",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Điốt bán dẫn Đ"
+                                },
+                                {
+                                    "content": "Điện trở thuần R"
+                                },
+                                {
+                                    "content": "Bóng đèn sợi đốt X"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Linh kiện tuân theo định luật Ohm có tỉ số $\\dfrac{U}{I} = \\text{const}$, đồng nghĩa với việc đồ thị đặc trưng I-V của nó bắt buộc phải là một **đường thẳng đi qua gốc tọa độ**.\nQuan sát Hình 2, chỉ có Điốt Đ không thỏa mãn điều kiện tuân theo định luât có đồ thị dạng đường cong (điện trở biến thiên) nên sai . ",
+                        "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-22T14:50:49.205033+07:00"
+                    },
+                    {
+                        "id": "97e15a24-16f8-4e0b-a2da-b5c092394db6",
+                        "parent_id": "dbb7edb2-585e-4b94-a557-a25ed65b3b38",
+                        "position": 4,
+                        "content": "Kéo thả các cụm từ vào vị trí thích hợp:\nXét mạch điện Hình 1. Cho biết, nguồn điện không có điện trở nội. Ampe kế là dụng cụ có điện trở rất nhỏ, có thể bỏ qua; vôn kế là dụng cụ có điện trở vô cùng lớn. Điều chỉnh để nguồn điện cấp hiệu điện thế **1,0 V** cho mạch. Điều gì xảy ra nếu đổi chỗ của ampe kế A và vôn kế V.\nDòng điện qua Ampe kế (A) là (1) ____\nVôn kế chỉ giá trị (2) ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "vô cùng lớn, có thể gây hỏng thiết bị",
+                                "0,0 mA",
+                                "0,5 V",
+                                "0,5 mA",
+                                "1,0 V",
+                                "0,0 V"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                4
+                            ]
+                        },
+                        "answer_detail": "\"Khi đổi chỗ, Vôn kế (có điện trở vô cùng lớn $R_V \\rightarrow \\infty$) sẽ bị mắc nối tiếp vào mạch chính.\n\r\n\r\n- Vì tổng trở của toàn mạch lúc này vô cùng lớn, dòng điện chạy qua mạch chính (và cũng là dòng qua Ampe kế) sẽ tiến đến $0$: $I = \\dfrac{U}{R_{\\text{tổng}}} \\approx 0$. Do đó, Ampe kế chỉ **0,0 mA**.\r\n- Do dòng điện bằng 0, không có độ sụt áp trên phần điện trở R và Ampe kế. Toàn bộ điện áp của nguồn sẽ đặt lên hai đầu Vôn kế. Do đó, Vôn kế đo được đúng điện áp của nguồn là **1,0 V**.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "a0ba83d2-d4d0-4e9a-b598-ec30424db9e4",
+                        "parent_id": "dbb7edb2-585e-4b94-a557-a25ed65b3b38",
+                        "position": 5,
+                        "content": "Giả thiết, đèn sợi đốt có điện áp làm việc định mức là **12 V**. Khi khảo sát đặc trưng I-V của đèn lên tới **12 V**, người ta thu được dạng đồ thị là một đường cong có cường độ dòng điện I tăng chậm dần khi hiệu điện thế U tăng. Hãy chọn phương án phù hợp sau để giải thích và mô tả sự thay đổi điện trở của bóng đèn khi tăng điện áp làm việc.\n$/image_{https://zpi.cx/b/kzfWAD.png?dl=1}_{center}_{70}_{block}$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Khi tăng điện áp tới miền điện áp làm việc, nhiệt độ của dây tóc **tăng** lên, khiến điện trở đèn **tăng** lên."
+                                },
+                                {
+                                    "content": "Khi tăng điện áp tới miền điện áp làm việc, nhiệt độ của dây tóc **tăng** lên, khiến điện trở đèn **giảm** đi."
+                                },
+                                {
+                                    "content": "Khi tăng điện áp tới miền điện áp làm việc, nhiệt độ của dây tóc **giảm** đi, khiến điện trở đèn **giảm** đi."
+                                },
+                                {
+                                    "content": "Khi tăng điện áp tới miền điện áp làm việc, nhiệt độ của dây tóc **giảm** đi, khiến điện trở đèn **tăng** lên."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Khi tăng điện áp $U$, cường độ dòng điện $I$ chạy qua đèn tăng, làm công suất tỏa nhiệt $P = U \\cdot I$ tăng theo. Điều này nung nóng dây tóc bóng đèn (làm bằng kim loại Vonfram), khiến nhiệt độ của dây tóc tăng lên mạnh mẽ.\nTheo bản chất vật lý của kim loại, khi nhiệt độ tăng, sự chuyển động nhiệt hỗn loạn của các ion ở nút mạng tinh thể tăng lên, làm cản trở dòng electron dịch chuyển có hướng, dẫn đến **điện trở của dây tóc tăng lên**. Điều này giải thích tại sao dòng điện $I$ tăng chậm dần so với $U$ trên đồ thị. Đáp án A.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "8a4fd1fd-c327-48d7-ba23-19b77476268f",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 2,
+                "content": "**TIA X VÀ ỨNG DỤNG CỦA TIA X**\n       Năm 1895, nhà vật lý Wilhelm Conrad Rontgen (1845 – 1923) trở thành người đầu tiên quan sát tia X. Khi nghiên cứu với một ống tia catốt làm bằng thủy tinh, bên trong là chân không với hai điện cực AK. Mặc dù ống bọc bằng giấy đen cẩn thận, nhưng Rontgen tình cờ nhìn thấy màn huỳnh quang phủ hợp chất barium platino cyanide $BaPt(CN)_4$ đặt gần đó phát sáng khi ống tia catốt được bật trong căn phòng tối. Ông thử rút phích điện ra khỏi ổ cắm thì ánh sáng lập tức biến mất.\n       Rontgen suy đoán một loại tia bí ẩn nào đó đã làm sáng màn huỳnh quang. Rontgen có gắng chặn các tia phát ra từ ống tia catốt lần lượt bằng tấm bìa cứng, một cuốn sách dày 1000 trang, một tấm gỗ dày hơn 2,5 cm nhưng đều không thành công. Rontgen đặt một miếng tấm mảnh làm việc trong phòng thí nghiệm để hiểu rõ hơn về loại tia mới.\n$/image_{https://zpi.cx/b/BZ8pg.png?dl=1}_{center}_{100}_{block}$\n*Hình 1.4. Sơ đồ cấu tạo và nguyên lý hoạt động của tia X*\n       Ông khám phá ra rằng, tia X là sóng điện từ hoạt động tương tự như ánh sáng nhìn thấy nhưng có bước sóng ngắn hơn khoảng 1000 lần. Tia X có bước sóng từ $10^{-11} \\cdot m$ đến $10^{-8} \\cdot m$. Tia X có bước sóng càng ngắn thì khả năng đâm xuyên càng mạnh. Tia X được tạo ra khi electron được tăng tốc tác dụng của điện trường đến đập vào tấm kim loại có nguyên tử lượng lớn.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:15:33.454628+07:00",
+                "questions": [
+                    {
+                        "id": "7d5a29ae-285d-4a9e-8a7f-105520b7a967",
+                        "parent_id": "8a4fd1fd-c327-48d7-ba23-19b77476268f",
+                        "position": 1,
+                        "content": "Tia X có đặc điểm là: (có thể chọn nhiều đáp án)",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Tia X có thể xuyên qua tấm gỗ dày cỡ 2,5 cm"
+                                },
+                                {
+                                    "content": "Có khả năng phản xạ, khúc xạ và giao thoa"
+                                },
+                                {
+                                    "content": "Là sóng điện từ có thể nhìn thấy được bằng mắt thường"
+                                },
+                                {
+                                    "content": "Làm phát quang một số chất"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- A Đúng: Đoạn [2] cho thấy tia X đâm xuyên qua tấm gỗ dày 2,5 cm.\n\r\n\r\n- B Đúng: Đoạn [3] nêu tia X là sóng điện từ, do đó mang đầy đủ tính chất sóng (phản xạ, khúc xạ, giao thoa).\r\n- C Sai: Tia X là bức xạ không nhìn thấy.\r\n- D Đúng: Đoạn [1] mô tả tia X làm màn huỳnh quang phát sáng.\r\nVậy chọn A, B và D.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "aa37a971-5849-4652-966c-3ca0e5d57d90",
+                        "parent_id": "8a4fd1fd-c327-48d7-ba23-19b77476268f",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 2,
+                        "content": "Trong y học tia X được dùng để chẩn đoán bệnh bằng kỹ thuật chụp X quang với nguyên tắc, nguyên lý như sau:\n$/image_{https://zpi.cx/b/WgKZ3Fc.png?dl=1}_{left}_{40}_{block}$",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Xương chứa nhiều canxi hấp thụ nhiều tia X hơn nên xuất hiện vùng trắng trên phim"
+                                },
+                                {
+                                    "content": "Khi nhìn trên tấm phim chụp X quang, bác sĩ có chuyên môn sẽ xác định được người bệnh có mắc các bệnh như tràn dịch màng phổi, ung thư phổi, viêm phổi hay không"
+                                },
+                                {
+                                    "content": "Mô mềm hấp thụ tia X nhiều hơn xương nên trên phim xuất hiện màu xám"
+                                },
+                                {
+                                    "content": "Các khoang chứa khí như phổi hấp thụ tia X rất ít nên xuất hiện vùng tối trên phim"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"- A Đúng: Xương (mật độ cao) hấp thụ mạnh tia X, cản tia đến phim nên xuất hiện vùng trắng/sáng.\n\n\n- D Đúng: Phổi chứa khí (mật độ rất thấp), tia X xuyên qua dễ dàng làm đen phim (vùng tối).\n- C Sai: Mô mềm mật độ thấp hơn xương nên hấp thụ tia X ít hơn xương.\n- B Đúng : Đây là ứng dụng chẩn đoán lâm sàng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-24T01:26:49.751337+07:00"
+                    },
+                    {
+                        "id": "d7b564b1-13d2-4a3a-9727-95793b6a1207",
+                        "parent_id": "8a4fd1fd-c327-48d7-ba23-19b77476268f",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 3,
+                        "content": "$/image_{https://zpi.cx/b/4fGOI.png?dl=1}_{left}_{40}_{block}$\nTia X được ứng dụng trong kiểm tra hành lý ở sân bay nhờ vào các tính chất và ứng dụng như sau:\n1. Vật liệu có mật độ nguyên tử cao thì (1) ____\n2. Kim loại hoặc sắt sẽ (2) ____\n3. Nhựa sẽ gần như: (3) ____\n4. Độ dày của vật liệu càng mỏng thì: (4) ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "Hấp thụ tia X càng ít",
+                                "Hấp thụ tia X rất mạnh",
+                                "Không hấp thụ tia X",
+                                "Hấp thụ tia X nhiều hơn vật liệu có mật độ nguyên tử thấp"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3,
+                                1,
+                                2,
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"- (1): Vật liệu mật độ nguyên tử cao cản tia X tốt hơn, nên hấp thụ tia X nhiều hơn vật liệu có mật độ thấp.\n\r\n\r\n- (2): Kim loại/sắt cản trở cực tốt, do đó hấp thụ tia X rất mạnh.\r\n- (3): Nhựa có nguyên tử lượng rất nhỏ, tia X đâm xuyên dễ dàng nên gần như không hấp thụ tia X.\r\n- (4): Lớp vật liệu càng mỏng, tia X bị cản lại càng ít, tương ứng hấp thụ tia X càng ít.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-24T01:27:28.419092+07:00"
+                    },
+                    {
+                        "id": "24c39cd7-cfc0-444a-a325-0739ff55219c",
+                        "parent_id": "8a4fd1fd-c327-48d7-ba23-19b77476268f",
+                        "position": 4,
+                        "content": "Điền số vào chỗ trống:\nTia X có khả năng xuyên qua các mô cơ thể và gây tổn thương ADN. Do đó tia X có bước sóng nằm trong khoảng từ 0,01nm đến 0,1nm được sử dụng trong điều trị bệnh ung thư. Để tạo ra được tia X bước sóng ngắn nhất là $\\lambda = 0,06 nm$ thì cần đặt vào giữa hai đầu của AK một hiệu điện thế (1) ____ $kV$, khi đó năng lượng của tia X được tính theo công thức $\\epsilon = \\dfrac{hc}{\\lambda}$ trong đó $h$ là hằng số Planck có giá trị $h = 6,625 \\cdot 10^{-34} J.s$, tốc độ ánh sáng trong chân không $c = 3 \\cdot 10^8 m/s$ là (2) ____ $10^{-15} J$. Kết quả làm tròn sau dấu phẩy hai chữ số.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "20,70",
+                                    "20.70"
+                                ],
+                                [
+                                    "3,31",
+                                    "3.31"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"* Tính năng lượng $\\epsilon$:\n$\\epsilon = \\dfrac{hc}{\\lambda} = \\dfrac{6,625 \\cdot 10^{-34} \\cdot 3 \\cdot 10^8}{0,06 \\cdot 10^{-9}} = 3,3125 \\cdot 10^{-15} \\text{ J}$.\r\nLàm tròn 2 chữ số thập phân: **3,31**. Điền vào ô (2).\r\n\r\n\r\n- Tính hiệu điện thế $U$:\r\nBảo toàn năng lượng: $W_đ = |e|U = \\epsilon \\Rightarrow U = \\dfrac{\\epsilon}{|e|}$\r\n$U = \\dfrac{3,3125 \\cdot 10^{-15}}{1,6 \\cdot 10^{-19}} \\approx 20703 \\text{ V} = 20,703 \\text{ kV}$.\r\nLàm tròn 2 chữ số thập phân: **20,70**. Điền vào ô (1).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "d0afd623-b01e-4f30-ad21-6a4b48029fc1",
+                        "parent_id": "8a4fd1fd-c327-48d7-ba23-19b77476268f",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 5,
+                        "content": "Chiếu lên tinh thể một chùm tia X, mỗi nút mạng trở thành tâm nhiễu xạ và mạng tinh thể đóng vai trò như cách tử nhiễu xạ. Khi hai sóng tới vào nguyên tử (có nhiều electron) mà chúng bị tán xạ bởi electron theo hướng tới, các sóng tán xạ từ mỗi nguyên tử sẽ giao thoa với nhau, tạo ra các cực đại và cực tiểu nhiễu xạ, là cơ sở thực hiện kỹ thuật nhiễu xạ tia X (KX). Kỹ thuật nhiễu xạ tia X được sử dụng để phân tích cấu trúc chất rắn, vật liệu. Định luật Vulf-Bragg mô tả hiện tượng nhiễu xạ tia X trên các mặt tinh thể theo công thức $2d\\sin\\theta = m\\lambda$, trong đó $m$ là bậc của nhiễu xạ, $\\lambda$ là bước sóng của tia X, $d$ là khoảng cách giữa các mặt phẳng nguyên tử, $\\theta$ là góc Bragg. Xét tia X có bước sóng $\\lambda = 0,12 nm$ được phản xạ bậc 2 ở góc Bragg $28^\\circ$ từ một tinh thể Liti fluorid (LiF). Khoảng cách giữa các mặt phẳng là:\n$/image_{https://zpi.cx/b/eQhDj.png?dl=1}_{left}_{50}_{block}$",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$2,56 \\cdot 10^{-10} m$"
+                                },
+                                {
+                                    "content": "$0,51 \\cdot 10^{-9} m$"
+                                },
+                                {
+                                    "content": "$4,43 \\cdot 10^{-10} m$"
+                                },
+                                {
+                                    "content": "$0,86 \\cdot 10^{-11} m$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Từ công thức $2d\\sin\\theta = m\\lambda \\Rightarrow d = \\dfrac{m\\lambda}{2\\sin\\theta}$.\n\nThay số: $m = 2$; $\\lambda = 0,12 \\cdot 10^{-9} \\text{ m}$; $\\theta = 28^\\circ$.\n\n$d = \\dfrac{2 \\cdot 0,12 \\cdot 10^{-9}}{2 \\sin(28^\\circ)} \\approx \\dfrac{0,12 \\cdot 10^{-9}}{0,46947} \\approx 2,556 \\cdot 10^{-10} \\text{ m}$.\n\nLàm tròn ta được $2,56 \\cdot 10^{-10} \\text{ m}$. Đáp án A.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-22T14:43:52.151096+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "f0a2d13f-858d-480e-bc03-e7a8c816643f",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 3,
+                "content": "**TỐI ƯU HÓA NĂNG LƯỢNG: CHIM MỎ SÒ ĂN TRAI**\n       Thuyết tối ưu hóa năng lượng dự đoán động vật săn mồi ưu tiên con mồi mang lại lợi nhuận ròng cao nhất. Áp dụng cho chim mỏ sò ăn trai, Meire và Eryynck tính toán lợi nhuận dựa trên lượng calo trong thịt trai trừ đi năng lượng và thời gian tiêu hao để phá vỏ. Ban đầu, mô hình chỉ ra những con trai lớn nhất cung cấp lượng calo/phút cao nhất, dẫn đến dự đoán chim sẽ chỉ tập trung săn nhóm kích thước cực đại này.\n$/image_{https://zpi.cx/b/zKKXD.png?dl=1}_{center}_{100}_{block}$\n       Tuy nhiên, dữ liệu thực tế (Đồ thị A và B) lại mâu thuẫn hoàn toàn. Hai giả thuyết bổ sung được đề xuất để giải thích. Giả thuyết (1): Mô hình đầu tiên bỏ qua tỷ lệ thất bại. Những con trai lớn có vỏ rất cứng, chim tốn sức rỉa nhưng không vỡ, làm giảm mạnh lợi nhuận trung bình. Khi đưa \"tỷ lệ mở thành công\" vào thuật toán, mô hình dự đoán kích thước tối ưu hạ xuống khoảng 50mm.\n       Giả thuyết (2): Yếu tố lớp giáp sinh học. Trai càng lớn càng dễ bị hàu (hà) bám dày đặc trên bề mặt. Lớp vỏ hà này triệt tiêu hoàn toàn khả năng xuyên thủng của mỏ chim, khiến chim chủ động bỏ qua chúng ngay từ đầu. Khi tích hợp đồng thời chi phí thời gian vô ích và rủi ro từ lớp hà cản trở, dải kích thước mục tiêu thực tế của chim thu hẹp lại hoàn hảo, khớp với khoảng 30 - 45mm.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:15:33.454628+07:00",
+                "questions": [
+                    {
+                        "id": "78fb9276-c50c-45cb-8bd6-07824d977978",
+                        "parent_id": "f0a2d13f-858d-480e-bc03-e7a8c816643f",
+                        "position": 1,
+                        "content": "Dựa vào đồ thị A, số lượng trai được phân bố nhiều nhất trong khoảng nào ở những khoảng sau:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$20 - 30mm$"
+                                },
+                                {
+                                    "content": "$40 - 50mm$"
+                                },
+                                {
+                                    "content": "$\u003e 50mm$"
+                                },
+                                {
+                                    "content": "$\u003c 10mm$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Dóng đối chiếu Đồ thị A (Trai hiện hữu trong tự nhiên). Tần suất phân bố tạo thành hai đỉnh lồi: một đỉnh quanh 15mm (~16%) và một đỉnh quanh 50mm (~14%). Xem xét các phương án cho sẵn, dải kích thước 40-50mm bao trùm hai cột có tần suất rất cao (cột 45mm đạt ~10% và cột 50mm đạt ~14%). Tổng gộp tần suất của dải này mang lại số lượng phân bố lớn nhất so với các dải kích thước nhiễu khác. Đáp án B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "087398dd-501c-42f3-8cf6-6855c8f04e99",
+                        "parent_id": "f0a2d13f-858d-480e-bc03-e7a8c816643f",
+                        "position": 2,
+                        "content": "Nhận định nào sau đây về các giả thuyết trong bài là đúng?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Giả thuyết thứ nhất không tính đến độ khó của việc mở trai"
+                                },
+                                {
+                                    "content": "Giả thuyết thứ hai phù hợp nhất với kết quả quan sát thực tế"
+                                },
+                                {
+                                    "content": "Giả thuyết thứ nhất cho rằng chim nên tập trung vào trai có kích thước lớn hơn 50mm"
+                                },
+                                {
+                                    "content": "Giả thuyết ban đầu chỉ xem xét đến giá trị năng lượng mà trai cung cấp"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- B Đúng: Giả thuyết 2 (tích hợp yếu tố vỏ cứng và lớp hàu bám) kết luận dải tối ưu là 30-45mm. Nhìn sang Đồ thị B, phổ săn mồi thực tế tạo thành hình chuông hội tụ chính xác tại đỉnh 35-45mm.\n\r\n\r\n- A Sai: Giả thuyết 1 ra đời chính là để khắc phục lỗi, trực tiếp tính đến độ khó (tỷ lệ mở thất bại).\r\n- C Sai: Giả thuyết 1 dự đoán điểm tập trung lùi về quanh 50mm, chứ không phải lớn hơn 50mm.\r\n- D Sai: Giả thuyết ban đầu xét cả năng lượng nhận được VÀ thời gian/năng lượng tiêu hao.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "82d844a1-5bb6-4689-87fb-9801838f0f22",
+                        "parent_id": "f0a2d13f-858d-480e-bc03-e7a8c816643f",
+                        "position": 3,
+                        "content": "Dựa vào hai đồ thị, số lượng trai có kích thước bao nhiêu bị chim mỏ sò bắt được nhiều nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "35 mm"
+                                },
+                                {
+                                    "content": "40 mm"
+                                },
+                                {
+                                    "content": "45 mm"
+                                },
+                                {
+                                    "content": "30 mm"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đọc trực tiếp Đồ thị B (Tần suất trai bị bắt). Trục hoành chia các vạch giá trị 10, 20... 60. Đỉnh của biểu đồ cột vươn cao nhất nằm chính xác tại vị trí vạch 40mm. Tần suất tại cột này đạt xấp xỉ 24%, áp đảo hoàn toàn mọi nhóm kích thước khác xung quanh. Đáp án B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "e7858c1e-33f7-40e0-b4b5-acead064cf3f",
+                        "parent_id": "f0a2d13f-858d-480e-bc03-e7a8c816643f",
+                        "position": 4,
+                        "content": "Dựa trên hai giả thuyết và thực tế quan sát, những con trai có kích thước bao nhiêu có lợi cho chim mỏ sò nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhỏ hơn 30 mm do chúng cần lượng thời gian mở ít nhất."
+                                },
+                                {
+                                    "content": "Từ 30-45 mm do chúng mang lại sự cân bằng giữa thời gian mở và năng lượng nhận được."
+                                },
+                                {
+                                    "content": "Bất kì con trai nào không bị hà bám do hà là yếu tố chính khiến trai không mở được."
+                                },
+                                {
+                                    "content": "Trên 50 mm do chúng mang lại lượng năng lượng nhận được nhiều nhất so với thời gian cần để mở."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào kết luận ở đoạn [3], dải 30-45mm là lựa chọn có lợi nhất vì nó thỏa mãn bài toán tối ưu hóa đa biến: Kích thước đủ lớn để mang lại lượng calo bõ công săn (bác bỏ A), nhưng vỏ lại không quá cứng và xác suất bị lớp hà bám cản trở ở mức thấp (bác bỏ D). Sự cân bằng rủi ro - lợi nhuận ròng này biến dải 30-45mm thành mục tiêu hoàn hảo. Đáp án B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "241608fa-3b85-4ed4-bc3b-05241be8a395",
+                        "parent_id": "f0a2d13f-858d-480e-bc03-e7a8c816643f",
+                        "position": 5,
+                        "content": "Chọn đáp án phù hợp (Đúng/Sai) cho những nhận xét sau:",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Những con trai có số lượng nhiều nhất trong tự nhiên cũng là những con trai bị chim tấn công nhiều nhất"
+                                },
+                                {
+                                    "content": "Hà là nguyên nhân chính khiến chim mỏ sò không mở được trai"
+                                },
+                                {
+                                    "content": "Những con trai có kích thước lớn nhất trong tự nhiên cũng là những con trai bị chim tấn công nhiều nhất"
+                                },
+                                {
+                                    "content": "Những con trai có kích thước bé thường bị chim mỏ sò bỏ qua"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai. Đồ thị A (tự nhiên) cực đại ở 10-15mm, nhưng Đồ thị B (bị bắt) cực đại ở 40mm. Khác biệt hoàn toàn.\n\r\n\r\n- b) Sai. Đoạn [2] chỉ rõ chim vốn đã không thể mở được vỏ do độ cứng tự nhiên của lớp vỏ dày (mất thời gian nhưng thất bại). Lớp hà chỉ là yếu tố thứ cấp khiến chúng quyết định không thèm mổ vào ngay từ đầu, chứ không phải nguyên nhân cốt lõi duy nhất.\r\n- c) Sai. Trai \u003e50mm rất phong phú (Đồ thị A) nhưng chim gần như không đụng tới (đuôi phải Đồ thị B sụt giảm sát đáy).\r\n- d) Đúng. Trai kích thước bé (\u003c20mm) dày đặc trong tự nhiên nhưng vắng bóng trong khẩu phần ăn, do lợi nhuận calo quá thấp.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "b3ecda78-e5bf-47e2-b975-bce3fe054b14",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 4,
+                "content": "**CÔNG NGHỆ SẢN XUẤT DIESEL SINH HỌC (BIODIESEL)**\n\n       Biodiesel (Metylester của axit béo - FAME) là nhiên liệu lỏng tái tạo được tổng hợp từ dầu thực vật hoặc mỡ động vật. Khác biệt với diesel khoáng có bản chất là hỗn hợp hydrocarbon no và thơm chiết xuất từ dầu mỏ, biodiesel chứa các nguyên tử oxy cấu thành nên nhóm chức este. Cấu trúc này giúp biodiesel tự mang oxy, cải thiện hiệu suất cháy và giảm phát thải khí độc $SO_2$, mồ hóng.\n\n       Thành phần cốt lõi của dầu thực vật là triglyceride (chất béo) có độ nhớt động học rất lớn, không thể trực tiếp phun tơi trong buồng đốt. Công nghệ công nghiệp chủ đạo để hạ độ nhớt là phản ứng trao đổi este (transesterification): đun nóng triglyceride với ancol nhẹ (thường là metanol) dưới tác dụng của xúc tác bazơ kiềm (KOH hoặc NaOH).\n\n                     $(RCOO)_3C_3H_5 + 3CH_3OH \\rightleftharpoons 3RCOOCH_3 \\text{ (Biodiesel)} + C_3H_5(OH)_3 \\text{ (Glycerol)}$\n\n       Đây là một phản ứng thuận nghịch. Hiệu suất và chất lượng mẻ phản ứng phụ thuộc khắt khe vào độ tinh khiết nguyên liệu. Nếu dầu đầu vào chứa nước hoặc hàm lượng axit béo tự do (FFA) cao, xúc tác kiềm sẽ lập tức ưu tiên tác dụng với chúng gây ra phản ứng xà phòng hóa.\n\n       Lượng muối xà phòng sinh ra tạo thành màng nhũ tương bền vững, làm đặc quánh hỗn hợp hóa chất. Hậu quả là dung dịch không thể phân lớp bằng trọng lực, cản trở việc tách lớp biodiesel (nhẹ, nổi lên trên) khỏi phụ phẩm glycerol (nặng, chìm xuống đáy), làm sụt giảm nghiêm trọng hiệu suất thu hồi nhiên liệu.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:15:33.454628+07:00",
+                "questions": [
+                    {
+                        "id": "76771a7d-d77b-47d8-9be4-494322d36fab",
+                        "parent_id": "b3ecda78-e5bf-47e2-b975-bce3fe054b14",
+                        "position": 1,
+                        "content": "Trong quy trình công nghiệp theo đoạn [2], tại sao nhà sản xuất phải bơm một lượng Metanol dư (thường gấp đôi) so với tỉ lệ tính toán lý thuyết?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Metanol dư đóng vai trò chất kiềm hóa, ngăn cản axit béo tự do (FFA) xà phòng hóa hỗn hợp."
+                                },
+                                {
+                                    "content": "Tuân theo nguyên lý Le Chatelier để dịch chuyển cân bằng của phản ứng thuận nghịch sang phải, tối đa hóa lượng Biodiesel."
+                                },
+                                {
+                                    "content": "Nhằm làm loãng glycerol sinh ra, khiến khối lượng riêng của nó nhẹ đi và dễ dàng trôi theo mẻ nhiên liệu."
+                                },
+                                {
+                                    "content": "Để ức chế hiện tượng thủy phân cắt đứt liên kết este của triglyceride trước khi phản ứng chính diễn ra."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- B Đúng. Phương trình hóa học ở đoạn [2] có mũi tên hai chiều ($\\rightleftharpoons$) thể hiện tính thuận nghịch. Tăng nồng độ chất tham gia ($CH_3OH$) sẽ đẩy cân bằng sang chiều thuận tạo sản phẩm.\n\r\n\r\n- A Sai vì metanol là ancol, không có tính kiềm hóa.\r\n- C Sai vì ta cần tách glycerol chìm xuống đáy, không phải làm loãng để nó trôi theo nhiên liệu.\r\n- D Sai bản chất hóa học.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "2d4a1b24-2ce3-4778-bb05-8a8bf71b0d88",
+                        "parent_id": "b3ecda78-e5bf-47e2-b975-bce3fe054b14",
+                        "position": 2,
+                        "content": "Yếu tố nào sau đây là nguyên nhân trực tiếp gây ra hiện tượng \"nhũ tương hóa\" làm thất bại quá trình phân tách pha ở cuối mẻ phản ứng sản xuất Biodiesel?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sự trộn lẫn tĩnh điện giữa hai pha este (biodiesel) và ancol (metanol dư)."
+                                },
+                                {
+                                    "content": "Nhiệt độ buồng phản ứng quá cao làm bay hơi toàn bộ hệ xúc tác kiềm KOH/NaOH."
+                                },
+                                {
+                                    "content": "Phản ứng phụ giữa nước/axit béo tự do với xúc tác kiềm tạo ra muối của axit béo."
+                                },
+                                {
+                                    "content": "Sự chênh lệch khối lượng riêng quá lớn giữa triglyceride nguyên liệu và glycerol phụ phẩm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [3] và [4] giải thích cơ chế: Nước/Axit béo tự do (FFA) + Xúc tác kiềm $\\rightarrow$ Phản ứng xà phòng hóa. 'Lượng muối xà phòng sinh ra tạo thành màng nhũ tương bền vững... cản trở việc tách lớp'. Đáp án C mô tả chính xác quá trình tạo muối xà phòng này.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "84a0766f-f515-4c46-96d8-95fad57c4fda",
+                        "parent_id": "b3ecda78-e5bf-47e2-b975-bce3fe054b14",
+                        "position": 3,
+                        "content": "Kéo thả các đặc tính vào đúng loại chất tương ứng có trong buồng lắng phân lớp sau khi phản ứng trao đổi este kết thúc hoàn toàn:\n- Lớp nhiên liệu Biodiesel (FAME): (1) ____\n- Lớp phụ phẩm Glycerol: (2) ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "Nổi ở lớp trên, chứa nguyên tử oxy trong phân tử",
+                                "Nổi ở lớp trên, chỉ chứa C và H trong phân tử",
+                                "Chìm ở đáy, là ancol đa chức có khả năng hòa tan kết tủa Cu(OH)2",
+                                "Bị xà phòng hóa thành nhũ tương lơ lửng nếu lẫn nước"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"- (1): Theo đoạn [4], biodiesel 'nhẹ, nổi lên trên'. Theo đoạn [1], nó là este nên 'chứa nguyên tử oxy'. Chọn 'Nổi ở lớp trên, chứa nguyên tử oxy'. (Phương án 'chỉ chứa C và H' là nhiễu, miêu tả diesel khoáng).\n- (2): Theo đoạn [4], glycerol 'nặng, chìm xuống đáy'. Trích xuất kiến thức nền, glycerol ($C_3H_5(OH)_3$) là ancol đa chức có nhóm $-OH$ kề nhau, hòa tan được $Cu(OH)_2$. Chọn 'Chìm ở đáy, là ancol đa chức...'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "d484d628-e10e-463c-9e11-b15b90ea8265",
+                        "parent_id": "b3ecda78-e5bf-47e2-b975-bce3fe054b14",
+                        "position": 4,
+                        "content": "Đánh giá tính Đúng/Sai của các nhận định sau:",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Diesel khoáng và Biodiesel tuy có nguồn gốc khác nhau nhưng đều thuộc nhóm hợp chất hydrocarbon no mạch hở."
+                                },
+                                {
+                                    "content": "Dấu hiệu nhận biết quá trình tách pha thành công trong bồn lắng là lớp chất lỏng nhẹ chứa Metylester nổi lên trên bề mặt lớp phụ phẩm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai. Đoạn [1] nhấn mạnh: 'Khác biệt với diesel khoáng có bản chất là hỗn hợp hydrocarbon... biodiesel chứa các nguyên tử oxy cấu thành nên nhóm chức este'. Biodiesel không phải hydrocarbon.\n\r\n\r\n- b) Đúng. Đoạn [4] nêu rõ nguyên lý tách trọng lực: lớp biodiesel nhẹ nổi lên trên, tách biệt khỏi glycerol nặng chìm xuống đáy.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "147024a9-746e-4fc1-a755-abf26cdf8170",
+                        "parent_id": "b3ecda78-e5bf-47e2-b975-bce3fe054b14",
+                        "position": 5,
+                        "content": "Tại một phân xưởng, kỹ sư sử dụng **8,84 tấn** Dầu thực vật (giả sử chứa 100% Triolein, $M=884 \\text{ g/mol}$) để thực hiện phản ứng với metanol. Biết hiệu suất thực tế của toàn bộ quy trình chuyển hóa đạt 90%. Khối lượng nhiên liệu Biodiesel (Metyl Oleat, $M=296 \\text{ g/mol}$) cuối cùng thu được vào bồn chứa là bao nhiêu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "8,88 tấn"
+                                },
+                                {
+                                    "content": "7,992 tấn"
+                                },
+                                {
+                                    "content": "2,96 tấn"
+                                },
+                                {
+                                    "content": "2,664 tấn"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"\n Số mol Triolein ban đầu: $n_{dầu} = \\dfrac{8,84}{884} = 0,01$ (megamol).\r\n Tỉ lệ phản ứng: 1 mol Triglyceride sinh ra 3 mol Biodiesel (đoạn [2]).\r\nSố mol Biodiesel lý thuyết: $n_{LT} = 0,01 \\cdot 3 = 0,03$ (megamol).\r\n Khối lượng Biodiesel lý thuyết thu được: $m_{LT} = 0,03 \\cdot 296 = 8,88$ tấn.\r\n Áp dụng hiệu suất 90% cho sản phẩm tạo thành: $m_{TT} = 8,88 \\cdot 0,90 = 7,992$ tấn. Chọn B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "389d86ae-166b-4ca1-aec0-51253bd440fd",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 5,
+                "content": "**TẦNG ĐỐI LƯU TRONG KHÍ QUYỂN TRÁI ĐẤT**\n       Tầng đối lưu là phần thấp nhất của khí quyển Trái Đất (thành phần cấu tạo chủ yếu gồm 80% khí $N_2$ và 20% khí $O_2$, khối lượng mol trung bình $M = 29 g/mol$). Đặc trưng của tầng này thể hiện ở các dòng đối lưu của không khí nóng từ bề mặt bốc lên cao và lạnh đi. Nguyên nhân các biến đổi nhiệt độ trong tầng đối lưu là do nhiệt độ được xác định bởi bức xạ nhiệt từ mặt đất ngược trở lại không khí. Khi tia nắng Mặt Trời chiếu xuống bề mặt Trái Đất thì phần không khí hấp thụ năng lượng rất ít mà chủ yếu tập trung mặt đất. Bề mặt Trái Đất nóng lên truyền nhiệt cho lớp không khí gần mặt đất làm cho phần không khí này nóng lên và giãn nở làm cho khối lượng riêng của nó nhẹ hơn phần không khí ở trên cao.\n\n       Đối với không khí khô, quá trình giãn nở này coi gần đúng như quá trình giãn nở đoạn nhiệt. Bỏ qua quá trình đối lưu cưỡng bức thì mối liên hệ giữa độ chênh áp suất ($\\Delta p$) và độ chênh nhiệt độ của khối khí ($\\Delta T$) giữa độ cao $h$ và $h + \\Delta h$ được xác định bởi:\n\n                           $\\dfrac{\\Delta p}{p} = \\dfrac{\\gamma}{\\gamma - 1} \\dfrac{\\Delta T}{T}$\n\n       Trong không khí, áp suất khí quyển giảm theo độ cao. Độ chênh áp suất $\\Delta p$ theo độ biến thiên chiều cao $\\Delta h$ có thể tính toán theo phương trình (công thức khí áp):\n\n                           $\\dfrac{\\Delta p}{\\Delta h} = - \\dfrac{Mg}{RT} \\cdot p$\n\n       Trong đó: $g$ là gia tốc trọng trường ($g \\approx 9,8 m/s^2$), $h$ là cao độ khối khí so với mực nước biển (đơn vị: m), $p$ là áp suất của khối khí tại vị trí có cao độ $h$, $R$ là hằng số khí ($R = 8,31 J/mol.K$), $T$ là nhiệt độ tuyệt đối của khối khí (đơn vị: K) tại độ cao $h$, $M$ là khối lượng mol trung bình của phân tử không khí (đơn vị: kg/mol) và $\\gamma$ là chỉ số đoạn nhiệt.\n       Chỉ số đoạn nhiệt $\\gamma$ được xác định bởi công thức:\n\n                                         $\\gamma = \\dfrac{i+2}{i}$\n\n                     với $i$ là số bậc tự do của phân tử khí cho trong Bảng 1.\n**Bảng 1: Bậc tự do của khí**\n$/image_{https://zpi.cx/b/cgbX9.png?dl=1}_{center}_{100}_{block}$\n*Chú ý:*\n              $T(K) = T(^\\circ C) + 273$.\n              $1 \\text{ at} \\approx 0,981 \\cdot 10^5 \\text{ N/m}^2$; $1 \\text{ atm} \\approx 1,013 \\cdot 10^5 \\text{ N/m}^2$.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:15:33.454628+07:00",
+                "questions": [
+                    {
+                        "id": "9c884a00-379e-475d-b3f7-5cc882c16dbc",
+                        "parent_id": "389d86ae-166b-4ca1-aec0-51253bd440fd",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 1,
+                        "content": "Khi ánh sáng Mặt Trời chiếu xuống Trái Đất, lớp không khí ở phía trên của tầng đối lưu tiếp xúc với ánh sáng Mặt Trời trước sẽ hấp thụ được nhiệt lượng trước nên nóng hơn lớp không khí ở lớp tiếp xúc gần với bề mặt Trái Đất. Sự chênh lệch về nhiệt độ này là nguyên nhân chính gây ra hiện tượng đối lưu không khí ở tầng đối lưu của khí quyển Trái Đất. Theo nguyên nhân đó là Đúng hay Sai?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sai"
+                                },
+                                {
+                                    "content": "Đúng"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] nêu rõ bề mặt Trái Đất hấp thụ phần lớn năng lượng bức xạ rồi truyền nhiệt cho lớp không khí gần mặt đất, làm lớp khí gần mặt đất nóng lên trước và nóng hơn. Nhận định của đề bài hoàn toàn ngược lại. Đáp án A.\"",
+                        "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-22T14:44:36.831406+07:00"
+                    },
+                    {
+                        "id": "b69abd4c-2c26-40c3-9473-01e45d4b098c",
+                        "parent_id": "389d86ae-166b-4ca1-aec0-51253bd440fd",
+                        "position": 2,
+                        "content": "Đánh giá tính Đúng/Sai của các kết luận sau đây liên quan đến giá trị chỉ số đoạn nhiệt $\\gamma$ của khối khí?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Chỉ số đoạn nhiệt của khí trơ Neon (Ne) là $\\gamma \\approx 1,67$"
+                                },
+                                {
+                                    "content": "Chỉ số đoạn nhiệt của khối khí $Cl_2$ là $\\gamma = 1,4$"
+                                },
+                                {
+                                    "content": "Chỉ số đoạn nhiệt của khí acetylen ($C_2H_2$ hay $H-C \\equiv C-H$) là $\\gamma = 1,4$"
+                                },
+                                {
+                                    "content": "Không khí có chứa hơi nước vào hôm trời nắng thì chỉ số đoạn nhiệt của không khí ẩm $\\gamma \u003c 1,4$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Áp dụng công thức $\\gamma = \\dfrac{i+2}{i}$:\n\r\n\r\n- a) Đúng. Ne là khí đơn nguyên tử ($i=3$), $\\gamma = \\dfrac{5}{3} \\approx 1,67$.\r\n- b) Đúng. $Cl_2$ là khí lưỡng nguyên tử ($i=5$), $\\gamma = \\dfrac{7}{5} = 1,4$.\r\n- c) Sai. $C_2H_2$ là khí đa nguyên tử ($i=6$), $\\gamma = \\dfrac{8}{6} \\approx 1,33 \\neq 1,4$.\r\n- d) Đúng. Không khí khô ($\\gamma = 1,4$); hơi nước ($\\gamma = 1,33$). Hỗn hợp khí có lẫn hơi nước sẽ có $\\gamma$ trung bình nhỏ hơn 1,4.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "5d9afcfb-46a6-4c4f-9af7-89b215c8d89d",
+                        "parent_id": "389d86ae-166b-4ca1-aec0-51253bd440fd",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 3,
+                        "content": "Trong một khối không khí có n mol khí, các thông số trạng thái của khối khí liên hệ với nhau bởi phương trình trạng thái: $\\dfrac{pV}{T} = nR$. Khi khối không khí thực hiện quá trình giãn nở đoạn nhiệt thì áp suất $p$ và thể tích $V$ được liên hệ với nhau bởi hệ thức: $pV^\\gamma = const$.\nĐồ thị nào sau đây mô tả quá trình biến đổi đoạn nhiệt của khối không khí ?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/f3KbtV.png?dl=1}_{center}_{100}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/a1h8mM8.png?dl=1}_{center}_{100}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/SKUyf.png?dl=1}_{center}_{100}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/K3pwbTL.png?dl=1}_{center}_{100}_{block}$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Từ phương trình đoạn nhiệt $pV^\\gamma = \\text{const} \\Rightarrow p = \\dfrac{\\text{const}}{V^\\gamma}$.\nVì $\\gamma = 1,4 \u003e 1$, đồ thị biểu diễn sự phụ thuộc của $p$ theo $V$ là một đường cong hyperbol trượt dốc sâu xuống. Chỉ có Đồ thị C có hình dạng phù hợp. Đáp án C.\"",
+                        "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:17:11.826659+07:00"
+                    },
+                    {
+                        "id": "623bd283-285c-4d85-9870-6076edab2705",
+                        "parent_id": "389d86ae-166b-4ca1-aec0-51253bd440fd",
+                        "position": 4,
+                        "content": "Điền số vào chỗ trống:\n$/image_{https://zpi.cx/b/sEKSJ.png?dl=1}_{center}_{100}_{block}$\nẢnh chụp là hình ảnh mỏ Than Cọc Sáu, mỏ than lâu đời và có độ sâu nhất Việt Nam. Theo mô hình đơn giản, mỏ than là một giếng có độ sâu 300m so với mặt đất. Tại mặt đất áp suất của khí quyển là $p_0 = 1 atm$ và nhiệt độ $23^\\circ C$. Áp suất khí quyển ở vị trí thấp nhất của mỏ bằng bao nhiêu?\nChú ý: khi xét sự thay đổi áp suất theo chiều cao không quá lớn thì có thể giả thiết rằng gia tốc trọng trường và nhiệt độ môi trường thay đổi không đáng kể. Nếu chọn mốc tính là mặt đất thì công thức khí áp có thể được biểu diễn lại dưới dạng:\n\n              $p = p_0 e^{\\frac{-Mgh}{RT}}$\n\nTrong đó, $p$ và $p_0$ lần lượt là áp suất tại vị trí $h$ so với mốc tính ở mặt đất và áp suất khí quyển tại mặt đất. Áp suất tại đáy mỏ là (1) ____ ($atm$) (làm tròn đến chữ số thứ 4 sau dấu phẩy).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "1,0353",
+                                    "1.0353"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Chuẩn hóa hệ đơn vị: $M = 0,029 \\text{ kg/mol}$; $T = 23 + 273 = 296 \\text{ K}$; $h = -300 \\text{ m}$. (vì thấp hơn mặt đất 300m, lấy mặt đất làm mốc $h=0$)\nThay vào công thức số mũ:\n$x = \\dfrac{Mgh}{RT} = \\dfrac{-0,029 \\cdot 9,8 \\cdot (-300)}{8,31 \\cdot 296} \\approx 0,03466$.\nTính áp suất $p$:\n$p = p_0 e^x = 1 \\cdot e^{0,03466} \\approx 1,035269 \\text{ atm}$.\nLàm tròn đến 4 chữ số thập phân, ta được **1,0353**.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "3f133379-3e5e-46db-9740-3b660555979c",
+                        "parent_id": "389d86ae-166b-4ca1-aec0-51253bd440fd",
+                        "position": 5,
+                        "content": "Giả sử rằng không khí có thành phần cấu tạo chủ yếu gồm 80% $N_2$ và 20% $O_2$ với khối lượng mol trung bình bằng $29 g/mol$.\nGiá trị chỉ số đoạn nhiệt của không khí $\\gamma$ bằng (1) ____ và độ giảm nhiệt độ theo chiều cao bằng (2) ____ $^\\circ C/km$.\nChú ý: Áp dụng công thức khí áp và phương trình đoạn nhiệt trong quá trình giãn nở của không khí cho trong bài dẫn để xác định độ giảm nhiệt độ theo chiều cao thông qua tỷ số $\\dfrac{\\Delta T}{\\Delta h}$. (Kết quả lấy làm tròn 1 chữ số sau dấu \",\" của kết quả).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "1,4",
+                                    "1.4"
+                                ],
+                                [
+                                    "9,8",
+                                    "9.8"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"1) Tính $\\gamma$:\nKhông khí gồm $N_2, O_2$ (khí lưỡng nguyên tử, $i = 5$) $\\Rightarrow \\gamma = \\dfrac{5+2}{5} = 1,4$. Điền 1,4 vào ô (1).\r\n\r\n\r\nĐộ giảm nhiệt độ $\\left|\\dfrac{\\Delta T}{\\Delta h}\\right|$:\r\nKết hợp hai phương trình từ đoạn [2] và [3]:\r\n$\\dfrac{1}{p} \\dfrac{\\Delta p}{\\Delta h} = \\dfrac{\\gamma}{\\gamma - 1} \\dfrac{1}{T} \\dfrac{\\Delta T}{\\Delta h}$ và $\\dfrac{1}{p} \\dfrac{\\Delta p}{\\Delta h} = - \\dfrac{Mg}{RT}$\r\nĐồng nhất 2 biểu thức $\\Rightarrow \\dfrac{\\Delta T}{\\Delta h} = - \\dfrac{\\gamma - 1}{\\gamma} \\dfrac{Mg}{R}$.\r\nLấy độ lớn:\r\n$\\left|\\dfrac{\\Delta T}{\\Delta h}\\right| = \\dfrac{1,4 - 1}{1,4} \\cdot \\dfrac{0,029 \\cdot 9,8}{8,31} \\approx 0,00977 \\text{ K/m}$.\r\nQuy đổi đơn vị: $0,00977 \\text{ K/m} = 9,77 \\text{ }^\\circ C/\\text{km}$.\r\nLàm tròn 1 chữ số thập phân, ta được **9,8**. Điền vào ô (2).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "48e45fe8-96bb-4254-81a4-7f32edaf57fd",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 6,
+                "content": "**CHẾ TẠO PIN ĐIỆN TỪ QUẢ CHANH**\n        Vị chua trong chanh gây ra chủ yếu bởi axit xitric, tạo ra môi trường điện li có độ pH vào khoảng 2 – 3. Dựa trên đặc tính này, ta có thể chế tạo một pin điện hóa học đơn giản. Cấu tạo của pin gồm một nửa quả chanh mọng nước, cắm vào đó một chiếc đinh sắt (đóng vai trò điện cực âm - Anot) và một đoạn dây đồng (đóng vai trò điện cực dương - Catot), dùng kẹp và dây điện để nối các điện cực ra mạch ngoài.\n$/image_{https://zpi.cx/b/mvhHR.png?dl=1}_{left}_{50}_{block}$\n       Khi nối hai đầu cực tạo thành mạch điện kín, các quá trình oxy hóa - khử xảy ra như sau:\n              - Tại đinh sắt (cực âm): Sắt bị oxy hóa và tan vào dung dịch, $Fe \\rightarrow Fe^{2+} + 2e^-$\n              - Tại dây đồng (cực dương): Ion $H^+$ trong dung dịch axit nhận electron tạo thành khí, $2H^+ + 2e^- \\rightarrow H_2 \\uparrow$\n              - Phản ứng tổng quát trong pin: $Fe + 2H^+ \\rightarrow Fe^{2+} + H_2 \\uparrow$\n       Dòng electron sinh ra sẽ di chuyển qua dây dẫn mạch ngoài từ đinh sắt sang dây đồng, tạo thành dòng điện một chiều (DC).\nMột học sinh thực hiện chế tạo pin điện như trên. Sử dụng một vôn kế (điện trở vô cùng lớn) và một ampe kế (điện trở vô cùng nhỏ), học sinh này tiến hành 3 thí nghiệm:\n       - Thí nghiệm 1: Mắc hai đầu A (âm), B (dương) trực tiếp vào vôn kế. Số chỉ của vôn kế là 0,39 V (đây chính là suất điện động của pin).\n$/image_{https://zpi.cx/b/3HMgDW.png?dl=1}_{left}_{50}_{block}$\n       - Thí nghiệm 2: Mắc hai đầu A, B nối tiếp với một bóng đèn sợi đốt rất nhỏ.\n$/image_{https://zpi.cx/b/Yr1hNg.png?dl=1}_{left}_{50}_{block}$\n       - Thí nghiệm 3: Mắc hai đầu A, B với một đoạn mạch gồm một tụ điện nối tiếp với ampe kế. Sau đó mắc vôn kế song song với tụ điện. (Tụ điện cấu tạo gồm hai bản kim loại song song, ngăn cách bởi nhựa cách điện).\n$/image_{https://zpi.cx/b/rRtLiy.png?dl=1}_{left}_{50}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:18:47.942711+07:00",
+                "questions": [
+                    {
+                        "id": "216841ff-8e8b-448d-acc4-0a3b955b58b9",
+                        "parent_id": "48e45fe8-96bb-4254-81a4-7f32edaf57fd",
+                        "position": 1,
+                        "content": "Hiện tượng nào KHÔNG xảy ra ở thí nghiệm 2?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đinh sắt bị mòn đi."
+                                },
+                                {
+                                    "content": "Có bọt khí rất nhỏ xuất hiện ở dây đồng."
+                                },
+                                {
+                                    "content": "Dây đồng bị mòn đi."
+                                },
+                                {
+                                    "content": "Đèn sáng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Trong hệ pin điện hóa Fe-Cu, thanh đồng (Cu) chỉ đóng vai trò là điện cực dẫn điện trơ để các ion $H^+$ đến nhận electron tạo thành bọt khí hydro ($H_2$). Đồng không tham gia vào phản ứng oxy hóa và không bị tan ra. Do đó, hiện tượng 'Dây đồng bị mòn đi' là không xảy ra. Đáp án C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "8037d449-924e-411d-ae00-7a4fb6050916",
+                        "parent_id": "48e45fe8-96bb-4254-81a4-7f32edaf57fd",
+                        "position": 2,
+                        "content": "Trong thí nghiệm 3 quan sát thấy:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Vôn kế chỉ số 0."
+                                },
+                                {
+                                    "content": "Dây đồng dần bị mòn."
+                                },
+                                {
+                                    "content": "Bọt khí rất nhỏ xuất hiện tại dây đồng."
+                                },
+                                {
+                                    "content": "Ampe kế chỉ số 0."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Tụ điện có lớp điện môi cách điện ở giữa nên nó có tác dụng cản trở hoàn toàn dòng điện một chiều (DC). Khi mắc tụ điện nối tiếp vào mạch pin quả chanh (nguồn DC), mạch bị hở, không có dòng điện chạy qua mạch chính ($I = 0$). Do đó, ampe kế chỉ số 0. Vì không có dòng điện, phản ứng hóa học không xảy ra (không có bọt khí, không mòn điện cực), còn vôn kế (đo điện áp hai đầu tụ) sẽ chỉ bằng suất điện động của pin (0,39V). Đáp án D.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "96ee3457-1603-4629-91fe-b6244551f620",
+                        "parent_id": "48e45fe8-96bb-4254-81a4-7f32edaf57fd",
+                        "position": 3,
+                        "content": "Trong các mệnh đề sau, mệnh đề nào đúng hoặc sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Điện thế của dây đồng cao hơn điện thế của đinh sắt."
+                                },
+                                {
+                                    "content": "Trong quá trình pin hoạt động, lượng axit trong quả chanh giảm đi."
+                                },
+                                {
+                                    "content": "Dòng điện do pin sinh ra là dòng một chiều."
+                                },
+                                {
+                                    "content": "Khi pin hoạt động, dòng electron đi từ chiếc đinh sắt sang dây đồng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Tất cả các mệnh đề đều Đúng:\n\r\n\r\n- a) Đúng. Dây đồng là cực dương (+) nên có điện thế cao hơn đinh sắt là cực âm (-).\r\n- b) Đúng. Theo phương trình $2H^+ + 2e^- \\rightarrow H_2$, ion $H^+$ (axit) liên tục bị tiêu hao để tạo khí.\r\n- c) Đúng. Pin điện hóa học luôn cung cấp dòng điện không đổi (dòng một chiều - DC).\r\n- d) Đúng. Electron sinh ra ở cực âm (Fe) và di chuyển qua dây dẫn mạch ngoài đến cực dương (Cu).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "90b9730a-9875-4412-af0f-b409c291ed27",
+                        "parent_id": "48e45fe8-96bb-4254-81a4-7f32edaf57fd",
+                        "position": 4,
+                        "content": "Điền dấu thích hợp vào chỗ trống ($\u003e, \u003c, =$):\nNếu thay đinh sắt bằng một miếng kẽm, sau đó thực hiện thí nghiệm 1. Số chỉ vôn kế lúc này là U vôn. Vậy U (1) ____ 0,39V.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "\u003e"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Kẽm (Zn) có tính khử mạnh hơn Sắt (Fe), do đó khoảng cách về thế điện cực chuẩn giữa Zn và Cu lớn hơn khoảng cách giữa Fe và Cu. Khi thay cực âm thành Zn, suất điện động của pin điện hóa Zn-Cu tạo ra sẽ lớn hơn suất điện động của pin Fe-Cu. Do đó $U \u003e 0,39V$. Điền dấu \u003e.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "92a8558a-c594-427e-84c8-da523cf3d6a6",
+                        "parent_id": "48e45fe8-96bb-4254-81a4-7f32edaf57fd",
+                        "position": 5,
+                        "content": "Điền số thích hợp vào ô đáp án:\nBạn học sinh trên muốn dùng pin quả chanh để làm sáng một bóng đèn có ghi 1,5V – 3W. Bạn đó mắc nối tiếp nhiều pin quả chanh để tạo bộ nguồn, sau đó nối với mạch điện gồm bóng đèn ở trên và một biến trở. Điều chỉnh biến trở để đèn trên sáng bình thường. Bạn cần dùng tối thiểu bao nhiêu pin quả chanh như trên mắc nối tiếp?\nĐáp án: (1) ____",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "4"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo thí nghiệm 1, mỗi pin quả chanh (1 cell) cung cấp suất điện động $e = 0,39 V$.\nKhi mắc nối tiếp $n$ quả chanh, suất điện động của bộ nguồn là: $E_{bộ} = n \\cdot e = n \\cdot 0,39$.\r\nĐể bóng đèn (định mức 1,5V) sáng bình thường trong một mạch kín có chứa thêm biến trở, hiệu điện thế của bộ nguồn sinh ra phải lớn hơn hoặc bằng điện áp định mức của đèn:\r\n$E_{bộ} \\ge U_{đèn} \\Rightarrow n \\cdot 0,39 \\ge 1,5 \\Rightarrow n \\ge \\dfrac{1,5}{0,39} \\approx 3,84$.\r\nVì $n$ phải là số nguyên, số lượng pin quả chanh tối thiểu cần dùng là 4 quả. Điền 4.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "107c655b-ff4e-4f02-82c7-f65db515cb28",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 7,
+                "content": "**TỔNG HỢP VÀ BẢO QUẢN ASPIRIN**\n       Aspirin (axit acetylsalicylic) là dược phẩm phổ biến có tác dụng giảm đau, hạ sốt, được phát triển nhằm khắc phục nhược điểm của tiền chất axit salicylic. Dù có hoạt tính y dược cao, phân tử axit salicylic chứa nhóm chức phenol (nhóm $-OH$ đính trực tiếp vào vòng benzen) gây tính axit cục bộ, dẫn đến tác dụng phụ là ăn mòn và gây loét niêm mạc dạ dày.\n$/image_{https://zpi.cx/b/uhMzag.png?dl=1}_{center}_{50}_{block}$\n*(Hình 1 Cấu tạo của Aspirin)*\n\n       Năm 1897, phản ứng acetyl hóa được ứng dụng để chuyển hóa nhóm $-OH$ phenol này thành nhóm este, tạo ra cấu trúc aspirin ít kích ứng hơn nhưng vẫn duy trì hiệu quả sinh học. Phản ứng tổng quát diễn ra như sau:\n\n       $C_6H_4(OH)COOH + (CH_3CO)_2O \\xrightarrow{H_2SO_4, t^o} C_6H_4(OCOCH_3)COOH + CH_3COOH$\n\n**Bảng đặc tính vật lý so sánh:**\n$/image_{https://zpi.cx/b/dSdyX.png?dl=1}_{center}_{100}_{block}$\n\n       Aspirin thành phẩm đòi hỏi điều kiện bảo quản khắt khe. Do liên kết este kém bền về mặt nhiệt động học, trong môi trường không khí ẩm, phân tử dễ trải qua quá trình thủy phân chậm, phân cắt ngược trở lại thành axit salicylic và axit axetic. Sự hiện diện của mùi giấm chua đặc trưng trong lọ thuốc là chỉ báo trực quan cho thấy phản ứng phân hủy đã xảy ra, làm suy giảm hàm lượng hoạt chất và tăng độc tính do tái sinh nhóm phenol.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-22T14:46:58.614608+07:00",
+                "questions": [
+                    {
+                        "id": "078460be-b216-4394-a8dd-4a9f716941c3",
+                        "parent_id": "107c655b-ff4e-4f02-82c7-f65db515cb28",
+                        "position": 1,
+                        "content": "Dựa vào bản chất cấu tạo hóa học mô tả trong ngữ liệu, mục đích cốt lõi của việc chuyển hóa Axit Salicylic thành Aspirin là gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Biến đổi nhóm cacboxyl ($-COOH$) thành este để triệt tiêu hoàn toàn tính axit của phân tử."
+                                },
+                                {
+                                    "content": "Che chắn nhóm chức phenol bằng liên kết este nhằm giảm thiểu tác động ăn mòn niêm mạc dạ dày."
+                                },
+                                {
+                                    "content": "Gắn thêm gốc hydrocarbon để làm giảm nhiệt độ nóng chảy, giúp thuốc hấp thu ngay ở nhiệt độ cơ thể."
+                                },
+                                {
+                                    "content": "Gia tăng khối lượng phân tử và tăng độ phân cực để thuốc có thể tan vô hạn trong dịch vị."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- B Đúng. Đoạn [1] và [2] nêu rõ việc acetyl hóa biến nhóm $-OH$ phenol (gây loét dạ dày) thành nhóm este ít kích ứng hơn.\n\r\n\r\n- A Sai vì nhóm $-COOH$ vẫn giữ nguyên trong phân tử Aspirin (phản ứng chỉ thế vào nhóm $-OH$).\r\n- C Sai vì $T_{nc}$ của Aspirin là $135^\\circ\\text{C}$, vẫn cao hơn rất nhiều so với thân nhiệt.\r\n- D Sai vì bảng dữ liệu chỉ rõ độ tan của Aspirin vẫn ở mức 'Thấp (3 g/L)'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "482c204d-46d8-4114-857f-bd12c8e9e250",
+                        "parent_id": "107c655b-ff4e-4f02-82c7-f65db515cb28",
+                        "position": 2,
+                        "content": "Xét về mặt cơ chế, phản ứng điều chế Aspirin từ Axit Salicylic và Anhidrit Axetic thuộc loại phản ứng nào sau đây?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Phản ứng thế ái lực điện tử vào nhân thơm benzen."
+                                },
+                                {
+                                    "content": "Phản ứng este hóa truyền thống giữa một axit cacboxylic và một ancol."
+                                },
+                                {
+                                    "content": "Phản ứng acetyl hóa thế nguyên tử H của nhóm chức hydroxyl thơm."
+                                },
+                                {
+                                    "content": "Phản ứng cộng ngưng tụ loại nước nội phân tử."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào phương trình đoạn [2]: Nhóm $-OH$ gắn trên vòng benzen (phenol) bị thay thế nguyên tử $H$ bởi gốc acetyl ($-COCH_3$) từ anhidrit axetic để tạo thành este. Đây là phản ứng acetyl hóa (este hóa vòng phenol). Phương án B sai nhiễu vì đây không phải este hóa 'truyền thống' sinh ra nước (sản phẩm phụ ở đây là axit axetic).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "bfa3985b-bd36-47cb-b50d-54b77b40de85",
+                        "parent_id": "107c655b-ff4e-4f02-82c7-f65db515cb28",
+                        "position": 3,
+                        "content": "Điền các từ thích hợp vào chỗ trống:\n\"Sự biến chất của Aspirin khi bảo quản sai cách là do nhóm chức (1) ____ trong phân tử tương tác với hơi ẩm sinh ra phản ứng (2) ____. Quá trình này giải phóng axit axetic, nguyên nhân trực tiếp gây ra mùi chua trong lọ thuốc.\"",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "este",
+                                    "ester"
+                                ],
+                                [
+                                    "thủy phân"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [4]: 'liên kết este kém bền... phân tử dễ trải qua quá trình thủy phân chậm, phân cắt ngược trở lại thành axit salicylic và axit axetic'. Từ cần điền là este và thủy phân.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "9b90518b-06c1-4d33-b64c-0ea7a174a627",
+                        "parent_id": "107c655b-ff4e-4f02-82c7-f65db515cb28",
+                        "position": 4,
+                        "content": "Dựa vào thông số và cấu trúc, các phát biểu sau đây là Đúng hay Sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Sự giảm nhiệt độ nóng chảy của Aspirin so với Axit Salicylic chứng tỏ cấu trúc tinh thể của nó kém bền vững hơn do mất đi một vị trí có khả năng tạo liên kết hydro liên phân tử."
+                                },
+                                {
+                                    "content": "Phản ứng phân hủy Aspirin trong tự nhiên sinh ra 2 sản phẩm đều có khả năng làm quỳ tím hóa đỏ rõ rệt."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "\"- a) Đúng. Axit Salicylic có nhóm $-OH$ phenol tự do tạo được liên kết hydro mạnh giữa các phân tử. Khi chuyển thành este (Aspirin), nhóm $-OH$ này mất đi, lực tương tác liên phân tử yếu hơn, dẫn đến $T_{nc}$ giảm.\n\r\n\r\n- b) Sai. Phản ứng phân hủy tạo Axit Salicylic và Axit Axetic. Axit Axetic làm đỏ quỳ tím, nhưng Axit Salicylic có tính axit yếu (chủ yếu do nhóm phenol bị cản trở không gian) không đủ mạnh để làm đỏ quỳ rõ rệt như axit cacboxylic thông thường.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "3f9549ef-be02-43a1-b3d1-8c03fec0b95e",
+                        "parent_id": "107c655b-ff4e-4f02-82c7-f65db515cb28",
+                        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                        "position": 5,
+                        "content": "Giả sử hiệu suất của quá trình tổng hợp Aspirin theo phương trình đoạn [2] đạt 80%. Để sản xuất được một lô thuốc chứa exacly **50 gam** Aspirin ($C_9H_8O_4$) nguyên chất, khối lượng Axit Salicylic ($C_7H_6O_3$) tối thiểu cần đưa vào lò phản ứng là bao nhiêu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "38,33 gam"
+                                },
+                                {
+                                    "content": "30,67 gam"
+                                },
+                                {
+                                    "content": "47,92 gam"
+                                },
+                                {
+                                    "content": "62,50 gam"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\" Số mol Aspirin cần thu: $n = \\dfrac{50}{180} = \\dfrac{5}{18} \\text{ mol}$.\n Tỉ lệ phản ứng 1:1 $\\Rightarrow$ Số mol Axit Salicylic lý thuyết: $n_{LT} = \\dfrac{5}{18} \\text{ mol}$.\r\n Khối lượng Axit Salicylic lý thuyết: $m_{LT} = \\dfrac{5}{18} \\cdot 138 = 38,33 \\text{ gam}$.\r\n Do hiệu suất 80% (chất tham gia cần dùng dôi dư lên): $m_{TT} = \\dfrac{38,33}{0,80} = 47,916 \\text{ gam}$. Chọn C.\"\r\n \r\n Dưới đây là phần chuyển biên ngữ liệu được tóm gọn súc tích, nâng cao độ phân loại của các câu hỏi (gây nhiễu mạnh) và định dạng chuẩn xác theo yêu cầu của bạn:",
+                        "option_columns": 4,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-22T14:45:14.64544+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "20c4f259-d3d1-4920-9a4a-7b72f9910b26",
+                "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+                "position": 8,
+                "content": "**SINH LÝ THẬN VÀ SỰ CÂN BẰNG NƯỚC - ĐIỆN GIẢI**\n       Thận đóng vai trò sinh tử trong việc duy trì cân bằng nội môi bằng cách đào thải chất thải (ure, creatinine, axit uric) và điều hòa nghiêm ngặt lượng nước, chất điện giải. Thận kiểm soát độc lập việc bài tiết nước và các ion như $Na^+$, $K^+$, $H^+$ thông qua sự thay đổi ở hệ thống ống thận. Ngoài ra, cơ quan này còn tiết ra các hormone quan trọng như renin (huyết động), erythropoietin (tạo hồng cầu) và calcitriol (chuyển hóa canxi).\n\n       Hành trình của nước liên quan mật thiết đến hệ tiêu hóa, trong đó ruột già là chốt chặn quan trọng hấp thu phần lớn lượng nước qua thành ruột nhờ chênh lệch áp suất thẩm thấu. Nước vào máu, đến động mạch thận và đi vào các nephron (đơn vị lọc). Tại tế bào chính của ống góp, hormone chống bài niệu kích hoạt sự dịch chuyển của các protein màng *aquaporin*, mở \"kênh\" thụ động cho phép nước tái hấp thu vào hệ thống vasa recta. Nước tiểu sau đó hội tụ về đài thận, bể thận và được đẩy xuống niệu quản bằng các làn sóng nhu động.\n\n       Về phân bố, 2/3 lượng nước cơ thể nằm ở dịch nội bào (ưu thế ion $K^+$ và $PO_4^{3-}$), 1/3 nằm ở dịch ngoại bào (ưu thế $NaCl$). Quy luật cốt lõi là \"nước đi theo natri\": nước dịch chuyển thụ động theo gradient nồng độ ion natri. Để duy trì gradient này, tế bào sử dụng Bơm Natri-Kali (Hình 1) tiêu tốn ATP để chủ động đẩy $Na^+$ ra ngoài và kéo $K^+$ vào trong.\n*(Hình 1: Mô hình Bơm Natri-Kali trên màng tế bào. Bơm sử dụng năng lượng ATP để đẩy 3 ion $Na^+$ ra ngoài tế bào và đưa 2 ion $K^+$ vào bên trong tế bào)*\n$/image_{https://zpi.cx/b/M4E5iF.png?dl=1}_{center}_{100}_{block}$\n\n       Thận cũng là lõi của hệ đệm axit-bazơ bằng cách tái hấp thu $HCO_3^-$ và bài tiết proton $H^+$ ở ống lượn xa. Trong thực hành cấp cứu tiền viện (EMS), dấu hiệu thiểu niệu (oliguria) là một chỉ điểm lâm sàng cấp bách, thường báo hiệu tình trạng sốc giảm thể tích tuần hoàn cần bù dịch khẩn cấp.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-21T23:15:33.454628+07:00",
+                "updated_at": "2026-02-21T23:15:33.454628+07:00",
+                "questions": [
+                    {
+                        "id": "7216ccf4-440e-473b-addd-db6a98ca0639",
+                        "parent_id": "20c4f259-d3d1-4920-9a4a-7b72f9910b26",
+                        "position": 1,
+                        "content": "Bệnh lý nào sau đây thể hiện sự rối loạn chức năng được kiểm soát **trực tiếp** bởi lớp nội mô của mạch máu hệ tuần hoàn, chứ **không** phải do cơ chế nội tiết hay khả năng lọc của thận?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Mất khả năng tái hấp thu nước ở ống góp do thiếu hụt aquaporin."
+                                },
+                                {
+                                    "content": "Rối loạn quá trình đông máu và tắc nghẽn dòng máu cục bộ."
+                                },
+                                {
+                                    "content": "Thiểu niệu cấp tính do giảm thể tích máu tuần hoàn."
+                                },
+                                {
+                                    "content": "Mất cân bằng độ pH máu do giảm khả năng bài tiết proton $H^+$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Việc điều hòa dòng máu và quá trình đông máu là chức năng trực tiếp của hệ thống mạch máu (lớp nội mô). Trong khi đó, tái hấp thu nước (A), tình trạng thiểu niệu do giảm thể tích (C) và cân bằng pH bằng $H^+$ (D) đều liên quan mật thiết đến cấu trúc mô thận và các hormone của thận điều phối hệ thống bài tiết.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "aee6da52-e802-4f23-9272-d63bf70fe1dd",
+                        "parent_id": "20c4f259-d3d1-4920-9a4a-7b72f9910b26",
+                        "position": 2,
+                        "content": "Dựa vào cơ chế sinh lý mô tả trong ngữ liệu, các phát biểu sau đây là Đúng hay Sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Ruột non là cơ quan duy nhất trong hệ tiêu hóa chịu trách nhiệm hấp thu nước dựa trên chênh lệch thẩm thấu."
+                                },
+                                {
+                                    "content": "Aquaporin là các bơm vận chuyển chủ động, tiêu tốn năng lượng ATP để bơm nước ngược chiều gradient nồng độ tại ống góp."
+                                },
+                                {
+                                    "content": "Bơm Natri-Kali (Hình 1) hoạt động chủ động giúp duy trì nồng độ $Na^+$ cao ở dịch ngoại bào, qua đó gián tiếp định hướng sự di chuyển thẩm thấu của nước."
+                                },
+                                {
+                                    "content": "Tại môi trường nội bào, nồng độ ion Kali ($K^+$) và Phốt phát ($PO_4^{3-}$) chiếm ưu thế áp đảo so với ion Natri ($Na^+$)."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai. Đoạn [2] chỉ rõ 'ruột già là chốt chặn quan trọng hấp thu phần lớn lượng nước'.\n\r\n\r\n- b) Sai. Aquaporin chỉ đóng vai trò là các 'kênh' (protein màng) cho phép nước đi qua thụ động (thẩm thấu), không phải bơm chủ động tiêu tốn ATP.\r\n- c) Đúng. Bơm Na-K tạo gradient nồng độ ($Na^+$ ở ngoài cao hơn). Nguyên tắc 'nước đi theo natri' (đoạn 3) làm nước có xu hướng di chuyển về phía khoang có nồng độ natri cao.\r\n- d) Đúng. Đoạn [3] xác nhận dịch nội bào chứa ưu thế các ion $K^+$ và $PO_4^{3-}$.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "03d9fb64-efb7-44e2-933a-98aba7d117d2",
+                        "parent_id": "20c4f259-d3d1-4920-9a4a-7b72f9910b26",
+                        "position": 3,
+                        "content": "Kéo thả các cấu trúc giải phẫu vào vị trí thích hợp để mô tả đúng con đường đi của chất lỏng trong quá trình hình thành và bài tiết nước tiểu:\nNước tiểu sau khi được lọc và điều chỉnh nồng độ tại hệ thống (1) ____ sẽ bắt đầu được tập trung tại các (2) ____. Từ đây, chất lỏng tiếp tục đổ vào đài thận lớn, hội tụ tại (3) ____ trước khi được đẩy thẳng xuống (4) ____ nhờ các làn sóng co bóp cơ trơn (nhu động).",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "Ống góp",
+                                "Đài thận nhỏ",
+                                "Bể thận",
+                                "Niệu quản"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào đoạn [2], trình tự dòng chảy của nước tiểu sau khi rời khỏi vị trí tái hấp thu cuối cùng là: Ống góp $\\rightarrow$ Đài thận nhỏ $\\rightarrow$ Đài thận lớn $\\rightarrow$ Bể thận $\\rightarrow$ Niệu quản.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "d23e42cc-a17a-43ed-ac1d-06efc79dcbc8",
+                        "parent_id": "20c4f259-d3d1-4920-9a4a-7b72f9910b26",
+                        "position": 4,
+                        "content": "Điền từ/cụm từ hóa học thích hợp vào chỗ trống:\nTại hệ thống ống lượn xa, để khắc phục tình trạng cơ thể đang bị nhiễm toan (máu tích tụ quá nhiều axit), thận sẽ lập tức thực hiện cơ chế bù trừ bằng cách tăng cường tái hấp thu ion (1) ____ vào máu để trung hòa, đồng thời tăng cường bài tiết ion (2) ____ ra ngoài theo đường nước tiểu.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "bicarbonate",
+                                    "HCO3-"
+                                ],
+                                [
+                                    "H+",
+                                    "hydro",
+                                    "proton hydro"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [4], hệ đệm axit-bazơ của thận hoạt động dựa trên 2 ion cốt lõi. Khi dư thừa axit, cơ thể cần giữ lại chất mang tính bazơ (ion bicarbonate $HCO_3^-$) và thải bỏ nguyên nhân gây axit (ion $H^+$ hoặc proton hydro).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    },
+                    {
+                        "id": "cd8434dd-112c-4caf-b34e-a81d43a3940d",
+                        "parent_id": "20c4f259-d3d1-4920-9a4a-7b72f9910b26",
+                        "position": 5,
+                        "content": "Trong bối cảnh cấp cứu tiền viện (EMS), một bệnh nhân bị đa chấn thương mất máu nghiêm trọng. Dấu hiệu lâm sàng nào liên quan mật thiết đến chức năng thận là chỉ điểm trực tiếp, sớm nhất cho tình trạng sốc giảm thể tích tuần hoàn đang diễn ra?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nồng độ hormone calcitriol (1,25-dihydroxyvitamin D3) trong máu giảm sâu."
+                                },
+                                {
+                                    "content": "Bệnh nhân có biểu hiện thiểu niệu (oliguria) hoặc vô niệu."
+                                },
+                                {
+                                    "content": "Mức độ hoạt động của các kênh Aquaporin ở ống góp tăng đột biến."
+                                },
+                                {
+                                    "content": "Lượng ure và axit uric bài tiết qua nước tiểu tăng vọt."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [4] khẳng định rõ: 'Trong thực hành cấp cứu tiền viện (EMS), dấu hiệu thiểu niệu (oliguria) là một chỉ điểm lâm sàng cấp bách, thường báo hiệu tình trạng sốc giảm thể tích tuần hoàn'. Khi mất máu, cơ thể ưu tiên giữ nước tối đa, dẫn đến thận ngừng hoặc giảm mạnh việc sản xuất nước tiểu (thiểu niệu).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-21T23:15:33.454628+07:00",
+                        "updated_at": "2026-02-21T23:15:33.454628+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "89c19ac6-f113-47c6-9e79-a2b8aac9095b",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "f73cca3e-27ad-4ab4-80a7-0930e750d647",
+        "status": "in_progress",
+        "created_at": "2026-03-13T22:28:34.323763+07:00",
+        "updated_at": "2026-03-13T22:28:34.323762+07:00",
+        "submited_at": "2026-03-13T22:28:34.323763+07:00"
+    }
+}

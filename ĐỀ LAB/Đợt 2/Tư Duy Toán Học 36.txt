@@ -1,0 +1,1363 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+        "title": "Tư Duy Toán Học 36",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": false,
+        "image_url": "a",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2025-12-28T09:11:39.728328+07:00",
+        "updated_at": "2026-01-06T21:14:53.036429+07:00",
+        "questions": [
+            {
+                "id": "3436d3a6-0553-424b-a77d-2495f38a2492",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "\nXét phương trình $\\displaystyle {\\rm{cos}}x + 4{\\rm{sin}}x = 2 + {\\rm{sin}}2x$ (1).\n\nVới $\\displaystyle {x_0}$ là nghiệm của phương trình $(1)$, biểu thức $\\displaystyle 4{\\rm{co}}{{\\rm{s}}^2}{x_0} - 1$ có giá trị bằng ____\n\nPhương trình $(1)$ có ____ nghiệm thuộc khoảng $\\displaystyle \\left( { - \\frac{\\pi }{2};\\frac{\\pi }{2}} \\right)$.\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "items": [
+                        "$\\displaystyle 1$",
+                        "$\\displaystyle 2$",
+                        "$\\displaystyle 3$",
+                        "$\\displaystyle 6$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        0
+                    ]
+                },
+                "answer_detail": "$\\cos x + 4\\sin x = 2 + \\sin 2x \\Leftrightarrow c + 4s - 2 - 2sc = 0$ (đặt $s=\\sin x$, $c=\\cos x$)\n\n$\\Leftrightarrow c(1 - 2s) = 2(1 - 2s)$.\n\nNếu $1 - 2s \\neq 0$ thì $c = 2$ (vô lý). Vậy $1 - 2s = 0 \\Rightarrow \\sin x = 1/2$.\n\n$\\rightarrow$ Với mọi nghiệm $x_0$: $\\cos^2 x_0 = 3/4 \\Rightarrow 4\\cos^2 x_0 - 1 = 2$.\n\nTrong khoảng $(-\\pi/2, \\pi/2)$ chỉ có $x = \\pi/6$ nên số nghiệm là 1.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-10-21T23:51:44.562652+07:00",
+                "updated_at": "2026-01-05T13:31:05.255504+07:00"
+            },
+            {
+                "id": "55ae7ce1-6b59-43c7-bf55-868b4bc5cca5",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Các phát biểu sau đây, những phát biểu nào đúng ?\n",
+                "difficulty": "M3",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 27,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Nếu $f(x)$ liên tục tại $x_0$, $g(x)$ không liên tục tại $x_0$ thì $f(x) + g(x)$ không liên tục tại $x_0$."
+                        },
+                        {
+                            "content": " Nếu $f(x)$ và $g(x)$ cùng không liên tục tại $x_0$ thì $f(x) + g(x)$ không liên tục tại $x_0$."
+                        },
+                        {
+                            "content": "Hàm đa thức, hàm mũ, hàm lượng giác liên tục trên toàn bộ tập số thực $\\mathbb{R}$."
+                        },
+                        {
+                            "content": "Phương trình $f(x) = 5$ luôn có ít nhất 1 nghiệm trên $[-1, 1]$ với $f(x)$ là hàm số liên tục trên $[-1, 1]$ thỏa mãn $f(-1) = 2$ và $f(1) = 7$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        3
+                    ]
+                },
+                "answer_detail": "A: Đúng. Giả sử $f+g$ liên tục. Khi đó $g = (f+g) - f$ là hiệu của 2 hàm liên tục nên cũng liên tục, mâu thuẫn với giả thiết.\n\nVậy $f+g$ phải không liên tục.\n\nB. Sai. Phản ví dụ: Xét hai hàm số đều không liên tục tại $x_0 = 0$:   $f(x) = \\begin{cases} 1, \u0026 x \\ge 0 \\\\ -1, \u0026 x \u003c 0 \\end{cases}$ và $g(x) = \\begin{cases} -1, \u0026 x \\ge 0 \\\\ 1, \u0026 x \u003c 0 \\end{cases}$\nTổng của chúng là $h(x) = f(x) + g(x) = 0$ (với mọi $x$).\n\nHàm $h(x) = 0$ là hàm hằng, liên tục trên toàn bộ $\\mathbb{R}$, do đó nó liên tục tại $x_0 = 0$.\n\nC. Sai. Phát biểu này sai vì không phải tất cả các hàm lượng giác đều liên tục trên $\\mathbb{R}$.\n\nVí dụ: Hàm $y = \\tan x$ không liên tục tại các điểm $x = \\dfrac{\\pi}{2} + k\\pi$, $k \\in \\mathbb{Z}$. \n\nHàm $y = \\cot x$ cũng tương tự.\n\nD: Đúng. Vì $f(x)$ liên tục trên $[-1, 1]$ và giá trị $k=5$ nằm giữa $f(-1)=2$ và $f(1)=7$.Theo Định lý giá trị trung gian, tồn tại $c \\in (-1, 1)$ sao cho $f(c) = 5$.\n\nNếu $f(a)$ ở độ cao 2 và $f(b)$ ở độ cao 7, thì trên đường đi từ $A$ đến $B$, bạn chắc chắn phải đi qua mọi độ cao trung gian, ví dụ như 3, 4, 5, 6. \n\nĐảm bảo rằng tồn tại một điểm $x=c$ nào đó mà đồ thị có độ cao $f(c) = 5$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "9e47a638",
+                "created_at": "2025-11-12T23:48:44.20688+07:00",
+                "updated_at": "2026-01-06T21:14:12.658768+07:00"
+            },
+            {
+                "id": "fdb9773a-4552-4c37-b06f-e31b4df9d676",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": " Cho $ \\displaystyle f(x)$ xác định trên $ \\displaystyle \\mathbb{R}$, với $ \\displaystyle k\\in {{\\mathbb{R}}^{+}}$. Xét tính đúng sai của các mệnh đề:",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$ \\displaystyle \\mathop{\\int }_{-k}^{k}f\\left( x \\right)\\,dx=0\\Rightarrow f$ là hàm lẻ."
+                        },
+                        {
+                            "content": "$ \\displaystyle \\mathop{\\int }_{-k}^{k}f\\left( x \\right)\\,dx=2\\mathop{\\int }_{0}^{k}f\\left( x \\right)\\,dx\\Rightarrow f$ là hàm chẵn."
+                        },
+                        {
+                            "content": "Nếu $ \\displaystyle f$ là hàm chẵn thì $ \\displaystyle \\mathop{\\int }_{-k}^{k}f\\left( x \\right)\\,dx=2\\mathop{\\int }_{0}^{k}f\\left( x \\right)\\,dx.$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "***Mệnh đề I: Sai. ***\n\nMột hàm có tích phân trên đoạn đối xứng bằng 0 không nhất thiết phải là hàm lẻ\n\n***Mệnh đề II: Sai.***\n\n Đây là mệnh đề đảo của một tính chất đúng, nhưng mệnh đề đảo không phải lúc nào cũng đúng.\n\n***Mệnh đề III: Đúng. ***\n\nĐây là một tính chất cơ bản và luôn đúng của tích phân đối với hàm chẵn.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "3709fdeb",
+                "created_at": "2025-11-19T09:17:08.415144+07:00",
+                "updated_at": "2026-01-05T14:06:33.927627+07:00"
+            },
+            {
+                "id": "ba4a2e3e-044c-44ed-be86-0a3c86f804d4",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Cho hàm đa thức $ \\displaystyle y=f\\left( x \\right)$ thỏa mãn đẳng thức $ \\displaystyle {f}'\\left( x \\right)+\\int f\\left( x \\right)dx={{x}^{3}}+4{{x}^{2}}+6$.\n\n Đặt \\[f(x)=a{{x}^{2}}+bx+c\\] khi đó \\[a=\\] ____\n\n Phương trình \\[f(x)=0\\] có  ____   nghiệm phân biệt\n\n \\[f(2)=\\] ____\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        "22",
+                        "20",
+                        "1",
+                        "3",
+                        "2",
+                        "6"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3,
+                        4,
+                        0
+                    ]
+                },
+                "answer_detail": "Đạo hàm 2 vế đẳng thức: $f''(x) + f(x) = 3x^2 + 8x$. Vì $f(x)$ là đa thức và vế phải bậc 2, nên $f(x) = ax^2+bx+c$.\r\n\r\n$f''(x) = 2a \\Rightarrow (2a) + (ax^2+bx+c) = 3x^2+8x$. Đồng nhất hệ số: $a=3$, $b=8$, $2a+c=0 \\Rightarrow c=-6$.\r\n\r\nVậy $f(x) = 3x^2+8x-6$. Ta có:\r\n\r\n $a = \\textbf{3}$\r\n\r\n $f(x)=0$ có $\\Delta' = 4^2 - 3(-6) = 34 \u003e 0 \\Rightarrow$ có $\\textbf{2}$ nghiệm phân biệt.\r\n\r\n $f(2) = 3(2)^2 + 8(2) - 6 = 12 + 16 - 6 = \\textbf{22}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "c4632e72",
+                "created_at": "2025-11-19T09:17:08.415144+07:00",
+                "updated_at": "2026-01-06T20:23:15.258341+07:00"
+            },
+            {
+                "id": "561a5d7a-8cb1-43bd-b298-49859208e9fd",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": " Cho đồ thị hàm số logarit $y = \\ln x$ được cho như hình. Biết rằng $OA = AB = BC$.\n$/image_{https://zpi.cx/b/QuXLI.png?dl=1}_{left}_{30}_{block}$\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 40,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$a \u003e 1$"
+                        },
+                        {
+                            "content": "$a \\cdot c = b^2$"
+                        },
+                        {
+                            "content": "$c = a^3$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Đặt độ dài đoạn $OA = k$ ($k \u003e 0$).\nTheo hình vẽ và giả thiết $OA=AB=BC$, ta có tung độ (giá trị $y$) tại các điểm $a, b, c$ lần lượt là:\n $\\ln a = k$\n $\\ln b = 2k$\n $\\ln c = 3k$\n\n\n\n$a \u003e 1$: Đúng.\n     Vì $\\ln a = k \u003e 0$ nên $a \u003e 1$.\n$a \\cdot c = b^2$: Đúng.\n     Ta có $\\ln(a \\cdot c) = \\ln a + \\ln c = k + 3k = 4k$.\n     Và $\\ln(b^2) = 2\\ln b = 2(2k) = 4k$.\n     (Đây là tính chất cấp số nhân: $a, b, c$ lập thành cấp số nhân).\n$c = a^3$: Đúng.\n     Ta có $\\ln c = 3k = 3\\ln a = \\ln(a^3) \\Rightarrow c = a^3$.\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "E3F63601",
+                "created_at": "2025-11-25T22:17:49.020575+07:00",
+                "updated_at": "2026-01-05T14:06:33.927627+07:00"
+            },
+            {
+                "id": "32b2ee5c-e46e-461f-864a-65eee129d940",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "***Điền số tự nhiên thích hợp vào chỗ trống:***\nCho dãy số $1, 2, 2, 3, 3, 3, 4, 4, 4, 4, \\dots$ (số $k$ xuất hiện $k$ lần).\n\nSố hạng thứ 200 của dãy là ____\n\nTổng 100 số hạng đầu tiên có giá trị là ____\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "20",
+                        "945"
+                    ]
+                },
+                "answer_detail": "Nhóm 1: Số 1 (có 1 số hạng) $\\rightarrow$ Tổng số lượng số hạng là: $1$. (Vị trí cuối là 1).\n\nNhóm 2: Số 2 (có 2 số hạng) $\\rightarrow$ Tổng số lượng số hạng tích lũy là: $1 + 2 = 3$. (Vị trí cuối là 3).\n\nNhóm 3: Số 3 (có 3 số hạng) $\\rightarrow$ Tổng số lượng số hạng tích lũy là: $1 + 2 + 3 = 6$. (Vị trí cuối là 6)\n**....**\nNhóm $n$: Số $n$ (có $n$ số hạng).\n\nĐể biết vị trí cuối cùng của nhóm $n$  ta phải cộng tất cả số lượng của các nhóm trước nó lại.\n\nTức là: $1 + 2 + 3 + \\dots + n$.Đây là tổng của một cấp số cộng (tổng các số tự nhiên liên tiếp) Nên vị trí cuối cùng của nhóm số $n$ là $\\dfrac{n(n+1)}{2}$.\na: Vị trí cuối cùng của nhóm số $n$ là $\\dfrac{n(n+1)}{2}$.\n\nTa cần tìm $n$ sao cho $\\dfrac{n(n+1)}{2} \\approx 200$. Với $n=19 \\to 190$. Với $n=20 \\to 210$.\n\nSố thứ 200 nằm trong nhóm số 20.\n\n\nb: Tìm $n$ để tổng số lượng số hạng gần 100: $\\dfrac{13 \\times 14}{2} = 91$.\n\nVậy 100 số hạng đầu gồm: toàn bộ các số từ 1 đến 13, và thêm $(100-91)=9$ số 14.\n\nTổng = $\\displaystyle \\sum_{k=1}^{13} (k \\times k) + 9 \\times 14  819 + 126 = 945$.\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T09:31:57.592171+07:00",
+                "updated_at": "2026-01-05T13:30:38.916204+07:00"
+            },
+            {
+                "id": "ba4578b4-0efe-440c-9088-326b2ad0240b",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Số nguyên tố $p$ sao cho $8p^2 + 1$ cũng là số nguyên tố là ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "3"
+                    ]
+                },
+                "answer_detail": "$p=3 \\Rightarrow 8(9)+1 = 73$ (nguyên tố).\r\nVới $p \\ne 3$, $p$ không chia hết cho 3. Suy ra $p^2 \\equiv 1 \\pmod 3$.\r\n$8p^2 + 1 \\equiv 8(1) + 1 = 9 \\vdots 3$. Lớn hơn 3 mà chia hết cho 3 nên là hợp số.\r\nVậy chỉ có $p=3$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T10:03:40.292222+07:00",
+                "updated_at": "2026-01-05T13:42:41.200828+07:00"
+            },
+            {
+                "id": "5423a39f-70d6-4ed9-9810-e2fcd742f389",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "***Điền số tự nhiên thích hợp vào chỗ trống:***\n\nXét quy tắc biến đổi: $T(n) = (\\text{Tổng các chữ số của } n) \\times 2$. Xét dãy $n_1=2025, n_{k+1}=T(n_k)$. \n\nGiá trị của $n_2$ là ____\n\nGiá trị của $n_{10000}$ là ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$n_2$ có giá trị là 18."
+                        },
+                        {
+                            "content": "Trong dãy số này, không có số nào là số lẻ (trừ số đầu tiên)."
+                        },
+                        {
+                            "content": "Dãy số này sẽ bị tuần hoàn (lặp lại) sau một số bước nhất định."
+                        },
+                        {
+                            "content": "Số hạng thứ 2024 của dãy số là 18."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "18",
+                        "18"
+                    ]
+                },
+                "answer_detail": "***Nhận Xét***\n$n_1 = 2025$. Tổng chữ số = 9. $n_2 = 9 \\times 2 = 18$.\n\n$n_2 = 18$. Tổng chữ số = 9. $n_3 = 9 \\times 2 = 18$.\n\nDãy số: $2025, 18, 18, 18, \\dots$. Từ $n_2$ trở đi dãy có giá trị toàn là 18.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T10:03:40.292222+07:00",
+                "updated_at": "2026-01-05T13:30:38.916204+07:00"
+            },
+            {
+                "id": "12d1f4f6-336a-48fa-8019-4e966d5f7f12",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "** Hàm số nào dưới đây không phải là hàm số tuần hoàn?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$y = \\sin(2x)$"
+                        },
+                        {
+                            "content": "$y = \\tan^2 x$"
+                        },
+                        {
+                            "content": "$y = \\cos(\\sqrt{x})$"
+                        },
+                        {
+                            "content": "$y = |\\sin x|$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Các hàm lượng giác cơ bản ($\\sin, \\cos, \\tan, \\cot$) và hàm giá trị tuyệt đối của chúng đều tuần hoàn. Hàm $y = \\cos(\\sqrt{x})$ không tuần hoàn vì tần số dao động thay đổi khi $x$ tăng (khoảng cách giữa các nghiệm không đều nhau).",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-05T13:43:18.070889+07:00"
+            },
+            {
+                "id": "ce467891-ab3a-4524-a7d8-e5906d5103a0",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "** Nếu $\\tan \\alpha$ và $\\tan \\beta$ là hai nghiệm của phương trình $x^2 - px + q = 0$ và $\\cot \\alpha, \\cot \\beta$ là hai nghiệm của phương trình $x^2 - rx + s = 0$. Mối liên hệ giữa $r$ và $s$ theo $p, q$ là:",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$r = p \\cdot s$"
+                        },
+                        {
+                            "content": "$s = p \\cdot r$"
+                        },
+                        {
+                            "content": "$r = q \\cdot s$"
+                        },
+                        {
+                            "content": "$r \\cdot p = s \\cdot q$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Theo Vi-ét: $\\begin{cases} \\tan \\alpha + \\tan \\beta = p \\\\ \\tan \\alpha \\cdot \\tan \\beta = q \\end{cases}$ và $\\begin{cases} \\cot \\alpha + \\cot \\beta = r \\\\ \\cot \\alpha \\cdot \\cot \\beta = s \\end{cases}$.\n\nTa có $s = \\dfrac{1}{\\tan \\alpha} \\cdot \\dfrac{1}{\\tan \\beta} = \\dfrac{1}{q} \\Rightarrow q = \\dfrac{1}{s}$.\n\nTa có $r = \\dfrac{1}{\\tan \\alpha} + \\dfrac{1}{\\tan \\beta} = \\dfrac{\\tan \\alpha + \\tan \\beta}{\\tan \\alpha \\tan \\beta} = \\dfrac{p}{q}$.\n\nThay $q = \\dfrac{1}{s}$ vào $r$: $r = \\dfrac{p}{1/s} = p \\cdot s$.",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-05T13:43:18.070889+07:00"
+            },
+            {
+                "id": "d67cd576-8b50-4fb1-9c69-21a58a08693d",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "** Điều kiện xác định của hàm số $y = \\dfrac{\\tan x}{\\sin x - 1}$ là:",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$x \\ne \\dfrac{\\pi}{2} + k2\\pi$"
+                        },
+                        {
+                            "content": "$x \\ne \\dfrac{\\pi}{2} + k\\pi$"
+                        },
+                        {
+                            "content": "$\\begin{cases} x \\ne \\dfrac{\\pi}{4} + k\\pi \\\\ x \\ne k\\pi \\end{cases}$"
+                        },
+                        {
+                            "content": "$x \\ne \\dfrac{\\pi}{2} + k2\\pi$ hoặc $x \\ne \\dfrac{\\pi}{2} + k\\pi$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Hàm số xác định khi:\n\n\n1. $\\tan x$ xác định $\\Leftrightarrow \\cos x \\ne 0 \\Leftrightarrow x \\ne \\dfrac{\\pi}{2} + k\\pi$.\n2. Mẫu số $\\sin x - 1 \\ne 0 \\Leftrightarrow \\sin x \\ne 1 \\Leftrightarrow x \\ne \\dfrac{\\pi}{2} + k2\\pi$.\nNhận thấy tập nghiệm $\\left \\{ \\dfrac{\\pi}{2} + k2\\pi \\right\\}$ là tập con của $\\left \\{ \\dfrac{\\pi}{2} + k\\pi \\right\\}$. Do đó, chỉ cần điều kiện $x \\ne \\dfrac{\\pi}{2} + k\\pi$ là đủ để thỏa mãn cả hai.",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-05T13:43:18.070889+07:00"
+            },
+            {
+                "id": "bfabca06-4a2b-41b2-89ce-c232dda604ee",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Nếu các số $3, a, b, c$ tạo thành một cấp số cộng, và các số $3, a-1, b+1$ tạo thành một cấp số nhân, thì trung bình cộng của ba số $a, b, c$ là:",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "11."
+                        },
+                        {
+                            "content": "10."
+                        },
+                        {
+                            "content": "9."
+                        },
+                        {
+                            "content": "13."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Gọi $d$ là công sai, trung bình cộng $a, b, c$ là $b = 3+2d$; từ tính chất Cấp số nhân: \n\n$(a-1)^2 = 3(b+1) \\Leftrightarrow (d+2)^2 = 6(d+2)$. \n\nGiải ra $d=4 \\Rightarrow b=11$ (chọn) hoặc $d=-2 \\Rightarrow b=-1$ (loại vì không có đáp án), vậy trung binhf cộng là 11.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T10:28:42.215829+07:00",
+                "updated_at": "2026-01-05T13:44:40.038269+07:00"
+            },
+            {
+                "id": "02db052b-aa5b-4cac-96d4-ccd583b054fe",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Dãy $a_n = (11...1)^2$ ($n$ chữ số 1). Số nào có số dư khi chia cho 9 lớn nhất?\r",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$a_6$"
+                        },
+                        {
+                            "content": "$a_7$"
+                        },
+                        {
+                            "content": "$a_8$"
+                        },
+                        {
+                            "content": "$a_9$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Số dư của $a_n$ cho 9 bằng $( \\sum \\text{chữ số của } 1...1 )^2 \\pmod 9 = n^2 \\pmod 9$. \n\n***Ta có*** \n\n $6^2 \\equiv 0$,    \n\n $7^2=49 \\equiv 4$, \n\n $8^2=64 \\equiv 1$, \n\n $9^2 \\equiv 0$, \n\n$10^2 \\equiv 1$. \n\nMax là 4 ứng với $a_7$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:12:44.892664+07:00",
+                "updated_at": "2026-01-05T13:44:40.038269+07:00"
+            },
+            {
+                "id": "e41f2240-24c9-43dd-87ee-d973cd6b78d8",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Trong các dãy số: \r\nDãy nào là dãy hằng?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$(a_n)=(\\sqrt{5})$,"
+                        },
+                        {
+                            "content": "$(b_n)=(\\sin n\\pi)$,"
+                        },
+                        {
+                            "content": "$(c_n)=(\\cos \\dfrac{n\\pi}{2})$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "I là dãy hằng (số thực). \r\n\r\nII có $\\sin(n\\pi) = 0$ với mọi $n \\in \\mathbb{N}^*$ nên là dãy hằng.\r\n\r\nIII có giá trị thay đổi $\\{0, -1, 0, 1\\}$ tùy theo $n$ nên không hằng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:12:44.892664+07:00",
+                "updated_at": "2026-01-05T13:44:40.038269+07:00"
+            },
+            {
+                "id": "aa17a766-92ae-4a58-a85a-916994c3a694",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 0,
+                "content": "Cho hai số thực dương $a, b$ thỏa mãn $a \u003e b$. Tính giá trị của $\\lim_{n \\to \\infty} \\dfrac{2a^n}{a^n + b^n}$.\r\n***Đáp Án:*** ____ ",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "2"
+                    ]
+                },
+                "answer_detail": "Vì $a \u003e b \u003e 0$ nên $0 \u003c \\dfrac{b}{a} \u003c 1$, dẫn đến $\\lim_{n \\to \\infty} \\left(\\dfrac{b}{a}\\right)^n = 0$.\r\nChia cả tử và mẫu cho $a^n$:\r\n\r\n\r\n$\\lim_{n \\to \\infty} \\dfrac{2}{1 + \\left(\\dfrac{b}{a}\\right)^n} = \\dfrac{2}{1+0} = 2$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T12:12:32.171123+07:00",
+                "updated_at": "2026-01-05T13:44:40.038269+07:00"
+            },
+            {
+                "id": "e4d067c7-93f7-4c4c-bd48-9707de169b9c",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 1,
+                "content": "Cho hàm số $f(x), g(x)$ xác định trên $\\mathbb{R}$ thoả mãn $\\displaystyle \\int_{1}^{3} [2f(x) + g(x)]dx = 6$ và $\\displaystyle \\int_{1}^{3} [f(x) - 3g(x)]dx = 10$.\n\nXét các phát biểu sau:\n\n(i) $\\displaystyle \\int_{1}^{3} f(x)dx = 4$.\n\n(ii) $\\displaystyle \\int_{1}^{3} g(x)dx = 2$.\n\nChọn nhận định đúng.\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "(i) đúng, (ii) sai."
+                        },
+                        {
+                            "content": "(i), (ii) đều đúng."
+                        },
+                        {
+                            "content": "(i), (ii) đều sai."
+                        },
+                        {
+                            "content": "(i) sai, (ii) đúng."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Đặt $I_f = \\int_{1}^{3} f(x)dx$ và $I_g = \\int_{1}^{3} g(x)dx$. Ta có hệ phương trình:\n\n$\\displaystyle \\begin{cases} 2I_f + I_g = 6 \\\\ I_f - 3I_g = 10 \\end{cases} \\Leftrightarrow \\begin{cases} 6I_f + 3I_g = 18 \\\\ I_f - 3I_g = 10 \\end{cases} \\Rightarrow 7I_f = 28 \\Rightarrow I_f = 4$.\n\nThay vào phương trình đầu: $2(4) + I_g = 6 \\Rightarrow I_g = -2$.\n\nVậy (i) đúng và (ii) sai. Đáp án A.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "f1b03a28-faa2-4b9b-a757-d9a898815aa8",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 2,
+                "content": "Đường tiệm cận đứng của đồ thị hàm số $f(x) = \\dfrac{3x - 2}{x - 1}$ là?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$x = 3$."
+                        },
+                        {
+                            "content": "$x = 1$."
+                        },
+                        {
+                            "content": "$y = 3$."
+                        },
+                        {
+                            "content": "$y = 1$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Đường tiệm cận đứng của hàm số phân thức bậc nhất là nghiệm của mẫu số: $x - 1 = 0 \\Rightarrow x = 1$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "e832b9a3-4360-4277-9916-148e692173c9",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 3,
+                "content": "Những hình nào sau đây có ít nhất hai trục đối xứng?\n",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Hình thang cân."
+                        },
+                        {
+                            "content": "Hình thoi."
+                        },
+                        {
+                            "content": "Hình tam giác đều."
+                        },
+                        {
+                            "content": "Hình bình hành."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Hình thang cân chỉ có 1 trục đối xứng.\r\n\r\nHình thoi có 2 trục đối xứng (là hai đường chéo).\r\n\r\nTam giác đều có 3 trục đối xứng (nối đỉnh với trung điểm cạnh đối diện).\r\n\r\nHình bình hành không có trục đối xứng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-29T19:28:55.9814+07:00",
+                "updated_at": "2026-01-06T21:14:12.658768+07:00"
+            },
+            {
+                "id": "c736e3c8-b844-4055-828f-903ddac5b87f",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 3,
+                "content": "Một lớp có 30 học sinh, trong đó có 15 học sinh nam và 15 học sinh nữ. Số cách chọn ra ban cán sự lớp gồm 4 người, trong đó có ít nhất 1 học sinh nữ là?",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$C_{30}^4$."
+                        },
+                        {
+                            "content": "$C_{15}^2 + C_{15}^2$."
+                        },
+                        {
+                            "content": "$C_{15}^3 + 15$."
+                        },
+                        {
+                            "content": "$C_{30}^4 - C_{15}^4$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "- Tổng số cách chọn 4 học sinh từ 30 học sinh là: $C_{30}^4$.\n\n- Số cách chọn 4 học sinh mà không có học sinh nữ nào (tức chọn 4 nam từ 15 nam) là: $C_{15}^4$.\n\n- Số cách chọn có ít nhất 1 học sinh nữ: $C_{30}^4 - C_{15}^4$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "0dde9279-2d07-4603-aae8-c61ed42abf9b",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 4,
+                "content": "Một hình trụ có chiều cao bằng 6. Biết rằng khi cắt hình trụ đã cho bởi một mặt phẳng qua trục, thiết diện thu được là một hình chữ nhật có chu vi bằng 28. Diện tích xung quanh của hình trụ đã cho bằng?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$48\\pi$."
+                        },
+                        {
+                            "content": "$24\\pi$."
+                        },
+                        {
+                            "content": "$96\\pi$."
+                        },
+                        {
+                            "content": "$36\\pi$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Thiết diện qua trục là hình chữ nhật có các cạnh là $2r$ và $h$.\n\nChu vi thiết diện: $2(2r + h) = 28 \\Rightarrow 2r + h = 14$.\n\nVới $h = 6 \\Rightarrow 2r = 14 - 6 = 8 \\Rightarrow r = 4$.\n\nDiện tích xung quanh: $S_{xq} = 2\\pi rh = 2\\pi \\cdot 4 \\cdot 6 = 48\\pi$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "cf700482-10b4-4afc-9fb6-091e619b569b",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 5,
+                "content": "Cho phương trình $\\log_2(x + 2) + \\log_4 x^2 - 3 = 0$.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Điều kiện của phương trình là $x \u003e -2$."
+                        },
+                        {
+                            "content": "Phương trình có 2 nghiệm phân biệt."
+                        },
+                        {
+                            "content": "Tập nghiệm của phương trình là $S = \\{0; 2\\}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "Điều kiện: $x + 2 \u003e 0$ và $x^2 \u003e 0 \\Rightarrow x \u003e -2$ và $x \\neq 0$. (Mệnh đề sai do thiếu $x \\neq 0$).\n \n Phương trình $\\Leftrightarrow \\log_2(x + 2) + \\log_2 |x| = 3 \\Leftrightarrow |x|(x + 2) = 8$.\n\n\n- Nếu $x \u003e 0: x^2 + 2x - 8 = 0 \\Rightarrow x = 2$ (nhận) hoặc $x = -4$ (loại).\n\n- Nếu $-2 \u003c x \u003c 0: -x(x + 2) = 8 \\Leftrightarrow x^2 + 2x + 8 = 0$ (vô nghiệm).\n\nVậy phương trình có duy nhất 1 nghiệm $x = 2$. (Mệnh đề sai).\n\n Tập nghiệm $S = \\{2\\}$. (Mệnh đề sai).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "99bf28a7-02a6-4096-8829-fc0081871619",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 6,
+                "content": "Cho cấp số nhân $(u_n)$ có số hạng đầu $u_1 = -\\dfrac{1}{2}$ và $u_6 = -\\dfrac{243}{2}$. Công bội $q$ bằng\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$q=3$."
+                        },
+                        {
+                            "content": "$q=-5$."
+                        },
+                        {
+                            "content": "$q=\\dfrac{3}{2}$."
+                        },
+                        {
+                            "content": "$q=-\\dfrac{2}{3}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Ta có: $\\begin{cases} u_1 = -\\dfrac{1}{2} \\\\ u_6 =  -\\dfrac{243}{2} \\end{cases} \\Rightarrow \\begin{cases} u_1 = -\\dfrac{1}{2} \\\\ u_1 \\cdot q^5 =  -\\dfrac{243}{2} \\end{cases} \\Leftrightarrow q^5 = 243 = 3^5 \\Leftrightarrow q = 3$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-04T00:06:47.032157+07:00",
+                "updated_at": "2026-01-07T18:38:15.887665+07:00"
+            },
+            {
+                "id": "a87f83f9-06c0-4a31-956c-6ce271b33cd8",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 6,
+                "content": "Trong không gian $Oxyz$, cho hai điểm $A(1; 2; 3), B(3; 0; 1)$ và đường thẳng $d: \\dfrac{x - 1}{2} = \\dfrac{y}{-1} = \\dfrac{z - 2}{1}$ có vecto chỉ phương là $\\vec{n}$.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$\\vec{AB}$ cùng phương với $\\vec{n}$."
+                        },
+                        {
+                            "content": "$A \\notin d$."
+                        },
+                        {
+                            "content": "$AB // d$."
+                        },
+                        {
+                            "content": "Toạ độ trung điểm $AB$ là $M(2; 1; 2)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "- $\\vec{AB} = (2; -2; -2)$, $\\vec{n} = (2; -1; 1)$. Ta thấy $\\dfrac{2}{2} \\neq \\dfrac{-2}{-1} \\Rightarrow$ Không cùng phương (a Sai).\n\n\n- Thay $A(1; 2; 3)$ vào $d$: $\\dfrac{1-1}{2} = 0, \\dfrac{2}{-1} = -2 \\Rightarrow 0 \\neq -2 \\Rightarrow A \\notin d$ (b Đúng).\n\n- - $\\vec{AB} = (2; -2; -2)$, $\\vec{n} = (2; -1; 1)$.  Không cùng phương  (c Sai).\n\n- Trung điểm $M = (\\dfrac{1+3}{2}; \\dfrac{2+0}{2}; \\dfrac{3+1}{2}) = (2; 1; 2)$ (d Đúng).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "62c660cd-a9d4-457d-8e06-788f14f703f1",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 7,
+                "content": "Kéo biểu thức ở các ô vuông thả vào vị trí thích hợp trong các câu sau:\r\nTìm giá trị lớn nhất và giá trị nhỏ nhất của các hàm số $y = 2\\cos 2x + 5, x \\in [0; \\dfrac{\\pi}{6}]$ lần lượt là ____ và ____.\r",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "2",
+                        "6",
+                        "7/2",
+                        "7"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3,
+                        1
+                    ]
+                },
+                "answer_detail": "Ta có: $x \\in [0; \\dfrac{\\pi}{6}] \\Rightarrow 2x \\in [0; \\dfrac{\\pi}{3}]$.\r\n\r\nSử dụng đường tròn lượng giác:\r\n\r\n$/image_{https://zpi.cx/b/kyb1Zo.png?dl=1}_{left}_{30}_{block}$\r\n\r\nTa có $\\forall x \\in [0; \\dfrac{\\pi}{6}] \\Rightarrow 2x \\in [0; \\dfrac{\\pi}{3}] : \\dfrac{1}{2} \\leq \\cos 2x \\leq 1$\r\n\r\n$\\Rightarrow 1 \\leq 2\\cos 2x \\leq 2$\r\n\r\n$\\Rightarrow 6 \\leq 2\\cos 2x + 5 \\leq 7$\r\n\r\nVậy $\\max_{[0; \\dfrac{\\pi}{6}]} y = 7$ đạt được khi $\\cos 2x = 1 \\Rightarrow x = 0 \\in [0; \\dfrac{\\pi}{6}]$\r\n\r\n$\\min_{[0; \\dfrac{\\pi}{6}]} y = 6$ đạt được khi $\\cos 2x = \\dfrac{1}{2} \\Rightarrow x = \\dfrac{\\pi}{6} \\in [0; \\dfrac{\\pi}{6}]$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-29T19:28:55.9814+07:00",
+                "updated_at": "2026-01-06T20:23:15.258341+07:00"
+            },
+            {
+                "id": "4fa32345-1de5-4e66-b23f-bf244a5fe055",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 7,
+                "content": "Lượng mưa trung bình theo từng tháng tại một thành phố được cho như hình dưới:\n$/image_{https://zpi.cx/b/NK0Zjs.png?dl=1}_{center}_{40}_{block}$",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 25,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Lượng mưa trung bình trong 3 tháng đầu là $\\dfrac{71}{3}$ (mm/tháng)."
+                        },
+                        {
+                            "content": "Lượng mưa tăng dần từ đầu năm tới tháng 6."
+                        },
+                        {
+                            "content": "Trong khoảng thời gian từ tháng 3 tới tháng 6, lượng mưa qua từng tháng tăng rất nhanh."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "$(18 + 19 + 34) / 3 = 71/3$ (Đúng).\r\n Nhìn biểu đồ: $18 \u003c 19 \u003c 34 \u003c 105 \u003c 165 \u003c 266$ (Đúng).\r\n Độ chênh lệch giữa các cột từ tháng 3 đến tháng 6 rất lớn so với các tháng trước (Đúng).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "ffd6bf16-854f-4e22-9c0b-719c2fe46fa9",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 8,
+                "content": "Trong không gian $Oxyz$, cho 3 điểm $A(1; 2; 4), B(4; 2; 4), C(1; -2; 4)$.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$\\vec{BA} = (3; 0; -4)$."
+                        },
+                        {
+                            "content": "$C$ là điểm đối xứng của $A$ qua mặt phẳng $(Oxy)$."
+                        },
+                        {
+                            "content": "Lấy điểm $M$ bất kỳ thuộc $(Oxz)$. Giá trị nhỏ nhất của $MA + MB$ là $AB$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "$\\vec{BA} = A - B = (1-4; 2-2; 4-4) = (-3; 0; 0)$ (Sai).\n\n Đối xứng qua $(Oxy)$ thì tọa độ $(x; y; z)$ thành $(x; y; -z)$. $A(1; 2; 4) \\to (1; 2; -4) \\neq C$ (Sai).\n\n $(Oxz)$ có phương trình $y=0$. $A, B$ có $y_A=2, y_B=2$ nên cùng phía với $(Oxz)$. \n\nMin $MA+MB = A'B$ với $A'$ đối xứng $A$ qua $y=0 \\Rightarrow A'(1; -2; 4)$. \n\n$A'B = \\sqrt{(4-1)^2 + (2 - (-2))^2 + 0} = 5$. \n\nTrong khi $AB = 3$. Vậy $5 \\neq 3$ (Sai).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "e4b1ddee-4322-4ec7-b490-c1e4915b67b8",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 9,
+                "content": "Biết $x_1, x_2$ là hai nghiệm của phương trình $\\log(10 \\cdot 5^x + 15 \\cdot 20^x) = x + \\log 25$. Giá trị của $  x_2^{x_1} $ bằng (1) ____ ($x_1 \u003e x_2$).\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1"
+                    ]
+                },
+                "answer_detail": "Ta có: $\\log(10 \\cdot 5^x + 15 \\cdot 20^x) = x + \\log 25$\n\n$\\Leftrightarrow \\log(10 \\cdot 5^x + 15 \\cdot 20^x) = \\log(25 \\cdot 10^x)$\n\n$\\Leftrightarrow 10 \\cdot 5^x + 15 \\cdot 20^x = 25 \\cdot 10^x$\n\n$\\Leftrightarrow 15 \\cdot 4^x - 25 \\cdot 2^x + 10 = 0$\n\n$\\Leftrightarrow \\begin{bmatrix} 2^x = 1 \\\\ 2^x = \\dfrac{2}{3} \\end{bmatrix} \\Leftrightarrow \\begin{bmatrix} x = 0 \\\\ x = \\log_2 \\left(\\dfrac{2}{3}\\right) \\end{bmatrix}$\n\nVì $x_1 \u003e x_2$ nên $x_1 = 0; x_2 = \\log_2 \\left(\\dfrac{2}{3}\\right) \\Rightarrow $ $ x_2^{x_1} $ = 1",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-04T00:06:47.032157+07:00",
+                "updated_at": "2026-02-14T15:20:16.485131+07:00"
+            },
+            {
+                "id": "5a3210d9-ca5b-4544-b532-fe00e5e5e8d9",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 9,
+                "content": "Cho 20 thùng hàng giống nhau gồm 3 loại: 8 loại I, 7 loại II và 5 loại III. Mỗi thùng hàng có 10 sản phẩm và số sản phẩm tốt tương ứng cho mỗi loại lần lượt là 8; 7; 5 sản phẩm/thùng. Chọn ngẫu nhiên 1 thùng hàng và từ thùng đó lấy ra 2 sản phẩm.",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 17,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Xác suất có 2 sản phẩm lấy ra tốt là $\\dfrac{421}{800}$."
+                        },
+                        {
+                            "content": "Xác suất có 2 sản phẩm lấy ra là tốt và của thùng hàng loại II lớn hơn 0,16."
+                        },
+                        {
+                            "content": "Giả sử có 2 sản phẩm lấy ra là tốt, xác suất 2 sản phẩm này là của thùng hàng loại II là $\\dfrac{147}{421}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Gọi $H_1, H_2, H_3$ lần lượt là biến cố chọn được thùng loại I, II, III. $P(H_1)=8/20, P(H_2)=7/20, P(H_3)=5/20$.\nGọi $A$ là biến cố lấy được 2 sản phẩm tốt.\n\n- $P(A|H_1) = C_8^2 / C_{10}^2 = 28/45$.\n\n- $P(A|H_2) = C_7^2 / C_{10}^2 = 21/45$.\n\n- $P(A|H_3) = C_5^2 / C_{10}^2 = 10/45$.\n\n\n $P(A) = \\dfrac{8}{20} \\cdot \\dfrac{28}{45} + \\dfrac{7}{20} \\cdot \\dfrac{21}{45} + \\dfrac{5}{20} \\cdot \\dfrac{10}{45} = \\dfrac{421}{900}$ (Sai).\n\n $P(A \\cap H_2) = P(H_2).P(A|H_2) =\\dfrac{7}{20} \\cdot \\dfrac{21}{45} = \\dfrac{147}{900} \\approx 0,1633 \u003e 0,16$ (Đúng).\n\n $P(H_2|A) = \\dfrac{P(A \\cap H_2)}{P(A)} = \\dfrac{147/900}{421/900} = \\dfrac{147}{421}$ (Đúng).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "debc596d-f96d-40e0-851c-d150edd67aa4",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 10,
+                "content": "Xét tính đúng sai của các mệnh đề dưới đây, biết không gian đang xét là không gian $Oxy$.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Hình vuông có 2 trục đối xứng."
+                        },
+                        {
+                            "content": "Tập hợp các điểm $M$ thoả mãn $MI = 2$ là hình tròn có bán kính $R = 2$."
+                        },
+                        {
+                            "content": "Diện tích của hình thang có đáy lớn là $a$, đáy nhỏ là $b$ và chiều cao $h$ là $S = \\dfrac{ah + bh}{2}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Hình vuông có 4 trục đối xứng nên ***(a) Sai).***\n\n Định nghĩa đường tròn (Hình tròn bao gồm cả phần bên trong ***((b) Sai)***.\n\n $S = \\dfrac{(a+b)h}{2} = \\dfrac{ah + bh}{2}$ ***( (c) Đúng).***",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "ebdf4d00-c38e-47b9-9b99-cc06b0f23e79",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 11,
+                "content": "Một quả bóng bay hình cầu đang được bơm phồng với tốc độ $\\dfrac{9}{2}\\pi$ ($m^3$/phút). Gọi $t$ (phút) là thời gian bơm bóng bay. Biết rằng khi bắt đầu bơm thì quả bóng xẹp (coi bán kính $r(m)$ bằng 0) và sau khi bơm 1 phút thì quả bóng có bán kính 0,8 (m).",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$V'(t) = \\dfrac{9}{2}\\pi$ ($m^3$/phút)."
+                        },
+                        {
+                            "content": "$r'(1) = \\dfrac{225}{128}$ (m)."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Tốc độ bơm chính là đạo hàm của thể tích theo thời gian (Đúng).\n\nTa có $V = \\dfrac{4}{3}\\pi r^3 \\Rightarrow V' = 4\\pi r^2 \\cdot r'$. **Đạo hàm hàm hợp $r(m)$ là hàm bán kính**\n\nTại $t=1$, $V'(1) = \\dfrac{9}{2}\\pi$ và $r(1) = 0,8$.\n\n$\\Rightarrow \\dfrac{9}{2}\\pi = 4\\pi \\cdot (0,8)^2 \\cdot r'(1) \\Rightarrow 4,5 = 2,56 \\cdot r'(1) \\Rightarrow r'(1) = \\dfrac{4,5}{2,56} = \\dfrac{450}{256} = \\dfrac{225}{128}$ (Đúng).",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "b300f41d-57b2-46eb-8a8c-c402c31e73e0",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 12,
+                "content": "Cho hai biến cố $A, B$ thoả $P(B) = 0,6; P(A|B) = 0,7$ và $P(A|\\overline{B}) = 0,4$. Khi này ta có $P(A)$ bằng ____",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 17,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "0,58"
+                    ]
+                },
+                "answer_detail": "$P(A) = P(A|B)P(B) + P(A|\\overline{B})P(\\overline{B}) = 0,7 \\cdot 0,6 + 0,4 \\cdot (1 - 0,6) = 0,42 + 0,16 = 0,58$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "a55ab4e3-640f-40dd-97e8-3b0d833b3d53",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 13,
+                "content": "***Điền số tự nhiên vào chỗ trống:***\n\nCho hàm số $f(x)$ có $f'(x) = \\dfrac{4x}{x^2 + 1}$ và thoả mãn $f(1) = 1$. \n\nBiết rằng $f(4) = a + b \\ln(\\dfrac{c}{d})$ với $a, b, c, d$ là các số nguyên dương và $\\dfrac{c}{d}$ tối giản. với $b=1$ \n\nGiá trị của $S = a + b + c + d$ bằng ____.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 13,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "295"
+                    ]
+                },
+                "answer_detail": "$\\displaystyle f(x) = \\int \\dfrac{4x}{x^2 + 1} dx = 2 \\ln(x^2 + 1) + C$.\n\n$f(1) = 1 \\Rightarrow 2 \\ln 2 + C = 1 \\Rightarrow C = 1 - 2 \\ln 2$.\n\n$f(4) = 2 \\ln(17) + 1 - 2 \\ln 2 = 1 + 2 \\ln(\\dfrac{17}{2}) = 1 + \\ln(\\dfrac{289}{4})$.\n\nĐối chiếu: $a=1, b=1, c=289, d=4$.\n\n$S = 1 + 1 + 289 + 4 = 295$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-02-14T15:21:48.119108+07:00"
+            },
+            {
+                "id": "f62ab0af-c014-4225-a528-f77a496d3a98",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 14,
+                "content": "***Điền số tự nhiên vào chỗ trống:***\nCho tam giác vuông có độ dài 3 cạnh là $3; 4; 5$ nội tiếp trong đường tròn $(C_1)$ và một tam giác vuông có độ dài 3 cạnh là $5; 12; 13$ nội tiếp trong đường tròn $(C_2)$. Gọi $S_1, S_2$ lần lượt là diện tích của $(C_1), (C_2)$. \n\nGiá trị của $A$ bằng ____với $\\dfrac{25}{A} = \\dfrac{S_1}{S_2}$.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "169"
+                    ]
+                },
+                "answer_detail": "Áp dụng Pytago đảo ta thấy 2 tam giác là tam giác vuông. Đường tròn ngoại tiếp tam giác vuông có đường kính là cạnh huyền.\n\n- $(C_1)$ có bán kính $R_1 = 5/2 \\Rightarrow S_1 = \\pi (5/2)^2 = \\dfrac{25\\pi}{4}$.\n\n- $(C_2)$ có bán kính $R_2 = 13/2 \\Rightarrow S_2 = \\pi (13/2)^2 = \\dfrac{169\\pi}{4}$.\n\nTa có: $\\dfrac{S_1}{S_2} = \\dfrac{25}{169}$. Theo đề bài $\\dfrac{25}{A} = \\dfrac{25}{169} \\Rightarrow A = 169$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-06T21:08:54.206564+07:00",
+                "updated_at": "2026-01-06T21:08:54.206564+07:00"
+            },
+            {
+                "id": "e2af4bf9-059b-4235-8b6e-fcc741389c28",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 15,
+                "content": "\n$\\lim_{x \\to 3} \\left( \\dfrac{|x - 2|}{x - 2} + 3x \\right) = a, \\quad \\lim_{x \\to 1} \\left( \\dfrac{|x - 2|}{x - 2} + 3x \\right) = B$\n\nGiá trị của $a =$ ____\n\nGiá trị của $b =$ ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "10",
+                        "11",
+                        "2",
+                        "3"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2
+                    ]
+                },
+                "answer_detail": "Khi $x \\to 3$, $x - 2 \u003e 0$ nên $|x - 2| = x - 2$.\r\n\n\r\n\n$a = \\lim_{x \\to 3} \\left( \\dfrac{x - 2}{x - 2} + 3x \\right) = \\lim_{x \\to 3} (1 + 3x) = 1 + 3(3) = 10$\r\n\n\r\n\nKhi $x \\to 1$, $x - 2 \u003c 0$ nên $|x - 2| = -(x - 2)$.\r\n\n\r\n\n$b = \\lim_{x \\to 1} \\left( \\dfrac{-(x - 2)}{x - 2} + 3x \\right) = \\lim_{x \\to 1} (-1 + 3x) = -1 + 3(1) = 2$\r\n\n\r\n\nVậy $a=10$ và $b=2$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "5e3dabb4",
+                "created_at": "2025-11-21T01:01:04.828476+07:00",
+                "updated_at": "2026-01-06T20:23:15.258341+07:00"
+            },
+            {
+                "id": "d643597c-c97f-498e-9616-9790f7c48be9",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 15,
+                "content": "Biết $\\lim_{x \\to -1} \\dfrac{x^2 + (2a-1)x + b}{x+1} = 2$. Giá trị của $a=$ (1) ____ và $b=$ (2) ____ với $a,b$ là các phân số tối giản (nếu có).\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 8,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        [
+                            "2,5",
+                            "5/2"
+                        ],
+                        [
+                            "3"
+                        ]
+                    ]
+                },
+                "answer_detail": " Điều kiện để giới hạn hữu hạn (Dạng $\\dfrac{0}{0}$)\n\nĐể giới hạn hữu hạn khi mẫu số bằng 0 tại $x = -1$, tử số cũng phải bằng 0 tại $x = -1$:\n\n\n$(-1)^2 + (2a - 1)(-1) + b = 0 \\Leftrightarrow 1 - 2a + 1 + b = 0 \\Leftrightarrow {b = 2a - 2} \\quad (1)$\n\n\nThay $b$ vào biểu thức giới hạn:\n\n\n$\\lim_{x \\to -1} \\dfrac{x^2 + (2a - 1)x + 2a - 2}{x + 1} = 2$\n\n\n$\\Leftrightarrow \\lim_{x \\to -1} \\dfrac{(x + 1)(x + 2a - 2)}{x + 1} = 2$\n\n\n$\\Leftrightarrow \\lim_{x \\to -1} (x + 2a - 2) = 2$\n\nThay $x = -1$ vào:\n\n\n$-1 + 2a - 2 = 2 \\Leftrightarrow 2a = 5 \\Rightarrow {a = \\dfrac{5}{2}}$\n\nTừ $(1)$, ta có:\n\n\n$b = 2 \\cdot \\left(\\dfrac{5}{2}\\right) - 2 \\Rightarrow b = 3$\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-04T00:06:47.032157+07:00",
+                "updated_at": "2026-01-22T19:38:08.685931+07:00"
+            },
+            {
+                "id": "94f70155-a448-447c-9dad-28a5373a2739",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 16,
+                "content": "Cho hàm số $y=f(x)$ và $y=g(x)$ xác định và có đạo hàm trên các khoảng $(a;b)$ và $(c;d)$.\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 10,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Nếu hàm số $f(x)$ đồng biến trên các khoảng $(a;b)$ và $(c;d)$ thì hàm số $f(x)$ đồng biến trên khoảng $(a;b) \\cup (c;d)$"
+                        },
+                        {
+                            "content": "Nếu hàm số $f(x)$ đồng biến trên khoảng $(a;b)$ thì hàm số $\\dfrac{1}{f(x)}$ đồng biến trên khoảng $(a;b)$"
+                        },
+                        {
+                            "content": "Nếu hàm số $y=f(x)$ đồng biến trên khoảng $(a;b)$ và hàm số $y=g(x)$ nghịch biến trên khoảng $(a;b)$ thì hàm số $f(x)-g(x)$ đồng biến trên khoảng $(a;b)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        true
+                    ]
+                },
+                "answer_detail": "Khẳng định 1 sai vì không hàm số chỉ đồng biến trên các khoảng liền nhau.\r\n\r\nNếu hàm số $f(x)$ đồng biến trên khoảng $(a;b)$ thì hàm số $\\dfrac{1}{f(x)}$ không đồng biến trên khoảng $(a;b)$.\r\n\r\nNếu hàm số $y=f(x)$ đồng biến trên khoảng $(a;b)$ và hàm số $y=g(x)$ nghịch biến trên khoảng $(a;b)$ thì hàm số $f(x)-g(x)$ đồng biến trên khoảng $(a;b)$ là đúng.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-29T19:28:55.9814+07:00",
+                "updated_at": "2026-01-05T14:06:33.927627+07:00"
+            },
+            {
+                "id": "180f5759-c9c0-4d64-aea9-a78b800334e1",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 18,
+                "content": "Cho hình chóp S.ABC có SA vuông góc với mặt phẳng đáy (ABC) và tam giác ABC là tam giác vuông tại B. Kẻ AM vuông góc với SB tại M và AN vuông góc với SC tại N.\n$/image_{https://zpi.cx/b/UehH2eo.png?dl=1}_{left}_{30}_{block}$\n\nĐường thẳng BC vuông góc với mặt phẳng ____\n\nĐường thẳng AM vuông góc với mặt phẳng ____\n\nĐường thẳng SC vuông góc với mặt phẳng ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "data_questions": {
+                    "items": [
+                        "(SAB)",
+                        "(SBC)",
+                        "(AMN)",
+                        "(ABN)",
+                        "(SMN)"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                "answer_detail": "Ta có $BC \\perp AB$ và $SA \\perp (ABC)$ nên $SA \\perp BC \\Rightarrow BC \\perp (SAB)$\r\nTa có $BC \\perp (SAB) \\Rightarrow BC \\perp AM$ mà $AM \\perp SB \\Rightarrow AM \\perp (SBC)$.\r\nTa có $AM \\perp (SBC) \\Rightarrow AM \\perp SC$ mà $AN \\perp SC \\Rightarrow SC \\perp (AMN)$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-27T22:28:19.679788+07:00",
+                "updated_at": "2026-01-06T20:23:15.258341+07:00"
+            },
+            {
+                "id": "899c1465-8a37-4d6d-a490-1a57305629b9",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 25,
+                "content": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0), B(2; 0; 1), C(1; 1; 1)$ và mặt phẳng $(P): x+y+z-6=0$.\nGọi $(S)$ là mặt cầu đi qua ba điểm A, B, C và có tâm thuộc mặt phẳng $(P)$.\n\nBán kính mặt cầu (S) bằng ____\n\nTâm mặt cầu (S) có tung độ bằng ____; cao độ bằng ____\n",
+                "difficulty": "M2",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        "4",
+                        "-3",
+                        "$\\sqrt{41}$",
+                        "5"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2,
+                        0,
+                        1
+                    ]
+                },
+                "answer_detail": "Gọi $I(x; y; z)$ là tâm mặt cầu $(S)$ đi qua 3 điểm A, B, C.\r\n\r\nTa có: $IA=IB=IC \\Rightarrow \\begin{cases} IA^2=IB^2 \\\\ IB^2=IC^2 \\end{cases}$\r\n\r\n$\\Rightarrow \\begin{cases} (x-1)^2+y^2+z^2 = (x-2)^2+y^2+(z-1)^2 \\\\ (x-2)^2+y^2+(z-1)^2 = (x-1)^2+(y-1)^2+(z-1)^2 \\end{cases}$\r\n\r\n$\\Rightarrow \\begin{cases} -2x+1 = -4x+4-2z+1 \\\\ -4x+4 = -2x+1-2y+1 \\end{cases} \\Rightarrow \\begin{cases} x+z=2 \\\\ x-y=1 \\end{cases}$\r\n\r\nVì $I \\in (P)$ nên ta có hệ phương trình: $\\begin{cases} x+z=2 \\\\ x-y=1 \\\\ x+y+z-6=0 \\end{cases} \\Rightarrow \\begin{cases} x=5 \\\\ y=4 \\\\ z=-3 \\end{cases} \\Rightarrow I(5; 4; -3)$.\r\n\r\nBán kính của mặt cầu $(S)$ là $R = IA = \\sqrt{41}$.\r\n\r\n$\\Rightarrow (S): (x-5)^2 + (y-4)^2 + (z+3)^2 = 41$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-29T19:28:55.9814+07:00",
+                "updated_at": "2026-01-06T20:23:15.258341+07:00"
+            },
+            {
+                "id": "d844283b-4e7c-40e8-8ec7-e68c3f2459e4",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 35,
+                "content": "Giả sử có 12 viên bi khác màu nhau và 3 cái hộp, ta chia đều bi vào các hộp.\n\nSố cách xếp 12 viên vào 3 hộp khác nhau là ____\nSố cách xếp 12 viên vào 3 hộp giống nhau là ____\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "items": [
+                        "103950",
+                        "5775",
+                        "207900",
+                        "34650"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3,
+                        1
+                    ]
+                },
+                "answer_detail": "- Xếp 12 viên bi vào 3 hộp khác nhau:\r\n\r\nXếp 4 viên bi vào hộp số 1: $C_{12}^4 = 495$\r\n\r\nXếp 4 viên bi vào hộp số 2: $C_8^4 = 70$\r\n\r\nSố cách xếp 12 viên bi vào 3 hộp khác nhau: $495 . 70 = 34650$\r\n\r\n- Số cách xếp 12 viên vào 3 hộp giống nhau là $\\dfrac{34650}{3!} = 5775$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-29T19:28:55.9814+07:00",
+                "updated_at": "2026-01-06T20:23:15.258341+07:00"
+            },
+            {
+                "id": "66125a73-4bdf-4b82-bb5f-5657bd98a292",
+                "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+                "position": 40,
+                "content": "Cho tập hợp ***A = {1;2;3;4;5;6}.***\n\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Tập hợp A có 64 tập con khác rỗng."
+                        },
+                        {
+                            "content": "Tập hợp A có 20 tập con có 3 phần tử."
+                        },
+                        {
+                            "content": "Tập con có 2 phần tử của A bằng số tập con có 4 phần tử của A."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "Số tập con khác rỗng của A là $2^6 - 1 = 63$\n\n***=\u003e Mệnh đề 1 sai***\n\nSố tập con có 3 phần tử là số cách chọn 3 phần tử trong 6 phần tử: $C_6^3 = 20$\n\n***=\u003e Mệnh đề 2 đúng***\n\nSố tập con có 2 phần tử là: $C_6^2 = 15$\n\nSố tập con có 4 phần tử là: $C_6^4 = 15$\n\n***=\u003e Mệnh đề 3 đúng.***",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-29T19:28:55.9814+07:00",
+                "updated_at": "2026-01-05T14:06:33.927627+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "834af490-6365-471a-8f45-3d1e06f6459c",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "e80d3dac-c3f4-4abe-8c6f-27daa18d287f",
+        "time_take": 3690,
+        "score": 19,
+        "correct_count": 19,
+        "answers_submit": "{\"02db052b-aa5b-4cac-96d4-ccd583b054fe\": {\"answer\": [2], \"is_correct\": false}, \"0dde9279-2d07-4603-aae8-c61ed42abf9b\": {\"answer\": [2], \"is_correct\": false}, \"12d1f4f6-336a-48fa-8019-4e966d5f7f12\": {\"answer\": [3], \"is_correct\": false}, \"32b2ee5c-e46e-461f-864a-65eee129d940\": {\"answer\": [\"19\", \"936\"], \"is_correct\": false}, \"3436d3a6-0553-424b-a77d-2495f38a2492\": {\"answer\": [1, 0], \"is_correct\": true}, \"4fa32345-1de5-4e66-b23f-bf244a5fe055\": {\"answer\": [false, true, true], \"is_correct\": false}, \"5423a39f-70d6-4ed9-9810-e2fcd742f389\": {\"answer\": [\"18\", \"18\"], \"is_correct\": true}, \"55ae7ce1-6b59-43c7-bf55-868b4bc5cca5\": {\"answer\": [0, 1, 3], \"is_correct\": false}, \"561a5d7a-8cb1-43bd-b298-49859208e9fd\": {\"answer\": [true, true, true], \"is_correct\": true}, \"5a3210d9-ca5b-4544-b532-fe00e5e5e8d9\": {\"answer\": [false], \"is_correct\": false}, \"62c660cd-a9d4-457d-8e06-788f14f703f1\": {\"answer\": [3, 1], \"is_correct\": true}, \"94f70155-a448-447c-9dad-28a5373a2739\": {\"answer\": [false, false, true], \"is_correct\": true}, \"99bf28a7-02a6-4096-8829-fc0081871619\": {\"answer\": [0], \"is_correct\": true}, \"a55ab4e3-640f-40dd-97e8-3b0d833b3d53\": {\"answer\": [\"22\"], \"is_correct\": false}, \"a87f83f9-06c0-4a31-956c-6ce271b33cd8\": {\"answer\": [false, true, false, true], \"is_correct\": true}, \"aa17a766-92ae-4a58-a85a-916994c3a694\": {\"answer\": [\"2\"], \"is_correct\": true}, \"b300f41d-57b2-46eb-8a8c-c402c31e73e0\": {\"answer\": [\"0,0672\"], \"is_correct\": false}, \"ba4578b4-0efe-440c-9088-326b2ad0240b\": {\"answer\": [\"3\"], \"is_correct\": true}, \"ba4a2e3e-044c-44ed-be86-0a3c86f804d4\": {\"answer\": [3, 4, 0], \"is_correct\": true}, \"bfabca06-4a2b-41b2-89ce-c232dda604ee\": {\"answer\": [0], \"is_correct\": true}, \"c736e3c8-b844-4055-828f-903ddac5b87f\": {\"answer\": [3], \"is_correct\": true}, \"cf700482-10b4-4afc-9fb6-091e619b569b\": {\"answer\": [true, true, false], \"is_correct\": false}, \"d67cd576-8b50-4fb1-9c69-21a58a08693d\": {\"answer\": [1], \"is_correct\": true}, \"debc596d-f96d-40e0-851c-d150edd67aa4\": {\"answer\": [false, false, true], \"is_correct\": true}, \"e2af4bf9-059b-4235-8b6e-fcc741389c28\": {\"answer\": [0, 2], \"is_correct\": true}, \"e4d067c7-93f7-4c4c-bd48-9707de169b9c\": {\"answer\": [0], \"is_correct\": true}, \"e832b9a3-4360-4277-9916-148e692173c9\": {\"answer\": [1, 2, 3], \"is_correct\": false}, \"ebdf4d00-c38e-47b9-9b99-cc06b0f23e79\": {\"answer\": [true, false], \"is_correct\": false}, \"f1b03a28-faa2-4b9b-a757-d9a898815aa8\": {\"answer\": [1], \"is_correct\": true}, \"fdb9773a-4552-4c37-b06f-e31b4df9d676\": {\"answer\": [false, false, true], \"is_correct\": true}, \"ffd6bf16-854f-4e22-9c0b-719c2fe46fa9\": {\"answer\": [false, false, false], \"is_correct\": true}}",
+        "status": "completed",
+        "created_at": "2026-01-24T09:43:30.102009+07:00",
+        "updated_at": "2026-01-24T10:45:00.896738+07:00",
+        "submited_at": "2026-01-24T10:45:00.89551+07:00"
+    }
+}

@@ -1,0 +1,1561 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+        "title": "Đề Dự Đoán TSA Đợt 2 - Tư Duy Khoa Học ",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_khoahoc",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "q",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-03-10T14:21:16.113375+07:00",
+        "updated_at": "2026-03-10T14:21:17.744135+07:00",
+        "questions": [
+            {
+                "id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 1,
+                "content": "**HIỆN TƯỢNG THỦY TRIỀU VÀ TRƯỜNG HẤP DẪN**\nThủy triều là sự dâng hạ mực nước biển có chu kỳ. Nguyên nhân chủ yếu do sự chênh lệch gia tốc rơi tự do do Mặt Trăng (và Mặt Trời) tác dụng lên các điểm khác nhau trên Trái Đất, hay còn gọi là lực tạo triều.\nTheo định luật vạn vật hấp dẫn, gia tốc rơi tự do do một thiên thể khối lượng $M$ gây ra tại điểm cách tâm của nó một khoảng $d$ được tính bằng công thức: $g = G\\dfrac{M}{d^2}$.\n* Bảng dữ kiện thiên văn :*\n$/image_{https://zpi.cx/b/zOPOo.png?dl=1}_{center}_{100}_{block}$\nHình 16.2 và Hình 16.3 dưới đây mô tả sự tương quan vị trí của các thiên thể trong hai pha thủy triều đặc trưng:\n$/image_{https://zpi.cx/b/Ybi2op.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": "I6OTSEHZ",
+                "created_at": "2026-03-10T16:36:47.971222+07:00",
+                "updated_at": "2026-03-11T11:37:02.935175+07:00",
+                "questions": [
+                    {
+                        "id": "a9e04d34-0cae-462b-b52e-bc29fa4ebbc6",
+                        "parent_id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
+                        "position": 1,
+                        "content": "Dựa vào định luật vạn vật hấp dẫn và nguyên lý lực tạo triều, các phát biểu sau đây là Đúng hay Sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Khoảng cách $d$ từ tâm Mặt Trăng đến các điểm khác nhau trên bề mặt Trái Đất luôn có giá trị bằng $R_m$."
+                                },
+                                {
+                                    "content": "Dựa vào công thức $g = G\\dfrac{M}{d^2}$, gia tốc $g$ tỉ lệ nghịch với khoảng cách $d$ từ điểm xét đến tâm thiên thể."
+                                },
+                                {
+                                    "content": "Tại điểm trên bề mặt Trái Đất nằm gần Mặt Trăng nhất, gia tốc rơi tự do đạt giá trị lớn nhất do khoảng cách $d$ đạt cực tiểu $d = R_m - r$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 2.\r\nVới câu a: Trái Đất có dạng hình cầu bán kính $r$, nên $d$ thay đổi liên tục từ $(R_m - r)$ đến $(R_m + r)$. $\\implies$ Phát biểu sai.\r\n Với câu b: Dựa vào cấu trúc hàm số, $g$ tỉ lệ nghịch với **bình phương** khoảng cách ($d^2$), không phải $d$. $\\implies$ Phát biểu sai.\r\nVới câu c: Mẫu số $d^2$ đạt giá trị nhỏ nhất tại khoảng cách $(R_m - r)$, phân số đạt cực đại. $\\implies$ Phát biểu đúng.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": "M1659CS2",
+                        "created_at": "2026-03-10T16:36:47.971222+07:00",
+                        "updated_at": "2026-03-11T11:37:07.775796+07:00"
+                    },
+                    {
+                        "id": "4cd16d2e-e426-438f-9afb-70330bb5a40b",
+                        "parent_id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
+                        "position": 2,
+                        "content": "Dựa vào Hình 16.2 và Hình 16.3 , khi phương nối Trái Đất - Mặt Trăng và phương nối Trái Đất - Mặt Trời hợp với nhau một góc (1) ____, lực hấp dẫn từ hai thiên thể này phân tán theo hai phương vuông góc, dẫn đến dao động thủy triều đạt giá trị nhỏ nhất gọi là (2) ____. Ngược lại, khi góc hợp bởi hai phương này là (3) ____, các véc-tơ lực hấp dẫn cộng hưởng trên cùng một đường thẳng, tạo ra dao động thủy triều lớn nhất gọi là (4) ____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "triều cường",
+                                "triều kém",
+                                "$90^\\circ$",
+                                "$0^\\circ \\text{ hoặc } 180^\\circ$"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    2
+                                ],
+                                [
+                                    1
+                                ],
+                                [
+                                    3
+                                ],
+                                [
+                                    0
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 2.\r\n Thí sinh quan sát Hình 16.3, nhận thấy trục Trái Đất - Mặt Trăng và Trái Đất - Mặt Trời tạo thành góc vuông $\\implies$ Vị trí (1) điền $90^\\circ$ và (2) điền triều kém.\r\nThí sinh đối chiếu Hình 16.2, nhận thấy sự thẳng hàng tương ứng với góc $0^\\circ$ hoặc $180^\\circ$ $\\implies$ Vị trí (3) điền $0^\\circ \\text{ hoặc } 180^\\circ$ và (4) điền triều cường.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T16:36:47.971222+07:00",
+                        "updated_at": "2026-03-10T16:36:47.971222+07:00"
+                    },
+                    {
+                        "id": "ea850ef0-91b1-44a3-864c-e8ba95ef7e0a",
+                        "parent_id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
+                        "position": 3,
+                        "content": "Phương trình thứ nguyên là công cụ quan trọng để kiểm tra tính hợp lý của các biểu thức. Dựa vào công thức lực hấp dẫn chuẩn xác $F = G\\dfrac{m_1 m_2}{d^2}$, thứ nguyên của hằng số hấp dẫn $G$ là gì? (Ký hiệu $M$ là khối lượng, $L$ là chiều dài, $T$ là thời gian).",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$M^{-1} \\cdot L^3 \\cdot T^{-2}$"
+                                },
+                                {
+                                    "content": "$M^1 \\cdot L^2 \\cdot T^{-2}$"
+                                },
+                                {
+                                    "content": "$M^{-2} \\cdot L^3 \\cdot T^{-1}$"
+                                },
+                                {
+                                    "content": "$M^{-1} \\cdot L^2 \\cdot T^{-2}$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 2.\r\n Thí sinh biến đổi công thức lực hấp dẫn để cô lập $G$:\r\n\r\n$\\begin{aligned} G = \\dfrac{F \\cdot d^2}{m_1 m_2} \\end{aligned}$\r\n\r\n\r\n*Thay thứ nguyên tương ứng của lực $F$ là $M \\cdot L \\cdot T^{-2}$:\r\n\r\n$\\begin{aligned} [G] = \\dfrac{(M \\cdot L \\cdot T^{-2}) \\cdot L^2}{M^2} = M^{-1} \\cdot L^3 \\cdot T^{-2} \\end{aligned}$\r\n\r\n\r\n $\\implies$ Chọn đáp án A.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T16:36:47.971222+07:00",
+                        "updated_at": "2026-03-10T16:36:47.971222+07:00"
+                    },
+                    {
+                        "id": "6f89b60d-ba6f-4878-945c-ae86b9ace3ec",
+                        "parent_id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
+                        "position": 4,
+                        "content": "Đặt điểm $A$ nằm trên bề mặt Trái Đất ở vị trí gần Mặt Trăng nhất và điểm $B$ nằm ở vị trí xa Mặt Trăng nhất. Gia tốc rơi tự do tại hai điểm này được tính theo định luật nghịch đảo bình phương khoảng cách: \n\n                   $g_A = G\\dfrac{M_m}{(R_m-r)^2}$ và $g_B = G\\dfrac{M_m}{(R_m+r)^2}$.\n\nSử dụng bảng dữ kiện thiên văn, thí sinh hãy tính toán gia tốc do Mặt Trăng gây ra.\n\nGiá trị của $g_A$ xấp xỉ (1) ____ $\\cdot 10^{-5} \\text{ m/s}^2$ và giá trị của $g_B$ xấp xỉ (2) ____ $\\cdot 10^{-5} \\text{ m/s}^2$.\n\n(Quy ước: Điền số thập phân, làm tròn đến 2 chữ số sau dấu phẩy)",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "3,44"
+                                ],
+                                [
+                                    "3,22"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 3.\r\n Thí sinh thay số liệu từ bảng vào hai phương trình chuẩn:\r\n\r\n$\\begin{aligned} g_A \u0026= 6,67 \\cdot 10^{-11} \\cdot \\dfrac{7,35 \\cdot 10^{22}}{(3,84 \\cdot 10^8 - 0,064 \\cdot 10^8)^2} \\\\ \u0026= \\dfrac{49,02 \\cdot 10^{11}}{(3,776 \\cdot 10^8)^2} \\approx 3,44 \\cdot 10^{-5} \\text{ m/s}^2 \\end{aligned}$\r\n\r\n\r\n$\\begin{aligned} g_B \u0026= 6,67 \\cdot 10^{-11} \\cdot \\dfrac{7,35 \\cdot 10^{22}}{(3,84 \\cdot 10^8 + 0,064 \\cdot 10^8)^2} \\\\ \u0026= \\dfrac{49,02 \\cdot 10^{11}}{(3,904 \\cdot 10^8)^2} \\approx 3,22 \\cdot 10^{-5} \\text{ m/s}^2 \\end{aligned}$",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T16:36:47.971222+07:00",
+                        "updated_at": "2026-03-10T16:36:47.971222+07:00"
+                    },
+                    {
+                        "id": "d72872b6-c591-4044-bdfa-1bfc026098c4",
+                        "parent_id": "9da4751a-24e4-4c2b-8996-fe4f86228dc1",
+                        "position": 5,
+                        "content": "Độ chênh lệch gia tốc $\\Delta g = g_A - g_B$ chính là bản chất của sự kéo dãn khối nước (lực tạo triều). Khi bán kính Trái Đất $r$ rất nhỏ so với khoảng cách $R$ đến thiên thể ($r \\ll R$), lực tạo triều $\\Delta g$ sẽ tỉ lệ thuận với đại lượng $\\dfrac{M}{R^3}$.\n\nTỷ số gia tốc lực tạo triều của Mặt Trăng so với lực tạo triều của Mặt Trời tác dụng lên bề mặt Trái Đất có giá trị xấp xỉ bằng bao nhiêu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Mặt Trời tạo triều mạnh gấp $177$ lần Mặt Trăng."
+                                },
+                                {
+                                    "content": "Mặt Trăng tạo triều mạnh gấp $2,2$ lần Mặt Trời."
+                                },
+                                {
+                                    "content": "Mặt Trăng tạo triều mạnh gấp $4,6$ lần Mặt Trời."
+                                },
+                                {
+                                    "content": "Hai thiên thể có sức tạo triều bằng nhau."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 3.\r\n Thí sinh áp dụng trực tiếp hệ quả tỉ lệ thuận $\\Delta g \\sim \\dfrac{M}{R^3}$ được cung cấp ở đề bài để thiết lập tỷ số $\\dfrac{\\Delta g_m}{\\Delta g_s}$:\r\n\r\n$\\begin{aligned} \\dfrac{\\Delta g_m}{\\Delta g_s} \u0026= \\dfrac{M_m}{R_m^3} \\cdot \\dfrac{R_s^3}{M_s} \\\\ \u0026= \\dfrac{7,35 \\cdot 10^{22}}{(3,84 \\cdot 10^8)^3} \\cdot \\dfrac{(1,5 \\cdot 10^{11})^3}{2,0 \\cdot 10^{30}} \\\\ \u0026\\approx (1,298 \\cdot 10^{-3}) \\cdot (1687,5) \\approx 2,19 \\end{aligned}$\r\n\r\n $\\implies$ Chọn đáp án B.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T16:36:47.971222+07:00",
+                        "updated_at": "2026-03-10T16:36:47.971222+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 1,
+                "content": "**PHÂN HỦY SINH HỌC NHỰA BỞI VI SINH VẬT**\n\n         Sự gia tăng ồ ạt của việc sử dụng nhựa trong các sản phẩm tiêu dùng đã dẫn đến hàng triệu tấn nhựa bị thải ra môi trường. Vi sinh vật đóng vai trò quan trọng trong quá trình phân hủy này. Hơn 90 chi vi khuẩn và nấm có khả năng phân hủy nhựa đã được phát hiện. Tuy nhiên, quá trình này diễn ra rất chậm. Các nghiên cứu trước đây chủ yếu tập trung phân lập và đánh giá khả năng phân hủy của từng chủng riêng lẻ mà chưa chú ý nhiều đến hiệu quả phân hủy khi các chủng được trộn cùng nhau.\n\n        Các nhà khoa học tại đại học Lagos đã thu thập mẫu đất từ bãi rác gần trường (nơi chứa nhiều loại nhựa trong thời gian dài). Chủng vi khuẩn *Pseudomonas* sp. và nấm *Aspergillus niger* được chọn lọc. Khả năng phân hủy nhựa Polyethylene mật độ thấp (LDPE) ở dạng nuôi cấy riêng lẻ và phối hợp được thử nghiệm trong ống nghiệm chứa môi trường nuôi cấy và một dải nhựa LDPE có trọng lượng ban đầu $0,1\\text{ g}$. Trọng lượng của dải nhựa và độ tăng trưởng sinh khối của vi sinh vật được kiểm tra định kì. Kết quả thí nghiệm được biểu diễn trong các đồ thị sau:\n$/image_{https://zpi.cx/b/S6MinSY.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_sinh",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": "YY984XK4",
+                "created_at": "2026-03-10T21:36:12.224367+07:00",
+                "updated_at": "2026-03-11T11:37:17.662581+07:00",
+                "questions": [
+                    {
+                        "id": "de785d72-6303-42c4-a47e-55a51db1d559",
+                        "parent_id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
+                        "position": 1,
+                        "content": "Đâu là mục đích chính của nghiên cứu thực hiện bởi các nhà khoa học trường đại học Lagos?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Để phân lập các chủng vi sinh vật mới có khả năng phân hủy nhựa."
+                                },
+                                {
+                                    "content": "Để so sánh khả năng phân hủy nhựa giữa vi khuẩn *Pseudomonas* sp. và nấm *Aspergillus niger*."
+                                },
+                                {
+                                    "content": "Để so sánh hiệu quả phân hủy nhựa của các chủng vi sinh vật dạng riêng lẻ và hỗn hợp."
+                                },
+                                {
+                                    "content": "Để xác định tốc độ phân hủy nhựa của vi sinh vật trong môi trường."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] xác định rõ lỗ hổng nghiên cứu là 'chưa chú ý nhiều đến hiệu quả phân hủy khi các chủng được trộn cùng nhau'. Đoạn [2] trực tiếp lấp lỗ hổng này bằng cách thiết kế thí nghiệm 'ở dạng nuôi cấy riêng lẻ và phối hợp'. Chọn C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T21:36:12.224367+07:00",
+                        "updated_at": "2026-03-10T21:36:12.224367+07:00"
+                    },
+                    {
+                        "id": "c699af92-1c2c-4bf4-815a-32727ee0b1b8",
+                        "parent_id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
+                        "position": 2,
+                        "content": "Đâu là lí do chính (về mặt khoa học) để các nhà khoa học chọn bãi rác trường Lagos để phân lập vi sinh vật?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Bãi rác gần phòng thí nghiệm thuận tiện cho việc lấy mẫu."
+                                },
+                                {
+                                    "content": "Bãi rác có môi trường thuận lợi cho vi sinh vật phát triển nên có nhiều loại vi sinh vật."
+                                },
+                                {
+                                    "content": "Bãi rác có nhiều loại nhựa khác nhau trong thời gian dài nên có thể có nhiều vi sinh vật phân hủy nhựa."
+                                },
+                                {
+                                    "content": "Tất cả các phương án trên."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [2] nhấn mạnh việc chọn mẫu đất bãi rác vì nơi đây 'chứa nhiều loại nhựa trong thời gian dài'. Sự tồn tại lâu dài của rác thải nhựa tạo áp lực chọn lọc tự nhiên, ép hệ vi sinh vật tại đây phải tiến hóa và tiết ra enzyme phân hủy nhựa để sinh tồn. Nhờ đó, xác suất thu thập được chủng vi sinh vật mục tiêu sẽ cao hơn. Chọn C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T21:36:12.224367+07:00",
+                        "updated_at": "2026-03-10T21:36:12.224367+07:00"
+                    },
+                    {
+                        "id": "7664442f-c4da-4f43-970b-58defabe4b24",
+                        "parent_id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
+                        "position": 3,
+                        "content": "Dựa vào dữ liệu từ Hình 2, nhận xét nào sau đây về sinh khối vi sinh vật trong thí nghiệm trên là KHÔNG ĐÚNG? (Có thể chọn nhiều hơn 1 đáp án)",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Độ tăng sinh khối của mẫu càng cao thì khả năng phân hủy nhựa bởi mẫu đó càng lớn."
+                                },
+                                {
+                                    "content": "Độ tăng sinh khối của hỗn hợp chủng sinh vật là lớn nhất ở cuối quá trình thí nghiệm."
+                                },
+                                {
+                                    "content": "Độ tăng sinh khối của *Aspergillus niger* cao hơn nhiều so với độ tăng sinh khối của *Pseudomonas* sp."
+                                },
+                                {
+                                    "content": "Mẫu nào có độ tăng sinh khối càng lớn thì có thời gian phân hủy nhựa càng nhanh."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"- A và D sai: Phân tích Hình 2, đường màu xanh (*A. niger*) tiến xa nhất trên trục hoành (đạt mức sinh khối $\\approx 2,4 \\times 10^8\\text{ tế bào/ml}$), cao hơn so với đường màu đen của hỗn hợp (chỉ đạt $\\approx 2,2 \\times 10^8\\text{ tế bào/ml}$). Tuy nhiên, trên trục tung, lượng nhựa của mẫu hỗn hợp lại giảm sâu nhất (phân hủy tốt nhất). Đồ thị chứng minh sinh khối lớn hơn không có nghĩa là phân hủy tốt hơn hay nhanh hơn. Các khẳng định tương quan thuận tuyệt đối ('càng... càng...') là sai thực tế. Chọn A và D.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T21:36:12.224367+07:00",
+                        "updated_at": "2026-03-10T21:36:12.224367+07:00"
+                    },
+                    {
+                        "id": "95426902-660d-4c2e-b170-f9413d063a9f",
+                        "parent_id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
+                        "position": 4,
+                        "content": "Đánh giá tính Đúng/Sai của các nhận định sau đây dựa trên số liệu đồ thị:",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Môi trường thí nghiệm này là điều kiện lý tưởng và phù hợp nhất cho sự phát triển của *Aspergillus niger*."
+                                },
+                                {
+                                    "content": "Chủng *Pseudomonas* sp. có hiệu suất phân hủy nhựa thấp nhất trong số các nghiệm thức nghiên cứu."
+                                },
+                                {
+                                    "content": "Hỗn hợp giữa hai chủng vi sinh vật cho thấy độ ổn định và khả năng phân hủy nhựa vượt trội hơn so với nuôi cấy chủng riêng lẻ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai: Thí nghiệm chỉ khảo sát khả năng phân hủy ở một điều kiện nuôi cấy cố định, không hề có các bước thay đổi thông số (pH, nhiệt độ) để đối chứng và kết luận đây là môi trường 'phù hợp nhất'.\n\r\n\r\n- b) Đúng: Trên cả Hình 1 và 2, đường màu đỏ (*Pseudomonas* sp.) luôn nằm cao nhất trên trục tung, tương ứng với lượng nhựa còn lại nhiều nhất $\\rightarrow$ hiệu suất phân hủy kém nhất.\r\n- c) Đúng: Đường màu đen (hỗn hợp) duy trì xu hướng giảm ổn định và kết thúc ở vị trí thấp nhất trên trục tung, chứng minh hiệu quả phối hợp vượt trội hơn hẳn.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T21:36:12.224367+07:00",
+                        "updated_at": "2026-03-10T21:36:12.224367+07:00"
+                    },
+                    {
+                        "id": "1c724cc9-a5ac-4eea-b48b-cc1bf3db5dd9",
+                        "parent_id": "45f5cc7a-a0ab-4975-949c-975b3e7eda50",
+                        "position": 5,
+                        "content": "Nếu thí nghiệm được tiếp tục với hiệu suất phân hủy LDPE không đổi, ước tính thời gian cần thiết tính từ lúc bắt đầu thí nghiệm để hỗn hợp hai chủng vi sinh vật phân hủy được một nửa lượng nhựa ban đầu là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_sinh",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Khoảng 220 ngày."
+                                },
+                                {
+                                    "content": "Khoảng 200 ngày."
+                                },
+                                {
+                                    "content": "Khoảng 180 ngày."
+                                },
+                                {
+                                    "content": "Khoảng 160 ngày."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- Trọng lượng nhựa ban đầu là $10,0\\text{ g/l}$. Để phân hủy 'một nửa', lượng nhựa cần mất đi là $5,0\\text{ g/l}$.\n\n\n- Đọc Hình 1 đối với hỗn hợp (đường màu đen): Tại $t = 60\\text{ ngày}$, trọng lượng nhựa còn lại khoảng $8,5\\text{ g/l}$.\n\n- Khối lượng nhựa đã bị phân hủy sau 60 ngày là: $10,0 - 8,5 = 1,5\\text{ g/l}$.\n\n- Tốc độ phân hủy trung bình của hỗn hợp: $v = \\dfrac{1,5}{60} = 0,025\\text{ g/l/ngày}$.\n\n- Thời gian cần thiết để phân hủy $5,0\\text{ g/l}$ nhựa: $t = \\dfrac{5,0}{0,025} = 200\\text{ ngày}$.\n\nChọn B.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T21:36:12.224367+07:00",
+                        "updated_at": "2026-03-10T21:36:12.224367+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 1,
+                "content": "** CƠ CHẾ XÂM NHẬP VÀ LÂY NHIỄM CỦA VIRUS NIPAH**\nVirus Nipah (NiV) là một loại paramyxovirus (thuộc chi Henipavirus, phân họ Paramyxovirinae, họ Paramyxoviridae, bộ Mononegavirales), một loại virus mới nổi có thể gây bệnh hô hấp nặng và viêm não gây tử vong ở người. Virus này vốn đã xuất hiện từ lâu và hiện nay bùng phát tại Ấn Độ. Cục Phòng bệnh – Bộ Y tế nhận định, không loại trừ khả năng có thể ghi nhận trường hợp bệnh xâm nhập về từ vùng có dịch (đặc biệt trong thời gian tới vào dịp Tết Nguyên đán, mùa Lễ hội đầu năm $2026$) hoặc mầm bệnh lây truyền từ sự di cư của động vật hoang dã.\nQuá trình xâm nhập của virus được khởi đầu bằng sự liên kết có ái lực cao giữa miền cấu trúc cánh quạt beta ($\\beta$-propeller) sáu cánh của protein G với các thụ thể ephrin-B2 hoặc ephrin-B3 của tế bào vật chủ. Tương tác này kích hoạt quá trình gấp lại của glycoprotein F. Protein F hình thành một bó sáu xoắn, tạo điều kiện cho sự dung hợp màng tế bào virus để xâm nhập vào tế bào.\n$/image_{https://zpi.cx/b/VElNaXQ.png?dl=1}_{center}_{100}_{block}$\nDơi ăn quả đóng vai trò là vật chủ chứa tự nhiên của virus Nipah. Từ dơi, virus đã vượt qua rào cản loài thường xuyên sang một số loài khác, bao gồm cả con người, thông qua lây truyền gián tiếp, nhưng sau đó lây truyền từ người sang người lại hạn chế. Sự lây truyền virus Nipah (NiV) sang người chủ yếu xảy ra ở những nơi người, lợn và dơi tiếp xúc gần nhau. Người dân nuôi lợn để kinh tế và trồng cây ăn quả trong và xung quanh trang trại để tạo bóng mát. Dơi thuộc loài Pteropus spp., là vật chủ chứa virus NiV, bị thu hút bởi trái cây, do đó virus NiV lây lan sang lợn/động vật và cả người. Thịt lợn nhiễm bệnh được vận chuyển khắp các châu lục, dẫn đến sự lây truyền virus từ động vật ở một nơi trên thế giới sang người ở nơi khác.\nVirus Nipah (NiV) lây truyền qua việc tiêu thụ thực phẩm bị nhiễm virus và tiếp xúc với động vật bị nhiễm bệnh hoặc dịch cơ thể người. Các yếu tố nguy cơ bao gồm tiếp xúc gần, ví dụ như chạm vào, cho ăn hoặc chăm sóc người bị nhiễm virus, do đó tạo điều kiện thuận lợi cho việc lây nhiễm NiV qua giọt bắn.\n*(Dẫn theo: Singh RK, Dhama K, Chakraborty S, Tiwari R, Natesan S, Khandia R, Munjal A, Vora KS, Latheef SK, Karthik K, Singh Malik Y, Singh R, Chaicumpa W, Mourya DT. Nipah virus: epidemiology, pathology, immunobiology and advances in diagnosis, vaccine designing and control strategies - a comprehensive review. Vet Q. 2019)*",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": "2EKEFIUP",
+                "created_at": "2026-03-10T22:11:06.750284+07:00",
+                "updated_at": "2026-03-11T11:37:29.432334+07:00",
+                "questions": [
+                    {
+                        "id": "c8e57864-f7ee-40e1-8723-3873db70e1ae",
+                        "parent_id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
+                        "position": 1,
+                        "content": "Các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Cục Phòng bệnh – Bộ Y tế cảnh báo có nguy cơ xâm nhập bệnh từ Ấn Độ vào nước ta."
+                                },
+                                {
+                                    "content": "Quá trình xâm nhập bắt đầu khi protein G liên kết với thụ thể, kích hoạt sự gấp lại của glycoprotein F."
+                                },
+                                {
+                                    "content": "Các protein G và protein F nằm trên bề mặt virus, đóng vai trò quan trọng giúp virus xâm nhập vào tế bào."
+                                },
+                                {
+                                    "content": "Việc chăm sóc, cho ăn hoặc chạm vào người nhiễm bệnh là các yếu tố nguy cơ lây nhiễm."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh trích xuất dữ kiện từ văn bản để kiểm chứng từng nhận định.\n\r\n* Với câu a: Đoạn 1 nêu rõ 'không loại trừ khả năng có thể ghi nhận trường hợp bệnh xâm nhập về từ vùng có dịch... Ấn Độ' $\\implies$ phát biểu là đúng.\r\n* Với câu b: Đoạn 2 giải thích cơ chế 'khởi đầu bằng sự liên kết... của protein G với các thụ thể... kích hoạt quá trình gấp lại của glycoprotein F' $\\implies$ phát biểu là đúng.\r\n* Với câu c: Từ sơ đồ và đoạn 2, protein G và F tương tác trực tiếp với màng tế bào vật chủ để bám dính và dung hợp màng $\\implies$ phát biểu là đúng.\r\n* Với câu d: Đoạn cuối khẳng định 'Các yếu tố nguy cơ bao gồm tiếp xúc gần, ví dụ như chạm vào, cho ăn hoặc chăm sóc người bị nhiễm' $\\implies$ phát biểu là đúng.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "31ccc3bb-dc23-4af5-be84-cc19a7cccf62",
+                        "parent_id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 2,
+                        "content": "Virus Nipah phụ thuộc vào enzyme sao chép DNA của vật chủ trong nhân tế bào để thực hiện quá trình nhân lên.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng."
+                                },
+                                {
+                                    "content": "Sai."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh quan sát sơ đồ vòng đời lây nhiễm để rút ra cơ chế di truyền của virus.\nSơ đồ ghi rõ ở bước 5 là 'Sao chép RNA', đồng thời toàn bộ quá trình phiên mã, dịch mã và sao chép đều diễn ra ở bào tương (lưới nội chất), không xâm nhập vào nhân tế bào của vật chủ. Do đó, virus Nipah là virus RNA và không phụ thuộc vào enzyme sao chép DNA trong nhân.\n ",
+                        "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-11T10:30:53.252522+07:00"
+                    },
+                    {
+                        "id": "165bfbfc-57ad-42e7-b0f7-4bd4af39ee99",
+                        "parent_id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
+                        "position": 3,
+                        "content": "Sắp xếp các ý sau theo đúng thứ tự về sự lây truyền của virus Nipah:\n1.Lợn và các động vật khác ăn trái cây bị nhiễm virus. Lợn đóng vai trò là vật chủ trung gian cũng như vật chủ khuếch đại.\n2.Dơi ăn quả đóng vai trò là vật chủ tự nhiên của virus Nipah. Dơi ăn quả mang virus NiV thường ăn nhựa cây chà là. Virus có thể tồn tại trong dung dịch giàu đường, ví dụ như thịt quả. Virus lây truyền sang người qua việc ăn nhựa cây chà là.\n3.Thịt lợn nhiễm virus NiV được xuất khẩu sang các vùng khác và lây nhiễm cho con người.\n4.Dơi ăn quả thuộc giống Pteropus spp., là vật chủ mang virus NiV, thường đến các cây ăn quả và có cơ hội làm rơi vãi các giọt chứa virus.\nThứ tự đúng: (1) ____ (2) ____ (3) ____ (4) ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "1",
+                                "2",
+                                "3",
+                                "4"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3,
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh xâu chuỗi logic lây nhiễm dựa vào đoạn văn số 3.\nVật chủ tự nhiên khởi phát là dơi (B), sau đó dơi đến các vùng trồng cây và làm rơi vãi mầm bệnh (D). Lợn nuôi gần đó ăn phải và trở thành vật chủ trung gian (A). Cuối cùng, con người buôn bán thịt lợn nhiễm bệnh đi nơi khác làm phát tán virus (C). Vậy thứ tự chuỗi lây nhiễm đúng là B-D-A-C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "0a48efcb-2264-4768-82eb-f70dc794c28d",
+                        "parent_id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 4,
+                        "content": "Dựa vào cơ chế lây truyền trong văn bản, biện pháp phòng dịch nào sau đây là hiệu quả nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tiêm vắc xin cho toàn bộ người dân trong vùng dịch."
+                                },
+                                {
+                                    "content": "Che chắn chuồng trại để ngăn dơi tiếp cận máng ăn của lợn và không trồng cây ăn quả sát chuồng nuôi."
+                                },
+                                {
+                                    "content": "Kiểm dịch chặt chẽ với thịt lợn, cấm vận chuyển thịt lợn từ nơi có dịch."
+                                },
+                                {
+                                    "content": "Vận động người dân đeo khẩu trang khi tiếp xúc, hạn chế đến những nơi đông người."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh đánh giá các biện pháp dựa trên nguồn gốc lây lan chính được mô tả trong bài.\nVăn bản nhấn mạnh: 'Sự lây truyền virus Nipah (NiV) sang người chủ yếu xảy ra ở những nơi người, lợn và dơi tiếp xúc gần nhau. Người dân nuôi lợn... và trồng cây ăn quả trong và xung quanh... Dơi bị thu hút bởi trái cây, do đó virus NiV lây lan sang lợn'.\nDo đó, việc cắt đứt trung gian truyền lây từ dơi sang lợn bằng cách che chắn chuồng trại và không trồng cây thu hút dơi sát chuồng lợn là biện pháp xử lý tận gốc hiệu quả nhất dựa trên cơ sở dữ liệu bài cho. Các biện pháp C và D là biện pháp ngọn, trong khi A chưa được nhắc đến là có khả năng thực thi.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-11T21:03:33.250276+07:00"
+                    },
+                    {
+                        "id": "e12f22b3-5e76-43c5-b4a0-203b070ed5c1",
+                        "parent_id": "ae9fe9a5-b803-4a0e-99fc-03bba2e62a44",
+                        "position": 5,
+                        "content": "Kéo thả các từ khóa sau vào chỗ trống:\nCác loại thuốc kháng virus Nipah có thể sử dụng các cơ chế như ức chế cạnh tranh để ngăn cản (1) ____ bám vào tế bào; khóa chặt (2) ____ khiến nó không thể thay đổi cấu hình để giúp virus chui vào bên trong; nhắm vào (3) ____, thành phần đóng vai trò then chốt trong việc lắp ráp và nảy chồi để ngăn virus con hình thành và thoát ra ngoài.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "protein M",
+                                "thụ thể ephrin-B2/B3",
+                                "protein F",
+                                "protein G",
+                                "bộ sáu xoắn"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    3
+                                ],
+                                [
+                                    2
+                                ],
+                                [
+                                    0
+                                ]
+                            ]
+                        },
+                        "answer_detail": "Đây là câu hỏi tư duy bậc 3. Thí sinh cần phân tích sơ đồ cơ chế lây nhiễm và ghép nối chức năng của các protein bề mặt với cơ chế tác dụng của thuốc.\n\n* Tại vị trí (1): Theo đoạn văn và bước 1 trong hình, sự 'bám dính' được thực hiện bởi protein G. Vậy cần ức chế protein G.\n* Tại vị trí (2): Đoạn văn mô tả protein G kích hoạt 'sự gấp lại của glycoprotein F', hình thành 'bó sáu xoắn' để dung hợp màng (giúp virus chui vào). Vậy khóa chặt protein F sẽ ngăn nó thay đổi cấu hình.\n* Tại vị trí (3): Bước 8 trong sơ đồ có ghi chú 'Cô lập NiV-M' nằm ngay trước quá trình 'Nảy chồi' (bước 9) và tạo hình virus mới. Suy ra protein M là nhân tố cần nhắm tới để ngăn chặn lắp ráp.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 3,
+                "content": "** CÁC YẾU TỐ ẢNH HƯỞNG TỚI TỐC ĐỘ PHẢN ỨNG**\n       Tốc độ phản ứng là thước đo mức độ tiến triển của phản ứng hóa học nhanh hay chậm, được tính bằng biến thiên nồng độ chất tham gia phản ứng hoặc sản phẩm phản ứng trong một đơn vị thời gian. Tốc độ phản ứng phụ thuộc bản chất các chất tham gia phản ứng và điều kiện tiến hành phản ứng như nồng độ, nhiệt độ, áp suất, chất xúc tác.\n\n        Mối liên hệ giữa tốc độ phản ứng với nồng độ các chất tham gia phản ứng được biểu diễn theo biểu thức: $v = k.C_A^p.C_B^q$ với $k$ là hằng số tốc độ phản ứng, $C_A$ và $C_B$ là nồng độ của chất A và B, $p$ và $q$ là bậc phản ứng riêng của các chất A và B tương ứng.\n\n        Hằng số tốc độ phản ứng $k$ được tính theo biểu thức Arrhenius như sau: $k = A.e^{\\frac{-E_a}{RT}}$ với $E_a$ là năng lượng hoạt hóa của phản ứng, $T$ là nhiệt độ (Kelvin) và $A$ phụ thuộc bản chất của các chất tham gia phản ứng, $R = 8,314 \\text{ J/mol.K}$.\n\n         Chất xúc tác là chất làm thay đổi tốc độ phản ứng bằng cách tham gia các giai đoạn trung gian của phản ứng nhưng vẫn giữ nguyên về khối lượng và thành phần hóa học sau phản ứng. Nó làm thay đổi năng lượng hoạt hóa của phản ứng.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": "G8DKMSH5",
+                "created_at": "2026-03-10T22:11:06.750284+07:00",
+                "updated_at": "2026-03-11T11:37:39.691045+07:00",
+                "questions": [
+                    {
+                        "id": "d1827f61-cf2d-40e5-8445-737db488b5e6",
+                        "parent_id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
+                        "position": 1,
+                        "content": "Chọn các nhận định đúng ảnh hưởng của các yếu tố đến tốc độ phản ứng.",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Nhiệt độ càng cao thì tốc độ phản ứng càng cao."
+                                },
+                                {
+                                    "content": "Chất xúc tác có vai trò làm tăng năng lượng hoạt hóa."
+                                },
+                                {
+                                    "content": "Nồng độ các chất phản ứng càng thấp thì phản ứng diễn ra càng chậm."
+                                },
+                                {
+                                    "content": "Nếu giảm áp suất thì phản ứng diễn ra càng nhanh."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phân tích các yếu tố động học hóa học dựa trên văn bản.\n\n* Nhiệt độ ($T$) tăng làm $e^{\\dfrac{-E_a}{RT}}$ tăng $\\implies$ hằng số $k$ tăng $\\implies$ tốc độ phản ứng tăng (phát biểu A đúng).\n* Chất xúc tác làm giảm năng lượng hoạt hóa ($E_a$), không phải làm tăng (phát biểu B sai).\n* Nồng độ ($C_A$, $C_B$) giảm làm cho tích số $C_A^p.C_B^q$ giảm $\\implies$ tốc độ phản ứng giảm (phát biểu C đúng).\n* Giảm áp suất đối với hệ khí thường đồng nghĩa với giảm nồng độ, khiến phản ứng chậm lại, không phải nhanh hơn (phát biểu D sai).\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "4919e22c-e653-4f7e-b040-4765b641ca4b",
+                        "parent_id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 2,
+                        "content": "Các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Tốc độ của phản ứng hoá học có thể có giá trị âm hoặc dương."
+                                },
+                                {
+                                    "content": "Trong cùng một phản ứng hoá học, tốc độ tạo thành của các chất sản phẩm khác nhau là khác nhau."
+                                },
+                                {
+                                    "content": "Tốc độ của phản ứng hoá học thể hiện mức độ nhanh hay chậm của chất phản ứng được sử dụng hoặc sản phẩm được tạo thành."
+                                },
+                                {
+                                    "content": "Tốc độ tức thời của phản ứng hóa học là $v = \\lim_{\\Delta t \\to 0} \\dfrac{\\Delta C}{\\Delta t}$ với $\\Delta C$ là biến thiên nồng độ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh cần nắm vững định nghĩa quy ước về tốc độ phản ứng.\n\nTốc độ có thể âm hoặc dương   SAI    Tốc độ phản ứng ($v$) luôn là đại lượng không âm ($v \\ge 0$).\n\nTốc độ tạo thành mọi sản phẩm là như nhau    SAI   Phụ thuộc vào hệ số tỉ lượng trong phương trình hóa học.\n\nTốc độ thể hiện mức độ nhanh/chậm      ĐÚNG     Đây là định nghĩa cơ bản của tốc độ phản ứng.\n\nTốc độ tức thời: $v = \\lim_{\\Delta t \\to 0} \\dfrac{|\\Delta C|}{\\Delta t}$     Đúng     Tốc độ tại một thời điểm chính là giới hạn khi $|\\Delta t|$ tiến về 0.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-12T19:52:21.57989+07:00"
+                    },
+                    {
+                        "id": "1993860a-d63b-407f-afaf-c7ddb7681237",
+                        "parent_id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
+                        "position": 3,
+                        "content": "Với một phản ứng có sự tham gia của nhiều chất, nhóm học sinh muốn xác định bậc phản ứng riêng của từng chất. Có hai phương án được đưa ra:\nPhương án 1: Thay đổi nồng độ chất cần nghiên cứu và cố định nồng độ ban đầu của các chất còn lại.\nPhương án 2: Thay đổi nồng độ chất cần nghiên cứu và các chất còn lại được lấy với lượng thật dư (hàng trăm lần).\nPhương án nào sau đây có thể được áp dụng?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Phương án 1."
+                                },
+                                {
+                                    "content": "Phương án 2."
+                                },
+                                {
+                                    "content": "Cả hai phương án đều được."
+                                },
+                                {
+                                    "content": "Không thể áp dụng phương án nào."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh nhận diện phương pháp thực nghiệm trong động học.\nPhương án 1 là phương pháp tốc độ ban đầu, giữ cố định các yếu tố khác để xét sự phụ thuộc của vận tốc vào một chất duy nhất. Phương án 2 là phương pháp cô lập (pseudofirst-order hoặc tương đương), khi một chất lấy dư rất lớn thì nồng độ của nó coi như không đổi trong suốt phản ứng, giúp cô lập bậc phản ứng của chất đang khảo sát. Do đó, cả hai phương án đều hợp lý để xác định bậc phản ứng riêng.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "088d1344-150a-4692-bd98-d1722afa6bc4",
+                        "parent_id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 4,
+                        "content": "Đồ thị nào trong số các đồ thị dưới đây biểu diễn đúng mối quan hệ giữa $\\ln k$ (trục tung) và $1/T$ (trục hoành)",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/7mXf07h.png?dl=1}_{center}_{100}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/v7Co7.png?dl=1}_{center}_{100}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/lkJA4n.png?dl=1}_{center}_{100}_{block}$"
+                                },
+                                {
+                                    "content": "$/image_{https://zpi.cx/b/16KWH.png?dl=1}_{center}_{100}_{block}$"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh biến đổi phương trình Arrhenius để tìm mối quan hệ tuyến tính.\nLấy logarit tự nhiên hai vế của phương trình $k = A.e^{\\dfrac{-E_a}{RT}}$, ta có:\n\n\n$\\begin{aligned} \\ln k = \\ln A - \\dfrac{E_a}{R} \\cdot \\dfrac{1}{T} \\end{aligned}$\n\n\nĐặt $y = \\ln k$ và $x = \\dfrac{1}{T}$, phương trình có dạng bậc nhất $y = - \\dfrac{E_a}{R} \\cdot x + \\ln A$.\nVì $E_a$ và $R$ luôn dương nên hệ số góc $-\\dfrac{E_a}{R}$ là một số âm. Suy ra đồ thị là một đường thẳng nghịch biến (đi xuống). Đồ thị D biểu diễn chính xác nhất mối quan hệ này.\n",
+                        "option_columns": 2,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:12:43.119723+07:00"
+                    },
+                    {
+                        "id": "8a4f95fe-3332-43cb-8dfd-b14cf8eed938",
+                        "parent_id": "e91e71b4-17f8-45ba-bc40-c911f310ee36",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 5,
+                        "content": "Khảo sát phản ứng $2\\text{ClO}_2 + 2\\text{OH}^- \\rightarrow \\text{ClO}_3^- + \\text{ClO}_2^- + \\text{H}_2\\text{O}$, người ta làm ba thí nghiệm độc lập và thu được các dữ liệu sau:\n$/image_{https://zpi.cx/b/p56VgsB.png?dl=1}_{center}_{100}_{block}$\nTốc độ phản ứng của phản ứng trên là $v = k.[\\text{ClO}_2]^a.[\\text{OH}^-]^b$ với $a =$ (1) ____ và $b =$ (2) ____.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "2"
+                                ],
+                                [
+                                    "1"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 3. Thí sinh xử lý số liệu thực nghiệm để tìm bậc phản ứng.\nDựa vào phương pháp tính tốc độ trung bình ($\\Delta C / \\Delta t$) và lập tỉ lệ giữa các thử nghiệm:\n\n* Khi giữ nguyên $[\\text{OH}^-]$ và tăng nồng độ $[\\text{ClO}_2]$ lên gấp đôi, tốc độ phản ứng tính toán được tăng lên xấp xỉ 4 lần ($2^2 = 4$). Suy ra bậc phản ứng theo $\\text{ClO}_2$ là $a = 2$.\n* Khi giữ nguyên $[\\text{ClO}_2]$ và tăng nồng độ $[\\text{OH}^-]$ lên gấp đôi, tốc độ phản ứng tăng lên xấp xỉ 2 lần ($2^1 = 2$). Suy ra bậc phản ứng theo $\\text{OH}^-$ là $b = 1$.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-11T21:07:48.914689+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 4,
+                "content": "**ẨN NHIỆT VÀ QUÁ TRÌNH CHUYỂN PHA**\nẨn nhiệt (latent heat) là năng lượng được cung cấp hay bị lấy đi để chuyển trạng thái (pha) của một chất mà không thay đổi nhiệt độ của nó. Thuật ngữ chuyển pha (hoặc thay đổi pha) được sử dụng phổ biến để mô tả sự chuyển tiếp giữa các trạng thái rắn, lỏng và khí của vật chất và đôi khi là trạng thái plasma (trường hợp ít gặp) (Hình 1). Ẩn nhiệt nóng chảy, ẩn nhiệt hóa hơi, ẩn nhiệt thăng hoa tương ứng liên quan đến các quá trình chuyển pha rắn - lỏng, lỏng - khí, rắn - khí ở một nhiệt độ và áp suất nhất định.\nXét sự chuyển pha lỏng - khí của nước. Để đun nước đến nhiệt độ sôi, ta cần cung cấp nhiệt lượng. Đến nhiệt độ sôi nếu cấp thêm nhiệt lượng, nước không trở nên nóng hơn, mà hóa hơi với thể tích tăng đáng kể. Dưới dạng hơi, nước chứa nhiều năng lượng hơn ở dạng lỏng, mặc dù hơi nước không nóng hơn. Khi hơi nước ngưng tụ thành nước thể lỏng, năng lượng được giải phóng, trong khi nhiệt độ vẫn không đổi (quá trình đẳng nhiệt) và thể tích giảm đi. Trong hai quá trình bay hơi và ngưng tụ, năng lượng là bằng nhau và chỉ khác nhau về dấu liên quan đến quá trình nhận hay giải phóng năng lượng.\nỞ một pha xác định (rắn, lỏng, khí...) có thể coi nhiệt dung hoặc nhiệt dung riêng của vật là không đổi. Nhiệt dung là nhiệt lượng cần thiết nâng nhiệt độ của vật tăng thêm 1°C trong khi nhiệt dung riêng (của một chất) là nhiệt lượng cần thiết để tăng nhiệt độ của một ki-lô-gram (kg) khối lượng chất đó thêm 1°C.\n*(Hình 1: Sơ đồ sự chuyển thể giữa các pha (rắn, lỏng, khí, plasma).)*\n$/image_{https://zpi.cx/b/EU5R3N7.png?dl=1}_{center}_{50}_{block}$\n*Bảng 1. Nhiệt độ thay đổi theo nhiệt nhận.*\n$/image_{https://zpi.cx/b/Uc0SOb.png?dl=1}_{center}_{100}_{block}$",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": "QWW7KH0I",
+                "created_at": "2026-03-10T14:27:18.712384+07:00",
+                "updated_at": "2026-03-11T11:37:48.736723+07:00",
+                "questions": [
+                    {
+                        "id": "3a45d20b-6c8c-4df2-af00-bb47c7fef99d",
+                        "parent_id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
+                        "position": 1,
+                        "content": "Lựa chọn đúng/sai cho các phương án sau:",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Trong quá trình hóa hơi của nước, nhiệt độ của nước không đổi."
+                                },
+                                {
+                                    "content": "Với một lượng nước không đổi, ẩn nhiệt ngưng tụ và ẩn nhiệt hóa hơi là như nhau."
+                                },
+                                {
+                                    "content": "Khi đông đặc từ nước thành đá, nước sẽ nhận thêm một lượng nhiệt từ bên ngoài."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "\"- a) Đúng. Đoạn [2] chỉ rõ: 'Đến nhiệt độ sôi nếu cấp thêm nhiệt lượng, nước không trở nên nóng hơn' (nhiệt độ giữ nguyên ở quá trình đẳng nhiệt).\n\r\n\r\n- b) Đúng. Theo đoạn [2]: 'Trong hai quá trình bay hơi và ngưng tụ, năng lượng là bằng nhau và chỉ khác nhau về dấu'. Do đó giá trị độ lớn ẩn nhiệt là như nhau.\r\n- c) Sai. Quá trình đông đặc là quá trình ngược lại với nóng chảy (nhận nhiệt). Khi đông đặc, chất lỏng phải tỏa (giải phóng) nhiệt lượng ra môi trường chứ không phải nhận thêm.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:27:18.712384+07:00",
+                        "updated_at": "2026-03-10T14:27:18.712384+07:00"
+                    },
+                    {
+                        "id": "ff57ae60-192f-4a1b-8cd4-2ed1e454b358",
+                        "parent_id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
+                        "position": 2,
+                        "content": "Kéo thả các ô vuông vào vị trí thích hợp:\nLượng nhiệt cần thiết để nâng nhiệt độ của một lượng nước thêm 1°C là (1) ____. Từ đồ thị Hình 2 và Bảng 1 ta có thể xác định được (2) ____ của nước ở thể đá và ẩn nhiệt (3) ____ ứng với quá trình đá tan chảy.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "nóng chảy",
+                                "ngưng tụ",
+                                "nhiệt dung riêng",
+                                "năng lượng",
+                                "nhiệt dung"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                4,
+                                2,
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"- (1): Theo định nghĩa ở đoạn [3], 'Nhiệt dung là nhiệt lượng cần thiết nâng nhiệt độ của vật tăng thêm 1°C'. Do đó điền 'nhiệt dung'.\n\r\n\r\n- (2): Đồ thị Hình 2 và Bảng 1 cung cấp dữ liệu cho 1 kg nước. Từ lượng nhiệt cần thiết để nâng nhiệt độ 1 kg nước (ở thể đá, lỏng, khí) lên 1°C, ta xác định được 'nhiệt dung riêng' ($c$).\r\n- (3): Quá trình đá tan chảy thành nước (rắn sang lỏng) được gọi là sự nóng chảy. Nhiệt lượng tương ứng để chuyển pha này gọi là 'ẩn nhiệt nóng chảy'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:27:18.712384+07:00",
+                        "updated_at": "2026-03-10T14:27:18.712384+07:00"
+                    },
+                    {
+                        "id": "cfa6a5e8-d29b-45c8-b8a8-dfadebafe2b2",
+                        "parent_id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
+                        "position": 3,
+                        "content": "Từ thông tin đã cho em hãy lựa chọn các phương án ĐÚNG (có thể chọn nhiều đáp án):",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Để chuyển một kg đá ở âm 100°C hoàn toàn thành hơi ở 100°C cần nhiệt lượng là 3229kJ."
+                                },
+                                {
+                                    "content": "Nhiệt lượng cần cấp để nâng nhiệt độ của một kg nước ở nhiệt độ 0°C lên 100°C là 420kJ."
+                                },
+                                {
+                                    "content": "Nước chỉ có hai dạng thể pha là đá (thể rắn), nước (thể lỏng)."
+                                },
+                                {
+                                    "content": "Ẩn nhiệt nóng chảy là 544kJ/kg."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"- Phân tích A (Đúng): Nhìn vào Bảng 1, quá trình bắt đầu cấp nhiệt (Q=0) là ở -100°C. Điểm mà nước sôi hóa hơi hoàn toàn kết thúc tại mức năng lượng nhận lũy kế là Q = 3229 kJ (nhiệt độ vẫn đang ở 100°C trước khi tăng lên tiếp).\n\r\n\r\n- Phân tích B (Đúng): Tại 0°C (nước lỏng bắt đầu tăng nhiệt), Q đã nhận lũy kế là 544 kJ. Khi đến 100°C (vừa bắt đầu sôi), Q = 964 kJ. Nhiệt lượng cần riêng cho đoạn này: $\\Delta Q = 964 - 544 = 420$ kJ.\r\n- Phân tích C (Sai): Nước còn có thể tồn tại ở thể khí (hơi nước).\r\n- Phân tích D (Sai): Quá trình nóng chảy của 1kg đá (ở 0°C) xảy ra từ mốc Q = 210 kJ đến mốc Q = 544 kJ. Ẩn nhiệt nóng chảy = $544 - 210 = 334$ kJ/kg.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:27:18.712384+07:00",
+                        "updated_at": "2026-03-10T14:27:18.712384+07:00"
+                    },
+                    {
+                        "id": "50934293-7389-46c9-bd9d-ef4c2617b2ed",
+                        "parent_id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
+                        "position": 4,
+                        "content": "Điền một số vào chỗ trống:\nLượng nhiệt cần thiết để chuyển 2kg nước ở thể rắn từ nhiệt độ $-50^\\circ C$ thành hơi ở $100^\\circ C$ là: (1) ____ kJ.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "6248"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Bài toán yêu cầu tính tổng nhiệt lượng cho 2kg. Bước 1: Phân tích các thông số nhiệt của 1kg nước từ Bảng 1.\n\r\n\r\n- Nhiệt dung riêng của đá ($c_{đá}$): Để tăng 1kg đá từ $-100^\\circ C$ lên $0^\\circ C$, cần 210 kJ. Vậy $c_{đá} = \\dfrac{210}{100} = 2,1$ kJ/(kg.K).\r\n- Nhiệt lượng cần để đưa 1kg đá từ $-50^\\circ C$ lên $0^\\circ C$: $Q_1 = 1 \\times 2,1 \\times 50 = 105$ kJ.\r\n- Ẩn nhiệt nóng chảy của 1kg đá: $Q_2 = 544 - 210 = 334$ kJ.\r\n- Nhiệt lượng để đun 1kg nước lỏng từ $0^\\circ C$ lên $100^\\circ C$: $Q_3 = 964 - 544 = 420$ kJ.\r\n- Ẩn nhiệt hóa hơi của 1kg nước sôi: $Q_4 = 3229 - 964 = 2265$ kJ.\r\nTổng nhiệt lượng cần cho 1kg: $Q_{tổng(1kg)} = 105 + 334 + 420 + 2265 = 3124$ kJ.\r\nBước 2: Tính cho 2kg.\r\n$Q_{tổng(2kg)} = 3124 \\times 2 = 6248$ kJ. (Điền số 6248).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:27:18.712384+07:00",
+                        "updated_at": "2026-03-10T14:27:18.712384+07:00"
+                    },
+                    {
+                        "id": "6ee8f46e-c24e-46d8-9b61-835d91d4cf0b",
+                        "parent_id": "a4ab63fc-454e-4efa-b112-0108de302cf0",
+                        "position": 5,
+                        "content": "Một người cho vào nhiệt lượng kế một hỗn hợp 1,2kg nước ở 30°C và 2kg đá (nước đá) ở -20°C. Bỏ qua sự tỏa nhiệt ra môi trường và nhiệt của nhiệt lượng kế. Hỗn hợp cuối cùng là:",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "nước ở thể đá, nhiệt độ là -1,25°C"
+                                },
+                                {
+                                    "content": "nước ở nhiệt độ 21°C"
+                                },
+                                {
+                                    "content": "nước và đá ở nhiệt độ 0°C"
+                                },
+                                {
+                                    "content": "nước ở thể lỏng ở nhiệt độ 0°C"
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào dữ liệu tính được từ Bảng 1 ở câu trước: $c_{nước} = 4,2$ kJ/(kg.K); $c_{đá} = 2,1$ kJ/(kg.K); Ẩn nhiệt nóng chảy của đá $\\lambda = 334$ kJ/kg.\n\r\n\r\n- Giả sử toàn bộ 1,2kg nước hạ nhiệt độ từ $30^\\circ C$ xuống $0^\\circ C$, nhiệt lượng tỏa ra tối đa là:\r\n$Q_{tỏa} = m_1 \\cdot c_{nước} \\cdot \\Delta t = 1,2 \\times 4,2 \\times 30 = 151,2$ kJ.\r\n- Nhiệt lượng cần thiết để làm khối đá 2kg tăng từ $-20^\\circ C$ lên $0^\\circ C$ là:\r\n$Q_{thu1} = m_2 \\cdot c_{đá} \\cdot \\Delta t = 2 \\times 2,1 \\times 20 = 84$ kJ.\r\n- Nhận thấy $Q_{tỏa} \u003e Q_{thu1}$ ($151,2 \u003e 84$), nên toàn bộ lượng đá sẽ đạt tới $0^\\circ C$. Hệ thống còn dư ra một lượng nhiệt năng để làm tan đá: $\\Delta Q = 151,2 - 84 = 67,2$ kJ.\r\n- Khối lượng đá có thể bị làm nóng chảy bởi phần nhiệt dư này là: $m_{tan} = \\dfrac{\\Delta Q}{\\lambda} = \\dfrac{67,2}{334} \\approx 0,2$ kg.\r\nVì $0,2$ kg \u003c $2$ kg, lượng đá không bị tan hết. Hệ thống đạt trạng thái cân bằng nhiệt có sự tồn tại song song của cả nước và đá. Quá trình chuyển pha đang diễn ra dở dang, nên nhiệt độ cân bằng dừng lại ở $0^\\circ C$. Đáp án C.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:27:18.712384+07:00",
+                        "updated_at": "2026-03-10T14:27:18.712384+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 4,
+                "content": "** LOA ĐIỆN ĐỘNG**\nLoa là một thiết bị điện thanh, dùng để biến đổi năng lượng điện thành năng lượng cơ học. Nhờ vào cấu tạo đặc biệt của loa có màng bức xạ dao động theo dạng sóng của âm thanh làm cho các phần tử khí xung quanh màng bức xạ cũng dao động tín hiệu đầu vào và phát ra của âm thanh.\n$/image_{https://zpi.cx/b/e10fO.png?dl=1}_{center}_{90}_{block}$\nHình ảnh trên là cấu tạo đơn giản của loa điện động. Dòng điện từ amply đến cuộn dây đồng trong loa biến đổi sinh ra một từ trường, từ trường này hút và đẩy với nam châm. Vì nam châm đã được cố định nên cuộn dây đồng sẽ được di chuyển làm rung màng loa và tạo sóng âm. Dòng điện sẽ đổi chiều liên tục với tần số thay đổi sẽ tạo ra âm trầm, âm bổng khác nhau.\nCuộn dây động của loa nằm trong từ trường của nam châm có cực bắc (N) ở trong lòng cuộn dây, cực nam (S) ở vòng chung quanh cuộn dây. Khi dòng điện âm tần chạy qua cuộn dây động của loa thì nó sinh ra một từ trường biến đổi. Cuộn dây động nằm trong từ trường biến đổi thì sẽ di chuyển dọc theo khe từ, theo quy luật bàn tay trái. Do đó, khi dòng điện âm tần chạy qua cuộn dây động thì cuộn dây sẽ rung theo nhịp điệu đó. Rung động này truyền sang màng loa, làm cho màng loa rung động, nên tai nghe được âm thanh.\nÂm thanh hình thành dựa trên sự chuyển động nên kích thước của loa cũng bị ảnh hưởng bởi tần số âm thanh mà nó có thể tái tạo tốt nhất. Màng loa lớn làm chuyển động nhiều không khí nhưng không thể chuyển động nhanh được, vì thế dùng để tạo âm trầm. Còn với màng loa nhỏ chuyển ít không khí nhưng làm chuyển động nhanh dùng tạo âm bổng.",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": "AJ93AFNN",
+                "created_at": "2026-03-10T22:11:06.750284+07:00",
+                "updated_at": "2026-03-11T11:38:18.761812+07:00",
+                "questions": [
+                    {
+                        "id": "13a3d32e-d426-4a8b-9ba4-a094bb2e9ef5",
+                        "parent_id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
+                        "position": 1,
+                        "content": "Bộ phận nào dưới đây **không** có trong cấu tạo loa?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Màng loa."
+                                },
+                                {
+                                    "content": "Khung dây quay."
+                                },
+                                {
+                                    "content": "Cuộn dây dẫn."
+                                },
+                                {
+                                    "content": "Nam châm vĩnh cửu."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh quan sát sơ đồ cấu tạo và trích xuất thông tin.\nDựa vào sơ đồ và mô tả, loa điện động gồm màng loa (nón loa), cuộn dây đồng dẫn điện và nam châm. Bộ phận dao động chuyển động tịnh tiến dọc theo khe từ chứ không quay, do đó 'Khung dây quay' không nằm trong cấu tạo của loa (đây thường là chi tiết của động cơ điện hoặc điện kế).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "5156f6f2-73b7-455a-b42b-422f8cf0bbf6",
+                        "parent_id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
+                        "position": 2,
+                        "content": "Từ thông (được ký hiệu $\\Phi$) là tổng số đường sức từ đi qua một bề mặt kín. Hiện tượng cảm ứng điện từ là quá trình hình thành một suất điện động hay dòng điện cảm ứng trong một vật dẫn (như cuộn dây) khi từ thông xuyên qua mạch kín đó biến thiên theo thời gian.\nLoa điện động chính là ứng dụng của hiện tượng cảm ứng điện từ.",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đúng."
+                                },
+                                {
+                                    "content": "Sai."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phân biệt cơ chế vật lý nền tảng.\nĐoạn 1 nêu rõ: 'Loa là một thiết bị... dùng để biến đổi năng lượng điện thành năng lượng cơ học'. Sự chuyển động của màng loa là do lực từ tác dụng lên dòng điện âm tần chạy qua cuộn dây đặt trong từ trường của nam châm (tác dụng của lực từ - quy tắc bàn tay trái). Ngược lại, hiện tượng cảm ứng điện từ là biến năng lượng cơ học thành năng lượng điện (ứng dụng làm micro điện động). Do đó kết luận này là sai.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "7722a0e8-5d98-412f-9cc0-24d395713245",
+                        "parent_id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
+                        "position": 3,
+                        "content": "Các nhận định sau là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Trong loa điện động có sự chuyển hóa trực tiếp tín hiệu điện thành sóng âm."
+                                },
+                                {
+                                    "content": "Để tăng âm lượng của loa phát ra, ta cần tăng tần số âm thanh phát ra."
+                                },
+                                {
+                                    "content": "Khi cho dòng điện không đổi vào hai điểm nối tín hiệu điện thì loa sẽ chỉ phát ra duy nhất một tần số âm thanh."
+                                },
+                                {
+                                    "content": "Cuộn dây và màng loa dao động theo cùng tần số đầu vào, làm âm thanh phát ra có cùng tần số."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                false,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh đánh giá sự tương quan giữa các đại lượng vật lý đặc trưng.\n\r\n* Với câu a: Quá trình chuyển hóa phải thông qua năng lượng cơ học trung gian (dòng điện $\\rightarrow$ lực từ $\\rightarrow$ màng loa rung cơ học $\\rightarrow$ sóng âm). Không có sự chuyển hóa trực tiếp $\\implies$ phát biểu sai.\r\n* Với câu b: Âm lượng (độ to) phụ thuộc vào biên độ dao động của màng loa. Tần số quyết định độ cao (âm trầm, âm bổng) $\\implies$ phát biểu sai.\r\n* Với câu c: Dòng điện không đổi (DC) sẽ tạo ra lực từ không đổi, đẩy màng loa lệch đi một vị trí cố định và đứng im tại đó. Sóng âm chỉ sinh ra khi có sự rung động liên tục (dòng xoay chiều) $\\implies$ phát biểu sai.\r\n* Với câu d: Tần số của dòng điện âm tần quyết định trực tiếp tần số rung của cuộn dây và màng loa $\\implies$ phát biểu đúng.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "b8c70e6d-ef10-4567-a8e8-26fb601a7d32",
+                        "parent_id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 4,
+                        "content": "Quy tắc bàn tay trái được phát biểu như sau: Đặt bàn tay trái sao cho các đường sức từ hướng vào lòng bàn tay, chiều từ cổ tay đến ngón tay giữa hướng theo chiều dòng điện thì ngón tay cái choãi ra 90 độ chỉ chiều của lực điện từ.\nKéo thả các từ khóa sau vào chỗ trống:\nĐường sức từ của nam châm trong loa điện động là những đường thẳng từ cực Bắc đến cực Nam. Xét dòng điện chạy theo chiều mũi tên, thì theo quy tắc bàn tay trái, (1) ____ của loa sẽ bị (2) ____. Khi dòng điện đổi chiều, nó sẽ bị (3) ____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "kéo lên",
+                                "cuộn dây động",
+                                "nam châm",
+                                "kéo xuống"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    1
+                                ],
+                                [
+                                    0
+                                ],
+                                [
+                                    3
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh áp dụng lý thuyết lực Lorentz/Ampe.\nTrong loa điện động, bộ phận dịch chuyển do chịu lực từ là (1) cuộn dây động.\nÁp dụng quy tắc bàn tay trái vào hình ảnh mặt cắt, với đường sức từ hướng xuyên tâm ra ngoài và giả sử dòng điện đang chạy theo chiều tạo lực đẩy vào trong, cuộn dây sẽ bị (2) kéo xuống.\nKhi dòng điện đổi chiều, lực từ lập tức đổi chiều ngược lại, làm cuộn dây bị (3) kéo lên, tạo thành dao động nhịp nhàng.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-12T19:39:19.18833+07:00"
+                    },
+                    {
+                        "id": "f2d3c22a-c96d-4f9d-bc43-c8a49370b50b",
+                        "parent_id": "c1146d62-7b9e-4dce-8656-12bd7ca70e9d",
+                        "position": 5,
+                        "content": "         Lực từ tác dụng lên đoạn dây dẫn thẳng tuân thủ quy tắc bàn tay trái và có độ lớn là $F = B.I.l.\\sin\\alpha$ với $B$ là độ lớn cảm ứng từ (T), $I$ là cường độ dòng điện (A) và theo định luật Ôm thì $I = U/R$ với $U$ là hiệu điện thế (V), $R$ là điện trở ($\\Omega$), $l$ là độ dài đoạn dây (m), $\\alpha$ là góc giữa $\\vec{B}$ và $\\vec{I}$.\n\n          Biết từ trường của nam châm trong loa có độ lớn cảm ứng từ là $0,075\\ \\text{T}$. Cuộn dây có đường kính khoảng $7,2\\ \\text{cm}$, gồm 20 vòng dây và có điện trở là $5,8\\ \\Omega$. \n\nKhi kết nối với nguồn có hiệu điện thế $12\\ \\text{V}$, lực từ tác dụng trên cuộn dây có độ lớn là (1) ____ N, kết quả làm tròn đến chữ số thập phân thứ nhất, lấy $\\pi = 3,14$.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "0,7"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 3. Thí sinh kết hợp công thức từ trường, hình học và định luật Ohm để giải.\nBước 1: Tính chiều dài tổng cộng của cuộn dây ($l$).\r\nĐường kính $d = 7,2\\ \\text{cm} = 0,072\\ \\text{m}$.\r\nChu vi một vòng dây $= \\pi \\times d = 3,14 \\times 0,072\\ \\text{m}$.\r\nVới $N = 20$ vòng dây, tổng chiều dài là:\r\n\r\n\r\n$\\begin{aligned} l \u0026= N \\times \\pi \\times d \\\\ \u0026= 20 \\times 3,14 \\times 0,072 = 4,5216\\ \\text{m} \\end{aligned}$\r\n\r\n\r\nBước 2: Tính cường độ dòng điện ($I$).\r\n\r\n\r\n$\\begin{aligned} I \u0026= \\dfrac{U}{R} = \\dfrac{12}{5,8} \\approx 2,06896\\ \\text{A} \\end{aligned}$\r\n\r\n\r\nBước 3: Tính lực từ ($F$).\r\nVì đường sức từ hướng xuyên tâm vuông góc với vòng dây quấn $\\implies \\alpha = 90^\\circ, \\sin 90^\\circ = 1$.\r\n\r\n\r\n$\\begin{aligned} F \u0026= B \\times I \\times l \\times \\sin\\alpha \\\\ \u0026= 0,075 \\times \\dfrac{12}{5,8} \\times 4,5216 \\times 1 \\\\ \u0026\\approx 0,7016\\ \\text{N} \\end{aligned}$\r\n\r\n\r\nLàm tròn đến một chữ số thập phân, ta có kết quả là $0,7\\ \\text{N}$.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "d15a0e78-8014-4b81-8027-688143ffdac3",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 6,
+                "content": "**GIẢI PHÁP ĐIỆN MẶT TRỜI HYBRID CHO QUY MÔ GIA ĐÌNH**\nTrước xu hướng chuyển dịch sang năng lượng tái tạo, các hệ thống điện mặt trời tích hợp bộ lưu trữ pin lithium-ion cùng khối điều khiển thông minh đang dần trở thành lựa chọn ưu tiên của nhiều hộ gia đình và tổ chức. Cấu tạo của mỗi tấm pin năng lượng bao gồm rất nhiều tế bào quang điện, được chế tạo từ vật liệu silic tinh khiết có pha thêm một lượng nhỏ tạp chất. Cơ chế sinh điện của hệ thống này tuân theo hiện tượng quang điện: khi bị các photon ánh sáng mặt trời mang mức năng lượng đủ lớn tác động, các electron sẽ dứt khỏi mạng tinh thể và di chuyển tạo ra dòng điện một chiều (DC). Khả năng chuyển đổi năng lượng của tấm pin chịu ảnh hưởng bởi nhiều thông số như: mức bức xạ mặt trời (đơn vị $W/m^2$), góc đặt tấm pin, nhiệt độ làm việc, tình trạng vệ sinh mặt kính và độ tốt của lớp phủ chống lóa.\nDòng điện sinh ra sẽ được nạp thẳng vào hệ thống pin lưu trữ lithium-ion (có mức dung lượng thiết kế là 8 kWh, với hiệu suất quá trình sạc đạt 90% và xả đạt 92%). Cụm pin này được hình thành từ nhiều cell ghép nối tiếp và song song với nhau, mỗi cell mang thông số điện áp 3,6 V và dung lượng 3 Ah. Toàn bộ mảng pin mặt trời sở hữu mức công suất cực đại là 4 kW, tuy nhiên hiệu năng phát điện thực tế vào giữa trưa thường đạt khoảng 80%. Để đảm bảo an toàn, khối lưu trữ được bảo vệ bằng lớp vỏ hợp kim nhôm cách nhiệt, giúp ngăn ngừa tình trạng quá nhiệt và hạn chế tối đa rủi ro cháy nổ. Trung tâm của hệ thống là bộ điều khiển thông minh bao gồm một thiết bị biến tần (chuyển đổi dòng DC thành AC) đạt hiệu suất 95%, đi kèm module kết nối Wifi và hệ thống quản lý BMS. BMS có vai trò liên tục theo dõi điện áp, dòng điện, nhiệt độ và sẽ chủ động ngắt mạch nếu có sự cố. Thêm vào đó, hệ thống còn được tích hợp các cảm biến đo lường bức xạ, nhiệt độ xung quanh và ứng dụng công nghệ truyền dữ liệu không dây để tối ưu hóa quá trình vận hành, gia tăng tuổi thọ thiết bị cũng như kiểm soát tốt lượng điện tiêu thụ trong nhà.\n$/image_{https://zpi.cx/b/1cju6h.png?dl=1}_{center}_{100}_{block}$\n**Sơ đồ cấu tạo hệ thống điện mặt trời Hybrid **",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": "U9K7JJPM",
+                "created_at": "2026-03-10T14:57:52.190878+07:00",
+                "updated_at": "2026-03-11T11:38:40.77667+07:00",
+                "questions": [
+                    {
+                        "id": "1d24da3e-a5da-4ec6-b454-bebf0fa69003",
+                        "parent_id": "d15a0e78-8014-4b81-8027-688143ffdac3",
+                        "position": 1,
+                        "content": "Hiệu ứng quang điện trong tấm pin mặt trời xảy ra khi nào?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Mức nhiệt độ của hệ thống tăng lên gây ra sự sụt giảm về điện áp."
+                                },
+                                {
+                                    "content": "Lực tĩnh điện Coulomb kéo các electron di chuyển về phía cực dương."
+                                },
+                                {
+                                    "content": "Các photon chiếu tới mang năng lượng thấp hơn mức cần thiết để giải phóng electron."
+                                },
+                                {
+                                    "content": "Các photon chiếu tới mang năng lượng lớn hơn mức năng lượng liên kết của electron."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Dựa trên thuyết lượng tử ánh sáng, hiện tượng quang điện chỉ xảy ra khi năng lượng của photon ánh sáng kích thích lớn hơn hoặc bằng công thoát (mức năng lượng liên kết) của electron trong vật liệu cấu tạo nên tấm pin.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:57:52.190878+07:00",
+                        "updated_at": "2026-03-10T14:57:52.190878+07:00"
+                    },
+                    {
+                        "id": "41fe79ed-db21-4ab0-8a14-a4948c1c80de",
+                        "parent_id": "d15a0e78-8014-4b81-8027-688143ffdac3",
+                        "position": 2,
+                        "content": "Dựa vào sơ đồ minh họa, hãy xác định tên gọi chính xác của các thành phần tương ứng với ký hiệu A, B và E (biết rằng F và G đóng vai trò là các thiết bị tiêu thụ điện năng trong nhà):\nThiết bị A là (1) ____. Thiết bị B là (2) ____. Thiết bị E là (3) ____.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                "Đồng hồ đo điện",
+                                "Bộ chuyển đổi dòng điện",
+                                "Pin lưu trữ điện",
+                                "Tấm pin năng lượng mặt trời",
+                                "Bộ phát wifi",
+                                "Lưới điện quốc gia"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    3
+                                ],
+                                [
+                                    1
+                                ],
+                                [
+                                    2
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Quan sát sơ đồ mô hình ta thấy: Bộ phận A nằm ngoài cùng để đón ánh sáng là Tấm pin năng lượng mặt trời; Bộ phận B làm nhiệm vụ xử lý dòng điện DC từ tấm pin là Bộ chuyển đổi dòng điện; Bộ phận E có hình dáng tủ chứa khối lượng lớn là Pin lưu trữ điện.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:57:52.190878+07:00",
+                        "updated_at": "2026-03-10T14:57:52.190878+07:00"
+                    },
+                    {
+                        "id": "a400bb45-4de1-45dd-84b3-47b62d2cc7db",
+                        "parent_id": "d15a0e78-8014-4b81-8027-688143ffdac3",
+                        "position": 3,
+                        "content": "Giả định công ty điện lực tạm ngưng cung cấp điện lưới từ 8 giờ sáng đến 16 giờ chiều nhằm mục đích bảo dưỡng. Hệ thống của hộ gia đình trên vẫn hoạt động vào một ngày trời nắng gắt và khối pin lưu trữ vẫn đang đầy điện. ",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Nhóm thiết bị F vẫn duy trì tình trạng hoạt động bình thường."
+                                },
+                                {
+                                    "content": "Nhóm thiết bị G bị ngắt hoàn toàn do không có nguồn từ lưới điện."
+                                },
+                                {
+                                    "content": "Module phát tín hiệu wifi vẫn tiếp tục làm việc không bị gián đoạn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"a) Đúng: Tấm pin thu được nhiều năng lượng (do nắng gắt) kết hợp với pin lưu trữ, qua biến tần đảm bảo nguồn cung cho phụ tải. \\n b) Sai: Dù mất điện lưới, hệ thống Hybrid vẫn tự động cung cấp năng lượng cho thiết bị G thông qua bộ chuyển đổi DC sang AC. \\n c) Đúng: Các thành phần điều khiển thông minh như Wifi được cấp nguồn nội bộ liên tục để duy trì giám sát hệ thống độc lập.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:57:52.190878+07:00",
+                        "updated_at": "2026-03-10T14:57:52.190878+07:00"
+                    },
+                    {
+                        "id": "82f60f89-f73e-452d-b6c6-df0089dd9b58",
+                        "parent_id": "d15a0e78-8014-4b81-8027-688143ffdac3",
+                        "position": 4,
+                        "content": "Trong một ngày nọ, khoảng thời gian 4 tiếng từ 10 giờ sáng đến 14 giờ chiều, bức xạ mặt trời chiếu xuống các tấm pin rất ổn định. Suốt lúc này, hệ thống trích ra 2 kW điện năng để chạy trực tiếp các thiết bị nhóm F. Lượng năng lượng dư thừa được chuyển thẳng vào nạp cho khối pin lưu trữ. (Biết rằng mức công suất phát điện thực tế đạt 80% mức công suất đỉnh).\nTổng điện năng mà khối pin mặt trời sản xuất được trong 4 giờ đó là (1) ____ (kWh).\nSau 4 giờ sạc liên tục, lượng điện năng thực tế đi vào pin lưu trữ là (2) ____ (kWh).",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "12,8"
+                                ],
+                                [
+                                    "4,32"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Mức công suất vận hành thực tế của mảng pin: $4 \\times 0,8 = 3,2$ kW. \\n Tổng điện năng tạo ra trong thời gian 4 giờ: $W = 3,2 \\times 4 = 12,8$ kWh. \n\nĐiện năng cấp trực tiếp cho các thiết bị sinh hoạt: $W_{\\text{phụ tải}} = 2 \\times 4 = 8$ kWh. \n\n Năng lượng dôi dư đem đi sạc: $12,8 - 8 = 4,8$ kWh. \n\nNăng lượng thực tế lưu lại trong pin (tính theo hiệu suất sạc 90%): $W_{\\text{sạc}} = 4,8 \\times 0,9 = 4,32$ kWh.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:57:52.190878+07:00",
+                        "updated_at": "2026-03-10T14:57:52.190878+07:00"
+                    },
+                    {
+                        "id": "fb616242-4772-480f-8b03-1a691fb9083e",
+                        "parent_id": "d15a0e78-8014-4b81-8027-688143ffdac3",
+                        "position": 5,
+                        "content": "Cứ vào mỗi buổi tối, gia đình này lại xả 5 kWh điện năng từ khối pin lưu trữ (đã qua hệ thống biến tần) để sử dụng cho sinh hoạt. Giả sử thay vì dùng pin, gia đình phải mua toàn bộ lượng điện tiêu dùng ban đêm này từ lưới điện quốc gia liên tục trong một tháng (tính chẵn 30 ngày) với đơn giá 2025 đồng/kWh. Số tiền điện gia đình phải thanh toán thêm là bao nhiêu? (Làm tròn kết quả đến chữ số hàng chục).",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "224560 (đồng)."
+                                },
+                                {
+                                    "content": "257400 (đồng)."
+                                },
+                                {
+                                    "content": "265480 (đồng)."
+                                },
+                                {
+                                    "content": "265400 (đồng)."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Năng lượng dòng DC thực tế được rút ra từ khối pin (tính theo hiệu suất xả 92%): $5 \\times 0,92 = 4,6$ kWh. \n\n Năng lượng dòng xoay chiều AC thu được sau khi qua bộ biến tần (hiệu suất chuyển đổi 95%): $4,6 \\times 0,95 = 4,37$ kWh.\n\n Đây là mức điện năng thực tế cần bù đắp từ lưới điện mỗi ngày nếu không có hệ thống lưu trữ. \n\nTổng điện năng sử dụng trong 30 ngày: $4,37 \\times 30 = 131,1$ kWh. \n\nChi phí tiền điện ước tính phải trả: $131,1 \\times 2025 = 265477,5 \\approx 265480$ đồng. ",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T14:57:52.190878+07:00",
+                        "updated_at": "2026-03-10T14:57:52.190878+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "825803c1-e061-4445-b474-b056f003f819",
+                "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                "position": 46,
+                "content": "** PHƯƠNG PHÁP LOẠI BỎ ION $Ni^{2+}$ TRONG NƯỚC THẢI**\n\n       Ở dạng nguyên tố, kim loại nặng trong nước không gây hại nhiều cho sức khỏe con người. Tuy nhiên, khi tồn tại ở dạng ion thì đây là những chất kịch độc, gây nên những ảnh hưởng bất thường, dẫn tới nhiều bệnh và tật nguy hiểm. Theo quy chuẩn kỹ thuật quốc gia về chất lượng nước sạch sử dụng cho mục đích sinh hoạt (QCVN 01-1:2018/BYT), hàm lượng $\\text{Ni}^{2+}$ trong nước phải nhỏ hơn $0,07\\ \\text{mg/L}$. Vượt qua con số này sẽ gây ngộ độc cho con người và là nguyên nhân tiềm ẩn các bệnh tim mạch, huyết áp,...\n\n      Học sinh nghiên cứu quá trình loại bỏ $\\text{Ni}^{2+}$ khỏi nước thải bằng phương pháp kết tủa hóa học. Sản phẩm thu được là chất rắn nên có thể loại bỏ ra khỏi dung dịch bằng phương pháp lọc. Trong nước, hydroxide ($\\text{OH}^-$) phản ứng với $\\text{Ni}^{2+}$ tạo thành nickel hydroxide monohydrate [$\\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}$] theo phương trình phản ứng:\n                           $Ni^{2+} + 2OH^- + H_2O \\rightarrow Ni(OH)_2 \\cdot H_2O$\nHọc sinh tiến hành $2$ thí nghiệm để nghiên cứu ảnh hưởng của thời gian phản ứng và phương pháp lọc đến quá trình loại bỏ $\\text{Ni}^{2+}$ ra khỏi dung dịch.\n\n(*) Thí nghiệm 1: Gồm $3$ thử nghiệm $1$, $2$ và $3$, mỗi thử nghiệm được tiến hành theo $4$ bước sau đây:\n\n      * Bước 1: Cho $32\\ \\text{mL}$ dung dịch $\\text{OH}^-\\ 1,0\\ \\text{mol/L}$ và $260\\ \\text{mL}$ dung dịch $\\text{Ni}^{2+}\\ 0,06\\ \\text{mol/L}$ vào cốc thủy tinh dung tích $500\\ \\text{mL}$.\n      * Bước 2: Khuấy đều hỗn hợp ở $22\\ ^\\circ\\text{C}$ trong các khoảng thời gian $10\\ \\text{phút}$, $3\\ \\text{ngày}$ và $7\\ \\text{ngày}$.\n      * Bước 3: Thu hồi kết tủa rắn bằng phễu lọc thông thường (Hình 1).\n      * Bước 4: Xác định nồng độ của $\\text{Ni}^{2+}$ trong dịch lọc (kí hiệu là $\\text{CNF}$ (mg/kg)).\n$/image_{https://zpi.cx/b/ELVNOtb.png?dl=1}_{left}_{60}_{block}$\n(*) Thí nghiệm 2: Gồm $3$ thử nghiệm $4$, $5$ và $6$. Tiến hành tương tự như thí nghiệm 1, riêng bước 3, chất rắn được thu hồi bằng phương pháp lọc chân không (Hình 2).\nKết quả của thí nghiệm 1 và 2 như sau:\n*bảng 1*\n$/image_{https://zpi.cx/b/NhhtnW.png?dl=1}_{center}_{100}_{block}$\nPhần tư khối của $Ni$ là $59$\n",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_ly",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": "",
+                "option_columns": 1,
+                "status": "inactive",
+                "access_code": "7HZEWDAU",
+                "created_at": "2026-03-10T22:11:06.750284+07:00",
+                "updated_at": "2026-03-11T11:38:04.657307+07:00",
+                "questions": [
+                    {
+                        "id": "b66ea82c-5b4e-442c-89d0-3812748c079f",
+                        "parent_id": "825803c1-e061-4445-b474-b056f003f819",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 1,
+                        "content": "Trong ngữ cảnh nghiên cứu xử lý nước thải và số liệu tại Bảng 1, đơn vị đo nồng độ CNF (mg/kg) được hiểu chính xác nhất là",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Số miligam ion $\\text{Ni}^{2+}$ có trong $1$ lít dịch lọc, giá trị này tương đương với nồng độ mol/L."
+                                },
+                                {
+                                    "content": "Khối lượng tính bằng mg của ion $\\text{Ni}^{2+}$ còn lại trong $1\\ \\text{kg}$ dung dịch thu được sau khi lọc."
+                                },
+                                {
+                                    "content": "Khối lượng của toàn bộ chất rắn kết tủa (tính bằng mg) thu được từ $1\\ \\text{kg}$ nước ban đầu."
+                                },
+                                {
+                                    "content": "Số miligam $\\text{Ni(OH)}_2$ đã bị loại bỏ ra khỏi $1\\ \\text{kg}$ dung dịch hỗn hợp nhờ phương pháp lọc."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phân tích định nghĩa biến số trong quy trình thực nghiệm.\nÝ 1: Sai. Vì $mg/kg$ là nồng độ theo khối lượng, không thể tương đương với nồng độ mol ($mol/L$).\n\nÝ 2: Sai. Nếu là lượng ion còn lại, chỉ số phải giảm theo thời gian. Trong bảng, CNF tăng dần (từ 6 lên 42), chứng tỏ đây là lượng sản phẩm sinh ra.\n\nÝ 3: Đúng. Phù hợp với đơn vị $mg/kg$ (khối lượng chất rắn/khối lượng mẫu) và xu hướng tăng dần của số liệu trong bảng khi thời gian phản ứng kéo dài.\n\nÝ 4: Sai. Đây là cách gọi tên cụ thể một chất, trong khi CNF trong ngữ cảnh thực nghiệm thường dùng để chỉ tổng lượng chất rắn (kết tủa) thu hồi được nói chung.",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-11T21:12:35.433537+07:00"
+                    },
+                    {
+                        "id": "41c39ef1-05ba-4471-b207-8429eb3dac17",
+                        "parent_id": "825803c1-e061-4445-b474-b056f003f819",
+                        "position": 2,
+                        "content": "Dựa vào Bảng 1, nhận định nào sau đây là chính xác nhất về ảnh hưởng của phương pháp lọc và thời gian phản ứng đến hiệu quả loại bỏ ion $\\text{Ni}^{2+}$?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Lọc chân không cho hiệu quả loại bỏ $\\text{Ni}^{2+}$ tốt hơn lọc thường tại mọi thời điểm."
+                                },
+                                {
+                                    "content": "Thời gian phản ứng càng dài thì nồng độ $\\text{Ni}^{2+}$ còn lại trong dịch lọc càng thấp."
+                                },
+                                {
+                                    "content": "Phương pháp lọc thường kết hợp với thời gian phản ứng ngắn ($10\\ \\text{phút}$) cho hiệu quả xử lý tốt nhất trong các thử nghiệm."
+                                },
+                                {
+                                    "content": "Ở cả hai phương pháp lọc, nồng độ $\\text{Ni}^{2+}$ trong dịch lọc giảm dần theo thời gian từ $10\\ \\text{phút}$ đến $7\\ \\text{ngày}$."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh đối chiếu dữ liệu định lượng trên Bảng 1 để đưa ra kết luận.\nHiệu quả loại bỏ càng tốt thì nồng độ $\\text{Ni}^{2+}$ tồn dư trong dịch lọc (giá trị CNF) phải càng thấp.\r\nDựa vào bảng số liệu: Thử nghiệm 1 ($10\\ \\text{phút}$, lọc thường) có CNF thấp nhất là $6\\ \\text{mg/kg}$. Các thử nghiệm lọc chân không (4, 5, 6) đều có CNF rất cao ($58$ đến $73\\ \\text{mg/kg}$), chứng tỏ loại bỏ kém hơn. Ngoài ra, khi thời gian kéo dài lên $3\\ \\text{ngày}$ và $7\\ \\text{ngày}$, nồng độ CNF đều tăng lên ở cả hai phương pháp.\r\nDo đó, phương án C phản ánh đúng thực tế dữ liệu nhất. Các phương án A, B, D đều nêu xu hướng ngược lại với số liệu trong Bảng 1.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "12600ca0-8662-41f7-89a8-833f07d37209",
+                        "parent_id": "825803c1-e061-4445-b474-b056f003f819",
+                        "position": 3,
+                        "content": "Theo quy chuẩn QCVN 01-1:2018/BYT được nhắc đến trong bài, kết quả của thử nghiệm nào sau đây đạt tiêu chuẩn về hàm lượng $\\text{Ni}^{2+}$ cho nước sạch sử dụng sinh hoạt?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Chỉ thử nghiệm 1."
+                                },
+                                {
+                                    "content": "Chỉ thử nghiệm 1 và 2."
+                                },
+                                {
+                                    "content": "Tất cả các thử nghiệm đều đạt."
+                                },
+                                {
+                                    "content": "Không có thử nghiệm nào đạt tiêu chuẩn."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 2. Thí sinh phải liên kết thông tin tiêu chuẩn từ đoạn đầu với kết quả thực nghiệm.\nTheo đoạn 1, quy chuẩn kỹ thuật quốc gia yêu cầu hàm lượng $\\text{Ni}^{2+}$ phải nhỏ hơn $0,07\\ \\text{mg/L}$.\nVới dung dịch nước loãng, khối lượng riêng $\\text{D} \\approx 1\\ \\text{kg/L}$, nên $1\\ \\text{mg/kg} \\approx 1\\ \\text{mg/L}$.\nNhìn vào Bảng 1, mức nồng độ thấp nhất đạt được là $6\\ \\text{mg/kg}$ (ở thử nghiệm 1), giá trị này lớn hơn rất nhiều so với ngưỡng an toàn là $0,07\\ \\text{mg/L}$.\nVậy không có bất kỳ thử nghiệm nào xử lý nước đạt tiêu chuẩn sinh hoạt.\n",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "a2a25009-120f-47db-ab2a-2a486e12081e",
+                        "parent_id": "825803c1-e061-4445-b474-b056f003f819",
+                        "position": 4,
+                        "content": "Dựa vào phương trình phản ứng và điều kiện thí nghiệm đã cho ($32\\ \\text{mL}$ dung dịch $\\text{OH}^-\\ 1,0\\ \\text{mol/L}$ và $260\\ \\text{mL}$ dung dịch $\\text{Ni}^{2+}\\ 0,06\\ \\text{mol/L}$). Hãy đánh giá các nhận định sau:",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Xét về mặt lý thuyết (bỏ qua thực nghiệm), $\\text{OH}^-$ là chất phản ứng hết trong phản ứng tạo kết tủa."
+                                },
+                                {
+                                    "content": "Nếu hiệu suất phản ứng là 100%, khối lượng kết tủa lý thuyết thu được là khoảng $1,73\\ \\text{gam}$."
+                                },
+                                {
+                                    "content": "Trong thực tế thí nghiệm mô tả, yếu tố nhiệt độ ($22\\ ^\\circ\\text{C}$) được thay đổi liên tục để khảo sát ảnh hưởng của nó."
+                                },
+                                {
+                                    "content": "Tổng thể tích dung dịch sau khi trộn là $292\\ \\text{mL}$ (giả sử sự thay đổi thể tích khi trộn không đáng kể)."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                false,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 3. Thí sinh cần vận dụng kỹ năng tính toán hóa học để tìm lượng chất giới hạn và phân tích điều kiện thí nghiệm.\n\n* Với câu a: Số mol các chất ban đầu là:\n\n$\\begin{aligned} n_{\\text{OH}^-} \u0026= 0,032 \\times 1,0 = 0,032\\ \\text{mol} \\\\ n_{\\text{Ni}^{2+}} \u0026= 0,260 \\times 0,06 = 0,0156\\ \\text{mol} \\end{aligned}$\n\n\n\nTheo phương trình: $\\text{Ni}^{2+} + 2\\text{OH}^- \\rightarrow \\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}$, ta có tỉ lệ phản ứng là $1 : 2$. Cần $0,0156 \\times 2 = 0,0312\\ \\text{mol}\\ \\text{OH}^-$ để phản ứng hết với $\\text{Ni}^{2+}$. Vì $0,032 \u003e 0,0312 \\implies \\text{OH}^-$ dư, $\\text{Ni}^{2+}$ là chất phản ứng hết. $\\implies$ phát biểu sai. \n* Với câu b: Khối lượng kết tủa lý thuyết $m_{\\text{Ni(OH)}_2 \\cdot \\text{H}_2\\text{O}}$ tính theo $\\text{Ni}^{2+}$:\n\n$\\begin{aligned} m \u0026= n_{\\text{Ni}^{2+}} \\times \\text{M} \\\\ \u0026= 0,0156 \\times (59 + 17 \\times 2 + 18) \\\\ \u0026= 0,0156 \\times 111 = 1,7316\\ \\text{g} \\approx 1,73\\ \\text{g} \\end{aligned}$\n\n\n\n$\\implies$ phát biểu đúng.\n* Với câu c: Ở bước 2 có ghi 'Khuấy đều hỗn hợp ở $22\\ ^\\circ\\text{C}$', nghĩa là nhiệt độ được giữ cố định, các yếu tố được khảo sát thay đổi ở đây là thời gian ($10$ phút, $3$ ngày, $7$ ngày) và phương pháp lọc. $\\implies$ phát biểu sai.\n* Với câu d: Tổng thể tích $V = 32 + 260 = 292\\ \\text{mL}$. $\\implies$ phát biểu đúng.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:11:06.750284+07:00"
+                    },
+                    {
+                        "id": "69137621-c15d-4e10-9e06-33b3e5f803f7",
+                        "parent_id": "825803c1-e061-4445-b474-b056f003f819",
+                        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+                        "position": 5,
+                        "content": "Độ chênh lệch nồng độ $\\text{Ni}^{2+}$ giữa mẫu có hiệu quả xử lý tốt nhất và mẫu có hiệu quả xử lý kém nhất trong Bảng 1 là (1) ____ mg/kg.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_ly",
+                        "data_questions": {
+                            "answers": []
+                        },
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "67"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Đây là câu hỏi tư duy bậc 1. Thí sinh đọc và xử lý số liệu đơn giản từ bảng.\nMẫu xử lý tốt nhất (nồng độ $\\text{Ni}^{2+}$ dư thấp nhất) là thử nghiệm 1, $\\text{CNF} = 6\\ \\text{mg/kg}$.\r\nMẫu xử lý kém nhất (nồng độ $\\text{Ni}^{2+}$ dư cao nhất) là thử nghiệm 6, $\\text{CNF} = 73\\ \\text{mg/kg}$.\r\nĐộ chênh lệch nồng độ là:\r\n\r\n\r\n$73 - 6 = 67\\ \\text{mg/kg}$\r\n\r\n\r\nVậy giá trị cần điền là $67$.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-03-10T22:11:06.750284+07:00",
+                        "updated_at": "2026-03-10T22:13:53.95688+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "6ea955f6-a1a6-48e6-8117-42beaf32f270",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "34b48aee-8683-483e-a10c-f5bc3c0fb416",
+        "status": "in_progress",
+        "created_at": "2026-03-13T22:18:26.262527+07:00",
+        "updated_at": "2026-03-13T22:18:26.262527+07:00",
+        "submited_at": "2026-03-13T22:18:26.262527+07:00"
+    }
+}

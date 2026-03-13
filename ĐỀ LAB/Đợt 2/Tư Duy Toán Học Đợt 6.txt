@@ -1,0 +1,1462 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+        "title": "Tư Duy Toán Học Đợt 6",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_toan",
+        "time_take": 60,
+        "max_point": 40,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "s",
+        "question_quality": 40,
+        "is_published": true,
+        "link_answers": "s",
+        "created_at": "2026-01-14T20:39:29.718768+07:00",
+        "updated_at": "2026-01-24T16:26:32.339632+07:00",
+        "questions": [
+            {
+                "id": "44114ea8-e142-4951-85d8-7e2eebce0a35",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": " Cho hàm số $y = f\\left( x \\right)$ có bảng biến thiên như sau:\n$/image_{https://zpi.cx/b/6d3Be.png?dl=1}_{left}_{60}_{block}$\nĐồ thị hàm số đã cho có tổng bao nhiêu đường tiệm cận ngang và tiệm cận đứng?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 27,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "0"
+                        },
+                        {
+                            "content": "1"
+                        },
+                        {
+                            "content": "2"
+                        },
+                        {
+                            "content": "3"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Dựa vào bảng biến thiên:\n\n$\\lim_{x \\to -\\infty} f(x) = 2 \\implies$ Tiệm cận ngang $y = 2$.\n\n$\\lim_{x \\to +\\infty} f(x) = -2 \\implies$ Tiệm cận ngang $y = -2$.\n\n$\\lim_{x \\to 0^+} f(x) = -\\infty \\implies$ Tiệm cận đứng $x = 0$.\n\nVậy hàm số có 2 tiệm cận ngang và 1 tiệm cận đứng.\n\nTổng số đường tiệm cận là $2 + 1 = 3$.\n\nChọn 3.",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": "bfcbd293",
+                "created_at": "2025-11-06T23:56:57.15109+07:00",
+                "updated_at": "2026-01-19T18:59:13.765526+07:00"
+            },
+            {
+                "id": "0dae7107-172e-4b27-8bb8-431684cea297",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "** Phương trình $\\cos x + \\cos 3x + \\cos 5x = 3$ có bao nhiêu nghiệm thuộc khoảng $(0; 10\\pi)$?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "0"
+                        },
+                        {
+                            "content": "5"
+                        },
+                        {
+                            "content": "4"
+                        },
+                        {
+                            "content": "3"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Vì $\\cos u \\le 1$ nên tổng bằng 3 khi và chỉ khi $\\begin{cases} \\cos x = 1 \\\\ \\cos 3x = 1 \\\\ \\cos 5x = 1 \\end{cases} \\Leftrightarrow x = k2\\pi$.\n\nXét $x \\in (0; 10\\pi) \\Rightarrow 0 \u003c k2\\pi \u003c 10\\pi \\Leftrightarrow 0 \u003c k \u003c 5$.\nVì $k \\in \\mathbb{Z}$ nên $k \\in \\{1; 2; 3; 4\\}$. Có 4 nghiệm.",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-14T20:46:19.368256+07:00"
+            },
+            {
+                "id": "81767ae4-08c1-4ee4-8c1a-95d0c20e402c",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "** Cho tập hợp $A = \\{ x \\in \\mathbb{R} \\mid \\sqrt{\\sin x - 2} \\text{ xác định} \\}$. Tập $A$ là:",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\mathbb{R}$"
+                        },
+                        {
+                            "content": "$\\varnothing$"
+                        },
+                        {
+                            "content": "$\\{ k2\\pi \\}$"
+                        },
+                        {
+                            "content": "$[2; +\\infty)$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Điều kiện: $\\sin x - 2 \\ge 0 \\Leftrightarrow \\sin x \\ge 2$. Điều này vô lý vì $-1 \\le \\sin x \\le 1$. Vậy tập A rỗng.",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-19T13:06:12.164874+07:00"
+            },
+            {
+                "id": "d026cf86-5f56-4585-882d-ff5664cb9b2f",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Cho dãy số $(a_n) = \\left( (-1)^n \\cdot (a - 2) + (a + 1) + \\dfrac{2n + k}{n + 2} \\right)$. Biết $(a_n)$ là dãy hằng, giá trị $a_{2026}$ là:\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "1"
+                        },
+                        {
+                            "content": "2"
+                        },
+                        {
+                            "content": "4"
+                        },
+                        {
+                            "content": "5"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "Để dãy là dãy hằng thì hệ số của $(-1)^n$ phải bằng 0 $\\Rightarrow a-2=0 \\Rightarrow a=2$. \n\nPhân thức $\\dfrac{2n+k}{n+2}$ hằng khi $\\dfrac{2}{1} = \\dfrac{k}{2} \\Rightarrow k=4$. Khi đó $a_n = 0 + (2+1) + 2 = 5$.",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T11:12:44.892664+07:00",
+                "updated_at": "2026-01-19T13:06:26.878118+07:00"
+            },
+            {
+                "id": "29a625c6-29a3-4e50-a411-6293ddb057d9",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Xét tứ diện $ABCD$ có $AB = CD = 2$. Gọi $M, N$ lần lượt là trung điểm của $AD, BC$ và $MN = \\sqrt{3}$. Gọi $P$ là trung điểm của $AC$.\n\n$PM$ ____ $CD$.\n\n$\\cos (\\widehat{MPN})$ bằng ____.\n\nGóc giữa $AB, CD$ có giá trị bằng ____ (độ).\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "items": [
+                        "vuông góc",
+                        "song song",
+                        "trùng với",
+                        "$\\dfrac{1}{2}$",
+                        "$-\\dfrac{1}{2}$",
+                        "$\\dfrac{\\sqrt{3}}{2}$",
+                        "$30$",
+                        "$150$",
+                        "$120$",
+                        "$60$"
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        4,
+                        9
+                    ]
+                },
+                "answer_detail": "$P$ là trung điểm $AC \\Rightarrow PM$ là đường trung bình $\\Delta ACD \\Rightarrow PM // CD, PM=1$.\n\n$PN$ là đường trung bình $\\Delta ABC \\Rightarrow PN // AB, PN=1$.\n\n$\\Delta MPN$ có $MN = \\sqrt{3}, PM=1, PN=1$.\n\n$\\cos \\widehat{MPN} = \\dfrac{1^2+1^2-3}{2.1.1} = -\\dfrac{1}{2} \\Rightarrow \\widehat{MPN} = 120^\\circ$.\n\nGóc giữa $AB, CD$ là góc giữa $PN, PM$ bằng $180 - 120 = 60^\\circ$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-08T23:07:11.12587+07:00",
+                "updated_at": "2026-01-14T20:46:19.368256+07:00"
+            },
+            {
+                "id": "9bab2e51-8b77-4802-bef5-88943a029a05",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Cho $\\vec{n_1}, \\vec{n_2}$ lần lượt là vectơ pháp tuyến của hai mặt phẳng $(P), (Q)$. Biết $\\vec{n_1} \\cdot \\vec{n_2} = 0$. Khi đó khẳng định nào sau đây là khẳng định đúng?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$(P) \\perp (Q)$"
+                        },
+                        {
+                            "content": "$(P) // (Q)$"
+                        },
+                        {
+                            "content": "$(P) \\equiv (Q)$"
+                        },
+                        {
+                            "content": "Không xác định được vị trí tương đối giữa 2 mặt phẳng $(P), (Q)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Tích vô hướng hai vectơ pháp tuyến bằng 0 thì hai vectơ vuông góc, suy ra hai mặt phẳng vuông góc.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-09T16:30:09.308018+07:00",
+                "updated_at": "2026-01-14T20:46:19.368256+07:00"
+            },
+            {
+                "id": "08b279e8-9460-48c8-b48f-f168ae5f61f1",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "*** Điền số tự nhiên vào chỗ trống: ***\nCho mặt phẳng $(P)$ có phương trình tổng quát là $3x - 5y + z - 1 = 0$. Vectơ $\\vec{n} = (-6; 10; z_0)$ là một vectơ pháp tuyến của $(P)$. Giá trị của $z_0$ bằng ____.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "-2"
+                    ]
+                },
+                "answer_detail": "Vectơ pháp tuyến của $(P)$ là $\\vec{n}_{(P)} = (3; -5; 1)$.\r\n\r\nĐể $\\vec{n} = (-6; 10; z_0)$ là một VTPT của $(P)$ thì $\\vec{n}$ phải cùng phương với $\\vec{n}_{(P)}$.\r\n\r\nTa có tỉ lệ: $\\dfrac{-6}{3} = \\dfrac{10}{-5} = \\dfrac{z_0}{1} \\Rightarrow -2 = -2 = z_0$.\r\n\r\nVậy $z_0 = -2$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-09T16:30:09.308018+07:00",
+                "updated_at": "2026-01-19T18:59:13.765526+07:00"
+            },
+            {
+                "id": "a4c61876-0782-4562-af10-8a62acc9c441",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Một vườn ươm cây cảnh bán một cây sau 6 năm trồng và uốn tạo dáng. Tốc độ tăng trưởng của cây đó trong suốt 6 năm được tính xấp xỉ bởi công thức $h'(t) = 1,5t + 5$, trong đó $h(t)$ (cm) là chiều cao của cây sau $t$ (năm). Biết cây con khi được trồng cao 12 cm. (Nguồn: R. Larson and B. Edwards, Calculus 10e, Cengage 2014).\nCác mệnh đề sau là đúng hay sai?\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "$h(t)$ là một nguyên hàm của hàm số $h'(t) = 1,5t + 5$."
+                        },
+                        {
+                            "content": "$h(t) = \\dfrac{3}{2}t^2 + 5t + C$ với $C$ là một hằng số."
+                        },
+                        {
+                            "content": "Sau 2 năm trồng, chiều cao của cây đó đạt 25 cm."
+                        },
+                        {
+                            "content": "Chiều cao của cây đó khi được bán thấp hơn 70 cm."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        false,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "a) Đúng. Chiều cao là nguyên hàm của tốc độ tăng trưởng.\n\nb) Sai. $h(t) = \\displaystyle \\int (1,5t + 5)\\text{d}t = 0,75t^2 + 5t + C = \\dfrac{3}{4}t^2 + 5t + C$.\n\nc) Đúng. $h(0) = 12 \\Rightarrow C = 12 \\Rightarrow h(t) = 0,75t^2 + 5t + 12$. Tại $t=2: h(2) = 25$.\n\nd) Đúng. Khi bán ($t=6$): $h(6) =  69$ cm. $69 \u003c 70$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-11T14:54:13.914856+07:00",
+                "updated_at": "2026-01-14T20:46:19.368256+07:00"
+            },
+            {
+                "id": "90bb0305-102c-4974-930d-65b9c2f236a9",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Cho nguyên hàm $\\displaystyle I = \\int \\frac{dx}{1 + \\sin x}$. Để giải bài toán này, bạn Nam thực hiện phương pháp đổi biến bằng cách đặt $\\displaystyle t = \\tan \\frac{x}{2}$.Theo sách giáo khoa, bạn Nam xác định được các công thức biến đổi như sau: $\\displaystyle dx = \\frac{2dt}{1 + t^2}$ và $\\displaystyle \\sin x = \\frac{at}{b + t^2}$. Giá trị của $a$ là ____ và $b$ là ____. \n\nSau khi thay các biểu thức trên vào $I$ và tiến hành tính toán, Nam thu được kết quả cuối cùng có dạng:\n\nHàm số $\\displaystyle I $ bằng ____\n",
+                "difficulty": "M3",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "items": [
+                        "$2$",
+                        "$-1$",
+                        "$1$",
+                        "$-2$",
+                        " $-\\dfrac{a}{\\tan \\frac{x}{2} + b} + C$",
+                        " $-\\dfrac{b}{\\tan \\frac{x}{2} + a} -C$",
+                        "$ \\dfrac{a}{\\tan \\frac{x}{2} + b} + C$",
+                        "$ \\dfrac{b}{\\tan \\frac{x}{2} + a} - C$"
+                    ],
+                    "answers": [
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        2,
+                        4
+                    ]
+                },
+                "answer_detail": "Theo công thức lượng giác:\n\n\n$\\sin x = \\dfrac{2 \\tan \\dfrac{x}{2}}{1 + \\tan^2 \\dfrac{x}{2}} = \\dfrac{2t}{1 + t^2}$\n\nSo sánh với công thức đề bài $\\sin x = \\dfrac{at}{b + t^2}$, ta có:\n\n\n- **$a = 2$**\n- **$b = 1$**\n\n\n\nThay các biểu thức $dx = \\dfrac{2dt}{1 + t^2}$ và $\\sin x = \\dfrac{2t}{1 + t^2}$ vào $I$:\n\n\n$I = \\displaystyle \\int \\dfrac{1}{1 + \\dfrac{2t}{1 + t^2}} \\cdot \\dfrac{2dt}{1 + t^2} = \\displaystyle \\int \\dfrac{2dt}{t^2 + 2t + 1} = \\displaystyle \\int \\dfrac{2dt}{(t + 1)^2}$\n\n\n$I = -\\dfrac{2}{t + 1} + C$\n\n\n\nThay $t = \\tan \\dfrac{x}{2}$ và sử dụng các giá trị $a=2, b=1$ đã tìm được:\n\n\n$I = -\\dfrac{2}{\\tan \\dfrac{x}{2} + 1} + C$\n\nVậy đáp án phù hợp là: $-\\dfrac{a}{\\tan \\dfrac{x}{2} + b} + C$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T11:31:20.73189+07:00",
+                "updated_at": "2026-01-19T11:31:46.20436+07:00"
+            },
+            {
+                "id": "91833905-185f-456f-9468-6365336af36e",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Trong điều kiện nhất định, thời gian $T$ (đơn vị: giờ) dùng để huấn luyện một mô hình ngôn ngữ lớn với $N$ đơn vị dữ liệu được tính bởi $T = k \\log_2 N$, với $k$ là hằng số. Biết rằng, ở điều kiện này, khi khối lượng dữ liệu tăng từ $10^6$ đơn vị lên $1,024 \\times 10^9$ đơn vị thì thời gian huấn luyện tăng thêm 20 giờ. Vậy, với cùng điều kiện, khi khối lượng dữ liệu tăng từ $1,024 \\times 10^9$ đơn vị lên $4,096 \\times 10^9$ đơn vị thì thời gian huấn luyện tăng thêm\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "2 giờ."
+                        },
+                        {
+                            "content": "4 giờ."
+                        },
+                        {
+                            "content": "20 giờ."
+                        },
+                        {
+                            "content": "40 giờ."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "\n\n- Công thức: $T = k \\log_2 N$\n\n- Độ tăng thời gian huấn luyện: $\\Delta T = T(N_{sau}) - T(N_{trước}) = k \\log_2 \\left( \\dfrac{N_{sau}}{N_{trước}} \\right)$\n\n- Dữ kiện 1: $N_1 = 10^6$ và $N_2 = 1,024 \\times 10^9$.\n\n- $\\Delta T_1 = k \\log_2 \\left( \\dfrac{1,024 \\times 10^9}{10^6} \\right) = 20$\n\n- $\\iff k \\log_2 (2^{10}) = 20 \\iff 10k = 20$\n\n- **Vậy nên** $k = 2$.\n\n $N_2 = 1,024 \\times 10^9$ và $N_3 = 4,096 \\times 10^9$.\n\n- $\\iff \\Delta T_2 = 2 \\log_2 \\left( \\dfrac{4,096}{1,024} \\right) = 2 \\log_2 (4)=4$\n\n- **Vậy nên** $\\Delta T_2 = 4$ (giờ).\n",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T13:32:26.948999+07:00",
+                "updated_at": "2026-01-19T13:41:26.324511+07:00"
+            },
+            {
+                "id": "79965d51-68c8-4ce4-aa00-d24773e5a8fc",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Có bao nhiêu bộ số tự nhiên $(a, b, c, d, e)$ thoả mãn $a+b+c+d+e=12$ và $|a^2-b^2|=5$?\n",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "30."
+                        },
+                        {
+                            "content": "32."
+                        },
+                        {
+                            "content": "72."
+                        },
+                        {
+                            "content": "36."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "\n- $a, b, c, d, e$ là các số tự nhiên.\n- $|a^2 - b^2| = 5 \\iff (a+b)|a-b| = 5$.\n- Vì $a+b \\ge |a-b|$ và $a+b, |a-b|$ đều là số tự nhiên.\n- **Vậy nên** $\\begin{cases} a+b = 5 \\\\ |a-b| = 1 \\end{cases} \\iff \\begin{cases} a+b = 5 \\\\ a-b = \\pm 1 \\end{cases}$\n- Suy ra $(a, b) \\in \\{(3, 2); (2, 3)\\}$ (có **2 bộ**).\n\n- Vì $a+b = 5$ nên ta có $5 + c + d + e = 12 \\iff c + d + e = 7$.\n- Số nghiệm $(c, d, e) \\ge 0$ tự nhiên là số tổ hợp lặp:\n\n$H_3^7 = C_{7+3-1}^{3-1} = C_9^2 = 36 \\text{ (bộ)}$ ***( Chia kẹo euler)***\n\n- Tổng số bộ $(a, b, c, d, e)$ thỏa mãn là:  $2 \\times 36 = 72$",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T13:32:26.948999+07:00",
+                "updated_at": "2026-01-19T13:41:26.324511+07:00"
+            },
+            {
+                "id": "68808f53-c53c-4103-bb9c-07cfb299b46f",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "***Điền số tự nhiên vào chỗ trống:***\nChọn ngẫu nhiên 2 số nguyên thuộc đoạn $[2; 8]$, xác suất để hai số đó nguyên tố cùng nhau là $\\dfrac{a}{b}$ $a,b$ là phân số tối giản. Giá trị $a+b$ bằng ____\n",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 16,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$1/6$."
+                        },
+                        {
+                            "content": "$1/3$."
+                        },
+                        {
+                            "content": "$1/2$."
+                        },
+                        {
+                            "content": "$2/3$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "5"
+                    ]
+                },
+                "answer_detail": "\n\n- **Không gian mẫu:** $n(\\Omega) = C_7^2 = 21$\n\n- **Biến cố đối $\\bar{A}$ (hai số không nguyên tố cùng nhau):**\n\n\n- Cùng chia hết cho $2$: $\\{2, 4, 6, 8\\} \\implies C_4^2 = 6$ (cặp)\n- Cùng chia hết cho $3$: $\\{3, 6\\} \\implies C_2^2 = 1$ (cặp)\n- Cùng chia hết cho $4$: *tính theo cùng chia hết cho *$2$\n- $\\implies n(\\bar{A}) = 6 + 1 = 7$\n- **Xác suất:** $P(A) = 1 - \\dfrac{n(\\bar{A})}{n(\\Omega)} = 1 - \\dfrac{7}{21} = \\dfrac{2}{3}$\n\n**Đáp án: 5**\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T13:32:26.948999+07:00",
+                "updated_at": "2026-01-19T18:59:13.765526+07:00"
+            },
+            {
+                "id": "1aa03ee2-9895-4091-8c02-50f89aa32f1b",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Để đáp ứng nhu cầu của người dân về một cuộc sống tốt đẹp hơn, các cơ quan bảo vệ môi trường yêu cầu các doanh nghiệp liên quan tăng cường xử lý nước thải; các doanh nghiệp không đạt tiêu chuẩn về lượng nước thải phải khắc phục trong thời hạn quy định.\nGiả sử lưu lượng nước thải của một doanh nghiệp $W$ phụ thuộc vào thời gian $t$ theo hàm $W = f(t)$. Người ta dùng độ lớn của biểu thức $-\\dfrac{f(b)-f(a)}{b-a}$ để đánh giá năng lực xử lý nước thải của doanh nghiệp trong khoảng thời gian $[a; b]$. Biết rằng trong thời hạn khắc phục, mối quan hệ giữa lưu lượng xả thải và thời gian của hai doanh nghiệp $A$ và $B$ được biểu diễn ở đồ thị bên.\n$/image_{https://zpi.cx/b/IiSzN.png?dl=1}_{center}_{40}_{block}$\n\n\n",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Trong khoảng thời gian $[t_1; t_2]$, năng lực xử lý nước thải của doanh nghiệp $A$ mạnh hơn doanh nghiệp $B$."
+                        },
+                        {
+                            "content": "Tại thời điểm $t_2$, năng lực xử lý nước thải của $A$ mạnh hơn $B$."
+                        },
+                        {
+                            "content": "Tại thời điểm $t_3$, lưu lượng xả thải của cả $A$ và $B$ đều đã đạt tiêu chuẩn."
+                        },
+                        {
+                            "content": "Trong ba khoảng $[0; t_1], [t_1; t_2], [t_2; t_3]$, doanh nghiệp $A$ có năng lực xử lý nước thải mạnh nhất ở khoảng $[0; t_1]$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "Gọi $C$ là năng lực xử lý nước thải: $C = \\left| \\dfrac{f(b) - f(a)}{b - a} \\right|$.\n\n 1. Khoảng $[t_1; t_2]$\n- $f_A(t_1) \u003e f_B(t_1)$ và $f_A(t_2) = f_B(t_2)$\n- $\\Rightarrow f_A(t_1) - f_A(t_2) \u003e f_B(t_1) - f_B(t_2)$\n\n- $\\Rightarrow \\dfrac{f_A(t_1) - f_A(t_2)}{t_2 - t_1} \u003e \\dfrac{f_B(t_1) - f_B(t_2)}{t_2 - t_1}$\n\n- $\\Rightarrow C_A \u003e C_B \\implies$ **Đúng**\n\n\n2. Tại thời điểm $t_2$\n- Năng lực tại một điểm là $|f'(t)|$ (độ dốc của tiếp tuyến).\n- Tại giao điểm $t_2$, đường cong $A$ dốc hơn đường thẳng $B$.\n- $\\Rightarrow |f'_A(t_2)| \u003e |f'_B(t_2)| \\implies$ **Đúng**\n\n3. Tại thời điểm $t_3$\n- Gọi $W_{tc}$ là mức tiêu chuẩn (đường nét đứt nằm ngang).\n- Tại $t_3$, đồ thị cả $A$ và $B$ đều nằm dưới $W_{tc}$.\n- $\\Rightarrow f_A(t_3) \u003c W_{tc}$ và $f_B(t_3) \u003c W_{tc} \\implies$ **Đúng**\n\n 4. So sánh các khoảng của doanh nghiệp $A$\n- Đồ thị $A$ có độ dốc lớn nhất từ $t_1\\implies t_2$\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T13:32:26.948999+07:00",
+                "updated_at": "2026-01-19T13:41:26.324511+07:00"
+            },
+            {
+                "id": "70017986-6ae0-461a-9578-baef2ee64a47",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": " Cho $(1 + \\sqrt{2})^6 = a + b\\sqrt{2}$, trong đó $a, b$ là các số nguyên. Hỏi $b$ bằng biểu thức nào dưới đây?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 25,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$C_6^0 + 2C_6^2 + 2^2C_6^4 + 2^3C_6^6$"
+                        },
+                        {
+                            "content": "$C_6^1 + 2C_6^3 + 2^2C_6^5$"
+                        },
+                        {
+                            "content": "$C_6^0 + 2C_6^1 + 2^2C_6^2 + 2^3C_6^3 + 2^4C_6^4 + 2^5C_6^5 + 2^6C_6^6$"
+                        },
+                        {
+                            "content": "$2C_6^1 + 2^2C_6^3 + 2^3C_6^5$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "\nÁp dụng khai triển nhị thức Newton cho $(1 + \\sqrt{2})^6$:\n\n\n$(1 + \\sqrt{2})^6 = C_6^0(1)^6 + C_6^1(1)^5(\\sqrt{2})^1 + C_6^2(1)^4(\\sqrt{2})^2 + C_6^3(1)^3(\\sqrt{2})^3 + C_6^4(1)^2(\\sqrt{2})^4 + C_6^5(1)^1(\\sqrt{2})^5 + C_6^6(\\sqrt{2})^6$\n\nCác số hạng chứa $\\sqrt{2}$ mũ lẻ sẽ đóng góp vào giá trị của $b$:\n\n\n- $C_6^1 \\cdot \\sqrt{2}$\n- $C_6^3 \\cdot (\\sqrt{2})^3 = C_6^3 \\cdot 2\\sqrt{2}$\n- $C_6^5 \\cdot (\\sqrt{2})^5 = C_6^5 \\cdot 4\\sqrt{2}$ (tức $2^2C_6^5\\sqrt{2}$)\n\nVậy $b = C_6^1 + 2C_6^3 + 2^2C_6^5$.\n\n**Đáp án:** **(2)**\n\n\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T18:23:51.542056+07:00",
+                "updated_at": "2026-01-19T18:23:55.584109+07:00"
+            },
+            {
+                "id": "eea4772f-d7f9-46db-9d72-dd5e46d61657",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Điền số thích hợp vào chỗ trống: *(làm tròn đến 2 chữ số sau dấu phẩy nếu có)*\nCác khối lăng trụ đứng tứ giác có kích thước như hình vẽ được ghép lại sao cho các đỉnh trùng nhau. \n$/image_{https://zpi.cx/b/4HHIw.png?dl=1}_{left}_{40}_{block}$\nĐộ dài đoạn thẳng $KL$ là ____ đơn vị",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        "13"
+                    ]
+                },
+                "answer_detail": "Chênh lệch chiều $z$ ($\\Delta z$): $13 - 1 = 12$\n\nChênh lệch chiều $x$ ($\\Delta x$): $4$ \n\nChênh lệch chiều $y$ ($\\Delta y$): $3$\n\n$KL = \\sqrt{12^2 + 4^2 + 3^2} = \\sqrt{144 + 16 + 9} = \\sqrt{169} = 13$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T18:37:17.973608+07:00",
+                "updated_at": "2026-01-19T18:38:24.482861+07:00"
+            },
+            {
+                "id": "4563152c-65d3-4526-8877-31e1e202d2d4",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Từ một hình lập phương có cạnh bằng 4 đơn vị, người ta khoét một hình trụ tròn xoay sao cho hình trụ đó tiếp xúc với các mặt của hình lập phương. \n$/image_{https://zpi.cx/b/rOyDo.png?dl=1}_{left}_{40}_{block}$\nThể tích của hình lập phương đã giảm đi ____  đơn vị khối. *(làm tròn đến 2 chữ số sau dấu phẩy* lấy $\\pi=3,14$) ",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        [
+                            "50.24",
+                            "50,24"
+                        ]
+                    ]
+                },
+                "answer_detail": "Thể tích giảm đi chính là thể tích của khối trụ bị khoét:\n\nĐường kính đáy hình trụ bằng cạnh hình lập phương $= 4 \\Rightarrow$ Bán kính $r = 2$\n\nChiều cao hình trụ $h = 4$\n\n$V_{\\text{trụ}} = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 2^2 \\cdot 4 = 16\\pi =16.3,14=50,24$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T18:44:24.671739+07:00",
+                "updated_at": "2026-01-19T18:45:08.644197+07:00"
+            },
+            {
+                "id": "483c172b-e96a-46bb-b85f-baaaa252b472",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 0,
+                "content": "Thống kê tổng số giờ nắng trong tháng 9 tại một trạm quan trắc đặt ở Cà Mau trong các năm từ 2002 đến 2021 được thống kê như sau:\n$/image_{https://zpi.cx/b/c0AqH.png?dl=1}_{left}_{90}_{block}$\nĐộ lệch chuẩn của mẫu số liệu là____* (kết quả làm tròn đến hàng phần nghìn)*",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 25,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        },
+                        {
+                            "content": ""
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        [
+                            "23,795",
+                            "23.795"
+                        ]
+                    ]
+                },
+                "answer_detail": "\n\n**Chọn A**\n\n\nSố trung bình của mẫu số liệu là:\n\n\n$\\bar{x} = \\dfrac{1}{20} \\cdot (3 \\cdot 89 + 6 \\cdot 107 + 3 \\cdot 125 + 5 \\cdot 143 + 3 \\cdot 161) = 124,1$\n\nPhương sai của mẫu số liệu ghép nhóm là:\n\n\n$S^2 = \\dfrac{1}{20} \\cdot (3 \\cdot 89^2 + 6 \\cdot 107^2 + 3 \\cdot 125^2 + 5 \\cdot 143^2 + 3 \\cdot 161^2) - 124,1^2 = 566,19$\n\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là:\n\n\n$S = \\sqrt{566,19} \\approx 23,795$\n",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T19:22:49.717404+07:00",
+                "updated_at": "2026-01-22T23:15:42.491273+07:00"
+            },
+            {
+                "id": "f982710a-e76e-4798-8484-a06f13f3fbf1",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 1,
+                "content": "Cho hai hàm số $f(x)$ và $g(x)$ liên tục trên $\\mathbb{R}$.\n\n* Những khẳng định nào dưới đây đúng:*\n",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$\\displaystyle \\int_a^b kf(x)dx = k\\int_a^b f(x)dx$ với mọi $k, a, b \\in \\mathbb{R}$."
+                        },
+                        {
+                            "content": "$\\displaystyle \\int (k^2+2022)f(x)dx = (k^2+2022)\\displaystyle \\int f(x)dx$ với mọi $k \\in \\mathbb{R}$."
+                        },
+                        {
+                            "content": "$\\displaystyle \\int kf(x)dx = k\\displaystyle \\int f(x)dx$ với mọi $k \\in \\mathbb{R}$."
+                        },
+                        {
+                            "content": "$\\displaystyle \\int_a^b [kf(x) + g(x)]dx = k\\int_a^b f(x)dx + \\int_a^b g(x)dx$ với mọi $k, a, b \\in \\mathbb{R}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0,
+                        1,
+                        3
+                    ]
+                },
+                "answer_detail": "\n1. $\\displaystyle \\int _{a}^{b} k f(x) dx = k \\displaystyle \\int _{a}^{b} f(x) dx, \\forall k, a, b \\in \\mathbb{R} \\implies \\checkmark (\\text{Đúng})$\n\n2. $\\displaystyle \\int  (k^2 + 2022) f(x) dx = (k^2 + 2022) \\displaystyle \\int  f(x) dx, \\forall k \\in \\mathbb{R}$\n\n$\\implies k^2 + 2022 \\neq 0, \\forall k \\in \\mathbb{R} \\implies \\checkmark (\\text{Đúng})$\n\n3. $\\displaystyle \\int  k f(x) dx = k \\displaystyle \\int  f(x) dx, \\forall k \\in \\mathbb{R}$\n\n$\\text{Xét } k = 0: \\begin{cases} \\text{VT} = \\displaystyle \\int  0 dx = C \\\\ \\text{VP} = 0 \\cdot \\displaystyle \\int  f(x) dx = 0 \\end{cases} \\implies \\text{VT} \\neq \\text{VP} \\implies \\times (\\text{Sai})$\n\n4. $\\displaystyle \\int _{a}^{b} [k f(x) + g(x)] dx = k \\displaystyle \\int _{a}^{b} f(x) dx + \\displaystyle \\int _{a}^{b} g(x) dx, \\forall k, a, b \\in \\mathbb{R} \\implies \\checkmark (\\text{Đúng})$\n\n$\\text{Đáp án} = \\{ \\text{Khẳng định 1, Khẳng định 2, Khẳng định 4} \\}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-19T17:42:14.437912+07:00"
+            },
+            {
+                "id": "8b3bb3fd-0c53-4b73-b91e-99da867dd7f9",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 1,
+                "content": "Một người tham gia một trò chơi tung đồng xu có số điểm ban đầu là một. Sau 1 hồi tính toán chủ trò chơi đã sắp xếp như sau. Nếu ra mặt sấp (S), họ được 3 điểm. Nếu ra mặt ngửa (N), họ bị trừ 1 điểm.\r",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 24,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Sau $4$ lần tung với kết quả $S, N, S, S$, tổng số điểm của người đó là $8$."
+                        },
+                        {
+                            "content": "Để có tổng điểm là $0$, số lần ra mặt ngửa phải gấp $3$ lần số lần ra mặt sấp."
+                        },
+                        {
+                            "content": "Không thể có tổng điểm là $1$ sau một số lần tung bất kỳ."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "Gọi $s$ là số lần sấp, $n$ là số lần ngửa ($s, n \\in \\mathbb{N}$).\n\nCông thức tổng điểm: $T = 1 + 3s - n$\n\n- **Mệnh đề a:**\n\n$T = 1 + 3(S) - 1(N) = 1 + 3(3) - 1(1) = 1 + 9 - 1 = 9 \\neq 8$\n\n$\\Rightarrow$ **Sai.**\n- **Mệnh đề b:**\n\n$T = 0 \\iff 1 + 3s - n = 0 \\iff n = 3s + 1$\n\nMệnh đề nói $n = 3s$ là thiếu số điểm ban đầu.\n$\\Rightarrow$ **Sai.**\n- **Mệnh đề c:**\n\n$T = 1 \\iff 1 + 3s - n = 1 \\iff n = 3s$\n\nChọn $n$ gấp $3$ lần $s$ (ví dụ: $1$ sấp, $3$ ngửa) thì tổng điểm sẽ là $1$.  \"Không thể\" là sai.\n\n$\\Rightarrow$ **Sai.**",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T19:18:18.875722+07:00",
+                "updated_at": "2026-01-19T19:18:18.875722+07:00"
+            },
+            {
+                "id": "9591e6b7-1de5-49ec-b446-4be0a0629548",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 2,
+                "content": "Cho phép toán $a \\otimes b$ được định nghĩa là số dư của phép chia $a^b$ cho 5. Giá trị của $(2 \\otimes 3) \\otimes 4$ là:",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "1"
+                        },
+                        {
+                            "content": "2"
+                        },
+                        {
+                            "content": "3"
+                        },
+                        {
+                            "content": "4"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Tính trong ngoặc trước: $2 \\otimes 3$ là số dư của $2^3$ chia 5.\n$2^3 = 8$. $8$ chia 5 dư $3$. Vậy $(2 \\otimes 3) = 3$.\nThay vào biểu thức: $3 \\otimes 4$ là số dư của $3^4$ chia 5.\n$3^4 = 81$.\n\n $81$ chia 5 dư $1$.\nKết quả cuối cùng là 1.",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T09:31:57.592171+07:00",
+                "updated_at": "2026-01-14T20:40:12.508216+07:00"
+            },
+            {
+                "id": "c1203b51-b782-4921-bc09-1453a2c71287",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 2,
+                "content": "Cho mặt phẳng $(P): x - y - z - 1 = 0$ và mặt phẳng $(Q): 3x - my + z - m = 0$. Với giá trị nào của $m$ thì hai mặt phẳng $(P)$ và $(Q)$ cắt nhau nhưng không vuông góc?",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$m \\neq -2$"
+                        },
+                        {
+                            "content": "$\\forall m \\in \\mathbb{R}$"
+                        },
+                        {
+                            "content": "$m \\neq -1$"
+                        },
+                        {
+                            "content": "$m \\neq 3$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Hai mặt phẳng cắt nhau $\\Leftrightarrow \\vec{n}_P$ và $\\vec{n}_Q$ không cùng phương.\n\n$\\vec{n}_P = (1; -1; -1)$; $\\vec{n}_Q = (3; -m; 1)$.\n\nTỉ lệ: $\\dfrac{3}{1} \\neq \\dfrac{1}{-1}$ ($3 \\neq -1$) nên hai mặt phẳng luôn cắt nhau với mọi $m$.\n\nĐể hai mặt phẳng KHÔNG vuông góc $\\Leftrightarrow \\vec{n}_P \\cdot \\vec{n}_Q \\neq 0$.\n\n$1.3 + (-1)(-m) + (-1).1 \\neq 0 \\Leftrightarrow 3 + m - 1 \\neq 0 \\Leftrightarrow m \\neq -2$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-09T16:30:09.308018+07:00",
+                "updated_at": "2026-01-14T21:00:52.33609+07:00"
+            },
+            {
+                "id": "3f62635f-08ed-4082-a0f6-86ebca0dfdec",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 2,
+                "content": "Cho hai số thực dương $a, b$ thỏa mãn $\\sqrt[4]{\\log a} + \\sqrt{\\log b} + \\log \\sqrt[4]{a} + \\log \\sqrt{b} = 108$ và bốn số $\\sqrt[4]{\\log a}, \\sqrt{\\log b}, \\log \\sqrt[4]{a}, \\log \\sqrt{b}$ là các số nguyên dương. Khi đó, $ab$ bằng:\n",
+                "difficulty": "M3",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 7,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$10^{125}$."
+                        },
+                        {
+                            "content": "$10^{320}$."
+                        },
+                        {
+                            "content": "$10^{28}$."
+                        },
+                        {
+                            "content": "$10^{300}$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "\n$\\begin{cases} x = \\sqrt[4]{\\log a} \\in \\mathbb{Z}^+ \\\\ y = \\sqrt{\\log b} \\in \\mathbb{Z}^+ \\\\ z = \\log \\sqrt[4]{a} = \\dfrac{1}{4} \\log a = \\dfrac{x^4}{4} \\in \\mathbb{Z}^+ \\implies x \\in \\{2, 4, 6, \\dots\\} \\\\ t = \\log \\sqrt{b} = \\dfrac{1}{2} \\log b = \\dfrac{y^2}{2} \\in \\mathbb{Z}^+ \\implies y \\in \\{2, 4, 6, \\dots\\} \\end{cases}$\nBiến đổi phương trình:\n$x + y + \\dfrac{x^4}{4} + \\dfrac{y^2}{2} = 108$\n- Trường hợp 1: $x = 2$\n\n\n$(*) \\Rightarrow 2^4 + 4(2) + 2y^2 + 4y = 432$\n\n\n$\\Leftrightarrow 24 + 2y^2 + 4y = 432 \\Leftrightarrow y^2 + 2y - 204 = 0$\n\n\n$\\Delta' = 1^2 - (-204) = 205 \\notin \\text{số chính phương} \\implies \\text{Loại.}$\n- Trường hợp 2: $x = 4$\n\n\n$(*) \\Rightarrow 4^4 + 4(4) + 2y^2 + 4y = 432$\n\n\n$\\Leftrightarrow 272 + 2y^2 + 4y = 432 \\Leftrightarrow y^2 + 2y - 80 = 0$\n\n\n$\\Leftrightarrow (y-8)(y+10) = 0 \\xrightarrow{y \\in \\mathbb{Z}^+} y = 8 \\in \\{2, 4, 6, \\dots\\} \\implies \\text{Nhận.}$\n- Trường hợp 3: $x \\ge 6$\n\n\n$x^4 \\ge 6^4 = 1296 \u003e 432 \\implies \\text{Vô nghiệm.}$\n\n\n$\\begin{cases} \\log a = x^4 = 4^4 = 256 \\\\ \\log b = y^2 = 8^2 = 64 \\end{cases}$\n\n\n$\\Rightarrow \\log(ab) = \\log a + \\log b = 256 + 64 = 320$\n\n\n$\\Rightarrow ab = 10^{320}$\n\n\n\n$\\text{Chọn đáp án: } 10^{320}$",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-22T23:13:55.028522+07:00"
+            },
+            {
+                "id": "9ebb8adb-2a4e-4faa-b625-72ce51fee1dc",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 2,
+                "content": "Tại một lễ hội công nghệ 2025, một hãng ra mắt ba dáng mũ bảo hiểm thông minh với các tùy chọn: $5$ màu vỏ, màn hình HUD (có hoặc không), cảm biến va chạm (loại $A$ hoặc loại $B$), và $3$ cỡ ($S, M, L$). Hỏi có tất cả bao nhiêu loại mũ bảo hiểm khác nhau?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$60$"
+                        },
+                        {
+                            "content": "$20$"
+                        },
+                        {
+                            "content": "$180$"
+                        },
+                        {
+                            "content": "$15$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Để xác định tổng số loại mũ bảo hiểm, ta thực hiện chọn lần lượt các đặc tính của mũ. Theo quy tắc nhân, ta có:\n\n1. Chọn dáng mũ: Có $3$ cách chọn.\n2. Chọn màu vỏ: Có $5$ cách chọn.\n3. Chọn màn hình HUD: Có $2$ cách chọn (Có HUD hoặc Không có HUD).\n4. Chọn loại cảm biến: Có $2$ cách chọn (Loại $A$ hoặc Loại $B$).\n5. Chọn kích cỡ: Có $3$ cách chọn ($S, M$ hoặc $L$).\n\nTổng số loại mũ bảo hiểm khác nhau được tạo thành là:\n\n$N = 3 \\times 5 \\times 2 \\times 2 \\times 3 = 180 \\text{ (loại)}$\n\n",
+                "option_columns": 2,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T19:18:18.875722+07:00",
+                "updated_at": "2026-01-19T19:18:18.875722+07:00"
+            },
+            {
+                "id": "4977f1bc-7076-4930-ab25-9c722e04f8ff",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 3,
+                "content": "Trong không gian cho mặt cầu tâm $I$ và 10 đường thẳng phân biệt đi qua điểm $I$ cắt mặt cầu tại 20 điểm. Gọi $S$ là tập hợp các hình chữ nhật tâm $I$ và có các đỉnh là bốn điểm trong 20 điểm trên. Số phần tử của $S$ là:\n",
+                "difficulty": "M2",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 15,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "4845."
+                        },
+                        {
+                            "content": "2025."
+                        },
+                        {
+                            "content": "50."
+                        },
+                        {
+                            "content": "45."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        3
+                    ]
+                },
+                "answer_detail": "$\\text{Mặt cầu tâm } I, \\text{ đường thẳng } d_i \\ni I \\implies d_i \\cap \\text{Mặt cầu} = \\{A_i, B_i\\}$\n\n\n$\\implies A_iB_i \\text{ là đường kính mặt cầu (tâm } I)$\n\n\n$\\text{Hình chữ nhật tâm } I \\iff \\text{Có 2 đường chéo là 2 đường kính của mặt cầu}$\n\n\n$\\text{Số hình chữ nhật } = \\text{Số cách chọn 2 đường kính từ 10 đường kính}$\n\n\n$|S| = C_{10}^2 =  45$",
+                "option_columns": 4,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-22T23:15:22.266044+07:00"
+            },
+            {
+                "id": "ff5abae0-67fa-4225-b180-a1919533389e",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 4,
+                "content": "**Điền số tự nhiên thích hợp vào chỗ trống :**\n\n Biết chu kỳ tuần hoàn của hàm số $y = 2\\cos(\\dfrac{x}{3}) + 3\\sin(\\dfrac{x}{2})$ là $T = a\\pi$ ($a$ là số nguyên dương). Giá trị của $a$ là ____",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "12"
+                    ]
+                },
+                "answer_detail": "$T_1 = \\dfrac{2\\pi}{1/3} = 6\\pi$. $T_2 = \\dfrac{2\\pi}{1/2} = 4\\pi$.\n\n$T = \\text{BCNN}(6\\pi, 4\\pi) = 12\\pi$. Suy ra $a=12$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-14T20:59:56.696693+07:00"
+            },
+            {
+                "id": "25728d2b-0829-4c75-bf29-909c24b2dda3",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 5,
+                "content": "Khẳng định nào dưới đây đúng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 21,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Khối đa diện $(H)$ là khối đa diện lồi thì tồn tại đường thẳng nối hai điểm của $(H)$ thuộc $(H)$."
+                        },
+                        {
+                            "content": "Khối đa diện $(H)$ là khối đa diện lồi thì đường thẳng nối hai điểm bất kì của $(H)$ luôn thuộc $(H)$."
+                        },
+                        {
+                            "content": "Khối đa diện $(H)$ là khối đa diện lồi nếu đoạn thẳng nối hai điểm bất kì của $(H)$ luôn thuộc $(H)$."
+                        },
+                        {
+                            "content": "Khối đa diện $(H)$ là khối đa diện lồi nếu tồn tại đoạn thẳng nối hai điểm của $(H)$ thuộc $(H)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Theo định nghĩa ta có Phương án $C$ đúng",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-19T17:42:14.437912+07:00"
+            },
+            {
+                "id": "fada3fe5-3eba-48dc-b305-edcb00a451fc",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 6,
+                "content": "*** Điền số nguyên vào chỗ trống:***\nCho $I = \\displaystyle \\int (2^x \\cdot 3^{2x+1})\\text{d}x = \\dfrac{a \\cdot b^x}{\\ln b} + C$. Tổng $a + b$ bằng ____.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "21"
+                    ]
+                },
+                "answer_detail": "Biến đổi biểu thức dưới dấu tích phân:\n\n$2^x \\cdot 3^{2x+1} = 2^x \\cdot 3^{2x} \\cdot 3 = 3 \\cdot (2 \\cdot 3^2)^x = 3 \\cdot 18^x$.\n\n$\\displaystyle \\int 3 \\cdot 18^x \\text{d}x = 3 \\cdot \\dfrac{18^x}{\\ln 18} + C$.\n\nVậy $a = 3, b = 18$. Tổng $a + b = 3 + 18 = 21$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-11T14:54:13.914856+07:00",
+                "updated_at": "2026-01-14T21:01:10.644491+07:00"
+            },
+            {
+                "id": "69bc3c48-a929-4d5b-9fdb-8885d480c1ab",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 6,
+                "content": "Những khẳng định nào dưới đây sai?\n",
+                "difficulty": "M1",
+                "type": "multiple_choice",
+                "topic": "tsa_toan",
+                "chapter": 20,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Nếu đường thẳng $a$ vuông góc với hai đường thẳng cắt nhau cùng nằm trong mặt phẳng $(P)$ thì đường thẳng $a$ vuông góc với mặt phẳng $(P)$."
+                        },
+                        {
+                            "content": "Nếu đường thẳng $a$ vuông góc với hai đường thẳng cùng nằm trong mặt phẳng $(P)$ thì đường thẳng $a$ vuông góc với mặt phẳng $(P)$."
+                        },
+                        {
+                            "content": "Nếu đường thẳng $a$ vuông góc với hai đường thẳng song song cùng nằm trong mặt phẳng $(P)$ thì đường thẳng $a$ vuông góc với mặt phẳng $(P)$."
+                        },
+                        {
+                            "content": "Nếu đường thẳng $a$ vuông góc với một đường thẳng nằm trong mặt phẳng $(P)$ thì đường thẳng $a$ vuông góc với mặt phẳng $(P)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                "answer_detail": "\nCho đường thẳng $a$ và mặt phẳng $(P)$.\n$\\begin{cases} b \\subset (P) \\\\ c \\subset (P) \\\\ b \\cap c = \\{I\\} \\\\ a \\perp b \\\\ a \\perp c \\end{cases} \\Rightarrow a \\perp (P)$\n\n- **Khẳng định 1:** $\\begin{cases} b, c \\subset (P) \\\\ b \\cap c \\neq \\varnothing \\\\ a \\perp b, a \\perp c \\end{cases} \\Rightarrow a \\perp (P)$\n\n$\\Rightarrow {Đúng}$ \n\n- **Khẳng định 2:** $\\begin{cases} b, c \\subset (P) \\\\ a \\perp b, a \\perp c \\end{cases} \\Rightarrow a \\perp (P)$\n\n$\\Rightarrow \\text{Sai (Thiếu điều kiện } b, c \\text{ cắt nhau).}$\n\n- **Khẳng định 3:** $\\begin{cases} b, c \\subset (P) \\\\ b \\parallel c \\\\ a \\perp b, a \\perp c \\end{cases} \\Rightarrow a \\perp (P)$\n\n$\\Rightarrow \\text{Sai (Nếu } b \\parallel c \\text{ thì } a \\text{ có thể không vuông góc với } (P) \\text{).}$\n\n- **Khẳng định 4:** $\\begin{cases} b \\subset (P) \\\\ a \\perp b \\end{cases} \\Rightarrow a \\perp (P)$\n\n$\\Rightarrow \\text{Sai (Một đường thẳng là không đủ để kết luận).}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-19T17:42:14.437912+07:00"
+            },
+            {
+                "id": "2e937aba-0d44-4285-9c4b-1057bde80647",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 7,
+                "content": "Cho hàm số $P(n)$ là tích các chữ số của $n$. Xét phương trình $n^2 - 17n + 50 = P(n)$.\n",
+                "difficulty": "M3",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 3,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Nếu $n$ có 2 chữ số, $P(n) \\le n$."
+                        },
+                        {
+                            "content": "Nếu $n \u003e 100$, phương trình vô nghiệm."
+                        },
+                        {
+                            "content": "Có 5 giá trị $n$ thỏa mãn."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        true,
+                        true,
+                        false
+                    ]
+                },
+                "answer_detail": "**a)**\nGiả sử $n$ là số có 2 chữ số, ta viết $n$ dưới dạng $\\overline{ab} = 10a + b$, với $a \\in \\{1, ..., 9\\}$ và $b \\in \\{0, ..., 9\\}$.\n\nKhi đó, $P(n) = a \\cdot b$.\n\n            Ta xét hiệu $n - P(n)$:      $n - P(n) = (10a + b) - ab$\n\n$n - P(n) = 10a + b - ab = a(10 - b) + b$\n\n           Vì $b$ là chữ số ($b \\le 9$) nên $(10 - b) \\ge 1$.\nVì $a$ là chữ số hàng chục ($a \\ge 1$) nên $a(10-b) \\ge 1$.\n\nDo đó: $a(10 - b) + b \u003e 0$.  Suy ra $n \u003e P(n)$ với mọi số có 2 chữ số.\n\n**b)**\n$n^2 - 17n + 50 = P(n) \\quad (*)$\n**Đánh giá Vế Trái ($VT$):**\n\nXét hiệu giữa $VT$ và $n$:\n$VT - n = (n^2 - 17n + 50) - n = n^2 - 18n + 50$\nVới $n \u003e 100$, ta có:\n$\\Rightarrow VT \u003e n \\quad (1)$\n\n**Đánh giá Vế Phải ($VP$):**\nGọi $n$ là số có $k$ chữ số ($n \u003e 100 \\Rightarrow k \\ge 3$). Gọi chữ số đầu tiên là $a$.\n\n•\tGiá trị của $n$: $n \\ge a \\cdot 10^{k-1}$.\n\n•\tTích các chữ số $P(n)$: $P(n) \\le a \\cdot \\underbrace{9 \\cdot ... \\cdot 9}_{k-1 \\text{ lần}} = a \\cdot 9^{k-1}$.\n\n•\tSo sánh: Vì $10^{k-1} \u003e 9^{k-1}$ (với $k \\ge 3$) nên:\n\n$\\Rightarrow n \u003e P(n) = VP \\quad (2)$\n\nTừ $(1)$ và $(2)$, Với mọi $n \u003e 100$:\n$VT \u003e n \u003e VP$\n$\\Rightarrow VT \u003e VP$\nVì Vế Trái luôn lớn hơn Vế Phải, phương trình $(*)$ vô nghiệm.\n\n**c)**\nVì $P(n) \\le n$ nên $n^2 - 17n + 50 \\le n \\Leftrightarrow n^2 - 18n + 50 \\le 0 \\Rightarrow$ $4 \\le n \\le 14$.\n\nVì $P(n) \\ge 0$ nên $n^2 - 17n + 50 \\ge 0 \\Rightarrow$ $n \\le 3$ hoặc $n \\ge 14$.\n\nVậy $n=14$: Thử lại \n\nVế trái: $14^2 - 17(14) + 50 = 8$.\n\nVế phải: $P(14) = 1 \\times 4 = 4$.$8 \\ne 4 \\Rightarrow$ Loại.\n\nPhương trình vô nghiệm (0 giá trị)",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T09:31:57.592171+07:00",
+                "updated_at": "2026-01-14T20:59:50.674147+07:00"
+            },
+            {
+                "id": "4bfecdea-1b0a-4628-8cff-db3f36960dbc",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 8,
+                "content": "Cho dãy số $(u_n)$ với $u_n = (-1)^n \\dfrac{2022n}{n+1}, n \\in \\mathbb{N}^*$. Dãy số $(u_n)$ là dãy số ____ và ____. \n\n\n\n",
+                "difficulty": "M1",
+                "type": "drag_and_drop",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {
+                    "items": [
+                        "bị chặn",
+                        "giảm",
+                        "tăng",
+                        "không bị chặn",
+                        "không luôn tăng hoặc luôn giảm "
+                    ],
+                    "answers": [
+                        {
+                            "content": "Dãy số $(u_n)$ là dãy số giảm."
+                        },
+                        {
+                            "content": "Dãy số $(u_n)$ là dãy số không bị chặn dưới."
+                        },
+                        {
+                            "content": "Dãy số $(u_n)$ là dãy số tăng."
+                        },
+                        {
+                            "content": "Dãy số $(u_n)$ là dãy số bị chặn."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            0,
+                            4
+                        ]
+                    ]
+                },
+                "answer_detail": "$\\displaystyle u_n = (-1)^n \\frac{2022n}{n+1}, n \\in \\mathbb{N}^*$\n\nTa có:\n$\\displaystyle |u_n| = \\left| (-1)^n \\frac{2022}{1 + \\frac{1}{n}} \\right| = \\frac{2022}{1 + \\frac{1}{n}} \u003c 2022, \\forall n \\ge 1$\n\n$\\Rightarrow -2022 \u003c u_n \u003c 2022, \\forall n \\in \\mathbb{N}^*$\n\n$\\Rightarrow (u_n) \\text{ là dãy số bị chặn.}$",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-19T17:42:14.437912+07:00"
+            },
+            {
+                "id": "5b732bab-a384-4d48-9175-80e411eb0f98",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 9,
+                "content": "Khẳng định nào dưới đây đúng?\n",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Đường thẳng $x = x_0$ là đường tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu $\\lim_{x \\to -\\infty} f(x) = x_0$."
+                        },
+                        {
+                            "content": "Đường thẳng $x = x_0$ là đường tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu $\\lim_{x \\to +\\infty} f(x) = x_0$."
+                        },
+                        {
+                            "content": "Đường thẳng $x = x_0$ là đường tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu $\\lim_{x \\to x_0^-} f(x) = +\\infty$."
+                        },
+                        {
+                            "content": "Đường thẳng $x = x_0$ là đường tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu $\\lim_{x \\to x_0^+} f(x) = f(x_0)$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        2
+                    ]
+                },
+                "answer_detail": "Định nghĩa Tiệm cận đứng\n\nĐường thẳng $x = x_0$ được gọi là đường **tiệm cận đứng** của đồ thị hàm số $y = f(x)$ nếu ít nhất một trong các điều kiện sau thỏa mãn:\n\n$\\lim_{x \\to x_0^+} f(x) = +\\infty \\quad \\text{hoặc} \\quad \\lim_{x \\to x_0^+} f(x) = -\\infty$\n\n$\\lim_{x \\to x_0^-} f(x) = +\\infty \\quad \\text{hoặc} \\quad \\lim_{x \\to x_0^-} f(x) = -\\infty$\n\n- **Phương án 3:** **Đúng**. ",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-19T17:42:14.437912+07:00"
+            },
+            {
+                "id": "a216b43f-1248-41c0-818b-648b58930acf",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 10,
+                "content": "Cho hàm số $y = f(x)$ xác định trên khoảng $(a; b)$ và $x_0 \\in (a; b)$. Khẳng định nào dưới đây đúng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 9,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Nếu tồn tại giới hạn (hữu hạn) $\\lim_{x \\to x_0} (f(x) - f(x_0))$ thì giới hạn đó là đạo hàm của hàm số $y = f(x)$ tại điểm $x_0$."
+                        },
+                        {
+                            "content": "Nếu tồn tại giới hạn (hữu hạn) $\\lim_{x \\to x_0} \\dfrac{f(x) - f(x_0)}{x - x_0}$ thì giới hạn đó là đạo hàm của hàm số $y = f(x)$ tại điểm $x_0$."
+                        },
+                        {
+                            "content": "Nếu tồn tại giới hạn (hữu hạn) $\\lim_{x \\to x_0} \\dfrac{f(x) - f(x_0)}{|x - x_0|}$ thì giới hạn đó là đạo hàm của hàm số $y = f(x)$ tại điểm $x_0$."
+                        },
+                        {
+                            "content": "Nếu tồn tại giới hạn (hữu hạn) $\\lim_{x \\to x_0} \\left| \\dfrac{f(x) - f(x_0)}{x - x_0} \\right|$ thì giới hạn đó là đạo hàm của hàm số $y = f(x)$ tại điểm $x_0$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        1
+                    ]
+                },
+                "answer_detail": "Công thức tổng quát:\n\n$f'(x_0) = \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x} = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0}$\\\n\n***Phương án 3***",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-19T17:42:14.437912+07:00",
+                "updated_at": "2026-01-22T23:16:37.941528+07:00"
+            },
+            {
+                "id": "f0304b82-f415-4940-8b5d-83db76066f50",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 13,
+                "content": "** Cho phương trình lượng giác $\\cos 2x - (2m+1)\\cos x + m + 1 = 0$.\n",
+                "difficulty": "M2",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Khi $m=0$, phương trình có nghiệm $x = \\pm \\dfrac{\\pi}{3} + k2\\pi$."
+                        },
+                        {
+                            "content": "Phương trình luôn có một nghiệm cố định là $\\cos x = 1/2$ với mọi $m$."
+                        },
+                        {
+                            "content": "Để phương trình có nghiệm $x \\in (\\dfrac{\\pi}{2}; \\dfrac{3\\pi}{2})$ thì $m \u003e -1$."
+                        },
+                        {
+                            "content": "Với $m=1$, tổng các nghiệm của phương trình trong đoạn $[0; 100]$ lớn hơn $1500\\pi$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        false,
+                        false
+                    ]
+                },
+                "answer_detail": "**PT:** $\\cos 2x - (2m+1)\\cos x + m + 1 = 0$\n$\\Leftrightarrow 2\\cos^2 x - (2m+1)\\cos x + m = 0$\n$\\Leftrightarrow \\left[ \\cos x = 1/2 \\quad (1) \\\\ \\cos x = m \\quad \\quad (2) \\right.$\n\n\n\n**1.** $m=0 \\xrightarrow{(2)} \\cos x = 0 \\Rightarrow x = \\pi/2 + k\\pi$.\nMệnh đề thiếu nghiệm này $\\Rightarrow$ **SAI**.\n\n**2.** $(1)$ luôn có nghiệm $\\forall m \\Rightarrow$ **ĐÚNG**.\n\n**3.** $x \\in (\\pi/2; 3\\pi/2) \\Rightarrow \\cos x \\in [-1; 0)$.\n$(1)$ vô nghiệm. Cần $(2) \\in [-1; 0) \\Leftrightarrow -1 \\le m \u003c 0$.\nMệnh đề ghi $m \u003e -1 \\Rightarrow$ **SAI**.\n\n**4.** $m=1 \\Rightarrow \\cos x = 1 \\cup \\cos x = 1/2$.\nTổng nghiệm trên $[0; 100]$:\n$S = \\underbrace{240\\pi}_{\\cos x=1} + \\underbrace{(240\\pi + 16\\pi/3) + (272\\pi - 16\\pi/3)}_{\\cos x=1/2} = 752\\pi$.\n$752\\pi \u003c 1500\\pi \\Rightarrow$ **SAI**.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-22T23:19:39.362257+07:00"
+            },
+            {
+                "id": "b4d114c2-367a-420a-801c-b78b9062dccc",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 23,
+                "content": "Gọi $M'$ là điểm đối xứng của $M(-1; 2; 0)$ qua gốc tọa độ. Phương trình mặt phẳng $(P)$ đi qua $M'$ và song song với $(\\alpha): x - 2y + 3z - 9 = 0$ là",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "$x - 2y + 3z - 5 = 0$"
+                        },
+                        {
+                            "content": "$x + 2y - 3z - 3 = 0$"
+                        },
+                        {
+                            "content": "$x - 2y - 3z - 2 = 0$"
+                        },
+                        {
+                            "content": "$x + 2y + 3z - 2 = 0$"
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "Điểm $M'$ đối xứng với $M(-1; 2; 0)$ qua $O$ là $M'(1; -2; 0)$.\n\n$(P) // (\\alpha) \\Rightarrow (P): x - 2y + 3z + D = 0$.\n\n$(P)$ qua $M'(1; -2; 0) \\Rightarrow 1 - 2(-2) + 3(0) + D = 0 \\Leftrightarrow 1 + 4 + D = 0 \\Leftrightarrow D = -5$.\n\nVậy $(P): x - 2y + 3z - 5 = 0$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-09T16:30:09.308018+07:00",
+                "updated_at": "2026-01-14T21:00:47.662045+07:00"
+            },
+            {
+                "id": "4d1bb88e-d77a-4a10-b9a0-1f2e2286a243",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 25,
+                "content": "Cho $I = \\displaystyle \\int \\sin^2 2x \\text{d}x + \\displaystyle \\int \\cos^2 2x \\text{d}x = kx + C$. Giá trị của $k$ bằng ____.",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {
+                    "answers": []
+                },
+                "data_answers": {
+                    "answer": [
+                        "1"
+                    ]
+                },
+                "answer_detail": "$I = \\displaystyle \\int (\\sin^2 2x + \\cos^2 2x) \\text{d}x = \\displaystyle \\int 1 \\text{d}x = x + C$.\r\nSo sánh với $kx + C$, ta có $k=1$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-11T14:54:13.914856+07:00",
+                "updated_at": "2026-01-14T21:01:18.00553+07:00"
+            },
+            {
+                "id": "3faf4d0a-2a39-4233-b42d-426589aaf805",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 26,
+                "content": "Cho cấp số nhân $\\{a_n\\}$ có công bội $r$. Gọi $S_n$ là tổng của $n$ số hạng đầu tiên. Biết $\\lim_{n \\to \\infty} \\dfrac{S_n}{a_n} = \\dfrac{15}{14}$, tìm giá trị của $r$.\r\n***Đáp Án:*** ____ ",
+                "difficulty": "M2",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "15"
+                    ]
+                },
+                "answer_detail": "Giả sử cấp số nhân có số hạng đầu là $a$. Ta có:\r\n\r\n\r\n$\\lim_{n \\to \\infty} \\dfrac{S_n}{a_n} = \\lim_{n \\to \\infty} \\dfrac{a(1-r^n) / (1-r)}{ar^{n-1}} = \\lim_{n \\to \\infty} \\dfrac{1}{1-r} \\cdot \\dfrac{1-r^n}{r^{n-1}}$\r\n\r\nĐể giới hạn này hữu hạn và bằng $\\dfrac{15}{14}$ khi $n \\to \\infty$, ta xét trường hợp $r \u003e 1$:\r\n\r\n\r\n$\\lim_{n \\to \\infty} \\dfrac{1}{1-r} \\cdot \\dfrac{\\dfrac{1}{r^{n-1}} - r}{1} = \\dfrac{-r}{1-r} = \\dfrac{r}{r-1}$\r\n\r\nTheo đề bài: $\\dfrac{r}{r-1} = \\dfrac{15}{14} \\Rightarrow 14r = 15r - 15 \\Rightarrow r = 15$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T12:12:32.171123+07:00",
+                "updated_at": "2026-01-14T21:00:27.632647+07:00"
+            },
+            {
+                "id": "a7e2fd73-8c75-4d49-8e8f-55e86b459fc8",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 28,
+                "content": "Xét hình phẳng giới hạn bởi hai parabol $y = x^2 - c^2$ và $y = c^2 - x^2$. Hằng số dương $c$ sao cho diện tích hình phẳng đó bằng $10$ là ____ (làm tròn kết quả đến hàng phần trăm).\r",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 14,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "1,55"
+                    ]
+                },
+                "answer_detail": "Phương trình hoành độ giao điểm: $x^2 - c^2 = c^2 - x^2 \\Leftrightarrow 2x^2 = 2c^2 \\Leftrightarrow x = \\pm c$ (vì $c \u003e 0$).\n\nDiện tích $S = \\int_{-c}^{c} |(c^2 - x^2) - (x^2 - c^2)| dx = \\int_{-c}^{c} 2(c^2 - x^2) dx$.\n\n$\\displaystyle S = 2 \\left [ c^2x - \\dfrac{x^3}{3} \\right]_{-c}^{c} = 2 \\left [ (c^3 - \\dfrac{c^3}{3}) - (-c^3 + \\dfrac{c^3}{3}) \\right] = 2 \\cdot \\dfrac{4c^3}{3} = \\dfrac{8c^3}{3}$.\n\nTheo đề bài: $\\dfrac{8c^3}{3} = 10 \\Rightarrow c^3 = \\dfrac{30}{8} = 3,75$.\n\n$c = \\sqrt[3]{3,75} \\approx 1,5536$. Làm tròn $1,55$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-11T15:30:02.30257+07:00",
+                "updated_at": "2026-01-14T21:01:23.919802+07:00"
+            },
+            {
+                "id": "cf5bcfc2-e13e-4449-9074-651025681694",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 34,
+                "content": "Cho hàm số\n\n$f(x) = \\begin{cases} \\sin x - 1 \u0026 \\text{khi } 0 \\le x \u003c \\pi \\\\ -\\sqrt{2} \\sin x - 1 \u0026 \\text{khi } \\pi \\le x \\le 2\\pi \\end{cases}$\n\nTổng tất cả các giá trị thực của $t$ để phương trình $f(x) = f(t)$ có 3 nghiệm thực $x$ phân biệt bằng $\\dfrac{q}{p}\\pi$ (với $p, q$ là cặp số nguyên tố cùng nhau). \n\nGiá trị $p + q$ là ____\n",
+                "difficulty": "M1",
+                "type": "fill_in_blank",
+                "topic": "tsa_toan",
+                "chapter": 4,
+                "data_questions": {},
+                "data_answers": {
+                    "answer": [
+                        "15"
+                    ]
+                },
+                "answer_detail": "Điều kiện 3 nghiệm: $f(x)=f(t) \\Leftrightarrow f(t) \\in \\{-1, 0\\}$.\n\n$S = \\{x \\mid f(x)=-1\\} \\cup \\{x \\mid f(x)=0\\} = \\{0, \\pi, 2\\pi\\} \\cup \\{\\dfrac{\\pi}{2}, \\dfrac{5\\pi}{4}, \\dfrac{7\\pi}{4}\\}$.\n\nTổng $t$: $ 0 + \\pi + 2\\pi + \\dfrac{\\pi}{2} + \\dfrac{5\\pi}{4} + \\dfrac{7\\pi}{4} = \\dfrac{13\\pi}{2}$.\n\n$\\Rightarrow p=2, q=13 \\Rightarrow p+q=15$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-28T10:28:42.215829+07:00",
+                "updated_at": "2026-01-14T21:00:19.822217+07:00"
+            },
+            {
+                "id": "0b2a749d-927a-4d10-b020-b756ae5f0f1d",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 35,
+                "content": "Cho các điểm $A(0; 3; 7), B(2; -5; 4), C(1; -4; -1), I(2; 1; -4), K(5; -2; 1)$ và các vectơ $\\vec{n} = (3; -4; 5), \\vec{a} = (3; -1; 4), \\vec{b} = (0; 2; -1)$.",
+                "difficulty": "M1",
+                "type": "true_false",
+                "topic": "tsa_toan",
+                "chapter": 22,
+                "data_questions": {
+                    "items": [
+                        {
+                            "content": "Mặt phẳng đi qua điểm $I$ và nhận $\\vec{n}$ là vectơ pháp tuyến có phương trình là $3x - 4y + 5z - 18 = 0$."
+                        },
+                        {
+                            "content": "Mặt phẳng đi qua điểm $K$ và có cặp vectơ chỉ phương là $\\vec{a}, \\vec{b}$ có phương trình là $-7x + 3y + 6z + 35 = 0$."
+                        },
+                        {
+                            "content": "Ba điểm $A, B, C$ không thẳng hàng."
+                        },
+                        {
+                            "content": "Phương trình mặt phẳng đi qua 3 điểm $A, B, C$ là $43x + 13y - 6z + 3 = 0$."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        false,
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                "answer_detail": "a Sai. PT mặt phẳng: $3(x - 2) - 4(y - 1) + 5(z + 4) = 0 \\Leftrightarrow 3x - 4y + 5z + 18 = 0$. \n\nb Đúng. $\\vec{n} = [\\vec{a}, \\vec{b}] = (-7; 3; 6)$. PT: $-7(x - 5) + 3(y + 2) + 6(z - 1) = 0 \\Leftrightarrow -7x + 3y + 6z + 35 = 0$.\n\nc Đúng. $\\vec{AB} = (2; -8; -3), \\vec{AC} = (1; -7; -8)$. Hai vectơ không cùng phương nên không thẳng hàng.\n\nd Đúng. $\\vec{n}_{ABC} = [\\vec{AB}, \\vec{AC}] = (43; 13; -6)$. PT qua A: $43x + 13(y - 3) - 6(z - 7) = 0 \\Leftrightarrow 43x + 13y - 6z + 3 = 0$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-01-09T16:30:09.308018+07:00",
+                "updated_at": "2026-01-14T21:01:05.242169+07:00"
+            },
+            {
+                "id": "c514b7a2-128a-4ab3-a7a3-50b47e754d7d",
+                "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+                "position": 40,
+                "content": "** Xét hai mệnh đề:\n(P): \"Nếu $\\sin a = \\sin b$ thì $a = b$\".\r\n(Q): \"Nếu $a \u003e b$ thì $\\sin a \u003e \\sin b$\".\r\nKhẳng định nào đúng?\r",
+                "difficulty": "M1",
+                "type": "single_choice",
+                "topic": "tsa_toan",
+                "chapter": 5,
+                "data_questions": {
+                    "answers": [
+                        {
+                            "content": "Cả (P) và (Q) đều sai."
+                        },
+                        {
+                            "content": "(P) đúng, (Q) sai."
+                        },
+                        {
+                            "content": "(P) sai, (Q) đúng."
+                        },
+                        {
+                            "content": "Cả hai đều đúng."
+                        }
+                    ]
+                },
+                "data_answers": {
+                    "answer": [
+                        0
+                    ]
+                },
+                "answer_detail": "**(P)** sai vì tính tuần hoàn (a có thể bằng $b+k2\\pi$ hoặc $\\pi-b+k2\\pi$).\r\n**(Q)** sai vì hàm sin đồng biến nghịch biến xen kẽ, không đơn điệu trên $\\mathbb{R}$.",
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2025-12-21T14:13:32.764831+07:00",
+                "updated_at": "2026-01-14T21:00:12.816372+07:00"
+            }
+        ]
+    },
+    "attempt": {
+        "id": "7447592e-3ba3-4517-83c3-236d6194f5fe",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "e80f2d31-3a98-47b3-86f3-77e7ace22f61",
+        "status": "in_progress",
+        "created_at": "2026-03-13T02:21:25.307377+07:00",
+        "updated_at": "2026-03-13T02:21:25.307377+07:00",
+        "submited_at": "2026-03-13T02:21:25.307377+07:00"
+    }
+}

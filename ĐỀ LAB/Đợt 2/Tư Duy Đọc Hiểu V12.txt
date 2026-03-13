@@ -1,0 +1,733 @@
+{
+    "status": true,
+    "message": "Get attempts successfully",
+    "part": {
+        "id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+        "title": "Tư Duy Đọc Hiểu V12",
+        "description": "a",
+        "form_type": "tsa",
+        "topic": "tsa_van",
+        "time_take": 30,
+        "max_point": 20,
+        "slug": "a",
+        "is_free": true,
+        "image_url": "a",
+        "question_quality": 20,
+        "is_published": true,
+        "link_answers": "a",
+        "created_at": "2026-02-20T22:14:24.632082+07:00",
+        "updated_at": "2026-02-20T23:51:44.054277+07:00",
+        "questions": [
+            {
+                "id": "1baed008-dcd4-4255-9e07-57089000092f",
+                "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                "position": 1,
+                "content": "**QUYỀN LỰC CỦA THUẬT TOÁN VÀ GÁNH NẶNG CỦA TÀI XẾ CÔNG NGHỆ**\n[1] Một tài xế giao hàng 55 tuổi người Trung Quốc có biệt danh \"Yuan\" đã chết khi đang ngủ gục trên xe điện sau 18 giờ làm việc. Các đồng nghiệp gọi Yuan là \"vua giao hàng\" vì ông thường làm việc kéo dài tới rạng sáng, ngủ chập chờn trên xe và lập tức tiếp tục chạy khi ứng dụng báo có đơn. Dư luận cho rằng thuật toán phân phối đơn và thời gian giao hàng đang tạo ra áp lực quá lớn khiến tài xế phải làm việc với cường độ cao và gia tăng nguy cơ tai nạn chết người. Thập kỷ qua đã chứng kiến sự phát triển nhanh chóng của kinh tế chia sẻ (kinh tế nền tảng). Đến 2023, khoảng 435 triệu người trên thế giới đã tham gia vào nền kinh tế này. Tại Việt Nam, tỷ lệ tham gia khoảng 14% lực lượng lao động và được dự báo sẽ tiếp tục tăng trong những năm tới.\n[2] Nhiều người cho rằng quản lý bằng thuật toán sẽ trung lập và khách quan hơn con người. Thật vậy, có nghiên cứu cho thấy thuật toán tốt hơn về độ hiệu quả, chính xác so với nhà quản lý là con người. Nhưng thực tế, người tài xế trong các hệ thống này cảm thấy phải tuân theo sự kiểm soát của các ứng dụng, bị theo dõi mọi chuyển động, bị buộc phải mở app liên tục 24/7 mà không có thì giờ nghỉ ngơi. Để hiểu vì sao tài xế cảm nhận rõ rệt sự bị kiểm soát, cần nhìn vào cấu trúc quyền lực mà hệ thống quản lý bằng thuật toán tạo ra, dựa trên 4 khía cạnh: giám sát (monitoring), bất đối xứng (asymmetries), kiểm soát (control) và chiến lược định giá (pricing strategies).\n[3] Các hệ thống duy trì sự bất đối xứng về thông tin, bất đối xứng về quyền lực và bất đối xứng về tính toán. Trong khi các nền tảng nắm trong tay lượng dữ liệu khổng lồ, bản thân người lao động lại rất thiếu thông tin về cách các thuật toán vận hành, chấm điểm và quyết định mức thù lao của họ. Hệ quả là, người lao động bị kẹt trong một \"hộp đen\" thuật toán mà họ chỉ có thể đoán mò, tự thử-sai để tìm ra quy luật. Sự bất đối xứng này còn tồn tại giữa khách hàng và người lao động. Khách hàng được quyền đánh giá chuyến đi (1-5 sao), đôi khi chấm điểm thấp chỉ do kẹt xe hoặc tâm trạng bực bội. Ngược lại, tài xế hầu như không có cơ hội đánh giá khách hàng; và nếu có, những đánh giá đó chủ yếu phục vụ lợi ích của nền tảng chứ không mang lại tác động trực tiếp đến điều kiện làm việc của tài xế.\n[4] Ở khía cạnh kiểm soát của thuật toán, một trong những công cụ quản lý hiệu suất quan trọng nhất là hệ thống đánh giá từ khách hàng. Từ các đánh giá đó, thuật toán sẽ tự động quyết định ai được ưu tiên tiếp cận cơ hội làm việc. Nếu kiểm soát trực tiếp là hình thức \"cưỡng chế\" mang tính mệnh lệnh, thì kiểm soát gián tiếp giống một cú huých tâm lý (nudging) mềm mại nhưng không kém phần hiệu quả. Thay vì ra lệnh, nền tảng dẫn dắt hành vi bằng các yếu tố \"game hóa\" – chẳng hạn điểm thưởng, huy hiệu, tiền thưởng khi chạy đủ giờ trong khung cao điểm. Người lao động sẽ không chỉ làm để đủ chuẩn, mà còn cố gắng làm hơn mức cần thiết. Những yếu tố gián tiếp này tạo phản xạ khiến người lao động tiếp tục online và kéo dài thời gian làm việc mà không cần mệnh lệnh hay ép buộc.\n[5] Trong mô hình kinh tế mới này, đa phần thuật toán thường gây áp lực nhiều hơn là trao quyền. Khác với quan hệ lao động truyền thống, tài xế công nghệ hầu như chỉ tiếp xúc với \"ông chủ\" của mình thông qua một màn hình điện thoại lạnh lẽo. Sự mù mờ về cơ chế khiến họ liên tục sống trong trạng thái cảnh giác: Liệu từ chối một cuốc xe có khiến mình bị tụt hạng? Dần dần, tài xế không còn có thể quyết định nhịp độ của mình. Họ cần mẫn, im lặng, phục tùng thuật toán. Trong bối cảnh ấy, sự thiếu kết nối xã hội (không văn phòng, không đồng nghiệp cố định) càng làm trầm trọng thêm cảm giác cô độc.\n[6] Để đối phó, nhiều tài xế giao đồ ăn đã tự lập ra các kênh trao đổi riêng trên mạng xã hội để chia sẻ kinh nghiệm và hỗ trợ lẫn nhau. Đó là một sự \"nổi dậy ngầm\" trong một cuộc sống đang bị thuật toán theo sát từng phút. Thậm chí, tài xế còn tận dụng mạng xã hội để lên tiếng đấu tranh. Theo báo cáo của ILO, đã có hơn 1.271 cuộc biểu tình, đình công của người lao động nền tảng chủ yếu vì lương thấp và điều kiện làm việc tồi tệ. Ở châu Phi, các tài xế tự xây dựng mạng lưới tự tổ chức để xây dựng \"quyền lực từ dưới lên\", hỗ trợ nhau thuê phương tiện hoặc tổ chức lại công việc để giảm rủi ro.\n[7] Điều đáng lo không chỉ là sự kiệt sức của từng tài xế mà là cách vận hành của nền kinh tế số đang trao cho thuật toán quá nhiều quyền. Thuật toán có quyền năng quản lý nhưng không phải chịu trách nhiệm, quyền lực được tập trung mà không đi kèm nghĩa vụ giải trình, người lao động bị quản lý đến từng phút nhưng lại bị gạt ra ngoài các cơ chế bảo vệ vốn có của quan hệ lao động truyền thống.\n(Lược trích từ báo Tia Sáng)",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_van",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": "active",
+                "access_code": null,
+                "created_at": "2026-02-20T23:51:40.921441+07:00",
+                "updated_at": "2026-02-21T00:16:09.946398+07:00",
+                "questions": [
+                    {
+                        "id": "f25ffa44-65a6-4e67-b54d-4051b4a54550",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "position": 1,
+                        "content": "Mục đích chính của đoạn [1] là gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Phân tích nguyên nhân y học dẫn đến đột quỵ của một tài xế giao hàng."
+                                },
+                                {
+                                    "content": "Cảnh báo về tỷ lệ thất nghiệp gia tăng buộc nhiều người phải chuyển sang làm tài xế."
+                                },
+                                {
+                                    "content": "Nêu bật thực trạng áp lực lao động khắc nghiệt trong nền kinh tế nền tảng đang bùng nổ."
+                                },
+                                {
+                                    "content": "Chứng minh Việt Nam là quốc gia đi đầu trong việc phát triển nền kinh tế chia sẻ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] mượn câu chuyện thương tâm của tài xế Yuan để dẫn nhập, sau đó đưa ra các số liệu bùng nổ của kinh tế chia sẻ. Mục đích chính là phơi bày thực trạng áp lực làm việc khắc nghiệt (nguy cơ tai nạn, làm việc cường độ cao) do thuật toán tạo ra trong mô hình kinh tế này.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "04e9188a-c6ae-4ae3-ac49-6ea6cc259666",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 2,
+                        "content": "Điền một cụm từ không quá HAI tiếng từ đoạn [2] vào mỗi chỗ trống:\nTheo đoạn [2], dù thuật toán được chứng minh là có ưu thế về độ hiệu quả và (1) ____ so với con người, nhưng thực tế nó lại khiến tài xế luôn cảm thấy bị (2) ____ một cách gắt gao.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "chính xác"
+                                ],
+                                [
+                                    "kiểm soát"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [2]: 'thuật toán tốt hơn về độ hiệu quả, chính xác so với nhà quản lý là con người' -\u003e (1) chính xác. Tuy nhiên, 'người tài xế trong các hệ thống này cảm thấy phải tuân theo sự kiểm soát của các ứng dụng' -\u003e (2) kiểm soát.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:53:30.499152+07:00"
+                    },
+                    {
+                        "id": "8af2bf06-abcd-4ba0-aafc-f99482244d24",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "position": 3,
+                        "content": "Dựa vào đoạn [3], nguyên nhân sâu xa nào tạo nên hiện tượng \"hộp đen thuật toán\"?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sự thiếu hụt trầm trọng các lớp đào tạo kỹ năng công nghệ cho người lao động."
+                                },
+                                {
+                                    "content": "Sự bất đối xứng về thông tin giữa nền tảng nắm giữ dữ liệu và người lao động."
+                                },
+                                {
+                                    "content": "Sự lạm dụng quyền đánh giá chuyến đi (1-5 sao) một cách cảm tính của khách hàng."
+                                },
+                                {
+                                    "content": "Sự cố kỹ thuật thường xuyên xảy ra trong hệ thống định vị phân bổ đơn hàng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [3] giải thích rõ: 'Trong khi các nền tảng nắm trong tay lượng dữ liệu khổng lồ, bản thân người lao động lại rất thiếu thông tin về cách các thuật toán vận hành... Hệ quả là, người lao động bị kẹt trong một \"hộp đen\" thuật toán'. Nguyên nhân chính là 'sự bất đối xứng về thông tin' (B).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "b0f5c753-a308-4081-8206-30c7edbd755c",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 4,
+                        "content": "Kéo thả các cụm từ phù hợp vào mỗi chỗ trống để mô tả cơ chế hoạt động của thuật toán ở đoạn [4] :\nHệ thống đánh giá từ khách hàng mang tính mệnh lệnh được xem là hình thức (1) ____. Ngược lại, nền tảng còn sử dụng (2) ____ thông qua các yếu tố (3) ____ như điểm thưởng, huy hiệu để tạo ra một (4) ____ khiến tài xế tự nguyện làm việc nhiều giờ hơn.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "items": [
+                                "kiểm soát trực tiếp",
+                                "kiểm soát gián tiếp",
+                                "bất đối xứng",
+                                "cơ chế định giá",
+                                "game hóa",
+                                "sự trung lập",
+                                "cú huých tâm lý"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0,
+                                1,
+                                4,
+                                6
+                            ]
+                        },
+                        "answer_detail": "\"Dựa vào đoạn [4]: 'Nếu kiểm soát trực tiếp (0) là hình thức \"cưỡng chế\" mang tính mệnh lệnh... thì kiểm soát gián tiếp (1) giống một cú huých tâm lý (6)... Thay vì ra lệnh, nền tảng dẫn dắt hành vi bằng các yếu tố \"game hóa\" (4)'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:53:43.295527+07:00"
+                    },
+                    {
+                        "id": "8b02b123-cb5c-4ae7-9ba0-58482549911b",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "position": 5,
+                        "content": "Chọn HAI phương án ĐÚNG mô tả tình cảnh của người lao động trong nền kinh tế chia sẻ theo đoạn [5]:",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Họ được thuật toán trao quyền chủ động để tự do quyết định nhịp độ công việc."
+                                },
+                                {
+                                    "content": "Họ không có cơ chế khiếu nại trực tiếp như quan hệ lao động truyền thống."
+                                },
+                                {
+                                    "content": "Sự minh bạch của hệ thống giúp họ thoát khỏi trạng thái cảnh giác liên tục."
+                                },
+                                {
+                                    "content": "Sự thiếu vắng không gian làm việc chung làm trầm trọng thêm cảm giác cô độc."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [5] nêu: 'Khác với quan hệ lao động truyền thống, tài xế công nghệ hầu như chỉ tiếp xúc với \"ông chủ\" của mình thông qua một màn hình điện thoại' (c2 đúng). Và 'sự thiếu kết nối xã hội (không văn phòng, không đồng nghiệp cố định) càng làm trầm trọng thêm cảm giác cô độc' (c4 đúng). Phương án c1 và c3 diễn đạt ngược lại ý của văn bản.\"",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-21T00:16:21.675786+07:00"
+                    },
+                    {
+                        "id": "fe7d9df7-421a-4c3c-ba3e-dd9e30d8b1d7",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 6,
+                        "content": "Điền một cụm từ không quá NĂM tiếng từ đoạn [6] vào chỗ trống:\nĐể đối phó với sự cô lập và thuật toán, các tài xế ở châu Phi đã tự xây dựng mạng lưới hỗ trợ lẫn nhau nhằm tạo ra (1) ____ để bảo vệ sinh kế của mình.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "quyền lực từ dưới lên"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [6]: 'Ở châu Phi, các tài xế tự xây dựng mạng lưới tự tổ chức để xây dựng \"quyền lực từ dưới lên\", hỗ trợ nhau thuê phương tiện...'.\"",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-21T00:16:19.774305+07:00"
+                    },
+                    {
+                        "id": "6c2c66e9-4e39-4baf-b2d7-aefc04348e7c",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "position": 7,
+                        "content": "Theo báo cáo của ILO (đoạn 6), đâu KHÔNG PHẢI là nguyên nhân dẫn đến sự phản kháng và đình công của người lao động nền tảng?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Thu nhập từ các chuyến đi quá thấp."
+                                },
+                                {
+                                    "content": "Điều kiện làm việc khắc nghiệt, tồi tệ."
+                                },
+                                {
+                                    "content": "Nền tảng tước bỏ quyền tham gia các nhóm mạng xã hội của tài xế."
+                                },
+                                {
+                                    "content": "Áp lực vô hình và sự thiếu minh bạch trong phân bổ đơn hàng."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [6] ghi rõ lý do đình công 'chủ yếu vì lương thấp và điều kiện làm việc tồi tệ' (A, B). Áp lực thuật toán là nguyên nhân bao trùm toàn bài (D). Việc 'nền tảng tước bỏ quyền tham gia mạng xã hội' là thông tin bịa đặt, thực tế tài xế 'tự lập ra các kênh trao đổi riêng trên mạng xã hội'.\"",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-21T00:16:18.585083+07:00"
+                    },
+                    {
+                        "id": "322ba42b-68ef-4dad-bbf1-c07bcf24d0b6",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "position": 8,
+                        "content": "Dựa vào đoạn [7], các nhận định sau đây về bản chất của thuật toán quản lý là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Thuật toán được cấp quyền năng quản lý khổng lồ nhưng lại được miễn trừ hoàn toàn các trách nhiệm pháp lý tương ứng."
+                                },
+                                {
+                                    "content": "Trong tương lai, các cơ chế bảo vệ của quan hệ lao động truyền thống sẽ tự động được tích hợp vào nền tảng thuật toán."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                true,
+                                false
+                            ]
+                        },
+                        "answer_detail": "\"- a) Đúng. Đoạn [7] viết: 'Thuật toán có quyền năng quản lý nhưng không phải chịu trách nhiệm, quyền lực được tập trung mà không đi kèm nghĩa vụ giải trình'.\n\r\n\r\n- b) Sai. Đoạn [7] nêu thực trạng: 'người lao động... bị gạt ra ngoài các cơ chế bảo vệ vốn có của quan hệ lao động truyền thống'. Không hề có thông tin nói rằng cơ chế này sẽ 'tự động được tích hợp'.\"",
+                        "option_columns": 1,
+                        "status": "active",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-21T00:16:16.042462+07:00"
+                    },
+                    {
+                        "id": "275643e1-0f8a-4566-9055-6fc1e9cad2cd",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 9,
+                        "content": "Kéo thả đối tượng vào ô trống tương ứng với lợi thế/bất lợi của họ trong nền kinh tế chia sẻ :\n1. Nắm giữ lượng dữ liệu khổng lồ và sử dụng yếu tố \"game hóa\" để dắt mũi hành vi: ____\n2. Được quyền đánh giá chuyến đi nhưng điểm số đôi khi bị ảnh hưởng bởi tâm trạng: ____\n3. Bị mắc kẹt trong \"hộp đen\", phải tự thử-sai và chịu sự phân mảnh thời gian: ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "items": [
+                                "Tài xế công nghệ",
+                                "Khách hàng",
+                                "Nền tảng số",
+                                "Nhà quản lý nhân sự",
+                                "Chính phủ",
+                                "Tổ chức công đoàn"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2,
+                                1,
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"- (1) Đoạn 3 và 4 mô tả 'Nền tảng số' nắm dữ liệu và dùng game hóa.\n\r\n\r\n- (2) Đoạn 3 mô tả 'Khách hàng' có quyền đánh giá 1-5 sao, bị ảnh hưởng bởi tâm trạng.\r\n- (3) Xuyên suốt bài (đoạn 3, 5) mô tả 'Tài xế công nghệ' kẹt trong hộp đen, tự thử sai.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:54:01.522417+07:00"
+                    },
+                    {
+                        "id": "5a6c5964-baf1-4e6b-996d-8d66ce9b018c",
+                        "parent_id": "1baed008-dcd4-4255-9e07-57089000092f",
+                        "position": 10,
+                        "content": "Thái độ bao trùm của tác giả đối với mô hình quản lý bằng thuật toán hiện nay là gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Tôn vinh sự ưu việt của công nghệ trong việc thay thế hoàn toàn vai trò quản lý của con người."
+                                },
+                                {
+                                    "content": "Quan ngại sâu sắc và phê phán cơ chế bóc lột tinh vi, phi nhân tính đối với người lao động."
+                                },
+                                {
+                                    "content": "Khuyến khích người lao động truyền thống nhanh chóng gia nhập nền kinh tế chia sẻ để tăng thu nhập."
+                                },
+                                {
+                                    "content": "Trung lập tuyệt đối, chỉ đơn thuần liệt kê các số liệu thống kê khoa học về thuật toán."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Xuyên suốt bài viết, tác giả dùng các từ ngữ mạnh: 'hộp đen', 'cưỡng chế', 'bẫy tâm lý', 'cô độc', 'nổi dậy ngầm'. Đoạn kết (đoạn 7) bộc lộ rõ sự phê phán một hệ thống 'trao cho thuật toán quá nhiều quyền' mà 'không đi kèm nghĩa vụ giải trình'. Điều này thể hiện sự quan ngại và phê phán sâu sắc (B).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    }
+                ]
+            },
+            {
+                "id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                "position": 2,
+                "content": "**GIẢI MÃ 'ẨN SỐ' A-RẬP**\n[1] Trong nhận thức phổ biến của công chúng toàn cầu, cụm từ “thế giới A-rập” thường xuất hiện như một không gian của xung đột, tôn giáo cực đoan, dầu mỏ và bất ổn chính trị kéo dài. Những hình ảnh này, dù không hoàn toàn vô căn cứ, lại có xu hướng giản lược một lịch sử lâu dài, phức tạp và đa tầng của các dân tộc A-rập thành một vài biểu tượng thời sự rời rạc. Chính trong bối cảnh đó, cuốn *Lịch sử các dân tộc A-rập* của Albert Hourani xuất hiện như một nỗ lực nghiêm túc nhằm tái cấu trúc cách chúng ta hiểu về lịch sử A-rập: không phải như một chuỗi biến cố biệt lập, mà như một quá trình hình thành, biến đổi và khủng hoảng của một nền văn minh. Thế giới A-rập trong cuốn sách được định nghĩa như một cộng đồng lịch sử gắn với tiếng A-rập trong vai trò là ngôn ngữ của bản sắc chung.\n[2] Ở phần đầu, cuốn sách tập trung vào giai đoạn hình thành, khi Hồi giáo (Islam) xuất hiện và nhanh chóng tạo ra một trật tự mới ở Trung Đông. Sự mở rộng của cộng đồng Hồi giáo ban đầu dẫn tới việc hình thành các đế chế lớn, trước hết là Umayyad rồi đến Abbasid. Trong giai đoạn này, người A-rập giữ vai trò trung tâm về ngôn ngữ và quyền lực. Một điểm nhấn quan trọng là sự hình thành của một xã hội vượt lên trên cấu trúc bộ lạc. Luật Hồi giáo, tiếng A-rập và các thiết chế học thuật góp phần tạo ra cảm giác thống nhất, ngay cả khi quyền lực chính trị không còn tập trung. Lịch sử A-rập ở đây hiện lên như lịch sử của một cộng đồng được gắn kết bằng niềm tin, ngôn ngữ và các thực hành xã hội chung.\n[3] Lịch sử thế giới A-rập chuyển sang giai đoạn mới khi nó được đặt vào trật tự Ottoman, từ thế kỷ 16 đến 18. Đây thường là phần bị các sử gia khác bỏ qua hoặc xem là \"thời kỳ đen tối\". Trái lại, Hourani đã \"phục hồi\" giá trị của giai đoạn này như một thời kỳ ổn định và duy trì cấu trúc xã hội bền bỉ. Quyền lực tối cao nằm ở Istanbul, song quản trị hằng ngày phụ thuộc nhiều vào giới tinh hoa địa phương: quan lại, giáo sĩ, thương nhân và các gia đình có thế lực. Chính sự phân quyền này tạo ra một mức độ ổn định dài hạn, dù đổi lại là việc thiếu động lực cải tổ chính trị từ bên trong.\n[4] Sang thế kỷ 19 và nửa đầu thế kỷ 20, thế giới A-rập bị cuốn vào trật tự do các đế quốc châu Âu áp đặt. Sự can thiệp của Anh và Pháp không chỉ dừng ở việc kiểm soát lãnh thổ. Các mô hình nhà nước, luật pháp, giáo dục và quản trị được đưa vào với tốc độ nhanh, thường vượt quá khả năng thích nghi của xã hội địa phương. Các cải cách từ bên trong và sự áp đặt từ bên ngoài diễn ra song song: một mặt, chúng mở ra những cánh cửa mới về kỹ thuật và tổ chức, mặt khác làm suy yếu các hình thức tự quản truyền thống. Trong bối cảnh đó, các tầng lớp tinh hoa A-rập bắt đầu tìm kiếm những cách diễn đạt mới về căn tính. Chủ nghĩa dân tộc A-rập xuất hiện như một phản ứng trước sự thống trị bên ngoài, đồng thời như một nỗ lực tái tạo ý thức cộng đồng.\n[5] Giai đoạn sau năm 1939, khi các đế quốc châu Âu rút lui, các quốc gia A-rập lần lượt giành độc lập. Tuy nhiên, Hourani chỉ ra rằng nhiều nhà nước mới hình thành trên nền tảng xã hội phân mảnh, với bộ máy quyền lực tập trung nhưng thiếu gốc rễ xã hội vững chắc. Quân đội, đảng phái và bộ máy an ninh nhanh chóng trở thành trụ cột của quyền lực. Chủ nghĩa A-rập đạt tới đỉnh cao trong những thập niên 1950–1960. Nhưng thất bại của liên quân A-rập trong Cuộc chiến Sáu ngày vào năm 1967 trước nhà nước Do Thái Israel đánh dấu bước ngoặt quan trọng, làm lung lay niềm tin vào cả chủ nghĩa A-rập lẫn mô hình nhà nước hiện có. Từ sau đó, thế giới A-rập bước vào một giai đoạn bất ổn tinh thần và chính trị kéo dài.\n[6] Bên cạnh Hourani, Bernard Lewis cũng là sử gia nổi tiếng về thế giới A-rập. Bernard Lewis tiếp cận chủ yếu từ góc nhìn của phương Tây, đặt câu hỏi vì sao thế giới Hồi giáo \"tụt lại phía sau\" và tìm câu trả lời trong các cấu trúc văn hóa, tôn giáo và chính trị nội tại. Ngược lại, Hourani gần như tránh hoàn toàn kiểu câu hỏi mang tính phán xét đó. *Lịch sử các dân tộc A-rập* không xoay quanh việc vì sao các dân tộc A-rập thất bại, mà tìm cách mô tả thế giới A-rập đã vận hành như thế nào. Thay vì nhấn mạnh sự đứt gãy, Hourani chú ý nhiều hơn đến các quá trình thích nghi, thương lượng và tiếp biến.\n[7] Đọc *Lịch sử các dân tộc A-rập* trong bối cảnh hiện nay, khi thế giới A-rập vẫn bị phủ kín bởi các cuộc chiến tranh và xung đột gay gắt, độc giả dễ nhận ra một điều: những gì đang diễn ra không nằm ngoài quỹ đạo lịch sử mà cuốn sách đã phác họa. Nhà nước yếu, xã hội phân mảnh, bản sắc bị kéo căng giữa tôn giáo, dân tộc và quốc gia, cùng với sự can thiệp dai dẳng từ bên ngoài, đều là những vấn đề có gốc rễ sâu trong lịch sử dài hạn mà Hourani mô tả.\n(Theo Vũ Hoàng Linh)",
+                "difficulty": "M1",
+                "type": "reading_comprehension",
+                "topic": "tsa_van",
+                "data_questions": {},
+                "data_answers": {},
+                "answer_detail": null,
+                "option_columns": 1,
+                "status": null,
+                "access_code": null,
+                "created_at": "2026-02-20T23:51:40.921441+07:00",
+                "updated_at": "2026-02-20T23:51:40.921441+07:00",
+                "questions": [
+                    {
+                        "id": "c2ae5c9b-9651-4a42-880d-7de4277d1ab2",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "position": 1,
+                        "content": "Sự ra đời của cuốn sách \"Lịch sử các dân tộc A-rập\" (đoạn 1) nhằm mục đích phản bác lại xu hướng nào của công chúng toàn cầu?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đánh giá quá cao vai trò của ngôn ngữ A-rập trong tiến trình phát triển của nhân loại."
+                                },
+                                {
+                                    "content": "Giản lược lịch sử phức tạp của người A-rập thành các biểu tượng tiêu cực như xung đột, cực đoan và dầu mỏ."
+                                },
+                                {
+                                    "content": "Cho rằng thế giới A-rập là một khối thống nhất hoàn hảo không bao giờ có khủng hoảng."
+                                },
+                                {
+                                    "content": "Phủ nhận hoàn toàn sự tồn tại của các đế chế Hồi giáo vĩ đại trong thời kỳ trung cổ."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [1] nêu rõ công chúng thường nhìn thế giới A-rập qua lăng kính 'xung đột, tôn giáo cực đoan, dầu mỏ' và 'xu hướng giản lược một lịch sử lâu dài... thành một vài biểu tượng thời sự rời rạc'. Cuốn sách ra đời để 'tái cấu trúc cách chúng ta hiểu', chống lại sự giản lược mang tính định kiến này (B).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "79e9cf7e-5af6-44dc-8d85-4925d4025f8a",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 2,
+                        "content": "Điền một cụm từ không quá BỐN tiếng từ đoạn [2] vào mỗi chỗ trống:\nTrong thời kỳ hưng thịnh của các đế chế Hồi giáo, mặc dù (1) ____ không còn tập trung ở một mối, nhưng xã hội A-rập vẫn duy trì được (2) ____ thông qua niềm tin tôn giáo và ngôn ngữ chung.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "quyền lực chính trị"
+                                ],
+                                [
+                                    "cảm giác thống nhất"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [2]: 'Luật Hồi giáo, tiếng A-rập và các thiết chế học thuật góp phần tạo ra cảm giác thống nhất (2), ngay cả khi quyền lực chính trị (1) không còn tập trung'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:54:12.573142+07:00"
+                    },
+                    {
+                        "id": "8125887e-9979-4cae-ae25-09405259e16b",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "position": 3,
+                        "content": "Chọn HAI phương án ĐÚNG mô tả về trật tự Ottoman đối với thế giới A-rập theo phân tích của tác giả Albert Hourani (đoạn 3):",
+                        "difficulty": "M1",
+                        "type": "multiple_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Đây là \"thời kỳ đen tối\" khiến cấu trúc xã hội A-rập sụp đổ hoàn toàn."
+                                },
+                                {
+                                    "content": "Sự phân quyền cho giới tinh hoa địa phương giúp duy trì một mức độ ổn định dài hạn."
+                                },
+                                {
+                                    "content": "Người A-rập bị tước đoạt toàn bộ quyền quản trị hằng ngày tại các địa phương."
+                                },
+                                {
+                                    "content": "Sự ổn định của trật tự này phải đánh đổi bằng việc thiếu động lực cải tổ chính trị từ bên trong."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                3
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [3] viết: Hourani 'phục hồi' giá trị giai đoạn này (bác bỏ c1). Việc 'quản trị hằng ngày phụ thuộc nhiều vào giới tinh hoa địa phương' (bác bỏ c3). 'Chính sự phân quyền này tạo ra một mức độ ổn định dài hạn (c2 đúng), dù đổi lại là việc thiếu động lực cải tổ chính trị từ bên trong (c4 đúng)'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "9a7257e1-a93d-460b-ab73-abd7a3bfa1d7",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 4,
+                        "content": "Kéo thả các cụm từ phù hợp vào mỗi chỗ trống để mô tả những tác động của đế quốc châu Âu đối với thế giới A-rập ở đoạn [4] :\nSự can thiệp của Anh và Pháp mang đến những mô hình quản trị vượt quá khả năng (1) ____ của xã hội địa phương. Sự (2) ____ từ bên ngoài đã làm suy yếu nghiêm trọng các hình thức (3) ____ của người A-rập. Điều này dẫn đến sự trỗi dậy của (4) ____ như một phản ứng tự vệ để tái tạo ý thức cộng đồng.",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "items": [
+                                "tự quản truyền thống",
+                                "quân sự",
+                                "giáo dục",
+                                "thích nghi",
+                                "áp đặt",
+                                "chủ nghĩa dân tộc",
+                                "chủ nghĩa đế quốc"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                3,
+                                4,
+                                0,
+                                5
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ đoạn [4]:\n\r\n\r\n- 'vượt quá khả năng thích nghi (3) của xã hội địa phương'.\r\n- 'sự áp đặt (4) từ bên ngoài... làm suy yếu các hình thức tự quản truyền thống (0)'.\r\n- 'Chủ nghĩa dân tộc (5) A-rập xuất hiện như một phản ứng trước sự thống trị'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:54:29.428411+07:00"
+                    },
+                    {
+                        "id": "13c776ad-abcf-4d3b-920b-4c09032e26bc",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "position": 5,
+                        "content": "Dựa vào đoạn [5], các nhận định sau đây về giai đoạn hậu độc lập của các quốc gia A-rập là đúng hay sai?",
+                        "difficulty": "M1",
+                        "type": "true_false",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "items": [
+                                {
+                                    "content": "Việc giành độc lập từ tay người châu Âu đã lập tức mang lại một nền hòa bình và ổn định vĩnh viễn cho khu vực."
+                                },
+                                {
+                                    "content": "Phần lớn các nhà nước mới được xây dựng trên một nền tảng xã hội phân mảnh và thiếu gốc rễ vững chắc."
+                                },
+                                {
+                                    "content": "Cuộc chiến Sáu ngày năm 1967 là bước ngoặt làm sụp đổ hoàn toàn niềm tin vào chủ nghĩa A-rập."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                false,
+                                true,
+                                true
+                            ]
+                        },
+                        "answer_detail": "\"- a) Sai. Đoạn [5] viết: 'Từ sau đó, thế giới A-rập bước vào một giai đoạn bất ổn tinh thần và chính trị kéo dài'.\n\r\n\r\n- b) Đúng. 'nhiều nhà nước mới hình thành trên nền tảng xã hội phân mảnh... thiếu gốc rễ xã hội vững chắc'.\r\n- c) Đúng. 'Thất bại... trong Cuộc chiến Sáu ngày vào năm 1967... làm lung lay niềm tin vào cả chủ nghĩa A-rập lẫn mô hình nhà nước hiện có'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "0679a3f9-f8c1-4262-a6cd-f3f4d574962c",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 6,
+                        "content": "Điền một cụm từ không quá HAI tiếng từ đoạn [6] vào chỗ trống:\nKhác với góc nhìn phán xét của phương Tây, Albert Hourani tập trung mô tả cách thế giới A-rập vận hành và nhấn mạnh vào các quá trình thích nghi, (1) ____ và tiếp biến của nền văn minh này.",
+                        "difficulty": "M1",
+                        "type": "fill_in_blank",
+                        "topic": "tsa_van",
+                        "data_questions": {},
+                        "data_answers": {
+                            "answer": [
+                                [
+                                    "thương lượng"
+                                ]
+                            ]
+                        },
+                        "answer_detail": "\"Theo đoạn [6], Hourani 'chú ý nhiều hơn đến các quá trình thích nghi, thương lượng và tiếp biến'. Cụm từ cần điền là 'thương lượng'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:54:42.568109+07:00"
+                    },
+                    {
+                        "id": "8ff4692e-e030-4276-b189-7ffb3e7a8392",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+                        "position": 7,
+                        "content": "Kéo thả tên tác giả vào ô trống tương ứng với phương pháp tiếp cận lịch sử của họ ở đoạn [6] :\n\n1. Tìm kiếm lý do giải thích cho sự tụt hậu của thế giới Hồi giáo thông qua góc nhìn duy lý của phương Tây: ____\n\n2. Tránh đưa ra các câu hỏi phán xét, chấp nhận sự chưa hoàn tất của lịch sử và không giản lược hóa các biến cố: ____",
+                        "difficulty": "M1",
+                        "type": "drag_and_drop",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "items": [
+                                "Albert Hourani",
+                                "Bernard Lewis",
+                                "Gamal Abdel Nasser"
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1,
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Căn cứ đoạn [6]:\n\r\n\r\n- Bernard Lewis (1) 'tiếp cận chủ yếu từ góc nhìn của phương Tây, đặt câu hỏi vì sao thế giới Hồi giáo \"tụt lại phía sau\"'.\r\n- Albert Hourani (0) 'tránh hoàn toàn kiểu câu hỏi mang tính phán xét'.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:55:01.737175+07:00"
+                    },
+                    {
+                        "id": "de454eb7-a2dd-4d72-a7e8-183fbd55db18",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "position": 8,
+                        "content": "Theo tác giả bài viết (đoạn 7), nguyên nhân cốt lõi của những cuộc chiến tranh và xung đột gay gắt tại thế giới A-rập hiện nay là gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Sự suy kiệt đột ngột của các mỏ dầu mỏ khiến nền kinh tế sụp đổ."
+                                },
+                                {
+                                    "content": "Các vấn đề mang tính cấu trúc có gốc rễ sâu xa từ quỹ đạo lịch sử dài hạn (nhà nước yếu, xã hội phân mảnh)."
+                                },
+                                {
+                                    "content": "Sự bùng nổ của các phương tiện truyền thông mạng xã hội gây ra bạo loạn."
+                                },
+                                {
+                                    "content": "Việc người A-rập từ bỏ hoàn toàn tiếng mẹ đẻ và luật Hồi giáo truyền thống."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                1
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [7] kết luận: 'Nhà nước yếu, xã hội phân mảnh, bản sắc bị kéo căng... đều là những vấn đề có gốc rễ sâu trong lịch sử dài hạn mà Hourani mô tả'. Đáp án B tóm lược chính xác các nguyên nhân cốt lõi này.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "88eb3b73-fbd7-43d9-9df3-4f42a9d6cef7",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "position": 9,
+                        "content": "Việc so sánh giữa hai sử gia Hourani và Lewis trong bài viết nhằm mục đích gì?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Chứng minh rằng phương Tây luôn có cái nhìn thù địch và sai lệch về văn hóa Trung Đông."
+                                },
+                                {
+                                    "content": "Hạ bệ uy tín học thuật của Bernard Lewis để tôn vinh sự vĩ đại độc tôn của Albert Hourani."
+                                },
+                                {
+                                    "content": "Làm nổi bật sự khác biệt trong tư duy nghiên cứu, qua đó đề cao sự thận trọng, khách quan và phi định kiến của Hourani."
+                                },
+                                {
+                                    "content": "Khẳng định rằng lịch sử chỉ có thể được viết chính xác bởi những người có nguồn gốc A-rập."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                2
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [6] so sánh hai học giả không nhằm mục đích hạ bệ ai, mà để làm nổi bật 'hai truyền thống tư duy rất khác nhau'. Qua đó, tác giả đánh giá cao sự 'thận trọng', 'khách quan' và từ chối 'sự đơn giản hóa' của Hourani (C).\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    },
+                    {
+                        "id": "45f3aa91-148a-4382-8b3e-c68f7bdb1ec8",
+                        "parent_id": "acf726e2-8329-4ca3-b59b-009d4206badf",
+                        "position": 10,
+                        "content": "Khái niệm \"chủ nghĩa A-rập\" được nhắc đến trong giai đoạn 1950-1960 mang khát vọng gì lớn nhất?",
+                        "difficulty": "M1",
+                        "type": "single_choice",
+                        "topic": "tsa_van",
+                        "data_questions": {
+                            "answers": [
+                                {
+                                    "content": "Xóa bỏ biên giới quốc gia để hợp nhất thế giới A-rập thành một nhà nước hoặc một khối thống nhất."
+                                },
+                                {
+                                    "content": "Kêu gọi các cường quốc châu Âu quay trở lại để tái lập các vùng cai trị thuộc địa."
+                                },
+                                {
+                                    "content": "Đồng hóa tất cả các dân tộc thiểu số không nói tiếng A-rập tại khu vực Trung Đông."
+                                },
+                                {
+                                    "content": "Tuyên chiến quân sự toàn diện với tất cả các quốc gia phương Tây."
+                                }
+                            ]
+                        },
+                        "data_answers": {
+                            "answer": [
+                                0
+                            ]
+                        },
+                        "answer_detail": "\"Đoạn [5] viết rõ: 'Chủ nghĩa A-rập đạt tới đỉnh cao trong những thập niên 1950–1960, đặc biệt qua các dự án nhằm hợp nhất một số quốc gia thành một nhà nước hoặc một khối thống nhất... ý tưởng về một cộng đồng A-rập chung dường như có thể vượt qua biên giới quốc gia'. Đáp án A là chính xác.\"",
+                        "option_columns": 1,
+                        "status": "inactive",
+                        "access_code": null,
+                        "created_at": "2026-02-20T23:51:40.921441+07:00",
+                        "updated_at": "2026-02-20T23:51:40.921441+07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    "attempt": {
+        "id": "b327325e-78a9-4486-ac56-24bcf9a79f9a",
+        "mode": "part",
+        "user_id": "8aaa15fa-0473-4672-9619-615e50d17cc5",
+        "part_id": "f250a054-4f1f-4aa7-a29e-a536bfb65e75",
+        "status": "in_progress",
+        "created_at": "2026-03-13T22:23:00.079655+07:00",
+        "updated_at": "2026-03-13T22:23:00.079655+07:00",
+        "submited_at": "2026-03-13T22:23:00.079655+07:00"
+    }
+}
