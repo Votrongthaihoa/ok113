@@ -1,0 +1,644 @@
+{
+    "_id": "69a908f8122c65b6a41a4461",
+    "title": "[Sách Đề]-Tư Duy Toán Học-Đề 34",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "C",
+        "Câu 2": "B",
+        "Câu 3": "D",
+        "Câu 4": "C",
+        "Câu 5": "C",
+        "Câu 6": "D",
+        "Câu 7": "B",
+        "Câu 8": "B",
+        "Câu 9": [
+            12
+        ],
+        "Câu 10": [
+            2
+        ],
+        "Câu 11": "C",
+        "Câu 12": "B",
+        "Câu 13": "A",
+        "Câu 14": "C",
+        "Câu 15": "B",
+        "Câu 16": "A",
+        "Câu 17": "C",
+        "Câu 18": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 19": [
+            2
+        ],
+        "Câu 20": "C",
+        "Câu 21": "B",
+        "Câu 22": [
+            3
+        ],
+        "Câu 23": "C",
+        "Câu 24": "D",
+        "Câu 25": "B",
+        "Câu 26": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 27": "A",
+        "Câu 28": [
+            0.61
+        ],
+        "Câu 29": [
+            -8
+        ],
+        "Câu 30": [
+            41
+        ],
+        "Câu 31": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            }
+        ],
+        "Câu 32": "D",
+        "Câu 33": [
+            6
+        ],
+        "Câu 34": "C",
+        "Câu 35": [
+            11
+        ],
+        "Câu 36": "A",
+        "Câu 37": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 38": "A",
+        "Câu 39": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            }
+        ],
+        "Câu 40": [
+            {
+                "slot1": "A>"
+            },
+            {
+                "slot2": "C>"
+            }
+        ]
+    },
+    "startTime": "2026-02-24T11:01:00.000Z",
+    "endTime": "2026-04-30T11:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Xét dãy các số tự nhiên lẻ. Số 2017 là số hạng thứ mấy?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br />\nTa c&oacute;: $u_{n}=2 n-1, u_{n}=2017 \\Rightarrow n=1009$.",
+            "contentAnswerA": "2017.",
+            "contentAnswerB": "1008.",
+            "contentAnswerC": "1009.",
+            "contentAnswerD": "2015."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Cho $a=\\log _{2} m$ và $A=\\log _{m} 16 m$, với $0 \\lt m \\neq 1$. Mệnh đề nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có $A=\\log _{m} 16 m=\\dfrac{\\log _{2} 16 m}{\\log _{2} m}=\\dfrac{\\log _{2} 16+\\log _{2} m}{\\log _{2} m}=\\dfrac{4+a}{a}$.",
+            "contentAnswerA": "$A=\\dfrac{4-a}{a}$.",
+            "contentAnswerB": "$A=\\dfrac{4+a}{a}$.",
+            "contentAnswerC": "$A=(4+a) a$.",
+            "contentAnswerD": "$A=(4-a) a$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho hai đường thẳng phân biệt $a, b$ và mặt phẳng $P$, trong đó $a \\perp P$. Mệnh đề nào sau đây là sai?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Theo Định lý 5, b) ta có: D sai vì đường thẳng $b$ có thể nằm trong mặt phẳng $P$.",
+            "contentAnswerA": "Nếu $b \\perp P$ thì $b // a$.",
+            "contentAnswerB": "Nếu $b // P$ thì $b \\perp a$.",
+            "contentAnswerC": "Nếu $b // a$ thì $b \\perp P$.",
+            "contentAnswerD": "Nếu $b \\perp a$ thì $b // P$."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[1 ; 5]$ và có đồ thị như hình vẽ. Gọi $M, m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên đoạn $[1 ; 5]$. Giá trị $M-m$ bằng:<br/><img src=\"https://zpi.cx/b/RxotB4.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057012-4qof4zwfw\" class=\"mx-auto\" style=\"\">",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Dựa vào đồ thị ta thấy $M=4, m=0$.<br/>Do đó $M-m=4$.",
+            "contentAnswerA": "2.",
+            "contentAnswerB": "1.",
+            "contentAnswerC": "4.",
+            "contentAnswerD": "5."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Trong không gian $O x y z$, cho $\\overrightarrow{u}=\\overrightarrow{i}-3 \\overrightarrow{k}$. Tọa độ của vectơ $\\overrightarrow{u}$ là:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Do $\\overrightarrow{u}=\\overrightarrow{i}-3 \\overrightarrow{k} \\Rightarrow \\overrightarrow{u}=1 \\cdot \\overrightarrow{i}+0 \\cdot \\overrightarrow{j}-3 \\cdot \\overrightarrow{k} \\Rightarrow \\overrightarrow{u}=(1 ; 0 ;-3)$.",
+            "contentAnswerA": "$(1 ;-3 ; 0)$.",
+            "contentAnswerB": "$(0 ; 2 ;-3)$.",
+            "contentAnswerC": "$(1 ; 0 ;-3)$.",
+            "contentAnswerD": "$(1 ;-1 ; 3)$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Nếu $\\displaystyle \\int_{0}^{4} f(x) {d} x=37$ thì $\\displaystyle \\int_{0}^{4}\\left[2 f(x)-3 x^{2}\\right] {d} x$ bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có: $\\displaystyle \\int_{0}^{4}\\left[2 f(x)-3 x^{2}\\right] {d} x=2 \\displaystyle \\int_{0}^{4} f(x) {d} x-3 \\displaystyle \\int_{0}^{4} x^{2} {d} x=2 \\cdot 37-\\left.x^{3}\\right|_{0} ^{4}=74-64=10$.",
+            "contentAnswerA": "12.",
+            "contentAnswerB": "18.",
+            "contentAnswerC": "-27.",
+            "contentAnswerD": "10."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Gieo con xúc xắc 1 lần. Gọi $A$ là biến cố xuất hiện mặt 2 chấm. $B$ là biến cố xuất hiện mặt chẵn. Xác suất $P(A \\mid B)$ là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Theo định nghĩa xác suất có điều kiện ta có: $P(A \\mid B)=\\dfrac{P(A \\cap B)}{P(B)}=\\dfrac{\\dfrac{1}{6}}{\\dfrac{3}{6}}=\\dfrac{1}{3}$.",
+            "contentAnswerA": "$\\dfrac{1}{2}$.",
+            "contentAnswerB": "$\\dfrac{1}{3}$.",
+            "contentAnswerC": "$\\dfrac{2}{3}$.",
+            "contentAnswerD": "$\\dfrac{1}{6}$."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Ở góc phần tư thứ nhất của đường tròn lượng giác. Hãy chọn kết quả đúng trong các kết quả sau đây.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Nhìn vào đường tròn lượng giác:<br/><img src=\"https://zpi.cx/b/9qDuZhd.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057020-oklpq1f3p\" class=\"mx-auto\" style=\"\"><br/>Ta thấy ở góc phần tư thứ nhất thì: $\\sin \\alpha \\gt 0 ; \\cos \\alpha \\gt 0 ; \\tan \\alpha \\gt 0 ; \\cot \\alpha \\gt 0$<br/>$\\Rightarrow$ chỉ có câu A thỏa mãn.",
+            "contentAnswerA": "$\\cot \\alpha \\lt 0$.",
+            "contentAnswerB": "$\\sin \\alpha \\gt 0$.",
+            "contentAnswerC": "$\\cos \\alpha \\lt 0$.",
+            "contentAnswerD": "$\\tan \\alpha \\lt 0$."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Cho hàm số $f(x)$ thỏa mãn $\\displaystyle \\lim _{x \\rightarrow 2} \\dfrac{f(x-2)}{x-2}=15$. Tính giá trị của giới hạn $\\displaystyle \\lim _{x \\rightarrow 2} \\dfrac{2 x f(x-2)}{x^{2}+x-6}$<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 9-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                12
+            ],
+            "explanation": "<br/>Ta có $\\displaystyle \\lim _{x \\rightarrow 2} \\dfrac{2 x f(x-2)}{x^{2}+x-6}=\\displaystyle \\lim _{x \\rightarrow 2} \\dfrac{2 x \\dfrac{f(x-2)}{(x-2)}}{\\dfrac{(x+3)(x-2)}{(x-2)}}=\\displaystyle \\lim _{x \\rightarrow 2} \\dfrac{2 x \\cdot \\dfrac{f(x-2)}{(x-2)}}{x+3}=\\dfrac{4 \\cdot 15}{5}=12$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Cho hình chóp $S . A B C D$ có đáy $A B C D$ là hình bình hành. $M$ là trung điểm của $S C$. Gọi $I$ là giao điểm của đường thẳng $A M$ với mặt phẳng $(S B D)$. Tính tỉ số $\\dfrac{I A}{I M}$.<br/><img src=\"https://zpi.cx/b/0hcxx.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057027-tbw66kcyf\" class=\"mx-auto\" style=\"\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 10-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<br/><img src=\"https://zpi.cx/b/eFv9R.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057031-bshed18vz\" class=\"mx-auto\" style=\"\"><br/>Gọi $A C \\cap B D=O$ thì $(S A C) \\cap(S B D)=S O$.<br/>Trong mặt phẳng ( $S A C$ ), lấy $A M \\cap S O=I$ suy ra $I=A M \\cap(S B D)$.<br/>Do trong tam giác $S A C, A M$ và $S O$ là hai đường trung tuyến nên $I$ là trọng tâm của $\\triangle S A C$.<br/>Vậy $\\dfrac{I A}{I M}=2$."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Cho hàm số $f(x)=x^{2}+3 x-1$ có đồ thị $(C)$. Xác định hệ số góc của tiếp tuyến của đồ thị $(C)$ tại giao điểm của đồ thị với trục $O y$",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có $f^{\\prime}(x)=2 x+3$.<br/>Tiếp tuyến tại giao điểm của đồ thị với trục $O y$ có hoành độ tiếp điểm $x_{0}=0$.<br/>Hệ số góc của tiếp tuyến tại điểm $x_{0}=0$ là $k=f^{\\prime}(0)=2.0+3=3$<br/>Vậy hệ số góc của tiếp tuyến đã cho bằng 3.",
+            "contentAnswerA": "-3.",
+            "contentAnswerB": "2.",
+            "contentAnswerC": "3.",
+            "contentAnswerD": "4."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Hàm số $y=x^{3}-3 x^{2}-9 x+7$ đồng biến trên khoảng nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Tập xác định: $D=\\mathbb{R}$.<br/>Ta có $y^{\\prime}=3 x^{2}-6 x-9$.<br/>$y^{\\prime}=0 \\Leftrightarrow 3 x^{2}-6 x-9=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\\\ x=3\\end{array}\\right.$.<br/>Bảng xét dấu<br/><img src=\"https://zpi.cx/b/BcbL3.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057036-v8tmb33nc\" class=\"mx-auto\" style=\"\"><br/>Từ bảng xét dấu ta thấy hàm số đồng biến trên khoảng $(-\\infty ;-1)$ nên hàm số đồng biến trên khoảng $(-5 ;-2)$",
+            "contentAnswerA": "$(1 ;+\\infty)$.",
+            "contentAnswerB": "$(-5 ;-2)$.",
+            "contentAnswerC": "$(-\\infty ; 1)$.",
+            "contentAnswerD": "$(-1 ; 3)$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Trong không gian với hệ trục tọa độ $O x y z$, cho mặt cầu $(S):(x-1)^{2}+(y+2)^{2}+(z-3)^{2}=25$. Tọa độ tâm $I$ và bán kính $R$ của mặt cầu $(S)$ là",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Từ phương trình mặt cầu, ta xác định được tâm $I(1 ;-2 ; 3)$ và bán kính $R=\\sqrt{25}=5$.",
+            "contentAnswerA": "$I(1 ;-2 ; 3) ; R=5$.",
+            "contentAnswerB": "$I(-1 ; 2 ;-3) ; R=5$.",
+            "contentAnswerC": "$I(1 ;-2 ; 3) ; R=25$.",
+            "contentAnswerD": "$I(-1 ; 2 ;-3) ; R=25$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Cho hình phẳng $(H)$ giới hạn bởi các đường thẳng $y=2 x-x^{2}, y=0$. Quay $(H)$ quanh trục hoành tạo thành khối tròn xoay có thể tích bằng",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Phương trình hoành độ giao điểm: $2 x-x^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=2\\end{array}\\right.$.<br/>Khi đó $V=\\pi \\displaystyle \\int_{0}^{2}\\left(2 x-x^{2}\\right)^{2} {d} x=\\dfrac{16 \\pi}{15}$.",
+            "contentAnswerA": "$V=\\dfrac{16 \\pi}{9}$.",
+            "contentAnswerB": "$V=\\dfrac{16}{9}$.",
+            "contentAnswerC": "$V=\\dfrac{16 \\pi}{15}$.",
+            "contentAnswerD": "$V=\\dfrac{16}{15}$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Gieo con súc sắc được chế tạo cân đối và đồng chất 2 lần. Gọi $a$ là số chấm xuất hiện trong lần gieo thứ nhất, $b$ là số chấm xuất hiện trong lần gieo thứ hai. Xác suất để phương trình $x^{2}+a x+b=0$ có nghiệm bằng",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Để phương trình $x^{2}+a x+b=0$ có nghiệm $\\Leftrightarrow \\Delta=a^{2}-4 b \\geq 0\\left(^{*}\\right)$<br/>Với $a, b$ là các số thuộc $1 ; 2 ; 3 ; 4 ; 5 ; 6$.<br/>Mỗi kết quả của không gian mẫu $\\Omega$ là cặp số $a ; b$, khi đó $n \\Omega=36$.<br/>Gọi $A$ là biến cố \"phương trình $x^{2}+a x+b=0$ có nghiệm\". Khi đó $A$ gồm các phần tử thỏa mãn (*), ta có:<br/>$A= (2 ; 1) ; (3 ; 2) ; (3 ; 2) ; (4 ; 1) ; (4 ; 2) ; (4 ; 3) ; (4 ; 4) ; (5 ; 1) ; (5 ; 2) ; (5 ; 3) ; (5 ; 4) ; (5 ; 5) ; (5 ; 6);  (6 ; 1) ; (6 ; 2 ); (6 ; 3) ; (6 ; 4) ; (6 ; 5) ; (6 ; 6 )\\Rightarrow n (A)=19$<br/>Xác suất $P(A)=\\dfrac{n A}{n \\Omega}=\\dfrac{19}{36}$",
+            "contentAnswerA": "$\\dfrac{17}{36}$.",
+            "contentAnswerB": "$\\dfrac{19}{36}$.",
+            "contentAnswerC": "$\\dfrac{1}{2}$.",
+            "contentAnswerD": "$\\dfrac{4}{9}$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Tìm chu kì $T$ của hàm số $y=\\cos \\left(\\dfrac{x}{2}+2021\\right)$",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Hàm số $y=\\cos (ax+b)$ tuần hoàn với chu kì $T=\\dfrac{2 \\pi}{|a|}$.<br/>Áp dụng: Hàm số $y=\\cos \\left(\\dfrac{1}{2}x+2021\\right)$ tuần hoàn với chu kì $T=4 \\pi$.",
+            "contentAnswerA": "$T=4 \\pi$.",
+            "contentAnswerB": "$T=2 \\pi$.",
+            "contentAnswerC": "$T=-2 \\pi$.",
+            "contentAnswerD": "$T=\\pi$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Xác định $x$ để 3 số $2 x-1 ; x ; 2 x+1$ theo thứ tự lập thành một cấp số nhân:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ba số $2 x-1 ; x ; 2 x+1$ theo thứ tự lập thành cấp số nhân $\\Leftrightarrow (2 x-1)(2 x+1)=x^{2} \\Leftrightarrow 4 x^{2}-1=x^{2} \\Leftrightarrow 3 x^{2}=1 \\Leftrightarrow x= \\pm \\dfrac{1}{\\sqrt{3}}$.",
+            "contentAnswerA": "$x= \\pm \\dfrac{1}{3}$.",
+            "contentAnswerB": "$x= \\pm \\sqrt{3}$.",
+            "contentAnswerC": "$x= \\pm \\dfrac{1}{\\sqrt{3}}$.",
+            "contentAnswerD": "Không có giá trị nào của $x$."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Cho hàm số $f(x)=\\dfrac{3 x^{2}-10 x+3}{x^{2}-5 x+6}$. Xét tính đúng, sai của các mệnh đề sau.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/>a, Sai. Biến đổi đúng là: $f(x)=\\dfrac{3 x^{2}-10 x+3}{x^{2}-5 x+6}=\\dfrac{(x-3)(3x-1)}{(x-3)(x-2)}$.<br/>b, Đúng. $\\displaystyle \\lim _{x \\rightarrow 3} f(x)=\\displaystyle \\lim _{x \\rightarrow 3} \\dfrac{3 x^{2}-10 x+3}{x^{2}-5 x+6}=\\displaystyle \\lim _{x \\rightarrow 3} \\dfrac{(x-3)(3 x-1)}{(x-3)(x-2)}=\\displaystyle \\lim _{x \\rightarrow 3} \\dfrac{3 x-1}{x-2}=8$.<br/>c, Sai. $\\displaystyle \\lim _{x \\rightarrow 2^{+}} f(x)=\\displaystyle \\lim _{x \\rightarrow 2^{+}} \\dfrac{3 x-1}{x-2}=+\\infty$. Vì $\\displaystyle \\lim _{x \\rightarrow 2^{+}}(3 x-1)=5 \\gt 0$ và $\\displaystyle \\lim _{x \\rightarrow 2^{+}}(x-2)=0$ với $x-2 \\gt 0$.",
+            "contentYA": "$f(x)=\\dfrac{3 x^{2}-10 x+3}{x^{2}-5 x+6}=\\dfrac{(x-3)\\left(x-\\dfrac{1}{3}\\right)}{(x-3)(x-2)}$",
+            "contentYB": "$\\displaystyle \\lim _{x \\rightarrow 3} f(x)=8$",
+            "contentYC": "$\\displaystyle \\lim _{x \\rightarrow 2^{+}} f(x)=-\\infty$"
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Cho hai số thực dương $x, y \\neq 1$ thỏa mãn $\\log _{x} y=\\log _{y} x$ và $\\log _{x}(x-y)=\\log _{y}(x+y)$. Tính giá trị biểu thức $S=x^{4}-x^{2}+1$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 19-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                2
+            ],
+            "explanation": "<br/>Điều kiện: $\\left\\{\\begin{array}{l}x, y \\neq 1 \\\\ x \\gt y \\gt 0\\end{array}\\right.$. Ta có:<br/>$\\log _{x} y=\\log _{y} x \\Leftrightarrow \\log _{x} y=\\dfrac{1}{\\log _{x} y} \\Leftrightarrow\\left(\\log _{x} y\\right)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}\\log _{x} y=1({L}) \\\\ \\log _{x} y=-1({TM})\\end{array} \\Leftrightarrow y=x^{-1} \\Leftrightarrow y=\\dfrac{1}{x}\\right.$.<br/>Ta có: $\\log _{x}(x-y)=\\log _{y}(x+y) \\Leftrightarrow \\log _{x}\\left(x-\\dfrac{1}{x}\\right)=-\\log _{x}\\left(x+\\dfrac{1}{x}\\right) \\Leftrightarrow \\log _{x}\\left(x^{2}-\\dfrac{1}{x^{2}}\\right)=0$<br/>$\\Leftrightarrow x^{2}-\\dfrac{1}{x^{2}}=1 \\Leftrightarrow x^{4}-x^{2}-1=0$.<br/>Vậy $S=x^{4}-x^{2}+1=1+1=2$."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Cho hình chóp $S \\cdot A B C$ có $S A \\perp(A B C), S A=3 a$. Gọi $M, N$ lần lượt là trung điểm của $S A, S C$. Tính khoảng cách giữa $M N$ và $\\triangle A B C$.",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/><img src=\"https://zpi.cx/b/oqNFHP.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057038-xyj7s4nfm\" class=\"mx-auto\" style=\"\"><br/>Do $M N / / A C, A C \\subset(A B C), M N \\not \\subset(A B C)$ nên $M N / /(A B C)$.<br/>Vì $M \\in M N$ nên $d(M N,(A B C))=d(M,(A B C))$.<br/>Vì $M A \\perp(A B C)$ nên $d(M,(A B C))=M A=\\dfrac{3 a}{2}$.<br/>Vậy $d(M N,(A B C))=\\dfrac{3 a}{2}$.",
+            "contentAnswerA": "$a$.",
+            "contentAnswerB": "$2 a$.",
+            "contentAnswerC": "$\\dfrac{3 a}{2}$.",
+            "contentAnswerD": "$\\dfrac{a}{2}$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Đường tiệm cận xiên của đồ thị hàm số $y=\\dfrac{x^{2}-2 x+2}{x-1}$ là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có $y=\\displaystyle \\lim _{x \\rightarrow+\\infty}\\left(\\dfrac{x^{2}-2 x+2}{x-1}-(x-1)\\right)=0$ và $\\displaystyle \\lim _{x \\rightarrow-\\infty}\\left(\\dfrac{x^{2}-2 x+2}{x-1}-(x-1)\\right)=0$<br/>Suy ra $y=x-1$ là đường tiệm cận xiên của đồ thị hàm số.",
+            "contentAnswerA": "$y=x+1$.",
+            "contentAnswerB": "$y=x-1$.",
+            "contentAnswerC": "$x=3$.",
+            "contentAnswerD": "$x=2$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Trong không gian $O x y z$, một cabin cáp treo xuất phát từ điểm $A(10 ; 0 ; 3)$ và chuyển động theo đường cáp có vectơ chỉ phương $\\overrightarrow{u}(2 ; 2 ; 1)$ (đơn vị trên mỗi trục tọa độ là m). Hai cột trụ cáp treo đặt tại điểm $B, C$ biết $x_{B}=20 ; y_{C}=120$. Thời gian cabin đi từ điểm $B$ đến điểm $C$ là 55s. Hỏi vận tốc của cabin bằng bao nhiêu m/s?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 22-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>Phương trình tham số của đường cáp treo là: $d:\\left\\{\\begin{array}{l}x=10+2 t \\\\ y=2 t \\\\ z=3+t\\end{array} \\quad(t \\in \\mathbb{R})\\right.$.<br/>$x_{B}=20 \\Rightarrow B(20 ; 10 ; 8), y_{C}=120 \\Rightarrow C(130 ; 120 ; 63)$.<br/>$B C=\\sqrt{110^{2}+110^{2}+55^{2}}=165(m)$.<br/>Vậy vận tốc của cabin đi là $v=\\dfrac{165}{55}=3({m} / {s})$."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Một chiếc ô tô chuyển động với vận tốc $v(t) ({m/s})$, có gia tốc $a(t)=v^{\\prime}(t)=\\dfrac{3}{t+1} ({m/s}^{2})$. Biết vận tốc của ô tô tại giây thứ 6 bằng $6 ({m/s})$. Tính vận tốc của ô tô tại giây thứ 20.",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có: $v(t)=\\displaystyle \\int a(t) {dt}=\\displaystyle \\int \\dfrac{3}{t+1}=3 \\ln |t+1|+C$.<br/>Lại có: $v(6)=6 \\Leftrightarrow 3 \\ln 7+c=6 \\Leftrightarrow c=6-3 \\ln 7$.<br/>Suy ra $v(20)=3 \\ln 21+6-3 \\ln 7=3 \\ln 3+6$.<br/>Vậy vận tốc của ôtô tại giây thứ 20 bằng $3 \\ln 3+6$.",
+            "contentAnswerA": "$v=3 \\ln 3$.",
+            "contentAnswerB": "$v=14$.",
+            "contentAnswerC": "$v=3 \\ln 3+6$.",
+            "contentAnswerD": "$v=26$."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Trên mặt đất phẳng, người ta dựng một cây cột $A B$ có chiều dài bằng 12 m và tạo với mặt đất góc $75^{\\circ}$. Tại một thời điểm dưới ánh sáng mặt trời, bóng $B C$ của cây cột trên mặt đất dài 8 m và tạo với cây cột một góc bằng $100^{\\circ}$. Góc giữa đường thẳng chứa tia sáng mặt trời và mặt đất bằng bao nhiêu độ (kết quả làm tròn đến hàng đơn vị)?<br/><img src=\"https://zpi.cx/b/CnuQFYp.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057043-wol446n3e\" class=\"mx-auto\" style=\"\">",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/><img src=\"https://zpi.cx/b/fCat4g.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057048-ys7ksidyy\" class=\"mx-auto\" style=\"\"><br/>Gọi điểm $H$ là hình chiếu vuông góc của điểm $A$ trên mặt đất. Khi đó góc giữa đường thẳng chứa tia sáng mặt trời và mặt đất là góc $\\alpha=A C H$.<br/>Xét tam giác $A B C$ có<br/>$A C^{2}=A B^{2}+B C^{2}-2 \\cdot A B \\cdot B C \\cdot \\cos A B C \\Rightarrow A C=\\sqrt{208-192 \\cdot \\cos 100^{\\circ}}$.<br/>Xét tam giác $A B H$ vuông tại $H$ có $A H=A B \\cdot \\sin 75^{\\circ}=12 \\cdot \\sin 75^{\\circ}$.<br/>Xét tam giác $A C H$ vuông tại $H$ có $\\sin \\alpha=\\dfrac{A H}{A C}=\\dfrac{12 \\cdot \\sin 75^{\\circ}}{\\sqrt{208-192 \\cdot \\cos 100^{\\circ}}} \\simeq 0,7461 \\Rightarrow \\alpha \\simeq 48^{\\circ}$.<br/>Vậy góc giữa đường thẳng chứa tia sáng mặt trời và mặt đất bằng $48^{\\circ}$.",
+            "contentAnswerA": "$46^{\\circ}$.",
+            "contentAnswerB": "$44^{\\circ}$.",
+            "contentAnswerC": "$42^{\\circ}$.",
+            "contentAnswerD": "$48^{\\circ}$."
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Cho hàm số: $f(x)=a x^{2}+b x+2 (a \\gt 0)$. Biết rằng hàm số đồng biến trên $(-1 ;+\\infty)$. Khi đó giá trị lớn nhất của biểu thức $P=\\dfrac{8 a^{2}}{3 a^{2}+2 a b+b^{2}}$ là",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Do $a \\gt 0$ nên hàm số đồng biến trên $(-1 ;+\\infty)$ thì: $\\dfrac{-b}{2 a} \\leq-1 \\Leftrightarrow \\dfrac{b}{a} \\geq 2$<br/>Khi đó:<br/>$P=\\dfrac{8 a^{2}}{3 a^{2}+2 a b+b^{2}}=\\dfrac{8}{\\left(\\dfrac{b}{a}\\right)^{2}+2 \\dfrac{b}{a}+3}=\\dfrac{8}{t^{2}+2 t+3}{ }_{\\text {với }} t=\\dfrac{b}{a} \\geq 2$<br/>Ta có $t^{2}+2 t+3=(t+1)^{2}+2 \\geq 11, \\forall t \\geq 2$. Dấu '=\" xảy ra khi $t=2$<br/>Do đó : $P \\leq \\dfrac{8}{11}$. Suy ra $\\operatorname{maxP}=\\dfrac{8}{11}$ khi $\\dfrac{b}{a}=2$.",
+            "contentAnswerA": "4.",
+            "contentAnswerB": "$\\dfrac{8}{11}$.",
+            "contentAnswerC": "$\\dfrac{8}{3}$.",
+            "contentAnswerD": "$\\dfrac{4}{3}$."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Trong không gian $O x y z$, cho điểm $A(0 ;-3 ; 2), B(1 ;-2 ; 3)$ và đường thẳng $\\Delta: \\dfrac{x-2}{1}=\\dfrac{y+1}{1}=\\dfrac{z-2}{1}$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Đúng. Phương trình đường thẳng $A B$ nhận $\\overrightarrow{A B}$ 1; 1;1 làm vtcp: $\\left\\{\\begin{array}{c}x=t \\\\ y=-3+t, t \\in \\mathbb{R} \\text {. } \\\\ z=2+t\\end{array}\\right.$<br/>b, Đúng.<br/>Đường thẳng $A B$ có vtpt $\\overrightarrow{A B}$ (1;1;1)<br/>Đường thẳng $\\Delta: \\dfrac{x-2}{1}=\\dfrac{y+1}{1}=\\dfrac{z-2}{1}$ có vtcp $\\overrightarrow{u} (1 ; 1 ; 1)$<br/>Và $A (0 ;-3 ; 2) \\notin \\Delta$ nên $A B / / \\Delta$.<br/>c, Sai.<br/>Đường thẳng $\\Delta: \\dfrac{x-2}{1}=\\dfrac{y+1}{1}=\\dfrac{z-2}{1}$ đi qua điểm $M(2 ;-1 ; 2)$ và $\\overrightarrow{u_{\\Delta}}=(1 ; 1 ; 1)$.<br/>Ta có $\\overrightarrow{A M}=(2 ; 2 ; 0) \\Rightarrow\\left[\\overrightarrow{A M}, \\overrightarrow{u_{\\Delta}}\\right]=(2 ;-2 ; 0)$.<br/>Khi đó $d(A, \\Delta)=\\dfrac{\\left[\\left| \\overrightarrow{A M}, \\overrightarrow{u_{\\Delta}}\\right|\\right]}{\\left|\\overrightarrow{u_{\\Delta}}\\right|}=\\dfrac{\\sqrt{2^{2}+(-2)^{2}+0^{2}}}{\\sqrt{1^{2}+1^{2}+1^{2}}}=\\dfrac{2 \\sqrt{6}}{3}$.<br/>d, Đúng.<br/>Gọi $H$ là hình chiếu của $O$ trên đường thẳng $\\Delta$, khi đó $H (2+t ;-1+t ; 2+t)$.<br/>Ta có $\\overrightarrow{O H}=(2+t ;-1+t ; 2+t)$ và $\\overrightarrow{u_{\\Delta}}=(1 ; 1 ; 1)$.<br/>Vì $O H \\perp \\Delta$ nên $\\overrightarrow{O H} \\cdot \\overrightarrow{u_{\\Delta}}=0 \\Leftrightarrow 2+t-1+t+2+t=0 \\Leftrightarrow t=-1$.<br/>Do đó tọa độ hình chiếu vuông góc của điểm $O(0 ; 0 ; 0)$ lên đường thẳng $\\Delta$ là $H(1 ;-2 ; 1)$.",
+            "contentYA": "Phương trình đường thẳng $A B:\\left\\{\\begin{array}{l}x=t \\\\ y=-3+t \\quad (t \\in \\mathbb{R}) \\\\ z=2+t\\end{array}\\right.$.",
+            "contentYB": "Đường thẳng $A B$ song song với đường thẳng $\\Delta: \\dfrac{x-2}{1}=\\dfrac{y+1}{1}=\\dfrac{z-2}{1}$.",
+            "contentYC": "Khoảng cách từ điểm $A$ đến đường thẳng $\\Delta$ là $\\dfrac{3 \\sqrt{6}}{2}$.",
+            "contentYD": "Hình chiếu vuông góc của điểm $O(0 ; 0 ; 0)$ lên đường thẳng $\\Delta$ là $H(1 ;-2 ; 1)$."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Tính diện tích $S$ của hình phẳng $(H)$ giới hạn bởi các đường cong $y=-x^{3}+12 x$ và $y=-x^{2}$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Xét phương trình hoành độ giao điểm 2 đường cong:<br/>$-x^{3}+12 x=-x^{2} \\Leftrightarrow x\\left(x^{2}-x-12\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=-3 \\\\ x=4\\end{array}\\right.$.<br/>$\\Rightarrow$ Diện tích cần tìm là: $S=\\displaystyle \\int_{-3}^{4}\\left|x^{3}-x^{2}-12 x\\right| {d} x=\\displaystyle \\int_{-3}^{0}\\left|x^{3}-x^{2}-12 x\\right| {d} x+\\displaystyle \\int_{0}^{4}\\left|x^{3}-x^{2}-12 x\\right| {d} x$<br/>$=\\left|\\displaystyle \\int_{-3}^{0}\\left(x^{3}-x^{2}-12 x\\right) {d} x\\right|+\\left|\\displaystyle \\int_{0}^{4}\\left(x^{3}-x^{2}-12 x\\right) {d} x\\right|=\\left|\\left(\\dfrac{x^{4}}{4}-\\dfrac{x^{3}}{3}-6 x^{2}\\right)\\right|_{-3}^{0}\\left|+\\left|\\left(\\dfrac{x^{4}}{4}-\\dfrac{x^{3}}{3}-6 x^{2}\\right)\\right|_{0}^{4}\\right|$<br/>$=\\left|\\dfrac{-99}{4}\\right|+\\left|\\dfrac{-160}{3}\\right|=\\dfrac{937}{12}$.",
+            "contentAnswerA": "$S=\\dfrac{937}{12}$.",
+            "contentAnswerB": "$S=\\dfrac{343}{12}$.",
+            "contentAnswerC": "$S=\\dfrac{793}{4}$.",
+            "contentAnswerD": "$S=\\dfrac{397}{4}$."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Một nhà máy có hai dây chuyền sản xuất $I$ và $I I$. Dây chuyền $I$ sản xuất $70 \\%$ số sản phẩm và dây chuyền $I I$ sản xuất $30 \\%$ số sản phẩm. Tỉ lệ sản phẩm lỗi của dây chuyền $I$ là $2 \\%$ và của dây chuyền $I I$ là $3 \\%$. Chọn ngẫu nhiên một sản phẩm của nhà máy để kiểm tra. Biết sản phẩm này bị lỗi. Tính xác suất để sản phẩm đó là sản phẩm của dây chuyền $I$ (kết quả làm tròn đến hàng phần trăm).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 28-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.61
+            ],
+            "explanation": "<br/>Gọi $A$ là biến cố \"Sản phẩm bị lỗi\" và $B$ là biến cố \"Sản phẩm lấy ra từ dây chuyền $I$ \".<br/>Do dây chuyền $I$ sản xuất $70 \\%$ số sản phẩm và dây chuyền $I I$ sản suất $30 \\%$ số sản phẩm nên<br/>$P(B)=0,7$ và $P(\\overline{B})=1-P(B)=1-0,7=0,6$.<br/>Do tỉ lệ sản phẩm lỗi của dây chuyền $I$ là $2 \\%$ và của dây chuyền $I I$ là $3 \\%$ nên<br/>$P(A \\mid B)=0,02$ và $P(A \\mid \\overline{B})=0,03$.<br/>Xác suất để sản phẩm lấy ra bị lỗi là<br/>$P(A)=P(B) P(A \\mid B)+P(\\overline{B}) P(A \\mid \\overline{B})=0,7.0,02+0,3.0,03=0,023$.<br/>Xác suất sản phẩm lấy ra do dây chuyền $I$ sản xuất là<br/>$P(B \\mid A)=\\dfrac{P(B) P(A \\mid B)}{P(A)}=\\dfrac{0,7.0,02}{0,023}=\\dfrac{14}{23} \\approx 0,61$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Cho hàm số bậc ba $y=a x^{3}+b x^{2}+c x+d$ có đồ thị như hình vẽ dưới đây. Giá trị của $a+2 b+3 c$ là:<br/><img src=\"https://zpi.cx/b/ngNIgs.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057053-7cjlibkcc\" class=\"mx-auto\" style=\"\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 29-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                -8
+            ],
+            "explanation": "<br/>Ta có $y^{\\prime}=3 a x^{2}+2 b x+c$.<br/>Đồ thị hàm số đi qua các điểm $(0 ; 0) ;(1 ;-2)$; đồ thị hàm số có hai điểm cực trị là $(-1 ; 2)$ và $(1 ;-2)$, nên ta có hệ phương trình:<br/>$\\left\\{\\begin{array} { l }<br/>{ d = 0 } \\\\<br/>{ a + b + c + d = - 2 } \\\\<br/>{ 3 a + 2 b + c = 0 } \\\\<br/>{ 3 a - 2 b + c = 0 }<br/>\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}<br/>a=1 \\\\<br/>b=0 \\\\<br/>c=-3 \\\\<br/>d=0<br/>\\end{array}\\right.\\right.$<br/>Vậy $a+2 b+3 c=1-9=-8$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Trong không gian $O x y z$, cho tam giác $A B C$ có điểm $A(1 ; 2 ; 3), B(2 ;-1 ; 3)$ và $C(-1 ; 1 ; 1)$. Biết rằng tọa độ của chân đường cao hạ từ $A$ xuống $B C$ là $H(a ; b ; c)$, giá trị của $P=17(a+b+c)$ bằng<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                41
+            ],
+            "explanation": "<br/>Ta có $\\overrightarrow{A H}=(a-1 ; b-2 ; c-3), \\overrightarrow{B C}=(-3 ; 2 ;-2), \\overrightarrow{B H}=(a-2 ; b+1 ; c-3)$<br/>Vì $H$ là chân đường cao hạ từ $A$ xuống $B C$ nên ta có $A H \\perp B C$ và $B, H, C$ thẳng hàng. Từ đây suy ra<br/>$\\left\\{\\begin{array} { l }<br/>{ \\overrightarrow { A H } \\cdot \\overrightarrow { B C } = 0 } \\\\<br/>{ \\overrightarrow { B H } = k \\overrightarrow { B C } }<br/>\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l }<br/>{ - 3 ( a - 1 ) + 2 ( b - 2 ) - 2 ( c - 3 ) = 0 } \\\\<br/>{ a - 2 = - 3 k } \\\\<br/>{ b + 1 = 2 k } \\\\<br/>{ c - 3 = - 2 k }<br/>\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}<br/>a=\\dfrac{7}{17} \\\\<br/>b=\\dfrac{1}{17} \\\\<br/>c=\\dfrac{33}{17} \\\\<br/>k=\\dfrac{9}{17}<br/>\\end{array}\\right.\\right.\\right.$<br/>Do đó $P=17(a+b+c)=41$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Trên khoảng $(0 ;+\\infty)$, biết rằng hàm số $y=f(x)$ có một nguyên hàm là hàm số $y=F(x)$ thỏa mãn $F(1)=7$.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                }
+            ],
+            "explanation": "<br/>a, Đúng<br/>Ta có $\\displaystyle \\int_{1}^{4} f(x) d x=F(4)-F(1)=13-6 \\ln 2 \\Rightarrow F(4)=13-6 \\ln 2+F(1)=13-6 \\ln 2+7=20-6 \\ln 2$.<br/>b, Sai<br/>Ta có $\\displaystyle \\int_{1}^{8}[f(x)+1] d x=\\displaystyle \\int_{1}^{8} f(x) d x+\\displaystyle \\int_{1}^{8} d x=21-9 \\ln 2 \\Rightarrow \\displaystyle \\int_{1}^{8} f(x) d x=14-9 \\ln 2$.<br/>Vậy $\\displaystyle \\int_{1}^{2} f(x) d x=\\displaystyle \\int_{1}^{8} f(x) d x-\\displaystyle \\int_{2}^{8} f(x) d x=2-3 \\ln 2=F(2)-F(1) \\Rightarrow F(2)=2-3 \\ln 2+F(1)=9-3 \\ln 2$.<br/>c, Đúng<br/>Ta có $F(x)=\\displaystyle \\int f(x) d x=\\displaystyle \\int\\left(2-\\dfrac{3}{x}\\right) d x=2 x-3 \\ln x+C$.<br/>Do $F(1)=7$ nên $C=5 \\Rightarrow F(x)=2 x+5-3 \\ln x$.<br/>Vậy $\\displaystyle \\int_{2025}^{2028} x^{3} e^{F(x)} d x=\\displaystyle \\int_{2025}^{2028} x^{3} e^{2 x+5-3 \\ln x} d x=\\displaystyle \\int_{2025}^{2028} e^{2 x+5} d x=e^{5} \\displaystyle \\int_{2025}^{2028}\\left(e^{2}\\right)^{x} d x=\\left.\\dfrac{e^{5}}{2} e^{2 x}\\right|_{2025} ^{2028}=\\dfrac{1}{2} e^{4055}\\left(e^{6}-1\\right)$.",
+            "contentYA": "Nếu $\\displaystyle \\int_{1}^{4} f(x) {d} x=13-6 \\ln 2$ thì $F(4)=20-6 \\ln 2$.",
+            "contentYB": "Nếu $\\displaystyle \\int_{2}^{8} f(x) {d} x=12-6 \\ln 2$ và $\\displaystyle \\int_{1}^{8}[f(x)+1] {d} x=21-9 \\ln 2$ thì $F(2)=7-3 \\ln 2$.",
+            "contentYC": "Nếu $f(x)=2-\\dfrac{3}{x}$ thì $\\displaystyle \\int_{2025}^{2028} x^{3} e^{F(x)} {d} x=\\dfrac{1}{2} e^{4055}\\left(e^{6}-1\\right)$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Cho đa giác lồi 12 đỉnh. Chọn ngẫu nhiên 3 đỉnh của đa giác đó. Tính xác suất để 3 đỉnh được chọn tạo thành một tam giác sao cho tam giác đó có ít nhất một cạnh là cạnh của đa giác đã cho.",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Ta có $n(\\Omega)=C_{12}^{3}$.<br/>Goi $A$ là biến cố 3 đỉnh được chọn tạo thành một tam giác sao cho tam giác đó có ít nhất một cạnh là cạnh của đa giác đã cho.<br/>Để 3 đỉnh được chọn tạo thành một tam giác có ít nhất một cạnh là cạnh của đa giác đã cho thì hoặc tam giác có 1 cạnh chung, hoặc có 2 cạnh chung với đa giác.<br/>Số cách chọn 3 đỉnh tạo thành một tam giác có 1 cạnh chung với đa giác là $C_{12}^{1} C_{8}^{2}$.<br/>Số cách chọn 3 đỉnh tạo thành một tam giác có 2 cạnh chung với đa giác là $C_{12}^{1}$.<br/>Do đó $n(A)=C_{12}^{1} C_{8}^{2}+C_{12}^{1}$.<br/>Vậy xác suất cần tìm là $P(A)=\\dfrac{n(A)}{n(\\Omega)}=\\dfrac{C_{12}^{1} C_{8}^{1}+C_{12}^{1}}{C_{12}^{3}}=\\dfrac{27}{55}$.",
+            "contentAnswerA": "$\\dfrac{24}{55}$.",
+            "contentAnswerB": "$\\dfrac{25}{55}$.",
+            "contentAnswerC": "$\\dfrac{26}{55}$.",
+            "contentAnswerD": "$\\dfrac{27}{55}$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Trong một trận lụt, một khách sạn bị nước lụt tràn vào, cần di chuyển cùng một lúc 40 hành khách và 24 vali hành lý. Lúc này chỉ huy động được 8 chiếc ghe lớn và 8 chiếc ghe nhỏ. Một chiếc ghe lớn chỉ có thể chở tối đa 10 hành khách và 4 vali hành lý. Một chiếc ghe nhỏ chỉ có thể chở tối đa 5 hành khách và 4 vali hành lý. Giá thuê một chuyến ghe lớn là 250 ngàn đồng và giá thuê một chuyến ghe nhỏ là 130 ngàn đồng. Hỏi chủ khách sạn cần thuê tổng cộng bao nhiêu chiếc ghe để chi phí thấp nhất?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                6
+            ],
+            "explanation": "<br/>Gọi $x$ là số ghe lớn và $y$ là số ghe nhỏ được chủ khách sạn thuê $(x, y \\in \\mathbb{N})$.<br/>Ta có $\\left\\{\\begin{array}{l}0 \\leq x \\leq 8 \\\\ 0 \\leq y \\leq 8 \\\\ 10 x+5 y \\geq 40 \\\\ 4 x+4 y \\geq 24\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}0 \\leq x \\leq 8 \\\\ 0 \\leq y \\leq 8 \\\\ 2 x+y \\geq 8 \\\\ x+y \\geq 6\\end{array}\\right.\\right.$ và chi phí $F(x ; y)=250 x+130 y$ (ngàn đồng)<br/><img src=\"https://zpi.cx/b/wdJko.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057058-5ft7ahg1x\" class=\"mx-auto\" style=\"\"><br/>Vẽ được miền nghiệm của hệ bất phương trình là miền ngũ giác $A B C D E$, với $A(6 ; 0), B(2 ; 4)$, $C(0 ; 8), D(8 ; 8), E(8 ; 0)$<br/>Tính $F(6 ; 0)=1500 ; F(2 ; 4)=1020, F(0 ; 8)=1040 ; F(8 ; 8)=3040 ; F(8 ; 0)=2000$.<br/>Vậy, chi phí thấp nhất là 1.020.000 đồng khi thuê 2 ghe lớn và 4 ghe nhỏ, tổng cộng 6 ghe."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Cho các số thực dương $a, b, c, x, y, z$ khác 1 thỏa mãn đồng thời hai dữ kiện: $\\dfrac{a}{\\log _{2} x}+\\dfrac{b}{\\log _{2} y}+\\dfrac{c}{\\log _{2} z}=0$ và $x^{b c} y^{c a} z^{a b}=8^{a b c}$. Tính giá trị của biểu thức: $P=\\dfrac{\\log _{2}^{2} x}{a^{2}}+\\dfrac{\\log _{2}^{2} y}{b^{2}}+\\dfrac{\\log _{2}^{2} z}{c^{2}}$",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có: $x^{b c} y^{c a} z^{a b}=8^{a b c} \\leftrightarrow b c \\log _{2} x+c a \\log _{2} y+a b \\log _{2} z=3 a b c \\leftrightarrow \\dfrac{\\log _{2} x}{a}+\\dfrac{\\log _{2} y}{b}+\\dfrac{\\log _{2} z}{c}=3$<br/>Bình phương 2 vế của (1) ta được:<br/>$\\dfrac{\\log _{2}^{2} x}{a^{2}}+\\dfrac{\\log _{2}^{2} y}{b^{2}}+\\dfrac{\\log _{2}^{2} z}{c^{2}}+2\\left(\\dfrac{\\log _{2} x \\cdot \\log _{2} y}{a b}+\\dfrac{\\log _{2} y \\cdot \\log _{2} z}{b c}+\\dfrac{\\log _{2} z \\cdot \\log _{2} x}{c a}\\right)=9$<br/>$\\leftrightarrow \\dfrac{\\log _{2}^{2} x}{a^{2}}+\\dfrac{\\log _{2}^{2} y}{b^{2}}+\\dfrac{\\log _{2}^{2} z}{c^{2}}=9-2\\left(\\dfrac{c \\cdot \\log _{2} x \\cdot \\log _{2} y+a \\log _{2} y \\cdot \\log _{2} z+b \\log _{2} z \\cdot \\log _{2} x}{a b c}\\right)$<br/>Mặt khác: $\\dfrac{a}{\\log _{2} x}+\\dfrac{b}{\\log _{2} y}+\\dfrac{c}{\\log _{2} z}=0 \\leftrightarrow c \\cdot \\log _{2} x \\cdot \\log _{2} y+a \\log _{2} y \\cdot \\log _{2} z+b \\log _{2} z \\cdot \\log _{2} x=0$<br/>$\\Rightarrow P=\\dfrac{\\log _{2}^{2} x}{a^{2}}+\\dfrac{\\log _{2}^{2} y}{b^{2}}+\\dfrac{\\log _{2}^{2} z}{c^{2}}=9-0=9$",
+            "contentAnswerA": "$P=2$",
+            "contentAnswerB": "$P=3$",
+            "contentAnswerC": "$P=9$",
+            "contentAnswerD": "$P=8$"
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Tập nghiệm của bất phương trình $\\log _{\\sqrt[4]{2}}(x+3)+x^{2}+12 x \\lt \\dfrac{12}{x}+\\dfrac{1}{x^{2}}+4 \\log _{2} \\dfrac{3 x+1}{x}$ là $S=(a ; b) \\cup(c ; d)$ với $a, b, c, d$ là các số thực. Khi đó giá trị $a^{2}+b^{2}+c^{2}+d^{2}$ bằng <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                11
+            ],
+            "explanation": "<br/>Bất phương trình $\\log _{\\sqrt[4]{2}}(x+3)+x^{2}+12 x \\lt \\dfrac{12}{x}+\\dfrac{1}{x^{2}}+4 \\log _{2} \\dfrac{3 x+1}{x}$<br/>Điều kiện: $\\left\\{\\begin{array}{l}x+3 \\gt 0 \\\\ \\dfrac{3 x+1}{x} \\gt 0\\end{array} \\Leftrightarrow x \\in\\left(-3 ;-\\dfrac{1}{3}\\right) \\cup(0 ;+\\infty)\\right.$.<br/>Bất phương trình (1) trở thành $4 \\log _{2}(x+3)+x^{2}+12 x \\lt 4 \\log _{2}\\left(\\dfrac{1}{x}+3\\right)+\\dfrac{1}{x^{2}}+12 \\cdot \\dfrac{1}{x}$ (2).<br/>Hàm đặc trưng $f(t)=4 \\log _{2}(t+3)+t^{2}+12 t$.<br/>Vì $f^{\\prime}(t)=4 \\cdot \\dfrac{1}{(t+3) \\cdot \\ln 2}+2 t+12=4 \\cdot \\dfrac{1}{(t+3) \\cdot \\ln 2}+2(t+3)+6 \\gt 0, \\forall t \\gt -3$ nên hàm số $f(t)$ đồng biến trên khoảng $(-3 ;+\\infty)$.<br/>Ngoài ra $x \\gt -3$ và $\\dfrac{1}{x} \\gt -3$.<br/>Do đó $(2) \\Leftrightarrow x \\lt \\dfrac{1}{x} \\Leftrightarrow \\dfrac{x^{2}-1}{x} \\lt 0 \\Leftrightarrow x \\in(-\\infty ;-1) \\cup(0 ; 1)$.<br/>Đối chiếu với điều kiện, chúng ta được tập nghiệm $S=(-3 ;-1) \\cup(0 ; 1)$.<br/>Vậy $a^{2}+b^{2}+c^{2}+d^{2}=(-3)^{2}+(-1)^{2}+0^{2}+1^{2}=11$."
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Trong dịp hội trại của trường, lớp An cùng nhau làm đèn trang trí hình chóp tứ giác đều từ các miếng bìa hình vuông $A B C D$ có cạnh bằng $5 {cm}$ (tham khảo hình vẽ).<br/><img src=\"https://zpi.cx/b/VNYZTHC.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057065-u5ssteush\" class=\"mx-auto\" style=\"\"><br/>Cắt miếng bìa theo các tam giác cân $A E B, B F C, C G D, D H A$ và sau đó dán mép các cạnh của các tam giác $A E H, B E F, C F G, D G H$ sao cho bốn đỉnh $A, B, C, D$ trùng nhau tạo thành khối chóp tứ giác đều (các mép dán không đáng kể).<br/><img src=\"https://zpi.cx/b/yHofuie.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057078-8vfg8dcr2\" class=\"mx-auto\" style=\"\"><br/>Thể tích lớn nhất của khối chóp tứ giác đều tạo thành bằng",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/><img src=\"https://zpi.cx/b/xk7SLwH.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057095-wz9m5vt26\" class=\"mx-auto\" style=\"\"><br/>Gọi $K$ là trung điểm $A D$, đặt $H K=x\\left(0 \\lt x \\leq \\dfrac{5}{2}\\right)$.<br/>Ta có:<br/>$E F=F G=G H=H E=\\sqrt{2}\\left(\\dfrac{5}{2}-x\\right) ; H D=\\sqrt{\\left(\\dfrac{5}{2}\\right)^{2}+x^{2}}$<br/>Suy ra<br/>$S O=\\sqrt{S H^{2}-O H^{2}}=\\sqrt{H D^{2}-O H^{2}}=\\sqrt{\\left(\\dfrac{5}{2}\\right)^{2}+x^{2}-\\left(\\dfrac{5}{2}-x\\right)^{2}}$<br/>Τa có:<br/>$V=\\dfrac{1}{3} \\cdot 2\\left(\\dfrac{5}{2}-x\\right)^{2} \\sqrt{\\left(\\dfrac{5}{2}\\right)^{2}+x^{2}-\\left(\\dfrac{5}{2}-x\\right)^{2}}=\\dfrac{2}{3}\\left(\\dfrac{5}{2}-x\\right)^{2} \\sqrt{5 x}$<br/>$\\Rightarrow V^{\\prime}=\\dfrac{2}{3}\\left[-2\\left(\\dfrac{5}{2}-x\\right) \\sqrt{5 x}+\\left(\\dfrac{5}{2}-x\\right)^{2} \\cdot \\dfrac{5}{2 \\sqrt{5 x}}\\right]$<br/>$\\Rightarrow V^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\dfrac{1}{2} \\\\ x=\\dfrac{5}{2}\\end{array}\\right.$<br/>(dùng chức năng SHIFT + SOLVE của máy tính).<br/>Bảng biến thiên<br/><img src=\"https://zpi.cx/b/23rZ2.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057103-w44xp4xh0\" class=\"mx-auto\" style=\"\"><br/>Dựa vào bảng biến thiên, ta có $V_{\\max }=\\dfrac{4 \\sqrt{10}}{3} \\quad$ khi $\\quad x=\\dfrac{1}{2}$.",
+            "contentAnswerA": "$\\dfrac{4 \\sqrt{10}}{3}\\left({cm}^{3}\\right)$.",
+            "contentAnswerB": "$\\dfrac{4 \\sqrt{10}}{5}\\left({cm}^{3}\\right)$.",
+            "contentAnswerC": "$\\dfrac{8 \\sqrt{10}}{3}\\left({cm}^{3}\\right)$.",
+            "contentAnswerD": "$\\dfrac{8 \\sqrt{10}}{5}\\left({cm}^{3}\\right)$."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Cho hàm số $f(x)=x^{3}-3 x+m$, với $m$ là tham số.",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Khi $m=0$ ta có: $f(x)=x^{3}-3 x$ có đạo hàm $f^{\\prime}(x)=3 x^{2}-3=0 \\Leftrightarrow x= \\pm 1$.<br/>Vì $f^{\\prime}(x) \\lt 0, \\forall x \\in(-1 ; 1)$ suy ra hàm số nghịch biến trên khoảng $(-1 ; 1)$.<br/>SAI.<br/>b, Khi $m=0$ ta có: $f(x)=x^{3}-3 x$ có đạo hàm $f^{\\prime}(x)=3 x^{2}-3=0 \\Leftrightarrow x= \\pm 1$.<br/>Bảng biến thiên:<br/><img src=\"https://zpi.cx/b/D1FGvS.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057106-hbddwd02k\" class=\"mx-auto\" style=\"\"><br/>Vậy khi $m=0$ hàm số có hai cực trị.<br/>ĐÚNG<br/>c, Xét hàm số $f(x)=x^{3}-3 x+m$ có đạo hàm $f^{\\prime}(x)=3 x^{2}-3$. Bảng biến thiên như sau:<br/><img src=\"https://zpi.cx/b/th8OU.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057109-6jh6x2dbs\" class=\"mx-auto\" style=\"\"><br/>Giá trị nhỏ nhất của hàm số trên đoạn $[0 ; 2]$ bằng $m-2$<br/>ĐÚNG<br/>d, Xét hàm số $f(x)=x^{3}-3 x+m$ có đạo hàm $f^{\\prime}(x)=3 x^{2}-3$. Bảng biến thiên như sau:<br/><img src=\"https://zpi.cx/b/th8OU.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772816057112-k8452w2hz\" class=\"mx-auto\" style=\"\"><br/>Vì $-2+m \\lt m \\lt m+2$ nên $\\max _{[0 ; 2]}|f(x)|=|-2+m|$ hoặc $\\max _{[0 ; 2]}|f(x)|=|m+2|$<br/>Trường hợp 1: $\\max _{[0 ; 2]}|f(x)|=|-2+m|=3 \\Leftrightarrow\\left[\\begin{array}{l}m=5 \\\\ m=-1\\end{array}\\right.$.<br/>Nếu $m=5$ ta có $3 \\lt 5 \\lt 7$ suy ra $\\max _{[0 ; 2]}|f(x)|=7$. Do đó $m=5$ (loại).<br/>Nếu $m=-1$ ta có $-3 \\lt -1 \\lt 1$ suy ra $\\max _{[0 ; 2]}|f(x)|=|-3|=3$. Do đó $m=-1$ (thỏa mãn).<br/>Trường hợp 2: $\\max _{[0 ; 2]}|f(x)|=|m+2|=3 \\Leftrightarrow\\left[\\begin{array}{l}m=-5 \\\\ m=1\\end{array}\\right.$.<br/>Nếu $m=-5$ ta có $-7 \\lt -5 \\lt -3$ suy ra $\\max _{[0 ; 2]}|f(x)|=|-7|=7$. Do đó $m=-5$ (loại).<br/>Nếu $m=1$ ta có $-1 \\lt 1 \\lt 3$ suy ra $\\max _{[0 ; 2]}|f(x)|=3$. Do đó $m=1$ (thỏa mãn).<br/>Vậy $m= \\pm 1$ thỏa mãn yêu cầu bài toán.<br/>ĐÚNG",
+            "contentYA": "Khi $m=0$ thì hàm số đồng biến trên khoảng $(-1 ; 1)$.",
+            "contentYB": "Khi $m=0$ thì hàm số có hai cực trị.",
+            "contentYC": "Giá trị nhỏ nhất của hàm số trên đoạn $[0 ; 2]$ bằng $m-2$.",
+            "contentYD": "$S$ là tập hợp tất cả các giá trị của tham số $m$ sao cho giá trị lớn nhất của hàm số $y=|f(x)|$ trên đoạn $[0 ; 2]$ bằng 3. Khi đó $S$ có hai phần tử."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Cho các số nguyên dương $n, k$ với $k \\leq n$ thỏa mãn $\\dfrac{k C_{n}^{k}+(n-k+1) C_{n}^{n-k}}{C_{n+1}^{k+1}}=12$. Giá trị nhỏ nhất của biểu thức $T=2 n-k$ là:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có: $\\dfrac{k \\cdot {C}_{n}^{k}+(n-k+1) C_{n}^{n-k}}{C_{n+1}^{k+1}}=12 \\Leftrightarrow k \\cdot C_{n}^{k}+(n-k+1) C_{n}^{k}=12 C_{n+1}^{k+1}$.<br/>$\\Leftrightarrow(n+1) C_{n}^{k}=12 . C_{n+1}^{k+1} \\Leftrightarrow(n+1) \\dfrac{n!}{(n-k)!\\cdot k!}=12 . \\dfrac{(n+1)!}{(n-k)!\\cdot(k+1)!} \\Leftrightarrow 1=\\dfrac{12}{k+1} \\Leftrightarrow k=11$.<br/>Lại có: $n \\geq k=11 \\Rightarrow T=2 n-k=2 n-11 \\geq 2.11-11=11$.<br/>Suy ra giá trị nhỏ nhất của $T$ là: $T_{\\min }=11$.",
+            "contentAnswerA": "11.",
+            "contentAnswerB": "13.",
+            "contentAnswerC": "0.",
+            "contentAnswerD": "14."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Kéo các ô sau thả vào vị trí thích hợp để được khẳng định đúng:<br/>- Số dư khi chia $1532^5 − 1$ cho $9$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 39-1\">____DRAG_DROP_1____</span>.<br/>- Số dư khi chia $2016^{2018} + 2$ cho $5$ là <span class=\"drag-drop-blank\" data-drop-id=\"Câu 39-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                }
+            ],
+            "explanation": "<br />\na, Ta c&oacute; $1532=9.170+2 \\equiv 2(\\bmod 9)$<br />\nDo đ&oacute; $1532^{5} \\equiv 2^{5}(\\bmod 9) \\Rightarrow 1532^{5}-1 \\equiv 2^{5}-1(\\bmod 9)$.<br />\nM&agrave; $2^{5}-1=31 \\equiv 4(\\bmod 9)$.<br />\nDo đ&oacute; $1532^{5}-1 \\equiv 4(\\bmod 9)$.<br />\nVậy số dư cần t&igrave;m l&agrave; 4.<br />\nb, Ta c&oacute; $2016 \\equiv 1(\\bmod 5)$ do đ&oacute; $2016^{2018} \\equiv 1^{2018}(\\bmod 5) \\Rightarrow 2016^{2018}+2 \\equiv 1^{2018}+2(\\bmod 5)$. M&agrave; $1+2=3 \\equiv 3(\\bmod 5)$. Do đ&oacute; $2016^{2018}+2 \\equiv 3(\\bmod 5)$.<br />\nVậy số dư cần t&igrave;m l&agrave; 3.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "4"
+                },
+                {
+                    "id": "B>",
+                    "content": "5"
+                },
+                {
+                    "id": "C>",
+                    "content": "3"
+                },
+                {
+                    "id": "D>",
+                    "content": "2"
+                }
+            ]
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Một hộp chứa 4 quả bóng màu đỏ và 6 quả bóng màu xanh. Lấy từ hộp hai lần liên tiếp mỗi lần 1 quả bóng. Gọi $A$ là biến cố \"Lần 2 lấy được quả màu xanh\"; $B$ là biến cố \"Lần 1 lấy được quả bóng màu đỏ\". Khi đó:<br/>Kéo ô vuông thả vào vị trí thích hợp trong các câu sau:<br/>- Xác suất xảy ra biến cố $A$ khi $B$ không xảy ra là: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-1\">____DRAG_DROP_1____</span>.<br/>- Xác suất xảy ra cả biến cố $A$ và $B$ là: <span class=\"drag-drop-blank\" data-drop-id=\"Câu 40-2\">____DRAG_DROP_2____</span>.",
+            "type": "KT",
+            "correctAnswer": [
+                {
+                    "slot1": "A>"
+                },
+                {
+                    "slot2": "C>"
+                }
+            ],
+            "explanation": "<br />\nDo biến cố $B$ kh&ocirc;ng xảy ra tức l&agrave; lần 1 lấy 1 quả m&agrave;u xanh n&ecirc;n số b&oacute;ng c&ograve;n lại l&agrave; 5 quả xanh v&agrave; 4 quả đỏ.<br />\nDo đ&oacute; $P(A \\backslash \\overline{B})=\\dfrac{5}{9}$.<br />\nLần 1 lấy được quả b&oacute;ng m&agrave;u đỏ n&ecirc;n số b&oacute;ng c&ograve;n lại l&agrave; 9 n&ecirc;n $n(\\Omega)=9$. Do c&oacute; 6 quả b&oacute;ng m&agrave;u xanh v&agrave; lần 1 lấy được quả b&oacute;ng đỏ n&ecirc;n số phần tử thuận lợi cho biến cố $A$ l&agrave; $n(A)=6$<br />\n$P(A \\backslash B)=\\dfrac{6}{9}=\\dfrac{2}{3}$<br />\nTa c&oacute; $P(A B)=P(B) \\cdot P(A \\backslash B)=\\dfrac{2}{5} \\cdot \\dfrac{6}{9}=\\dfrac{4}{15}$.",
+            "items": [
+                {
+                    "id": "A>",
+                    "content": "$\\dfrac{5}{9}$"
+                },
+                {
+                    "id": "B>",
+                    "content": "$\\dfrac{7}{9}$"
+                },
+                {
+                    "id": "C>",
+                    "content": "$\\dfrac{4}{{15}}$"
+                },
+                {
+                    "id": "D>",
+                    "content": "$\\dfrac{7}{{15}}$"
+                }
+            ]
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-03-05T04:39:20.776Z",
+    "updatedAt": "2026-03-06T16:54:42.339Z",
+    "__v": 0
+}

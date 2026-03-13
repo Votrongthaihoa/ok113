@@ -1,0 +1,569 @@
+{
+    "_id": "69a908b7122c65b6a41a43e7",
+    "title": "[Sách Đề]-Tư Duy Toán Học-Đề 32",
+    "numberOfQuestions": 40,
+    "time": 60,
+    "answer": {
+        "Câu 1": "A",
+        "Câu 2": "B",
+        "Câu 3": "B",
+        "Câu 4": "B",
+        "Câu 5": "A",
+        "Câu 6": "B",
+        "Câu 7": "B",
+        "Câu 8": [
+            10
+        ],
+        "Câu 9": "D",
+        "Câu 10": "A",
+        "Câu 11": "C",
+        "Câu 12": "D",
+        "Câu 13": "B",
+        "Câu 14": [
+            84
+        ],
+        "Câu 15": "B",
+        "Câu 16": "A",
+        "Câu 17": [
+            3
+        ],
+        "Câu 18": [
+            5
+        ],
+        "Câu 19": "A",
+        "Câu 20": "A",
+        "Câu 21": [
+            0.68
+        ],
+        "Câu 22": "C",
+        "Câu 23": "A",
+        "Câu 24": [
+            37
+        ],
+        "Câu 25": [
+            180
+        ],
+        "Câu 26": [
+            8.47
+        ],
+        "Câu 27": "D",
+        "Câu 28": "D",
+        "Câu 29": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "D"
+            },
+            {
+                "c": "S"
+            }
+        ],
+        "Câu 30": [
+            200
+        ],
+        "Câu 31": "C",
+        "Câu 32": "B",
+        "Câu 33": [
+            190
+        ],
+        "Câu 34": "B",
+        "Câu 35": [
+            56.8
+        ],
+        "Câu 36": "A",
+        "Câu 37": [
+            {
+                "a": "D"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 38": [
+            7
+        ],
+        "Câu 39": [
+            {
+                "a": "S"
+            },
+            {
+                "b": "S"
+            },
+            {
+                "c": "D"
+            },
+            {
+                "d": "D"
+            }
+        ],
+        "Câu 40": "C"
+    },
+    "startTime": "2026-01-24T04:01:00.000Z",
+    "endTime": "2026-04-30T04:01:00.000Z",
+    "questions": [
+        {
+            "question": "Câu 1",
+            "contentQuestions": "Cho một cấp số cộng $\\left(u_{n}\\right)$ c&oacute; $u_{1}=\\dfrac{1}{3}, u_{8}=26$. T&igrave;m c&ocirc;ng sai $d$",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br />\nTa c&oacute; $u_{8}=u_{1}+7 d \\Leftrightarrow 26=\\dfrac{1}{3}+7 d \\Leftrightarrow d=\\dfrac{11}{3}$.",
+            "contentAnswerA": "$d=\\dfrac{11}{3}$.",
+            "contentAnswerB": "$d=\\dfrac{10}{3}$.",
+            "contentAnswerC": "$d=\\dfrac{3}{10}$.",
+            "contentAnswerD": "$d=\\dfrac{3}{11}$."
+        },
+        {
+            "question": "Câu 2",
+            "contentQuestions": "Hàm số nào sau đây nghịch biến trên $\\mathbb{R}$ ?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Hàm số $y=a^{x}$ nghịch biến trên $\\mathbb{R}$ khi và chỉ khi $0<a<1$. Do đó $y=\\left(\\dfrac{1}{3}\\right)^{x}$ là hàm nghịch biến trên $\\mathbb{R}$.",
+            "contentAnswerA": "$y=2^{x}$.",
+            "contentAnswerB": "$y=\\left(\\dfrac{1}{3}\\right)^{x}$.",
+            "contentAnswerC": "$y=(\\sqrt{\\pi})^{x}$.",
+            "contentAnswerD": "$y={e}^{x}$."
+        },
+        {
+            "question": "Câu 3",
+            "contentQuestions": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ. Khẳng định nào sau đây đúng?<br/><img src=\"https://zpi.cx/b/0EqDqP.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625657-g0cdhhqok\" class=\"mx-auto\" style=\"\">",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br />\nTừ đồ thị ta thấy đồ thị của h&agrave;m số đ&atilde; cho c&oacute; điểm cực đại l&agrave; $(-1 ; 3)$ v&agrave; điểm cực tiểu l&agrave; $(1 ;-1)$.",
+            "contentAnswerA": "Đồ thị hàm số có điểm cực tiểu là $(1 ; 1)$.",
+            "contentAnswerB": "Đồ thị hàm số có điểm cực tiểu là $(1 ;-1)$.",
+            "contentAnswerC": "Đồ thị hàm số có điểm cực tiểu là $(-1 ; 3)$.",
+            "contentAnswerD": "Đồ thị hàm số có điểm cực đại là $(1 ;-1)$."
+        },
+        {
+            "question": "Câu 4",
+            "contentQuestions": "Trong không gian với hệ trục tọa độ $O x y z$, cho $\\vec{a}=(2 ;-3 ; 3), \\vec{b}=(0 ; 2 ;-1), \\vec{c}=(3 ;-1 ; 5)$. Tìm tọa độ của vectơ $\\vec{u}=2 \\vec{a}+3 \\vec{b}-2 \\vec{c}$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có: $2 \\vec{a}=(4 ;-6 ; 6), 3 \\vec{b}=(0 ; 6 ;-3),-2 \\vec{c}=(-6 ; 2 ;-10) \\Rightarrow \\vec{u}=2 \\vec{a}+3 \\vec{b}-2 \\vec{c}=(-2 ; 2 ;-7)$.",
+            "contentAnswerA": "$(10 ;-2 ; 13)$.",
+            "contentAnswerB": "$(-2 ; 2 ;-7)$.",
+            "contentAnswerC": "$(-2 ;-2 ; 7)$.",
+            "contentAnswerD": "$(-2 ; 2 ; 7)$."
+        },
+        {
+            "question": "Câu 5",
+            "contentQuestions": "Cho $\\displaystyle \\int_{3}^{5} \\dfrac{x+3}{x-2} {d} x=a+b \\ln 3$ với $a, b \\in \\mathbb{Z}$. Tính $a^{2}+b^{2}$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $\\displaystyle \\int_{3}^{5} \\dfrac{x+3}{x-2} {d} x=\\displaystyle \\int_{3}^{5}\\left(1+\\dfrac{5}{x-2}\\right) {d} x=\\left.(x+5 \\ln |x-2|)\\right|_{3} ^{5}=2+5 \\ln 3$.<br/>Suy ra $a=2, b=5 \\Rightarrow a^{2}+b^{2}=29$.",
+            "contentAnswerA": "$a^{2}+b^{2}=29$.",
+            "contentAnswerB": "$a^{2}+b^{2}=28$.",
+            "contentAnswerC": "$a^{2}+b^{2}=39$.",
+            "contentAnswerD": "$a^{2}+b^{2}=7$."
+        },
+        {
+            "question": "Câu 6",
+            "contentQuestions": "Cho tam giác $A B C$. Đẳng thức nào sau đây sai?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Xét tam giác $A B C$ ta có:<br/>$A+B+C=\\pi \\Leftrightarrow A+B=\\pi-C$.<br/>$\\Rightarrow \\cos (A+B)=\\cos (\\pi-C)=-\\cos C$. Do đó đáp án B sai.",
+            "contentAnswerA": "$A+B+C=\\pi$.",
+            "contentAnswerB": "$\\cos (A+B)=\\cos C$.",
+            "contentAnswerC": "$\\sin \\dfrac{A+B}{2}=\\cos \\dfrac{C}{2}$.",
+            "contentAnswerD": "$\\sin (A+B)=\\sin C$."
+        },
+        {
+            "question": "Câu 7",
+            "contentQuestions": "Cho hai dãy số $\\left(u_{n}\\right),\\left(v_{n}\\right)$ thỏa mãn điều kiện $\\displaystyle \\lim _{n \\rightarrow+\\infty} u_{n}=2$ và $\\displaystyle \\lim _{n \\rightarrow+\\infty} v_{n}=3$. Khi đó $\\displaystyle \\lim _{n \\rightarrow+\\infty}\\left(u_{n}+v_{n}\\right)$ bằng:",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>$\\displaystyle \\lim _{n \\rightarrow+\\infty}\\left(u_{n}+v_{n}\\right)=\\displaystyle \\lim _{n \\rightarrow+\\infty} u_{n}+\\displaystyle \\lim _{n \\rightarrow+\\infty} v_{n}=2+3=5$.",
+            "contentAnswerA": "4.",
+            "contentAnswerB": "5.",
+            "contentAnswerC": "6.",
+            "contentAnswerD": "7."
+        },
+        {
+            "question": "Câu 8",
+            "contentQuestions": "Giả sử $a, b>0$ thỏa mãn $a^{2}-23 a b+b^{2}=0$. Khi đó: $\\log _{5}(a+b)=\\dfrac{1}{2}\\left(m+n \\log _{5} a+p \\log _{5} b\\right)$ với $m, n, p \\in \\mathbb{Z}$. Tính giá trị $m^{3}+n+\\sqrt{p}$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 8-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                10
+            ],
+            "explanation": "<br/>Ta có:<br/>$a^{2}-23 a b+b^{2}=0 \\Rightarrow(a+b)^{2}=25 a b \\Rightarrow 2 \\log _{5}(a+b)=\\log _{5}(25 a b)=2+\\log _{5} a+\\log _{5} b$<br/>$\\Rightarrow \\log _{5}(a+b)=\\dfrac{1}{2}\\left(2+\\log _{5} a+\\log _{5} b\\right) \\Rightarrow m=2, n=1, p=1$.<br/>Vậy $m^{3}+n+\\sqrt{p}=8+1+1=10$."
+        },
+        {
+            "question": "Câu 9",
+            "contentQuestions": "Cho hình chóp $S . A B C D$ có $S A$ vuông góc với mặt đáy, tứ giác $A B C D$ là hình vuông. Mệnh đề nào sau đây là đúng?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/><img src=\"https://zpi.cx/b/LEzQUu.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625657-vlqhb8sy1\" class=\"mx-auto\" style=\"\"><br/>Ta có $B D \\perp A C$ (do $A B C D$ là hình vuông), $S A \\perp(A B C D) \\Rightarrow S A \\perp B D$.<br/>$\\left.\\begin{array}{l}B D \\perp A C, B D \\perp S A \\\\ S A \\cap A C=\\{A\\} \\\\ S A, A C \\subset(S A C)\\end{array}\\right\\} \\Rightarrow B D \\perp(S A C)$",
+            "contentAnswerA": "$S B \\perp(A B C D)$.",
+            "contentAnswerB": "$S C \\perp(A B C D)$.",
+            "contentAnswerC": "$B C \\perp(S A C)$.",
+            "contentAnswerD": "$B D \\perp(S A C)$."
+        },
+        {
+            "question": "Câu 10",
+            "contentQuestions": "Phương trình tiếp tuyến của đồ thị hàm số $y=x^{3}-2$ tại điểm $M(2 ; 6)$ là:",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $y^{\\prime}=f^{\\prime}(x)=3 x^{2}$.<br/>Tiếp điểm $M(2 ; 6)$.<br/>Hệ số góc của tiếp tuyến tại điểm $x_{0}=2$ là $k=f^{\\prime}(2)=12$.<br/>Vậy tiếp tuyến của đồ thị hàm số $y=x^{3}-2$ tại điểm $M(2 ; 6)$ có phương trình: $y=12(x-2)+6 \\Leftrightarrow y=12 x-18$.",
+            "contentAnswerA": "$y=12 x-18$.",
+            "contentAnswerB": "$y=12 x+18$.",
+            "contentAnswerC": "$y=-12 x+18$.",
+            "contentAnswerD": "$y=-12 x-18$."
+        },
+        {
+            "question": "Câu 11",
+            "contentQuestions": "Cho hàm số $y=f(x)$ có bảng xét dấu đạo hàm như sau. Mệnh đề nào dưới đây đúng?<br/><img src=\"https://zpi.cx/b/H8Cxg4H.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625659-fyfcgbco7\" class=\"mx-auto\" style=\"\">",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Nhìn vào bảng xét dấu của đạo hàm ta thấy:<br/>Hàm số đồng biến trên mỗi khoảng $(-\\infty ;-2)$ và $(2 ;+\\infty)$.<br/>Hàm số nghịch biến trên mỗi khoảng $(-2 ; 0)$ và $(0 ; 2)$.<br/>Từ đây suy ra đáp án đúng là: Hàm số nghịch biến trên khoảng $(0 ; 2)$.",
+            "contentAnswerA": "Hàm số đồng biến trên khoảng $(-\\infty ; 0)$.",
+            "contentAnswerB": "Hàm số đồng biến trên khoảng $(-2 ; 0)$.",
+            "contentAnswerC": "Hàm số nghịch biến trên khoảng $(0 ; 2)$.",
+            "contentAnswerD": "Hàm số nghịch biến trên khoảng $(-\\infty ;-2)$."
+        },
+        {
+            "question": "Câu 12",
+            "contentQuestions": "Trong không gian $O x y z$, cho mặt phẳng $(\\alpha): 3 x+2 y-4 z+1=0$. Vectơ nào dưới đây là một vectơ pháp tuyến của $(\\alpha)$ ?",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Mặt phẳng $(\\alpha): 3 x+2 y-4 z+1=0$ có vectơ pháp tuyến $\\vec{n}=(3 ; 2 ;-4)$.",
+            "contentAnswerA": "$\\overrightarrow{n_{2}}=(3 ; 2 ; 4)$.",
+            "contentAnswerB": "$\\overrightarrow{n_{3}}=(2 ;-4 ; 1)$.",
+            "contentAnswerC": "$\\overrightarrow{n_{1}}=(3 ;-4 ; 1)$.",
+            "contentAnswerD": "$\\overrightarrow{n_{4}}=(3 ; 2 ;-4)$."
+        },
+        {
+            "question": "Câu 13",
+            "contentQuestions": "Cho $F(x)$ là một nguyên hàm của $f(x)=\\dfrac{1}{x-1}$ trên khoảng $(1 ;+\\infty)$ thỏa mãn $F(e+1)=4$. Tìm $F(x)$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Ta có $F(x)=\\displaystyle \\int \\dfrac{1}{x-1} {d} x=\\ln |x-1|+C=\\ln (x-1)+C$ (vì $\\left.x \\in(1 ;+\\infty) \\Rightarrow|x-1|=x-1\\right)$.<br/>$F(e+1)=4 \\Rightarrow \\ln (e+1-1)+C=4 \\Rightarrow 1+C=4 \\Rightarrow C=3$.<br/>Vậy $F(x)=\\ln (x-1)+3$.",
+            "contentAnswerA": "$2 \\ln (x-1)+2$.",
+            "contentAnswerB": "$\\ln (x-1)+3$.",
+            "contentAnswerC": "$4 \\ln (x-1)$.",
+            "contentAnswerD": "$\\ln (x-1)-3$."
+        },
+        {
+            "question": "Câu 14",
+            "contentQuestions": "Có bao nhiêu cách sắp xếp 6 chữ cái từ bộ chữ cái MAYMAN thành một hàng sao cho mỗi cách sắp xếp 2 chữ cái giống nhau không đứng cạnh nhau.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 14-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                84
+            ],
+            "explanation": "<br/>Nếu không có điều kiện gì số cách sắp xếp là $\\dfrac{6!}{2!2!}-s=180-s$. .<br/>Trong đó $s$ là số các sắp xếp mà hai chữ cái giống nhau đứng cạnh nhau. Bây giờ ta tính $s$.<br/>B1: Số cách sắp xếp để 2 chữ AA đứng cạnh nhau. Ta có $A A$ là một chữ cái, vậy ta còn 5 chữ cái. Số cách sắp xếp là $\\dfrac{5!}{2!}=60$..<br/>B2: Số cách sắp xếp để 2 chữ MM đứng cạnh nhau cũng là $\\dfrac{5!}{2!}=60$. .<br/>B3: Số cách sắp xếp để 2 chữ MM đứng cạnh nhau và 2 chữ AA cũng đứng cạnh nhau là: $4!=24$.<br/>Suy ra $s=60+60-24=96$.<br/>Đáp số $180-96=84$."
+        },
+        {
+            "question": "Câu 15",
+            "contentQuestions": "Trong các hàm số sau, hàm số nào là hàm chẵn?",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>TXĐ: $D=\\mathbb{R}, \\forall x \\in \\mathbb{R} \\Rightarrow-x \\in \\mathbb{R}$<br/>Và $y(-x)=|\\sin (-x)|=|-\\sin x|=|\\sin x|=y(x)$.<br/>Chọn B.",
+            "contentAnswerA": "$y=\\cos \\left(x+\\dfrac{\\pi}{3}\\right)$.",
+            "contentAnswerB": "$y=|\\sin x|$.",
+            "contentAnswerC": "$y=1-\\sin x$.",
+            "contentAnswerD": "$y=\\sin x+\\cos x$."
+        },
+        {
+            "question": "Câu 16",
+            "contentQuestions": "Biết $\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} f(x)=4$. Tính giới hạn $\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} \\dfrac{f(x)}{(x+1)^{2}}$.",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $\\left\\{\\begin{array}{l}\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} f(x)=4>0 \\\\ \\displaystyle \\lim _{x \\rightarrow(-1)^{-}}(x+1)^{2}=0 \\\\ (x+1)^{2}>0, x<-1\\end{array}\\right.$.<br/>nên $\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} \\dfrac{f(x)}{(x+1)^{2}}=+\\infty$.",
+            "contentAnswerA": "$\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} \\dfrac{f(x)}{(x+1)^{2}}=+\\infty$.",
+            "contentAnswerB": "$\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} \\dfrac{f(x)}{(x+1)^{2}}=-\\infty$.",
+            "contentAnswerC": "$\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} \\dfrac{f(x)}{(x+1)^{2}}=5$.",
+            "contentAnswerD": "$\\displaystyle \\lim _{x \\rightarrow(-1)^{-}} \\dfrac{f(x)}{(x+1)^{2}}=5$."
+        },
+        {
+            "question": "Câu 17",
+            "contentQuestions": "Số nghiệm nguyên của bất phương trình $\\log _{2}\\left(x^{2}+3\\right)-\\log _{2} x+x^{2}-4 x+1 \\leq 0$ là:<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 17-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                3
+            ],
+            "explanation": "<br/>Điều kiện: $x>0$. Ta có<br/>$\\log _{2}\\left(x^{2}+3\\right)-\\log _{2} x+x^{2}-4 x+1 \\leq 0 \\Leftrightarrow \\log _{2}\\left(x^{2}+3\\right)+x^{2}+3 \\leq \\log _{2} 4 x+4 x \\quad (*)$.<br/>Xét hàm số $f(t)=\\log _{2} t+t$ trên $D=(0 ;+\\infty)$. Ta có<br/>$f^{\\prime}(t)=\\dfrac{1}{t \\ln 2}+1>0 \\quad \\forall t \\in D \\Rightarrow$ hàm số $f$ đồng biến trên $D$.<br/>Suy ra $(*) \\Leftrightarrow f\\left(x^{2}+3\\right) \\leq f(4 x) \\Leftrightarrow x^{2}+3 \\leq 4 x \\Leftrightarrow 1 \\leq x \\leq 3$. (Thỏa mãn điều kiện)<br/>Vậy bất phương trình có 3 nghiệm nguyên."
+        },
+        {
+            "question": "Câu 18",
+            "contentQuestions": "Cho khối chóp tứ giác đều $S.A B C D$ có tất cả các cạnh bằng $a$. Gọi $\\varphi$ là góc giữa đường thẳng $S A$ và mặt phẳng $(S C D)$. Biết $\\sin \\varphi=\\sqrt{\\dfrac{m}{n}}$, với $\\dfrac{m}{n}$ là phân số tối giản. Tính tổng $T=m+n$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 18-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                5
+            ],
+            "explanation": "<br/><img src=\"https://zpi.cx/b/6wHS5xD.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625659-8fgcwpbjc\" class=\"mx-auto\" style=\"\"><br/>Dựng $O K \\perp C D, O H \\perp S K$ suy ra $O H \\perp(S C D)$.<br/>Ta tính được $O K=\\dfrac{a}{2}, S O=\\dfrac{a \\sqrt{2}}{2} \\Rightarrow O H=\\dfrac{a \\sqrt{6}}{6}$.<br/>Khi đó $d(A ;(S C D))=2 d(O,(S C D))=2 O H=\\dfrac{a \\sqrt{6}}{3}$.<br/>$\\sin (S A ;(S C D))=\\dfrac{d(A,(S C D))}{S A}=\\dfrac{\\dfrac{a \\sqrt{6}}{3}}{a}=\\dfrac{\\sqrt{6}}{3}=\\sqrt{\\dfrac{2}{3}}$.<br/>Vậy $T=m+n=2+3=5$."
+        },
+        {
+            "question": "Câu 19",
+            "contentQuestions": "Tiệm cận đứng của đồ thị hàm số $y=\\dfrac{x-1}{x+2}$ là",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Tập xác định: $\\mathbb{R} \\backslash\\{-2\\}$.<br/>Ta có: $\\displaystyle \\lim _{x \\rightarrow(-2)^{-}} y=\\displaystyle \\lim _{x \\rightarrow(-2)^{-}} \\dfrac{x-1}{x+2}=+\\infty$ và $\\displaystyle \\lim _{x \\rightarrow(-2)^{+}} y=\\displaystyle \\lim _{x \\rightarrow(-2)^{+}} \\dfrac{x-1}{x+2}=-\\infty$.<br/>Vậy đường thẳng $x=-2$ là tiệm cận đứng của đồ thị hàm số.",
+            "contentAnswerA": "$x=-2$.",
+            "contentAnswerB": "$x=2$.",
+            "contentAnswerC": "$x=1$.",
+            "contentAnswerD": "$x=-1$."
+        },
+        {
+            "question": "Câu 20",
+            "contentQuestions": "Phương trình mặt cầu $(S)$ có tâm $I(1 ; 2 ; 3)$ và đi qua điểm $A(1 ;-1 ; 7)$ là",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Bán kính mặt cầu là $R=I A=5$.<br/>Phương trình mặt cầu $(S)$ là: $(x-1)^{2}+(y-2)^{2}+(z-3)^{2}=25$.",
+            "contentAnswerA": "$(x-1)^{2}+(y-2)^{2}+(z-3)^{2}=25$.",
+            "contentAnswerB": "$(x+1)^{2}+(y+2)^{2}+(z+3)^{2}=25$.",
+            "contentAnswerC": "$(x-1)^{2}+(y-2)^{2}+(z-3)^{2}=5$.",
+            "contentAnswerD": "$(x+1)^{2}+(y+2)^{2}+(z+3)^{2}=5$."
+        },
+        {
+            "question": "Câu 21",
+            "contentQuestions": "Tỉ lệ học sinh tiêm vắc xin phòng bệnh Thủy Đậu trong một trường $M$ là $70 \\%$. Trong số những học sinh đã tiêm phòng, tỉ lệ mắc bệnh Thủy Đậu là $4 \\%$, còn trong số học sinh chưa tiêm, tỉ lệ mắc bệnh là $20 \\%$. Gặp ngẫu nhiên một học sinh ở trường đó. Biết học sinh đó bị bệnh Thủy Đậu. Tính xác suất học sinh đó không tiêm vắc xin phòng bệnh Thủy Đậu (kết quả làm tròn đến hàng phần trăm).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 21-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                0.68
+            ],
+            "explanation": "<br/>Gọi $A$ là biến cố \"Gặp học sinh mắc bệnh Thủy Đậu\" và $B$ là biến cố \"Gặp học sinh đã tiêm vắc xin phòng bệnh Thủy Đậu\".<br/>Tỉ lệ học sinh tiêm vắc xin phòng bệnh Thủy Đậu trong trường $M$ là $70 \\%$ nên:<br/>$P(B)=0,7 \\Rightarrow P(\\bar{B})=1-P(B)=1-0,7=0,3$.<br/>Trong số những học sinh đã tiêm phòng, tỉ lệ mắc bệnh là $4 \\%$, còn trong số chưa tiêm là $20 \\%$ nên:<br/>$P(A \\mid B)=0,04$ và $P(A \\mid \\bar{B})=0,2$.<br/>Xác suất gặp học sinh bị bệnh Thủy Đậu là:<br/>$P(A)=P(B) \\cdot P(A \\mid B)+P(\\bar{B}) \\cdot P(A \\mid \\bar{B})=0,7 \\cdot 0,04+0,3 \\cdot 0,2=0,088$.<br/>Xác suất học sinh đó không tiêm vắc xin phòng bệnh Thủy Đậu, biết học sinh đó mắc bệnh, là:<br/>$P(\\bar{B} \\mid A)=\\dfrac{P(\\bar{B}) \\cdot P(A \\mid \\bar{B})}{P(A)}=\\dfrac{0,3 \\cdot 0,2}{0,088}=\\dfrac{15}{22} \\approx 0,68$."
+        },
+        {
+            "question": "Câu 22",
+            "contentQuestions": "Tìm số nghiệm của phương trình $\\sin (\\cos 2 x)=0$ trên $[0 ; 2 \\pi]$.",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có $\\sin (\\cos 2 x)=0 \\Leftrightarrow \\cos 2 x=k \\pi(k \\in \\mathbb{Z})$.<br/>Vì $\\cos 2 x \\in[-1 ; 1]$ nên $k=0 \\Rightarrow \\cos 2 x=0 \\Leftrightarrow 2 x=\\dfrac{\\pi}{2}+k_{1} \\pi \\Leftrightarrow x=\\dfrac{\\pi}{4}+k_{1} \\dfrac{\\pi}{2}\\left(k_{1} \\in \\mathbb{Z}\\right)$.<br/>Do $x \\in[0 ; 2 \\pi] \\Rightarrow 0 \\leq \\dfrac{\\pi}{4}+k_{1} \\dfrac{\\pi}{2} \\leq 2 \\pi \\Rightarrow k_{1} \\in\\{0 ; 1 ; 2 ; 3\\}$.<br/>Vậy phương trình có 4 nghiệm trên $[0 ; 2 \\pi]$.",
+            "contentAnswerA": "2.",
+            "contentAnswerB": "1.",
+            "contentAnswerC": "4.",
+            "contentAnswerD": "3."
+        },
+        {
+            "question": "Câu 23",
+            "contentQuestions": "Cho dãy số $\\left(u_{n}\\right)$ biết $u_{n}=\\dfrac{5^{n}}{n^{2}}$. Mệnh đề nào sau đây đúng?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có $u_{n}=\\dfrac{5^{n}}{n^{2}}>0, \\forall n \\in \\mathbb{N}^{*} \\Rightarrow u_{n+1}=\\dfrac{5^{n+1}}{(n+1)^{2}}$<br/>Xét tỉ số $\\dfrac{u_{n+1}}{u_{n}}=\\dfrac{5^{n+1}}{(n+1)^{2}} \\cdot \\dfrac{n^{2}}{5^{n}}=\\dfrac{5 n^{2}}{n^{2}+2 n+1}=\\dfrac{n^{2}+2 n+1+4 n^{2}-2 n-1}{n^{2}+2 n+1}$<br/>$=1+\\dfrac{2 n(n-1)+2 n^{2}-1}{n^{2}+2 n+1}>1, \\forall n \\in \\mathbb{N}^{*}$<br/>Vậy ( $u_{n}$ ) là dãy số tăng.",
+            "contentAnswerA": "Dãy số tăng.",
+            "contentAnswerB": "Dãy số giảm.",
+            "contentAnswerC": "Dãy số không tăng, không giảm.",
+            "contentAnswerD": "Dãy số là dãy hữu hạn."
+        },
+        {
+            "question": "Câu 24",
+            "contentQuestions": "Một h&atilde;ng xe taxi đưa ra gi&aacute; $C(x)$ (đồng) khi qu&atilde;ng đường kh&aacute;ch đi l&agrave; $x ({km})$ như sau:<br />\n$C(x)=\\left\\{\\begin{array}{ll} 10000 &amp; \\text { khi } 0 \\lt x \\leq 2 \\\\ 6000 &amp; \\text { khi } 2 \\lt x \\leq 4 \\\\ 5000 &amp; \\text { khi } x \\gt 4 \\end{array}\\right.$<x><br />\nMột kh&aacute;ch h&agrave;ng ngồi l&ecirc;n xe v&agrave; đi qu&atilde;ng đường $5 {km}$. T&iacute;nh số tiền h&agrave;nh kh&aacute;ch đ&oacute; phải trả (theo đơn vị ngh&igrave;n đồng).<br />\nĐiền đ&aacute;p &aacute;n: <span class=\"fill-blank\" data-blank-id=\"Câu 24-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.</x>",
+            "type": "TLN",
+            "correctAnswer": [
+                37
+            ],
+            "explanation": "<br/>Ta có:<br/>Trong 2 km đầu tiên, khách hàng phải trả số tiền là $t_{1}=2.10000=20000$ (đồng)<br/>Trong 2 km sau đó, khách hàng phải trả số tiền là $t_{2}=2.6000=12000$ (đồng)<br/>Trong 1 km sau cùng, khách hàng phải trả số tiền là $t_{3}=5000$ (đồng)<br/>Vậy tổng số tiền mà khách hàng phải trả là: $t=20000+12000+5000=37000$ (đồng)"
+        },
+        {
+            "question": "Câu 25",
+            "contentQuestions": "Cho hai số thực $a, b$ phân biệt thỏa mãn $\\log _{3}\\left(3^{a+1}-1\\right)=2 a+\\log _{\\dfrac{1}{3}} 2$ và $\\log _{3}\\left(3^{b+1}-1\\right)=2 b+\\log _{\\dfrac{1}{3}} 2$. Tính tổng $S=27^{a}+27^{b}$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 25-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                180
+            ],
+            "explanation": "<br/>$\\log _{3}\\left(3^{a+1}-1\\right)=2 a+\\log _{\\dfrac{1}{3}} 2 \\Leftrightarrow \\log _{3} 2\\left(3^{a+1}-1\\right)=2 a \\Leftrightarrow 2\\left(3^{a+1}-1\\right)=3^{2 a} \\Leftrightarrow 3^{2 a}-6 \\cdot 3^{a}+2=0$.<br/>Tương tự: $3^{2 b}-6.3^{b}+2=0$.<br/>Suy ra $3^{a}$ và $3^{b}$ là hai nghiệm phân biệt (vì $a, b$ phân biệt) của phương trình: $X^{2}-6 X+2=0$.<br/>Khi đó $S=27^{a}+27^{b}=X_{1}^{3}+X_{2}^{3}=\\left(X_{1}+X_{2}\\right)^{3}-3 X_{1} X_{2}\\left(X_{1}+X_{2}\\right)$, với $X_{1}+X_{2}=6, X_{1} \\cdot X_{2}=2$.<br/>Vậy $S=6^{3}-3 \\cdot 2 \\cdot 6=180$."
+        },
+        {
+            "question": "Câu 26",
+            "contentQuestions": "Trong một phòng thí nghiệm, số lượng vi khuẩn $N(t)$ tại thời điểm $t$ được cho bởi công thức $N(t)=N_{0} \\cdot e^{k t}$ trong đó $N_{0}$ là số lượng vi khuẩn ban đầu, $k$ là hệ số tăng trưởng phụ thuộc vào điều kiện môi trường, đơn vị đo là ${h}^{-1}, t$ là thời gian tính từ lúc bắt đầu quan sát $({h})$. Ban đầu số lượng vi khuẩn là 200 cá thể. Sau $3{h}$, số lượng vi khuẩn đo được là 800 cá thể. Xác định thời gian tính bằng giờ $({h})$ để số lượng vi khuẩn đạt 10000 cá thể kể từ lúc bắt đầu quan sát (làm tròn đến 2 chữ số thập phân).<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 26-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                8.47
+            ],
+            "explanation": "<br/>Ban đầu, $N_{0}=200, N(3)=800$ khi $t=3$ ta có $800=200 e^{3 k} \\Rightarrow k=\\dfrac{1}{3} \\ln \\left(\\dfrac{800}{200}\\right)=\\dfrac{1}{3} \\ln 4$<br/>Khi số lượng vi khuẩn đạt 10000 cá thể, ta có $10000=200 e^{k t} \\Rightarrow e^{k t}=50 \\Rightarrow k t=\\ln 50$<br/>$\\Rightarrow t=\\dfrac{\\ln 50}{k}=\\dfrac{\\ln 50}{\\dfrac{1}{3} \\ln 4} \\approx 8,47(h)$."
+        },
+        {
+            "question": "Câu 27",
+            "contentQuestions": "Cho khối hộp chữ nhật $A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}$ có đáy là hình vuông đường chéo $B D=4 a$, góc giữa hai mặt phẳng $\\left(A^{\\prime} B D\\right)$ và $(A B C D)$ bằng $60^{\\circ}$. Thể tích của khối hộp chữ nhật đã cho bằng",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/><img src=\"https://zpi.cx/b/Kb7U6Cs.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625660-oetu4ymo0\" class=\"mx-auto\" style=\"\"><br/>Gọi $I$ là trung điểm của $B D$ suy ra $A I \\perp B D$ $(1)$<br/>Ta có $\\left\\{\\begin{array}{l}B D \\perp A I \\\\ B D \\perp A A^{\\prime}\\end{array} \\Rightarrow B D \\perp A^{\\prime} I \\quad (2)\\right.$<br/>Mặt khác $(A B C D) \\cap\\left(A^{\\prime} B D\\right)=B D \\quad (3)$<br/>Từ (1), (2), (3) suy ra $\\left((A B C D),\\left(A^{\\prime} B D\\right)\\right)=A^{\\prime} I A=60^{\\circ}$.<br/>Ta có đáy $A B C D$ là hình vuông có $B D=4 a$ suy ra $A B=2 \\sqrt{2} a, B I=A I=2 a$.<br/>Tam giác $A^{\\prime} A I$ vuông tại $A$ có: $\\tan 60^{\\circ}=\\dfrac{A^{\\prime} A}{A I}$ suy ra $A^{\\prime} A=2 \\sqrt{3} a$.<br/>Thể tích của khối hộp chữ nhật đã cho bằng: $V=S_{A B C D} \\cdot A^{\\prime} A=(2 \\sqrt{2} a)^{2} \\cdot 2 \\sqrt{3} a=16 \\sqrt{3} a^{3}$.",
+            "contentAnswerA": "$V=48 \\sqrt{3} a^{3}$.",
+            "contentAnswerB": "$V=\\dfrac{16 \\sqrt{3}}{9} a^{3}$.",
+            "contentAnswerC": "$V=\\dfrac{16 \\sqrt{3}}{3} a^{3}$.",
+            "contentAnswerD": "$V=16 \\sqrt{3} a^{3}$."
+        },
+        {
+            "question": "Câu 28",
+            "contentQuestions": "Đường cong sau là đồ thị của hàm số nào trong các hàm số cho dưới đây?<br/><img src=\"https://zpi.cx/b/sq01kqv.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625661-625hfn464\" class=\"mx-auto\" style=\"\">",
+            "type": "TN",
+            "correctAnswer": "D",
+            "explanation": "<br/>Vì đồ thị của hàm số có đường tiệm cận đứng là $x=1$ nên loại được đáp án $C$.<br/>Do hàm số đồng biến nên loại được đáp án $A, B$. Chọn D.",
+            "contentAnswerA": "$y=\\dfrac{2 x+3}{x-1}$.",
+            "contentAnswerB": "$y=\\dfrac{2 x-1}{x-1}$.",
+            "contentAnswerC": "$y=\\dfrac{x-3}{x-2}$.",
+            "contentAnswerD": "$y=\\dfrac{2 x-3}{x-1}$."
+        },
+        {
+            "question": "Câu 29",
+            "contentQuestions": "Cho tứ diện $A B C D$. Gọi $M, N$ lần lượt là trung điểm của $A B, C D$ và $I$ là trung điểm của $M N$. Gọi $G$ là trọng tâm của tam giác $B C D$ (hình). Xét tính đúng sai của các khẳng định sau:<br/><img src=\"https://zpi.cx/b/Jsj3sxn.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625661-4dwi6r0fl\" class=\"mx-auto\" style=\"\">",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "D"
+                },
+                {
+                    "c": "S"
+                }
+            ],
+            "explanation": "<br/><img src=\"https://zpi.cx/b/H0wSyD.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625661-stshy9ad8\" class=\"mx-auto\" style=\"\"><br/>a, Đúng.<br/>Ta có: $\\left\\{\\begin{array}{l}\\overrightarrow{A C}=\\overrightarrow{A M}+\\overrightarrow{M N}+\\overrightarrow{N C} \\\\ \\overrightarrow{B D}=\\overrightarrow{B M}+\\overrightarrow{M N}+\\overrightarrow{N D}\\end{array} \\Rightarrow \\overrightarrow{A C}+\\overrightarrow{B D}=(\\overrightarrow{A M}+\\overrightarrow{B M})+2 \\overrightarrow{M N}+(\\overrightarrow{N C}+\\overrightarrow{N D})\\right.$.<br/>Vì $M, N$ lần lượt là trung điểm của $A B, C D$ nên $\\overrightarrow{A M}+\\overrightarrow{B M}=\\overrightarrow{0}, \\overrightarrow{N C}+\\overrightarrow{N D}=\\overrightarrow{0}$.<br/>Do đó $\\overrightarrow{A C}+\\overrightarrow{B D}=2 \\overrightarrow{M N}$.<br/>b, Đúng.<br/>Ta có $\\left\\{\\begin{array}{l}\\overrightarrow{I A}=\\overrightarrow{I M}+\\overrightarrow{M A} \\\\ \\overrightarrow{I B}=\\overrightarrow{I M}+\\overrightarrow{M B} \\\\ \\overrightarrow{I C}=\\overrightarrow{I N}+\\overrightarrow{N C} \\\\ \\overrightarrow{I D}=\\overrightarrow{I N}+\\overrightarrow{N D}\\end{array}\\right.$<br/>$\\Rightarrow \\overrightarrow{I A}+\\overrightarrow{I B}+\\overrightarrow{I C}+\\overrightarrow{I D}=2(\\overrightarrow{I M}+\\overrightarrow{I N})+(\\overrightarrow{M A}+\\overrightarrow{M B})+(\\overrightarrow{N C}+\\overrightarrow{N D})=\\overrightarrow{0}$<br/>c, Sai.<br/>Do $\\overrightarrow{I A}+\\overrightarrow{I B}+\\overrightarrow{I C}+\\overrightarrow{I D}=\\overrightarrow{0}$ nên $\\overrightarrow{A B}+\\overrightarrow{A C}+\\overrightarrow{A D}=4 \\overrightarrow{A I}$.<br/>Mặt khác, vì $G$ là trọng tâm của tam giác $B C D$ nên $\\overrightarrow{A B}+\\overrightarrow{A C}+\\overrightarrow{A D}=3 \\overrightarrow{A G}$.<br/>Suy ra $4 \\overrightarrow{A I}=3 \\overrightarrow{A G}$, suy ra $4 \\overrightarrow{A I}-3 \\overrightarrow{A G}=\\overrightarrow{0}$.",
+            "contentYA": "$\\overrightarrow{A C}+\\overrightarrow{B D}=2 \\overrightarrow{M N}$.",
+            "contentYB": "$\\overrightarrow{I A}+\\overrightarrow{I B}+\\overrightarrow{I C}+\\overrightarrow{I D}=\\overrightarrow{0}$.",
+            "contentYC": "$3 \\overrightarrow{A I}-2 \\overrightarrow{A G}=\\overrightarrow{0}$."
+        },
+        {
+            "question": "Câu 30",
+            "contentQuestions": "Một ô tô đang chạy với vận tốc $20({m} / {s})$ thì người ta nhìn thấy một chướng ngại vật nên đạp phanh. Từ thời điểm đó, ô tô chuyển động chậm dần đều với vận tốc $v(t)=-2 t+20({m} / {s})$, trong đó $t$ là thời gian (tính bằng giây) kể từ lúc đạp phanh. Quãng đường mà ô tô đi được trong 15 giây cuối bằng?<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 30-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                200
+            ],
+            "explanation": "<br/>Khi ô tô dừng lại, ta có $v(t)=0 \\Rightarrow-2 t+20=0 \\Leftrightarrow t=10(s)$.<br/>Quãng đường ô tô đi được từ lúc đạp phanh đến khi dừng lại là: $s=\\displaystyle \\int_{0}^{10} v(t) d t=\\displaystyle \\int_{0}^{10}(-2 t+20) d t=\\left.\\left(-t^{2}+20 t\\right)\\right|_{0} ^{10}=100(m)$<br/>Trong 5 giây trước đó, ô tô vẫn đi với vận tốc $20({m} / {s})$ nên quãng đường ô tô đi được trong 5 giây này là $5.20=100(m)$.<br/>Vậy quãng đường mà ô tô đi được trong 15 giây cuối bằng $100+100=200({m})$."
+        },
+        {
+            "question": "Câu 31",
+            "contentQuestions": "Gọi $n$ là số tự nhiên thỏa mãn $C_{n}^{0}+4 C_{n}^{1}-C_{n}^{2}=1$. Hãy chọn mệnh đề đúng trong các mệnh đề sau:",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Ta có:<br/>$C_{n}^{0}+4 C_{n}^{1}-C_{n}^{2}=1(n \\geq 2, n \\in \\mathbb{N})$<br/>$\\Leftrightarrow 1+4 n-\\dfrac{n!}{2!(n-2)!}=1$<br/>$\\Leftrightarrow 1+4 n-\\dfrac{n(n-1)}{2}=1$<br/>$\\Leftrightarrow-n^{2}+9 n=0 \\Leftrightarrow\\left[\\begin{array}{l}n=0(l) \\\\ n=9(t m)\\end{array}\\right.$.<br/>Vậy $n=9$.",
+            "contentAnswerA": "$n=15$.",
+            "contentAnswerB": "$n \\in(5 ; 8)$.",
+            "contentAnswerC": "$n \\in(8 ; 12)$.",
+            "contentAnswerD": "$n \\in(12 ; 15)$."
+        },
+        {
+            "question": "Câu 32",
+            "contentQuestions": "Cho hình chóp $S.A B C D$ có đáy là hình chữ nhật cạnh $A D=2 a, S A \\perp(A B C D)$ và $S A=4 a$. Tính khoảng cách giữa hai đường thẳng $A B$ và $S D$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/><img src=\"https://zpi.cx/b/aUXMBl.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625661-6o97akcau\" class=\"mx-auto\" style=\"\"><br/>Gọi $H$ là hình chiếu của $A$ trên $S D$ ta có: $A H=\\dfrac{S A \\cdot A D}{S D}=\\dfrac{4 a \\cdot 2 a}{\\sqrt{(4 a)^{2}+(2 a)^{2}}}=\\dfrac{4 a \\sqrt{5}}{5}$.<br/>Do $A B \\perp S A$ và $A B \\perp A D$ nên $A B \\perp(S A D)$ suy ra $A B \\perp A H$.<br/>$A H$ là đường vuông góc chung của $A B$ và $S D$.<br/>Vậy $d(A B, S D)=A H=\\dfrac{4 a \\sqrt{5}}{5}$.",
+            "contentAnswerA": "$\\dfrac{2 a \\sqrt{7}}{7}$.",
+            "contentAnswerB": "$\\dfrac{4 a \\sqrt{5}}{5}$.",
+            "contentAnswerC": "$\\dfrac{2 a \\sqrt{3}}{3}$.",
+            "contentAnswerD": "$\\dfrac{8 a \\sqrt{13}}{13}$."
+        },
+        {
+            "question": "Câu 33",
+            "contentQuestions": "Cho hàm số $f(x)=x^{4}-8 x^{2}+m$. Tính tổng tất cả các giá trị nguyên dương của tham số $m$ để giá trị lớn nhất $M$ của hàm số trên đoạn $[1 ; 2]$ thỏa mãn $M \\leq 12$.<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 33-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                190
+            ],
+            "explanation": "<br/>Hàm số $f(x)=x^{4}-8 x^{2}+m$ có $f^{\\prime}(x)=4 x^{3}-16 x$. Cho $f^{\\prime}(x)=0 \\Leftrightarrow x=0 ; x= \\pm 2$.<br/>Trên đoạn $[1 ; 2]$ lấy $x=2$.<br/>Xét $f(1)=m-7 ; f(2)=m-16$. Do đó giá trị lớn nhất của $f(x)=x^{4}-8 x^{2}+m$ trên đoạn [ $1 ; 2$ ] bằng $M=m-7$.<br/>Ta được $m-7 \\leq 12 \\Leftrightarrow m \\leq 19 \\Rightarrow m \\in\\{1 ; 2 ; 3 ; \\ldots ; 19\\}$.<br/>Vậy tổng các giá trị của $m$ thỏa mãn là 190."
+        },
+        {
+            "question": "Câu 34",
+            "contentQuestions": "Trong không gian với hệ trục tọa độ $O x y z$, tìm tập hợp các điểm $M(x ; y ; z)$ thỏa mãn phương trình $\\left|x^{2}+y^{2}+z^{2}-2(x+y+z)\\right|=1$.",
+            "type": "TN",
+            "correctAnswer": "B",
+            "explanation": "<br/>Phương trình đã cho tương đương với hai trường hợp: $\\left[\\begin{array}{l}x^{2}+y^{2}+z^{2}-2(x+y+z)=1 \\\\ x^{2}+y^{2}+z^{2}-2(x+y+z)=-1\\end{array}\\right.$<br/>Xét trường họp (1): $x^{2}-2 x+y^{2}-2 y+z^{2}-2 z-1=0 \\Leftrightarrow(x-1)^{2}+(y-1)^{2}+(z-1)^{2}=4$.<br/>Đây là mặt cầu tâm $I(1 ; 1 ; 1)$, bán kính $R_{1}=2$.<br/>Xét trường hợp (2): $x^{2}-2 x+y^{2}-2 y+z^{2}-2 z+1=0 \\Leftrightarrow(x-1)^{2}+(y-1)^{2}+(z-1)^{2}=2$.<br/>Đây là mặt cầu tâm $I(1 ; 1 ; 1)$, bán kính $R_{2}=\\sqrt{2}$.<br/>Tập hợp điểm $M$ là 2 mặt cầu đồng tâm $I(1 ; 1 ; 1)$ với bán kính lần lượt là $R_{1}=2$ và $R_{2}=\\sqrt{2}$.",
+            "contentAnswerA": "Một mặt cầu.",
+            "contentAnswerB": "Hai mặt cầu đồng tâm.",
+            "contentAnswerC": "Một mặt cầu và một mặt phẳng.",
+            "contentAnswerD": "Tập hợp rỗng."
+        },
+        {
+            "question": "Câu 35",
+            "contentQuestions": "Mặt trong của một hầm biogas có hình dạng là một phần của mặt cầu đã cắt bỏ hai phần của nó bằng hai mặt phẳng song song với nhau. Bán kính của mặt cầu bằng $2,5 {m}$. Mặt đáy phía dưới cách tâm một khoảng bằng $1,5 {m}$. Mặt đáy phía trên cách tâm một khoảng bằng $2 {m}$. Tính gần đúng thể tích phần bên trong của hầm biogas đó (đơn vị là ${m}^{3}$ và kết quả làm tròn đến hàng phần mười).<br/><img src=\"https://zpi.cx/b/qa1sC.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625662-1ei9nbxnl\" class=\"mx-auto\" style=\"\"><br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 35-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                56.8
+            ],
+            "explanation": "<br/><img src=\"https://zpi.cx/b/D0tDchr.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625667-7qmfe4uhg\" class=\"mx-auto\" style=\"\"><br/>Trên hệ trục $O x y$ xét đường tròn $(C)$ có phương trình $x^{2}+y^{2}=2,5^{2}$. Khi đó nửa phần trên trục hoành của $(C)$ có phương trình $y=\\sqrt{2,5^{2}-x^{2}}$. Xét hình phẳng $(H)$ giới hạn bởi nửa phần trên trục hoành của $(C)$, trục $O x$ và các đường thẳng $x=-1,5, x=2$. Quay hình phẳng ( $H$ ) quanh trục hoành ta được khối tròn xoay có thể tích bằng thể tích phần không gian phía trong của hầm biogas.<br/>Thể tích phần không gian bên trong hầm biogas được tính bởi công thức $V=\\pi \\displaystyle \\int_{-1,5}^{2} 2,5^{2}-x^{2} d x=\\dfrac{217}{12} \\pi \\approx 56,8$"
+        },
+        {
+            "question": "Câu 36",
+            "contentQuestions": "Cho hàm số $y=\\log _{2018}\\left(\\dfrac{1}{x}\\right)$ có đồ thị $\\left(C_{1}\\right)$ và hàm số $y=f(x)$ có đồ thị $\\left(C_{2}\\right)$. Biết $\\left(C_{1}\\right)$ và $\\left(C_{2}\\right)$ đối xứng nhau qua gốc tọa độ. Hỏi hàm số $y=|f(x)|$ nghịch biến trên khoảng nào sau đây?",
+            "type": "TN",
+            "correctAnswer": "A",
+            "explanation": "<br/>Ta có: $\\left(C_{1}\\right): y=\\log _{2018}\\left(\\dfrac{1}{x}\\right)=-\\log _{2018} x$.<br/>Gọi $(C)$ là đồ thị đối xứng của $(C_{1})$ qua trục $O x \\Rightarrow(C)$ là đồ thị của hàm số $y=\\log _{2018} x$.<br/>Nhận thấy $\\left(C_{2}\\right)$ đối xứng với ( $C$ ) qua trục $O y \\Rightarrow\\left(C_{2}\\right)$ là đồ thị của hàm số $y=\\log _{2018}(-x)$, hay $f(x)=\\log _{2018}(-x)$, với $x<0$.<br/>Do đó: $g(x)=|f(x)|=\\left|\\log _{2018}(-x)\\right|=\\sqrt{\\left[\\log _{2018}(-x)\\right]^{2}}$<br/>$\\Rightarrow g^{\\prime}(x)=\\left(\\sqrt{\\left[\\log _{2018}(-x)\\right]^{2}}\\right)^{\\prime}=\\dfrac{2 \\log _{2018}(-x) \\cdot \\dfrac{-1}{-x \\cdot \\ln 2018}}{\\left|\\log _{2018}(-x)\\right|}=\\dfrac{2 \\cdot \\log _{2018}(-x)}{x \\cdot \\ln 2018 \\cdot\\left|\\log _{2018}(-x)\\right|}$<br/>$\\Rightarrow g^{\\prime}(x)<0, \\forall x<-1$ hay hàm số $y=|f(x)|$ nghịch biến trên khoảng $(-\\infty ;-1)$.",
+            "contentAnswerA": "$(-\\infty ;-1)$.",
+            "contentAnswerB": "$(-1 ; 0)$.",
+            "contentAnswerC": "$(0 ; 1)$.",
+            "contentAnswerD": "$(1 ;+\\infty)$."
+        },
+        {
+            "question": "Câu 37",
+            "contentQuestions": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như hình vẽ. Xét tính đúng sai của các khẳng định sau?<br/><img src=\"https://zpi.cx/b/Vn6jYq.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625667-g19gnli4d\" class=\"mx-auto\" style=\"\">",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "D"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, Khẳng định đã cho là khẳng định đúng.<br/>Dựa vào bảng biến thiên ta có hàm số $y=f(x)$ đạt giá trị lớn nhất trên $\\mathbb{R}$ bằng 21 khi $x=7$.<br/>b, Khẳng định đã cho là khẳng định sai.<br/>Dựa vào bảng biến thiên ta có hàm số $y=f(x)$ không có giá trị nhỏ nhất trên $\\mathbb{R}$.<br/>c, Khẳng định đã cho là khẳng định đúng.<br/>Từ bảng biến thiên ta thấy, hàm số $y=f(x)+m$ đạt giá trị lớn nhất trên đoạn [0;5] bằng $m+19$. Suy ra $m+19=34 \\Leftrightarrow m=15$.<br/>d, Khẳng định đã cho là khẳng định đúng.<br/>Ta có $g^{\\prime}(x)=2 f^{\\prime}(2 x-2) ; g^{\\prime}(x)=0 \\Leftrightarrow f^{\\prime}(2 x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}2 x-2=4 \\\\ 2 x-2=6 \\\\ 2 x-2=7\\end{array}\\left[\\begin{array}{l}x=3 \\\\ x=4 \\\\ x=\\dfrac{9}{2}\\end{array}\\right.\\right.$<br/><img src=\"https://zpi.cx/b/bzsauCH.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625668-ohpgwkw6s\" class=\"mx-auto\" style=\"\"><br/>Vậy hàm số $g(x)=f(2 x-2)$ đạt giá trị lớn nhất trên khoảng $(-\\infty ; 4)$ tại $x=3$.",
+            "contentYA": "Giá trị lớn nhất của hàm số trên $\\mathbb{R}$ bằng 21.",
+            "contentYB": "Giá trị nhỏ nhất của hàm số trên $\\mathbb{R}$ bằng 12.",
+            "contentYC": "Giá trị lớn nhất của hàm số $h(x)=f(x)+m$ trên đoạn $[0 ; 5]$ bằng 34 khi $m=15$.",
+            "contentYD": "Hàm số $g(x)=f(2 x-2)$ đạt giá trị lớn nhất trên khoảng $(-\\infty ; 4)$ tại $x=3$."
+        },
+        {
+            "question": "Câu 38",
+            "contentQuestions": "Trong không gian $O x y z$ cho hai điểm $A(1 ; 5 ; 0), B(3 ; 3 ; 6)$ và đường thẳng $d: \\dfrac{x+1}{2}=\\dfrac{y-1}{-1}=\\dfrac{z}{2}$. Điểm $M(a ; b ; c)$ thuộc đường thẳng $d$ sao cho chu vi tam giác $M A B$ nhỏ nhất. Khi đó giá trị của biểu thức $a+2 b+3 c$ bằng<br/>Điền đáp án: <span class=\"fill-blank\" data-blank-id=\"Câu 38-1\" data-blank-length=\"9\">____FILL_BLANK_1____</span>.",
+            "type": "TLN",
+            "correctAnswer": [
+                7
+            ],
+            "explanation": "<br/>Gọi $M(-1+2 t ; 1-t ; 2 t) \\in d$. Ta có $M A=\\sqrt{9 t^{2}+20} ; M B=\\sqrt{9(t-2)^{2}+20} ; A B=2 \\sqrt{11}$.<br/>Chu vi tam giác $M A B$ là $C_{M A B}=M A+M B+A B$. Suy ra $C_{M A B} M i n \\Leftrightarrow(M A+M B) M i n$.<br/>Cách 1:<br/>Đặt $f(t)=\\sqrt{9 t^{2}+20}+\\sqrt{9(t-2)^{2}+20}, t \\in \\mathbb{R}$.<br/>$f^{\\prime}(t)=\\dfrac{9 t}{\\sqrt{9 t^{2}+20}}+\\dfrac{9(t-2)}{\\sqrt{9(t-2)^{2}+20}} ; f^{\\prime}(t)=0 \\Leftrightarrow \\dfrac{9 t}{\\sqrt{9 t^{2}+20}}=\\dfrac{9(2-t)}{\\sqrt{9(2-t)^{2}+20}}$.<br/>Xét hàm $g(x)=\\dfrac{9 x}{\\sqrt{9 x^{2}+20}}, x \\in \\mathbb{R}$. Ta có $g^{\\prime}(x)=\\dfrac{180}{\\left(9 x^{2}+20\\right) \\sqrt{9 x^{2}+20}}>0, \\forall x \\in \\mathbb{R}$.<br/>$\\Rightarrow g(x)$ đồng biến trên $\\mathbb{R}$. Do đó (*) $\\Leftrightarrow g(t)=g(2-t) \\Leftrightarrow t=2-t \\Leftrightarrow t=1$.<br/>Bảng biến thiên<br/><img src=\"https://zpi.cx/b/X9PvrN.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625668-6lz219cjo\" class=\"mx-auto\" style=\"\"><br/>Từ bảng biến thiên suy ra $\\operatorname{\\min}_{\\mathbb{R}} f(t)=2 \\sqrt{29}$ tại $t=1$.<br/>Suy ra $M(1 ; 0 ; 2)$. Do đó $a=1 ; b=0 ; c=2 \\Rightarrow a+2 b+3 c=7$.<br/>Cách 2:<br/>$M A+M B=\\sqrt{(3 t)^{2}+(\\sqrt{20})^{2}}+\\sqrt{(6-3 t)^{2}+(\\sqrt{20})^{2}} \\geq \\sqrt{(3 t+6-3 t)^{2}+(2 \\sqrt{20})^{2}}=2 \\sqrt{29}$.<br/>Suy ra $(M A+M B)$ Min $=2 \\sqrt{29}$ khi và chỉ khi $\\dfrac{3 t}{\\sqrt{20}}=\\dfrac{6-3 t}{\\sqrt{20}} \\Leftrightarrow t=1$.<br/>Suy ra $M(1 ; 0 ; 2)$. Do đó $a=1 ; b=0 ; c=2 \\Rightarrow a+2 b+3 c=7$."
+        },
+        {
+            "question": "Câu 39",
+            "contentQuestions": "Cho $y=f^{\\prime}(x)$ là hàm số bậc 3 có đồ thị như hình vẽ bên, biết $f(2)=3, f(1)=1$. Xét tính đúng sai của các khẳng định sau:<br/><img src=\"https://zpi.cx/b/8UG9OFj.png?dl=1\" alt=\"Image from Word document\" data-temp-key=\"temp-image-1772808625669-fklxfzvo6\" class=\"mx-auto\" style=\"\">",
+            "type": "DS",
+            "correctAnswer": [
+                {
+                    "a": "S"
+                },
+                {
+                    "b": "S"
+                },
+                {
+                    "c": "D"
+                },
+                {
+                    "d": "D"
+                }
+            ],
+            "explanation": "<br/>a, sai. $\\displaystyle \\int_{1}^{2} f^{\\prime}(x) d x=\\left.f(x)\\right|_{1} ^{2}=f(2)-f(1)=2$.<br/>b, sai. Từ đồ thị $f^{\\prime}(x)$ ta thấy hàm số $f(x)$ đồng biến trên $(0 ; 2)$ nên $\\forall m \\in(0 ; 2)$ thì $f(m)>f(0)$. Suy ra $\\displaystyle \\int_{0}^{m} f^{\\prime}(x) d x=\\left.f(x)\\right|_{0} ^{m}=f(m)-f(0)>0$.<br/>c, đúng. Có $y^{\\prime}=f^{\\prime}(x)$. ĐTHS $f^{\\prime}(x)$ cắt trục $O x$ tại 3 điểm phân biệt nên hàm số $y$ có 3 điểm cực trị.<br/>d, đúng. Ta thấy $\\displaystyle \\int_{-1}^{2} f^{\\prime}(x) d x>-\\displaystyle \\int_{2}^{3} f^{\\prime}(x) d x \\Rightarrow f(2)-f(-1)>f(2)-f(3) \\Rightarrow f(-1)<f(3)$.",
+            "contentYA": "$\\displaystyle \\int_{1}^{2} f^{\\prime}(x) {d} x=-2$.",
+            "contentYB": "Tồn tại $m \\in(0 ; 2)$ sao cho $\\displaystyle \\int_{0}^{m} f^{\\prime}(x) {d} x<0$.",
+            "contentYC": "Hàm số $y=\\displaystyle \\int f^{\\prime}(x) {d} x$ có đúng 3 điểm cực trị.",
+            "contentYD": "$f(-1)<f(3)$."
+        },
+        {
+            "question": "Câu 40",
+            "contentQuestions": "Có bao nhiêu số tự nhiên lẻ có 6 chữ số và chia hết cho 9?",
+            "type": "TN",
+            "correctAnswer": "C",
+            "explanation": "<br/>Cách 1:<br/>Gọi số có 6 chữ số và chia hết cho 9 là $\\overline{a b c d e f}$.<br/>Số tự nhiên lẻ nên f có số cách chọn là: 5 cách.<br/>Số cách chọn $b, c, d, e$ là: $10^{4}$ cách.<br/>Gọi $r$ là số dư khi tổng $(b+c+d+e+f)$ chia cho 9 .<br/>Để $\\overline{a b c d e f}$ chia hết cho 9 thì $r+a \\vdots$. Mà $0<r+a<18 \\Rightarrow r+a=9 \\Rightarrow a=9-r \\Rightarrow a$ có 1 cách chọn.<br/>Vậy số các số tự nhiên lẻ có 6 chữ số và chia hết cho 9 là $5 \\cdot 10^{4} \\cdot 1=50000$ (số).<br/>Cách 2:<br/>Số lẻ nhỏ nhất có 6 chữ số và chia hết cho 9 là 100017.<br/>Số lẻ lớn nhất có 6 chữ số và chia hết cho 9 là 999999.<br/>Hai số liên tiếp là số lẻ có 6 chữ số và chia hết cho 9 , cách nhau 18 đơn vị.<br/>Vậy số các số tự nhiên lẻ có 6 chữ số và chia hết cho 9 là $\\dfrac{999999-100017}{18}+1=50000$ (số).",
+            "contentAnswerA": "60000.",
+            "contentAnswerB": "40000.",
+            "contentAnswerC": "50000.",
+            "contentAnswerD": "30000."
+        }
+    ],
+    "subject": "TƯ DUY TOÁN HỌC",
+    "access": "Premium",
+    "type": "TSA",
+    "createdAt": "2026-03-05T04:38:15.098Z",
+    "updatedAt": "2026-03-11T10:00:21.167Z",
+    "__v": 0
+}
